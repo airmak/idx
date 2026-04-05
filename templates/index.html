@@ -12,48 +12,48 @@
    ROOT & RESET
 ===================================================== */
 :root {
-  --bg: #1e1440;
-  --bg2: #271d50;
-  --bg3: #322660;
-  --border: #4a3d80;
-  --text: #eef0f6;
-  --text-muted: #9a8dc0;
-  --teal: #00e5cc;
-  --teal-dim: #00c4ae;
-  --teal-glow: rgba(0,229,204,0.2);
-  --amber: #ffcf3d;
-  --amber-dim: #f5a623;
-  --red: #ff6b6b;
-  --red-dim: #e84040;
-  --green: #56e89a;
-  --green-dim: #2ec97a;
-  --blue: #5ba8ff;
-  --blue-dim: #3d87e8;
-  --purple: #b478ff;
-  --pink: #ff6eb4;
-  --orange: #ff8f45;
-  --yellow: #ffe066;
-  --cyan: #38d9f5;
-  /* VINDICATE category colors — brighter & more distinct */
-  --vc-vascular:    #ff6b6b;
-  --vc-infectious:  #56e89a;
-  --vc-neoplastic:  #b478ff;
-  --vc-degenerat:   #ffcf3d;
-  --vc-idiopathic:  #5ba8ff;
-  --vc-congenital:  #ff6eb4;
-  --vc-autoimmune:  #00e5cc;
-  --vc-traumatic:   #ff8f45;
-  --vc-endocrine:   #ffe066;
+  --bg: #DED2E8;
+  --bg2: #FAF8FC;
+  --bg3: #EFEBF5;
+  --border: #C5B8D8;
+  --text: #1e1535;
+  --text-muted: #6b5f85;
+  --teal: #008f7a;
+  --teal-dim: #007a69;
+  --teal-glow: rgba(0,143,122,0.2);
+  --amber: #a07500;
+  --amber-dim: #8c6600;
+  --red: #dc3545;
+  --red-dim: #c62828;
+  --green: #1a8c4e;
+  --green-dim: #157a3e;
+  --blue: #1976d2;
+  --blue-dim: #1565c0;
+  --purple: #7c3aed;
+  --pink: #d63384;
+  --orange: #d45e12;
+  --yellow: #a07500;
+  --cyan: #0097a7;
+  /* VINDICATE category colors — readable on light bg */
+  --vc-vascular:    #dc3545;
+  --vc-infectious:  #1a8c4e;
+  --vc-neoplastic:  #7c3aed;
+  --vc-degenerat:   #a07500;
+  --vc-idiopathic:  #1976d2;
+  --vc-congenital:  #d63384;
+  --vc-autoimmune:  #008f7a;
+  --vc-traumatic:   #d45e12;
+  --vc-endocrine:   #a07500;
   --radius: 12px;
-  --shadow: 0 6px 32px rgba(0,0,0,0.45);
+  --shadow: 0 4px 20px rgba(80,50,120,0.1);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; scroll-behavior: smooth; }
 body {
   background: var(--bg);
   background-image:
-    radial-gradient(ellipse at 20% 10%, rgba(0,229,204,0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 80%, rgba(180,120,255,0.12) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 10%, rgba(0,180,160,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(124,58,237,0.06) 0%, transparent 50%);
   color: var(--text);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -71,9 +71,9 @@ a { color: var(--teal); text-decoration: none; }
 
 /* Top bar */
 #topbar {
-  background: linear-gradient(90deg, #160e30 0%, #1a1240 50%, #1e1445 100%);
+  background: linear-gradient(90deg, #F0EBF5 0%, #F5F2FA 50%, #F0EBF5 100%);
   border-bottom: 2px solid transparent;
-  border-image: linear-gradient(90deg, var(--teal), var(--purple), var(--pink)) 1;
+  border-image: linear-gradient(90deg, #00e5cc, #b478ff, #ff6eb4) 1;
   padding: 12px 24px;
   display: flex;
   align-items: center;
@@ -82,8 +82,8 @@ a { color: var(--teal); text-decoration: none; }
   top: 0;
   z-index: 100;
 }
-#logo { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-#logo span { -webkit-text-fill-color: var(--amber); background: none; }
+#logo { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; background: linear-gradient(135deg, #00b8a3 0%, #1976d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#logo span { -webkit-text-fill-color: #d4920a; background: none; }
 #topnav { display: flex; gap: 16px; align-items: center; }
 #topnav a { color: var(--text-muted); font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
 #topnav a:hover { color: var(--text); }
@@ -141,11 +141,11 @@ a { color: var(--teal); text-decoration: none; }
   transition: all 0.3s;
 }
 .stage-step.active .stage-dot {
-  background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%);
-  border-color: var(--teal);
-  color: #0a1220;
+  background: linear-gradient(135deg, #00e5cc 0%, #5ba8ff 100%);
+  border-color: #00e5cc;
+  color: #fff;
   font-weight: 800;
-  box-shadow: 0 0 18px rgba(0,229,204,0.6), 0 0 4px rgba(0,229,204,0.8);
+  box-shadow: 0 0 18px rgba(0,229,204,0.5), 0 0 4px rgba(0,229,204,0.6);
 }
 .stage-step.done .stage-dot {
   background: linear-gradient(135deg, var(--green-dim), var(--teal-dim));
@@ -174,7 +174,7 @@ a { color: var(--teal); text-decoration: none; }
    CARDS
 ===================================================== */
 .card {
-  background: linear-gradient(160deg, #2a1e52 0%, #231850 100%);
+  background: linear-gradient(160deg, #FFFFFF 0%, #FAF8FC 100%);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 28px;
@@ -188,7 +188,7 @@ a { color: var(--teal); text-decoration: none; }
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--teal), var(--blue), var(--purple));
+  background: linear-gradient(90deg, #00e5cc, #5ba8ff, #b478ff);
   border-radius: var(--radius) var(--radius) 0 0;
 }
 .card-title {
@@ -200,14 +200,14 @@ a { color: var(--teal); text-decoration: none; }
   align-items: center;
   gap: 10px;
   padding-bottom: 14px;
-  border-bottom: 1px solid rgba(255,255,255,0.07);
+  border-bottom: 1px solid var(--border);
 }
 .card-title .icon {
   font-size: 1.2rem;
   width: 36px; height: 36px;
   display: flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, rgba(0,229,204,0.18), rgba(91,168,255,0.12));
-  border: 1px solid rgba(0,229,204,0.2);
+  background: linear-gradient(135deg, rgba(0,229,204,0.12), rgba(91,168,255,0.08));
+  border: 1px solid rgba(0,229,204,0.25);
   border-radius: 8px;
   flex-shrink: 0;
 }
@@ -246,12 +246,12 @@ a { color: var(--teal); text-decoration: none; }
   white-space: nowrap;
 }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-.btn-primary { background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dim) 100%); color: #0b1220; font-weight: 700; }
-.btn-primary:hover:not(:disabled) { background: linear-gradient(135deg, #34e8d4 0%, var(--teal) 100%); box-shadow: 0 0 18px rgba(45,212,191,0.4); }
+.btn-primary { background: linear-gradient(135deg, #00e5cc 0%, #00c4ae 100%); color: #0b1220; font-weight: 700; }
+.btn-primary:hover:not(:disabled) { background: linear-gradient(135deg, #34e8d4 0%, #00e5cc 100%); box-shadow: 0 0 18px rgba(0,229,204,0.35); }
 .btn-secondary { background: var(--bg3); color: var(--text); border: 1px solid var(--border); }
-.btn-secondary:hover:not(:disabled) { background: #2a3347; }
-.btn-amber { background: linear-gradient(135deg, var(--amber) 0%, var(--amber-dim) 100%); color: #0b1220; font-weight: 700; }
-.btn-amber:hover:not(:disabled) { background: linear-gradient(135deg, #fcd34d 0%, var(--amber) 100%); box-shadow: 0 0 16px rgba(251,191,36,0.35); }
+.btn-secondary:hover:not(:disabled) { background: #E5DCF0; }
+.btn-amber { background: linear-gradient(135deg, #ffcf3d 0%, #f5a623 100%); color: #0b1220; font-weight: 700; }
+.btn-amber:hover:not(:disabled) { background: linear-gradient(135deg, #fcd34d 0%, #ffcf3d 100%); box-shadow: 0 0 16px rgba(251,191,36,0.3); }
 .btn-ghost { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
 .btn-ghost:hover:not(:disabled) { color: var(--text); border-color: var(--text-muted); }
 .btn-lg { padding: 14px 28px; font-size: 1rem; }
@@ -271,18 +271,18 @@ a { color: var(--teal); text-decoration: none; }
   position: absolute;
   top: -20px; left: 50%; transform: translateX(-50%);
   width: 600px; height: 300px;
-  background: radial-gradient(ellipse, rgba(0,229,204,0.1) 0%, rgba(180,120,255,0.08) 50%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(0,229,204,0.08) 0%, rgba(124,58,237,0.06) 50%, transparent 70%);
   pointer-events: none;
 }
 #pregame-hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 8px; }
-#pregame-hero h1 span { background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#pregame-hero h1 span { background: linear-gradient(135deg, #00b8a3 0%, #1976d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 #pregame-hero p { color: var(--text-muted); font-size: 1.05rem; max-width: 520px; margin: 0 auto 32px; }
 .mode-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
 .mode-btn {
   padding: 20px 36px;
   border-radius: var(--radius);
   border: 2px solid var(--border);
-  background: linear-gradient(160deg, #2a1e52 0%, #231850 100%);
+  background: linear-gradient(160deg, #FFFFFF 0%, #FAF8FC 100%);
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.05rem;
@@ -418,7 +418,7 @@ a { color: var(--teal); text-decoration: none; }
 .vindicate-cat-btn {
   width: 100%;
   padding: 8px 10px;
-  background: linear-gradient(135deg, #2a1e52 0%, #231850 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF8FC 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text);
@@ -434,13 +434,13 @@ a { color: var(--teal); text-decoration: none; }
 }
 .vindicate-cat-btn:hover {
   border-color: var(--cat-color, var(--teal));
-  background: linear-gradient(135deg, #352860 0%, #2e2158 100%);
+  background: linear-gradient(135deg, #EFEBF5 0%, #E8E2F0 100%);
   transform: translateY(-1px);
   box-shadow: 0 4px 14px rgba(0,0,0,0.3);
 }
 .vindicate-cat-btn.has-selected {
   border-color: var(--cat-color, rgba(0,229,204,0.5));
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 0 10px rgba(0,0,0,0.15);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.04), 0 0 10px rgba(80,50,120,0.08);
 }
 .vindicate-cat-letter { font-size: 0.75rem; font-weight: 800; font-family: 'Montserrat', sans-serif; flex-shrink: 0; width: 16px; text-align: center; }
 .vindicate-cat-btn-label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -536,9 +536,9 @@ a { color: var(--teal); text-decoration: none; }
   transition: all 0.15s;
 }
 .ref-btn:hover { border-color: var(--text-muted); color: var(--text); }
-.ref-btn.selected-more { background: rgba(34,197,94,0.15); border-color: #22c55e; color: #22c55e; }
-.ref-btn.selected-same { background: rgba(245,158,11,0.15); border-color: #f59e0b; color: #f59e0b; }
-.ref-btn.selected-less { background: rgba(239,68,68,0.15); border-color: #ef4444; color: #ef4444; }
+.ref-btn.selected-more { background: rgba(26,140,78,0.12); border-color: #1a8c4e; color: #157a3e; }
+.ref-btn.selected-same { background: rgba(160,117,0,0.1); border-color: #a07500; color: #8c6600; }
+.ref-btn.selected-less { background: rgba(220,53,69,0.1); border-color: #dc3545; color: #c62828; }
 
 /* =====================================================
    STAGE 3 — LABS & IMAGING
@@ -946,7 +946,7 @@ a { color: var(--teal); text-decoration: none; }
   bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--bg3);
+  background: #FFFFFF;
   border: 1px solid var(--teal);
   color: var(--teal);
   padding: 10px 20px;
@@ -1049,10 +1049,10 @@ a { color: var(--teal); text-decoration: none; }
   #topnav {
     display: none; position: fixed; top: 0; right: 0;
     width: 260px; height: 100vh;
-    background: var(--bg2); border-left: 1px solid var(--border);
+    background: #FAF8FC; border-left: 1px solid var(--border);
     flex-direction: column; padding: 60px 20px 20px;
     gap: 16px; z-index: 200;
-    box-shadow: -4px 0 20px rgba(0,0,0,0.4);
+    box-shadow: -4px 0 20px rgba(80,50,120,0.15);
   }
   #topnav.mobile-open { display: flex; }
   #topnav a { font-size: 1rem; padding: 8px 0; }
@@ -1565,12 +1565,12 @@ const PROCEDURES = [
 document.addEventListener('DOMContentLoaded', () => {
   // Detect if opened as a file:// URL instead of via Flask
   if (window.location.protocol === 'file:') {
-    document.body.innerHTML = `<div style="max-width:500px;margin:80px auto;padding:32px;background:#271d50;border:1px solid #4a3d80;border-radius:10px;font-family:Inter,sans-serif;color:#e8eaf0">
-      <h2 style="color:#14b8a6;font-family:Montserrat,sans-serif;margin-bottom:16px">IDx needs a server</h2>
+    document.body.innerHTML = `<div style="max-width:500px;margin:80px auto;padding:32px;background:#FAF8FC;border:1px solid #C5B8D8;border-radius:10px;font-family:Inter,sans-serif;color:#1e1535">
+      <h2 style="color:#008f7a;font-family:Montserrat,sans-serif;margin-bottom:16px">IDx needs a server</h2>
       <p style="margin-bottom:12px">You opened this file directly. IDx must be served by Flask to work.</p>
-      <p style="margin-bottom:20px;color:#9a8dc0">Run this in your terminal from the <code style="color:#f59e0b">idx/</code> folder:</p>
-      <pre style="background:#1e1440;padding:14px;border-radius:6px;color:#22c55e;font-size:0.9rem">python app.py</pre>
-      <p style="margin-top:16px;color:#9a8dc0">Then open <a href="http://localhost:5000" style="color:#14b8a6">http://localhost:5000</a> in your browser.</p>
+      <p style="margin-bottom:20px;color:#6b5f85">Run this in your terminal from the <code style="color:#a07500">idx/</code> folder:</p>
+      <pre style="background:#EFEBF5;padding:14px;border-radius:6px;color:#1a8c4e;font-size:0.9rem">python app.py</pre>
+      <p style="margin-top:16px;color:#6b5f85">Then open <a href="http://localhost:5000" style="color:#008f7a">http://localhost:5000</a> in your browser.</p>
     </div>`;
     return;
   }
@@ -1788,12 +1788,27 @@ function _vindicateCatId(category) {
   return 'vcat-' + category.replace(/[^a-zA-Z0-9]/g, '_');
 }
 
+const VINDICATE_ORDER = [
+  'Vascular',
+  'Infectious / Inflammatory',
+  'Neoplastic / Neurologic',
+  'Degenerative / Drugs',
+  'Idiopathic / Iatrogenic',
+  'Congenital',
+  'Autoimmune / Allergic',
+  'Traumatic / Toxic',
+  'Endocrine / Environmental'
+];
+
 function buildVindicateGrid() {
   const grid = document.getElementById('vindicate-grid');
   if (!grid || !Object.keys(state.diseaseLibrary).length) return;
   grid.innerHTML = '';
 
-  const entries = Object.entries(state.diseaseLibrary);
+  // Sort entries in VINDICATE order
+  const entries = VINDICATE_ORDER
+    .filter(cat => state.diseaseLibrary[cat])
+    .map(cat => [cat, state.diseaseLibrary[cat]]);
   entries.forEach(([category, diseases_raw], idx) => {
     const diseases = [...diseases_raw].sort((a, b) => a.localeCompare(b));
     const catId = _vindicateCatId(category);
