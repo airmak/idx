@@ -1,0 +1,178 @@
+{
+  "case_id": "case_007",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Hypersensitivity pneumonitis (subacute/chronic)",
+  "icd_category": "J67.9 – Hypersensitivity pneumonitis due to unspecified organic dust",
+  "one_liner": "A 55-year-old male presents with 3 months of progressive exertional dyspnea and dry cough, unresponsive to PPI and anxiolytic therapy.",
+  "stage2": {
+    "hpi_extension": "The patient describes insidious onset of progressive shortness of breath with moderate exertion (walking up one flight of stairs) over the past 3 months, accompanied by a persistent dry, non-productive cough and generalized fatigue. He was initially treated with omeprazole for presumed GERD-related cough and later prescribed lorazepam for anxiety-related dyspnea, neither of which provided improvement. He noticed his symptoms were significantly better during a 2-week vacation at a hotel, which he attributed to 'relaxation.' He denies hemoptysis, wheezing, chest pain, orthopnea, paroxysmal nocturnal dyspnea, fever, or chills. He has no sick contacts and has not traveled to areas endemic for fungal lung disease.",
+    "pmh": "Hypertension (well-controlled); GERD (newly diagnosed 3 months ago, attributed to cough); no prior pulmonary disease, asthma, or atopy; no known autoimmune disease",
+    "surgical_history": "Laparoscopic cholecystectomy at age 48 (uncomplicated)",
+    "medications": "Amlodipine 5mg daily; omeprazole 20mg twice daily (3 months, no improvement in cough); lorazepam 0.5mg PRN anxiety (new, 6 weeks); no ACE inhibitors",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with emphysema (smoker, deceased); mother with osteoporosis; no family history of autoimmune or connective tissue disease; no pulmonary fibrosis",
+    "social_history": "Works from home as a software engineer for 4 years; non-smoker (never); no occupational dust, asbestos, or chemical exposures reported; no bird or pet ownership reported initially; lives alone in a suburban home; drinks 1-2 glasses of wine per week; denies illicit drug use; does not report hobbies involving organic material (wood, hay, compost)",
+    "vitals": {
+      "temp": "37.3°C (99.1°F)",
+      "hr": "88 bpm",
+      "bp": "132/82 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% on room air at rest; drops to 87% with 2-minute ambulation (6-minute walk test equivalent)",
+      "weight_bmi": "82 kg; BMI 28"
+    },
+    "physical_exam": "General: Well-nourished male in mild respiratory distress only with exertion; no cyanosis at rest. Respiratory: Respiratory rate 20 at rest; end-inspiratory velcro-like bibasilar crackles on auscultation; no wheezing, rhonchi, or pleural rub. Cardiovascular: Regular rate and rhythm; no murmurs; no JVD; no peripheral edema. Extremities: No clubbing; no digital pallor or Raynaud phenomenon. Skin: No rash, telangiectasias, or gottron papules (connective tissue disease features absent). Lymph nodes: No cervical, axillary, or inguinal lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 9.8 k/uL; lymphocytes 42% (mild relative lymphocytosis); eosinophils 2% (normal — WNL); Hgb 14.2 g/dL; Hct 42%; Platelets 280 k/uL; neutrophils 50%",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild peripheral lymphocytosis is consistent with the lymphocyte-driven (CD8+ T-cell) immune response in hypersensitivity pneumonitis; normal eosinophil count helps distinguish HP from eosinophilic pneumonia"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 139 mEq/L, K 4.1 mEq/L, Cl 102 mEq/L, HCO3 24 mEq/L, BUN 16 mg/dL, Cr 0.9 mg/dL, Glucose 96 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal BMP argues against metabolic causes of fatigue and dyspnea; normal creatinine makes renal causes of fluid overload unlikely; baseline values important before potential corticosteroid therapy"
+      },
+      {
+        "test_name": "CRP",
+        "result": "42 mg/L (HIGH — normal <10 mg/L)",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated CRP reflects ongoing pulmonary inflammatory activity; more elevated than typically seen in IPF (often normal CRP); supports an active inflammatory/immune-mediated process"
+      },
+      {
+        "test_name": "ESR",
+        "result": "58 mm/hr (HIGH — normal <15 mm/hr for age/sex)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ESR consistent with systemic inflammation; supports an active immune-mediated lung disease over a degenerative/fibrotic process; however, non-specific"
+      },
+      {
+        "test_name": "ANA",
+        "result": "ANA negative (<1:40)",
+        "flag": "WNL",
+        "clinical_significance": "Negative ANA significantly reduces probability of connective tissue disease-associated ILD (CTD-ILD), including polymyositis/dermatomyositis, systemic sclerosis, and Sjogren syndrome as the primary cause"
+      },
+      {
+        "test_name": "RF",
+        "result": "RF <14 IU/mL (WNL — negative)",
+        "flag": "WNL",
+        "clinical_significance": "Negative rheumatoid factor reduces probability of RA-associated ILD; combined with negative ANA, CTD-ILD moves down the differential"
+      },
+      {
+        "test_name": "LDH",
+        "result": "268 U/L (HIGH — normal 140-280 U/L; borderline elevated for this lab's reference range)",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated LDH is seen in various interstitial lung diseases including HP and sarcoidosis; reflects alveolar cell damage; non-specific but consistent with active ILD"
+      },
+      {
+        "test_name": "BNP/NT-proBNP",
+        "result": "BNP 48 pg/mL (WNL — normal <100 pg/mL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal BNP makes heart failure (and cardiac pulmonary edema) very unlikely as the cause of dyspnea and bilateral infiltrates on imaging; important to exclude in a hypertensive patient"
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Bilateral diffuse hazy opacities in a perihilar and mid-to-lower lung zone distribution; mild; no pleural effusions; no pneumothorax; cardiac silhouette normal size; no hilar adenopathy visible",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diffuse bilateral hazy opacities on CXR are non-specific; cannot distinguish HP from pulmonary edema, infection, or other ILDs — drives need for CT chest for characterization; notable absence of pleural effusions makes heart failure less likely"
+      },
+      {
+        "test_name": "CT chest (w/ or w/o contrast)",
+        "result": "Bilateral ground-glass opacities (GGOs) predominantly in upper and mid-lung zones; mosaic attenuation pattern with geographic areas of decreased attenuation and air trapping clearly visible on expiratory phase images; centrilobular nodules scattered bilaterally; no honeycombing; no traction bronchiectasis (no fibrosis); no pleural effusions; no mediastinal lymphadenopathy; no pulmonary emboli on non-contrast study (clinical suspicion low)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "This CT pattern — upper/mid-zone GGOs + centrilobular nodules + mosaic attenuation with air trapping on expiratory cuts — is highly characteristic of subacute hypersensitivity pneumonitis. The ABSENCE of honeycombing and traction bronchiectasis indicates no established fibrosis yet, which is a crucial prognostic distinction. IPF typically shows basal/subpleural honeycombing. Sarcoidosis typically shows upper-lobe peribronchovascular nodules."
+      },
+      {
+        "test_name": "Pulmonary function tests (PFTs)",
+        "result": "FVC 62% predicted (LOW); FEV1 65% predicted (LOW); FEV1/FVC ratio 0.84 (WNL — no obstruction); TLC 68% predicted (LOW); DLCO 58% predicted (LOW); no significant bronchodilator response",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic restrictive pattern (low FVC + low TLC + preserved FEV1/FVC ratio) with reduced DLCO confirms interstitial lung disease rather than obstructive disease (asthma/COPD). The reduced DLCO reflects impaired gas exchange at the alveolar level due to inflammatory thickening. This pattern should immediately redirect away from asthma or COPD and toward ILD workup."
+      }
+    ],
+    "key_tests": [
+      "CXR (PA/Lateral)",
+      "CT chest (w/ or w/o contrast)",
+      "Pulmonary function tests (PFTs)",
+      "CBC with differential",
+      "CRP",
+      "ESR",
+      "ANA",
+      "RF",
+      "LDH",
+      "BNP/NT-proBNP",
+      "BMP",
+      "Bronchoscopy"
+    ],
+    "acceptable_tests": [
+      "LFTs",
+      "TSH/Free T4",
+      "Troponin I/T (serial)",
+      "D-dimer",
+      "Anti-dsDNA",
+      "ANCA"
+    ],
+    "low_yield_tests": [
+      "CT head (w/ or w/o contrast)",
+      "Lipase",
+      "Amylase",
+      "PSA",
+      "Blood cultures x2",
+      "Urine culture"
+    ]
+  },
+  "stage5": {
+    "final_clue": "When asked specifically about his home environment, the patient mentions he runs a cool-mist humidifier in his home office year-round and has never cleaned it — 'it just runs, I fill the water tank every few days.' He also notes his symptoms were clearly better during his 2-week vacation at a hotel. A bronchoscopy with BAL is performed, revealing markedly elevated lymphocytes at 52% of total BAL cells (normal <15%), with a CD4:CD8 ratio of 0.6 (inverted — CD8+ predominance), and non-caseating granulomas on transbronchial biopsy — confirming the diagnosis of hypersensitivity pneumonitis from contaminated humidifier water (thermophilic bacteria/fungi)."
+  },
+  "debrief": {
+    "classic_presentation": "Classic hypersensitivity pneumonitis (HP, also called extrinsic allergic alveolitis) presents with dyspnea, dry cough, and fatigue in a patient with identifiable antigen exposure — classically: farmer's lung (thermophilic Actinomyces from moldy hay), bird fancier's lung (avian proteins), hot tub lung, or humidifier lung. Subacute HP develops over weeks to months of low-level antigen exposure. Symptoms typically improve with removal from the antigen source (e.g., weekends away from work, vacations) — a history often called the 'holiday pattern.' PFTs show restriction not obstruction. CT chest shows upper/mid-zone ground-glass opacities with mosaic attenuation.",
+    "attending_mode_notes": "This case was engineered with multiple layers of misdirection: (1) The patient did not volunteer the humidifier history — a critical lesson that exposure history requires directed, specific questioning about home environments (humidifiers, HVAC systems, birds, hot tubs, hobbies). (2) PFTs showing restriction misled trainees toward IPF, but the absence of honeycombing on CT and the patient's relatively young age made IPF less likely. (3) The CT was initially read as 'possible early fibrosis' — demonstrating how radiology reports can anchor trainees incorrectly. (4) The 'holiday pattern' (improvement during vacation) is pathognomonic for HP but is only found if the clinician specifically asks. (5) BAL lymphocytosis with CD4:CD8 <1 is the key diagnostic finding that most students fail to order — Bronchoscopy must be on the differential. (6) GERD was a red herring — PPI therapy for cough is reasonable, but 3 months of failure should prompt reevaluation.",
+    "pathophysiology": "Hypersensitivity pneumonitis is a non-IgE-mediated immune reaction to inhaled organic antigens, primarily mediated by type III (immune complex deposition) and type IV (delayed-type, T-cell mediated) hypersensitivity mechanisms. Repeated inhalation of the offending antigen (in this case, thermophilic bacteria and fungi from a contaminated, uncleaned cool-mist humidifier) triggers alveolar macrophage activation and recruitment of T-lymphocytes, predominantly CD8+ cytotoxic T-cells. This lymphocytic alveolitis leads to granuloma formation in the alveolar walls and small airways, causing restrictive physiology and impaired gas exchange (reduced DLCO). In the subacute form, inflammation is ongoing but fibrosis has not yet developed; early intervention with antigen avoidance can result in complete recovery. In chronic HP with persistent antigen exposure, irreversible fibrosis (traction bronchiectasis, honeycombing) develops — clinically and radiologically indistinguishable from UIP/IPF at late stages. This distinction makes early diagnosis crucial: identifying and eliminating the antigen before fibrosis is the only disease-modifying intervention.",
+    "treatment_overview": "The cornerstone of HP management is complete and permanent antigen avoidance. In this case: discard and do not replace the humidifier; thorough cleaning of HVAC systems; environmental remediation if mold is found. For subacute HP with significant symptoms or physiologic impairment: oral prednisone 0.5 mg/kg/day (typically 30-60 mg/day) for 4-8 weeks, followed by slow taper over 2-3 months. Prednisone accelerates symptom resolution but does not change long-term outcomes if antigen exposure continues. For chronic/fibrotic HP: mycophenolate mofetil 1.5-3g/day or azathioprine 2-3 mg/kg/day as steroid-sparing agents. Anti-fibrotic therapy (nintedanib) may be considered for progressive fibrotic HP resembling IPF behavior. Pulmonary rehabilitation; serial PFTs every 3-6 months; supplemental oxygen if resting SpO2 <88% or exertional desaturation. Lung transplant for end-stage fibrotic HP.",
+    "high_yield_pearls": [
+      "The 'holiday pattern' — symptom improvement away from home or work — is a pathognomonic historical clue for HP and MUST be specifically asked about; patients will not volunteer it spontaneously.",
+      "BAL in HP shows marked lymphocytosis (>20-30% lymphocytes) with an inverted CD4:CD8 ratio (<1.0, CD8 predominance); in sarcoidosis, BAL shows CD4:CD8 >3.5 (CD4 predominance) — this distinction is high-yield.",
+      "HP PFTs show RESTRICTION (low FVC, low TLC, preserved FEV1/FVC), not obstruction — if you see restriction in a non-smoker without an obvious cause, think ILD/HP, not asthma.",
+      "CT chest in subacute HP: upper/mid-zone ground-glass opacities + centrilobular nodules + mosaic attenuation (air trapping on expiratory cuts). The absence of honeycombing distinguishes it from UIP/IPF and implies potentially reversible disease.",
+      "Cool-mist humidifiers are a classic and commonly missed antigen source for HP — always ask specifically about humidifiers, HVAC systems, and water-damaged areas in a patient with unexplained ILD."
+    ],
+    "sources": [
+      "UpToDate: Hypersensitivity pneumonitis (extrinsic allergic alveolitis): Clinical manifestations and diagnosis",
+      "UpToDate: Hypersensitivity pneumonitis (extrinsic allergic alveolitis): Treatment, prognosis, and prevention",
+      "Guideline: ATS/JRS/ALAT 2020 Clinical Practice Guideline for the Diagnosis of Hypersensitivity Pneumonitis",
+      "UpToDate: CT scan of hypersensitivity pneumonitis",
+      "UpToDate: Approach to the adult with interstitial lung disease: Diagnostic testing"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hypersensitivity pneumonitis (subacute/chronic)",
+      "Idiopathic pulmonary fibrosis (IPF)",
+      "Sarcoidosis",
+      "COPD",
+      "Asthma",
+      "Cryptogenic organizing pneumonia (COP)",
+      "Connective tissue disease-associated ILD",
+      "Heart failure (cardiogenic pulmonary edema)"
+    ],
+    "after_stage2_more_likely": [
+      "Hypersensitivity pneumonitis — symptom improvement during vacation (holiday pattern), no wheezing, insidious dry cough with exertional dyspnea",
+      "IPF — bibasilar crackles, older male, restrictive picture possible; no known antigen source yet",
+      "Sarcoidosis — bilateral lung involvement, systemic fatigue, lymphocytosis possible"
+    ],
+    "after_stage2_less_likely": [
+      "COPD — non-smoker, no obstruction on exam, no wheezing",
+      "Asthma — no wheezing, no atopy, not responsive to bronchodilators, age and presentation atypical",
+      "Heart failure — normal BNP, no edema, no JVD, no orthopnea, normal cardiac exam"
+    ],
+    "after_labs_top3": [
+      "Hypersensitivity pneumonitis — upper/mid-zone GGOs with air trapping on CT, restrictive PFTs, elevated CRP/ESR, negative ANA/RF, BAL CD8+ lymphocytosis, contaminated humidifier identified",
+      "Idiopathic pulmonary fibrosis — remains on list until fibrosis is excluded; absence of honeycombing and upper-zone predominance make UIP pattern less likely",
+      "Sarcoidosis — upper-lobe predilection possible overlap; BAL CD4:CD8 ratio distinguishes (HP: <1; sarcoid: >3.5); no hilar adenopathy on CT reduces probability"
+    ]
+  }
+}

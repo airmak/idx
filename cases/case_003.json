@@ -1,0 +1,197 @@
+{
+  "case_id": "case_003",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Diabetic Ketoacidosis (DKA)",
+  "icd_category": "E10.10 – Type 1 diabetes mellitus with ketoacidosis without coma",
+  "one_liner": "A 19-year-old male with known T1DM presents with 2 days of nausea, vomiting, diffuse abdominal pain, polyuria, and polydipsia after missing insulin doses for 3 days.",
+  "stage2": {
+    "hpi_extension": "The patient has had T1DM since age 8 and normally uses insulin glargine and insulin lispro. Three days ago he ran out of insulin and was unable to refill his prescription over the weekend. He developed polyuria and polydipsia 2 days ago, followed by progressive nausea, several episodes of vomiting, and diffuse crampy abdominal pain. He endorses fatigue and generalized weakness. He denies fever, dysuria, diarrhea, recent illness, alcohol use, or sick contacts. He had one prior DKA episode 2 years ago requiring hospitalization.",
+    "pmh": "Type 1 diabetes mellitus (diagnosed age 8, 11 years duration). One prior DKA episode 2 years ago.",
+    "surgical_history": "None",
+    "medications": "Insulin glargine 20 units subcutaneously at bedtime (ran out 3 days ago), Insulin lispro sliding scale with meals (ran out 3 days ago)",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with Hashimoto's thyroiditis. Maternal uncle with T1DM.",
+    "social_history": "Sophomore in college. Non-smoker. Occasional alcohol at social events. Denies illicit drug use. Lives in dormitory. No recent travel or sick contacts.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "112 bpm, regular",
+      "bp": "102/64 mmHg",
+      "rr": "28 breaths/min, deep and labored (Kussmaul respirations)",
+      "spo2": "99% on room air",
+      "weight_bmi": "BMI 21 kg/m²"
+    },
+    "physical_exam": "General: Alert and oriented, appears ill, moderately distressed; breathing is deep, slow, and labored (Kussmaul pattern); fruity/acetone odor on breath. HEENT: Dry mucous membranes; eyes appear sunken. Neck: No meningismus, no JVD. Cardiovascular: Tachycardic, regular rhythm; no murmurs; capillary refill 3 seconds. Pulmonary: Deep labored breathing; lungs clear to auscultation bilaterally. Abdomen: Diffuse mild-to-moderate tenderness without guarding or rebound; no hepatosplenomegaly; hypoactive bowel sounds. Skin: Decreased turgor; no rashes. Neurological: Alert and oriented ×4, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Glucose",
+        "result": "487 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Severe hyperglycemia from absolute insulin deficiency drives the osmotic and metabolic derangements of DKA."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "131 mEq/L (corrected Na 138 mEq/L)",
+        "flag": "LOW",
+        "clinical_significance": "Apparent hyponatremia is due to osmotic dilution from hyperglycemia; corrected Na (add 1.6 mEq/L per 100 mg/dL glucose above 100) is 138 mEq/L, indicating true normonatremia."
+      },
+      {
+        "test_name": "Potassium",
+        "result": "5.8 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Pseudohyperkalemia from acidosis-driven extracellular potassium shift; total body potassium is actually depleted and will fall precipitously with insulin therapy — must monitor closely."
+      },
+      {
+        "test_name": "Chloride",
+        "result": "98 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal chloride; the anion gap is driven by unmeasured ketoacid anions, not hyperchloremia."
+      },
+      {
+        "test_name": "Bicarbonate (HCO3)",
+        "result": "8 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Severely reduced bicarbonate confirms high-grade metabolic acidosis; HCO3 <10 mEq/L defines severe DKA."
+      },
+      {
+        "test_name": "BUN",
+        "result": "28 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated BUN reflects prerenal azotemia from osmotic diuresis and dehydration."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated creatinine indicates prerenal acute kidney injury from volume depletion; expect normalization with fluid resuscitation."
+      },
+      {
+        "test_name": "Anion Gap",
+        "result": "28 mEq/L (Na − [Cl + HCO3] = 131 − [98 + 8])",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated anion gap of 28 confirms a high anion gap metabolic acidosis; the primary contributors are beta-hydroxybutyrate and acetoacetate (ketoacids)."
+      },
+      {
+        "test_name": "WBC",
+        "result": "14.2 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis is expected in DKA as a stress response; WBC >25,000 should prompt investigation for an infectious precipitant."
+      },
+      {
+        "test_name": "UA",
+        "result": "Glucose 4+, ketones 3+, specific gravity 1.030, pH 5.0, no nitrites, no leukocyte esterase, 0-1 WBC/hpf",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Marked glucosuria and ketonuria are diagnostic findings of DKA; absence of nitrites/leukocyte esterase reduces likelihood of UTI as a precipitant."
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.18, pCO2 22 mmHg, pO2 98 mmHg, HCO3 8 mEq/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe metabolic acidosis (pH 7.18) with appropriate respiratory compensation (expected pCO2 = 1.5×8 + 8 ± 2 = 20 mmHg; actual 22 — appropriate); Kussmaul breathing represents this compensatory hyperventilation."
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.8 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lactate excludes concurrent lactic acidosis as a significant contributor to the anion gap; reassuring that tissue perfusion is maintained despite tachycardia."
+      },
+      {
+        "test_name": "Beta-hydroxybutyrate",
+        "result": "6.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated beta-hydroxybutyrate (normal <0.5 mmol/L) confirms ketoacidosis and is the preferred test over urine ketones for DKA diagnosis and monitoring."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Lungs clear bilaterally. No infiltrates, consolidation, or pleural effusion. No pneumothorax. Cardiac silhouette normal. No mediastinal widening.",
+        "flag": "WNL",
+        "clinical_significance": "Normal chest X-ray argues against pneumonia as a precipitating trigger for this DKA episode; ordered appropriately to evaluate for infectious etiology."
+      },
+      {
+        "test_name": "CT abdomen/pelvis (w/o contrast)",
+        "result": "No evidence of appendicitis, bowel obstruction, or intra-abdominal free air. Mild diffuse bowel wall edema consistent with metabolic derangement. No gallstones. No acute intra-abdominal pathology.",
+        "flag": "WNL",
+        "clinical_significance": "Abdominal pain in DKA is common and often resolves with treatment; CT obtained to evaluate for surgical cause helps exclude appendicitis and other triggers, though it should not delay DKA treatment."
+      }
+    ],
+    "key_tests": [
+      "BMP",
+      "UA with microscopy",
+      "ABG",
+      "CBC with differential",
+      "Lactate"
+    ],
+    "acceptable_tests": [
+      "Beta-hydroxybutyrate (serum)",
+      "Phosphorus",
+      "Magnesium",
+      "HbA1c",
+      "Lipase",
+      "Blood cultures",
+      "CXR (PA/Lateral)",
+      "EKG/ECG",
+      "Urine culture",
+      "Thyroid function tests (TSH)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (unless surgical emergency cannot be excluded)",
+      "Echocardiogram",
+      "CT head",
+      "ANA panel",
+      "Lower extremity Doppler ultrasound",
+      "MRI brain"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Point-of-care beta-hydroxybutyrate returns at 6.2 mmol/L; repeating the BMP after 4 hours of insulin infusion shows the anion gap narrowing to 18 mEq/L with glucose 310 mg/dL, confirming response to therapy."
+  },
+  "debrief": {
+    "classic_presentation": "DKA classically presents in a patient with known or new-onset T1DM with the triad of hyperglycemia (>250 mg/dL), high anion gap metabolic acidosis (pH <7.3 or HCO3 <18), and ketonemia/ketonuria. Classic symptoms include the 3 P's (polyuria, polydipsia, polyphagia), nausea, vomiting, abdominal pain, Kussmaul respirations, fruity/acetone breath, and altered mental status in severe cases. A common precipitant in young patients is insulin non-compliance.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In T1DM, absolute insulin deficiency removes the primary anabolic signal, causing unopposed action of counter-regulatory hormones (glucagon, epinephrine, cortisol, growth hormone). Glucagon drives hepatic gluconeogenesis and glycogenolysis, causing severe hyperglycemia. Simultaneously, insulin deficiency activates hormone-sensitive lipase in adipose tissue, releasing free fatty acids that are oxidized in the liver to ketone bodies (beta-hydroxybutyrate and acetoacetate). Accumulation of ketoacids consumes bicarbonate buffer and causes a high anion gap metabolic acidosis. Hyperglycemia exceeds the renal threshold (~180 mg/dL), causing osmotic diuresis with loss of water, sodium, and potassium — leading to dehydration and total body electrolyte depletion despite a normal or elevated serum potassium from transcellular shift in acidosis.",
+    "treatment_overview": "The four pillars of DKA management are: (1) IV fluid resuscitation — normal saline 1-2L bolus, then 250-500 mL/hr, transition to D5 0.45% NaCl when glucose <250 mg/dL; (2) Insulin infusion — 0.1 units/kg/hr regular insulin IV (do NOT start insulin until K+ >3.5 mEq/L); (3) Potassium replacement — replace K+ aggressively as it falls with insulin therapy (target K+ 4.0-5.0 mEq/L); (4) Identify and treat precipitants. Resolution criteria: glucose <200 mg/dL, anion gap ≤12, pH >7.3, HCO3 ≥15. Transition to subcutaneous insulin 1-2 hours before stopping infusion. Bicarbonate therapy is controversial and generally reserved for pH <6.9.",
+    "high_yield_pearls": [
+      "DKA diagnostic criteria: glucose >250 mg/dL, pH <7.3 (or HCO3 <18), AND presence of ketonemia/ketonuria. All three must be present. Euglycemic DKA (glucose <250) can occur with SGLT2 inhibitor use.",
+      "Serum potassium in DKA is a critical management point: acidosis shifts K+ extracellularly (high serum K+), but total body K+ is depleted. Once insulin is started, K+ rapidly falls — do NOT start insulin if K+ <3.5 mEq/L; replace first.",
+      "Abdominal pain in DKA resolves with treatment in ~50% of cases. Persistent abdominal pain after acidosis correction requires surgical evaluation for an abdominal precipitant.",
+      "The corrected sodium formula accounts for osmotic dilution by hyperglycemia: add 1.6 mEq/L Na for each 100 mg/dL glucose above 100 mg/dL. A rising corrected Na during treatment suggests free water deficit.",
+      "Anion gap closure (AG ≤12) is the primary endpoint of DKA resolution — not normalization of glucose. Glucose may normalize well before the acidosis resolves, requiring D5W to be added to IV fluids while the insulin drip continues."
+    ],
+    "sources": [
+      "UpToDate: Diabetic ketoacidosis and hyperosmolar hyperglycemic state in adults: Clinical features, evaluation, and diagnosis",
+      "UpToDate: Diabetic ketoacidosis and hyperosmolar hyperglycemic state in adults: Treatment",
+      "Guideline: ADA 2024 Standards of Care in Diabetes — Section 16: Diabetes Care in the Hospital",
+      "Guideline: Joint British Diabetes Societies (JBDS) 2021 Guideline for the Management of Diabetic Ketoacidosis in Adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diabetic ketoacidosis (DKA)",
+      "Hyperosmolar hyperglycemic state (HHS)",
+      "Alcoholic ketoacidosis",
+      "Gastroenteritis",
+      "Acute appendicitis",
+      "Sepsis with metabolic acidosis",
+      "Starvation ketosis"
+    ],
+    "after_stage2_more_likely": [
+      "DKA (known T1DM, 3 days of missed insulin, classic polyuria/polydipsia, Kussmaul breathing, acetone breath)",
+      "Gastroenteritis (nausea, vomiting, abdominal pain — but the metabolic features make DKA far more likely)",
+      "Acute appendicitis (abdominal pain in young patient — though diffuse rather than focal RLQ)"
+    ],
+    "after_stage2_less_likely": [
+      "HHS (occurs primarily in T2DM; characterized by extreme hyperglycemia >600 mg/dL, minimal ketosis, profound hyperosmolarity, and altered mental status)",
+      "Alcoholic ketoacidosis (no significant alcohol use history; typically low/normal glucose)",
+      "Sepsis (low-grade or absent fever, no obvious infectious source, leukocytosis attributable to stress response)"
+    ],
+    "after_labs_top3": [
+      "Diabetic ketoacidosis (T1DM, AG 28, HCO3 8, glucose 487, ketonuria 3+, BHB 6.2)",
+      "Acute appendicitis as DKA precipitant (abdominal pain — requires clinical exclusion)",
+      "Infectious trigger (stress leukocytosis 14.2, though CXR and UA negative)"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "case_id": "case_009",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Infective endocarditis (subacute, Streptococcus viridans group — Streptococcus mitis)",
+  "icd_category": "I33.0 – Acute and subacute infective endocarditis",
+  "one_liner": "A 45-year-old man with a known bicuspid aortic valve presents with 6 weeks of low-grade fevers, fatigue, migratory joint pain, and 10-lb weight loss following a dental extraction.",
+  "stage2": {
+    "hpi_extension": "The patient reports 6 weeks of persistent low-grade fevers (Tmax 38.3°C at home), progressive fatigue limiting his daily activities, bilateral migratory arthralgias predominantly involving the knees and wrists, and a 10-lb unintentional weight loss. He had a dental extraction (mandibular molar) approximately 8 weeks ago; he did not receive antibiotic prophylaxis because he was told by the dentist that 'it was only a routine extraction.' His PCP evaluated him 3 weeks ago and attributed his symptoms to a viral illness, providing reassurance without laboratory workup. He has a known bicuspid aortic valve diagnosed incidentally on echocardiogram 3 years ago; he was told the valve had 'mild regurgitation, nothing to worry about.' He denies rigors, night sweats, chest pain, or dyspnea at rest. He has not had skin rashes, but on direct questioning reports noticing some 'small spots on his hands' over the past 2 weeks that he attributed to minor trauma.",
+    "pmh": "Bicuspid aortic valve (trace-to-mild aortic regurgitation on echo 2 years ago); hypertension (well-controlled); no prior episodes of endocarditis; no rheumatic heart disease; no history of IV drug use",
+    "surgical_history": "Dental extraction (mandibular molar, 8 weeks prior); appendectomy at age 18",
+    "medications": "Amlodipine 5mg daily; low-dose aspirin 81mg daily; ibuprofen PRN for joint pain (used frequently over the past 6 weeks)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with bicuspid aortic valve (underwent valve replacement at age 62); mother with hypertension; no family history of rheumatic disease, SLE, or malignancy",
+    "social_history": "Financial analyst; married; non-smoker; drinks 2-3 glasses of wine per week; denies illicit drug use or IV drug use; no recent travel; no animal exposures (no Q fever or Bartonella risk factors); lives in suburban area of the Northeast; no known tick exposures recently",
+    "vitals": {
+      "temp": "38.1°C (100.6°F)",
+      "hr": "92 bpm (regular)",
+      "bp": "136/58 mmHg (wide pulse pressure — diastolic BP notably low)",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "74 kg (163 lbs); BMI 24; down 4.5 kg (10 lbs) from baseline"
+    },
+    "physical_exam": "General: Thin, fatigued-appearing middle-aged man; no acute distress; mild pallor. Cardiovascular: Heart rate 92, regular; grade III/VI early diastolic decrescendo murmur heard best at the left sternal border with patient leaning forward and in held expiration — new compared to prior records documenting a soft I/II systolic ejection murmur; wide pulse pressure consistent with aortic regurgitation. Hands: On focused repeat examination — 2-3 painless, erythematous, 2-3mm flat macules on the thenar eminences (Janeway lesions) and a single exquisitely tender, 3mm subcutaneous nodule on the palmar surface of the right ring fingertip (Osler node); splinter hemorrhages noted in 2 nails of the right hand. Ophthalmologic: Funduscopic exam reveals a flame-shaped hemorrhage with a pale white center in the right eye (Roth spot). Musculoskeletal: Bilateral knee and wrist tenderness to palpation with mild synovial thickening; no erythema or warmth; no effusion. Abdomen: Mild left upper quadrant fullness; spleen palpable 2cm below the left costal margin (mild splenomegaly)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 13.8 k/uL (HIGH); neutrophils 78%; no left shift; Hgb 10.2 g/dL (LOW); MCV 86 fL (normocytic); Hct 30.8%; Platelets 188 k/uL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild leukocytosis (13.8) consistent with subacute bacterial infection; normocytic anemia (Hgb 10.2) reflects anemia of chronic infection/inflammation — a key finding that argues against a purely viral or reactive etiology and raises concern for subacute bacterial endocarditis"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 137 mEq/L, K 4.2 mEq/L, Cl 102 mEq/L, HCO3 22 mEq/L, BUN 28 mg/dL, Cr 1.5 mg/dL (HIGH — baseline estimated 0.9 mg/dL), Glucose 94 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild acute kidney injury (Cr 1.5 from estimated baseline 0.9) is a critical finding — in this context, represents immune complex-mediated glomerulonephritis from endocarditis antigen-antibody deposition. Mildly elevated BUN may also reflect poor oral intake and pre-renal component."
+      },
+      {
+        "test_name": "ESR",
+        "result": "88 mm/hr (HIGH — normal <15 mm/hr for age/sex)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ESR (88 mm/hr) reflects substantial systemic inflammation; a non-specific finding but at this level combined with subacute fever and weight loss is highly concerning for an ongoing infectious, autoimmune, or malignant process"
+      },
+      {
+        "test_name": "CRP",
+        "result": "62 mg/L (HIGH — normal <10 mg/L)",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated CRP corroborates the ESR as a marker of active systemic inflammation; notably high — inconsistent with a self-limited viral illness (which typically produces only mildly elevated CRP)"
+      },
+      {
+        "test_name": "RF",
+        "result": "RF 24 IU/mL (ABNORMAL — borderline positive; normal <14 IU/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly positive RF in a patient with arthralgias creates the misleading appearance of early rheumatoid arthritis. CRITICAL TRAP: RF is elevated in ~50% of subacute endocarditis cases due to immune complex formation — it is not diagnostic of RA, and its presence in the context of fever and cardiac murmur should heighten, not reduce, suspicion for endocarditis."
+      },
+      {
+        "test_name": "ANA",
+        "result": "ANA negative (<1:40)",
+        "flag": "WNL",
+        "clinical_significance": "Negative ANA reduces likelihood of SLE as a primary driver of the clinical picture; however, endocarditis can produce positive ANA (Libman-Sacks endocarditis in SLE is a distinct entity); negative here is reassuring against SLE"
+      },
+      {
+        "test_name": "Blood cultures x2",
+        "result": "BOTH aerobic and anaerobic bottles from 2 separate venipuncture sites growing Gram-positive cocci in chains (identified as Streptococcus mitis — Streptococcus viridans group) — preliminary result at 24 hours; final identification and sensitivities pending; susceptible to penicillin (MIC ≤0.12 mcg/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Two separate blood culture sets both growing viridans streptococci (Streptococcus mitis) constitutes a MAJOR Duke criterion for infective endocarditis. Viridans streptococci are normal oral flora and are the most common cause of subacute native valve endocarditis, classically following dental procedures in patients with structural heart disease. This finding alone, combined with the predisposing cardiac lesion, almost certainly establishes the diagnosis."
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "Color: amber; Specific gravity 1.020; Protein 2+ (ABNORMAL); Blood 2+ (ABNORMAL); Microscopy: RBCs 15-20/hpf (HIGH), RBC casts present (ABNORMAL — pathognomonic for glomerulonephritis); WBCs 2-3/hpf; no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RBC casts on urine microscopy are pathognomonic for glomerulonephritis. In this context, the GN is immune complex-mediated (endocarditis-associated glomerulonephritis) — IgG/IgM/complement deposits in the glomerular mesangium and subendothelium. This explains the elevated creatinine (1.5 mg/dL). This is one of the minor Duke criteria (immunologic phenomena) and directly explains the AKI."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Echocardiogram (transthoracic/transesophageal)",
+        "result": "Transthoracic echo (TTE): Bicuspid aortic valve identified; 8mm echogenic vegetation attached to the ventricular surface of the non-coronary cusp of the aortic valve; moderate aortic regurgitation with regurgitant jet occupying 40% of LVOT (new — prior echo 2 years ago showed trace AR); no periannular abscess identified on TTE; LV size mildly increased; preserved EF 60%. Transesophageal echo (TEE) recommended to evaluate for perivalvular extension and to better characterize vegetation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An 8mm vegetation on the aortic valve with a MAJOR increase in aortic regurgitation (trace to moderate) is the diagnostic cornerstone — this constitutes a MAJOR Duke criterion (positive echocardiogram). The new moderate AR is hemodynamically significant and may progress to heart failure. Vegetation <10mm on TTE does not meet the surgical threshold for vegetation size alone (>10mm); however, the hemodynamic progression of AR requires close monitoring. TEE is more sensitive than TTE for vegetations <10mm and for perivalvular abscess."
+      },
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Mild cardiomegaly (cardiothoracic ratio 0.52); no pulmonary vascular congestion; no pleural effusions; no consolidation; aortic knob normal; no pulmonary nodules to suggest septic emboli",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cardiomegaly is consistent with new volume overload from moderate aortic regurgitation. No pulmonary edema yet, but the progressive AR places the patient at risk. The absence of septic pulmonary nodules/cavities is expected in left-sided endocarditis (septic emboli in left-sided IE go to systemic circulation — brain, spleen, kidneys — not lungs)."
+      },
+      {
+        "test_name": "EKG/ECG",
+        "result": "Normal sinus rhythm at 92 bpm; normal PR interval 0.18 sec; no AV block; QRS narrow; no ST changes; no T-wave inversions",
+        "flag": "WNL",
+        "clinical_significance": "A normal PR interval and absence of AV block is reassuring against perivalvular abscess extension into the conduction system — a serious complication of aortic valve endocarditis. New PR prolongation or high-degree AV block in an endocarditis patient is a surgical emergency indicating septal abscess."
+      }
+    ],
+    "key_tests": [
+      "Blood cultures x2",
+      "Echocardiogram (transthoracic/transesophageal)",
+      "CBC with differential",
+      "BMP",
+      "UA with microscopy",
+      "ESR",
+      "CRP",
+      "ANA",
+      "RF",
+      "EKG/ECG",
+      "CXR (PA/Lateral)"
+    ],
+    "acceptable_tests": [
+      "LFTs",
+      "Coagulation panel (PT/INR/PTT)",
+      "LDH",
+      "Ferritin/Iron studies",
+      "Anti-dsDNA",
+      "ANCA",
+      "CT head (w/ or w/o contrast)"
+    ],
+    "low_yield_tests": [
+      "Lipase",
+      "Amylase",
+      "PSA",
+      "Beta-hCG",
+      "Influenza Ag",
+      "COVID Ag",
+      "Monospot"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Careful re-examination of the patient's hands reveals 2-3 painless erythematous macules on the thenar eminences (Janeway lesions — septic microemboli) and a single tender subcutaneous nodule on the right ring fingertip (Osler node — immune complex deposition). Funduscopic exam shows a flame-shaped hemorrhage with a central pale area (Roth spot). Both blood culture sets are growing Streptococcus viridans group (Streptococcus mitis) — sensitive to penicillin. The echocardiogram shows an 8mm vegetation on the bicuspid aortic valve with new moderate aortic regurgitation. Duke criteria: 2 major (positive blood cultures x2 with typical organism + positive echocardiogram) + 3 minor (predisposing cardiac lesion, fever, immunologic phenomena including Osler nodes/Roth spots/RF/GN) = DEFINITE infective endocarditis."
+  },
+  "debrief": {
+    "classic_presentation": "Classic subacute infective endocarditis (SBE) presents with weeks of low-grade fever, constitutional symptoms (weight loss, fatigue), new or changing heart murmur, and peripheral stigmata including Janeway lesions (painless palmar macules — septic emboli), Osler nodes (painful fingertip nodules — immune complexes), Roth spots (funduscopic hemorrhages with pale centers), and splinter hemorrhages. The classic triad triggering the diagnosis is: fever + new murmur + positive blood cultures. Viridans streptococci following dental procedures in structurally abnormal valves (bicuspid AV, MVP, rheumatic) is the textbook scenario.",
+    "attending_mode_notes": "This case was engineered to train recognition of subacute IE in a patient whose presentation was repeatedly misattributed. Key misleading elements: (1) The low-grade fever and absence of high-spiking temperatures or sepsis picture is typical of subacute IE (Strep viridans) — subacute IE can smolder for 8-12 weeks before diagnosis. (2) The pre-existing murmur was a double-edged trap: the patient and PCP were falsely reassured that 'the murmur was always there,' failing to detect the new quality (diastolic) and intensity of the murmur representing new significant AR. (3) A mildly positive RF created false-positive pursuit of rheumatoid arthritis — RF positivity in 50% of subacute IE is a classic board trap. (4) The Janeway lesions and Osler nodes were nearly missed on initial exam — these are subtle and require specifically looking at palmar surfaces, fingertips, and fundus. (5) Denying antibiotic prophylaxis at the time of dental extraction violated AHA 2007 guidelines — patients with bicuspid aortic valve undergoing dental procedures require amoxicillin 2g PO 30-60 minutes before the procedure.",
+    "pathophysiology": "Turbulent blood flow across an abnormal valve (bicuspid aortic valve creates high-velocity turbulent jets) causes repetitive endothelial injury on the low-pressure side of the valve leaflet. This microtrauma exposes underlying collagen, which activates platelets and triggers fibrin deposition — forming a sterile platelet-fibrin thrombus (non-bacterial thrombotic endocarditis, NBTE). When bacteremia occurs (from a dental procedure disrupting the gingival sulcus and introducing oral flora into the bloodstream), viridans streptococci (with their surface adhesins — FimA, SrpA) adhere to the NBTE nidus and proliferate, forming a vegetation. The vegetation is a protected biofilm; antibiotics penetrate poorly, necessitating prolonged IV therapy. Two distinct pathologic processes explain the peripheral manifestations: (1) Septic microemboli from the vegetation travel to distal capillaries, causing ischemic/hemorrhagic lesions — Janeway lesions, splinter hemorrhages, and (in right-sided IE) septic pulmonary emboli. (2) Circulating immune complexes (antigen-antibody complexes) deposit in small vessel walls and glomeruli — causing Osler nodes, Roth spots, and immune complex glomerulonephritis (hematuria with RBC casts).",
+    "treatment_overview": "Antibiotic therapy: Penicillin-susceptible Streptococcus viridans (MIC ≤0.12 mcg/mL) — Ceftriaxone 2g IV/IM once daily for 4 weeks (preferred for outpatient completion) OR Penicillin G 12-18 million units/day continuous IV infusion for 4 weeks. Adding gentamicin 3mg/kg/day IV for the first 2 weeks may shorten duration but increases nephrotoxicity risk — currently less recommended per updated AHA guidelines. For penicillin allergy: vancomycin 15-20mg/kg IV every 8-12 hours for 4-6 weeks (target trough 10-20 mcg/mL or AUC-guided dosing). Surgical indications (any one warrants urgent/emergent surgery): heart failure from severe valve dysfunction, perivalvular abscess/fistula, persistently positive blood cultures after 5-7 days of appropriate antibiotics, large vegetation (>10mm) with prior embolic event, new high-degree AV block. In this case: vegetation is 8mm (below 10mm threshold) and AR is moderate (not yet severe) — medical therapy appropriate with very close monitoring. Dental prophylaxis for all future invasive dental procedures: amoxicillin 2g PO 30-60 minutes before the procedure (or clindamycin 600mg if penicillin-allergic).",
+    "high_yield_pearls": [
+      "ALWAYS draw at least 2-3 sets of blood cultures from separate venipuncture sites BEFORE starting antibiotics — positive blood cultures are a Major Duke criterion and delay/contamination from prior antibiotics can prevent diagnosis for weeks.",
+      "Modified Duke Criteria: DEFINITE IE = 2 major, OR 1 major + 3 minor, OR 5 minor criteria. Major criteria: (1) positive blood cultures (typical organism in 2 separate sets, or persistently positive cultures); (2) positive echocardiogram (vegetation, abscess, new valvular regurgitation). Minor criteria: predisposing cardiac lesion or IVDU, fever ≥38°C, vascular phenomena (Janeway, arterial emboli, septic infarcts), immunologic phenomena (Osler, Roth, positive RF, GN), microbiologic (positive cultures not meeting major criteria).",
+      "New PR prolongation on EKG in a patient with aortic valve endocarditis = perivalvular abscess extending into the interventricular septum/conduction system = surgical emergency. Do not miss this EKG finding.",
+      "Viridans Streptococci (S. mitis, S. sanguis, S. mutans) are oral commensals and the most common cause of subacute native valve IE after dental procedures in patients with structural heart disease. Staphylococcus aureus is more common in acute IE, prosthetic valves, and IVDU-associated endocarditis.",
+      "AHA 2007 guideline: Antibiotic prophylaxis before invasive dental procedures is indicated for high-risk cardiac conditions ONLY: prosthetic cardiac valves, prior IE, certain congenital heart diseases, and cardiac transplant valvulopathy. Bicuspid aortic valve alone does NOT qualify under current guidelines — but this case illustrates the clinical consequences."
+    ],
+    "sources": [
+      "UpToDate: Clinical manifestations and evaluation of adults with suspected left-sided native valve endocarditis",
+      "UpToDate: Treatment of native valve endocarditis",
+      "Guideline: AHA/ACC 2015 Scientific Statement on Infective Endocarditis in Adults",
+      "UpToDate: Antimicrobial therapy of streptococcal (non-enterococcal) native valve infective endocarditis",
+      "Guideline: AHA 2007 Prevention of Infective Endocarditis (Wilson et al., Circulation 2007)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Infective endocarditis (subacute, Streptococcus viridans)",
+      "Rheumatoid arthritis (early, seronegative or mildly seropositive)",
+      "Systemic lupus erythematosus",
+      "Lymphoma (B-cell or Hodgkin)",
+      "Reactive arthritis",
+      "Viral illness (EBV/CMV/HBV — subacute phase)",
+      "Polymyalgia rheumatica",
+      "Occult malignancy with paraneoplastic syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Infective endocarditis — fever + new diastolic murmur + dental extraction in a bicuspid aortic valve patient + peripheral stigmata (Janeway, Osler, Roth) = classic Duke clinical picture",
+      "Rheumatoid arthritis — migratory polyarthralgias, mildly positive RF; however, the fever, weight loss, and cardiac murmur are not explained by RA alone",
+      "Lymphoma — significant weight loss, constitutional symptoms, fatigue over 6 weeks; splenomegaly; requires exclusion"
+    ],
+    "after_stage2_less_likely": [
+      "Viral illness (EBV/CMV) — 6-week duration with worsening, not improving, course; no lymphadenopathy; negative monospot makes EBV unlikely",
+      "Reactive arthritis — typically follows GI or genitourinary infection; asymmetric oligoarthritis with urethritis/conjunctivitis; no recent GI illness or STI exposure reported",
+      "Polymyalgia rheumatica — age (45) is atypical (PMR typically >50-60); no shoulder/hip girdle stiffness predominance; cardiac murmur and renal involvement not expected in PMR"
+    ],
+    "after_labs_top3": [
+      "Infective endocarditis — 2 major Duke criteria met: both blood culture sets growing S. mitis (viridans group) + 8mm vegetation on echocardiogram with new moderate AR; plus 3 minor criteria: predisposing valve lesion + fever + immunologic phenomena (Osler node, Roth spot, RF, GN with RBC casts)",
+      "Rheumatoid arthritis with superimposed infection — remains on list until IE treatment response confirmed; mildly positive RF and polyarthralgias could coexist, but the blood cultures and echo findings take clinical priority",
+      "Lymphoma — markedly elevated ESR (88), weight loss, and splenomegaly require exclusion; CBC without lymphocytosis or cytopenias makes lymphoma less likely, but should be revisited if IE does not respond to treatment"
+    ]
+  }
+}

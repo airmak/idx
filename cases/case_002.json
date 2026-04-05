@@ -1,0 +1,191 @@
+{
+  "case_id": "case_002",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Pulmonary embolism",
+  "icd_category": "I26.09 – Other pulmonary embolism with acute cor pulmonale",
+  "one_liner": "A 34-year-old female on OCP presents 2 days after a 14-hour flight with sudden onset dyspnea, right-sided pleuritic chest pain, and right calf swelling.",
+  "stage2": {
+    "hpi_extension": "The patient returned from Sydney 2 days ago on a 14-hour direct flight during which she sat with minimal mobility. She woke this morning with sudden onset shortness of breath and right-sided chest pain that worsens with deep breathing. She noticed right calf swelling and pain that began 1 day ago. She denies fever, cough, hemoptysis, or recent illness. She has been on combined oral contraceptive pills for 3 years for menstrual regulation.",
+    "pmh": "No significant past medical history. No prior venous thrombosis. No known thrombophilia.",
+    "surgical_history": "None",
+    "medications": "Ethinyl estradiol/levonorgestrel (OCP) daily, ibuprofen 400 mg as needed",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with DVT at age 55 after orthopedic surgery. No known family history of thrombophilia.",
+    "social_history": "Non-smoker. Occasional alcohol (1-2 drinks/week). Works as a graphic designer (prolonged sitting). Returned from 14-hour flight from Sydney 2 days ago. Not pregnant. Sexually active.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "118 bpm, regular",
+      "bp": "106/68 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "88% on room air, 92% on 4L nasal cannula",
+      "weight_bmi": "BMI 23 kg/m²"
+    },
+    "physical_exam": "General: Anxious, diaphoretic, visibly tachypneic, speaking in short phrases. HEENT: Normal. Neck: Mild JVD at 45°. Cardiovascular: Tachycardic, regular rhythm; loud P2 on auscultation; right ventricular heave palpable at the left sternal border; no murmurs. Pulmonary: Tachypneic; decreased breath sounds at the right base; no crackles or wheezing. Abdomen: Soft, non-tender, non-distended. Extremities: Right calf erythema, warmth, swelling, and tenderness on palpation; left calf normal. No peripheral edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "D-dimer",
+        "result": "4,820 ng/mL (FEU)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated D-dimer is highly sensitive for venous thromboembolism; in the context of high pre-test probability, warrants urgent cross-sectional vascular imaging."
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.18 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated troponin suggests right ventricular myocardial stress from pressure overload."
+      },
+      {
+        "test_name": "BNP",
+        "result": "310 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BNP reflects right ventricular wall stress and is a marker of right ventricular dysfunction."
+      },
+      {
+        "test_name": "WBC",
+        "result": "9.4 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC makes primary infectious etiology (e.g., pneumonia) less likely as the cause of acute hypoxia."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.1 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; anemia is not contributing to hypoxia."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "241 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; important baseline prior to anticoagulation."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "139 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; no metabolic disturbance contributing to the clinical picture."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important prior to contrast administration for CT-PA."
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.46, pO2 56 mmHg, pCO2 30 mmHg, HCO3 21 mEq/L, A-a gradient elevated at ~48 mmHg",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypoxemia with elevated A-a gradient and respiratory alkalosis indicate significant ventilation-perfusion mismatch with compensatory hyperventilation."
+      },
+      {
+        "test_name": "Beta-hCG",
+        "result": "< 5 mIU/mL (negative)",
+        "flag": "WNL",
+        "clinical_significance": "Negative pregnancy test rules out ectopic pregnancy and is required before CT with contrast in a woman of childbearing age; it also confirms anticoagulation is not contraindicated in pregnancy."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CT angiography (pulmonary)",
+        "result": "Large filling defect in the right main pulmonary artery extending into right lower lobe segmental arteries. RV:LV ratio >0.9 on axial cuts. Leftward bowing of the interventricular septum. Right lower lobe peripheral wedge-shaped opacity. No pneumothorax. No pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Filling defect in a main pulmonary artery with RV dilation and septal shift indicates significant right heart pressure overload."
+      },
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Subtle peripheral wedge-shaped opacity in the right lower lobe (Hampton's hump). Focal oligemia in the right lower lobe (Westermark sign). Mild right heart enlargement. No pneumothorax. No pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hampton's hump (wedge-shaped pleural-based opacity) and Westermark sign (focal oligemia) are classic but insensitive CXR findings associated with pulmonary infarction."
+      },
+      {
+        "test_name": "EKG/ECG",
+        "result": "Sinus tachycardia at 118 bpm. S wave in lead I, Q wave and T-wave inversion in lead III (S1Q3T3 pattern). T-wave inversions in V1-V4 consistent with right heart strain. Incomplete right bundle branch block. No ST-elevation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "S1Q3T3 pattern and right precordial T-wave inversions suggest acute right heart pressure overload."
+      },
+      {
+        "test_name": "Lower extremity Doppler ultrasound (bilateral)",
+        "result": "Non-compressible right popliteal and femoral veins consistent with acute proximal DVT. Left lower extremity veins fully compressible with normal flow.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Proximal leg vein non-compressibility confirms acute deep vein thrombosis — an important finding in the clinical context of acute cardiopulmonary symptoms."
+      }
+    ],
+    "key_tests": [
+      "CT angiography (pulmonary)",
+      "D-dimer",
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "BNP/NT-proBNP"
+    ],
+    "acceptable_tests": [
+      "ABG",
+      "CXR (PA/Lateral)",
+      "Beta-hCG",
+      "BMP",
+      "CBC with differential",
+      "Lower extremity Doppler ultrasound (bilateral)",
+      "Echocardiogram (transthoracic)",
+      "V/Q scan (if CT contraindicated)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis",
+      "Lipase",
+      "ANA / autoimmune panel",
+      "Sputum culture",
+      "Blood cultures",
+      "UA with microscopy",
+      "Thyroid function tests"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Transthoracic echocardiogram (POCUS) shows a dilated right ventricle with flattening of the interventricular septum (D-sign) and reduced RV systolic function, consistent with acute right ventricular pressure overload."
+  },
+  "debrief": {
+    "classic_presentation": "PE classically presents with the triad of dyspnea, chest pain (often pleuritic), and hemoptysis — though all three are present in fewer than 30% of cases. The combination of sudden-onset symptoms, hypoxia, tachycardia, and an identifiable risk factor (immobilization, OCP, surgery, malignancy, or thrombophilia) should immediately raise suspicion. Pleuritic pain and hemoptysis suggest pulmonary infarction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Virchow's triad (endothelial injury, stasis, hypercoagulability) underlies most PE. In this case, prolonged immobility during air travel combined with estrogen-containing OCP (which increases clotting factors II, VII, X, and fibrinogen while decreasing protein S) created a synergistic prothrombotic state. The DVT propagated proximally and embolized to the pulmonary vasculature. Obstruction of pulmonary arterial flow increases pulmonary vascular resistance, causing acute RV pressure overload. The RV dilates, shifts the interventricular septum leftward (D-sign), reduces LV preload, and can precipitate cardiogenic shock. Simultaneously, V/Q mismatch causes hypoxemia, and reflex tachypnea produces a respiratory alkalosis with elevated A-a gradient.",
+    "treatment_overview": "Risk stratify using the simplified PESI score or sPESI. Massive PE (hemodynamic instability) → systemic thrombolysis (tPA 100 mg IV over 2h) or catheter-directed therapy. Submassive PE (RV dysfunction, elevated biomarkers, hemodynamically stable) → anticoagulation with close monitoring; consider catheter-directed thrombolysis if deteriorating. Stable PE → anticoagulate with LMWH/UFH bridge to DOAC (e.g., rivaroxaban, apixaban) or warfarin. This patient (submassive PE) should receive therapeutic anticoagulation; discontinue OCP. Duration: 3 months for provoked PE. Thrombophilia workup after anticoagulation cessation.",
+    "high_yield_pearls": [
+      "The Wells PE score quantifies pre-test probability: PE more likely than alternate diagnosis (+3), signs/symptoms of DVT (+3), HR >100 (+1.5), immobilization ≥3 days or surgery in 4 weeks (+1.5), prior DVT/PE (+1.5), hemoptysis (+1), malignancy (+1). Score >4 = high probability → go directly to CT-PA.",
+      "D-dimer has high sensitivity (~95%) but low specificity; use it ONLY in low-to-moderate pre-test probability to RULE OUT PE (PERC rule first). Never use D-dimer to rule out PE in high-probability patients.",
+      "The S1Q3T3 ECG pattern is often cited but has only ~20% sensitivity for PE; sinus tachycardia and T-wave inversions in V1-V4 (right heart strain) are more common ECG findings.",
+      "OCP use combined with long-haul air travel (≥4 hours) multiplies PE risk approximately 20-fold compared to non-OCP users without travel.",
+      "RV:LV ratio >0.9 on CT-PA or echocardiography defines RV dysfunction and elevates the risk of early mortality in apparently hemodynamically stable (submassive) PE — this finding may prompt escalation of therapy."
+    ],
+    "sources": [
+      "UpToDate: Clinical presentation, evaluation, and diagnosis of the nonpregnant adult with suspected acute pulmonary embolism",
+      "UpToDate: Treatment, prognosis, and follow-up of acute pulmonary embolism in adults",
+      "Guideline: ESC 2019 Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism",
+      "Guideline: ACCP 2016 Antithrombotic Therapy for VTE Disease (CHEST Guideline)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pulmonary embolism",
+      "Pneumothorax",
+      "Acute MI / ACS",
+      "Pleuritis / viral pleurisy",
+      "Pneumonia",
+      "Musculoskeletal chest pain",
+      "Anxiety / panic attack",
+      "DVT without PE"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary embolism (long-haul flight, OCP, proximal DVT, sudden onset, hypoxia, tachycardia)",
+      "DVT without PE (right calf swelling and pain preceding cardiopulmonary symptoms)",
+      "Pleuritis (pleuritic chest pain, young woman, though less likely with hemodynamic compromise)"
+    ],
+    "after_stage2_less_likely": [
+      "Pneumothorax (no absent breath sounds unilaterally, no tracheal deviation, CXR findings more consistent with infarct)",
+      "Musculoskeletal pain (hemodynamic instability, hypoxia, and DVT signs cannot be explained by MSK etiology)",
+      "Anxiety/panic attack (objective hypoxia, tachycardia, and DVT signs exclude a purely functional diagnosis)"
+    ],
+    "after_labs_top3": [
+      "Pulmonary embolism (submassive, with RV strain)",
+      "DVT as source lesion (confirmed by Doppler)",
+      "Pleuritis with pulmonary infarction"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "case_id": "case_004",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "ST-elevation MI (STEMI)",
+  "icd_category": "I21.19 – ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+  "one_liner": "A 58-year-old male with DM2, HTN, and hyperlipidemia presents with 45 minutes of crushing substernal chest pain radiating to the jaw and left arm, with diaphoresis and nausea, not relieved by nitroglycerin.",
+  "stage2": {
+    "hpi_extension": "The patient was watching television when he developed sudden onset crushing substernal chest pressure that he rates 9/10, with radiation to the jaw and left arm. He is diaphoretic and nauseated, and has vomited once. He took three sublingual nitroglycerin tablets from his wife's supply over 15 minutes without any relief. He has never had chest pain like this before. He denies dyspnea, syncope, palpitations, back pain, or recent trauma.",
+    "pmh": "Type 2 diabetes mellitus (poorly controlled, most recent HbA1c 9.8%), Hypertension, Hyperlipidemia, Active smoker",
+    "surgical_history": "Right knee arthroscopy age 44",
+    "medications": "Metformin 1000 mg twice daily, Amlodipine 10 mg daily, Simvastatin 20 mg nightly (no aspirin, no beta-blocker)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of MI at age 62. Brother with coronary artery disease, stented at age 55.",
+    "social_history": "Works as a truck driver. Active smoker, 1 PPD × 30 years (30 pack-years). Denies alcohol or illicit drug use. Sedentary lifestyle. Diet high in processed foods.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "88 bpm, regular",
+      "bp": "148/92 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "BMI 31 kg/m²"
+    },
+    "physical_exam": "General: Obese male, markedly diaphoretic, pale, clutching his chest; in significant distress; speaking in full sentences. HEENT: Normal. Neck: No JVD at rest; carotid bruits absent. Cardiovascular: Regular rate and rhythm; S1 and S2 present; new S4 gallop heard at the apex; no murmurs or rubs; peripheral pulses 2+ bilaterally; no lower extremity edema. Pulmonary: Clear to auscultation bilaterally; no crackles. Abdomen: Obese, soft, non-tender, normoactive bowel sounds. Extremities: Warm, well-perfused; no edema; no peripheral cyanosis. Skin: Cool and clammy, diaphoresis throughout."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Troponin I (initial)",
+        "result": "2.8 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated initial troponin I confirms myocardial necrosis; in the context of ST-elevation on ECG, this is confirmatory of STEMI — do not wait for labs to activate the cath lab."
+      },
+      {
+        "test_name": "Troponin I (6-hour)",
+        "result": "18.4 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Rising troponin trajectory confirms evolving STEMI with ongoing myocardial necrosis; peak troponin correlates with infarct size."
+      },
+      {
+        "test_name": "WBC",
+        "result": "10.2 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC at presentation; leukocytosis may develop over hours as a post-MI inflammatory response — not indicative of infection at this stage."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "14.1 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; anemia is not contributing to myocardial demand ischemia."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "198 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; important baseline prior to dual antiplatelet therapy and anticoagulation for PCI."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; hypokalemia and hypomagnesemia would increase arrhythmia risk and must be corrected if present."
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.2 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal potassium; maintaining K+ in 4.0-5.0 mEq/L range reduces ventricular arrhythmia risk in the peri-MI period."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important for contrast dosing at cardiac catheterization and for post-PCI medication selection."
+      },
+      {
+        "test_name": "LDL Cholesterol",
+        "result": "148 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDL confirms dyslipidemia as a modifiable atherosclerotic risk factor; high-intensity statin therapy (atorvastatin 80 mg) should be initiated acutely."
+      },
+      {
+        "test_name": "Coagulation panel (PT/INR/PTT)",
+        "result": "PT 11.2 sec, INR 1.0, PTT 29 sec",
+        "flag": "WNL",
+        "clinical_significance": "Normal baseline coagulation parameters; essential before anticoagulation with heparin and dual antiplatelet therapy for PCI."
+      },
+      {
+        "test_name": "Glucose (point-of-care)",
+        "result": "218 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperglycemia at presentation is common in acute MI due to catecholamine stress response and underlying DM2; associated with worse outcomes; target glucose 140-180 mg/dL in the acute setting."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "EKG/ECG",
+        "result": "Sinus rhythm at 88 bpm. ST elevations of 2-3 mm in leads II, III, and aVF consistent with inferior STEMI. Reciprocal ST depressions in leads I and aVL. ST depression of 1-2 mm in leads V1-V2 suggesting concurrent posterior MI involvement. No complete heart block. No atrial fibrillation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Inferior ST elevations in II/III/aVF with reciprocal changes in I/aVL is the diagnostic ECG pattern of inferior STEMI from RCA occlusion; ST depression in V1-V2 suggests posterior wall involvement."
+      },
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Mild cardiomegaly. No pulmonary vascular redistribution. No pleural effusion. No pneumothorax. No mediastinal widening. Aortic knob calcification noted.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cardiomegaly suggests pre-existing hypertensive heart disease; absence of pulmonary edema indicates the LV is still compensating acutely — this may change rapidly."
+      },
+      {
+        "test_name": "Echocardiogram (transthoracic — bedside)",
+        "result": "Inferior and posterior wall hypokinesis. Estimated LVEF 40-45%. Right ventricular wall motion normal. No pericardial effusion. No significant valvular abnormality. No aortic root dilation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Inferior/posterior wall hypokinesis with reduced LVEF confirms the territory of infarction and helps risk-stratify the patient; preserved RV function suggests right-heart involvement is not dominant."
+      }
+    ],
+    "key_tests": [
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "CBC with differential",
+      "BMP",
+      "Coagulation panel (PT/INR/PTT)"
+    ],
+    "acceptable_tests": [
+      "Lipid panel",
+      "Echocardiogram (transthoracic)",
+      "CXR (PA/Lateral)",
+      "HbA1c",
+      "Glucose (point-of-care)",
+      "LFTs (if statin use / hepatic congestion concern)",
+      "Magnesium",
+      "Urinalysis",
+      "BNP/NT-proBNP"
+    ],
+    "low_yield_tests": [
+      "CT chest (delays cath lab activation)",
+      "CT angiography (aorta) — unless dissection strongly suspected",
+      "D-dimer",
+      "Blood cultures",
+      "ANA panel",
+      "Thyroid function tests",
+      "Urine drug screen (unless cocaine use suspected)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Right-sided ECG leads (V4R) obtained per protocol show >1 mm ST elevation in V4R, confirming right ventricular involvement — this changes management by contraindicating nitrates and diuretics."
+  },
+  "debrief": {
+    "classic_presentation": "Inferior STEMI classically presents with crushing substernal chest pain radiating to the jaw or left arm, diaphoresis, nausea/vomiting, and ST elevations in leads II, III, and aVF with reciprocal changes in I and aVL. The RCA supplies the inferior wall in ~80% of patients (right-dominant circulation) and often the posterior wall (via the posterior descending artery). RV involvement from the RCA is critical to identify, as it changes management.",
+    "attending_mode_notes": null,
+    "pathophysiology": "STEMI occurs when an atherosclerotic plaque ruptures, exposing subendothelial collagen and triggering platelet aggregation and thrombus formation. The resulting complete occlusion of a coronary artery causes transmural ischemia progressing to infarction within 20-40 minutes if perfusion is not restored. In inferior STEMI, the right coronary artery (RCA) is occluded in ~80% of cases. The RCA supplies the inferior wall, posterior wall (via PDA), AV node (in 90% of patients), and the right ventricle — explaining the common complications of AV nodal block, right heart failure, and hypotension. Reperfusion injury (calcium overload, oxidative stress) can paradoxically worsen myocardial damage when blood flow is restored.",
+    "treatment_overview": "Activate cath lab immediately upon ECG diagnosis — door-to-balloon time target <90 minutes. Pre-procedural therapy: aspirin 325 mg PO loading dose, P2Y12 inhibitor (ticagrelor 180 mg or clopidogrel 600 mg), anticoagulation (UFH or bivalirudin). Primary PCI is the preferred reperfusion strategy. If PCI unavailable within 120 minutes, fibrinolytic therapy (tenecteplase, alteplase) should be considered. Post-PCI: dual antiplatelet therapy ×12 months, high-intensity statin (atorvastatin 80 mg), ACE inhibitor/ARB, beta-blocker (once hemodynamically stable), aldosterone antagonist if LVEF ≤40% with HF or DM. RV infarction: avoid nitrates and diuretics; use aggressive IV fluid resuscitation to maintain RV preload.",
+    "high_yield_pearls": [
+      "Always obtain right-sided ECG leads (V3R/V4R) in all inferior STEMIs — >1 mm ST elevation in V4R confirms RV infarction (present in ~40% of inferior MI) and contraindicates nitrates, diuretics, and morphine (preload reduction worsens RV failure).",
+      "Reciprocal ST depressions in I/aVL in the setting of inferior ST elevations are highly specific for inferior STEMI and should not be misinterpreted as a primary ischemic event in the lateral leads.",
+      "ST depression in V1-V2 (especially with upright T waves) in the context of inferior STEMI suggests posterior wall involvement; confirm with posterior leads V7-V9 (ST elevation ≥0.5 mm in V7-V9 is diagnostic).",
+      "Do NOT wait for troponin results to activate the cath lab in STEMI — the ECG alone is sufficient. Every 30 minutes of door-to-balloon delay increases 1-year mortality by approximately 7.5%.",
+      "The new S4 gallop heard in this patient reflects a stiff, non-compliant left ventricle from ischemia — it is a common early finding in acute MI and differs from the S3 of decompensated heart failure."
+    ],
+    "sources": [
+      "UpToDate: Overview of the acute management of ST-elevation myocardial infarction",
+      "UpToDate: Right ventricular myocardial infarction",
+      "Guideline: ACC/AHA 2022 Guideline for the Management of Patients with ST-Elevation Myocardial Infarction",
+      "Guideline: ESC 2023 Guidelines for the Management of Acute Myocardial Infarction in Patients Presenting with ST-Segment Elevation"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "ST-elevation MI (STEMI)",
+      "Non-ST-elevation MI (NSTEMI)",
+      "Unstable angina",
+      "Aortic dissection",
+      "Pericarditis",
+      "Pulmonary embolism (PE)",
+      "Gastroesophageal reflux disease (GERD)",
+      "Myocarditis"
+    ],
+    "after_stage2_more_likely": [
+      "STEMI (multiple major risk factors, crushing pain with radiation, diaphoresis, nausea, no NTG relief, new S4 gallop)",
+      "Non-ST-elevation MI (NSTEMI) (cannot exclude without ECG and troponins, though pattern favors STEMI)",
+      "Aortic dissection (hypertension, anterior chest pain with radiation — must be excluded rapidly)"
+    ],
+    "after_stage2_less_likely": [
+      "Pericarditis (typically sharp positional pleuritic pain, friction rub, diffuse ST elevation with PR depression — not crushing and unilateral)",
+      "GERD / esophageal spasm (cannot account for diaphoresis, hemodynamic findings, or radiation to jaw and left arm)",
+      "Pulmonary embolism (no dyspnea, no hypoxia, no DVT symptoms, no immobilization history)"
+    ],
+    "after_labs_top3": [
+      "Inferior STEMI from RCA occlusion (II/III/aVF ST elevations, reciprocal I/aVL changes, troponin 2.8)",
+      "Posterior MI as concurrent territory (V1-V2 ST depression, posterior lead confirmation required)",
+      "RV infarction as complication (V4R ST elevation — alters management)"
+    ]
+  }
+}

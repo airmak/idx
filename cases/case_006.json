@@ -1,0 +1,174 @@
+{
+  "case_id": "case_006",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Addison disease (primary adrenal insufficiency)",
+  "icd_category": "E27.1 – Primary adrenocortical insufficiency",
+  "one_liner": "A 41-year-old woman presents with 4 months of progressive fatigue, unexplained weight loss, nausea, and dizziness that worsens when she stands.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 4-month history of worsening fatigue so severe she has difficulty completing her workday, accompanied by a 12-lb unintentional weight loss, daily nausea (occasionally with vomiting), and episodic lightheadedness that is consistently worse upon standing. She denies chest pain, dyspnea, or palpitations. She has no focal neurologic symptoms, melena, or hematochezia, and has not had diarrhea or constipation. She was started on sertraline 6 weeks ago by her PCP for presumed depression, with minimal improvement in her energy or mood.",
+    "pmh": "Major depressive disorder (newly diagnosed, 6 weeks ago); type 1 diabetes mellitus (diagnosed age 14, on insulin pump); Hashimoto thyroiditis (diagnosed 5 years ago, currently euthyroid on levothyroxine); no prior hospitalizations for adrenal-related illness",
+    "surgical_history": "Appendectomy at age 22 (uncomplicated)",
+    "medications": "Sertraline 50mg daily (6 weeks); levothyroxine 88mcg daily; insulin pump (basal-bolus regimen); occasional ibuprofen for headaches",
+    "allergies": "Penicillin (rash)",
+    "family_history": "Mother with rheumatoid arthritis; sister with Graves disease; father with type 2 diabetes mellitus; no known family history of adrenal disease or malignancy",
+    "social_history": "Works as a middle school teacher; married with two children; denies tobacco or illicit drug use; rare alcohol use (1-2 drinks per month); notes she has been spending more time outdoors on weekends recently, which she attributes to her slightly darker skin tone; denies recent travel or sick contacts",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "98 bpm (resting, regular)",
+      "bp": "102/64 mmHg (seated); 88/58 mmHg (standing at 1 minute — orthostatic drop >20 mmHg systolic)",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "54 kg (119 lbs); BMI 20.1 (down from BMI 22.6 four months ago per PCP records)"
+    },
+    "physical_exam": "General: Thin, tired-appearing woman in no acute distress; mildly flat affect but engaged and cooperative. Skin: Diffuse tan-brown hyperpigmentation of sun-exposed areas; on closer inspection, hyperpigmentation is also present on the buccal mucosa, gingival margins, palmar creases, and over the knuckles — patient attributes this to outdoor activity. HEENT: Mild temporal wasting; no thyromegaly or lymphadenopathy. Cardiovascular: Heart rate 98, regular; no murmurs; JVP flat even in supine position; capillary refill 2 seconds. Abdomen: Soft, mild diffuse tenderness without guarding; no hepatosplenomegaly. Neurologic: Alert and oriented x3; mild proximal muscle weakness noted on hip flexor testing (4/5 bilaterally); no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "BMP",
+        "result": "Na 131 mEq/L, K 5.6 mEq/L, Cl 98 mEq/L, HCO3 21 mEq/L, BUN 22 mg/dL, Cr 0.9 mg/dL, Glucose 68 mg/dL, Ca 9.1 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia (131) and hyperkalemia (5.6) reflect aldosterone deficiency with renal sodium wasting and potassium retention; mild hypoglycemia (68) reflects cortisol deficiency impairing gluconeogenesis; HCO3 mildly low consistent with mild non-gap metabolic acidosis from aldosterone loss"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.2 k/uL with eosinophilia 6% (absolute eosinophil count 432/uL — HIGH); Hgb 10.8 g/dL (LOW); MCV 88 fL (normocytic); Hct 32.4%; Platelets 198 k/uL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Normocytic anemia is consistent with chronic disease/cortisol deficiency; eosinophilia is a classic but often-overlooked finding in primary adrenal insufficiency — cortisol normally suppresses eosinophils, so its absence leads to eosinophilia"
+      },
+      {
+        "test_name": "TSH/Free T4",
+        "result": "TSH 2.1 mIU/L (WNL); Free T4 1.1 ng/dL (WNL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function rules out hypothyroidism as the primary driver of fatigue and weight changes; however, patient's autoimmune thyroid history (Hashimoto) raises concern for polyglandular autoimmune syndrome type II (Schmidt syndrome), which includes Addison + autoimmune thyroid disease"
+      },
+      {
+        "test_name": "LDH",
+        "result": "188 U/L (WNL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal LDH makes hemolytic anemia and lymphoma less likely as causes of the clinical picture"
+      },
+      {
+        "test_name": "ESR",
+        "result": "42 mm/hr (HIGH — normal <20 mm/hr for age/sex)",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ESR reflects background autoimmune inflammatory activity; non-specific but consistent with autoimmune etiology; not diagnostic alone"
+      },
+      {
+        "test_name": "CRP",
+        "result": "18 mg/L (HIGH — normal <10 mg/L)",
+        "flag": "HIGH",
+        "clinical_significance": "Mild CRP elevation supports an inflammatory or autoimmune process; does not distinguish adrenal from other autoimmune etiologies"
+      },
+      {
+        "test_name": "ANA",
+        "result": "ANA 1:80 (speckled pattern — low titer)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-titer ANA can be seen in polyglandular autoimmune syndromes; does not meet criteria for SLE; however, it further supports autoimmune background and prompted unnecessary rheumatology referral in this case"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 28 U/L, ALT 32 U/L, ALP 72 U/L, Total bilirubin 0.8 mg/dL, Albumin 3.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function tests argue against hepatic malignancy, viral hepatitis, or celiac-related hepatopathy as the cause; reassuring in the context of weight loss workup"
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CT abdomen/pelvis (w/ or w/o contrast)",
+        "result": "Bilateral adrenal glands are small and atrophic; no adrenal mass, calcification, or hemorrhage identified; no lymphadenopathy; no abdominal or pelvic mass; liver, spleen, pancreas, and kidneys appear normal",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small, atrophic adrenal glands are characteristic of autoimmune Addison disease (as opposed to enlarged or calcified glands seen in TB, histoplasmosis, or metastatic disease); this finding, combined with 21-hydroxylase antibodies, confirms autoimmune primary adrenal insufficiency"
+      },
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "No acute cardiopulmonary process; heart size normal; lung fields clear; no mediastinal widening; no pleural effusions",
+        "flag": "WNL",
+        "clinical_significance": "Normal chest X-ray makes pulmonary TB, malignancy with pulmonary involvement, and heart failure unlikely contributors; in infectious/granulomatous adrenal insufficiency (TB, fungal), CXR may show primary pulmonary lesions"
+      },
+      {
+        "test_name": "EKG/ECG",
+        "result": "Sinus tachycardia at 98 bpm; peaked T-waves in leads V3-V5 (subtle); PR interval 0.19 sec; QRS narrow; no ST changes",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subtle peaked T-waves are consistent with mild hyperkalemia (K 5.6 mEq/L) from aldosterone deficiency; clinical significance is the cardiac risk of worsening hyperkalemia if diagnosis is missed and condition progresses toward adrenal crisis"
+      }
+    ],
+    "key_tests": [
+      "BMP",
+      "CBC with differential",
+      "TSH/Free T4",
+      "ANA",
+      "ESR",
+      "CRP",
+      "LDH",
+      "LFTs",
+      "EKG/ECG",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "CXR (PA/Lateral)"
+    ],
+    "acceptable_tests": [
+      "Ferritin/Iron studies",
+      "Coagulation panel (PT/INR/PTT)",
+      "UA with microscopy",
+      "Blood cultures x2"
+    ],
+    "low_yield_tests": [
+      "Lipase",
+      "Amylase",
+      "PSA",
+      "Beta-hCG",
+      "Mammogram"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Review of the patient's old photos from 18 months ago shows noticeably lighter skin tone compared to her current appearance; her gingival mucosa and palmar creases are also notably hyperpigmented on closer exam. Furthermore, a repeat fasting morning cortisol drawn at 8 AM returns critically low at 3.2 mcg/dL (normal >18 mcg/dL), and a subsequent cosyntropin (ACTH) stimulation test shows a baseline ACTH of 890 pg/mL (markedly elevated) with cortisol failing to rise above 15 mcg/dL at 60 minutes — confirming primary adrenal insufficiency. Anti-21-hydroxylase antibodies return strongly positive."
+  },
+  "debrief": {
+    "classic_presentation": "Classic Addison disease presents in a young to middle-aged woman with fatigue, weight loss, hyperpigmentation of sun-exposed areas and mucosal surfaces, salt craving, nausea/vomiting, orthostatic hypotension, hyponatremia, hyperkalemia, and hypoglycemia. The diagnosis is often delayed 1-2 years because symptoms are vague and overlap with depression, eating disorders, and hypothyroidism. Adrenal crisis (hypotension, shock, vomiting) is a life-threatening emergency that can be precipitated by physiologic stressors such as infection, surgery, or trauma.",
+    "attending_mode_notes": "This case was designed to test recognition of subtle Addison disease obscured by a legitimate psychiatric comorbidity. Key misleading elements: (1) The patient's depression was real — sertraline had been started — making it tempting to attribute all symptoms to MDD. (2) Hyperpigmentation was present but subtle, and the patient provided a plausible alternative explanation (outdoor sun exposure). (3) The electrolyte abnormalities (Na 131, K 5.6) were mild and easily attributed to 'dehydration from poor oral intake' in a depressed patient. (4) The existing autoimmune thyroid history and low-titer ANA created noise, tempting a rheumatology workup. (5) No adrenal crisis trigger was present, which is common in insidious autoimmune Addison — the absence of a 'trigger' should not reduce suspicion when other features are present. The critical teaching point: any patient with unexplained fatigue + hyponatremia + hyperkalemia + orthostatic hypotension should have an AM cortisol checked, even with an established psychiatric diagnosis.",
+    "pathophysiology": "Autoimmune destruction of all three zones of the adrenal cortex (zona glomerulosa, fasciculata, and reticularis) leads to deficiency of all three adrenal steroid classes: aldosterone, cortisol, and adrenal androgens. Aldosterone deficiency causes sodium wasting (hyponatremia), potassium retention (hyperkalemia), and volume depletion (orthostatic hypotension). Cortisol deficiency impairs gluconeogenesis (hypoglycemia), reduces vascular tone, and impairs the stress response. Loss of cortisol-mediated negative feedback on the hypothalamic-pituitary axis causes marked elevation of ACTH and related pro-opiomelanocortin (POMC) peptides. ACTH and alpha-MSH stimulate melanocortin-1 receptors (MC1R) on melanocytes, causing hyperpigmentation in sun-exposed areas, mucous membranes, palmar creases, and pressure points. In developed countries, 70-90% of primary adrenal insufficiency is autoimmune; anti-21-hydroxylase antibodies are present in 80-90% of autoimmune cases and confirm the etiology. Autoimmune Addison is frequently part of polyglandular autoimmune syndrome type II (Schmidt syndrome: Addison + autoimmune thyroid disease and/or type 1 diabetes).",
+    "treatment_overview": "Acute: If adrenal crisis is suspected (hypotension, vomiting, altered mental status), administer IV hydrocortisone 100mg bolus immediately — do NOT delay for test results. Draw cortisol and ACTH before the first dose if possible, but never delay treatment for a critically ill patient. Chronic replacement: Hydrocortisone 15-25 mg/day in 2-3 divided doses (largest in morning to mimic diurnal rhythm, e.g., 10mg AM + 5mg early afternoon) is preferred over dexamethasone or prednisone for more physiologic dosing. Fludrocortisone 0.05-0.1 mg/day replaces aldosterone (titrate to normalize electrolytes and blood pressure). Stress dosing: Patients must double or triple their hydrocortisone dose during febrile illness, injury, or procedures ('sick day rules'). A MedicAlert bracelet and injectable hydrocortisone 100mg emergency kit (for self-administration or EMS) are mandatory. Annual monitoring: electrolytes, blood pressure, bone density (long-term steroid use), and screening for associated autoimmune conditions (thyroid, T1DM, celiac, vitiligo).",
+    "high_yield_pearls": [
+      "Eosinophilia on CBC in a fatigued patient with electrolyte abnormalities is a subtle but classic clue to primary adrenal insufficiency — cortisol normally suppresses eosinophils.",
+      "The AM cortisol is the best screening test: <3 mcg/dL is diagnostic, >18 mcg/dL rules out adrenal insufficiency; values 3-18 mcg/dL require cosyntropin (ACTH) stimulation test for confirmation.",
+      "HIGH ACTH + LOW cortisol = primary adrenal insufficiency (adrenal gland is the problem); LOW ACTH + LOW cortisol = secondary/tertiary (pituitary or hypothalamic). This distinction is critical because hyperpigmentation only occurs in primary AI (ACTH elevation).",
+      "Autoimmune Addison is associated with Polyglandular Autoimmune Syndrome type II (Schmidt syndrome): Addison + Hashimoto/Graves + Type 1 DM. Screen for all three when one is diagnosed.",
+      "Never give fludrocortisone alone without glucocorticoid replacement — and never forget that during an adrenal crisis, IV saline + IV hydrocortisone is lifesaving within minutes."
+    ],
+    "sources": [
+      "UpToDate: Clinical manifestations of adrenal insufficiency in adults",
+      "UpToDate: Diagnosis of adrenal insufficiency in adults",
+      "UpToDate: Treatment of adrenal insufficiency in adults",
+      "Guideline: Endocrine Society 2016 Clinical Practice Guideline on Diagnosis and Treatment of Primary Adrenal Insufficiency",
+      "UpToDate: Causes of primary adrenal insufficiency (Addison disease)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Addison disease (primary adrenal insufficiency)",
+      "Hypothyroidism",
+      "Major depressive disorder",
+      "Malignancy with paraneoplastic syndrome",
+      "Anorexia nervosa",
+      "Celiac disease",
+      "Chronic fatigue syndrome",
+      "Panhypopituitarism (secondary adrenal insufficiency)"
+    ],
+    "after_stage2_more_likely": [
+      "Addison disease (primary adrenal insufficiency) — orthostatic hypotension, subtle hyperpigmentation, electrolyte pattern, autoimmune history",
+      "Hypothyroidism — fatigue, weight changes, autoimmune thyroid history (Hashimoto), though TSH is normal",
+      "Malignancy — unintentional 12-lb weight loss, fatigue, elevated inflammatory markers require exclusion"
+    ],
+    "after_stage2_less_likely": [
+      "Anorexia nervosa — patient denies restrictive eating behaviors; weight loss appears involuntary",
+      "Depression alone — somatic symptoms (orthostatic hypotension, electrolyte abnormalities) exceed what MDD explains",
+      "Chronic fatigue syndrome — a diagnosis of exclusion; objective electrolyte abnormalities and orthostasis point to an organic etiology"
+    ],
+    "after_labs_top3": [
+      "Addison disease (primary adrenal insufficiency) — AM cortisol critically low (3.2 mcg/dL), ACTH markedly elevated, positive 21-hydroxylase antibodies, atrophic adrenals on CT",
+      "Panhypopituitarism — must remain on DDx until ACTH elevation confirmed (high ACTH rules this out; in secondary AI, ACTH would be LOW)",
+      "Hypothyroidism — remains on list until cosyntropin stimulation test confirms adrenal axis; euthyroid currently but warrants monitoring given Schmidt syndrome risk"
+    ]
+  }
+}

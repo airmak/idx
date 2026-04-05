@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: idx
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app --bind 0.0.0.0:$PORT --workers 2
+    envVars:
+      - key: FLASK_SECRET_KEY
+        generateValue: true
+      - key: FLASK_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false
+    disk:
+      name: idx-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

@@ -1,0 +1,179 @@
+{
+  "case_id": "case_010",
+  "mode": "attending",
+  "specialty": "Nephrology / Internal Medicine",
+  "diagnosis": "Rhabdomyolysis",
+  "icd_category": "M62.82 – Rhabdomyolysis; N17.0 – Acute kidney failure with tubular necrosis",
+  "one_liner": "A 32-year-old man presents with 5 days of diffuse muscle pain and fatigue, noted incidentally to have dark urine when asked about it during the visit.",
+  "stage2": {
+    "hpi_extension": "The patient describes 5 days of progressive, severe diffuse myalgias involving his thighs, calves, and upper arms, along with profound fatigue and generalized weakness. He attributes the muscle pain entirely to his recent 'intense workouts' at the gym, which he increased 3 weeks ago. He initially did not mention his urine color until directly asked, at which point he acknowledges his urine has appeared 'dark brown, like cola or iced tea' since symptom onset — he assumed this was dehydration from exercising. He denies dysuria, hematuria visible without provocation, flank pain, or prior episodes of similar symptoms. He has not had fever, rash, or recent illness. He completed a 10-day course of clarithromycin for bacterial sinusitis, finishing 5 days ago.",
+    "pmh": "Hyperlipidemia (newly diagnosed 4 weeks ago — LDL 188 mg/dL on fasting lipid panel); no prior kidney disease; no thyroid disease; no inflammatory muscle disease; no prior muscle complaints; no rhabdomyolysis history",
+    "surgical_history": "No prior surgeries; no prior invasive procedures",
+    "medications": "Atorvastatin 40mg daily (started 3 weeks ago for newly diagnosed hyperlipidemia); clarithromycin 500mg BID x10 days (completed 5 days ago, prescribed by urgent care for sinusitis); ibuprofen 400-600mg BID PRN for muscle soreness (using for 4 days)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with myocardial infarction at age 52 (hyperlipidemia); mother healthy; no family history of muscle disease, malignant hyperthermia, or metabolic myopathy; no family history of kidney disease",
+    "social_history": "Software developer; single; non-smoker; drinks 4-5 beers on weekends (no alcohol in past 5 days); denies illicit drug use, anabolic steroid use, or cocaine use; recently increased gym sessions from 3x to 6x per week ('going hard on leg day'); lives alone in an apartment; no crush injury, prolonged immobilization, or seizures; no recent extreme heat exposure; normal dietary intake",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "94 bpm",
+      "bp": "142/88 mmHg (elevated — likely related to pain and AKI-related volume shifts)",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "82 kg; BMI 27"
+    },
+    "physical_exam": "General: Young man appearing uncomfortable due to myalgias; mild distress with movement; no acute cardiorespiratory distress. Skin: No rash, no malar erythema, no heliotrope rash, no Gottron papules. Musculoskeletal: Marked diffuse tenderness to palpation of bilateral quadriceps, hamstrings, and gastrocnemii; palpable firmness and induration in bilateral thigh compartments; no focal swelling or erythema suggesting compartment syndrome; bilateral grip strength 4/5 (reduced from pain); passive range of motion intact in all extremities; no Gowers sign. Cardiovascular: Regular rate and rhythm; no murmurs; mild peripheral edema (1+ bilateral lower extremity pitting edema, new). Neurologic: Alert and oriented x3; sensation intact; reflexes 2+ and symmetric; no focal deficits. Renal: Mild bilateral costovertebral angle tenderness to percussion. Urine sample collected in the room: visibly dark brown, cola-colored."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "BMP",
+        "result": "Na 138 mEq/L, K 6.2 mEq/L (HIGH), Cl 102 mEq/L, HCO3 18 mEq/L (LOW), BUN 42 mg/dL (HIGH), Cr 3.8 mg/dL (HIGH — estimated baseline 0.9 mg/dL per PCP records 4 weeks ago), Glucose 92 mg/dL, Ca 6.8 mg/dL (LOW)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute kidney injury (Cr 3.8 from baseline 0.9 — 4-fold rise, Stage 3 KDIGO AKI); hyperkalemia (K 6.2) from massive cell lysis releasing intracellular potassium — cardiac risk; hypocalcemia (Ca 6.8) from calcium deposition into necrotic muscle tissue (early phase of rhabdomyolysis); low bicarbonate (18) indicates high anion gap metabolic acidosis (AG = 138-102-18 = 18 — elevated, normal <12) from lactic acid and organic acid release from muscle breakdown; this constellation is the classic metabolic fingerprint of rhabdomyolysis with AKI"
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "Color: dark brown (cola-colored); Specific gravity 1.028 (HIGH — concentrated); pH 5.5; Protein 2+ (ABNORMAL); Blood 3+ on dipstick (ABNORMAL); Microscopy: RBCs 0-2/hpf (WNL — normal); Granular casts present (pigmented, muddy-brown granular casts); WBCs 2-3/hpf; no bacteria; no RBC casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "THIS IS THE DIAGNOSTIC TRAP: The dipstick reads 3+ 'blood' but microscopy shows only 0-2 RBCs/hpf — this discordance (dipstick positive, microscopy negative for RBCs) is pathognomonic for myoglobinuria. Myoglobin cross-reacts with the heme-peroxidase reaction on dipstick, producing a false-positive blood reading. Pigmented (muddy-brown) granular casts indicate acute tubular necrosis (ATN) from myoglobin-induced tubular injury. This finding immediately establishes the diagnosis when coupled with the clinical picture."
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 380 U/L (HIGH — normal <40 U/L); ALT 220 U/L (HIGH — normal <56 U/L); ALP 88 U/L (WNL); Total bilirubin 1.0 mg/dL (WNL); Albumin 3.8 g/dL (WNL); GGT 28 U/L (WNL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CRITICAL TRAP: AST and ALT are markedly elevated, but ALP, GGT, and bilirubin are normal — this pattern indicates the source is MUSCLE, not liver. AST is found in both liver and skeletal muscle; ALT is predominantly hepatic but can rise in massive rhabdomyolysis; normal ALP and GGT rule out cholestatic or hepatocellular liver injury. The elevated transaminases in rhabdomyolysis can be confused for hepatitis or drug-induced liver injury (DILI from statins) — the CK will be disproportionately elevated relative to the transaminases."
+      },
+      {
+        "test_name": "LDH",
+        "result": "1,240 U/L (HIGH — normal 140-280 U/L)",
+        "flag": "HIGH",
+        "clinical_significance": "LDH is markedly elevated from massive muscle cell lysis; LDH is found in skeletal muscle, liver, red blood cells, and cardiac myocytes; in the context of rhabdomyolysis, the elevation is expected and confirms widespread cell lysis"
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "11.2 mg/dL (HIGH — normal 3.5-7.2 mg/dL for males)",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperuricemia from massive purine release due to nucleic acid breakdown during myocyte lysis; uric acid can precipitate in renal tubules in an acidic urine environment (urine pH 5.5 here), worsening AKI via uric acid nephropathy — a secondary contributing mechanism to myoglobin-induced ATN"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 11.2 k/uL (mildly elevated — stress response); neutrophils 72%; Hgb 14.8 g/dL (WNL); Hct 44%; Platelets 198 k/uL; no eosinophilia; no blasts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild leukocytosis is a stress response to muscle injury and AKI; normal platelet count and absence of microangiopathic changes argues against HUS/TTP; normal hemoglobin makes hemolytic processes less likely as the primary cause of the dark urine"
+      },
+      {
+        "test_name": "BNP/NT-proBNP",
+        "result": "BNP 88 pg/mL (WNL — normal <100 pg/mL)",
+        "flag": "WNL",
+        "clinical_significance": "Near-normal BNP is reassuring against significant fluid overload or cardiac failure at this time; however, aggressive IV fluid resuscitation required for rhabdomyolysis may precipitate volume overload — serial BNP monitoring during treatment will be warranted if oliguria persists"
+      },
+      {
+        "test_name": "EKG/ECG",
+        "result": "Sinus tachycardia at 96 bpm; peaked, narrow-based T-waves in leads V2-V5 and inferior leads (HIGH — consistent with hyperkalemia K 6.2 mEq/L); PR interval 0.20 sec (borderline prolonged); QRS 0.10 sec (WNL); no sine-wave pattern; no AV block",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Peaked T-waves on EKG in the setting of K 6.2 mEq/L represent hyperkalemia-associated cardiac toxicity — this is an immediate priority requiring IV calcium gluconate for cardiac membrane stabilization and definitive treatment to lower serum potassium. Failure to perform an EKG in a hyperkalemic patient is a critical management error."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "No acute cardiopulmonary process; heart size normal; lung fields clear; no pleural effusions; no pulmonary vascular congestion",
+        "flag": "WNL",
+        "clinical_significance": "Normal CXR confirms no pulmonary edema at presentation; critical baseline before initiating high-volume IV fluid resuscitation (target 200-300 mL/hr); serial CXR should be performed during fluid resuscitation to detect iatrogenic pulmonary edema, particularly if the patient becomes oliguric"
+      },
+      {
+        "test_name": "Ultrasound abdomen/pelvis",
+        "result": "Kidneys: Right kidney 11.2 cm, left kidney 11.0 cm — normal size; increased renal cortical echogenicity bilaterally (ABNORMAL — consistent with ATN/medical renal disease); no hydronephrosis; no urolithiasis; no perinephric fluid; no obstruction of collecting systems; bladder partially filled; no pelvic abnormality",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Increased renal echogenicity bilaterally is consistent with acute tubular necrosis (ATN) — the kidneys 'look bright' due to cellular swelling and interstitial edema in the tubules. The absence of hydronephrosis and no obstruction effectively rules out postrenal (obstructive) AKI. Normal kidney size argues against chronic kidney disease. This finding directs toward intrinsic renal AKI (ATN from myoglobin)."
+      },
+      {
+        "test_name": "CT abdomen/pelvis (w/ or w/o contrast)",
+        "result": "Non-contrast study performed given AKI and concern for contrast nephropathy: No abdominal or pelvic mass; no retroperitoneal lymphadenopathy; liver and spleen normal; no nephrolithiasis; bilateral kidneys appear slightly enlarged with diffuse cortical edema; no renal artery/vein pathology identified; no peritoneal findings; no compartment syndrome on CT imaging (bilateral leg soft tissue appears diffusely edematous but without compartment pressure findings)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT without contrast (contraindicated given Cr 3.8) confirms no obstruction, no renal artery pathology, and no alternative cause for AKI. Diffuse bilateral renal cortical edema is consistent with ATN. The decision to avoid IV contrast is appropriate — iodinated contrast in established AKI risks worsening contrast-induced AKI (though this risk is debated in patients already in ATN); clinical management requires weighing diagnostic benefit against nephrotoxic risk."
+      }
+    ],
+    "key_tests": [
+      "BMP",
+      "UA with microscopy",
+      "LFTs",
+      "LDH",
+      "Uric acid",
+      "CBC with differential",
+      "EKG/ECG",
+      "BNP/NT-proBNP",
+      "CXR (PA/Lateral)",
+      "Ultrasound abdomen/pelvis",
+      "CT abdomen/pelvis (w/ or w/o contrast)"
+    ],
+    "acceptable_tests": [
+      "Coagulation panel (PT/INR/PTT)",
+      "Blood smear",
+      "Ferritin/Iron studies",
+      "Troponin I/T (serial)",
+      "ABG",
+      "Lactate"
+    ],
+    "low_yield_tests": [
+      "MRI brain (w/ or w/o contrast)",
+      "CT head (w/ or w/o contrast)",
+      "Lipase",
+      "Amylase",
+      "TSH/Free T4",
+      "PSA",
+      "Blood cultures x2"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A hospital pharmacist calls to flag a drug interaction alert: clarithromycin (a potent CYP3A4 inhibitor) was prescribed concurrently with atorvastatin (a CYP3A4 substrate). During the 10-day course of clarithromycin, hepatic CYP3A4-mediated metabolism of atorvastatin was inhibited, resulting in plasma atorvastatin concentrations estimated at 5-10 times above therapeutic levels. The CK result (ordered as part of extended metabolic evaluation) returns markedly elevated at 42,800 U/L (normal <200 U/L) — confirming rhabdomyolysis. The dipstick-positive, microscopy-negative hematuria pattern (3+ blood, 0-2 RBCs/hpf) on UA with microscopy confirms myoglobinuria as the cause of cola-colored urine."
+  },
+  "debrief": {
+    "classic_presentation": "Classic rhabdomyolysis presents with the triad of myalgias, weakness, and dark (cola/tea-colored) urine. Causes include extreme exercise, crush injury, prolonged immobilization, seizures, alcohol/illicit drug use (cocaine, amphetamines), hyperthermia, inflammatory myopathies, metabolic myopathies, and drug-induced (statins, fibrates, antipsychotics). CK elevation >10,000 U/L is the diagnostic hallmark. UA dipstick shows 3+ 'blood' with 0-2 RBCs/hpf on microscopy — the discordance between dipstick and microscopy is pathognomonic for myoglobinuria. AKI occurs in up to 40% of rhabdomyolysis cases and is mediated by myoglobin-induced tubular toxicity, renal vasoconstriction, and tubular cast obstruction.",
+    "attending_mode_notes": "This case was constructed around the pharmacology trap of a CYP3A4 drug interaction — one of the highest-yield pharmacology questions on Step 2 and in clinical practice. Key misleading elements: (1) The patient attributed all symptoms to exercise — a completely plausible explanation that delays the clinical suspicion for drug-induced rhabdomyolysis. (2) Dark urine was volunteered ONLY when directly asked — students and clinicians must ask specifically about urine color in any patient with unexplained myalgias, particularly on statins. (3) The UA dipstick 3+ 'blood' with 0-2 RBCs on microscopy is the most commonly missed diagnostic trap in rhabdomyolysis; test-takers who order only a dipstick without microscopy will incorrectly conclude 'hematuria.' (4) The AST/ALT elevation tempts a hepatitis or statin-DILI workup — recognizing that AST is a MUSCLE enzyme (not just liver) and that normal GGT/ALP refutes hepatic origin is critical. (5) Ibuprofen use (NSAIDs) is an additional contributing nephrotoxic stressor in a patient with developing AKI from myoglobinuria — compound nephrotoxicity scenario. (6) The CYP3A4 interaction: atorvastatin, lovastatin, and simvastatin are CYP3A4 substrates; clarithromycin, itraconazole, ketoconazole, ritonavir, and grapefruit juice are potent CYP3A4 inhibitors — co-administration causes 5-15x plasma statin levels.",
+    "pathophysiology": "Atorvastatin is metabolized in the liver by cytochrome P450 3A4 (CYP3A4). Clarithromycin is a potent competitive inhibitor of CYP3A4, reducing hepatic first-pass metabolism and systemic clearance of atorvastatin. During the 10-day co-administration, plasma atorvastatin concentrations rose 5-15-fold above therapeutic levels. At supratherapeutic concentrations, statins accumulate in skeletal muscle and inhibit the mevalonate pathway, impairing mitochondrial function and reducing ubiquinone (CoQ10) synthesis — leading to impaired muscle cell ATP generation, membrane depolarization failure, and ultimately myocyte necrosis (rhabdomyolysis). Massive release of myoglobin from necrotic skeletal muscle overwhelms plasma protein binding and is freely filtered at the glomerulus. In an acidic, concentrated urine environment (pH 5.5, SpGr 1.028), myoglobin precipitates in the tubular lumen, forming casts that obstruct collecting tubules (cast nephropathy). Additionally, free myoglobin is directly toxic to proximal tubular epithelial cells via heme-mediated oxidative injury and iron release, causing acute tubular necrosis. Hyperkalemia results from intracellular potassium release; hypocalcemia from calcium deposition into necrotic muscle (early); hyperphosphatemia from phosphate release from muscle; hyperuricemia from purine catabolism — all compounding the AKI.",
+    "treatment_overview": "IMMEDIATE PRIORITIES: (1) STOP atorvastatin and confirm no further clarithromycin. (2) STOP ibuprofen (NSAIDs reduce renal prostaglandin synthesis, worsening AKI). (3) Hyperkalemia management: EKG shows peaked T-waves (K 6.2 mEq/L) — IV calcium gluconate 1-2g over 10 minutes for cardiac membrane stabilization immediately; insulin 10 units IV + dextrose 50% 50 mL; sodium bicarbonate 50-100 mEq IV if pH <7.2; kayexalate or patiromer for non-emergent ongoing management. (4) Aggressive IV fluid resuscitation: Normal saline or lactated Ringer's (some debate — LR may be preferable as NS can worsen hyperchloremic metabolic acidosis) at 200-300 mL/hr targeting urine output 200-300 mL/hr until urine clears of myoglobin (urine becomes yellow/clear). Avoid urine alkalinization with sodium bicarbonate (the evidence is inconclusive and can worsen hypocalcemia). (5) Serial BMP, CK, and urinalysis every 6-12 hours. (6) Dialysis (CRRT or IHD) indications: refractory fluid overload, severe hyperkalemia not responding to medical therapy, uremia, or severe acidosis (pH <7.1). (7) Patient education: avoid CYP3A4 inhibitors with statin therapy; if statin must be resumed, use pravastatin or rosuvastatin (not CYP3A4 substrates). Most patients with drug-induced rhabdomyolysis recover fully with supportive care.",
+    "high_yield_pearls": [
+      "UA dipstick 3+ 'blood' with <5 RBCs/hpf on microscopy = myoglobinuria (or hemoglobinuria) — NEVER accept a dipstick alone; always order microscopy. The discordance is the diagnosis.",
+      "CYP3A4 substrate statins (atorvastatin, lovastatin, simvastatin) + CYP3A4 inhibitors (clarithromycin, azithromycin has minimal effect, itraconazole, ritonavir, grapefruit juice) = rhabdomyolysis risk. Pravastatin and rosuvastatin are NOT CYP3A4 substrates and are preferred in patients requiring concurrent CYP3A4 inhibitors.",
+      "Elevated AST/ALT in a patient with myalgias does NOT automatically mean liver disease — AST is found in skeletal muscle; normal GGT and ALP with elevated AST/ALT points to a MUSCLE source. Always check CK when you see this pattern.",
+      "Rhabdomyolysis metabolic fingerprint: AKI (elevated Cr) + hyperkalemia + hypocalcemia (early) + hyperphosphatemia + hyperuricemia + high anion gap metabolic acidosis + elevated CK >10,000 U/L. This constellation of findings is high-yield.",
+      "Ibuprofen (NSAIDs) in the setting of developing AKI is contraindicated — NSAIDs block prostaglandin-mediated afferent arteriolar dilation in states of reduced renal perfusion, worsening ischemic ATN. Always reconcile medication lists for nephrotoxins when evaluating AKI."
+    ],
+    "sources": [
+      "UpToDate: Rhabdomyolysis: Clinical manifestations and diagnosis",
+      "UpToDate: Rhabdomyolysis: Initial evaluation and management",
+      "UpToDate: Statin myopathy",
+      "UpToDate: Drug-induced myopathy",
+      "Guideline: KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury",
+      "UpToDate: Drug interactions with statins"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Rhabdomyolysis",
+      "Acute tubular necrosis (ATN)",
+      "Glomerulonephritis",
+      "Hemolytic uremic syndrome (HUS)",
+      "Drug-induced interstitial nephritis",
+      "Viral myositis",
+      "Compartment syndrome",
+      "Sickle cell disease (SCD)"
+    ],
+    "after_stage2_more_likely": [
+      "Rhabdomyolysis — diffuse myalgias + dark urine + statin + recent CYP3A4 inhibitor + intense exercise = classic presentation; must order CK urgently",
+      "Viral myositis — diffuse myalgias after completing antibiotic course; however, the medication interaction history is more compelling and CK will differentiate",
+      "Acute tubular necrosis — AKI with concentrated urine and granular casts supports ATN; rhabdomyolysis is the most likely cause in this context"
+    ],
+    "after_stage2_less_likely": [
+      "Glomerulonephritis — would expect RBC casts and hematuria on microscopy; UA dipstick positive 'blood' with 0-2 RBCs/hpf is myoglobinuria, not GN; no hypertension history, no recent pharyngitis",
+      "Hemolytic uremic syndrome — HUS presents with triad of microangiopathic hemolytic anemia, thrombocytopenia, and AKI; normal CBC with normal platelets and no anemia make HUS very unlikely",
+      "Compartment syndrome — possible with intense exercise (exertional compartment syndrome); however, no focal swelling, tightness, or neurologic deficits in a single extremity; the diffuse involvement and medication history favor drug-induced rhabdomyolysis"
+    ],
+    "after_labs_top3": [
+      "Rhabdomyolysis (statin + clarithromycin CYP3A4 interaction) — CK 42,800 U/L + UA discordance (3+ blood, 0-2 RBCs) = myoglobinuria + AKI + hyperkalemia + hypocalcemia + pharmacist-confirmed drug interaction = definitive diagnosis",
+      "Viral myositis — CK can be elevated in viral myositis (influenza, coxsackie), but rarely >10,000 U/L; the pharmacologic mechanism identified by the pharmacist makes this a far less likely primary etiology",
+      "Drug-induced interstitial nephritis — ibuprofen (4 days) could cause DIIN; however, AIN typically presents with eosinophilia, pyuria, and WBC casts, not myoglobinuria pattern; CK elevation is the distinguishing feature"
+    ]
+  }
+}

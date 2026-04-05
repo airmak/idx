@@ -1,0 +1,2644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>IDx — Clinical Reasoning Game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+/* =====================================================
+   ROOT & RESET
+===================================================== */
+:root {
+  --bg: #0e1523;
+  --bg2: #162030;
+  --bg3: #1e2d42;
+  --border: #2a3f5c;
+  --text: #eef0f6;
+  --text-muted: #7a91ad;
+  --teal: #00e5cc;
+  --teal-dim: #00c4ae;
+  --teal-glow: rgba(0,229,204,0.2);
+  --amber: #ffcf3d;
+  --amber-dim: #f5a623;
+  --red: #ff6b6b;
+  --red-dim: #e84040;
+  --green: #56e89a;
+  --green-dim: #2ec97a;
+  --blue: #5ba8ff;
+  --blue-dim: #3d87e8;
+  --purple: #b478ff;
+  --pink: #ff6eb4;
+  --orange: #ff8f45;
+  --yellow: #ffe066;
+  --cyan: #38d9f5;
+  /* VINDICATE category colors — brighter & more distinct */
+  --vc-vascular:    #ff6b6b;
+  --vc-infectious:  #56e89a;
+  --vc-neoplastic:  #b478ff;
+  --vc-degenerat:   #ffcf3d;
+  --vc-idiopathic:  #5ba8ff;
+  --vc-congenital:  #ff6eb4;
+  --vc-autoimmune:  #00e5cc;
+  --vc-traumatic:   #ff8f45;
+  --vc-endocrine:   #ffe066;
+  --radius: 12px;
+  --shadow: 0 6px 32px rgba(0,0,0,0.45);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 20% 10%, rgba(0,229,204,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(180,120,255,0.07) 0%, transparent 50%);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+h1,h2,h3,h4 { font-family: 'Montserrat', sans-serif; line-height: 1.2; }
+button { cursor: pointer; font-family: 'Inter', sans-serif; }
+input, select, textarea { font-family: 'Inter', sans-serif; }
+a { color: var(--teal); text-decoration: none; }
+
+/* =====================================================
+   LAYOUT
+===================================================== */
+#app { display: flex; flex-direction: column; min-height: 100vh; }
+
+/* Top bar */
+#topbar {
+  background: linear-gradient(90deg, #0c1826 0%, #0e1e35 50%, #111530 100%);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--teal), var(--purple), var(--pink)) 1;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+#logo { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#logo span { -webkit-text-fill-color: var(--amber); background: none; }
+#topnav { display: flex; gap: 16px; align-items: center; }
+#topnav a { color: var(--text-muted); font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
+#topnav a:hover { color: var(--text); }
+#session-stats-bar {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: 16px;
+}
+#session-stats-bar span { display: flex; align-items: center; gap: 4px; }
+
+/* Main content */
+#main { flex: 1; padding: 32px 16px 80px; }
+.card-container { max-width: 860px; margin: 0 auto; }
+
+/* Stage progress bar */
+#stage-progress {
+  max-width: 860px;
+  margin: 0 auto 28px;
+  display: none;
+}
+.progress-bar {
+  display: flex;
+  gap: 4px;
+  position: relative;
+}
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0; right: 0;
+  height: 2px;
+  background: var(--border);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+.stage-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  z-index: 1;
+}
+.stage-dot {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 2px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: all 0.3s;
+}
+.stage-step.active .stage-dot {
+  background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%);
+  border-color: var(--teal);
+  color: #0a1220;
+  font-weight: 800;
+  box-shadow: 0 0 18px rgba(0,229,204,0.6), 0 0 4px rgba(0,229,204,0.8);
+}
+.stage-step.done .stage-dot {
+  background: linear-gradient(135deg, var(--green-dim), var(--teal-dim));
+  border-color: var(--green-dim);
+  color: #0a1220;
+}
+.stage-label { font-size: 0.65rem; color: var(--text-muted); text-align: center; display: none; }
+@media(min-width: 600px) { .stage-label { display: block; } }
+
+/* Case info badge */
+#case-badge {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  display: none;
+  z-index: 200;
+}
+
+/* =====================================================
+   CARDS
+===================================================== */
+.card {
+  background: linear-gradient(160deg, #1a2c45 0%, #162030 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--blue), var(--purple));
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.card-title .icon {
+  font-size: 1.2rem;
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, rgba(0,229,204,0.18), rgba(91,168,255,0.12));
+  border: 1px solid rgba(0,229,204,0.2);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* Fade in animation */
+.fade-in { animation: fadeIn 0.4s ease forwards; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* =====================================================
+   DIFFICULTY BADGE
+===================================================== */
+.diff-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.diff-badge.easy { background: rgba(86,232,154,0.18); color: var(--green); border: 1px solid rgba(86,232,154,0.35); }
+.diff-badge.attending { background: rgba(255,207,61,0.18); color: var(--amber); border: 1px solid rgba(255,207,61,0.35); }
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-primary { background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dim) 100%); color: #0b1220; font-weight: 700; }
+.btn-primary:hover:not(:disabled) { background: linear-gradient(135deg, #34e8d4 0%, var(--teal) 100%); box-shadow: 0 0 18px rgba(45,212,191,0.4); }
+.btn-secondary { background: var(--bg3); color: var(--text); border: 1px solid var(--border); }
+.btn-secondary:hover:not(:disabled) { background: #2a3347; }
+.btn-amber { background: linear-gradient(135deg, var(--amber) 0%, var(--amber-dim) 100%); color: #0b1220; font-weight: 700; }
+.btn-amber:hover:not(:disabled) { background: linear-gradient(135deg, #fcd34d 0%, var(--amber) 100%); box-shadow: 0 0 16px rgba(251,191,36,0.35); }
+.btn-ghost { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+.btn-ghost:hover:not(:disabled) { color: var(--text); border-color: var(--text-muted); }
+.btn-lg { padding: 14px 28px; font-size: 1rem; }
+.btn-sm { padding: 6px 12px; font-size: 0.8rem; }
+
+/* =====================================================
+   PRE-GAME SCREEN
+===================================================== */
+#screen-pregame { animation: fadeIn 0.4s ease; }
+#pregame-hero {
+  text-align: center;
+  padding: 52px 0 36px;
+  position: relative;
+}
+#pregame-hero::before {
+  content: '';
+  position: absolute;
+  top: -20px; left: 50%; transform: translateX(-50%);
+  width: 600px; height: 300px;
+  background: radial-gradient(ellipse, rgba(0,229,204,0.1) 0%, rgba(180,120,255,0.08) 50%, transparent 70%);
+  pointer-events: none;
+}
+#pregame-hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 8px; }
+#pregame-hero h1 span { background: linear-gradient(135deg, var(--teal) 0%, var(--blue) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#pregame-hero p { color: var(--text-muted); font-size: 1.05rem; max-width: 520px; margin: 0 auto 32px; }
+.mode-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
+.mode-btn {
+  padding: 20px 36px;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: linear-gradient(160deg, #1e2d42 0%, #162030 100%);
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s;
+  min-width: 200px;
+  text-align: center;
+}
+.mode-btn:hover { border-color: var(--teal); box-shadow: 0 0 24px rgba(0,229,204,0.15); transform: translateY(-2px); }
+.mode-btn.selected { border-color: var(--teal); background: linear-gradient(135deg, rgba(0,229,204,0.15) 0%, rgba(91,168,255,0.08) 100%); color: var(--teal); box-shadow: 0 0 24px rgba(0,229,204,0.25); }
+.mode-btn.attending-btn.selected { border-color: var(--amber); background: linear-gradient(135deg, rgba(255,207,61,0.15) 0%, rgba(255,143,69,0.08) 100%); color: var(--amber); box-shadow: 0 0 24px rgba(255,207,61,0.25); }
+.mode-btn-sub { font-size: 0.72rem; font-weight: 500; color: var(--text-muted); margin-top: 4px; }
+.mode-btn.selected .mode-btn-sub { color: inherit; opacity: 0.8; }
+#specialty-row { display: flex; gap: 12px; align-items: center; justify-content: center; margin-bottom: 28px; flex-wrap: wrap; }
+#specialty-select {
+  padding: 9px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.9rem;
+  min-width: 220px;
+}
+#specialty-select:focus { outline: none; border-color: var(--teal); }
+.case-counts {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.case-counts span { color: var(--teal); font-weight: 600; }
+#start-btn { margin: 0 auto; display: flex; }
+
+/* =====================================================
+   ONE-LINER CARD
+===================================================== */
+#one-liner-text {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.65;
+  color: var(--text);
+  padding: 20px 22px;
+  background: linear-gradient(135deg, rgba(45,212,191,0.06) 0%, rgba(96,165,250,0.04) 100%);
+  border-radius: 10px;
+  border-left: 4px solid var(--teal);
+  box-shadow: inset 0 0 0 1px rgba(45,212,191,0.1);
+}
+
+/* =====================================================
+   DDx BUILDER
+===================================================== */
+.ddx-search-wrap {
+  position: relative;
+  margin-bottom: 12px;
+}
+#ddx-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+#ddx-input:focus { outline: none; border-color: var(--teal); }
+#ddx-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0; right: 0;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 50;
+  display: none;
+  box-shadow: var(--shadow);
+}
+#ddx-dropdown.open { display: block; }
+.ddx-group-header {
+  padding: 6px 12px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(245,158,11,0.05);
+  border-top: 1px solid var(--border);
+  sticky: top;
+}
+.ddx-option {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.ddx-option:hover { background: var(--bg3); color: var(--teal); }
+.ddx-option.disabled { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
+.ddx-counter { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px; }
+.ddx-counter span { color: var(--teal); font-weight: 600; }
+.ddx-chips { display: flex; flex-wrap: wrap; gap: 8px; min-height: 36px; }
+.ddx-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px;
+  background: linear-gradient(135deg, rgba(0,229,204,0.14), rgba(91,168,255,0.08));
+  border: 1px solid rgba(0,229,204,0.35);
+  border-radius: 20px;
+  font-size: 0.82rem;
+  color: var(--teal);
+  font-weight: 600;
+}
+.ddx-chip-remove {
+  background: none; border: none;
+  color: var(--teal); cursor: pointer;
+  font-size: 1rem; line-height: 1;
+  padding: 0; opacity: 0.7;
+}
+.ddx-chip-remove:hover { opacity: 1; }
+
+/* =====================================================
+   VINDICATE CATEGORY DROPDOWNS
+===================================================== */
+.vindicate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.vindicate-cat {
+  position: relative;
+}
+.vindicate-cat-btn {
+  width: 100%;
+  padding: 8px 10px;
+  background: linear-gradient(135deg, #1e2d42 0%, #192336 100%);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  transition: all 0.18s;
+  gap: 6px;
+}
+.vindicate-cat-btn:hover {
+  border-color: var(--cat-color, var(--teal));
+  background: linear-gradient(135deg, #243447 0%, #1e2c40 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+.vindicate-cat-btn.has-selected {
+  border-color: var(--cat-color, rgba(0,229,204,0.5));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 0 10px rgba(0,0,0,0.15);
+}
+.vindicate-cat-letter { font-size: 0.75rem; font-weight: 800; font-family: 'Montserrat', sans-serif; flex-shrink: 0; width: 16px; text-align: center; }
+.vindicate-cat-btn-label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vindicate-cat-badge {
+  font-size: 0.68rem;
+  background: var(--teal);
+  color: #0a0e17;
+  border-radius: 10px;
+  padding: 1px 6px;
+  font-weight: 700;
+  flex-shrink: 0;
+  display: none;
+}
+.vindicate-cat-badge.visible { display: inline; }
+.vindicate-cat-arrow { color: var(--text-muted); font-size: 0.7rem; flex-shrink: 0; }
+.vindicate-cat-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  width: 240px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  z-index: 60;
+  display: none;
+  overflow: hidden;
+}
+.vindicate-cat-dropdown.open { display: block; }
+.vindicate-cat-dropdown.align-right { left: auto; right: 0; }
+.vindicate-cat-filter {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg3);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.83rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.vindicate-cat-filter:focus { outline: none; }
+.vindicate-cat-options { max-height: 190px; overflow-y: auto; }
+
+/* =====================================================
+   STAGE 2 — CLINICAL INFO
+===================================================== */
+.clinical-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media(max-width: 600px) { .clinical-grid { grid-template-columns: 1fr; } }
+.clinical-field { }
+.clinical-label { font-size: 0.72rem; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+.clinical-value { font-size: 0.875rem; color: var(--text); }
+.vitals-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+@media(max-width: 500px) { .vitals-grid { grid-template-columns: repeat(2, 1fr); } }
+.vital-card {
+  background: var(--bg3);
+  border-radius: 8px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.vital-name { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.vital-value { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-top: 2px; }
+.vital-value.abnormal { color: var(--red); }
+.vital-value.high { color: var(--amber); }
+
+/* DDx Refinement */
+.refinement-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg3);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.refinement-name { flex: 1; font-size: 0.875rem; min-width: 140px; }
+.refinement-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+.ref-btn {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.ref-btn:hover { border-color: var(--text-muted); color: var(--text); }
+.ref-btn.selected-more { background: rgba(34,197,94,0.15); border-color: #22c55e; color: #22c55e; }
+.ref-btn.selected-same { background: rgba(245,158,11,0.15); border-color: #f59e0b; color: #f59e0b; }
+.ref-btn.selected-less { background: rgba(239,68,68,0.15); border-color: #ef4444; color: #ef4444; }
+
+/* =====================================================
+   STAGE 3 — LABS & IMAGING
+===================================================== */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 16px; flex-wrap: wrap; }
+.tab-btn {
+  padding: 8px 14px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: -1px;
+}
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active { color: var(--teal); border-bottom-color: var(--teal); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.test-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.test-option {
+  padding: 6px 12px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: var(--text-muted);
+}
+.test-option:hover { color: var(--text); border-color: var(--text-muted); }
+.test-option.selected { background: rgba(20,184,166,0.12); border-color: var(--teal); color: var(--teal); }
+.test-option.disabled { opacity: 0.35; cursor: not-allowed; pointer-events: none; }
+.ordered-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; min-height: 36px; }
+.ordered-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 10px;
+  background: rgba(20,184,166,0.12);
+  border: 1px solid rgba(20,184,166,0.3);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--teal);
+}
+.ordered-chip-remove {
+  background: none; border: none;
+  color: var(--teal); cursor: pointer; font-size: 1rem; line-height: 1; padding: 0; opacity: 0.7;
+}
+.ordered-chip-remove:hover { opacity: 1; }
+
+/* Lab results */
+.result-card {
+  background: var(--bg3);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 4px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  opacity: 0;
+  animation: resultReveal 0.4s ease forwards;
+}
+@keyframes resultReveal { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+.result-card.flag-high { border-left-color: var(--red); }
+.result-card.flag-low { border-left-color: var(--blue); }
+.result-card.flag-wnl { border-left-color: var(--green); }
+.result-card.flag-abnormal { border-left-color: var(--amber); }
+.result-flag {
+  display: inline-flex;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+  min-width: 60px;
+  justify-content: center;
+  margin-top: 2px;
+}
+.flag-high .result-flag { background: rgba(255,107,107,0.2); color: var(--red); border: 1px solid rgba(255,107,107,0.3); }
+.flag-low .result-flag { background: rgba(91,168,255,0.2); color: var(--blue); border: 1px solid rgba(91,168,255,0.3); }
+.flag-wnl .result-flag { background: rgba(86,232,154,0.18); color: var(--green); border: 1px solid rgba(86,232,154,0.3); }
+.flag-abnormal .result-flag { background: rgba(255,207,61,0.2); color: var(--amber); border: 1px solid rgba(255,207,61,0.3); }
+.result-info { flex: 1; }
+.result-test-name { font-weight: 600; font-size: 0.9rem; }
+.result-value { font-size: 0.875rem; color: var(--text-muted); margin-top: 2px; }
+.result-significance { font-size: 0.78rem; color: var(--text-muted); font-style: italic; margin-top: 4px; }
+.processing-indicator { color: var(--teal); font-size: 0.85rem; display: flex; align-items: center; gap: 8px; padding: 12px 0; }
+.dots::after { content: ''; animation: dots 1.2s infinite; }
+@keyframes dots { 0%,20%{content:'.'}40%,60%{content:'..'}80%,100%{content:'...'} }
+
+/* =====================================================
+   STAGE 4 — TOP 3 SELECTION
+===================================================== */
+.top3-options { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.top3-option {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.top3-option:hover { border-color: var(--text-muted); }
+.top3-option.selected { border-color: var(--teal); background: rgba(20,184,166,0.08); }
+.top3-option input[type="checkbox"] { accent-color: var(--teal); width: 16px; height: 16px; }
+.top3-rank-badge {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex; align-items: center; justify-content: center;
+  display: none;
+}
+.top3-name { flex: 1; font-size: 0.9rem; }
+.top3-ranked { border-color: var(--teal) !important; }
+.rank-display {
+  display: flex; flex-direction: column; gap: 8px;
+  margin-top: 16px;
+}
+.rank-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px;
+  background: rgba(20,184,166,0.08);
+  border: 1px solid rgba(20,184,166,0.25);
+  border-radius: 8px;
+}
+.rank-num {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 0.85rem; color: #fff;
+}
+.rank-num.r1 { background: var(--teal); }
+.rank-num.r2 { background: var(--teal-dim); }
+.rank-num.r3 { background: #0d7a70; }
+.rank-name { flex: 1; font-size: 0.9rem; }
+.rank-remove { background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.1rem; }
+.rank-remove:hover { color: var(--red); }
+
+/* =====================================================
+   STAGE 5 — FINAL CLUE
+===================================================== */
+.final-clue-box {
+  background: rgba(245,158,11,0.07);
+  border: 1px solid rgba(245,158,11,0.3);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.final-clue-box .clue-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.final-clue-box p { font-size: 0.95rem; line-height: 1.7; }
+.final-choice { display: flex; flex-direction: column; gap: 10px; }
+.final-option {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.final-option:hover { border-color: var(--teal); }
+.final-option.selected { border-color: var(--teal); background: rgba(20,184,166,0.08); }
+.final-option input[type="radio"] { accent-color: var(--teal); }
+.rank-label-text { font-size: 0.72rem; color: var(--text-muted); margin-left: auto; }
+
+/* =====================================================
+   STAGE 6 — REVEAL & DEBRIEF
+===================================================== */
+.reveal-card {
+  border-radius: var(--radius);
+  padding: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.reveal-card.correct { background: rgba(34,197,94,0.08); border: 2px solid rgba(34,197,94,0.35); }
+.reveal-card.incorrect { background: rgba(239,68,68,0.08); border: 2px solid rgba(239,68,68,0.25); }
+.reveal-icon { font-size: 3rem; margin-bottom: 12px; }
+.reveal-result { font-size: 1.5rem; font-weight: 800; margin-bottom: 8px; }
+.reveal-card.correct .reveal-result { color: var(--green); }
+.reveal-card.incorrect .reveal-result { color: var(--red); }
+.reveal-dx { font-size: 1.2rem; font-weight: 600; margin-bottom: 6px; }
+.reveal-icd { font-size: 0.8rem; color: var(--text-muted); }
+
+/* Score display */
+.score-total {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--teal);
+  text-align: center;
+  margin: 8px 0;
+}
+.score-breakdown { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; }
+@media(min-width: 500px) { .score-breakdown { grid-template-columns: repeat(4,1fr); } }
+.score-item {
+  background: linear-gradient(135deg, #1e2d42, #192336);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 10px;
+  text-align: center;
+}
+.score-item:nth-child(1) { border-top: 3px solid var(--teal); }
+.score-item:nth-child(2) { border-top: 3px solid var(--blue); }
+.score-item:nth-child(3) { border-top: 3px solid var(--purple); }
+.score-item:nth-child(4) { border-top: 3px solid var(--amber); }
+.score-item-label { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.score-item-val { font-size: 1.2rem; font-weight: 800; color: var(--text); }
+
+/* Debrief sections */
+.debrief-section { margin-bottom: 16px; }
+.debrief-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.debrief-text { font-size: 0.9rem; line-height: 1.7; color: var(--text); }
+.pearl-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.pearl-list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 0.875rem; line-height: 1.6;
+}
+.pearl-list li::before {
+  content: '★';
+  color: var(--amber);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.source-list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.source-list li { font-size: 0.82rem; color: var(--text-muted); display: flex; gap: 8px; align-items: flex-start; }
+.source-list li::before { content: '📖'; flex-shrink: 0; }
+
+/* DDx Review */
+.ddx-review-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+.ddx-review-row.reasonable { background: rgba(34,197,94,0.05); border-left: 3px solid var(--green); }
+.ddx-review-row.not-reasonable { background: rgba(245,158,11,0.05); border-left: 3px solid var(--amber); }
+.ddx-review-icon { font-size: 1rem; }
+
+/* Workup review */
+.workup-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.workup-tag.key { background: rgba(34,197,94,0.15); color: var(--green); }
+.workup-tag.acceptable { background: rgba(245,158,11,0.1); color: var(--amber); }
+.workup-tag.low-yield { background: rgba(239,68,68,0.1); color: var(--red); }
+.workup-tag.not-ordered { background: var(--bg3); color: var(--text-muted); }
+
+/* Feedback panel */
+.feedback-panel {
+  background: var(--bg3);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+  border: 1px solid var(--border);
+}
+.feedback-row {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.feedback-row:last-child { border-bottom: none; }
+.feedback-verdict {
+  font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; white-space: nowrap; margin-top: 1px;
+}
+.verdict-correct { background: rgba(86,232,154,0.18); color: var(--green); border: 1px solid rgba(86,232,154,0.3); border-left: none !important; }
+.verdict-reasonable { background: rgba(255,207,61,0.18); color: var(--amber); border: 1px solid rgba(255,207,61,0.3); }
+.verdict-incorrect { background: rgba(255,107,107,0.18); color: var(--red); border: 1px solid rgba(255,107,107,0.3); }
+.feedback-name { font-weight: 600; }
+.feedback-explanation { color: var(--text-muted); margin-top: 2px; font-size: 0.82rem; }
+.feedback-loading { color: var(--teal); font-size: 0.85rem; padding: 12px 0; }
+
+/* Case stats bar */
+.case-stats-bar {
+  display: flex; gap: 20px; align-items: center;
+  padding: 12px 16px;
+  background: var(--bg3);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.case-stat { font-size: 0.82rem; color: var(--text-muted); }
+.case-stat strong { color: var(--text); }
+
+/* =====================================================
+   CASE LIBRARY
+===================================================== */
+#screen-library { display: none; }
+.library-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.library-table th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border);
+  color: var(--amber);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.library-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.library-table tr:hover td { background: var(--bg3); }
+.blurred { filter: blur(5px); user-select: none; cursor: pointer; transition: filter 0.2s; }
+.reveal-btn {
+  background: none; border: none;
+  color: var(--text-muted); font-size: 0.8rem; cursor: pointer;
+}
+.reveal-btn:hover { color: var(--text); }
+
+/* =====================================================
+   STICKY REFERENCE BAR
+===================================================== */
+#sticky-bar {
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 24px;
+  position: sticky;
+  top: 57px;
+  z-index: 90;
+  display: none;
+  font-size: 0.82rem;
+}
+#sticky-bar .one-liner-mini { color: var(--text); }
+#sticky-bar .vitals-mini { color: var(--text-muted); margin-top: 2px; }
+
+/* =====================================================
+   API KEY SETTINGS MODAL
+===================================================== */
+#settings-modal-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 500;
+  align-items: center;
+  justify-content: center;
+}
+#settings-modal-overlay.open { display: flex; }
+#settings-modal {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: var(--shadow);
+}
+#settings-modal h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+#settings-modal p { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5; }
+.settings-field { margin-bottom: 14px; }
+.settings-field label { display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.settings-field input {
+  width: 100%; padding: 9px 12px;
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font-size: 0.88rem;
+  font-family: monospace;
+}
+.settings-field input:focus { outline: none; border-color: var(--teal); }
+.settings-key-status { font-size: 0.75rem; margin-top: 4px; }
+.settings-actions { display: flex; gap: 10px; margin-top: 20px; }
+#settings-btn {
+  background: none; border: 1px solid var(--border);
+  color: var(--text-muted); font-size: 0.8rem;
+  padding: 5px 10px; border-radius: 6px;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.2s;
+}
+#settings-btn:hover { color: var(--text); border-color: var(--text-muted); }
+
+/* =====================================================
+   TOAST
+===================================================== */
+#toast {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg3);
+  border: 1px solid var(--teal);
+  color: var(--teal);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  z-index: 300;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+#toast.show { opacity: 1; }
+
+/* =====================================================
+   MISC
+===================================================== */
+.divider { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+.section-title { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+.add-missed-link { font-size: 0.82rem; color: var(--teal); cursor: pointer; text-decoration: underline; display: inline-block; margin-top: 8px; }
+.missed-escape { display: none; margin-top: 12px; }
+.action-row { display: flex; gap: 12px; align-items: center; margin-top: 20px; flex-wrap: wrap; }
+.spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid rgba(20,184,166,0.2); border-top-color: var(--teal); border-radius: 50%; animation: spin 0.7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.attending-notes-box {
+  background: rgba(245,158,11,0.06);
+  border: 1px solid rgba(245,158,11,0.25);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.attending-notes-box .label { font-size: 0.72rem; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+
+@media(max-width: 500px) {
+  .card { padding: 18px; }
+  #pregame-hero h1 { font-size: 2rem; }
+  .btn-lg { padding: 12px 20px; font-size: 0.9rem; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- TOP BAR -->
+<header id="topbar">
+  <div id="logo">ID<span>x</span></div>
+  <div id="topnav">
+    <a href="#" onclick="showLibrary(); return false;">Case Library</a>
+    <button id="settings-btn" onclick="openSettings()">⚙ API Key</button>
+    <div id="session-stats-bar">
+      <span>🩺 <span id="stat-cases">0</span> cases</span>
+      <span>📈 Avg: <span id="stat-avg">—</span></span>
+      <span>✔ <span id="stat-correct">0</span> correct</span>
+    </div>
+  </div>
+</header>
+
+<!-- SETTINGS MODAL -->
+<div id="settings-modal-overlay" onclick="if(event.target===this)closeSettings()">
+  <div id="settings-modal">
+    <h3>⚙ API Key Settings</h3>
+    <p>Feedback works instantly without any key using built-in rule-based analysis. An Anthropic API key unlocks richer AI explanations.</p>
+    <div class="settings-field">
+      <label>Anthropic API Key</label>
+      <input type="password" id="settings-anthropic-key" placeholder="sk-ant-…" oninput="updateKeyStatus()" autocomplete="off"/>
+      <div class="settings-key-status" id="key-status-text"></div>
+    </div>
+    <div class="settings-actions">
+      <button class="btn btn-primary btn-sm" onclick="saveSettings()">Save</button>
+      <button class="btn btn-ghost btn-sm" onclick="closeSettings()">Cancel</button>
+      <button class="btn btn-ghost btn-sm" style="margin-left:auto;color:var(--red-dim)" onclick="clearSettings()">Clear Key</button>
+    </div>
+  </div>
+</div>
+
+<!-- STAGE PROGRESS -->
+<div id="stage-progress">
+  <div class="progress-bar">
+    <div class="stage-step" id="step-1">
+      <div class="stage-dot">1</div>
+      <div class="stage-label">DDx</div>
+    </div>
+    <div class="stage-step" id="step-2">
+      <div class="stage-dot">2</div>
+      <div class="stage-label">History</div>
+    </div>
+    <div class="stage-step" id="step-3">
+      <div class="stage-dot">3</div>
+      <div class="stage-label">Workup</div>
+    </div>
+    <div class="stage-step" id="step-4">
+      <div class="stage-dot">4</div>
+      <div class="stage-label">Top 3</div>
+    </div>
+    <div class="stage-step" id="step-5">
+      <div class="stage-dot">5</div>
+      <div class="stage-label">Final Clue</div>
+    </div>
+    <div class="stage-step" id="step-6">
+      <div class="stage-dot">6</div>
+      <div class="stage-label">Reveal</div>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY REFERENCE BAR -->
+<div id="sticky-bar">
+  <div class="one-liner-mini" id="sticky-oneliner"></div>
+  <div class="vitals-mini" id="sticky-vitals"></div>
+</div>
+
+<!-- MAIN -->
+<main id="main">
+
+<!-- ==================== PRE-GAME ==================== -->
+<div id="screen-pregame">
+  <div id="pregame-hero">
+    <h1>ID<span>x</span></h1>
+    <p>Master clinical reasoning. Work up cases like an attending. Build the differential, order the workup, lock in your diagnosis.</p>
+
+    <div class="mode-buttons">
+      <button class="mode-btn selected" id="mode-easy-btn" onclick="selectMode('easy')">
+        Easy Mode
+        <div class="mode-btn-sub">Textbook-classic presentations</div>
+      </button>
+      <button class="mode-btn attending-btn" id="mode-attending-btn" onclick="selectMode('attending')">
+        Attending Mode
+        <div class="mode-btn-sub">Atypical · Misleading · UWorld-level</div>
+      </button>
+    </div>
+
+    <div id="specialty-row">
+      <label for="specialty-select" style="font-size:0.875rem;color:var(--text-muted)">Specialty:</label>
+      <select id="specialty-select">
+        <option value="any">All Specialties</option>
+        <option value="internal medicine">Internal Medicine</option>
+        <option value="surgery">Surgery</option>
+        <option value="pediatrics">Pediatrics</option>
+        <option value="ob/gyn">OB/GYN</option>
+        <option value="psychiatry">Psychiatry</option>
+        <option value="neurology">Neurology</option>
+        <option value="emergency medicine">Emergency Medicine</option>
+        <option value="family medicine">Family Medicine</option>
+        <option value="cardiology">Cardiology</option>
+        <option value="pulmonology">Pulmonology</option>
+        <option value="gastroenterology">Gastroenterology</option>
+        <option value="nephrology">Nephrology</option>
+        <option value="infectious disease">Infectious Disease</option>
+      </select>
+    </div>
+
+    <div class="case-counts" id="case-counts-display">Loading case counts...</div>
+
+    <button class="btn btn-primary btn-lg" id="start-btn" onclick="startCase()">
+      Start Case →
+    </button>
+  </div>
+</div>
+
+<!-- ==================== STAGE 1 ==================== -->
+<div id="screen-stage1" style="display:none">
+  <div class="card-container">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+      <span class="diff-badge" id="s1-diff-badge">Easy</span>
+      <span style="font-size:0.82rem;color:var(--text-muted)" id="s1-specialty-badge"></span>
+    </div>
+
+    <!-- One-liner card -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">📋</span> Clinical Presentation</div>
+      <div id="one-liner-text"></div>
+    </div>
+
+    <!-- DDx Builder -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🧬</span> Build Your Differential Diagnosis</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:14px">Select at least 3 diagnoses (max 10). Use the VINDICATE category dropdowns or search by name.</p>
+
+      <div class="vindicate-grid" id="vindicate-grid"></div>
+
+      <div class="ddx-search-wrap">
+        <input type="text" id="ddx-input" placeholder="Search all diagnoses…" autocomplete="off" oninput="filterDdx()" onfocus="openDdxDropdown()" onblur="setTimeout(closeDdxDropdown,200)"/>
+        <div id="ddx-dropdown"></div>
+      </div>
+
+      <div class="ddx-counter">Selected: <span id="ddx-count">0</span> / 10 diagnoses</div>
+      <div class="ddx-chips" id="ddx-chips"></div>
+
+      <div class="action-row" style="margin-top:20px">
+        <button class="btn btn-primary" id="submit-ddx-btn" disabled onclick="submitDdx()">Submit DDx →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STAGE 2 ==================== -->
+<div id="screen-stage2" style="display:none">
+  <div class="card-container">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+      <span class="diff-badge" id="s2-diff-badge">Easy</span>
+      <span style="font-size:0.82rem;color:var(--text-muted)" id="s2-specialty-badge"></span>
+    </div>
+
+    <!-- Clinical Info Card -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🩻</span> Extended History & Physical Exam</div>
+
+      <div class="debrief-section">
+        <div class="debrief-label">History of Present Illness</div>
+        <div class="debrief-text" id="s2-hpi"></div>
+      </div>
+      <hr class="divider"/>
+      <div class="clinical-grid">
+        <div class="clinical-field"><div class="clinical-label">PMH</div><div class="clinical-value" id="s2-pmh"></div></div>
+        <div class="clinical-field"><div class="clinical-label">Surgical History</div><div class="clinical-value" id="s2-surgical"></div></div>
+        <div class="clinical-field"><div class="clinical-label">Medications</div><div class="clinical-value" id="s2-meds"></div></div>
+        <div class="clinical-field"><div class="clinical-label">Allergies</div><div class="clinical-value" id="s2-allergies"></div></div>
+        <div class="clinical-field"><div class="clinical-label">Family History</div><div class="clinical-value" id="s2-fhx"></div></div>
+        <div class="clinical-field"><div class="clinical-label">Social History</div><div class="clinical-value" id="s2-shx"></div></div>
+      </div>
+      <hr class="divider"/>
+      <div class="debrief-label">Vitals</div>
+      <div class="vitals-grid" id="s2-vitals"></div>
+      <hr class="divider"/>
+      <div class="debrief-label" style="margin-top:16px">Physical Examination</div>
+      <div class="debrief-text" id="s2-exam"></div>
+    </div>
+
+    <!-- DDx Refinement -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">⚗️</span> Refine Your Differential</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px">Based on the new information, update the likelihood of each diagnosis.</p>
+      <div id="refinement-rows"></div>
+
+      <div class="action-row" style="align-items:baseline;gap:10px">
+        <button class="btn btn-ghost btn-sm" onclick="requestFeedbackS2()" id="feedback-s2-btn">💡 Get Feedback on My Refinement</button>
+        <span style="font-size:0.75rem;color:var(--text-muted)">Works without API key · <a href="#" onclick="openSettings();return false;" style="color:var(--teal)">Add key for AI feedback</a></span>
+      </div>
+      <div id="feedback-s2-panel" style="display:none" class="feedback-panel"></div>
+
+      <div class="action-row">
+        <button class="btn btn-primary" id="proceed-s3-btn" disabled onclick="proceedToStage3()">Proceed to Labs & Imaging →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STAGE 3 ==================== -->
+<div id="screen-stage3" style="display:none">
+  <div class="card-container">
+
+    <!-- Lab/Imaging Ordering -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🧪</span> Order Your Workup</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:14px">Select 2–5 tests to order.</p>
+
+      <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('basic')">Basic Labs</button>
+        <button class="tab-btn" onclick="showTab('specialized')">Specialized Labs</button>
+        <button class="tab-btn" onclick="showTab('imaging')">Imaging</button>
+        <button class="tab-btn" onclick="showTab('procedures')">Procedures</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-basic">
+        <div class="test-grid" id="tests-basic"></div>
+      </div>
+      <div class="tab-panel" id="tab-specialized">
+        <div class="test-grid" id="tests-specialized"></div>
+      </div>
+      <div class="tab-panel" id="tab-imaging">
+        <div class="test-grid" id="tests-imaging"></div>
+      </div>
+      <div class="tab-panel" id="tab-procedures">
+        <div class="test-grid" id="tests-procedures"></div>
+      </div>
+
+      <div style="margin-top:16px">
+        <div class="ddx-counter">Ordered: <span id="tests-count">0</span> / 5 tests</div>
+        <div class="ordered-chips" id="ordered-chips"></div>
+      </div>
+
+      <div class="action-row">
+        <button class="btn btn-primary" id="submit-tests-btn" disabled onclick="submitTests()">Reveal Results →</button>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="card fade-in" id="results-card" style="display:none">
+      <div class="card-title"><span class="icon">🔭</span> Results</div>
+      <div id="results-list"></div>
+
+      <div class="action-row" style="margin-top:16px;align-items:baseline;gap:10px">
+        <button class="btn btn-ghost btn-sm" onclick="requestFeedbackS3()" id="feedback-s3-btn">💡 Get Feedback on My Test Choices</button>
+        <span style="font-size:0.75rem;color:var(--text-muted)">Works without API key · <a href="#" onclick="openSettings();return false;" style="color:var(--teal)">Add key for AI feedback</a></span>
+      </div>
+      <div id="feedback-s3-panel" style="display:none" class="feedback-panel"></div>
+
+      <div class="action-row">
+        <button class="btn btn-primary" onclick="proceedToStage4()">Narrow My Differential →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STAGE 4 ==================== -->
+<div id="screen-stage4" style="display:none">
+  <div class="card-container">
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🎯</span> Narrow Your Differential — Top 3</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px">Select and rank your top 3 most likely diagnoses (#1 is your leading diagnosis).</p>
+
+      <div id="top3-select-area">
+        <div id="top3-options" class="top3-options"></div>
+        <a class="add-missed-link" onclick="showMissedEscape()">+ Add a diagnosis I missed</a>
+        <div class="missed-escape" id="missed-escape">
+          <div class="ddx-search-wrap" style="margin-top:8px">
+            <input type="text" id="escape-input" placeholder="Search to add diagnosis…" autocomplete="off" oninput="filterEscape()" onfocus="openEscapeDropdown()" onblur="setTimeout(closeEscapeDropdown,200)"/>
+            <div id="escape-dropdown"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:20px">
+        <div class="section-title">Your Ranked Top 3</div>
+        <div class="rank-display" id="rank-display">
+          <div style="color:var(--text-muted);font-size:0.85rem">Select diagnoses above to build your ranking.</div>
+        </div>
+      </div>
+
+      <div class="action-row">
+        <button class="btn btn-primary" id="lock-top3-btn" disabled onclick="lockTop3()">Lock In My Top 3 →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STAGE 5 ==================== -->
+<div id="screen-stage5" style="display:none">
+  <div class="card-container">
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🔓</span> Final Clue</div>
+      <div class="final-clue-box">
+        <div class="clue-label">Additional Clinical Information</div>
+        <p id="s5-clue"></p>
+      </div>
+
+      <div class="section-title">What is your final diagnosis?</div>
+      <div class="final-choice" id="final-choices"></div>
+
+      <div class="action-row" style="margin-top:24px">
+        <button class="btn btn-amber btn-lg" id="submit-final-btn" disabled onclick="submitFinalDiagnosis()">Submit Final Diagnosis</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== STAGE 6 ==================== -->
+<div id="screen-stage6" style="display:none">
+  <div class="card-container">
+
+    <!-- Reveal card -->
+    <div class="reveal-card" id="reveal-card">
+      <div class="reveal-icon" id="reveal-icon"></div>
+      <div class="reveal-result" id="reveal-result"></div>
+      <div class="reveal-dx" id="reveal-dx"></div>
+      <div class="reveal-icd" id="reveal-icd"></div>
+    </div>
+
+    <!-- Score -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">🏆</span> Your Score</div>
+      <div class="score-total" id="score-total">—</div>
+      <div class="score-breakdown" id="score-breakdown"></div>
+    </div>
+
+    <!-- Case stats -->
+    <div class="case-stats-bar" id="case-stats-bar"></div>
+
+    <!-- Debrief -->
+    <div class="card fade-in">
+      <div class="card-title"><span class="icon">📖</span> Full Debrief</div>
+      <div id="debrief-content"></div>
+    </div>
+
+    <!-- New case -->
+    <div style="text-align:center;margin-top:24px">
+      <button class="btn btn-primary btn-lg" onclick="resetToHome()">🩺 New Case</button>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== CASE LIBRARY ==================== -->
+<div id="screen-library" style="display:none">
+  <div class="card-container">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+      <h2 style="font-size:1.3rem">Case Library</h2>
+      <button class="btn btn-ghost btn-sm" onclick="showPregame()">← Back</button>
+    </div>
+    <div class="card">
+      <div id="library-content">Loading...</div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- Case badge -->
+<div id="case-badge"></div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+</div><!-- #app -->
+
+<script>
+// =====================================================
+// STATE
+// =====================================================
+const state = {
+  mode: 'easy',
+  specialty: 'any',
+  caseUid: null,
+  oneLiner: null,
+  stage: 0,
+  userDdx: [],           // list of diagnosis strings
+  userRefinements: {},   // { diag: 'more_likely' | 'just_as_likely' | 'less_likely' }
+  orderedTests: [],      // list of test name strings
+  top3: [],              // [#1, #2, #3]
+  finalDiagnosis: null,
+  vitalsStr: '',
+  diseaseLibrary: {}
+};
+
+// Test catalogs
+const BASIC_LABS = [
+  'CBC with differential','BMP','CMP','LFTs','Lipase','Amylase',
+  'Coagulation panel (PT/INR/PTT)','Blood cultures x2','UA with microscopy',
+  'Urine culture','ABG','Lactate','D-dimer','BNP/NT-proBNP',
+  'Troponin I/T (serial)','Beta-hCG'
+];
+const SPECIALIZED_LABS = [
+  'TSH/Free T4','HbA1c','ESR','CRP','ANA','RF','Anti-dsDNA','ANCA',
+  'Ferritin/Iron studies','B12/Folate','LDH','Uric acid','PSA','CEA',
+  'CA-125','AFP','Blood smear','Peripheral flow cytometry','HIV Ag/Ab',
+  'RPR/VDRL','Hepatitis panel','Monospot','Throat culture','Strep Ag',
+  'Influenza Ag','COVID Ag','Clostridium difficile toxin','Stool ova & parasites'
+];
+const IMAGING = [
+  'CXR (PA/Lateral)','CT chest (w/ or w/o contrast)','CT abdomen/pelvis (w/ or w/o contrast)',
+  'CT head (w/ or w/o contrast)','CT angiography (pulmonary/coronary/aortic)',
+  'MRI brain (w/ or w/o contrast)','MRI spine','MRI abdomen',
+  'Ultrasound abdomen/pelvis','Ultrasound thyroid',
+  'Echocardiogram (transthoracic/transesophageal)','EKG/ECG',
+  'Cardiac stress test','PET scan','Bone scan','V/Q scan',
+  'DEXA scan','Mammogram','Skeletal survey','KUB'
+];
+const PROCEDURES = [
+  'Lumbar puncture (CSF analysis)','Thoracentesis','Paracentesis',
+  'Skin biopsy','Bone marrow biopsy','Colonoscopy','Upper endoscopy',
+  'Bronchoscopy','Urodynamics','Arthrocentesis','Pap smear',
+  'Endometrial biopsy','Pulmonary function tests (PFTs)',
+  'Skin prick/patch testing','Electroencephalogram (EEG)',
+  'Nerve conduction study (NCS/EMG)'
+];
+
+// =====================================================
+// INIT
+// =====================================================
+document.addEventListener('DOMContentLoaded', () => {
+  // Detect if opened as a file:// URL instead of via Flask
+  if (window.location.protocol === 'file:') {
+    document.body.innerHTML = `<div style="max-width:500px;margin:80px auto;padding:32px;background:#161b27;border:1px solid #2a3347;border-radius:10px;font-family:Inter,sans-serif;color:#e8eaf0">
+      <h2 style="color:#14b8a6;font-family:Montserrat,sans-serif;margin-bottom:16px">IDx needs a server</h2>
+      <p style="margin-bottom:12px">You opened this file directly. IDx must be served by Flask to work.</p>
+      <p style="margin-bottom:20px;color:#8892a4">Run this in your terminal from the <code style="color:#f59e0b">idx/</code> folder:</p>
+      <pre style="background:#0f1117;padding:14px;border-radius:6px;color:#22c55e;font-size:0.9rem">python app.py</pre>
+      <p style="margin-top:16px;color:#8892a4">Then open <a href="http://localhost:5000" style="color:#14b8a6">http://localhost:5000</a> in your browser.</p>
+    </div>`;
+    return;
+  }
+  loadDiseaseLibrary();
+  loadCaseCounts();
+  loadSessionStats();
+  populateTestPanels();
+});
+
+async function loadDiseaseLibrary() {
+  try {
+    const r = await fetch('/api/disease-library');
+    state.diseaseLibrary = await r.json();
+    buildDdxDropdown('');
+    buildVindicateGrid();
+  } catch(e) { console.warn('Could not load disease library', e); }
+}
+
+async function loadCaseCounts() {
+  try {
+    const r = await fetch('/api/case-counts');
+    const data = await r.json();
+    document.getElementById('case-counts-display').innerHTML =
+      `<span>${data.easy || 0}</span> Easy cases &nbsp;·&nbsp; <span>${data.attending || 0}</span> Attending cases available`;
+  } catch(e) {}
+}
+
+async function loadSessionStats() {
+  try {
+    const r = await fetch('/api/session/stats');
+    const data = await r.json();
+    document.getElementById('stat-cases').textContent = data.cases_played || 0;
+    document.getElementById('stat-avg').textContent = data.cases_played ? data.avg_score : '—';
+    document.getElementById('stat-correct').textContent = data.correct_diagnoses || 0;
+  } catch(e) {}
+}
+
+// =====================================================
+// MODE SELECTION
+// =====================================================
+function selectMode(mode) {
+  state.mode = mode;
+  document.getElementById('mode-easy-btn').classList.toggle('selected', mode === 'easy');
+  document.getElementById('mode-attending-btn').classList.toggle('selected', mode === 'attending');
+}
+
+// =====================================================
+// START CASE
+// =====================================================
+async function startCase() {
+  const specialty = document.getElementById('specialty-select').value;
+  state.specialty = specialty;
+
+  const btn = document.getElementById('start-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Loading case…';
+
+  // Reset state
+  state.userDdx = [];
+  state.userRefinements = {};
+  state.orderedTests = [];
+  state.top3 = [];
+  state.finalDiagnosis = null;
+
+  try {
+    const url = `/api/new-case?mode=${state.mode}&specialty=${encodeURIComponent(specialty)}`;
+    const r = await fetch(url);
+    const data = await r.json();
+
+    if (data.error) {
+      showToast('Error: ' + data.error);
+      btn.disabled = false;
+      btn.innerHTML = 'Start Case →';
+      return;
+    }
+
+    if (data.reset_session) {
+      showToast("You've played all available cases! Starting over.");
+    }
+
+    state.caseUid = data.case_uid;
+    state.oneLiner = data.one_liner;
+
+    // Update badge
+    document.getElementById('case-badge').textContent =
+      `${data.case_uid} · ${data.mode} · ${data.specialty}`;
+    document.getElementById('case-badge').style.display = 'block';
+
+    showStage1(data);
+  } catch(e) {
+    showToast('Error: ' + (e.message || 'Failed to load case. Check the server console.'));
+    console.error('startCase error:', e);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Start Case →';
+  }
+}
+
+// =====================================================
+// STAGE 1
+// =====================================================
+function showStage1(data) {
+  hideAllScreens();
+  document.getElementById('stage-progress').style.display = 'block';
+  updateProgress(1);
+
+  const s = document.getElementById('screen-stage1');
+  s.style.display = 'block';
+
+  // Diff badge
+  const badge = document.getElementById('s1-diff-badge');
+  badge.textContent = data.mode === 'attending' ? 'Attending' : 'Easy';
+  badge.className = 'diff-badge ' + (data.mode === 'attending' ? 'attending' : 'easy');
+  document.getElementById('s1-specialty-badge').textContent = data.specialty;
+
+  // One-liner
+  document.getElementById('one-liner-text').textContent = data.one_liner;
+
+  // Reset DDx
+  state.userDdx = [];
+  updateDdxChips();
+  buildDdxDropdown('');
+  buildVindicateGrid();
+  document.getElementById('ddx-input').value = '';
+}
+
+// DDx dropdown
+function buildDdxDropdown(filter) {
+  const dropdown = document.getElementById('ddx-dropdown');
+  dropdown.innerHTML = '';
+  const lib = state.diseaseLibrary;
+  const f = filter.toLowerCase();
+  let hasResult = false;
+
+  for (const [category, diseases] of Object.entries(lib)) {
+    const matching = diseases.filter(d =>
+      !f || d.toLowerCase().includes(f)
+    );
+    if (!matching.length) continue;
+    hasResult = true;
+
+    const header = document.createElement('div');
+    header.className = 'ddx-group-header';
+    header.textContent = category;
+    dropdown.appendChild(header);
+
+    matching.forEach(disease => {
+      const opt = document.createElement('div');
+      opt.className = 'ddx-option' + (state.userDdx.includes(disease) ? ' disabled' : '');
+      opt.textContent = disease;
+      opt.onclick = () => addDdxItem(disease);
+      dropdown.appendChild(opt);
+    });
+  }
+  if (!hasResult) {
+    const empty = document.createElement('div');
+    empty.className = 'ddx-option';
+    empty.textContent = 'No matches found';
+    empty.style.color = 'var(--text-muted)';
+    dropdown.appendChild(empty);
+  }
+}
+
+function filterDdx() {
+  buildDdxDropdown(document.getElementById('ddx-input').value);
+  openDdxDropdown();
+}
+function openDdxDropdown() { document.getElementById('ddx-dropdown').classList.add('open'); }
+function closeDdxDropdown() { document.getElementById('ddx-dropdown').classList.remove('open'); }
+
+// =====================================================
+// VINDICATE CATEGORY DROPDOWNS
+// =====================================================
+const VINDICATE_SHORT = {
+  'Vascular':                   'Vascular',
+  'Infectious / Inflammatory':  'Infectious / Inflam.',
+  'Neoplastic / Neurologic':    'Neoplastic / Neuro.',
+  'Degenerative / Drugs':       'Degenerative / Drugs',
+  'Idiopathic / Iatrogenic':    'Idiopathic / Iatr.',
+  'Congenital':                 'Congenital',
+  'Autoimmune / Allergic':      'Autoimmune / Allergic',
+  'Traumatic / Toxic':          'Traumatic / Toxic',
+  'Endocrine / Environmental':  'Endocrine / Environ.',
+};
+
+const VINDICATE_COLOR = {
+  'Vascular':                   'var(--vc-vascular)',
+  'Infectious / Inflammatory':  'var(--vc-infectious)',
+  'Neoplastic / Neurologic':    'var(--vc-neoplastic)',
+  'Degenerative / Drugs':       'var(--vc-degenerat)',
+  'Idiopathic / Iatrogenic':    'var(--vc-idiopathic)',
+  'Congenital':                 'var(--vc-congenital)',
+  'Autoimmune / Allergic':      'var(--vc-autoimmune)',
+  'Traumatic / Toxic':          'var(--vc-traumatic)',
+  'Endocrine / Environmental':  'var(--vc-endocrine)',
+};
+
+const VINDICATE_LETTER = {
+  'Vascular': 'V', 'Infectious / Inflammatory': 'I',
+  'Neoplastic / Neurologic': 'N', 'Degenerative / Drugs': 'D',
+  'Idiopathic / Iatrogenic': 'I', 'Congenital': 'C',
+  'Autoimmune / Allergic': 'A', 'Traumatic / Toxic': 'T',
+  'Endocrine / Environmental': 'E',
+};
+
+let _openVindicateCatId = null;
+
+function _vindicateCatId(category) {
+  return 'vcat-' + category.replace(/[^a-zA-Z0-9]/g, '_');
+}
+
+function buildVindicateGrid() {
+  const grid = document.getElementById('vindicate-grid');
+  if (!grid || !Object.keys(state.diseaseLibrary).length) return;
+  grid.innerHTML = '';
+
+  const entries = Object.entries(state.diseaseLibrary);
+  entries.forEach(([category, diseases_raw], idx) => {
+    const diseases = [...diseases_raw].sort((a, b) => a.localeCompare(b));
+    const catId = _vindicateCatId(category);
+    const selectedCount = diseases.filter(d => state.userDdx.includes(d)).length;
+    const label = VINDICATE_SHORT[category] || category;
+    const letter = VINDICATE_LETTER[category] || '?';
+    const color = VINDICATE_COLOR[category] || 'var(--teal)';
+    const col = idx % 3; // 0=left, 1=mid, 2=right
+    const alignRight = col === 2;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'vindicate-cat';
+    wrap.id = catId + '-wrap';
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'vindicate-cat-btn' + (selectedCount > 0 ? ' has-selected' : '');
+    btn.id = catId + '-btn';
+    btn.style.setProperty('--cat-color', color);
+    btn.innerHTML =
+      `<span class="vindicate-cat-letter" style="color:${color}">${letter}</span>` +
+      `<span class="vindicate-cat-btn-label">${label}</span>` +
+      `<span class="vindicate-cat-badge ${selectedCount > 0 ? 'visible' : ''}" id="${catId}-badge" style="background:${color}">${selectedCount}</span>` +
+      `<span class="vindicate-cat-arrow">▾</span>`;
+    btn.addEventListener('click', (e) => { e.stopPropagation(); _toggleVindicateDropdown(catId, diseases, alignRight); });
+
+    const dropdown = document.createElement('div');
+    dropdown.className = 'vindicate-cat-dropdown' + (alignRight ? ' align-right' : '');
+    dropdown.id = catId + '-dropdown';
+
+    const filterInput = document.createElement('input');
+    filterInput.type = 'text';
+    filterInput.className = 'vindicate-cat-filter';
+    filterInput.placeholder = 'Filter…';
+    filterInput.addEventListener('input', () => _buildVindicateCatOptions(catId, diseases, filterInput.value));
+    filterInput.addEventListener('click', (e) => e.stopPropagation());
+
+    const optionsContainer = document.createElement('div');
+    optionsContainer.className = 'vindicate-cat-options';
+    optionsContainer.id = catId + '-options';
+
+    dropdown.appendChild(filterInput);
+    dropdown.appendChild(optionsContainer);
+    wrap.appendChild(btn);
+    wrap.appendChild(dropdown);
+    grid.appendChild(wrap);
+
+    _buildVindicateCatOptions(catId, diseases, '');
+  });
+}
+
+function _buildVindicateCatOptions(catId, diseases, filter) {
+  const container = document.getElementById(catId + '-options');
+  if (!container) return;
+  container.innerHTML = '';
+  const f = filter.toLowerCase().trim();
+  const matching = f ? diseases.filter(d => d.toLowerCase().includes(f)) : diseases;
+
+  if (!matching.length) {
+    const empty = document.createElement('div');
+    empty.className = 'ddx-option';
+    empty.style.color = 'var(--text-muted)';
+    empty.textContent = 'No matches';
+    container.appendChild(empty);
+    return;
+  }
+
+  matching.forEach(disease => {
+    const isSelected = state.userDdx.includes(disease);
+    const opt = document.createElement('div');
+    opt.className = 'ddx-option' + (isSelected ? ' disabled' : '');
+    opt.textContent = disease;
+    if (!isSelected) {
+      opt.addEventListener('click', (e) => { e.stopPropagation(); addDdxItem(disease); });
+    }
+    container.appendChild(opt);
+  });
+}
+
+function _toggleVindicateDropdown(catId, diseases, alignRight) {
+  const dropdown = document.getElementById(catId + '-dropdown');
+  if (!dropdown) return;
+
+  // Close previously open dropdown
+  if (_openVindicateCatId && _openVindicateCatId !== catId) {
+    const prev = document.getElementById(_openVindicateCatId + '-dropdown');
+    if (prev) prev.classList.remove('open');
+  }
+
+  const isOpen = dropdown.classList.contains('open');
+  dropdown.classList.toggle('open', !isOpen);
+  _openVindicateCatId = isOpen ? null : catId;
+
+  if (!isOpen) {
+    const fi = dropdown.querySelector('.vindicate-cat-filter');
+    if (fi) { fi.value = ''; setTimeout(() => fi.focus(), 30); }
+    _buildVindicateCatOptions(catId, diseases, '');
+  }
+}
+
+// Update button badges without full rebuild (called after add/remove)
+function updateVindicateGrid() {
+  const lib = state.diseaseLibrary;
+  for (const [category, diseases] of Object.entries(lib)) {
+    const catId = _vindicateCatId(category);
+    const selectedCount = diseases.filter(d => state.userDdx.includes(d)).length;
+
+    const btn = document.getElementById(catId + '-btn');
+    const badge = document.getElementById(catId + '-badge');
+    if (btn) btn.classList.toggle('has-selected', selectedCount > 0);
+    if (badge) {
+      badge.textContent = selectedCount;
+      badge.classList.toggle('visible', selectedCount > 0);
+    }
+
+    // Refresh options in any open dropdown
+    if (_openVindicateCatId === catId) {
+      const fi = document.querySelector(`#${catId}-dropdown .vindicate-cat-filter`);
+      _buildVindicateCatOptions(catId, diseases, fi ? fi.value : '');
+    }
+  }
+}
+
+// Close vindicate dropdowns on outside click
+document.addEventListener('click', () => {
+  if (_openVindicateCatId) {
+    const prev = document.getElementById(_openVindicateCatId + '-dropdown');
+    if (prev) prev.classList.remove('open');
+    _openVindicateCatId = null;
+  }
+});
+
+function addDdxItem(disease) {
+  if (state.userDdx.includes(disease) || state.userDdx.length >= 10) return;
+  state.userDdx.push(disease);
+  document.getElementById('ddx-input').value = '';
+  buildDdxDropdown('');
+  closeDdxDropdown();
+  updateDdxChips();
+  updateVindicateGrid();
+}
+
+function removeDdxItem(disease) {
+  state.userDdx = state.userDdx.filter(d => d !== disease);
+  buildDdxDropdown(document.getElementById('ddx-input').value);
+  updateDdxChips();
+  updateVindicateGrid();
+}
+
+function updateDdxChips() {
+  const chips = document.getElementById('ddx-chips');
+  chips.innerHTML = '';
+  state.userDdx.forEach(d => {
+    const chip = document.createElement('div');
+    chip.className = 'ddx-chip';
+    chip.innerHTML = `${esc(d)} <button class="ddx-chip-remove" onclick="removeDdxItem('${esc(d).replace(/'/g,"\\'")}')">×</button>`;
+    chips.appendChild(chip);
+  });
+  document.getElementById('ddx-count').textContent = state.userDdx.length;
+  document.getElementById('submit-ddx-btn').disabled = state.userDdx.length < 3;
+}
+
+async function submitDdx() {
+  if (state.userDdx.length < 3) return;
+  // Save to session
+  await fetch('/api/session/save-ddx', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ddx: state.userDdx})
+  });
+  await loadStage2();
+}
+
+// =====================================================
+// STAGE 2
+// =====================================================
+async function loadStage2() {
+  try {
+    const r = await fetch('/api/case/stage2');
+    const data = await r.json();
+    if (data.error) { showToast(data.error); return; }
+    showStage2(data);
+  } catch(e) { showToast('Failed to load stage 2.'); }
+}
+
+function showStage2(data) {
+  hideAllScreens();
+  updateProgress(2);
+  const s = document.getElementById('screen-stage2');
+  s.style.display = 'block';
+
+  // Copy diff badge
+  const badge = document.getElementById('s2-diff-badge');
+  badge.textContent = state.mode === 'attending' ? 'Attending' : 'Easy';
+  badge.className = 'diff-badge ' + (state.mode === 'attending' ? 'attending' : 'easy');
+  document.getElementById('s2-specialty-badge').textContent = state.specialty;
+
+  document.getElementById('s2-hpi').textContent = data.hpi_extension || '';
+  document.getElementById('s2-pmh').textContent = data.pmh || 'None';
+  document.getElementById('s2-surgical').textContent = data.surgical_history || 'None';
+  document.getElementById('s2-meds').textContent = data.medications || 'None';
+  document.getElementById('s2-allergies').textContent = data.allergies || 'NKDA';
+  document.getElementById('s2-fhx').textContent = data.family_history || 'Non-contributory';
+  document.getElementById('s2-shx').textContent = data.social_history || '';
+  document.getElementById('s2-exam').textContent = data.physical_exam || '';
+
+  // Vitals
+  const v = data.vitals || {};
+  const vitalsEl = document.getElementById('s2-vitals');
+  vitalsEl.innerHTML = '';
+  state.vitalsStr = '';
+  const vitalsList = [
+    ['Temp', v.temp], ['HR', v.hr], ['BP', v.bp],
+    ['RR', v.rr], ['SpO₂', v.spo2], ['Weight/BMI', v.weight_bmi]
+  ];
+  vitalsList.forEach(([name, val]) => {
+    if (!val) return;
+    const vc = document.createElement('div');
+    vc.className = 'vital-card';
+    vc.innerHTML = `<div class="vital-name">${name}</div><div class="vital-value">${esc(val)}</div>`;
+    vitalsEl.appendChild(vc);
+  });
+  state.vitalsStr = vitalsList.filter(([,v])=>v).map(([n,v])=>`${n}: ${v}`).join(' · ');
+
+  // Sticky bar
+  document.getElementById('sticky-oneliner').textContent = state.oneLiner || '';
+  document.getElementById('sticky-vitals').textContent = state.vitalsStr;
+  document.getElementById('sticky-bar').style.display = 'block';
+
+  // Refinement rows
+  const rows = document.getElementById('refinement-rows');
+  rows.innerHTML = '';
+  state.userRefinements = {};
+  state.userDdx.forEach(diag => {
+    const row = document.createElement('div');
+    row.className = 'refinement-row';
+    row.id = `ref-row-${safeId(diag)}`;
+    row.innerHTML = `
+      <div class="refinement-name">${esc(diag)}</div>
+      <div class="refinement-btns">
+        <button class="ref-btn" onclick="setRefinement('${esc(diag).replace(/'/g,"\\'")}','more_likely',this)">More Likely ▲</button>
+        <button class="ref-btn" onclick="setRefinement('${esc(diag).replace(/'/g,"\\'")}','just_as_likely',this)">Just as Likely ◀▶</button>
+        <button class="ref-btn" onclick="setRefinement('${esc(diag).replace(/'/g,"\\'")}','less_likely',this)">Less Likely ▼</button>
+      </div>`;
+    rows.appendChild(row);
+  });
+  checkProceedS3();
+}
+
+function setRefinement(diag, choice, btn) {
+  state.userRefinements[diag] = choice;
+  const row = document.getElementById(`ref-row-${safeId(diag)}`);
+  if (row) {
+    row.querySelectorAll('.ref-btn').forEach(b => {
+      b.classList.remove('selected-more','selected-same','selected-less');
+    });
+  }
+  if (choice === 'more_likely') btn.classList.add('selected-more');
+  else if (choice === 'just_as_likely') btn.classList.add('selected-same');
+  else btn.classList.add('selected-less');
+  checkProceedS3();
+}
+
+function checkProceedS3() {
+  const allSet = state.userDdx.every(d => state.userRefinements[d]);
+  document.getElementById('proceed-s3-btn').disabled = !allSet;
+}
+
+async function requestFeedbackS2() {
+  const btn = document.getElementById('feedback-s2-btn');
+  const panel = document.getElementById('feedback-s2-panel');
+  btn.disabled = true;
+  panel.style.display = 'block';
+  panel.innerHTML = '<div class="feedback-loading"><span class="spinner"></span> &nbsp;Analyzing your differential…</div>';
+
+  try {
+    const r = await fetch('/api/feedback/stage2', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({refinements: state.userRefinements, api_key: _getApiKey()})
+    });
+    const data = await r.json();
+    if (data.error) {
+      panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem">⚠️ ${esc(data.error)}</div>`;
+      return;
+    }
+    renderFeedbackPanel(panel, data.items || []);
+  } catch(e) {
+    panel.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem">⚠️ Feedback unavailable.</div>';
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function renderFeedbackPanel(panel, items) {
+  panel.innerHTML = '';
+  items.forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'feedback-row';
+    const verdictClass = `verdict-${item.verdict}`;
+    const verdictText = item.verdict === 'correct' ? '✓ Correct' : item.verdict === 'reasonable' ? '~ Reasonable' : '✗ Reconsider';
+    row.innerHTML = `
+      <span class="feedback-verdict ${verdictClass}">${verdictText}</span>
+      <div><div class="feedback-name">${esc(item.name)}</div><div class="feedback-explanation">${esc(item.explanation)}</div></div>
+    `;
+    panel.appendChild(row);
+  });
+}
+
+async function proceedToStage3() {
+  await fetch('/api/session/save-refinements', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({refinements: state.userRefinements})
+  });
+  showStage3();
+}
+
+// =====================================================
+// STAGE 3
+// =====================================================
+function populateTestPanels() {
+  populateTestGrid('tests-basic', BASIC_LABS);
+  populateTestGrid('tests-specialized', SPECIALIZED_LABS);
+  populateTestGrid('tests-imaging', IMAGING);
+  populateTestGrid('tests-procedures', PROCEDURES);
+}
+
+function populateTestGrid(containerId, tests) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  el.innerHTML = '';
+  tests.forEach(test => {
+    const btn = document.createElement('button');
+    btn.className = 'test-option';
+    btn.textContent = test;
+    btn.onclick = () => toggleTest(test, btn);
+    btn.dataset.test = test;
+    el.appendChild(btn);
+  });
+}
+
+function showTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach((b,i) => {
+    const tabs = ['basic','specialized','imaging','procedures'];
+    b.classList.toggle('active', tabs[i] === tabName);
+  });
+  document.querySelectorAll('.tab-panel').forEach(p => {
+    p.classList.toggle('active', p.id === `tab-${tabName}`);
+  });
+}
+
+function showStage3() {
+  hideAllScreens();
+  updateProgress(3);
+  document.getElementById('screen-stage3').style.display = 'block';
+
+  // Reset test selections
+  state.orderedTests = [];
+  document.querySelectorAll('.test-option').forEach(btn => {
+    btn.classList.remove('selected','disabled');
+  });
+  document.getElementById('ordered-chips').innerHTML = '';
+  document.getElementById('tests-count').textContent = '0';
+  document.getElementById('submit-tests-btn').disabled = true;
+  document.getElementById('results-card').style.display = 'none';
+}
+
+function toggleTest(test, btn) {
+  if (state.orderedTests.includes(test)) {
+    state.orderedTests = state.orderedTests.filter(t => t !== test);
+    btn.classList.remove('selected');
+  } else {
+    if (state.orderedTests.length >= 5) {
+      showToast('Maximum 5 tests. Remove one first.');
+      return;
+    }
+    state.orderedTests.push(test);
+    btn.classList.add('selected');
+  }
+  updateOrderedChips();
+  document.getElementById('tests-count').textContent = state.orderedTests.length;
+  document.getElementById('submit-tests-btn').disabled = state.orderedTests.length < 2;
+}
+
+function updateOrderedChips() {
+  const chips = document.getElementById('ordered-chips');
+  chips.innerHTML = '';
+  state.orderedTests.forEach(test => {
+    const chip = document.createElement('div');
+    chip.className = 'ordered-chip';
+    chip.innerHTML = `${esc(test)} <button class="ordered-chip-remove" onclick="removeTest('${esc(test).replace(/'/g,"\\'")}')">×</button>`;
+    chips.appendChild(chip);
+  });
+}
+
+function removeTest(test) {
+  state.orderedTests = state.orderedTests.filter(t => t !== test);
+  // Deselect button
+  document.querySelectorAll('.test-option').forEach(btn => {
+    if (btn.dataset.test === test) btn.classList.remove('selected');
+  });
+  updateOrderedChips();
+  document.getElementById('tests-count').textContent = state.orderedTests.length;
+  document.getElementById('submit-tests-btn').disabled = state.orderedTests.length < 2;
+}
+
+async function submitTests() {
+  const btn = document.getElementById('submit-tests-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Processing…';
+
+  try {
+    const r = await fetch('/api/case/stage3/results', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({tests: state.orderedTests})
+    });
+    const data = await r.json();
+    if (data.error) { showToast(data.error); return; }
+    await revealResults(data.results || []);
+  } catch(e) {
+    showToast('Failed to load results.');
+  } finally {
+    btn.innerHTML = 'Reveal Results →';
+  }
+}
+
+async function revealResults(results) {
+  const card = document.getElementById('results-card');
+  const list = document.getElementById('results-list');
+  card.style.display = 'block';
+  list.innerHTML = '';
+
+  // Scroll to results
+  setTimeout(() => card.scrollIntoView({behavior:'smooth', block:'start'}), 100);
+
+  for (let i = 0; i < results.length; i++) {
+    const r = results[i];
+    await delay(i * 500);
+    const div = document.createElement('div');
+    const flagClass = `flag-${(r.flag||'wnl').toLowerCase()}`;
+    const flagLabel = r.flag === 'HIGH' ? 'HIGH ↑' : r.flag === 'LOW' ? 'LOW ↓' : r.flag === 'ABNORMAL' ? 'Abnormal' : 'WNL';
+    div.className = `result-card ${flagClass}`;
+    div.style.animationDelay = '0s';
+    div.innerHTML = `
+      <span class="result-flag">${flagLabel}</span>
+      <div class="result-info">
+        <div class="result-test-name">${esc(r.test_name)}</div>
+        <div class="result-value">${esc(r.result)}</div>
+        ${r.clinical_significance ? `<div class="result-significance">${esc(r.clinical_significance)}</div>` : ''}
+      </div>`;
+    list.appendChild(div);
+  }
+}
+
+async function requestFeedbackS3() {
+  const btn = document.getElementById('feedback-s3-btn');
+  const panel = document.getElementById('feedback-s3-panel');
+  btn.disabled = true;
+  panel.style.display = 'block';
+  panel.innerHTML = '<div class="feedback-loading"><span class="spinner"></span> &nbsp;Evaluating your workup choices…</div>';
+
+  try {
+    const r = await fetch('/api/feedback/stage3', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({tests: state.orderedTests, api_key: _getApiKey()})
+    });
+    const data = await r.json();
+    if (data.error) {
+      panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem">⚠️ ${esc(data.error)}</div>`;
+      return;
+    }
+    renderFeedbackPanel(panel, data.items || []);
+    if (data.missed_critical) {
+      const note = document.createElement('div');
+      note.style.cssText = 'margin-top:10px;padding:10px 12px;background:rgba(239,68,68,0.06);border-radius:6px;border-left:3px solid var(--red);font-size:0.85rem';
+      note.innerHTML = `<strong style="color:var(--red)">Critical tests missed:</strong> ${esc(data.missed_critical)}`;
+      panel.appendChild(note);
+    }
+  } catch(e) {
+    panel.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem">⚠️ Feedback unavailable.</div>';
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+// =====================================================
+// STAGE 4
+// =====================================================
+async function proceedToStage4() {
+  hideAllScreens();
+  updateProgress(4);
+  document.getElementById('screen-stage4').style.display = 'block';
+
+  state.top3 = [];
+  const optionsEl = document.getElementById('top3-options');
+  optionsEl.innerHTML = '';
+
+  state.userDdx.forEach(diag => {
+    const opt = document.createElement('div');
+    opt.className = 'top3-option';
+    opt.id = `t3-opt-${safeId(diag)}`;
+    opt.innerHTML = `
+      <input type="checkbox" id="t3-cb-${safeId(diag)}" onchange="toggleTop3('${esc(diag).replace(/'/g,"\\'")}',this)"/>
+      <label for="t3-cb-${safeId(diag)}" class="top3-name" style="cursor:pointer">${esc(diag)}</label>`;
+    optionsEl.appendChild(opt);
+  });
+
+  updateRankDisplay();
+  document.getElementById('missed-escape').style.display = 'none';
+  document.getElementById('escape-input') && (document.getElementById('escape-input').value = '');
+}
+
+function toggleTop3(diag, cb) {
+  if (cb.checked) {
+    if (state.top3.length >= 3) {
+      cb.checked = false;
+      showToast('You can only select 3 diagnoses for your Top 3.');
+      return;
+    }
+    state.top3.push(diag);
+  } else {
+    state.top3 = state.top3.filter(d => d !== diag);
+  }
+  updateRankDisplay();
+  document.getElementById('lock-top3-btn').disabled = state.top3.length !== 3;
+}
+
+function updateRankDisplay() {
+  const el = document.getElementById('rank-display');
+  if (!state.top3.length) {
+    el.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem">Select diagnoses above to build your ranking.</div>';
+    return;
+  }
+  el.innerHTML = '';
+  state.top3.forEach((diag, i) => {
+    const item = document.createElement('div');
+    item.className = 'rank-item';
+    item.innerHTML = `
+      <div class="rank-num r${i+1}">${i+1}</div>
+      <div class="rank-name">${esc(diag)}</div>
+      <button class="rank-remove" onclick="removeFromTop3('${esc(diag).replace(/'/g,"\\'")}')">×</button>`;
+    el.appendChild(item);
+  });
+}
+
+function removeFromTop3(diag) {
+  state.top3 = state.top3.filter(d => d !== diag);
+  const cb = document.getElementById(`t3-cb-${safeId(diag)}`);
+  if (cb) cb.checked = false;
+  updateRankDisplay();
+  document.getElementById('lock-top3-btn').disabled = state.top3.length !== 3;
+}
+
+function showMissedEscape() {
+  document.getElementById('missed-escape').style.display = 'block';
+  buildEscapeDropdown('');
+}
+
+function buildEscapeDropdown(filter) {
+  const dropdown = document.getElementById('escape-dropdown');
+  if (!dropdown) return;
+  dropdown.innerHTML = '';
+  const lib = state.diseaseLibrary;
+  const f = filter.toLowerCase();
+
+  for (const [category, diseases] of Object.entries(lib)) {
+    const matching = diseases.filter(d =>
+      !f || d.toLowerCase().includes(f)
+    ).filter(d => !state.userDdx.includes(d));
+    if (!matching.length) continue;
+
+    const header = document.createElement('div');
+    header.className = 'ddx-group-header';
+    header.textContent = category;
+    dropdown.appendChild(header);
+
+    matching.slice(0, 5).forEach(disease => {
+      const opt = document.createElement('div');
+      opt.className = 'ddx-option';
+      opt.textContent = disease;
+      opt.onclick = () => addMissedDiagnosis(disease);
+      dropdown.appendChild(opt);
+    });
+  }
+  dropdown.classList.add('open');
+}
+
+function filterEscape() { buildEscapeDropdown(document.getElementById('escape-input').value); }
+function openEscapeDropdown() { document.getElementById('escape-dropdown').classList.add('open'); }
+function closeEscapeDropdown() { document.getElementById('escape-dropdown').classList.remove('open'); }
+
+let missedCount = 0;
+function addMissedDiagnosis(disease) {
+  if (missedCount >= 2) { showToast('You can add at most 2 new diagnoses at this stage.'); return; }
+  if (state.userDdx.includes(disease)) return;
+  state.userDdx.push(disease);
+  missedCount++;
+
+  // Add to top3 options
+  const opt = document.createElement('div');
+  opt.className = 'top3-option';
+  opt.id = `t3-opt-${safeId(disease)}`;
+  opt.innerHTML = `
+    <input type="checkbox" id="t3-cb-${safeId(disease)}" onchange="toggleTop3('${esc(disease).replace(/'/g,"\\'")}',this)"/>
+    <label for="t3-cb-${safeId(disease)}" class="top3-name" style="cursor:pointer">${esc(disease)} <span style="color:var(--amber);font-size:0.72rem">(added)</span></label>`;
+  document.getElementById('top3-options').appendChild(opt);
+
+  document.getElementById('escape-input').value = '';
+  closeEscapeDropdown();
+  showToast(`Added: ${disease}`);
+}
+
+async function lockTop3() {
+  if (state.top3.length !== 3) return;
+  await fetch('/api/session/save-top3', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({top3: state.top3})
+  });
+  await loadStage5();
+}
+
+// =====================================================
+// STAGE 5
+// =====================================================
+async function loadStage5() {
+  try {
+    const r = await fetch('/api/case/stage5');
+    const data = await r.json();
+    if (data.error) { showToast(data.error); return; }
+    showStage5(data);
+  } catch(e) { showToast('Failed to load stage 5.'); }
+}
+
+function showStage5(data) {
+  hideAllScreens();
+  updateProgress(5);
+  document.getElementById('screen-stage5').style.display = 'block';
+  document.getElementById('s5-clue').textContent = data.final_clue || '';
+
+  const choices = document.getElementById('final-choices');
+  choices.innerHTML = '';
+  state.finalDiagnosis = null;
+
+  const rankLabels = ['#1 — Leading diagnosis', '#2 — Second choice', '#3 — Third choice'];
+  state.top3.forEach((diag, i) => {
+    const opt = document.createElement('label');
+    opt.className = 'final-option';
+    opt.id = `final-opt-${i}`;
+    opt.innerHTML = `
+      <input type="radio" name="final_dx" value="${esc(diag)}" onchange="selectFinal('${esc(diag).replace(/'/g,"\\'")}')"/>
+      <span style="flex:1">${esc(diag)}</span>
+      <span class="rank-label-text">${rankLabels[i]}</span>`;
+    choices.appendChild(opt);
+  });
+
+  document.getElementById('submit-final-btn').disabled = true;
+}
+
+function selectFinal(diag) {
+  state.finalDiagnosis = diag;
+  document.querySelectorAll('.final-option').forEach(opt => {
+    opt.classList.toggle('selected', opt.querySelector('input').value === diag);
+  });
+  document.getElementById('submit-final-btn').disabled = false;
+}
+
+async function submitFinalDiagnosis() {
+  if (!state.finalDiagnosis) return;
+  const btn = document.getElementById('submit-final-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Submitting…';
+
+  try {
+    const r = await fetch('/api/case/reveal', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({final_diagnosis: state.finalDiagnosis})
+    });
+    const data = await r.json();
+    if (data.error) { showToast(data.error); return; }
+    showStage6(data);
+  } catch(e) {
+    showToast('Failed to submit. Try again.');
+  } finally {
+    btn.innerHTML = 'Submit Final Diagnosis';
+    btn.disabled = false;
+  }
+}
+
+// =====================================================
+// STAGE 6 — REVEAL & DEBRIEF
+// =====================================================
+function showStage6(data) {
+  hideAllScreens();
+  updateProgress(6);
+  document.getElementById('sticky-bar').style.display = 'none';
+  document.getElementById('screen-stage6').style.display = 'block';
+
+  const correct = data.correct;
+  const revealCard = document.getElementById('reveal-card');
+  revealCard.className = `reveal-card ${correct ? 'correct' : 'incorrect'} fade-in`;
+  document.getElementById('reveal-icon').textContent = correct ? '✓' : '✗';
+  document.getElementById('reveal-result').textContent = correct ? 'Correct!' : 'Incorrect';
+  document.getElementById('reveal-dx').textContent = correct
+    ? data.correct_diagnosis
+    : `The diagnosis was: ${data.correct_diagnosis}`;
+  document.getElementById('reveal-icd').textContent = data.icd_category || '';
+
+  // Score
+  const score = data.score || {};
+  document.getElementById('score-total').textContent = `${score.total || 0} / 100`;
+  document.getElementById('score-breakdown').innerHTML = `
+    <div class="score-item"><div class="score-item-label">DDx</div><div class="score-item-val">${score.ddx_score||0}/${score.ddx_max||25}</div></div>
+    <div class="score-item"><div class="score-item-label">Refinement</div><div class="score-item-val">${score.refinement_score||0}/${score.refinement_max||20}</div></div>
+    <div class="score-item"><div class="score-item-label">Workup</div><div class="score-item-val">${score.workup_score||0}/${score.workup_max||25}</div></div>
+    <div class="score-item"><div class="score-item-label">Diagnosis</div><div class="score-item-val">${score.diagnosis_score||0}/${score.diagnosis_max||30}</div></div>
+  `;
+
+  // Case stats
+  const cs = data.case_stats || {};
+  document.getElementById('case-stats-bar').innerHTML = `
+    <div class="case-stat">Case <strong>${state.caseUid || ''}</strong></div>
+    <div class="case-stat">Played <strong>${cs.times_played || 1}</strong> times</div>
+    <div class="case-stat">Correct rate: <strong>${cs.correct_rate || 0}%</strong></div>
+  `;
+
+  // Debrief
+  const debrief = data.debrief || {};
+  const ddxReview = data.ddx_review || [];
+  const stage3Review = data.stage3_review || {};
+  const content = document.getElementById('debrief-content');
+
+  let html = '';
+
+  // Diagnosis
+  html += `<div class="debrief-section">
+    <div class="debrief-label">1. The Diagnosis</div>
+    <div class="debrief-text"><strong>${esc(data.correct_diagnosis)}</strong>${data.icd_category ? ` — ${esc(data.icd_category)}` : ''}</div>
+  </div><hr class="divider"/>`;
+
+  // Classic presentation
+  html += `<div class="debrief-section">
+    <div class="debrief-label">2. Classic Presentation</div>
+    <div class="debrief-text">${esc(debrief.classic_presentation || '')}</div>
+  </div>`;
+
+  // Attending mode notes
+  if (debrief.attending_mode_notes) {
+    html += `<div class="attending-notes-box">
+      <div class="label">⚡ Attending Mode: What Was Atypical/Misleading</div>
+      <div style="font-size:0.875rem;line-height:1.7">${esc(debrief.attending_mode_notes)}</div>
+    </div>`;
+  }
+  html += '<hr class="divider"/>';
+
+  // DDx review
+  html += `<div class="debrief-section">
+    <div class="debrief-label">3. Your DDx Review</div>`;
+  ddxReview.forEach(item => {
+    const reasonableClass = item.reasonable_to_include ? 'reasonable' : 'not-reasonable';
+    const icon = item.reasonable_to_include ? '✓' : '~';
+    const refinementText = item.refinement_choice !== 'not_refined'
+      ? ` · Refined: ${item.refinement_choice.replace(/_/g,' ')} ${item.refinement_correct ? '✓' : '✗'}`
+      : '';
+    html += `<div class="ddx-review-row ${reasonableClass}">
+      <span class="ddx-review-icon">${icon}</span>
+      <span><strong>${esc(item.diagnosis)}</strong><span style="color:var(--text-muted);font-size:0.8rem">${refinementText}</span></span>
+    </div>`;
+  });
+  html += '</div><hr class="divider"/>';
+
+  // Workup review
+  html += `<div class="debrief-section">
+    <div class="debrief-label">4. Workup Review</div>
+    <div style="margin-bottom:10px">`;
+  const allOrderedTests = stage3Review.user_tests || [];
+  const keyTests = stage3Review.key_tests || [];
+  const acceptableTests = stage3Review.acceptable_tests || [];
+  const lowYieldTests = stage3Review.low_yield_tests || [];
+
+  allOrderedTests.forEach(test => {
+    const isKey = keyTests.includes(test);
+    const isAcceptable = acceptableTests.includes(test);
+    const isLow = lowYieldTests.includes(test);
+    const tagClass = isKey ? 'key' : isAcceptable ? 'acceptable' : isLow ? 'low-yield' : 'acceptable';
+    const tagText = isKey ? 'High-yield' : isAcceptable ? 'Acceptable' : isLow ? 'Low-yield' : 'Ordered';
+    html += `<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:0.85rem">
+      <span class="workup-tag ${tagClass}">${tagText}</span>${esc(test)}
+    </div>`;
+  });
+
+  const missedKey = keyTests.filter(t => !allOrderedTests.includes(t));
+  if (missedKey.length) {
+    html += `<div style="margin-top:10px;font-size:0.82rem;color:var(--text-muted)"><strong style="color:var(--red)">Key tests not ordered:</strong> ${missedKey.map(esc).join(', ')}</div>`;
+  }
+  html += '</div></div><hr class="divider"/>';
+
+  // Pathophysiology
+  html += `<div class="debrief-section">
+    <div class="debrief-label">5. Pathophysiology</div>
+    <div class="debrief-text">${esc(debrief.pathophysiology || '')}</div>
+  </div><hr class="divider"/>`;
+
+  // Treatment
+  html += `<div class="debrief-section">
+    <div class="debrief-label">6. Treatment Overview</div>
+    <div class="debrief-text">${esc(debrief.treatment_overview || '')}</div>
+  </div><hr class="divider"/>`;
+
+  // Pearls
+  const pearls = debrief.high_yield_pearls || [];
+  html += `<div class="debrief-section">
+    <div class="debrief-label">7. High-Yield Board Pearls</div>
+    <ul class="pearl-list">
+      ${pearls.map(p => `<li>${esc(p)}</li>`).join('')}
+    </ul>
+  </div><hr class="divider"/>`;
+
+  // Sources
+  const sources = debrief.sources || [];
+  if (sources.length) {
+    html += `<div class="debrief-section">
+      <div class="debrief-label">8. Sources</div>
+      <ul class="source-list">
+        ${sources.map(s => `<li>${esc(s)}</li>`).join('')}
+      </ul>
+    </div>`;
+  }
+
+  content.innerHTML = html;
+  loadSessionStats();
+}
+
+// =====================================================
+// CASE LIBRARY
+// =====================================================
+async function showLibrary() {
+  hideAllScreens();
+  document.getElementById('stage-progress').style.display = 'none';
+  document.getElementById('sticky-bar').style.display = 'none';
+  document.getElementById('screen-library').style.display = 'block';
+
+  const content = document.getElementById('library-content');
+  content.innerHTML = 'Loading…';
+
+  try {
+    const r = await fetch('/api/case-library');
+    const data = await r.json();
+    if (data.error) { content.textContent = data.error; return; }
+
+    const cases = data.cases || [];
+    if (!cases.length) { content.textContent = 'No cases in library.'; return; }
+
+    let html = `<table class="library-table">
+      <thead><tr>
+        <th>Case ID</th><th>Mode</th><th>Specialty</th><th>Diagnosis</th><th>Played</th><th>Correct %</th>
+      </tr></thead><tbody>`;
+
+    cases.forEach(c => {
+      const modeClass = c.mode === 'attending' ? 'attending' : 'easy';
+      html += `<tr>
+        <td>${esc(c.case_uid)}</td>
+        <td><span class="diff-badge ${modeClass}">${esc(c.mode)}</span></td>
+        <td>${esc(c.specialty)}</td>
+        <td><span class="blurred" id="dx-${esc(c.case_uid)}" onclick="revealDx('${esc(c.case_uid)}')" title="Click to reveal">${esc(c.diagnosis)}</span>
+            <button class="reveal-btn" onclick="revealDx('${esc(c.case_uid)}')">👁</button></td>
+        <td>${c.times_played}</td>
+        <td>${c.times_played ? c.correct_rate + '%' : '—'}</td>
+      </tr>`;
+    });
+    html += '</tbody></table>';
+    content.innerHTML = html;
+  } catch(e) {
+    content.textContent = 'Failed to load library.';
+  }
+}
+
+function revealDx(uid) {
+  const el = document.getElementById(`dx-${uid}`);
+  if (el) el.classList.remove('blurred');
+}
+
+// =====================================================
+// NAVIGATION HELPERS
+// =====================================================
+function showPregame() {
+  hideAllScreens();
+  document.getElementById('stage-progress').style.display = 'none';
+  document.getElementById('sticky-bar').style.display = 'none';
+  document.getElementById('screen-pregame').style.display = 'block';
+  loadCaseCounts();
+}
+
+function resetToHome() {
+  missedCount = 0;
+  state.top3 = [];
+  state.userDdx = [];
+  state.userRefinements = {};
+  state.orderedTests = [];
+  state.finalDiagnosis = null;
+  document.getElementById('case-badge').style.display = 'none';
+  showPregame();
+}
+
+function hideAllScreens() {
+  ['pregame','stage1','stage2','stage3','stage4','stage5','stage6','library'].forEach(id => {
+    const el = document.getElementById(`screen-${id}`);
+    if (el) el.style.display = 'none';
+  });
+}
+
+function updateProgress(stage) {
+  for (let i = 1; i <= 6; i++) {
+    const el = document.getElementById(`step-${i}`);
+    if (!el) continue;
+    el.classList.remove('active','done');
+    if (i === stage) el.classList.add('active');
+    else if (i < stage) el.classList.add('done');
+  }
+}
+
+// =====================================================
+// UTILITIES
+// =====================================================
+function esc(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#039;');
+}
+
+function safeId(str) {
+  return String(str).replace(/[^a-zA-Z0-9]/g,'_');
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+let toastTimeout;
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove('show'), 3500);
+}
+
+// =====================================================
+// SETTINGS / API KEY
+// =====================================================
+function openSettings() {
+  const key = sessionStorage.getItem('anthropic_api_key') || '';
+  document.getElementById('settings-anthropic-key').value = key;
+  updateKeyStatus();
+  document.getElementById('settings-modal-overlay').classList.add('open');
+}
+function closeSettings() {
+  document.getElementById('settings-modal-overlay').classList.remove('open');
+}
+function saveSettings() {
+  const key = document.getElementById('settings-anthropic-key').value.trim();
+  if (key) {
+    sessionStorage.setItem('anthropic_api_key', key);
+    showToast('API key saved — feedback will now use Claude AI.');
+  } else {
+    sessionStorage.removeItem('anthropic_api_key');
+    showToast('Key cleared — using built-in rule-based feedback.');
+  }
+  closeSettings();
+}
+function clearSettings() {
+  document.getElementById('settings-anthropic-key').value = '';
+  sessionStorage.removeItem('anthropic_api_key');
+  updateKeyStatus();
+  showToast('API key cleared.');
+}
+function updateKeyStatus() {
+  const val = document.getElementById('settings-anthropic-key').value.trim();
+  const el = document.getElementById('key-status-text');
+  if (val) {
+    el.style.color = 'var(--green)';
+    el.textContent = '✔ Key entered — Claude AI feedback enabled';
+  } else {
+    el.style.color = 'var(--text-muted)';
+    el.textContent = 'No key — rule-based feedback active (always works)';
+  }
+}
+
+function _getApiKey() {
+  return sessionStorage.getItem('anthropic_api_key') || null;
+}
+</script>
+</body>
+</html>

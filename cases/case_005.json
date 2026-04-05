@@ -1,0 +1,187 @@
+{
+  "case_id": "case_005",
+  "mode": "easy",
+  "specialty": "Surgery / Emergency Medicine",
+  "diagnosis": "Appendicitis",
+  "icd_category": "K35.80 – Other and unspecified acute appendicitis without abscess",
+  "one_liner": "A 22-year-old female presents with 18 hours of periumbilical pain that has migrated to the right lower quadrant, anorexia, one episode of vomiting, and low-grade fever.",
+  "stage2": {
+    "hpi_extension": "The pain began 18 hours ago as a dull periumbilical ache. Over the past 6-8 hours it has migrated and localized to the right lower quadrant, becoming sharper and more constant. She has had one episode of non-bloody, non-bilious vomiting and has had no appetite since yesterday. She notes a low-grade fever at home. She denies diarrhea, dysuria, hematuria, or vaginal discharge. Her last menstrual period was approximately 2 weeks ago. She is sexually inactive and denies any possibility of pregnancy. She has no prior episodes of similar pain.",
+    "pmh": "No significant medical history. No prior abdominal surgeries.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 400 mg as needed (last taken yesterday evening before symptoms worsened)",
+    "allergies": "Penicillin (rash — mild, non-anaphylactic)",
+    "family_history": "No family history of inflammatory bowel disease or colorectal cancer.",
+    "social_history": "University student. Non-smoker. Occasional alcohol. Sexually inactive. No travel or sick contacts. Eats a low-fiber cafeteria diet.",
+    "vitals": {
+      "temp": "38.2°C (100.8°F)",
+      "hr": "96 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "BMI 22 kg/m²"
+    },
+    "physical_exam": "General: Young woman, alert and oriented, appears mildly uncomfortable; guarding abdomen with movement; ambulatory with a slight lean to the right. HEENT: Normal. Neck: Supple, no lymphadenopathy. Cardiovascular: Regular rate and rhythm; no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Flat, bowel sounds present but hypoactive; maximal tenderness at McBurney's point (one-third the distance from the ASIS to the umbilicus); voluntary guarding over the RLQ; Rovsing's sign positive (LLQ palpation causes RLQ pain); psoas sign positive (RLQ pain with passive right hip extension); obturator sign equivocal; no rebound tenderness at McBurney's point at this time; no hepatosplenomegaly. Pelvic exam: Normal external genitalia; cervical motion tenderness absent; adnexa non-tender bilaterally; no vaginal discharge. Rectal exam deferred. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "14.8 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis in the context of RLQ pain and fever is consistent with acute appendicitis; the degree of elevation correlates loosely with severity (perforation often causes WBC >18,000)."
+      },
+      {
+        "test_name": "Neutrophils",
+        "result": "82%",
+        "flag": "HIGH",
+        "clinical_significance": "Neutrophil predominance (left shift) supports an acute bacterial/inflammatory process in the right lower quadrant."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; significant anemia would raise suspicion for a different diagnosis such as ruptured ectopic pregnancy."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "276 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; important baseline before potential operative intervention."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "137 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; no significant metabolic derangement from nausea and vomiting."
+      },
+      {
+        "test_name": "BUN",
+        "result": "14 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal BUN; mild dehydration from vomiting and anorexia has not caused significant prerenal azotemia."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; no contrast contraindication for CT imaging."
+      },
+      {
+        "test_name": "CRP",
+        "result": "68 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CRP is a sensitive marker of periappendiceal inflammation; CRP >75 mg/L increases specificity for acute appendicitis but lower levels do not exclude it early in the course."
+      },
+      {
+        "test_name": "Beta-hCG",
+        "result": "< 2 mIU/mL (negative)",
+        "flag": "WNL",
+        "clinical_significance": "Negative pregnancy test is critical in any woman of childbearing age with RLQ pain — definitively excludes ectopic pregnancy as an alternative diagnosis."
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "1-3 WBC/hpf, no RBCs, no bacteria, no nitrites, no leukocyte esterase, specific gravity 1.022",
+        "flag": "WNL",
+        "clinical_significance": "Trace WBCs on UA can be seen with appendicitis due to proximity of the inflamed appendix to the ureter; absence of bacteria, nitrites, and significant pyuria argues against primary UTI or pyelonephritis as the diagnosis."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CT abdomen/pelvis (w/ contrast)",
+        "result": "Appendix measures 9 mm in diameter with periappendiceal fat stranding and enhancement of the appendiceal wall. No perforation identified. No periappendiceal abscess. No free intraperitoneal air. Ovaries appear normal bilaterally. No free fluid. No lymphadenopathy. Remainder of bowel unremarkable.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT findings of appendiceal dilation >6 mm with periappendiceal fat stranding are diagnostic for acute appendicitis; absence of perforation or abscess permits operative planning for laparoscopic appendectomy."
+      },
+      {
+        "test_name": "Ultrasound abdomen/pelvis (graded compression)",
+        "result": "Appendix visualized in the right lower quadrant. Non-compressible appendix measuring 9 mm in diameter with echogenic periappendiceal fat. No free fluid. Bilateral ovaries appear normal; no adnexal mass or free pelvic fluid to suggest torsion or ectopic pregnancy. Limited study — bowel gas obscures distal appendix.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound confirming a non-compressible appendix >6 mm is diagnostic; however, technical limitations (bowel gas, body habitus) mean that a negative ultrasound does not exclude appendicitis and CT should follow."
+      },
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Lungs clear bilaterally. No free air under the diaphragm. No acute cardiopulmonary process.",
+        "flag": "WNL",
+        "clinical_significance": "Normal CXR obtained as part of pre-operative workup; absence of free subdiaphragmatic air excludes bowel perforation at this time."
+      }
+    ],
+    "key_tests": [
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "CBC with differential",
+      "CRP",
+      "Beta-hCG",
+      "UA with microscopy"
+    ],
+    "acceptable_tests": [
+      "Ultrasound abdomen/pelvis",
+      "BMP",
+      "Lipase",
+      "Blood cultures (if septic appearing)",
+      "Coagulation panel (PT/INR/PTT)",
+      "Type and screen (pre-operative)",
+      "CXR (PA/Lateral)",
+      "LFTs",
+      "ESR"
+    ],
+    "low_yield_tests": [
+      "CT chest",
+      "MRI brain",
+      "EKG/ECG (unless pre-operative requirement in older patients)",
+      "ANA / autoimmune panel",
+      "Stool culture",
+      "Lower extremity Doppler ultrasound",
+      "Thyroid function tests"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The surgical team is notified. The patient is taken to the OR for laparoscopic appendectomy. Intraoperatively, an acutely inflamed, edematous appendix with early serosal exudate is found — no perforation, no abscess. Pathology confirms transmural neutrophilic infiltration consistent with acute appendicitis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute appendicitis classically presents as a migratory pain pattern — starting as a dull periumbilical or diffuse abdominal visceral pain (from stretching of the appendiceal wall stimulating T10 visceral fibers) that migrates over 12-24 hours to the right lower quadrant as the parietal peritoneum becomes involved. This is accompanied by anorexia, nausea, low-grade fever, and RLQ tenderness at McBurney's point.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Appendicitis begins with obstruction of the appendiceal lumen — most commonly by a fecalith (calcified stool) in adults, or lymphoid hyperplasia in children. Luminal obstruction impairs mucosal secretions from draining, raising intraluminal pressure. This impairs venous return and lymphatic drainage, causing edema, ischemia, and bacterial overgrowth of endogenous gut flora (E. coli, Bacteroides, Enterococcus). If untreated, the process progresses from mucosal inflammation to transmural infection and ultimately perforation (typically at 24-72 hours). The perforated appendix causes either diffuse peritonitis or a contained pericolic abscess depending on the inflammatory response.",
+    "treatment_overview": "Standard of care is laparoscopic appendectomy, ideally within 24 hours of diagnosis. Pre-operative IV antibiotics covering gram-negative rods and anaerobes (e.g., cefoxitin, or ceftriaxone + metronidazole — note penicillin allergy here, use ceftriaxone-based regimen). In this patient with a penicillin allergy (rash — not anaphylaxis), cephalosporins are generally safe (cross-reactivity <2%). Non-operative management with antibiotics alone (amoxicillin-clavulanate) is an emerging option for uncomplicated appendicitis but has a ~25% failure rate requiring appendectomy within 1 year. Perforated appendicitis with abscess: interval appendectomy after 6-8 weeks of antibiotics or immediate drainage.",
+    "high_yield_pearls": [
+      "The Alvarado score (MANTRELS: Migration of pain, Anorexia, Nausea/vomiting, RLQ Tenderness, Rebound, Elevated temperature, Leukocytosis, Left shift) predicts appendicitis risk: 7-10 = high probability (go to OR), 5-6 = intermediate (CT/US), <5 = low probability.",
+      "A negative urine pregnancy test (beta-hCG) is mandatory before CT scanning or OR consent in any woman of reproductive age with abdominal pain — ectopic pregnancy is the most life-threatening alternative diagnosis.",
+      "CT has ~94% sensitivity and ~95% specificity for appendicitis. Appendix >6 mm + periappendiceal fat stranding = diagnostic. Ultrasound is preferred first in children and pregnant women to minimize radiation; CT follows if US is non-diagnostic.",
+      "Penicillin allergy rash (not anaphylaxis) does NOT preclude cephalosporin use — cross-reactivity between penicillins and cephalosporins is <2%. Use ceftriaxone + metronidazole instead of ampicillin-sulbactam or cefoxitin if allergist confirmation is not immediately available.",
+      "McBurney's point lies one-third of the distance from the right anterior superior iliac spine (ASIS) to the umbilicus. Rovsing's sign (pain in RLQ on palpation of LLQ) and psoas sign (RLQ pain with passive right hip extension) suggest appendiceal inflammation irritating adjacent structures."
+    ],
+    "sources": [
+      "UpToDate: Acute appendicitis in adults: Clinical manifestations and differential diagnosis",
+      "UpToDate: Management of acute appendicitis in adults",
+      "Guideline: WSES Jerusalem Guidelines for Diagnosis and Treatment of Acute Appendicitis (2020)",
+      "Guideline: EAST Practice Management Guidelines for the Evaluation and Treatment of Acute Appendicitis (2019)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Ovarian cyst / ovarian torsion",
+      "Pelvic inflammatory disease (PID)",
+      "Mesenteric adenitis",
+      "Crohn's disease",
+      "Gastroenteritis",
+      "Urinary tract infection (UTI)",
+      "Pyelonephritis"
+    ],
+    "after_stage2_more_likely": [
+      "Appendicitis (classic migratory pain, McBurney's tenderness, positive Rovsing's and psoas signs, anorexia, low-grade fever)",
+      "Ovarian torsion (young woman, RLQ pain, nausea — must exclude with pelvic ultrasound)",
+      "Mesenteric adenitis (young patient, RLQ pain, may mimic appendicitis — tender but without McBurney's localization)"
+    ],
+    "after_stage2_less_likely": [
+      "Ectopic pregnancy (beta-hCG negative, sexually inactive, LMP 2 weeks ago — definitively excluded)",
+      "PID (no vaginal discharge, no cervical motion tenderness, no adnexal tenderness, sexually inactive)",
+      "UTI/Pyelonephritis (UA shows only 1-3 WBC/hpf without bacteria or leukocyte esterase; no dysuria or costovertebral angle tenderness)"
+    ],
+    "after_labs_top3": [
+      "Acute appendicitis (CT confirms 9 mm appendix with fat stranding, WBC 14.8, CRP 68, beta-hCG negative)",
+      "Ovarian torsion (ultrasound showed normal ovaries bilaterally — now less likely but excluded by imaging)",
+      "Mesenteric adenitis (CT showed no mesenteric lymphadenopathy — now effectively excluded)"
+    ]
+  }
+}

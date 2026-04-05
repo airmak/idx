@@ -1,0 +1,169 @@
+{
+  "case_id": "case_008",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Myasthenia gravis (anti-MuSK antibody positive, seronegative for AChR)",
+  "icd_category": "G70.01 – Myasthenia gravis with (acute) exacerbation",
+  "one_liner": "A 28-year-old woman presents with 8 weeks of intermittent binocular diplopia and right eyelid drooping that worsens as the day progresses, along with difficulty swallowing solid foods.",
+  "stage2": {
+    "hpi_extension": "The patient describes 8 weeks of fluctuating right-sided ptosis and binocular horizontal diplopia that begins to worsen notably after prolonged reading (>30 minutes) or by late afternoon, and largely resolves after sleeping. Over the past 3 weeks she has noticed intermittent difficulty swallowing solid foods, requiring extra chewing and occasionally needing liquids to clear her throat. She denies dyspnea at rest but notes slight breathlessness with sustained speaking for more than a few minutes. She has no limb weakness, no sensory symptoms, no headache, no facial numbness, and no bowel or bladder dysfunction. She was previously seen at urgent care and diagnosed with 'stress-related symptoms and anxiety' after a head CT without contrast was normal; she was started on lorazepam with no improvement.",
+    "pmh": "No prior neurologic diagnoses; no autoimmune disease; mild seasonal allergic rhinitis; previously healthy; menstrual cycles regular; no thyroid history",
+    "surgical_history": "No prior surgeries",
+    "medications": "Lorazepam 0.5 mg PRN for anxiety (prescribed 6 weeks ago; minimal use); cetirizine 10 mg PRN for allergies",
+    "allergies": "Sulfa drugs (GI upset)",
+    "family_history": "Mother with Hashimoto thyroiditis; paternal aunt with SLE; no family history of myasthenia gravis, multiple sclerosis, or other neuromuscular disease",
+    "social_history": "Graduate student in computer science; non-smoker; drinks 1-2 drinks on weekends; denies illicit drug use; no medications started in the past year other than lorazepam; no recent travel; denies consuming home-canned foods (botulism screen); lives in apartment; no toxin or heavy metal exposures; reports that symptoms are worse on hot summer days",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "76 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "62 kg; BMI 23"
+    },
+    "physical_exam": "General: Alert, well-appearing young woman; no acute distress; mildly anxious. Cranial nerves: Right upper eyelid ptosis 4mm, worsening to 6mm after sustained upgaze for 60 seconds (positive fatigable ptosis); limited right eye adduction and upgaze producing binocular diplopia — worse after sustained lateral gaze; left eye fully intact; pupils equal, round, and reactive to light (4mm→2mm) bilaterally with no anisocoria; no lid lag on downgaze. Motor: 5/5 strength in all limb muscle groups at rest; grip strength and proximal strength symmetric and full; no fasciculations. Sensation: Intact to light touch, pinprick, vibration, and proprioception throughout. Deep tendon reflexes: 2+ and symmetric in biceps, triceps, brachioradialis, patella, Achilles; plantar responses flexor bilaterally. Speech: Mild nasal quality noted after sustained conversation for 3 minutes (dysarthria). Gait: Normal; tandem gait intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.8 k/uL; normal differential (neutrophils 60%, lymphocytes 32%, eosinophils 2%); Hgb 13.2 g/dL; Hct 40%; Platelets 224 k/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no leukocytosis to suggest infectious process; no eosinophilia; normal baseline prior to immunosuppressive therapy"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138 mEq/L, K 3.9 mEq/L, Cl 104 mEq/L, HCO3 25 mEq/L, BUN 12 mg/dL, Cr 0.7 mg/dL, Glucose 88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; rules out metabolic derangements contributing to fatigue; normal creatinine is baseline before potential nephrotoxic therapy"
+      },
+      {
+        "test_name": "TSH/Free T4",
+        "result": "TSH 1.8 mIU/L (WNL); Free T4 1.0 ng/dL (WNL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function rules out Graves ophthalmopathy (thyroid eye disease) as the cause of diplopia and ptosis; thyroid eye disease causes proptosis, not ptosis, but can cause restrictive myopathy mimicking diplopia; also screens for autoimmune thyroid disease comorbidity"
+      },
+      {
+        "test_name": "ANA",
+        "result": "ANA negative (<1:40); Anti-AChR (acetylcholine receptor) antibody: NEGATIVE (<0.02 nmol/L); Anti-MuSK (muscle-specific kinase) antibody: POSITIVE 4.2 nmol/L (HIGH — normal <0.05 nmol/L)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Seronegative AChR antibody with POSITIVE anti-MuSK antibody confirms seronegative-for-AChR, MuSK-positive myasthenia gravis. Anti-MuSK MG represents approximately 15% of generalized MG. It tends to have more prominent bulbar and facial involvement with less ocular predominance than AChR-MG. Crucially, anti-MuSK MG responds less well to acetylcholinesterase inhibitors (pyridostigmine) and better to rituximab than AChR-MG."
+      },
+      {
+        "test_name": "RF",
+        "result": "RF <14 IU/mL (WNL — negative)",
+        "flag": "WNL",
+        "clinical_significance": "Negative rheumatoid factor; part of autoimmune screen; reduces likelihood of rheumatoid arthritis-associated myopathy"
+      },
+      {
+        "test_name": "ESR",
+        "result": "14 mm/hr (WNL — normal <20 mm/hr for age/sex)",
+        "flag": "WNL",
+        "clinical_significance": "Normal ESR does not support an active systemic inflammatory process; makes inflammatory myopathy, vasculitis, and active connective tissue disease less likely"
+      },
+      {
+        "test_name": "LDH",
+        "result": "182 U/L (WNL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal LDH argues against significant muscle necrosis (inflammatory myopathy), hemolysis, or lymphoma; CK would be normal in MG as well (NMJ disorder, not muscle destruction)"
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "MRI brain (w/ or w/o contrast)",
+        "result": "No acute intracranial abnormality; no demyelinating lesions; no periventricular, juxtacortical, or infratentorial T2/FLAIR hyperintensities; no structural lesion in the brainstem, midbrain, or posterior fossa to account for diplopia; no mass effect; no abnormal enhancement",
+        "flag": "WNL",
+        "clinical_significance": "Normal brain MRI is critical to exclude multiple sclerosis (which can cause INO and diplopia), brainstem glioma, or a CN III palsy from aneurysm or herniation. The absence of MS lesions significantly reduces the probability of demyelinating disease. This study is essential but will be normal in MG."
+      },
+      {
+        "test_name": "CT chest (w/ or w/o contrast)",
+        "result": "No anterior mediastinal mass identified; thymus appears normal in size and morphology for age (normal thymic involution pattern); no mediastinal or hilar lymphadenopathy; lung fields clear; no pleural effusions",
+        "flag": "WNL",
+        "clinical_significance": "CT chest is mandatory in all new MG diagnoses to evaluate for thymoma. Thymoma is present in approximately 10-15% of MG patients (higher risk in older patients and AChR-positive MG). In this MuSK-positive patient, thymoma is less commonly associated but must still be excluded. Normal thymus here means observation; if thymoma were found, surgery would be indicated."
+      },
+      {
+        "test_name": "Nerve conduction study (NCS/EMG)",
+        "result": "Repetitive nerve stimulation (RNS) at 3 Hz — trapezius and nasalis muscles: decremental response of 12% in trapezius and 18% in nasalis (both >10% — ABNORMAL); Single-fiber EMG (SFEMG): increased jitter (mean consecutive difference 62 microseconds, normal <55 microseconds) in the extensor digitorum communis; no spontaneous activity; no fibrillation potentials; motor nerve conduction velocities and amplitudes normal; sensory nerve conduction normal",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A >10% decremental response on repetitive nerve stimulation at 3 Hz confirms a neuromuscular junction (NMJ) transmission defect — the electrophysiologic hallmark of myasthenia gravis. Single-fiber EMG showing increased jitter is the most sensitive test for MG (95% sensitivity). The normal sensory and motor conduction velocities rule out peripheral neuropathy and Lambert-Eaton (LEMS — which would show facilitation/increment on RNS, not decrement)."
+      }
+    ],
+    "key_tests": [
+      "MRI brain (w/ or w/o contrast)",
+      "Nerve conduction study (NCS/EMG)",
+      "CT chest (w/ or w/o contrast)",
+      "ANA",
+      "TSH/Free T4",
+      "CBC with differential",
+      "BMP",
+      "ESR",
+      "RF",
+      "LDH"
+    ],
+    "acceptable_tests": [
+      "CXR (PA/Lateral)",
+      "LFTs",
+      "Coagulation panel (PT/INR/PTT)",
+      "Blood cultures x2"
+    ],
+    "low_yield_tests": [
+      "CT head (w/ or w/o contrast)",
+      "Lumbar puncture (CSF analysis)",
+      "MRI spine",
+      "D-dimer",
+      "Lipase",
+      "Amylase"
+    ]
+  },
+  "stage5": {
+    "final_clue": "When an ice pack wrapped in a thin cloth is held over the patient's right eye for 2 minutes in the exam room, the ptosis visibly improves from 4mm to 1mm of droop (positive ice pack test — cooling improves acetylcholinesterase function at the NMJ). The patient also reports that during last summer's heat wave, her eyelid drooping was markedly worse every afternoon. The anti-MuSK antibody returns strongly positive at 4.2 nmol/L, and repetitive nerve stimulation on EMG shows a 12% decremental response in the trapezius muscle — confirming the diagnosis of myasthenia gravis."
+  },
+  "debrief": {
+    "classic_presentation": "Classic myasthenia gravis presents in a young woman (bimodal peak: women 20-30s, men 60-70s) with fatigable, fluctuating ptosis and diplopia that worsen throughout the day and improve with rest or sleep. Bulbar symptoms (dysarthria, dysphagia) and proximal limb weakness may develop. The hallmark is fatigability — symptoms worsen with sustained or repeated muscle use. Approximately 85% of patients are AChR antibody positive. The ice pack test, edrophonium (Tensilon) test, and repetitive nerve stimulation are key bedside/diagnostic tools. Myasthenic crisis (respiratory failure requiring intubation) can be precipitated by infection, surgery, medications, or tapering of immunosuppression.",
+    "attending_mode_notes": "This case was constructed around a seronegative-for-AChR, anti-MuSK-positive subtype — which represents 15% of generalized MG and is the most commonly missed variant. Key misleading elements: (1) Purely ocular/bulbar onset without limb weakness led urgent care to label this 'functional' — a dangerous and common error. (2) The fluctuating, fatigable nature was reframed as 'anxiety,' delaying diagnosis by 6 weeks. (3) Heat sensitivity and symptom worsening on hot days triggered an MS workup (MRI brain) — clinically appropriate and negative. (4) The ice pack test was reportedly negative on first visit (it has ~80% sensitivity; cold must be applied for at least 2 minutes directly over the eyelid). (5) Anti-MuSK MG is clinically important to distinguish because: pyridostigmine provides less benefit and sometimes worsens symptoms; rituximab is more effective than in AChR-MG; thymectomy benefit is less established. (6) The normal EMG motor velocities and sensory NCS specifically exclude peripheral neuropathy and distinguish from Lambert-Eaton syndrome.",
+    "pathophysiology": "Myasthenia gravis is an antibody-mediated autoimmune disease targeting the neuromuscular junction (NMJ). In AChR-positive MG (85%), IgG antibodies bind acetylcholine receptors on the post-synaptic muscle membrane, causing receptor internalization, complement-mediated destruction, and steric blockade — reducing the safety margin of NMJ transmission. In MuSK-positive MG (15% of generalized MG), IgG4 antibodies target muscle-specific kinase, a receptor tyrosine kinase essential for clustering AChRs at the NMJ; without proper AChR clustering, NMJ transmission is impaired. Fatigability results because each NMJ transmission event depletes quanta of acetylcholine, and with a reduced number of functional receptors (AChR-MG) or dysfunctional receptor clustering (MuSK-MG), the safety margin of NMJ transmission is quickly exceeded during sustained activity. Temperature sensitivity is explained by the temperature-dependence of acetylcholinesterase activity — heat increases enzymatic breakdown of ACh, worsening transmission failure; cold (ice pack) slows AChE and temporarily improves transmission. The thymus plays a central role in AChR-MG pathogenesis (thymic hyperplasia or thymoma drives autoreactive T-cell activation); this role is less clear in MuSK-MG, which partly explains the smaller benefit from thymectomy in MuSK-positive patients.",
+    "treatment_overview": "Symptomatic therapy: Pyridostigmine (Mestinon) 30-60mg every 4-6 hours inhibits acetylcholinesterase, increasing ACh availability at the NMJ. Note: anti-MuSK MG may have a blunted or worsening response to pyridostigmine — titrate carefully. Immunosuppression: Oral prednisone (start low 10-20mg/day, titrate up) for moderate-severe disease; steroid-sparing agents include azathioprine 2-3 mg/kg/day or mycophenolate mofetil 1.5-3g/day (onset 6-18 months). For anti-MuSK MG specifically: rituximab 375 mg/m2 weekly x4 or 1g x2 has shown superior efficacy over traditional immunosuppressants. Rescue therapy for myasthenic crisis or perioperative management: IVIG 2g/kg over 2-5 days or plasmapheresis (5 exchanges over 10 days). Thymectomy: Indicated in all patients with thymoma; in AChR-positive generalized MG without thymoma, thymectomy improves long-term outcomes (MGTX trial); benefit in MuSK-MG without thymoma is not established. Avoid: aminoglycosides, fluoroquinolones, beta-blockers, magnesium, and neuromuscular blocking agents — all can precipitate myasthenic crisis.",
+    "high_yield_pearls": [
+      "Anti-MuSK MG (15% of generalized MG) is seronegative for AChR antibodies; testing for MuSK must be specifically ordered when AChR is negative in a patient with a clinical picture consistent with MG — do not stop at 'seronegative.'",
+      "The ice pack test: hold ice over the ptotic eyelid for 2 minutes — improvement of >2mm confirms fatigable ptosis from MG (80% sensitivity); this is safe, bedside, and does not require medications.",
+      "Repetitive nerve stimulation showing >10% decrement at 3 Hz confirms NMJ transmission defect; Lambert-Eaton (LEMS) shows FACILITATION (increment) at high-frequency stimulation — the opposite pattern.",
+      "Medications that worsen or precipitate myasthenic crisis: aminoglycosides, fluoroquinolones (ciprofloxacin), macrolides, beta-blockers, magnesium sulfate, neuromuscular blocking agents, and iodinated contrast — commit this list to memory.",
+      "CT chest is mandatory in ALL new MG diagnoses — thymoma in 10-15% of AChR-positive MG patients; even without thymoma, thymectomy improves outcomes in generalized AChR-MG (MGTX trial 2016)."
+    ],
+    "sources": [
+      "UpToDate: Clinical manifestations of myasthenia gravis",
+      "UpToDate: Diagnosis of myasthenia gravis",
+      "UpToDate: Treatment of myasthenia gravis",
+      "Guideline: MGFA (Myasthenia Gravis Foundation of America) 2020 Guidance for the Management of Myasthenia Gravis",
+      "UpToDate: Anti-MuSK myasthenia gravis",
+      "Guideline: MGTX Trial — Wolfe et al., NEJM 2016: Randomized Trial of Thymectomy in Myasthenia Gravis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Myasthenia gravis",
+      "Multiple sclerosis (internuclear ophthalmoplegia)",
+      "Graves ophthalmopathy (thyroid eye disease)",
+      "Cranial nerve III palsy (aneurysm, microvascular)",
+      "Functional neurologic disorder (conversion disorder)",
+      "Botulism",
+      "Lambert-Eaton myasthenic syndrome (LEMS)",
+      "Horner syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Myasthenia gravis — fatigable ptosis worsening with sustained upgaze and by end of day, diplopia with bulbar symptoms, heat sensitivity, normal limb strength",
+      "Multiple sclerosis — heat sensitivity and young woman; diplopia could represent INO from demyelinating plaque; MRI brain required",
+      "Cranial nerve III palsy — unilateral ptosis and diplopia; however, pupil is spared (not dilated), which makes compressive CN III palsy less likely"
+    ],
+    "after_stage2_less_likely": [
+      "Functional neurologic disorder — objective fatigable ptosis demonstrable on exam and ice pack test; electrodiagnostic findings are objective",
+      "Botulism — no recent foodborne exposure, no descending paralysis, no GI prodrome, no autonomic instability",
+      "Horner syndrome — Horner causes ptosis (partial, 1-2mm) but NOT diplopia; miosis would be present; mechanism and exam are distinct"
+    ],
+    "after_labs_top3": [
+      "Myasthenia gravis — positive anti-MuSK antibody (4.2 nmol/L), decremental response on RNS >10%, increased jitter on SFEMG, positive ice pack test, normal MRI brain",
+      "Lambert-Eaton myasthenic syndrome — remains until RNS pattern confirmed (LEMS shows increment/facilitation, not decrement); associated with SCLC in older patients; excluded here by NCS pattern",
+      "Multiple sclerosis — normal MRI brain with no demyelinating lesions effectively excludes MS as the cause of this presentation"
+    ]
+  }
+}

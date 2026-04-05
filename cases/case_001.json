@@ -1,0 +1,196 @@
+{
+  "case_id": "case_001",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Community-acquired pneumonia (Streptococcus pneumoniae)",
+  "icd_category": "J18.1 – Lobar pneumonia, unspecified organism",
+  "one_liner": "A 67-year-old male with HTN and HLD presents with 3 days of productive cough with rust-colored sputum, high fever, and right-sided pleuritic chest pain.",
+  "stage2": {
+    "hpi_extension": "The patient reports the cough began 3 days ago and has progressively worsened. He describes the sputum as thick and rust-colored. He has associated right-sided chest pain that worsens with deep inspiration and coughing. He denies hemoptysis, recent travel, sick contacts, or prior episodes of pneumonia.",
+    "pmh": "Hypertension, Hyperlipidemia, Former smoker (30 pack-year history, quit 5 years ago)",
+    "surgical_history": "Appendectomy at age 22",
+    "medications": "Lisinopril 10 mg daily, Atorvastatin 40 mg nightly, Aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with coronary artery disease (MI at age 71). Mother with type 2 diabetes.",
+    "social_history": "Retired postal worker. Former smoker, 30 pack-years, quit 5 years ago. Drinks alcohol socially (2-3 drinks/week). Lives alone. Up to date on pneumococcal (PCV15 2 years ago) and influenza vaccines.",
+    "vitals": {
+      "temp": "38.9°C (102.0°F)",
+      "hr": "98 bpm, regular",
+      "bp": "128/76 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "92% on room air",
+      "weight_bmi": "BMI 27 kg/m²"
+    },
+    "physical_exam": "General: Alert, mildly uncomfortable, flushed appearance; speaking in full sentences but clearly fatigued. HEENT: Oropharynx mildly erythematous, no exudates. Neck: No lymphadenopathy, no JVD. Cardiovascular: Regular rate and rhythm, no murmurs, rubs, or gallops. Pulmonary: Dullness to percussion over the right lower lobe; increased tactile fremitus; bronchial breath sounds and egophony ('E to A' change) appreciated at the right base; fine inspiratory crackles over right lower lung field; no wheezing. Abdomen: Soft, non-tender, non-distended. Extremities: No clubbing, cyanosis, or edema. No calf tenderness."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "16.2 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with left shift is consistent with a bacterial infectious process such as pneumonia."
+      },
+      {
+        "test_name": "Neutrophils",
+        "result": "84%",
+        "flag": "HIGH",
+        "clinical_significance": "Neutrophil predominance supports a bacterial etiology rather than a viral or atypical cause."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; anemia is not contributing to the patient's hypoxia."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "284 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; no evidence of consumptive process or sepsis-associated thrombocytopenia."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "136 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal sodium; hyponatremia, if present, can occasionally be seen with Legionella pneumonia."
+      },
+      {
+        "test_name": "BUN",
+        "result": "19 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "BUN is part of the CURB-65 severity score (BUN >19 mg/dL scores 1 point); borderline normal here."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; no evidence of sepsis-related acute kidney injury."
+      },
+      {
+        "test_name": "CRP",
+        "result": "148 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated CRP supports significant bacterial inflammation and is useful for monitoring treatment response."
+      },
+      {
+        "test_name": "Blood cultures (x2 bottles)",
+        "result": "Pending at 24 hours; subsequently positive for Streptococcus pneumoniae",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive blood cultures confirm bacteremic pneumococcal pneumonia and guide antibiotic de-escalation."
+      },
+      {
+        "test_name": "Strep Ag",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive pneumococcal urinary antigen rapidly confirms S. pneumoniae as the causative organism, even after antibiotic initiation."
+      },
+      {
+        "test_name": "UA",
+        "result": "Color: yellow, clarity: clear, specific gravity 1.018, pH 6.0, no nitrites, no leukocyte esterase, no RBCs, no WBCs",
+        "flag": "WNL",
+        "clinical_significance": "Normal urinalysis; no evidence of urinary source of infection contributing to the febrile illness."
+      },
+      {
+        "test_name": "ESR",
+        "result": "88 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ESR is a nonspecific marker of systemic inflammation corroborating the acute infectious process."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CXR (PA/Lateral)",
+        "result": "Dense homogeneous opacification of the right lower lobe with air bronchograms visible. No pleural effusion. No pneumothorax. Cardiac silhouette normal in size. Left lung clear.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Right lower lobe lobar consolidation with air bronchograms is the classic radiographic pattern of pneumococcal lobar pneumonia."
+      },
+      {
+        "test_name": "CT chest (w/o contrast)",
+        "result": "Lobar consolidation of the right lower lobe with prominent air bronchograms. No cavitation. No pleural effusion. No hilar or mediastinal lymphadenopathy. No pulmonary nodules or masses identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms lobar consolidation without complications; absence of cavitation, effusion, or lymphadenopathy argues against TB, lung abscess, or malignancy."
+      },
+      {
+        "test_name": "Lateral decubitus CXR",
+        "result": "No layering pleural effusion identified on the right. Left lung remains clear.",
+        "flag": "WNL",
+        "clinical_significance": "Absence of free-flowing pleural effusion reduces concern for parapneumonic effusion requiring drainage."
+      }
+    ],
+    "key_tests": [
+      "CXR (PA/Lateral)",
+      "CBC with differential",
+      "Blood cultures x2",
+      "CRP",
+      "Strep Ag"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "ESR",
+      "Sputum culture and Gram stain",
+      "CT chest (w/o contrast)",
+      "Procalcitonin",
+      "Lactate",
+      "Legionella urinary antigen",
+      "UA"
+    ],
+    "low_yield_tests": [
+      "Echocardiogram",
+      "Lower extremity Doppler ultrasound",
+      "Coagulation panel (PT/INR/PTT)",
+      "Thyroid function tests",
+      "Lipase",
+      "ANA / RF panel"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Sputum Gram stain returns showing numerous lancet-shaped Gram-positive diplococci with many PMNs and rare squamous epithelial cells — a high-quality specimen consistent with Streptococcus pneumoniae."
+  },
+  "debrief": {
+    "classic_presentation": "S. pneumoniae CAP classically presents in older adults or immunocompromised patients as an acute febrile illness with productive cough producing rust-colored (blood-tinged) sputum, pleuritic chest pain, and a lobar consolidation on CXR. The rust color reflects lysis of red blood cells within the alveolar exudate.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Streptococcus pneumoniae is inhaled into the lower respiratory tract, where it adheres to alveolar epithelium via surface adhesins. In susceptible hosts, it evades mucociliary clearance and alveolar macrophages. The bacteria multiply within alveoli, triggering a robust neutrophilic inflammatory cascade. This results in the four classic histological stages of lobar pneumonia: congestion, red hepatization, grey hepatization, and resolution. The inflammatory exudate filling the alveoli causes the characteristic lobar consolidation seen on imaging and is responsible for the V/Q mismatch leading to hypoxia.",
+    "treatment_overview": "IDSA/ATS guidelines recommend beta-lactam monotherapy (amoxicillin-clavulanate or ceftriaxone) plus a macrolide (azithromycin), or respiratory fluoroquinolone monotherapy (levofloxacin or moxifloxacin) for CAP requiring hospitalization. Duration is typically 5 days if the patient demonstrates clinical stability. Oxygen supplementation to maintain SpO2 ≥94%. Empiric antibiotics should be started within 4 hours of diagnosis. Blood cultures should be obtained prior to antibiotics when feasible. ICU admission criteria per ATS major/minor criteria should be assessed.",
+    "high_yield_pearls": [
+      "CURB-65 score (Confusion, Urea >19, RR ≥30, BP <90/60, Age ≥65) guides disposition: 0-1 = outpatient, 2 = admit, ≥3 = consider ICU. This patient scores 2 (age ≥65, RR 22 — borderline) favoring admission.",
+      "Rust-colored sputum is pathognomonic for S. pneumoniae pneumonia — it results from lysed RBCs within the pneumococcal lobar exudate.",
+      "The pneumococcal urinary antigen test (Strep Ag) has ~80% sensitivity and >95% specificity for S. pneumoniae CAP and remains positive even after antibiotic initiation, making it invaluable in the treated patient.",
+      "Lobar consolidation with air bronchograms on CXR is the classic radiographic pattern of pneumococcal pneumonia; interstitial/bilateral pattern favors atypical or viral causes.",
+      "Post-infectious complications include parapneumonic effusion (20-40%), empyema, bacteremia (~25% of hospitalized cases), and rarely lung abscess or ARDS."
+    ],
+    "sources": [
+      "UpToDate: Community-acquired pneumonia in adults: Clinical evaluation and diagnostic testing",
+      "UpToDate: Treatment of community-acquired pneumonia in adults who require hospitalization",
+      "Guideline: IDSA/ATS 2019 Consensus Guidelines on the Management of Community-Acquired Pneumonia in Adults",
+      "Guideline: IDSA 2016 Clinical Practice Guidelines for the Management of CAP"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Community-acquired pneumonia",
+      "Pulmonary embolism",
+      "Lung cancer (NSCLC/SCLC)",
+      "Congestive heart failure (decompensated)",
+      "Tuberculosis",
+      "COVID-19 pneumonia",
+      "Aspiration pneumonia",
+      "Lung abscess"
+    ],
+    "after_stage2_more_likely": [
+      "Community-acquired pneumonia (lobar consolidation, fever, rust sputum, pleurisy)",
+      "Lung cancer (age, smoking history, concerning for post-obstructive pneumonia)",
+      "Aspiration pneumonia (age, former smoker)"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary embolism (no immobility, DVT symptoms, or tachycardia out of proportion)",
+      "Congestive heart failure (no orthopnea, PND, bilateral edema, or S3)",
+      "COVID-19 (no bilateral interstitial pattern, no known exposure)"
+    ],
+    "after_labs_top3": [
+      "Community-acquired pneumonia (S. pneumoniae)",
+      "Lung cancer with post-obstructive pneumonia",
+      "Aspiration pneumonia"
+    ]
+  }
+}
