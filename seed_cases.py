@@ -49,10 +49,28 @@ def init_db(engine):
                 case_uid TEXT NOT NULL,
                 score INTEGER,
                 correct BOOLEAN,
+                user_id INTEGER,
                 played_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """))
+        conn.execute(text("""
+            CREATE TABLE IF NOT EXISTS users (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                username TEXT UNIQUE NOT NULL,
+                password_hash TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """))
         conn.commit()
+        # Migration: add user_id to session_history if missing
+        try:
+            conn.execute(text("SELECT user_id FROM session_history LIMIT 1"))
+        except Exception:
+            try:
+                conn.execute(text("ALTER TABLE session_history ADD COLUMN user_id INTEGER"))
+                conn.commit()
+            except Exception:
+                pass
 
 
 def validate_case(data: dict, filename: str) -> bool:

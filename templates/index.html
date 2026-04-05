@@ -12,12 +12,12 @@
    ROOT & RESET
 ===================================================== */
 :root {
-  --bg: #0e1523;
-  --bg2: #162030;
-  --bg3: #1e2d42;
-  --border: #2a3f5c;
+  --bg: #1e1440;
+  --bg2: #271d50;
+  --bg3: #322660;
+  --border: #4a3d80;
   --text: #eef0f6;
-  --text-muted: #7a91ad;
+  --text-muted: #9a8dc0;
   --teal: #00e5cc;
   --teal-dim: #00c4ae;
   --teal-glow: rgba(0,229,204,0.2);
@@ -52,8 +52,8 @@ html { font-size: 16px; scroll-behavior: smooth; }
 body {
   background: var(--bg);
   background-image:
-    radial-gradient(ellipse at 20% 10%, rgba(0,229,204,0.06) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 80%, rgba(180,120,255,0.07) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 10%, rgba(0,229,204,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(180,120,255,0.12) 0%, transparent 50%);
   color: var(--text);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -71,7 +71,7 @@ a { color: var(--teal); text-decoration: none; }
 
 /* Top bar */
 #topbar {
-  background: linear-gradient(90deg, #0c1826 0%, #0e1e35 50%, #111530 100%);
+  background: linear-gradient(90deg, #160e30 0%, #1a1240 50%, #1e1445 100%);
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(90deg, var(--teal), var(--purple), var(--pink)) 1;
   padding: 12px 24px;
@@ -174,7 +174,7 @@ a { color: var(--teal); text-decoration: none; }
    CARDS
 ===================================================== */
 .card {
-  background: linear-gradient(160deg, #1a2c45 0%, #162030 100%);
+  background: linear-gradient(160deg, #2a1e52 0%, #231850 100%);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 28px;
@@ -282,7 +282,7 @@ a { color: var(--teal); text-decoration: none; }
   padding: 20px 36px;
   border-radius: var(--radius);
   border: 2px solid var(--border);
-  background: linear-gradient(160deg, #1e2d42 0%, #162030 100%);
+  background: linear-gradient(160deg, #2a1e52 0%, #231850 100%);
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.05rem;
@@ -418,7 +418,7 @@ a { color: var(--teal); text-decoration: none; }
 .vindicate-cat-btn {
   width: 100%;
   padding: 8px 10px;
-  background: linear-gradient(135deg, #1e2d42 0%, #192336 100%);
+  background: linear-gradient(135deg, #2a1e52 0%, #231850 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text);
@@ -434,7 +434,7 @@ a { color: var(--teal); text-decoration: none; }
 }
 .vindicate-cat-btn:hover {
   border-color: var(--cat-color, var(--teal));
-  background: linear-gradient(135deg, #243447 0%, #1e2c40 100%);
+  background: linear-gradient(135deg, #352860 0%, #2e2158 100%);
   transform: translateY(-1px);
   box-shadow: 0 4px 14px rgba(0,0,0,0.3);
 }
@@ -979,10 +979,118 @@ a { color: var(--teal); text-decoration: none; }
 }
 .attending-notes-box .label { font-size: 0.72rem; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
 
+/* =====================================================
+   AUTH UI
+===================================================== */
+#auth-area { display: flex; align-items: center; gap: 10px; }
+#auth-area .btn-sm { padding: 5px 12px; font-size: 0.8rem; }
+.user-badge {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.82rem; color: var(--teal); font-weight: 600;
+}
+.user-badge .avatar {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal), var(--blue));
+  color: #0a1220; font-weight: 800; font-size: 0.75rem;
+  display: flex; align-items: center; justify-content: center;
+}
+#auth-modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.7); z-index: 500;
+  align-items: center; justify-content: center;
+}
+#auth-modal-overlay.open { display: flex; }
+#auth-modal {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 28px;
+  width: 100%; max-width: 400px; box-shadow: var(--shadow);
+}
+#auth-modal h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; }
+#auth-modal p { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5; }
+.auth-field { margin-bottom: 14px; }
+.auth-field label { display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.auth-field input {
+  width: 100%; padding: 10px 12px;
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font-size: 0.9rem;
+}
+.auth-field input:focus { outline: none; border-color: var(--teal); }
+.auth-error { color: var(--red); font-size: 0.82rem; margin-bottom: 10px; display: none; }
+.auth-actions { display: flex; gap: 10px; margin-top: 20px; }
+.auth-toggle { font-size: 0.82rem; color: var(--text-muted); margin-top: 14px; text-align: center; }
+.auth-toggle a { color: var(--teal); cursor: pointer; }
+
+/* Seen-case badge */
+.seen-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 8px; border-radius: 12px;
+  font-size: 0.68rem; font-weight: 600;
+  background: rgba(180,120,255,0.15); color: var(--purple);
+  border: 1px solid rgba(180,120,255,0.3);
+}
+.seen-badge.new-badge {
+  background: rgba(0,229,204,0.12); color: var(--teal);
+  border: 1px solid rgba(0,229,204,0.3);
+}
+
+/* =====================================================
+   MOBILE HAMBURGER
+===================================================== */
+#mobile-toggle {
+  display: none; background: none; border: none;
+  color: var(--text); font-size: 1.5rem; cursor: pointer;
+  padding: 4px; line-height: 1;
+}
+
+/* =====================================================
+   MOBILE RESPONSIVE
+===================================================== */
+@media(max-width: 768px) {
+  #topnav {
+    display: none; position: fixed; top: 0; right: 0;
+    width: 260px; height: 100vh;
+    background: var(--bg2); border-left: 1px solid var(--border);
+    flex-direction: column; padding: 60px 20px 20px;
+    gap: 16px; z-index: 200;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.4);
+  }
+  #topnav.mobile-open { display: flex; }
+  #topnav a { font-size: 1rem; padding: 8px 0; }
+  #session-stats-bar { flex-direction: column; gap: 8px; }
+  #mobile-toggle { display: block; z-index: 300; }
+  #auth-area { flex-direction: column; align-items: flex-start; }
+  .mobile-close {
+    position: absolute; top: 16px; right: 16px;
+    background: none; border: none; color: var(--text-muted);
+    font-size: 1.4rem; cursor: pointer;
+  }
+  .mobile-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.5); z-index: 150;
+  }
+  .mobile-overlay.active { display: block; }
+}
 @media(max-width: 500px) {
   .card { padding: 18px; }
   #pregame-hero h1 { font-size: 2rem; }
+  #pregame-hero p { font-size: 0.9rem; }
   .btn-lg { padding: 12px 20px; font-size: 0.9rem; }
+  .mode-buttons { flex-direction: column; align-items: center; }
+  .mode-btn { min-width: 100%; }
+  .vindicate-grid { grid-template-columns: repeat(2, 1fr); }
+  #main { padding: 16px 10px 60px; }
+  .score-breakdown { grid-template-columns: repeat(2,1fr); }
+  .clinical-grid { grid-template-columns: 1fr; }
+  .vitals-grid { grid-template-columns: repeat(2, 1fr); }
+  .tabs { gap: 2px; }
+  .tab-btn { padding: 6px 8px; font-size: 0.75rem; }
+  .refinement-row { flex-direction: column; align-items: flex-start; gap: 6px; }
+  #auth-modal { margin: 16px; }
+  #settings-modal { margin: 16px; }
+  .result-card { flex-direction: column; gap: 8px; }
+}
+@media(max-width: 360px) {
+  .vindicate-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -991,17 +1099,57 @@ a { color: var(--teal); text-decoration: none; }
 
 <!-- TOP BAR -->
 <header id="topbar">
-  <div id="logo">ID<span>x</span></div>
+  <a href="#" id="logo" onclick="resetToHome(); return false;" style="text-decoration:none">ID<span>x</span></a>
+  <button id="mobile-toggle" onclick="toggleMobileNav()">☰</button>
+  <div class="mobile-overlay" id="mobile-overlay" onclick="closeMobileNav()"></div>
   <div id="topnav">
-    <a href="#" onclick="showLibrary(); return false;">Case Library</a>
-    <button id="settings-btn" onclick="openSettings()">⚙ API Key</button>
+    <button class="mobile-close" onclick="closeMobileNav()">✕</button>
+    <a href="#" onclick="showLibrary(); closeMobileNav(); return false;">Case Library</a>
+    <button id="settings-btn" onclick="openSettings(); closeMobileNav();">⚙ API Key</button>
     <div id="session-stats-bar">
       <span>🩺 <span id="stat-cases">0</span> cases</span>
       <span>📈 Avg: <span id="stat-avg">—</span></span>
       <span>✔ <span id="stat-correct">0</span> correct</span>
     </div>
+    <div id="auth-area">
+      <div id="auth-logged-out">
+        <button class="btn btn-primary btn-sm" onclick="openAuthModal('login')">Log In</button>
+        <button class="btn btn-ghost btn-sm" onclick="openAuthModal('register')">Sign Up</button>
+      </div>
+      <div id="auth-logged-in" style="display:none">
+        <div class="user-badge">
+          <span class="avatar" id="auth-avatar">?</span>
+          <span id="auth-username"></span>
+        </div>
+        <button class="btn btn-ghost btn-sm" onclick="doLogout()" style="margin-top:4px">Log Out</button>
+      </div>
+    </div>
   </div>
 </header>
+
+<!-- AUTH MODAL -->
+<div id="auth-modal-overlay" onclick="if(event.target===this)closeAuthModal()">
+  <div id="auth-modal">
+    <h3 id="auth-modal-title">Log In</h3>
+    <p id="auth-modal-desc">Log in to track your progress across sessions.</p>
+    <div class="auth-error" id="auth-error"></div>
+    <div class="auth-field">
+      <label>Username</label>
+      <input type="text" id="auth-username-input" placeholder="Username" autocomplete="username"/>
+    </div>
+    <div class="auth-field">
+      <label>Password</label>
+      <input type="password" id="auth-password-input" placeholder="Password" autocomplete="current-password"/>
+    </div>
+    <div class="auth-actions">
+      <button class="btn btn-primary" id="auth-submit-btn" onclick="submitAuth()">Log In</button>
+      <button class="btn btn-ghost" onclick="closeAuthModal()">Cancel</button>
+    </div>
+    <div class="auth-toggle" id="auth-toggle-text">
+      Don't have an account? <a onclick="switchAuthMode()">Sign up</a>
+    </div>
+  </div>
+</div>
 
 <!-- SETTINGS MODAL -->
 <div id="settings-modal-overlay" onclick="if(event.target===this)closeSettings()">
@@ -1417,12 +1565,12 @@ const PROCEDURES = [
 document.addEventListener('DOMContentLoaded', () => {
   // Detect if opened as a file:// URL instead of via Flask
   if (window.location.protocol === 'file:') {
-    document.body.innerHTML = `<div style="max-width:500px;margin:80px auto;padding:32px;background:#161b27;border:1px solid #2a3347;border-radius:10px;font-family:Inter,sans-serif;color:#e8eaf0">
+    document.body.innerHTML = `<div style="max-width:500px;margin:80px auto;padding:32px;background:#271d50;border:1px solid #4a3d80;border-radius:10px;font-family:Inter,sans-serif;color:#e8eaf0">
       <h2 style="color:#14b8a6;font-family:Montserrat,sans-serif;margin-bottom:16px">IDx needs a server</h2>
       <p style="margin-bottom:12px">You opened this file directly. IDx must be served by Flask to work.</p>
-      <p style="margin-bottom:20px;color:#8892a4">Run this in your terminal from the <code style="color:#f59e0b">idx/</code> folder:</p>
-      <pre style="background:#0f1117;padding:14px;border-radius:6px;color:#22c55e;font-size:0.9rem">python app.py</pre>
-      <p style="margin-top:16px;color:#8892a4">Then open <a href="http://localhost:5000" style="color:#14b8a6">http://localhost:5000</a> in your browser.</p>
+      <p style="margin-bottom:20px;color:#9a8dc0">Run this in your terminal from the <code style="color:#f59e0b">idx/</code> folder:</p>
+      <pre style="background:#1e1440;padding:14px;border-radius:6px;color:#22c55e;font-size:0.9rem">python app.py</pre>
+      <p style="margin-top:16px;color:#9a8dc0">Then open <a href="http://localhost:5000" style="color:#14b8a6">http://localhost:5000</a> in your browser.</p>
     </div>`;
     return;
   }
@@ -1430,6 +1578,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadCaseCounts();
   loadSessionStats();
   populateTestPanels();
+  checkAuth();
 });
 
 async function loadDiseaseLibrary() {
@@ -1505,6 +1654,11 @@ async function startCase() {
 
     state.caseUid = data.case_uid;
     state.oneLiner = data.one_liner;
+
+    // Notify if previously played
+    if (currentUser && hasPlayedCase(data.case_uid)) {
+      showToast('Note: You have played this case before.');
+    }
 
     // Update badge
     document.getElementById('case-badge').textContent =
@@ -2475,6 +2629,7 @@ function showStage6(data) {
 
   content.innerHTML = html;
   loadSessionStats();
+  if (currentUser) loadUserHistory();
 }
 
 // =====================================================
@@ -2499,11 +2654,15 @@ async function showLibrary() {
 
     let html = `<table class="library-table">
       <thead><tr>
-        <th>Case ID</th><th>Mode</th><th>Specialty</th><th>Diagnosis</th><th>Played</th><th>Correct %</th>
+        <th>Case ID</th><th>Mode</th><th>Specialty</th><th>Diagnosis</th><th>Played</th><th>Correct %</th>${currentUser ? '<th>You</th>' : ''}
       </tr></thead><tbody>`;
 
     cases.forEach(c => {
       const modeClass = c.mode === 'attending' ? 'attending' : 'easy';
+      const played = hasPlayedCase(c.case_uid);
+      const seenBadge = currentUser
+        ? `<td>${played ? '<span class="seen-badge">Seen</span>' : '<span class="seen-badge new-badge">New</span>'}</td>`
+        : '';
       html += `<tr>
         <td>${esc(c.case_uid)}</td>
         <td><span class="diff-badge ${modeClass}">${esc(c.mode)}</span></td>
@@ -2512,6 +2671,7 @@ async function showLibrary() {
             <button class="reveal-btn" onclick="revealDx('${esc(c.case_uid)}')">👁</button></td>
         <td>${c.times_played}</td>
         <td>${c.times_played ? c.correct_rate + '%' : '—'}</td>
+        ${seenBadge}
       </tr>`;
     });
     html += '</tbody></table>';
@@ -2639,6 +2799,140 @@ function updateKeyStatus() {
 function _getApiKey() {
   return sessionStorage.getItem('anthropic_api_key') || null;
 }
+
+// =====================================================
+// MOBILE NAV
+// =====================================================
+function toggleMobileNav() {
+  document.getElementById('topnav').classList.toggle('mobile-open');
+  document.getElementById('mobile-overlay').classList.toggle('active');
+}
+function closeMobileNav() {
+  document.getElementById('topnav').classList.remove('mobile-open');
+  document.getElementById('mobile-overlay').classList.remove('active');
+}
+
+// =====================================================
+// AUTH
+// =====================================================
+let authMode = 'login'; // 'login' or 'register'
+let currentUser = null;
+let userPlayedCases = []; // list of case_uids the user has played
+
+function openAuthModal(mode) {
+  authMode = mode || 'login';
+  closeMobileNav();
+  document.getElementById('auth-error').style.display = 'none';
+  document.getElementById('auth-username-input').value = '';
+  document.getElementById('auth-password-input').value = '';
+  if (authMode === 'login') {
+    document.getElementById('auth-modal-title').textContent = 'Log In';
+    document.getElementById('auth-modal-desc').textContent = 'Log in to track your progress across sessions.';
+    document.getElementById('auth-submit-btn').textContent = 'Log In';
+    document.getElementById('auth-toggle-text').innerHTML = "Don't have an account? <a onclick=\"switchAuthMode()\">Sign up</a>";
+  } else {
+    document.getElementById('auth-modal-title').textContent = 'Sign Up';
+    document.getElementById('auth-modal-desc').textContent = 'Create an account to save your progress and scores.';
+    document.getElementById('auth-submit-btn').textContent = 'Create Account';
+    document.getElementById('auth-toggle-text').innerHTML = "Already have an account? <a onclick=\"switchAuthMode()\">Log in</a>";
+  }
+  document.getElementById('auth-modal-overlay').classList.add('open');
+  setTimeout(() => document.getElementById('auth-username-input').focus(), 100);
+}
+
+function closeAuthModal() {
+  document.getElementById('auth-modal-overlay').classList.remove('open');
+}
+
+function switchAuthMode() {
+  openAuthModal(authMode === 'login' ? 'register' : 'login');
+}
+
+async function submitAuth() {
+  const username = document.getElementById('auth-username-input').value.trim();
+  const password = document.getElementById('auth-password-input').value;
+  const errEl = document.getElementById('auth-error');
+  errEl.style.display = 'none';
+
+  const url = authMode === 'login' ? '/api/auth/login' : '/api/auth/register';
+  try {
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({username, password})
+    });
+    const data = await r.json();
+    if (data.error) {
+      errEl.textContent = data.error;
+      errEl.style.display = 'block';
+      return;
+    }
+    currentUser = data;
+    updateAuthUI();
+    closeAuthModal();
+    showToast(`Welcome${authMode === 'register' ? '' : ' back'}, ${data.username}!`);
+    loadSessionStats();
+    loadUserHistory();
+  } catch(e) {
+    errEl.textContent = 'Connection error. Please try again.';
+    errEl.style.display = 'block';
+  }
+}
+
+async function doLogout() {
+  try { await fetch('/api/auth/logout', {method:'POST'}); } catch(e) {}
+  currentUser = null;
+  userPlayedCases = [];
+  updateAuthUI();
+  loadSessionStats();
+  showToast('Logged out.');
+}
+
+async function checkAuth() {
+  try {
+    const r = await fetch('/api/auth/me');
+    const data = await r.json();
+    if (data.logged_in) {
+      currentUser = data;
+      updateAuthUI();
+      loadUserHistory();
+    }
+  } catch(e) {}
+}
+
+function updateAuthUI() {
+  const loggedOut = document.getElementById('auth-logged-out');
+  const loggedIn = document.getElementById('auth-logged-in');
+  if (currentUser) {
+    loggedOut.style.display = 'none';
+    loggedIn.style.display = 'block';
+    document.getElementById('auth-username').textContent = currentUser.username;
+    document.getElementById('auth-avatar').textContent = currentUser.username.charAt(0).toUpperCase();
+  } else {
+    loggedOut.style.display = 'flex';
+    loggedIn.style.display = 'none';
+  }
+}
+
+async function loadUserHistory() {
+  if (!currentUser) { userPlayedCases = []; return; }
+  try {
+    const r = await fetch('/api/user/history');
+    const data = await r.json();
+    userPlayedCases = (data.cases || []).map(c => c.case_uid);
+  } catch(e) { userPlayedCases = []; }
+}
+
+function hasPlayedCase(caseUid) {
+  return userPlayedCases.includes(caseUid);
+}
+
+// Handle Enter key in auth modal
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && document.getElementById('auth-modal-overlay').classList.contains('open')) {
+    submitAuth();
+  }
+});
 </script>
 </body>
 </html>

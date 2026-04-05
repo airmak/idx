@@ -13,6 +13,7 @@ from flask import Flask, render_template, request, session, jsonify
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
 from dotenv import load_dotenv
+from werkzeug.security import generate_password_hash, check_password_hash
 
 import seed_cases
 import feedback_engine
@@ -135,6 +136,10 @@ def get_session_id():
     if "session_id" not in session:
         session["session_id"] = str(uuid.uuid4())
     return session["session_id"]
+
+
+def get_current_user_id():
+    return session.get("user_id")
 
 
 def get_active_case():
@@ -267,6 +272,102 @@ def ddx_feedback_for_debrief(case_data: dict) -> list:
             "refinement_correct": refinement_correct
         })
     return items
+
+
+# ---------------------------------------------------------------------------
+# Auth Routes
+# ---------------------------------------------------------------------------
+
+@app.route("/api/auth/register", methods=["POST"])
+def auth_register():
+    data = request.get_json(force=True)
+    username = (data.get("username") or "").strip()
+    password = data.get("password") or ""
+    if not username or len(username) < 3:
+        return jsonify({"error": "Username must be at least 3 characters."}), 400
+    if len(password) < 6:
+        return jsonify({"error": "Password must be at least 6 characters."}), 400
+    try:
+        with engine.connect() as conn:
+            existing = conn.execute(
+                text("SELECT id FROM users WHERE username = :u"),
+                {"u": username}
+            ).fetchone()
+            if existing:
+                return jsonify({"error": "Username already taken."}), 409
+            conn.execute(
+                text("INSERT INTO users (username, password_hash) VALUES (:u, :p)"),
+                {"u": username, "p": generate_password_hash(password)}
+            )
+            conn.commit()
+            row = conn.execute(
+                text("SELECT id FROM users WHERE username = :u"),
+                {"u": username}
+            ).fetchone()
+            session["user_id"] = row[0]
+            session["username"] = username
+        return jsonify({"user_id": row[0], "username": username})
+    except SQLAlchemyError as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/login", methods=["POST"])
+def auth_login():
+    data = request.get_json(force=True)
+    username = (data.get("username") or "").strip()
+    password = data.get("password") or ""
+    try:
+        with engine.connect() as conn:
+            row = conn.execute(
+                text("SELECT id, password_hash FROM users WHERE username = :u"),
+                {"u": username}
+            ).fetchone()
+        if not row or not check_password_hash(row[1], password):
+            return jsonify({"error": "Invalid username or password."}), 401
+        session["user_id"] = row[0]
+        session["username"] = username
+        return jsonify({"user_id": row[0], "username": username})
+    except SQLAlchemyError as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/logout", methods=["POST"])
+def auth_logout():
+    session.pop("user_id", None)
+    session.pop("username", None)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/auth/me")
+def auth_me():
+    uid = get_current_user_id()
+    if not uid:
+        return jsonify({"logged_in": False})
+    return jsonify({
+        "logged_in": True,
+        "user_id": uid,
+        "username": session.get("username", "")
+    })
+
+
+@app.route("/api/user/history")
+def user_history():
+    """Return list of case_uids the current user has played."""
+    uid = get_current_user_id()
+    if not uid:
+        return jsonify({"cases": []})
+    try:
+        with engine.connect() as conn:
+            rows = conn.execute(
+                text("SELECT case_uid, score, correct, played_at FROM session_history WHERE user_id = :uid ORDER BY played_at DESC"),
+                {"uid": uid}
+            ).fetchall()
+        return jsonify({"cases": [
+            {"case_uid": r[0], "score": r[1], "correct": bool(r[2]), "played_at": str(r[3])}
+            for r in rows
+        ]})
+    except SQLAlchemyError as e:
+        return jsonify({"error": str(e)}), 500
 
 
 # ---------------------------------------------------------------------------
@@ -528,14 +629,15 @@ def reveal():
             # Record in session history
             conn.execute(
                 text("""
-                    INSERT INTO session_history (session_id, case_uid, score, correct)
-                    VALUES (:sid, :uid, :score, :correct)
+                    INSERT INTO session_history (session_id, case_uid, score, correct, user_id)
+                    VALUES (:sid, :uid, :score, :correct, :user_id)
                 """),
                 {
                     "sid": session_id,
                     "uid": case_uid,
                     "score": score["total"],
-                    "correct": is_correct
+                    "correct": is_correct,
+                    "user_id": get_current_user_id()
                 }
             )
             if is_correct:
@@ -688,16 +790,27 @@ def admin_reseed():
 @app.route("/api/session/stats")
 def session_stats():
     session_id = get_session_id()
+    user_id = get_current_user_id()
     try:
         with engine.connect() as conn:
-            rows = conn.execute(
-                text("""
-                    SELECT COUNT(*), SUM(score), SUM(CASE WHEN correct THEN 1 ELSE 0 END)
-                    FROM session_history
-                    WHERE session_id = :sid
-                """),
-                {"sid": session_id}
-            ).fetchone()
+            if user_id:
+                rows = conn.execute(
+                    text("""
+                        SELECT COUNT(*), SUM(score), SUM(CASE WHEN correct THEN 1 ELSE 0 END)
+                        FROM session_history
+                        WHERE user_id = :uid
+                    """),
+                    {"uid": user_id}
+                ).fetchone()
+            else:
+                rows = conn.execute(
+                    text("""
+                        SELECT COUNT(*), SUM(score), SUM(CASE WHEN correct THEN 1 ELSE 0 END)
+                        FROM session_history
+                        WHERE session_id = :sid
+                    """),
+                    {"sid": session_id}
+                ).fetchone()
         total_cases = rows[0] or 0
         total_score = rows[1] or 0
         correct_cases = rows[2] or 0
