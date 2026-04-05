@@ -89,7 +89,7 @@ TEST_PANEL_KEYWORDS = {
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY", os.urandom(32))
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "idx-dev-fallback-change-me-in-production")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "idx.db")
