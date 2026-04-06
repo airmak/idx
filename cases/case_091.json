@@ -1,0 +1,76 @@
+{
+  "case_id": "case_091",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Obstructive sleep apnea",
+  "icd_category": "G47.33 — Obstructive sleep apnea",
+  "one_liner": "A 52-year-old obese man presents with excessive daytime sleepiness, loud snoring, and witnessed apneic episodes reported by his wife.",
+  "stage2": {
+    "hpi_extension": "The patient's wife reports that he snores loudly every night and she has witnessed him stop breathing for 10-20 seconds multiple times per night, followed by gasping or choking sounds. The patient reports excessive daytime sleepiness for the past 2 years, frequently dozing off during meetings and while watching television. He has fallen asleep at the wheel twice in the past 6 months. He reports morning headaches, difficulty concentrating, and irritability. His Epworth Sleepiness Scale score is 16/24 (abnormal >10). He denies insomnia or restless legs.",
+    "pmh": "Hypertension (poorly controlled on 2 medications), type 2 diabetes mellitus, hyperlipidemia, obesity.",
+    "surgical_history": "None.",
+    "medications": "Amlodipine 10 mg daily, losartan 100 mg daily, metformin 1000 mg BID, atorvastatin 20 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father with OSA and obesity. Mother with type 2 diabetes and hypertension.",
+    "social_history": "Insurance adjuster. Non-smoker. Drinks 1-2 glasses of wine with dinner. No recreational drugs. Sedentary lifestyle. Sleeps ~7 hours but feels unrefreshed.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "76 bpm",
+      "bp": "152/96 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "112 kg, BMI 38.2"
+    },
+    "physical_exam": "General: Obese man, awake but drowsy-appearing, in no acute distress. HEENT: Neck circumference 46 cm (>43 cm is high risk). Mallampati Class IV (only hard palate visible). Retrognathia present. Enlarged tonsils (3+). Nasal turbinates mildly edematous. Lungs: Clear to auscultation bilaterally. Cardiovascular: Regular rate and rhythm, no murmurs. S4 present. Abdomen: Obese, soft, non-tender. Extremities: Trace bilateral pedal edema. Neuro: Alert but slow to respond; no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — Hemoglobin", "result": "16.8 g/dL", "flag": "HIGH", "clinical_significance": "Mild polycythemia — secondary to chronic intermittent hypoxemia from OSA"},
+      {"test_name": "CBC — Hematocrit", "result": "50.2%", "flag": "HIGH", "clinical_significance": "Elevated hematocrit confirms polycythemia secondary to chronic hypoxia"},
+      {"test_name": "CBC — WBC", "result": "8,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal; excludes hypothyroidism as a cause of fatigue and somnolence"},
+      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes — OSA contributes to insulin resistance"},
+      {"test_name": "Fasting glucose", "result": "148 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated fasting glucose consistent with uncontrolled DM2"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Bicarbonate", "result": "28 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal; may reflect mild chronic CO2 retention"},
+      {"test_name": "Lipid panel — LDL", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL; OSA is an independent risk factor for cardiovascular disease"},
+      {"test_name": "ABG pCO2", "result": "44 mmHg", "flag": "WNL", "clinical_significance": "Normal daytime pCO2; argues against obesity hypoventilation syndrome"},
+      {"test_name": "BNP", "result": "78 pg/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated; no overt heart failure"},
+      {"test_name": "Ferritin", "result": "120 ng/mL", "flag": "WNL", "clinical_significance": "Normal; iron deficiency excluded as cause of restless legs or fatigue"}
+    ],
+    "imaging_results": [
+      {"test_name": "Polysomnography (in-lab sleep study)", "result": "AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA, >30). Predominantly obstructive apneas. Lowest SpO2: 72%. SpO2 <90% for 28% of total sleep time. Arousal index: 48/hr. Sleep efficiency: 78%. REM-related worsening with AHI 62 in REM sleep.", "flag": "ABNORMAL", "clinical_significance": "Confirms severe obstructive sleep apnea with significant nocturnal hypoxemia and sleep fragmentation"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria.", "flag": "ABNORMAL", "clinical_significance": "LVH consistent with longstanding poorly controlled hypertension, which OSA exacerbates"}
+    ],
+    "key_tests": ["Polysomnography (in-lab sleep study)", "Epworth Sleepiness Scale", "Pulse oximetry", "TSH (to exclude hypothyroidism)"],
+    "acceptable_tests": ["Home sleep apnea testing (HSAT)", "CBC", "ABG or VBG", "BMP", "HbA1c", "Lipid panel", "ECG", "BNP"],
+    "low_yield_tests": ["Chest X-ray", "CT chest", "Pulmonary function tests", "D-dimer", "Brain MRI"]
+  },
+  "stage5": {
+    "final_clue": "CPAP titration study demonstrates resolution of apneas and hypopneas at a pressure of 12 cm H2O, with SpO2 maintained above 92% throughout the night. The patient reports dramatic improvement in daytime alertness after 2 weeks of CPAP use."
+  },
+  "debrief": {
+    "classic_presentation": "Obese, middle-aged male with large neck circumference, Mallampati IV airway, presenting with loud snoring, witnessed apneas, excessive daytime sleepiness (high Epworth score), morning headaches, and resistant hypertension, with polysomnography showing severe OSA (AHI >30).",
+    "attending_mode_notes": null,
+    "pathophysiology": "OSA results from repetitive upper airway collapse during sleep due to loss of pharyngeal dilator muscle tone, compounded by anatomic narrowing (obesity, retrognathia, tonsillar hypertrophy, Mallampati IV). Each apneic episode causes hypoxemia, hypercapnia, and arousal, fragmenting sleep architecture. The cyclical intermittent hypoxia triggers sympathetic surges, oxidative stress, and systemic inflammation, contributing to resistant hypertension, atrial fibrillation, insulin resistance, and accelerated atherosclerosis. Negative intrathoracic pressure swings increase cardiac afterload.",
+    "treatment_overview": "First-line: Continuous positive airway pressure (CPAP) therapy — pneumatically splints the airway open during sleep. CPAP titration determines optimal pressure. Weight loss is the most important lifestyle modification and can reduce AHI by 50% or more. Positional therapy (avoiding supine sleep) for positional OSA. Oral appliances (mandibular advancement devices) for mild-moderate OSA or CPAP intolerance. Surgical options: uvulopalatopharyngoplasty (UPPP), tonsillectomy, maxillomandibular advancement, or hypoglossal nerve stimulator (Inspire device) for selected patients.",
+    "high_yield_pearls": [
+      "OSA severity: mild AHI 5-15, moderate AHI 15-30, severe AHI >30 events/hour.",
+      "OSA is the most common cause of resistant hypertension (BP uncontrolled on 3+ medications) — always screen for it.",
+      "Neck circumference >43 cm (17 inches) in men and >41 cm (16 inches) in women is a strong predictor of OSA.",
+      "Secondary polycythemia from chronic intermittent nocturnal hypoxemia is a clue to untreated severe OSA.",
+      "CPAP reduces AHI, improves daytime sleepiness, lowers blood pressure (~2-3 mmHg), and reduces cardiovascular events in compliant patients."
+    ],
+    "sources": [
+      "AASM Clinical Practice Guidelines: Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017",
+      "Patel SR. Obstructive Sleep Apnea. Ann Intern Med. 2019",
+      "UpToDate: Clinical presentation and diagnosis of obstructive sleep apnea in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Obstructive sleep apnea", "Central sleep apnea", "Obesity hypoventilation syndrome", "Hypothyroidism", "Narcolepsy", "Depression-related hypersomnia", "Periodic limb movement disorder", "Chronic fatigue syndrome"],
+    "after_stage2_more_likely": ["Obstructive sleep apnea", "Obesity hypoventilation syndrome"],
+    "after_stage2_less_likely": ["Hypothyroidism", "Narcolepsy", "Depression-related hypersomnia"],
+    "after_labs_top3": ["Obstructive sleep apnea", "Obesity hypoventilation syndrome", "Central sleep apnea"]
+  }
+}

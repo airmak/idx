@@ -1,0 +1,111 @@
+{
+  "case_id": "case_259",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Microscopic colitis (collagenous subtype)",
+  "icd_category": "K52.89 — Other specified noninfective gastroenteritis and colitis",
+  "one_liner": "A 65-year-old woman on long-term PPI and NSAID therapy presents with 4 months of chronic watery, non-bloody diarrhea, with grossly normal colonoscopy but diagnostic findings on random colonic biopsies.",
+  "stage2": {
+    "hpi_extension": "The patient reports 4 months of chronic, watery, non-bloody diarrhea occurring 6-8 times daily, including nocturnal episodes. The stools are large-volume, watery, and without mucus or blood. She has lost 8 pounds unintentionally. She has mild, crampy abdominal pain that improves after bowel movements. She denies fever, joint pain, mouth ulcers, or skin rash. She has no history of travel, antibiotic use, or sick contacts. She has been taking ibuprofen 400 mg twice daily for chronic knee osteoarthritis for the past year and omeprazole 20 mg daily for 3 years. She also takes sertraline 50 mg daily for anxiety. She was evaluated by a gastroenterologist who performed a colonoscopy that was reported as 'grossly normal' — but random biopsies were taken. She was told the biopsies were 'abnormal' and referred back for management.",
+    "pmh": "Osteoarthritis of bilateral knees. GERD. Generalized anxiety disorder. No history of inflammatory bowel disease.",
+    "surgical_history": "Knee arthroscopy (right knee, 5 years ago)",
+    "medications": "Ibuprofen 400 mg BID, omeprazole 20 mg daily, sertraline 50 mg daily, acetaminophen 500 mg PRN",
+    "allergies": "Penicillin (hives)",
+    "family_history": "Mother with celiac disease. Sister with hypothyroidism. Father with colon polyps. No family history of IBD.",
+    "social_history": "Retired nurse. Lives with husband. Non-smoker. Occasional wine (has stopped due to diarrhea). No illicit drug use. Previously active but limiting activities due to diarrhea-related urgency and incontinence.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "78 bpm",
+      "bp": "128/76 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "142 lbs, BMI 24.4 kg/m²"
+    },
+    "physical_exam": "General: Thin woman in no acute distress. HEENT: Moist mucous membranes. No oral ulcers. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear. Abdomen: Soft, mild diffuse tenderness, no guarding or rebound, hyperactive bowel sounds. No hepatosplenomegaly. No masses. Rectal: Deferred (recent colonoscopy). Skin: No rash, no erythema nodosum. Musculoskeletal: Mild bilateral knee crepitus, no joint effusion. Extremities: No edema. Neurological: Grossly intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 7.0, Hgb 12.8, Hct 38.5, Plt 245", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia or leukocytosis"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 136, K 3.4, Cl 100, CO2 22, BUN 18, Cr 0.8, Glucose 92, Ca 9.2, AST 20, ALT 16, Alk Phos 58, Albumin 3.4", "flag": "MILD ABNORMAL", "clinical_significance": "Mild hypokalemia from diarrhea losses; mildly low albumin may reflect protein loss or poor nutrition"},
+      {"test_name": "ESR", "result": "22 mm/hr", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated ESR — some microscopic colitis patients have mild systemic inflammation"},
+      {"test_name": "CRP", "result": "0.8 mg/dL", "flag": "BORDERLINE", "clinical_significance": "Mildly elevated; inflammatory markers are often normal or only mildly elevated in microscopic colitis (unlike IBD)"},
+      {"test_name": "tTG-IgA", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out celiac disease, which can mimic or coexist with microscopic colitis"},
+      {"test_name": "Total IgA", "result": "210 mg/dL", "flag": "WNL", "clinical_significance": "Normal IgA level, confirming tTG-IgA is reliable"},
+      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hyperthyroidism can cause diarrhea"},
+      {"test_name": "Stool studies", "result": "C. difficile toxin: Negative. Stool culture: Negative. Ova and parasites: Negative. Fecal calprotectin: 85 mcg/g (mildly elevated, normal <50).", "flag": "MILD ABNORMAL", "clinical_significance": "Infectious etiologies ruled out; mildly elevated fecal calprotectin supports mucosal inflammation (but much lower than typical IBD values >200)"},
+      {"test_name": "Fecal occult blood test", "result": "Negative", "flag": "WNL", "clinical_significance": "No occult blood — consistent with microscopic colitis (non-bloody diarrhea, unlike UC/Crohn)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Colonoscopy with random biopsies", "result": "Endoscopic findings: Grossly normal mucosa throughout the colon with no erythema, ulceration, or mass. Random biopsies from right, transverse, left colon, and rectum. Pathology: Marked thickening of the subepithelial collagen band (25 micrometers, normal <7) with increased intraepithelial lymphocytes (30 per 100 epithelial cells) and chronic inflammatory infiltrate in the lamina propria. Diagnosis: Collagenous colitis.", "flag": "ABNORMAL", "clinical_significance": "Random biopsies are DIAGNOSTIC — thickened subepithelial collagen band >10 micrometers with lymphocytic inflammation confirms collagenous colitis (a subtype of microscopic colitis). This is why random biopsies must be taken even when the colon appears grossly normal."}
+    ],
+    "key_tests": [
+      "Colonoscopy with RANDOM biopsies — grossly normal mucosa but histology reveals thickened collagen band (25 mcm) and lymphocytic infiltrate, diagnostic of collagenous colitis",
+      "Stool studies — ruling out infectious diarrhea (C. difficile, bacterial, parasitic)",
+      "tTG-IgA — ruling out celiac disease (important comorbidity to exclude)",
+      "Medication review — identifying NSAIDs, PPIs, and SSRIs as potential contributing drugs"
+    ],
+    "acceptable_tests": [
+      "CBC and CMP — baseline assessment and electrolyte monitoring",
+      "ESR/CRP — assessing for inflammation",
+      "Fecal calprotectin — supporting mucosal inflammation",
+      "TSH — ruling out hyperthyroidism as cause of diarrhea",
+      "Fecal occult blood — confirming non-bloody nature"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (normal in microscopic colitis; cannot make the diagnosis)",
+      "Small bowel imaging (microscopic colitis affects the colon)",
+      "Stool osmolal gap (secretory diarrhea pattern expected but not specific)",
+      "Serum chromogranin A (carcinoid is much less likely given presentation)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The diagnosis of microscopic colitis (collagenous subtype) is established by the combination of: (1) chronic watery, non-bloody diarrhea, (2) grossly normal colonoscopy, and (3) diagnostic histology — thickened subepithelial collagen band (25 micrometers, normal <7) with intraepithelial lymphocytosis and chronic lamina propria inflammation. The patient has multiple risk factors: age >50, female sex, autoimmune predisposition (family history of celiac disease, thyroiditis), and use of implicated medications (NSAIDs, PPIs, and SSRIs)."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged to older woman (median age 60-65, female:male ratio 3:1) presenting with chronic watery, non-bloody diarrhea, often nocturnal, with urgency and fecal incontinence. The colonoscopy appears grossly normal — the diagnosis can ONLY be made by random biopsies. Two subtypes: collagenous colitis (thickened subepithelial collagen band >10 mcm) and lymphocytic colitis (increased intraepithelial lymphocytes >20 per 100 epithelial cells without collagen thickening). Commonly associated medications include NSAIDs, PPIs, SSRIs, acarbose, and ticlopidine.",
+    "attending_mode_notes": "The critical clinical lesson is that a 'normal colonoscopy' does NOT rule out colonic pathology — random biopsies from multiple colonic segments must be obtained in any patient with chronic watery diarrhea and a grossly normal-appearing colon. This is one of the most commonly missed diagnoses in gastroenterology. Key management considerations: (1) First step is ALWAYS to discontinue implicated medications — stop NSAIDs and attempt PPI de-escalation; SSRI change may be considered. Medication discontinuation alone leads to remission in up to 30% of cases. (2) If medication changes are insufficient, budesonide (oral, controlled ileal release, 9 mg daily for 6-8 weeks, then taper) is the first-line drug — response rate is >80%. (3) Relapse is common (60-80%) upon budesonide taper, and some patients require low-dose maintenance (3-6 mg daily). (4) The association with autoimmune diseases is strong — celiac disease (5-15% coexistence), thyroiditis, rheumatoid arthritis, and type 1 DM. Always screen for celiac disease. (5) Microscopic colitis does NOT progress to IBD (Crohn or UC) and does NOT increase colorectal cancer risk. (6) Bile acid malabsorption may contribute — consider a trial of cholestyramine if budesonide-refractory.",
+    "pathophysiology": "Microscopic colitis involves colonic mucosal inflammation that is visible only microscopically. The pathogenesis involves: (1) Luminal factors — drugs (NSAIDs disrupt epithelial barrier, PPIs alter gut microbiome), bile acids (malabsorption in up to 40%), and possibly food antigens (gluten in predisposed individuals). (2) Immune dysregulation — CD8+ T-lymphocyte infiltration of the epithelium, Th1/Th17 cytokine profile (TNF-alpha, IFN-gamma, IL-17), and autoimmune predisposition (HLA-DQ2/DQ8 association overlap with celiac disease). (3) Epithelial barrier dysfunction — tight junction disruption leading to increased colonic permeability and secretory diarrhea. In collagenous colitis specifically, the thickened collagen band (produced by myofibroblasts) may trap inflammatory mediators and impair water/electrolyte absorption. The diarrhea is secretory (persists with fasting, normal osmolal gap) due to active chloride secretion and impaired sodium absorption.",
+    "treatment_overview": "Step 1: Discontinue implicated medications (NSAIDs, PPIs, SSRIs if possible). Switch ibuprofen to acetaminophen. De-escalate PPI to H2 blocker or stop if able. This alone achieves remission in ~30%. Step 2: If persistent, budesonide 9 mg daily for 6-8 weeks (induction), then taper by 3 mg every 2-4 weeks. Response rate >80%. Step 3: For relapse during taper (common, 60-80%), maintain on low-dose budesonide 3-6 mg daily. Step 4: For budesonide-refractory cases: cholestyramine 4 g 1-3 times daily (treating coexisting bile acid malabsorption), bismuth subsalicylate, or immunomodulators (azathioprine, methotrexate). Step 5: Anti-TNF biologics (infliximab, adalimumab) for severe refractory cases (limited evidence). Loperamide can be used as adjunct for symptom control. Screen for and treat concurrent celiac disease if present. Ensure adequate hydration and electrolyte replacement.",
+    "high_yield_pearls": [
+      "A 'normal colonoscopy' does NOT rule out microscopic colitis — random biopsies from multiple colonic segments are MANDATORY in chronic watery diarrhea with grossly normal mucosa.",
+      "NSAIDs, PPIs, and SSRIs are the medications most strongly associated with microscopic colitis — always review the medication list and discontinue implicated agents first.",
+      "Budesonide (oral, controlled ileal release) is the first-line pharmacotherapy with >80% response rate — systemic steroids (prednisone) are not recommended as first-line.",
+      "Microscopic colitis does NOT progress to IBD (Crohn or UC) and does NOT increase colorectal cancer risk — patient reassurance is important.",
+      "Screen for celiac disease in all microscopic colitis patients — 5-15% coexistence rate, and both conditions share HLA-DQ2/DQ8 genetic predisposition.",
+      "Bile acid malabsorption contributes to diarrhea in up to 40% of microscopic colitis patients — a trial of cholestyramine can be both diagnostic and therapeutic."
+    ],
+    "sources": [
+      "AGA Clinical Practice Guidelines on the Management of Microscopic Colitis (Gastroenterology, 2016)",
+      "Miehlke S et al. European guidelines on microscopic colitis: United European Gastroenterology and European Microscopic Colitis Group. UEG Journal, 2021",
+      "Pardi DS. Microscopic colitis. Clin Gastroenterol Hepatol, 2017",
+      "Bohr J et al. Diagnosis and management of microscopic colitis: current perspectives. Clin Exp Gastroenterol, 2014",
+      "Münch A et al. Microscopic colitis: current status, present and future challenges. J Crohns Colitis, 2012"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Microscopic colitis",
+      "Irritable bowel syndrome (diarrhea-predominant)",
+      "Celiac disease",
+      "Inflammatory bowel disease (Crohn colitis)",
+      "Infectious diarrhea (C. difficile)",
+      "Medication-induced diarrhea",
+      "Bile acid malabsorption",
+      "Hyperthyroidism"
+    ],
+    "after_stage2_more_likely": [
+      "Microscopic colitis — chronic watery non-bloody diarrhea in an older woman, nocturnal symptoms (argues against IBS), multiple implicated medications (NSAIDs, PPI, SSRI), autoimmune family history",
+      "IBS-D — chronic diarrhea, but nocturnal symptoms and weight loss argue against functional diagnosis"
+    ],
+    "after_stage2_less_likely": [
+      "IBD (Crohn/UC) — no bloody stools, no fever, no perianal disease, no mouth ulcers",
+      "Hyperthyroidism — TSH normal on exam expectations, no tremor or weight loss disproportionate to intake",
+      "Infectious diarrhea — no fever, no travel, duration too long for typical infection"
+    ],
+    "after_labs_top3": [
+      "Microscopic colitis (collagenous subtype) — diagnostic biopsy showing thickened collagen band with lymphocytic inflammation, grossly normal colonoscopy, negative infectious workup, negative celiac serology",
+      "Medication-induced diarrhea — NSAIDs, PPIs, and SSRIs may all contribute and should be discontinued regardless; medication withdrawal alone may achieve remission",
+      "Bile acid malabsorption — may coexist with microscopic colitis and contribute to symptoms; consider cholestyramine trial if budesonide alone is insufficient"
+    ]
+  }
+}

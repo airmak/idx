@@ -1,0 +1,77 @@
+{
+  "case_id": "case_036",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Aortic Dissection (Type A)",
+  "icd_category": "I71.01 — Dissection of thoracic aorta",
+  "one_liner": "A 62-year-old male with poorly controlled hypertension presents with sudden-onset severe tearing chest pain radiating to the back.",
+  "stage2": {
+    "hpi_extension": "Patient was lifting a heavy box when he experienced sudden onset of severe, sharp, tearing pain in his anterior chest that immediately radiated to his upper back between the shoulder blades. He rates the pain as 10/10, describing it as the worst pain he has ever felt, and states it was maximal at onset. He feels lightheaded and short of breath. He has not had syncope. He denies leg pain, abdominal pain, or focal weakness. He has been inconsistently taking his blood pressure medications. He checked his BP at home this morning and it was 192/108. No history of trauma, recent surgery, or prolonged immobilization.",
+    "pmh": "Hypertension (20 years, poorly controlled), hyperlipidemia, bicuspid aortic valve (diagnosed 5 years ago on echocardiogram), obstructive sleep apnea",
+    "surgical_history": "None",
+    "medications": "Lisinopril 40 mg daily (inconsistent compliance), hydrochlorothiazide 25 mg daily, atorvastatin 40 mg daily, CPAP at night",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of aortic aneurysm rupture at age 65. Brother has Marfan syndrome.",
+    "social_history": "Active smoker (35 pack-years). Social alcohol. Works in construction. Married. No illicit drug use (denies cocaine).",
+    "vitals": {
+      "temp": "98.2 F (36.8 C)",
+      "hr": "110 bpm",
+      "bp": "Right arm: 192/110 mmHg; Left arm: 148/82 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "95 kg, BMI 30.1"
+    },
+    "physical_exam": "General: Diaphoretic, distressed male clutching his chest, unable to lie still. HEENT: Unremarkable. Neck: No JVD (initially). Cardiovascular: Tachycardic, regular rhythm. Early diastolic decrescendo murmur best heard at the left sternal border (Grade III/VI), new. S1/S2 present. Blood pressure discrepancy >40 mmHg systolic between arms. Right radial pulse full, left radial pulse diminished. Pulmonary: Clear to auscultation bilaterally. No crackles. Abdomen: Soft, non-tender. Pulsatile mass not appreciated. Extremities: Right upper extremity pulses full. Left upper extremity pulses diminished. Lower extremity pulses 2+ and symmetric. Skin: Pale, diaphoretic. Neuro: Alert, oriented x4. No focal neurological deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "D-dimer", "result": "8,200 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; D-dimer >500 has high sensitivity for acute aortic dissection"},
+      {"test_name": "Troponin I", "result": "0.42 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may indicate coronary malperfusion from dissection flap involving coronary ostia"},
+      {"test_name": "CBC - Hemoglobin", "result": "12.8 g/dL", "flag": "WNL", "clinical_significance": "Baseline; monitor for dropping hemoglobin indicating hemorrhage"},
+      {"test_name": "CBC - WBC", "result": "13.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Stress leukocytosis"},
+      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may indicate renal malperfusion"},
+      {"test_name": "BMP - Potassium", "result": "3.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Lactate", "result": "2.4 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from hypoperfusion"},
+      {"test_name": "PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation, important for surgical planning"},
+      {"test_name": "Type and Crossmatch", "result": "A positive, 4 units crossmatched", "flag": "WNL", "clinical_significance": "Prepared for emergent surgery"},
+      {"test_name": "BMP - Glucose", "result": "168 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia"},
+      {"test_name": "Fibrinogen", "result": "380 mg/dL", "flag": "WNL", "clinical_significance": "Normal, no consumptive coagulopathy yet"},
+      {"test_name": "BNP", "result": "210 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect acute aortic regurgitation"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Angiography (Chest/Abdomen/Pelvis)", "result": "Intimal flap identified in the ascending aorta extending from the aortic root to the descending aorta past the left subclavian artery. True lumen is compressed. Dissection involves the aortic root with involvement of the left coronary ostium. No pericardial effusion. No extension below the renal arteries. Aortic root diameter 4.8 cm.", "flag": "ABNORMAL", "clinical_significance": "Stanford Type A aortic dissection (DeBakey Type I) requiring emergent surgical repair"},
+      {"test_name": "Chest X-ray (portable)", "result": "Widened mediastinum (9.2 cm). No pleural effusion. No pneumothorax.", "flag": "ABNORMAL", "clinical_significance": "Widened mediastinum is suggestive of aortic pathology"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 110 bpm. ST depression in leads II, III, aVF. No ST elevation.", "flag": "ABNORMAL", "clinical_significance": "ST changes may reflect coronary malperfusion; must differentiate from primary ACS"}
+    ],
+    "key_tests": ["CT angiography (chest/abdomen/pelvis)", "ECG", "Chest X-ray", "Type and crossmatch", "Troponin"],
+    "acceptable_tests": ["D-dimer", "CBC", "BMP", "Coagulation studies", "BNP", "Lactate", "Bedside transthoracic echocardiography", "Point-of-care ultrasound"],
+    "low_yield_tests": ["Cardiac catheterization (delays surgery and dangerous)", "CT without contrast", "Abdominal ultrasound", "Stress test", "Liver function tests"]
+  },
+  "stage5": {
+    "final_clue": "CTA confirms an intimal flap extending from the ascending aorta involving the aortic root with coronary ostium involvement, classifying this as a Stanford Type A dissection. The clinical picture of sudden tearing chest/back pain, blood pressure differential between arms, new aortic regurgitation murmur, and widened mediastinum in a hypertensive patient demands emergent cardiothoracic surgery."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden onset of severe, tearing or ripping chest pain that is maximal at onset and radiates to the back. Key exam findings include blood pressure discrepancy between arms (>20 mmHg systolic), pulse deficits, new aortic regurgitation murmur, and widened mediastinum on CXR. Risk factors: hypertension (strongest risk factor), bicuspid aortic valve, connective tissue disorders (Marfan, Ehlers-Danlos), cocaine use, and family history.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Aortic dissection occurs when a tear in the aortic intima allows blood to enter the media, creating a false lumen that propagates along the vessel. Type A involves the ascending aorta (regardless of distal extent) and is a surgical emergency due to risk of aortic rupture, cardiac tamponade, acute aortic regurgitation, coronary malperfusion, and stroke. Chronic hypertension causes medial degeneration (cystic medial necrosis), weakening the aortic wall. Bicuspid aortic valve is associated with aortopathy due to abnormal wall stress patterns.",
+    "treatment_overview": "Type A dissection requires EMERGENT open surgical repair (ascending aortic replacement +/- aortic root/valve repair). Pre-operative management: (1) Heart rate control first — IV esmolol to target HR <60 bpm; (2) then blood pressure control — target SBP 100-120 mmHg with IV labetalol or nitroprusside (only after beta-blocker); (3) Pain control with IV morphine. Avoid anticoagulation and thrombolytics. Emergent cardiothoracic surgery consultation. Post-operative: ICU monitoring, serial imaging, lifelong blood pressure control, and surveillance imaging of residual dissection.",
+    "high_yield_pearls": [
+      "Type A dissection (involving ascending aorta) is a SURGICAL emergency; Type B (descending only) is typically managed medically unless complicated.",
+      "Always control heart rate BEFORE blood pressure to avoid reflex tachycardia that increases aortic wall shear stress.",
+      "Blood pressure discrepancy >20 mmHg between arms has high specificity but low sensitivity (~30%) for dissection.",
+      "Troponin may be elevated from coronary malperfusion — do NOT mistake Type A dissection for primary ACS and give anticoagulation/thrombolytics.",
+      "CXR is abnormal in only 60-90% of cases; a normal CXR does NOT exclude dissection."
+    ],
+    "sources": [
+      "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 56",
+      "Hagan PG et al. JAMA 2000;283:897-903 (IRAD registry)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Aortic dissection (Type A)", "Acute myocardial infarction", "Pulmonary embolism", "Pericarditis/Cardiac tamponade", "Esophageal rupture (Boerhaave)", "Tension pneumothorax", "Musculoskeletal chest pain"],
+    "after_stage2_more_likely": ["Aortic dissection (Type A)", "Acute myocardial infarction"],
+    "after_stage2_less_likely": ["Musculoskeletal chest pain", "Tension pneumothorax", "Pericarditis"],
+    "after_labs_top3": ["Aortic dissection (Type A)", "Acute coronary syndrome with dissection", "Aortic aneurysm rupture"]
+  }
+}

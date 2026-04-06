@@ -1,0 +1,118 @@
+{
+  "case_id": "case_223",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Bipolar I Disorder, current episode manic, severe",
+  "icd_category": "F31.1 — Bipolar disorder, current episode manic without psychotic features",
+  "one_liner": "A 26-year-old man with no significant psychiatric history presents with 1 week of decreased sleep, grandiosity, rapid speech, impulsive spending, and increased goal-directed activity.",
+  "stage2": {
+    "hpi_extension": "The patient was brought in by his girlfriend who reports he has been 'acting completely different' for the past 10 days. He has slept only 2-3 hours per night for the past week yet reports feeling 'full of energy.' He has been talking rapidly and jumping between topics. He recently quit his job as a barista, stating he is going to start a tech company and 'become a billionaire.' He spent $12,000 on his credit card over 3 days purchasing business equipment and designer clothes. His girlfriend reports he has been making numerous phone calls to investors at 3 AM. He has been more sexually forward than usual and made inappropriate comments to strangers. He denies any depressive symptoms. He denies drug use but his girlfriend is unsure. No prior manic episodes per patient or collateral, though his mother recalls a depressive episode 2 years ago that resolved without treatment. YMRS score is 32 (severe mania).",
+    "pmh": "No significant medical history.",
+    "surgical_history": "Appendectomy at age 14",
+    "medications": "None",
+    "allergies": "Penicillin (rash)",
+    "family_history": "Mother with bipolar disorder diagnosed at age 30, treated with lithium. Paternal uncle with alcohol use disorder. Maternal grandmother with 'mood problems.' No family history of schizophrenia.",
+    "social_history": "Previously worked as a barista (recently quit). Single, lives with girlfriend. Drinks alcohol socially (2-3 drinks on weekends). Smokes marijuana 'occasionally,' last use reportedly 3 weeks ago. Denies other illicit drugs. Completed some college but dropped out. No legal history prior to this episode.",
+    "vitals": {
+      "temp": "98.9°F (37.2°C)",
+      "hr": "102 bpm",
+      "bp": "138/86 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "170 lbs, BMI 23.7 kg/m²"
+    },
+    "physical_exam": "General: Energetic young man, pacing the room, dressed in bright, flashy clothing with multiple accessories. HEENT: Pupils equal and reactive, not dilated. No nystagmus. Oropharynx clear. Neck: No thyromegaly. Cardiovascular: Tachycardic, regular rhythm. Lungs: Clear bilaterally. Abdomen: Soft, non-tender. Neurological: Alert, cranial nerves intact, no focal deficits. Mental Status Exam: Appearance — flamboyantly dressed, well-groomed but with excessive accessories. Behavior — hyperactive, pacing, difficulty sitting still, overly familiar. Speech — pressured, loud, rapid rate, difficult to interrupt. Mood — 'fantastic, never felt better.' Affect — euphoric, expansive, labile (briefly irritable when questioned about spending). Thought process — flight of ideas, tangential, with loose associations at times. Thought content — grandiose ideation (believes he will be a billionaire), no SI/HI, no paranoid delusions. Perception — no hallucinations. Cognition — oriented x4 but highly distractible. Insight — poor (does not believe anything is wrong). Judgment — markedly impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urine drug screen", "result": "Positive for THC, negative for amphetamines, cocaine, opioids, PCP, benzodiazepines", "flag": "ABNORMAL", "clinical_significance": "THC positive likely from prior marijuana use; negative for stimulants rules out substance-induced mania"},
+      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "No acute alcohol intoxication"},
+      {"test_name": "TSH", "result": "2.3 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism as cause of manic symptoms"},
+      {"test_name": "CBC", "result": "WBC 8.4, Hgb 15.8, Hct 46.1, Plt 260", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality"},
+      {"test_name": "CMP", "result": "Na 139, K 4.0, Cl 101, CO2 23, BUN 16, Cr 1.0, Glucose 105, Ca 9.8, AST 24, ALT 26", "flag": "WNL", "clinical_significance": "Normal metabolic panel; baseline renal and hepatic function important before starting mood stabilizers"},
+      {"test_name": "Serum cortisol (AM)", "result": "16.5 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out Cushing syndrome which can cause psychiatric symptoms"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis"},
+      {"test_name": "HIV 1/2 Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out HIV-related neuropsychiatric presentation"},
+      {"test_name": "BUN/Creatinine", "result": "BUN 16, Cr 1.0", "flag": "WNL", "clinical_significance": "Baseline renal function before potential lithium initiation"},
+      {"test_name": "Urinalysis", "result": "Normal specific gravity, no protein, no glucose", "flag": "WNL", "clinical_significance": "Baseline renal concentrating ability"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology as cause of acute behavioral change"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 102 bpm. Normal QTc (420 ms). No conduction abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia consistent with hyperarousal state; normal QTc important for medication selection"}
+    ],
+    "key_tests": [
+      "Urine drug screen — critical to rule out stimulant-induced mania (cocaine, amphetamines)",
+      "TSH — to rule out hyperthyroidism mimicking mania",
+      "Young Mania Rating Scale (YMRS) — score 32 (severe mania)",
+      "CMP with renal function — baseline before mood stabilizer initiation",
+      "CT Head — first episode warrants neuroimaging to rule out organic cause"
+    ],
+    "acceptable_tests": [
+      "Blood alcohol level",
+      "CBC with differential",
+      "RPR/VDRL",
+      "HIV testing",
+      "ECG (baseline before antipsychotics)",
+      "AM cortisol",
+      "Urinalysis",
+      "Liver function tests (baseline before valproate)"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (CT adequate for acute screen; MRI if focal deficits)",
+      "EEG (no seizure-like activity)",
+      "Lumbar puncture (no meningeal signs or fever)",
+      "Vitamin B12 level (patient is young with no deficiency risk)",
+      "Autoimmune encephalitis panel (no subacute course or atypical features)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient presents with a distinct period of abnormally expansive, euphoric mood lasting more than 1 week with at least 3 additional manic symptoms: decreased need for sleep, grandiosity, pressured speech, flight of ideas, increased goal-directed activity, distractibility, and excessive involvement in risky activities (impulsive spending). Family history of bipolar disorder is strongly supportive. Urine drug screen is negative for stimulants, ruling out substance-induced mania. YMRS score of 32 confirms severe mania. This is diagnostic of Bipolar I Disorder, manic episode."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult presenting with an acute episode of elevated or irritable mood lasting at least 7 days (or any duration if hospitalization is required) with at least 3 (or 4 if irritable) symptoms captured by the mnemonic DIG FAST: Distractibility, Impulsivity/Indiscretion, Grandiosity, Flight of ideas, Activity increase, Sleep deficit, Talkativeness. Marked functional impairment or psychotic features may be present.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Bipolar disorder involves dysregulation of prefrontal-limbic circuits with excessive dopaminergic and glutamatergic activity during manic episodes. There is decreased prefrontal cortical inhibition over the amygdala and ventral striatum, leading to elevated mood, impulsivity, and reward-seeking behavior. Heritability is approximately 80% — one of the most heritable psychiatric disorders. Circadian rhythm disruption (sleep-wake cycle dysregulation) is both a trigger and consequence of manic episodes. Kindling theory suggests episodes become more frequent over time without treatment.",
+    "treatment_overview": "Acute mania treatment: First-line includes lithium, valproate, or atypical antipsychotics (olanzapine, quetiapine, risperidone, aripiprazole). Combination therapy (mood stabilizer + antipsychotic) is often needed for severe mania. Benzodiazepines (lorazepam) for acute agitation and insomnia. Maintenance therapy: Lithium is the gold standard for long-term mood stabilization and reduces suicide risk. Valproate and lamotrigine (for depressive prevention) are alternatives. Psychoeducation, sleep hygiene, and identification of early warning signs are essential. Avoid antidepressant monotherapy as it can trigger mania.",
+    "high_yield_pearls": [
+      "DIG FAST mnemonic for mania: Distractibility, Impulsivity, Grandiosity, Flight of ideas, Activity increase, Sleep decrease, Talkativeness.",
+      "A manic episode must last at least 7 days (or any duration if hospitalization is required) to diagnose Bipolar I. Hypomania (Bipolar II) requires only 4 days and no marked functional impairment.",
+      "Always rule out substance-induced mania (cocaine, amphetamines, steroids) and hyperthyroidism before diagnosing Bipolar I.",
+      "Lithium is the only mood stabilizer proven to reduce suicide risk in bipolar disorder.",
+      "Family history is the strongest risk factor — first-degree relatives have a 10x increased risk.",
+      "Average age of onset is 18-25 years. First episode is often manic in males and depressive in females."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Bipolar Disorder (2023)",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Goodwin & Jamison: Manic-Depressive Illness, 3rd Edition",
+      "CANMAT/ISBD Guidelines for Bipolar Disorder (2018)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Bipolar I disorder (manic episode)",
+      "Substance-induced mania (stimulants, cocaine)",
+      "Hyperthyroidism",
+      "Schizoaffective disorder (bipolar type)",
+      "Schizophrenia (disorganized type)",
+      "Cyclothymic disorder",
+      "ADHD (severe)",
+      "Personality disorder (borderline — affective instability)"
+    ],
+    "after_stage2_more_likely": [
+      "Bipolar I disorder — classic manic presentation with DIG FAST symptoms, family history of bipolar disorder, first episode in typical age range",
+      "Substance-induced mania — cannot yet exclude stimulant use"
+    ],
+    "after_stage2_less_likely": [
+      "Schizophrenia — no prominent psychotic symptoms, predominant mood disturbance",
+      "ADHD — acute onset over days rather than chronic lifelong pattern",
+      "Hyperthyroidism — no weight loss, tremor, or goiter"
+    ],
+    "after_labs_top3": [
+      "Bipolar I disorder (manic episode) — negative stimulant screen, normal TSH, no organic cause; meets DSM-5 criteria with YMRS 32",
+      "Schizoaffective disorder — less likely without prominent psychotic features outside mood episodes",
+      "Cyclothymic disorder — less likely given severity of symptoms and marked functional impairment"
+    ]
+  }
+}

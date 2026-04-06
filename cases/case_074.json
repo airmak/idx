@@ -1,0 +1,79 @@
+{
+  "case_id": "case_074",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Dilated Cardiomyopathy",
+  "icd_category": "I42.0 — Dilated cardiomyopathy",
+  "one_liner": "A 45-year-old male with no significant cardiac history presents with progressive dyspnea, fatigue, and new-onset bilateral leg edema over the past 2 months.",
+  "stage2": {
+    "hpi_extension": "The patient, previously healthy and active, noticed progressive exercise intolerance starting about 2 months ago. He is now short of breath walking from his car to the office. He has gained 12 lbs and developed bilateral leg swelling. He sleeps on 2 pillows due to orthopnea and has had 2 episodes of PND. He denies chest pain, palpitations, or syncope. He had a 'bad cold' about 3 months ago but recovered. No recent travel or sick contacts.",
+    "pmh": "No significant medical history",
+    "surgical_history": "Wisdom tooth extraction",
+    "medications": "Multivitamin daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died suddenly at age 50 (cause unknown). Paternal uncle had a 'heart transplant' at age 48. Mother alive and well.",
+    "social_history": "Non-smoker. Social drinker (2-3 beers per week). Works as a middle school teacher. Married with 2 children. No illicit drug use.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "104 bpm, irregular",
+      "bp": "100/68 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "92 kg, BMI 28.5"
+    },
+    "physical_exam": "General: Mildly dyspneic at rest. HEENT: JVP elevated to 14 cm H2O. Cardiovascular: Irregularly irregular rhythm (atrial fibrillation), S3 gallop, soft holosystolic murmur at apex (functional MR), PMI displaced laterally and inferiorly to the anterior axillary line. Pulmonary: Bibasilar crackles to mid-lung fields bilaterally. Abdomen: Soft, hepatomegaly (liver palpable 3 cm below costal margin), positive hepatojugular reflux. Extremities: 3+ bilateral pitting edema to knees. Skin: Cool, mottled extremities."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "BNP", "result": "1,850 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with severe decompensated heart failure"},
+      {"test_name": "Troponin I", "result": "0.06 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from myocardial stretch/wall stress rather than acute ischemia"},
+      {"test_name": "Sodium", "result": "128 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia, poor prognostic marker in HF from neurohormonal activation"},
+      {"test_name": "Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment suggesting cardiorenal syndrome"},
+      {"test_name": "ALT", "result": "85 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic congestion"},
+      {"test_name": "AST", "result": "72 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic congestion"},
+      {"test_name": "Total bilirubin", "result": "2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from hepatic congestion"},
+      {"test_name": "TSH", "result": "2.3 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out thyroid disease as cause"},
+      {"test_name": "Iron/TIBC/Ferritin", "result": "Iron 65, TIBC 320, Ferritin 120", "flag": "WNL", "clinical_significance": "Normal iron studies, rules out hemochromatosis"},
+      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV cardiomyopathy"},
+      {"test_name": "Uric acid", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, common in HF due to decreased renal clearance"},
+      {"test_name": "Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, rules out anemia as contributing factor"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic Echocardiogram", "result": "Severely dilated LV (LVEDD 7.2 cm), global hypokinesis, LVEF 18%, severe functional mitral regurgitation, moderate tricuspid regurgitation, dilated left atrium, mildly dilated RV with decreased function, elevated RVSP 52 mmHg, no regional wall motion abnormalities to suggest ischemic etiology", "flag": "ABNORMAL", "clinical_significance": "Severe nonischemic dilated cardiomyopathy with biventricular dysfunction"},
+      {"test_name": "Chest X-ray", "result": "Markedly enlarged cardiac silhouette, bilateral pleural effusions, cephalization of pulmonary vasculature, Kerley B lines", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly with pulmonary edema and bilateral effusions"},
+      {"test_name": "12-lead ECG", "result": "Atrial fibrillation with ventricular rate 104 bpm, poor R-wave progression V1-V4, non-specific ST-T wave changes, low voltage in limb leads", "flag": "ABNORMAL", "clinical_significance": "AFib (new), low voltage and poor R-wave progression consistent with dilated cardiomyopathy"}
+    ],
+    "key_tests": ["Transthoracic echocardiogram", "BNP", "12-lead ECG", "Basic metabolic panel", "Troponin"],
+    "acceptable_tests": ["CBC", "Liver function tests", "TSH", "Iron studies", "HIV test", "Chest X-ray", "Cardiac MRI (for tissue characterization)", "Coronary angiography (to exclude ischemic cause)"],
+    "low_yield_tests": ["Stress test (EF too low)", "PET scan", "Pulmonary function tests", "Serum cortisol", "ANA"],
+    "key_tests_rationale": "Echo is essential to diagnose DCM and quantify dysfunction. BNP confirms HF severity. ECG identifies rhythm and conduction abnormalities. BMP assesses renal function and electrolytes. Troponin evaluates for ischemia."
+  },
+  "stage5": {
+    "final_clue": "Echocardiography reveals a severely dilated left ventricle with global hypokinesis and an LVEF of 18%, without regional wall motion abnormalities. Combined with the family history of sudden death and heart transplant, this is most consistent with familial dilated cardiomyopathy."
+  },
+  "debrief": {
+    "classic_presentation": "Dilated cardiomyopathy presents with progressive heart failure symptoms: dyspnea on exertion, orthopnea, PND, fatigue, and peripheral edema. It typically affects men more than women, ages 20-60. Echo shows a dilated, globally hypokinetic LV. The etiology can be idiopathic (most common), familial/genetic (20-35%), viral/post-myocarditis, alcoholic, or peripartum.",
+    "attending_mode_notes": null,
+    "pathophysiology": "DCM is characterized by progressive ventricular dilation and systolic dysfunction without coronary artery disease or abnormal loading conditions to explain the degree of impairment. Genetic mutations (often in cytoskeletal proteins like titin, lamin A/C) weaken the myocardium. The dilated ventricle has increased wall stress (LaPlace's law), leading to further dilation, functional mitral regurgitation, and reduced cardiac output.",
+    "treatment_overview": "Guideline-directed medical therapy (GDMT): ARNI (or ACEi/ARB), beta-blocker, MRA, SGLT2 inhibitor. Diuretics for volume overload. Anticoagulation for atrial fibrillation. ICD for primary prevention if EF ≤35% after 3+ months of GDMT. CRT if LBBB with QRS ≥150 ms. Genetic testing and family screening recommended. Advanced therapies (LVAD, transplant) for refractory cases.",
+    "high_yield_pearls": [
+      "Family history of sudden death or 'heart failure' at a young age should raise suspicion for familial/genetic DCM — first-degree relatives should be screened with echo.",
+      "Global hypokinesis WITHOUT regional wall motion abnormalities on echo distinguishes nonischemic DCM from ischemic cardiomyopathy.",
+      "Up to 35% of 'idiopathic' DCM has a genetic basis, most commonly titin (TTN) truncating variants.",
+      "Lamin A/C mutations are high-risk for sudden death and arrhythmias — early ICD implantation is recommended even with milder LV dysfunction.",
+      "The four pillars of HFrEF therapy (ARNI, beta-blocker, MRA, SGLT2i) should be initiated and up-titrated in all DCM patients."
+    ],
+    "sources": [
+      "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+      "Hershberger et al., Dilated Cardiomyopathy: Genetics, JACC 2021",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Weintraub et al., Dilated Cardiomyopathy, Lancet 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Ischemic cardiomyopathy", "Myocarditis (viral)", "Alcoholic cardiomyopathy", "Peripartum cardiomyopathy", "Valvular heart disease", "Tachycardia-mediated cardiomyopathy"],
+    "after_stage2_more_likely": ["Dilated cardiomyopathy", "Ischemic cardiomyopathy", "Myocarditis"],
+    "after_stage2_less_likely": ["Alcoholic cardiomyopathy", "Peripartum cardiomyopathy", "Valvular disease"],
+    "after_labs_top3": ["Familial dilated cardiomyopathy", "Post-viral cardiomyopathy", "Idiopathic dilated cardiomyopathy"]
+  }
+}

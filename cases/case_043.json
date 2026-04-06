@@ -1,0 +1,77 @@
+{
+  "case_id": "case_043",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Toxic Alcohol Ingestion (Methanol)",
+  "icd_category": "T51.1 — Toxic effect of methanol",
+  "one_liner": "A 42-year-old homeless male presents with blurred vision, abdominal pain, and confusion 18 hours after drinking homemade liquor obtained from an acquaintance.",
+  "stage2": {
+    "hpi_extension": "Patient was found by outreach workers on a park bench in a confused state. He is a known homeless individual with chronic alcohol use disorder. Per his companion (another homeless individual), the patient drank approximately 500 mL of a clear liquid described as 'homemade moonshine' obtained from another person at a shelter approximately 18 hours ago. Several hours after drinking it, he complained of headache and nausea. This morning, he began complaining of blurred vision and seeing 'snow' or 'white spots.' He has had several episodes of vomiting and complaints of severe abdominal pain. He became progressively confused and combative. His companion reports the patient appeared initially intoxicated but then seemed to 'sober up' before getting much worse — suggesting a lucid interval. The patient is unable to provide reliable history due to confusion.",
+    "pmh": "Chronic alcohol use disorder, hepatitis C, depression, history of alcohol withdrawal seizures",
+    "surgical_history": "None known",
+    "medications": "None (non-compliant with any prescribed medications)",
+    "allergies": "Unknown",
+    "family_history": "Unknown",
+    "social_history": "Homeless for 3 years. Heavy daily alcohol use (drinks whatever is available, including non-beverage alcohols). Smokes 1 pack/day. Denies IV drug use. No regular healthcare.",
+    "vitals": {
+      "temp": "97.8 F (36.6 C)",
+      "hr": "108 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "32 breaths/min (Kussmaul breathing pattern)",
+      "spo2": "98% on room air",
+      "weight_bmi": "70 kg, BMI 23.1"
+    },
+    "physical_exam": "General: Disheveled, confused male with deep, rapid (Kussmaul) respirations. Smells of alcohol. HEENT: Pupils 6 mm bilaterally, sluggishly reactive. Mild bilateral optic disc hyperemia on fundoscopy (early papilledema/optic disc edema). Unable to read visual acuity chart. Reports 'everything is blurry and white.' No nystagmus. Neck: Supple. No meningismus. Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. Pulmonary: Clear to auscultation. Kussmaul breathing pattern (deep and rapid). Abdomen: Diffusely tender, especially epigastric. No rebound or guarding. Normoactive bowel sounds. Extremities: No edema. Skin: Pale, cool. Neuro: GCS 12 (E3V4M5). Confused, agitated. Not oriented to place or time. No focal motor deficits. Reflexes intact bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ABG - pH", "result": "7.12", "flag": "LOW", "clinical_significance": "Severe metabolic acidosis — hallmark of toxic alcohol poisoning"},
+      {"test_name": "ABG - pCO2", "result": "14 mmHg", "flag": "LOW", "clinical_significance": "Maximal respiratory compensation (Kussmaul breathing)"},
+      {"test_name": "BMP - Bicarbonate", "result": "6 mEq/L", "flag": "LOW", "clinical_significance": "Profoundly low bicarbonate from formic acid accumulation"},
+      {"test_name": "Anion Gap", "result": "32 mEq/L (Na 142, Cl 104, HCO3 6)", "flag": "HIGH", "clinical_significance": "Severely elevated anion gap from formic acid (metabolite of methanol)"},
+      {"test_name": "Serum Osmolality (measured)", "result": "328 mOsm/kg", "flag": "HIGH", "clinical_significance": "Elevated; osmol gap helps identify toxic alcohol"},
+      {"test_name": "Calculated Osmolality", "result": "290 mOsm/kg", "flag": "WNL", "clinical_significance": "Osmol gap = 328 - 290 = 38 (elevated >10; presence of unmeasured osmoles)"},
+      {"test_name": "Serum Methanol Level", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Confirmatory; level >20 mg/dL is toxic, >40 mg/dL is severe"},
+      {"test_name": "Serum Ethanol Level", "result": "<10 mg/dL", "flag": "WNL", "clinical_significance": "Ethanol has been metabolized — no longer providing protective competitive inhibition of ADH"},
+      {"test_name": "Lactate", "result": "4.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from formate inhibition of cytochrome oxidase and tissue hypoxia"},
+      {"test_name": "BMP - Creatinine", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "AKI from dehydration and toxic injury"},
+      {"test_name": "BMP - Potassium", "result": "5.2 mEq/L", "flag": "HIGH", "clinical_significance": "Elevated from acidosis-driven extracellular shift"},
+      {"test_name": "Lipase", "result": "86 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; toxic alcohols can cause pancreatitis"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute hemorrhage. Bilateral putaminal hypodensities noted (subtle). No mass or midline shift.", "flag": "ABNORMAL", "clinical_significance": "Bilateral putaminal necrosis is characteristic of methanol poisoning and is associated with poor neurological prognosis"},
+      {"test_name": "Chest X-ray", "result": "Clear lungs. No aspiration.", "flag": "WNL", "clinical_significance": "No pulmonary pathology"}
+    ],
+    "key_tests": ["ABG/VBG with pH", "BMP (anion gap calculation)", "Serum osmolality (for osmol gap)", "Serum methanol level", "Serum ethanol level"],
+    "acceptable_tests": ["Serum ethylene glycol level (rule out co-ingestion)", "Lactate", "Lipase", "CT head", "CBC", "Urinalysis (for calcium oxalate crystals to exclude ethylene glycol)", "Liver function tests", "Coagulation studies"],
+    "low_yield_tests": ["Urine drug screen (does not detect toxic alcohols)", "Blood cultures", "Serum ketones", "Thyroid function", "CT abdomen"]
+  },
+  "stage5": {
+    "final_clue": "Severe high anion gap metabolic acidosis (AG 32) with elevated osmol gap (38), visual complaints with optic disc edema, Kussmaul breathing, and serum methanol level of 42 mg/dL after ingestion of unregulated homemade liquor. CT showing bilateral putaminal necrosis confirms end-organ toxicity. This is severe methanol poisoning requiring emergent fomepizole and hemodialysis."
+  },
+  "debrief": {
+    "classic_presentation": "Presentation typically delayed 12-24 hours after ingestion (lucid interval while methanol is metabolized to toxic formic acid). Visual disturbances (blurry vision, 'snowfield' vision, blindness) are the hallmark. Severe metabolic acidosis with high anion gap and elevated osmol gap. Abdominal pain, nausea, vomiting, headache, and altered mental status. Kussmaul respirations from profound acidosis. Risk groups: homeless/chronic alcoholics, suicidal ingestion, accidental exposure (windshield washer fluid, wood alcohol).",
+    "attending_mode_notes": "The diagnostic challenge is the 12-24 hour lucid interval. The patient may initially appear mildly intoxicated, then seems to improve, before rapidly deteriorating as formate accumulates. By the time visual symptoms appear, significant retinal and CNS damage may have already occurred. The osmol gap is most useful EARLY (when methanol is still unmetabolized) and the anion gap is most useful LATE (after formate has accumulated). In late presentations, the osmol gap may normalize as methanol has been converted to formate, but the anion gap will be severely elevated. Bilateral putaminal necrosis on CT is nearly pathognomonic for methanol poisoning.",
+    "pathophysiology": "Methanol itself is relatively non-toxic but is metabolized by alcohol dehydrogenase (ADH) to formaldehyde, then by aldehyde dehydrogenase to formic acid (formate). Formate is the primary toxin: it inhibits cytochrome oxidase in mitochondria (similar to cyanide), causing tissue hypoxia and lactic acidosis. The retina and optic nerve are particularly vulnerable due to high metabolic demand. Formate also causes direct toxicity to the basal ganglia, especially the putamen. The lucid interval occurs because methanol itself causes mild CNS depression, but the severe toxicity emerges only after formate accumulates.",
+    "treatment_overview": "Fomepizole (4-methylpyrazole) 15 mg/kg IV loading dose, then 10 mg/kg q12h — this is the preferred antidote that blocks alcohol dehydrogenase, preventing further methanol metabolism to formate. If fomepizole is unavailable, IV ethanol infusion (target serum ethanol 100-150 mg/dL) serves as a competitive ADH inhibitor. Hemodialysis is indicated for: methanol >50 mg/dL, severe acidosis (pH <7.15), visual symptoms, renal failure, or clinical deterioration despite fomepizole. Folinic acid (leucovorin) 50 mg IV q6h enhances formate metabolism to CO2 and water. Sodium bicarbonate for pH <7.2. Supportive care: IV fluids, electrolyte correction, ICU admission.",
+    "high_yield_pearls": [
+      "Visual complaints ('snowfield vision,' photophobia, blindness) are the hallmark of methanol poisoning and distinguish it from ethylene glycol.",
+      "The mnemonic for high anion gap metabolic acidosis (MUDPILES) includes Methanol — always consider toxic alcohols in unexplained HAGMA.",
+      "Osmol gap is elevated EARLY (parent compound present) while anion gap is elevated LATE (toxic metabolites accumulated).",
+      "Fomepizole is the preferred antidote; it blocks alcohol dehydrogenase and prevents further toxic metabolite formation.",
+      "Bilateral putaminal necrosis on CT/MRI is characteristic of methanol poisoning.",
+      "Hemodialysis removes both methanol and formate and is indicated for severe poisoning."
+    ],
+    "sources": [
+      "Kraut JA et al. NEJM 2018;378:270-280",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 211",
+      "Barceloux DG et al. J Toxicol Clin Toxicol 2002;40:415-446 (AACT/EAPCCT guidelines)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Methanol poisoning", "Ethylene glycol poisoning", "Isopropyl alcohol intoxication", "Diabetic ketoacidosis", "Alcoholic ketoacidosis", "Lactic acidosis (sepsis)", "Uremia", "Salicylate toxicity"],
+    "after_stage2_more_likely": ["Methanol poisoning", "Ethylene glycol poisoning", "Alcoholic ketoacidosis"],
+    "after_stage2_less_likely": ["Isopropyl alcohol (causes osmol gap but no anion gap)", "Uremia"],
+    "after_labs_top3": ["Methanol poisoning", "Ethylene glycol poisoning", "Mixed toxic alcohol ingestion"]
+  }
+}

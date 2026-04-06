@@ -1,0 +1,171 @@
+{
+  "case_id": "case_194",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Wilms tumor (nephroblastoma)",
+  "icd_category": "C64.9 – Malignant neoplasm of unspecified kidney, except renal pelvis",
+  "one_liner": "A 3-year-old female with no significant past medical history presents with a painless abdominal mass discovered incidentally by her mother during bath time, accompanied by gross hematuria and hypertension.",
+  "stage2": {
+    "hpi_extension": "The mother noticed a firm lump on the child's left side while bathing her 3 days ago. The child has not complained of pain but has been less active than usual over the past 2 weeks. Her mother reports one episode of pink-tinged urine yesterday. The child has had a low-grade fever (up to 38°C) intermittently over the past week with no clear source. Her appetite has been slightly decreased. She has had no trauma, no constipation, no urinary frequency or dysuria, no weight loss, and no joint pain. No family history of kidney disease or cancer.",
+    "pmh": "Born full-term. No congenital anomalies. Up to date on immunizations. No hemihypertrophy or aniridia noted previously.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of Wilms tumor, Beckwith-Wiedemann syndrome, or other renal malignancies. No consanguinity.",
+    "social_history": "Lives with both parents and one older sibling. Attends daycare. No environmental exposures of concern.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "110 bpm",
+      "bp": "124/82 mmHg (>99th percentile for age, sex, and height)",
+      "rr": "24 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "15 kg (60th percentile)"
+    },
+    "physical_exam": "General: Alert, pleasant child playing with toys on exam table; well-nourished; no apparent distress. HEENT: Normal irises bilaterally (no aniridia). No hemihypertrophy. No facial dysmorphism. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Asymmetric distension with a smooth, firm, non-tender mass palpable in the left flank. The mass does NOT cross the midline. It moves slightly with respiration. No hepatomegaly or splenomegaly. No ascites. Bowel sounds present and normal. Genitalia: Normal female external genitalia. No ambiguity. Extremities: Symmetric limb lengths (no hemihypertrophy). No edema. Skin: No rashes, no café-au-lait spots."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC",
+        "result": "WBC 9.2 × 10³/µL, Hgb 10.8 g/dL, Hct 33%, Platelets 410 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia may reflect hematuria-related blood loss or anemia of chronic disease; polycythemia from tumor erythropoietin production is occasionally seen but not present here."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Color pink, SG 1.018, blood 3+, RBC 80-100/hpf, protein 1+, WBC 2/hpf, no bacteria, no casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gross hematuria is present in approximately 25% of Wilms tumor cases and results from renal pelvic invasion by the tumor."
+      },
+      {
+        "test_name": "BUN/Creatinine",
+        "result": "BUN 14 mg/dL, Cr 0.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function in the contralateral kidney; critical to confirm function before nephrectomy."
+      },
+      {
+        "test_name": "LDH",
+        "result": "380 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated LDH can reflect tumor burden."
+      },
+      {
+        "test_name": "Calcium",
+        "result": "10.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild hypercalcemia can rarely occur with Wilms tumor; important to monitor."
+      },
+      {
+        "test_name": "Liver function tests",
+        "result": "AST 28 U/L, ALT 22 U/L, Alk Phos 180 U/L, Total bilirubin 0.6 mg/dL, Albumin 3.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function; no evidence of hepatic metastases."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 12.5 sec, INR 1.0, aPTT 30 sec, Fibrinogen 320 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation profile; acquired von Willebrand disease is a rare association with Wilms tumor."
+      },
+      {
+        "test_name": "Plasma renin activity",
+        "result": "18.5 ng/mL/hr (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated renin from compression of the renal vasculature by the tumor explains the hypertension seen in ~25% of Wilms tumor cases."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Abdominal ultrasound with Doppler",
+        "result": "Large solid, heterogeneous intrarenal mass arising from the left kidney, measuring 9 × 7 × 6 cm. The mass is well-circumscribed with a pseudocapsule. The mass distorts but does not invade the renal hilum. No tumor thrombus in the left renal vein or IVC. Normal right kidney. No ascites. No liver metastases.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Intrarenal origin distinguishes Wilms tumor from neuroblastoma (which is extrarenal/adrenal). Assessment of renal vein and IVC for tumor thrombus is critical for surgical planning."
+      },
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "Large heterogeneously enhancing mass arising from the left kidney with areas of necrosis and hemorrhage. Well-defined pseudocapsule. Mass does NOT cross midline. No invasion of adjacent organs. Left renal vein and IVC patent without tumor thrombus. No retroperitoneal lymphadenopathy. Normal right kidney without nephrogenic rests. No liver or peritoneal metastases.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms intrarenal origin, delineates extent, and excludes bilateral disease, IVC thrombus, and distant metastases. The mass NOT crossing midline helps distinguish from neuroblastoma."
+      },
+      {
+        "test_name": "Chest CT",
+        "result": "No pulmonary nodules or metastases. Clear lung fields. Normal mediastinum.",
+        "flag": "WNL",
+        "clinical_significance": "Chest CT is essential for staging — lungs are the most common site of distant metastases in Wilms tumor; absence of pulmonary nodules is favorable (Stage I-III vs Stage IV)."
+      }
+    ],
+    "key_tests": [
+      "Abdominal ultrasound with Doppler (renal vein and IVC assessment)",
+      "CT or MRI abdomen/pelvis with contrast",
+      "Chest CT (lung metastasis evaluation)",
+      "CBC with differential",
+      "BMP (renal function, calcium)"
+    ],
+    "acceptable_tests": [
+      "Urinalysis",
+      "Coagulation studies (preoperative)",
+      "Liver function tests",
+      "LDH",
+      "Blood type and crossmatch (preoperative)",
+      "Plasma renin activity",
+      "Chest X-ray (if chest CT unavailable)",
+      "Echocardiogram (if IVC thrombus extends toward heart)"
+    ],
+    "low_yield_tests": [
+      "Urine catecholamines (VMA/HVA — these distinguish from neuroblastoma; would be normal in Wilms)",
+      "AFP (marker for hepatoblastoma, not Wilms)",
+      "Bone marrow biopsy (Wilms does not metastasize to bone marrow typically)",
+      "MIBG scan (specific for neuroblastoma, not Wilms)",
+      "PET-CT"
+    ]
+  },
+  "stage5": {
+    "final_clue": "CT abdomen confirms a large intrarenal mass arising from the left kidney with a pseudocapsule, areas of necrosis, and no IVC thrombus. The mass does NOT cross midline and the right kidney appears normal. Chest CT shows no pulmonary metastases. The combination of a unilateral intrarenal mass in a 3-year-old with hematuria and renin-mediated hypertension is classic for Wilms tumor. Radical nephrectomy with lymph node sampling is performed, and histology reveals favorable-histology (triphasic) Wilms tumor — Stage II (tumor extends beyond kidney but completely excised)."
+  },
+  "debrief": {
+    "classic_presentation": "Wilms tumor (nephroblastoma) classically presents in children aged 2-5 years (peak age 3-4) as a painless, smooth, firm, unilateral abdominal/flank mass that does NOT cross the midline. It is often discovered incidentally by a parent or during routine exam. Associated findings include hematuria (25%), hypertension (25%, from renin production), and low-grade fever. It is bilateral in 5-7% of cases. Associations include WAGR syndrome (Wilms, Aniridia, GU anomalies, intellectual disability — WT1 deletion), Denys-Drash syndrome, and Beckwith-Wiedemann syndrome (hemihypertrophy, macroglossia, omphalocele — WT2/11p15).",
+    "attending_mode_notes": "Critical attending-level considerations: (1) Do NOT aggressively palpate a suspected Wilms tumor — excessive manipulation can cause tumor rupture, upstaging the disease and requiring whole-abdomen radiation. (2) Always evaluate the IVC and renal vein for tumor thrombus (present in 4-10% — can extend to the right atrium). (3) Evaluate the contralateral kidney for bilateral disease or nephrogenic rests (precursor lesions). (4) Histology determines prognosis: favorable histology (triphasic: blastemal + stromal + epithelial) has >90% survival; unfavorable histology (anaplastic, particularly diffuse anaplasia) has significantly worse outcomes. (5) Loss of heterozygosity at 1p/16q is a prognostic biomarker that intensifies treatment in favorable-histology tumors.",
+    "pathophysiology": "Wilms tumor arises from metanephric blastema — embryonic kidney tissue that fails to undergo normal nephrogenesis and instead undergoes malignant transformation. The tumor is associated with mutations in WT1 (11p13) and WT2 (11p15) tumor suppressor genes. WT1 mutations are seen in WAGR and Denys-Drash syndromes, while WT2/11p15 imprinting defects are associated with Beckwith-Wiedemann syndrome. Nephrogenic rests (persistent embryonic renal tissue) are considered precursor lesions. The classic tumor is triphasic — containing blastemal, stromal, and epithelial elements — reflecting the pluripotent nature of the cell of origin. Hypertension results from tumor compression of renal vasculature or direct renin production by tumor cells.",
+    "treatment_overview": "Treatment follows COG (Children's Oncology Group) or SIOP (International Society of Paediatric Oncology) protocols. The North American (COG) approach: upfront radical nephrectomy with lymph node sampling → staging → risk-adapted chemotherapy. The European (SIOP) approach: neoadjuvant chemotherapy → nephrectomy → further chemotherapy based on histology and stage. For favorable-histology Wilms: Stage I-II: vincristine + dactinomycin (actinomycin D); Stage III: add doxorubicin + radiation; Stage IV (lung metastases): add doxorubicin + lung radiation. For bilateral disease (Stage V): neoadjuvant chemotherapy → nephron-sparing surgery if possible. Overall survival: Stage I-II favorable histology >95%; Stage III-IV favorable histology 85-90%.",
+    "high_yield_pearls": [
+      "Wilms tumor is the MOST COMMON renal malignancy in children (peak age 3-4 years); the mass is INTRARENAL and does NOT cross the midline — this distinguishes it from neuroblastoma, which is EXTRARENAL (adrenal) and CROSSES the midline.",
+      "Do NOT aggressively palpate a Wilms tumor — tumor rupture upstages the disease and requires whole-abdomen radiation, significantly increasing morbidity.",
+      "WAGR syndrome (Wilms, Aniridia, GU anomalies, intellectual disability) is caused by 11p13 deletion involving WT1 — screening ultrasound every 3 months until age 8 is recommended for children with aniridia or known WT1 mutations.",
+      "Favorable histology (no anaplasia) Wilms tumor has >90% overall survival — this is one of the great success stories of pediatric oncology; unfavorable histology (diffuse anaplasia, seen in 5-10% of cases) has significantly worse outcomes.",
+      "IVC tumor thrombus extension occurs in 4-10% of cases and may extend to the right atrium — always evaluate with Doppler ultrasound or CT/MRI; preoperative echocardiogram is indicated if thrombus is suspected."
+    ],
+    "sources": [
+      "COG (Children's Oncology Group): Wilms Tumor Treatment Protocols (AREN series)",
+      "SIOP: International Society of Paediatric Oncology Renal Tumour Study Group Guidelines",
+      "UpToDate: Presentation, diagnosis, and staging of Wilms tumor",
+      "UpToDate: Treatment and prognosis of Wilms tumor",
+      "Pizzo & Poplack: Principles and Practice of Pediatric Oncology, 8th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Wilms tumor (nephroblastoma)",
+      "Neuroblastoma",
+      "Renal cell carcinoma (rare in children)",
+      "Mesoblastic nephroma (typically <6 months)",
+      "Multicystic dysplastic kidney",
+      "Hydronephrosis",
+      "Lymphoma (renal involvement)",
+      "Clear cell sarcoma of kidney"
+    ],
+    "after_stage2_more_likely": [
+      "Wilms tumor (painless unilateral flank mass not crossing midline, intrarenal location, hematuria, hypertension, age 3 years, no aniridia/hemihypertrophy but classic demographics)",
+      "Neuroblastoma (abdominal mass in a young child — but would expect midline crossing, catecholamine symptoms, raccoon eyes)"
+    ],
+    "after_stage2_less_likely": [
+      "Neuroblastoma (mass does NOT cross midline, no periorbital ecchymoses, no subcutaneous nodules)",
+      "Hydronephrosis (mass is solid on palpation, not cystic; hematuria and hypertension atypical)",
+      "Mesoblastic nephroma (typically presents in neonates, not at age 3)"
+    ],
+    "after_labs_top3": [
+      "Wilms tumor (intrarenal mass, hematuria, elevated renin, no pulmonary metastases — Stage I-III)",
+      "Clear cell sarcoma of kidney (cannot be distinguished from Wilms without histology)",
+      "Renal cell carcinoma (rare but possible in older children)"
+    ]
+  }
+}

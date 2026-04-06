@@ -1,0 +1,119 @@
+{
+  "case_id": "case_228",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Anorexia Nervosa, restricting type",
+  "icd_category": "F50.01 — Anorexia nervosa, restricting type",
+  "one_liner": "A 17-year-old female cross-country runner presents with 6 months of progressive weight loss, restrictive eating, amenorrhea, and intense fear of gaining weight despite a BMI of 15.8 kg/m².",
+  "stage2": {
+    "hpi_extension": "The patient was brought in by her mother who is concerned about her daughter's weight loss and eating behaviors. Over the past 6 months, the patient has lost 30 pounds (from 120 lbs to 90 lbs at 5'4\"). She began restricting her diet after a coach commented that 'lighter runners are faster.' She now eats approximately 600-800 calories per day, primarily vegetables and plain chicken. She avoids all fats, carbohydrates, and sweets. She counts every calorie meticulously and weighs herself 3-4 times daily. She exercises excessively, running 8-10 miles daily even when injured or fatigued. She has not had a menstrual period in 4 months. She denies binge eating or purging behaviors (no self-induced vomiting, laxative, or diuretic use). She wears baggy clothing and denies being underweight, stating she still 'has fat to lose on my thighs.' She reports feeling cold all the time, hair thinning, fatigue, dizziness when standing, and constipation. She is a straight-A student and describes herself as a perfectionist. She denies depressive or suicidal symptoms.",
+    "pmh": "No significant medical history. Menarche at age 12, previously regular cycles.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with history of 'dieting problems' as a teenager (possible eating disorder). Older sister with anxiety disorder. Father healthy. No family history of mood disorders or psychosis.",
+    "social_history": "High school junior, straight-A student, captain of the cross-country team. Lives with both parents and older sister. Denies tobacco, alcohol, or drug use. Previously very social but has been declining invitations to eat with friends. Describes herself as a perfectionist with high self-expectations. No history of trauma or abuse. No romantic relationships currently.",
+    "vitals": {
+      "temp": "96.8°F (36.0°C)",
+      "hr": "52 bpm",
+      "bp": "90/58 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "90 lbs (40.8 kg), Height 5'4\" (163 cm), BMI 15.8 kg/m²"
+    },
+    "physical_exam": "General: Cachectic, emaciated-appearing teenage girl in baggy clothing. Appears fatigued. HEENT: Sunken cheeks, dry mucous membranes. Fine lanugo hair on face. No parotid gland enlargement. No dental erosion. Neck: No thyromegaly. Cardiovascular: Bradycardic, regular rhythm, Grade I/VI systolic murmur (flow murmur). Lungs: Clear bilaterally. Abdomen: Scaphoid, soft, non-tender, hyperactive bowel sounds. Extremities: Cold and cyanotic fingers and toes. Peripheral edema absent. Fine lanugo hair on forearms. Nails brittle. Skin: Dry, with yellow-orange tinge on palms (carotenemia). Musculoskeletal: Significant muscle wasting, especially in extremities and temporal regions. Neurological: Normal cranial nerves, slightly delayed reflexes. Mental Status Exam: Appearance — cachectic, baggy clothing, appears younger than stated age. Behavior — cooperative, polite, minimizes symptoms. Speech — normal rate and tone. Mood — 'fine.' Affect — somewhat flat, constricted. Thought process — linear, organized, rigid. Thought content — intense fear of weight gain, body image distortion (believes she is overweight despite severe underweight), no SI/HI. Perception — no hallucinations. Cognition — intact. Insight — poor (denies illness severity). Judgment — poor regarding nutrition and health."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 3.2 (low), Hgb 11.2 (low), Hct 33.8, Plt 145 (low)", "flag": "LOW", "clinical_significance": "Pancytopenia consistent with bone marrow suppression from malnutrition (starvation marrow)"},
+      {"test_name": "CMP", "result": "Na 136, K 3.2 (low), Cl 98, CO2 28, BUN 22, Cr 0.9, Glucose 62 (low), Ca 8.8, AST 45, ALT 52, Albumin 3.2 (low)", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia (risk for arrhythmia), hypoglycemia (depleted glycogen stores), mildly elevated transaminases (starvation hepatitis), low albumin (malnutrition)"},
+      {"test_name": "Magnesium", "result": "1.5 mg/dL (low, normal 1.7-2.2)", "flag": "LOW", "clinical_significance": "Hypomagnesemia from poor intake; increases risk of cardiac arrhythmia"},
+      {"test_name": "Phosphorus", "result": "2.8 mg/dL (low normal)", "flag": "WNL", "clinical_significance": "Borderline low phosphorus; critical to monitor during refeeding due to risk of refeeding syndrome"},
+      {"test_name": "TSH", "result": "1.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal TSH; low T3 syndrome (euthyroid sick syndrome) is common in anorexia but TSH is typically normal"},
+      {"test_name": "Free T3", "result": "1.8 pg/mL (low, normal 2.3-4.2)", "flag": "LOW", "clinical_significance": "Low T3 syndrome from caloric deprivation — body downregulates metabolism; does not indicate primary thyroid disease"},
+      {"test_name": "LH/FSH", "result": "LH 1.2 mIU/mL (low), FSH 2.8 mIU/mL (low)", "flag": "LOW", "clinical_significance": "Hypogonadotropic hypogonadism from hypothalamic suppression due to malnutrition — explains amenorrhea"},
+      {"test_name": "Estradiol", "result": "12 pg/mL (low, premenopausal normal 15-350)", "flag": "LOW", "clinical_significance": "Low estrogen from hypothalamic amenorrhea; increases risk for osteoporosis"},
+      {"test_name": "Prealbumin", "result": "12 mg/dL (low, normal 20-40)", "flag": "LOW", "clinical_significance": "Better marker of acute nutritional status than albumin; confirms significant protein-calorie malnutrition"},
+      {"test_name": "ESR", "result": "4 mm/hr", "flag": "WNL", "clinical_significance": "Low-normal ESR; paradoxically low in anorexia nervosa due to decreased fibrinogen production"},
+      {"test_name": "Urinalysis", "result": "Specific gravity 1.025, no ketones, no protein", "flag": "WNL", "clinical_significance": "Concentrated urine suggesting mild dehydration; no ketosis currently"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG (12-lead)", "result": "Sinus bradycardia at 52 bpm. Normal axis. QTc prolonged at 480 ms. Low voltage. ST changes in precordial leads.", "flag": "ABNORMAL", "clinical_significance": "Bradycardia and prolonged QTc are concerning for cardiac arrhythmia risk in malnutrition; electrolyte abnormalities (low K, low Mg) increase this risk"},
+      {"test_name": "DEXA scan (bone density)", "result": "Z-score -2.1 at lumbar spine, -1.8 at femoral neck", "flag": "ABNORMAL", "clinical_significance": "Low bone mineral density (osteopenia approaching osteoporosis) from estrogen deficiency and malnutrition; high fracture risk"}
+    ],
+    "key_tests": [
+      "CMP with electrolytes — hypokalemia and hypoglycemia are life-threatening complications",
+      "ECG — prolonged QTc and bradycardia indicate cardiac risk",
+      "CBC — pancytopenia from bone marrow suppression",
+      "Phosphorus and magnesium — essential for refeeding syndrome risk assessment",
+      "LH, FSH, estradiol — to evaluate amenorrhea and hypothalamic suppression"
+    ],
+    "acceptable_tests": [
+      "TSH and Free T3 (low T3 syndrome)",
+      "Prealbumin (acute nutritional status)",
+      "DEXA scan (bone density assessment)",
+      "Liver function tests (starvation hepatitis)",
+      "Urinalysis (dehydration assessment)",
+      "ESR",
+      "Amylase (if purging suspected)",
+      "Urine pregnancy test (amenorrhea workup)"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no neurological deficits, eating disorder is primary diagnosis)",
+      "Cortisol level (not indicated without clinical suspicion for adrenal disease)",
+      "Celiac panel (no GI symptoms suggesting malabsorption)",
+      "HIV testing (no risk factors)",
+      "Prolactin level (amenorrhea explained by hypothalamic suppression)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets DSM-5 criteria for Anorexia Nervosa, restricting type: (A) restriction of energy intake leading to significantly low body weight (BMI 15.8, <85% expected); (B) intense fear of gaining weight; (C) disturbance in body image (believes she is overweight despite cachexia). No binge-purge behaviors (restricting subtype). Laboratory findings confirm medical complications of starvation: pancytopenia, hypokalemia, hypomagnesemia, hypoglycemia, low T3, hypothalamic amenorrhea, and prolonged QTc. DEXA shows significant bone loss."
+  },
+  "debrief": {
+    "classic_presentation": "An adolescent or young adult female (though males can be affected) with significant weight loss from caloric restriction, intense fear of gaining weight, and body image distortion, often with amenorrhea. May present with medical complications including bradycardia, hypothermia, electrolyte abnormalities, and osteoporosis. Physical signs include lanugo hair, carotenemia, dry skin, and cachexia.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Anorexia nervosa involves dysregulation of reward circuitry (decreased dopaminergic response to food), altered serotonergic signaling (contributing to anxiety, perfectionism, and rigid thinking), and aberrant interoception (inability to accurately perceive hunger/satiety). Starvation causes adaptive metabolic changes: decreased T3 (euthyroid sick syndrome), suppressed GnRH leading to hypogonadotropic hypogonadism and amenorrhea, elevated cortisol, decreased leptin, and elevated ghrelin. Cardiac complications arise from myocardial atrophy, electrolyte derangements (hypokalemia, hypomagnesemia), and QTc prolongation. Bone loss occurs due to estrogen deficiency, hypercortisolism, and nutritional deficiency.",
+    "treatment_overview": "Medical stabilization is the priority: correct electrolytes, monitor for refeeding syndrome (watch phosphorus closely during the first 72 hours of refeeding — start low and go slow, typically 1000-1200 kcal/day initially). Inpatient hospitalization criteria: HR <50, BP <90/60, QTc >500 ms, electrolyte abnormalities, BMI <15, or failed outpatient treatment. FBT (Family-Based Treatment/Maudsley approach) is the most effective therapy for adolescents. CBT-E (enhanced) for adults. No medications are FDA-approved for anorexia nervosa. Olanzapine may help with weight restoration and anxiety. Target weight restoration to achieve return of menses. Long-term monitoring for relapse, osteoporosis, and cardiac complications.",
+    "high_yield_pearls": [
+      "Anorexia nervosa has the highest mortality rate of any psychiatric disorder (~5-10% per decade), primarily from cardiac arrhythmia and suicide.",
+      "Refeeding syndrome is the most dangerous acute complication of treatment — monitor phosphorus, potassium, and magnesium closely during the first week of nutritional rehabilitation.",
+      "The female athlete triad (now called RED-S: Relative Energy Deficiency in Sport) includes low energy availability, menstrual dysfunction, and low bone density.",
+      "Prolonged QTc >500 ms is an indication for immediate hospitalization due to risk of torsades de pointes and sudden cardiac death.",
+      "Low T3 with normal TSH is an adaptive (not pathologic) response to starvation — do NOT treat with thyroid replacement.",
+      "Return of menses is the best clinical indicator of adequate weight restoration and metabolic recovery."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Eating Disorders (2023)",
+      "NICE Guidelines: Eating Disorders — Recognition and Treatment (NG69)",
+      "Treasure J et al. — Anorexia nervosa. Lancet 2020",
+      "Mehler PS, Brown C — Anorexia nervosa — medical complications. J Eat Disord 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Anorexia nervosa (restricting type)",
+      "Anorexia nervosa (binge-purge type)",
+      "Bulimia nervosa",
+      "Hyperthyroidism",
+      "Inflammatory bowel disease",
+      "Celiac disease",
+      "Malignancy (lymphoma)",
+      "Major depressive disorder with appetite loss"
+    ],
+    "after_stage2_more_likely": [
+      "Anorexia nervosa, restricting type — classic triad of restriction, fear of weight gain, and body image distortion with amenorrhea and medical signs of starvation (lanugo, bradycardia, hypothermia, carotenemia)",
+      "Female athlete triad — athlete with restrictive eating, amenorrhea, and likely bone loss"
+    ],
+    "after_stage2_less_likely": [
+      "Bulimia nervosa — denies binge eating/purging, no parotid enlargement or dental erosion",
+      "Hyperthyroidism — hypothermic and bradycardic (opposite of hyperthyroid presentation)",
+      "IBD/celiac — no GI symptoms suggesting malabsorption"
+    ],
+    "after_labs_top3": [
+      "Anorexia nervosa, restricting type — pancytopenia, hypokalemia, low T3, hypothalamic amenorrhea, prolonged QTc, low bone density all consistent with severe malnutrition",
+      "Female athlete triad/RED-S — overlapping diagnosis given athletic context with energy deficiency, amenorrhea, and bone loss",
+      "Major depressive disorder — less likely as the caloric restriction is intentional with body image distortion rather than appetitive loss from depression"
+    ]
+  }
+}

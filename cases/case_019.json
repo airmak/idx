@@ -1,0 +1,70 @@
+{
+  "case_id": "case_019",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Sarcoidosis",
+  "icd_category": "D86.0 — Sarcoidosis of lung",
+  "one_liner": "A 38-year-old African American female with no significant past medical history presents with persistent dry cough, dyspnea on exertion, and an erythematous skin lesion on her shin for 6 weeks.",
+  "stage2": {
+    "hpi_extension": "The patient reports a dry, non-productive cough for 6 weeks that has not responded to a course of azithromycin from her PCP. She has progressive dyspnea on exertion and can now only walk 2 blocks before becoming short of breath. She has noticed painful, raised reddish-purple nodules on her shins for the past 3 weeks. She also reports bilateral ankle swelling and pain, blurry vision in her right eye, and mild fatigue. She denies fevers, night sweats, weight loss, hemoptysis, or known tuberculosis exposure. She has no travel history to endemic areas for fungal infections. She was initially treated for community-acquired pneumonia without improvement.",
+    "pmh": "None significant",
+    "surgical_history": "None",
+    "medications": "Azithromycin (recently completed 5-day course with no improvement), albuterol inhaler PRN (recently prescribed for cough, minimal relief)",
+    "allergies": "NKDA",
+    "family_history": "No family history of sarcoidosis or tuberculosis. Mother with hypertension.",
+    "social_history": "Non-smoker. Occasional alcohol. Works as an office manager. Lives with husband and two children. No pets. No occupational exposures. Born and raised in southeastern United States.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "84 bpm, regular",
+      "bp": "126/78 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "BMI 27 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no acute distress. HEENT: Right eye with ciliary flush and photophobia; slit lamp not performed but findings suggestive of anterior uveitis. No nasal mucosal involvement. No parotid gland enlargement. Lymph: Bilateral non-tender cervical and supraclavicular lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Scattered dry crackles bilaterally, no wheezing. Abdomen: Soft, non-tender, no hepatosplenomegaly. Extremities: Bilateral tender, erythematous, indurated subcutaneous nodules on anterior shins (erythema nodosum). Mild bilateral ankle swelling. Skin: No lupus pernio lesions. MSK: Bilateral ankle tenderness and mild effusion."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ACE level", "result": "98 U/L", "flag": "HIGH", "clinical_significance": "Elevated ACE is suggestive of sarcoidosis (produced by granulomas) but is neither sensitive nor specific"},
+      {"test_name": "Calcium (serum)", "result": "11.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia results from 1-alpha-hydroxylase activity in granulomas converting 25-OH vitamin D to active 1,25-dihydroxyvitamin D"},
+      {"test_name": "1,25-dihydroxyvitamin D", "result": "85 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated active vitamin D from extrarenal production by granulomatous macrophages — characteristic of sarcoidosis"},
+      {"test_name": "ESR", "result": "48 mm/hr", "flag": "HIGH", "clinical_significance": "Nonspecific elevation reflecting systemic inflammation"},
+      {"test_name": "CBC", "result": "WBC 4,800/μL (lymphocytes 900/μL), Hgb 12.8 g/dL, Plt 195,000/μL", "flag": "LOW", "clinical_significance": "Lymphopenia is common in sarcoidosis due to peripheral T-cell sequestration in granulomas"},
+      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; important to monitor as hypercalcemia and granulomatous interstitial nephritis can impair kidneys"},
+      {"test_name": "Liver function panel", "result": "AST 22 U/L, ALT 18 U/L, Alk phos 145 U/L, total bilirubin 0.7 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated alkaline phosphatase suggests hepatic granulomatous involvement"},
+      {"test_name": "24-hour urine calcium", "result": "420 mg/day", "flag": "HIGH", "clinical_significance": "Hypercalciuria confirms increased calcium absorption/production; risk for nephrolithiasis and nephrocalcinosis"},
+      {"test_name": "QuantiFERON-TB Gold", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out tuberculosis — critical distinction since TB can mimic sarcoidosis clinically and histologically"},
+      {"test_name": "Basic metabolic panel", "result": "Na 140, K 4.0, Cl 102, CO2 24, glucose 95", "flag": "WNL", "clinical_significance": "Normal electrolytes aside from calcium"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Bilateral hilar lymphadenopathy with bilateral reticular opacities in the upper and mid lung zones. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Stage II sarcoidosis (bilateral hilar lymphadenopathy with parenchymal infiltrates)"},
+      {"test_name": "CT chest with contrast", "result": "Symmetric bilateral hilar and mediastinal lymphadenopathy. Perilymphatic nodules in upper and mid lung zones with a bronchovascular distribution. No cavitation. No ground-glass opacities. Subcarinal lymph node measures 3.2 cm.", "flag": "ABNORMAL", "clinical_significance": "Perilymphatic nodular pattern with bilateral hilar lymphadenopathy is highly characteristic of pulmonary sarcoidosis"},
+      {"test_name": "Pulmonary function tests", "result": "FVC 72% predicted, FEV1 70% predicted, FEV1/FVC ratio 0.82, DLCO 65% predicted", "flag": "ABNORMAL", "clinical_significance": "Restrictive pattern with decreased diffusion capacity consistent with interstitial lung disease from pulmonary sarcoidosis"}
+    ],
+    "key_tests": ["Chest X-ray", "CT chest", "ACE level", "Serum calcium", "Tissue biopsy (transbronchial or lymph node) with histopathology"],
+    "acceptable_tests": ["CBC with differential", "Basic metabolic panel", "Liver function panel", "QuantiFERON-TB Gold or PPD", "Pulmonary function tests", "1,25-dihydroxyvitamin D", "24-hour urine calcium", "Ophthalmologic exam"],
+    "low_yield_tests": ["Sputum culture for bacteria", "ANA (low yield without other autoimmune features)", "Serum procalcitonin", "CT head (no neurologic symptoms beyond eye findings)", "Bronchial provocation testing"]
+  },
+  "stage5": {
+    "final_clue": "Transbronchial biopsy reveals non-caseating granulomas with multinucleated giant cells, negative for acid-fast bacilli and fungal organisms on special stains — histologically consistent with sarcoidosis. Combined with the clinical presentation (bilateral hilar lymphadenopathy, erythema nodosum, uveitis, and Lofgren syndrome features), the diagnosis of sarcoidosis is confirmed."
+  },
+  "debrief": {
+    "classic_presentation": "Sarcoidosis typically presents in young to middle-aged adults (especially African Americans and Northern Europeans) with bilateral hilar lymphadenopathy on chest X-ray, often with pulmonary infiltrates. Extrapulmonary manifestations include erythema nodosum, anterior uveitis, skin lesions (lupus pernio), hepatic granulomas, and hypercalcemia. Lofgren syndrome (bilateral hilar lymphadenopathy, erythema nodosum, bilateral ankle periarthritis, and fever) is an acute presentation with an excellent prognosis.",
+    "attending_mode_notes": "This case presents with features mimicking community-acquired pneumonia (cough, dyspnea) that failed antibiotic therapy, which may initially delay consideration of sarcoidosis. The combination of respiratory symptoms, erythema nodosum, uveitis, and ankle arthritis could also be mistaken for a connective tissue disease or reactive arthritis. The key atypical element is that the patient was initially treated for infection before the systemic nature of the disease became apparent.",
+    "pathophysiology": "Sarcoidosis is a systemic granulomatous disease of unknown etiology characterized by the formation of non-caseating granulomas in affected organs. An exaggerated Th1 immune response leads to accumulation of CD4+ T cells and activated macrophages that organize into granulomas. Macrophages within granulomas express 1-alpha-hydroxylase, converting 25-OH vitamin D to active 1,25-dihydroxyvitamin D, causing hypercalcemia and hypercalciuria. ACE is produced by granuloma epithelioid cells. The granulomatous inflammation can affect virtually any organ but most commonly involves the lungs, lymph nodes, skin, eyes, and liver.",
+    "treatment_overview": "Not all sarcoidosis requires treatment — indications include symptomatic pulmonary disease, progressive decline in lung function, uveitis, hypercalcemia, cardiac involvement, or neurologic involvement. First-line treatment is systemic corticosteroids (prednisone 20-40 mg/day for 4-6 weeks, then gradual taper over 6-12 months). Steroid-sparing agents (methotrexate, azathioprine, mycophenolate) are used for refractory disease or to minimize steroid side effects. Hydroxychloroquine is useful for skin and joint manifestations. Lofgren syndrome often self-resolves and may require only NSAIDs. For this patient, systemic steroids are indicated given symptomatic pulmonary disease, uveitis, and hypercalcemia.",
+    "high_yield_pearls": [
+      "Non-caseating granulomas are the histologic hallmark — always rule out TB and fungal infections with special stains before diagnosing sarcoidosis",
+      "Lofgren syndrome (bilateral hilar LAD, erythema nodosum, fever, polyarthralgia) has an excellent prognosis with >90% spontaneous resolution",
+      "Hypercalcemia in sarcoidosis is caused by granuloma production of 1,25-dihydroxyvitamin D — treat with steroids, hydration, and avoid calcium/vitamin D supplementation",
+      "African Americans have a higher incidence, more severe disease, more extrapulmonary involvement, and worse prognosis compared to Caucasians"
+    ],
+    "sources": ["UpToDate: Clinical manifestations and diagnosis of pulmonary sarcoidosis", "ATS/ERS/WASOG Statement on Sarcoidosis 2024"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Sarcoidosis", "Tuberculosis", "Lymphoma", "Fungal infection (histoplasmosis, coccidioidomycosis)", "Berylliosis", "Hypersensitivity pneumonitis", "Lung cancer with mediastinal lymphadenopathy"],
+    "after_stage2_more_likely": ["Sarcoidosis (bilateral hilar LAD, erythema nodosum, anterior uveitis, bilateral ankle arthritis — Lofgren syndrome features)"],
+    "after_stage2_less_likely": ["Tuberculosis (no known exposure, no fevers or night sweats, bilateral symmetric hilar LAD is less typical)", "Lymphoma (erythema nodosum and uveitis less common)"],
+    "after_labs_top3": ["Sarcoidosis", "Lymphoma", "Tuberculosis"]
+  }
+}

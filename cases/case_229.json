@@ -1,0 +1,119 @@
+{
+  "case_id": "case_229",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Alcohol Withdrawal Delirium (Delirium Tremens)",
+  "icd_category": "F10.231 — Alcohol dependence with withdrawal delirium",
+  "one_liner": "A 52-year-old man with a history of heavy alcohol use presents 72 hours after his last drink with agitation, visual hallucinations of insects, tremor, diaphoresis, tachycardia, and fever.",
+  "stage2": {
+    "hpi_extension": "The patient was admitted to the hospital 3 days ago for acute pancreatitis. He reported drinking a fifth of vodka daily for the past 15 years. His last drink was approximately 72 hours prior to current symptom onset. He initially had mild withdrawal symptoms (tremor, anxiety, mild tachycardia) on hospital day 1, which were treated with PRN lorazepam per CIWA protocol. However, over the past 12 hours, he has become increasingly agitated, confused, and disoriented. He is seeing 'bugs crawling on the walls and on his skin' and is trying to brush them off. He does not recognize his wife who is at the bedside. He is diaphoretic with coarse whole-body tremor. Nursing staff report he had a generalized tonic-clonic seizure approximately 6 hours ago lasting 90 seconds. His CIWA-Ar score is 28 (severe withdrawal). He has a history of two prior alcohol withdrawal seizures and one prior episode of delirium tremens requiring ICU admission 3 years ago.",
+    "pmh": "Alcohol use disorder (severe). History of alcohol withdrawal seizures (x2). Prior delirium tremens (ICU admission 3 years ago). Alcoholic pancreatitis (recurrent). Hypertension. Gastroesophageal reflux disease.",
+    "surgical_history": "None",
+    "medications": "Lisinopril 20 mg daily. Omeprazole 20 mg daily. Thiamine 100 mg IV daily (started on admission). Lorazepam per CIWA protocol.",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of cirrhosis at age 60. Brother with alcohol use disorder. Mother with hypertension. No family history of seizure disorder.",
+    "social_history": "Drinks a fifth (750 mL) of vodka daily for the past 15 years. Has attempted to quit multiple times, always with withdrawal complications. Unemployed for the past 2 years. Divorced, lives alone. Smokes 1 pack of cigarettes per day for 30 years. Denies illicit drug use. Previously worked as a construction foreman. Estranged from his children.",
+    "vitals": {
+      "temp": "101.8°F (38.8°C)",
+      "hr": "128 bpm",
+      "bp": "172/98 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "180 lbs, BMI 25.8 kg/m²"
+    },
+    "physical_exam": "General: Agitated, diaphoretic, tremulous man in hospital gown, attempting to get out of bed, pulling at IV lines. Actively reaching for and brushing at invisible objects. HEENT: Diaphoretic face, pupils dilated (6 mm bilaterally, reactive). Dry mucous membranes. Icteric sclera. Neck: Supple, no meningismus. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Lungs: Coarse breath sounds bilaterally, no wheezing. Abdomen: Mildly distended, tender in epigastric region (known pancreatitis), no rebound. Hepatomegaly palpated 3 cm below costal margin. Spider angiomata noted on chest. Palmar erythema present. Extremities: Coarse bilateral tremor of outstretched hands. No asterixis. No edema. Neurological: Disoriented to time, place, and person. Cranial nerves — unable to fully assess due to agitation. Motor — diffuse hyperreflexia. No focal deficits. Mental Status Exam: Appearance — disheveled, diaphoretic, in hospital gown. Behavior — severely agitated, combative, pulling at restraints and IV lines. Speech — loud, slurred, incoherent at times. Mood — unable to assess reliably. Affect — frightened, agitated. Thought process — disorganized, incoherent. Thought content — unable to fully assess; appears to be responding to visual hallucinations. Perception — visual hallucinations (insects on walls and skin), tactile hallucinations (feeling bugs crawling). Cognition — disoriented to time, place, and person. Attention grossly impaired. Insight — absent. Judgment — severely impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 14.2 (elevated), Hgb 11.8, Hct 35.1, Plt 98 (low), MCV 104 fL (elevated)", "flag": "ABNORMAL", "clinical_significance": "Leukocytosis (stress response/possible infection), macrocytosis (chronic alcohol use — B12/folate deficiency), thrombocytopenia (alcohol-related marrow suppression and splenic sequestration)"},
+      {"test_name": "CMP", "result": "Na 132 (low), K 3.0 (low), Cl 94, CO2 20 (low), BUN 28 (elevated), Cr 1.4 (elevated), Glucose 148 (elevated), Ca 7.8 (low), AST 185 (elevated), ALT 95 (elevated), Alk Phos 142, Albumin 2.8 (low)", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia, hypokalemia, hypocalcemia — electrolyte derangements increase seizure and arrhythmia risk. Elevated AST:ALT ratio >2:1 classic for alcoholic liver disease. Elevated BUN/Cr from dehydration. Hyperglycemia from stress response."},
+      {"test_name": "Magnesium", "result": "1.2 mg/dL (critically low, normal 1.7-2.2)", "flag": "LOW", "clinical_significance": "Severe hypomagnesemia — common in alcoholism, lowers seizure threshold and contributes to arrhythmia risk"},
+      {"test_name": "Phosphorus", "result": "2.0 mg/dL (low)", "flag": "LOW", "clinical_significance": "Hypophosphatemia common in alcoholism and malnutrition"},
+      {"test_name": "Lipase", "result": "380 U/L (elevated, normal <60)", "flag": "HIGH", "clinical_significance": "Elevated lipase consistent with acute-on-chronic pancreatitis (known admission diagnosis)"},
+      {"test_name": "Ammonia", "result": "45 mcmol/L (mildly elevated, normal <35)", "flag": "HIGH", "clinical_significance": "Mildly elevated ammonia from hepatic dysfunction; however, ammonia level does not correlate well with clinical hepatic encephalopathy severity"},
+      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "Confirms no recent alcohol intake — symptoms are from withdrawal, not intoxication"},
+      {"test_name": "Coagulation studies", "result": "PT 16.5 sec (elevated), INR 1.4 (elevated), PTT 38 sec", "flag": "ABNORMAL", "clinical_significance": "Prolonged PT/INR from hepatic synthetic dysfunction and vitamin K deficiency"},
+      {"test_name": "Lactate", "result": "3.2 mmol/L (elevated, normal <2.0)", "flag": "HIGH", "clinical_significance": "Elevated lactate from agitation, dehydration, and possible early sepsis (must rule out infection as cause of fever)"},
+      {"test_name": "Blood cultures (x2)", "result": "Pending (drawn prior to antibiotics)", "flag": "WNL", "clinical_significance": "Essential to rule out sepsis as a cause of altered mental status and fever"},
+      {"test_name": "Urine drug screen", "result": "Positive for benzodiazepines (therapeutic — lorazepam given per CIWA protocol)", "flag": "ABNORMAL", "clinical_significance": "Expected finding given CIWA protocol treatment with lorazepam; no other substances detected"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild diffuse cerebral atrophy.", "flag": "ABNORMAL", "clinical_significance": "Rules out intracranial hemorrhage or structural cause of delirium; cerebral atrophy consistent with chronic alcohol use"},
+      {"test_name": "Chest X-ray", "result": "No acute infiltrate or pneumonia. Heart size upper limit of normal.", "flag": "WNL", "clinical_significance": "Rules out aspiration pneumonia as source of fever"}
+    ],
+    "key_tests": [
+      "CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol) — score 28 (severe withdrawal requiring aggressive treatment)",
+      "CMP with electrolytes — severe electrolyte derangements (K, Mg, Ca, PO4) increasing seizure and cardiac risk",
+      "CT Head — to rule out intracranial hemorrhage or subdural hematoma in a patient with altered mental status",
+      "Blood alcohol level — to confirm withdrawal (not intoxication)",
+      "Blood cultures — to rule out sepsis as a contributing cause of fever and delirium"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Lipase (known pancreatitis)",
+      "Ammonia level (hepatic encephalopathy consideration)",
+      "Coagulation studies (hepatic synthetic function)",
+      "Lactate (sepsis screen)",
+      "Chest X-ray (fever workup)",
+      "Urine drug screen",
+      "Urinalysis and urine culture (fever workup)"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (CT adequate for acute screen in this context)",
+      "EEG (seizure was witnessed and consistent with withdrawal; EEG if status epilepticus suspected)",
+      "Lumbar puncture (no meningeal signs, fever explained by withdrawal)",
+      "Thyroid function tests (presentation clearly related to withdrawal)",
+      "Cortisol level (not indicated)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "This patient with severe alcohol use disorder presents with classic delirium tremens (DT) 72 hours after last drink — the typical timeline for DT onset. He exhibits the hallmark features: delirium (acute confusion with disorientation and inattention), autonomic hyperactivity (fever, tachycardia, hypertension, diaphoresis), visual and tactile hallucinations, agitation, and preceding withdrawal seizure. His severe electrolyte derangements (hypokalemia, hypomagnesemia, hypocalcemia) compound the risk. History of prior DT is the strongest predictor of recurrence. CIWA-Ar score of 28 confirms severe withdrawal."
+  },
+  "debrief": {
+    "classic_presentation": "A chronic heavy drinker presenting 48-96 hours after last drink (or significant reduction) with the triad of delirium (fluctuating confusion, disorientation, inattention), autonomic instability (fever, tachycardia, hypertension, diaphoresis), and vivid visual/tactile hallucinations. Often preceded by withdrawal seizures (12-48 hours) and minor withdrawal symptoms (6-24 hours). DT carries 5-15% mortality if untreated.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic alcohol exposure enhances inhibitory GABA-A receptor activity and suppresses excitatory NMDA glutamate receptor activity. Upon alcohol cessation, there is loss of GABA-mediated inhibition and unopposed glutamatergic excitation, resulting in CNS hyperexcitability. This manifests as a spectrum: minor withdrawal (6-24h) with tremor, anxiety, tachycardia; withdrawal seizures (12-48h); alcoholic hallucinosis (12-48h); and delirium tremens (48-96h) with global confusion and autonomic instability. Electrolyte depletion (Mg, K, PO4) from chronic malnutrition and alcohol's diuretic effect lowers the seizure threshold further. Kindling phenomenon means each successive withdrawal episode is more severe.",
+    "treatment_overview": "Benzodiazepines are the cornerstone of DT treatment — use symptom-triggered dosing with CIWA-Ar protocol. IV diazepam or lorazepam (preferred in liver disease) in escalating doses. Some patients require massive doses (>100 mg diazepam equivalents in 24 hours). If refractory to benzodiazepines, consider phenobarbital or propofol/dexmedetomidine in the ICU. Aggressive IV fluid resuscitation. Replete electrolytes (IV magnesium 2-4g, potassium, phosphorus). IV thiamine (500 mg TID for 3 days) BEFORE glucose to prevent Wernicke encephalopathy. Continuous telemetry monitoring. ICU admission for severe DT. After stabilization, address alcohol use disorder (naltrexone, acamprosate, motivational interviewing, AA referral).",
+    "high_yield_pearls": [
+      "Alcohol withdrawal timeline: minor symptoms (6-24h) → seizures (12-48h) → hallucinosis (12-48h) → delirium tremens (48-96h). DT has 5-15% mortality untreated but <1% with appropriate treatment.",
+      "Risk factors for DT: prior DT or withdrawal seizures (strongest predictor), longer/heavier drinking history, concurrent medical illness, older age, and abnormal liver function.",
+      "ALWAYS give thiamine BEFORE glucose — glucose metabolism consumes thiamine, and giving glucose first can precipitate Wernicke encephalopathy in a thiamine-depleted patient.",
+      "Lorazepam, oxazepam, and temazepam (LOT drugs) are preferred in liver disease because they undergo glucuronidation (not hepatic oxidation) and have no active metabolites.",
+      "CIWA-Ar scores ≥20 indicate severe withdrawal requiring aggressive pharmacotherapy; scores >25 suggest impending DT.",
+      "The kindling model explains why each successive alcohol withdrawal episode tends to be more severe than the previous one."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "ASAM Clinical Practice Guideline on Alcohol Withdrawal (2020)",
+      "Schuckit MA — Recognition and Management of Withdrawal Delirium. NEJM 2014",
+      "Hoffman RS, Weinhouse GL — Management of moderate and severe alcohol withdrawal. UpToDate 2024",
+      "Mayo-Smith MF — Pharmacological management of alcohol withdrawal: a meta-analysis. JAMA 1997"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Alcohol withdrawal delirium (delirium tremens)",
+      "Hepatic encephalopathy",
+      "Sepsis with delirium",
+      "Wernicke encephalopathy",
+      "Meningitis/encephalitis",
+      "Subdural hematoma",
+      "Benzodiazepine withdrawal",
+      "Hypoglycemia"
+    ],
+    "after_stage2_more_likely": [
+      "Delirium tremens — classic timeline (72 hours post-cessation), history of severe alcohol use disorder, prior DT, visual/tactile hallucinations with autonomic instability",
+      "Wernicke encephalopathy — chronic alcoholism with malnutrition (though classic triad of ataxia, ophthalmoplegia, confusion not fully present)"
+    ],
+    "after_stage2_less_likely": [
+      "Benzodiazepine withdrawal — no benzodiazepine use history prior to admission",
+      "Meningitis — no meningeal signs, fever better explained by withdrawal",
+      "Hypoglycemia — agitated and tachycardic, but glucose needs to be checked"
+    ],
+    "after_labs_top3": [
+      "Delirium tremens — blood alcohol 0 confirms withdrawal state, severe electrolyte derangements, classic timeline and presentation, CIWA-Ar 28",
+      "Hepatic encephalopathy (concurrent) — mildly elevated ammonia with known alcoholic liver disease; may be contributing to delirium",
+      "Sepsis (must rule out) — elevated WBC, lactate, and fever warrant blood cultures even though withdrawal is the most likely explanation"
+    ]
+  }
+}

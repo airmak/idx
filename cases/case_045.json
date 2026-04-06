@@ -1,0 +1,74 @@
+{
+  "case_id": "case_045",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Peritonsillar Abscess",
+  "icd_category": "J36 — Peritonsillar abscess",
+  "one_liner": "A 19-year-old male college student presents with severe sore throat, muffled 'hot potato' voice, trismus, and unilateral tonsillar swelling with uvular deviation after 5 days of worsening symptoms.",
+  "stage2": {
+    "hpi_extension": "Patient initially developed a sore throat 5 days ago that he attributed to a cold. He did not seek medical attention and self-treated with ibuprofen and throat lozenges. Over the past 2 days, the pain has worsened dramatically and is now predominantly left-sided. He has progressive difficulty swallowing (first solids, now liquids), and has been drooling since this morning because swallowing is too painful. His voice has become muffled. He has had fever and chills for 3 days. He cannot open his mouth fully. He has also developed left ear pain. He was seen at a campus urgent care 2 days ago and was prescribed amoxicillin for 'pharyngitis' without improvement. He reports his last solid meal was 2 days ago. He denies difficulty breathing, rash, or neck stiffness.",
+    "pmh": "Recurrent streptococcal pharyngitis (3 episodes in the past 2 years), no prior peritonsillar abscess",
+    "surgical_history": "None (tonsillectomy was recommended but not performed)",
+    "medications": "Amoxicillin 500 mg TID (started 2 days ago, no improvement), ibuprofen 600 mg as needed",
+    "allergies": "No known drug allergies",
+    "family_history": "No significant family history.",
+    "social_history": "College sophomore. Non-smoker. Social alcohol on weekends. Vapes nicotine. No illicit drugs. Lives in a dormitory.",
+    "vitals": {
+      "temp": "101.8 F (38.8 C)",
+      "hr": "102 bpm",
+      "bp": "132/78 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "75 kg, BMI 23.8"
+    },
+    "physical_exam": "General: Febrile young male, sitting upright, drooling into a basin. Speaking with a muffled 'hot potato' voice. Appears uncomfortable but not in respiratory distress. HEENT: Trismus present — inter-incisor opening approximately 20 mm. With gentle examination: left tonsil is markedly enlarged, erythematous, and bulging medially. Left peritonsillar area is fluctuant and swollen. Uvula is deviated to the RIGHT (away from the abscess). Left soft palate is edematous and bulging. Bilateral tonsillar exudates, worse on the left. Left anterior cervical lymphadenopathy (2.5 cm node, tender). Right tonsil mildly erythematous. Neck: Left-sided cervical lymphadenopathy. No stridor. No subcutaneous emphysema. Cardiovascular: Tachycardic, regular. S1/S2 normal. Pulmonary: Clear. No stridor at rest. Abdomen: Soft, non-tender. Extremities: No rashes, no joint swelling. Skin: Warm, no rash (no scarlatiniform rash)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "18.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis consistent with deep space infection"},
+      {"test_name": "CBC - Neutrophils", "result": "82%, bands 6%", "flag": "HIGH", "clinical_significance": "Left shift suggesting bacterial infection"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from dehydration (poor oral intake)"},
+      {"test_name": "BMP - BUN", "result": "22 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration"},
+      {"test_name": "BMP - Glucose", "result": "102 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CRP", "result": "14.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with significant infection"},
+      {"test_name": "Rapid Strep Test", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Group A streptococcus identified, common causative organism"},
+      {"test_name": "Monospot (Heterophile antibody)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes infectious mononucleosis (which can predispose to PTA and complicate surgery)"},
+      {"test_name": "Lactate", "result": "1.4 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no systemic sepsis currently"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Neck with IV Contrast", "result": "Left peritonsillar rim-enhancing fluid collection measuring 3.2 x 2.8 cm, consistent with peritonsillar abscess. Surrounding inflammatory stranding. Left parapharyngeal space fat stranding but no discrete parapharyngeal abscess. Airway narrowed but patent. No retropharyngeal extension. No vascular complications (no internal jugular vein thrombosis).", "flag": "ABNORMAL", "clinical_significance": "Confirms peritonsillar abscess. Excludes deep space extension and Lemierre syndrome."},
+      {"test_name": "Intraoral Ultrasound (bedside, if available)", "result": "Hypoechoic fluid collection in the left peritonsillar space, approximately 3 cm in diameter.", "flag": "ABNORMAL", "clinical_significance": "Bedside ultrasound can rapidly identify abscess and guide needle aspiration"}
+    ],
+    "key_tests": ["Intraoral examination", "CT neck with IV contrast (if deep space extension suspected)", "Rapid strep test", "Monospot/EBV testing", "CBC"],
+    "acceptable_tests": ["BMP", "CRP", "Blood cultures (if systemically ill)", "Intraoral ultrasound", "Throat culture", "Lactate"],
+    "low_yield_tests": ["Chest X-ray (unless aspiration/mediastinal extension suspected)", "Lateral neck X-ray", "CT without contrast", "Strep antibody titers (ASO)", "Abdominal imaging"]
+  },
+  "stage5": {
+    "final_clue": "CT neck confirms a 3.2 cm left peritonsillar abscess with surrounding inflammation and no deep space extension. The presentation of unilateral tonsillar swelling with uvular deviation, trismus, muffled voice, and drooling following a preceding pharyngitis is classic for peritonsillar abscess. Negative monospot excludes EBV, and positive rapid strep identifies the causative organism. This requires drainage (aspiration or I&D) in addition to antibiotics."
+  },
+  "debrief": {
+    "classic_presentation": "Severe unilateral sore throat (usually worse than expected for 'just pharyngitis'), muffled 'hot potato' voice, trismus (inability to open mouth fully due to pterygoid muscle inflammation), drooling, ipsilateral ear pain (referred via CN IX/X), and fever. Exam shows unilateral peritonsillar bulging with contralateral uvular deviation. Almost always preceded by streptococcal pharyngitis or tonsillitis that fails to improve with antibiotics.",
+    "attending_mode_notes": "PTA is the most common deep space neck infection. The attending-level challenge is differentiating PTA from peritonsillar cellulitis (which can be managed with antibiotics alone) and identifying complications like parapharyngeal abscess extension or Lemierre syndrome (septic thrombophlebitis of the internal jugular vein). Always check for EBV/mononucleosis before any procedure — EBV-related tonsillar hypertrophy can mimic PTA, and splenic rupture risk must be considered. Trismus is the hallmark that distinguishes PTA from simple tonsillitis.",
+    "pathophysiology": "Peritonsillar abscess typically develops as a complication of acute tonsillitis or streptococcal pharyngitis. Infection spreads beyond the tonsillar capsule into the peritonsillar (potential) space between the tonsillar capsule and the pharyngeal constrictor muscle. A phlegmon forms first, then progresses to a walled-off abscess. The most common organisms are Group A streptococcus (often the inciting organism), Fusobacterium necrophorum, and other anaerobes (Prevotella, Peptostreptococcus). The superior pole of the tonsil is the most common location. Trismus occurs because the abscess and inflammation involve the adjacent medial pterygoid muscle.",
+    "treatment_overview": "Drainage is the primary treatment: needle aspiration (most common ED procedure, 90-95% success), incision and drainage (I&D), or quinsy tonsillectomy (immediate tonsillectomy). Antibiotics: amoxicillin-clavulanate, or clindamycin (anaerobic coverage is important). If severe: ampicillin-sulbactam IV. Pain management: IV ketorolac, acetaminophen, opioids. IV fluid rehydration. Dexamethasone 10 mg IV (reduces inflammation and pain, may improve trismus). Discharge after successful drainage if able to tolerate oral fluids. Follow-up in 24-48 hours. Consider interval tonsillectomy (6-8 weeks later), especially for recurrent PTA or recurrent tonsillitis.",
+    "high_yield_pearls": [
+      "Trismus is the key exam finding that distinguishes PTA from simple tonsillitis — it occurs due to inflammation of the medial pterygoid muscle.",
+      "Always test for mononucleosis (Monospot) before performing drainage — EBV tonsillar hypertrophy can mimic PTA.",
+      "Needle aspiration in the ED is the first-line treatment with >90% success rate; the abscess is typically at the superior pole.",
+      "Lemierre syndrome (septic thrombophlebitis of the internal jugular vein from Fusobacterium) is a life-threatening complication — consider if high fever, rigors, and neck swelling persist despite drainage.",
+      "Peritonsillar cellulitis (without discrete abscess) may respond to antibiotics alone; CT or ultrasound can differentiate."
+    ],
+    "sources": [
+      "Galioto NJ. Am Fam Physician 2017;95:501-506",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 241",
+      "Johnson RF et al. Arch Otolaryngol Head Neck Surg 2003;129:1261-1265"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Peritonsillar abscess", "Streptococcal pharyngitis (severe)", "Infectious mononucleosis", "Parapharyngeal abscess", "Retropharyngeal abscess", "Epiglottitis", "Ludwig angina"],
+    "after_stage2_more_likely": ["Peritonsillar abscess", "Streptococcal pharyngitis"],
+    "after_stage2_less_likely": ["Epiglottitis", "Ludwig angina", "Retropharyngeal abscess"],
+    "after_labs_top3": ["Peritonsillar abscess", "Peritonsillar cellulitis/phlegmon", "Streptococcal pharyngitis with complication"]
+  }
+}

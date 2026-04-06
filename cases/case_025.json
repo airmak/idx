@@ -1,0 +1,72 @@
+{
+  "case_id": "case_025",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Amyloidosis",
+  "icd_category": "E85.9 — Amyloidosis, unspecified",
+  "one_liner": "A 65-year-old male presents with progressive dyspnea, bilateral lower extremity edema, macroglossia, and nephrotic-range proteinuria for 4 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive exertional dyspnea over 4 months, now occurring with minimal activity such as getting dressed. He has noticed worsening bilateral leg swelling extending to his thighs and an 18-pound weight gain from fluid retention. His wife has noticed his tongue appears larger and he has difficulty swallowing solid foods. He reports easy bruising, particularly around his eyes (periorbital purpura) that appeared after coughing. He has carpal tunnel syndrome symptoms bilaterally for the past year. He reports orthostatic dizziness and nearly passed out standing up from a chair. He has had alternating constipation and diarrhea with early satiety. His PCP found nephrotic-range proteinuria and referred him for evaluation. He denies any history of multiple myeloma, chronic inflammatory conditions, or dialysis.",
+    "pmh": "Bilateral carpal tunnel syndrome (diagnosed 1 year ago, had release surgery on right hand), diastolic heart failure (newly diagnosed 2 months ago, on diuretics), atrial fibrillation (diagnosed 3 months ago)",
+    "surgical_history": "Right carpal tunnel release 8 months ago",
+    "medications": "Furosemide 80 mg twice daily, apixaban 5 mg twice daily, metoprolol succinate 25 mg daily",
+    "allergies": "NKDA",
+    "family_history": "No family history of amyloidosis, multiple myeloma, or renal disease.",
+    "social_history": "Retired banker. Non-smoker. Occasional wine. Lives with wife. No illicit drug use.",
+    "vitals": {
+      "temp": "36.6°C (98.9°F)",
+      "hr": "78 bpm, irregularly irregular",
+      "bp": "98/68 mmHg (supine), 76/52 mmHg (standing)",
+      "rr": "20 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "BMI 29 kg/m²"
+    },
+    "physical_exam": "General: Fatigued-appearing male with facial puffiness and periorbital ecchymoses bilaterally (raccoon eyes). HEENT: Macroglossia with indentations from teeth along lateral borders. Periorbital purpura bilaterally. JVP elevated to 14 cm. Cardiovascular: Irregularly irregular rhythm (atrial fibrillation), distant heart sounds, no murmurs, S4 gallop. Pulmonary: Bibasilar crackles, dullness to percussion at bilateral bases (pleural effusions). Abdomen: Hepatomegaly with liver palpable 5 cm below right costal margin, firm, non-tender. Ascites present (shifting dullness). Extremities: 3+ bilateral pitting edema to thighs. Skin: Waxy, translucent skin. Multiple ecchymoses on arms and periorbital region. Scattered subcutaneous nodules. Neuro: Decreased sensation in median nerve distribution bilaterally. Orthostatic hypotension documented."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urine protein-to-creatinine ratio", "result": "8.5 g/g", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria (>3.5 g/day); renal amyloidosis is one of the most common causes of nephrotic syndrome in older adults"},
+      {"test_name": "Serum albumin", "result": "2.1 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from massive urinary protein losses and possibly impaired hepatic synthesis"},
+      {"test_name": "Serum free light chains", "result": "Kappa 12 mg/L, Lambda 285 mg/L, ratio 0.04", "flag": "ABNORMAL", "clinical_significance": "Markedly elevated lambda free light chains with severely abnormal kappa/lambda ratio; consistent with clonal light chain (AL) amyloidosis"},
+      {"test_name": "Serum protein electrophoresis (SPEP)", "result": "Small monoclonal band in the gamma region (M-spike 0.8 g/dL)", "flag": "ABNORMAL", "clinical_significance": "Small monoclonal protein consistent with underlying plasma cell dyscrasia producing amyloidogenic light chains"},
+      {"test_name": "Urine protein electrophoresis (UPEP)", "result": "Lambda Bence Jones proteinuria detected", "flag": "ABNORMAL", "clinical_significance": "Monoclonal light chains in urine confirm plasma cell-derived light chain production"},
+      {"test_name": "NT-proBNP", "result": "8,450 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; NT-proBNP is a critical prognostic marker in cardiac amyloidosis and part of the Mayo staging system"},
+      {"test_name": "Troponin T", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Chronically elevated troponin from ongoing myocardial damage by amyloid infiltration; part of the prognostic staging system"},
+      {"test_name": "Creatinine", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "Impaired renal function from amyloid deposition in glomeruli and interstitium"},
+      {"test_name": "Alkaline phosphatase", "result": "285 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic amyloid infiltration; an isolated elevated alk phos with hepatomegaly in amyloidosis is classic"},
+      {"test_name": "CBC", "result": "WBC 5,800/μL, Hgb 10.2 g/dL, Plt 180,000/μL", "flag": "LOW", "clinical_significance": "Mild anemia from chronic disease and possible bone marrow infiltration"},
+      {"test_name": "Factor X level", "result": "42%", "flag": "LOW", "clinical_significance": "Decreased factor X from binding to amyloid fibrils; contributes to bleeding tendency and explains the easy bruising and purpura"},
+      {"test_name": "Bone marrow biopsy", "result": "8% lambda-restricted plasma cells. Congo red stain positive with apple-green birefringence under polarized light. Immunohistochemistry confirms AL (lambda) type amyloid deposits.", "flag": "ABNORMAL", "clinical_significance": "Confirms AL amyloidosis; bone marrow plasma cell percentage <10% distinguishes AL amyloidosis from multiple myeloma with amyloidosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Echocardiogram", "result": "Concentric biventricular wall thickening (IVS 16 mm, posterior wall 15 mm). Biatrial enlargement. Granular sparkling myocardial texture. Grade III diastolic dysfunction (restrictive filling pattern). LVEF 48%. Small pericardial effusion. Reduced longitudinal strain with apical sparing pattern (cherry on top sign).", "flag": "ABNORMAL", "clinical_significance": "Classic findings of cardiac amyloidosis: biventricular thickening (not true hypertrophy — it is infiltration), granular sparkling, restrictive physiology, and the pathognomonic apical sparing pattern on strain imaging"},
+      {"test_name": "Cardiac MRI", "result": "Diffuse subendocardial late gadolinium enhancement. Abnormal gadolinium kinetics with the myocardium nulling before the blood pool. Biventricular wall thickening. Findings highly characteristic of cardiac amyloidosis.", "flag": "ABNORMAL", "clinical_significance": "Diffuse subendocardial LGE with abnormal nulling kinetics is nearly pathognomonic for cardiac amyloidosis"},
+      {"test_name": "Technetium pyrophosphate (PYP) scan", "result": "Grade 0 uptake (no myocardial uptake)", "flag": "WNL", "clinical_significance": "Negative PYP scan rules out ATTR amyloidosis; in the setting of confirmed amyloidosis with negative PYP, AL type is confirmed"}
+    ],
+    "key_tests": ["Serum free light chains", "SPEP/UPEP with immunofixation", "Tissue biopsy with Congo red staining", "NT-proBNP and troponin", "Echocardiogram"],
+    "acceptable_tests": ["Urine protein-to-creatinine ratio", "Basic metabolic panel", "Liver function panel", "Bone marrow biopsy", "Cardiac MRI", "Technetium PYP scan", "Abdominal fat pad aspiration with Congo red stain", "Serum albumin"],
+    "low_yield_tests": ["ANA (not autoimmune presentation)", "Hepatitis serologies (proteinuria from amyloid, not viral)", "Skeletal survey (low sensitivity for AL amyloidosis)", "CT chest (does not add to echocardiographic findings)", "Stress test (not indicated given infiltrative cardiomyopathy)"]
+  },
+  "stage5": {
+    "final_clue": "Abdominal fat pad aspirate is positive for Congo red with apple-green birefringence under polarized light, and mass spectrometry confirms AL (lambda) type amyloid. Combined with the markedly abnormal free light chain ratio, cardiac and renal involvement, and negative PYP scan, the final diagnosis is systemic AL amyloidosis with cardiac and renal involvement — Mayo stage IIIa based on NT-proBNP and troponin levels."
+  },
+  "debrief": {
+    "classic_presentation": "AL amyloidosis presents with multisystem involvement: nephrotic syndrome (most common initial presentation), restrictive cardiomyopathy with heart failure and preserved EF (eventually reduced), hepatomegaly with elevated alkaline phosphatase, macroglossia (pathognomonic for AL type), peripheral and autonomic neuropathy (including carpal tunnel syndrome and orthostatic hypotension), periorbital purpura (from factor X deficiency and fragile amyloid-infiltrated blood vessels), and easy bruising.",
+    "attending_mode_notes": "This case is diagnostically challenging because the individual organ manifestations were each initially attributed to separate common conditions: carpal tunnel syndrome managed surgically, new heart failure managed with diuretics, atrial fibrillation managed with rate control and anticoagulation, and proteinuria being investigated. The unifying diagnosis of amyloidosis was not initially considered. Red flags that should have prompted earlier investigation include: carpal tunnel syndrome as a prodrome (can precede diagnosis by years, especially in ATTR), unexplained diastolic heart failure with wall thickening on echo, macroglossia, periorbital purpura, and orthostatic hypotension with autonomic symptoms. The combination of cardiac and renal involvement in an older male with a monoclonal protein is the classic AL amyloidosis phenotype.",
+    "pathophysiology": "In AL amyloidosis, clonal plasma cells (or B cells) produce misfolded immunoglobulin light chains (usually lambda) that aggregate into insoluble beta-pleated sheet fibrils. These fibrils deposit extracellularly in organs, causing structural disruption and direct cytotoxicity. Cardiac involvement results from amyloid infiltration between myocytes, causing ventricular wall thickening (not hypertrophy), stiffening, and restrictive physiology. Renal involvement occurs through glomerular amyloid deposition causing massive proteinuria. The light chains themselves are directly cardiotoxic, causing oxidative stress and apoptosis independent of fibril deposition. Macroglossia results from amyloid infiltration of tongue muscle. The bleeding diathesis results from amyloid binding factor X and infiltrating blood vessel walls.",
+    "treatment_overview": "Treatment is directed at eliminating the clonal plasma cell population: (1) For transplant-eligible patients: high-dose melphalan with autologous stem cell transplant (auto-SCT) — requires careful cardiac evaluation as SCT carries higher mortality in cardiac amyloidosis; (2) For transplant-ineligible patients: cyclophosphamide-bortezomib-dexamethasone (CyBorD) with or without daratumumab (anti-CD38 monoclonal antibody, recently shown to significantly improve outcomes); (3) Supportive care: diuretics for volume overload (loop diuretics, use cautiously — preload dependent), midodrine for orthostatic hypotension, avoid digoxin (binds to amyloid fibrils causing toxicity), avoid ACE inhibitors/ARBs (worsen orthostatic hypotension); (4) ICD implantation is generally NOT recommended (arrhythmias are PEA/asystole rather than VT/VF); (5) Organ transplantation (heart, kidney) may be considered after hematologic remission.",
+    "high_yield_pearls": [
+      "Macroglossia and periorbital purpura are virtually pathognomonic for AL amyloidosis — no other type of amyloidosis causes these findings",
+      "Cardiac amyloidosis should be suspected when echo shows increased wall thickness but ECG shows LOW voltage — the discrepancy is the key clue (hypertensive LVH would show ECG voltage criteria for LVH)",
+      "Digoxin is CONTRAINDICATED in cardiac amyloidosis — it binds to amyloid fibrils and accumulates to toxic levels",
+      "Technetium PYP scan is positive in ATTR amyloidosis but negative in AL amyloidosis — this non-invasive test is critical for subtyping"
+    ],
+    "sources": ["UpToDate: Clinical presentation, laboratory manifestations, and diagnosis of immunoglobulin light chain amyloidosis", "NCCN Guidelines: Systemic Light Chain Amyloidosis 2024"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["AL amyloidosis", "ATTR amyloidosis (wild-type or hereditary)", "Multiple myeloma", "Heart failure with preserved ejection fraction", "Nephrotic syndrome (membranous nephropathy, FSGS)", "Cardiac sarcoidosis", "Hypertensive heart disease", "Restrictive cardiomyopathy (other causes)"],
+    "after_stage2_more_likely": ["AL amyloidosis (macroglossia, periorbital purpura, nephrotic syndrome, restrictive cardiomyopathy, autonomic neuropathy, hepatomegaly — multisystem involvement)"],
+    "after_stage2_less_likely": ["Hypertensive heart disease (patient is hypotensive, macroglossia not explained)", "Simple HFpEF (macroglossia, purpura, and nephrotic syndrome not explained by HFpEF alone)"],
+    "after_labs_top3": ["AL (lambda) amyloidosis", "ATTR amyloidosis", "Multiple myeloma with amyloid deposition"]
+  }
+}

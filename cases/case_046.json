@@ -1,0 +1,75 @@
+{
+  "case_id": "case_046",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Takotsubo Cardiomyopathy",
+  "icd_category": "I51.81 — Takotsubo syndrome",
+  "one_liner": "A 67-year-old postmenopausal female presents with acute chest pain, ST elevation on ECG, and elevated troponin after learning of her husband's sudden death, but catheterization reveals clean coronary arteries.",
+  "stage2": {
+    "hpi_extension": "Patient presented to the ED with substernal chest pain and dyspnea that began approximately 3 hours ago, shortly after she received a phone call informing her that her husband of 42 years had died unexpectedly in a car accident. She describes crushing chest pressure radiating to her left arm, associated with shortness of breath, diaphoresis, and palpitations. She rates the pain as 8/10. EMS obtained a 12-lead ECG showing ST elevation in the anterior leads, and a STEMI alert was activated. She was given aspirin 325 mg and nitroglycerin sublingual with minimal relief. She has no prior history of coronary artery disease. She has been under no recent physical stress and was previously well. She reports feeling overwhelming grief and emotional distress.",
+    "pmh": "Hypertension (well-controlled), generalized anxiety disorder, osteoarthritis, postmenopausal (menopause at age 52)",
+    "surgical_history": "Hysterectomy at age 48 for fibroids",
+    "medications": "Lisinopril 10 mg daily, buspirone 10 mg twice daily, acetaminophen as needed",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "No family history of premature coronary artery disease. Mother had anxiety disorder.",
+    "social_history": "Never smoker. Rare alcohol. Retired elementary school teacher. Active in her community. No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "104 bpm",
+      "bp": "98/64 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on 2L nasal cannula",
+      "weight_bmi": "68 kg, BMI 25.2"
+    },
+    "physical_exam": "General: Tearful, distressed postmenopausal woman with chest discomfort. Diaphoretic. HEENT: Unremarkable. Neck: Mild JVD (4 cm above sternal angle). Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. S3 gallop heard at apex. Soft systolic murmur at apex (new — may represent dynamic LVOT obstruction or mitral regurgitation). Pulmonary: Bibasilar crackles (lower one-third bilaterally). Abdomen: Soft, non-tender. Extremities: No peripheral edema. Skin: Diaphoretic, warm. Neuro: Alert, oriented x4. Appropriate grief response. No focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I (serial)", "result": "Initial: 1.8 ng/mL; 6-hour: 3.2 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated and rising troponin, but DISPROPORTIONATELY LOW relative to the extent of wall motion abnormality — key feature distinguishing Takotsubo from STEMI"},
+      {"test_name": "BNP", "result": "1,280 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, disproportionately high relative to troponin elevation — characteristic of Takotsubo"},
+      {"test_name": "CBC - WBC", "result": "11.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from catecholamine surge and stress response"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Potassium", "result": "3.6 mEq/L", "flag": "WNL", "clinical_significance": "Low normal from catecholamine surge"},
+      {"test_name": "BMP - Glucose", "result": "178 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia from catecholamine surge"},
+      {"test_name": "Catecholamine Levels (plasma)", "result": "Epinephrine 1,840 pg/mL (normal <100), Norepinephrine 2,260 pg/mL (normal <600)", "flag": "HIGH", "clinical_significance": "Supraphysiologic catecholamine levels — 2-3x higher than typical STEMI — characteristic of Takotsubo"},
+      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "ST elevation in leads V1-V6, I, and aVL (diffuse anterior and lateral distribution). QTc prolonged at 520 ms. Deep T-wave inversions developing in follow-up ECG.", "flag": "ABNORMAL", "clinical_significance": "ST elevation pattern broader than a single coronary territory. Prolonged QTc is characteristic of Takotsubo. Deep T-wave inversions develop over days."},
+      {"test_name": "Cardiac Catheterization (emergent)", "result": "Angiographically NORMAL coronary arteries. No stenosis, no thrombus, no plaque rupture. Left ventriculogram shows apical ballooning with akinesis of the mid and apical segments and hyperkinesis of the basal segments. EF estimated at 25%.", "flag": "ABNORMAL", "clinical_significance": "Normal coronaries with the pathognomonic apical ballooning pattern CONFIRMS Takotsubo cardiomyopathy. Wall motion abnormality extends beyond a single coronary territory."},
+      {"test_name": "Bedside Echocardiogram (post-cath)", "result": "Severely reduced LV systolic function (EF 25%). Apical and mid-ventricular akinesis with basal hyperkinesis ('apical ballooning'). Mild-moderate mitral regurgitation. No LV thrombus. No pericardial effusion.", "flag": "ABNORMAL", "clinical_significance": "Confirms apical ballooning pattern; wall motion abnormality extends beyond a single coronary artery territory"}
+    ],
+    "key_tests": ["12-lead ECG", "Serial troponin", "BNP", "Emergent cardiac catheterization (coronary angiography + ventriculography)", "Echocardiogram"],
+    "acceptable_tests": ["CBC", "BMP", "TSH", "Catecholamine levels", "Chest X-ray", "Magnesium", "Continuous telemetry"],
+    "low_yield_tests": ["CT coronary angiography (catheterization is needed urgently for STEMI protocol)", "D-dimer", "ESR/CRP", "Cardiac MRI (can be done later for confirmation but not acutely)", "Stress test"]
+  },
+  "stage5": {
+    "final_clue": "Emergent catheterization reveals angiographically normal coronary arteries with apical ballooning on ventriculography in a postmenopausal woman with acute emotional stress. The troponin is elevated but disproportionately low relative to the severe wall motion abnormality (EF 25%), and BNP is disproportionately high. This presentation is diagnostic of Takotsubo (stress) cardiomyopathy. LV function typically recovers within 1-4 weeks."
+  },
+  "debrief": {
+    "classic_presentation": "Postmenopausal woman (>90% of cases) presenting with acute chest pain mimicking STEMI after severe emotional or physical stress. ECG shows ST elevation (often broader than a single coronary territory), prolonged QTc, and evolving deep T-wave inversions. Troponin is elevated but disproportionately low relative to wall motion abnormality. Catheterization reveals clean coronary arteries with characteristic apical ballooning.",
+    "attending_mode_notes": "Takotsubo is indistinguishable from STEMI on initial presentation and MUST be taken to the cath lab emergently (cannot diagnose without catheterization). The diagnosis is made when coronaries are found to be clean and the wall motion pattern extends beyond a single coronary territory. Key distinguishing features from STEMI: disproportionately low troponin relative to EF, disproportionately HIGH BNP, QTc prolongation (often >500 ms), wall motion abnormality crossing coronary territories, and supraphysiologic catecholamine levels. Complications include heart failure, cardiogenic shock (10-15%), LVOT obstruction, LV thrombus, and ventricular arrhythmias. Despite severe LV dysfunction acutely, prognosis is generally excellent with recovery in 1-4 weeks.",
+    "pathophysiology": "Takotsubo cardiomyopathy (stress cardiomyopathy, 'broken heart syndrome') is caused by a massive catecholamine surge triggered by emotional or physical stress. Supraphysiologic levels of epinephrine cause direct catecholamine-mediated myocardial stunning, coronary microvascular spasm, and beta-2 adrenergic receptor-mediated cardiotoxicity. The apical predominance is explained by the higher density of beta-adrenergic receptors in the apical myocardium. The LV assumes a characteristic shape resembling a Japanese octopus trap ('tako-tsubo'). Estrogen has cardioprotective effects against catecholamine toxicity, explaining the strong postmenopausal female predominance.",
+    "treatment_overview": "Supportive care is the mainstay. Heart failure management: ACE inhibitor (or ARB), beta-blocker (use with caution if LVOT obstruction is present — avoid in dynamic obstruction). Diuretics for pulmonary congestion. Anticoagulation if LV thrombus or severely reduced EF. AVOID inotropes (dobutamine, milrinone) and catecholamines — they worsen the catecholamine-mediated damage. For cardiogenic shock: mechanical support (IABP, Impella) rather than vasopressors. Monitor for arrhythmias (prolonged QTc predisposes to torsades de pointes). Serial echocardiography to document recovery (typically 1-4 weeks). Consider aspirin and statin discontinuation once STEMI is excluded. Psychological support and counseling.",
+    "high_yield_pearls": [
+      "Takotsubo is indistinguishable from STEMI at initial presentation — must proceed with emergent cath lab activation.",
+      "Postmenopausal women make up >90% of Takotsubo cases due to loss of estrogen's cardioprotective effects.",
+      "Wall motion abnormalities extend BEYOND a single coronary artery territory — a key distinguishing feature from true STEMI.",
+      "QTc prolongation (>500 ms) predisposes to torsades de pointes and is a unique Takotsubo feature not seen in typical STEMI.",
+      "AVOID catecholamines and inotropes — they worsen the condition. Use mechanical support for cardiogenic shock."
+    ],
+    "sources": [
+      "Ghadri JR et al. Eur Heart J 2018;39:2032-2046 (International Takotsubo Registry)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 50",
+      "Templin C et al. NEJM 2015;373:929-938"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Takotsubo cardiomyopathy", "STEMI (acute MI)", "NSTEMI/Unstable angina", "Myocarditis", "Pulmonary embolism", "Aortic dissection", "Panic attack with chest pain", "Pheochromocytoma"],
+    "after_stage2_more_likely": ["STEMI", "Takotsubo cardiomyopathy", "Myocarditis"],
+    "after_stage2_less_likely": ["Panic attack", "Pulmonary embolism", "Aortic dissection"],
+    "after_labs_top3": ["Takotsubo cardiomyopathy", "STEMI", "Myocarditis"]
+  }
+}

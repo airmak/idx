@@ -1,0 +1,76 @@
+{
+  "case_id": "case_099",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pulmonary Langerhans cell histiocytosis",
+  "icd_category": "J84.82 — Adult pulmonary Langerhans cell histiocytosis",
+  "one_liner": "A 28-year-old male smoker presents with a nonproductive cough, exertional dyspnea, and a spontaneous pneumothorax, with CT showing bizarre-shaped cysts and nodules predominantly in the upper lobes.",
+  "stage2": {
+    "hpi_extension": "The patient presents to the ED after developing sudden left-sided chest pain and dyspnea. Chest X-ray reveals a left pneumothorax with diffuse bilateral cystic and nodular changes. He reports a 4-month history of dry cough and progressive exertional dyspnea. He also notes occasional low-grade fevers, fatigue, and a recent episode of increased thirst and urination (polyuria/polydipsia) over the past month. He smokes 1.5 packs per day for 10 years (15 pack-years). He denies hemoptysis, weight loss, or night sweats.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Works as a bartender. Current smoker (15 pack-years). Social alcohol (3-4 drinks/week). No illicit drugs. No occupational dust or chemical exposures.",
+    "vitals": {
+      "temp": "99.6 F (37.6 C)",
+      "hr": "98 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "74 kg, BMI 23.2"
+    },
+    "physical_exam": "General: Young man in mild respiratory distress. HEENT: No oral ulcers. No exophthalmos. Skin over scalp normal. Lungs: Decreased breath sounds on the left with hyperresonance (pneumothorax). Right side: scattered crackles in upper zones. Cardiovascular: Tachycardic, regular rhythm. Abdomen: Soft, non-tender, no hepatosplenomegaly. No bony tenderness on palpation of skull, ribs, or spine. Extremities: No edema or clubbing. Skin: No rashes or papules. No diabetes insipidus stigmata beyond reported polyuria/polydipsia."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "9,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Eosinophils", "result": "2%", "flag": "WNL", "clinical_significance": "No eosinophilia; helps differentiate from eosinophilic lung diseases"},
+      {"test_name": "BMP — Sodium", "result": "148 mEq/L", "flag": "HIGH", "clinical_significance": "Hypernatremia in setting of polyuria suggests diabetes insipidus — a known extrapulmonary manifestation of LCH from pituitary infiltration"},
+      {"test_name": "Serum osmolality", "result": "305 mOsm/kg", "flag": "HIGH", "clinical_significance": "Elevated; consistent with diabetes insipidus"},
+      {"test_name": "Urine osmolality", "result": "180 mOsm/kg", "flag": "LOW", "clinical_significance": "Inappropriately dilute urine in setting of hypernatremia and elevated serum osmolality — diagnostic of diabetes insipidus"},
+      {"test_name": "ABG pO2", "result": "68 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from cystic lung disease and pneumothorax"},
+      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; nonspecific inflammation"},
+      {"test_name": "LDH", "result": "210 U/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out CTD-related lung disease"},
+      {"test_name": "Alpha-1 antitrypsin", "result": "175 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes A1AT deficiency"},
+      {"test_name": "BAL — CD1a+ cells", "result": "8% (>5% is diagnostic threshold)", "flag": "ABNORMAL", "clinical_significance": "CD1a+ Langerhans cells >5% on BAL is highly specific for pulmonary LCH"}
+    ],
+    "imaging_results": [
+      {"test_name": "HRCT chest", "result": "Bilateral bizarre-shaped, irregular, thick and thin-walled cysts interspersed with centrilobular nodules (some cavitating), predominantly in the upper and middle lung zones with relative sparing of the costophrenic angles and lung bases. Left pneumothorax. No honeycombing.", "flag": "ABNORMAL", "clinical_significance": "The combination of irregular/bizarre cysts with centrilobular nodules in an upper-lobe predominant distribution with costophrenic angle sparing is characteristic of PLCH. The evolution from nodules to cavitating nodules to cysts represents the disease progression."},
+      {"test_name": "Brain MRI", "result": "Loss of normal posterior pituitary bright spot on T1-weighted imaging. Thickened pituitary stalk (4 mm).", "flag": "ABNORMAL", "clinical_significance": "Loss of posterior pituitary bright spot and stalk thickening confirm central diabetes insipidus from LCH infiltration of the pituitary — a classic extrapulmonary manifestation"}
+    ],
+    "key_tests": ["HRCT chest", "Bronchoalveolar lavage (BAL) with CD1a staining", "Surgical lung biopsy (if BAL non-diagnostic)", "PFTs", "Brain MRI (for DI evaluation)"],
+    "acceptable_tests": ["CBC", "BMP", "Serum/urine osmolality", "ABG", "Alpha-1 antitrypsin level", "ANA", "ESR/CRP", "Skeletal survey or bone scan", "Chest X-ray"],
+    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture", "ANCA", "Procalcitonin", "PET-CT (nodules may be PET-avid mimicking malignancy)"]
+  },
+  "stage5": {
+    "final_clue": "BAL demonstrates 8% CD1a-positive cells (diagnostic >5%). Surgical lung biopsy confirms stellate-shaped nodular lesions with Langerhans cells staining positive for CD1a and S-100 on immunohistochemistry, with Birbeck granules on electron microscopy. PFTs show a mixed obstructive-restrictive pattern with reduced DLCO (52% predicted). Combined with diabetes insipidus, the diagnosis of multisystem Langerhans cell histiocytosis with pulmonary and pituitary involvement is established."
+  },
+  "debrief": {
+    "classic_presentation": "Young adult smoker with cough, dyspnea, and spontaneous pneumothorax, with HRCT showing upper-lobe predominant irregular cysts and centrilobular nodules with costophrenic angle sparing, CD1a+ cells on BAL, and concurrent diabetes insipidus from pituitary involvement.",
+    "attending_mode_notes": "PLCH is a smoking-related disease that occurs almost exclusively in young adult smokers (20-40 years old). The pathognomonic HRCT finding is the combination of irregular/bizarre-shaped cysts AND centrilobular nodules in the upper/mid zones — this mixed cyst-nodule pattern represents different stages of disease (early nodular, intermediate cavitating, late cystic). PLCH differs from LAM (uniform round cysts, diffuse, women) and emphysema (centrilobular, no nodules). Diabetes insipidus is the most common extrapulmonary manifestation (~15-25% of cases) and may precede or follow pulmonary disease.",
+    "pathophysiology": "PLCH is a clonal proliferation of CD1a+/CD207+ Langerhans cells in the lung, strongly associated with cigarette smoking. Tobacco smoke antigens likely trigger Langerhans cell recruitment and activation in the bronchiolar walls. These cells form peribronchiolar granulomas (nodular phase), which undergo cavitation and then cystic transformation as the cellular infiltrate is replaced by fibrosis. The disease can involve multiple organs (bone, skin, pituitary) when Langerhans cells disseminate. The BRAF V600E mutation is found in ~50% of LCH lesions, establishing it as a neoplastic disorder.",
+    "treatment_overview": "Smoking cessation is the single most important intervention — many patients with early (nodular) disease stabilize or improve with cessation alone. Corticosteroids may be used for symptomatic or progressive disease. Cladribine (2-CdA) for refractory or progressive disease. BRAF inhibitors (vemurafenib) for BRAF V600E-mutant disease. Manage pneumothorax (chest tube, pleurodesis for recurrence). Desmopressin for diabetes insipidus. Lung transplantation for end-stage disease (can recur in transplant if patient resumes smoking). Monitor PFTs every 3-6 months.",
+    "high_yield_pearls": [
+      "PLCH occurs almost exclusively in young adult smokers — smoking cessation alone can halt disease progression in early stages.",
+      "The HRCT hallmark is upper/mid-zone predominant irregular cysts AND centrilobular nodules with costophrenic angle sparing — the mixed cyst-nodule pattern.",
+      "Diabetes insipidus (loss of posterior pituitary bright spot on MRI) is the most common extrapulmonary manifestation of LCH.",
+      "BAL with >5% CD1a+ cells is highly specific for PLCH; biopsy shows Birbeck granules (tennis-racket shaped organelles) on EM.",
+      "BRAF V600E mutation is found in ~50% of LCH cases, supporting its classification as a neoplastic/clonal disorder."
+    ],
+    "sources": [
+      "Vassallo R et al. Pulmonary Langerhans'-Cell Histiocytosis. N Engl J Med. 2023",
+      "Tazi A. Adult pulmonary Langerhans cell histiocytosis. Eur Respir J. 2006",
+      "UpToDate: Pulmonary Langerhans cell histiocytosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Pulmonary Langerhans cell histiocytosis", "Lymphangioleiomyomatosis", "Emphysema/COPD", "Lymphocytic interstitial pneumonia", "Birt-Hogg-Dube syndrome", "Hypersensitivity pneumonitis"],
+    "after_stage2_more_likely": ["Pulmonary Langerhans cell histiocytosis", "Emphysema/COPD"],
+    "after_stage2_less_likely": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome"],
+    "after_labs_top3": ["Pulmonary Langerhans cell histiocytosis", "Lymphocytic interstitial pneumonia", "Emphysema"]
+  }
+}

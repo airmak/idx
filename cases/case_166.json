@@ -1,0 +1,75 @@
+{
+  "case_id": "case_166",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Ulcerative Colitis (New Diagnosis)",
+  "icd_category": "K51.9 — Ulcerative colitis, unspecified",
+  "one_liner": "A 28-year-old male presents with 6 weeks of bloody diarrhea, urgency, and crampy left lower quadrant abdominal pain.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 6-week history of progressively worsening diarrhea with 8-10 loose, bloody stools per day. He describes mucus mixed with blood, lower abdominal cramping relieved partially by defecation, tenesmus, and fecal urgency with occasional incontinence. He has had a 4 kg unintentional weight loss over the past month. He reports low-grade fevers (up to 38.0°C) and fatigue. He denies recent travel, antibiotic use, sick contacts, or NSAIDs. He tried loperamide with minimal relief. He has no prior history of GI symptoms or family history of IBD.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of inflammatory bowel disease. Mother has hypothyroidism.",
+    "social_history": "Non-smoker. Social alcohol (2-3 drinks per week). Graduate student in engineering. No recent travel. No illicit drug use.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "92 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "68 kg, BMI 22.0"
+    },
+    "physical_exam": "General: Thin male, appears fatigued, no acute distress. HEENT: Pale conjunctivae, no oral ulcers. Cardiovascular: Mild tachycardia, regular rhythm. Pulmonary: Clear. Abdomen: Soft, mild tenderness in the left lower quadrant, no rebound or guarding, no distension, hyperactive bowel sounds. Rectal exam: Grossly bloody stool, no perianal fissures, fistulae, or masses. Skin: No rashes or erythema nodosum. Joints: No swelling."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 11.2, Hgb 10.8, MCV 78, Plt 425", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, iron deficiency anemia from chronic GI blood loss, reactive thrombocytosis"},
+      {"test_name": "CRP", "result": "48 mg/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, indicating active systemic inflammation"},
+      {"test_name": "ESR", "result": "52 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated, supports active inflammatory process"},
+      {"test_name": "Fecal calprotectin", "result": "820 µg/g", "flag": "HIGH", "clinical_significance": "Markedly elevated (>250), highly suggestive of mucosal inflammation/IBD"},
+      {"test_name": "Stool studies (culture, O&P, C. diff toxin)", "result": "All negative", "flag": "WNL", "clinical_significance": "Excludes infectious colitis as the cause of bloody diarrhea"},
+      {"test_name": "Albumin", "result": "3.1 g/dL", "flag": "LOW", "clinical_significance": "Low albumin from chronic inflammation and malnutrition"},
+      {"test_name": "Iron studies", "result": "Ferritin 12, Iron 30, TIBC 420", "flag": "LOW", "clinical_significance": "Iron deficiency from chronic blood loss"},
+      {"test_name": "BMP", "result": "Na 138, K 3.5, Cr 0.9, BUN 14", "flag": "WNL", "clinical_significance": "Normal renal function and electrolytes"},
+      {"test_name": "LFTs", "result": "AST 22, ALT 28, ALP 85, bilirubin 0.6", "flag": "WNL", "clinical_significance": "Normal liver function"},
+      {"test_name": "p-ANCA", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "p-ANCA positivity is found in ~60-70% of UC patients, supports diagnosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Colonoscopy with biopsies", "result": "Continuous erythematous, edematous, friable mucosa extending from the rectum to the splenic flexure with loss of vascular pattern, contact bleeding, and superficial ulcerations. Normal mucosa in the transverse and ascending colon. No skip lesions. Terminal ileum normal.", "flag": "ABNORMAL", "clinical_significance": "Left-sided ulcerative colitis (E2 Montreal classification) — continuous mucosal inflammation starting from the rectum is pathognomonic."},
+      {"test_name": "Colonic biopsies", "result": "Chronic active colitis with crypt distortion, crypt abscesses, goblet cell depletion, and diffuse lamina propria inflammatory infiltrate. No granulomas. Changes limited to the mucosa and submucosa.", "flag": "ABNORMAL", "clinical_significance": "Histology confirms ulcerative colitis: mucosal-limited inflammation, crypt abscesses, and absence of granulomas distinguish UC from Crohn disease."}
+    ],
+    "key_tests": ["Colonoscopy with biopsies", "Stool studies (culture, O&P, C. diff)", "Fecal calprotectin", "CBC", "CRP/ESR"],
+    "acceptable_tests": ["Albumin", "Iron studies", "p-ANCA/ASCA", "BMP", "LFTs", "Abdominal X-ray (for toxic megacolon screening)", "CT abdomen"],
+    "low_yield_tests": ["Upper endoscopy", "MRCP", "Serum amylase/lipase", "Celiac serologies", "HIDA scan"],
+    "key_tests_rationale": "Colonoscopy with biopsies is essential for diagnosis of UC, determining disease extent, and excluding Crohn disease. Stool studies exclude infectious mimics. Fecal calprotectin is a non-invasive marker that correlates with mucosal inflammation. CBC identifies anemia and thrombocytosis. CRP/ESR quantify systemic inflammation and disease activity."
+  },
+  "stage5": {
+    "final_clue": "Colonoscopy demonstrates continuous mucosal inflammation from the rectum to the splenic flexure with biopsies showing crypt abscesses, crypt distortion, and mucosal-limited inflammation without granulomas. Negative infectious workup, markedly elevated fecal calprotectin, and positive p-ANCA confirm a new diagnosis of ulcerative colitis (left-sided, moderate severity)."
+  },
+  "debrief": {
+    "classic_presentation": "Ulcerative colitis typically presents in young adults (ages 15-35) with bloody diarrhea, urgency, tenesmus, and crampy abdominal pain. The hallmark is continuous mucosal inflammation beginning at the rectum and extending proximally without skip lesions. Extraintestinal manifestations (arthritis, erythema nodosum, pyoderma gangrenosum, primary sclerosing cholangitis, uveitis) occur in up to 25% of patients.",
+    "attending_mode_notes": null,
+    "pathophysiology": "UC is a chronic idiopathic inflammatory bowel disease characterized by a dysregulated immune response to commensal gut flora in genetically susceptible individuals. Inflammation is limited to the mucosa and submucosa, beginning at the rectum and extending proximally in a continuous pattern. Th2-mediated immune responses with IL-5 and IL-13 drive epithelial damage, goblet cell depletion, and crypt abscess formation. Environmental triggers include cessation of smoking (smoking is paradoxically protective in UC), stress, and enteric infections.",
+    "treatment_overview": "Mild-moderate UC: 5-aminosalicylates (mesalamine) are first-line for induction and maintenance. Topical (rectal) mesalamine is preferred for proctitis/left-sided disease, with combination oral + rectal therapy for better outcomes. Moderate-severe UC: systemic corticosteroids (prednisone) for induction, then transition to steroid-sparing agents (thiopurines, anti-TNF agents like infliximab/adalimumab, vedolizumab, tofacitinib, or ustekinumab) for maintenance. Severe/fulminant UC: IV corticosteroids, and if refractory, rescue therapy with infliximab or cyclosporine, or colectomy. Surveillance colonoscopy for colorectal cancer starting 8 years after diagnosis.",
+    "high_yield_pearls": [
+      "UC always involves the rectum and extends proximally in a continuous pattern — skip lesions suggest Crohn disease.",
+      "Fecal calprotectin >250 µg/g has >90% sensitivity for distinguishing IBD from irritable bowel syndrome.",
+      "p-ANCA is positive in ~60-70% of UC patients, while ASCA is more associated with Crohn disease.",
+      "Toxic megacolon (colonic dilation >6 cm) is a life-threatening complication — obtain abdominal X-ray if fever, distension, and tachycardia are present.",
+      "Smoking cessation can paradoxically trigger UC onset or flare — smoking is protective in UC but harmful in Crohn disease."
+    ],
+    "sources": [
+      "2019 ACG Clinical Guideline: Ulcerative Colitis in Adults",
+      "Rubin DT et al., ACG Guidelines for UC, American Journal of Gastroenterology 2019",
+      "Ungaro R et al., Ulcerative Colitis, The Lancet 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Crohn disease (colonic)", "Infectious colitis (C. diff, Shigella, E. coli)", "Ischemic colitis", "Irritable bowel syndrome", "Diverticulitis", "Colorectal cancer"],
+    "after_stage2_more_likely": ["Ulcerative colitis", "Crohn disease (colonic)", "Infectious colitis"],
+    "after_stage2_less_likely": ["Ischemic colitis", "Colorectal cancer", "Diverticulitis"],
+    "after_labs_top3": ["Ulcerative colitis (left-sided)", "Crohn colitis", "Infectious colitis"]
+  }
+}

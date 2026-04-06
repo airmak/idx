@@ -1,0 +1,74 @@
+{
+  "case_id": "case_085",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Asthma exacerbation",
+  "icd_category": "J45.41 — Moderate persistent asthma with acute exacerbation",
+  "one_liner": "A 22-year-old woman with a history of childhood asthma presents with acute-onset wheezing and shortness of breath after exposure to a cat.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive dyspnea, chest tightness, and audible wheezing that began approximately 3 hours ago while visiting a friend who owns a cat. She has used her albuterol rescue inhaler 4 times in the past 2 hours without significant relief. She denies fever, productive cough, or recent URI symptoms. She ran out of her fluticasone inhaler 2 weeks ago and has not refilled it.",
+    "pmh": "Asthma diagnosed at age 8, allergic rhinitis, eczema. Last ED visit for asthma exacerbation 1 year ago.",
+    "surgical_history": "None.",
+    "medications": "Albuterol MDI PRN (currently using frequently), fluticasone MDI (non-compliant — ran out 2 weeks ago), cetirizine 10 mg daily.",
+    "allergies": "No known drug allergies. Environmental: cats, dust mites, pollen.",
+    "family_history": "Mother with asthma and allergic rhinitis. Father with eczema.",
+    "social_history": "College student. Non-smoker. No alcohol or recreational drugs. Lives in a dormitory. No occupational exposures.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "110 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "91% on room air",
+      "weight_bmi": "62 kg, BMI 22.5"
+    },
+    "physical_exam": "General: Young woman in moderate respiratory distress, speaking in short sentences, using accessory muscles. HEENT: Nasal mucosa edematous and pale. Lungs: Diffuse bilateral expiratory wheezing with prolonged expiratory phase; decreased air entry at bases. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Abdomen: Soft, non-tender. Extremities: No cyanosis or edema. Skin: Mild eczematous patches on antecubital fossae."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ABG pH", "result": "7.42", "flag": "WNL", "clinical_significance": "Mild respiratory alkalosis from hyperventilation; not yet in respiratory failure"},
+      {"test_name": "ABG pCO2", "result": "33 mmHg", "flag": "LOW", "clinical_significance": "Hypocapnia consistent with hyperventilation; a normalizing or rising pCO2 would be an ominous sign"},
+      {"test_name": "ABG pO2", "result": "68 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia consistent with V/Q mismatch from bronchoconstriction"},
+      {"test_name": "WBC", "result": "9,800/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection driving the exacerbation"},
+      {"test_name": "Eosinophil count", "result": "6%", "flag": "HIGH", "clinical_significance": "Mild peripheral eosinophilia consistent with allergic/atopic asthma phenotype"},
+      {"test_name": "IgE (total)", "result": "420 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated total IgE supports atopic/allergic etiology"},
+      {"test_name": "BNP", "result": "25 pg/mL", "flag": "WNL", "clinical_significance": "Normal; rules out CHF as cause of dyspnea"},
+      {"test_name": "CRP", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Not significantly elevated; not suggestive of pneumonia or systemic infection"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal electrolytes"},
+      {"test_name": "BMP — Potassium", "result": "3.9 mEq/L", "flag": "WNL", "clinical_significance": "Normal; monitor with repeated albuterol use as beta-agonists can cause hypokalemia"},
+      {"test_name": "Peak expiratory flow (PEF)", "result": "180 L/min (40% predicted)", "flag": "LOW", "clinical_significance": "Severely reduced PEF consistent with moderate-to-severe exacerbation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and lateral)", "result": "Hyperinflated lungs bilaterally. No infiltrates, effusions, or pneumothorax. No cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Hyperinflation consistent with air trapping from bronchoconstriction; absence of consolidation argues against pneumonia"}
+    ],
+    "key_tests": ["Peak expiratory flow (PEF) or FEV1 measurement", "Arterial blood gas", "Chest X-ray", "Pulse oximetry monitoring"],
+    "acceptable_tests": ["CBC with differential", "BMP", "Total IgE level", "BNP", "CRP", "Sputum culture", "Procalcitonin", "Lactate"],
+    "low_yield_tests": ["CT chest", "Echocardiogram", "D-dimer", "Bronchoscopy", "Sputum cytology"]
+  },
+  "stage5": {
+    "final_clue": "After administration of nebulized albuterol, ipratropium, and IV methylprednisolone, the patient's PEF improves to 310 L/min (68% predicted) and her SpO2 rises to 96% on room air, confirming a reversible obstructive process consistent with asthma exacerbation."
+  },
+  "debrief": {
+    "classic_presentation": "Young atopic patient with known asthma presents with acute wheezing, dyspnea, and chest tightness after allergen exposure, with diffuse expiratory wheezing on exam and reduced PEF that improves with bronchodilators.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Asthma exacerbations involve acute bronchospasm, airway inflammation, and mucus plugging triggered by allergens, infections, or irritants. In allergic asthma, inhaled allergens cross-link IgE on mast cells, triggering histamine and leukotriene release, causing smooth muscle contraction and mucosal edema. Non-compliance with inhaled corticosteroids allows chronic eosinophilic airway inflammation to persist, lowering the threshold for exacerbation.",
+    "treatment_overview": "Acute management: supplemental O2 to maintain SpO2 >92%, continuous or frequent nebulized albuterol +/- ipratropium, systemic corticosteroids (IV methylprednisolone or oral prednisone). Consider IV magnesium sulfate for severe exacerbations. Reassess PEF/FEV1 serially. Discharge with a prednisone taper (5 days), restart ICS/LABA controller therapy, asthma action plan, and allergen avoidance counseling.",
+    "high_yield_pearls": [
+      "A normalizing or rising pCO2 on ABG during an asthma exacerbation is an ominous sign suggesting impending respiratory failure — the patient is tiring out.",
+      "PEF <25% predicted or inability to perform PEF indicates a severe/life-threatening exacerbation requiring ICU consideration.",
+      "Non-compliance with inhaled corticosteroids is the most common modifiable risk factor for asthma exacerbations.",
+      "The absence of wheezing in a severe exacerbation ('silent chest') indicates critically reduced airflow and is a pre-arrest sign.",
+      "Allergic asthma is part of the atopic triad: asthma, allergic rhinitis, and eczema — ask about all three."
+    ],
+    "sources": [
+      "GINA 2024 Global Strategy for Asthma Management and Prevention",
+      "NAEPP Expert Panel Report 3 (EPR-3) Guidelines for the Diagnosis and Management of Asthma",
+      "UpToDate: Acute exacerbations of asthma in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Asthma exacerbation", "COPD exacerbation", "Anaphylaxis", "Vocal cord dysfunction", "Pneumonia", "Pneumothorax", "Pulmonary embolism", "Heart failure exacerbation"],
+    "after_stage2_more_likely": ["Asthma exacerbation", "Anaphylaxis"],
+    "after_stage2_less_likely": ["COPD exacerbation", "Heart failure exacerbation", "Pneumothorax"],
+    "after_labs_top3": ["Asthma exacerbation", "Vocal cord dysfunction", "Allergic bronchospasm"]
+  }
+}

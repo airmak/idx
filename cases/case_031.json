@@ -1,0 +1,77 @@
+{
+  "case_id": "case_031",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Acute Mesenteric Ischemia",
+  "icd_category": "K55.0 — Acute vascular disorders of intestine",
+  "one_liner": "A 72-year-old male with atrial fibrillation and heart failure presents with sudden severe abdominal pain out of proportion to exam findings.",
+  "stage2": {
+    "hpi_extension": "Patient describes sudden onset of severe, diffuse abdominal pain that began approximately 3 hours ago. Pain is constant, periumbilical, rated 10/10, and is described as 'the worst pain of my life.' He has had two episodes of non-bloody, watery diarrhea and one episode of vomiting. He reports that the pain seems much worse than what the doctor finds on exam. He has had no recent abdominal surgeries. He admits to inconsistent compliance with his warfarin. He ate a large meal approximately 1 hour before symptom onset. Denies fever, chest pain, or urinary symptoms.",
+    "pmh": "Atrial fibrillation (on warfarin), congestive heart failure (EF 30%), hypertension, type 2 diabetes mellitus, peripheral arterial disease",
+    "surgical_history": "Left femoral-popliteal bypass 4 years ago",
+    "medications": "Warfarin 5 mg daily, digoxin 0.125 mg daily, furosemide 40 mg daily, lisinopril 10 mg daily, metformin 500 mg twice daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had stroke at age 68. Mother had diabetes.",
+    "social_history": "Former smoker (40 pack-years, quit 5 years ago). Rare alcohol use. Retired postal worker. Lives with wife.",
+    "vitals": {
+      "temp": "99.2 F (37.3 C)",
+      "hr": "108 bpm, irregularly irregular",
+      "bp": "142/88 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "82 kg, BMI 27.5"
+    },
+    "physical_exam": "General: Elderly male in significant distress, writhing on stretcher, unable to find comfortable position. HEENT: Unremarkable. Neck: No JVD. Cardiovascular: Irregularly irregular rhythm, tachycardic. S1/S2 present. Grade II/VI systolic murmur at apex. Pulmonary: Mild bibasilar crackles. Abdomen: Mildly distended. Surprisingly MINIMAL tenderness on palpation despite severe subjective pain. No guarding or rigidity. Bowel sounds initially hyperactive, then diminished. No masses. Rectal: Guaiac positive stool. Extremities: Diminished pedal pulses bilaterally. No lower extremity edema. Skin: Pale, diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Lactate", "result": "6.8 mmol/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, indicates tissue ischemia and anaerobic metabolism"},
+      {"test_name": "CBC - WBC", "result": "18.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis suggesting ischemic/inflammatory process"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.1 g/dL", "flag": "WNL", "clinical_significance": "Hemoconcentration may mask anemia"},
+      {"test_name": "BMP - Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, possible prerenal azotemia from dehydration/low cardiac output"},
+      {"test_name": "BMP - Bicarbonate", "result": "16 mEq/L", "flag": "LOW", "clinical_significance": "Low bicarbonate consistent with metabolic acidosis from lactic acidosis"},
+      {"test_name": "BMP - Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue ischemia and acidosis"},
+      {"test_name": "ABG - pH", "result": "7.28", "flag": "LOW", "clinical_significance": "Metabolic acidosis from lactic acid production"},
+      {"test_name": "LDH", "result": "580 U/L", "flag": "HIGH", "clinical_significance": "Elevated, marker of tissue necrosis"},
+      {"test_name": "Amylase", "result": "210 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, can occur with bowel ischemia (nonspecific)"},
+      {"test_name": "D-dimer", "result": "4,200 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with thrombotic event"},
+      {"test_name": "INR", "result": "1.4", "flag": "ABNORMAL", "clinical_significance": "Subtherapeutic INR (goal 2-3 for AFib), indicating poor anticoagulation compliance"},
+      {"test_name": "Phosphate", "result": "6.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated phosphate suggests bowel infarction and cellular death"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Angiography of Abdomen/Pelvis", "result": "Filling defect in the superior mesenteric artery (SMA) approximately 3 cm from its origin, consistent with an embolus. Segmental diminished enhancement of jejunal and ileal loops. Moderate amount of free fluid. No pneumatosis intestinalis yet.", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of acute SMA embolism with evolving bowel ischemia"},
+      {"test_name": "Abdominal X-ray (KUB)", "result": "Mildly dilated small bowel loops. No free air. No pneumatosis.", "flag": "ABNORMAL", "clinical_significance": "Nonspecific bowel dilation, early findings of ileus"},
+      {"test_name": "ECG", "result": "Atrial fibrillation with rapid ventricular response, rate 108. No acute ST changes.", "flag": "ABNORMAL", "clinical_significance": "Confirms AFib as likely embolic source"}
+    ],
+    "key_tests": ["CT angiography of abdomen/pelvis", "Serum lactate", "Arterial blood gas", "CBC with differential"],
+    "acceptable_tests": ["BMP", "LDH", "D-dimer", "Amylase/Lipase", "Phosphate", "INR/Coagulation studies", "Abdominal X-ray", "ECG"],
+    "low_yield_tests": ["Abdominal ultrasound", "Stool studies", "Urinalysis", "CT without contrast", "Upper GI series"]
+  },
+  "stage5": {
+    "final_clue": "CTA reveals an SMA filling defect consistent with embolus in a patient with atrial fibrillation and subtherapeutic INR. The classic presentation of pain out of proportion to exam, markedly elevated lactate (6.8), metabolic acidosis, and leukocytosis confirms acute mesenteric ischemia requiring emergent intervention."
+  },
+  "debrief": {
+    "classic_presentation": "An elderly patient with atrial fibrillation, heart failure, or recent MI presenting with sudden, severe periumbilical pain that is out of proportion to physical examination findings. Early exam may be surprisingly benign. Late findings include peritonitis, bloody stool, and hemodynamic instability indicating bowel infarction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute mesenteric ischemia results from sudden reduction of intestinal blood flow, most commonly from SMA embolism (50%), SMA thrombosis (25%), non-occlusive mesenteric ischemia (20%), or mesenteric venous thrombosis (5%). In embolic disease, the embolus typically originates from a cardiac source (atrial fibrillation, LV thrombus). The SMA is most susceptible due to its acute angle of origin from the aorta. Ischemia progresses from mucosal to transmural necrosis over hours, with irreversible infarction leading to perforation, peritonitis, and sepsis.",
+    "treatment_overview": "Emergent surgical consultation is mandatory. Initial management includes aggressive fluid resuscitation, broad-spectrum antibiotics (piperacillin-tazobactam or meropenem), nasogastric decompression, and anticoagulation with heparin. Definitive treatment depends on etiology: SMA embolectomy or bypass for embolic/thrombotic occlusion, endovascular thrombectomy/thrombolysis if available, and exploratory laparotomy with resection of necrotic bowel. A second-look laparotomy at 24-48 hours may be needed to reassess bowel viability.",
+    "high_yield_pearls": [
+      "Pain out of proportion to exam is the hallmark early finding of acute mesenteric ischemia.",
+      "CTA is the gold standard diagnostic study with >95% sensitivity and specificity for mesenteric vascular occlusion.",
+      "Lactate elevation is a late finding and its absence does not exclude mesenteric ischemia.",
+      "Mortality exceeds 60-80% if diagnosis is delayed beyond 24 hours or if bowel necrosis has occurred.",
+      "Subtherapeutic anticoagulation in AFib patients is the most common predisposing factor for SMA embolism."
+    ],
+    "sources": [
+      "Oldenburg WA et al. Arch Intern Med 2004;164:1054-1062",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 82",
+      "Bala M et al. World J Emerg Surg 2017;12:38 (WSES guidelines)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute mesenteric ischemia", "Acute pancreatitis", "Small bowel obstruction", "Perforated peptic ulcer", "Aortic dissection", "Ruptured AAA", "Acute cholecystitis"],
+    "after_stage2_more_likely": ["Acute mesenteric ischemia", "Aortic dissection"],
+    "after_stage2_less_likely": ["Acute cholecystitis", "Acute pancreatitis"],
+    "after_labs_top3": ["Acute mesenteric ischemia", "Bowel infarction with perforation", "Acute pancreatitis"]
+  }
+}

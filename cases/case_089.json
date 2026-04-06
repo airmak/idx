@@ -1,0 +1,77 @@
+{
+  "case_id": "case_089",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Lung cancer (non-small cell lung cancer)",
+  "icd_category": "C34.1 — Malignant neoplasm of upper lobe, bronchus or lung",
+  "one_liner": "A 64-year-old man with a 40-pack-year smoking history presents with a 3-month history of persistent cough, unintentional weight loss, and hemoptysis.",
+  "stage2": {
+    "hpi_extension": "The patient describes a persistent dry cough that began 3 months ago and has progressively worsened. Over the past 2 weeks, he has noticed streaks of blood in his sputum (hemoptysis). He reports a 7 kg unintentional weight loss over 3 months, decreased appetite, and increasing fatigue. He also notes a dull, aching right-sided chest pain that worsens with deep breathing. He denies fever, night sweats, or recent travel. He has not had a screening CT.",
+    "pmh": "Hypertension, chronic bronchitis, peripheral vascular disease.",
+    "surgical_history": "Right inguinal hernia repair, age 50.",
+    "medications": "Amlodipine 10 mg daily, aspirin 81 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father died of lung cancer at age 70. Mother had breast cancer. Brother with COPD.",
+    "social_history": "Current smoker — 40 pack-years (1 pack/day since age 24). Drinks 2-3 beers daily. Retired construction worker with asbestos exposure for 15 years. Lives with wife.",
+    "vitals": {
+      "temp": "98.8 F (37.1 C)",
+      "hr": "82 bpm",
+      "bp": "138/84 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "72 kg (previous 79 kg), BMI 23.8"
+    },
+    "physical_exam": "General: Thin, cachectic-appearing man, appears older than stated age. HEENT: No JVD. Supraclavicular lymphadenopathy palpable on the right (1.5 cm, firm, non-tender, fixed). Lungs: Decreased breath sounds over the right upper lobe with dullness to percussion. Scattered rhonchi bilaterally. Cardiovascular: Regular rate and rhythm, no murmurs. Abdomen: Soft, non-tender, no hepatomegaly. Extremities: Digital clubbing present bilaterally. No edema. Skin: No lesions."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia — anemia of chronic disease in setting of malignancy"},
+      {"test_name": "CBC — WBC", "result": "10,400/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Platelets", "result": "410,000/uL", "flag": "HIGH", "clinical_significance": "Reactive thrombocytosis — can be seen with malignancy"},
+      {"test_name": "CMP — Calcium", "result": "11.4 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia — may indicate PTHrP production from squamous cell carcinoma or bone metastases"},
+      {"test_name": "CMP — Albumin", "result": "3.1 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia consistent with malnutrition and chronic disease; corrected calcium is ~12.0"},
+      {"test_name": "CMP — Alkaline phosphatase", "result": "182 U/L", "flag": "HIGH", "clinical_significance": "Elevated ALP may suggest bone or liver metastases"},
+      {"test_name": "LDH", "result": "290 U/L", "flag": "HIGH", "clinical_significance": "Elevated; nonspecific marker of tissue turnover, often elevated in malignancy"},
+      {"test_name": "CMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CMP — Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal; no SIADH present"},
+      {"test_name": "Coagulation — PT/INR", "result": "12.8 sec / 1.1", "flag": "WNL", "clinical_significance": "Normal coagulation"},
+      {"test_name": "CEA", "result": "18.2 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated CEA is nonspecific but may be seen in lung adenocarcinoma; useful for monitoring treatment response"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and lateral)", "result": "A 4.5 cm spiculated mass in the right upper lobe with associated right hilar lymphadenopathy. No pleural effusion. Mild hyperinflation of both lungs.", "flag": "ABNORMAL", "clinical_significance": "Spiculated mass is highly suspicious for primary lung malignancy; hilar adenopathy suggests regional spread"},
+      {"test_name": "CT chest with contrast", "result": "5.2 cm spiculated mass in the right upper lobe with invasion of the mediastinal pleura. Enlarged right hilar (2.8 cm) and subcarinal (2.2 cm) lymph nodes. No pleural effusion. Calcified pleural plaques bilaterally consistent with prior asbestos exposure.", "flag": "ABNORMAL", "clinical_significance": "Findings highly concerning for NSCLC with mediastinal lymph node involvement (likely stage IIIA or higher). Asbestos-related pleural plaques indicate additional carcinogenic exposure."},
+      {"test_name": "PET-CT", "result": "Intensely FDG-avid right upper lobe mass (SUVmax 14.2). FDG-avid right hilar and subcarinal lymph nodes. No distant metastatic disease identified.", "flag": "ABNORMAL", "clinical_significance": "Confirms metabolically active primary malignancy with regional nodal involvement; no distant metastases on PET (clinical stage IIIA)"}
+    ],
+    "key_tests": ["CT chest with contrast", "PET-CT for staging", "Tissue biopsy (CT-guided or bronchoscopic)", "CBC", "CMP including calcium"],
+    "acceptable_tests": ["Chest X-ray", "Sputum cytology", "CEA", "LDH", "Brain MRI (for staging)", "Pulmonary function tests (for surgical planning)", "Bone scan"],
+    "low_yield_tests": ["D-dimer", "Procalcitonin", "Echocardiogram", "Tuberculin skin test", "ABG (unless symptomatic)"]
+  },
+  "stage5": {
+    "final_clue": "CT-guided biopsy of the right upper lobe mass reveals adenocarcinoma (positive for TTF-1 and napsin A on immunohistochemistry). Molecular testing identifies an EGFR exon 19 deletion. Brain MRI is negative. Final staging: T3N2M0, stage IIIA NSCLC."
+  },
+  "debrief": {
+    "classic_presentation": "Long-term smoker with occupational carcinogen exposure presenting with persistent cough, hemoptysis, weight loss, and a spiculated upper lobe mass with hilar lymphadenopathy on imaging, with supraclavicular lymphadenopathy and digital clubbing on exam.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Non-small cell lung cancer (NSCLC) accounts for ~85% of lung cancers and includes adenocarcinoma (most common, ~40%), squamous cell carcinoma (~25-30%), and large cell carcinoma (~10%). Cigarette smoking and asbestos exposure are synergistic risk factors (multiplicative, not just additive). Tumors arise from malignant transformation of bronchial epithelium. Paraneoplastic hypercalcemia in squamous cell carcinoma is mediated by PTHrP, while adenocarcinoma is more commonly associated with EGFR mutations and is the most common histologic type in never-smokers.",
+    "treatment_overview": "Stage IIIA NSCLC: multimodal therapy with concurrent chemoradiation +/- surgical resection depending on resectability. Molecular testing (EGFR, ALK, ROS1, BRAF, PD-L1) is essential for treatment planning. EGFR exon 19 deletion is targetable with osimertinib (tyrosine kinase inhibitor). Immunotherapy (pembrolizumab) for PD-L1 >50% in those without targetable mutations. Smoking cessation, palliative care referral, and nutritional support. Hypercalcemia management: IV fluids, calcitonin, zoledronic acid.",
+    "high_yield_pearls": [
+      "Adenocarcinoma is the most common type of lung cancer overall and the most common in non-smokers; it typically presents as a peripheral mass.",
+      "Squamous cell carcinoma is the type most associated with hypercalcemia (PTHrP) and cavitary lesions, and is centrally located.",
+      "Smoking and asbestos exposure have a synergistic (multiplicative) risk for lung cancer — not merely additive.",
+      "EGFR mutations and ALK rearrangements are actionable therapeutic targets — always send molecular testing on biopsy specimens.",
+      "Pancoast tumor (superior sulcus) causes Horner syndrome (ptosis, miosis, anhidrosis) and arm pain from brachial plexus invasion.",
+      "Digital clubbing in a smoker with a lung mass should raise immediate concern for malignancy."
+    ],
+    "sources": [
+      "NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer, Version 3.2024",
+      "ACCP Evidence-Based Clinical Practice Guidelines for Diagnosis and Management of Lung Cancer, 3rd ed.",
+      "UpToDate: Overview of the initial evaluation, diagnosis, and staging of patients with suspected lung cancer"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Non-small cell lung cancer", "Small cell lung cancer", "Pulmonary tuberculosis", "Lung abscess", "Metastatic disease to lung", "Sarcoidosis", "Granulomatosis with polyangiitis"],
+    "after_stage2_more_likely": ["Non-small cell lung cancer", "Small cell lung cancer", "Metastatic disease to lung"],
+    "after_stage2_less_likely": ["Pulmonary tuberculosis", "Lung abscess", "Sarcoidosis"],
+    "after_labs_top3": ["Non-small cell lung cancer", "Metastatic disease to lung", "Small cell lung cancer"]
+  }
+}

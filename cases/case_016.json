@@ -1,0 +1,71 @@
+{
+  "case_id": "case_016",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Systemic lupus erythematosus",
+  "icd_category": "M32.9 — Systemic lupus erythematosus, unspecified",
+  "one_liner": "A 28-year-old female presents with joint pain, a facial rash, fatigue, and oral ulcers for 2 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports 2 months of progressive joint pain and swelling involving her hands (MCPs and PIPs bilaterally), wrists, and knees. The joint pain is worse in the morning with about 1 hour of stiffness. She developed a rash on her face approximately 6 weeks ago that worsens with sun exposure — it involves both cheeks and the bridge of the nose but spares the nasolabial folds. She has painful oral ulcers on her hard palate. She reports significant fatigue, intermittent low-grade fevers, and unintentional weight loss of 8 pounds. She has noticed increased hair loss, particularly around her hairline. She also reports recent onset of pleuritic chest pain. She denies Raynaud phenomenon, seizures, or changes in urine color.",
+    "pmh": "Recurrent oral ulcers over the past year, photosensitivity noted over the past summer",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 600 mg as needed for joint pain",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "Maternal aunt with systemic lupus erythematosus. Mother with Sjogren syndrome. No family history of renal disease.",
+    "social_history": "Non-smoker, no alcohol use, no illicit drug use. Works as a graphic designer. Single, no children. Sexually active with one partner, uses oral contraceptives.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "92 bpm, regular",
+      "bp": "128/82 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "BMI 21 kg/m²"
+    },
+    "physical_exam": "General: Young woman appearing fatigued and uncomfortable. HEENT: Erythematous, raised macular rash over both malar eminences and the nasal bridge sparing the nasolabial folds (butterfly rash), two painless ulcers on the hard palate, diffuse non-scarring alopecia with frontal hair thinning. Cardiovascular: Regular rate and rhythm, no murmurs, no pericardial friction rub. Pulmonary: Decreased breath sounds at the left base with dullness to percussion. Abdomen: Soft, non-tender, no hepatosplenomegaly. MSK: Bilateral swelling and tenderness of MCP joints (2nd-4th), PIP joints, and wrists; no deformities. Extremities: No edema. Skin: Butterfly rash as described, no discoid lesions. Lymph: Cervical and axillary lymphadenopathy bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ANA", "result": "Positive at 1:640, homogeneous pattern", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive for SLE (>95%); homogeneous pattern suggests anti-dsDNA antibodies"},
+      {"test_name": "Anti-dsDNA antibodies", "result": "185 IU/mL (ref < 30)", "flag": "HIGH", "clinical_significance": "Highly specific for SLE; titers correlate with disease activity and lupus nephritis risk"},
+      {"test_name": "Complement C3", "result": "48 mg/dL", "flag": "LOW", "clinical_significance": "Low C3 indicates complement consumption from immune complex formation, common in active SLE"},
+      {"test_name": "Complement C4", "result": "6 mg/dL", "flag": "LOW", "clinical_significance": "Low C4 further supports complement consumption; useful for monitoring disease activity"},
+      {"test_name": "Anti-Smith antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Highly specific for SLE (>99%); present in about 30% of SLE patients"},
+      {"test_name": "CBC", "result": "WBC 3,100/μL (lymphocytes 800/μL), Hgb 10.8 g/dL, Plt 118,000/μL", "flag": "LOW", "clinical_significance": "Pancytopenia with lymphopenia is characteristic of active SLE"},
+      {"test_name": "ESR", "result": "65 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated ESR is common in active SLE; CRP is often normal or only mildly elevated in SLE flares (unless serositis or infection)"},
+      {"test_name": "CRP", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Only mildly elevated; in SLE, ESR is typically much more elevated than CRP unless infection or serositis is present"},
+      {"test_name": "Urinalysis", "result": "Protein 2+, RBC 15-20/hpf, RBC casts present, no bacteria", "flag": "ABNORMAL", "clinical_significance": "Proteinuria with active sediment (RBC casts) indicates lupus nephritis — requires urgent nephrology evaluation"},
+      {"test_name": "Urine protein-to-creatinine ratio", "result": "1.8 g/g", "flag": "HIGH", "clinical_significance": "Significant proteinuria (>0.5 g/day equivalent) consistent with lupus nephritis"},
+      {"test_name": "Creatinine", "result": "1.1 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for a young woman; suggests early renal impairment"},
+      {"test_name": "Direct Coombs test", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates autoimmune hemolytic anemia component; common in SLE"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Small left-sided pleural effusion. No cardiomegaly. No pulmonary infiltrates or consolidation.", "flag": "ABNORMAL", "clinical_significance": "Pleural effusion consistent with lupus serositis (pleuritis)"},
+      {"test_name": "Echocardiogram", "result": "Normal left ventricular function (EF 60%). Small pericardial effusion without tamponade physiology. No valvular vegetations.", "flag": "ABNORMAL", "clinical_significance": "Pericardial effusion consistent with lupus serositis; no evidence of Libman-Sacks endocarditis"}
+    ],
+    "key_tests": ["ANA", "Anti-dsDNA antibodies", "Complement levels (C3, C4)", "CBC with differential", "Urinalysis with microscopy"],
+    "acceptable_tests": ["Anti-Smith antibodies", "ESR and CRP", "Basic metabolic panel", "Urine protein-to-creatinine ratio", "Direct Coombs test", "Chest X-ray", "Echocardiogram", "Anti-phospholipid antibodies"],
+    "low_yield_tests": ["Rheumatoid factor (nonspecific)", "HLA-B27", "ANCA", "Serum protein electrophoresis", "CT chest without clinical indication"]
+  },
+  "stage5": {
+    "final_clue": "The nephrology team performs a renal biopsy which shows Class IV diffuse proliferative lupus nephritis with subendothelial immune complex deposits on electron microscopy — the most severe and common form of lupus nephritis requiring aggressive immunosuppressive therapy."
+  },
+  "debrief": {
+    "classic_presentation": "SLE classically presents in young women of childbearing age with a constellation of constitutional symptoms (fatigue, fever, weight loss), malar (butterfly) rash that spares the nasolabial folds and worsens with sun exposure, oral ulcers, arthritis, serositis (pleuritis or pericarditis), and renal involvement. Laboratory findings include positive ANA, positive anti-dsDNA, low complements, cytopenias (particularly lymphopenia), and active urinary sediment if nephritis is present.",
+    "attending_mode_notes": null,
+    "pathophysiology": "SLE is a chronic systemic autoimmune disease characterized by loss of tolerance to self-antigens, production of pathogenic autoantibodies (particularly anti-dsDNA), and immune complex deposition in tissues. Immune complexes activate complement and recruit inflammatory cells, causing tissue damage in kidneys, skin, joints, serous membranes, and blood vessels. Defective clearance of apoptotic cells exposes nuclear antigens to the immune system, perpetuating the autoimmune response. Genetic susceptibility (complement deficiencies, HLA associations), hormonal factors (estrogen), and environmental triggers (UV light, infections) all contribute.",
+    "treatment_overview": "Treatment is tailored to disease severity. All SLE patients should take hydroxychloroquine (reduces flares, improves survival). Mild disease (arthritis, rash): NSAIDs, low-dose prednisone, hydroxychloroquine. Moderate disease (serositis, cytopenias): medium-dose corticosteroids with steroid-sparing agents (azathioprine, mycophenolate). Severe disease (lupus nephritis Class III/IV, CNS lupus): high-dose corticosteroids with mycophenolate mofetil or IV cyclophosphamide induction, followed by maintenance with mycophenolate or azathioprine. Belimumab and voclosporin are newer adjunctive options. Strict sun protection, monitoring for flares, and cardiovascular risk reduction are essential.",
+    "high_yield_pearls": [
+      "ANA is very sensitive (>95%) but not specific for SLE — anti-dsDNA and anti-Smith antibodies are highly specific",
+      "Low complements (C3, C4) and elevated anti-dsDNA titers correlate with disease activity, especially nephritis",
+      "In SLE flares, ESR is typically elevated while CRP remains relatively normal — an elevated CRP should raise concern for infection or serositis",
+      "All SLE patients should be on hydroxychloroquine regardless of disease severity — it reduces flares, prevents organ damage, and improves survival"
+    ],
+    "sources": ["UpToDate: Clinical manifestations and diagnosis of systemic lupus erythematosus in adults", "ACR/EULAR SLE Classification Criteria 2019"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Systemic lupus erythematosus", "Rheumatoid arthritis", "Mixed connective tissue disease", "Viral infection (parvovirus B19, EBV)", "Drug-induced lupus", "Dermatomyositis", "Adult-onset Still disease"],
+    "after_stage2_more_likely": ["SLE (malar rash sparing nasolabial folds, oral ulcers, arthritis, serositis, alopecia, photosensitivity, young woman, family history of autoimmune disease)"],
+    "after_stage2_less_likely": ["Rheumatoid arthritis (malar rash and oral ulcers not typical)", "Drug-induced lupus (not on offending medications — hydralazine, procainamide, INH)"],
+    "after_labs_top3": ["Systemic lupus erythematosus", "Mixed connective tissue disease", "Drug-induced lupus"]
+  }
+}

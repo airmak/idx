@@ -1,0 +1,77 @@
+{
+  "case_id": "case_115",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Creutzfeldt-Jakob disease",
+  "icd_category": "A81.00 — Creutzfeldt-Jakob disease, unspecified",
+  "one_liner": "A 63-year-old man presents with rapidly progressive dementia over 3 months, myoclonus, visual disturbances, and cerebellar ataxia, with MRI showing cortical ribboning on DWI and elevated CSF 14-3-3 protein.",
+  "stage2": {
+    "hpi_extension": "The patient's wife reports a 3-month decline in her husband's cognitive function. Initially, he had trouble remembering appointments and misplacing items, which was attributed to stress. Over the following weeks, he became increasingly confused, developed word-finding difficulties, and made errors at work (he is a civil engineer). Six weeks ago, he began reporting visual disturbances — seeing 'things that aren't there' and complaining that objects appeared distorted. He developed an unsteady gait with frequent stumbling. His wife noticed involuntary jerking movements of his limbs (myoclonus), particularly when startled. Over the past 2 weeks, he has become nearly mute, unable to care for himself, and intermittently agitated. He has had no fever, headache, seizures, recent travel, or exposure to blood products. No family history of prion disease. No history of corneal transplant, dura mater graft, or growth hormone therapy.",
+    "pmh": "Hypertension, benign prostatic hyperplasia.",
+    "surgical_history": "Appendectomy age 22. No neurosurgical procedures.",
+    "medications": "Amlodipine 5 mg daily, tamsulosin 0.4 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of dementia, prion disease, or early-onset neurological disease. Mother died of heart disease at age 80.",
+    "social_history": "Civil engineer, currently on medical leave. Non-smoker. Rare alcohol. Married. No occupational exposure to animal nervous tissue. No history of hunting or consuming deer/elk brain. No recent travel.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "76 bpm",
+      "bp": "142/86 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "80 kg, BMI 26.2"
+    },
+    "physical_exam": "General: Cachectic-appearing man, lying in bed, intermittently agitated with periods of apparent unawareness. HEENT: No papilledema. Cranial nerves intact to limited exam. Neuro: Mental status — severe global cognitive impairment, oriented to person only (intermittently). Unable to follow multi-step commands. Sparse, paraphasic speech. Startle myoclonus — brisk jerking of limbs with sudden noise or touch. Spontaneous myoclonus of the upper extremities observed. Motor: Diffuse increased tone (paratonia/gegenhalten). Strength difficult to assess due to poor cooperation, but moves all extremities. No focal weakness appreciated. Cerebellar: Significant appendicular and truncal ataxia — unable to perform finger-to-nose accurately, wide-based ataxic gait (requires 2-person assist). DTRs: 3+ throughout. Babinski equivocal bilaterally. Primitive reflexes: Positive grasp reflex bilaterally, positive snout reflex. Visual fields: Difficult to assess formally — does not consistently track objects."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,400/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal; metabolic encephalopathy less likely"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hypothyroidism excluded"},
+      {"test_name": "Vitamin B12", "result": "380 pg/mL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Syphilis excluded"},
+      {"test_name": "HIV 1/2 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "HIV dementia excluded"},
+      {"test_name": "CSF — 14-3-3 protein", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Elevated in rapid neuronal destruction; supports CJD diagnosis but is not specific (also elevated in stroke, encephalitis, seizures). Sensitivity ~90% for sCJD."},
+      {"test_name": "CSF — RT-QuIC (Real-Time Quaking-Induced Conversion)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "RT-QuIC is the most specific CSF test for prion disease (specificity 98-100%, sensitivity ~90% for sCJD). A positive result is essentially diagnostic of prion disease."},
+      {"test_name": "CSF — Total tau", "result": "12,400 pg/mL (markedly elevated)", "flag": "HIGH", "clinical_significance": "Markedly elevated tau (>1,150 pg/mL) reflects rapid and massive neuronal loss; supports CJD over other dementias"},
+      {"test_name": "CSF — Routine studies", "result": "WBC 1/uL, protein 42 mg/dL, glucose 62 mg/dL", "flag": "WNL", "clinical_significance": "Normal routine CSF; absence of pleocytosis and normal glucose argue against infectious meningitis/encephalitis"},
+      {"test_name": "Hepatic function panel", "result": "ALT 22 U/L, AST 28 U/L, Albumin 3.6 g/dL", "flag": "WNL", "clinical_significance": "Normal; hepatic encephalopathy excluded"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain with DWI", "result": "Cortical ribboning: high signal on DWI and FLAIR in the cortex of bilateral parietal, occipital, and frontal lobes (ribbon-like cortical hyperintensity). High DWI signal in the caudate heads and putamina bilaterally. No mass, stroke, or hydrocephalus. Mild generalized atrophy.", "flag": "ABNORMAL", "clinical_significance": "Cortical ribboning on DWI is highly characteristic of CJD (sensitivity ~90%). Caudate and putamen involvement further supports the diagnosis. DWI is the most sensitive MRI sequence for CJD."},
+      {"test_name": "EEG", "result": "Periodic sharp-wave complexes (PSWCs) at 1-2 Hz, generalized, superimposed on diffusely slow background (delta range). Triphasic morphology in some leads.", "flag": "ABNORMAL", "clinical_significance": "Periodic sharp-wave complexes are classic for sporadic CJD (seen in ~60-70% of cases, more common in later stages). Combined with clinical and MRI findings, highly suggestive of CJD."}
+    ],
+    "key_tests": ["MRI brain with DWI sequences (cortical ribboning and basal ganglia signal)", "CSF RT-QuIC assay (most specific antemortem test for prion disease)", "CSF 14-3-3 protein and total tau", "EEG (periodic sharp-wave complexes)", "Comprehensive metabolic and infectious dementia workup (to exclude treatable causes)"],
+    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "RPR/VDRL", "HIV testing", "Hepatic function panel", "CSF routine studies", "Paraneoplastic antibody panel", "PRNP gene sequencing (to exclude genetic prion disease)"],
+    "low_yield_tests": ["Brain biopsy (rarely needed if RT-QuIC positive)", "CT head (insensitive compared to MRI-DWI)", "Carotid ultrasound", "Cerebral angiography"],
+    "low_yield_tests_note": "Brain biopsy is definitive but rarely needed given RT-QuIC specificity of 98-100%. Post-mortem neuropathology remains the gold standard."
+  },
+  "stage5": {
+    "final_clue": "The combination of rapidly progressive dementia (weeks to months), myoclonus, cerebellar ataxia, and visual symptoms, with MRI showing cortical ribboning on DWI and basal ganglia signal abnormalities, positive CSF RT-QuIC assay, positive 14-3-3 protein, markedly elevated tau, and periodic sharp-wave complexes on EEG, confirms the diagnosis of probable sporadic Creutzfeldt-Jakob disease per the 2017 CDC diagnostic criteria. PRNP gene sequencing shows no pathogenic mutations, excluding familial prion disease. The patient and family are counseled about the invariably fatal prognosis (median survival 5 months from onset for sCJD). Palliative care is consulted, and the family elects comfort-focused care. The case is reported to the CJD surveillance program, and consent for brain autopsy is discussed for definitive confirmation."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged to older adult (peak age 60-70) with rapidly progressive dementia evolving over weeks to months (not years), accompanied by myoclonus (especially startle myoclonus), cerebellar ataxia, visual disturbances, and behavioral changes, progressing to akinetic mutism. MRI-DWI shows cortical ribboning and/or caudate/putamen hyperintensity. CSF RT-QuIC is positive. EEG shows periodic sharp-wave complexes.",
+    "attending_mode_notes": "This case challenges the clinician to differentiate CJD from other rapidly progressive dementias (RPDs). The key attending-level insight is that CJD is a diagnosis of exclusion — one must first rule out treatable mimics: autoimmune encephalitis (anti-NMDA, anti-LGI1, anti-CASPR2), CNS vasculitis, CNS lymphoma, Hashimoto encephalopathy, paraneoplastic syndromes, and toxic/metabolic causes. The tempo is critical: Alzheimer disease progresses over years, not weeks. The 14-3-3 protein is sensitive but NOT specific — it is also elevated in stroke, seizures, and encephalitis. RT-QuIC has essentially replaced 14-3-3 for diagnostic specificity. Also important: CJD is NOT transmissible by casual contact, but standard surgical instruments cannot be sterilized with routine autoclaving (prions resist conventional sterilization) — quarantine and specialized disposal of neurosurgical instruments is required.",
+    "pathophysiology": "CJD is caused by misfolding of the normal cellular prion protein (PrPC) into the pathogenic isoform (PrPSc), which is rich in beta-sheet structure and resistant to proteolysis. PrPSc acts as a template, converting normal PrPC into more PrPSc in a self-propagating chain reaction (the 'prion hypothesis' — protein-only infectious agent). The accumulation of PrPSc causes spongiform degeneration (vacuolar change in the neuropil), neuronal loss, reactive astrocytic gliosis, and (in some cases) amyloid plaque formation. The cortical ribboning on MRI-DWI reflects restricted diffusion in vacuolated cortex. Sporadic CJD (~85% of cases) arises from spontaneous PrPC misfolding or somatic PRNP mutation. Genetic CJD (~10-15%) results from autosomal dominant PRNP mutations (E200K, D178N, etc.). Acquired forms (iatrogenic, variant CJD from BSE) are rare.",
+    "treatment_overview": "There is NO cure and NO disease-modifying treatment for CJD. Management is entirely palliative and supportive. Myoclonus: Clonazepam or valproate may provide symptomatic relief. Agitation: Low-dose antipsychotics or benzodiazepines. Seizures: Standard antiepileptics if needed. End-of-life care: Early palliative care consultation, advance directive discussions, hospice referral. Family support and counseling. Prion precautions: Standard precautions for blood/CSF handling. Special handling of surgical instruments (recommended: 1N NaOH or sodium hypochlorite 20,000 ppm for 1 hour + autoclaving at 134 C for 18 minutes). Report to CDC CJD surveillance. Encourage brain autopsy for definitive diagnosis and surveillance.",
+    "high_yield_pearls": [
+      "CJD is the most important cause of rapidly progressive dementia (RPD) — any dementia progressing over weeks to months (not years) should trigger CJD evaluation, but FIRST exclude treatable mimics (autoimmune encephalitis, CNS lymphoma, vasculitis).",
+      "MRI with DWI is the most sensitive neuroimaging test for CJD (~92% sensitivity) — look for cortical ribboning and caudate/putamen hyperintensity. DWI outperforms FLAIR and T2.",
+      "CSF RT-QuIC (Real-Time Quaking-Induced Conversion) has essentially replaced 14-3-3 protein as the key diagnostic biomarker due to its near-perfect specificity (98-100%). A positive RT-QuIC in the right clinical context is essentially diagnostic.",
+      "Prions are resistant to conventional sterilization methods (standard autoclaving, formaldehyde, alcohol, UV) — neurosurgical instruments exposed to CJD tissue require special decontamination protocols or destruction.",
+      "The three forms of CJD: Sporadic (~85%, spontaneous), Genetic (~10-15%, PRNP mutations — E200K most common), Acquired (<1%, iatrogenic or variant CJD from BSE/mad cow disease). Always send PRNP sequencing."
+    ],
+    "sources": [
+      "CDC Diagnostic Criteria for Creutzfeldt-Jakob Disease, 2018 Revision",
+      "Zerr I, et al. Updated clinical diagnostic criteria for sporadic CJD. Brain. 2009",
+      "UpToDate: Creutzfeldt-Jakob disease — epidemiology, clinical features, and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis (anti-LGI1, anti-CASPR2)", "CNS lymphoma", "Hashimoto encephalopathy", "Rapidly progressive Alzheimer disease", "Paraneoplastic encephalitis", "CNS vasculitis", "Viral encephalitis (HSV)"],
+    "after_stage2_more_likely": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis"],
+    "after_stage2_less_likely": ["Viral encephalitis", "Rapidly progressive Alzheimer disease"],
+    "after_labs_top3": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis", "Paraneoplastic encephalitis"]
+  }
+}

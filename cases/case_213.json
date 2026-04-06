@@ -1,0 +1,164 @@
+{
+  "case_id": "case_213",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Ovarian torsion (right ovary with dermoid cyst)",
+  "icd_category": "N83.51 – Torsion of right ovary and ovarian pedicle",
+  "one_liner": "A 19-year-old female presents with sudden-onset severe right lower quadrant pain with nausea and vomiting; ultrasound reveals an enlarged right ovary (8 cm) with a dermoid cyst and absent arterial Doppler flow consistent with ovarian torsion.",
+  "stage2": {
+    "hpi_extension": "The patient was at volleyball practice when she developed sudden, excruciating right-sided pelvic pain approximately 4 hours ago. The pain is sharp and constant, rated 9/10, and radiates to her right flank. She has had 4 episodes of vomiting since onset. She reports 2 prior brief episodes of similar right-sided pain in the past 3 months that resolved spontaneously within 30 minutes, which she attributed to muscle strain. She denies fever, vaginal bleeding, or vaginal discharge. Her last menstrual period was 12 days ago and was normal. She is sexually active with one male partner and uses condoms consistently. A urine pregnancy test in the ED is negative.",
+    "pmh": "No chronic medical conditions. Regular menstrual cycles (28 days). An ovarian cyst was incidentally noted on ultrasound during an ER visit for right-sided pain 2 months ago (3 cm, 'complex cystic'), and outpatient follow-up was recommended but not completed.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Non-contributory",
+    "social_history": "College freshman. Non-smoker. Social alcohol use. Sexually active, uses condoms. No history of STIs.",
+    "vitals": {
+      "temp": "37.6°C (99.7°F)",
+      "hr": "108 bpm",
+      "bp": "128/82 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "60 kg, BMI 22.4 kg/m²"
+    },
+    "physical_exam": "General: Writhing in pain, unable to find comfortable position; pale; actively retching. HEENT: Unremarkable. Cardiovascular: Tachycardic, regular rhythm. Pulmonary: Clear to auscultation. Abdomen: Moderate distension; severe tenderness in the right lower quadrant and right flank with involuntary guarding; mild rebound tenderness; no peritoneal signs on the left; bowel sounds diminished. Pelvic examination: No vaginal discharge; cervix closed, non-tender; severe right adnexal tenderness with a palpable 8-cm firm, tender mass; no cervical motion tenderness; left adnexa non-tender. Extremities: Warm, mildly diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urine hCG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes ectopic pregnancy as the cause of acute pelvic pain with an adnexal mass."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 14.2 × 10³/µL, Hgb 13.0 g/dL, Plt 285 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis is common in ovarian torsion as a stress/pain response; it does not necessarily indicate infection."
+      },
+      {
+        "test_name": "CRP",
+        "result": "12 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CRP from tissue ischemia and inflammation."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138, K 4.0, Cl 102, CO2 22, BUN 14, Cr 0.8, Glucose 105",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; mild glucose elevation from stress response."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.020, 1-2 WBC/HPF, no bacteria, no nitrites",
+        "flag": "WNL",
+        "clinical_significance": "Normal UA excludes UTI and ureterolithiasis as causes of right flank pain."
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated lactate may reflect tissue ischemia from the torsed ovary."
+      },
+      {
+        "test_name": "CA-125",
+        "result": "42 U/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CA-125 can be seen with dermoid cysts and peritoneal irritation; not indicative of malignancy in this age group."
+      },
+      {
+        "test_name": "AFP, β-hCG, LDH (tumor markers)",
+        "result": "AFP 3.2 ng/mL (WNL), β-hCG <2 mIU/mL (WNL), LDH 180 U/L (WNL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal germ cell tumor markers are reassuring in a young patient with an ovarian mass."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound with Doppler",
+        "result": "Right ovary markedly enlarged (8.2 × 5.5 × 4.8 cm, volume 115 mL) with a 5.5-cm complex cystic mass containing echogenic foci with posterior acoustic shadowing (fat and calcification) consistent with a mature cystic teratoma (dermoid). Peripheral follicles displaced ('string of pearls' sign). No arterial Doppler flow detected in the right ovary. Left ovary normal (3.2 cm, multiple follicles, normal Doppler flow). Small amount of free fluid in the cul-de-sac.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Enlarged ovary with absent arterial Doppler flow is highly suggestive of ovarian torsion. The dermoid cyst (>5 cm) serves as the lead point for torsion. NOTE: presence of Doppler flow does NOT exclude torsion, as intermittent torsion can produce variable flow."
+      },
+      {
+        "test_name": "CT abdomen/pelvis (obtained before TVUS)",
+        "result": "Enlarged right ovary with a 5.5-cm mass containing fat and calcification (fat-fluid level). Ovarian edema with surrounding stranding. No appendiceal abnormality. No ureterolithiasis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT shows the fat-containing mass consistent with a dermoid and ovarian edema suggesting torsion. CT also effectively excludes appendicitis, an important differential."
+      }
+    ],
+    "key_tests": [
+      "Transvaginal ultrasound with Doppler",
+      "Urine pregnancy test",
+      "CBC",
+      "Surgical exploration (laparoscopy — both diagnostic and therapeutic)"
+    ],
+    "acceptable_tests": [
+      "CT abdomen/pelvis (if appendicitis is a concern)",
+      "CRP",
+      "Urinalysis",
+      "Tumor markers (AFP, β-hCG, LDH, CA-125 — in young patients with ovarian masses)",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "MRI pelvis (takes too long in acute setting)",
+      "Abdominal X-ray",
+      "Serial β-hCG monitoring (pregnancy excluded)",
+      "Diagnostic paracentesis (free fluid is reactive, not diagnostic)"
+    ],
+    "attending_pimp_questions": [
+      "Why does the presence of arterial Doppler flow NOT exclude ovarian torsion?",
+      "What is the current standard surgical approach for ovarian torsion — detorsion or oophorectomy — and when is each appropriate?",
+      "What ovarian pathology most commonly serves as a lead point for torsion by age group?",
+      "What is the risk of venous thromboembolism from detorsion of a necrotic-appearing ovary, and does the evidence support detorsion even with a black/necrotic appearance?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Emergent diagnostic laparoscopy reveals a right ovary that is enlarged, dusky purple, and twisted 720° on its pedicle with the dermoid cyst as the lead point. The ovary is detorsed, and color gradually returns over 15 minutes. The dermoid cyst is excised via ovarian cystectomy, preserving the ovary. Pathology confirms mature cystic teratoma without malignancy."
+  },
+  "debrief": {
+    "classic_presentation": "Ovarian torsion classically presents with sudden-onset severe unilateral pelvic pain, often associated with nausea and vomiting (70%). The pain may be intermittent if torsion-detorsion occurs (as with the patient's prior episodes). The right ovary is affected more frequently (60%) because the sigmoid colon limits left ovarian mobility. An adnexal mass is the most common predisposing factor (most torsion occurs with ovaries/masses >5 cm). In reproductive-age women, dermoid cysts are the most common lead point. Peak incidence is in reproductive-age women, but it can occur at any age.",
+    "attending_mode_notes": "Ovarian torsion is a surgical emergency — delays in diagnosis lead to ovarian necrosis and loss of fertility. The sensitivity of Doppler ultrasound for detecting absent flow is only 60-70%, because the ovary has a dual blood supply (ovarian artery and uterine artery via the tubo-ovarian arcade), and intermittent torsion can produce variable flow patterns. Therefore, the presence of Doppler flow does NOT exclude torsion. The most reliable ultrasound finding is an enlarged, edematous ovary (>5 cm) with peripherally displaced follicles. Current evidence strongly supports ovarian detorsion over oophorectomy, even when the ovary appears necrotic/black — multiple studies show that detorsed black ovaries regain function in up to 88-100% of cases without increased thromboembolic risk. Oophorectomy should be reserved for postmenopausal patients or when malignancy is suspected. In young patients with ovarian masses, send germ cell tumor markers (AFP, β-hCG, LDH) preoperatively and obtain frozen section intraoperatively if malignancy is a concern. Dermoid cysts (mature cystic teratomas) are benign in >98% of cases in reproductive-age women; malignant transformation (squamous cell carcinoma) occurs in <2% and primarily in postmenopausal patients.",
+    "pathophysiology": "Ovarian torsion occurs when the ovary and/or fallopian tube twist on the infundibulopelvic ligament and tubo-ovarian ligament, compromising vascular supply. The thin-walled veins and lymphatics are occluded first (causing ovarian edema and enlargement), followed by arterial compromise as the torsion progresses. A mass serves as a lead point by increasing the weight and mobility of the ovary, creating a pendulum effect. Intermittent torsion-detorsion produces episodic sharp pain that resolves spontaneously. Complete torsion leads to hemorrhagic infarction and necrosis. The released inflammatory mediators and prostaglandins stimulate the chemoreceptor trigger zone, causing the prominent nausea and vomiting characteristic of torsion.",
+    "treatment_overview": "Emergent surgical intervention (laparoscopy preferred) for detorsion and assessment of ovarian viability. Detorsion is attempted first regardless of ovarian appearance — even a dark, necrotic-appearing ovary may recover function. If a cyst or mass is present, cystectomy is performed after detorsion to prevent recurrence. Oophoropexy (fixation of the ovary to the pelvic sidewall) may be considered for recurrence prevention but is controversial. If malignancy is suspected (ascites, excrescences, solid components, positive tumor markers), frozen section is obtained and staging surgery may be required. Oophorectomy is performed only for confirmed malignancy, postmenopausal patients, or truly non-salvageable ovarian tissue after adequate observation post-detorsion. Postoperative follow-up includes ultrasound at 6-8 weeks to confirm ovarian viability and follicular development.",
+    "high_yield_pearls": [
+      "Ovarian torsion is a clinical and surgical diagnosis — Doppler flow may be present in up to 40% of confirmed torsion cases due to dual blood supply and intermittent torsion; do NOT rely on Doppler alone to exclude torsion.",
+      "An enlarged, edematous ovary (>5 cm) with peripherally displaced follicles on ultrasound is the most reliable imaging finding and should prompt urgent surgical consultation.",
+      "Current evidence supports ovarian detorsion even when the ovary appears black and necrotic — ovarian salvage rates of 88-100% have been reported, and the feared complication of pulmonary embolism from detorsion is exceedingly rare.",
+      "Dermoid cysts (mature cystic teratomas) are the most common lead point for torsion in reproductive-age women and appear on ultrasound as complex masses with echogenic foci (hair, fat, teeth) and posterior acoustic shadowing.",
+      "Prior episodes of self-resolving sharp pelvic pain in a patient with a known ovarian mass suggest intermittent torsion-detorsion and should prompt consideration of elective cystectomy to prevent complete torsion."
+    ],
+    "sources": [
+      "ACOG Committee Opinion: Adnexal Torsion in Adolescents",
+      "UpToDate: Ovarian and fallopian tube torsion",
+      "UpToDate: Ovarian germ cell tumors: Pathology, epidemiology, clinical manifestations, and diagnosis",
+      "Williams Gynecology, 4th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ovarian torsion",
+      "Ruptured ovarian cyst",
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Ovarian neoplasm (germ cell tumor)",
+      "Ureterolithiasis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_stage2_more_likely": [
+      "Ovarian torsion (sudden severe pain with nausea/vomiting, known ovarian mass, prior intermittent episodes suggesting torsion-detorsion, palpable tender adnexal mass)",
+      "Ruptured ovarian cyst (sudden pain with known cyst, though severity and nausea/vomiting are more typical of torsion)"
+    ],
+    "after_stage2_less_likely": [
+      "Ectopic pregnancy (excluded by negative pregnancy test)",
+      "Appendicitis (possible given RLQ pain, but adnexal mass and known ovarian cyst favor torsion)",
+      "PID (afebrile, no discharge, no cervical motion tenderness, negative STI history)"
+    ],
+    "after_labs_top3": [
+      "Ovarian torsion with dermoid cyst (absent Doppler flow, enlarged edematous ovary with dermoid as lead point)",
+      "Ruptured dermoid cyst (dermoid present but absent Doppler flow and ovarian edema favor torsion over simple rupture)",
+      "Appendicitis (CT shows no appendiceal abnormality — effectively excluded)"
+    ]
+  }
+}

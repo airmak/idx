@@ -1,0 +1,111 @@
+{
+  "case_id": "case_127",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Chronic Kidney Disease Stage 3",
+  "icd_category": "N18.3 — Chronic kidney disease, stage 3",
+  "one_liner": "A 58-year-old woman with longstanding hypertension and type 2 diabetes presents for routine follow-up and is found to have an elevated creatinine and decreased GFR.",
+  "stage2": {
+    "hpi_extension": "The patient presents for her annual physical. She has been feeling generally well but reports mild fatigue over the past several months, occasional nocturia (2-3 times per night), and mild bilateral ankle swelling by the end of the day. She denies gross hematuria, foamy urine, flank pain, or changes in urinary frequency. Her diabetes has been suboptimally controlled with HbA1c values around 8.5% over the past 2 years. Her blood pressure at home readings have been consistently elevated around 150/90. She is adherent to most medications but admits to missing doses occasionally.",
+    "pmh": "Type 2 diabetes mellitus (12 years), hypertension (15 years), hyperlipidemia, obesity.",
+    "surgical_history": "Cholecystectomy (age 45).",
+    "medications": "Metformin 1000 mg twice daily, glipizide 10 mg daily, amlodipine 10 mg daily, atorvastatin 40 mg daily.",
+    "allergies": "ACE inhibitors (cough).",
+    "family_history": "Father with ESRD on dialysis. Mother with type 2 diabetes and hypertension. Brother with CKD stage 4.",
+    "social_history": "Administrative assistant. Non-smoker. No alcohol or illicit drugs. Sedentary lifestyle. Diet high in processed foods.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "78 bpm",
+      "bp": "154/92 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "92 kg, BMI 34.1"
+    },
+    "physical_exam": "Obese woman in no acute distress. Fundoscopic exam: cotton-wool spots and dot-blot hemorrhages bilaterally consistent with moderate nonproliferative diabetic retinopathy. Heart: regular rate and rhythm, S4 gallop, no murmurs. Lungs: clear bilaterally. Abdomen: obese, soft, non-tender, no masses. Extremities: 1+ bilateral pitting edema at the ankles. Peripheral pulses diminished bilaterally. Decreased monofilament sensation in bilateral feet."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "1.8 mg/dL (prior 1.5 mg/dL one year ago)", "flag": "HIGH", "clinical_significance": "Elevated and rising; indicates progressive kidney disease"},
+      {"test_name": "eGFR (CKD-EPI)", "result": "38 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "eGFR 30-44 defines CKD stage 3b; significant loss of kidney function"},
+      {"test_name": "Urine Albumin:Creatinine Ratio (UACR)", "result": "320 mg/g", "flag": "HIGH", "clinical_significance": "Moderately increased albuminuria (A2 category); indicates glomerular damage likely from diabetic nephropathy"},
+      {"test_name": "HbA1c", "result": "8.4%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control contributing to progressive diabetic nephropathy"},
+      {"test_name": "Serum Potassium", "result": "5.1 mEq/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; impaired renal potassium excretion in CKD"},
+      {"test_name": "Serum Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from reduced acid excretion in CKD"},
+      {"test_name": "Serum Phosphorus", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated phosphorus from reduced renal excretion; risk for CKD-mineral bone disease"},
+      {"test_name": "Serum Calcium", "result": "8.6 mg/dL", "flag": "LOW", "clinical_significance": "Mild hypocalcemia from decreased 1,25-dihydroxyvitamin D production by failing kidneys"},
+      {"test_name": "Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Mild normocytic anemia of CKD from reduced erythropoietin production"},
+      {"test_name": "PTH (intact)", "result": "98 pg/mL", "flag": "HIGH", "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia in CKD"},
+      {"test_name": "Lipid Panel — LDL", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Suboptimally controlled hyperlipidemia; cardiovascular risk increased in CKD"},
+      {"test_name": "Vitamin D, 25-OH", "result": "18 ng/mL", "flag": "LOW", "clinical_significance": "Vitamin D deficiency, common in CKD; contributes to secondary hyperparathyroidism"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys mildly reduced in size (right 9.8 cm, left 9.5 cm) with increased cortical echogenicity. No hydronephrosis, masses, or stones.", "flag": "ABNORMAL", "clinical_significance": "Small echogenic kidneys suggest chronic parenchymal disease; increased echogenicity correlates with fibrosis"}
+    ],
+    "key_tests": [
+      "Serum creatinine with eGFR calculation",
+      "Urine albumin:creatinine ratio (UACR)",
+      "Basic metabolic panel",
+      "Renal ultrasound"
+    ],
+    "acceptable_tests": [
+      "Complete blood count",
+      "HbA1c",
+      "Serum phosphorus and calcium",
+      "Intact PTH level",
+      "25-hydroxyvitamin D level",
+      "Lipid panel",
+      "Serum iron studies",
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (diagnosis clear from clinical context of longstanding DM/HTN with retinopathy)",
+      "CT abdomen with contrast (risk of contrast-induced nephropathy)",
+      "ANA/ANCA panel (no features of glomerulonephritis)",
+      "Renal artery Doppler (no clinical suspicion for RAS)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "An eGFR of 38 mL/min/1.73m² with albuminuria (UACR 320 mg/g), bilateral small echogenic kidneys, and complications of CKD (anemia, hyperphosphatemia, secondary hyperparathyroidism, metabolic acidosis) in a patient with longstanding poorly controlled diabetes and hypertension confirms CKD stage 3b."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged patient with longstanding hypertension and diabetes is found to have progressively declining eGFR, albuminuria, and early CKD complications (anemia, mineral bone disease, metabolic acidosis) on routine labs. Diabetic retinopathy supports diabetic nephropathy as the etiology.",
+    "attending_mode_notes": null,
+    "pathophysiology": "CKD is defined as kidney damage (albuminuria) or decreased kidney function (eGFR <60) for ≥3 months. Diabetic nephropathy is the most common cause of CKD/ESRD in the United States. Chronic hyperglycemia causes glomerular hyperfiltration, mesangial expansion, and progressive glomerulosclerosis. Hypertension accelerates nephron loss through arteriolar damage. As functioning nephrons decline, complications emerge: reduced EPO production (anemia), decreased phosphate excretion and vitamin D activation (CKD-MBD with secondary hyperparathyroidism), reduced acid excretion (metabolic acidosis), and impaired potassium handling (hyperkalemia).",
+    "treatment_overview": "Blood pressure control to <130/80 using an ARB (losartan or valsartan, since patient cannot tolerate ACE inhibitors) for nephroprotection. Optimize glycemic control (target HbA1c <7%). Consider SGLT2 inhibitor (dapagliflozin or empagliflozin) for cardiorenal protection. Treat metabolic acidosis with sodium bicarbonate supplementation if bicarb <22. Manage CKD-MBD with phosphate binders, vitamin D supplementation, and dietary phosphorus restriction. Correct anemia with iron supplementation first, then consider ESA if Hgb remains <10. Low-sodium, low-potassium, low-phosphorus diet. Nephrology referral for co-management. Avoid nephrotoxins (NSAIDs, contrast). May need to adjust or discontinue metformin if eGFR falls further.",
+    "high_yield_pearls": [
+      "CKD staging: Stage 1 (eGFR ≥90 with kidney damage), Stage 2 (60-89), Stage 3a (45-59), Stage 3b (30-44), Stage 4 (15-29), Stage 5 (<15 or dialysis).",
+      "The presence of diabetic retinopathy in a patient with diabetes and CKD strongly supports diabetic nephropathy as the etiology, often obviating the need for biopsy.",
+      "SGLT2 inhibitors (dapagliflozin, empagliflozin) have robust evidence for slowing CKD progression and reducing cardiovascular events, independent of glycemic control.",
+      "ACE inhibitors or ARBs are first-line antihypertensives in CKD with proteinuria because they reduce intraglomerular pressure and slow disease progression.",
+      "Referral to nephrology is recommended when eGFR <30, rapidly declining eGFR, persistent albuminuria, or when CKD complications are difficult to manage."
+    ],
+    "sources": [
+      "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+      "ADA Standards of Medical Care in Diabetes — Microvascular Complications and Foot Care (2024)",
+      "UpToDate: Overview of the management of chronic kidney disease in adults (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Chronic kidney disease from diabetic nephropathy",
+      "Hypertensive nephrosclerosis",
+      "Chronic glomerulonephritis",
+      "Obstructive uropathy",
+      "Ischemic nephropathy (renal artery stenosis)",
+      "Polycystic kidney disease"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic nephropathy — 12-year history of poorly controlled diabetes with retinopathy, strong family history of CKD",
+      "Hypertensive nephrosclerosis — longstanding hypertension contributes; likely a coexisting factor"
+    ],
+    "after_stage2_less_likely": [
+      "Obstructive uropathy — no symptoms of urinary obstruction, no palpable bladder",
+      "Polycystic kidney disease — no family history of PKD, no flank masses on exam"
+    ],
+    "after_labs_top3": [
+      "Diabetic nephropathy — progressive albuminuria, declining eGFR, retinopathy, small echogenic kidneys in longstanding DM",
+      "Hypertensive nephrosclerosis — significant contributor given uncontrolled HTN; likely overlapping with diabetic nephropathy",
+      "Chronic glomerulonephritis — less likely given classic diabetic picture with retinopathy and no active sediment"
+    ]
+  }
+}

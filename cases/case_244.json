@@ -1,0 +1,108 @@
+{
+  "case_id": "case_244",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Gastroesophageal reflux disease (GERD)",
+  "icd_category": "K21.0 — Gastro-esophageal reflux disease with esophagitis",
+  "one_liner": "A 45-year-old overweight man presents with 4 months of burning epigastric and substernal chest pain that worsens after meals and when lying down, with sour taste in his mouth.",
+  "stage2": {
+    "hpi_extension": "The patient describes a 4-month history of burning pain in the epigastric and substernal region, occurring 30-60 minutes after meals, especially large or fatty meals. The pain worsens when lying down at night and is partially relieved by sitting upright or taking over-the-counter antacids (Tums). He reports a sour or bitter taste in his mouth, particularly in the morning. He has occasional regurgitation of food contents. He denies dysphagia, odynophagia, weight loss, melena, hematemesis, or early satiety. He also reports a chronic dry cough for the past 2 months, predominantly at night. He drinks 3-4 cups of coffee daily and eats dinner late (around 9 PM), then lies down within an hour. He has tried OTC ranitidine in the past with partial relief but has not tried a PPI.",
+    "pmh": "Obesity. Hypertension, well-controlled. No prior GI diagnoses.",
+    "surgical_history": "None",
+    "medications": "Amlodipine 5 mg daily, calcium carbonate (Tums) PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with Barrett esophagus. Mother with type 2 diabetes. No family history of GI malignancy.",
+    "social_history": "Works as a software engineer (sedentary job). Married with two children. Drinks 2-3 beers on weekends. Smokes 5 cigarettes daily for 15 years. Denies illicit drug use. Eats fast food frequently. No recent travel.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "76 bpm",
+      "bp": "134/84 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "210 lbs, BMI 31.2 kg/m²"
+    },
+    "physical_exam": "General: Obese man in no acute distress. HEENT: Oropharynx clear, mild erythema of posterior pharynx. Dental erosions noted on lingual surfaces of upper teeth. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally, no wheezing. Abdomen: Soft, mild epigastric tenderness without guarding or rebound, no hepatosplenomegaly, normoactive bowel sounds. No masses. Rectal: Deferred (no alarm features). Neurological: Grossly intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 7.0, Hgb 14.5, Hct 43.2, Plt 240", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia suggesting GI blood loss"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 14, Cr 0.9, Glucose 102, Ca 9.4, AST 22, ALT 24, Alk Phos 60, Albumin 4.1", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mildly elevated fasting glucose in obese patient"},
+      {"test_name": "Lipid panel", "result": "Total cholesterol 215, LDL 138, HDL 42, Triglycerides 175", "flag": "ABNORMAL", "clinical_significance": "Dyslipidemia consistent with metabolic syndrome; relevant for cardiovascular risk assessment given chest pain presentation"},
+      {"test_name": "H. pylori stool antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out H. pylori infection as cause of dyspepsia"},
+      {"test_name": "HbA1c", "result": "5.8%", "flag": "BORDERLINE", "clinical_significance": "Prediabetic range, consistent with obesity and metabolic syndrome"},
+      {"test_name": "Troponin I", "result": "<0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal troponin rules out acute myocardial injury; important given chest pain presentation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "No infiltrate, effusion, or mass. Normal cardiac silhouette. No hiatal hernia visible.", "flag": "WNL", "clinical_significance": "Rules out pulmonary cause of cough and cardiac enlargement"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm, no ST-T changes, no ischemic findings", "flag": "WNL", "clinical_significance": "Rules out cardiac ischemia as cause of chest pain"}
+    ],
+    "key_tests": [
+      "Clinical history and symptom assessment — classic GERD symptoms with heartburn, regurgitation, postprandial worsening, and nocturnal symptoms",
+      "H. pylori stool antigen — negative, ruling out H. pylori-associated dyspepsia",
+      "Troponin and ECG — ruling out cardiac cause of chest pain",
+      "Empiric PPI trial — both diagnostic and therapeutic for typical GERD symptoms"
+    ],
+    "acceptable_tests": [
+      "CBC — screening for anemia from chronic blood loss",
+      "CMP — baseline metabolic assessment",
+      "Lipid panel — cardiovascular risk stratification given chest pain",
+      "HbA1c — metabolic syndrome screening in obese patient",
+      "Chest X-ray — evaluating chronic cough"
+    ],
+    "low_yield_tests": [
+      "Upper endoscopy (no alarm features; empiric PPI trial is appropriate first step in uncomplicated GERD)",
+      "24-hour pH monitoring (reserved for refractory cases or preoperative evaluation)",
+      "Esophageal manometry (no dysphagia suggesting motility disorder)",
+      "Barium swallow (less sensitive than endoscopy and not indicated as first-line)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient presents with classic GERD symptoms: postprandial substernal burning, nocturnal worsening when supine, sour taste/regurgitation, and extraesophageal manifestation (chronic cough). Multiple risk factors are present: obesity, smoking, late evening meals, caffeine intake. H. pylori is negative, cardiac workup is negative, and there are no alarm features (no dysphagia, weight loss, anemia, or GI bleeding) warranting immediate endoscopy. An empiric PPI trial is both diagnostic and therapeutic."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged, overweight adult presenting with heartburn (burning substernal/epigastric pain worse after meals and when supine) and acid regurgitation, often accompanied by extraesophageal symptoms (chronic cough, laryngitis, dental erosions, asthma exacerbation). Symptoms are worse with large meals, fatty/spicy foods, caffeine, alcohol, smoking, and lying down shortly after eating. Relief with antacids or PPIs is characteristic.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GERD results from dysfunction of the anti-reflux barrier — primarily transient lower esophageal sphincter (LES) relaxations, reduced basal LES pressure, or anatomic disruption (hiatal hernia). Refluxed gastric acid and pepsin damage the esophageal squamous epithelium, causing inflammation (esophagitis). Contributing factors include delayed gastric emptying, impaired esophageal clearance, and increased intra-abdominal pressure (obesity, pregnancy). Chronic acid exposure can lead to Barrett metaplasia (intestinal metaplasia of the esophageal epithelium), which is a premalignant condition. Extraesophageal symptoms result from microaspiration of acid into the airways and vagal nerve-mediated reflexes.",
+    "treatment_overview": "Lifestyle modifications: weight loss, elevate head of bed 6-8 inches, avoid eating 2-3 hours before bedtime, reduce trigger foods (fatty, spicy, acidic), reduce caffeine and alcohol, smoking cessation. Pharmacotherapy: first-line is an 8-week trial of once-daily PPI (omeprazole 20 mg, pantoprazole 40 mg) taken 30 minutes before the first meal. If partial response, increase to twice-daily PPI. H2 receptor antagonists (famotidine 20 mg BID) are an alternative for mild symptoms. Antacids for intermittent symptom relief. Refer for upper endoscopy if alarm features present (dysphagia, weight loss, anemia, age >60 with new symptoms, family history of Barrett/esophageal cancer) or if symptoms persist despite 8 weeks of PPI therapy. Surgical fundoplication (Nissen) is reserved for refractory cases or those who prefer not to take long-term PPIs.",
+    "high_yield_pearls": [
+      "Alarm features (dysphagia, odynophagia, weight loss, GI bleeding, anemia, vomiting) or age >60 with new-onset symptoms warrant endoscopy rather than empiric PPI trial.",
+      "PPIs should be taken 30 minutes BEFORE the first meal of the day for maximal efficacy — they inhibit actively secreting proton pumps.",
+      "Chronic GERD (>5 years) in patients with risk factors (male, >50, obesity, Caucasian, smoking) warrants screening endoscopy for Barrett esophagus.",
+      "Extraesophageal manifestations of GERD include chronic cough, laryngitis, dental erosions, and asthma exacerbation — these may be the presenting complaint.",
+      "Long-term PPI use has been associated with C. difficile infection, hypomagnesemia, osteoporotic fractures, and vitamin B12 deficiency — use the lowest effective dose."
+    ],
+    "sources": [
+      "AGA Clinical Practice Update on GERD (Gastroenterology, 2022)",
+      "ACG Clinical Guideline: Treatment of Gastroesophageal Reflux Disease (Am J Gastroenterol, 2022)",
+      "Katz PO et al. ACG Clinical Guideline for the Diagnosis and Management of GERD. Am J Gastroenterol, 2013",
+      "Kahrilas PJ. GERD pathogenesis, pathophysiology, and clinical manifestations. Cleveland Clinic J Med, 2003",
+      "Shaheen NJ et al. AGA Clinical Practice Update on the Diagnosis and Management of Barrett's Esophagus. Gastroenterology, 2022"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Gastroesophageal reflux disease",
+      "Peptic ulcer disease",
+      "Acute coronary syndrome",
+      "Esophageal motility disorder",
+      "Functional dyspepsia",
+      "Eosinophilic esophagitis",
+      "H. pylori gastritis",
+      "Esophageal cancer"
+    ],
+    "after_stage2_more_likely": [
+      "GERD — classic heartburn with postprandial and nocturnal worsening, regurgitation, dental erosions, chronic cough, multiple risk factors",
+      "Functional dyspepsia — chronic epigastric symptoms, but regurgitation and positional worsening favor GERD"
+    ],
+    "after_stage2_less_likely": [
+      "Acute coronary syndrome — pain is meal-related and positional, no exertional component",
+      "Esophageal cancer — no dysphagia, weight loss, or other alarm features",
+      "Eosinophilic esophagitis — more common with food impaction and dysphagia in younger atopic patients"
+    ],
+    "after_labs_top3": [
+      "GERD — classic symptoms, negative H. pylori, normal cardiac workup, no alarm features; empiric PPI trial appropriate",
+      "Functional dyspepsia — possible comorbid condition, but dominant reflux symptoms favor GERD",
+      "Peptic ulcer disease — negative H. pylori and no NSAID use make this less likely, but cannot be fully excluded without endoscopy"
+    ]
+  }
+}

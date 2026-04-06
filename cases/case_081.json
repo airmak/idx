@@ -1,0 +1,79 @@
+{
+  "case_id": "case_081",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Viral Myocarditis",
+  "icd_category": "I40.0 — Infective myocarditis",
+  "one_liner": "A 26-year-old previously healthy male presents with acute-onset chest pain, dyspnea, and elevated troponin 10 days after a viral upper respiratory illness.",
+  "stage2": {
+    "hpi_extension": "The patient developed a URI with fever, cough, and myalgias 10 days ago that largely resolved. Three days ago, he developed sharp chest pain that is partially pleuritic, mild exertional dyspnea, and progressive fatigue. He went to urgent care where an ECG showed diffuse ST changes and troponin was elevated at 2.5 ng/mL. He was transferred to the ED. He denies illicit drug use, recent travel, or known sick contacts beyond the initial cold. He notes new-onset palpitations.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of cardiomyopathy or sudden cardiac death.",
+    "social_history": "Non-smoker. Social alcohol (2-3 drinks/week). Graduate student in engineering. Recreationally active (basketball, running). No illicit drugs. No recent vaccinations.",
+    "vitals": {
+      "temp": "37.9°C (100.2°F)",
+      "hr": "108 bpm, regular",
+      "bp": "102/68 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "80 kg, BMI 24.7"
+    },
+    "physical_exam": "General: Young male, appears fatigued, mild distress. HEENT: No JVD. Cardiovascular: Tachycardic, regular, soft S3, no murmurs. Faint pericardial friction rub at left sternal border. Pulmonary: Fine crackles at bilateral bases. Abdomen: Soft, non-tender. Extremities: No edema. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I (serial)", "result": "Peak 8.2 ng/mL (trending up from 2.5)", "flag": "HIGH", "clinical_significance": "Significantly elevated with rising trend, indicating active myocardial necrosis"},
+      {"test_name": "BNP", "result": "620 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicating myocardial dysfunction and volume overload"},
+      {"test_name": "CRP", "result": "12.5 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, significant systemic inflammation"},
+      {"test_name": "ESR", "result": "55 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated, supporting inflammatory process"},
+      {"test_name": "WBC", "result": "12,800/µL with lymphocyte predominance", "flag": "HIGH", "clinical_significance": "Leukocytosis with lymphocyte predominance supports viral etiology"},
+      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "AST", "result": "68 U/L", "flag": "HIGH", "clinical_significance": "Elevated, likely cardiac origin given elevated troponin"},
+      {"test_name": "Respiratory viral panel", "result": "Positive for Coxsackievirus B (enterovirus)", "flag": "ABNORMAL", "clinical_significance": "Coxsackievirus B is the most common viral cause of myocarditis"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "No autoimmune etiology"},
+      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV-related cardiomyopathy"},
+      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "Cardiac MRI", "result": "LVEF 38%. Regional wall motion abnormalities (inferolateral hypokinesis) not conforming to a coronary distribution. Myocardial edema on T2 mapping (inferolateral wall). Subepicardial and mid-wall late gadolinium enhancement in the inferolateral wall. Small pericardial effusion. Meets Lake Louise criteria for myocarditis.", "flag": "ABNORMAL", "clinical_significance": "Lake Louise criteria fulfilled — tissue characterization is diagnostic of myocarditis. Subepicardial/mid-wall LGE pattern distinguishes from MI (subendocardial)."},
+      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 40%, inferolateral wall hypokinesis, mild global LV dilation, small pericardial effusion, mild mitral regurgitation", "flag": "ABNORMAL", "clinical_significance": "New LV dysfunction with regional wall motion abnormality in a non-coronary distribution"},
+      {"test_name": "12-lead ECG", "result": "Sinus tachycardia. Diffuse ST elevation (concave up). Frequent PVCs. PR depression in leads II, III, aVF. No reciprocal changes.", "flag": "ABNORMAL", "clinical_significance": "ST changes suggest myopericarditis. PVCs indicate myocardial irritability."}
+    ],
+    "key_tests": ["Cardiac MRI (gold standard non-invasive test)", "Troponin (serial)", "Transthoracic echocardiogram", "12-lead ECG", "CRP/ESR"],
+    "acceptable_tests": ["BNP", "CBC", "Basic metabolic panel", "Viral serologies", "ANA", "HIV", "TSH", "Endomyocardial biopsy (gold standard but invasive)", "Coronary angiography (to exclude ACS)"],
+    "low_yield_tests": ["Stress test", "CT coronary angiography (low pre-test probability)", "Cardiac catheterization (unless ruling out ACS)", "Pulmonary function tests"],
+    "key_tests_rationale": "Cardiac MRI with Lake Louise criteria is the non-invasive gold standard for myocarditis diagnosis. Serial troponin tracks myocardial necrosis. Echo assesses ventricular function. ECG identifies arrhythmias and ST changes. CRP monitors inflammation."
+  },
+  "stage5": {
+    "final_clue": "Cardiac MRI fulfills Lake Louise criteria with myocardial edema on T2 mapping and subepicardial/mid-wall late gadolinium enhancement in the inferolateral wall — a pattern diagnostic of myocarditis. The temporal association with Coxsackievirus B infection, elevated troponin, and new LV dysfunction confirms acute viral myocarditis."
+  },
+  "debrief": {
+    "classic_presentation": "Viral myocarditis classically presents in young adults (20-40 years) with chest pain, dyspnea, and arrhythmias days to weeks after a viral prodrome. Troponin is elevated. The presentation can mimic ACS (ST elevation, troponin rise) or new-onset heart failure. Coxsackievirus B is the most common viral cause.",
+    "attending_mode_notes": "The key diagnostic challenge is distinguishing myocarditis from acute MI. Clues favoring myocarditis: young patient, viral prodrome, ST changes not conforming to a coronary territory, subepicardial/mid-wall LGE on MRI (vs. subendocardial in MI). Endomyocardial biopsy is the gold standard (Dallas criteria: inflammatory infiltrate with myocyte necrosis) but has low sensitivity due to sampling error and is reserved for fulminant cases or diagnostic uncertainty. Giant cell myocarditis must be excluded as it requires immunosuppression.",
+    "pathophysiology": "Viral myocarditis progresses through three phases: (1) Viral entry and direct myocyte injury (1-3 days), (2) Immune-mediated injury from cellular and humoral immune response against viral antigens and cross-reactive cardiac antigens (days to weeks — most of the clinical disease), (3) Resolution or progression to dilated cardiomyopathy if immune response does not resolve. Coxsackievirus B enters cardiomyocytes via the coxsackievirus-adenovirus receptor (CAR).",
+    "treatment_overview": "Supportive care is the mainstay: hemodynamic support (diuretics, inotropes if needed), arrhythmia management, and activity restriction. GDMT for HFrEF if EF reduced (ACEi/ARB, beta-blocker once stable). Avoid NSAIDs (may worsen inflammation in animal models). Immunosuppression only for biopsy-proven autoimmune or giant cell myocarditis — NOT for standard viral myocarditis. Restrict exercise for 3-6 months minimum. Most patients (50-70%) recover normal LV function; 20-30% develop chronic DCM.",
+    "high_yield_pearls": [
+      "Cardiac MRI with Lake Louise criteria (myocardial edema + non-ischemic LGE pattern) is the non-invasive gold standard for diagnosing myocarditis.",
+      "Subepicardial and mid-wall LGE on MRI distinguishes myocarditis from MI (which shows subendocardial LGE in a coronary distribution).",
+      "Coxsackievirus B is the most common cause of viral myocarditis; parvovirus B19 and HHV-6 are also increasingly recognized.",
+      "NSAIDs should be avoided in acute myocarditis — despite the pericarditic component — as they may worsen myocardial inflammation in animal models.",
+      "Exercise restriction for 3-6 months is essential — return to activity only after normalization of biomarkers, ECG, and LV function."
+    ],
+    "sources": [
+      "2013 ESC Position Statement on Myocardial and Pericardial Diseases",
+      "Caforio et al., Diagnosis and Management of Myocarditis, European Heart Journal 2013",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Ferreira et al., Cardiovascular Magnetic Resonance in Myocarditis, JACC 2018"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute MI (STEMI or NSTEMI)", "Acute pericarditis", "Takotsubo cardiomyopathy", "Pulmonary embolism", "Pneumonia", "Dilated cardiomyopathy (new onset)"],
+    "after_stage2_more_likely": ["Myocarditis", "Myopericarditis", "Acute MI"],
+    "after_stage2_less_likely": ["Pulmonary embolism", "Pneumonia", "Takotsubo"],
+    "after_labs_top3": ["Acute viral myocarditis (Coxsackievirus B)", "Myopericarditis", "Acute coronary syndrome"]
+  }
+}

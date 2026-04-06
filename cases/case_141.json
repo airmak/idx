@@ -1,0 +1,113 @@
+{
+  "case_id": "case_141",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Fabry Disease — Renal Manifestation",
+  "icd_category": "E75.21 — Fabry (-Anderson) disease",
+  "one_liner": "A 32-year-old male with a childhood history of burning pain in his hands and feet and inability to sweat presents with proteinuria, mild renal insufficiency, and left ventricular hypertrophy.",
+  "stage2": {
+    "hpi_extension": "The patient was referred to nephrology after routine labs revealed proteinuria (UPCR 1.8 g/g) and a creatinine of 1.6 mg/dL. He has had recurrent episodes of severe burning pain in his hands and feet since age 8 ('acroparesthesias'), often triggered by exercise, heat, or fevers. He reports decreased sweating (hypohidrosis) since childhood, leading to heat intolerance. He has noticed small, dark red spots in his groin and periumbilical area for years. He was recently evaluated by cardiology for mild exertional dyspnea, where echocardiogram revealed LVH. His younger brother has similar pain episodes. A maternal uncle died of stroke at age 42 and had been on dialysis.",
+    "pmh": "Chronic acroparesthesias (since age 8), hypohidrosis, corneal verticillata noted on ophthalmologic exam at age 20.",
+    "surgical_history": "None.",
+    "medications": "Gabapentin 300 mg TID for neuropathic pain.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Maternal uncle: ESRD on dialysis, stroke at age 42. Younger brother has acroparesthesias. Mother: mild corneal changes, otherwise asymptomatic. Pattern suggests X-linked inheritance.",
+    "social_history": "High school teacher. Non-smoker. No alcohol or illicit drug use. Avoids exercise and hot environments due to pain and inability to sweat.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "68 bpm",
+      "bp": "132/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "74 kg, BMI 23.8"
+    },
+    "physical_exam": "Well-appearing young male. Multiple clustered dark red to purple non-blanching papules (angiokeratomas) in the bathing trunk distribution — groin, periumbilical area, and upper thighs. Slit lamp (per ophthalmology): corneal verticillata (whorl-like corneal opacities). Heart: regular rate and rhythm, S4 gallop, no murmurs. Lungs: clear bilaterally. Abdomen: soft, non-tender. Extremities: no edema. Neurologic: decreased pinprick and temperature sensation in distal extremities (small fiber neuropathy pattern). No motor deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Alpha-Galactosidase A Activity (Leukocytes)", "result": "<1% of normal (0.3 nmol/hr/mg protein; normal >3.0)", "flag": "LOW", "clinical_significance": "Markedly deficient enzyme activity is diagnostic of Fabry disease in males"},
+      {"test_name": "Plasma Globotriaosylsphingosine (Lyso-Gb3)", "result": "85 nmol/L (normal <1.8)", "flag": "HIGH", "clinical_significance": "Markedly elevated; biomarker for Fabry disease severity and treatment monitoring"},
+      {"test_name": "Urine Protein:Creatinine Ratio", "result": "1.8 g/g", "flag": "HIGH", "clinical_significance": "Significant proteinuria from Gb3 accumulation in podocytes and mesangial cells"},
+      {"test_name": "Serum Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; early CKD from Fabry nephropathy"},
+      {"test_name": "eGFR", "result": "52 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 3a; GFR decline in Fabry disease accelerates after age 30 in males"},
+      {"test_name": "Urinalysis", "result": "1+ protein, Maltese cross bodies (birefringent lipid) under polarized light, no RBC casts", "flag": "ABNORMAL", "clinical_significance": "Maltese cross (birefringent lipid globules) in urine sediment represents Gb3-laden lipid droplets — suggestive of Fabry disease"},
+      {"test_name": "BNP", "result": "220 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated from LVH-related diastolic dysfunction"},
+      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; chronic myocardial injury from Gb3 deposition in cardiomyocytes"},
+      {"test_name": "CBC", "result": "Hgb 13.8 g/dL, WBC 7,200/μL, Plt 225,000/μL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Genetic Testing (GLA Gene)", "result": "Hemizygous pathogenic missense mutation c.644A>G (p.Asn215Ser) in GLA gene on Xq22.1", "flag": "ABNORMAL", "clinical_significance": "Confirms the molecular diagnosis of Fabry disease; X-linked recessive inheritance"}
+    ],
+    "imaging_results": [
+      {"test_name": "Echocardiogram", "result": "Concentric left ventricular hypertrophy (interventricular septum 14 mm, posterior wall 13 mm). Mildly reduced diastolic function (grade I). LVEF 55%. No valvular disease. Binary sign (endocardial hyperechogenicity).", "flag": "ABNORMAL", "clinical_significance": "LVH in Fabry is from Gb3 accumulation in cardiomyocytes, not from hypertension; mimics hypertrophic cardiomyopathy"},
+      {"test_name": "Renal Biopsy", "result": "Light microscopy: vacuolated and foamy podocytes and distal tubular epithelial cells. Electron microscopy: lamellated myelin-like inclusions ('zebra bodies') in podocytes, mesangial cells, endothelial cells, and tubular epithelial cells. No immune deposits on immunofluorescence.", "flag": "ABNORMAL", "clinical_significance": "'Zebra bodies' (lamellated Gb3 inclusions) on EM are pathognomonic for Fabry disease"},
+      {"test_name": "Cardiac MRI", "result": "Concentric LVH. Late gadolinium enhancement in the inferolateral basal segment. T1 mapping shows reduced native T1 values (consistent with Gb3 accumulation).", "flag": "ABNORMAL", "clinical_significance": "Low native T1 values on cardiac MRI are characteristic of Fabry cardiomyopathy and help distinguish it from other causes of LVH"}
+    ],
+    "key_tests": [
+      "Alpha-galactosidase A enzyme activity (in leukocytes — gold standard for males)",
+      "GLA gene sequencing (confirmatory)",
+      "Plasma lyso-Gb3 level",
+      "Urine protein:creatinine ratio"
+    ],
+    "acceptable_tests": [
+      "Renal biopsy (zebra bodies on EM)",
+      "Echocardiogram",
+      "Cardiac MRI with T1 mapping",
+      "Slit lamp examination (corneal verticillata)",
+      "Basic metabolic panel",
+      "BNP or NT-proBNP",
+      "Urinalysis with polarized microscopy (Maltese crosses)",
+      "Family pedigree analysis"
+    ],
+    "low_yield_tests": [
+      "ANA/ANCA panel",
+      "Anti-PLA2R antibody",
+      "Complement levels",
+      "24-hour urine catecholamines",
+      "CT abdomen"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A young man with childhood-onset acroparesthesias, hypohidrosis, angiokeratomas, corneal verticillata, LVH with low T1 values on cardiac MRI, proteinuria with Maltese crosses on urinalysis, and markedly deficient alpha-galactosidase A activity with confirmed GLA gene mutation confirms Fabry disease with renal, cardiac, and neurologic involvement."
+  },
+  "debrief": {
+    "classic_presentation": "A young male with childhood-onset neuropathic pain in hands and feet (acroparesthesias), hypohidrosis, clustered angiokeratomas in the bathing trunk area, corneal verticillata, and progressive multi-organ involvement (proteinuria, CKD, LVH, stroke) beginning in the 3rd-4th decade. X-linked inheritance pattern with affected maternal uncle and milder symptoms in carrier females.",
+    "attending_mode_notes": "Fabry disease is increasingly recognized as an underdiagnosed cause of CKD, LVH, and young stroke. Newborn screening programs are identifying previously unknown patients. Female heterozygotes can have significant disease due to random X-inactivation (lyonization) and should not be dismissed as 'just carriers.' Enzyme activity testing is DIAGNOSTIC in hemizygous males but can be normal in heterozygous females — genetic testing is required for definitive diagnosis in females. The decision to initiate enzyme replacement therapy (ERT) is based on organ involvement, not enzyme level alone. Migalastat (oral chaperone) is an alternative for patients with amenable mutations.",
+    "pathophysiology": "Fabry disease is an X-linked lysosomal storage disorder caused by deficient alpha-galactosidase A (encoded by the GLA gene on Xq22.1). Enzyme deficiency leads to progressive accumulation of globotriaosylceramide (Gb3) and its deacylated form globotriaosylsphingosine (lyso-Gb3) in lysosomes of multiple cell types: podocytes, mesangial cells, tubular epithelium, cardiomyocytes, vascular endothelial cells, and neurons. In the kidney, Gb3 accumulation in podocytes causes proteinuria and progressive glomerulosclerosis. In the heart, cardiomyocyte Gb3 deposition causes concentric LVH, conduction abnormalities, and fibrosis. In the nervous system, Gb3 in small fiber neurons causes acroparesthesias, and in cerebrovascular endothelium causes stroke. Males are more severely affected; heterozygous females have variable expressivity.",
+    "treatment_overview": "Enzyme replacement therapy (ERT): agalsidase alfa (Replagal, 0.2 mg/kg IV every 2 weeks) or agalsidase beta (Fabrazyme, 1 mg/kg IV every 2 weeks). ERT stabilizes renal function and reduces LVH if started before irreversible fibrosis. Oral chaperone therapy: migalastat (Galafold) for patients with amenable GLA mutations — stabilizes the misfolded enzyme. Supportive care: ACE inhibitor/ARB for proteinuria, gabapentin/carbamazepine for neuropathic pain, antiplatelets for stroke prevention, dietary sodium restriction. Multi-disciplinary follow-up: nephrology, cardiology, neurology, genetics. All at-risk family members should be screened.",
+    "high_yield_pearls": [
+      "Fabry disease is the second most common lysosomal storage disorder (after Gaucher disease); X-linked recessive inheritance, but females can be significantly affected.",
+      "The classic triad of childhood-onset features: acroparesthesias, angiokeratomas, and corneal verticillata (cornea verticillata is present in ~70% of males).",
+      "Renal biopsy shows pathognomonic 'zebra bodies' (lamellated myelin-like inclusions) on electron microscopy, representing accumulated Gb3 in lysosomes.",
+      "Cardiac MRI with T1 mapping showing LOW native T1 values distinguishes Fabry cardiomyopathy from other causes of LVH (which typically have high T1 values from fibrosis or infiltration).",
+      "Enzyme replacement therapy is most effective when started EARLY, before irreversible organ damage (fibrosis); once GFR <45 or significant cardiac fibrosis develops, benefit is limited."
+    ],
+    "sources": [
+      "Germain DP et al. Ten-year outcome of enzyme replacement therapy with agalsidase beta in patients with Fabry disease. J Med Genet. 2015;52(5):353-358.",
+      "Ortiz A et al. Fabry disease revisited: Management and treatment recommendations for adult patients. Mol Genet Metab. 2018;123(4):416-427.",
+      "UpToDate: Fabry disease: clinical features and diagnosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Fabry disease",
+      "Hypertrophic cardiomyopathy with incidental CKD",
+      "IgA nephropathy",
+      "Thin basement membrane disease",
+      "Focal segmental glomerulosclerosis",
+      "Amyloidosis (cardiac and renal involvement)",
+      "Hypertensive nephrosclerosis with LVH"
+    ],
+    "after_stage2_more_likely": [
+      "Fabry disease — childhood acroparesthesias, hypohidrosis, angiokeratomas, corneal verticillata, LVH, X-linked family history (maternal uncle with ESRD/stroke, affected brother)",
+      "Hypertrophic cardiomyopathy — LVH in a young man, but does not explain skin findings, neuropathy, or renal disease"
+    ],
+    "after_stage2_less_likely": [
+      "IgA nephropathy — proteinuria present but no hematuria; does not explain angiokeratomas, LVH, or neuropathy",
+      "Hypertensive nephrosclerosis — BP is only mildly elevated; does not explain childhood symptoms"
+    ],
+    "after_labs_top3": [
+      "Fabry disease — undetectable alpha-galactosidase A, elevated lyso-Gb3, GLA mutation confirmed, zebra bodies on renal biopsy, low T1 on cardiac MRI",
+      "Amyloidosis — can cause CKD + LVH, but biopsy shows Gb3 inclusions (not amyloid fibrils), and T1 values are low (amyloidosis has high T1)",
+      "FSGS — proteinuria present but biopsy findings are specific for Fabry disease, not sclerotic lesions"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "case_id": "case_092",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pulmonary tuberculosis",
+  "icd_category": "A15.0 — Tuberculosis of lung",
+  "one_liner": "A 34-year-old man who recently immigrated from India presents with a 6-week history of productive cough, night sweats, and unintentional weight loss.",
+  "stage2": {
+    "hpi_extension": "The patient reports a progressively worsening productive cough over 6 weeks with yellowish sputum, occasionally blood-streaked (hemoptysis). He has drenching night sweats requiring him to change his sheets nightly. He has lost approximately 5 kg over 6 weeks without trying. He reports low-grade fevers (subjective), fatigue, and decreased appetite. He immigrated from Mumbai, India, 8 months ago and lives in a crowded apartment with 5 other individuals. He denies recent incarceration or known TB contacts, though he did not have TB screening upon arrival.",
+    "pmh": "No significant past medical history. No known HIV status. BCG vaccination as a child.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Uncle had tuberculosis, treated 10 years ago in India. No other significant family history.",
+    "social_history": "Works as a kitchen assistant in a restaurant. Non-smoker. No alcohol or drug use. Lives in a shared apartment (6 people in 2-bedroom). Immigrated from India 8 months ago. No recent travel since arrival. Sexually active with one female partner.",
+    "vitals": {
+      "temp": "100.4 F (38.0 C)",
+      "hr": "92 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "58 kg (previous ~63 kg), BMI 20.1"
+    },
+    "physical_exam": "General: Thin, ill-appearing man with temporal wasting. HEENT: No oral lesions. Cervical and supraclavicular lymphadenopathy — several 1-2 cm firm, non-tender, rubbery nodes bilaterally. Lungs: Bronchial breath sounds and egophony over the right upper lobe posteriorly. Scattered crackles in the right upper zone. Cardiovascular: Regular rate and rhythm, no murmurs. Abdomen: Soft, non-tender, no hepatosplenomegaly. Extremities: No edema or clubbing. Skin: No erythema nodosum."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "11,200/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis; can be seen in active TB"},
+      {"test_name": "CBC — Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia of chronic disease consistent with chronic infection"},
+      {"test_name": "CBC — Lymphocyte %", "result": "18%", "flag": "LOW", "clinical_significance": "Relative lymphopenia may be seen in TB, also check HIV status"},
+      {"test_name": "ESR", "result": "68 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; consistent with chronic granulomatous infection"},
+      {"test_name": "CRP", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting active infectious/inflammatory process"},
+      {"test_name": "Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia reflects chronic disease and malnutrition"},
+      {"test_name": "HIV 4th generation Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "HIV negative; important to exclude as TB-HIV coinfection is common"},
+      {"test_name": "Hepatic panel — AST/ALT", "result": "28/32 U/L", "flag": "WNL", "clinical_significance": "Normal baseline liver function — important prior to starting anti-TB medications"},
+      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Sputum AFB smear", "result": "3+ acid-fast bacilli on Ziehl-Neelsen stain", "flag": "ABNORMAL", "clinical_significance": "Strongly positive AFB smear — highly infectious; confirms mycobacterial disease (presumptively TB in this clinical setting)"},
+      {"test_name": "Sputum GeneXpert MTB/RIF", "result": "Mycobacterium tuberculosis detected; rifampin resistance NOT detected", "flag": "ABNORMAL", "clinical_significance": "Rapid molecular confirmation of M. tuberculosis; no rifampin resistance suggests drug-susceptible TB"},
+      {"test_name": "QuantiFERON-TB Gold", "result": "Positive (>10 IU/mL)", "flag": "ABNORMAL", "clinical_significance": "Positive IGRA supports TB infection; however, active TB is confirmed by AFB smear and GeneXpert — IGRA alone cannot distinguish latent from active TB"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and lateral)", "result": "Right upper lobe cavitary lesion (3.5 cm) with surrounding consolidation and tree-in-bud opacities. Ipsilateral hilar lymphadenopathy. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Upper lobe cavitary lesion with tree-in-bud pattern is classic for reactivation pulmonary tuberculosis. Cavitation indicates high organism burden and infectiousness."}
+    ],
+    "key_tests": ["Sputum AFB smear (x3, collected 8 hours apart)", "Sputum GeneXpert MTB/RIF (rapid molecular test)", "Chest X-ray", "HIV testing", "Sputum mycobacterial culture (gold standard, takes weeks)"],
+    "acceptable_tests": ["CBC with differential", "ESR/CRP", "QuantiFERON-TB Gold or tuberculin skin test", "Hepatic panel (baseline before treatment)", "BMP", "Albumin", "Blood cultures for mycobacteria"],
+    "low_yield_tests": ["CT chest (unless CXR inconclusive)", "D-dimer", "Procalcitonin", "BNP", "PFTs"]
+  },
+  "stage5": {
+    "final_clue": "Sputum mycobacterial culture (at 3 weeks) grows Mycobacterium tuberculosis, fully susceptible to all first-line agents (isoniazid, rifampin, pyrazinamide, ethambutol). The patient is initiated on RIPE therapy with airborne isolation precautions."
+  },
+  "debrief": {
+    "classic_presentation": "Young adult immigrant from a high-prevalence country presenting with chronic productive cough, hemoptysis, night sweats, weight loss, and fever, with upper lobe cavitary lesion on CXR and positive AFB smear.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pulmonary TB is caused by Mycobacterium tuberculosis, an aerobic acid-fast bacillus transmitted via respiratory droplets. Primary infection is usually contained by granuloma formation (caseating granulomas with Langhans giant cells). Reactivation occurs when immune surveillance fails, typically in the apical/posterior segments of the upper lobes where high oxygen tension favors mycobacterial growth. Cavitation results from liquefactive necrosis of caseous material, creating an aerobic cavity ideal for bacterial proliferation. Cavitary disease is highly infectious.",
+    "treatment_overview": "Standard RIPE regimen: Rifampin + Isoniazid + Pyrazinamide + Ethambutol for 2 months (intensive phase), then Rifampin + Isoniazid for 4 months (continuation phase). Add pyridoxine (vitamin B6) with isoniazid to prevent peripheral neuropathy. Monitor LFTs monthly (hepatotoxicity risk with INH, RIF, PZA). Monitor visual acuity (ethambutol optic neuritis). Airborne isolation until 3 consecutive negative AFB sputums on treatment. Directly observed therapy (DOT) to ensure adherence. Report to public health for contact tracing.",
+    "high_yield_pearls": [
+      "Cavitary TB is the most infectious form — patients require airborne isolation (negative pressure room, N95 respirators for staff).",
+      "GeneXpert MTB/RIF provides same-day diagnosis and simultaneous rifampin resistance detection — a game-changer in TB management.",
+      "BCG vaccination causes false-positive PPD/TST but does NOT affect QuantiFERON-TB Gold (IGRA) results.",
+      "Upper lobe cavitary disease is classic for reactivation TB; primary TB typically presents with middle/lower lobe infiltrates and hilar adenopathy.",
+      "Isoniazid is the most common cause of drug-induced hepatitis among TB drugs — monitor LFTs monthly and hold if AST/ALT >3x ULN with symptoms or >5x ULN without symptoms."
+    ],
+    "sources": [
+      "WHO Guidelines for Treatment of Drug-Susceptible Tuberculosis, 2022",
+      "ATS/CDC/IDSA Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis, 2016",
+      "UpToDate: Diagnosis of pulmonary tuberculosis in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Pulmonary tuberculosis", "Lung cancer (cavitary)", "Lung abscess", "Nontuberculous mycobacterial infection", "Fungal pneumonia (histoplasmosis/coccidioidomycosis)", "Sarcoidosis", "Granulomatosis with polyangiitis"],
+    "after_stage2_more_likely": ["Pulmonary tuberculosis", "Nontuberculous mycobacterial infection", "Fungal pneumonia"],
+    "after_stage2_less_likely": ["Lung cancer", "Sarcoidosis", "Granulomatosis with polyangiitis"],
+    "after_labs_top3": ["Pulmonary tuberculosis", "Nontuberculous mycobacterial infection", "Lung abscess"]
+  }
+}

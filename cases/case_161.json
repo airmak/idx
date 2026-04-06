@@ -1,0 +1,74 @@
+{
+  "case_id": "case_161",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Gastroesophageal Reflux Disease (GERD) with Esophagitis",
+  "icd_category": "K21.0 — Gastro-esophageal reflux disease with esophagitis",
+  "one_liner": "A 48-year-old obese male presents with 4 months of burning substernal chest pain after meals and nocturnal regurgitation.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 4-month history of burning epigastric and substernal pain occurring 30-60 minutes after meals, especially after large or fatty meals. He has nocturnal regurgitation of sour/bitter-tasting fluid, waking him 2-3 times per week. He has a chronic dry cough and hoarseness in the morning. Symptoms worsen when lying flat and after consuming coffee, alcohol, and spicy foods. He tried over-the-counter antacids with partial relief. He denies dysphagia, odynophagia, weight loss, melena, or hematemesis.",
+    "pmh": "Obesity, hypertension, type 2 diabetes mellitus",
+    "surgical_history": "None",
+    "medications": "Metformin 1000 mg BID, amlodipine 5 mg daily, calcium carbonate PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had Barrett esophagus. Mother has type 2 diabetes.",
+    "social_history": "Former smoker (10 pack-years, quit 5 years ago). Drinks 2-3 beers per evening. Works as an office manager. Eats large late-night meals. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "78 bpm, regular",
+      "bp": "138/86 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "104 kg, BMI 33.5"
+    },
+    "physical_exam": "General: Obese male, no acute distress. HEENT: Mild pharyngeal erythema, dental erosion of posterior teeth. Cardiovascular: Normal. Pulmonary: Clear, no wheezing. Abdomen: Soft, mild epigastric tenderness, no rebound or guarding, no hepatosplenomegaly, obese. No masses palpable. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 7.0, Hgb 14.5, Plt 225", "flag": "WNL", "clinical_significance": "Normal, no anemia suggesting chronic blood loss"},
+      {"test_name": "H. pylori stool antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes H. pylori as contributing factor"},
+      {"test_name": "Iron studies", "result": "Ferritin 120, Iron 80, TIBC 320", "flag": "WNL", "clinical_significance": "Normal iron stores, no chronic GI blood loss"},
+      {"test_name": "BMP", "result": "All within normal limits", "flag": "WNL", "clinical_significance": "Normal electrolytes and renal function"},
+      {"test_name": "Lipase", "result": "32 U/L", "flag": "WNL", "clinical_significance": "Normal, rules out pancreatitis"},
+      {"test_name": "ALT", "result": "42 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, possibly from fatty liver (NAFLD in obese patient)"},
+      {"test_name": "AST", "result": "35 U/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "HbA1c", "result": "7.5%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes"},
+      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, rules out cardiac cause of chest pain"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper Endoscopy (EGD)", "result": "Grade B esophagitis (Los Angeles classification) — multiple mucosal erosions >5 mm in the distal esophagus, not circumferential. No stricture, no Barrett metaplasia. Mild hiatal hernia (3 cm). Normal stomach and duodenum.", "flag": "ABNORMAL", "clinical_significance": "Erosive esophagitis confirms GERD. No Barrett esophagus or malignancy."},
+      {"test_name": "Esophageal biopsy", "result": "Squamous epithelium with basal cell hyperplasia, elongated papillae, and intraepithelial eosinophils (<5/hpf). No intestinal metaplasia. No dysplasia.", "flag": "ABNORMAL", "clinical_significance": "Histologic changes consistent with reflux esophagitis. Eosinophils <15/hpf rules out eosinophilic esophagitis."}
+    ],
+    "key_tests": ["Upper endoscopy (EGD)", "H. pylori testing", "CBC", "Troponin (if chest pain)", "Esophageal biopsy"],
+    "acceptable_tests": ["Barium swallow", "Esophageal pH monitoring", "Esophageal manometry", "BMP", "Lipase", "LFTs", "Chest X-ray"],
+    "low_yield_tests": ["CT abdomen", "MRCP", "Colonoscopy", "Serum gastrin level", "HIDA scan"],
+    "key_tests_rationale": "EGD directly visualizes erosive esophagitis and excludes Barrett esophagus and malignancy. H. pylori testing screens for a treatable co-factor. CBC checks for anemia from chronic bleeding. Troponin rules out cardiac cause in patients with chest pain."
+  },
+  "stage5": {
+    "final_clue": "EGD reveals Grade B erosive esophagitis in the distal esophagus with a 3 cm hiatal hernia. Biopsies show reflux changes without Barrett metaplasia. H. pylori is negative. This confirms GERD with esophagitis."
+  },
+  "debrief": {
+    "classic_presentation": "GERD with esophagitis presents with heartburn (burning substernal pain after meals), regurgitation of acidic material, and extraesophageal symptoms (chronic cough, hoarseness, dental erosion). Symptoms worsen postprandially, with lying flat, and with trigger foods. Obesity and hiatal hernia are major risk factors.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GERD results from repeated exposure of the esophageal mucosa to gastric acid and pepsin due to dysfunction of the lower esophageal sphincter (LES). Contributing factors include transient LES relaxations, hiatal hernia (which displaces the LES above the diaphragm), increased intra-abdominal pressure (obesity), and impaired esophageal clearance. Chronic acid exposure leads to erosive esophagitis and, if persistent, Barrett metaplasia (intestinal metaplasia).",
+    "treatment_overview": "Lifestyle modifications: weight loss, elevate head of bed, avoid late meals, reduce trigger foods (coffee, alcohol, fatty/spicy foods), smoking cessation. Pharmacologic: PPI therapy (omeprazole 20 mg or equivalent) for 8 weeks is first-line for erosive esophagitis. Step down to maintenance PPI or H2RA for long-term management. Repeat EGD in 8-12 weeks for Grade B+ esophagitis to confirm healing and reassess for Barrett. Anti-reflux surgery (Nissen fundoplication) for refractory cases.",
+    "high_yield_pearls": [
+      "Alarm features requiring urgent EGD: dysphagia, odynophagia, weight loss, GI bleeding, anemia, and age >60 with new symptoms.",
+      "Los Angeles classification: Grade A (<5 mm erosions), Grade B (>5 mm, non-confluent), Grade C (confluent but <75% circumference), Grade D (>75% circumference).",
+      "Barrett esophagus (intestinal metaplasia) develops in ~10% of chronic GERD patients and is a precursor to esophageal adenocarcinoma.",
+      "PPI therapy should be taken 30-60 minutes before the first meal of the day for maximal efficacy.",
+      "Long-term PPI use is associated with risks of C. difficile infection, hypomagnesemia, osteoporosis, and vitamin B12 deficiency."
+    ],
+    "sources": [
+      "2022 ACG Clinical Guideline: Diagnosis and Management of GERD",
+      "Katz et al., ACG Guideline for GERD, American Journal of Gastroenterology 2022",
+      "Kahrilas PJ, GERD Pathogenesis, Pathophysiology, and Clinical Manifestations, Cleveland Clinic Journal of Medicine 2003"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Peptic ulcer disease", "Eosinophilic esophagitis", "Esophageal motility disorder", "Cardiac chest pain (ACS)", "Functional dyspepsia", "Esophageal cancer"],
+    "after_stage2_more_likely": ["GERD with esophagitis", "Peptic ulcer disease", "Functional dyspepsia"],
+    "after_stage2_less_likely": ["Cardiac chest pain", "Esophageal cancer", "Eosinophilic esophagitis"],
+    "after_labs_top3": ["GERD with erosive esophagitis", "Peptic ulcer disease", "Hiatal hernia with reflux"]
+  }
+}

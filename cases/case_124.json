@@ -1,0 +1,109 @@
+{
+  "case_id": "case_124",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Nephrotic Syndrome — Minimal Change Disease",
+  "icd_category": "N04.0 — Nephrotic syndrome with minor glomerular abnormality",
+  "one_liner": "A 6-year-old boy with no significant past medical history presents with facial puffiness and bilateral leg swelling noticed by his parents over the past week.",
+  "stage2": {
+    "hpi_extension": "The patient's mother reports progressive swelling around his eyes each morning for the past 7 days, with bilateral leg and scrotal swelling developing over the past 3 days. She noticed his urine has been 'foamy.' He had a mild upper respiratory infection 2 weeks ago that resolved. He has had decreased appetite and mild abdominal discomfort. No hematuria, fever, rash, or joint pain. No recent medication changes.",
+    "pmh": "Full-term birth, normal development. No prior hospitalizations. Up to date on vaccinations.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of kidney disease. Mother has seasonal allergies. Father is healthy.",
+    "social_history": "Attends first grade. Lives with both parents and an older sister. No recent travel. Has a pet cat at home.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "96 bpm",
+      "bp": "100/62 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "26 kg (usual weight 22 kg)"
+    },
+    "physical_exam": "Well-appearing but edematous child in no acute distress. Periorbital edema is prominent bilaterally. No rash or petechiae. Heart: regular rate and rhythm, no murmurs. Lungs: decreased breath sounds at right base with dullness to percussion. Abdomen: mildly distended, shifting dullness present, non-tender, no hepatosplenomegaly. Extremities: 3+ pitting edema of bilateral lower extremities to the knees. Genitalia: moderate scrotal edema. Skin: shiny and taut over edematous areas."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urine Protein:Creatinine Ratio", "result": "12.5 mg/mg", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria (>2 mg/mg in children)"},
+      {"test_name": "Urinalysis", "result": "3+ protein, oval fat bodies, no RBCs, no WBCs, fatty casts", "flag": "ABNORMAL", "clinical_significance": "Heavy proteinuria with lipiduria characteristic of nephrotic syndrome"},
+      {"test_name": "Serum Albumin", "result": "1.4 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia drives edema formation in nephrotic syndrome"},
+      {"test_name": "Total Cholesterol", "result": "385 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperlipidemia is a hallmark of nephrotic syndrome due to hepatic lipoprotein overproduction"},
+      {"test_name": "Triglycerides", "result": "290 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated as part of nephrotic hyperlipidemia"},
+      {"test_name": "Serum Creatinine", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; minimal change disease typically preserves GFR"},
+      {"test_name": "BUN", "result": "12 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Serum Sodium", "result": "133 mEq/L", "flag": "LOW", "clinical_significance": "Pseudohyponatremia from hyperlipidemia or dilutional from fluid retention"},
+      {"test_name": "Complement C3", "result": "125 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement levels help exclude membranoproliferative GN, lupus nephritis, and post-infectious GN"},
+      {"test_name": "24-hour Urine Protein", "result": "3,200 mg/day", "flag": "HIGH", "clinical_significance": "Confirms nephrotic-range proteinuria (>40 mg/m²/hr in children)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Kidneys are normal in size and echogenicity bilaterally. No hydronephrosis, masses, or renal vein thrombosis.", "flag": "WNL", "clinical_significance": "Excludes structural abnormalities; normal appearance is typical in minimal change disease"},
+      {"test_name": "Chest X-ray", "result": "Small right-sided pleural effusion. No consolidation or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Pleural effusion secondary to low oncotic pressure from hypoalbuminemia"}
+    ],
+    "key_tests": [
+      "Urinalysis with microscopy",
+      "Urine protein:creatinine ratio or 24-hour urine protein",
+      "Serum albumin",
+      "Serum lipid panel"
+    ],
+    "acceptable_tests": [
+      "Basic metabolic panel",
+      "Serum complement levels (C3, C4)",
+      "Renal ultrasound",
+      "Complete blood count",
+      "Hepatitis B and C serologies",
+      "Antinuclear antibody (ANA)"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (first-line treatment in children is empiric steroids; biopsy reserved for steroid-resistant cases)",
+      "ANCA panel",
+      "Anti-PLA2R antibody",
+      "CT abdomen",
+      "Renal artery Doppler"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A young child presenting with nephrotic-range proteinuria (UPC 12.5), severe hypoalbuminemia (1.4 g/dL), hyperlipidemia, and anasarca following a recent URI—with normal complement levels and preserved renal function—is classic for minimal change disease, the most common cause of nephrotic syndrome in children."
+  },
+  "debrief": {
+    "classic_presentation": "A child aged 2-8 years presenting with periorbital edema (worst in the morning), anasarca, foamy urine, and weight gain, often following a viral URI. Labs reveal nephrotic-range proteinuria, severe hypoalbuminemia, hyperlipidemia, and normal complement levels.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Minimal change disease (MCD) involves T-cell-mediated injury to podocyte foot processes, leading to effacement of foot processes visible only on electron microscopy. Light microscopy and immunofluorescence are essentially normal. The damaged glomerular filtration barrier allows massive albumin loss into the urine. Hypoalbuminemia decreases plasma oncotic pressure, promoting fluid shifts into the interstitial space (edema). The liver compensates by increasing protein and lipoprotein synthesis, causing hyperlipidemia.",
+    "treatment_overview": "First-line therapy is oral prednisone (2 mg/kg/day or 60 mg/m²/day, max 60 mg) for 4-6 weeks, followed by a taper over 2-3 months. Approximately 80-90% of children with MCD are steroid-responsive. Supportive care includes salt restriction, judicious diuretic use for severe edema, and albumin infusion for symptomatic hypovolemia. Steroid-dependent or frequently relapsing patients may require steroid-sparing agents (cyclophosphamide, calcineurin inhibitors, mycophenolate, or rituximab). Renal biopsy is indicated only for steroid-resistant cases.",
+    "high_yield_pearls": [
+      "Minimal change disease is the most common cause of nephrotic syndrome in children (approximately 80% of cases in ages 1-10).",
+      "Normal C3/C4 complement levels help distinguish MCD from post-infectious GN, membranoproliferative GN, and lupus nephritis.",
+      "Light microscopy is normal in MCD; diagnosis requires electron microscopy showing diffuse podocyte foot process effacement.",
+      "Children with first-episode nephrotic syndrome aged 1-12 are treated empirically with steroids WITHOUT biopsy. Biopsy is reserved for steroid-resistant disease, atypical features (hematuria, low complement, hypertension, renal failure), or age <1 or >12.",
+      "Patients with nephrotic syndrome are at increased risk for thromboembolism (due to loss of antithrombin III) and infection (due to loss of immunoglobulins and complement factors)."
+    ],
+    "sources": [
+      "KDIGO Clinical Practice Guideline for Glomerulonephritis (2021)",
+      "UpToDate: Minimal change disease — etiology, clinical features, and diagnosis (2024)",
+      "Eddy AA, Symons JM. Nephrotic syndrome in childhood. Lancet. 2003;362(9384):629-639."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Minimal change disease",
+      "Focal segmental glomerulosclerosis (FSGS)",
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "Post-infectious glomerulonephritis",
+      "Membranoproliferative glomerulonephritis"
+    ],
+    "after_stage2_more_likely": [
+      "Minimal change disease — young child with classic nephrotic presentation (edema, foamy urine) following viral URI",
+      "FSGS — similar presentation, but less common in this age group"
+    ],
+    "after_stage2_less_likely": [
+      "Post-infectious GN — typically presents with nephritic syndrome (hematuria, hypertension), not pure nephrotic syndrome",
+      "IgA nephropathy — usually presents with hematuria, not isolated proteinuria and edema"
+    ],
+    "after_labs_top3": [
+      "Minimal change disease — nephrotic-range proteinuria, severe hypoalbuminemia, hyperlipidemia, normal complement, preserved renal function in a young child",
+      "FSGS — can present identically on labs; distinguished only by biopsy (would show segmental sclerosis)",
+      "Membranous nephropathy — very rare in children; normal complement makes this less likely"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "case_id": "case_220",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Ovarian hyperstimulation syndrome (severe, early-onset)",
+  "icd_category": "N98.1 – Hyperstimulation of ovaries",
+  "one_liner": "A 27-year-old female undergoing IVF presents 5 days after oocyte retrieval with severe abdominal distension, dyspnea, oliguria, and massive ascites; labs reveal hemoconcentration (Hct 52%), hyponatremia, and elevated liver enzymes consistent with severe ovarian hyperstimulation syndrome.",
+  "stage2": {
+    "hpi_extension": "The patient underwent controlled ovarian hyperstimulation with gonadotropins (FSH and hMG) for IVF. Oocyte retrieval was performed 5 days ago, during which 28 oocytes were collected. She received an hCG trigger shot 36 hours prior to retrieval. Fresh embryo transfer was performed 3 days ago (2 embryos transferred). Over the past 3 days, she has developed progressive abdominal distension, bloating, and weight gain of 4 kg. Yesterday she developed nausea, vomiting, and difficulty taking deep breaths when lying flat. Today she noticed markedly decreased urine output. She is now unable to eat due to nausea and fullness. She denies fever, vaginal bleeding, chest pain, or leg swelling.",
+    "pmh": "Infertility secondary to PCOS (diagnosed at age 22). BMI 19 (lean PCOS). Regular cycles on OCPs, anovulatory off OCPs. Age 27. This is her first IVF cycle.",
+    "surgical_history": "Oocyte retrieval 5 days ago (transvaginal ultrasound-guided aspiration).",
+    "medications": "Progesterone in oil 50 mg IM daily (luteal support). Prenatal vitamins. Low-molecular-weight heparin was not initiated.",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with PCOS. No family history of thromboembolism.",
+    "social_history": "Works as a software engineer. Non-smoker. No alcohol. Married for 3 years. This is their first IVF attempt.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "108 bpm",
+      "bp": "96/58 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "57 kg (baseline 53 kg, 4 kg weight gain in 5 days), BMI 21.8 kg/m²"
+    },
+    "physical_exam": "General: Uncomfortable, distended-appearing woman in moderate distress; unable to lie flat due to dyspnea. HEENT: Dry mucous membranes. Cardiovascular: Tachycardic, regular rhythm; no murmurs; JVP difficult to assess due to body habitus but appears flat (intravascularly depleted). Pulmonary: Diminished breath sounds at bilateral bases with dullness to percussion up to the mid-scapular line bilaterally; no wheezes. Abdomen: Markedly distended with tense ascites; fluid wave present; diffuse tenderness without peritoneal signs; bilateral lower quadrants fuller (enlarged ovaries); bowel sounds diminished. Pelvic examination (deferred due to enlarged ovaries — risk of torsion or rupture with manipulation). Extremities: No pedal edema; no calf tenderness; skin turgor decreased."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC",
+        "result": "WBC 18.5 × 10³/µL, Hgb 17.2 g/dL, Hct 52%, Plt 380 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Hemoconcentration (Hct >45%) is a hallmark of severe OHSS, reflecting massive third-spacing of intravascular fluid into the peritoneal and pleural spaces. Elevated WBC is from demargination and hemoconcentration."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 128, K 5.6, Cl 90, CO2 20, BUN 32, Cr 1.6, Glucose 85",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia (dilutional from ADH activation), hyperkalemia, and elevated creatinine reflect intravascular depletion, decreased renal perfusion, and third-space fluid shift. Creatinine >1.5 classifies this as critical OHSS."
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 85 U/L, ALT 92 U/L, Total bilirubin 1.8 mg/dL, Albumin 2.4 g/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated transaminases and low albumin indicate hepatic congestion from ascites and hypoalbuminemia from capillary leak. Low albumin further worsens oncotic pressure and fluid shift."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 11.5 sec, INR 1.0, PTT 26 sec, Fibrinogen 520 mg/dL, D-dimer 1,200 ng/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated fibrinogen and D-dimer reflect the hypercoagulable state of OHSS, which carries a significant risk of venous thromboembolism. Hemoconcentration and estrogen excess further increase VTE risk."
+      },
+      {
+        "test_name": "Serum β-hCG",
+        "result": "85 mIU/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-positive β-hCG 5 days after retrieval (3 days after embryo transfer) is very early and not yet diagnostic of pregnancy. If pregnancy is achieved, endogenous hCG will worsen OHSS ('late-onset OHSS')."
+      },
+      {
+        "test_name": "Estradiol (at time of hCG trigger)",
+        "result": "6,800 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Peak estradiol >3,500 pg/mL at trigger is a strong predictor of OHSS; levels >6,000 are associated with severe OHSS."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.035, protein 1+, concentrated",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly concentrated urine with proteinuria reflects intravascular depletion and impaired renal perfusion."
+      },
+      {
+        "test_name": "Urine output (12-hour catheterized)",
+        "result": "180 mL in 12 hours (15 mL/hr)",
+        "flag": "LOW",
+        "clinical_significance": "Oliguria (<30 mL/hr or <500 mL/day) classifies this as severe-critical OHSS and indicates significant intravascular depletion."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound (limited, gentle exam)",
+        "result": "Bilateral massively enlarged ovaries: right ovary 12 cm, left ovary 10 cm, with multiple large follicular cysts and stromal edema. Large amount of ascites. Uterus normal with thin endometrium (post-retrieval). No evidence of ovarian torsion (bilateral Doppler flow preserved).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilaterally enlarged ovaries >12 cm with massive ascites is consistent with severe OHSS. Preserved Doppler flow excludes torsion, though torsion risk is markedly elevated with enlarged ovaries."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral pleural effusions (right > left), moderate in size. Basilar atelectasis. No focal consolidation. Normal cardiac silhouette.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pleural effusions in OHSS result from the same capillary leak mechanism causing ascites. They contribute to dyspnea and hypoxia. Right-sided predominance is typical."
+      },
+      {
+        "test_name": "Duplex ultrasound of bilateral lower extremities",
+        "result": "No deep vein thrombosis identified bilaterally.",
+        "flag": "WNL",
+        "clinical_significance": "VTE screening is important given the severely hypercoagulable state; prophylactic anticoagulation should be initiated."
+      }
+    ],
+    "key_tests": [
+      "CBC with hematocrit (hemoconcentration marker)",
+      "BMP with creatinine (renal function, electrolytes)",
+      "Transvaginal ultrasound (ovarian size, ascites, torsion evaluation)",
+      "Coagulation studies with D-dimer (VTE risk assessment)",
+      "Strict input/output monitoring (urine output)"
+    ],
+    "acceptable_tests": [
+      "Hepatic function panel",
+      "Albumin",
+      "Chest X-ray (if dyspnea present)",
+      "Serum β-hCG (prognostic — pregnancy worsens OHSS)",
+      "Lower extremity duplex ultrasound (if VTE suspected)",
+      "ABG (if significant respiratory compromise)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (ultrasound is sufficient; radiation exposure in potentially pregnant patient)",
+      "MRI pelvis (not needed for diagnosis or management)",
+      "Serum AMH (useful for predicting OHSS risk before stimulation, not for acute management)",
+      "Laparoscopy (increased risk due to enlarged ovaries)"
+    ],
+    "attending_pimp_questions": [
+      "What is the role of VEGF in the pathophysiology of OHSS, and how does this relate to the use of cabergoline and GnRH antagonists for prevention?",
+      "Why is hCG trigger the primary driver of OHSS, and how does the GnRH agonist trigger strategy ('trigger switch') reduce OHSS risk?",
+      "What is the difference between early-onset and late-onset OHSS, and why does late-onset OHSS carry a worse prognosis?",
+      "When is therapeutic paracentesis indicated in OHSS, and what are the risks of large-volume paracentesis in this context?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Therapeutic paracentesis is performed, draining 3.5 liters of straw-colored ascitic fluid, with immediate improvement in the patient's dyspnea, urine output, and abdominal discomfort. IV albumin is administered for volume expansion. Prophylactic enoxaparin is initiated. Serial β-hCG monitoring at 14 days post-retrieval confirms a viable pregnancy (β-hCG 1,850), and the OHSS gradually resolves over the following 3 weeks as hCG levels stabilize, confirming the diagnosis of severe early-onset OHSS transitioning to late-onset OHSS sustained by the established pregnancy."
+  },
+  "debrief": {
+    "classic_presentation": "Ovarian hyperstimulation syndrome presents 3-7 days after hCG trigger or oocyte retrieval (early-onset) with abdominal distension, weight gain, nausea, and vomiting. Severe OHSS includes massive ascites, pleural effusion, hemoconcentration (Hct >45%), oliguria, renal impairment, and dyspnea. Risk factors include young age, low BMI, PCOS, high antral follicle count, high AMH, high peak estradiol (>3,500 pg/mL), large number of follicles or oocytes retrieved (>15), and hCG trigger administration.",
+    "attending_mode_notes": "OHSS is an iatrogenic complication of controlled ovarian hyperstimulation, occurring in mild form in up to 33% and severe form in 1-5% of IVF cycles. The key pathophysiologic mediator is VEGF (vascular endothelial growth factor), which is upregulated by hCG and causes increased vascular permeability. This leads to massive third-spacing of fluid from the intravascular compartment into the peritoneal and pleural spaces. The paradox of OHSS is that patients are intravascularly DEPLETED despite being total-body fluid OVERLOADED — this is critical for management (give IV fluids, not diuretics). Early-onset OHSS (3-7 days post-trigger) is caused by exogenous hCG and resolves in 1-2 weeks if pregnancy does not occur. Late-onset OHSS (12-17 days post-trigger) is caused by endogenous hCG from an implanting pregnancy and can be more severe and prolonged. Prevention strategies include: GnRH agonist trigger ('trigger switch') instead of hCG trigger (most effective), freeze-all strategy (no fresh transfer eliminates late-onset OHSS from pregnancy hCG), coasting (withholding gonadotropins), cabergoline (dopamine agonist that reduces VEGF), and IV albumin at retrieval. The most feared complications are VTE (10-fold increased risk due to hemoconcentration, immobility, and estrogen excess), renal failure, ARDS, and ovarian torsion. The classification: mild (abdominal distension, mild pain), moderate (ascites on ultrasound, nausea), severe (clinical ascites, Hct >45%, Cr >1.0, oliguria), critical (tense ascites, Hct >55%, Cr >1.6, anuria, ARDS, thromboembolism).",
+    "pathophysiology": "hCG (exogenous trigger or endogenous from pregnancy) stimulates granulosa-lutein cells to produce VEGF, which increases vascular permeability by disrupting endothelial tight junctions. The massively enlarged, hyperstimulated ovaries become the primary source of VEGF, and the degree of OHSS correlates with the number of granulosa cells (i.e., number of follicles). Increased vascular permeability causes protein-rich fluid to shift from the intravascular space into the peritoneum (ascites), pleural space (effusions), and pericardium. Intravascular depletion triggers the RAAS, causing sodium and water retention (worsening third-spacing) and oliguria. Hemoconcentration increases blood viscosity and, combined with estrogen-mediated upregulation of clotting factors and decreased fibrinolysis, creates a severely hypercoagulable state. Hepatic congestion from ascites causes transaminase elevation. Renal hypoperfusion from intravascular depletion causes prerenal azotemia, which can progress to acute tubular necrosis.",
+    "treatment_overview": "Management is supportive with goal-directed fluid therapy. Mild-moderate: outpatient with oral hydration (electrolyte solutions), pain management (acetaminophen; avoid NSAIDs due to renal risk), daily weight monitoring, and strict I&Os. Severe-critical: hospitalization. IV crystalloid (normal saline or LR, NOT hypotonic fluids) titrated to maintain urine output >20-30 mL/hr. IV albumin 25% (25-50 g) for significant hypoalbuminemia or poor response to crystalloid. Therapeutic paracentesis for tense ascites causing respiratory compromise, renal impairment, or severe discomfort (ultrasound-guided, drain slowly, replace with IV albumin). Thoracentesis for symptomatic pleural effusion. VTE prophylaxis: LMWH (enoxaparin 40 mg SC daily) for all hospitalized patients and outpatients with severe OHSS; continue for 6 weeks if pregnancy is confirmed. Avoid diuretics (worsen intravascular depletion). Monitor electrolytes, Hct, Cr, and urine output every 12-24 hours. If pregnancy is not desired, cryopreserve all embryos and cancel transfer (freeze-all strategy) — eliminates late-onset OHSS.",
+    "high_yield_pearls": [
+      "The paradox of OHSS: patients are intravascularly DEPLETED but total-body fluid OVERLOADED — the treatment is IV volume expansion (crystalloid and albumin), NOT diuretics, which would worsen hypovolemia.",
+      "VTE is the most dangerous complication of OHSS — the risk is increased 10-fold due to hemoconcentration, immobility, and hyperestrogenism; prophylactic LMWH should be initiated in all severe OHSS cases.",
+      "GnRH agonist trigger ('trigger switch') instead of hCG trigger virtually eliminates severe OHSS in GnRH antagonist cycles and is the most effective prevention strategy in high-risk patients.",
+      "Early-onset OHSS is self-limiting if pregnancy does not occur (resolves in 1-2 weeks), but late-onset OHSS from endogenous hCG of a new pregnancy can be more severe and prolonged — the freeze-all strategy prevents this.",
+      "PCOS is the single strongest risk factor for OHSS because the high antral follicle count leads to excessive recruitment of follicles during stimulation; AMH >3.4 ng/mL identifies high-risk patients for tailored prevention strategies."
+    ],
+    "sources": [
+      "ASRM Practice Committee: Prevention and treatment of moderate and severe ovarian hyperstimulation syndrome (2016)",
+      "RCOG Green-top Guideline: The Management of Ovarian Hyperstimulation Syndrome",
+      "UpToDate: Ovarian hyperstimulation syndrome: Clinical features, diagnosis, and management",
+      "UpToDate: Prevention of ovarian hyperstimulation syndrome"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ovarian hyperstimulation syndrome",
+      "Ovarian torsion",
+      "Ruptured ovarian cyst",
+      "Ectopic pregnancy",
+      "Pulmonary embolism",
+      "Peritonitis (post-retrieval infection)",
+      "Bowel obstruction"
+    ],
+    "after_stage2_more_likely": [
+      "Ovarian hyperstimulation syndrome (classic timing 5 days post-retrieval, bilateral enlarged ovaries, massive ascites, hemoconcentration, oliguria, dyspnea from pleural effusions in a PCOS patient with high oocyte yield)",
+      "Ovarian torsion (enlarged ovaries increase torsion risk, but bilateral symmetric enlargement with ascites favors OHSS)"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary embolism (dyspnea is present, but bilateral effusions and ascites explain the respiratory symptoms; duplex was negative for DVT)",
+      "Peritonitis (afebrile, no peritoneal signs, WBC elevation is from hemoconcentration)",
+      "Bowel obstruction (diffuse symptoms without colicky pain, radiographic evidence of fluid rather than dilated loops)"
+    ],
+    "after_labs_top3": [
+      "Severe OHSS (hemoconcentration Hct 52%, oliguria, ascites, bilateral ovarian enlargement >10 cm, pleural effusions, renal impairment — meets all criteria for severe-critical OHSS)",
+      "OHSS complicated by VTE (hypercoagulable state present, but duplex is negative — continued surveillance and prophylaxis needed)",
+      "Ovarian torsion (excluded by preserved bilateral Doppler flow, though must remain vigilant given ovarian size)"
+    ]
+  }
+}

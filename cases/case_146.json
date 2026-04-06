@@ -1,0 +1,102 @@
+{
+  "case_id": "case_146",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Influenza A",
+  "icd_category": "J09.X2 — Influenza due to identified novel influenza A virus with other respiratory manifestations",
+  "one_liner": "A 55-year-old male with COPD presents during flu season with acute-onset high fever, severe myalgias, dry cough, and prostration beginning 2 days ago.",
+  "stage2": {
+    "hpi_extension": "The patient was in his usual state of health until 2 days ago when he developed sudden onset of high fever (40°C), severe diffuse myalgias, frontal headache, non-productive cough, rhinorrhea, and profound fatigue. He reports feeling 'hit by a truck' and has been unable to get out of bed. He has mild sore throat and retrosternal chest tightness with coughing. He did not receive the influenza vaccine this season. His wife had a similar illness last week. He has COPD and uses inhalers but has not required hospitalization for exacerbations. He denies hemoptysis, pleuritic chest pain, or shortness of breath at rest. No recent travel.",
+    "pmh": "COPD (moderate, GOLD stage II), hypertension, former smoker (30 pack-years, quit 5 years ago).",
+    "surgical_history": "Inguinal hernia repair (15 years ago).",
+    "medications": "Tiotropium 18 mcg inhaled daily, albuterol inhaler PRN, lisinopril 10 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired plumber. Former smoker (quit 5 years ago). Occasional alcohol. No illicit drugs. Lives with wife. Did not receive influenza vaccination this year.",
+    "vitals": {
+      "temp": "39.7°C (103.5°F)",
+      "hr": "104 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "82 kg, BMI 27.8"
+    },
+    "physical_exam": "Ill-appearing, flushed male in mild respiratory discomfort. Oropharynx mildly erythematous without exudates. No cervical lymphadenopathy. Scattered bilateral expiratory wheezes, no crackles. Heart tachycardic, regular rhythm, no murmurs. Abdomen benign. No rash. Mild conjunctival injection bilaterally. Diffuse muscle tenderness on palpation."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Rapid Influenza Molecular Assay (RT-PCR)", "result": "Influenza A detected (H3N2 subtype)", "flag": "ABNORMAL", "clinical_significance": "Confirms influenza A infection; RT-PCR is the gold standard with >95% sensitivity"},
+      {"test_name": "CBC — WBC", "result": "4,200/μL with 65% neutrophils, 28% lymphocytes", "flag": "WNL", "clinical_significance": "Normal to low-normal WBC; leukopenia or relative lymphopenia is common in influenza"},
+      {"test_name": "CRP", "result": "42 mg/L", "flag": "HIGH", "clinical_significance": "Moderate elevation consistent with viral infection; markedly elevated CRP would suggest bacterial superinfection"},
+      {"test_name": "Procalcitonin", "result": "0.15 ng/mL", "flag": "WNL", "clinical_significance": "Low procalcitonin argues against bacterial co-infection"},
+      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "AST/ALT", "result": "AST 45 U/L, ALT 38 U/L", "flag": "WNL", "clinical_significance": "Mildly elevated AST can be seen with influenza; no significant hepatic involvement"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and Lateral)", "result": "Hyperinflated lungs consistent with COPD. No focal consolidation, effusion, or infiltrates. No pneumothorax.", "flag": "WNL", "clinical_significance": "No evidence of pneumonia; findings consistent with underlying COPD only"}
+    ],
+    "key_tests": [
+      "Rapid influenza molecular assay (RT-PCR) — preferred test for influenza diagnosis",
+      "Chest X-ray (if concern for pneumonia or in patients with respiratory comorbidities)",
+      "Pulse oximetry"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Basic metabolic panel",
+      "CRP and/or procalcitonin (to evaluate for bacterial superinfection)",
+      "Respiratory viral panel (multiplex PCR) if broader viral differential",
+      "Blood cultures (if concern for secondary bacterial infection)",
+      "ABG or VBG (if significant hypoxia)"
+    ],
+    "low_yield_tests": [
+      "Rapid antigen influenza test (lower sensitivity than PCR; false negatives common)",
+      "Sputum culture (in absence of consolidation on CXR)",
+      "CT chest (not indicated without concerning CXR findings)",
+      "Viral culture (too slow for clinical decision-making)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Classic influenza presentation during flu season: abrupt onset of high fever, severe myalgias, headache, dry cough, and prostration in an unvaccinated patient with a sick household contact. Influenza A (H3N2) confirmed by RT-PCR. Low procalcitonin and clear chest X-ray argue against bacterial superinfection. Underlying COPD with mild hypoxia warrants close monitoring."
+  },
+  "debrief": {
+    "classic_presentation": "Abrupt onset of high fever (often >39°C), severe myalgias, headache, malaise, and non-productive cough during influenza season (typically October-April in the Northern Hemisphere). Distinguished from the common cold by sudden onset, systemic symptoms predominating over upper respiratory symptoms, and prostration. Patients often describe being 'hit by a truck.' Conjunctival injection and facial flushing are classic but often overlooked findings.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Influenza A and B viruses infect respiratory epithelial cells via hemagglutinin binding to sialic acid receptors. The virus replicates in the respiratory epithelium, causing direct cytopathic damage and triggering an intense innate immune response with release of pro-inflammatory cytokines (IL-6, TNF-alpha, IFN-gamma), which account for the systemic symptoms (fever, myalgias, malaise). Antigenic drift (point mutations in hemagglutinin and neuraminidase) allows seasonal re-infection. Antigenic shift (reassortment of genome segments between different influenza A strains) can produce pandemic strains. Complications include primary viral pneumonia, secondary bacterial pneumonia (S. pneumoniae, S. aureus, H. influenzae), COPD/asthma exacerbations, myocarditis, and encephalitis.",
+    "treatment_overview": "Antiviral therapy with oseltamivir (Tamiflu) 75 mg PO BID for 5 days, ideally started within 48 hours of symptom onset. Benefits are greatest when started early but can still provide benefit in hospitalized patients even if started >48 hours. Alternative: baloxavir marboxil (Xofluza) 40-80 mg single dose. For hospitalized or severe cases, oseltamivir is preferred (more clinical data). Supportive care: antipyretics (acetaminophen/ibuprofen), hydration, rest. For this patient: optimize COPD management (increase bronchodilator use, consider short course of systemic corticosteroids if wheezing worsens), supplemental oxygen to maintain SpO2 >92%, and monitor for secondary bacterial pneumonia. Hospitalization criteria: hypoxia, respiratory distress, altered mental status, high-risk comorbidities with moderate-severe disease.",
+    "high_yield_pearls": [
+      "RT-PCR (molecular assay) is the preferred diagnostic test for influenza — rapid antigen tests have sensitivity of only 50-70% and should not be used to rule out influenza.",
+      "Oseltamivir should be started empirically in hospitalized patients with suspected influenza during flu season without waiting for test results.",
+      "High-risk groups for influenza complications: age >65, COPD/asthma, cardiac disease, diabetes, immunosuppression, pregnancy, obesity (BMI >40), and nursing home residents.",
+      "A low procalcitonin (<0.25 ng/mL) in influenza can help distinguish primary viral illness from bacterial superinfection and guide antibiotic stewardship.",
+      "Secondary bacterial pneumonia typically occurs 4-7 days after influenza onset, often heralded by initial improvement followed by recurrent fever and productive cough."
+    ],
+    "sources": [
+      "IDSA Clinical Practice Guidelines: Diagnosis and Treatment of Adults with Community-Acquired Pneumonia (2019)",
+      "Uyeki TM et al. Clinical Practice Guidelines by the IDSA: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis. 2019;68(6):e1-e47.",
+      "UpToDate: Seasonal influenza in adults — Clinical manifestations and diagnosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Influenza",
+      "COVID-19",
+      "Community-acquired pneumonia",
+      "Acute COPD exacerbation (infectious)",
+      "RSV infection in adults",
+      "Acute bronchitis"
+    ],
+    "after_stage2_more_likely": [
+      "Influenza — abrupt onset of high fever, severe myalgias, dry cough during flu season in unvaccinated patient with sick household contact; classic presentation",
+      "COVID-19 — overlapping symptoms (fever, cough, myalgias) but COVID more often has anosmia/ageusia and more gradual onset"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia — no focal lung findings on exam; predominantly systemic rather than pulmonary symptoms",
+      "Acute bronchitis — typically lower fever, less systemic toxicity, and not this acute in onset"
+    ],
+    "after_labs_top3": [
+      "Influenza A — confirmed by RT-PCR (H3N2); low procalcitonin and clear CXR exclude bacterial superinfection",
+      "COVID-19 — excluded by specific influenza A detection on molecular testing",
+      "Bacterial pneumonia — excluded by clear CXR, low procalcitonin, and normal WBC"
+    ]
+  }
+}

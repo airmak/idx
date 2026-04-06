@@ -1,0 +1,118 @@
+{
+  "case_id": "case_233",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Serotonin Syndrome",
+  "icd_category": "G25.79 — Other drug-induced movement disorders (Serotonin syndrome)",
+  "one_liner": "A 38-year-old woman on sertraline and tramadol presents with acute onset of agitation, hyperthermia, clonus, hyperreflexia, diaphoresis, and dilated pupils within hours of adding an MAOI for treatment-resistant depression.",
+  "stage2": {
+    "hpi_extension": "The patient has a history of treatment-resistant major depressive disorder and chronic back pain. She has been taking sertraline 200 mg daily for 2 years and tramadol 50 mg Q6h PRN for back pain. Three days ago, her new psychiatrist started phenelzine (an MAOI) 15 mg TID for treatment-resistant depression WITHOUT discontinuing sertraline first (critical prescribing error — no washout period). Approximately 6 hours after taking her third dose of phenelzine along with her usual sertraline and tramadol, she developed rapid onset of agitation, confusion, profuse diaphoresis, and 'whole body shaking.' Her husband found her on the bathroom floor, trembling, with dilated pupils and fever. In the ED, she is agitated, tremulous, and has prominent lower extremity clonus. She is incoherent and unable to provide history. Her husband provides all collateral information. He confirms no other new medications, supplements, or dietary changes (no tyramine-rich foods).",
+    "pmh": "Treatment-resistant major depressive disorder (failed multiple SSRIs and SNRIs). Chronic low back pain (disc herniation L4-L5). Fibromyalgia. Migraine headaches.",
+    "surgical_history": "L4-L5 microdiscectomy (3 years ago, partial relief)",
+    "medications": "Sertraline 200 mg daily. Phenelzine 15 mg TID (started 3 days ago). Tramadol 50 mg Q6h PRN (took dose 6 hours ago). Sumatriptan 50 mg PRN for migraines (last used 5 days ago). Acetaminophen 500 mg PRN.",
+    "allergies": "Codeine (nausea)",
+    "family_history": "Father with depression. Mother with fibromyalgia. No family history of malignant hyperthermia or seizure disorder.",
+    "social_history": "Works as a high school teacher (currently on medical leave). Married. No children. Non-smoker. Occasional wine (1-2 glasses per week, none in the past week). Denies illicit drug use including MDMA/ecstasy. No supplement or herbal use (specifically no St. John's wort).",
+    "vitals": {
+      "temp": "103.6°F (39.8°C)",
+      "hr": "124 bpm",
+      "bp": "162/96 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "155 lbs, BMI 25.8 kg/m²"
+    },
+    "physical_exam": "General: Agitated, diaphoretic woman, tremulous, restless on the stretcher. HEENT: Pupils dilated (7 mm bilaterally, reactive). Diaphoretic face. Dry oral mucosa. Neck: Supple, no rigidity. Cardiovascular: Tachycardic, regular rhythm. Lungs: Clear bilaterally, tachypneic. Abdomen: Hyperactive bowel sounds, mild diffuse tenderness, no rigidity, diarrhea noted. Extremities: Warm, diaphoretic. No edema. Neurological: CRITICAL FINDINGS — Bilateral lower extremity clonus (sustained, >10 beats), hyperreflexia (4+ throughout), myoclonus (spontaneous jerking movements of upper and lower extremities), bilateral Babinski sign. Ocular clonus (slow roving eye movements with intermittent saccades). Muscle tone is INCREASED but NOT lead-pipe rigid — there is a 'catch-and-release' quality (different from NMS). No cogwheeling. Tremor is coarse and generalized. Ataxia cannot be assessed due to agitation. Mental Status Exam: Appearance — diaphoretic, flushed, restless. Behavior — severely agitated, attempting to climb off stretcher, non-purposeful movements. Speech — incoherent mumbling, unable to engage in conversation. Cognition — disoriented to all spheres, confused. Unable to assess mood, affect, thought process, or thought content meaningfully due to altered mental status."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CK (Creatine Kinase)", "result": "1,200 U/L (elevated, normal <200)", "flag": "HIGH", "clinical_significance": "Elevated from myoclonus and agitation, but MUCH lower than typical NMS (usually >5,000-10,000+); supports serotonin syndrome over NMS"},
+      {"test_name": "CMP", "result": "Na 136, K 4.8, Cl 100, CO2 19 (low), BUN 24, Cr 1.2, Glucose 142, Ca 9.0, AST 85, ALT 62", "flag": "ABNORMAL", "clinical_significance": "Mild metabolic acidosis from myoclonus/agitation. Mildly elevated creatinine from dehydration. Elevated transaminases from muscle injury."},
+      {"test_name": "CBC", "result": "WBC 12.8, Hgb 14.2, Hct 42.8, Plt 230", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress response"},
+      {"test_name": "ABG", "result": "pH 7.30, pCO2 28, pO2 85, HCO3 14", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation from sustained myoclonus and lactic acid production"},
+      {"test_name": "Lactate", "result": "4.2 mmol/L (elevated)", "flag": "HIGH", "clinical_significance": "Elevated from sustained muscle activity (myoclonus, agitation)"},
+      {"test_name": "Urine drug screen", "result": "Negative for MDMA, amphetamines, cocaine, PCP. Positive for tramadol (prescribed)", "flag": "ABNORMAL", "clinical_significance": "Rules out MDMA/ecstasy (a potent serotonin releaser) as precipitant; confirms tramadol use (serotonergic opioid contributing to SS)"},
+      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid storm as cause of hyperthermia and tachycardia"},
+      {"test_name": "Coagulation studies", "result": "PT 13.5, INR 1.1, PTT 32", "flag": "WNL", "clinical_significance": "No DIC — contrasts with severe NMS which may develop DIC"},
+      {"test_name": "Blood cultures (x2)", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Rules out sepsis"},
+      {"test_name": "Urinalysis", "result": "Concentrated, trace blood on dipstick, no RBCs", "flag": "ABNORMAL", "clinical_significance": "Trace myoglobinuria from mild rhabdomyolysis"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality.", "flag": "WNL", "clinical_significance": "Rules out intracranial pathology as cause of altered mental status"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 124 bpm. QTc 450 ms. No other abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia consistent with serotonergic autonomic activation. Monitor QTc."}
+    ],
+    "key_tests": [
+      "Detailed medication reconciliation — the MOST important diagnostic step; identifies the serotonergic polypharmacy (SSRI + MAOI + tramadol)",
+      "Hunter Serotonin Toxicity Criteria — presence of clonus (spontaneous + inducible) with agitation and diaphoresis meets criteria",
+      "CK — elevated but significantly lower than NMS, helps distinguish from NMS",
+      "CMP with renal function — to assess for rhabdomyolysis complications",
+      "Urine drug screen — to rule out MDMA or sympathomimetic use"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "ABG/lactate",
+      "Blood cultures (rule out sepsis)",
+      "TSH (rule out thyroid storm)",
+      "Coagulation studies",
+      "CT Head",
+      "ECG",
+      "Urinalysis with myoglobin"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (CT adequate, patient too agitated for MRI)",
+      "EEG (altered mental status explained by SS, not seizure unless suspected)",
+      "Lumbar puncture (no meningeal signs, clinical picture explained by drug interaction)",
+      "Serum iron (more useful in NMS than SS)",
+      "Serotonin levels (not clinically useful — diagnosis is clinical)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "This patient meets the Hunter Serotonin Toxicity Criteria: serotonergic agent exposure (sertraline + phenelzine + tramadol) PLUS spontaneous clonus. Additional supporting features include hyperreflexia, myoclonus, diaphoresis, agitation, hyperthermia, and mydriasis. The acute onset (hours) after adding an MAOI to an SSRI without a washout period is the classic precipitating scenario. The KEY distinguishing features from NMS are: CLONUS and HYPERREFLEXIA (NMS has lead-pipe rigidity and HYPOreflexia), onset over HOURS (NMS over days), and moderately elevated CK of 1,200 (NMS typically >5,000-10,000+)."
+  },
+  "debrief": {
+    "classic_presentation": "Acute onset (within hours) of neuromuscular excitation (clonus, hyperreflexia, myoclonus, tremor), autonomic dysfunction (hyperthermia, tachycardia, diaphoresis, mydriasis, diarrhea, hypertension), and altered mental status (agitation, confusion, delirium) following exposure to serotonergic agents, especially combinations. The most dangerous combination is MAOI + SSRI/SNRI.",
+    "attending_mode_notes": "Critical distinction from NMS using the 'Clonus vs. Rigidity' rule: SS has CLONUS (especially lower extremity), HYPERREFLEXIA, and myoclonus. NMS has LEAD-PIPE RIGIDITY and HYPOreflexia. SS develops in HOURS; NMS in DAYS. SS CK is mildly-moderately elevated (rarely >5,000); NMS CK is massively elevated (often >10,000-100,000). SS resolves in 24-72 hours with drug discontinuation; NMS takes 7-14 days. Use the Hunter Serotonin Toxicity Criteria (most accurate: sensitivity 84%, specificity 97%) — requires serotonergic agent + ONE of: spontaneous clonus, inducible clonus + agitation/diaphoresis, ocular clonus + agitation/diaphoresis, tremor + hyperreflexia, or temperature >38°C + ocular/inducible clonus. Multiple serotonergic medications: tramadol is an OFTEN FORGOTTEN serotonergic opioid; sumatriptan (triptans) are 5-HT1 agonists; St. John's wort, dextromethorphan, linezolid, and methylene blue are other commonly missed serotonergic agents.",
+    "pathophysiology": "Serotonin syndrome results from excessive serotonergic activity at 5-HT1A and 5-HT2A receptors in the brainstem and spinal cord. Mechanisms include: increased serotonin synthesis (tryptophan), increased serotonin release (MDMA, amphetamines), decreased serotonin reuptake (SSRIs, SNRIs, TCAs, tramadol, dextromethorphan), decreased serotonin metabolism (MAOIs), and direct serotonin receptor agonism (triptans, LSD, buspirone). 5-HT1A activation causes altered mental status and autonomic changes. 5-HT2A activation causes neuromuscular hyperactivity (clonus, myoclonus, hyperreflexia). The MAOI + SSRI combination is the most dangerous because MAOIs prevent serotonin breakdown while SSRIs prevent reuptake, causing massive synaptic serotonin accumulation.",
+    "treatment_overview": "IMMEDIATE: Discontinue ALL serotonergic agents. Supportive care is the mainstay: IV fluids, cooling measures, benzodiazepines for agitation and myoclonus (lorazepam 1-2 mg IV). Cyproheptadine (5-HT2A antagonist): 12 mg loading dose PO/NG, then 2-4 mg Q2h until symptoms improve (max 32 mg/day). Avoid antipyretics (fever is from muscle activity, not prostaglandin-mediated). If temperature >41.1°C, consider intubation and neuromuscular paralysis with non-depolarizing agents (NOT succinylcholine — risk of hyperkalemia). Avoid dantrolene (ineffective in SS, works at the wrong mechanism). Most cases resolve within 24-72 hours after drug discontinuation. When restarting serotonergic agents, ensure proper washout: 2 weeks for most SSRIs, 5 weeks for fluoxetine (long half-life), 2 weeks after stopping MAOIs before starting SSRIs.",
+    "high_yield_pearls": [
+      "The Hunter Criteria are the diagnostic standard: serotonergic agent + spontaneous clonus alone is sufficient. Lower extremity clonus is the most reliable physical exam finding.",
+      "SS has CLONUS + HYPERREFLEXIA; NMS has LEAD-PIPE RIGIDITY + HYPOREFLEXIA. This is the single highest-yield differentiator on boards and in clinical practice.",
+      "The most dangerous drug combination is MAOI + SSRI — requires a 2-week washout period (5 weeks for fluoxetine due to its long half-life active metabolite).",
+      "Commonly forgotten serotonergic agents: tramadol, meperidine, dextromethorphan, linezolid (weak MAOI), methylene blue (potent MAOI at doses used in surgery), St. John's wort, triptans.",
+      "Cyproheptadine (Periactin) is the specific antidote — a 5-HT2A antagonist. Only available in oral/NG form. Loading dose is 12 mg, then 2-4 mg Q2h.",
+      "Do NOT use dantrolene for serotonin syndrome (ineffective — muscle hyperactivity in SS is neural, not at the ryanodine receptor). Dantrolene works for NMS and malignant hyperthermia."
+    ],
+    "sources": [
+      "Boyer EW, Shannon M — The Serotonin Syndrome. NEJM 2005",
+      "Dunkley EJC et al. — The Hunter Serotonin Toxicity Criteria. QJM 2003",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Isbister GK et al. — Serotonin toxicity. Clin Pharmacol Ther 2007",
+      "Scotton WJ et al. — Serotonin syndrome: pathophysiology, clinical features, management. Pract Neurol 2019"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Serotonin syndrome",
+      "Neuroleptic malignant syndrome",
+      "Malignant hyperthermia",
+      "Sympathomimetic toxicity (MDMA, amphetamines)",
+      "Anticholinergic toxicity",
+      "Thyroid storm",
+      "Meningitis/encephalitis",
+      "Sepsis"
+    ],
+    "after_stage2_more_likely": [
+      "Serotonin syndrome — acute onset hours after adding MAOI to SSRI + serotonergic opioid (tramadol); neuromuscular findings of CLONUS and hyperreflexia (NOT lead-pipe rigidity)",
+      "Sympathomimetic toxicity — mydriasis, tachycardia, hyperthermia overlap, but medication history provides clear mechanism"
+    ],
+    "after_stage2_less_likely": [
+      "NMS — no antipsychotic exposure; clonus and hyperreflexia (not lead-pipe rigidity and hyporeflexia); onset in hours (not days)",
+      "Malignant hyperthermia — no recent anesthesia exposure",
+      "Anticholinergic toxicity — would have DRY skin (not diaphoretic) and ABSENT bowel sounds (not hyperactive)"
+    ],
+    "after_labs_top3": [
+      "Serotonin syndrome — meets Hunter criteria (serotonergic agents + spontaneous clonus); CK only 1,200 (much lower than expected for NMS); negative drug screen rules out MDMA",
+      "Sympathomimetic toxicity — excluded by negative urine drug screen for amphetamines and MDMA",
+      "NMS — excluded by absence of antipsychotic use, presence of clonus/hyperreflexia (wrong pattern), rapid onset, and relatively low CK"
+    ]
+  }
+}

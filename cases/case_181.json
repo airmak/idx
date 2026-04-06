@@ -1,0 +1,152 @@
+{
+  "case_id": "case_181",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Acute otitis media (Streptococcus pneumoniae)",
+  "icd_category": "H66.90 – Otitis media, unspecified, unspecified ear",
+  "one_liner": "A 2-year-old male with recurrent upper respiratory infections presents with 2 days of right ear pulling, irritability, and fever.",
+  "stage2": {
+    "hpi_extension": "The patient's mother reports he has been pulling at his right ear for the past 2 days and has been increasingly fussy, especially at night. He had a runny nose and mild cough starting about 5 days ago that seemed to be improving before the ear tugging began. He has had decreased oral intake and has been sleeping poorly. There is no history of ear drainage, hearing concerns, or recent travel. He attends daycare 5 days per week. He has had 2 prior episodes of otitis media, the last one 4 months ago.",
+    "pmh": "Two prior episodes of acute otitis media (last episode 4 months ago), no PE tubes placed. Up to date on immunizations including PCV13.",
+    "surgical_history": "None",
+    "medications": "Acetaminophen 160 mg (15 mg/kg) PO as needed for fever",
+    "allergies": "No known drug allergies",
+    "family_history": "Older sibling with history of recurrent otitis media requiring tympanostomy tubes. Mother has seasonal allergies.",
+    "social_history": "Lives with both parents and a 5-year-old sibling. Attends daycare full-time. No secondhand smoke exposure. No pets. Breastfed until 6 months, then formula-fed.",
+    "vitals": {
+      "temp": "38.7°C (101.7°F)",
+      "hr": "128 bpm",
+      "bp": "90/58 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "12.5 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Irritable, crying intermittently, but consolable by mother; well-nourished toddler in no acute distress. HEENT: Right tympanic membrane is erythematous, bulging, with decreased mobility on pneumatic otoscopy and a small yellow effusion visible behind the membrane; the light reflex is absent on the right; left tympanic membrane is slightly dull but mobile with intact light reflex. Nares with clear rhinorrhea bilaterally. Oropharynx mildly erythematous without exudates. Neck: Small bilateral anterior cervical lymphadenopathy, non-tender, mobile. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally, no wheezes or crackles. Abdomen: Soft, non-tender, non-distended, normal bowel sounds. Skin: No rashes. Extremities: Warm, well-perfused, capillary refill <2 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "14.8 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis consistent with an acute bacterial infectious process."
+      },
+      {
+        "test_name": "Neutrophils",
+        "result": "68%",
+        "flag": "HIGH",
+        "clinical_significance": "Neutrophil predominance supports a bacterial etiology of the acute otitis media."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin for age; no anemia present."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "310 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; reactive thrombocytosis can be seen in pediatric infections but is not present here."
+      },
+      {
+        "test_name": "CRP",
+        "result": "28 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CRP supports an acute inflammatory/infectious process."
+      },
+      {
+        "test_name": "ESR",
+        "result": "22 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ESR consistent with an acute infection."
+      },
+      {
+        "test_name": "Blood culture",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Negative blood cultures indicate no bacteremia; AOM rarely causes bacteremia in immunocompetent children."
+      },
+      {
+        "test_name": "BMP (Na, K, Cl, CO2, BUN, Cr, Glucose)",
+        "result": "Na 138, K 4.2, Cl 102, CO2 22, BUN 10, Cr 0.3, Glucose 92",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function; no dehydration despite decreased oral intake."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Pneumatic otoscopy",
+        "result": "Right tympanic membrane: bulging, erythematous, with decreased mobility and visible middle ear effusion. Left tympanic membrane: slightly dull with mildly reduced mobility.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bulging TM with decreased mobility on pneumatic otoscopy is the most reliable diagnostic finding for AOM and is the gold standard for clinical diagnosis."
+      }
+    ],
+    "key_tests": [
+      "Pneumatic otoscopy",
+      "Otoscopic examination",
+      "Tympanometry"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "CRP",
+      "Tympanocentesis (if recurrent/refractory)",
+      "Acoustic reflectometry",
+      "Temperature measurement"
+    ],
+    "low_yield_tests": [
+      "CT temporal bone",
+      "MRI brain",
+      "Blood cultures (unless toxic-appearing)",
+      "Lumbar puncture",
+      "Chest X-ray"
+    ]
+  },
+  "stage5": {
+    "final_clue": "On follow-up pneumatic otoscopy, the right tympanic membrane remains bulging with purulent effusion and absent mobility, confirming the diagnosis of acute otitis media requiring antibiotic therapy given the child's age under 2 years with bilateral involvement and moderate symptoms."
+  },
+  "debrief": {
+    "classic_presentation": "Acute otitis media classically presents in young children (peak age 6-24 months) with acute onset of ear pain (otalgia), ear tugging in pre-verbal children, irritability, fever, and often follows an upper respiratory tract infection. The hallmark finding is a bulging, erythematous tympanic membrane with decreased mobility on pneumatic otoscopy.",
+    "attending_mode_notes": null,
+    "pathophysiology": "AOM results from Eustachian tube dysfunction, typically triggered by a viral URI. In young children, the Eustachian tube is shorter, more horizontal, and more compliant, predisposing to inadequate drainage and reflux of nasopharyngeal bacteria into the middle ear. Viral infection causes mucosal edema and impaired mucociliary clearance, creating negative middle ear pressure and allowing bacterial colonization. The most common pathogens are Streptococcus pneumoniae (25-50%), non-typeable Haemophilus influenzae (15-30%), and Moraxella catarrhalis (3-20%). The resulting purulent effusion causes TM bulging and the characteristic symptoms.",
+    "treatment_overview": "Per AAP 2013 guidelines, amoxicillin 80-90 mg/kg/day divided BID for 10 days is first-line therapy for children under 2 years or those with severe symptoms. For penicillin allergy, cefdinir, cephalosporins, or azithromycin may be used. If no improvement in 48-72 hours, amoxicillin-clavulanate is second-line. Observation without antibiotics ('watchful waiting') may be appropriate for children ≥2 years with unilateral, non-severe AOM. Analgesics (acetaminophen, ibuprofen) should be provided for pain management. Tympanostomy tubes are considered for recurrent AOM (≥3 episodes in 6 months or ≥4 in 12 months).",
+    "high_yield_pearls": [
+      "Pneumatic otoscopy is the gold standard for diagnosing AOM — a bulging TM with decreased mobility is the most specific finding, more reliable than erythema alone (which can occur with crying).",
+      "The AAP recommends high-dose amoxicillin (80-90 mg/kg/day) as first-line to cover penicillin-intermediate S. pneumoniae strains prevalent since widespread PCV vaccination.",
+      "Watchful waiting (observation for 48-72 hours without antibiotics) is appropriate for children ≥2 years with unilateral, mild AOM — but NOT for children <2 years, bilateral AOM, or severe symptoms.",
+      "Risk factors for recurrent AOM include daycare attendance, pacifier use, lack of breastfeeding, secondhand smoke exposure, and craniofacial abnormalities (e.g., cleft palate, Down syndrome).",
+      "Otitis media with effusion (OME) is NOT the same as AOM — OME is middle ear fluid without signs of acute infection and does not require antibiotics."
+    ],
+    "sources": [
+      "AAP Clinical Practice Guideline: The Diagnosis and Management of Acute Otitis Media (2013)",
+      "UpToDate: Acute otitis media in children: Diagnosis",
+      "UpToDate: Acute otitis media in children: Treatment",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute otitis media",
+      "Otitis media with effusion",
+      "Otitis externa",
+      "Teething pain",
+      "Pharyngitis",
+      "Foreign body in ear canal",
+      "Referred dental pain"
+    ],
+    "after_stage2_more_likely": [
+      "Acute otitis media (bulging erythematous TM, decreased mobility, fever after URI prodrome)",
+      "Otitis media with effusion (dull TM on left, though lacking acute signs)"
+    ],
+    "after_stage2_less_likely": [
+      "Otitis externa (no ear canal edema, discharge, or tragal tenderness)",
+      "Teething (fever and ear exam findings point to infectious etiology)",
+      "Foreign body (no visible foreign body on otoscopy)"
+    ],
+    "after_labs_top3": [
+      "Acute otitis media",
+      "Otitis media with effusion (left ear)",
+      "Viral upper respiratory infection with secondary bacterial AOM"
+    ]
+  }
+}

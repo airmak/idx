@@ -1,0 +1,172 @@
+{
+  "case_id": "case_218",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Amniotic fluid embolism",
+  "icd_category": "O88.1 – Amniotic fluid embolism",
+  "one_liner": "A 35-year-old G3P2 suddenly develops acute dyspnea, hypoxia, hypotension, and altered mental status during active labor immediately after amniotomy, followed rapidly by DIC with massive hemorrhage.",
+  "stage2": {
+    "hpi_extension": "The patient is a 35-year-old G3P2 at 40 weeks 3 days gestation in active labor. Artificial rupture of membranes (amniotomy) was performed 5 minutes ago, yielding meconium-stained fluid. Within 2 minutes of amniotomy, the patient suddenly complained of difficulty breathing and chest tightness, then became acutely agitated and confused. She rapidly deteriorated with profound hypotension and desaturation. No prior symptoms of distress were noted — she was progressing normally in labor. She has no history of allergies, asthma, cardiac disease, or thromboembolic disease. Her prior deliveries were uncomplicated.",
+    "pmh": "G3P2002. Two prior uncomplicated vaginal deliveries at term. No cardiac, pulmonary, or coagulation history. No prior anaphylaxis.",
+    "surgical_history": "None",
+    "medications": "Oxytocin infusion (currently running for labor augmentation). Epidural anesthesia in place.",
+    "allergies": "No known drug allergies",
+    "family_history": "Non-contributory",
+    "social_history": "Non-smoker. No alcohol or drug use. Works as a librarian.",
+    "vitals": {
+      "temp": "36.5°C (97.7°F)",
+      "hr": "140 bpm (sinus tachycardia)",
+      "bp": "62/38 mmHg",
+      "rr": "36 breaths/min (labored)",
+      "spo2": "78% on 15L non-rebreather",
+      "weight_bmi": "82 kg, BMI 30 kg/m²"
+    },
+    "physical_exam": "General: Acutely ill, altered consciousness (responding only to painful stimuli), cyanotic, diaphoretic. HEENT: Central cyanosis of lips and oral mucosa; pupils equal and reactive. Cardiovascular: Tachycardic with weak, thready pulses; no murmurs; JVD present (right heart strain). Pulmonary: Diffuse bilateral crackles; labored breathing with accessory muscle use; severe dyspnea. Abdomen: Gravid uterus; uterine atony noted (boggy, non-contracting uterus); dark blood oozing from the IV site and vaginal canal. Extremities: Cool, mottled; capillary refill >5 seconds. Fetal monitoring: Fetal bradycardia to 60 bpm with absent variability (category III tracing). Bleeding: Profuse vaginal hemorrhage (estimated 1,500 mL in first 10 minutes) with blood that fails to clot."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "ABG",
+        "result": "pH 7.18, pCO2 48 mmHg, pO2 52 mmHg, HCO3 14 mEq/L, lactate 8.5 mmol/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Combined respiratory and metabolic acidosis with severe hypoxemia and elevated lactate indicates profound cardiopulmonary failure and tissue hypoperfusion."
+      },
+      {
+        "test_name": "Fibrinogen",
+        "result": "62 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Critically low fibrinogen (normal in pregnancy 400-600 mg/dL) confirms severe consumptive coagulopathy (DIC), the hallmark second phase of AFE."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "45 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Severe thrombocytopenia from DIC with massive platelet consumption."
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "PT 24 sec, INR 2.8",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly prolonged PT confirms coagulation factor depletion from DIC."
+      },
+      {
+        "test_name": "PTT",
+        "result": "68 sec",
+        "flag": "HIGH",
+        "clinical_significance": "Prolonged PTT from consumptive coagulopathy."
+      },
+      {
+        "test_name": "D-dimer",
+        "result": ">20,000 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Massively elevated D-dimer from overwhelming fibrinolysis characteristic of AFE-associated DIC."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "6.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia from massive hemorrhage secondary to DIC."
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "2.4 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated troponin reflects acute right ventricular strain and myocardial injury from pulmonary hypertension caused by AFE."
+      },
+      {
+        "test_name": "BNP",
+        "result": "1,200 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BNP reflects acute right heart failure from pulmonary vascular obstruction."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Bedside echocardiogram (point-of-care)",
+        "result": "Severely dilated right ventricle with interventricular septal bowing toward the left ventricle ('D-sign'). Moderate-severe tricuspid regurgitation. Estimated RVSP 65 mmHg. Left ventricle is small and underfilled with hyperdynamic function. No pericardial effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute right heart failure with elevated pulmonary pressures is the hallmark hemodynamic finding in AFE. The 'D-sign' indicates right ventricular pressure overload."
+      },
+      {
+        "test_name": "Chest X-ray (portable AP, post-intubation)",
+        "result": "Bilateral diffuse alveolar infiltrates consistent with pulmonary edema. Endotracheal tube in appropriate position. No pneumothorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral pulmonary edema in AFE results from both cardiogenic (right heart failure) and non-cardiogenic (capillary leak) mechanisms."
+      }
+    ],
+    "key_tests": [
+      "Clinical recognition (diagnosis of exclusion in correct clinical context)",
+      "ABG (hypoxemia, acidosis)",
+      "Coagulation panel with fibrinogen (DIC confirmation)",
+      "Bedside echocardiogram (acute right heart failure)"
+    ],
+    "acceptable_tests": [
+      "CBC with platelet count",
+      "Troponin and BNP (myocardial injury)",
+      "D-dimer",
+      "Chest X-ray",
+      "TEE (if available)",
+      "Thromboelastography (TEG) or rotational thromboelastometry (ROTEM) for real-time coagulation assessment"
+    ],
+    "low_yield_tests": [
+      "CT pulmonary angiography (too unstable to transport; PE is less likely given timing)",
+      "Serum tryptase (may help differentiate from anaphylaxis retrospectively but does not change acute management)",
+      "Zinc coproporphyrin or sialyl-Tn antigen (experimental, not clinically available)",
+      "V/Q scan (unstable patient, diagnosis is clinical)"
+    ],
+    "attending_pimp_questions": [
+      "What is the current understanding of the pathophysiology of AFE — is it truly an 'embolism' or an anaphylactoid reaction?",
+      "What are the two phases of AFE, and why does DIC occur so rapidly?",
+      "How does the hemodynamic profile of AFE differ from pulmonary embolism and tension pneumothorax?",
+      "What is the role of A-OK (atropine, ondansetron, ketorolac) protocol, and is there evidence supporting it?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Despite aggressive resuscitation including emergent perimortem cesarean delivery (within 5 minutes of cardiovascular collapse), massive transfusion protocol (1:1:1 pRBC:FFP:platelets plus cryoprecipitate and TXA), vasopressors (norepinephrine and vasopressin), and mechanical ventilation with high PEEP, the patient stabilizes over 6 hours. Postoperatively, zinc coproporphyrin levels return markedly elevated, and complement levels (C3, C4) are consumed, supporting the diagnosis of amniotic fluid embolism. The neonate is delivered in fair condition with Apgar scores 3/6/7 and is admitted to the NICU."
+  },
+  "debrief": {
+    "classic_presentation": "Amniotic fluid embolism presents as a sudden, catastrophic triad of acute hypoxia/respiratory failure, cardiovascular collapse (hypotension/cardiac arrest), and DIC with massive hemorrhage. It typically occurs during labor, delivery, or immediately postpartum. The classic timeline is sudden onset of dyspnea and hypotension during labor (often during or shortly after amniotomy, cesarean delivery, or uterine manipulation), followed within 30 minutes by coagulopathy and uncontrolled hemorrhage. Altered mental status and seizures may occur from cerebral hypoxia.",
+    "attending_mode_notes": "AFE is better understood as an anaphylactoid reaction of pregnancy rather than a mechanical embolic event. The Society for Maternal-Fetal Medicine (SMFM) proposed renaming it 'anaphylactoid syndrome of pregnancy.' Fetal material entering the maternal circulation triggers a massive complement activation and anaphylactoid inflammatory cascade rather than simple mechanical obstruction. This explains why the amount of amniotic fluid in the circulation does not correlate with severity. The two phases are: Phase 1 (initial 30 minutes) — acute pulmonary vasospasm and right heart failure causing hypoxia, hypotension, and possible cardiac arrest; Phase 2 (hours following) — left ventricular failure and DIC with massive hemorrhage. DIC occurs because amniotic fluid contains tissue factor and activated factor X, directly triggering the coagulation cascade. Mortality has historically been cited at 60-80%, but contemporary series suggest 20-40% with modern critical care. Risk factors include advanced maternal age, multiparity, meconium-stained fluid, amniotomy, tumultuous labor, oxytocin use, cesarean delivery, and cervical lacerations — but AFE can occur without any identifiable risk factor. There is no definitive diagnostic test; it remains a diagnosis of exclusion. Perimortem cesarean delivery must be performed within 4-5 minutes of cardiac arrest to improve both maternal and fetal outcomes (relieves aortocaval compression and improves maternal CPR efficacy). Thromboelastography (TEG/ROTEM) allows real-time point-of-care coagulation assessment to guide targeted blood product replacement.",
+    "pathophysiology": "Amniotic fluid and fetal debris (squamous cells, lanugo, mucin, meconium) enter the maternal circulation through uterine veins at the placental site, cervical tears, or uterine incision sites. Rather than causing mechanical obstruction (as originally theorized), these fetal antigens trigger a massive anaphylactoid response with complement activation (C3a, C5a), mast cell degranulation, and release of endothelin, thromboxane A2, and leukotrienes. This causes: (1) acute pulmonary vasospasm → right ventricular failure → reduced left ventricular preload → cardiovascular collapse; (2) endothelial dysfunction → increased capillary permeability → pulmonary edema; (3) tissue factor release → activation of extrinsic coagulation pathway → DIC → consumptive coagulopathy → massive hemorrhage. The left ventricle may also fail directly from myocardial depressant factors in the amniotic fluid.",
+    "treatment_overview": "Management is aggressive supportive care — there is no specific treatment for AFE. Immediate: call for help, initiate CPR if cardiac arrest, intubate and mechanically ventilate with high FiO2 and PEEP. Hemodynamic support: crystalloid resuscitation, vasopressors (norepinephrine first-line, vasopressin as adjunct), inotropes (dobutamine or milrinone for RV failure). If cardiac arrest in a pregnant patient: perimortem cesarean delivery within 4-5 minutes (improves maternal CPR and fetal outcomes). Massive transfusion protocol: pRBC:FFP:platelets in 1:1:1 ratio. Cryoprecipitate to maintain fibrinogen >200 mg/dL (goal 10 units). Tranexamic acid 1 g IV. TEG/ROTEM-guided transfusion if available. Uterine atony management: uterotonics (oxytocin, methylergonovine, carboprost, misoprostol), uterine massage, B-Lynch sutures, uterine artery embolization, hysterectomy as last resort. VA-ECMO or cardiopulmonary bypass may be considered in refractory cases at centers with capability. Recombinant factor VIIa (rFVIIa) has been used in refractory DIC but carries thrombotic risk.",
+    "high_yield_pearls": [
+      "Amniotic fluid embolism is a clinical diagnosis of exclusion characterized by the sudden triad of hypoxia, cardiovascular collapse, and DIC during labor or delivery — there is no confirmatory diagnostic test available in real-time.",
+      "Perimortem cesarean delivery must be initiated within 4 minutes and completed within 5 minutes of maternal cardiac arrest — it improves maternal resuscitation by relieving aortocaval compression and improves neonatal outcomes.",
+      "AFE is more accurately understood as an 'anaphylactoid syndrome of pregnancy' than a mechanical embolism — fetal antigens trigger complement activation and an anaphylactoid cascade rather than vascular obstruction.",
+      "Fibrinogen <200 mg/dL in labor or delivery should prompt immediate aggressive cryoprecipitate replacement — fibrinogen is consumed first and most rapidly in obstetric DIC.",
+      "Point-of-care viscoelastic testing (TEG/ROTEM) enables targeted blood product replacement in AFE-associated DIC and is superior to conventional lab-based coagulation studies that take 30-60 minutes to result."
+    ],
+    "sources": [
+      "SMFM Clinical Expert Series: Amniotic Fluid Embolism (2016)",
+      "Clark SL. Amniotic fluid embolism. Obstet Gynecol. 2014",
+      "UpToDate: Amniotic fluid embolism",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Amniotic fluid embolism",
+      "Pulmonary embolism (thrombotic)",
+      "Anaphylaxis (drug-related during labor)",
+      "Peripartum cardiomyopathy",
+      "Placental abruption with DIC",
+      "Septic shock",
+      "Air embolism",
+      "High spinal anesthesia"
+    ],
+    "after_stage2_more_likely": [
+      "Amniotic fluid embolism (sudden cardiopulmonary collapse immediately after amniotomy, DIC with unclottable blood, right heart failure on echo, classic timing)",
+      "Anaphylaxis (sudden onset during medication administration — but DIC and right heart failure are less typical of anaphylaxis)"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary embolism (PE causes RV strain but typically does not cause DIC; timing immediately after amniotomy favors AFE)",
+      "High spinal (would cause hypotension and respiratory failure but not DIC or right heart failure)",
+      "Septic shock (afebrile, sudden onset without prior signs of infection, DIC develops too rapidly for sepsis)"
+    ],
+    "after_labs_top3": [
+      "Amniotic fluid embolism (sudden cardiopulmonary collapse + DIC + right heart failure on echo in peripartum period — classic triad confirmed)",
+      "Massive pulmonary embolism (right heart failure present but DIC with fibrinogen of 62 and hemorrhage is not characteristic of PE)",
+      "Anaphylaxis (complement consumption and hemodynamic collapse overlap, but the severe DIC and right heart failure favor AFE)"
+    ]
+  }
+}

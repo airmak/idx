@@ -1,0 +1,111 @@
+{
+  "case_id": "case_144",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Urinary sepsis",
+  "icd_category": "A41.51 — Sepsis due to Escherichia coli",
+  "one_liner": "A 72-year-old female with diabetes and recurrent UTIs presents with fever, rigors, flank pain, altered mental status, and hypotension after 2 days of dysuria and frequency.",
+  "stage2": {
+    "hpi_extension": "The patient's daughter called EMS after finding her mother confused and shivering at home. The patient had complained of burning with urination and urinary frequency for 2 days, followed by right-sided flank pain, subjective fevers, and chills. She became progressively lethargic and less responsive over the past 6 hours. She has a history of recurrent UTIs (3 in the past year) and was treated with ciprofloxacin 2 months ago for her last UTI. She denies recent urinary catheterization, kidney stones, or recent hospitalization. No vaginal discharge or hematuria noted by the patient.",
+    "pmh": "Type 2 diabetes mellitus (HbA1c 7.8%), hypertension, recurrent urinary tract infections, chronic kidney disease stage 2.",
+    "surgical_history": "Total abdominal hysterectomy (age 55).",
+    "medications": "Metformin 500 mg twice daily, lisinopril 20 mg daily, amlodipine 5 mg daily.",
+    "allergies": "Sulfonamides (rash).",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired teacher. Lives alone. Non-smoker. No alcohol or illicit drugs. No recent travel.",
+    "vitals": {
+      "temp": "39.4°C (102.9°F)",
+      "hr": "112 bpm",
+      "bp": "88/52 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "68 kg, BMI 27.1"
+    },
+    "physical_exam": "Elderly female, drowsy but arousable, disoriented to time and place. Dry mucous membranes. No nuchal rigidity. Lungs clear bilaterally. Heart tachycardic, regular rhythm, no murmurs. Abdomen soft, non-distended, mild suprapubic tenderness. Right costovertebral angle tenderness on percussion. No skin rashes or petechiae. Extremities warm with 3-second capillary refill. Foley catheter placed in ED with cloudy, foul-smelling urine."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "19,200/μL with 88% neutrophils, 6% bands", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift consistent with severe bacterial infection"},
+      {"test_name": "Serum Lactate", "result": "4.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion consistent with sepsis"},
+      {"test_name": "Serum Creatinine", "result": "1.8 mg/dL (baseline 1.1)", "flag": "HIGH", "clinical_significance": "Acute kidney injury superimposed on CKD, likely from sepsis-related hypoperfusion"},
+      {"test_name": "Blood Cultures (x2 sets)", "result": "2/2 sets growing gram-negative rods at 12 hours (final: E. coli, pansensitive)", "flag": "ABNORMAL", "clinical_significance": "E. coli bacteremia confirming urinary source sepsis"},
+      {"test_name": "Urinalysis", "result": "Cloudy, positive leukocyte esterase, positive nitrites, >50 WBC/hpf, many bacteria", "flag": "ABNORMAL", "clinical_significance": "Pyuria and bacteriuria confirming urinary tract infection"},
+      {"test_name": "Urine Culture", "result": ">100,000 CFU/mL E. coli (pansensitive)", "flag": "ABNORMAL", "clinical_significance": "Significant bacteriuria with organism matching blood cultures, confirming urinary source"},
+      {"test_name": "Procalcitonin", "result": "8.6 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated procalcitonin supports serious bacterial infection/sepsis"},
+      {"test_name": "CRP", "result": "186 mg/L", "flag": "HIGH", "clinical_significance": "Significantly elevated inflammatory marker"},
+      {"test_name": "BMP — Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal sodium"},
+      {"test_name": "BMP — Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal potassium, to be monitored in the setting of AKI"},
+      {"test_name": "Serum Glucose", "result": "218 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia in the setting of sepsis"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Right kidney with perinephric fat stranding and mild hydronephrosis. No renal abscess. No obstructing calculus identified. Bladder wall thickening.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with acute right pyelonephritis; mild hydronephrosis without obstruction"}
+    ],
+    "key_tests": [
+      "Blood cultures (at least 2 sets before antibiotics)",
+      "Urinalysis and urine culture",
+      "Serum lactate",
+      "Complete blood count with differential",
+      "Basic metabolic panel (creatinine, electrolytes)"
+    ],
+    "acceptable_tests": [
+      "Procalcitonin",
+      "CRP",
+      "CT abdomen/pelvis (if concern for obstruction, abscess, or complicated pyelonephritis)",
+      "Renal ultrasound (alternative to CT for hydronephrosis)",
+      "Lactic acid trend (repeat in 2-4 hours)",
+      "Hepatic function panel",
+      "Coagulation studies (DIC screening)"
+    ],
+    "low_yield_tests": [
+      "Chest X-ray (unless respiratory symptoms present)",
+      "Lumbar puncture (altered mental status here explained by septic encephalopathy)",
+      "CT head",
+      "Blood smear for parasites"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A septic elderly diabetic female with dysuria, frequency, right flank pain, fever, hypotension, tachycardia, and altered mental status. Urinalysis confirms pyuria and bacteriuria, blood and urine cultures both grow E. coli, lactate is elevated at 4.2, and CT shows right pyelonephritis with perinephric stranding. The constellation confirms urinary sepsis secondary to E. coli pyelonephritis."
+  },
+  "debrief": {
+    "classic_presentation": "An elderly or immunocompromised patient (often with diabetes, urinary obstruction, or catheterization) presenting with dysuria, urinary frequency, flank pain, high fever with rigors, and progression to sepsis (hypotension, tachycardia, altered mental status, elevated lactate). Urinalysis shows pyuria and bacteriuria, and blood cultures frequently grow the same uropathogen (most commonly E. coli).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Uropathogens (predominantly E. coli, accounting for 70-80% of urinary sepsis) ascend from the periurethral area through the urethra to the bladder and up the ureters to the kidney. Virulence factors including P-fimbriae, type 1 pili, and lipopolysaccharide (LPS) enable adhesion, tissue invasion, and immune evasion. Pyelonephritis develops when bacteria invade the renal parenchyma, producing inflammation and potential microabscess formation. Bacteremia occurs when organisms enter the bloodstream via the renal vasculature. LPS triggers the systemic inflammatory response (SIRS) via Toll-like receptor 4 activation, leading to cytokine release (TNF-alpha, IL-1, IL-6), vasodilation, capillary leak, and distributive shock. Risk factors include female sex, diabetes, urinary obstruction, neurogenic bladder, and urinary catheterization.",
+    "treatment_overview": "Immediate management per Surviving Sepsis Campaign: aggressive IV fluid resuscitation (30 mL/kg crystalloid within 3 hours), blood cultures before antibiotics, and broad-spectrum IV antibiotics within 1 hour of recognition. Empiric regimen: ceftriaxone 2g IV daily or piperacillin-tazobactam 4.5g IV Q6h (if concern for resistant organisms or recent fluoroquinolone use). If hemodynamically unstable after fluids, start vasopressors (norepinephrine first-line) targeting MAP ≥65 mmHg. Narrow antibiotics based on culture sensitivities. If obstructive uropathy identified, urgent urologic decompression (ureteral stent or percutaneous nephrostomy). Total antibiotic duration: 10-14 days for complicated pyelonephritis/sepsis. Hold metformin during AKI. Monitor lactate clearance (target >10% decrease in 2-4 hours).",
+    "high_yield_pearls": [
+      "Urinary sepsis is the most common cause of gram-negative bacteremia in the elderly.",
+      "Blood cultures are positive in 20-30% of pyelonephritis cases; always obtain before antibiotics in suspected sepsis.",
+      "Serum lactate >4 mmol/L indicates severe tissue hypoperfusion and is associated with mortality >30% in sepsis.",
+      "Altered mental status in elderly septic patients (septic encephalopathy) should not be attributed to a primary neurologic cause without excluding sepsis first.",
+      "The hour-1 bundle: measure lactate, obtain blood cultures, administer broad-spectrum antibiotics, begin rapid fluid resuscitation (30 mL/kg), and apply vasopressors if hypotensive despite fluids."
+    ],
+    "sources": [
+      "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock (2021)",
+      "Wagenlehner FM et al. Diagnosis and management for urosepsis. Int J Urol. 2013;20(10):963-970.",
+      "UpToDate: Sepsis syndromes in adults — Epidemiology, definitions, clinical presentation, diagnosis, and prognosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Urinary sepsis (pyelonephritis with bacteremia)",
+      "Uncomplicated pyelonephritis",
+      "Renal abscess",
+      "Obstructive uropathy with infection",
+      "Cholangitis",
+      "Intra-abdominal abscess",
+      "Meningitis"
+    ],
+    "after_stage2_more_likely": [
+      "Urinary sepsis — dysuria, frequency, right CVA tenderness, fever with rigors, hypotension, tachycardia, and altered mental status in an elderly diabetic with recurrent UTIs",
+      "Complicated pyelonephritis — right flank pain with systemic toxicity raises concern for complicated upper tract infection"
+    ],
+    "after_stage2_less_likely": [
+      "Cholangitis — no jaundice, RUQ pain, or biliary history",
+      "Meningitis — no nuchal rigidity; altered mental status better explained by septic encephalopathy in context of urinary symptoms"
+    ],
+    "after_labs_top3": [
+      "Urinary sepsis — E. coli bacteremia matching urine culture, elevated lactate, pyuria, CT showing pyelonephritis",
+      "Complicated pyelonephritis — CT confirms renal involvement; no abscess or obstruction requiring intervention",
+      "Renal abscess — excluded by CT imaging showing no abscess"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "case_id": "case_114",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Neuromyelitis optica (Devic disease)",
+  "icd_category": "G36.0 — Neuromyelitis optica [Devic disease]",
+  "one_liner": "A 38-year-old African American woman presents with severe bilateral vision loss over 3 days and intractable hiccups/vomiting for 2 weeks, with MRI showing a longitudinally extensive transverse myelitis lesion spanning T2-T6.",
+  "stage2": {
+    "hpi_extension": "The patient developed intractable hiccups and nausea with vomiting 2 weeks ago that did not respond to ondansetron or metoclopramide. She was evaluated by gastroenterology and had an unremarkable upper endoscopy. Three days ago, she developed blurred vision in her right eye, followed by rapid progression to severe vision loss in both eyes over 48 hours, worse on the right. She reports eye pain with movement bilaterally. She also developed numbness and a tight 'band-like' sensation around her mid-thorax 5 days ago, along with new urinary retention requiring catheterization yesterday. She has no prior neurological history. She was told she had 'vitamin D deficiency' 2 years ago but did not follow up. No recent infections or vaccinations.",
+    "pmh": "Vitamin D deficiency, obesity. No prior autoimmune diagnoses.",
+    "surgical_history": "Cesarean section age 30.",
+    "medications": "Multivitamin daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother has systemic lupus erythematosus. Sister has Hashimoto thyroiditis.",
+    "social_history": "Administrative assistant. Non-smoker. No alcohol. Single mother with one child. No illicit drug use.",
+    "vitals": {
+      "temp": "98.8 F (37.1 C)",
+      "hr": "82 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "92 kg, BMI 33.4"
+    },
+    "physical_exam": "General: Obese woman in moderate distress, eyes closed due to photophobia. Intermittent hiccups during exam. HEENT: Visual acuity — right eye: counting fingers at 2 feet; left eye: 20/200. Bilateral relative afferent pupillary defect (more prominent on the right). Color vision markedly impaired bilaterally. Fundoscopy: Bilateral optic disc edema, more prominent on the right. Cranial nerves: Otherwise intact except intractable hiccups (possible area postrema involvement). Neuro: Motor — upper extremities 5/5 bilaterally. Lower extremities: hip flexion 3/5 bilaterally, knee extension 4/5, ankle dorsiflexion 3/5. Sensory: T4-T6 sensory level to pinprick bilaterally with decreased proprioception in toes. DTRs: 3+ at knees and ankles with bilateral Babinski signs. Tone increased in lower extremities. Urinary retention (Foley catheter in place, draining 800 mL on placement). Gait: Unable to ambulate independently."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "8,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "12.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ANA", "result": "1:160, speckled pattern", "flag": "ABNORMAL", "clinical_significance": "Low-titer positive ANA; NMOSD has frequent autoimmune comorbidities. Does not meet criteria for SLE."},
+      {"test_name": "ESR", "result": "28 mm/hr", "flag": "MILDLY HIGH", "clinical_significance": "Mildly elevated; nonspecific"},
+      {"test_name": "NMO-IgG (Aquaporin-4 antibody) — serum", "result": "Positive (cell-based assay)", "flag": "ABNORMAL", "clinical_significance": "DIAGNOSTIC: AQP4-IgG positivity is highly specific (>99%) for NMOSD and distinguishes it from MS. Cell-based assay is the most sensitive method."},
+      {"test_name": "MOG-IgG antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; MOG antibody disease is a separate entity from AQP4-positive NMOSD"},
+      {"test_name": "CSF — Cell count and protein", "result": "WBC 85/uL (60% neutrophils, 30% lymphocytes), protein 92 mg/dL, glucose 58 mg/dL", "flag": "ABNORMAL", "clinical_significance": "Neutrophilic pleocytosis is more typical of NMOSD than MS (which shows lymphocytic predominance). Elevated protein reflects severe inflammation."},
+      {"test_name": "CSF — Oligoclonal bands", "result": "Negative (no unique bands in CSF)", "flag": "WNL", "clinical_significance": "ABSENT oligoclonal bands — helps differentiate from MS where OCBs are positive in >85% of cases. OCBs are positive in only 15-30% of NMOSD."},
+      {"test_name": "Vitamin B12", "result": "410 pg/mL", "flag": "WNL", "clinical_significance": "Normal; excludes B12 deficiency myelopathy"},
+      {"test_name": "TSH", "result": "5.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; subclinical hypothyroidism, consistent with autoimmune thyroid disease co-occurring with NMOSD"},
+      {"test_name": "Anti-TPO antibodies", "result": "Positive (124 IU/mL)", "flag": "ABNORMAL", "clinical_significance": "Confirms autoimmune thyroiditis; autoimmune comorbidities are common in NMOSD (up to 30%)"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain with and without contrast", "result": "T2/FLAIR hyperintensity in the dorsal medulla/area postrema region bilaterally. No periventricular Dawson fingers pattern. No lesions typical of MS.", "flag": "ABNORMAL", "clinical_significance": "Area postrema lesion explains the intractable hiccups and vomiting — this is a hallmark of NMOSD and one of the core clinical characteristics. Brain MRI pattern is atypical for MS."},
+      {"test_name": "MRI thoracic spine with contrast", "result": "Longitudinally extensive T2 hyperintense lesion spanning T2-T6 (5 vertebral segments) with patchy gadolinium enhancement. Central cord involvement. Cord edema present.", "flag": "ABNORMAL", "clinical_significance": "Longitudinally extensive transverse myelitis (LETM, >=3 vertebral segments) is a hallmark of NMOSD, in contrast to the short-segment lesions of MS. Central cord involvement and cord edema are characteristic."},
+      {"test_name": "MRI orbits with fat suppression and contrast", "result": "Bilateral optic nerve enhancement and swelling, more prominent on the right. Enhancement extends to the optic chiasm.", "flag": "ABNORMAL", "clinical_significance": "Severe bilateral optic neuritis with chiasmal involvement is characteristic of NMOSD (MS typically causes unilateral, retrobulbar optic neuritis without chiasmal extension)."}
+    ],
+    "key_tests": ["Serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay", "MRI spine with contrast (to identify LETM)", "MRI brain with contrast (to identify area postrema lesion)", "MRI orbits with contrast and fat suppression", "Lumbar puncture with CSF analysis", "MOG-IgG antibody (to differentiate from MOG antibody disease)"],
+    "acceptable_tests": ["CBC", "ANA and autoimmune panel", "ESR/CRP", "Vitamin B12", "TSH and anti-TPO antibodies", "Visual evoked potentials", "OCT (optical coherence tomography)", "HIV and syphilis testing"],
+    "low_yield_tests": ["CT head", "EEG", "MRA", "Serum protein electrophoresis", "Muscle biopsy"],
+    "low_yield_tests_note": "AQP4-IgG by cell-based assay is the most important diagnostic test — ELISA-based assays have lower sensitivity."
+  },
+  "stage5": {
+    "final_clue": "Positive serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay, combined with three core clinical characteristics — bilateral optic neuritis with chiasmal involvement, longitudinally extensive transverse myelitis (T2-T6, spanning 5 segments), and area postrema syndrome (intractable hiccups and vomiting) — confirms the diagnosis of AQP4-IgG-positive neuromyelitis optica spectrum disorder per the 2015 International Panel criteria. The patient is treated acutely with IV methylprednisolone 1 g/day for 5 days followed by plasma exchange (5 sessions) due to poor initial response. She is started on rituximab for relapse prevention. Her vision partially recovers (right eye 20/100, left eye 20/40), and lower extremity strength improves to 4/5 with rehabilitation."
+  },
+  "debrief": {
+    "classic_presentation": "Woman (often non-Caucasian, 30s-40s) with severe bilateral optic neuritis (often with chiasmal involvement and poor recovery), longitudinally extensive transverse myelitis (>=3 vertebral segments), and area postrema syndrome (intractable hiccups/vomiting), with positive AQP4-IgG antibody and negative CSF oligoclonal bands.",
+    "attending_mode_notes": "This case tests the ability to distinguish NMOSD from MS, which is critical because treatments for MS (such as interferon-beta, fingolimod, and natalizumab) can WORSEN NMOSD. Key distinguishing features: (1) LETM >=3 segments (vs. short-segment in MS), (2) severe bilateral optic neuritis with poor recovery (vs. unilateral with good recovery in MS), (3) area postrema syndrome (rare in MS), (4) CSF neutrophilic pleocytosis and ABSENT oligoclonal bands (vs. lymphocytic with positive OCBs in MS), (5) AQP4-IgG positivity (>99% specific). Also tests knowledge of the autoimmune comorbidity pattern — the mother with SLE and sister with Hashimoto's, plus the patient's own anti-TPO positivity, reflect the strong autoimmune diathesis in NMOSD families. The attending-level pitfall is misdiagnosing this as MS and starting interferon-beta, which has been associated with increased relapse rate in NMOSD.",
+    "pathophysiology": "NMOSD is an autoimmune astrocytopathy mediated by IgG antibodies against aquaporin-4 (AQP4), the predominant water channel on astrocyte foot processes at the blood-brain barrier. AQP4-IgG activates complement (classical pathway), leading to complement-dependent cytotoxicity of astrocytes, secondary oligodendrocyte injury, and demyelination with necrosis. AQP4 is highly expressed in the optic nerves, spinal cord (especially central grey matter), and area postrema (circumventricular organ with incomplete BBB, explaining early area postrema symptoms and antibody access). Unlike MS, NMOSD causes destructive, necrotic lesions with cavitation, explaining poorer recovery. The area postrema lacks a complete blood-brain barrier, making it a site of early antibody entry and a sentinel symptom of NMOSD.",
+    "treatment_overview": "Acute attacks: High-dose IV methylprednisolone 1 g/day x 5 days. If poor response (common in NMOSD), escalate to plasma exchange (PLEX, 5-7 sessions) — PLEX is more effective in NMOSD than in MS. Relapse prevention (critical — NMOSD relapses cause cumulative disability): First-line: Rituximab (anti-CD20), eculizumab (anti-C5 complement inhibitor, FDA-approved), inebilizumab (anti-CD19, FDA-approved), satralizumab (anti-IL-6R, FDA-approved). DO NOT use MS drugs: interferon-beta, fingolimod, and natalizumab can worsen NMOSD. Azathioprine and mycophenolate are older alternatives. Long-term monitoring: serial visual acuity, OCT (RNFL thickness), relapse surveillance.",
+    "high_yield_pearls": [
+      "MS treatments (interferon-beta, fingolimod, natalizumab) can WORSEN NMOSD — distinguishing these two diseases is clinically critical before starting disease-modifying therapy.",
+      "The area postrema syndrome (intractable nausea, vomiting, hiccups) is highly specific for NMOSD and may precede optic neuritis or myelitis by weeks to months — recognizing this 'sentinel symptom' can enable earlier diagnosis.",
+      "NMOSD preferentially affects non-Caucasian populations (African American, Asian, Hispanic) and has a strong female predominance (9:1 F:M ratio for AQP4-positive disease).",
+      "CSF in NMOSD typically shows neutrophilic pleocytosis and ABSENT oligoclonal bands — this is the opposite of MS (lymphocytic pleocytosis, positive OCBs in >85%).",
+      "Eculizumab (anti-C5 complement inhibitor) reduced relapse rate by 94% in the PREVENT trial — reflecting the central role of complement-mediated astrocyte destruction in NMOSD pathogenesis.",
+      "AQP4-IgG testing must use cell-based assay (CBA) for optimal sensitivity (~80%) — older ELISA-based assays miss up to 30% of positive cases."
+    ],
+    "sources": [
+      "Wingerchuk DM, et al. International consensus diagnostic criteria for NMOSD. Neurology. 2015",
+      "Pittock SJ, et al. Eculizumab in AQP4-IgG-positive NMOSD (PREVENT). NEJM. 2019",
+      "UpToDate: Neuromyelitis optica spectrum disorder — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Neuromyelitis optica spectrum disorder", "Multiple sclerosis", "MOG antibody disease", "Systemic lupus erythematosus (CNS)", "Sarcoidosis (neurosarcoidosis)", "Spinal cord tumor", "Idiopathic transverse myelitis"],
+    "after_stage2_more_likely": ["Neuromyelitis optica spectrum disorder", "Multiple sclerosis"],
+    "after_stage2_less_likely": ["Spinal cord tumor", "Systemic lupus erythematosus", "Sarcoidosis"],
+    "after_labs_top3": ["Neuromyelitis optica spectrum disorder", "MOG antibody disease", "Multiple sclerosis"]
+  }
+}

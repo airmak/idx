@@ -1,0 +1,78 @@
+{
+  "case_id": "case_079",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+  "icd_category": "I42.8 — Other cardiomyopathies",
+  "one_liner": "A 24-year-old male competitive cyclist presents with recurrent exercise-induced palpitations and an episode of sustained ventricular tachycardia with LBBB morphology.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the ED after collapsing during a cycling race. Bystanders initiated CPR and an AED delivered one shock with return of spontaneous circulation. He reports a 6-month history of palpitations during intense exercise, occasionally associated with lightheadedness. He had one prior episode 3 months ago where he felt his heart 'racing' for 2-3 minutes during a sprint and nearly passed out. He attributed it to dehydration and did not seek evaluation. He denies chest pain or dyspnea.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "Protein supplements, creatine",
+    "allergies": "No known drug allergies",
+    "family_history": "Paternal cousin died of sudden cardiac arrest at age 22 during a soccer game. Father has occasional palpitations but has not been evaluated.",
+    "social_history": "Non-smoker. Social alcohol. Competitive road cyclist (trains 20+ hours/week). College student. No illicit drugs or performance-enhancing substances.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "68 bpm, regular (post-cardioversion)",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "72 kg, BMI 22.5"
+    },
+    "physical_exam": "General: Athletic-appearing young male, alert and oriented. HEENT: No JVD. Cardiovascular: Regular rate and rhythm, normal S1/S2, no murmurs, no gallops. Pulmonary: Clear bilaterally. Abdomen: Soft, non-tender. Extremities: No edema, muscular build. Neurological: Alert, oriented, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.35 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated from sustained VT and CPR, but also may reflect ongoing RV myocardial inflammation/necrosis"},
+      {"test_name": "BNP", "result": "85 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no overt heart failure"},
+      {"test_name": "Potassium", "result": "3.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out hypokalemia as arrhythmia trigger"},
+      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CK", "result": "520 U/L", "flag": "HIGH", "clinical_significance": "Elevated from CPR and intense exercise"},
+      {"test_name": "CBC", "result": "WBC 9.8, Hgb 15.2, Plt 210", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "1.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Lactate", "result": "2.2 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from arrest and resuscitation"},
+      {"test_name": "Toxicology screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit drugs"},
+      {"test_name": "Genetic testing (PKP2)", "result": "Pathogenic variant in plakophilin-2 (PKP2) gene", "flag": "ABNORMAL", "clinical_significance": "PKP2 is the most commonly mutated gene in ARVC, confirming the diagnosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Cardiac MRI", "result": "Dilated RV (RVEDV index 120 mL/m², normal <110). RV ejection fraction 38% (reduced). RV free wall dyskinesia with focal aneurysm at the RV apex. Fibrofatty infiltration of the RV free wall on T1 mapping. Late gadolinium enhancement in the RV free wall. Normal LV size and function (LVEF 58%).", "flag": "ABNORMAL", "clinical_significance": "Meets major Task Force criterion for ARVC: RV dilation, reduced RVEF, and regional wall motion abnormalities. Fibrofatty replacement is pathognomonic."},
+      {"test_name": "12-lead ECG", "result": "Sinus rhythm. Epsilon wave (small potential after QRS in V1-V3). T-wave inversions in V1-V4. Prolonged S-wave upstroke >55 ms in V1-V3. QRS 118 ms.", "flag": "ABNORMAL", "clinical_significance": "Epsilon waves and precordial T-wave inversions beyond V1 are major and minor Task Force criteria for ARVC, respectively"},
+      {"test_name": "Transthoracic Echocardiogram", "result": "Dilated RV with reduced systolic function. RV free wall akinesia. Normal LV size and function. Mild tricuspid regurgitation.", "flag": "ABNORMAL", "clinical_significance": "RV dilation and dysfunction consistent with ARVC; echo less sensitive than MRI for fibrofatty infiltration"}
+    ],
+    "key_tests": ["Cardiac MRI", "12-lead ECG", "Transthoracic echocardiogram", "Genetic testing (desmosomal genes)", "Troponin"],
+    "acceptable_tests": ["Basic metabolic panel", "Holter/event monitor", "Signal-averaged ECG", "Electrophysiology study", "CBC", "CK", "Toxicology screen"],
+    "low_yield_tests": ["Coronary angiography", "CT chest", "Stress test", "BNP", "Pulmonary function tests", "ANA"],
+    "key_tests_rationale": "Cardiac MRI is the gold standard for detecting RV structural abnormalities and fibrofatty replacement. ECG shows characteristic epsilon waves and T-wave inversions. Echo provides initial assessment. Genetic testing confirms desmosomal mutation and enables family screening."
+  },
+  "stage5": {
+    "final_clue": "Cardiac MRI reveals a dilated RV with fibrofatty infiltration and focal aneurysm, ECG shows epsilon waves with precordial T-wave inversions, and the patient had exercise-induced VT with LBBB morphology (indicating RV origin). PKP2 mutation confirms ARVC. Family history of sudden death supports the diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "ARVC typically presents in young adults (15-40 years, male predominance) with exercise-induced ventricular arrhythmias (VT with LBBB morphology originating from the RV), palpitations, syncope, or sudden cardiac death. It is a leading cause of SCD in young athletes. Progressive RV dilation and dysfunction occur over time, and some patients develop biventricular involvement.",
+    "attending_mode_notes": "Diagnosis requires meeting the 2010 Revised Task Force Criteria combining structural (MRI/echo), histological, ECG, arrhythmia, and family history criteria. Major criteria provide 2 points, minor criteria 1 point; diagnosis requires ≥4 points. Endurance exercise accelerates disease progression — all ARVC patients should avoid competitive sports. Signal-averaged ECG showing late potentials supports the diagnosis. Distinguish from athlete's heart (physiologic RV remodeling in endurance athletes).",
+    "pathophysiology": "ARVC results from mutations in desmosomal proteins (most commonly plakophilin-2/PKP2), which are critical for cell-to-cell adhesion in cardiomyocytes. Weakened desmosomes lead to cardiomyocyte detachment and death, particularly under mechanical stress (explaining the exercise trigger). Dead myocardium is replaced by fibrofatty tissue, starting in the RV 'triangle of dysplasia' (inflow, outflow, and apex). Fibrofatty replacement creates the substrate for reentrant VT.",
+    "treatment_overview": "ICD implantation for secondary prevention (survivors of VT/VF) and primary prevention in high-risk patients. Exercise restriction: avoid competitive sports and high-intensity exercise (accelerates disease). Antiarrhythmic drugs (sotalol, amiodarone) for VT suppression. Beta-blockers may reduce arrhythmia burden. Catheter ablation for drug-refractory VT. Heart failure management if biventricular dysfunction develops. Genetic counseling and cascade family screening.",
+    "high_yield_pearls": [
+      "VT with LBBB morphology (suggesting RV origin) in a young athlete should raise immediate suspicion for ARVC.",
+      "Epsilon waves (low-amplitude signals at the end of QRS in V1-V3) are pathognomonic for ARVC but are present in only ~30% of cases.",
+      "The 'triangle of dysplasia' (RV inflow, outflow, and apex) is where fibrofatty replacement preferentially occurs.",
+      "PKP2 (plakophilin-2) mutations account for ~40% of ARVC cases — all first-degree relatives should be screened.",
+      "Competitive and endurance exercise accelerates ARVC progression and increases arrhythmia risk — exercise restriction is a cornerstone of management."
+    ],
+    "sources": [
+      "2010 Revised Task Force Criteria for ARVC (Marcus et al., Circulation 2010)",
+      "2022 ESC Guidelines for Ventricular Arrhythmias and SCD Prevention",
+      "Corrado et al., ARVC, NEJM 2017",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Idiopathic RV outflow tract VT", "Athlete's heart", "Brugada syndrome", "Cardiac sarcoidosis", "Myocarditis", "Hypertrophic cardiomyopathy", "Long QT syndrome"],
+    "after_stage2_more_likely": ["ARVC", "Idiopathic RVOT VT", "Cardiac sarcoidosis"],
+    "after_stage2_less_likely": ["Athlete's heart", "Brugada syndrome", "Long QT syndrome"],
+    "after_labs_top3": ["ARVC (PKP2-positive)", "Cardiac sarcoidosis with RV involvement", "Idiopathic RVOT VT"]
+  }
+}

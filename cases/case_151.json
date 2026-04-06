@@ -1,0 +1,102 @@
+{
+  "case_id": "case_151",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Community-acquired MRSA skin abscess",
+  "icd_category": "L02.414 — Cutaneous abscess of left lower limb",
+  "one_liner": "A 25-year-old male college wrestler presents with a painful, fluctuant, erythematous nodule on his left thigh with surrounding cellulitis and purulent drainage, initially thought to be a spider bite.",
+  "stage2": {
+    "hpi_extension": "The patient noticed a 'pimple' on his left anterior thigh 5 days ago. He initially thought it was a spider bite. Over the past 3 days, it has rapidly enlarged into a painful, warm, swollen lump approximately 5 cm in diameter with a central yellow 'head.' He squeezed it yesterday and a small amount of thick, yellow-green pus drained. He reports worsening redness extending beyond the central lump, pain rated 7/10, and mild chills. He has not had fevers at home. He is an active college wrestler with frequent skin-to-skin contact. Two of his teammates have had similar 'boils' in the past month. He denies recent hospitalization, IV drug use, or antibiotic use.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "College student and varsity wrestler. Lives in dormitory. Non-smoker. Social alcohol on weekends. No illicit drugs. Sexually active with one female partner.",
+    "vitals": {
+      "temp": "37.9°C (100.2°F)",
+      "hr": "82 bpm",
+      "bp": "122/74 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "84 kg, BMI 25.8"
+    },
+    "physical_exam": "Well-appearing, muscular young male. Left anterior thigh: 5 cm fluctuant, erythematous, warm, and tender nodule with a central area of yellow discoloration (pointing). Surrounding cellulitis extending 3 cm beyond the abscess margin. Scant purulent drainage from a small central opening. No crepitus. No lymphangitic streaking. Left inguinal lymph nodes mildly enlarged and tender (1.5 cm). No other skin lesions or boils elsewhere. Remainder of exam unremarkable."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Wound Culture (Purulent Drainage)", "result": "Staphylococcus aureus, methicillin-resistant (MRSA). Sensitive to: TMP-SMX, doxycycline, clindamycin (D-test negative), vancomycin. Resistant to: oxacillin, penicillin, erythromycin.", "flag": "ABNORMAL", "clinical_significance": "Community-acquired MRSA (CA-MRSA) confirmed; guides targeted antibiotic therapy"},
+      {"test_name": "CBC — WBC", "result": "11,200/μL with 72% neutrophils", "flag": "HIGH", "clinical_significance": "Mild leukocytosis consistent with localized infection"},
+      {"test_name": "CRP", "result": "32 mg/L", "flag": "HIGH", "clinical_significance": "Moderate elevation reflecting localized infection with surrounding cellulitis"},
+      {"test_name": "Blood Cultures (x2 sets)", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Negative blood cultures expected in uncomplicated skin abscess"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "ESR", "result": "22 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; non-specific"}
+    ],
+    "imaging_results": [
+      {"test_name": "Point-of-Care Ultrasound (Left Thigh)", "result": "Well-defined hypoechoic fluid collection measuring 4.2 x 2.8 x 2.1 cm within the subcutaneous tissue of the left anterior thigh. Internal debris and echoes consistent with purulent material. No extension to deep fascia or muscle. No cobblestoning pattern extending beyond the collection.", "flag": "ABNORMAL", "clinical_significance": "Confirms drainable abscess; delineates size and depth for incision and drainage planning"}
+    ],
+    "key_tests": [
+      "Incision and drainage (I&D) — primary treatment for skin abscess",
+      "Wound culture with antibiotic sensitivities from purulent drainage",
+      "Point-of-care ultrasound (to confirm abscess and guide drainage)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "CRP or ESR",
+      "Blood cultures (only if systemic signs of infection or immunocompromised)",
+      "BMP",
+      "Nasal MRSA screening swab (for decolonization planning in recurrent cases)"
+    ],
+    "low_yield_tests": [
+      "CT with contrast (not needed when ultrasound confirms superficial abscess)",
+      "MRI (reserved for deep soft tissue infection or suspected osteomyelitis)",
+      "Skin biopsy",
+      "ANA or rheumatologic workup"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A young athlete (wrestler) in a close-contact setting with cluster of similar infections among teammates, presenting with a fluctuant, purulent skin abscess on the thigh with surrounding cellulitis. Wound culture confirms CA-MRSA. Point-of-care ultrasound shows a well-defined drainable collection. No deep tissue involvement. Classic community-acquired MRSA skin and soft tissue infection."
+  },
+  "debrief": {
+    "classic_presentation": "A painful, erythematous, fluctuant skin nodule with purulent drainage, often initially misidentified as a 'spider bite.' CA-MRSA skin abscesses commonly occur in athletes (wrestlers, football players), military personnel, prisoners, and other populations with close skin-to-skin contact, shared equipment, or crowded living conditions. The lesions are typically 2-5 cm, rapidly progressive, and may have surrounding cellulitis. Recurrence is common, and outbreaks in close-contact settings are characteristic.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Community-acquired MRSA (CA-MRSA) differs from hospital-acquired MRSA in important ways. CA-MRSA typically carries the SCCmec type IV cassette (smaller, more mobile) and Panton-Valentine leukocidin (PVL) genes. PVL is a pore-forming toxin that destroys neutrophils and contributes to the formation of necrotic, pus-filled skin lesions. The USA300 clone is the predominant CA-MRSA strain in North America. CA-MRSA strains are generally susceptible to TMP-SMX, doxycycline, and clindamycin (unlike many hospital-acquired strains). Abscess formation occurs when S. aureus invades subcutaneous tissue, neutrophilic infiltration and bacterial toxins cause tissue necrosis, and the host walls off the infection with a fibrous capsule, forming a localized collection of pus.",
+    "treatment_overview": "The cornerstone of treatment is incision and drainage (I&D) — antibiotics alone without I&D have high failure rates. For abscesses <2 cm without cellulitis, I&D alone may be sufficient. For abscesses with significant surrounding cellulitis (as in this case), I&D plus oral antibiotics targeting MRSA: TMP-SMX DS (1-2 tabs BID) or doxycycline 100 mg BID for 7-10 days. Clindamycin 300-450 mg TID is an alternative if the D-test is negative (to exclude inducible resistance). Pack the wound and arrange for wound checks and repacking in 48-72 hours. For recurrent CA-MRSA: decolonization protocol with mupirocin 2% nasal ointment BID x 5 days + chlorhexidine body washes daily x 5-14 days. Decolonize household contacts simultaneously. For wrestlers: exclude from competition until wounds are healed; clean mats with appropriate disinfectants.",
+    "high_yield_pearls": [
+      "Incision and drainage is the primary treatment for skin abscesses — antibiotics alone are insufficient for a drainable collection.",
+      "Community-acquired MRSA skin infections are frequently misidentified as 'spider bites' — always consider CA-MRSA for any purulent skin lesion.",
+      "CA-MRSA (USA300) strains typically retain susceptibility to TMP-SMX, doxycycline, and clindamycin; always check the D-test to exclude inducible clindamycin resistance.",
+      "Point-of-care ultrasound is more sensitive than physical exam for detecting drainable fluid collections and should be used to guide I&D.",
+      "Outbreaks of CA-MRSA in athletes, military, and correctional facilities necessitate decolonization of affected individuals and environmental decontamination."
+    ],
+    "sources": [
+      "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014)",
+      "Talan DA et al. Trimethoprim-sulfamethoxazole versus placebo for uncomplicated skin abscess. N Engl J Med. 2016;374(9):823-832.",
+      "UpToDate: Methicillin-resistant Staphylococcus aureus (MRSA) in adults — Treatment of skin and soft tissue infections (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "MRSA skin abscess",
+      "MSSA skin abscess",
+      "Furuncle/carbuncle",
+      "Cellulitis without abscess",
+      "Infected epidermal inclusion cyst",
+      "Spider bite",
+      "Hidradenitis suppurativa"
+    ],
+    "after_stage2_more_likely": [
+      "CA-MRSA skin abscess — fluctuant purulent nodule in a wrestler with cluster of similar infections in teammates; classic epidemiologic and clinical pattern",
+      "Furuncle/carbuncle — localized purulent skin infection; essentially a spectrum of the same SSTI process"
+    ],
+    "after_stage2_less_likely": [
+      "Spider bite — commonly blamed but extremely rare as actual cause; purulent material and cluster of cases strongly favor staphylococcal abscess",
+      "Hidradenitis suppurativa — chronic, recurrent process involving apocrine gland-bearing areas (axillae, groin); anterior thigh is atypical location"
+    ],
+    "after_labs_top3": [
+      "CA-MRSA skin abscess — wound culture confirms methicillin-resistant S. aureus with typical CA-MRSA sensitivity pattern; ultrasound confirms drainable collection",
+      "MSSA abscess — excluded by culture showing methicillin resistance",
+      "Cellulitis without abscess — excluded by ultrasound confirming well-defined fluid collection"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "case_id": "case_063",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Superior Mesenteric Artery Syndrome",
+  "icd_category": "K55.1 — Chronic vascular disorders of intestine",
+  "one_liner": "A 19-year-old female with recent rapid weight loss from anorexia nervosa treatment presents with postprandial epigastric pain, bilious vomiting, and early satiety, with imaging showing compression of the third portion of the duodenum between the SMA and aorta.",
+  "stage2": {
+    "hpi_extension": "Patient is a 19-year-old female referred by her psychiatrist for evaluation of worsening postprandial abdominal symptoms. She has a 3-year history of anorexia nervosa and has recently been undergoing nutritional rehabilitation, though she remains significantly underweight (BMI 15.2). Over the past 6 weeks, she has developed progressively worsening epigastric and periumbilical pain that begins 30-60 minutes after eating. The pain is crampy, rated 6-7/10, and associated with nausea and bilious vomiting. She notes that the vomiting reliably provides relief of the pain. The symptoms are worse when lying supine and improved when she lies in the left lateral decubitus position or in the prone, knee-chest position. She has been eating smaller and smaller portions to avoid the pain, which has further contributed to weight loss (she has lost an additional 4 kg in the past 6 weeks). She denies hematemesis, melena, diarrhea, fever, or dysphagia. Her treatment team is concerned that the symptoms may be partially behavioral (avoidance of eating), but the bilious vomiting and positional relief suggest an organic component.",
+    "pmh": "Anorexia nervosa (restricting subtype, 3-year history), major depressive disorder, amenorrhea (secondary to malnutrition), osteopenia",
+    "surgical_history": "None",
+    "medications": "Fluoxetine 40 mg daily, calcium/vitamin D supplementation, multivitamin",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with anxiety disorder. No family history of GI disease.",
+    "social_history": "College sophomore (currently on medical leave). Non-smoker. No alcohol or illicit drugs. Lives with her parents. Denies purging behaviors currently (confirmed by treatment team). Exercises excessively despite medical restrictions.",
+    "vitals": {
+      "temp": "97.2 F (36.2 C)",
+      "hr": "54 bpm",
+      "bp": "92/58 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "40 kg, BMI 15.2"
+    },
+    "physical_exam": "General: Cachectic young female with prominent bony prominences. Appears younger than stated age. No acute distress at rest. HEENT: Sunken eyes. Dry lips. No parotid enlargement. Dental enamel intact (no evidence of purging). Lanugo hair on face. Neck: Thin. No lymphadenopathy. No thyromegaly. Cardiovascular: Bradycardic, regular rhythm. No murmurs. Pulmonary: Clear bilaterally. Abdomen: Scaphoid, flat. Visible aortic pulsation through the thin abdominal wall. Mild epigastric tenderness. No guarding or rebound. A succussion splash is elicited (fluid and air in dilated stomach). Bowel sounds are present. No hepatosplenomegaly. No masses. Rectal: Deferred. Extremities: Very thin, no edema. Acrocyanosis of fingers and toes. Skin: Dry, lanugo hair on arms and back. Bruising easily visible on extremities. Hair: Thin, dry, with diffuse thinning."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "3.8 x10^9/L", "flag": "LOW", "clinical_significance": "Mild leukopenia, common in severe malnutrition"},
+      {"test_name": "CBC - Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely nutritional (iron, folate, B12 deficiency in malnutrition)"},
+      {"test_name": "BMP - Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and malnutrition"},
+      {"test_name": "BMP - Sodium", "result": "134 mEq/L", "flag": "LOW", "clinical_significance": "Borderline low, from vomiting and poor intake"},
+      {"test_name": "BMP - Chloride", "result": "92 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting (HCl loss)"},
+      {"test_name": "BMP - BUN", "result": "8 mg/dL", "flag": "WNL", "clinical_significance": "Low-normal, reflecting poor protein intake"},
+      {"test_name": "BMP - Creatinine", "result": "0.5 mg/dL", "flag": "WNL", "clinical_significance": "Low, reflecting decreased muscle mass"},
+      {"test_name": "Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic malnutrition and poor hepatic synthetic function"},
+      {"test_name": "Prealbumin", "result": "8 mg/dL", "flag": "LOW", "clinical_significance": "Significantly low (normal 20-40), sensitive marker of acute nutritional status"},
+      {"test_name": "Phosphate", "result": "2.2 mg/dL", "flag": "LOW", "clinical_significance": "Low, important to monitor during refeeding to prevent refeeding syndrome"},
+      {"test_name": "Magnesium", "result": "1.4 mg/dL", "flag": "LOW", "clinical_significance": "Low, common in malnutrition and vomiting"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper GI Series with Small Bowel Follow-Through", "result": "Marked dilation of the first and second portions of the duodenum with abrupt cutoff of barium at the third portion (D3). A vertical, extrinsic compression is seen at D3 consistent with SMA compression. Barium slowly trickles past the obstruction. To-and-fro peristalsis is seen in the dilated duodenum. Symptoms and obstruction improved with the patient in the left lateral decubitus position.", "flag": "ABNORMAL", "clinical_significance": "Classic upper GI series findings of SMA syndrome: duodenal dilation proximal to D3 with extrinsic compression at the SMA crossing point. Positional improvement confirms the diagnosis."},
+      {"test_name": "CT Abdomen with IV Contrast (sagittal and coronal reconstructions)", "result": "Aortomesenteric angle reduced to 12 degrees (normal 28-65 degrees). Aortomesenteric distance reduced to 4 mm (normal 10-28 mm). The third portion of the duodenum is compressed between the SMA and the aorta with proximal duodenal and gastric dilation. Marked reduction in retroperitoneal and mesenteric fat. No other cause of duodenal obstruction identified.", "flag": "ABNORMAL", "clinical_significance": "CT measurements confirm SMA syndrome: aortomesenteric angle <22 degrees and aortomesenteric distance <8 mm are diagnostic. Loss of retroperitoneal fat pad (which normally cushions the duodenum) from extreme weight loss is the underlying mechanism."}
+    ],
+    "key_tests": ["CT abdomen with IV contrast (with sagittal/coronal reconstructions for aortomesenteric measurements)", "Upper GI series with small bowel follow-through", "BMP (electrolytes)", "Albumin/prealbumin"],
+    "acceptable_tests": ["CBC", "Phosphate and magnesium (refeeding syndrome risk)", "EGD (to exclude intrinsic duodenal pathology)", "Abdominal X-ray", "CTA (for precise vascular measurements)", "Nutritional labs (iron, B12, folate, zinc)"],
+    "low_yield_tests": ["Colonoscopy (pathology is in the upper GI tract)", "MRCP (for biliary, not duodenal compression)", "Celiac serologies (different mechanism of malnutrition)", "Gastric emptying study (the obstruction is duodenal, not gastroparesis)", "ERCP"],
+    "final_clue": "Upper GI series demonstrates duodenal dilation with abrupt extrinsic compression at D3 that improves in the left lateral decubitus position. CT confirms an aortomesenteric angle of 12 degrees (normal 28-65) and aortomesenteric distance of 4 mm (normal 10-28 mm) with loss of the retroperitoneal fat pad. In a severely malnourished patient with BMI 15.2, this is SMA syndrome caused by loss of the mesenteric fat cushion that normally protects the duodenum from aorto-mesenteric compression."
+  },
+  "stage5": {
+    "final_clue": "Upper GI series demonstrates duodenal dilation with abrupt extrinsic compression at D3 that improves in the left lateral decubitus position. CT confirms an aortomesenteric angle of 12 degrees (normal 28-65) and aortomesenteric distance of 4 mm (normal 10-28 mm) with loss of the retroperitoneal fat pad. In a severely malnourished patient with BMI 15.2, this is SMA syndrome caused by loss of the mesenteric fat cushion that normally protects the duodenum from aorto-mesenteric compression."
+  },
+  "debrief": {
+    "classic_presentation": "Postprandial epigastric pain with bilious vomiting in a patient with significant recent weight loss. The hallmark feature is positional relief — symptoms improve in the left lateral decubitus, prone, or knee-chest position (which allows the SMA to fall forward, relieving duodenal compression). A succussion splash may be present from gastric dilation. SMA syndrome occurs most commonly in young, thin females and is associated with conditions causing rapid weight loss (anorexia nervosa, burns, malignancy, prolonged immobilization, post-surgical states, body casting for scoliosis). It is also called Wilkie syndrome or cast syndrome.",
+    "attending_mode_notes": "This case presents a diagnostic challenge because the patient has anorexia nervosa, and her symptoms could easily be dismissed as behavioral food avoidance or functional dyspepsia. Key attending considerations: (1) The bilious nature of the vomiting and the positional relief are red flags for a mechanical obstruction and should not be attributed to the eating disorder alone. (2) CT aortomesenteric measurements are diagnostic: angle <22 degrees and distance <8 mm. However, some asymptomatic individuals have narrow angles, so clinical correlation is essential. (3) The management approach is primarily conservative in most cases: nasogastric or nasojejunal (post-obstruction) decompression, correct electrolytes, and aggressive nutritional rehabilitation. If the patient cannot tolerate enteral feeds past the obstruction, TPN may be needed temporarily. The goal is weight gain to restore the retroperitoneal fat pad. (4) Refeeding syndrome is a major risk in this patient (BMI 15.2, hypokalemia, hypophosphatemia, hypomagnesemia). Caloric intake must be increased gradually (start at 10-15 kcal/kg/day and increase slowly) with close monitoring of phosphate, potassium, and magnesium. (5) Surgical intervention (duodenojejunostomy, the procedure of choice) is reserved for failure of conservative management after 4-6 weeks or for patients with recurrent episodes. Strong's procedure (division of the ligament of Treitz) is another option but has variable results. (6) The surgical team must coordinate closely with psychiatry and nutrition — the eating disorder is the underlying cause and must be addressed simultaneously. Simply performing surgery without treating the anorexia will not resolve the underlying problem.",
+    "pathophysiology": "The third portion of the duodenum (D3) passes between the superior mesenteric artery (anteriorly) and the aorta/vertebral column (posteriorly). Normally, a retroperitoneal fat pad and mesenteric fat cushion the duodenum in this space. When significant weight loss occurs, this fat pad is depleted, the aortomesenteric angle narrows, and the SMA compresses the duodenum against the aorta, causing extrinsic obstruction. Factors that narrow the aortomesenteric angle include: loss of retroperitoneal fat (weight loss, malnutrition), increased lumbar lordosis (body casting, spinal surgery), high origin of the ligament of Treitz (congenital short mesentery), and rapid linear growth in adolescents. The duodenal obstruction leads to proximal dilation, bile stasis, and bilious vomiting. In severe cases, the left renal vein (which also passes between the SMA and aorta) may be compressed, causing nutcracker syndrome with hematuria.",
+    "treatment_overview": "Conservative management (first-line, successful in most cases): NGT decompression for gastric distension. Post-pyloric (nasojejunal) feeding tube placement to bypass the obstruction and provide enteral nutrition. If enteral nutrition is not tolerated, initiate TPN. Aggressive electrolyte repletion (potassium, phosphate, magnesium) with close monitoring for refeeding syndrome. Positional therapy: left lateral decubitus or prone positioning after meals. Small, frequent meals when oral intake is resumed. Prokinetic agents (metoclopramide) may help gastric emptying. Weight gain is the definitive treatment — as retroperitoneal fat is restored, the aortomesenteric angle widens and symptoms resolve. Surgical management (reserved for failure of conservative treatment after 4-6 weeks or recurrent episodes): Duodenojejunostomy (the procedure of choice, bypasses the compressed segment with a side-to-side duodenojejunal anastomosis). Strong's procedure (division of the ligament of Treitz and mobilization of the duodenum). Laparoscopic approaches are feasible and preferred.",
+    "high_yield_pearls": [
+      "SMA syndrome is diagnosed by CT showing aortomesenteric angle <22 degrees (normal 28-65) and aortomesenteric distance <8 mm (normal 10-28 mm).",
+      "Positional relief (left lateral decubitus or prone/knee-chest position) is a hallmark clinical feature that distinguishes SMA syndrome from other causes of duodenal obstruction.",
+      "Weight gain and nutritional rehabilitation are the definitive treatment; surgery (duodenojejunostomy) is reserved for refractory cases.",
+      "Refeeding syndrome is a critical risk in severely malnourished patients — monitor phosphate, potassium, and magnesium closely and advance calories gradually.",
+      "SMA syndrome should be considered in any patient with significant recent weight loss who develops postprandial vomiting — the diagnosis is frequently delayed or missed.",
+      "Concurrent nutcracker syndrome (left renal vein compression) may cause hematuria and should be evaluated if urinary symptoms are present."
+    ],
+    "sources": [
+      "Welsch T et al. J Gastrointest Surg 2007;11:1037-1042 (SMA Syndrome)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 26",
+      "Merrett ND et al. J Clin Gastroenterol 2009;43:199-205",
+      "Biank V, Werlin S. J Pediatr Gastroenterol Nutr 2006;43:319-327"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Superior mesenteric artery syndrome", "Gastroparesis", "Duodenal web or stenosis", "Annular pancreas", "Chronic mesenteric ischemia", "Functional dyspepsia", "Cyclic vomiting syndrome", "Malrotation with Ladd bands"],
+    "after_stage2_more_likely": ["Superior mesenteric artery syndrome", "Gastroparesis", "Functional dyspepsia"],
+    "after_stage2_less_likely": ["Annular pancreas", "Malrotation with Ladd bands"],
+    "after_labs_top3": ["Superior mesenteric artery syndrome", "Gastroparesis", "Chronic mesenteric ischemia"]
+  }
+}

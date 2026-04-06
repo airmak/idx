@@ -1,0 +1,76 @@
+{
+  "case_id": "case_121",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Amyotrophic lateral sclerosis",
+  "icd_category": "G12.21 — Amyotrophic lateral sclerosis",
+  "one_liner": "A 56-year-old man presents with 8 months of progressive painless weakness in his right hand with muscle wasting, fasciculations, and brisk reflexes in the same limb, now spreading to the left hand and right leg.",
+  "stage2": {
+    "hpi_extension": "The patient first noticed difficulty turning keys and gripping tools with his right hand about 8 months ago. He is a woodworker and initially attributed this to overuse. Over the next months, he developed visible wasting of the muscles between his fingers (interossei) and his thenar eminence on the right. His wife noticed involuntary twitching (fasciculations) in his right forearm and upper arm. Four months ago, similar weakness and wasting began in his left hand. Two months ago, he noticed his right foot began catching on the ground when walking, and he has been tripping over curbs. He has lost 15 pounds over 6 months without trying (attributed to difficulty preparing meals). He denies sensory symptoms (no numbness, tingling, or pain). He denies urinary or bowel incontinence. He has noticed mild difficulty with speech articulation (slurring) over the past month. No dysphagia, but occasional choking on liquids. He has no difficulty breathing at rest but gets more winded climbing stairs.",
+    "pmh": "Hypertension (well-controlled). No prior neurological conditions.",
+    "surgical_history": "Carpal tunnel release, right wrist, 3 months ago (performed based on initial misdiagnosis — symptoms did not improve).",
+    "medications": "Amlodipine 5 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of ALS or motor neuron disease. Father had Parkinson disease.",
+    "social_history": "Self-employed woodworker (currently unable to work). Non-smoker. Occasional beer. Married with adult children. No military service. No known toxin exposures (lead, mercury). No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "76 bpm",
+      "bp": "134/78 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "70 kg, BMI 23.1"
+    },
+    "physical_exam": "General: Thin man, appears fatigued. HEENT: Tongue shows fasciculations and mild atrophy. Jaw jerk brisk. Cranial nerves otherwise intact. Mild dysarthria — slightly slurred, spastic quality. Neuro: Motor — RIGHT HAND: Severe atrophy of first dorsal interosseous and thenar muscles. Grip strength 3/5. Finger abduction 2/5. Wrist extension 4/5. LEFT HAND: Moderate interosseous atrophy. Grip 4/5. Finger abduction 3/5. Bilateral shoulder abduction 4+/5. RIGHT LEG: Hip flexion 4/5. Ankle dorsiflexion 4-/5 (foot drop). LEFT LEG: 5/5 throughout. Fasciculations visible in bilateral deltoids, forearms, and right quadriceps. Sensory: Completely intact — normal light touch, pinprick, vibration, proprioception throughout. DTRs: 3+ at biceps, triceps, brachioradialis bilaterally (brisk despite severe muscle wasting — UPPER MOTOR NEURON signs coexisting with LOWER MOTOR NEURON signs in the same myotome). 3+ at knees, 3+ at right ankle. Babinski positive bilaterally. Hoffmann sign positive bilaterally. Gait: Right foot drop with steppage gait. No sensory ataxia. Split hand sign present (preferential thenar > hypothenar wasting). No cerebellar signs."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,600/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CK (Creatine kinase)", "result": "420 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated CK is common in ALS (from active denervation) — typically <1000 U/L. Very high CK (>5000) suggests myopathy, not ALS."},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Vitamin B12", "result": "460 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency myelopathy excluded"},
+      {"test_name": "Serum protein electrophoresis (SPEP)", "result": "No monoclonal band", "flag": "WNL", "clinical_significance": "No paraproteinemia; excludes multifocal motor neuropathy with conduction block associated with anti-GM1 (though SPEP not the primary test for this)"},
+      {"test_name": "Anti-GM1 antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; helps exclude multifocal motor neuropathy (a treatable ALS mimic)"},
+      {"test_name": "HIV 1/2 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "HIV-associated motor neuron disease excluded"},
+      {"test_name": "Lead level", "result": "< 5 ug/dL", "flag": "WNL", "clinical_significance": "Normal; lead neuropathy excluded"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI cervical spine", "result": "Mild degenerative disc disease at C5-C6 and C6-C7 without significant cord compression or myelopathy signal. No syrinx or mass.", "flag": "WNL", "clinical_significance": "Excludes cervical spondylotic myelopathy and structural spinal cord compression as cause of upper and lower motor neuron signs. Mild degenerative changes are incidental and do not explain the widespread findings."},
+      {"test_name": "MRI brain", "result": "Subtle T2 hyperintensity along bilateral corticospinal tracts (precentral gyrus). No mass or other abnormality.", "flag": "MILDLY ABNORMAL", "clinical_significance": "Corticospinal tract signal change can be seen in ALS but is a nonspecific finding. MRI brain is primarily performed to exclude structural lesions."}
+    ],
+    "key_tests": ["EMG/NCS (electromyography and nerve conduction studies) — the most important diagnostic test", "MRI cervical and thoracic spine (to exclude structural mimics)", "MRI brain (to exclude structural upper motor neuron lesions)", "Pulmonary function tests (FVC — baseline respiratory assessment)", "CK level"],
+    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "HIV testing", "SPEP/UPEP", "Anti-GM1 antibodies (to exclude MMN)", "Lead level", "Paraneoplastic antibody panel", "Genetic testing for SOD1 and C9orf72 (if family history or young onset)"],
+    "low_yield_tests": ["Lumbar puncture (rarely needed)", "EEG", "Muscle biopsy (rarely needed if EMG is diagnostic)", "Cerebral angiography"],
+    "low_yield_tests_note": "EMG/NCS is essential — it provides electrodiagnostic evidence of widespread denervation (LMN) in clinically affected and unaffected regions, which is required for diagnosis by the revised El Escorial criteria."
+  },
+  "stage5": {
+    "final_clue": "EMG/NCS shows: Motor nerve conduction studies reveal normal conduction velocities and no conduction block (excluding demyelinating neuropathy and multifocal motor neuropathy). Sensory nerve conduction studies are completely normal. Needle EMG shows widespread active denervation (fibrillation potentials, positive sharp waves) and chronic reinnervation (large polyphasic motor unit potentials with reduced recruitment) in 4 body regions: bulbar (tongue), cervical (bilateral upper extremities), thoracic (paraspinal muscles), and lumbosacral (right lower extremity). Fasciculation potentials are present diffusely. These findings confirm widespread LMN denervation across multiple body regions, which combined with clinical UMN signs (brisk reflexes, Babinski, Hoffmann) establishes the diagnosis of definite ALS per the revised El Escorial criteria (Gold Coast criteria). The patient is started on riluzole 50 mg BID and referred to a multidisciplinary ALS clinic. Baseline FVC is 72% predicted. Advance care planning and goals-of-care discussion are initiated."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged to older adult with progressive painless asymmetric weakness, muscle wasting, and fasciculations (LMN signs) coexisting with brisk reflexes, spasticity, and Babinski signs (UMN signs) in the same or multiple body regions, WITHOUT sensory loss, sphincter disturbance, or eye movement abnormalities. The split hand sign (preferential thenar > hypothenar wasting) is relatively specific for ALS.",
+    "attending_mode_notes": "This case tests several attending-level concepts: (1) Recognizing the hallmark of ALS — simultaneous UMN and LMN signs in the same myotome (e.g., brisk reflexes in a severely wasted hand). In most other conditions, brisk reflexes accompany UMN pathology (without wasting) and depressed reflexes accompany LMN pathology (with wasting). (2) Avoiding the common initial misdiagnosis trap — this patient underwent carpal tunnel surgery that failed, highlighting the diagnostic delay typical of ALS (average 12-14 months from symptom onset to diagnosis). (3) Understanding the critical importance of excluding treatable mimics: multifocal motor neuropathy with conduction block (check anti-GM1 antibodies and look for conduction block on NCS — this is treatable with IVIg), cervical spondylotic myelopathy (MRI), and Kennedy disease (X-linked bulbospinal muscular atrophy — check androgen receptor CAG repeat if sensory involvement or gynecomastia). (4) Recognizing that EMG must show denervation in at least 3 body regions (bulbar, cervical, thoracic, lumbosacral) — the 2019 Gold Coast criteria simplified the diagnostic classification.",
+    "pathophysiology": "ALS involves progressive degeneration of both upper motor neurons (Betz cells in the primary motor cortex and corticospinal tracts) and lower motor neurons (anterior horn cells in the spinal cord and brainstem motor nuclei) simultaneously. The pathological hallmark is TDP-43 (TAR DNA-binding protein 43) cytoplasmic inclusions in ~97% of ALS cases. TDP-43 mislocalizes from the nucleus to the cytoplasm, forming toxic aggregates while losing normal nuclear RNA processing function. This leads to RNA dysregulation, protein aggregation, mitochondrial dysfunction, and neuronal death. ~90% of ALS is sporadic; ~10% is familial (most common genetic causes: C9orf72 hexanucleotide repeat expansion [40% of familial ALS], SOD1 mutations [20%]). ALS exists on a clinical spectrum with frontotemporal dementia (FTD) — ~15% of ALS patients develop FTD, and ~15% of FTD patients develop ALS (ALS-FTD spectrum, often C9orf72-related).",
+    "treatment_overview": "Disease-modifying (modest benefit): Riluzole 50 mg BID (glutamate antagonist) — extends survival by 2-3 months on average, FDA-approved. Edaravone (free radical scavenger) — may slow functional decline in a subset, controversial efficacy. Sodium phenylbutyrate/taurursodiol (AMX0035/Relyvrio) — approved 2022 then withdrawn 2024 after Phase 3 failure. Tofersen (antisense oligonucleotide for SOD1 ALS) — FDA-approved for SOD1-mutant ALS only. Multidisciplinary care (the most impactful intervention): ALS clinic with neurology, pulmonology, nutrition, PT/OT, speech therapy, social work, palliative care. Respiratory: Serial FVC monitoring. Non-invasive ventilation (BiPAP) when FVC <50% — prolongs survival by months. Invasive ventilation (tracheostomy) — discuss goals of care. Nutrition: PEG tube when dysphagia compromises nutrition or FVC trending down. Communication: Augmentative communication devices. Advance care planning is critical and should be initiated early.",
+    "high_yield_pearls": [
+      "The hallmark of ALS is the coexistence of UMN signs (brisk reflexes, Babinski, spasticity) and LMN signs (atrophy, fasciculations, weakness) in the SAME body region — this combination is nearly unique to motor neuron disease.",
+      "The split hand sign (preferential thenar and first dorsal interosseous atrophy with relative preservation of hypothenar muscles) is relatively specific for ALS and distinguishes it from peripheral nerve lesions.",
+      "Multifocal motor neuropathy (MMN) is the most important treatable mimic of ALS — it presents with asymmetric LMN weakness without UMN signs, and NCS shows conduction block. It is treatable with IVIg. Always check anti-GM1 antibodies.",
+      "EMG/NCS is the single most important diagnostic test in ALS — it must show widespread active denervation (fibrillation potentials) and chronic reinnervation across multiple body regions with NORMAL sensory nerve studies.",
+      "Non-invasive ventilation (NIV/BiPAP) when FVC drops below 50% is the intervention with the greatest impact on survival and quality of life in ALS — serial FVC monitoring every 3 months is essential."
+    ],
+    "sources": [
+      "Shefner JM, et al. A proposal for new diagnostic criteria for ALS (Gold Coast criteria). Clin Neurophysiol. 2020",
+      "AAN Practice Parameter: Care of the patient with ALS, 2009 (Reaffirmed 2020)",
+      "UpToDate: Clinical features, diagnosis, and prognosis of amyotrophic lateral sclerosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Amyotrophic lateral sclerosis", "Cervical spondylotic myelopathy", "Multifocal motor neuropathy", "Kennedy disease (spinal and bulbar muscular atrophy)", "Inclusion body myositis", "Primary lateral sclerosis", "Spinal muscular atrophy (adult-onset)"],
+    "after_stage2_more_likely": ["Amyotrophic lateral sclerosis", "Multifocal motor neuropathy"],
+    "after_stage2_less_likely": ["Cervical spondylotic myelopathy", "Kennedy disease", "Inclusion body myositis"],
+    "after_labs_top3": ["Amyotrophic lateral sclerosis", "Primary lateral sclerosis", "Multifocal motor neuropathy"]
+  }
+}

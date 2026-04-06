@@ -1,0 +1,110 @@
+{
+  "case_id": "case_123",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Acute Kidney Injury — Prerenal",
+  "icd_category": "N17.9 — Acute kidney failure, unspecified",
+  "one_liner": "A 72-year-old male with hypertension and heart failure presents with decreased urine output and dizziness after several days of vomiting and diarrhea.",
+  "stage2": {
+    "hpi_extension": "Patient reports 4 days of profuse watery diarrhea and vomiting after eating at a buffet. He has felt increasingly lightheaded and weak, with markedly decreased urine output over the past 24 hours. He has been unable to keep down fluids or medications. Denies hematuria, flank pain, or recent NSAID use.",
+    "pmh": "Hypertension, heart failure with reduced ejection fraction (EF 35%), type 2 diabetes mellitus, gout.",
+    "surgical_history": "Appendectomy (age 30).",
+    "medications": "Lisinopril 20 mg daily, furosemide 40 mg daily, metformin 1000 mg twice daily, carvedilol 25 mg twice daily, allopurinol 100 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father died of myocardial infarction at age 65. Mother had chronic kidney disease.",
+    "social_history": "Retired postal worker. Former smoker (20 pack-years, quit 10 years ago). Drinks 1-2 beers on weekends. Lives with wife.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "108 bpm",
+      "bp": "88/56 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "82 kg, BMI 27.1"
+    },
+    "physical_exam": "Elderly male appearing fatigued and dry. Mucous membranes are dry and tacky. Skin turgor is decreased with tenting over the sternum. Jugular venous pressure is flat. Heart: tachycardic, regular rhythm, no murmurs or gallops. Lungs: clear to auscultation bilaterally. Abdomen: soft, mildly diffuse tenderness, hyperactive bowel sounds, no rebound or guarding. Extremities: no edema; cool, dry skin with delayed capillary refill (>3 seconds)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "3.8 mg/dL (baseline 1.2)", "flag": "HIGH", "clinical_significance": "Markedly elevated above baseline, consistent with AKI"},
+      {"test_name": "BUN", "result": "68 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; BUN:Cr ratio >20:1 suggests prerenal etiology"},
+      {"test_name": "BUN:Creatinine Ratio", "result": "17.9:1", "flag": "HIGH", "clinical_significance": "Elevated ratio consistent with prerenal azotemia"},
+      {"test_name": "Serum Sodium", "result": "131 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia likely from GI losses"},
+      {"test_name": "Serum Potassium", "result": "5.6 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia due to decreased renal excretion; ACE inhibitor contributes"},
+      {"test_name": "Serum Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from poor perfusion and renal impairment"},
+      {"test_name": "Fractional Excretion of Sodium (FENa)", "result": "0.4%", "flag": "LOW", "clinical_significance": "FENa <1% strongly supports prerenal etiology"},
+      {"test_name": "Urine Sodium", "result": "8 mEq/L", "flag": "LOW", "clinical_significance": "Low urine sodium indicates avid renal sodium reabsorption (prerenal)"},
+      {"test_name": "Urine Osmolality", "result": "620 mOsm/kg", "flag": "HIGH", "clinical_significance": "Concentrated urine suggests intact tubular function and prerenal cause"},
+      {"test_name": "Urinalysis", "result": "Specific gravity 1.030, no casts, no blood, trace protein", "flag": "ABNORMAL", "clinical_significance": "High specific gravity consistent with concentrated urine; bland sediment argues against intrinsic renal disease"},
+      {"test_name": "Serum Lactate", "result": "3.2 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, reflecting tissue hypoperfusion"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.2 cm, left 11.5 cm) without hydronephrosis or masses. No nephrolithiasis identified.", "flag": "WNL", "clinical_significance": "Rules out obstructive uropathy as a cause of AKI"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema or pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "No signs of volume overload; consistent with volume depletion in a patient with known HFrEF"}
+    ],
+    "key_tests": [
+      "Basic Metabolic Panel (BMP) with BUN and Creatinine",
+      "Fractional Excretion of Sodium (FENa)",
+      "Urinalysis with microscopy",
+      "Renal Ultrasound"
+    ],
+    "acceptable_tests": [
+      "Urine sodium and osmolality",
+      "Complete blood count",
+      "Serum lactate",
+      "Urine specific gravity",
+      "Point-of-care bladder scan",
+      "Serum phosphorus and calcium"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis with contrast",
+      "Renal biopsy",
+      "ANA/ANCA panel",
+      "Serum complement levels",
+      "Urine eosinophils"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The FENa of 0.4% with a BUN:Cr ratio >20:1 and concentrated urine (osmolality 620 mOsm/kg) in the setting of volume depletion from GI losses confirms a prerenal etiology for acute kidney injury."
+  },
+  "debrief": {
+    "classic_presentation": "An elderly patient on ACE inhibitors and diuretics develops volume depletion from GI losses, presenting with oliguria, hypotension, tachycardia, and rapidly rising creatinine with a BUN:Cr ratio >20:1 and FENa <1%.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Prerenal AKI results from decreased renal perfusion without intrinsic parenchymal damage. Volume depletion (from diarrhea and vomiting) reduces effective circulating volume. The kidneys respond by maximizing sodium and water reabsorption, leading to low urine sodium, low FENa, and concentrated urine. ACE inhibitors impair the compensatory efferent arteriolar vasoconstriction that normally maintains GFR during hypoperfusion, worsening the injury. If untreated, sustained prerenal injury can progress to acute tubular necrosis.",
+    "treatment_overview": "Immediate IV isotonic crystalloid resuscitation (e.g., normal saline or lactated Ringer's). Hold nephrotoxic agents (ACE inhibitor, diuretic, metformin) until renal function recovers. Monitor potassium closely and treat hyperkalemia if ECG changes are present. Strict intake/output monitoring. Serial creatinine measurements to confirm recovery. Resume chronic medications cautiously once euvolemia is restored and creatinine is trending toward baseline.",
+    "high_yield_pearls": [
+      "FENa <1% with urine sodium <20 mEq/L strongly supports prerenal AKI; however, FENa can be unreliable in patients on diuretics—use fractional excretion of urea (FEUrea <35%) instead.",
+      "BUN:Cr ratio >20:1 is a classic prerenal finding because urea is passively reabsorbed in the proximal tubule during low-flow states, while creatinine is not.",
+      "ACE inhibitors and ARBs block efferent arteriolar constriction and can precipitate or worsen prerenal AKI in volume-depleted patients—always hold during acute illness.",
+      "The 'triple whammy' (ACE inhibitor/ARB + diuretic + NSAID) is a well-known risk combination for prerenal AKI.",
+      "Urine osmolality >500 mOsm/kg in AKI suggests intact tubular concentrating ability and favors prerenal over intrinsic renal disease."
+    ],
+    "sources": [
+      "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012)",
+      "UpToDate: Etiology and diagnosis of prerenal disease and acute tubular necrosis (2024)",
+      "Lameire N et al. Acute kidney injury: an increasing global concern. Lancet. 2013;382(9887):170-179."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Prerenal AKI (volume depletion)",
+      "Acute tubular necrosis",
+      "Cardiorenal syndrome (acute decompensated HF)",
+      "Obstructive uropathy",
+      "ACE inhibitor-induced AKI",
+      "Sepsis-associated AKI"
+    ],
+    "after_stage2_more_likely": [
+      "Prerenal AKI — profound signs of volume depletion, GI losses, hypotension, tachycardia",
+      "ACE inhibitor contribution — patient on lisinopril with volume depletion"
+    ],
+    "after_stage2_less_likely": [
+      "Cardiorenal syndrome — no signs of volume overload (no JVD, edema, or pulmonary congestion)",
+      "Obstructive uropathy — no history of BPH symptoms, no palpable bladder"
+    ],
+    "after_labs_top3": [
+      "Prerenal AKI — FENa 0.4%, concentrated urine, BUN:Cr >20:1",
+      "ACE inhibitor-potentiated prerenal AKI — FENa low but ACE inhibitor is a contributing factor",
+      "Early acute tubular necrosis — less likely given bland sediment and low FENa, but possible if hypoperfusion persists"
+    ]
+  }
+}

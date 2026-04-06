@@ -1,0 +1,105 @@
+{
+  "case_id": "case_249",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Tension-type headache",
+  "icd_category": "G44.209 — Tension-type headache, unspecified, not intractable",
+  "one_liner": "A 32-year-old woman presents with recurrent bilateral, non-pulsatile 'band-like' headaches of mild-to-moderate intensity occurring 3-4 times per week, without nausea or photophobia, worsened by stress.",
+  "stage2": {
+    "hpi_extension": "The patient has experienced recurrent headaches for the past 4 months, occurring 3-4 times per week. She describes the pain as a bilateral, constant 'pressure' or 'tightness' — like a band squeezing around her head. The pain is mild to moderate in intensity (4-5/10) and does not prevent her from working, though it reduces her productivity. Headaches typically begin in the afternoon, last 4-6 hours, and are associated with tightness in her neck and shoulders. They worsen with stress and long hours at her computer. She denies nausea, vomiting, photophobia, phonophobia, aura, or visual disturbances. There is no worsening with physical activity. She has been taking acetaminophen 1000 mg approximately 4 times per week with partial relief. She denies recent head trauma, fever, weight loss, and neurological symptoms. She has been under increased work stress as a deadline approaches and has been sleeping only 5-6 hours per night.",
+    "pmh": "No significant past medical history. No history of migraines.",
+    "surgical_history": "None",
+    "medications": "Acetaminophen 1000 mg PRN (4 times weekly), oral contraceptive pill",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with migraines. Father healthy. No family history of brain tumors or aneurysms.",
+    "social_history": "Works as an attorney. Lives with partner. Drinks 3-4 cups of coffee daily. Occasional glass of wine on weekends. Non-smoker. No illicit drug use. Sedentary lifestyle, works 60+ hours per week at a computer. Reports high stress and poor sleep hygiene.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "74 bpm",
+      "bp": "118/76 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "140 lbs, BMI 23.3 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no acute distress, appears mildly tense. HEENT: Normocephalic, atraumatic. Pupils equal and reactive. No papilledema on fundoscopic exam. Temporal arteries non-tender, non-thickened, with normal pulsation. TMJ non-tender, normal range of motion. Neck: Moderate tenderness and taut bands palpable in bilateral trapezius and cervical paraspinal muscles. Full range of motion. No meningismus. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear. Neurological: Cranial nerves II-XII intact. Motor strength 5/5 in all extremities. Sensation intact. Deep tendon reflexes 2+ and symmetric. Gait normal. Romberg negative. No focal neurological deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.4, Hct 40.0, Plt 240", "flag": "WNL", "clinical_significance": "Normal; rules out anemia or infection as contributing factor"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.3, AST 18, ALT 16, Alk Phos 55, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no metabolic cause for headaches"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "ESR", "result": "6 mm/hr", "flag": "WNL", "clinical_significance": "Normal; rules out temporal arteritis or systemic inflammatory process"},
+      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal magnesium; low levels can contribute to headaches"},
+      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D level"}
+    ],
+    "imaging_results": [
+      {"test_name": "No imaging indicated", "result": "N/A", "flag": "N/A", "clinical_significance": "No red flags (no focal neurological deficits, no papilledema, no thunderclap onset, no systemic symptoms) — neuroimaging is not indicated for typical tension-type headache"}
+    ],
+    "key_tests": [
+      "Comprehensive headache history — establishing ICHD-3 criteria for tension-type headache (bilateral, pressing/tightening, mild-moderate, not aggravated by activity)",
+      "Complete neurological exam — normal, ruling out secondary causes",
+      "Fundoscopic exam — no papilledema, ruling out raised intracranial pressure"
+    ],
+    "acceptable_tests": [
+      "CBC — baseline screening",
+      "CMP — metabolic assessment",
+      "TSH — ruling out thyroid-related headache",
+      "ESR — screening for temporal arteritis (though age makes this very unlikely)",
+      "Headache diary — tracking frequency, triggers, and medication use"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no red flags, no focal deficits — not indicated in typical TTH)",
+      "CT Head (no indication without red flags)",
+      "Lumbar puncture (no features of elevated ICP or meningitis)",
+      "EEG (no seizure-like features)",
+      "Cervical spine X-ray (neck tenderness is muscular, not radicular)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets ICHD-3 criteria for frequent episodic tension-type headache: bilateral location, pressing/tightening (non-pulsating) quality, mild-to-moderate intensity, not aggravated by routine physical activity, without nausea and with no more than one of photophobia or phonophobia (she has neither). Episodes last 4-6 hours and occur 3-4 times per week (1-14 days/month = frequent episodic). Identifiable triggers include stress, poor sleep, prolonged computer use, and pericranial muscle tenderness. Normal neurological exam and no red flag features. Frequent analgesic use (4 times/week) raises concern for potential medication overuse headache if it escalates."
+  },
+  "debrief": {
+    "classic_presentation": "A patient presenting with bilateral, pressing or tightening ('band-like') headaches of mild-to-moderate intensity that are not worsened by physical activity and occur without significant associated features (no nausea, vomiting, or combination of photophobia and phonophobia). Episodes last 30 minutes to 7 days. Pericranial muscle tenderness is often present. Common triggers include stress, poor sleep, poor posture, and prolonged screen time. TTH is the most common primary headache disorder worldwide.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Tension-type headache pathophysiology involves both peripheral and central mechanisms. Peripherally, increased pericranial myofascial nociception — from sensitized peripheral nerve endings in muscles, tendons, and fascia of the head and neck — contributes to episodic TTH. Chronic TTH additionally involves central sensitization: prolonged peripheral nociceptive input leads to increased excitability of second-order neurons in the trigeminal nucleus caudalis and reduced descending inhibition from the periaqueductal gray and raphe nuclei. Decreased serotonin and endorphin levels in cerebrospinal fluid support the central sensitization model. Unlike migraine, there is no significant involvement of the trigeminovascular system or cortical spreading depression.",
+    "treatment_overview": "Acute treatment: simple analgesics — acetaminophen 1000 mg or ibuprofen 400 mg as first-line. Limit acute medications to <15 days/month (for simple analgesics) or <10 days/month (for combination analgesics) to prevent medication overuse headache. Preventive treatment (indicated when headaches occur >2 days/week): first-line is low-dose amitriptyline (10-25 mg at bedtime, titrate to 75 mg). Non-pharmacologic: stress management, regular sleep schedule (sleep hygiene), regular aerobic exercise, ergonomic workspace adjustment, physical therapy for cervical/pericranial muscle stretching, and CBT for stress-related headaches. For this patient specifically: optimize sleep (target 7-8 hours), reduce screen time with regular breaks (20-20-20 rule), stress management techniques, and consider amitriptyline if frequency remains >2 days/week.",
+    "high_yield_pearls": [
+      "Tension-type headache is the most common primary headache disorder — prevalence is 30-78% worldwide. It is distinguished from migraine by bilateral location, non-pulsating quality, mild-moderate intensity, and absence of nausea/vomiting.",
+      "ICHD-3 classification: infrequent episodic (<1 day/month), frequent episodic (1-14 days/month), and chronic (>15 days/month for >3 months) — treatment approach differs by category.",
+      "Medication overuse headache (MOH) must be considered when acute analgesics are used >15 days/month (simple) or >10 days/month (triptans, combination) — this paradoxically worsens headache frequency.",
+      "Amitriptyline is the first-line preventive medication for frequent/chronic TTH — other options include mirtazapine and venlafaxine.",
+      "Red flags requiring neuroimaging (SNOOPPP): Systemic symptoms, Neurological deficits, Onset sudden (thunderclap), Older age (>50), Pattern change, Positional, Progressive."
+    ],
+    "sources": [
+      "International Headache Society. ICHD-3: International Classification of Headache Disorders, 3rd Edition (2018)",
+      "Bendtsen L et al. EFNS guideline on the treatment of tension-type headache. Eur J Neurol, 2010",
+      "Robbins MS, Lipton RB. The epidemiology of primary headache disorders. Semin Neurol, 2010",
+      "Ashina M. Neurobiology of chronic tension-type headache. Cephalalgia, 2004",
+      "AHS Position Statement on Integrating New Migraine Treatments into Clinical Practice, 2019"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Tension-type headache",
+      "Migraine without aura",
+      "Medication overuse headache",
+      "Cervicogenic headache",
+      "Idiopathic intracranial hypertension",
+      "Temporomandibular joint disorder"
+    ],
+    "after_stage2_more_likely": [
+      "Tension-type headache — bilateral, pressing, mild-moderate, not aggravated by activity, no nausea/photophobia, pericranial tenderness, stress-related",
+      "Cervicogenic headache — neck muscle tenderness and computer-related, but bilateral distribution and pressing quality favor TTH"
+    ],
+    "after_stage2_less_likely": [
+      "Migraine — no unilateral pulsating quality, no nausea/vomiting, no photophobia, no aura, not worsened by physical activity",
+      "Idiopathic intracranial hypertension — no papilledema, no visual obscurations, normal BMI",
+      "TMJ disorder — TMJ non-tender, normal jaw range of motion"
+    ],
+    "after_labs_top3": [
+      "Tension-type headache — classic clinical features meeting ICHD-3 criteria, normal neurological exam, normal labs, no red flags",
+      "Medication overuse headache — approaching the threshold with 4x/week analgesic use; requires monitoring and counseling on limits",
+      "Cervicogenic headache — pericranial muscle tenderness is present but overall pattern is more consistent with TTH"
+    ]
+  }
+}

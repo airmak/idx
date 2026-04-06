@@ -1,0 +1,155 @@
+{
+  "case_id": "case_208",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Pelvic inflammatory disease (acute salpingitis, chlamydial and gonococcal)",
+  "icd_category": "N73.0 – Acute parametritis and pelvic cellulitis",
+  "one_liner": "A 20-year-old female presents with 4 days of progressive bilateral lower abdominal pain, purulent vaginal discharge, fever, and cervical motion tenderness; NAAT is positive for Chlamydia trachomatis and Neisseria gonorrhoeae.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive bilateral lower abdominal pain over the past 4 days, now rated 7/10, worsened by movement and intercourse. She has noticed a foul-smelling yellowish-green vaginal discharge for the past week. She developed a fever yesterday (self-measured at 38.6°C). Her last menstrual period was 10 days ago (normal flow, normal timing). She has had two new sexual partners in the past 3 months and inconsistently uses condoms. She denies current pregnancy possibility (LMP was normal). She has no urinary symptoms, nausea, or vomiting. She has never been tested for STIs before. She had a similar episode of mild pelvic pain 6 months ago that resolved without treatment.",
+    "pmh": "Regular menstrual cycles. No prior pregnancies. No chronic medical conditions. No prior STI diagnosis.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Non-contributory",
+    "social_history": "College student. Social drinker. Non-smoker. Multiple sexual partners. Inconsistent condom use. No IUD.",
+    "vitals": {
+      "temp": "38.4°C (101.1°F)",
+      "hr": "98 bpm",
+      "bp": "116/74 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "62 kg, BMI 22.8 kg/m²"
+    },
+    "physical_exam": "General: Uncomfortable-appearing young woman, lying still to minimize pain. HEENT: Unremarkable. Cardiovascular: Mildly tachycardic, regular rhythm. Pulmonary: Clear to auscultation. Abdomen: Mild distension; bilateral lower quadrant tenderness, more pronounced on the right; mild voluntary guarding; no rebound; bowel sounds present. Pelvic examination: Mucopurulent discharge from the cervical os; cervical friability noted; significant cervical motion tenderness ('chandelier sign'); bilateral adnexal tenderness, right greater than left; no discrete adnexal masses palpated; uterine tenderness on bimanual exam. Rectal: Not performed."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "GC/Chlamydia NAAT (endocervical)",
+        "result": "Chlamydia trachomatis: POSITIVE. Neisseria gonorrhoeae: POSITIVE.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Co-infection with C. trachomatis and N. gonorrhoeae confirms the microbiologic etiology and guides antibiotic selection."
+      },
+      {
+        "test_name": "WBC",
+        "result": "15.8 × 10³/µL with 82% neutrophils",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with neutrophil predominance supports an acute bacterial infectious process."
+      },
+      {
+        "test_name": "CRP",
+        "result": "68 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated CRP correlates with severity of pelvic infection."
+      },
+      {
+        "test_name": "ESR",
+        "result": "48 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ESR supports active inflammation; ESR >15 mm/hr is one of the additional criteria supporting PID diagnosis."
+      },
+      {
+        "test_name": "Urine hCG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative pregnancy test excludes ectopic pregnancy, which must always be considered in reproductive-age women with pelvic pain."
+      },
+      {
+        "test_name": "Wet mount microscopy",
+        "result": "Abundant WBCs (>10 per high-power field on vaginal wet mount). Clue cells absent. No trichomonads. No yeast.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "WBCs on vaginal wet mount (>1 WBC per epithelial cell or >10 WBC/HPF of vaginal fluid) increase the sensitivity of PID diagnosis."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, 2-3 WBC/HPF, no bacteria, no nitrites",
+        "flag": "WNL",
+        "clinical_significance": "Normal urinalysis excludes UTI as the cause of lower abdominal pain."
+      },
+      {
+        "test_name": "HIV antibody/antigen screen",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Negative HIV screening; all patients diagnosed with STIs should be screened for HIV per CDC guidelines."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Right fallopian tube mildly dilated (8 mm) with thickened walls and the 'cogwheel sign.' Small amount of complex free fluid in the cul-de-sac. Left fallopian tube normal. Ovaries normal bilaterally. No tubo-ovarian abscess. Uterus normal with 8 mm endometrium.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Thickened, dilated fallopian tube with the cogwheel sign (cross-section of thickened tubal folds) is consistent with acute salpingitis. Absence of tubo-ovarian abscess is important for determining outpatient vs. inpatient management."
+      }
+    ],
+    "key_tests": [
+      "GC/Chlamydia NAAT (endocervical or vaginal swab)",
+      "Urine pregnancy test",
+      "Wet mount microscopy (vaginal WBCs)",
+      "Transvaginal ultrasound (if concern for TOA)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "CRP and/or ESR",
+      "HIV screen",
+      "Syphilis screen (RPR/VDRL)",
+      "Hepatitis B and C screening",
+      "Urinalysis",
+      "Blood cultures (if systemically ill)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (unless considering appendicitis)",
+      "CA-125 (elevated in PID but not useful diagnostically)",
+      "Abdominal X-ray",
+      "Endometrial biopsy (for chronic endometritis only, not acute PID)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "After 48 hours of appropriate dual antibiotic therapy, the patient's fever resolves, pelvic pain significantly improves, and CRP trends down from 68 to 22 mg/L, confirming clinical response to treatment for acute PID."
+  },
+  "debrief": {
+    "classic_presentation": "PID classically presents in sexually active young women with bilateral lower abdominal pain, purulent vaginal discharge, fever, and cervical motion tenderness (chandelier sign). The CDC minimum clinical criteria for empiric treatment are: sexually active young woman with pelvic or lower abdominal pain PLUS at least ONE of: cervical motion tenderness, uterine tenderness, or adnexal tenderness — with no other identifiable cause. Additional criteria supporting the diagnosis include fever >38.3°C, elevated CRP/ESR, positive GC/Chlamydia NAAT, and WBCs on wet mount.",
+    "attending_mode_notes": null,
+    "pathophysiology": "PID results from ascending infection from the lower genital tract (cervix, vagina) to the upper genital tract (endometrium, fallopian tubes, ovaries, peritoneum). Chlamydia trachomatis and Neisseria gonorrhoeae are the primary causative organisms, though polymicrobial infection with anaerobes, Gardnerella, and enteric gram-negatives is common. Chlamydia causes a more indolent, subclinical infection that may cause significant tubal damage before diagnosis. Gonococcal PID tends to present more acutely. The infection causes inflammation, edema, and purulent exudate in the fallopian tubes (salpingitis), which can progress to pyosalpinx or tubo-ovarian abscess. Chronic sequelae include tubal scarring, adhesions, infertility (10-15% after one episode), ectopic pregnancy (6-fold increased risk), and chronic pelvic pain.",
+    "treatment_overview": "Outpatient treatment (mild-moderate PID without TOA): ceftriaxone 500 mg IM single dose + doxycycline 100 mg PO BID × 14 days + metronidazole 500 mg PO BID × 14 days (for anaerobic coverage). Inpatient treatment (severe PID, TOA, failed outpatient therapy, pregnancy, surgical emergency not excluded): cefotetan 2 g IV q12h or cefoxitin 2 g IV q6h + doxycycline 100 mg IV/PO q12h. Alternative: clindamycin 900 mg IV q8h + gentamicin (2 mg/kg loading, then 1.5 mg/kg q8h). Hospitalization indications include: TOA, pregnancy, failure of outpatient therapy, inability to exclude surgical emergency, severe illness, nausea/vomiting precluding oral therapy. All sexual partners within 60 days must be treated. Test of cure is recommended. Follow-up within 72 hours is essential for outpatients.",
+    "high_yield_pearls": [
+      "The CDC recommends a low threshold for empiric PID treatment to prevent long-term sequelae — if a sexually active woman has pelvic pain with cervical motion, uterine, or adnexal tenderness, treat empirically.",
+      "Chlamydia PID is often subclinical and may cause 'silent salpingitis' — significant tubal damage can occur before symptoms prompt diagnosis, contributing to infertility.",
+      "Fitz-Hugh-Curtis syndrome is perihepatitis (right upper quadrant pain with 'violin string' adhesions between the liver capsule and parietal peritoneum) as a complication of PID, occurring in 5-10% of cases.",
+      "Tubo-ovarian abscess (TOA) >9 cm or unresponsive to 48-72 hours of IV antibiotics requires image-guided drainage or surgical intervention.",
+      "Each episode of PID approximately doubles the risk of tubal factor infertility — after 3 episodes, the infertility rate approaches 40-50%."
+    ],
+    "sources": [
+      "CDC STI Treatment Guidelines (2021): Pelvic Inflammatory Disease",
+      "ACOG Committee Opinion: Pelvic Inflammatory Disease",
+      "UpToDate: Pelvic inflammatory disease: Clinical manifestations and diagnosis",
+      "UpToDate: Pelvic inflammatory disease: Treatment in adults and adolescents"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pelvic inflammatory disease",
+      "Ectopic pregnancy",
+      "Appendicitis",
+      "Ruptured ovarian cyst",
+      "Ovarian torsion",
+      "Urinary tract infection",
+      "Endometriosis"
+    ],
+    "after_stage2_more_likely": [
+      "PID (bilateral pelvic pain, fever, purulent discharge, cervical motion tenderness, multiple sexual partners, inconsistent condom use)",
+      "Appendicitis (right-sided predominance of pain, but bilateral tenderness and purulent discharge favor PID)"
+    ],
+    "after_stage2_less_likely": [
+      "Ectopic pregnancy (excluded by negative pregnancy test)",
+      "Ovarian torsion (bilateral tenderness, fever, and discharge are atypical for torsion)",
+      "UTI (normal urinalysis, symptoms are primarily pelvic not urinary)"
+    ],
+    "after_labs_top3": [
+      "Acute PID (GC/Chlamydia co-infection confirmed, elevated inflammatory markers, salpingitis on ultrasound)",
+      "Tubo-ovarian abscess (no abscess identified on ultrasound, but must be monitored if symptoms worsen)",
+      "Appendicitis with concurrent cervicitis (less likely — ultrasound shows tubal changes consistent with PID, appendix not visualized as abnormal)"
+    ]
+  }
+}

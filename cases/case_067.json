@@ -1,0 +1,76 @@
+{
+  "case_id": "case_067",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Atrial Flutter",
+  "icd_category": "I48.92 — Unspecified atrial flutter",
+  "one_liner": "A 68-year-old male with a history of hypertension and obstructive sleep apnea presents with palpitations and lightheadedness for 2 days.",
+  "stage2": {
+    "hpi_extension": "The patient describes a rapid, regular 'fluttering' sensation in his chest that began 2 days ago. He feels lightheaded when standing and has mild exertional dyspnea. He denies syncope, chest pain, or diaphoresis. He has not been compliant with his CPAP and ran out of his blood pressure medication 1 week ago.",
+    "pmh": "Hypertension (10 years), obstructive sleep apnea (moderate, on CPAP), obesity, prediabetes",
+    "surgical_history": "Uvulopalatopharyngoplasty (5 years ago, unsuccessful), right knee arthroscopy",
+    "medications": "Amlodipine 10 mg daily (ran out 1 week ago), CPAP at night (non-compliant)",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "Mother with atrial fibrillation. Father with type 2 diabetes and stroke at age 72.",
+    "social_history": "Non-smoker. Drinks 2-3 glasses of wine on weekends. Works as an accountant. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "150 bpm, regular",
+      "bp": "128/78 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "108 kg, BMI 34.5"
+    },
+    "physical_exam": "General: Alert, mildly anxious, no acute distress. HEENT: No JVD. Cardiovascular: Tachycardic with regular rhythm, no murmurs or gallops, normal S1/S2. Pulmonary: Clear to auscultation bilaterally. Abdomen: Obese, soft, non-tender. Extremities: No edema. Neurological: Alert and oriented, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out hyperthyroidism as cause of tachyarrhythmia"},
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial injury"},
+      {"test_name": "BNP", "result": "185 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect tachycardia-mediated stretch rather than overt HF"},
+      {"test_name": "Potassium", "result": "3.9 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out hypokalemia as arrhythmia contributor"},
+      {"test_name": "Magnesium", "result": "1.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal, rules out hypomagnesemia"},
+      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CBC", "result": "WBC 7.2, Hgb 14.5, Plt 220", "flag": "WNL", "clinical_significance": "Normal, rules out anemia or infection"},
+      {"test_name": "Free T4", "result": "1.1 ng/dL", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Glucose", "result": "118 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, consistent with prediabetes"},
+      {"test_name": "D-dimer", "result": "0.3 µg/mL", "flag": "WNL", "clinical_significance": "Normal, low probability for PE"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "Atrial flutter with 2:1 conduction block, ventricular rate 150 bpm, sawtooth flutter waves best seen in leads II, III, aVF and V1, no ST changes", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of typical atrial flutter with characteristic sawtooth pattern"},
+      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 55%, no valvular abnormalities, mildly dilated left atrium (4.3 cm), no thrombus visualized, normal RV function", "flag": "ABNORMAL", "clinical_significance": "Preserved systolic function with mild LA dilation consistent with atrial arrhythmia"},
+      {"test_name": "Chest X-ray", "result": "Normal heart size, clear lung fields, no pleural effusion", "flag": "WNL", "clinical_significance": "No evidence of heart failure or pulmonary pathology"}
+    ],
+    "key_tests": ["12-lead ECG", "Troponin", "TSH", "Basic metabolic panel", "Transthoracic echocardiogram"],
+    "acceptable_tests": ["BNP", "CBC", "Magnesium level", "D-dimer", "Chest X-ray", "Free T4", "Liver function tests"],
+    "low_yield_tests": ["Cardiac MRI", "CT chest without contrast", "Pulmonary function tests", "Serum cortisol", "ANA"],
+    "key_tests_rationale": "ECG is essential to identify the rhythm. Troponin rules out ischemia. TSH screens for hyperthyroidism as a reversible cause. BMP checks electrolytes. Echo assesses cardiac structure and function."
+  },
+  "stage5": {
+    "final_clue": "The 12-lead ECG reveals a regular narrow-complex tachycardia at 150 bpm with classic sawtooth flutter waves in the inferior leads, confirming typical atrial flutter with 2:1 conduction."
+  },
+  "debrief": {
+    "classic_presentation": "Atrial flutter typically presents with palpitations, lightheadedness, and dyspnea. The ventricular rate is classically ~150 bpm (2:1 block) or ~100 bpm (3:1 block). ECG shows sawtooth flutter waves at ~300/min, best seen in leads II, III, aVF. Risk factors include hypertension, obesity, OSA, and structural heart disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Typical atrial flutter is a macro-reentrant circuit in the right atrium, traveling counterclockwise around the tricuspid valve annulus through the cavotricuspid isthmus. The atrial rate is ~300 bpm, and the AV node provides conduction block (usually 2:1), resulting in a ventricular rate of ~150 bpm. Unlike atrial fibrillation, flutter is an organized rhythm.",
+    "treatment_overview": "Rate control: IV diltiazem or beta-blocker to slow ventricular response. Cardioversion: electrical cardioversion is highly effective (often at low energy 50-100J). Anticoagulation: CHA₂DS₂-VASc score determines stroke risk (same as AFib). Definitive therapy: catheter ablation of the cavotricuspid isthmus has >90% success rate and is first-line for recurrent flutter.",
+    "high_yield_pearls": [
+      "A regular narrow-complex tachycardia at exactly 150 bpm should raise strong suspicion for atrial flutter with 2:1 block.",
+      "Sawtooth flutter waves are best seen in leads II, III, aVF and may be revealed by adenosine (which increases AV block transiently).",
+      "Atrial flutter carries similar stroke risk to atrial fibrillation — anticoagulation decisions follow CHA₂DS₂-VASc scoring.",
+      "Catheter ablation of the cavotricuspid isthmus is curative in >90% of typical atrial flutter and is preferred over long-term antiarrhythmic drugs.",
+      "Obstructive sleep apnea is a significant and modifiable risk factor for atrial flutter and fibrillation."
+    ],
+    "sources": [
+      "2023 ACC/AHA/ACCP/HRS Guideline for Diagnosis and Management of Atrial Fibrillation",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Granada et al., Typical Atrial Flutter, Circulation 2000"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Atrial fibrillation", "Supraventricular tachycardia (AVNRT)", "Sinus tachycardia", "Pulmonary embolism", "Hyperthyroidism", "Multifocal atrial tachycardia"],
+    "after_stage2_more_likely": ["Atrial flutter", "Atrial fibrillation", "SVT"],
+    "after_stage2_less_likely": ["Pulmonary embolism", "Hyperthyroidism", "Sinus tachycardia"],
+    "after_labs_top3": ["Atrial flutter", "Atrial fibrillation", "SVT (AVNRT)"]
+  }
+}

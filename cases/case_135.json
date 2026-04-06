@@ -1,0 +1,113 @@
+{
+  "case_id": "case_135",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Anti-GBM Disease (Goodpasture Syndrome)",
+  "icd_category": "M31.0 — Hypersensitivity angiitis (Goodpasture syndrome)",
+  "one_liner": "A 24-year-old male smoker presents with hemoptysis, rapidly progressive renal failure, and a nephritic urinary sediment over 1 week.",
+  "stage2": {
+    "hpi_extension": "The patient presented to the ED after 5 days of worsening hemoptysis, producing blood-tinged to frankly bloody sputum. He has had progressively decreasing urine output and noticed his urine is dark and 'tea-colored.' He reports fatigue, myalgias, and low-grade fevers. He has no prior history of kidney or lung disease. He smokes one pack of cigarettes daily and works as a house painter. He was recently exposed to hydrocarbon-based solvents at work. He denies illicit drug use, recent travel, or sick contacts.",
+    "pmh": "None.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of kidney disease or autoimmune disease.",
+    "social_history": "House painter. One pack/day smoker (6 pack-year history). No alcohol. No illicit drugs. Single, lives alone. Recent exposure to paint solvents and thinners.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "110 bpm",
+      "bp": "162/98 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "91% on room air",
+      "weight_bmi": "75 kg, BMI 23.4"
+    },
+    "physical_exam": "Young male appearing acutely ill and pale. Mild respiratory distress. Conjunctival pallor. Oropharynx with blood-tinged secretions. Heart: tachycardic, regular rhythm, no murmurs. Lungs: diffuse bilateral crackles with scattered rhonchi. Abdomen: soft, non-tender, no organomegaly. Extremities: no edema. No rash, purpura, or joint swelling. No nasal crusting or saddle nose deformity."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "6.2 mg/dL (was normal 6 months ago)", "flag": "HIGH", "clinical_significance": "Rapidly progressive glomerulonephritis (RPGN) — creatinine rising from normal to severely elevated in days to weeks"},
+      {"test_name": "BUN", "result": "82 mg/dL", "flag": "HIGH", "clinical_significance": "Severely elevated, consistent with rapidly progressive renal failure"},
+      {"test_name": "Urinalysis", "result": "3+ blood, 2+ protein, >100 RBCs/hpf (many dysmorphic), abundant RBC casts, no WBC casts", "flag": "ABNORMAL", "clinical_significance": "Active nephritic sediment with RBC casts pathognomonic for glomerulonephritis"},
+      {"test_name": "Anti-GBM Antibody (IgG)", "result": "Positive, 128 EU/mL (normal <20)", "flag": "HIGH", "clinical_significance": "Diagnostic of anti-GBM disease; antibodies target the NC1 domain of the alpha-3 chain of type IV collagen"},
+      {"test_name": "ANCA (MPO and PR3)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes concurrent ANCA-associated vasculitis (dual positivity occurs in ~30% of anti-GBM cases)"},
+      {"test_name": "Hemoglobin", "result": "7.8 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia from pulmonary hemorrhage and blood loss"},
+      {"test_name": "Complement C3", "result": "105 mg/dL", "flag": "WNL", "clinical_significance": "Normal; anti-GBM disease does not consume complement"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus"},
+      {"test_name": "Serum Potassium", "result": "5.8 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from oliguric renal failure"},
+      {"test_name": "Serum Bicarbonate", "result": "15 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from renal failure"},
+      {"test_name": "ABG", "result": "pH 7.28, pCO2 28, pO2 62, HCO3 14 on room air", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation; hypoxemia from diffuse alveolar hemorrhage"},
+      {"test_name": "DLCO (Diffusing Capacity)", "result": "Elevated — 142% predicted", "flag": "HIGH", "clinical_significance": "Paradoxically elevated DLCO is a hallmark of diffuse alveolar hemorrhage (carbon monoxide is absorbed by intra-alveolar blood)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Bilateral diffuse alveolar infiltrates sparing the apices and costophrenic angles, with air bronchograms. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Classic pattern of diffuse alveolar hemorrhage (DAH); bilateral perihilar predominance"},
+      {"test_name": "Renal Biopsy", "result": "Light microscopy: crescentic glomerulonephritis with crescents in 85% of glomeruli. Immunofluorescence: linear IgG staining along the glomerular basement membrane. Electron microscopy: no immune deposits; GBM shows disruption.", "flag": "ABNORMAL", "clinical_significance": "Linear IgG deposition along GBM is pathognomonic for anti-GBM disease; extensive crescent formation indicates severe disease with poor renal prognosis"}
+    ],
+    "key_tests": [
+      "Anti-GBM antibody (serum)",
+      "Renal biopsy with immunofluorescence (linear IgG)",
+      "Urinalysis with microscopy",
+      "Serum creatinine (serial to document rapid progression)"
+    ],
+    "acceptable_tests": [
+      "ANCA (MPO/PR3) — evaluate for dual positivity",
+      "Complete blood count",
+      "Chest X-ray",
+      "Arterial blood gas",
+      "DLCO",
+      "Complement C3/C4",
+      "ANA",
+      "Bronchoscopy with BAL (if DAH confirmation needed)"
+    ],
+    "low_yield_tests": [
+      "CT chest with contrast (risk of contrast nephropathy; CXR sufficient)",
+      "Anti-PLA2R antibody",
+      "Serum IgA level",
+      "Renal artery Doppler",
+      "Sputum cultures (hemoptysis is from DAH, not infection)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The combination of pulmonary hemorrhage (hemoptysis, diffuse alveolar infiltrates, elevated DLCO) and rapidly progressive glomerulonephritis (RPGN with RBC casts), with positive anti-GBM antibodies and linear IgG on renal biopsy, confirms anti-GBM disease (Goodpasture syndrome) — the pulmonary-renal syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "A young male smoker presents with the pulmonary-renal syndrome: hemoptysis from diffuse alveolar hemorrhage combined with rapidly progressive glomerulonephritis. Labs show anti-GBM antibodies, and renal biopsy reveals crescentic GN with linear IgG staining on immunofluorescence.",
+    "attending_mode_notes": "Anti-GBM disease and ANCA vasculitis can coexist ('double-positive') in ~30% of anti-GBM cases, typically MPO-ANCA. These patients may have a slightly better renal prognosis than pure anti-GBM disease. The degree of crescent formation on biopsy is the strongest predictor of renal outcome: >80% crescents with dialysis dependence at presentation predicts <10% chance of renal recovery. Pulmonary hemorrhage can be fatal; smoking and hydrocarbon exposure increase risk by damaging the alveolar-capillary basement membrane, exposing the alpha-3(IV) collagen epitope. Unlike ANCA vasculitis, anti-GBM disease rarely recurs after antibodies are cleared.",
+    "pathophysiology": "Anti-GBM antibodies (IgG) target the NC1 domain of the alpha-3 chain of type IV collagen, which is highly expressed in the glomerular and alveolar basement membranes. Antibody binding activates complement and triggers a necrotizing crescentic glomerulonephritis. Pulmonary involvement (Goodpasture syndrome) requires a 'second hit' that disrupts the alveolar endothelial barrier (smoking, infections, hydrocarbon exposure), exposing the normally sequestered alpha-3(IV) collagen to circulating antibodies. This produces diffuse alveolar hemorrhage. The disease is rare (~1 per million/year) and has a bimodal age distribution (20-30 and 60-70 years).",
+    "treatment_overview": "Medical EMERGENCY — treatment must begin immediately. (1) Plasmapheresis (plasma exchange daily for 14 days or until anti-GBM antibodies are undetectable) to rapidly remove circulating anti-GBM antibodies. (2) Immunosuppression: IV pulse methylprednisolone (500-1000 mg daily x 3 days) followed by oral prednisone taper, PLUS cyclophosphamide (2 mg/kg/day for 2-3 months) to suppress new antibody formation. (3) Supportive care: blood transfusion for severe anemia, oxygen support, dialysis if needed for hyperkalemia/acidosis/volume overload. Renal prognosis is poor if presenting creatinine >5.7 mg/dL or dialysis dependence; transplantation can be considered after anti-GBM antibodies are undetectable for 6-12 months.",
+    "high_yield_pearls": [
+      "Anti-GBM disease targets the NC1 domain of alpha-3(IV) collagen; the pulmonary-renal syndrome (Goodpasture syndrome) occurs when both alveolar and glomerular basement membranes are involved.",
+      "Linear IgG staining on immunofluorescence is PATHOGNOMONIC for anti-GBM disease (in contrast to granular staining in immune complex diseases).",
+      "Smoking and hydrocarbon exposure are risk factors for pulmonary involvement — they disrupt the alveolar capillary barrier, exposing the target antigen.",
+      "An elevated DLCO in a patient with hemoptysis is paradoxical and characteristic of diffuse alveolar hemorrhage (intra-alveolar blood absorbs CO).",
+      "Renal prognosis is primarily determined by the degree of crescent formation: patients with >80% crescents and dialysis dependence at presentation rarely recover renal function."
+    ],
+    "sources": [
+      "McAdoo SP, Pusey CD. Anti-glomerular basement membrane disease. Clin J Am Soc Nephrol. 2017;12(7):1162-1172.",
+      "Levy JB et al. Long-term outcome of anti-glomerular basement membrane antibody disease treated with plasma exchange and immunosuppression. Ann Intern Med. 2001;134(11):1033-1042.",
+      "UpToDate: Anti-GBM (Goodpasture) disease — pathogenesis, clinical manifestations, and diagnosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Anti-GBM disease (Goodpasture syndrome)",
+      "ANCA-associated vasculitis (GPA or MPA)",
+      "Lupus nephritis with pulmonary hemorrhage",
+      "IgA vasculitis with pulmonary involvement",
+      "Thrombotic microangiopathy",
+      "Pulmonary embolism with concurrent AKI"
+    ],
+    "after_stage2_more_likely": [
+      "Anti-GBM disease — young male smoker with hydrocarbon exposure presenting with hemoptysis and rapidly progressive renal failure (pulmonary-renal syndrome)",
+      "ANCA vasculitis (GPA) — also causes pulmonary-renal syndrome, but typically has ENT involvement (sinusitis, nasal crusting)"
+    ],
+    "after_stage2_less_likely": [
+      "Lupus nephritis — young male, no rash, joint pain, or other systemic lupus features",
+      "Pulmonary embolism — does not explain nephritic sediment and rapidly rising creatinine"
+    ],
+    "after_labs_top3": [
+      "Anti-GBM disease — positive anti-GBM antibodies, linear IgG on biopsy, crescentic GN, ANCA negative",
+      "ANCA vasculitis — ANCA is negative; would show pauci-immune GN on biopsy, not linear IgG",
+      "Dual anti-GBM/ANCA disease — ANCA is negative in this case, ruling out dual positivity"
+    ]
+  }
+}

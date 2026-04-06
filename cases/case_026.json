@@ -1,0 +1,71 @@
+{
+  "case_id": "case_026",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hepatorenal syndrome",
+  "icd_category": "K76.7 — Hepatorenal syndrome",
+  "one_liner": "A 56-year-old male with decompensated alcoholic cirrhosis and refractory ascites presents with progressive oliguria, rising creatinine, and worsening confusion for 5 days.",
+  "stage2": {
+    "hpi_extension": "The patient has a history of alcoholic cirrhosis diagnosed 3 years ago, complicated by ascites, variceal bleeding, and hepatic encephalopathy. He was recently discharged 10 days ago after a large-volume paracentesis and treatment for spontaneous bacterial peritonitis (SBP) with ceftriaxone. He completed his antibiotics 3 days ago. Over the past 5 days, his wife reports he has been making very little urine despite adequate fluid intake. His legs and abdomen have become more swollen. He has become increasingly confused, sleeping through the day, and his speech has become slurred. He denies any new alcohol intake, NSAID use, or GI bleeding. He was adherent to lactulose and rifaximin. His creatinine was 1.1 mg/dL at discharge 10 days ago and is now 3.8 mg/dL.",
+    "pmh": "Alcoholic cirrhosis (Child-Pugh C), portal hypertension, ascites (refractory, requiring monthly paracenteses), prior spontaneous bacterial peritonitis (SBP) x2, grade 2 esophageal varices (banded 6 months ago), hepatic encephalopathy, thrombocytopenia",
+    "surgical_history": "None (not a transplant candidate currently due to recent alcohol use)",
+    "medications": "Furosemide 40 mg daily, spironolactone 100 mg daily, lactulose 30 mL three times daily, rifaximin 550 mg twice daily, nadolol 40 mg daily, norfloxacin 400 mg daily (SBP prophylaxis)",
+    "allergies": "Penicillin (anaphylaxis)",
+    "family_history": "Father died of alcoholic cirrhosis. Brother with alcohol use disorder.",
+    "social_history": "Heavy alcohol use for 30 years (1 pint of vodka daily), reportedly sober for 2 months but wife suspects recent relapse. Former smoker. Unemployed. Lives with wife.",
+    "vitals": {
+      "temp": "36.4°C (97.5°F)",
+      "hr": "98 bpm, regular",
+      "bp": "82/52 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "BMI 26 kg/m² (with significant ascites and edema contributing to weight)"
+    },
+    "physical_exam": "General: Cachectic male with temporal wasting, jaundiced, somnolent but arousable. HEENT: Deep scleral icterus, fetor hepaticus (sweet musty breath odor). Cardiovascular: Tachycardic, regular rhythm, hyperdynamic precordium, systolic flow murmur. JVP flat (intravascularly depleted despite total body fluid excess). Pulmonary: Decreased breath sounds at bilateral bases (pleural effusions). Abdomen: Massively distended with tense ascites, fluid wave positive, prominent caput medusae, hepatosplenomegaly. Flank dullness with shifting. Extremities: 3+ pitting edema bilaterally to mid-thigh. Asterixis present on dorsiflexion of wrists. Spider angiomata on chest and shoulders. Palmar erythema. Gynecomastia. Skin: Jaundiced, multiple ecchymoses, muscle wasting in extremities. Neuro: Somnolent, oriented to person only (hepatic encephalopathy grade 2-3). Asterixis present. Hyperreflexia."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Creatinine", "result": "3.8 mg/dL (baseline 1.1 ten days ago)", "flag": "HIGH", "clinical_significance": "Rapid rise in creatinine (>2x baseline) fulfills criteria for AKI; in the context of cirrhosis and after excluding other causes, this suggests hepatorenal syndrome"},
+      {"test_name": "BUN", "result": "52 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated with relatively preserved BUN/Cr ratio; renal failure from hepatorenal physiology"},
+      {"test_name": "Sodium", "result": "126 mEq/L", "flag": "LOW", "clinical_significance": "Dilutional hyponatremia from impaired free water excretion; severe hyponatremia in cirrhosis is a poor prognostic sign"},
+      {"test_name": "Urine sodium", "result": "<10 mEq/L", "flag": "LOW", "clinical_significance": "Very low urine sodium indicates avid renal sodium retention characteristic of hepatorenal syndrome; distinguishes from ATN (urine Na >30)"},
+      {"test_name": "Urine output", "result": "180 mL/24 hours", "flag": "LOW", "clinical_significance": "Oliguria (<500 mL/day) with rising creatinine; consistent with HRS-AKI (formerly type 1 HRS)"},
+      {"test_name": "Total bilirubin", "result": "12.8 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated reflecting severe hepatic dysfunction"},
+      {"test_name": "INR", "result": "2.4", "flag": "HIGH", "clinical_significance": "Elevated INR from impaired hepatic synthesis of clotting factors; contributes to MELD score calculation"},
+      {"test_name": "Albumin", "result": "2.0 g/dL", "flag": "LOW", "clinical_significance": "Severely low albumin from impaired hepatic synthesis; contributes to ascites and edema"},
+      {"test_name": "CBC", "result": "WBC 6,200/μL, Hgb 9.8 g/dL, Plt 62,000/μL", "flag": "LOW", "clinical_significance": "Pancytopenia from portal hypertension-induced hypersplenism and impaired hepatic thrombopoietin production"},
+      {"test_name": "Ammonia", "result": "125 μmol/L", "flag": "HIGH", "clinical_significance": "Elevated ammonia contributing to hepatic encephalopathy; renal failure worsens ammonia clearance"},
+      {"test_name": "Urinalysis", "result": "Specific gravity 1.025. No protein. No RBCs or WBCs. No casts. Bland sediment.", "flag": "WNL", "clinical_significance": "Bland urinalysis with concentrated urine and no casts rules out ATN and glomerulonephritis — supports hepatorenal syndrome"},
+      {"test_name": "MELD-Na score", "result": "34", "flag": "HIGH", "clinical_significance": "MELD-Na 34 indicates severe liver disease with high 90-day mortality without transplant; prioritizes transplant listing"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal ultrasound with Doppler", "result": "Normal-sized kidneys bilaterally (right 11.2 cm, left 11.5 cm). No hydronephrosis. No renal masses or stones. Increased renal resistive index (0.82). Renal parenchyma appears normal.", "flag": "ABNORMAL", "clinical_significance": "Normal renal parenchyma with elevated resistive index reflects intrarenal vasoconstriction — the pathophysiologic hallmark of hepatorenal syndrome. Absence of structural renal disease."},
+      {"test_name": "Diagnostic paracentesis", "result": "Ascitic fluid WBC 120/μL (PMN 35/μL), albumin 0.8 g/dL, total protein 1.2 g/dL, culture negative. SAAG 1.8 g/dL.", "flag": "WNL", "clinical_significance": "PMN <250/μL rules out active SBP as a current precipitant. High SAAG confirms portal hypertensive ascites. Prior SBP may have been the precipitating event for HRS."}
+    ],
+    "key_tests": ["Serum creatinine (serial monitoring)", "Urinalysis with sediment", "Urine sodium and urine output", "Renal ultrasound", "Diagnostic paracentesis"],
+    "acceptable_tests": ["CBC", "Comprehensive metabolic panel", "INR/PT", "Ammonia level", "MELD score calculation", "Blood cultures", "Urine culture", "Chest X-ray"],
+    "low_yield_tests": ["Renal biopsy (not indicated in typical HRS; kidneys are structurally normal)", "CT abdomen (not needed beyond ultrasound)", "ANA/anti-dsDNA (not autoimmune presentation)", "Serum cystatin C", "Fractional excretion of urea (useful but not essential if clinical picture is clear)"]
+  },
+  "stage5": {
+    "final_clue": "After discontinuing diuretics and administering an albumin challenge (1 g/kg/day for 2 days with no improvement in creatinine), and excluding infection, obstruction, and nephrotoxic exposure, the diagnosis of HRS-AKI is confirmed per the ICA revised criteria. The recent SBP episode is identified as the most likely precipitant."
+  },
+  "debrief": {
+    "classic_presentation": "Hepatorenal syndrome (HRS-AKI, formerly type 1) presents in patients with advanced cirrhosis and portal hypertension as a rapid decline in renal function (creatinine doubling to >2.5 mg/dL within 2 weeks) with oliguria, in the absence of structural kidney disease. Classic findings include low urine sodium (<10 mEq/L), bland urinalysis, normal renal ultrasound, and failure to respond to albumin expansion. It typically occurs after a precipitating event such as SBP, large-volume paracentesis without albumin replacement, GI bleeding, or over-diuresis.",
+    "attending_mode_notes": "This case is diagnostically challenging because AKI in a cirrhotic patient has many potential causes: prerenal from over-diuresis, ATN from sepsis or nephrotoxins, obstructive uropathy, or abdominal compartment syndrome from tense ascites. The key to diagnosing HRS is systematically excluding other causes: bland urinalysis rules out ATN (which would show granular casts) and GN; renal ultrasound rules out obstruction; paracentesis rules out active SBP; and failure to improve with albumin challenge rules out simple volume depletion. The temporal relationship to recent SBP treatment is the critical clinical clue — SBP is the most common precipitant of HRS even after successful antibiotic treatment.",
+    "pathophysiology": "HRS results from extreme splanchnic vasodilation from portal hypertension (mediated by nitric oxide and other vasodilators). As cirrhosis progresses, arterial underfilling from splanchnic pooling triggers compensatory activation of the RAAS, sympathetic nervous system, and vasopressin release. These systems cause intense renal vasoconstriction to maintain systemic blood pressure, critically reducing renal blood flow and GFR. The kidneys themselves are structurally normal — the renal failure is purely functional (kidneys from HRS patients function normally when transplanted into non-cirrhotic recipients). SBP and other infections worsen this by further releasing inflammatory cytokines that compound the vasodilation.",
+    "treatment_overview": "Treatment: (1) Discontinue diuretics and nephrotoxins immediately; (2) Volume expansion with IV albumin (1 g/kg on day 1, then 20-40 g/day); (3) Vasoconstrictor therapy — terlipressin (preferred where available; FDA-approved) or norepinephrine + albumin, or midodrine + octreotide + albumin (less effective but commonly used); (4) Goal is MAP increase by ≥15 mmHg; (5) TIPS may be considered in select patients; (6) Liver transplantation is the only definitive treatment — all HRS patients should be evaluated for transplant urgency; (7) RRT (dialysis) as a bridge to transplant if needed, but dialysis alone does not improve survival without transplant. SBP prophylaxis with albumin (1.5 g/kg at diagnosis, 1 g/kg on day 3) can PREVENT HRS in patients with SBP.",
+    "high_yield_pearls": [
+      "HRS is a diagnosis of exclusion — must rule out ATN (granular casts), obstruction, GN, and hypovolemia before diagnosing HRS",
+      "Urine sodium <10 mEq/L with bland sediment in a cirrhotic with AKI strongly suggests HRS (ATN would have urine Na >30 and muddy brown casts)",
+      "SBP is the most common precipitant of HRS — albumin infusion during SBP treatment (1.5 g/kg day 1, 1 g/kg day 3) significantly reduces HRS incidence",
+      "The kidneys in HRS are structurally normal — renal failure is purely functional from renal vasoconstriction, and kidneys can be transplanted into other patients successfully"
+    ],
+    "sources": ["UpToDate: Hepatorenal syndrome", "ICA Revised Criteria for Diagnosis and Management of HRS-AKI 2023"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Hepatorenal syndrome (HRS-AKI)", "Prerenal AKI from over-diuresis", "Acute tubular necrosis (from sepsis or nephrotoxins)", "Spontaneous bacterial peritonitis with septic AKI", "Obstructive uropathy", "IgA nephropathy (associated with liver disease)", "Contrast-induced nephropathy"],
+    "after_stage2_more_likely": ["Hepatorenal syndrome (advanced cirrhosis with recent SBP, oliguria, hypotension, bland urinalysis, normal renal ultrasound)"],
+    "after_stage2_less_likely": ["Obstructive uropathy (no hydronephrosis on ultrasound)", "Active SBP (PMN <250 on paracentesis, completed antibiotics)"],
+    "after_labs_top3": ["Hepatorenal syndrome (HRS-AKI)", "Prerenal AKI from inadequate effective arterial volume", "Acute tubular necrosis"]
+  }
+}

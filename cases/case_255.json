@@ -1,0 +1,116 @@
+{
+  "case_id": "case_255",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Obstructive sleep apnea",
+  "icd_category": "G47.33 — Obstructive sleep apnea",
+  "one_liner": "A 50-year-old obese man presents with excessive daytime sleepiness, loud snoring, witnessed apneic episodes, and morning headaches, with an Epworth Sleepiness Scale score of 16.",
+  "stage2": {
+    "hpi_extension": "The patient presents at his wife's insistence due to loud snoring and witnessed apneic episodes during sleep. His wife reports that he snores loudly every night and periodically stops breathing for 10-20 seconds before gasping and resuming breathing. She estimates these episodes occur 'at least 20-30 times per night' and have worsened over the past 2 years as he has gained weight. The patient reports excessive daytime sleepiness — he has fallen asleep during meetings at work, while watching TV, and while waiting at a stoplight. He is drowsy within 15 minutes of sitting down to read. He wakes unrefreshed despite 7-8 hours in bed. He reports morning headaches that resolve within 1-2 hours of waking. He has nocturia 2-3 times per night. He denies chest pain, leg edema, or orthopnea. He has gained 25 pounds over the past 3 years. His Epworth Sleepiness Scale score is 16/24 (abnormal >10). He scores positive on STOP-BANG: 7/8 (Snoring, Tiredness, Observed apneas, Pressure [hypertension], BMI >35, Age >50, Neck >17 inches, Gender male).",
+    "pmh": "Hypertension (on 2 medications, poorly controlled). Type 2 diabetes mellitus. Obesity. GERD. No prior sleep study.",
+    "surgical_history": "None",
+    "medications": "Lisinopril 40 mg daily, amlodipine 10 mg daily, metformin 1000 mg BID, omeprazole 20 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with sleep apnea (diagnosed age 55, uses CPAP). Mother with hypertension. Brother obese with type 2 diabetes.",
+    "social_history": "Works as an accountant (sedentary desk job). Married with three children. Non-smoker. Drinks 1-2 beers on weekends. No illicit drug use. Sedentary lifestyle. Has a commercial driver's license (CDL) for recreational vehicle.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "78 bpm",
+      "bp": "152/94 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "94% on room air (awake, seated)",
+      "weight_bmi": "265 lbs, BMI 38.1 kg/m²"
+    },
+    "physical_exam": "General: Obese man, appears fatigued. HEENT: Mallampati class IV (only hard palate visible, uvula not visible). Macroglossia. Enlarged tonsils (3+ bilaterally). Retrognathia (recessed jaw). Nasal passages patent. Neck: Circumference 18.5 inches (elevated, >17 indicates increased risk). No lymphadenopathy. No thyromegaly. Cardiovascular: Regular rate and rhythm, loud S2 (suggesting pulmonary hypertension), no murmurs, no S3. Lungs: Clear to auscultation, no wheezing. Abdomen: Obese, soft, non-tender. Central/truncal obesity. Extremities: Trace bilateral pedal edema. No clubbing or cyanosis. Neurological: Grossly intact, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 7.2, Hgb 17.2, Hct 52.1, Plt 225", "flag": "ABNORMAL", "clinical_significance": "Polycythemia (elevated Hgb/Hct) — secondary to chronic intermittent hypoxemia during sleep, stimulating erythropoietin production"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 98, CO2 28, BUN 18, Cr 1.1, Glucose 142, Ca 9.4, AST 32, ALT 38, Alk Phos 78, Albumin 3.8", "flag": "ABNORMAL", "clinical_significance": "Elevated CO2 (chronic respiratory compensation), elevated glucose (poor diabetic control worsened by OSA), mildly elevated transaminases (NAFLD likely)"},
+      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes — OSA contributes to insulin resistance and worsens glycemic control"},
+      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can contribute to OSA and should be ruled out"},
+      {"test_name": "Lipid panel", "result": "Total cholesterol 235, LDL 148, HDL 36, Triglycerides 255", "flag": "ABNORMAL", "clinical_significance": "Atherogenic dyslipidemia associated with metabolic syndrome and OSA"},
+      {"test_name": "BNP (B-type Natriuretic Peptide)", "result": "180 pg/mL", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated BNP suggesting cardiac strain; OSA causes pulmonary hypertension and right heart strain"},
+      {"test_name": "ABG (Arterial Blood Gas)", "result": "pH 7.38, pCO2 48, pO2 72, HCO3 28", "flag": "ABNORMAL", "clinical_significance": "Compensated respiratory acidosis with mild hypoxemia and CO2 retention — suggesting obesity hypoventilation syndrome component"},
+      {"test_name": "Fasting insulin", "result": "28 mcIU/mL", "flag": "HIGH", "clinical_significance": "Hyperinsulinemia confirming significant insulin resistance, worsened by OSA-induced sympathetic activation"},
+      {"test_name": "Urinalysis", "result": "No proteinuria, no glucosuria", "flag": "WNL", "clinical_significance": "No evidence of diabetic nephropathy despite poorly controlled diabetes"}
+    ],
+    "imaging_results": [
+      {"test_name": "Polysomnography (in-lab overnight sleep study)", "result": "Total sleep time 6.2 hours. AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA; >30 = severe). Nadir SpO2: 68%. Time with SpO2 <90%: 32% of total sleep time. Predominantly obstructive events. Oxygen desaturation index: 38. Arousal index: 45/hour. Sleep efficiency: 72%. REM-related worsening (AHI in REM: 62). No significant central apneas.", "flag": "ABNORMAL", "clinical_significance": "Severe obstructive sleep apnea with significant oxygen desaturations — AHI >30 confirms severe OSA; nadir SpO2 of 68% is severely abnormal"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Right axis deviation. No ST-T changes.", "flag": "ABNORMAL", "clinical_significance": "LVH from chronic hypertension. Right axis deviation may suggest early right heart strain from pulmonary hypertension secondary to OSA"},
+      {"test_name": "Echocardiogram", "result": "Mild LVH. LVEF 55%. Mildly elevated pulmonary artery systolic pressure (38 mmHg). Mild right ventricular dilation. No valvular disease.", "flag": "ABNORMAL", "clinical_significance": "Mildly elevated pulmonary pressures and RV dilation consistent with OSA-induced pulmonary hypertension; LVEF preserved"}
+    ],
+    "key_tests": [
+      "Polysomnography — AHI 42 events/hour confirming severe OSA with significant desaturations (nadir 68%)",
+      "Epworth Sleepiness Scale — 16/24 confirming pathologic daytime somnolence",
+      "STOP-BANG score — 7/8 (high risk for OSA)",
+      "CBC — secondary polycythemia from chronic intermittent hypoxemia",
+      "ABG — compensated respiratory acidosis with hypoxemia suggesting concurrent OHS"
+    ],
+    "acceptable_tests": [
+      "TSH — ruling out hypothyroidism as contributing factor",
+      "HbA1c — assessing diabetic control (worsened by OSA)",
+      "Lipid panel — cardiovascular risk assessment",
+      "BNP — assessing cardiac strain",
+      "ECG — screening for arrhythmia and ventricular hypertrophy",
+      "Echocardiogram — evaluating for pulmonary hypertension and cardiac function",
+      "Fasting insulin — assessing insulin resistance"
+    ],
+    "low_yield_tests": [
+      "Chest X-ray (echocardiogram is more informative for cardiac assessment)",
+      "Brain MRI (excessive sleepiness is explained by OSA)",
+      "Cephalometric X-rays (clinical anatomy assessment is sufficient)",
+      "Drug-induced sleep endoscopy (reserved for surgical planning, not diagnosis)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has severe obstructive sleep apnea confirmed by polysomnography (AHI 42, nadir SpO2 68%) with classic symptoms: excessive daytime somnolence (Epworth 16), loud snoring, witnessed apneas, morning headaches, and nocturia. Multiple comorbidities are either caused or worsened by OSA: refractory hypertension, poorly controlled diabetes, polycythemia, dyslipidemia, and early pulmonary hypertension. Anatomic risk factors include obesity (BMI 38), Mallampati class IV, macroglossia, enlarged tonsils, retrognathia, and neck circumference 18.5 inches."
+  },
+  "debrief": {
+    "classic_presentation": "An obese, middle-aged man presenting with the classic triad: (1) excessive daytime sleepiness, (2) loud habitual snoring, and (3) witnessed apneic episodes. Additional features include morning headaches (from nocturnal hypercapnia), nocturia (from increased atrial natriuretic peptide), unrefreshed sleep, and concentration/memory difficulties. Risk factors include male sex, obesity (especially neck circumference >17 inches in men), anatomic airway crowding (Mallampati III-IV, macroglossia, retrognathia, tonsillar hypertrophy), and age >50.",
+    "attending_mode_notes": "The key clinical challenges in OSA management are: (1) Diagnosing the cardiovascular consequences — OSA is an independent risk factor for hypertension (the most common secondary cause of resistant hypertension), atrial fibrillation, heart failure, stroke, and sudden cardiac death. A 'non-dipping' pattern on ambulatory BP monitoring is characteristic. (2) CPAP adherence — the major barrier to treatment. Objective adherence (defined as >4 hours/night for >70% of nights) is achieved by only 40-60% of patients. Early intervention with education, heated humidification, mask fitting, and follow-up within the first 2 weeks is critical. (3) This patient has features of overlap with obesity hypoventilation syndrome (OHS) — ABG showing chronic respiratory acidosis with HCO3 of 28 and awake hypoxemia (SpO2 94%). If OHS is confirmed, bilevel PAP (BiPAP) rather than CPAP may be needed. (4) CDL/driving safety — this patient has a CDL and is falling asleep at stoplights. Federal motor carrier regulations require treatment of OSA before driving commercially; document counseling about driving risk. (5) The relationship between OSA and metabolic syndrome is bidirectional — OSA worsens insulin resistance through intermittent hypoxemia-induced sympathetic activation, and treating OSA can modestly improve HbA1c and blood pressure.",
+    "pathophysiology": "During sleep, pharyngeal dilator muscle tone (primarily genioglossus) decreases. In patients with anatomic narrowing of the upper airway (obesity, macroglossia, enlarged tonsils, retrognathia), this leads to partial (hypopnea) or complete (apnea) airway collapse. Each event causes oxygen desaturation and arousal, fragmenting sleep. The cyclic intermittent hypoxia activates the sympathetic nervous system (catecholamine surges), generates oxidative stress (reactive oxygen species), promotes systemic inflammation (elevated CRP, IL-6, TNF-alpha), causes endothelial dysfunction, and increases insulin resistance. These pathways explain the cardiovascular and metabolic consequences. Negative intrathoracic pressure swings during obstructed breathing increase cardiac afterload and atrial stretch (causing ANP release and nocturia). Chronic hypoxemia stimulates erythropoietin production (polycythemia) and pulmonary vasoconstriction (pulmonary hypertension).",
+    "treatment_overview": "CPAP (Continuous Positive Airway Pressure) is first-line for moderate-severe OSA. Auto-titrating CPAP (APAP) with pressure range 4-20 cm H2O is commonly prescribed, with in-lab titration for complex cases. Target >4 hours/night use for >70% of nights. Address adherence: proper mask fitting, heated humidification, early follow-up. Weight loss: a 10% weight reduction can decrease AHI by 26%. Bariatric surgery consideration given BMI 38 with multiple comorbidities. Positional therapy: lateral sleep position if supine-predominant. Oral appliances (mandibular advancement devices): alternative for mild-moderate OSA or CPAP intolerance. Surgery (UPPP, maxillomandibular advancement): reserved for CPAP failure with identifiable anatomic obstruction. Manage comorbidities: reoptimize hypertension (OSA treatment may improve BP), optimize diabetes management. Avoid sedatives, alcohol before bedtime, and supine sleeping.",
+    "high_yield_pearls": [
+      "OSA is the most common cause of secondary/resistant hypertension — always consider OSA in patients on 3+ antihypertensives with poor control.",
+      "AHI severity classification: 5-14 = mild, 15-29 = moderate, >30 = severe. Treatment is recommended for AHI >15 or AHI 5-14 with symptoms or cardiovascular comorbidities.",
+      "Neck circumference >17 inches in men (>16 inches in women) is a stronger predictor of OSA than BMI alone.",
+      "CPAP adherence (>4 hours/night, >70% of nights) is the critical determinant of treatment benefit — early follow-up within 1-2 weeks improves adherence rates.",
+      "Secondary polycythemia (elevated Hgb/Hct) in an obese patient should prompt OSA evaluation — chronic intermittent hypoxemia drives erythropoietin-mediated erythrocytosis.",
+      "Falling asleep while driving is a medical emergency indication for OSA treatment — document counseling and driving restrictions until treated."
+    ],
+    "sources": [
+      "AASM Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea in Adults (J Clin Sleep Med, 2019)",
+      "Patil SP et al. Treatment of Adult Obstructive Sleep Apnea with Positive Airway Pressure: AASM Systematic Review and Meta-Analysis. J Clin Sleep Med, 2019",
+      "Benjafield AV et al. Estimation of the global prevalence and burden of obstructive sleep apnoea. Lancet Respir Med, 2019",
+      "Kapur VK et al. Clinical Practice Guideline for Diagnostic Testing for Adult OSA: AASM. J Clin Sleep Med, 2017",
+      "Drager LF et al. Obstructive sleep apnea and cardiovascular disease. Chest, 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Obstructive sleep apnea",
+      "Obesity hypoventilation syndrome",
+      "Central sleep apnea",
+      "Narcolepsy",
+      "Hypothyroidism",
+      "Depression with hypersomnia",
+      "Medication-related sedation",
+      "Chronic sleep deprivation"
+    ],
+    "after_stage2_more_likely": [
+      "Obstructive sleep apnea — classic triad (snoring, witnessed apneas, daytime sleepiness), obesity, Mallampati IV, macroglossia, large neck, STOP-BANG 7/8, resistant hypertension",
+      "Obesity hypoventilation syndrome — awake SpO2 94%, may coexist with OSA"
+    ],
+    "after_stage2_less_likely": [
+      "Narcolepsy — no cataplexy, hypnagogic hallucinations, or sleep paralysis; snoring/apneas not typical of narcolepsy",
+      "Depression — no depressed mood, anhedonia, or other depressive symptoms reported",
+      "Hypothyroidism — no cold intolerance, constipation, or thyromegaly"
+    ],
+    "after_labs_top3": [
+      "Severe obstructive sleep apnea — AHI 42 on polysomnography with significant desaturations, polycythemia, and multiple OSA-related comorbidities",
+      "Obesity hypoventilation syndrome (comorbid) — ABG showing chronic respiratory acidosis (pCO2 48, HCO3 28) and awake hypoxemia (SpO2 94%) suggest OHS component",
+      "Metabolic syndrome with OSA — diabetes, hypertension, dyslipidemia, and central obesity all worsened by untreated OSA"
+    ]
+  }
+}

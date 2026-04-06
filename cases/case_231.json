@@ -1,0 +1,119 @@
+{
+  "case_id": "case_231",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Schizoaffective Disorder, bipolar type",
+  "icd_category": "F25.0 — Schizoaffective disorder, bipolar type",
+  "one_liner": "A 33-year-old woman with prior psychiatric hospitalizations presents with 2 weeks of persecutory delusions, auditory hallucinations, and grandiose mood occurring concurrently with a manic episode.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the ED by police after she was found walking on the highway in her nightgown at 3 AM, shouting that she was 'the chosen one sent to save humanity.' Her mother reports a complex psychiatric history over the past 8 years. The patient has had multiple episodes of mania (elevated mood, decreased sleep, grandiosity, impulsive spending) accompanied by psychotic symptoms (auditory hallucinations, paranoid delusions). Critically, her mother reports a 3-month period 2 years ago when the patient had persistent auditory hallucinations and paranoid delusions (believed the CIA was monitoring her) WITHOUT any mood symptoms — she was neither manic nor depressed during this time. Currently, she has slept only 2 hours per night for the past 5 days, is speaking rapidly, and believes she can communicate with angels who give her special missions. She hears an angel's voice giving her instructions. She also believes her neighbors are government agents. She has grandiose ideas about saving the world. She has spent $8,000 online in the past week. She denies depressive symptoms. No recent substance use per collateral.",
+    "pmh": "Three prior psychiatric hospitalizations (ages 25, 28, 31). Previously diagnosed with 'Bipolar I with psychotic features' but treatment with mood stabilizers alone has been insufficient — psychotic symptoms persist between mood episodes. History of medication non-compliance.",
+    "surgical_history": "None",
+    "medications": "Prescribed lithium 900 mg daily and olanzapine 10 mg nightly — but has been non-compliant for the past 3 weeks",
+    "allergies": "Haloperidol (dystonic reaction)",
+    "family_history": "Mother with bipolar I disorder. Paternal aunt with schizophrenia. Brother with schizoaffective disorder. Father with alcohol use disorder.",
+    "social_history": "Unemployed (unable to maintain employment due to illness). Lives with mother. Receives disability benefits. Single, no children. Non-smoker. Occasional marijuana use ('to calm down'), last use 1 month ago per mother. Denies other substances. High school graduate, completed one semester of community college before first hospitalization.",
+    "vitals": {
+      "temp": "99.0°F (37.2°C)",
+      "hr": "108 bpm",
+      "bp": "146/90 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "198 lbs, BMI 31.2 kg/m² (weight gain from prior olanzapine use)"
+    },
+    "physical_exam": "General: Obese woman in a hospital gown (nightgown was removed), hyperactive, pacing the room, talking continuously. HEENT: Normocephalic, atraumatic. Pupils equal and reactive. No nystagmus. Neck: No thyromegaly. Cardiovascular: Tachycardic, regular rhythm. Lungs: Clear bilaterally. Abdomen: Obese, soft, non-tender. Extremities: No edema. Neurological: Grossly intact cranial nerves, no focal deficits, no EPS (no tremor, rigidity, or akathisia). Mental Status Exam: Appearance — disheveled, wearing hospital gown, overweight. Behavior — hyperactive, pacing, overly familiar, invading personal space, poor boundaries. Speech — pressured, rapid, loud, difficult to interrupt. Mood — 'blessed, I have a divine mission.' Affect — euphoric, expansive, labile (irritable when challenged). Thought process — flight of ideas, looseness of associations, tangential. Thought content — grandiose delusions (chosen by God to save humanity), persecutory delusions (neighbors are government agents, CIA monitoring), no SI/HI. Perception — auditory hallucinations (angel's voice giving commands), no visual hallucinations. Cognition — oriented to person only, disoriented to time and place. Attention impaired. Insight — absent. Judgment — severely impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Lithium level", "result": "0.1 mEq/L (subtherapeutic, target 0.6-1.2)", "flag": "LOW", "clinical_significance": "Confirms medication non-compliance — essentially absent lithium level explains mood destabilization"},
+      {"test_name": "Urine drug screen", "result": "Negative (including THC)", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychosis and mania"},
+      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction (also important to monitor with lithium use)"},
+      {"test_name": "CBC", "result": "WBC 8.2, Hgb 13.0, Hct 39.4, Plt 260", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality"},
+      {"test_name": "CMP", "result": "Na 138, K 3.9, Cl 101, CO2 24, BUN 18, Cr 1.1, Glucose 118 (elevated), Ca 9.6, AST 28, ALT 32", "flag": "ABNORMAL", "clinical_significance": "Mildly elevated glucose likely related to metabolic effects of olanzapine; creatinine at upper normal (monitor with lithium)"},
+      {"test_name": "Fasting glucose", "result": "118 mg/dL (impaired fasting glucose)", "flag": "HIGH", "clinical_significance": "Pre-diabetic range, likely metabolic side effect of olanzapine"},
+      {"test_name": "HbA1c", "result": "6.0% (pre-diabetic range)", "flag": "HIGH", "clinical_significance": "Confirms pre-diabetic state from atypical antipsychotic use — requires metabolic monitoring"},
+      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 232, LDL 148, HDL 38, Triglycerides 228", "flag": "HIGH", "clinical_significance": "Dyslipidemia consistent with metabolic syndrome from olanzapine — elevated triglycerides and low HDL"},
+      {"test_name": "Prolactin", "result": "18 ng/mL (mildly elevated)", "flag": "HIGH", "clinical_significance": "Mildly elevated prolactin, may be residual effect of prior antipsychotic use"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis"},
+      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "Not intoxicated"},
+      {"test_name": "BUN/Creatinine ratio", "result": "BUN 18, Cr 1.1 (ratio 16:1)", "flag": "WNL", "clinical_significance": "Baseline renal function important for lithium dosing — at upper normal range"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass or hemorrhage.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. QTc 440 ms. No conduction abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia from manic hyperarousal. QTc slightly prolonged — important to monitor with antipsychotic use"}
+    ],
+    "key_tests": [
+      "Lithium level — confirms non-compliance (subtherapeutic at 0.1 mEq/L)",
+      "Urine drug screen — rules out substance-induced psychosis/mania",
+      "Detailed longitudinal psychiatric history with collateral — KEY: establishing periods of psychosis WITHOUT mood episodes distinguishes schizoaffective from bipolar I with psychotic features",
+      "TSH — thyroid monitoring essential with lithium use",
+      "Metabolic panel with glucose, HbA1c, lipids — monitoring for metabolic syndrome from atypical antipsychotics"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CMP with renal function (lithium monitoring)",
+      "RPR/VDRL",
+      "Prolactin level",
+      "ECG (QTc monitoring)",
+      "CT Head",
+      "Blood alcohol level",
+      "Fasting lipid panel"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (CT adequate, no focal deficits)",
+      "EEG (no seizure-like activity)",
+      "Lumbar puncture (no meningeal signs)",
+      "Anti-NMDA receptor antibody (chronic relapsing course better explained by primary psychiatric illness)",
+      "Ceruloplasmin (age >30, previous workup negative)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The critical diagnostic distinction: this patient has concurrent manic AND psychotic symptoms NOW, but her mother reports a documented 3-month period of psychotic symptoms (hallucinations and delusions) WITHOUT any mood episode. DSM-5 requires that for schizoaffective disorder, delusions or hallucinations must be present for ≥2 weeks in the ABSENCE of a major mood episode during the lifetime duration of the illness. This distinguishes schizoaffective from Bipolar I with psychotic features (where psychosis occurs ONLY during mood episodes). Her lithium level of 0.1 confirms non-compliance as the precipitant for the current exacerbation."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with a chronic psychotic disorder who also has prominent mood episodes (manic and/or depressive). The hallmark distinguishing feature is psychotic symptoms that persist for at least 2 weeks in the ABSENCE of a concurrent mood episode at some point during the illness. When mood episodes are present, psychotic symptoms are also present, but psychotic symptoms extend beyond the mood episodes.",
+    "attending_mode_notes": "The key diagnostic challenge is distinguishing schizoaffective disorder from (1) Bipolar I with psychotic features — where psychosis occurs ONLY during mood episodes and resolves completely when mood normalizes, and (2) Schizophrenia — where mood symptoms are brief or absent relative to the total duration of psychotic illness. Schizoaffective requires: (A) uninterrupted period with major mood episode concurrent with Criterion A schizophrenia symptoms, (B) delusions/hallucinations for ≥2 weeks WITHOUT a mood episode during the illness, and (C) mood episode symptoms present for the MAJORITY of the total illness duration. Longitudinal collateral history is essential — a single cross-sectional evaluation cannot distinguish these diagnoses.",
+    "pathophysiology": "Schizoaffective disorder likely represents a position on the spectrum between schizophrenia and bipolar disorder, sharing genetic and neurobiological features of both. Dopaminergic dysregulation is present in both mesolimbic (psychosis) and prefrontal (negative symptoms, cognitive deficits) pathways. Mood circuit dysregulation involves serotonergic, noradrenergic, and glutamatergic systems. Shared genetic risk loci with both schizophrenia and bipolar disorder support the spectrum model. The Kraepelinian dichotomy (strict separation of schizophrenia from mood disorders) is increasingly questioned.",
+    "treatment_overview": "Treatment requires addressing both psychotic and mood components simultaneously. Antipsychotics are the cornerstone (second-generation preferred: olanzapine, quetiapine, aripiprazole, paliperidone). For bipolar type: add mood stabilizer (lithium or valproate) to the antipsychotic. Paliperidone palmitate (long-acting injectable) is FDA-approved specifically for schizoaffective disorder. Clozapine for refractory cases. Avoid antidepressant monotherapy in bipolar type (risk of mania). Address medication non-compliance aggressively — long-acting injectables are strongly preferred. Psychosocial interventions: psychoeducation, social skills training, supported employment, family therapy. Metabolic monitoring is essential with atypical antipsychotics.",
+    "high_yield_pearls": [
+      "The pathognomonic feature of schizoaffective disorder: psychotic symptoms (delusions/hallucinations) present for ≥2 weeks WITHOUT a concurrent major mood episode at some point during the illness. This is the single most important criterion for distinguishing it from Bipolar I with psychotic features.",
+      "Schizoaffective disorder also requires that mood episodes be present for the MAJORITY of the total illness duration — this distinguishes it from schizophrenia with brief mood episodes.",
+      "Longitudinal history with collateral informants is far more valuable than cross-sectional evaluation for this diagnosis. Single-visit diagnosis is unreliable.",
+      "Prognosis is intermediate between schizophrenia (worse) and bipolar disorder (better). Bipolar type has better prognosis than depressive type.",
+      "Long-acting injectable antipsychotics (paliperidone palmitate, aripiprazole lauroxil) dramatically improve adherence and reduce relapse rates in schizoaffective disorder."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Schizophrenia (2020)",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Malaspina D et al. — Schizoaffective disorder in DSM-5. Schizophr Res 2013",
+      "Canuso CM et al. — Paliperidone for schizoaffective disorder. JAMA Psychiatry 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Schizoaffective disorder (bipolar type)",
+      "Bipolar I disorder with psychotic features",
+      "Schizophrenia with comorbid mood symptoms",
+      "Substance-induced psychotic disorder",
+      "Brief psychotic disorder",
+      "Schizophreniform disorder",
+      "Psychotic disorder due to another medical condition",
+      "Delusional disorder"
+    ],
+    "after_stage2_more_likely": [
+      "Schizoaffective disorder, bipolar type — concurrent manic and psychotic symptoms WITH reported history of psychosis in the absence of mood episodes",
+      "Bipolar I with psychotic features — current presentation is consistent, but history of psychosis without mood episode argues against this"
+    ],
+    "after_stage2_less_likely": [
+      "Substance-induced psychosis — mother denies recent substance use, no substance use history aside from occasional marijuana",
+      "Brief psychotic disorder — chronic relapsing course over 8 years",
+      "Schizophrenia — prominent, sustained mood episodes present for majority of illness"
+    ],
+    "after_labs_top3": [
+      "Schizoaffective disorder, bipolar type — negative drug screen, subtherapeutic lithium confirming non-compliance as trigger, documented history of psychosis without mood episode",
+      "Bipolar I with psychotic features — remains a consideration but collateral history of 3 months psychosis without mood symptoms is the key differentiator",
+      "Schizophrenia — less likely as mood episodes are prominent and present for the majority of the illness duration"
+    ]
+  }
+}

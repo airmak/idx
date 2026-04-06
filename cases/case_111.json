@@ -1,0 +1,76 @@
+{
+  "case_id": "case_111",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Meningitis (bacterial)",
+  "icd_category": "G00.9 — Bacterial meningitis, unspecified",
+  "one_liner": "A 20-year-old college student presents with severe headache, high fever, neck stiffness, photophobia, and a petechial rash on his trunk and lower extremities developing over 12 hours.",
+  "stage2": {
+    "hpi_extension": "The patient was in his usual state of health until last evening, when he developed a diffuse headache while studying. Over the next several hours, the headache became severe (10/10), and he developed high fever with chills, nausea, vomiting (3 episodes), and sensitivity to light. His roommate noticed he was confused and difficult to arouse this morning and called EMS. In the ambulance, a petechial rash was noted on his trunk and lower extremities. He lives in a college dormitory and several students in his hall have had upper respiratory infections recently. He received the meningococcal conjugate vaccine (MenACWY) at age 16 but did not receive the serogroup B meningococcal vaccine (MenB). No recent travel, no sick contacts with confirmed meningitis.",
+    "pmh": "None.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "College sophomore living in a dormitory. Social alcohol (binge drinking on weekends). Non-smoker. Sexually active with one partner. No illicit drug use. Up to date on routine vaccinations except MenB.",
+    "vitals": {
+      "temp": "103.4 F (39.7 C)",
+      "hr": "118 bpm",
+      "bp": "98/58 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "72 kg, BMI 22.5"
+    },
+    "physical_exam": "General: Acutely ill, febrile, diaphoretic young man, lying on his side with eyes closed, moaning. HEENT: Photophobia — winces and turns away from penlight. No papilledema on fundoscopy (limited exam due to patient discomfort). Neck: Severe nuchal rigidity. Positive Kernig sign (resistance and pain on knee extension with hip flexed). Positive Brudzinski sign (involuntary hip/knee flexion on passive neck flexion). Skin: Scattered petechiae and purpura on trunk, lower extremities, and axillae; some are non-blanching and up to 1 cm. No bullae. Neuro: GCS 12 (E3 V4 M5). Confused, oriented to person only. Follows simple commands intermittently. No focal neurological deficits. DTRs 2+ symmetric. Plantars equivocal bilaterally. Cardiovascular: Tachycardic, regular rhythm. Capillary refill 3 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "22,400/uL with 88% neutrophils, 6% bands", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift indicates severe bacterial infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Platelets", "result": "98,000/uL", "flag": "LOW", "clinical_significance": "Thrombocytopenia may indicate early DIC, consistent with meningococcemia"},
+      {"test_name": "BMP — Sodium", "result": "131 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia possibly from SIADH, which complicates bacterial meningitis in up to 30% of cases"},
+      {"test_name": "BMP — Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mild elevation suggesting prerenal azotemia from sepsis-related hypotension"},
+      {"test_name": "CRP", "result": "18.6 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated; supports severe bacterial infection"},
+      {"test_name": "Procalcitonin", "result": "12.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; highly suggestive of bacterial (vs. viral) infection. Procalcitonin >0.5 ng/mL has high sensitivity for bacterial meningitis."},
+      {"test_name": "Lactate", "result": "3.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated serum lactate indicates tissue hypoperfusion consistent with sepsis"},
+      {"test_name": "PT/INR", "result": "14.8 sec / INR 1.3", "flag": "HIGH", "clinical_significance": "Mildly prolonged; early coagulopathy raises concern for DIC"},
+      {"test_name": "CSF — Opening pressure", "result": "32 cmH2O (elevated)", "flag": "HIGH", "clinical_significance": "Elevated opening pressure consistent with bacterial meningitis (normal <20 cmH2O)"},
+      {"test_name": "CSF — WBC/Protein/Glucose", "result": "2,400 WBCs/uL (92% neutrophils), protein 280 mg/dL, glucose 18 mg/dL (serum glucose 128)", "flag": "ABNORMAL", "clinical_significance": "Neutrophilic pleocytosis, markedly elevated protein, and very low glucose (CSF:serum ratio <0.4) — classic CSF profile for bacterial meningitis"},
+      {"test_name": "CSF — Gram stain and culture", "result": "Gram-negative diplococci seen on Gram stain. Culture: Neisseria meningitidis serogroup B (pending 24h)", "flag": "ABNORMAL", "clinical_significance": "Gram-negative diplococci confirm Neisseria meningitidis. Serogroup B is not covered by the MenACWY vaccine the patient received."}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "No mass effect, midline shift, or hydrocephalus. No hemorrhage. Normal ventricles.", "flag": "WNL", "clinical_significance": "CT performed before LP to rule out mass lesion/elevated ICP that would contraindicate LP. In this case, normal CT allows safe LP. Note: empiric antibiotics should NEVER be delayed for CT."}
+    ],
+    "key_tests": ["Lumbar puncture with CSF analysis (cell count, differential, protein, glucose, Gram stain, culture)", "Blood cultures (before antibiotics if possible, but do NOT delay treatment)", "CT head before LP (only if clinical concern for mass lesion/herniation)", "Procalcitonin (differentiates bacterial vs. viral meningitis)", "CSF multiplex PCR panel (rapid pathogen identification)"],
+    "acceptable_tests": ["CBC with differential", "BMP", "CRP", "Lactate", "Coagulation studies (PT/INR, fibrinogen, D-dimer for DIC workup)", "CSF latex agglutination or multiplex PCR", "Blood gas"],
+    "low_yield_tests": ["EEG (unless seizures suspected)", "MRI brain (not needed acutely)", "Carotid ultrasound", "ANA", "Serum protein electrophoresis"],
+    "low_yield_tests_note": "Do NOT delay antibiotics for any test — empiric therapy must be given immediately if bacterial meningitis is suspected."
+  },
+  "stage5": {
+    "final_clue": "CSF culture grows Neisseria meningitidis serogroup B at 18 hours. The patient receives empiric IV ceftriaxone 2 g every 12 hours and IV vancomycin (started empirically on arrival, discontinued once meningococcus confirmed and susceptible to ceftriaxone). IV dexamethasone 0.15 mg/kg every 6 hours was administered 15 minutes before the first antibiotic dose and continued for 4 days. He requires aggressive IV fluid resuscitation for sepsis and is monitored in the ICU for 48 hours. Close contacts (roommate, girlfriend) receive chemoprophylaxis with ciprofloxacin 500 mg x1 or rifampin. The local health department is notified. The patient recovers over 10 days with mild high-frequency hearing loss detected on audiometry."
+  },
+  "debrief": {
+    "classic_presentation": "Young adult (college dormitory resident) with acute onset of severe headache, high fever, nuchal rigidity, photophobia, and altered mental status developing over hours. Petechial/purpuric rash (meningococcemia) with hemodynamic instability. Kernig and Brudzinski signs positive. CSF shows neutrophilic pleocytosis, elevated protein, low glucose, and Gram-negative diplococci.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Neisseria meningitidis colonizes the nasopharynx and invades the bloodstream (meningococcemia), disseminating to the meninges. The polysaccharide capsule (serogroups A, B, C, W, Y) evades complement-mediated killing. Bacterial components (lipooligosaccharide/endotoxin) trigger an intense inflammatory cascade in the subarachnoid space: neutrophil recruitment, cytokine release (TNF-alpha, IL-1), increased BBB permeability, cerebral edema, and elevated ICP. The petechial/purpuric rash reflects endothelial damage and DIC from endotoxin-mediated sepsis. Purpura fulminans (widespread purpura with skin necrosis) represents severe DIC with microvascular thrombosis and can lead to Waterhouse-Friderichsen syndrome (bilateral adrenal hemorrhage and adrenal crisis).",
+    "treatment_overview": "IMMEDIATE empiric antibiotics (do NOT delay for any test): Ceftriaxone 2 g IV q12h (or cefotaxime) + vancomycin (until Listeria and resistant pneumococcus excluded). Add ampicillin if age >50, immunocompromised, or pregnant (for Listeria coverage). Dexamethasone 0.15 mg/kg IV q6h x 4 days — give BEFORE or WITH first antibiotic dose (proven mortality benefit for pneumococcal meningitis, recommended empirically for all suspected bacterial meningitis). Aggressive IV fluids and vasopressors for septic shock. Close contact chemoprophylaxis for meningococcal meningitis: ciprofloxacin 500 mg PO x1, or rifampin 600 mg PO q12h x 2 days, or ceftriaxone 250 mg IM x1. Report to public health. Post-recovery audiometry (hearing loss complicates 10-30% of bacterial meningitis).",
+    "high_yield_pearls": [
+      "NEVER delay antibiotics for CT or LP in suspected bacterial meningitis — draw blood cultures and start empiric ceftriaxone + vancomycin + dexamethasone immediately. Get LP when safe to do so.",
+      "Dexamethasone must be given BEFORE or WITH the first antibiotic dose to reduce mortality and hearing loss — giving it after antibiotics provides no benefit.",
+      "Petechial/purpuric rash + fever + meningismus = meningococcemia until proven otherwise. This combination should trigger immediate empiric treatment and isolation.",
+      "Indications for CT before LP: altered consciousness, focal neurological deficits, papilledema, seizures, immunocompromised state — but if CT is needed, give antibiotics FIRST, then CT, then LP.",
+      "Waterhouse-Friderichsen syndrome (bilateral adrenal hemorrhage) is a devastating complication of meningococcemia — presents with refractory shock, DIC, and purpura fulminans."
+    ],
+    "sources": [
+      "IDSA Clinical Practice Guidelines for Bacterial Meningitis, 2004 (with 2017 updates)",
+      "Van de Beek D, et al. Bacterial meningitis. Lancet. 2016",
+      "UpToDate: Bacterial meningitis in adults — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Bacterial meningitis", "Viral meningitis", "Subarachnoid hemorrhage", "Meningococcal septicemia without meningitis", "Viral encephalitis (HSV)", "Rocky Mountain spotted fever", "Endocarditis with septic emboli"],
+    "after_stage2_more_likely": ["Bacterial meningitis", "Meningococcal septicemia"],
+    "after_stage2_less_likely": ["Viral meningitis", "Subarachnoid hemorrhage"],
+    "after_labs_top3": ["Bacterial meningitis (Neisseria meningitidis)", "Meningococcal septicemia", "Viral meningitis"]
+  }
+}

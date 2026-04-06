@@ -1,0 +1,75 @@
+{
+  "case_id": "case_058",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Sigmoid Volvulus",
+  "icd_category": "K56.2 — Volvulus",
+  "one_liner": "A 78-year-old nursing home resident with a history of chronic constipation and psychiatric medications presents with massive abdominal distension, obstipation, and diffuse abdominal pain for 2 days.",
+  "stage2": {
+    "hpi_extension": "Patient is a nursing home resident brought in by ambulance for progressive abdominal distension and pain over the past 2 days. He has not had a bowel movement or passed flatus in 3 days. His caregivers report that he has been increasingly uncomfortable, groaning, and refusing meals. He has had two episodes of bilious vomiting today. He has a longstanding history of severe chronic constipation and has had two prior episodes of similar (but less severe) abdominal distension that resolved with enemas. His medical records indicate chronic psychotropic medication use. He is a poor historian due to baseline cognitive impairment, but when asked about pain, he points diffusely to his abdomen and appears distressed. His caregivers deny fever, bloody stools, or recent dietary changes.",
+    "pmh": "Chronic schizophrenia, chronic constipation, benign prostatic hyperplasia, Parkinson disease, dementia (moderate), type 2 diabetes mellitus",
+    "surgical_history": "None",
+    "medications": "Clozapine 200 mg daily, benztropine 1 mg BID, carbidopa-levodopa 25/100 TID, tamsulosin 0.4 mg daily, docusate 100 mg BID, metformin 500 mg BID",
+    "allergies": "No known drug allergies",
+    "family_history": "Unknown (patient is a poor historian, no family available)",
+    "social_history": "Long-term nursing home resident. Former smoker (quit >20 years ago). No alcohol currently. Bed-to-chair functional status. Requires assistance with activities of daily living.",
+    "vitals": {
+      "temp": "99.2 F (37.3 C)",
+      "hr": "98 bpm",
+      "bp": "108/64 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "68 kg, BMI 22.4"
+    },
+    "physical_exam": "General: Elderly, cachectic male in moderate distress, groaning intermittently. Appears chronically ill. HEENT: Dry mucous membranes. No scleral icterus. Neck: Supple. Cardiovascular: Regular rate and rhythm. Soft systolic murmur at aortic area. Pulmonary: Decreased breath sounds at both bases with poor inspiratory effort, likely secondary to abdominal distension compressing the diaphragm. Abdomen: Massively distended and tympanitic. Asymmetric distension with a prominent loop visible in the left lower quadrant and extending toward the right upper quadrant. Diffuse tenderness, worse in the left lower quadrant. No frank peritoneal signs (no rigidity, equivocal rebound). Bowel sounds are high-pitched and tinkling. No hernias. Rectal: Empty rectum. No masses. No blood. Sphincter tone mildly decreased. Extremities: Thin, mild bilateral ankle edema. Skin: Thin, no ecchymosis."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "12.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may indicate early bowel compromise or stress response"},
+      {"test_name": "CBC - Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
+      {"test_name": "BMP - BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, dehydration and poor oral intake"},
+      {"test_name": "BMP - Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from volume depletion"},
+      {"test_name": "BMP - Potassium", "result": "3.1 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and poor intake, can worsen ileus"},
+      {"test_name": "BMP - Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia, dilutional or from chronic illness"},
+      {"test_name": "Lactate", "result": "2.4 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, concerning for early bowel compromise but not yet indicating frank ischemia"},
+      {"test_name": "BMP - Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mildly low, consistent with early metabolic acidosis"},
+      {"test_name": "BMP - Glucose", "result": "186 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia in known diabetic"}
+    ],
+    "imaging_results": [
+      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Massively dilated loop of large bowel arising from the pelvis and extending to the right upper quadrant, with the apex reaching the diaphragm. Classic 'coffee bean' or 'bent inner tube' sign with the limbs of the loop pointing toward the left lower quadrant (pelvis). Loss of haustral markings in the dilated segment. Multiple air-fluid levels in the small bowel indicating proximal obstruction. No free air.", "flag": "ABNORMAL", "clinical_significance": "The 'coffee bean sign' with a massively dilated loop arising from the pelvis is pathognomonic for sigmoid volvulus. The absence of free air is reassuring against perforation."},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Massively dilated sigmoid colon with a 'whirl sign' at the base of the mesentery in the left lower quadrant, confirming torsion of the sigmoid mesentery. The sigmoid loop measures 14 cm in maximal diameter. Bowel wall appears thickened but enhancing, without pneumatosis or portal venous gas. Moderate small bowel dilation proximal to the obstruction. No perforation. No free fluid.", "flag": "ABNORMAL", "clinical_significance": "The 'whirl sign' on CT is diagnostic of volvulus and confirms the torsion point. Preserved bowel wall enhancement suggests viable bowel, supporting an initial attempt at endoscopic decompression."}
+    ],
+    "key_tests": ["Abdominal X-ray (supine and upright)", "CT abdomen/pelvis with IV contrast", "CBC with differential", "BMP (electrolytes)", "Serum lactate"],
+    "acceptable_tests": ["Blood type and screen", "Coagulation studies", "Hepatic function panel", "Blood cultures (if septic)", "Chest X-ray (rule out perforation/aspiration)"],
+    "low_yield_tests": ["Barium enema ('bird's beak' sign is classic but rarely needed with CT availability)", "Colonoscopy as primary diagnostic tool (it is therapeutic, not diagnostic first-line)", "MRI abdomen (delays care)", "Abdominal ultrasound (poor for volvulus evaluation)"],
+    "final_clue": "Abdominal X-ray demonstrates the pathognomonic 'coffee bean sign' of sigmoid volvulus. CT confirms a 'whirl sign' at the sigmoid mesenteric base with a massively dilated sigmoid loop. Bowel wall enhancement is preserved, suggesting viability. In this elderly, debilitated patient with chronic constipation and anticholinergic medication use, this is sigmoid volvulus requiring urgent decompression."
+  },
+  "stage5": {
+    "final_clue": "Abdominal X-ray demonstrates the pathognomonic 'coffee bean sign' of sigmoid volvulus. CT confirms a 'whirl sign' at the sigmoid mesenteric base with a massively dilated sigmoid loop. Bowel wall enhancement is preserved, suggesting viability. In this elderly, debilitated patient with chronic constipation and anticholinergic medication use, this is sigmoid volvulus requiring urgent decompression."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly, debilitated, institutionalized patient (nursing home, psychiatric facility) with chronic constipation presenting with massive abdominal distension, obstipation, and vomiting. The classic triad is abdominal pain, distension, and constipation. Risk factors include advanced age, chronic constipation, neuropsychiatric disease (Parkinson, schizophrenia, dementia), anticholinergic and psychotropic medications (clozapine is especially associated), a long redundant sigmoid colon (dolichosigmoid), and chronic laxative use. Sigmoid volvulus accounts for 60-75% of all colonic volvulus cases in Western countries.",
+    "attending_mode_notes": "Critical attending-level considerations for this case: (1) The decision between endoscopic decompression first versus emergent surgery depends on the viability of the bowel. If there are signs of peritonitis, perforation, or non-viable bowel (mucosal necrosis on endoscopy, hemodynamic instability, significantly elevated lactate, pneumatosis on CT), the patient goes directly to the operating room — do NOT attempt endoscopic decompression. (2) For sigmoid volvulus without gangrene: rigid or flexible sigmoidoscopy for detorsion and decompression is the initial treatment (success rate 70-90%). A rectal tube is left in place after decompression. (3) The recurrence rate after endoscopic decompression alone is 40-60%, so semi-elective sigmoid colectomy should be performed during the same admission after optimization (within 2-3 days). (4) If the patient is a poor surgical candidate (as in this case with multiple comorbidities), the risk-benefit discussion is nuanced — recurrent volvulus without resection carries significant mortality. A percutaneous endoscopic colostomy (PEC) has been described as an alternative for non-surgical candidates. (5) For cecal volvulus (the other major type), endoscopic decompression is NOT effective; surgical treatment (right hemicolectomy or cecopexy) is required. (6) Clozapine is a known cause of severe constipation and colonic hypomotility that predisposes to volvulus — the medication should be reviewed with psychiatry.",
+    "pathophysiology": "Sigmoid volvulus occurs when a long, redundant sigmoid colon with a narrow mesenteric base rotates around its mesenteric axis, creating a closed-loop obstruction. The twist (typically 180-360 degrees) obstructs the colonic lumen at two points, trapping gas and fluid in the closed loop. Venous return is compromised first (lower pressure), leading to congestion, edema, and hemorrhagic infarction. As the twist tightens or persists, arterial inflow is compromised, leading to transmural ischemia, gangrene, and perforation. A redundant sigmoid colon (dolichosigmoid) is the anatomic prerequisite, which can develop from chronic constipation causing progressive elongation and redundancy. Anticholinergic medications exacerbate colonic dysmotility and fecal loading.",
+    "treatment_overview": "If no signs of gangrene or perforation: Endoscopic decompression via rigid or flexible sigmoidoscopy (gently advance the scope past the torsion point, decompress the dilated sigmoid, and leave a rectal decompression tube in place). Success rate is 70-90%. Follow with semi-elective sigmoid colectomy with primary anastomosis during the same admission (within 2-3 days) to prevent recurrence. If endoscopic decompression fails or signs of gangrene/perforation are present: Emergent laparotomy with sigmoid resection. If bowel is gangrenous or perforation has occurred, Hartmann procedure (sigmoid resection with end colostomy and rectal stump) is the safest option. If the bowel is viable and the patient is stable, primary anastomosis may be considered. Resuscitate aggressively (IV fluids, correct electrolytes, especially potassium). Broad-spectrum antibiotics if concern for compromised bowel. Review and modify constipating medications.",
+    "high_yield_pearls": [
+      "The 'coffee bean sign' on abdominal X-ray (massively dilated ahaustral loop arising from the pelvis) is pathognomonic for sigmoid volvulus.",
+      "The 'whirl sign' on CT (twisted mesenteric vessels at the base of the volvulus) is diagnostic of torsion.",
+      "Endoscopic decompression (sigmoidoscopy) is first-line for sigmoid volvulus WITHOUT gangrene; it should be followed by semi-elective colectomy to prevent the 40-60% recurrence rate.",
+      "Do NOT attempt endoscopic decompression if there are signs of bowel gangrene, perforation, or peritonitis — proceed directly to emergent laparotomy.",
+      "Sigmoid volvulus is the most common cause of large bowel obstruction in certain African and South American countries, where it can affect younger patients due to high-fiber diets causing a dolichosigmoid.",
+      "Cecal volvulus, unlike sigmoid volvulus, cannot be managed with endoscopic decompression and requires surgical intervention."
+    ],
+    "sources": [
+      "Halabi WJ et al. Ann Surg 2014;259:293-301 (Sigmoid Volvulus: National Analysis)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 29",
+      "Vogel JD et al. Dis Colon Rectum 2016;59:479-497 (ASCRS Clinical Practice Guidelines for Colon Volvulus)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Sigmoid volvulus", "Cecal volvulus", "Large bowel obstruction (malignant)", "Ogilvie syndrome (acute colonic pseudo-obstruction)", "Toxic megacolon", "Small bowel obstruction"],
+    "after_stage2_more_likely": ["Sigmoid volvulus", "Ogilvie syndrome", "Large bowel obstruction (malignant)"],
+    "after_stage2_less_likely": ["Toxic megacolon", "Small bowel obstruction"],
+    "after_labs_top3": ["Sigmoid volvulus", "Cecal volvulus", "Ogilvie syndrome"]
+  }
+}

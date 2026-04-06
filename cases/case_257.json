@@ -1,0 +1,117 @@
+{
+  "case_id": "case_257",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Chronic fatigue syndrome (myalgic encephalomyelitis/chronic fatigue syndrome)",
+  "icd_category": "R53.82 — Chronic fatigue, unspecified / G93.32 — Myalgic encephalomyelitis/chronic fatigue syndrome",
+  "one_liner": "A 36-year-old woman presents with 9 months of debilitating fatigue, post-exertional malaise, unrefreshing sleep, and cognitive difficulties following a viral illness, with extensive normal laboratory workup.",
+  "stage2": {
+    "hpi_extension": "The patient reports 9 months of profound, debilitating fatigue that began abruptly following a viral illness (confirmed influenza). Prior to the illness, she was highly functional — running half-marathons, working full-time as a project manager, and socially active. Since then, she has been unable to return to her pre-illness activity level. Her fatigue is not relieved by rest; she sleeps 9-10 hours per night but wakes feeling 'like she didn't sleep at all' (unrefreshing sleep). The hallmark symptom is post-exertional malaise (PEM): any physical or cognitive exertion beyond minimal activity causes a severe worsening of symptoms that lasts 24-72 hours. For example, walking to the grocery store triggers 2 days of bed-bound exhaustion with worsened body aches and difficulty thinking. She describes cognitive difficulties — 'brain fog,' difficulty finding words, poor short-term memory, and inability to multitask. She has diffuse myalgias and arthralgias without swelling. She has orthostatic symptoms (lightheadedness upon standing). She has reduced her work to part-time and has stopped all exercise. She denies depressed mood, stating 'I'm not depressed — I'm frustrated because I want to do things but my body won't let me.'",
+    "pmh": "No significant prior medical or psychiatric history. Previously highly active and functional.",
+    "surgical_history": "Appendectomy at age 14",
+    "medications": "Melatonin 3 mg at bedtime, ibuprofen PRN for body aches",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with fibromyalgia. Father with hypertension. Sister with irritable bowel syndrome. No family history of autoimmune or neurological disease.",
+    "social_history": "Previously worked full-time as a project manager, now part-time. Single, lives alone. Previously ran half-marathons, now cannot walk more than 2 blocks. Non-smoker. Rarely drinks alcohol (cannot tolerate it since illness). No illicit drug use. College-educated. Social life has diminished due to inability to participate in activities.",
+    "vitals": {
+      "temp": "98.2°F (36.8°C)",
+      "hr": "92 bpm (supine), 118 bpm (standing for 3 minutes)",
+      "bp": "110/68 mmHg (supine), 98/62 mmHg (standing)",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "135 lbs, BMI 23.1 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman who looks her stated age but appears fatigued and speaks slowly. HEENT: No oral ulcers. No pharyngitis. Mildly dry mucous membranes. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Mild resting tachycardia, regular rhythm, no murmurs. Orthostatic tachycardia demonstrated (HR increase >30 bpm from supine to standing). Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, no hepatosplenomegaly. Musculoskeletal: Diffuse tender points but no joint swelling, warmth, or erythema. Full range of motion. Skin: No rash, no livedo reticularis. Neurological: Cranial nerves II-XII intact. Motor strength 5/5 throughout but reports effort-related exhaustion (symptoms worsen during sustained testing). Sensation intact. Reflexes 2+ symmetric. Gait normal at baseline but patient reports significant fatigue after walking 50 feet. Mental Status: Alert, oriented, cooperative. Mood 'frustrated.' Affect congruent. Thought process linear. Cognition — slow word-finding during conversation, asks to repeat questions. No depression or anxiety features on direct questioning."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 5.5, Hgb 13.2, Hct 39.8, Plt 240", "flag": "WNL", "clinical_significance": "Normal; rules out anemia and hematologic disease as cause of fatigue"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.1, Cl 102, CO2 24, BUN 12, Cr 0.7, Glucose 88, Ca 9.4, AST 20, ALT 18, Alk Phos 55, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no organ dysfunction"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Free T4", "result": "1.2 ng/dL", "flag": "WNL", "clinical_significance": "Confirms euthyroid status"},
+      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
+      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal; argues against active autoimmune or inflammatory condition"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against SLE or other connective tissue disease"},
+      {"test_name": "Vitamin B12", "result": "450 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12"},
+      {"test_name": "Vitamin D, 25-OH", "result": "32 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D"},
+      {"test_name": "Ferritin", "result": "48 ng/mL", "flag": "WNL", "clinical_significance": "Normal iron stores"},
+      {"test_name": "Cortisol (AM)", "result": "14.5 mcg/dL", "flag": "WNL", "clinical_significance": "Normal morning cortisol; rules out adrenal insufficiency"},
+      {"test_name": "Lyme antibody (ELISA)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rules out Lyme disease as cause of fatigue and myalgia"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Rules out pulmonary pathology and lymphoma as cause of fatigue"}
+    ],
+    "key_tests": [
+      "Comprehensive medical history — identifying cardinal ME/CFS features: post-exertional malaise, unrefreshing sleep, cognitive impairment, and orthostatic intolerance",
+      "Orthostatic vital signs — demonstrating orthostatic tachycardia (HR increase >30 bpm) consistent with POTS-like autonomic dysfunction",
+      "Extensive normal laboratory panel — ruling out thyroid disease, anemia, autoimmune disease, adrenal insufficiency, infections, and metabolic derangements",
+      "PHQ-9 — score 5 (minimal depression), supporting that fatigue is not primarily depression-driven"
+    ],
+    "acceptable_tests": [
+      "CBC, CMP, TSH — standard fatigue workup",
+      "ESR/CRP — screening for inflammatory conditions",
+      "ANA — screening for autoimmune disease",
+      "Ferritin — ruling out iron deficiency without anemia",
+      "Cortisol — ruling out adrenal insufficiency",
+      "Lyme antibody — screening for tick-borne illness",
+      "Vitamin D and B12 — nutritional assessment",
+      "Chest X-ray — screening for occult malignancy"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological deficits; may show nonspecific white matter changes in ME/CFS but not diagnostic)",
+      "Sleep study (unrefreshing sleep in ME/CFS is not due to primary sleep disorder; consider only if OSA suspected clinically)",
+      "EBV serologies (past EBV infection is ubiquitous; active EBV reactivation does not explain chronic symptoms)",
+      "Extensive autoimmune panels beyond ANA (low pre-test probability without specific clinical features)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets the 2015 IOM (now NASEM) diagnostic criteria for ME/CFS: (1) substantial reduction in pre-illness activity level lasting >6 months, (2) post-exertional malaise (hallmark symptom — activity triggers prolonged symptom worsening), (3) unrefreshing sleep, plus (4) cognitive impairment ('brain fog'). Additionally, she has orthostatic intolerance (orthostatic tachycardia). The onset was post-infectious (influenza). An exhaustive medical workup has excluded all other explanations for her symptoms. The frustration-driven motivation to return to activities distinguishes her from primary depression."
+  },
+  "debrief": {
+    "classic_presentation": "A previously highly functional adult who develops debilitating fatigue following a viral illness, with the cardinal features: (1) substantial reduction in activity that does not resolve with rest, (2) post-exertional malaise (PEM — the hallmark symptom, where physical or cognitive exertion triggers disproportionate and prolonged symptom worsening lasting >24 hours), (3) unrefreshing sleep, and either (4a) cognitive impairment ('brain fog') or (4b) orthostatic intolerance. The condition is often post-infectious (EBV, influenza, COVID-19) and affects predominantly women aged 30-50.",
+    "attending_mode_notes": "ME/CFS is a legitimate, disabling neuroimmune condition — not a psychological disorder. The 2015 IOM report renamed it Systemic Exertion Intolerance Disease (SEID) and established evidence-based diagnostic criteria, replacing the older Fukuda criteria. Key clinical challenges: (1) Post-exertional malaise (PEM) is the DEFINING feature — if PEM is absent, the diagnosis should be reconsidered. PEM distinguishes ME/CFS from depression, fibromyalgia, and deconditioning. (2) Graded exercise therapy (GET) is CONTRAINDICATED — unlike depression or deconditioning where exercise improves function, in ME/CFS exercise worsens symptoms (PEM). The NICE 2021 guidelines removed GET from recommendations. Pacing (activity management within the 'energy envelope') is the approach. (3) Orthostatic intolerance (POTS-like features) is present in ~70% of ME/CFS patients — tilt table testing or active standing test can demonstrate this. (4) The overlap with fibromyalgia is ~30-50% but they are distinct conditions. (5) COVID-19 has dramatically increased awareness of ME/CFS, as many Long COVID patients meet ME/CFS criteria. (6) There is no FDA-approved treatment — management is symptom-based, and the prognosis is guarded (only ~5% fully recover). Disability accommodations may be necessary.",
+    "pathophysiology": "The pathophysiology of ME/CFS is incompletely understood but involves multiple interconnected systems: (1) Immune dysregulation — impaired NK cell function, altered cytokine profiles (elevated pro-inflammatory cytokines), possible autoimmune component. (2) Energy metabolism — mitochondrial dysfunction with impaired oxidative phosphorylation, demonstrated by two-day CPET showing inability to reproduce day-1 exercise capacity on day 2. (3) Autonomic nervous system dysfunction — reduced cerebral blood flow, orthostatic intolerance, dysregulation of the sympathetic/parasympathetic balance. (4) Neuroinflammation — PET studies show microglial activation in the brain. (5) Microbiome alterations — gut dysbiosis with decreased diversity. (6) Epigenetic changes — altered DNA methylation patterns. The post-infectious trigger suggests a hit-and-run mechanism where acute infection triggers a persistent immunological and metabolic derangement in genetically susceptible individuals.",
+    "treatment_overview": "No curative treatment exists — management is symptom-based. Activity management/pacing: help the patient identify their 'energy envelope' (the level of activity they can sustain without triggering PEM) and stay within it. REST when PEM occurs. Sleep optimization: sleep hygiene, low-dose trazodone (25-50 mg) or suvorexant for unrefreshing sleep; melatonin for circadian issues. Orthostatic intolerance: increased salt and fluid intake (2-3 L daily), compression stockings, fludrocortisone or midodrine if POTS-like symptoms are severe. Cognitive symptoms: neurocognitive accommodations, avoid cognitive overexertion. Pain management: low-dose naltrexone (1.5-4.5 mg) has emerging evidence; gabapentin or duloxetine for comorbid pain. Address comorbidities: IBS symptoms (low-FODMAP diet), fibromyalgia overlap (pregabalin). Psychosocial support: validation, disability advocacy, CBT (for coping, NOT as curative treatment). Avoid: GET (worsens PEM), stimulants (crash-and-boom pattern).",
+    "high_yield_pearls": [
+      "Post-exertional malaise (PEM) is the HALLMARK of ME/CFS — if absent, reconsider the diagnosis. PEM is disproportionate worsening of all symptoms following physical or cognitive exertion, lasting >24 hours.",
+      "Graded exercise therapy (GET) is CONTRAINDICATED in ME/CFS — unlike depression or deconditioning, exercise worsens the condition. NICE 2021 guidelines removed GET from recommendations.",
+      "ME/CFS is NOT primarily a psychiatric disorder — it is a neuroimmune condition with demonstrated abnormalities in immune function, energy metabolism, and autonomic regulation.",
+      "The 2015 IOM diagnostic criteria require all three core symptoms (fatigue with substantial activity reduction >6 months, PEM, unrefreshing sleep) PLUS cognitive impairment OR orthostatic intolerance.",
+      "COVID-19 is now the most common infectious trigger of new ME/CFS cases — approximately 50% of Long COVID patients meet ME/CFS diagnostic criteria.",
+      "Only ~5% of ME/CFS patients fully recover — honest prognosis counseling and disability accommodations are important components of care."
+    ],
+    "sources": [
+      "Institute of Medicine (IOM/NASEM). Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness, 2015",
+      "NICE Guideline: Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management (NG206), 2021",
+      "Bateman L et al. ME/CFS: Clinician Coalition Treatment Recommendations, 2021",
+      "Komaroff AL, Lipkin WI. ME/CFS and Long COVID share underlying pathophysiology. Front Med, 2023",
+      "Rowe PC et al. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Diagnosis and Management in Young People: A Primer. Front Pediatr, 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Myalgic encephalomyelitis/chronic fatigue syndrome",
+      "Major depressive disorder",
+      "Hypothyroidism",
+      "Fibromyalgia",
+      "Adrenal insufficiency",
+      "Obstructive sleep apnea",
+      "Lyme disease",
+      "Systemic lupus erythematosus"
+    ],
+    "after_stage2_more_likely": [
+      "ME/CFS — post-infectious onset, post-exertional malaise (hallmark), unrefreshing sleep, cognitive impairment, orthostatic tachycardia, debilitating course from previously high-functioning baseline",
+      "Fibromyalgia — diffuse tender points and myalgias, but PEM and post-infectious onset are more characteristic of ME/CFS"
+    ],
+    "after_stage2_less_likely": [
+      "Major depression — patient denies depressed mood, expresses frustration and desire to be active (ego-dystonic), no anhedonia beyond physical limitation",
+      "Hypothyroidism — no cold intolerance, constipation, or thyromegaly",
+      "Adrenal insufficiency — no hyperpigmentation, no hypotension (orthostatic tachycardia without hypotension is more consistent with POTS/ME/CFS)"
+    ],
+    "after_labs_top3": [
+      "Myalgic encephalomyelitis/chronic fatigue syndrome — meets all IOM diagnostic criteria, exhaustive normal medical workup, post-infectious onset, cardinal PEM symptom",
+      "Fibromyalgia (comorbid) — diffuse tender points present but PEM and orthostatic intolerance distinguish primary ME/CFS",
+      "Postural orthostatic tachycardia syndrome (comorbid/overlapping) — orthostatic tachycardia demonstrated; POTS is present in ~70% of ME/CFS patients"
+    ]
+  }
+}

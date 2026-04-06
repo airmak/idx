@@ -1,0 +1,156 @@
+{
+  "case_id": "case_182",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Bronchiolitis (Respiratory Syncytial Virus)",
+  "icd_category": "J21.0 – Acute bronchiolitis due to respiratory syncytial virus",
+  "one_liner": "A 6-month-old female with no significant past medical history presents with 3 days of nasal congestion, cough, wheezing, and increased work of breathing.",
+  "stage2": {
+    "hpi_extension": "The infant was born full-term at 39 weeks without complications. She developed nasal congestion and a mild cough 3 days ago. Over the past 24 hours, the cough has worsened, and her parents noticed wheezing and rapid breathing. She has had decreased oral intake, taking only about half of her usual breast milk volume. She has had fewer wet diapers (4 in the last 24 hours versus the usual 6-8). There is no history of apneic episodes, cyanosis, or lethargy. An older sibling (3 years old) had a runny nose and cough last week that resolved. The presentation is during winter season (January).",
+    "pmh": "Born full-term at 39 weeks via uncomplicated vaginal delivery. Birth weight 3.2 kg. No NICU stay. Up to date on immunizations. No prior hospitalizations. Did not receive palivizumab (not indicated for full-term infants).",
+    "surgical_history": "None",
+    "medications": "None; mother has been using nasal saline drops",
+    "allergies": "No known drug allergies",
+    "family_history": "Older sibling with recent URI. Father has asthma. No family history of immunodeficiency.",
+    "social_history": "Lives with both parents and a 3-year-old sibling. Mother is breastfeeding. No daycare attendance. No secondhand smoke exposure. No pets.",
+    "vitals": {
+      "temp": "38.3°C (100.9°F)",
+      "hr": "156 bpm",
+      "bp": "82/50 mmHg",
+      "rr": "52 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "7.2 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alert, fussy, mild increased work of breathing with subcostal and intercostal retractions; no cyanosis. HEENT: Anterior fontanelle soft and flat. Copious clear nasal discharge bilaterally. Oropharynx mildly erythematous, moist mucous membranes. TMs clear bilaterally. Neck: Supple, no lymphadenopathy. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Diffuse bilateral expiratory wheezes and scattered fine crackles; prolonged expiratory phase; mild subcostal and intercostal retractions; no stridor or grunting. Abdomen: Soft, non-distended, non-tender, liver edge palpable 1 cm below costal margin (likely from hyperinflation). Extremities: Warm, well-perfused, capillary refill <2 seconds. Skin: No rashes or petechiae."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "RSV rapid antigen test (nasal swab)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms RSV as the causative pathogen; RSV is the most common cause of bronchiolitis in infants."
+      },
+      {
+        "test_name": "WBC",
+        "result": "9.8 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC count is typical in viral bronchiolitis; an elevated count would raise concern for bacterial superinfection."
+      },
+      {
+        "test_name": "Lymphocytes",
+        "result": "58%",
+        "flag": "WNL",
+        "clinical_significance": "Lymphocyte predominance is expected in viral infections and is normal for this age group."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin for age; physiologic anemia of infancy expected around 6-9 months."
+      },
+      {
+        "test_name": "BMP (Na, K, Cl, CO2, BUN, Cr, Glucose)",
+        "result": "Na 137, K 4.5, Cl 103, CO2 20, BUN 8, Cr 0.2, Glucose 88",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; slightly low CO2 may reflect mild respiratory compensation but overall unremarkable."
+      },
+      {
+        "test_name": "Venous blood gas",
+        "result": "pH 7.36, pCO2 38 mmHg, pO2 42 mmHg, HCO3 21 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "No significant acidosis or CO2 retention; the infant is maintaining adequate ventilation despite increased work of breathing."
+      },
+      {
+        "test_name": "CRP",
+        "result": "8 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Low CRP makes bacterial co-infection less likely; viral bronchiolitis typically has minimal CRP elevation."
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.12 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal procalcitonin argues against a serious bacterial infection."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Chest X-ray (AP/Lateral)",
+        "result": "Bilateral hyperinflation with flattening of the diaphragms. Peribronchial thickening and patchy atelectasis in the right middle lobe. No focal consolidation. No pleural effusion. Heart size normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperinflation with peribronchial cuffing and patchy atelectasis is the classic CXR pattern for bronchiolitis; absence of focal consolidation argues against bacterial pneumonia."
+      }
+    ],
+    "key_tests": [
+      "RSV rapid antigen test",
+      "Pulse oximetry monitoring",
+      "Clinical assessment (respiratory rate, retractions, feeding ability)"
+    ],
+    "acceptable_tests": [
+      "Chest X-ray (AP/Lateral)",
+      "CBC with differential",
+      "BMP",
+      "Venous blood gas",
+      "Respiratory viral panel (multiplex PCR)",
+      "CRP",
+      "Nasopharyngeal aspirate for viral culture"
+    ],
+    "low_yield_tests": [
+      "Blood cultures (unless toxic-appearing)",
+      "Urinalysis/urine culture (unless fever >39°C with no source)",
+      "CT chest",
+      "Sweat chloride test (in first episode)",
+      "Echocardiogram (no cardiac findings)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Despite initial suctioning and supportive care, the infant continues to require supplemental oxygen to maintain SpO2 >90%, and the RSV rapid antigen test returns positive, confirming the diagnosis of RSV bronchiolitis requiring inpatient supportive management."
+  },
+  "debrief": {
+    "classic_presentation": "RSV bronchiolitis classically presents in infants under 12 months (peak 2-6 months) during winter/early spring with a 2-3 day URI prodrome (rhinorrhea, cough, low-grade fever) followed by progressive lower respiratory symptoms including wheezing, tachypnea, increased work of breathing (retractions, nasal flaring), and hypoxemia. Auscultation reveals diffuse wheezing and crackles.",
+    "attending_mode_notes": null,
+    "pathophysiology": "RSV infects the bronchiolar epithelium, causing necrosis and sloughing of ciliated epithelial cells. The resulting inflammatory response leads to peribronchiolar edema, increased mucus production, and accumulation of cellular debris within the small airways. This causes partial or complete obstruction of bronchioles, leading to air trapping (ball-valve mechanism), hyperinflation, atelectasis, and ventilation-perfusion mismatch. The small caliber of infant airways makes them particularly vulnerable to obstruction from even modest edema and mucus plugging.",
+    "treatment_overview": "Management is primarily supportive per AAP 2014 guidelines. Key interventions include: supplemental oxygen to maintain SpO2 >90%, nasal suctioning to clear secretions, ensuring adequate hydration (IV or NG if oral intake is insufficient), and continuous pulse oximetry monitoring. Bronchodilators (albuterol), systemic corticosteroids, antibiotics, and chest physiotherapy are NOT routinely recommended. A trial of nebulized hypertonic saline (3%) may be considered for hospitalized patients. High-flow nasal cannula (HFNC) or CPAP may be used for escalating respiratory distress. Prevention includes palivizumab for high-risk infants and the recently approved nirsevimab for all infants.",
+    "high_yield_pearls": [
+      "Bronchiolitis is a CLINICAL diagnosis — routine labs, imaging, and viral testing are generally unnecessary and do not change management; AAP guidelines emphasize clinical assessment over diagnostic testing.",
+      "RSV accounts for 50-80% of bronchiolitis cases; peak incidence is during winter months in temperate climates, with highest morbidity in infants 2-6 months old.",
+      "Neither albuterol nor racemic epinephrine is routinely recommended for bronchiolitis — a one-time trial may be attempted, but should be discontinued if no clinical improvement is observed.",
+      "Systemic corticosteroids have NO benefit in bronchiolitis (unlike croup or asthma) and should not be administered.",
+      "Risk factors for severe disease include prematurity (<35 weeks), age <12 weeks, chronic lung disease (BPD), hemodynamically significant congenital heart disease, and immunodeficiency.",
+      "Apnea may be the presenting sign of RSV bronchiolitis in very young infants (<2 months) or those born premature, even before prominent wheezing develops."
+    ],
+    "sources": [
+      "AAP Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis (2014, reaffirmed 2022)",
+      "UpToDate: Bronchiolitis in infants and children: Clinical features and diagnosis",
+      "UpToDate: Bronchiolitis in infants and children: Treatment, outcome, and prevention",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Bronchiolitis (RSV)",
+      "Reactive airway disease / viral-triggered wheezing",
+      "Pneumonia (bacterial or viral)",
+      "Asthma (unlikely at this age but possible)",
+      "Foreign body aspiration",
+      "Congestive heart failure (congenital heart disease)",
+      "Pertussis",
+      "Cystic fibrosis"
+    ],
+    "after_stage2_more_likely": [
+      "Bronchiolitis (classic age, winter season, URI prodrome, bilateral wheezing and crackles, sick sibling contact)",
+      "Viral pneumonia (overlapping presentation with bronchiolitis)"
+    ],
+    "after_stage2_less_likely": [
+      "Foreign body aspiration (too young, bilateral findings, no choking history)",
+      "Congestive heart failure (no hepatomegaly beyond hyperinflation, no murmur, no edema)",
+      "Pertussis (immunizations up to date, no paroxysmal or post-tussive emesis)"
+    ],
+    "after_labs_top3": [
+      "RSV bronchiolitis",
+      "Viral lower respiratory tract infection (non-RSV)",
+      "Reactive airway disease / viral-triggered wheezing"
+    ]
+  }
+}

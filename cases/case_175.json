@@ -1,0 +1,76 @@
+{
+  "case_id": "case_175",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Whipple Disease",
+  "icd_category": "K90.81 — Whipple's disease",
+  "one_liner": "A 52-year-old male farmer presents with 1 year of chronic diarrhea, a 15 kg weight loss, migratory polyarthralgia, and darkening of sun-exposed skin.",
+  "stage2": {
+    "hpi_extension": "The patient describes a 1-year progressive course of watery, non-bloody diarrhea with 6-8 loose stools per day, foul-smelling and greasy. He has had an unintentional weight loss of 15 kg. He developed migratory, non-deforming polyarthralgias affecting the knees, wrists, and ankles beginning 3 years ago — well before the onset of GI symptoms. He has noticed progressive darkening of his face, arms, and other sun-exposed areas. He reports intermittent low-grade fevers, drenching night sweats, and generalized lymphadenopathy noticed 4 months ago. He also reports episodes of confusion and difficulty with memory over the past 2 months. He denies hematochezia, hematemesis, or recent travel abroad.",
+    "pmh": "Migratory polyarthralgia (3 years, seronegative, previously labeled 'seronegative rheumatoid arthritis')",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 400 mg PRN for joint pain",
+    "allergies": "No known drug allergies",
+    "family_history": "Non-contributory",
+    "social_history": "Farmer (works with soil and livestock). Non-smoker. Rare alcohol. Lives in a rural area. No recent travel. Married.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "94 bpm, regular",
+      "bp": "100/60 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "58 kg, BMI 19.1"
+    },
+    "physical_exam": "General: Cachectic male appearing older than stated age. HEENT: Hyperpigmentation of the face, temporal wasting, no oral ulcers. Cardiovascular: Grade 2/6 systolic murmur at the left sternal border (new). Pulmonary: Clear. Abdomen: Soft, diffuse mild tenderness, hyperactive bowel sounds, no hepatosplenomegaly, no ascites. Lymph nodes: Non-tender, rubbery lymphadenopathy in the cervical, axillary, and inguinal regions. Skin: Diffuse hyperpigmentation of sun-exposed areas. Joints: No active synovitis, no deformity. Neuro: Mild cognitive slowing, supranuclear ophthalmoplegia (difficulty with vertical gaze), no focal motor deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 6.8, Hgb 9.8, MCV 82, Plt 280", "flag": "LOW", "clinical_significance": "Normocytic anemia from chronic disease and malabsorption"},
+      {"test_name": "Albumin", "result": "2.2 g/dL", "flag": "LOW", "clinical_significance": "Markedly low from protein malabsorption and chronic illness"},
+      {"test_name": "Iron studies", "result": "Ferritin 15, Iron 28, TIBC 380", "flag": "LOW", "clinical_significance": "Iron deficiency from small bowel malabsorption"},
+      {"test_name": "Vitamin D, 25-hydroxy", "result": "8 ng/mL", "flag": "LOW", "clinical_significance": "Severe deficiency from fat-soluble vitamin malabsorption"},
+      {"test_name": "Folate", "result": "2.8 ng/mL", "flag": "LOW", "clinical_significance": "Low from proximal small bowel malabsorption"},
+      {"test_name": "CRP", "result": "42 mg/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting chronic systemic inflammation"},
+      {"test_name": "ESR", "result": "65 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
+      {"test_name": "RF and anti-CCP", "result": "Both negative", "flag": "WNL", "clinical_significance": "Seronegative arthritis — seronegative migratory arthritis preceding GI symptoms is characteristic of Whipple disease"},
+      {"test_name": "Fecal fat (72-hour)", "result": "18 g/day (normal <7)", "flag": "HIGH", "clinical_significance": "Marked steatorrhea confirming fat malabsorption"},
+      {"test_name": "Whipple PCR (blood)", "result": "Tropheryma whipplei DNA detected by PCR", "flag": "ABNORMAL", "clinical_significance": "Positive PCR supports systemic T. whipplei infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper endoscopy (EGD) with duodenal biopsies", "result": "Duodenal mucosa shows pale yellow, shaggy mucosa with patchy erythema and thickened folds in D2 and D3. Biopsies obtained from multiple sites.", "flag": "ABNORMAL", "clinical_significance": "The pale yellow, shaggy mucosal appearance of the duodenum is characteristic of Whipple disease and represents lipid-laden macrophages in the lamina propria."},
+      {"test_name": "Duodenal biopsies with PAS stain", "result": "Lamina propria distended with foamy macrophages that stain intensely positive with periodic acid-Schiff (PAS) and are diastase-resistant (PAS-D positive). Villous blunting. No granulomas. PCR confirms Tropheryma whipplei.", "flag": "ABNORMAL", "clinical_significance": "PAS-positive, diastase-resistant macrophages in the duodenal lamina propria are pathognomonic for Whipple disease. T. whipplei PCR on tissue confirms the diagnosis."},
+      {"test_name": "CT abdomen/pelvis", "result": "Diffuse mesenteric and retroperitoneal lymphadenopathy with low-attenuation centers. Thickened small bowel folds in the jejunum. No hepatosplenomegaly.", "flag": "ABNORMAL", "clinical_significance": "Low-attenuation lymphadenopathy reflects lipid-laden macrophages in the nodes, characteristic of Whipple disease."}
+    ],
+    "key_tests": ["Upper endoscopy with duodenal biopsies (PAS stain)", "T. whipplei PCR (tissue or blood)", "CBC", "Albumin", "Fecal fat"],
+    "acceptable_tests": ["Iron studies", "Folate/B12", "Vitamin D", "CRP/ESR", "RF and anti-CCP", "CT abdomen", "Brain MRI (if neurologic symptoms)", "Echocardiogram (if murmur/endocarditis concern)"],
+    "low_yield_tests": ["Colonoscopy", "Celiac serologies (tTG-IgA)", "ANA panel", "MRCP", "Stool culture", "C. difficile testing"],
+    "key_tests_rationale": "Duodenal biopsy with PAS stain is the gold standard — PAS-positive, diastase-resistant macrophages are pathognomonic. T. whipplei PCR on tissue provides molecular confirmation and can also be tested on blood, CSF, or synovial fluid. CBC and albumin assess the severity of malabsorption. Fecal fat quantifies steatorrhea."
+  },
+  "stage5": {
+    "final_clue": "A middle-aged male farmer with a triad of chronic diarrhea with malabsorption, migratory seronegative arthritis (preceding GI symptoms by years), and neurologic involvement (cognitive decline, supranuclear ophthalmoplegia), plus diffuse lymphadenopathy, hyperpigmentation, and a new cardiac murmur. Duodenal biopsies showing PAS-positive, diastase-resistant macrophages with PCR confirmation of Tropheryma whipplei establishes the diagnosis of Whipple disease."
+  },
+  "debrief": {
+    "classic_presentation": "Whipple disease is a rare, chronic systemic infection caused by Tropheryma whipplei, a gram-positive actinobacterium. The classic tetrad includes: (1) arthralgias/arthritis (often the earliest symptom, preceding GI symptoms by years), (2) chronic diarrhea with malabsorption, (3) weight loss, and (4) abdominal pain. Systemic features include fever, lymphadenopathy, hyperpigmentation, cardiac involvement (endocarditis, pericarditis), and neurologic manifestations (cognitive decline, supranuclear ophthalmoplegia, oculomasticatory myorhythmia).",
+    "attending_mode_notes": "Whipple disease is diagnostically challenging for several reasons: (1) It is extremely rare (~1/million), leading to low clinical suspicion — the average delay from symptom onset to diagnosis is 6-7 years; (2) Arthralgia often precedes GI symptoms by years, leading to misdiagnosis as seronegative RA — immunosuppressive therapy (e.g., TNF inhibitors, corticosteroids) for presumed RA can be catastrophically harmful, as it worsens Whipple disease; (3) PAS-positive macrophages are not entirely specific — Mycobacterium avium complex (MAC) in immunocompromised patients can produce similar histology, but MAC is acid-fast positive (AFB stain) while Whipple is not; (4) Neurologic Whipple (present in 10-40%) requires CSF analysis with T. whipplei PCR — failure to assess CNS involvement leads to treatment failure and relapse; (5) Oculomasticatory myorhythmia (pendular convergent nystagmus synchronous with mastication) is pathognomonic for CNS Whipple but is seen in only ~20% of neurologic cases; (6) Treatment must include an induction phase that crosses the blood-brain barrier (ceftriaxone IV) regardless of whether neurologic symptoms are present, as subclinical CNS infection is common.",
+    "pathophysiology": "T. whipplei is a ubiquitous environmental organism found in soil and water. Most exposed individuals clear the infection asymptomatically — disease develops in individuals with a subtle immune defect, possibly reduced Th1 responses. The bacterium infects macrophages, which fail to effectively kill it, leading to accumulation of PAS-positive foamy macrophages in the small intestinal lamina propria, lymph nodes, and other tissues. Villous architecture is disrupted, and lymphatic obstruction impairs chylomicron transport, causing malabsorption and steatorrhea. Hematogenous and lymphatic dissemination leads to involvement of joints, heart, brain, and skin.",
+    "treatment_overview": "Induction: IV ceftriaxone 2 g daily for 2 weeks (crosses the blood-brain barrier). Maintenance: Oral trimethoprim-sulfamethoxazole (TMP-SMX) 160/800 mg BID for at least 1 year. Alternatives if sulfa-allergic: doxycycline 200 mg/day + hydroxychloroquine 200 mg TID. CNS involvement may require longer treatment duration. Monitor response with repeat duodenal biopsies (PAS stain should become negative) and clinical improvement. T. whipplei PCR on tissue at follow-up is the best marker of microbiologic clearance. Relapses (especially neurologic) occur in 10-30% and may require retreatment with a different regimen. Immune reconstitution inflammatory syndrome (IRIS) can occur during treatment.",
+    "high_yield_pearls": [
+      "Oculomasticatory myorhythmia (pendular convergent nystagmus with synchronous jaw contractions) is pathognomonic for Whipple disease but only seen in ~20% of neurologic cases.",
+      "Seronegative migratory polyarthritis that precedes GI symptoms by years is the earliest and most common initial manifestation — failure to consider Whipple disease can lead to harmful immunosuppression for presumed RA.",
+      "PAS-positive, diastase-resistant macrophages in duodenal biopsies are pathognomonic — always combine with T. whipplei PCR for confirmation, as MAC can mimic the histology.",
+      "CSF T. whipplei PCR should be checked in ALL patients with Whipple disease, even without neurologic symptoms, as subclinical CNS involvement is common and dictates treatment duration.",
+      "Whipple disease is fatal if untreated but has an excellent prognosis with appropriate antibiotic therapy — clinical improvement begins within days to weeks."
+    ],
+    "sources": [
+      "Dolmans RAV et al., Clinical Manifestations, Treatment, and Diagnosis of Tropheryma whipplei Infections, Clinical Microbiology Reviews 2017",
+      "Fenollar F et al., Whipple's Disease, NEJM 2007",
+      "Schneider T et al., Whipple's Disease: New Aspects of Pathogenesis and Treatment, Lancet Infectious Diseases 2008"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Celiac disease", "Small intestinal bacterial overgrowth", "Crohn disease", "Intestinal lymphoma", "Mycobacterium avium complex (MAC)", "Tropical sprue", "Sarcoidosis"],
+    "after_stage2_more_likely": ["Whipple disease", "Intestinal lymphoma", "Crohn disease"],
+    "after_stage2_less_likely": ["Celiac disease", "SIBO", "Tropical sprue"],
+    "after_labs_top3": ["Whipple disease", "Intestinal lymphoma", "Disseminated MAC"]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "case_id": "case_098",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Cryptogenic organizing pneumonia",
+  "icd_category": "J84.116 — Cryptogenic organizing pneumonia",
+  "one_liner": "A 55-year-old woman presents with a 2-month history of persistent cough, low-grade fever, and bilateral migratory pulmonary infiltrates that failed to respond to two courses of antibiotics.",
+  "stage2": {
+    "hpi_extension": "The patient developed a flu-like illness 2 months ago with cough, malaise, low-grade fevers, and mild dyspnea. She was treated with amoxicillin-clavulanate for suspected community-acquired pneumonia; symptoms initially seemed to improve but then recurred. A second course with levofloxacin also failed. A repeat chest X-ray showed new infiltrates in different locations from the initial imaging. She reports persistent nonproductive cough, fatigue, and low-grade fevers (100-101 F). She has lost 3 kg over 2 months. She denies hemoptysis, chest pain, night sweats, or travel.",
+    "pmh": "Hypothyroidism. No autoimmune disease or inflammatory bowel disease.",
+    "surgical_history": "Hysterectomy for fibroids, age 48.",
+    "medications": "Levothyroxine 75 mcg daily.",
+    "allergies": "Sulfa drugs (rash).",
+    "family_history": "No family history of lung disease or autoimmune conditions.",
+    "social_history": "Elementary school teacher. Never smoker. No alcohol. No occupational or environmental exposures. No recent travel. No bird exposure or hot tub use.",
+    "vitals": {
+      "temp": "100.6 F (38.1 C)",
+      "hr": "86 bpm",
+      "bp": "126/78 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "70 kg, BMI 25.4"
+    },
+    "physical_exam": "General: Mildly ill-appearing woman. HEENT: Normal. No lymphadenopathy. Lungs: Scattered inspiratory crackles in bilateral lower and mid-lung zones. No wheezing. Cardiovascular: Regular rate and rhythm, no murmurs. Abdomen: Soft, non-tender. Extremities: No edema or clubbing. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "11,800/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis; no significant eosinophilia"},
+      {"test_name": "CBC — Differential", "result": "Neutrophils 68%, Lymphocytes 22%, Monocytes 6%, Eosinophils 3%", "flag": "WNL", "clinical_significance": "No eosinophilia; helps differentiate from eosinophilic pneumonia"},
+      {"test_name": "ESR", "result": "72 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; consistent with active systemic inflammatory process"},
+      {"test_name": "CRP", "result": "5.8 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated inflammatory marker — COP characteristically presents with elevated ESR/CRP"},
+      {"test_name": "Procalcitonin", "result": "0.08 ng/mL", "flag": "WNL", "clinical_significance": "Normal; argues against active bacterial infection despite persistent infiltrates"},
+      {"test_name": "ANA", "result": "1:80 (low titer, speckled)", "flag": "WNL", "clinical_significance": "Low-titer ANA is nonspecific; no clinical features of CTD"},
+      {"test_name": "RF", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; excludes rheumatoid arthritis-related organizing pneumonia"},
+      {"test_name": "Blood cultures (x2)", "result": "No growth at 5 days", "flag": "WNL", "clinical_significance": "Negative; no bacteremia"},
+      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Sputum culture", "result": "Normal respiratory flora", "flag": "WNL", "clinical_significance": "No pathogenic organisms; supports non-infectious etiology"},
+      {"test_name": "BAL cell differential", "result": "Lymphocytes 38%, Neutrophils 12%, Eosinophils 4%, Macrophages 46%. CD4:CD8 ratio reduced (0.6).", "flag": "ABNORMAL", "clinical_significance": "Mixed lymphocytic cellularity with low CD4:CD8 ratio is characteristic of COP on BAL; helps differentiate from other ILDs"},
+      {"test_name": "Albumin", "result": "3.3 g/dL", "flag": "LOW", "clinical_significance": "Mildly reduced; chronic inflammatory state"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT chest", "result": "Bilateral patchy consolidations predominantly in the lower lobes with peribronchovascular distribution. Some areas show ground-glass opacities surrounding consolidation (reversed halo/atoll sign). Comparison with CXR from 4 weeks ago shows migration of infiltrates to new locations. No cavitation, honeycombing, or lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Migratory bilateral consolidations with reversed halo (atoll) sign in a peribronchovascular distribution are highly characteristic of COP. The atoll sign, though not pathognomonic, is a strong clue."},
+      {"test_name": "Chest X-ray (serial comparison)", "result": "Bilateral patchy alveolar opacities that have changed location compared to prior films. Current consolidations predominantly right lower lobe and left lingula; previous films showed right upper lobe involvement that has resolved.", "flag": "ABNORMAL", "clinical_significance": "Migratory infiltrates (resolving in one area, appearing in another) are a hallmark of COP and are a key distinguishing feature from infectious pneumonia"}
+    ],
+    "key_tests": ["CT chest (comparison with prior imaging to demonstrate migration)", "Bronchoalveolar lavage with cell differential", "Transbronchial or surgical lung biopsy", "ESR/CRP", "Autoimmune serologies (ANA, RF)"],
+    "acceptable_tests": ["CBC with differential", "Procalcitonin", "Blood cultures", "Sputum cultures", "Chest X-ray", "PFTs", "BMP"],
+    "low_yield_tests": ["D-dimer", "BNP", "PET-CT (can show uptake mimicking malignancy)", "ANCA", "Echocardiogram"]
+  },
+  "stage5": {
+    "final_clue": "Transbronchial biopsy reveals intraluminal plugs of granulation tissue (Masson bodies) within alveolar ducts and alveoli, with preservation of underlying lung architecture. No evidence of infection, malignancy, or granulomas. PFTs show a mild restrictive pattern with FVC 72% predicted and DLCO 65% predicted. The diagnosis of cryptogenic organizing pneumonia is confirmed."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged patient with subacute flu-like illness, persistent cough, low-grade fever, and bilateral migratory consolidations that fail to respond to antibiotics, with elevated ESR/CRP, normal procalcitonin, mixed lymphocytic BAL, reversed halo sign on CT, and Masson bodies on biopsy.",
+    "attending_mode_notes": "COP is often initially misdiagnosed as community-acquired pneumonia. The key clinical clue is failure to respond to antibiotics with migratory infiltrates on serial imaging. The reversed halo (atoll) sign — a ring of consolidation surrounding ground-glass opacity — is characteristic but not pathognomonic (also seen in mucormycosis, GPA, sarcoidosis). COP responds dramatically to corticosteroids, but relapse rates are high (25-50%) when steroids are tapered too quickly. Secondary organizing pneumonia has the same histologic pattern but has an identifiable cause (drugs, infection, CTD, radiation).",
+    "pathophysiology": "COP (formerly called BOOP — bronchiolitis obliterans organizing pneumonia) is characterized by proliferation of granulation tissue (fibroblasts embedded in loose connective tissue matrix) that forms intraluminal plugs (Masson bodies) within alveolar ducts, alveoli, and small airways. Unlike usual interstitial pneumonia (UIP/IPF), the underlying lung architecture is preserved and the process is potentially reversible. The trigger is unknown in the 'cryptogenic' form but likely involves epithelial injury and aberrant repair. The migratory nature of infiltrates reflects a patchy, asynchronous inflammatory process.",
+    "treatment_overview": "First-line: Oral corticosteroids — prednisone 0.75-1 mg/kg/day for 4-8 weeks, then taper over 6-12 months. Rapid clinical and radiographic improvement (within days to weeks) is expected and essentially confirms the diagnosis. Relapse occurs in 25-50% of patients, usually during taper or after discontinuation — requires re-escalation. Steroid-sparing agents (azathioprine, mycophenolate, cyclophosphamide) for steroid-dependent or refractory cases. Macrolides (azithromycin) have shown benefit in mild cases. Prognosis is generally excellent with treatment.",
+    "high_yield_pearls": [
+      "Migratory pulmonary infiltrates that fail to respond to antibiotics are the clinical hallmark of COP — always compare serial imaging.",
+      "The reversed halo (atoll) sign on CT — a ring of consolidation surrounding ground-glass opacity — is characteristic of COP.",
+      "COP responds dramatically to corticosteroids, but relapse rates of 25-50% necessitate slow tapering over 6-12 months.",
+      "Masson bodies (intraluminal granulation tissue plugs) are the histopathologic hallmark of organizing pneumonia.",
+      "COP preserves lung architecture (unlike IPF/UIP), making it potentially fully reversible with appropriate treatment."
+    ],
+    "sources": [
+      "Travis WD et al. ATS/ERS International Multidisciplinary Classification of the Idiopathic Interstitial Pneumonias. Am J Respir Crit Care Med. 2013",
+      "Cordier JF. Cryptogenic organising pneumonia. Eur Respir J. 2006",
+      "UpToDate: Cryptogenic organizing pneumonia"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Cryptogenic organizing pneumonia", "Community-acquired pneumonia (refractory)", "Chronic eosinophilic pneumonia", "Pulmonary lymphoma", "Granulomatosis with polyangiitis", "Sarcoidosis", "Bronchoalveolar carcinoma (adenocarcinoma in situ)"],
+    "after_stage2_more_likely": ["Cryptogenic organizing pneumonia", "Chronic eosinophilic pneumonia"],
+    "after_stage2_less_likely": ["Community-acquired pneumonia", "Granulomatosis with polyangiitis", "Sarcoidosis"],
+    "after_labs_top3": ["Cryptogenic organizing pneumonia", "Chronic eosinophilic pneumonia", "Pulmonary lymphoma"]
+  }
+}

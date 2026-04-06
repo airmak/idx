@@ -1,0 +1,162 @@
+{
+  "case_id": "case_215",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Cornual (interstitial) ectopic pregnancy",
+  "icd_category": "O00.80 – Other ectopic pregnancy",
+  "one_liner": "A 31-year-old female with a history of right salpingectomy presents with 7 weeks of amenorrhea, rising β-hCG, and an eccentrically located gestational sac in the right cornual region of the uterus with a thin (<5 mm) myometrial mantle on ultrasound.",
+  "stage2": {
+    "hpi_extension": "The patient presents with 7 weeks of amenorrhea and mild right-sided pelvic pain that started 4 days ago. She had a positive home pregnancy test 2 weeks ago. She had a right salpingectomy 2 years ago for a ruptured tubal ectopic pregnancy. Given her history, she presented early for pregnancy evaluation. She has mild vaginal spotting. She denies fever, dizziness, syncope, or shoulder pain. Her pain is intermittent, rated 4/10, and localized to the right lower quadrant. Her last menstrual period was 7 weeks ago.",
+    "pmh": "G3P0 (two prior ectopic pregnancies; first managed with methotrexate, second with right salpingectomy). Regular menstrual cycles. Left fallopian tube presumed intact.",
+    "surgical_history": "Right salpingectomy (laparoscopic) 2 years ago for ruptured tubal ectopic.",
+    "medications": "Prenatal vitamins",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of ectopic pregnancy. Mother with fibroids.",
+    "social_history": "Non-smoker. No alcohol during pregnancy. Works in IT. Lives with partner.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "82 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "66 kg, BMI 24 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing, mildly anxious woman in no acute distress. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear to auscultation. Abdomen: Soft, non-tender, non-distended. Pelvic examination: Small amount of brown spotting at the introitus; cervix closed and non-tender; uterus slightly enlarged; mild tenderness in the right cornual/fundal region on deep palpation; no discrete adnexal mass (right adnexa expected to be absent due to salpingectomy); left adnexa non-tender. Extremities: Warm, well-perfused."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serum β-hCG (quantitative) — initial",
+        "result": "8,200 mIU/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Well above the discriminatory zone; an intrauterine pregnancy should be clearly visible on TVUS. Eccentric location of the sac raises concern for cornual ectopic."
+      },
+      {
+        "test_name": "Serum β-hCG (48-hour repeat)",
+        "result": "11,800 mIU/mL (44% rise in 48 hours)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 44% rise is borderline (normal IUP doubles ~50% in 48 hours at this level); neither confirms nor excludes viability, but the location of the pregnancy is the primary concern."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "12.5 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; no evidence of hemorrhage at this time."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.0 × 10³/µL, Hgb 12.5 g/dL, Plt 280 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no infection or hemorrhage."
+      },
+      {
+        "test_name": "Blood type and screen",
+        "result": "A negative, antibody screen negative",
+        "flag": "WNL",
+        "clinical_significance": "Rh-negative patient; RhoGAM will be needed regardless of management approach."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 139, K 4.1, Cl 103, CO2 24, BUN 10, Cr 0.7, Glucose 88",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important baseline if methotrexate is considered."
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 20 U/L, ALT 16 U/L, Total bilirubin 0.5 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function; relevant for methotrexate eligibility (hepatotoxicity risk)."
+      },
+      {
+        "test_name": "Progesterone",
+        "result": "8.2 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low progesterone (<20 ng/mL) suggests a nonviable pregnancy; levels <5 are highly predictive of nonviable pregnancy."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Empty endometrial cavity. Eccentrically located gestational sac (12 mm) with a yolk sac in the right cornual region of the uterus, surrounded by a thin myometrial mantle of 3 mm. The 'interstitial line sign' is present — an echogenic line extending from the endometrial cavity to the cornual gestational sac. No fetal cardiac activity detected. Right adnexa absent (status post salpingectomy). Left ovary and tube normal. No free fluid in the cul-de-sac.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The eccentrically located gestational sac in the cornual region with a thin myometrial mantle (<5 mm) and the interstitial line sign is diagnostic of a cornual (interstitial) ectopic pregnancy. This location carries a high risk of catastrophic hemorrhage due to rich uterine blood supply."
+      },
+      {
+        "test_name": "MRI pelvis (confirmatory)",
+        "result": "Gestational sac located in the right cornual/interstitial segment of the uterus with only 2-3 mm of overlying myometrium. No extension into the endometrial cavity proper. No free fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI confirms the interstitial location and thin myometrial mantle, helping differentiate from angular pregnancy (implantation in the lateral angle of the uterine cavity with adequate myometrial coverage)."
+      }
+    ],
+    "key_tests": [
+      "Serum β-hCG (quantitative, serial)",
+      "Transvaginal ultrasound (experienced sonographer)",
+      "MRI pelvis (if ultrasound findings are equivocal)",
+      "Blood type and Rh status"
+    ],
+    "acceptable_tests": [
+      "CBC with hemoglobin",
+      "BMP and hepatic function (if methotrexate planned)",
+      "Progesterone level",
+      "3D ultrasound (improved visualization of cornual anatomy)"
+    ],
+    "low_yield_tests": [
+      "CT pelvis (unnecessary radiation, MRI is superior for this indication)",
+      "Diagnostic laparoscopy (reserved for unstable patients or failed medical management)",
+      "CA-125",
+      "Endometrial biopsy"
+    ],
+    "attending_pimp_questions": [
+      "How does a cornual (interstitial) ectopic pregnancy differ from an angular pregnancy, and why is the distinction clinically important?",
+      "What is the 'interstitial line sign,' and how does it aid in diagnosing interstitial ectopic pregnancy?",
+      "Why is cornual ectopic pregnancy more dangerous than a typical tubal ectopic, and at what gestational age does it typically rupture?",
+      "What are the management options for cornual ectopic pregnancy, and when is multi-dose methotrexate preferred over single-dose?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Given the β-hCG of 11,800, thin myometrial mantle, and absence of fetal cardiac activity, the patient is treated with systemic multi-dose methotrexate protocol. Serial β-hCG monitoring shows a 25% decline by day 7 and progressive decline to <5 mIU/mL over 6 weeks, confirming successful medical management of cornual ectopic pregnancy."
+  },
+  "debrief": {
+    "classic_presentation": "Cornual (interstitial) ectopic pregnancy presents similarly to tubal ectopic — amenorrhea, positive pregnancy test, and pelvic pain — but diagnosis is often delayed to 7-12 weeks gestation because the myometrial wall and rich blood supply allow the pregnancy to grow larger before causing symptoms. On ultrasound, the gestational sac is located eccentrically in the cornual region, lateral to the endometrial cavity, with a thin (<5 mm) myometrial mantle. The interstitial line sign (echogenic line from endometrium to the ectopic sac) is pathognomonic. History of ipsilateral salpingectomy, IVF, or prior ectopic pregnancy increases risk.",
+    "attending_mode_notes": "Cornual ectopic accounts for only 2-4% of all ectopic pregnancies but carries a mortality rate of 2-2.5% (7× higher than tubal ectopic) because the interstitial portion of the tube is surrounded by the highly vascular myometrium. Rupture can cause massive, life-threatening hemorrhage with loss of several liters in minutes. Rupture typically occurs later (8-16 weeks) than tubal ectopic because the distensible myometrium accommodates growth. The key diagnostic distinction is from angular pregnancy — in angular pregnancy, the sac implants in the lateral angle of the uterine cavity with adequate myometrial coverage (>5 mm mantle) and may progress to viable pregnancy; in interstitial ectopic, the sac is in the interstitial tubal segment with thin myometrium. 3D ultrasound and MRI help differentiate these. Management options: (1) Multi-dose methotrexate (preferred for hemodynamically stable, unruptured cases with β-hCG <5,000; success rates 65-80%); single-dose methotrexate has lower success rates for interstitial ectopic than for tubal ectopic. (2) Local injection (ultrasound-guided local methotrexate or KCl injection). (3) Surgical: laparoscopic cornuostomy (excision of the cornual pregnancy) or cornual wedge resection with preservation of the uterus. Hysterectomy is reserved for catastrophic rupture. Post-treatment, these patients require cesarean delivery in future pregnancies due to uterine scar risk.",
+    "pathophysiology": "The interstitial (intramural) segment of the fallopian tube traverses the myometrium for 1-2 cm before opening into the uterine cavity. Following salpingectomy, the interstitial remnant persists and can harbor an ectopic implantation. The embryo implants in this remnant and grows within the myometrium. The myometrial wall provides greater distensibility and blood supply than the tubal wall, allowing the pregnancy to reach a larger size (and higher β-hCG) before diagnosis. When the thin overlying myometrium ruptures, hemorrhage is torrential because the uterine and ovarian arteries anastomose in this region. The rich vascular supply also explains why methotrexate may be less effective (rapid drug clearance) and why multi-dose protocols are preferred.",
+    "treatment_overview": "Hemodynamically stable, unruptured cornual ectopic: multi-dose methotrexate protocol (1 mg/kg IM on days 1, 3, 5, 7 alternating with leucovorin 0.1 mg/kg on days 2, 4, 6, 8) is preferred due to higher success rates than single-dose for interstitial ectopic. Monitoring: serial β-hCG every 48 hours, targeting ≥15% decline between day 4 and day 7 measurements. If β-hCG plateaus or rises, repeat course or proceed to surgery. Surgical options: laparoscopic cornuostomy or cornual wedge resection for failed medical management or larger/more advanced pregnancies. Adjunctive vasopressin injection into the myometrium reduces blood loss during surgery. For ruptured cornual ectopic: emergent laparotomy with cornual wedge resection or, in extremis, hysterectomy. RhoGAM for Rh-negative patients. Future pregnancies require cesarean delivery at 37-38 weeks due to uterine scar.",
+    "high_yield_pearls": [
+      "Cornual (interstitial) ectopic has the highest mortality of all ectopic locations (2-2.5%) because the myometrial wall and uterine artery supply allow massive hemorrhage upon rupture.",
+      "A thin myometrial mantle (<5 mm) surrounding an eccentrically located gestational sac with the 'interstitial line sign' on ultrasound is diagnostic — this must be distinguished from angular pregnancy (>5 mm mantle, sac in the cavity angle).",
+      "Prior salpingectomy is a significant risk factor because the interstitial tubal remnant persists — patients with prior salpingectomy who become pregnant should have early ultrasound to confirm intrauterine location.",
+      "Multi-dose methotrexate is preferred over single-dose for cornual ectopic due to the higher failure rate of single-dose protocols in this location (rich blood supply clears methotrexate rapidly).",
+      "All patients successfully treated for cornual ectopic pregnancy should deliver future pregnancies by cesarean section due to the risk of uterine rupture at the treatment site."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 193: Tubal Ectopic Pregnancy (2018)",
+      "UpToDate: Interstitial (cornual) ectopic pregnancy",
+      "Tulandi T, Al-Jaroudi D. Interstitial pregnancy: results generated from the Society of Reproductive Surgeons Registry. Obstet Gynecol 2004",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cornual (interstitial) ectopic pregnancy",
+      "Angular pregnancy (viable intrauterine)",
+      "Tubal ectopic pregnancy (left tube remnant)",
+      "Pregnancy in rudimentary uterine horn",
+      "Early intrauterine pregnancy with eccentric implantation",
+      "Gestational trophoblastic disease"
+    ],
+    "after_stage2_more_likely": [
+      "Cornual ectopic pregnancy (history of right salpingectomy, eccentrically located sac in the right cornual region, thin myometrial mantle, right-sided pain)",
+      "Angular pregnancy (eccentric sac location, but myometrial mantle is <5 mm which favors interstitial ectopic)"
+    ],
+    "after_stage2_less_likely": [
+      "Normal IUP with eccentric implantation (empty endometrial cavity with sac clearly in the cornual region outside the cavity)",
+      "Left tubal ectopic (sac is on the right, not left side)",
+      "GTD (yolk sac is visible, no molar features)"
+    ],
+    "after_labs_top3": [
+      "Cornual (interstitial) ectopic pregnancy (confirmed by TVUS with interstitial line sign, thin myometrial mantle, and MRI confirmation)",
+      "Angular pregnancy (excluded by MRI showing inadequate myometrial coverage and extracavitary sac location)",
+      "Ectopic in right salpingectomy remnant (essentially the same diagnosis — the interstitial remnant is the site of implantation)"
+    ]
+  }
+}

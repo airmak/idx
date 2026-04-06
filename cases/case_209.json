@@ -1,0 +1,139 @@
+{
+  "case_id": "case_209",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Inevitable miscarriage (inevitable abortion)",
+  "icd_category": "O03.9 – Complete or unspecified spontaneous abortion without complication",
+  "one_liner": "A 26-year-old G2P1 at 9 weeks gestation presents with worsening vaginal bleeding, crampy lower abdominal pain, and a dilated cervical os with tissue at the os on examination.",
+  "stage2": {
+    "hpi_extension": "The patient reports vaginal bleeding that began as light spotting 3 days ago and has progressively worsened to heavy bleeding with passage of small clots. She has developed crampy, midline lower abdominal pain that is rhythmic, rated 6/10, and has been increasing in intensity. She confirmed pregnancy 3 weeks ago with a home test and had a dating ultrasound at 7 weeks showing a viable intrauterine pregnancy with cardiac activity. She has soaked through 4 pads in the past 3 hours. She has no fever, lightheadedness, or syncope. Her first pregnancy resulted in an uncomplicated term vaginal delivery 2 years ago. She has no history of miscarriage or ectopic pregnancy.",
+    "pmh": "G2P1001. Regular menstrual cycles. First pregnancy uncomplicated. No history of cervical procedures or uterine anomalies.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of recurrent pregnancy loss or bleeding disorders.",
+    "social_history": "Works as a nurse. Non-smoker. No alcohol during pregnancy. Lives with partner and toddler.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "96 bpm",
+      "bp": "110/70 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "64 kg, BMI 23.8 kg/m²"
+    },
+    "physical_exam": "General: Tearful but alert woman in mild distress from cramping. HEENT: No pallor. Cardiovascular: Mildly tachycardic, regular rhythm. Pulmonary: Clear to auscultation. Abdomen: Soft; mild suprapubic tenderness; no guarding or rebound; bowel sounds present. Pelvic examination: Moderate amount of bright red blood in the vaginal vault with small clots; cervical os is dilated to approximately 2 cm with tissue visible at the os; active bleeding from the os; uterus is approximately 8-week size and mildly tender; no adnexal tenderness or masses. Extremities: Warm, capillary refill <2 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serum β-hCG (quantitative)",
+        "result": "12,400 mIU/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "β-hCG is still positive; trending levels can confirm declining pregnancy. A single value does not determine viability — clinical and ultrasound findings are more informative."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 9.5 × 10³/µL, Hgb 11.2 g/dL, Plt 235 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Hemoglobin is acceptable; serial monitoring is warranted given ongoing heavy bleeding."
+      },
+      {
+        "test_name": "Blood type and screen",
+        "result": "B negative, antibody screen negative",
+        "flag": "WNL",
+        "clinical_significance": "Rh-negative status requires RhoGAM (anti-D immunoglobulin) administration to prevent Rh alloimmunization."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 12.0 sec, INR 1.0, PTT 27 sec",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; no evidence of consumptive coagulopathy."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138, K 4.1, Cl 103, CO2 24, BUN 9, Cr 0.7, Glucose 92",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Trace blood (likely contamination from vaginal bleeding), otherwise normal",
+        "flag": "WNL",
+        "clinical_significance": "Trace blood on UA is expected with concurrent vaginal bleeding; no evidence of UTI."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Intrauterine gestational sac with a 15-mm embryo (CRL consistent with 8 weeks). No fetal cardiac activity detected. Gestational sac is low in the uterine cavity near the dilated internal os. Small amount of echogenic material (blood/clot) in the endometrial cavity. Both ovaries normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Embryo with CRL >7 mm without cardiac activity confirms fetal demise. Low position of the sac near the dilated os is consistent with inevitable miscarriage in progress."
+      }
+    ],
+    "key_tests": [
+      "Transvaginal ultrasound (confirm intrauterine pregnancy, assess viability)",
+      "Serum β-hCG (quantitative)",
+      "Blood type and Rh status"
+    ],
+    "acceptable_tests": [
+      "CBC with hemoglobin",
+      "Coagulation studies",
+      "BMP",
+      "Urinalysis",
+      "Cervical exam (assess os dilation and tissue at os)"
+    ],
+    "low_yield_tests": [
+      "Progesterone level (does not change management in active miscarriage)",
+      "CT pelvis",
+      "Endometrial biopsy (not indicated during active miscarriage)",
+      "Serum hCG trending (diagnosis is already established clinically and by ultrasound)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "The tissue at the cervical os is gently removed with ring forceps, resulting in decreased bleeding. Pathology of the passed tissue confirms chorionic villi, consistent with products of conception. Repeat ultrasound 1 week later shows a thin endometrium with no retained products, confirming a complete miscarriage."
+  },
+  "debrief": {
+    "classic_presentation": "Inevitable miscarriage presents with vaginal bleeding (often heavy with clots), crampy lower abdominal pain, and a dilated cervical os with or without visible tissue at the os. It is distinguished from threatened miscarriage (closed os, bleeding but fetus may still be viable) and incomplete miscarriage (some but not all products passed). It most commonly occurs in the first trimester. Approximately 10-20% of clinically recognized pregnancies end in miscarriage, with the majority occurring before 12 weeks.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Most first-trimester miscarriages (50-60%) are due to chromosomal abnormalities of the embryo (trisomies are the most common, followed by monosomy X and triploidy). The abnormal embryo fails to develop properly, leading to fetal demise. The decidua separates from the nonviable pregnancy, causing hemorrhage into the decidua basalis. Uterine contractions (cramping) are stimulated by prostaglandins released from the disrupted decidua and serve to expel the pregnancy tissue. As the process progresses, the internal cervical os dilates under pressure from contractions and tissue, defining the transition from threatened to inevitable miscarriage. Once the os is dilated, the process cannot be reversed.",
+    "treatment_overview": "Management of inevitable miscarriage includes three options: (1) Expectant management — allow natural passage of tissue with close follow-up; most complete spontaneously within 1-2 weeks. (2) Medical management — misoprostol 800 mcg vaginally (success rate 80-85% at 7 days). (3) Surgical management — uterine aspiration (manual vacuum aspiration or suction curettage) for heavy bleeding, hemodynamic instability, patient preference, or suspected infection. If tissue is at the os, it should be gently removed with ring forceps (can reduce bleeding). RhoGAM (300 mcg IM) must be administered to all Rh-negative patients within 72 hours. Emotional support and grief counseling should be offered. Pathologic examination of passed tissue confirms products of conception and excludes ectopic pregnancy or gestational trophoblastic disease.",
+    "high_yield_pearls": [
+      "A dilated cervical os in the setting of first-trimester bleeding defines an inevitable miscarriage — the process is irreversible once the os is dilated, regardless of fetal cardiac activity on ultrasound.",
+      "Always send passed tissue for pathologic examination — confirmation of chorionic villi establishes that the pregnancy was intrauterine and excludes ectopic pregnancy or gestational trophoblastic disease.",
+      "RhoGAM (anti-D immunoglobulin) must be given to all Rh-negative patients experiencing any pregnancy bleeding event, including miscarriage, to prevent Rh alloimmunization.",
+      "Most first-trimester miscarriages are caused by fetal chromosomal abnormalities — patients should be reassured that miscarriage is common and not caused by their actions.",
+      "Tissue protruding from the cervical os can cause a vasovagal response (cervical shock) — gently removing it with ring forceps can improve hemodynamics and reduce bleeding."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 200: Early Pregnancy Loss (2018)",
+      "UpToDate: Pregnancy loss (miscarriage): Terminology, risk factors, and etiology",
+      "UpToDate: Pregnancy loss (miscarriage): Clinical presentations, diagnosis, and initial evaluation",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Inevitable miscarriage",
+      "Threatened miscarriage",
+      "Incomplete miscarriage",
+      "Ectopic pregnancy",
+      "Cervical polyp bleeding",
+      "Gestational trophoblastic disease"
+    ],
+    "after_stage2_more_likely": [
+      "Inevitable miscarriage (heavy bleeding with clots, dilated os, tissue at os, crampy pain in confirmed first-trimester pregnancy)",
+      "Incomplete miscarriage (similar presentation; distinction depends on whether all products have been passed)"
+    ],
+    "after_stage2_less_likely": [
+      "Threatened miscarriage (os is dilated and tissue is present — this is beyond the threatened stage)",
+      "Ectopic pregnancy (prior ultrasound confirmed intrauterine pregnancy at 7 weeks)",
+      "Cervical polyp (heavy bleeding with dilated os and tissue is not consistent with a simple polyp)"
+    ],
+    "after_labs_top3": [
+      "Inevitable miscarriage (confirmed by ultrasound showing non-viable intrauterine pregnancy near dilated os)",
+      "Incomplete miscarriage (will need follow-up to confirm complete passage of all tissue)",
+      "Missed miscarriage with subsequent expulsion (fetal demise was present but expulsion process has begun)"
+    ]
+  }
+}

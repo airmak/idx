@@ -1,0 +1,111 @@
+{
+  "case_id": "case_153",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Neurosyphilis",
+  "icd_category": "A52.13 — Late syphilitic meningitis",
+  "one_liner": "A 48-year-old HIV-positive male presents with progressive cognitive decline, personality changes, unsteady gait, and Argyll Robertson pupils, with a reactive RPR and highly reactive CSF VDRL.",
+  "stage2": {
+    "hpi_extension": "The patient's partner reports 6 months of progressive personality changes, including irritability, paranoid ideation, poor judgment, and forgetfulness. The patient has missed several appointments and recently was fired from his job due to erratic behavior. He has developed an unsteady, wide-based gait and occasional urinary incontinence over the past 2 months. He was diagnosed with HIV 12 years ago and has been on ART with good viral suppression (last viral load undetectable 6 months ago). His CD4 count was 380 six months ago. He was treated for primary syphilis (single IM benzathine penicillin) 4 years ago but was lost to follow-up for serologic monitoring. He denies headache, visual changes, seizures, or acute fever. He continues to be sexually active with multiple male partners.",
+    "pmh": "HIV (well-controlled on ART), treated primary syphilis (4 years ago), depression, hyperlipidemia.",
+    "surgical_history": "None.",
+    "medications": "Bictegravir/emtricitabine/tenofovir alafenamide (Biktarvy) daily, rosuvastatin 10 mg daily, sertraline 100 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father with Alzheimer disease (onset age 72).",
+    "social_history": "Graphic designer. MSM, sexually active with multiple partners. No condom use. Non-smoker. Moderate alcohol (2-3 drinks on weekends). No illicit drugs.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "74 bpm",
+      "bp": "132/80 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "76 kg, BMI 24.6"
+    },
+    "physical_exam": "Alert but with tangential speech, poor attention, and difficulty with serial 7s. Mini-Mental Status Exam score 22/30 (impaired in attention, recall, and visuospatial function). Bilateral Argyll Robertson pupils: small, irregular, accommodate but do not react to light. Mild bilateral intention tremor. Wide-based, ataxic gait. Romberg positive. Deep tendon reflexes 3+ at bilateral knees and ankles. Bilateral extensor plantar responses (Babinski sign positive). No cranial nerve palsies. No rash, condylomata, or mucosal lesions. No lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum RPR", "result": "Reactive, titer 1:64", "flag": "ABNORMAL", "clinical_significance": "High-titer RPR indicates active syphilitic disease; prior treatment should have resulted in titer decline"},
+      {"test_name": "Serum FTA-ABS", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Confirmatory treponemal test; remains positive for life once reactive"},
+      {"test_name": "CSF VDRL", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Reactive CSF VDRL is highly specific for neurosyphilis (specificity ~99%); this is the single most important confirmatory test"},
+      {"test_name": "CSF Cell Count", "result": "48 WBC/μL (92% lymphocytes)", "flag": "HIGH", "clinical_significance": "Lymphocytic pleocytosis strongly supports active CNS syphilitic infection"},
+      {"test_name": "CSF Protein", "result": "82 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated CSF protein consistent with CNS inflammation from neurosyphilis"},
+      {"test_name": "CSF Glucose", "result": "52 mg/dL (serum glucose 96 mg/dL)", "flag": "WNL", "clinical_significance": "Normal to mildly low CSF glucose; severe hypoglycorrhachia is atypical for neurosyphilis"},
+      {"test_name": "CSF FTA-ABS", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive but less specific than CSF VDRL; useful to exclude neurosyphilis if negative"},
+      {"test_name": "CD4 Count", "result": "410 cells/μL", "flag": "WNL", "clinical_significance": "Adequate CD4 count; neurosyphilis can occur at any CD4 level in HIV co-infection"},
+      {"test_name": "HIV Viral Load", "result": "<20 copies/mL (undetectable)", "flag": "WNL", "clinical_significance": "Well-suppressed HIV; neurosyphilis is occurring despite viral control"},
+      {"test_name": "CBC", "result": "WBC 6,200/μL, Hgb 13.8 g/dL, Plt 224,000/μL", "flag": "WNL", "clinical_significance": "Normal peripheral blood counts"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Brain with Gadolinium", "result": "Diffuse cortical atrophy disproportionate to age. Bilateral medial temporal lobe volume loss. Mild periventricular and subcortical white matter T2/FLAIR hyperintensities. Leptomeningeal enhancement noted over the frontal and temporal convexities. No mass lesions or acute infarcts.", "flag": "ABNORMAL", "clinical_significance": "Cortical atrophy and leptomeningeal enhancement consistent with chronic meningoencephalitic neurosyphilis (general paresis)"},
+      {"test_name": "MRI Spine (Cervical/Thoracic)", "result": "No cord compression. Mild posterior column signal abnormality at T8-T10.", "flag": "ABNORMAL", "clinical_significance": "Posterior column changes may reflect early tabes dorsalis component"}
+    ],
+    "key_tests": [
+      "Serum RPR/VDRL with titer (screening and monitoring)",
+      "Serum treponemal test (FTA-ABS or TP-PA) for confirmation",
+      "Lumbar puncture with CSF VDRL (most specific CSF test for neurosyphilis)",
+      "CSF cell count, protein, glucose",
+      "MRI brain with gadolinium"
+    ],
+    "acceptable_tests": [
+      "CSF FTA-ABS (sensitive but less specific; useful to rule out neurosyphilis if negative)",
+      "HIV viral load and CD4 count",
+      "Neuropsychological testing",
+      "Visual acuity and slit-lamp exam (ocular syphilis screening)",
+      "Audiometry (otosyphilis screening)",
+      "CBC and CMP"
+    ],
+    "low_yield_tests": [
+      "CT head without contrast (inferior to MRI for leptomeningeal and parenchymal detail)",
+      "EEG (non-specific findings)",
+      "Serum VDRL alone (cannot diagnose neurosyphilis without CSF examination)",
+      "Brain biopsy (not needed with positive CSF VDRL)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "An HIV-positive male with previously treated primary syphilis (lost to serologic follow-up) presenting with progressive dementia, personality changes, ataxic gait, Argyll Robertson pupils, hyperreflexia, and Babinski signs. High serum RPR (1:64), reactive CSF VDRL, CSF lymphocytic pleocytosis, and MRI showing cortical atrophy with leptomeningeal enhancement confirm late neurosyphilis, specifically general paresis of the insane (syphilitic dementia). The combination of Argyll Robertson pupils (accommodate but don't react to light) with progressive dementia is pathognomonic."
+  },
+  "debrief": {
+    "classic_presentation": "Neurosyphilis has multiple clinical forms: (1) Asymptomatic neurosyphilis (CSF abnormalities without symptoms); (2) Meningeal neurosyphilis (headache, cranial neuropathies); (3) Meningovascular neurosyphilis (stroke-like syndromes in young patients); (4) General paresis (progressive dementia, personality changes, Argyll Robertson pupils — 'the great imitator'); (5) Tabes dorsalis (lightning pains, ataxia, bladder dysfunction, Charcot joints). This case demonstrates general paresis, the most severe parenchymatous form, classically described by the mnemonic PARESIS: Personality, Affect, Reflexes (hyperactive), Eye (Argyll Robertson pupils), Sensorium (delusions/hallucinations), Intellect (decreased), Speech (slurred).",
+    "attending_mode_notes": "Argyll Robertson pupils are the hallmark of neurosyphilis — they are small, irregular, and accommodate but do not react to light (light-near dissociation). The mechanism involves selective damage to pretectal neurons in the midbrain while sparing the accommodation pathway. HIV co-infection significantly increases the risk of neurosyphilis: (1) syphilis may progress to neurosyphilis more rapidly, (2) treatment failure is more common, and (3) neurosyphilis can occur at any CD4 level. The CSF VDRL has ~99% specificity but only ~30-70% sensitivity — a negative CSF VDRL does NOT exclude neurosyphilis. In contrast, a negative CSF FTA-ABS essentially rules out neurosyphilis (high sensitivity, ~99%). In HIV-positive patients with syphilis: lumbar puncture is recommended for any neurologic or ophthalmologic symptoms, treatment failure (RPR titer fails to decline 4-fold by 6-12 months), RPR ≥1:32, or CD4 <350. This patient's failure of RPR to decline after treatment was a missed signal. Post-treatment monitoring: repeat LP every 6 months until CSF normalizes; CSF WBC is the first parameter to improve.",
+    "pathophysiology": "Treponema pallidum, a spirochete, invades the CNS within hours to days of initial infection (CSF abnormalities are found in up to 40% of early syphilis). In most immunocompetent patients, the immune response clears the spirochete from the CNS. However, in some individuals (especially HIV co-infected), T. pallidum persists in the CNS. Early neurosyphilis (months to years) involves meningeal and vascular inflammation (meningitis, cranial neuropathy, meningovascular stroke). Late neurosyphilis (years to decades) involves parenchymal destruction of the brain (general paresis) or spinal cord (tabes dorsalis). General paresis results from direct spirochetal invasion and destruction of cortical neurons, producing progressive encephalitis with neuronal loss, cortical gliosis, and reactive inflammatory infiltration. Argyll Robertson pupils result from damage to the pretectal nuclei in the dorsal midbrain, disrupting the pupillary light reflex while preserving the near-accommodation reflex.",
+    "treatment_overview": "Neurosyphilis treatment: aqueous crystalline penicillin G 18-24 million units/day IV (3-4 million units Q4h) for 10-14 days. Alternative (if penicillin allergy): ceftriaxone 2g IV daily for 10-14 days (though efficacy data is limited). True penicillin allergy: consider penicillin desensitization. Following IV therapy, some experts add benzathine penicillin G 2.4 million units IM weekly for 3 doses. Post-treatment monitoring: repeat LP at 6-month intervals until CSF normalization (WBC normalizes first, protein next, VDRL last). In HIV patients, CSF should normalize within 2 years. Failure: CSF WBC not declining at 6 months or CSF not normalized by 2 years warrants retreatment. Continue ART. Cognitive decline may stabilize or partially improve but is often not fully reversible, especially in advanced general paresis. Partner notification and treatment.",
+    "high_yield_pearls": [
+      "Argyll Robertson pupils (accommodate but do not react to light) are the hallmark of neurosyphilis; this finding is almost never seen in any other condition.",
+      "A reactive CSF VDRL is highly specific (~99%) for neurosyphilis, but sensitivity is only 30-70% — a negative CSF VDRL does NOT exclude neurosyphilis.",
+      "In HIV-positive patients, the risk of neurosyphilis is significantly increased, and syphilis may progress more rapidly to late forms; LP should be performed for any neurologic/ophthalmic symptoms or treatment failure.",
+      "The RPR/VDRL titer should decline 4-fold within 6-12 months after adequate treatment; failure to decline warrants LP to evaluate for neurosyphilis.",
+      "General paresis can mimic Alzheimer disease, frontotemporal dementia, or psychiatric illness — always check RPR in the workup of early-onset dementia, especially with risk factors."
+    ],
+    "sources": [
+      "Workowski KA et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187.",
+      "Ropper AH. Neurosyphilis. N Engl J Med. 2019;381(14):1358-1363.",
+      "UpToDate: Neurosyphilis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Neurosyphilis (general paresis)",
+      "HIV-associated neurocognitive disorder (HAND)",
+      "Progressive multifocal leukoencephalopathy (PML)",
+      "CNS lymphoma",
+      "Early-onset Alzheimer disease",
+      "Frontotemporal dementia",
+      "Autoimmune encephalitis",
+      "Normal pressure hydrocephalus"
+    ],
+    "after_stage2_more_likely": [
+      "Neurosyphilis — progressive dementia with personality change, Argyll Robertson pupils, hyperreflexia, Babinski signs, and ataxia in an HIV-positive MSM with prior syphilis; highly specific pupillary findings",
+      "HIV-associated neurocognitive disorder — progressive cognitive decline in an HIV patient, but Argyll Robertson pupils and hyperreflexia with Babinski signs point toward another diagnosis"
+    ],
+    "after_stage2_less_likely": [
+      "PML — typically presents with focal neurologic deficits (not diffuse dementia); associated with very low CD4 counts (<200), but this patient's CD4 is 410",
+      "Normal pressure hydrocephalus — classic triad of dementia, gait disturbance, urinary incontinence overlaps, but Argyll Robertson pupils and Babinski signs are not part of NPH"
+    ],
+    "after_labs_top3": [
+      "Neurosyphilis (general paresis) — reactive CSF VDRL, CSF lymphocytic pleocytosis, elevated CSF protein, high serum RPR (1:64), leptomeningeal enhancement on MRI, and pathognomonic Argyll Robertson pupils",
+      "HIV-associated neurocognitive disorder — cannot fully explain CSF findings or pupillary abnormalities; may coexist but not the primary diagnosis",
+      "Autoimmune encephalitis — CSF pleocytosis can overlap, but reactive CSF VDRL and high RPR titer confirm syphilitic etiology"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "case_id": "case_205",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Placenta previa (complete)",
+  "icd_category": "O44.10 – Complete placenta previa without hemorrhage",
+  "one_liner": "A 34-year-old G3P2 at 32 weeks gestation presents with sudden painless bright red vaginal bleeding without contractions; ultrasound reveals a complete placenta previa.",
+  "stage2": {
+    "hpi_extension": "The patient awoke from sleep 2 hours ago with bright red blood saturating her underwear and bed sheets. She estimates she has soaked through 3 pads since then. The bleeding occurred without any preceding pain, contractions, or trauma. She has had no recent intercourse or vaginal examinations. She felt normal fetal movement earlier in the evening. She was diagnosed with a low-lying placenta on her 20-week anatomy scan and was told it would likely resolve. She had a small episode of vaginal spotting at 26 weeks that resolved spontaneously. Her prior two deliveries were uncomplicated vaginal births.",
+    "pmh": "G3P2002. Two prior uncomplicated vaginal deliveries. Low-lying placenta identified at 20-week anatomy scan. No history of hypertension, diabetes, or coagulopathy.",
+    "surgical_history": "Two prior dilation and curettage procedures for missed miscarriages before her successful pregnancies.",
+    "medications": "Prenatal vitamins. Iron supplementation.",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of placental disorders or bleeding conditions.",
+    "social_history": "Stay-at-home mother. Non-smoker. No alcohol or illicit drug use. Lives with spouse and two children.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "102 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "76 kg, BMI 27.5 kg/m²"
+    },
+    "physical_exam": "General: Anxious-appearing gravid female, mildly pale; no acute distress. HEENT: Pale conjunctivae; moist mucous membranes. Cardiovascular: Mildly tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Gravid uterus consistent with 32 weeks; soft, non-tender; no uterine contractions palpated. Digital cervical examination NOT performed (contraindicated in suspected placenta previa). Speculum examination: Active bright red bleeding from a closed cervical os; no cervical lesions or lacerations visible. Extremities: Warm, mild tachycardia but no overt signs of shock. Fetal monitoring: FHR 148 bpm, category I tracing, no decelerations; tocometer shows no contractions."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC",
+        "result": "WBC 10.2 × 10³/µL, Hgb 9.8 g/dL, Plt 215 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Hemoglobin below expected pregnancy range suggests significant blood loss; serial monitoring is essential."
+      },
+      {
+        "test_name": "Blood type and crossmatch",
+        "result": "A positive, antibody screen negative, 2 units pRBC crossmatched",
+        "flag": "WNL",
+        "clinical_significance": "Blood products should be immediately available for transfusion given active hemorrhage."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 12.5 sec, INR 1.0, PTT 28 sec, Fibrinogen 385 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation profile excludes coagulopathy; fibrinogen is an important marker as it drops early in obstetric DIC."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 137, K 3.9, Cl 102, CO2 22, BUN 10, Cr 0.6, Glucose 95",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function."
+      },
+      {
+        "test_name": "Kleihauer-Betke test",
+        "result": "Negative (0.0% fetal cells)",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of fetomaternal hemorrhage; this test is particularly important in Rh-negative patients to guide RhoGAM dosing."
+      },
+      {
+        "test_name": "Reticulocyte count",
+        "result": "2.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Appropriate reticulocyte response to blood loss anemia."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transabdominal ultrasound",
+        "result": "Single live intrauterine pregnancy at 32 weeks 1 day. Placenta is anterior and completely covering the internal cervical os (complete placenta previa). No evidence of placenta accreta on grayscale imaging (normal hypoechoic retroplacental clear zone preserved). Estimated fetal weight 1,850 g (45th percentile). AFI 14 cm (normal). Fetal presentation is breech.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Complete placenta previa confirmed. The placenta completely covers the internal os, mandating cesarean delivery. The intact retroplacental clear zone is reassuring against accreta."
+      },
+      {
+        "test_name": "Transvaginal ultrasound (limited, with caution)",
+        "result": "Placental edge extends 28 mm beyond the internal os bilaterally, confirming complete previa. Cervical length 32 mm (closed).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "TVUS is safe in placenta previa (the probe does not enter the cervical canal) and provides more precise localization of the placental edge relative to the os."
+      }
+    ],
+    "key_tests": [
+      "Transabdominal and/or transvaginal ultrasound (placental localization)",
+      "CBC with hemoglobin (serial)",
+      "Blood type and crossmatch",
+      "Continuous fetal heart rate monitoring"
+    ],
+    "acceptable_tests": [
+      "Coagulation studies (PT/PTT/fibrinogen)",
+      "Kleihauer-Betke test",
+      "BMP",
+      "Rh status (for RhoGAM administration if Rh-negative)",
+      "Betamethasone administration (if <37 weeks for fetal lung maturity)"
+    ],
+    "low_yield_tests": [
+      "Digital cervical examination (CONTRAINDICATED — can provoke massive hemorrhage)",
+      "CT pelvis",
+      "Amniocentesis for lung maturity",
+      "MRI pelvis (reserved for accreta evaluation if suspected)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "The patient's bleeding slows after bed rest and IV fluid resuscitation. She receives betamethasone for fetal lung maturity. At 36 weeks, after a second episode of heavier bleeding requiring transfusion, a planned cesarean delivery is performed, confirming a complete anterior placenta previa with no evidence of accreta."
+  },
+  "debrief": {
+    "classic_presentation": "Placenta previa classically presents with painless, bright red vaginal bleeding in the late second or third trimester. The bleeding is typically sudden, unprovoked, and may be recurrent with increasing severity. The uterus is soft and non-tender (unlike placental abruption). Fetal heart tones are usually reassuring unless hemorrhage is massive. Risk factors include prior cesarean delivery, prior uterine surgery, multiparity, advanced maternal age, and prior placenta previa.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Placenta previa occurs when the placenta implants over or near the internal cervical os. As the lower uterine segment develops and thins in the third trimester, the placenta separates from the thinning decidua, disrupting the maternal blood sinuses and causing hemorrhage. The bleeding is maternal in origin (disrupted spiral arteries at the placental-decidual interface). Complete previa completely covers the os; marginal previa reaches but does not cover the os. Low-lying placenta is within 2 cm of the os. Placental migration (apparent upward movement of the placental edge as the lower segment elongates) occurs in most low-lying placentas but rarely in complete previa.",
+    "treatment_overview": "Initial management includes hemodynamic stabilization (large-bore IV access, crystalloid resuscitation, blood transfusion as needed), continuous fetal monitoring, and strict avoidance of digital cervical examination. Betamethasone is administered if <37 weeks for fetal lung maturation. If bleeding stops, expectant management with pelvic rest, activity restriction, and serial ultrasounds is pursued to extend gestation. Tocolytics may be considered cautiously if preterm contractions develop without active hemorrhage. Delivery is by planned cesarean section at 36-37 weeks for uncomplicated complete previa (ACOG recommendation). Emergent cesarean is indicated for massive hemorrhage, hemodynamic instability, or non-reassuring fetal status at any gestational age. Anti-D immunoglobulin (RhoGAM) should be given to Rh-negative patients.",
+    "high_yield_pearls": [
+      "Painless bright red vaginal bleeding in the third trimester is placenta previa until proven otherwise — NEVER perform a digital cervical exam until placenta previa has been excluded by ultrasound.",
+      "Transvaginal ultrasound is safe in placenta previa and is more accurate than transabdominal ultrasound for determining the relationship of the placental edge to the internal os.",
+      "Prior cesarean delivery and prior uterine surgery (D&C, myomectomy) are the strongest risk factors for placenta previa — the risk increases with each additional cesarean section.",
+      "Complete placenta previa at 32+ weeks is very unlikely to resolve — planned cesarean delivery at 36-37 weeks is standard of care.",
+      "Placenta previa in the setting of prior cesarean scar should raise suspicion for placenta accreta spectrum (accreta, increta, percreta), which requires evaluation with ultrasound and potentially MRI."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin: Placenta Previa and Accreta Spectrum",
+      "UpToDate: Placenta previa: Epidemiology, clinical features, diagnosis, morbidity and mortality",
+      "UpToDate: Placenta previa: Management",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Placenta previa",
+      "Placental abruption",
+      "Vasa previa",
+      "Cervical insufficiency",
+      "Cervical polyp or ectropion",
+      "Bloody show (onset of labor)"
+    ],
+    "after_stage2_more_likely": [
+      "Placenta previa (painless bright red bleeding, soft non-tender uterus, known low-lying placenta at 20 weeks, prior D&C procedures)",
+      "Vasa previa (painless bleeding, though typically occurs with membrane rupture)"
+    ],
+    "after_stage2_less_likely": [
+      "Placental abruption (uterus is soft and non-tender with no contractions; abruption typically presents with painful, tender, rigid uterus)",
+      "Cervical pathology (speculum exam shows bleeding from os, no cervical lesions)",
+      "Bloody show (no contractions, cervix is closed)"
+    ],
+    "after_labs_top3": [
+      "Complete placenta previa (confirmed by ultrasound showing placenta covering the internal os)",
+      "Marginal placenta previa (excluded — placenta extends well beyond the os bilaterally)",
+      "Placenta accreta spectrum (no ultrasound features of accreta, but continued surveillance is warranted given prior uterine procedures)"
+    ]
+  }
+}

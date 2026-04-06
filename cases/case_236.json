@@ -1,0 +1,116 @@
+{
+  "case_id": "case_236",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Wernicke encephalopathy",
+  "icd_category": "E51.2 — Wernicke encephalopathy",
+  "one_liner": "A 49-year-old man with chronic alcohol use disorder presents with acute confusion, bilateral lateral gaze palsy, and gait ataxia following a 2-week binge with poor nutritional intake.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the emergency department by paramedics after being found wandering in a parking lot, confused and unable to walk steadily. His roommate reports that the patient has been drinking heavily for the past 2 weeks (approximately a fifth of vodka daily) with virtually no food intake. Over the past 2 days, the roommate noticed he became increasingly confused — unable to identify where he was, talking about events that never happened, and unable to walk without holding onto walls. The patient has a longstanding history of alcohol use disorder with multiple prior detox admissions. He lost his job 3 weeks ago, which precipitated the binge. He has not taken any vitamins or supplements. He denies use of illicit drugs. He is a poor historian due to his confusion.",
+    "pmh": "Alcohol use disorder, severe (20+ years). Alcohol withdrawal seizure (1 episode, 3 years ago). Chronic pancreatitis. Gastritis. Peripheral neuropathy. Prior admission for alcohol detox x4.",
+    "surgical_history": "None",
+    "medications": "None (non-adherent to previously prescribed thiamine and folate)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of cirrhosis at age 55. Mother with depression. Brother with alcohol use disorder.",
+    "social_history": "Unemployed, previously worked in construction. Lives with roommate. Divorced, two adult children (estranged). Smokes 1 pack per day for 25 years. Drinks approximately 1 fifth of vodka daily during binges, with periods of attempted sobriety. Denies IV drug use. Poor nutritional status; meals are irregular and often skipped during drinking periods.",
+    "vitals": {
+      "temp": "99.8°F (37.7°C)",
+      "hr": "108 bpm",
+      "bp": "102/64 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "148 lbs, BMI 21.2 kg/m²"
+    },
+    "physical_exam": "General: Cachectic, malodorous, ill-appearing man with poor hygiene. HEENT: Scleral icterus. Dry mucous membranes. Bilateral lateral rectus palsy (CN VI palsy) with horizontal nystagmus on lateral gaze. Pupils equal and reactive. Neck: No meningismus. No lymphadenopathy. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Mildly distended, tender in epigastrium, no hepatomegaly on palpation (liver edge not palpable), no ascites. Extremities: Mild bilateral pedal edema, spider angiomata on chest. Neurological: Bilateral CN VI palsy with horizontal nystagmus. Marked gait ataxia — wide-based, unable to tandem walk, requires assistance. Decreased vibratory sense in bilateral feet. Hyporeflexia in lower extremities. No asterixis. Mental Status Exam: Appearance — cachectic, poor hygiene. Behavior — passively cooperative, apathetic. Speech — slow, dysarthric. Mood — unable to articulate. Affect — flat, indifferent. Thought process — disorganized, confabulatory (describes events that did not occur with apparent conviction). Thought content — confabulation, no clear delusions. Perception — no hallucinations reported. Cognition — disoriented to time and place (knows name only), unable to register 3 objects, severely impaired attention. Insight — absent. Judgment — severely impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 10.2, Hgb 10.8, Hct 32.4, MCV 108 fL, Plt 98", "flag": "ABNORMAL", "clinical_significance": "Macrocytic anemia (MCV 108) suggestive of folate/B12 deficiency or alcohol effect; thrombocytopenia suggesting liver disease or alcohol marrow suppression"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 131, K 3.0, Cl 94, CO2 20, BUN 8, Cr 0.7, Glucose 68, Ca 7.8, AST 142, ALT 68, Alk Phos 185, Albumin 2.4, Total Bilirubin 2.8", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia, hypokalemia, hypoglycemia, hypocalcemia, elevated AST:ALT ratio (>2:1 classic for alcoholic liver disease), hypoalbuminemia indicating malnutrition and liver disease"},
+      {"test_name": "Magnesium", "result": "1.1 mg/dL", "flag": "LOW", "clinical_significance": "Severe hypomagnesemia — common in alcohol use disorder and contributes to neurological symptoms; must correct before thiamine will be effective"},
+      {"test_name": "Phosphorus", "result": "1.8 mg/dL", "flag": "LOW", "clinical_significance": "Hypophosphatemia from malnutrition and alcohol use"},
+      {"test_name": "Thiamine (Vitamin B1) level", "result": "28 nmol/L", "flag": "LOW", "clinical_significance": "Low thiamine level (normal 70-180 nmol/L) confirming thiamine deficiency — though treatment should not await results"},
+      {"test_name": "Blood alcohol level", "result": "180 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated blood alcohol confirming recent heavy intake; tolerance likely given relative sobriety at this level"},
+      {"test_name": "Lipase", "result": "85 U/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated consistent with chronic pancreatitis history"},
+      {"test_name": "INR/PT", "result": "INR 1.8, PT 21 seconds", "flag": "HIGH", "clinical_significance": "Elevated INR reflecting impaired hepatic synthetic function"},
+      {"test_name": "Ammonia", "result": "45 mcmol/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated but not sufficient to explain degree of encephalopathy; hepatic encephalopathy less likely as primary diagnosis"},
+      {"test_name": "Folate", "result": "3.2 ng/mL", "flag": "LOW", "clinical_significance": "Low folate contributing to macrocytic anemia; common in chronic alcohol use with poor nutrition"},
+      {"test_name": "Vitamin B12", "result": "320 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12 level; macrocytosis likely from folate deficiency and direct alcohol toxicity"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "Mild diffuse cerebral atrophy. No acute hemorrhage, mass, or midline shift.", "flag": "NON-SPECIFIC", "clinical_significance": "Rules out acute intracranial hemorrhage or mass lesion; atrophy consistent with chronic alcohol use"},
+      {"test_name": "MRI Brain with contrast", "result": "Symmetric hyperintensity on FLAIR and T2-weighted sequences in bilateral medial thalami, mammillary bodies, and periaqueductal gray matter. No restricted diffusion to suggest acute infarction.", "flag": "ABNORMAL", "clinical_significance": "Classic MRI findings of Wernicke encephalopathy — symmetric signal abnormality in periventricular regions, mammillary bodies, and medial thalami is highly specific"}
+    ],
+    "key_tests": [
+      "MRI Brain — revealing classic symmetric thalamic and mammillary body signal abnormality",
+      "Serum thiamine level — low at 28 nmol/L (though treatment must not be delayed for results)",
+      "CMP — revealing multi-electrolyte derangements and liver dysfunction",
+      "Magnesium level — severely depleted, must be repleted for thiamine to function as cofactor"
+    ],
+    "acceptable_tests": [
+      "CBC — macrocytic anemia and thrombocytopenia supporting chronic alcohol use and malnutrition",
+      "Blood alcohol level — confirming recent heavy use",
+      "Ammonia — to evaluate for hepatic encephalopathy",
+      "INR/PT — assessing hepatic synthetic function",
+      "Folate and B12 levels",
+      "CT Head — initial imaging to rule out hemorrhage",
+      "Lipase — evaluating for pancreatitis"
+    ],
+    "low_yield_tests": [
+      "EEG (clinical picture consistent with metabolic/nutritional encephalopathy, not seizure)",
+      "Lumbar puncture (no meningeal signs, afebrile presentation)",
+      "Urine drug screen (clinical picture clearly consistent with alcohol-related illness)",
+      "Blood cultures (no fever or localizing signs of infection)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The classic triad of Wernicke encephalopathy is present: encephalopathy (confusion, confabulation, disorientation), oculomotor dysfunction (bilateral CN VI palsy with nystagmus), and gait ataxia. The patient has clear risk factors (chronic alcohol use with prolonged poor nutritional intake), severely low thiamine level, and classic MRI findings (bilateral medial thalamic and mammillary body hyperintensity). The confabulation suggests early Korsakoff syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "An individual with chronic alcohol use disorder or another cause of thiamine deficiency presenting with the classic triad: (1) encephalopathy/confusion, (2) oculomotor dysfunction (nystagmus, lateral rectus palsy, conjugate gaze palsy), and (3) gait ataxia. However, the complete triad is present in only about 16% of cases — a high index of suspicion is critical. Confabulation suggests progression to Wernicke-Korsakoff syndrome.",
+    "attending_mode_notes": "The complete classic triad of Wernicke encephalopathy is present in only ~16% of cases — autopsy studies show 80% of cases are missed clinically. European guidelines (EFNS) recommend using the Caine criteria: any 2 of (1) dietary deficiency, (2) oculomotor abnormalities, (3) cerebellar dysfunction, (4) altered mental status or mild memory impairment — which increases sensitivity to 85%. CRITICAL: Give IV thiamine BEFORE glucose in any malnourished/alcoholic patient — glucose metabolism consumes thiamine and can precipitate or worsen Wernicke encephalopathy. The dose matters: prophylactic dosing (100 mg IV) is inadequate for treatment; established Wernicke requires high-dose IV thiamine (500 mg TID for 3-5 days). Magnesium must be repleted because it is a cofactor for thiamine-dependent enzymes. MRI is more sensitive than CT (53% vs 13%) and shows the pathognomonic pattern of mammillary body and medial thalamic involvement.",
+    "pathophysiology": "Thiamine (vitamin B1) is an essential cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase (both in the Krebs cycle), and transketolase (pentose phosphate pathway). Deficiency leads to impaired aerobic metabolism, ATP depletion, lactic acidosis, and cell death. Neurons in metabolically active, thiamine-dependent brain regions are most vulnerable: mammillary bodies, medial thalamus, periaqueductal gray, and superior cerebellar vermis. These regions correspond precisely to the clinical findings — thalamic/mammillary involvement causes amnesia and confabulation, periaqueductal lesions cause oculomotor dysfunction, and cerebellar vermis damage causes truncal ataxia. Body thiamine stores last only 18-20 days, so depletion can occur rapidly with poor intake.",
+    "treatment_overview": "EMERGENT: High-dose IV thiamine 500 mg TID for 3-5 days, then 250 mg IV daily for 3-5 days, then oral thiamine 100 mg TID ongoing. Give thiamine BEFORE any glucose-containing fluids. Concurrently replete magnesium (magnesium sulfate 2 g IV), potassium, and phosphorus. Manage alcohol withdrawal with CIWA-guided benzodiazepines if withdrawal symptoms develop. Nutritional rehabilitation with folate supplementation (1 mg daily), multivitamin, and adequate caloric intake. Address volume depletion with IV normal saline (avoid dextrose until after thiamine). Long-term: alcohol use disorder treatment (counseling, naltrexone or acamprosate), cognitive rehabilitation for residual Korsakoff amnesia if present. Korsakoff psychosis, if it develops, has a poor prognosis — only ~20% achieve full recovery.",
+    "high_yield_pearls": [
+      "The complete triad (encephalopathy + oculomotor dysfunction + ataxia) is present in only ~16% of Wernicke cases — have a low threshold to treat empirically in any at-risk patient with altered mental status.",
+      "ALWAYS give thiamine BEFORE glucose in malnourished or alcoholic patients — glucose metabolism depletes thiamine and can precipitate or worsen Wernicke encephalopathy.",
+      "Prophylactic thiamine dosing (100 mg) is insufficient for treatment — established Wernicke requires 500 mg IV TID for 3-5 days per Royal College of Physicians guidelines.",
+      "Magnesium must be repleted alongside thiamine — it is a required cofactor for thiamine-dependent enzymes, and hypomagnesemia is nearly universal in chronic alcoholism.",
+      "MRI finding of symmetric hyperintensity in mammillary bodies and medial thalami on T2/FLAIR is pathognomonic but has only ~53% sensitivity — a normal MRI does not exclude the diagnosis.",
+      "Wernicke encephalopathy is not exclusive to alcoholism — it occurs with hyperemesis gravidarum, bariatric surgery, malignancy, prolonged TPN without thiamine supplementation, and anorexia nervosa."
+    ],
+    "sources": [
+      "Galvin R et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol, 2010",
+      "Thomson AD, Marshall EJ. The natural history and pathophysiology of Wernicke's encephalopathy and Korsakoff's psychosis. Alcohol Alcohol, 2006",
+      "Caine D et al. Operational criteria for the classification of chronic alcoholics: identification of Wernicke's encephalopathy. J Neurol Neurosurg Psychiatry, 1997",
+      "Sechi G, Serra A. Wernicke's encephalopathy: new clinical settings and recent advances in diagnosis and management. Lancet Neurol, 2007",
+      "Stahl's Essential Psychopharmacology, 5th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Wernicke encephalopathy",
+      "Hepatic encephalopathy",
+      "Alcohol intoxication",
+      "Alcohol withdrawal delirium (delirium tremens)",
+      "Subdural hematoma",
+      "Hypoglycemic encephalopathy",
+      "Thiamine-responsive metabolic encephalopathy",
+      "Brainstem stroke"
+    ],
+    "after_stage2_more_likely": [
+      "Wernicke encephalopathy — classic triad (confusion, oculomotor dysfunction, ataxia) in a chronic alcoholic with 2 weeks of minimal nutrition",
+      "Hepatic encephalopathy — known liver disease, scleral icterus, spider angiomata"
+    ],
+    "after_stage2_less_likely": [
+      "Alcohol withdrawal delirium — patient is still actively drinking (BAL 180), not in withdrawal; no autonomic storm or agitation",
+      "Subdural hematoma — no reported head trauma, no focal neurological deficits suggesting mass effect",
+      "Brainstem stroke — gradual onset over days, bilateral symmetric findings inconsistent with vascular territory"
+    ],
+    "after_labs_top3": [
+      "Wernicke encephalopathy — low thiamine level, classic MRI findings (bilateral medial thalamic and mammillary body hyperintensity), classic clinical triad",
+      "Hepatic encephalopathy — elevated ammonia and impaired liver function but ammonia only mildly elevated and MRI findings are specific for Wernicke",
+      "Nutritional deficiency encephalopathy — low folate, electrolyte derangements contribute but do not explain the specific clinical triad"
+    ]
+  }
+}

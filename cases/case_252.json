@@ -1,0 +1,117 @@
+{
+  "case_id": "case_252",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Polymyalgia rheumatica",
+  "icd_category": "M35.3 — Polymyalgia rheumatica",
+  "one_liner": "A 72-year-old woman presents with 6 weeks of severe bilateral shoulder and hip girdle pain with morning stiffness lasting 2 hours, dramatically elevated ESR, and profound functional decline.",
+  "stage2": {
+    "hpi_extension": "The patient reports 6 weeks of bilateral shoulder and hip girdle pain that developed subacutely. The pain is severe (8/10), symmetric, and worst in the morning upon waking. She has profound morning stiffness lasting approximately 2 hours, during which she has difficulty raising her arms overhead, getting out of bed, and rising from a chair. The stiffness and pain improve somewhat with activity throughout the day but never fully resolve. She has noticed difficulty combing her hair, reaching cabinets, and dressing herself. She also reports significant fatigue, malaise, and a 6-pound unintentional weight loss. She denies headache, jaw claudication, visual changes, scalp tenderness, or temporal artery tenderness. She has not had any rash, Raynaud phenomenon, or joint swelling. She denies true muscle weakness — she can perform activities once the stiffness improves, indicating the limitation is pain-related rather than weakness-related.",
+    "pmh": "Hypertension. Osteoporosis (on alendronate). GERD.",
+    "surgical_history": "Total hysterectomy (age 52)",
+    "medications": "Amlodipine 5 mg daily, alendronate 70 mg weekly, omeprazole 20 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with rheumatoid arthritis. Father with coronary artery disease. No family history of GCA or vasculitis.",
+    "social_history": "Retired librarian. Lives with husband. Previously independent and active — walked 2 miles daily. Non-smoker. Occasional wine. No illicit drug use. Has had to stop walking due to pain and stiffness. Husband has been helping with dressing and grooming.",
+    "vitals": {
+      "temp": "99.4°F (37.4°C)",
+      "hr": "82 bpm",
+      "bp": "142/84 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "148 lbs, BMI 26.2 kg/m²"
+    },
+    "physical_exam": "General: Elderly woman in mild distress, moving slowly and deliberately. HEENT: Temporal arteries non-tender, non-thickened, with normal pulsation bilaterally. No scalp tenderness. Visual acuity intact. Fundoscopic exam normal. Neck: Mildly stiff with limited rotation. No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Musculoskeletal: Shoulders — marked pain with active range of motion (flexion limited to 90° due to pain), passive ROM slightly better. No warmth, erythema, or effusion. No deltoid atrophy. Hips — pain with active hip flexion and abduction. Difficulty rising from seated position without arm support. No trochanteric tenderness. Hands — no synovitis of MCPs, PIPs, or wrists. No nodules. Grip strength intact. Muscle strength — 5/5 in all groups when pain is overcome, confirming no true weakness. Neurological: Intact sensation, normal reflexes. Skin: No rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ESR (Westergren)", "result": "88 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated ESR — characteristic of PMR (typically >40, often >50 mm/hr); strongly supports diagnosis"},
+      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated CRP confirming systemic inflammation; CRP is more specific than ESR for PMR activity"},
+      {"test_name": "CBC with differential", "result": "WBC 9.2, Hgb 11.4, Hct 34.8, MCV 86 fL, Plt 410", "flag": "MILD ABNORMAL", "clinical_significance": "Normocytic anemia of chronic inflammation and reactive thrombocytosis — common findings in PMR"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 18, Cr 0.9, Glucose 108, Ca 9.2, AST 24, ALT 20, Alk Phos 110, Albumin 3.2", "flag": "MILD ABNORMAL", "clinical_significance": "Mildly elevated alk phos and low albumin — common in PMR from chronic inflammation; glucose 108 is baseline before starting steroids"},
+      {"test_name": "Rheumatoid Factor (RF)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative RF argues against late-onset rheumatoid arthritis"},
+      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative anti-CCP — important to distinguish PMR from seronegative RA (anti-CCP has higher specificity for RA)"},
+      {"test_name": "CPK", "result": "95 U/L", "flag": "WNL", "clinical_significance": "Normal CPK rules out inflammatory myopathy (polymyositis/dermatomyositis) as cause of proximal symptoms"},
+      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can cause myalgias and stiffness"},
+      {"test_name": "Protein electrophoresis (SPEP)", "result": "No monoclonal protein detected. Polyclonal gammopathy.", "flag": "WNL", "clinical_significance": "Rules out multiple myeloma, which can mimic PMR with bone pain and elevated ESR"},
+      {"test_name": "Vitamin D, 25-OH", "result": "18 ng/mL", "flag": "LOW", "clinical_significance": "Low vitamin D — relevant for bone health, especially before starting glucocorticoid therapy"}
+    ],
+    "imaging_results": [
+      {"test_name": "Ultrasound of bilateral shoulders", "result": "Bilateral subacromial/subdeltoid bursitis. Bilateral biceps tenosynovitis. No rotator cuff tear. No joint effusion.", "flag": "ABNORMAL", "clinical_significance": "Bilateral bursitis and tenosynovitis pattern is characteristic of PMR — ultrasound is increasingly used to support the diagnosis"},
+      {"test_name": "Chest X-ray", "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Rules out malignancy or infection as cause of constitutional symptoms and elevated ESR"}
+    ],
+    "key_tests": [
+      "ESR — 88 mm/hr, markedly elevated (hallmark of PMR)",
+      "CRP — 6.8, confirming systemic inflammation",
+      "CPK — normal, ruling out inflammatory myopathy",
+      "RF and Anti-CCP — both negative, distinguishing from late-onset RA",
+      "Dramatic response to low-dose prednisone — both diagnostic and therapeutic (improvement within 24-72 hours is expected)"
+    ],
+    "acceptable_tests": [
+      "CBC — showing anemia of chronic inflammation and thrombocytosis",
+      "CMP — baseline before glucocorticoid therapy",
+      "Shoulder ultrasound — showing bilateral bursitis supportive of PMR",
+      "SPEP — ruling out multiple myeloma",
+      "TSH — ruling out thyroid-related myalgias",
+      "Vitamin D — assessing bone health before steroids",
+      "Chest X-ray — age-appropriate screening in setting of constitutional symptoms"
+    ],
+    "low_yield_tests": [
+      "ANA (not typically elevated in PMR; would suggest SLE or other connective tissue disease)",
+      "EMG/Nerve conduction studies (no weakness or neuropathy; myalgias, not myopathy)",
+      "Muscle biopsy (CPK is normal; PMR is not a myopathy)",
+      "MRI shoulders (ultrasound is sufficient and preferred for PMR evaluation)",
+      "Temporal artery biopsy (no symptoms of GCA — headache, jaw claudication, visual changes)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets the 2012 ACR/EULAR classification criteria for polymyalgia rheumatica: age >50, bilateral shoulder and hip girdle pain/stiffness, morning stiffness >45 minutes, ESR markedly elevated (88 mm/hr), elevated CRP, normal CPK (excluding myopathy), and negative RF/anti-CCP (excluding RA). Bilateral subacromial bursitis on ultrasound is a supportive finding. The absence of GCA symptoms (no headache, jaw claudication, visual changes, or temporal artery tenderness) is reassuring but requires ongoing monitoring."
+  },
+  "debrief": {
+    "classic_presentation": "A patient over age 50 (peak incidence 70-80) with subacute onset of bilateral, symmetric shoulder and hip girdle pain with severe morning stiffness (>45 minutes), dramatic elevation of ESR (>40-50 mm/hr), and constitutional symptoms (fatigue, weight loss, low-grade fever). The pain is primarily articular/periarticular (bursitis, tenosynovitis), not muscular — CPK is characteristically normal. Functional limitation is due to pain, not true weakness. Women are affected 2-3 times more often than men. Response to low-dose prednisone (15-20 mg/day) is typically rapid and dramatic (within 24-72 hours), serving as both therapeutic and diagnostic confirmation.",
+    "attending_mode_notes": "The critical clinical considerations in PMR are: (1) ALWAYS evaluate for giant cell arteritis (GCA) — PMR and GCA exist on a spectrum; approximately 15-20% of PMR patients develop GCA, and 50% of GCA patients have PMR symptoms. At every visit, ask about headache, jaw claudication, visual disturbance, and scalp tenderness. If GCA is suspected, start high-dose prednisone (1 mg/kg, not 15 mg) immediately and obtain temporal artery biopsy within 2 weeks. (2) PMR is a diagnosis of exclusion — the differential includes late-onset RA (check anti-CCP), polymyositis/dermatomyositis (check CPK), malignancy (PMR-like presentation can be paraneoplastic), infection (endocarditis), and hypothyroidism. (3) Steroid management is the main challenge: most patients require 1-2 years of treatment, with very gradual taper (no more than 1 mg/month below 10 mg). Relapse rate is ~50% during taper. (4) Steroid side effects must be proactively managed: glucose monitoring, bone density preservation (vitamin D, calcium, consider bisphosphonate), PPI for GI protection, and infection surveillance. (5) PET-CT may show large-vessel vasculitis in PMR patients without overt GCA symptoms.",
+    "pathophysiology": "PMR is an immune-mediated inflammatory condition predominantly affecting the synovial structures of the proximal joints and adjacent bursae. The inflammation targets subacromial/subdeltoid bursae, hip trochanteric bursae, and biceps tendon sheaths. Histopathologically, there is macrophage and T-cell infiltration of the synovial membrane and periarticular structures, with upregulation of IL-6, IL-1, and TNF-alpha. IL-6 is the principal driver of systemic inflammation and the acute-phase response (explaining dramatically elevated ESR and CRP). The disease is strongly associated with HLA-DR4 and shares genetic susceptibility with GCA. The relationship with GCA suggests a continuum of vasculitis, with PMR representing an extracranial, periarticular-predominant form and GCA representing cranial arteritis, with some patients exhibiting both.",
+    "treatment_overview": "Initial treatment: prednisone 15-20 mg/day (NOT higher, as higher doses suggest an alternative diagnosis). Dramatic improvement within 24-72 hours is expected and supports diagnosis. If no improvement in 1 week, reconsider the diagnosis. Taper: maintain starting dose for 2-4 weeks, then reduce by 2.5 mg every 2-4 weeks to 10 mg/day, then by 1 mg every 4 weeks. Monitor ESR/CRP at each visit. Total treatment duration: typically 1-2 years (some patients require longer). Relapse (50% of patients): return to the last effective dose. Steroid-sparing agents for relapse: methotrexate 7.5-10 mg weekly is the best-studied option. Tocilizumab (IL-6 inhibitor) is emerging as an alternative. Bone protection: vitamin D 1000-2000 IU daily, calcium 1200 mg daily, bisphosphonate (she is already on alendronate). Monitor glucose regularly (steroid-induced hyperglycemia/diabetes).",
+    "high_yield_pearls": [
+      "PMR is NOT a myopathy — CPK is always normal. The pain and stiffness are from periarticular inflammation (bursitis, tenosynovitis), not muscle inflammation.",
+      "ALWAYS screen for GCA at every PMR visit — 15-20% of PMR patients develop GCA. Ask about new headache, jaw claudication, visual changes, and scalp tenderness. GCA with visual loss is an emergency.",
+      "A dramatic response to prednisone 15-20 mg within 24-72 hours is a key diagnostic criterion — if the patient does not respond, reconsider the diagnosis (consider RA, myositis, malignancy, or infection).",
+      "ESR is typically >40 mm/hr (often >50-100), but approximately 10-20% of PMR patients have a normal ESR — CRP may be elevated when ESR is normal.",
+      "Late-onset RA can mimic PMR — anti-CCP antibodies are more specific than RF for distinguishing the two conditions.",
+      "The most common reason for PMR 'relapse' during steroid taper is too-rapid dose reduction — below 10 mg, reduce by no more than 1 mg every 4 weeks."
+    ],
+    "sources": [
+      "Dasgupta B et al. 2012 Provisional classification criteria for polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative. Ann Rheum Dis, 2012",
+      "Dejaco C et al. EULAR recommendations for the management of polymyalgia rheumatica. Ann Rheum Dis, 2015",
+      "Salvarani C, Cantini F, Hunder GG. Polymyalgia rheumatica and giant-cell arteritis. Lancet, 2008",
+      "Matteson EL, Dejaco C. Polymyalgia Rheumatica. Ann Intern Med, 2017",
+      "Buttgereit F et al. Polymyalgia rheumatica and giant cell arteritis. JAMA, 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Polymyalgia rheumatica",
+      "Late-onset rheumatoid arthritis",
+      "Polymyositis/dermatomyositis",
+      "Giant cell arteritis",
+      "Hypothyroidism",
+      "Fibromyalgia",
+      "Malignancy (paraneoplastic PMR-like syndrome)",
+      "Multiple myeloma"
+    ],
+    "after_stage2_more_likely": [
+      "Polymyalgia rheumatica — age >50, bilateral shoulder/hip girdle pain, severe morning stiffness >45 min, constitutional symptoms, no true weakness, periarticular tenderness without synovitis",
+      "Late-onset RA — bilateral proximal joint involvement, morning stiffness >1 hour, but absence of hand/wrist synovitis argues against"
+    ],
+    "after_stage2_less_likely": [
+      "Polymyositis — no true muscle weakness, proximal stiffness is pain-limited not weakness-limited",
+      "GCA — no headache, jaw claudication, visual changes, or temporal artery tenderness",
+      "Fibromyalgia — ESR would be normal, and constitutional symptoms/weight loss are not typical of fibromyalgia"
+    ],
+    "after_labs_top3": [
+      "Polymyalgia rheumatica — ESR 88, elevated CRP, normal CPK (excluding myositis), negative RF and anti-CCP (excluding RA), bilateral bursitis on ultrasound, SPEP negative for myeloma",
+      "Late-onset RA — still possible as seronegative RA, but negative anti-CCP has high specificity; no small joint synovitis",
+      "Paraneoplastic PMR-like syndrome — considered but chest X-ray clear, no localizing symptoms; age-appropriate cancer screening should be current"
+    ]
+  }
+}

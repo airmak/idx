@@ -1,0 +1,72 @@
+{
+  "case_id": "case_051",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Acute Diverticulitis",
+  "icd_category": "K57.32 — Diverticulitis of large intestine without perforation or abscess",
+  "one_liner": "A 62-year-old male presents with progressive left lower quadrant pain, low-grade fever, and constipation over the past 3 days.",
+  "stage2": {
+    "hpi_extension": "Patient reports a 3-day history of progressively worsening left lower quadrant abdominal pain. The pain is constant, dull, and rated 7/10. It is not colicky and does not radiate. He has had low-grade fevers and mild chills. He reports decreased appetite and has had no bowel movement for 2 days, which is unusual for him. He denies nausea, vomiting, hematochezia, melena, dysuria, or urinary frequency. He was previously diagnosed with diverticulosis on a screening colonoscopy 3 years ago. He has never had a prior episode of diverticulitis. His diet is low in fiber. He denies recent travel, sick contacts, or antibiotic use.",
+    "pmh": "Diverticulosis (diagnosed on colonoscopy 3 years ago), hypertension, hyperlipidemia, type 2 diabetes mellitus",
+    "surgical_history": "None",
+    "medications": "Metformin 1000 mg BID, atorvastatin 40 mg daily, amlodipine 5 mg daily",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "Father had colon cancer at age 72. Mother alive with hypertension.",
+    "social_history": "Former smoker (quit 10 years ago, 20 pack-year history). Drinks 1-2 glasses of wine on weekends. Retired accountant. Low-fiber diet. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "100.8 F (38.2 C)",
+      "hr": "88 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "92 kg, BMI 30.1"
+    },
+    "physical_exam": "General: Overweight male in mild distress, holding his left lower abdomen. HEENT: Unremarkable. Moist mucous membranes. Neck: Supple. Cardiovascular: Regular rate and rhythm. Normal S1, S2. Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft, with focal tenderness in the left lower quadrant with moderate voluntary guarding. No rebound tenderness. No rigidity. No distension. A fullness is palpable in the LLQ but no discrete mass. Bowel sounds are present but diminished. No periumbilical or flank ecchymosis. Rectal: No masses. Guaiac negative. Extremities: No edema. Skin: Warm, well-perfused."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "14.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis supporting an acute inflammatory/infectious process"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CRP", "result": "12.6 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, correlates with severity of diverticulitis"},
+      {"test_name": "BMP - Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Glucose", "result": "168 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with known diabetes and physiologic stress"},
+      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
+      {"test_name": "Urinalysis", "result": "Clear, no WBCs, no bacteria, no nitrites", "flag": "WNL", "clinical_significance": "Normal, helps exclude urinary tract infection and renal colic"},
+      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of bowel ischemia or sepsis"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Segmental wall thickening of the sigmoid colon with pericolonic fat stranding and small amount of free fluid. Multiple diverticula present. No abscess. No free air. No obstruction. No fistula tract identified.", "flag": "ABNORMAL", "clinical_significance": "Classic CT findings of uncomplicated acute sigmoid diverticulitis. Absence of abscess, perforation, or fistula classifies this as uncomplicated (Hinchey stage 0/Ia)."}
+    ],
+    "key_tests": ["CT abdomen/pelvis with IV contrast", "CBC with differential", "CRP"],
+    "acceptable_tests": ["BMP", "Urinalysis", "Lipase", "Lactate", "Blood cultures (if sepsis suspected)", "Urine culture"],
+    "low_yield_tests": ["Colonoscopy (contraindicated in acute phase due to perforation risk)", "Barium enema (contraindicated acutely)", "Abdominal X-ray (low sensitivity for diverticulitis)", "Abdominal ultrasound (operator-dependent, limited for bowel pathology)"],
+    "final_clue": "CT abdomen demonstrates sigmoid wall thickening with pericolonic fat stranding and diverticula, without abscess or perforation. This is uncomplicated acute diverticulitis (Hinchey 0/Ia) in a patient with known diverticulosis and classic risk factors."
+  },
+  "stage5": {
+    "final_clue": "CT abdomen demonstrates sigmoid wall thickening with pericolonic fat stranding and diverticula, without abscess or perforation. This is uncomplicated acute diverticulitis (Hinchey 0/Ia) in a patient with known diverticulosis and classic risk factors."
+  },
+  "debrief": {
+    "classic_presentation": "Left lower quadrant pain (the 'left-sided appendicitis'), low-grade fever, and leukocytosis in a patient over 50 with known or suspected diverticulosis. Constipation or change in bowel habits is common. Patients may present with a palpable LLQ mass (phlegmon). Right-sided diverticulitis is more common in Asian populations. Complicated diverticulitis involves abscess (Hinchey I-II), purulent peritonitis (Hinchey III), or fecal peritonitis (Hinchey IV).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Diverticula are herniations of mucosa and submucosa through the muscular wall at points of weakness where the vasa recta penetrate. Diverticulitis occurs when a diverticulum becomes obstructed (usually by fecaliths), leading to microperforation, localized inflammation, and pericolonic infection. Low-fiber diets increase intraluminal pressure and promote diverticulum formation. Inflammation can progress to abscess, free perforation, fistula (colovesical most common in males), or stricture with obstruction.",
+    "treatment_overview": "Uncomplicated diverticulitis: Oral antibiotics (ciprofloxacin plus metronidazole or amoxicillin-clavulanate) for 7-10 days. Clear liquid diet advancing as tolerated. Pain management (avoid NSAIDs due to perforation risk). Recent evidence suggests selected cases of uncomplicated diverticulitis may be managed without antibiotics. Complicated diverticulitis: Hinchey I-II abscess >3-4 cm requires CT-guided percutaneous drainage plus IV antibiotics. Hinchey III-IV requires emergent surgical intervention (Hartmann procedure or primary anastomosis with diverting loop ileostomy). Follow-up colonoscopy 6-8 weeks after resolution to exclude malignancy. Elective sigmoid colectomy after recurrent episodes or complicated disease.",
+    "high_yield_pearls": [
+      "CT abdomen with IV contrast is the gold standard for diagnosing acute diverticulitis (sensitivity >95%).",
+      "Colonoscopy is contraindicated during the acute episode due to risk of perforation; it should be performed 6-8 weeks after resolution.",
+      "Hinchey classification grades complicated diverticulitis: I (pericolic abscess), II (pelvic abscess), III (purulent peritonitis), IV (fecal peritonitis).",
+      "Colovesical fistula (complication of diverticulitis) classically presents with pneumaturia and fecaluria.",
+      "The most common site of diverticulitis in Western populations is the sigmoid colon due to the smallest lumen diameter and highest intraluminal pressures."
+    ],
+    "sources": [
+      "AGA Clinical Practice Update: Diverticulitis (Gastroenterology 2021;160:906-911)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 29",
+      "Stollman N et al. Am J Gastroenterol 2015;110:1582-1597"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute diverticulitis", "Colon cancer", "Urinary tract infection", "Renal colic", "Ischemic colitis", "Inflammatory bowel disease", "Ovarian pathology (if female)"],
+    "after_stage2_more_likely": ["Acute diverticulitis", "Colon cancer"],
+    "after_stage2_less_likely": ["Urinary tract infection", "Renal colic"],
+    "after_labs_top3": ["Acute diverticulitis", "Colon cancer", "Ischemic colitis"]
+  }
+}

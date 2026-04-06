@@ -1,0 +1,109 @@
+{
+  "case_id": "case_239",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Body dysmorphic disorder",
+  "icd_category": "F45.22 — Body dysmorphic disorder",
+  "one_liner": "A 23-year-old woman presents with 2 years of debilitating preoccupation with perceived facial asymmetry that others cannot see, spending 4-5 hours daily checking mirrors, leading to social withdrawal and job loss.",
+  "stage2": {
+    "hpi_extension": "The patient presents at the urging of her mother, who is concerned about her daughter's worsening isolation. The patient describes being 'tormented' by the appearance of her nose, which she believes is severely crooked and asymmetrical. She spends 4-5 hours daily examining her nose in mirrors and reflective surfaces, taking close-up photographs, and comparing her face to others. She has sought consultations with 3 different plastic surgeons, all of whom stated her nose appeared normal and declined to operate. She was fired from her retail job 6 months ago because she could not stop checking her appearance in store mirrors. She has stopped seeing friends and avoids being photographed. She wears heavy makeup and a face mask at all times in public. She has spent over $15,000 on cosmetic products and skin treatments. She describes her distress as 'ruining my life' and has had passive suicidal ideation ('I'd be better off dead looking like this') without plan or intent. She has poor insight, stating 'I know something is wrong with my nose — the surgeons just can't see it.' No history of eating disorder symptoms (she is not focused on weight or body shape overall, only the nose). No OCD rituals unrelated to appearance.",
+    "pmh": "No significant medical history. No prior psychiatric treatment.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with generalized anxiety disorder treated with paroxetine. Father with OCD (hand-washing rituals). Maternal aunt with anorexia nervosa. No family history of psychotic disorders.",
+    "social_history": "Lives with mother. Unemployed for 6 months (fired from retail job). Completed 2 years of college but dropped out due to inability to attend classes. Single, no prior romantic relationships ('I could never let someone see me up close'). Denies alcohol, tobacco, or illicit drug use. No history of trauma or abuse. Spends most time at home, primarily engaged in appearance-checking behaviors.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "78 bpm",
+      "bp": "116/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "130 lbs, BMI 22.3 kg/m²"
+    },
+    "physical_exam": "General: Well-nourished, well-groomed young woman wearing heavy foundation makeup and a surgical face mask. She removes the mask reluctantly. Facial appearance is normal and symmetrical by objective assessment. HEENT: Nose is symmetric, no visible deformity, no deviation of nasal septum. Facial features within normal proportions. No skin lesions from picking. Pupils equal and reactive. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, non-distended. Neurological: Cranial nerves II-XII intact, normal motor and sensory exam. Mental Status Exam: Appearance — heavily made-up, repeatedly touches nose and adjusts mask. Behavior — cooperative but distressed, frequently averts face from examiner, checks reflection in phone screen twice during interview. Speech — normal rate and volume, becomes rapid when discussing nose. Mood — 'miserable.' Affect — anxious, tearful when discussing appearance. Thought process — linear but perseverative on appearance concerns. Thought content — preoccupied with perceived nasal asymmetry, overvalued ideas about appearance (poor insight), passive SI without plan. Perception — no hallucinations. Cognition — fully oriented, intact attention and memory. Insight — poor (believes defect is real). Judgment — impaired (considering traveling abroad for surgery)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.4, Hgb 13.8, Hct 41.2, Plt 255", "flag": "WNL", "clinical_significance": "Normal CBC, no anemia or infection"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.4, AST 18, ALT 15, Alk Phos 55, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; adequate nutrition"},
+      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out thyroid-related anxiety or mood symptoms"},
+      {"test_name": "Free T4", "result": "1.2 ng/dL", "flag": "WNL", "clinical_significance": "Confirms euthyroid status"},
+      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychiatric symptoms"},
+      {"test_name": "Vitamin D, 25-OH", "result": "22 ng/mL", "flag": "LOW-NORMAL", "clinical_significance": "Borderline low, likely from limited sun exposure due to social avoidance"}
+    ],
+    "imaging_results": [
+      {"test_name": "Facial CT scan (obtained previously by ENT referral)", "result": "Normal bony and soft tissue anatomy. No septal deviation. Symmetric nasal structures.", "flag": "WNL", "clinical_significance": "Objectively normal nasal anatomy, confirming that perceived defect is not based in reality"}
+    ],
+    "key_tests": [
+      "Comprehensive psychiatric interview — revealing preoccupation with perceived defect not observable to others, with repetitive behaviors (mirror checking, comparing) and significant functional impairment",
+      "Yale-Brown Obsessive Compulsive Scale modified for BDD (BDD-YBOCS) — score 34 (severe)",
+      "Brown Assessment of Beliefs Scale (BABS) — score indicating poor insight (overvalued ideation)",
+      "Columbia Suicide Severity Rating Scale (C-SSRS) — passive suicidal ideation without plan or intent"
+    ],
+    "acceptable_tests": [
+      "TSH — ruling out thyroid-related anxiety",
+      "CBC and CMP — baseline medical assessment",
+      "Urine drug screen — ruling out substance-induced symptoms",
+      "PHQ-9 — screening for comorbid depression",
+      "Objective facial photography/assessment by plastic surgeon — documenting absence of deformity"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological symptoms)",
+      "EEG (no seizure-like episodes)",
+      "Extensive rheumatologic panel (no systemic complaints)",
+      "Hormonal panel (normal development, no endocrine symptoms)",
+      "Neuropsychological testing (cognitively intact, issue is perceptual/belief-based)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets DSM-5 criteria for body dysmorphic disorder: (1) preoccupation with perceived defect in physical appearance (nasal asymmetry) that is not observable or appears slight to others, (2) repetitive behaviors in response to appearance concerns (mirror checking 4-5 hours daily, comparing, camouflaging with makeup/mask, seeking reassurance from surgeons), and (3) clinically significant distress and functional impairment (job loss, social withdrawal, dropping out of college). Objective facial CT confirms normal anatomy. The focus on a specific facial feature distinguishes this from eating disorders. Family history of OCD is relevant given the OCD-spectrum classification of BDD."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult (typical onset in adolescence) who is preoccupied with a perceived physical defect — most commonly facial features (nose, skin, hair) — that is not observable or appears slight to others. They engage in repetitive behaviors: mirror checking, excessive grooming, skin picking, reassurance seeking, comparing appearance to others, and camouflaging (makeup, hats, masks). The condition causes significant functional impairment including social avoidance, occupational/academic dysfunction, and cosmetic surgery seeking. Insight is typically poor; many patients have delusional conviction about the defect.",
+    "attending_mode_notes": "BDD is classified in DSM-5 under Obsessive-Compulsive and Related Disorders, reflecting its phenomenological and neurobiological overlap with OCD. The insight specifier is critical: BDD ranges from good insight to absent insight/delusional beliefs (previously diagnosed as delusional disorder, somatic type). Importantly, even delusional-conviction BDD responds to SSRIs and CBT, NOT antipsychotics alone. BDD has the highest suicidal ideation rate of any OCD-spectrum disorder (~80% lifetime) and a completed suicide rate estimated at 0.3% per year — always assess suicide risk. A major management challenge is cosmetic surgery seeking: 70-80% of BDD patients seek cosmetic procedures, but outcomes are almost universally poor with persistent or worsened BDD symptoms post-surgery. Dermatologists and plastic surgeons should be educated to screen for BDD. The BDD-YBOCS (modified from the standard Y-BOCS) is the gold-standard severity measure. Treatment requires higher SSRI doses than typically used for depression (e.g., fluoxetine 60-80 mg).",
+    "pathophysiology": "Neuroimaging reveals abnormalities in visual processing circuits — BDD patients show hyperactivation of detail-oriented, local processing (left hemisphere, fusiform face area) and hypoactivation of holistic processing (right hemisphere). This results in perceptual distortion: patients literally 'see' their face differently, with excessive focus on minute details. Frontostriatal circuit abnormalities similar to OCD are present, explaining the compulsive checking behaviors. Serotonin system dysfunction is implicated by treatment response to SSRIs. Genetic overlap with OCD is significant — first-degree relatives of BDD probands have elevated rates of both BDD and OCD. Environmental factors include childhood teasing about appearance, perfectionism, and aesthetic sensitivity.",
+    "treatment_overview": "First-line: CBT specifically adapted for BDD (including exposure and response prevention for mirror checking, perceptual retraining, and cognitive restructuring of appearance beliefs) combined with high-dose SSRIs. SSRIs are dosed higher than for depression: fluoxetine 60-80 mg, escitalopram 30-40 mg, or fluvoxamine 200-300 mg. Allow 12-16 weeks at adequate dose before declaring treatment failure. For SSRI non-response: augment with low-dose aripiprazole or switch to clomipramine. Avoid cosmetic procedures — counsel the patient and educate referring surgeons. For severe cases with delusional beliefs: SSRIs remain first-line (NOT antipsychotics alone); antipsychotic augmentation can be considered. Address comorbid depression and suicidality actively.",
+    "high_yield_pearls": [
+      "BDD is classified under OCD and Related Disorders in DSM-5 — it shares neurobiological and phenomenological features with OCD, including intrusive thoughts, repetitive behaviors, and response to SSRIs.",
+      "Even when BDD beliefs reach delusional intensity (absent insight), first-line treatment is SSRIs, NOT antipsychotics — this distinguishes BDD from primary delusional disorders.",
+      "BDD has the highest suicidal ideation rate among OCD-spectrum disorders (~80% lifetime prevalence) — always screen for suicidality.",
+      "SSRIs for BDD require higher doses and longer trials than for depression: fluoxetine 60-80 mg for 12-16 weeks minimum.",
+      "Cosmetic surgery is almost always contraindicated in BDD — 70-80% of patients seek procedures, but satisfaction is rare and BDD typically persists or worsens post-surgery.",
+      "The most commonly affected body areas are skin (73%), hair (56%), and nose (37%) — multiple areas of concern are common."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "Phillips KA. Understanding Body Dysmorphic Disorder: An Essential Guide. Oxford University Press, 2009",
+      "Phillips KA. Body Dysmorphic Disorder: Advances in Research and Clinical Practice. Oxford University Press, 2017",
+      "Veale D et al. Body dysmorphic disorder. BMJ, 2015",
+      "Wilhelm S et al. Cognitive-behavioral therapy for body dysmorphic disorder: a treatment manual. Guilford Press, 2013"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Body dysmorphic disorder",
+      "Obsessive-compulsive disorder",
+      "Social anxiety disorder",
+      "Major depressive disorder with somatic preoccupation",
+      "Delusional disorder (somatic type)",
+      "Anorexia nervosa",
+      "Illness anxiety disorder",
+      "Avoidant personality disorder"
+    ],
+    "after_stage2_more_likely": [
+      "Body dysmorphic disorder — preoccupation with perceived nasal defect not observable to others, repetitive checking behaviors, significant functional impairment, poor insight, family history of OCD",
+      "Social anxiety disorder — significant avoidance of social situations, but the core fear is appearance-focused rather than fear of scrutiny in general"
+    ],
+    "after_stage2_less_likely": [
+      "Anorexia nervosa — no preoccupation with weight or body shape overall; BMI is normal; concern is specifically facial",
+      "Delusional disorder (somatic type) — possible given poor insight, but BDD with absent insight is classified separately and responds to SSRIs",
+      "OCD — repetitive behaviors are present but entirely focused on appearance (characteristic of BDD rather than OCD)"
+    ],
+    "after_labs_top3": [
+      "Body dysmorphic disorder — meets full DSM-5 criteria with perceived defect, repetitive behaviors, functional impairment; objective facial CT confirms normal anatomy; BDD-YBOCS severe",
+      "BDD with absent insight (delusional variant) — poor insight and near-delusional conviction about the defect; treatment approach remains SSRIs + CBT",
+      "Major depressive disorder (comorbid) — passive suicidal ideation and functional decline; likely comorbid with BDD rather than primary"
+    ]
+  }
+}

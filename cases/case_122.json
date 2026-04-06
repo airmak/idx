@@ -1,0 +1,74 @@
+{
+  "case_id": "case_122",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Chiari malformation type I",
+  "icd_category": "Q07.0 — Arnold-Chiari syndrome",
+  "one_liner": "A 31-year-old woman presents with recurrent occipital headaches triggered by coughing and Valsalva, numbness in her hands in a cape-like distribution, and MRI revealing cerebellar tonsillar herniation of 12 mm below the foramen magnum with a cervicothoracic syrinx.",
+  "stage2": {
+    "hpi_extension": "The patient has had recurrent headaches for the past 2 years, located at the back of her head and upper neck. The headaches are characteristically triggered or worsened by coughing, sneezing, laughing, straining during bowel movements, and bending forward (exertional/Valsalva-related). They are brief (lasting seconds to minutes), sharp, and sometimes described as 'pressure building in the back of the head.' Over the past year, she has developed numbness and burning pain in both hands and forearms in a 'cape-like' distribution across her shoulders and upper back. She has noticed decreased sensitivity to temperature — she burned her hand on a stove without feeling pain. She has occasionally dropped objects from her right hand. She reports mild neck stiffness. She denies lower extremity weakness, gait difficulty, or bladder/bowel dysfunction. No sleep apnea symptoms. She has had these symptoms evaluated by multiple providers — initially diagnosed with tension headache and carpal tunnel syndrome.",
+    "pmh": "None. History of tension headache diagnosis (likely related to current condition).",
+    "surgical_history": "None.",
+    "medications": "Ibuprofen 400 mg PRN (2-3 times/week for headaches), gabapentin 300 mg TID (started 2 months ago for hand pain — partial relief).",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother has connective tissue hyperlaxity. No known Chiari malformations in family.",
+    "social_history": "Graphic designer. Non-smoker. Social alcohol (stopped due to headaches worsening). Not pregnant, uses IUD. No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "72 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "64 kg, BMI 23.4"
+    },
+    "physical_exam": "General: Well-appearing young woman. No dysmorphic features. Mildly hypermobile joints (Beighton score 5/9). HEENT: Tenderness to palpation at the occiput and upper cervical region. Neck ROM mildly limited in extension. No papilledema. Cranial nerves II-XII intact. No nystagmus at rest. DOWNBEAT NYSTAGMUS elicited on sustained downgaze — highly localizing to the cervicomedullary junction. Neuro: Motor — 5/5 strength in upper and lower extremities. Intrinsic hand muscles 4+/5 on the right (mild weakness of right grip and finger abduction). Sensory: DISSOCIATED SENSORY LOSS — decreased pain and temperature sensation in a cape-like distribution over bilateral shoulders, upper back, and arms (C4-T6 dermatomal distribution). Light touch and proprioception are PRESERVED in the same areas. This pattern is characteristic of a central cord lesion (syringomyelia) affecting the anterior commissure crossing spinothalamic fibers while sparing dorsal columns. DTRs: Absent at biceps and brachioradialis bilaterally (C5-C6 areflexia from anterior horn cell involvement by syrinx). 2+ at triceps. 2+ at knees and ankles. Babinski downgoing bilaterally (no myelopathic UMN signs yet). Gait: Normal. Coordination: Mild bilateral upper extremity dysmetria on finger-to-nose testing."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "6,800/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Glucose", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Vitamin B12", "result": "510 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency myelopathy excluded"},
+      {"test_name": "ESR", "result": "6 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
+      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain and craniocervical junction with cine flow study", "result": "Cerebellar tonsillar herniation 12 mm below the foramen magnum (>5 mm is diagnostic of Chiari I). Crowding at the foramen magnum with obliteration of the cisterna magna. Cine CSF flow study shows reduced or absent CSF flow dorsal to the cervicomedullary junction at the foramen magnum, confirming CSF flow obstruction.", "flag": "ABNORMAL", "clinical_significance": "Chiari I malformation is defined by cerebellar tonsillar herniation >=5 mm below the foramen magnum. The 12 mm descent is significant. Cine flow study documenting impaired CSF flow is important for surgical decision-making."},
+      {"test_name": "MRI cervical and thoracic spine", "result": "Syringomyelia: T2 hyperintense fluid-filled cavity within the central spinal cord from C4 to T4, measuring up to 8 mm in maximal anteroposterior diameter. Mild cord expansion at C5-C6. No cord enhancement.", "flag": "ABNORMAL", "clinical_significance": "Syringomyelia is present in 50-70% of symptomatic Chiari I patients. The syrinx extends C4-T4, correlating with the cape-like dissociated sensory loss and hand intrinsic weakness. The syrinx forms due to altered CSF dynamics at the craniocervical junction."},
+      {"test_name": "MRI brain (full)", "result": "No hydrocephalus. Posterior fossa is small (consistent with Chiari I — the posterior fossa is congenitally underdeveloped, crowding the cerebellum inferiorly). No other brain abnormalities.", "flag": "WNL", "clinical_significance": "Small posterior fossa is the underlying structural abnormality in Chiari I — the cerebellum herniates through the foramen magnum due to insufficient space."}
+    ],
+    "key_tests": ["MRI brain and craniocervical junction (definitive imaging for Chiari I)", "MRI cervical and thoracic spine (to evaluate for syringomyelia)", "Cine CSF flow study (phase-contrast MRI — assesses CSF dynamics at the foramen magnum)", "Detailed neurological examination (dissociated sensory loss, downbeat nystagmus)"],
+    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "ESR", "MRI full spine (if syrinx extends distally)", "Polysomnography (if sleep apnea suspected — common in Chiari I)", "BAER (brainstem auditory evoked responses)", "Swallowing evaluation (if bulbar symptoms)"],
+    "low_yield_tests": ["CT head (cannot adequately assess craniocervical junction or syrinx)", "EEG", "Lumbar puncture (CONTRAINDICATED — risk of tonsillar herniation with LP in Chiari I)", "Cerebral angiography"],
+    "low_yield_tests_note": "Lumbar puncture is CONTRAINDICATED in known Chiari I malformation due to risk of precipitating tonsillar herniation."
+  },
+  "stage5": {
+    "final_clue": "MRI confirms Chiari I malformation with 12 mm cerebellar tonsillar herniation, obstructed CSF flow on cine study, and extensive cervicothoracic syringomyelia (C4-T4). The clinical correlation is precise: Valsalva-induced occipital headaches (from intermittent tonsillar impaction and CSF pressure transients), dissociated sensory loss in a cape distribution (syrinx disrupting crossing spinothalamic fibers at C4-T4), hand weakness (anterior horn cell involvement), areflexia at C5-C6 (lower motor neuron involvement by syrinx), and downbeat nystagmus (cervicomedullary junction compression). Given symptomatic Chiari I with progressive neurological deficits and syringomyelia, she is referred for posterior fossa decompression surgery (suboccipital craniectomy with C1 laminectomy and duraplasty). Post-operatively, CSF flow is restored, headaches resolve, the syrinx decreases in size over 12 months, and sensory symptoms stabilize (though pre-existing deficits do not fully reverse)."
+  },
+  "debrief": {
+    "classic_presentation": "Young adult with occipital headaches provoked by coughing, straining, or Valsalva (cough headache), dissociated sensory loss in a cape-like distribution (loss of pain/temperature with preserved light touch = syringomyelia pattern), hand weakness and wasting, downbeat nystagmus, and MRI showing cerebellar tonsillar herniation >=5 mm below the foramen magnum with associated syringomyelia.",
+    "attending_mode_notes": "This case tests several attending-level concepts: (1) Recognizing the significance of cough/Valsalva-induced headaches (exertional headaches) — while most are benign (primary cough headache), they should ALWAYS prompt MRI of the brain and craniocervical junction to exclude Chiari I malformation, which is present in ~40% of secondary cough headache cases. (2) Understanding dissociated sensory loss: the cape-like loss of pain/temperature with preserved touch/proprioception is pathognomonic for a central cord lesion (syringomyelia), reflecting damage to crossing spinothalamic fibers in the anterior commissure while sparing dorsal column fibers. This pattern distinguishes syringomyelia from peripheral neuropathy (all modalities affected) and posterior column disease (proprioception/vibration affected). (3) Knowing that downbeat nystagmus localizes to the cervicomedullary junction — it is the most common nystagmus in Chiari I and should trigger craniocervical junction imaging. (4) Understanding the association with connective tissue disorders — Ehlers-Danlos syndrome and other hypermobility disorders have increased prevalence of Chiari I. (5) Recognizing that lumbar puncture is CONTRAINDICATED in known Chiari I.",
+    "pathophysiology": "Chiari I malformation results from a congenitally small or shallow posterior fossa that is insufficient to accommodate the cerebellum, causing the cerebellar tonsils to herniate through the foramen magnum into the upper cervical spinal canal. This creates a 'plug' at the foramen magnum that obstructs normal CSF flow between the intracranial and spinal subarachnoid spaces. With each cardiac cycle and with Valsalva maneuvers, CSF pressure differentials across the obstructed foramen magnum cause: (1) Cough headache — tonsillar impaction during Valsalva causes transient obstruction and pressure buildup. (2) Syringomyelia — altered CSF dynamics force CSF into the central canal of the spinal cord (via the obex) or through perivascular spaces, creating a progressively enlarging fluid-filled cavity (syrinx). The syrinx first damages the crossing spinothalamic fibers in the anterior commissure (causing dissociated sensory loss), then expands to involve anterior horn cells (LMN weakness) and eventually lateral corticospinal tracts (UMN signs). The association with connective tissue disorders (EDS) may relate to abnormal skull base development or increased dural compliance.",
+    "treatment_overview": "Observation: Asymptomatic Chiari I found incidentally does NOT require surgery — serial MRI monitoring. Surgery is indicated for: (1) symptomatic Chiari I with progressive neurological deficits, (2) syringomyelia, (3) significant CSF flow obstruction. Surgical treatment: Posterior fossa decompression (PFD) — suboccipital craniectomy + C1 (and sometimes C2) laminectomy + duraplasty (dural opening with patch graft to expand the CSF space). This restores CSF flow at the foramen magnum. Outcomes: ~80% improvement in headaches, 50-80% stabilization or improvement in syringomyelia, but pre-existing neurological deficits may not fully reverse. Syrinx typically decreases over months to years after PFD. If syrinx persists despite PFD, syringosubarachnoid shunting may be considered. Symptomatic management: Gabapentin/pregabalin for neuropathic pain, physical therapy, avoid high-impact activities and Valsalva if surgery deferred.",
+    "high_yield_pearls": [
+      "Any patient with headaches triggered by coughing, straining, or Valsalva maneuvers should have MRI of the brain and craniocervical junction to evaluate for Chiari I malformation — do NOT dismiss cough headache as benign without imaging.",
+      "Dissociated sensory loss (loss of pain/temperature with preserved light touch/proprioception) in a cape-like distribution is pathognomonic for syringomyelia — the syrinx disrupts crossing spinothalamic fibers in the anterior commissure while sparing the dorsal columns.",
+      "Downbeat nystagmus is the most specific neuro-ophthalmological finding localizing to the cervicomedullary junction — it should always trigger evaluation for Chiari I malformation.",
+      "Lumbar puncture is CONTRAINDICATED in known Chiari I malformation due to the risk of precipitating further tonsillar herniation by creating a craniospinal pressure gradient.",
+      "Chiari I (tonsillar herniation >=5 mm, cerebellum only) is distinct from Chiari II (cerebellar vermis, brainstem, and fourth ventricle herniation, associated with myelomeningocele). Chiari I is often discovered in adults; Chiari II presents in infancy."
+    ],
+    "sources": [
+      "Milhorat TH, et al. Chiari I malformation redefined. Neurosurgery. 1999",
+      "AAN Practice Guideline: Evaluation of cough headache, 2019",
+      "UpToDate: Chiari malformations — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Chiari malformation type I with syringomyelia", "Primary cough headache (benign)", "Cervical spondylotic myelopathy", "Multiple sclerosis", "Intramedullary spinal cord tumor", "Idiopathic syringomyelia", "Tethered cord syndrome"],
+    "after_stage2_more_likely": ["Chiari malformation type I with syringomyelia", "Intramedullary spinal cord tumor"],
+    "after_stage2_less_likely": ["Primary cough headache", "Cervical spondylotic myelopathy", "Multiple sclerosis"],
+    "after_labs_top3": ["Chiari malformation type I with syringomyelia", "Intramedullary spinal cord tumor", "Idiopathic syringomyelia"]
+  }
+}

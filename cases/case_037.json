@@ -1,0 +1,77 @@
+{
+  "case_id": "case_037",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Boerhaave Syndrome",
+  "icd_category": "K22.3 — Perforation of esophagus",
+  "one_liner": "A 48-year-old male with alcohol use disorder presents with severe chest pain, subcutaneous emphysema, and a left pleural effusion after forceful vomiting.",
+  "stage2": {
+    "hpi_extension": "Patient was at a holiday dinner where he consumed a large meal and significant amount of alcohol. Approximately 2 hours ago, he began vomiting forcefully and on the third episode of retching experienced sudden, excruciating left-sided chest pain radiating to the back and left shoulder. The pain is constant, rated 10/10, and worsens with swallowing and deep breathing. He has had one additional episode of vomiting with small amount of blood-tinged emesis. He reports progressive shortness of breath. He initially thought he was having a heart attack. He denies melena, hematemesis (other than trace blood), fever, or prior similar episodes. He admits to binge drinking 3-4 times per week.",
+    "pmh": "Alcohol use disorder, gastroesophageal reflux disease, chronic gastritis, hypertension",
+    "surgical_history": "None",
+    "medications": "Omeprazole 40 mg daily (inconsistent), lisinopril 20 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had alcoholic cirrhosis. Mother has GERD.",
+    "social_history": "Heavy alcohol use (6-10 drinks daily, binge drinking 3-4x/week). Smokes 1 pack/day for 25 years. Works as a bartender. Divorced, lives alone.",
+    "vitals": {
+      "temp": "100.8 F (38.2 C)",
+      "hr": "118 bpm",
+      "bp": "102/68 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "91% on room air",
+      "weight_bmi": "78 kg, BMI 25.8"
+    },
+    "physical_exam": "General: Ill-appearing male in severe distress, diaphoretic, guarding chest. Sitting forward, refusing to lie flat. HEENT: Blood-tinged saliva in oropharynx. No oropharyngeal lesions. Palpable crepitus (subcutaneous emphysema) in the neck and upper chest bilaterally. Neck: Subcutaneous emphysema extending from jaw to clavicles. No JVD. Cardiovascular: Tachycardic, regular rhythm. Distant heart sounds. Hamman sign present (crunching sound synchronous with heartbeat on auscultation). Pulmonary: Decreased breath sounds at the left base. Dullness to percussion at the left base. Right lung clear. Abdomen: Epigastric tenderness. Voluntary guarding in the upper abdomen. No rigidity. Decreased bowel sounds. Subcutaneous emphysema extending to the upper abdominal wall. Skin: Diaphoretic. Crepitus on palpation of neck and upper torso. Extremities: Cool peripherally. No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "19.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis indicating mediastinal/pleural contamination and inflammation"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Hemoconcentration from dehydration"},
+      {"test_name": "BMP - Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from dehydration and sepsis physiology"},
+      {"test_name": "BMP - BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN:Cr ratio suggests dehydration"},
+      {"test_name": "Lactate", "result": "4.1 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue hypoperfusion and developing sepsis"},
+      {"test_name": "Amylase (pleural fluid)", "result": "1,280 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated salivary amylase in pleural fluid is diagnostic of esophageal rupture"},
+      {"test_name": "Pleural fluid pH", "result": "6.0", "flag": "LOW", "clinical_significance": "Very low pH from gastric contents contamination; characteristic of esophageal perforation"},
+      {"test_name": "CRP", "result": "18.4 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker"},
+      {"test_name": "Lipase", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as cause of pain"},
+      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Normal, excludes acute MI"},
+      {"test_name": "Blood Cultures (x2)", "result": "Pending (later grows mixed flora)", "flag": "ABNORMAL", "clinical_significance": "Polymicrobial bacteremia from mediastinal contamination"},
+      {"test_name": "ABG - pH", "result": "7.32", "flag": "LOW", "clinical_significance": "Metabolic acidosis from sepsis and lactic acid"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Chest with IV and Oral Contrast", "result": "Distal esophageal perforation with extraluminal contrast extravasation into the left pleural space. Pneumomediastinum. Left-sided pleural effusion with air-fluid level. Subcutaneous emphysema extending from the mediastinum to the neck and chest wall. No aortic pathology.", "flag": "ABNORMAL", "clinical_significance": "Confirms Boerhaave syndrome with distal esophageal perforation and mediastinal/pleural contamination"},
+      {"test_name": "Chest X-ray", "result": "Left-sided pleural effusion. Pneumomediastinum. Subcutaneous emphysema in the neck soft tissues. Widened mediastinum. No pneumothorax on the right.", "flag": "ABNORMAL", "clinical_significance": "Classic findings; Mackler triad (vomiting, chest pain, subcutaneous emphysema) correlates with imaging findings"},
+      {"test_name": "Esophagram with water-soluble contrast (Gastrografin)", "result": "Extravasation of contrast from the distal esophagus into the left pleural space.", "flag": "ABNORMAL", "clinical_significance": "Confirms location and extent of esophageal perforation"}
+    ],
+    "key_tests": ["CT chest with IV and oral contrast", "Chest X-ray", "Esophagram (water-soluble contrast)", "CBC", "Blood cultures"],
+    "acceptable_tests": ["BMP", "Lactate", "ABG", "Pleural fluid analysis (amylase, pH)", "Troponin", "CRP/Procalcitonin", "Lipase", "Type and crossmatch"],
+    "low_yield_tests": ["Upper endoscopy (risk of worsening perforation acutely)", "D-dimer", "CT without contrast", "Barium swallow (risk of mediastinitis if barium leaks)", "ECG (low yield for primary diagnosis)"]
+  },
+  "stage5": {
+    "final_clue": "CT with oral contrast demonstrates distal esophageal perforation with contrast extravasation into the left pleural space, pneumomediastinum, and subcutaneous emphysema. The clinical history of forceful vomiting followed by severe chest pain, combined with Mackler triad (vomiting, chest pain, subcutaneous emphysema), confirms Boerhaave syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden severe chest/epigastric pain after forceful vomiting (often alcohol-related binge). Mackler triad: vomiting, lower thoracic chest pain, and subcutaneous emphysema (present in only ~30% of cases). May present with pleural effusion (typically left-sided), Hamman sign (mediastinal crunch), fever, and signs of sepsis. The distal left posterolateral esophagus is the most common site of rupture.",
+    "attending_mode_notes": "Boerhaave syndrome is frequently misdiagnosed initially as MI, pancreatitis, perforated ulcer, or aortic dissection. Key distinguishing features: history of antecedent vomiting, subcutaneous emphysema, and pleural effusion with very low pH and elevated amylase. Delay in diagnosis beyond 24 hours increases mortality from 10-25% to >50%. In this case, the Hamman sign and subcutaneous emphysema are the critical exam findings that should prompt consideration of esophageal perforation.",
+    "pathophysiology": "Boerhaave syndrome is spontaneous transmural esophageal perforation resulting from a sudden increase in intraesophageal pressure against a closed glottis (most commonly during forceful vomiting). The left posterolateral distal esophagus is the weakest point and most common rupture site. Perforation allows gastric contents, saliva, and air to enter the mediastinum and pleural space, causing chemical mediastinitis, pleural contamination, and eventually polymicrobial sepsis. Without treatment, progressive mediastinitis leads to multi-organ failure.",
+    "treatment_overview": "Emergent surgical consultation. NPO, broad-spectrum IV antibiotics (piperacillin-tazobactam + fluconazole, or meropenem), aggressive IV fluid resuscitation, and chest tube drainage of the pleural effusion. Definitive management depends on timing and extent: (1) Early (<24 hours, contained): Primary surgical repair (thoracotomy with esophageal closure and buttressed tissue flap) is preferred. (2) Endoscopic stenting is an option in select cases. (3) Late (>24 hours) or extensive contamination: Drainage, diversion (cervical esophagostomy), and delayed reconstruction. Nutritional support (enteral feeding via jejunostomy or TPN). Mortality remains 20-40% even with treatment.",
+    "high_yield_pearls": [
+      "Boerhaave syndrome has the highest mortality of all GI perforations if not treated promptly.",
+      "Left-sided pleural effusion with high amylase and very low pH (<6) is highly suggestive of esophageal perforation.",
+      "Hamman sign (mediastinal crunch on auscultation) is pathognomonic for pneumomediastinum but is present in only ~20% of cases.",
+      "CT with oral contrast is the diagnostic study of choice, with sensitivity >90%.",
+      "Do NOT confuse with Mallory-Weiss tear (mucosal tear only, self-limited) — Boerhaave is a full-thickness transmural rupture."
+    ],
+    "sources": [
+      "Brinster CJ et al. Ann Thorac Surg 2004;77:1475-1483",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 78",
+      "de Schipper JP et al. Dig Surg 2009;26:1-6"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Boerhaave syndrome", "Acute myocardial infarction", "Aortic dissection", "Perforated peptic ulcer", "Acute pancreatitis", "Mallory-Weiss tear", "Tension pneumothorax", "Mediastinitis"],
+    "after_stage2_more_likely": ["Boerhaave syndrome", "Mallory-Weiss tear", "Aortic dissection"],
+    "after_stage2_less_likely": ["Acute pancreatitis", "Tension pneumothorax"],
+    "after_labs_top3": ["Boerhaave syndrome", "Esophageal perforation with mediastinitis", "Perforated peptic ulcer"]
+  }
+}

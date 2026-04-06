@@ -1,0 +1,154 @@
+{
+  "case_id": "case_189",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Acute asthma exacerbation (moderate-severe, pediatric)",
+  "icd_category": "J45.41 – Moderate persistent asthma with acute exacerbation",
+  "one_liner": "A 7-year-old male with a history of intermittent asthma presents with 2 days of progressive cough, wheezing, and shortness of breath triggered by a viral upper respiratory infection.",
+  "stage2": {
+    "hpi_extension": "The patient has had a runny nose and cough for 3 days. Over the past 2 days, his cough has worsened significantly, and his mother noticed wheezing and increased breathing effort. He has been using his albuterol inhaler (2 puffs via spacer) every 3-4 hours with only temporary improvement lasting about 1 hour. Last night he woke up twice coughing and wheezing. Today he is unable to complete full sentences without pausing to catch his breath and has had difficulty eating breakfast. He has not been taking his prescribed fluticasone inhaler regularly ('only uses it when he feels bad'). He denies chest pain, fever, or hemoptysis. His triggers include viral infections, cold air, and exercise. He was hospitalized once at age 4 for an asthma exacerbation.",
+    "pmh": "Asthma diagnosed at age 3, classified as moderate persistent. One prior hospitalization for asthma at age 4 (no ICU admission, no intubation). Allergic rhinitis. Eczema (mild).",
+    "surgical_history": "None",
+    "medications": "Albuterol MDI 2 puffs PRN (via spacer), Fluticasone 44 mcg 2 puffs BID (prescribed but poorly adherent)",
+    "allergies": "No known drug allergies. Environmental allergies: dust mites, cat dander",
+    "family_history": "Mother has asthma and allergic rhinitis. Father has eczema. Younger sister is healthy.",
+    "social_history": "Lives with both parents and younger sister. Attends 2nd grade. Active in soccer (has exercise-induced symptoms). No secondhand smoke exposure currently. Maternal grandmother smokes and the patient visits her home weekly. Has a cat at home.",
+    "vitals": {
+      "temp": "37.4°C (99.3°F)",
+      "hr": "118 bpm",
+      "bp": "106/64 mmHg",
+      "rr": "32 breaths/min",
+      "spo2": "91% on room air",
+      "weight_bmi": "24 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alert but anxious; sitting upright, leaning forward with accessory muscle use; speaking in 3-4 word phrases between breaths; appears fatigued. HEENT: Mild clear rhinorrhea. Nasal mucosa pale and boggy (allergic rhinitis). Oropharynx clear. Neck: Mild suprasternal retractions. No lymphadenopathy. Sternocleidomastoid muscle use visible. Cardiovascular: Tachycardic, regular rhythm. Pulsus paradoxus measured at 18 mmHg. Pulmonary: Diffuse bilateral expiratory wheezes; prolonged expiratory phase (I:E ratio approximately 1:3); decreased air entry at bases bilaterally; intercostal and subcostal retractions; no crackles or rhonchi. Abdomen: Soft, non-tender. Extremities: No cyanosis or clubbing. Skin: Mild eczematous patches on antecubital fossae bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Peak expiratory flow (PEF)",
+        "result": "120 L/min (predicted 220 L/min; 55% of predicted)",
+        "flag": "LOW",
+        "clinical_significance": "PEF 40-69% of predicted indicates a moderate exacerbation; PEF <40% would indicate severe."
+      },
+      {
+        "test_name": "Venous blood gas",
+        "result": "pH 7.40, pCO2 38 mmHg, HCO3 23 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "A 'normal' pCO2 in the setting of tachypnea and respiratory distress is a WARNING sign — the expected response to an asthma attack is hyperventilation with LOW pCO2; normalization suggests impending respiratory fatigue and failure."
+      },
+      {
+        "test_name": "WBC",
+        "result": "10.8 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC; eosinophilia may be present in allergic asthma but is not prominent during acute exacerbations."
+      },
+      {
+        "test_name": "Eosinophils",
+        "result": "6%",
+        "flag": "HIGH",
+        "clinical_significance": "Mild eosinophilia supports the allergic/atopic component of this patient's asthma."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin."
+      },
+      {
+        "test_name": "BMP (Na, K, Glucose)",
+        "result": "Na 138, K 3.8, Glucose 112",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; monitor potassium during treatment as albuterol can cause hypokalemia."
+      },
+      {
+        "test_name": "CRP",
+        "result": "10 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated CRP likely reflects the viral trigger; significantly elevated CRP would suggest bacterial superinfection."
+      },
+      {
+        "test_name": "Respiratory viral panel (PCR)",
+        "result": "Positive for rhinovirus",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rhinovirus is the most common viral trigger for acute asthma exacerbations in school-age children."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Chest X-ray (PA/Lateral)",
+        "result": "Bilateral hyperinflation with flattened diaphragms. Peribronchial thickening. No focal consolidation, pneumothorax, or pleural effusion. Cardiac silhouette normal. No mediastinal widening.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperinflation with peribronchial thickening is the classic CXR finding in acute asthma; the CXR helps exclude pneumonia, pneumothorax, and foreign body as causes of acute wheezing."
+      }
+    ],
+    "key_tests": [
+      "Pulse oximetry",
+      "Peak expiratory flow (PEF) or spirometry",
+      "Clinical assessment of severity (accessory muscle use, ability to speak)",
+      "Chest X-ray (if first presentation or concern for complication)"
+    ],
+    "acceptable_tests": [
+      "Venous or arterial blood gas (if severe exacerbation or impending failure)",
+      "CBC with differential",
+      "BMP (monitor K with frequent albuterol)",
+      "CRP",
+      "Respiratory viral panel",
+      "CXR (to exclude pneumonia/pneumothorax)"
+    ],
+    "low_yield_tests": [
+      "Sputum culture",
+      "CT chest (unless structural abnormality suspected)",
+      "Allergy testing (during acute exacerbation)",
+      "Serum IgE (not useful acutely)",
+      "Bronchoscopy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After three rounds of nebulized albuterol and a dose of systemic corticosteroids, the patient's SpO2 improves to 95% and his PEF increases to 75% of predicted. The diffuse bilateral wheezing, response to bronchodilators, known asthma history, and viral trigger confirm a moderate-severe acute asthma exacerbation."
+  },
+  "debrief": {
+    "classic_presentation": "Pediatric asthma exacerbations present with progressive cough, wheezing, shortness of breath, and chest tightness, often triggered by viral URIs, allergen exposure, exercise, or cold air. Physical exam reveals tachypnea, prolonged expiratory phase, diffuse expiratory wheezes, accessory muscle use, and decreased SpO2. Severity is classified by ability to speak (sentences vs. phrases vs. words), SpO2, PEF, and presence of accessory muscle use. The classic triad of asthma is bronchospasm, airway inflammation, and mucus hypersecretion.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Asthma is a chronic inflammatory airway disease characterized by airway hyperresponsiveness and variable airflow obstruction. In atopic asthma, allergen exposure triggers a Th2-mediated immune response with IgE production, mast cell degranulation, and eosinophilic inflammation. During an exacerbation, triggers cause: (1) bronchial smooth muscle contraction (bronchospasm), (2) mucosal edema from inflammation, and (3) mucus hypersecretion — all of which narrow the airway lumen. This creates increased airway resistance, air trapping, hyperinflation, and ventilation-perfusion mismatch. In severe cases, respiratory muscle fatigue leads to hypoventilation with CO2 retention.",
+    "treatment_overview": "Per NAEPP EPR-3 and GINA guidelines for acute exacerbation: (1) SABA (albuterol) via nebulizer or MDI+spacer — up to 3 treatments in the first hour; can be given continuously in severe cases. (2) Systemic corticosteroids (prednisone/prednisolone 1-2 mg/kg, max 60 mg) EARLY — reduces inflammation, decreases hospitalization, prevents relapse. (3) Ipratropium bromide (0.5 mg nebulized) combined with albuterol for moderate-severe exacerbations in the first hour. (4) Supplemental oxygen to maintain SpO2 ≥94%. (5) For severe/refractory: IV magnesium sulfate (25-75 mg/kg), consider terbutaline IV, HFNC, or intubation/mechanical ventilation as last resort. Discharge with a 3-5 day course of oral corticosteroids and step-up in controller therapy; emphasize inhaler technique and adherence.",
+    "high_yield_pearls": [
+      "A 'normal' or rising pCO2 on blood gas during an acute asthma exacerbation is an OMINOUS sign — the expected response is respiratory alkalosis from hyperventilation; normalization of pCO2 suggests respiratory muscle fatigue and impending respiratory failure.",
+      "Pulsus paradoxus >15 mmHg (drop in systolic BP during inspiration) indicates significant air trapping and severe obstruction; it correlates with FEV1 <50% predicted.",
+      "The most common trigger for pediatric asthma exacerbations is viral URI (especially rhinovirus) — NOT allergens; this is why exacerbation rates peak in September (return to school) and winter.",
+      "Systemic corticosteroids should be given EARLY (within the first hour) in moderate-severe exacerbations — they take 4-6 hours to take effect and reduce hospitalization by 50%.",
+      "Poor adherence to inhaled corticosteroid controller therapy (as in this case) is the #1 modifiable risk factor for asthma exacerbations in children."
+    ],
+    "sources": [
+      "NAEPP Expert Panel Report 3 (EPR-3): Guidelines for the Diagnosis and Management of Asthma (2007, 2020 Focused Update)",
+      "GINA 2024: Global Strategy for Asthma Management and Prevention",
+      "UpToDate: Acute asthma exacerbations in children: Emergency department management",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute asthma exacerbation",
+      "Bronchiolitis",
+      "Pneumonia (viral or bacterial)",
+      "Foreign body aspiration",
+      "Vocal cord dysfunction",
+      "Anaphylaxis",
+      "Pneumothorax"
+    ],
+    "after_stage2_more_likely": [
+      "Acute asthma exacerbation (known asthma history, viral trigger, diffuse bilateral wheezing, response to albuterol, accessory muscle use, SpO2 91%)",
+      "Viral-triggered wheezing / Asthma-URI overlap"
+    ],
+    "after_stage2_less_likely": [
+      "Foreign body aspiration (bilateral wheezing, no choking history, known asthma, gradual onset)",
+      "Pneumonia (no fever, no focal findings on exam, bilateral wheezing pattern)",
+      "Anaphylaxis (no urticaria, angioedema, hypotension, or allergen exposure)"
+    ],
+    "after_labs_top3": [
+      "Acute asthma exacerbation (viral-triggered)",
+      "Viral lower respiratory infection with reactive airway component",
+      "Pneumonia with secondary bronchospasm"
+    ]
+  }
+}

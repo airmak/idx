@@ -1,0 +1,164 @@
+{
+  "case_id": "case_201",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Ectopic pregnancy (ruptured right tubal)",
+  "icd_category": "O00.10 – Tubal pregnancy without intrauterine pregnancy",
+  "one_liner": "A 28-year-old female with a history of pelvic inflammatory disease presents with 6 weeks of amenorrhea, acute right lower quadrant pain, and vaginal spotting; she is hemodynamically unstable.",
+  "stage2": {
+    "hpi_extension": "The patient reports her last menstrual period was approximately 6 weeks ago. She has had intermittent mild right-sided pelvic pain for the past week that became acutely severe 2 hours ago, described as sharp and constant, radiating to her right shoulder. She has had scant dark brown vaginal spotting for 3 days. She took a home pregnancy test 5 days ago that was positive. She reports feeling lightheaded and nearly fainted while standing. She has no history of IUD use. She had an episode of chlamydial PID 3 years ago treated with antibiotics. She has never been pregnant before. She denies fever, dysuria, or diarrhea.",
+    "pmh": "Pelvic inflammatory disease (chlamydial) 3 years ago. Regular menstrual cycles (28-30 day intervals). No chronic medical conditions.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of ectopic pregnancy or gynecologic cancers. Mother with type 2 diabetes.",
+    "social_history": "Works as a teacher. Non-smoker. Occasional alcohol (none since positive pregnancy test). Monogamous relationship. No illicit drug use.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "118 bpm",
+      "bp": "88/54 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "65 kg, BMI 23.5 kg/m²"
+    },
+    "physical_exam": "General: Pale, diaphoretic, anxious-appearing woman in moderate distress. HEENT: Pale conjunctivae; dry mucous membranes. Cardiovascular: Tachycardic, regular rhythm, no murmurs; weak peripheral pulses. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mild distension; tenderness in the right lower quadrant and suprapubic region with voluntary guarding; no rebound initially but becomes present with repeat exam; bowel sounds diminished. Pelvic examination: Small amount of dark blood in the vaginal vault; cervical os closed; significant cervical motion tenderness; right adnexal tenderness with a poorly defined fullness; no palpable left adnexal mass; uterus slightly enlarged. Extremities: Cool, delayed capillary refill (3-4 seconds)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urine hCG (qualitative)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms pregnancy; in the setting of acute abdominal pain and hemodynamic instability, ectopic pregnancy must be the primary consideration."
+      },
+      {
+        "test_name": "Serum β-hCG (quantitative)",
+        "result": "3,850 mIU/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Above the discriminatory zone (1,500-3,500 mIU/mL for transvaginal ultrasound); absence of intrauterine pregnancy on TVUS at this level strongly suggests ectopic pregnancy."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "8.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Significant anemia indicating acute blood loss from ruptured ectopic pregnancy."
+      },
+      {
+        "test_name": "Hematocrit",
+        "result": "24.8%",
+        "flag": "LOW",
+        "clinical_significance": "Low hematocrit corroborates significant hemorrhage."
+      },
+      {
+        "test_name": "WBC",
+        "result": "12.8 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis, commonly seen as a stress response to acute hemorrhage; does not necessarily indicate infection."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "210 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; important for surgical planning."
+      },
+      {
+        "test_name": "Blood type and screen",
+        "result": "O positive, antibody screen negative",
+        "flag": "WNL",
+        "clinical_significance": "Blood type obtained for potential transfusion; Rh-positive status means RhoGAM is not required."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 136, K 4.0, Cl 100, CO2 20, BUN 18, Cr 0.9, Glucose 110",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated BUN and creatinine may reflect prerenal state from hypovolemia."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 12.8 sec, INR 1.0, PTT 28 sec",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; no evidence of DIC from hemorrhagic shock."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Empty uterus with thickened endometrium (12 mm). No intrauterine gestational sac. Right adnexal mass measuring 3.2 × 2.8 cm with a hyperechoic ring ('ring of fire' on Doppler). Moderate free fluid in the cul-de-sac and Morrison's pouch.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Empty uterus with β-hCG above discriminatory zone plus an adnexal mass and free fluid is diagnostic of ruptured ectopic pregnancy."
+      },
+      {
+        "test_name": "FAST exam (Focused Assessment with Sonography for Trauma)",
+        "result": "Free fluid in the right upper quadrant (Morrison's pouch) and pelvis (cul-de-sac), consistent with hemoperitoneum.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemoperitoneum in the setting of ectopic pregnancy confirms rupture and indicates the need for emergent surgical intervention."
+      }
+    ],
+    "key_tests": [
+      "Serum β-hCG (quantitative)",
+      "Transvaginal ultrasound",
+      "CBC with hemoglobin"
+    ],
+    "acceptable_tests": [
+      "Urine pregnancy test",
+      "Blood type and crossmatch",
+      "Coagulation studies",
+      "BMP",
+      "FAST exam",
+      "Progesterone level (low levels suggest nonviable pregnancy)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (delays definitive management, radiation exposure)",
+      "Abdominal X-ray",
+      "Endometrial biopsy",
+      "CA-125"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "At the time of emergent laparoscopy, approximately 800 mL of hemoperitoneum is evacuated, and a ruptured right fallopian tube with active bleeding from a 3-cm tubal ectopic pregnancy is identified, confirming the diagnosis and requiring right salpingectomy."
+  },
+  "debrief": {
+    "classic_presentation": "Ectopic pregnancy classically presents with the triad of amenorrhea, vaginal bleeding, and unilateral lower abdominal/pelvic pain in a reproductive-age woman with a positive pregnancy test. Rupture presents with acute severe pain, shoulder pain (referred from diaphragmatic irritation by hemoperitoneum), hemodynamic instability, and peritoneal signs. Risk factors include prior PID, prior ectopic, tubal surgery, IUD use, and smoking.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Ectopic pregnancy occurs when a fertilized ovum implants outside the uterine cavity, most commonly in the ampulla of the fallopian tube (70%). Prior PID causes tubal damage (scarring, adhesions, loss of ciliary function) that impedes ovum transport. As the ectopic pregnancy grows, it erodes through the tubal wall, causing rupture and intra-abdominal hemorrhage. The narrow tubal lumen cannot accommodate the growing pregnancy, and rupture typically occurs between 6-10 weeks of gestation. Hemoperitoneum irritates the diaphragm via the phrenic nerve, causing referred shoulder pain (Kehr sign).",
+    "treatment_overview": "Ruptured ectopic with hemodynamic instability requires emergent surgical intervention — laparoscopic salpingectomy is the standard of care. IV fluid resuscitation and blood transfusion are initiated concurrently. For unruptured, hemodynamically stable ectopic pregnancies, management options include: (1) methotrexate (single-dose 50 mg/m² IM) for β-hCG <5,000, no fetal cardiac activity, ectopic <3.5 cm, and reliable follow-up; (2) expectant management for low and declining β-hCG levels; or (3) surgical management (salpingostomy to preserve the tube, or salpingectomy). Serial β-hCG monitoring is essential after any management approach to ensure levels decline to zero. Rh-negative patients require RhoGAM.",
+    "high_yield_pearls": [
+      "Always obtain a pregnancy test in any reproductive-age woman presenting with abdominal pain, vaginal bleeding, or syncope — ectopic pregnancy is a life-threatening emergency that must not be missed.",
+      "The discriminatory zone for β-hCG (typically 1,500-3,500 mIU/mL for TVUS) is the level above which an intrauterine pregnancy should be visible on ultrasound; absence of IUP above this level strongly suggests ectopic pregnancy.",
+      "Shoulder pain in a pregnant woman with abdominal pain indicates diaphragmatic irritation from hemoperitoneum (Kehr sign) and suggests ruptured ectopic with significant hemorrhage.",
+      "Prior PID is the strongest risk factor for ectopic pregnancy, increasing risk 6-10 fold due to tubal scarring and impaired ciliary function.",
+      "Methotrexate is contraindicated in ruptured ectopic, hemodynamic instability, β-hCG >5,000, fetal cardiac activity, or hepatic/renal dysfunction."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 193: Tubal Ectopic Pregnancy (2018)",
+      "UpToDate: Ectopic pregnancy: Clinical manifestations and diagnosis",
+      "UpToDate: Ectopic pregnancy: Choosing a treatment",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ectopic pregnancy",
+      "Threatened or incomplete miscarriage",
+      "Ruptured ovarian cyst",
+      "Ovarian torsion",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_stage2_more_likely": [
+      "Ectopic pregnancy (positive pregnancy test, amenorrhea, unilateral pain with shoulder radiation, hemodynamic instability, cervical motion tenderness, adnexal mass)",
+      "Ruptured ovarian cyst (acute pain and free fluid, but positive pregnancy test makes ectopic more likely)"
+    ],
+    "after_stage2_less_likely": [
+      "Appendicitis (positive pregnancy test with vaginal bleeding points toward gynecologic etiology)",
+      "PID (afebrile, no purulent discharge, and positive pregnancy test make this less likely)",
+      "Threatened miscarriage (hemodynamic instability and adnexal mass are atypical)"
+    ],
+    "after_labs_top3": [
+      "Ruptured ectopic pregnancy",
+      "Heterotopic pregnancy (extremely rare without assisted reproduction)",
+      "Ruptured corpus luteum cyst with concurrent early intrauterine pregnancy (excluded by empty uterus above discriminatory zone)"
+    ]
+  }
+}

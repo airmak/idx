@@ -1,0 +1,68 @@
+{
+  "case_id": "case_013",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Atrial fibrillation",
+  "icd_category": "I48.91 — Unspecified atrial fibrillation",
+  "one_liner": "A 68-year-old male with hypertension and obstructive sleep apnea presents with palpitations, dizziness, and exertional dyspnea for 2 days.",
+  "stage2": {
+    "hpi_extension": "The patient reports intermittent palpitations that started 2 days ago, described as a rapid, irregular fluttering sensation in his chest. He has associated dizziness with near-syncope when standing quickly and new exertional dyspnea when walking more than half a block. He denies syncope, chest pain, or lower extremity edema. He has been drinking more coffee than usual recently (5-6 cups per day). He denies recent illness, alcohol binge, new medications, or illicit drug use. He reports poor compliance with his CPAP machine for sleep apnea.",
+    "pmh": "Hypertension (diagnosed 10 years ago), obstructive sleep apnea (on CPAP but noncompliant), hyperlipidemia, obesity",
+    "surgical_history": "Right knee arthroscopy 5 years ago",
+    "medications": "Amlodipine 10 mg daily, atorvastatin 40 mg daily",
+    "allergies": "NKDA",
+    "family_history": "Father had atrial fibrillation and stroke at age 72. Mother with hypertension.",
+    "social_history": "Retired accountant. Former smoker (quit 10 years ago, 20 pack-year history). Drinks 1-2 beers on weekends. No illicit drug use. Lives with wife. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "138 bpm, irregularly irregular",
+      "bp": "148/92 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "BMI 34 kg/m²"
+    },
+    "physical_exam": "General: Obese male, mildly anxious, in no acute distress. HEENT: No JVD, no thyromegaly, oropharynx with Mallampati class IV. Cardiovascular: Irregularly irregular rhythm, rate approximately 130-140 bpm, no murmurs, rubs, or gallops. Peripheral pulses are present but variable in intensity (pulse deficit). Pulmonary: Clear to auscultation bilaterally, no wheezes or crackles. Abdomen: Obese, soft, non-tender, no hepatomegaly. Extremities: Trace bilateral pedal edema. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "12-lead ECG", "result": "Absent P waves, irregularly irregular R-R intervals, narrow QRS complexes, ventricular rate 136 bpm, no ST-segment changes", "flag": "ABNORMAL", "clinical_significance": "Diagnostic for atrial fibrillation with rapid ventricular response"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hyperthyroidism as a secondary cause of AF"},
+      {"test_name": "BNP", "result": "285 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, can be seen in AF with rapid ventricular rate; does not necessarily indicate heart failure"},
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal; rules out acute myocardial infarction as a trigger"},
+      {"test_name": "CBC", "result": "WBC 7,200/μL, Hgb 14.1 g/dL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "Normal; rules out anemia as a contributing factor"},
+      {"test_name": "Basic metabolic panel", "result": "Na 140 mEq/L, K 4.1 mEq/L, Cr 1.0 mg/dL, glucose 105 mg/dL", "flag": "WNL", "clinical_significance": "Normal electrolytes; important to check potassium and magnesium before rate control"},
+      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal magnesium; low magnesium can trigger and perpetuate AF"},
+      {"test_name": "PT/INR", "result": "INR 1.0", "flag": "WNL", "clinical_significance": "Baseline coagulation normal; important for anticoagulation planning"},
+      {"test_name": "Hepatic function panel", "result": "AST 28 U/L, ALT 32 U/L, total bilirubin 0.8 mg/dL, albumin 4.0 g/dL", "flag": "WNL", "clinical_significance": "Normal liver function; relevant for drug metabolism of anticoagulants"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic echocardiogram", "result": "Left ventricular ejection fraction 50%. Moderate left atrial enlargement (LA diameter 4.6 cm). Mild concentric left ventricular hypertrophy. No significant valvular disease. No intracardiac thrombus visualized (limited assessment).", "flag": "ABNORMAL", "clinical_significance": "Left atrial enlargement is both a risk factor for and consequence of AF; mild LVH from chronic hypertension"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema, effusions, or consolidations. No pneumothorax.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with chronic hypertension and atrial enlargement"}
+    ],
+    "key_tests": ["12-lead ECG", "Transthoracic echocardiogram", "TSH", "Basic metabolic panel including magnesium", "CBC"],
+    "acceptable_tests": ["BNP or NT-proBNP", "Troponin", "Chest X-ray", "Hepatic function panel", "PT/INR", "HbA1c", "Lipid panel", "Sleep study"],
+    "low_yield_tests": ["CT chest", "Cardiac catheterization (no ischemic symptoms)", "D-dimer", "Blood cultures", "Serum cortisol"]
+  },
+  "stage5": {
+    "final_clue": "Telemetry monitoring confirms persistent irregularly irregular rhythm without any organized atrial activity over 24 hours, and the patient's CHA2DS2-VASc score is calculated at 3 (hypertension, age 65-74, and vascular disease risk from obesity/OSA), necessitating anticoagulation."
+  },
+  "debrief": {
+    "classic_presentation": "Atrial fibrillation classically presents with palpitations described as an irregular fluttering or racing sensation, often with associated dizziness, exertional dyspnea, or exercise intolerance. Physical exam reveals an irregularly irregular pulse with variable pulse intensity. ECG is diagnostic, showing absence of P waves and irregularly irregular R-R intervals. Risk factors include hypertension, obesity, obstructive sleep apnea, advancing age, and alcohol use.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Atrial fibrillation results from chaotic, disorganized electrical activity in the atria, most commonly initiated by ectopic foci in the pulmonary veins. Structural remodeling of the atria (fibrosis, dilation) from conditions like hypertension and obesity creates a substrate for reentry circuits. The irregular and often rapid ventricular response occurs because the AV node is bombarded with erratic atrial impulses. Loss of organized atrial contraction leads to blood stasis, particularly in the left atrial appendage, increasing thromboembolic risk.",
+    "treatment_overview": "Management involves three pillars: (1) Rate control — target resting HR <110 bpm using beta-blockers (metoprolol) or non-dihydropyridine calcium channel blockers (diltiazem); (2) Anticoagulation — assess stroke risk with CHA2DS2-VASc score; DOACs (apixaban, rivarelbaan) preferred over warfarin for non-valvular AF when score ≥ 2 in men or ≥ 3 in women; (3) Rhythm control — consider cardioversion and antiarrhythmic therapy or catheter ablation based on symptoms and patient preference. Address modifiable risk factors: OSA treatment with CPAP, weight loss, blood pressure control, and reduction of alcohol and caffeine.",
+    "high_yield_pearls": [
+      "Atrial fibrillation is the most common sustained cardiac arrhythmia, affecting 1-2% of the general population",
+      "Always check TSH to rule out hyperthyroidism as a reversible cause, and check electrolytes (K+, Mg2+) before initiating rate control",
+      "CHA2DS2-VASc score guides anticoagulation decisions — most patients with a score ≥ 2 (men) or ≥ 3 (women) require long-term anticoagulation",
+      "Obstructive sleep apnea is an independent risk factor for AF and its adequate treatment reduces AF recurrence"
+    ],
+    "sources": ["UpToDate: Overview of atrial fibrillation", "AHA/ACC/HRS Guideline for Management of Patients with Atrial Fibrillation 2023"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Atrial fibrillation", "Atrial flutter", "Supraventricular tachycardia", "Multifocal atrial tachycardia", "Thyrotoxicosis", "Acute coronary syndrome", "Pulmonary embolism", "Decompensated heart failure"],
+    "after_stage2_more_likely": ["Atrial fibrillation (irregularly irregular rhythm, multiple risk factors including HTN, OSA, obesity, age)"],
+    "after_stage2_less_likely": ["Acute coronary syndrome (no chest pain, no ST changes)", "Pulmonary embolism (no pleuritic chest pain, no leg swelling, no recent immobilization)"],
+    "after_labs_top3": ["Atrial fibrillation", "Atrial flutter with variable block", "Tachycardia-mediated cardiomyopathy"]
+  }
+}

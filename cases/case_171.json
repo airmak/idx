@@ -1,0 +1,78 @@
+{
+  "case_id": "case_171",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Primary Sclerosing Cholangitis",
+  "icd_category": "K83.0 — Cholangitis (Primary sclerosing)",
+  "one_liner": "A 38-year-old male with a history of ulcerative colitis presents with fatigue, pruritus, and incidentally elevated alkaline phosphatase.",
+  "stage2": {
+    "hpi_extension": "The patient was diagnosed with ulcerative colitis (pancolitis) 6 years ago, well-controlled on mesalamine. Over the past 4 months, he has developed progressive fatigue, generalized pruritus worse at night, and intermittent dull right upper quadrant discomfort. His wife noticed mild yellowing of his eyes. Routine labs obtained by his gastroenterologist revealed elevated alkaline phosphatase, prompting referral. He reports a 3 kg unintentional weight loss. He denies fever, rigors, dark urine, clay-colored stools, or changes in bowel habits. No new medications, supplements, or herbal products.",
+    "pmh": "Ulcerative colitis (pancolitis, diagnosed 6 years ago), mild intermittent asthma",
+    "surgical_history": "None",
+    "medications": "Mesalamine 2.4 g daily, albuterol inhaler PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother has rheumatoid arthritis. No family history of liver disease.",
+    "social_history": "Non-smoker. Social alcohol (1-2 drinks per month). Software developer. Married with one child.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "74 bpm, regular",
+      "bp": "122/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "76 kg, BMI 24.2"
+    },
+    "physical_exam": "General: Well-appearing male, no acute distress. HEENT: Mild scleral icterus, no oral lesions. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Soft, mild hepatomegaly with liver edge palpable 3 cm below the right costal margin, no splenomegaly, no ascites, mild RUQ tenderness. Skin: Excoriations on extremities from scratching, no spider angiomata, no palmar erythema. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ALP", "result": "485 U/L (normal <120)", "flag": "HIGH", "clinical_significance": "Markedly elevated ALP is the hallmark biochemical finding in PSC"},
+      {"test_name": "GGT", "result": "310 U/L", "flag": "HIGH", "clinical_significance": "Confirms hepatobiliary origin of elevated ALP"},
+      {"test_name": "Total bilirubin", "result": "3.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; progressive elevation is a poor prognostic sign in PSC"},
+      {"test_name": "Direct bilirubin", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated hyperbilirubinemia from cholestasis"},
+      {"test_name": "AST", "result": "68 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated transaminases typical of PSC; marked elevation would suggest overlap with autoimmune hepatitis"},
+      {"test_name": "ALT", "result": "72 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation consistent with cholestatic liver disease"},
+      {"test_name": "Albumin", "result": "3.6 g/dL", "flag": "WNL", "clinical_significance": "Preserved synthetic function, suggesting early-stage disease"},
+      {"test_name": "p-ANCA", "result": "Positive (atypical perinuclear pattern)", "flag": "ABNORMAL", "clinical_significance": "Atypical p-ANCA found in ~65-80% of PSC patients, especially those with UC"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative, argues against autoimmune hepatitis overlap"},
+      {"test_name": "Anti-smooth muscle antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative, further argues against autoimmune hepatitis"},
+      {"test_name": "IgG4", "result": "45 mg/dL (normal <135)", "flag": "WNL", "clinical_significance": "Normal, excludes IgG4-related sclerosing cholangitis"},
+      {"test_name": "CA 19-9", "result": "42 U/mL (normal <37)", "flag": "HIGH", "clinical_significance": "Mildly elevated, can be seen in PSC without cholangiocarcinoma but warrants monitoring"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRCP", "result": "Multifocal strictures and dilations of the intrahepatic bile ducts producing a 'beaded' appearance. Short, annular strictures alternating with mildly dilated segments. Mild involvement of the common bile duct with a dominant stricture at the hepatic bifurcation. No mass lesion.", "flag": "ABNORMAL", "clinical_significance": "Classic 'beads-on-a-string' appearance of PSC on MRCP is diagnostic. The dominant stricture at the hilum warrants ERCP with brushings to exclude cholangiocarcinoma."},
+      {"test_name": "Liver ultrasound", "result": "Heterogeneous hepatic echotexture. Mild intrahepatic biliary ductal dilation. No focal liver lesions. No gallstones. Mild hepatomegaly.", "flag": "ABNORMAL", "clinical_significance": "Non-specific findings supporting biliary disease; ultrasound is less sensitive than MRCP for PSC strictures."}
+    ],
+    "key_tests": ["ALP and GGT", "MRCP", "Total and direct bilirubin", "IgG4 level", "p-ANCA"],
+    "acceptable_tests": ["AST/ALT", "Albumin/INR", "ANA and anti-smooth muscle antibody", "CA 19-9", "Liver ultrasound", "Liver biopsy", "ERCP with brushings"],
+    "low_yield_tests": ["Anti-mitochondrial antibody (AMA)", "Serum ceruloplasmin", "Alpha-1 antitrypsin level", "Hepatitis serologies (low yield without risk factors)", "CT abdomen"],
+    "key_tests_rationale": "ALP is the biochemical hallmark of PSC and is elevated in >90% of cases. MRCP is the diagnostic imaging modality of choice, demonstrating multifocal strictures and dilations in a 'beads-on-a-string' pattern with >90% sensitivity. IgG4 level distinguishes PSC from IgG4-related sclerosing cholangitis (an important treatable mimic). p-ANCA supports the diagnosis in the context of IBD."
+  },
+  "stage5": {
+    "final_clue": "A young male with ulcerative colitis presenting with cholestatic liver biochemistry (ALP >4x ULN), positive atypical p-ANCA, normal IgG4, and MRCP showing multifocal intrahepatic strictures and dilations with a 'beads-on-a-string' pattern confirms primary sclerosing cholangitis. The dominant stricture at the hepatic hilum requires ERCP with brush cytology to exclude cholangiocarcinoma."
+  },
+  "debrief": {
+    "classic_presentation": "PSC is a chronic, progressive cholestatic liver disease characterized by inflammation and fibrosis of the intrahepatic and/or extrahepatic bile ducts. It predominantly affects young to middle-aged males and is strongly associated with ulcerative colitis (60-80% of PSC patients have UC). Patients present with fatigue, pruritus, and elevated ALP. Some are asymptomatic, diagnosed incidentally. PSC is the most common indication for liver transplantation in many Scandinavian countries.",
+    "attending_mode_notes": "PSC can be diagnostically challenging because: (1) ALP may fluctuate and can be normal in early disease; (2) MRCP may miss small-duct PSC — if clinical suspicion is high with normal MRCP, liver biopsy showing 'onion-skin' periductal fibrosis is diagnostic; (3) the PSC-AIH overlap syndrome (seen in ~10%) requires liver biopsy for diagnosis and immunosuppressive treatment in addition to UDCA; (4) dominant strictures require ERCP with brush cytology and fluorescence in situ hybridization (FISH) for polysomy to evaluate for cholangiocarcinoma, as CA 19-9 alone has poor specificity in PSC; (5) unlike IgG4-related cholangitis, PSC does not respond to corticosteroids — incorrectly treating with steroids wastes time while disease progresses.",
+    "pathophysiology": "The pathogenesis of PSC involves immune-mediated bile duct injury in genetically susceptible individuals (strong HLA associations with HLA-B8, DR3, DR2). The 'gut-liver axis' hypothesis suggests that gut-derived bacterial products and lymphocytes aberrantly home to the liver via the portal circulation, triggering biliary inflammation. Biliary epithelial cells are both targets and active participants in the immune response. Progressive periductal 'onion-skin' fibrosis leads to multifocal strictures, cholestasis, biliary cirrhosis, and eventually hepatic failure. There is a lifetime risk of 10-20% for cholangiocarcinoma.",
+    "treatment_overview": "No proven medical therapy alters the natural history of PSC. Ursodeoxycholic acid (UDCA) at moderate doses (13-15 mg/kg/day) improves liver biochemistry but has NOT been shown to improve transplant-free survival — high-dose UDCA (28-30 mg/kg) was associated with worse outcomes and should be avoided. Management is primarily supportive: cholestyramine for pruritus, fat-soluble vitamin supplementation (A, D, E, K), management of complications (dominant strictures via ERCP dilation, cholangitis with antibiotics). Liver transplantation is definitive therapy for advanced disease (Mayo PSC risk score or MELD >14). Surveillance: annual MRCP and CA 19-9 for cholangiocarcinoma, colonoscopy annually for colorectal cancer (PSC-UC patients have a higher CRC risk than UC alone).",
+    "high_yield_pearls": [
+      "PSC is strongly associated with UC (60-80%), but UC severity does NOT correlate with PSC severity — PSC can progress even after colectomy.",
+      "Cholangiocarcinoma develops in 10-20% of PSC patients, often within the first 1-2 years of diagnosis. Annual surveillance with MRCP and CA 19-9 is recommended.",
+      "IgG4-related sclerosing cholangitis is the key mimic of PSC — it responds dramatically to corticosteroids, making IgG4 levels essential in the workup.",
+      "Small-duct PSC (normal MRCP, diagnostic liver biopsy) has a significantly better prognosis than large-duct PSC.",
+      "PSC-UC patients have a significantly higher risk of colorectal cancer than UC alone and require annual surveillance colonoscopy from the time of PSC diagnosis.",
+      "No medical therapy has been proven to slow PSC progression — liver transplantation is the only definitive treatment, though recurrence post-transplant occurs in ~20%."
+    ],
+    "sources": [
+      "2023 AASLD Practice Guidance on Primary Sclerosing Cholangitis",
+      "Karlsen TH et al., Primary Sclerosing Cholangitis, The Lancet 2017",
+      "Lazaridis KN, LaRusso NF, Primary Sclerosing Cholangitis, NEJM 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["IgG4-related sclerosing cholangitis", "Primary biliary cholangitis", "Secondary sclerosing cholangitis", "Cholangiocarcinoma", "Autoimmune hepatitis", "Drug-induced cholestasis"],
+    "after_stage2_more_likely": ["Primary sclerosing cholangitis", "IgG4-related cholangitis", "Primary biliary cholangitis"],
+    "after_stage2_less_likely": ["Drug-induced cholestasis", "Cholangiocarcinoma", "Secondary sclerosing cholangitis"],
+    "after_labs_top3": ["Primary sclerosing cholangitis", "PSC-AIH overlap", "IgG4-related cholangitis"]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "case_id": "case_156",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Tuberculous meningitis",
+  "icd_category": "A17.0 — Tuberculous meningitis",
+  "one_liner": "A 32-year-old Ethiopian immigrant presents with 3 weeks of progressive headache, low-grade fevers, confusion, and a cranial nerve VI palsy, with CSF showing lymphocytic pleocytosis, markedly low glucose, and elevated protein.",
+  "stage2": {
+    "hpi_extension": "The patient emigrated from Ethiopia 2 years ago. He has been experiencing 3 weeks of progressively worsening headache (initially mild, now severe and constant), intermittent fevers up to 38.5°C, night sweats, fatigue, and anorexia with 4 kg weight loss. Over the past week, his wife notes he has become increasingly confused, with difficulty following conversations and excessive somnolence. Two days ago, he developed double vision. He has no history of TB treatment or known TB contacts but did not undergo TB screening upon immigration. He worked in a refugee camp in Ethiopia before emigrating. He denies cough, hemoptysis, or chest pain. No history of HIV testing. No immunosuppressive medication use.",
+    "pmh": "None known. No prior TB screening.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother died of 'lung disease' in Ethiopia (details unknown).",
+    "social_history": "Ethiopian immigrant (2 years in US). Works as a parking garage attendant. Lives with wife and two children in a small apartment. Non-smoker. No alcohol. No illicit drugs. Worked in a refugee camp in Ethiopia.",
+    "vitals": {
+      "temp": "38.3°C (100.9°F)",
+      "hr": "90 bpm",
+      "bp": "148/92 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "64 kg, BMI 21.6"
+    },
+    "physical_exam": "Cachectic male, drowsy but arousable, oriented only to person. Mild nuchal rigidity. Positive Kernig sign. Cranial nerve exam: left lateral rectus palsy (CN VI) with horizontal diplopia on left gaze; right pupil slightly larger than left but both reactive. Fundoscopy: bilateral papilledema. No other cranial nerve deficits. Mild bilateral upper extremity hyperreflexia. No focal motor weakness. No skin rash, lymphadenopathy, or hepatosplenomegaly. Lungs clear bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CSF Opening Pressure", "result": "32 cm H2O", "flag": "HIGH", "clinical_significance": "Elevated opening pressure consistent with TB meningitis; contributes to cranial neuropathies and papilledema"},
+      {"test_name": "CSF Cell Count", "result": "320 WBC/μL (85% lymphocytes, 15% neutrophils)", "flag": "HIGH", "clinical_significance": "Lymphocytic pleocytosis is the hallmark of TB meningitis; early disease may have mixed or neutrophilic predominance"},
+      {"test_name": "CSF Protein", "result": "248 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated protein from basilar meningeal inflammation and blood-brain barrier disruption"},
+      {"test_name": "CSF Glucose", "result": "18 mg/dL (serum glucose 102 mg/dL; CSF/serum ratio 0.18)", "flag": "LOW", "clinical_significance": "Profound hypoglycorrhachia (CSF/serum glucose ratio <0.3) is characteristic of TB meningitis; glucose consumed by mycobacteria and inflammatory cells"},
+      {"test_name": "CSF AFB Smear", "result": "Rare acid-fast bacilli seen on concentrated smear", "flag": "ABNORMAL", "clinical_significance": "Low sensitivity (10-20%) but highly specific when positive; concentrated large-volume specimens improve yield"},
+      {"test_name": "CSF MTB PCR (Xpert MTB/RIF Ultra)", "result": "Mycobacterium tuberculosis complex detected; rifampin resistance not detected", "flag": "ABNORMAL", "clinical_significance": "Rapid molecular confirmation of TB meningitis with rifampin susceptibility — critical for timely initiation of appropriate therapy"},
+      {"test_name": "CSF Adenosine Deaminase (ADA)", "result": "18.4 U/L", "flag": "HIGH", "clinical_significance": "ADA >10 U/L in CSF supports TB meningitis; >8 U/L has sensitivity ~80% and specificity ~90%"},
+      {"test_name": "CBC — WBC", "result": "8,400/μL", "flag": "WNL", "clinical_significance": "Peripheral WBC is often normal in TB meningitis"},
+      {"test_name": "Serum Sodium", "result": "128 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia from SIADH or cerebral salt wasting, common in TB meningitis (occurs in ~40-50% of cases)"},
+      {"test_name": "HIV-1/2 Ag/Ab (4th Gen)", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "HIV negative; TB meningitis occurs in both immunocompetent and immunocompromised patients"},
+      {"test_name": "QuantiFERON-TB Gold", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates prior TB exposure/latent TB; supportive but does not distinguish latent from active disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Brain with Gadolinium", "result": "Diffuse leptomeningeal enhancement, most prominent in the basal cisterns (interpeduncular, suprasellar, and ambient cisterns). Communicating hydrocephalus with dilated lateral and third ventricles. Small tuberculoma (8 mm ring-enhancing lesion) in the right temporal lobe. No acute infarct on DWI.", "flag": "ABNORMAL", "clinical_significance": "Basal meningeal enhancement is the hallmark of TB meningitis; hydrocephalus from impaired CSF absorption; tuberculoma confirms CNS TB involvement"},
+      {"test_name": "Chest X-ray", "result": "Normal lung fields. No hilar lymphadenopathy or miliary pattern. No prior granulomatous disease changes.", "flag": "WNL", "clinical_significance": "Up to 50% of patients with TB meningitis have normal chest X-rays; absence of pulmonary TB does not exclude TB meningitis"}
+    ],
+    "key_tests": [
+      "Lumbar puncture with CSF analysis: cell count, protein, glucose, opening pressure",
+      "CSF AFB smear and mycobacterial culture (gold standard, but takes 2-6 weeks)",
+      "CSF Xpert MTB/RIF Ultra (rapid PCR — sensitivity ~70-90% for TB meningitis)",
+      "MRI brain with gadolinium contrast",
+      "HIV testing"
+    ],
+    "acceptable_tests": [
+      "CSF adenosine deaminase (ADA)",
+      "QuantiFERON-TB Gold or PPD",
+      "Chest X-ray or CT chest",
+      "Serum sodium (screen for SIADH/cerebral salt wasting)",
+      "Sputum AFB smear and culture (even without pulmonary symptoms)",
+      "CSF cryptococcal antigen (to exclude cryptococcal meningitis)",
+      "Blood cultures for mycobacteria"
+    ],
+    "low_yield_tests": [
+      "Serum TB antibody tests (serologic tests for TB are NOT recommended by WHO)",
+      "CT head without contrast (inferior to MRI for basal meningeal enhancement)",
+      "EEG (non-specific slowing; does not aid diagnosis)",
+      "Lumbar spine MRI (unless clinical concern for spinal TB)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "An Ethiopian immigrant with subacute progressive headache, fever, confusion, CN VI palsy, and papilledema. CSF reveals lymphocytic pleocytosis (320 WBC/μL), profoundly low glucose (18 mg/dL, ratio 0.18), markedly elevated protein (248 mg/dL), and elevated opening pressure. CSF Xpert MTB/RIF Ultra detects M. tuberculosis. MRI shows basal meningeal enhancement, communicating hydrocephalus, and a tuberculoma. Hyponatremia supports SIADH. This is British Medical Research Council stage II TB meningitis (focal neurologic deficits with altered consciousness)."
+  },
+  "debrief": {
+    "classic_presentation": "Subacute meningitis (developing over 1-4 weeks, not hours) with progressive headache, fever, meningismus, and cranial neuropathies (CN VI most common, followed by CN III and VII) in a patient from a TB-endemic region. The CSF classic triad: lymphocytic pleocytosis (100-500 cells), markedly elevated protein (>100 mg/dL), and profoundly low glucose (CSF/serum ratio <0.3). Hyponatremia from SIADH and basilar meningeal enhancement on MRI are characteristic. The clinical stages are: Stage I (clear consciousness, no focal deficits), Stage II (confusion, focal deficits, cranial neuropathies), Stage III (coma or hemiplegia).",
+    "attending_mode_notes": "TB meningitis has the highest mortality of all forms of TB (15-40% even with treatment), and neurologic sequelae are common in survivors. The Xpert MTB/RIF Ultra has significantly improved rapid diagnosis (sensitivity ~70-90% in CSF vs. ~50-60% for the original Xpert), but a negative result does NOT exclude TB meningitis — clinical judgment and empiric treatment are critical. Repeat LP (large volume, ≥6 mL) on consecutive days increases diagnostic yield. The CSF AFB smear sensitivity can be improved from ~10% to ~60% by examining centrifuged sediment from large-volume (≥6 mL) samples with prolonged reading time. Hydrocephalus is the most common complication and may require ventriculoperitoneal shunting or serial LPs. Adjunctive dexamethasone improves survival (Thwaites et al., NEJM 2004) and should be given to ALL patients with TB meningitis regardless of HIV status, for 6-8 weeks with taper. Isoniazid and pyrazinamide have the best CSF penetration among first-line TB drugs; rifampin and ethambutol have limited CNS penetration. Paradoxical worsening (IRIS) can occur 2-8 weeks after starting treatment, with new tuberculomas or worsening hydrocephalus — manage with continued TB treatment and corticosteroids, not a change in antibiotics.",
+    "pathophysiology": "TB meningitis results from hematogenous dissemination of M. tuberculosis to the meninges, typically from a primary pulmonary or extrapulmonary focus. Rich and McCordock (1933) described the mechanism: a subependymal or subpial caseous focus (Rich focus) that forms during initial bacteremia ruptures into the subarachnoid space, triggering a granulomatous inflammatory response concentrated in the basal meninges (the thick, gelatinous basal exudate). This basal meningeal inflammation causes: (1) cranial nerve entrapment (CN VI is most vulnerable due to its long intracranial course), (2) obstruction of CSF flow through the basal cisterns leading to communicating hydrocephalus, (3) vasculitis of the arteries of the Circle of Willis with risk of ischemic stroke (particularly the middle cerebral artery territory), and (4) encephalitis from direct parenchymal invasion. The profound hypoglycorrhachia results from impaired glucose transport across the inflamed blood-brain barrier and consumption by mycobacteria and inflammatory cells.",
+    "treatment_overview": "Initiate empiric anti-TB therapy IMMEDIATELY upon clinical suspicion — do NOT wait for culture confirmation. Standard regimen: intensive phase (2 months): isoniazid 5 mg/kg/day + rifampin 10 mg/kg/day + pyrazinamide 25 mg/kg/day + ethambutol 15 mg/kg/day. Continuation phase (7-10 months): isoniazid + rifampin. Total duration for TB meningitis: 9-12 months (longer than pulmonary TB). Adjunctive dexamethasone: 0.3-0.4 mg/kg/day IV for 4 weeks, then taper over 4 weeks (reduces mortality by ~30%). Pyridoxine 50 mg/day to prevent isoniazid-induced neuropathy. Monitor for hydrocephalus progression (may require EVD or VP shunt). Monitor hepatotoxicity (isoniazid, rifampin, pyrazinamide — check LFTs at baseline, 2, 4, and 8 weeks). Correct hyponatremia with fluid restriction if SIADH confirmed. For this patient at Stage II: start all 4 drugs + dexamethasone immediately, repeat imaging in 2-4 weeks, and consider neurosurgical consultation for hydrocephalus management.",
+    "high_yield_pearls": [
+      "TB meningitis is the most lethal form of TB — mortality is 15-40% even with treatment, and delays in starting empiric therapy worsen outcomes; treat on clinical suspicion, not lab confirmation.",
+      "The CSF triad of lymphocytic pleocytosis + very high protein (>100 mg/dL) + very low glucose (CSF/serum ratio <0.3) in a subacute meningitis should trigger immediate TB meningitis evaluation.",
+      "Up to 50% of patients with TB meningitis have a normal chest X-ray — absence of pulmonary disease does NOT exclude TB meningitis.",
+      "Adjunctive dexamethasone reduces mortality by ~30% in TB meningitis and should be given to ALL patients regardless of HIV status.",
+      "Basal meningeal enhancement on MRI is the radiologic hallmark of TB meningitis, distinguishing it from viral (typically no enhancement) and bacterial meningitis (diffuse rather than basal predominance)."
+    ],
+    "sources": [
+      "Thwaites GE et al. Dexamethasone for the treatment of tuberculous meningitis in adolescents and adults. N Engl J Med. 2004;351(17):1741-1751.",
+      "Nahid P et al. Official American Thoracic Society/Centers for Disease Control and Prevention/Infectious Diseases Society of America Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis. Clin Infect Dis. 2016;63(7):e147-e195.",
+      "UpToDate: Central nervous system tuberculosis — An overview (2024)",
+      "Marais S et al. Tuberculous meningitis: a uniform case definition for use in clinical research. Lancet Infect Dis. 2010;10(11):803-812."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Tuberculous meningitis",
+      "Cryptococcal meningitis",
+      "Partially treated bacterial meningitis",
+      "Neurosarcoidosis",
+      "CNS lymphoma (lymphomatous meningitis)",
+      "Fungal meningitis (Coccidioides, Histoplasma)",
+      "Viral meningoencephalitis"
+    ],
+    "after_stage2_more_likely": [
+      "TB meningitis — subacute meningitis (3 weeks), Ethiopian immigrant, CN VI palsy, papilledema, nuchal rigidity, and progressive encephalopathy; epidemiology and tempo strongly suggest TB",
+      "Cryptococcal meningitis — subacute course with elevated ICP can present similarly, but more typical in HIV-positive patients with very low CD4 counts"
+    ],
+    "after_stage2_less_likely": [
+      "Viral meningoencephalitis — typically more acute onset (days, not weeks) and would not explain cranial neuropathy with this degree of meningismus",
+      "Neurosarcoidosis — could cause basilar meningitis and CN palsies but would be unusual as a new diagnosis in this epidemiologic context"
+    ],
+    "after_labs_top3": [
+      "TB meningitis — Xpert MTB/RIF Ultra positive, AFB seen on smear, lymphocytic pleocytosis with profoundly low glucose (ratio 0.18), markedly elevated protein, elevated ADA, basal meningeal enhancement on MRI, hydrocephalus",
+      "Cryptococcal meningitis — can present similarly but CSF India ink and cryptococcal antigen would be positive (not tested here but HIV negative makes it less likely)",
+      "Partially treated bacterial meningitis — lymphocytic shift can occur after antibiotic exposure, but this patient had no prior antibiotics, and MTB PCR confirms the diagnosis"
+    ]
+  }
+}

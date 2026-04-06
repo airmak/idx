@@ -1,0 +1,71 @@
+{
+  "case_id": "case_011",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Acute pancreatitis",
+  "icd_category": "K85 — Acute pancreatitis",
+  "one_liner": "A 45-year-old male with a history of heavy alcohol use presents with severe epigastric pain radiating to the back for 12 hours.",
+  "stage2": {
+    "hpi_extension": "The patient reports sudden onset of severe, constant epigastric pain that began approximately 12 hours ago after a binge drinking episode. The pain radiates straight through to his back and is worsened by eating and lying flat. He has had multiple episodes of nausea and vomiting with bilious content. He denies any fevers, hematemesis, melena, or recent trauma. He reports drinking 6-8 beers daily for the past 10 years with heavier intake over the past weekend. He has had one prior episode of similar but milder pain two years ago that resolved spontaneously.",
+    "pmh": "Alcohol use disorder, hypertriglyceridemia, prior episode of epigastric pain (not formally diagnosed)",
+    "surgical_history": "None",
+    "medications": "None — patient does not take any regular medications",
+    "allergies": "NKDA",
+    "family_history": "Father with alcoholic liver disease, mother with type 2 diabetes mellitus",
+    "social_history": "Drinks 6-8 beers daily for the past 10 years. Smokes half a pack of cigarettes per day. Works as a construction worker. Denies illicit drug use. Lives alone.",
+    "vitals": {
+      "temp": "38.1°C (100.6°F)",
+      "hr": "110 bpm, regular",
+      "bp": "100/65 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "BMI 28 kg/m²"
+    },
+    "physical_exam": "General: Patient appears in significant distress, lying still and leaning forward. HEENT: Sclera anicteric, mucous membranes dry. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Decreased breath sounds at the left base, no wheezes. Abdomen: Marked epigastric tenderness with guarding, decreased bowel sounds, no rebound tenderness, no Grey Turner or Cullen signs. Extremities: No edema. Skin: Warm, mildly diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Lipase", "result": "1,250 U/L", "flag": "HIGH", "clinical_significance": "Greater than 3x the upper limit of normal; diagnostic for acute pancreatitis"},
+      {"test_name": "Amylase", "result": "680 U/L", "flag": "HIGH", "clinical_significance": "Elevated but less specific than lipase for pancreatitis"},
+      {"test_name": "WBC", "result": "14,500/μL", "flag": "HIGH", "clinical_significance": "Leukocytosis indicating systemic inflammatory response"},
+      {"test_name": "BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated suggesting dehydration; used in Ranson criteria"},
+      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated likely due to prerenal azotemia from volume depletion"},
+      {"test_name": "Glucose", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia is a marker of severity in pancreatitis"},
+      {"test_name": "AST", "result": "85 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; can be seen in pancreatitis or chronic alcohol use"},
+      {"test_name": "ALT", "result": "55 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; ALT less than 150 makes gallstone pancreatitis less likely"},
+      {"test_name": "Triglycerides", "result": "380 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated but below 1000; not likely the primary cause of this episode"},
+      {"test_name": "Calcium", "result": "8.2 mg/dL", "flag": "LOW", "clinical_significance": "Mild hypocalcemia; can occur in pancreatitis due to fat saponification"},
+      {"test_name": "LDH", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH is a Ranson criterion at admission"},
+      {"test_name": "Hematocrit", "result": "48%", "flag": "HIGH", "clinical_significance": "Hemoconcentration from third-spacing of fluids"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT abdomen/pelvis with IV contrast", "result": "Diffuse enlargement and edema of the pancreas with peripancreatic fat stranding and small amount of peripancreatic fluid. No pancreatic necrosis identified. No gallstones or biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with acute interstitial edematous pancreatitis without necrosis"},
+      {"test_name": "Right upper quadrant ultrasound", "result": "No gallstones identified. Common bile duct measures 4 mm (normal). Liver shows mildly increased echogenicity.", "flag": "WNL", "clinical_significance": "Rules out gallstone etiology; hepatic steatosis likely from alcohol use"}
+    ],
+    "key_tests": ["Serum lipase", "CT abdomen/pelvis with contrast", "Basic metabolic panel", "CBC with differential", "Right upper quadrant ultrasound"],
+    "acceptable_tests": ["Serum amylase", "Liver function tests (AST, ALT, ALP, bilirubin)", "Triglyceride level", "Lactate", "CRP", "Chest X-ray", "Lipid panel"],
+    "low_yield_tests": ["Cardiac enzymes (troponin)", "Serum iron studies", "Thyroid function tests", "Blood cultures (afebrile presentation)", "CT head"]
+  },
+  "stage5": {
+    "final_clue": "The patient mentions that his prior episode of similar pain two years ago also occurred after a weekend of heavy drinking and resolved after he stopped eating for a day — consistent with a prior undiagnosed episode of alcohol-induced pancreatitis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute pancreatitis classically presents with sudden onset of severe epigastric pain radiating to the back, often accompanied by nausea and vomiting. The pain is typically worsened by eating and lying supine, and improved by leaning forward. Alcohol and gallstones account for approximately 80% of cases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Alcohol causes direct toxic injury to pancreatic acinar cells and promotes premature activation of trypsinogen to trypsin within the pancreas. This triggers autodigestion of pancreatic tissue, leading to local inflammation, edema, and potentially necrosis. The inflammatory cascade can cause systemic inflammatory response syndrome (SIRS) and multi-organ dysfunction in severe cases.",
+    "treatment_overview": "Management is primarily supportive: aggressive IV fluid resuscitation (goal-directed, typically lactated Ringer's at 5-10 mL/kg/hr initially), pain control (typically IV opioids such as hydromorphone), NPO initially with early oral feeding as tolerated (within 24 hours if able), and monitoring for complications. Alcohol cessation counseling is critical. Antibiotics are not indicated unless there is confirmed infected necrosis.",
+    "high_yield_pearls": [
+      "Lipase is more sensitive and specific than amylase for acute pancreatitis and remains elevated longer",
+      "Diagnosis requires 2 of 3 criteria: characteristic abdominal pain, lipase >3x upper limit of normal, or characteristic imaging findings",
+      "Early aggressive fluid resuscitation with lactated Ringer's is the cornerstone of initial management",
+      "Prophylactic antibiotics are NOT recommended; antibiotics should only be used for confirmed infected necrosis"
+    ],
+    "sources": ["UpToDate: Clinical manifestations and diagnosis of acute pancreatitis", "ACG Clinical Guideline: Acute Pancreatitis 2024"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute pancreatitis", "Peptic ulcer disease", "Acute cholecystitis", "Perforated viscus", "Mesenteric ischemia", "Abdominal aortic aneurysm", "Inferior myocardial infarction"],
+    "after_stage2_more_likely": ["Acute pancreatitis (heavy alcohol use, epigastric pain radiating to back, worse with eating, leaning forward for relief)"],
+    "after_stage2_less_likely": ["Acute cholecystitis (pain is epigastric not RUQ, no Murphy sign)", "Inferior MI (no chest pain, age is young, pain clearly abdominal)"],
+    "after_labs_top3": ["Acute pancreatitis", "Peptic ulcer disease with gastritis", "Alcoholic hepatitis"]
+  }
+}

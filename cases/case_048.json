@@ -1,0 +1,75 @@
+{
+  "case_id": "case_048",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Small Bowel Obstruction",
+  "icd_category": "K56.6 — Other and unspecified intestinal obstruction",
+  "one_liner": "A 65-year-old female with a history of prior abdominal surgery presents with crampy abdominal pain, vomiting, abdominal distension, and inability to pass gas.",
+  "stage2": {
+    "hpi_extension": "Patient reports diffuse, crampy abdominal pain that began approximately 18 hours ago and has been progressively worsening. The pain is intermittent, coming in waves every 5-10 minutes, rated 7/10. She has had multiple episodes of bilious vomiting (initially food, now greenish-yellow bile). Her abdomen has become progressively distended. She has not passed flatus or had a bowel movement in the past 24 hours. She had a similar but milder episode 2 years ago that resolved with conservative management (NGT decompression). She had an open appendectomy 30 years ago and a total abdominal hysterectomy 15 years ago. She denies fever, bloody stools, or recent hernia diagnosis.",
+    "pmh": "Hypertension, osteoarthritis, history of two prior abdominal surgeries, prior partial SBO episode",
+    "surgical_history": "Open appendectomy (35 years ago), total abdominal hysterectomy (15 years ago)",
+    "medications": "Hydrochlorothiazide 25 mg daily, acetaminophen 1000 mg as needed, calcium supplements",
+    "allergies": "Morphine (itching)",
+    "family_history": "No significant family history.",
+    "social_history": "Non-smoker. Rare alcohol. Retired nurse. Lives with husband. No illicit drugs.",
+    "vitals": {
+      "temp": "99.2 F (37.3 C)",
+      "hr": "98 bpm",
+      "bp": "136/78 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "72 kg, BMI 26.4"
+    },
+    "physical_exam": "General: Elderly female in moderate distress with distended abdomen. HEENT: Dry mucous membranes. Neck: Supple. Cardiovascular: Mildly tachycardic, regular rhythm. Normal heart sounds. Pulmonary: Clear, diminished bases bilaterally (from diaphragm elevation). Abdomen: Markedly distended. Well-healed midline lower abdominal scar and RLQ scar. High-pitched, tinkling bowel sounds with occasional rushes. Diffuse tenderness, most prominent periumbilically. No rebound tenderness. No rigidity. No palpable hernia at groin, umbilical, or incisional sites. Tympanic to percussion. Rectal exam: Empty rectal vault. No masses. Guaiac negative. Extremities: Mild pedal edema bilaterally. Skin: Poor turgor, consistent with dehydration."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "11.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress/dehydration; marked elevation would suggest strangulation"},
+      {"test_name": "CBC - Hemoglobin", "result": "15.2 g/dL", "flag": "HIGH", "clinical_significance": "Hemoconcentration from dehydration and third-spacing"},
+      {"test_name": "BMP - Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and GI losses"},
+      {"test_name": "BMP - Chloride", "result": "92 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting (loss of HCl)"},
+      {"test_name": "BMP - Bicarbonate", "result": "32 mEq/L", "flag": "HIGH", "clinical_significance": "Metabolic alkalosis from vomiting and contraction alkalosis"},
+      {"test_name": "BMP - BUN", "result": "34 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from dehydration"},
+      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from dehydration"},
+      {"test_name": "Lactate", "result": "1.6 mmol/L", "flag": "WNL", "clinical_significance": "Normal — reassuring against bowel ischemia/strangulation"},
+      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
+      {"test_name": "Urinalysis", "result": "Concentrated, specific gravity 1.030. No WBCs or bacteria.", "flag": "ABNORMAL", "clinical_significance": "Concentrated urine from dehydration"}
+    ],
+    "imaging_results": [
+      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Multiple dilated loops of small bowel (up to 4.5 cm diameter). Multiple air-fluid levels on upright film with stepladder pattern. Paucity of gas in the colon and rectum. No free air under the diaphragm.", "flag": "ABNORMAL", "clinical_significance": "Classic findings of small bowel obstruction — dilated proximal bowel with decompressed distal bowel"},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Dilated proximal small bowel loops (up to 4.8 cm) with a discrete transition point in the mid-ileum. Adhesive band identified at the transition zone. Decompressed distal ileum and colon. No closed-loop obstruction. No bowel wall thickening or pneumatosis. No free fluid. Normal bowel wall enhancement (no signs of ischemia).", "flag": "ABNORMAL", "clinical_significance": "Confirms complete SBO from adhesive band without signs of strangulation or ischemia — trial of conservative management appropriate"}
+    ],
+    "key_tests": ["CT abdomen/pelvis with IV contrast", "Abdominal X-ray (supine and upright)", "CBC", "BMP (electrolytes)", "Lactate"],
+    "acceptable_tests": ["Lipase", "Urinalysis", "LFTs", "Type and screen", "Chest X-ray (upright — to evaluate for free air)"],
+    "low_yield_tests": ["Abdominal ultrasound", "Barium follow-through (risk of impaction in complete obstruction)", "Colonoscopy", "Upper GI series", "MRI abdomen"]
+  },
+  "stage5": {
+    "final_clue": "CT abdomen confirms complete small bowel obstruction with a clear transition point in the mid-ileum from an adhesive band, without signs of strangulation (normal lactate, no bowel wall thickening, no pneumatosis, preserved wall enhancement). The patient's history of two prior abdominal surgeries makes adhesions the most likely etiology. Initial conservative management with NGT decompression and IV fluids is appropriate, with close monitoring for signs of strangulation."
+  },
+  "debrief": {
+    "classic_presentation": "Crampy, intermittent abdominal pain, bilious vomiting, abdominal distension, and obstipation (inability to pass gas or stool) in a patient with prior abdominal surgery. Classic exam: distended abdomen, high-pitched/tinkling bowel sounds, and surgical scars. Abdominal X-ray shows dilated small bowel with air-fluid levels and absence of colonic gas.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Small bowel obstruction occurs when mechanical blockage prevents normal passage of intestinal contents. Adhesions from prior surgery account for 60-75% of cases. Other causes include hernias (15-20%), malignancy (10-15%), Crohn disease, intussusception, and gallstone ileus. Obstruction causes proximal bowel dilation with fluid and gas accumulation, leading to third-spacing, electrolyte derangement (hypochloremic, hypokalemic metabolic alkalosis from vomiting), and dehydration. If untreated, progressive distension compromises bowel wall blood supply, leading to strangulation, necrosis, and perforation.",
+    "treatment_overview": "Initial conservative management (resolves 65-80% of adhesive SBO): NPO, NGT decompression, aggressive IV fluid resuscitation with electrolyte correction (NS with KCl), Foley catheter for urine output monitoring. Serial abdominal exams every 4-6 hours. Obtain serial imaging or small bowel follow-through with water-soluble contrast (Gastrografin) at 24-48 hours — contrast reaching the colon predicts resolution. Surgical intervention (exploratory laparotomy or laparoscopic adhesiolysis) is indicated for: failure to improve within 48-72 hours, signs of strangulation (fever, tachycardia, peritonitis, elevated lactate, leukocytosis), closed-loop obstruction, or free air.",
+    "high_yield_pearls": [
+      "Adhesions from prior surgery are the #1 cause of SBO in developed countries (60-75%).",
+      "Signs of strangulation requiring urgent surgery: fever, peritonitis, tachycardia, leukocytosis >15K, elevated lactate, and CT findings of bowel wall thickening, pneumatosis, or mesenteric haziness.",
+      "Water-soluble contrast (Gastrografin) challenge at 24 hours: if contrast reaches the colon, SBO will resolve nonoperatively in >95% of cases.",
+      "Hypochloremic, hypokalemic metabolic alkalosis is the classic electrolyte pattern from prolonged vomiting.",
+      "Never use barium in suspected complete obstruction — risk of impaction and barium peritonitis if perforation occurs."
+    ],
+    "sources": [
+      "Ten Broek RPG et al. World J Emerg Surg 2018;13:24 (Bologna guidelines for SBO)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 28",
+      "Maung AA et al. EAST Practice Management Guideline: SBO (J Trauma 2012;73:S362-S369)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Small bowel obstruction (adhesive)", "Large bowel obstruction", "Paralytic ileus", "Acute mesenteric ischemia", "Incarcerated hernia", "Volvulus", "Crohn disease flare"],
+    "after_stage2_more_likely": ["Small bowel obstruction (adhesive)", "Incarcerated hernia"],
+    "after_stage2_less_likely": ["Large bowel obstruction", "Acute mesenteric ischemia"],
+    "after_labs_top3": ["Adhesive small bowel obstruction", "Simple SBO (non-strangulated)", "Partial SBO"]
+  }
+}

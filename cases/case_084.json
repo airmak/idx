@@ -1,0 +1,76 @@
+{
+  "case_id": "case_084",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Hypertrophic Obstructive Cardiomyopathy with Systolic Anterior Motion (SAM)",
+  "icd_category": "I42.1 — Obstructive hypertrophic cardiomyopathy",
+  "one_liner": "A 22-year-old male college basketball player presents with exertional syncope and a harsh systolic murmur that increases with Valsalva maneuver.",
+  "stage2": {
+    "hpi_extension": "The patient lost consciousness for approximately 15 seconds during a basketball game. He had been feeling dizzy during sprints for the past 2 months. He has noted exertional chest tightness and palpitations during games but attributed them to conditioning. He denies dyspnea at rest or leg swelling. He passed a pre-participation physical 1 year ago (though no echocardiogram was performed). No prior syncope before 2 months ago.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "Protein supplements",
+    "allergies": "No known drug allergies",
+    "family_history": "Father was told he had a 'thick heart' and takes a beta-blocker. Paternal grandmother died suddenly at age 45 — cause unknown. Paternal uncle has an ICD for 'heart rhythm problems.'",
+    "social_history": "Non-smoker. No alcohol. No illicit drugs. Full-time college student, Division I basketball player. Lives in dormitory.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "68 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "88 kg, BMI 25.4"
+    },
+    "physical_exam": "General: Well-developed, athletic young male. HEENT: No JVD. Cardiovascular: Regular rate, normal S1, paradoxically split S2, grade III/VI harsh crescendo-decrescendo systolic murmur at the left lower sternal border and apex. Murmur INCREASES with Valsalva maneuver and standing; DECREASES with squatting and passive leg raise. Bifid (bisferiens) carotid pulse. Brisk, laterally displaced apical impulse. No diastolic murmur. Pulmonary: Clear. Abdomen: Soft, non-tender. Extremities: No edema, muscular build."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated, no acute injury"},
+      {"test_name": "BNP", "result": "120 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect diastolic dysfunction and increased wall stress"},
+      {"test_name": "Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC", "result": "WBC 7.0, Hgb 15.5, Plt 230", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Lactic acid", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal at rest"},
+      {"test_name": "Genetic testing", "result": "Pathogenic variant in MYH7 (beta-myosin heavy chain gene)", "flag": "ABNORMAL", "clinical_significance": "Confirms genetic basis of HCM — MYH7 is one of the two most common HCM genes"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic Echocardiogram", "result": "Asymmetric septal hypertrophy with IVS thickness of 24 mm (normal <12 mm). Posterior wall 11 mm. LVEF 70% (hyperdynamic). Systolic anterior motion (SAM) of the mitral valve. Resting LVOT gradient 45 mmHg (increases to 90 mmHg with Valsalva provocation). Moderate mitral regurgitation (posteriorly directed jet from SAM). Small LV cavity. Normal RV.", "flag": "ABNORMAL", "clinical_significance": "Classic HOCM: asymmetric septal hypertrophy >15 mm, SAM of mitral valve causing dynamic LVOT obstruction, and secondary mitral regurgitation"},
+      {"test_name": "Cardiac MRI", "result": "Massive asymmetric septal hypertrophy (24 mm). Patchy mid-wall late gadolinium enhancement at the RV insertion points and within the hypertrophied septum (12% of LV mass). No evidence of other infiltrative disease.", "flag": "ABNORMAL", "clinical_significance": "LGE extent >15% of LV mass is associated with increased risk of sudden cardiac death. Quantifying fibrosis aids risk stratification."},
+      {"test_name": "12-lead ECG", "result": "Sinus rhythm. LVH by voltage criteria. Deep, narrow ('dagger-like') Q waves in lateral leads (I, aVL, V5-V6). T-wave inversions in lateral leads.", "flag": "ABNORMAL", "clinical_significance": "LVH with dagger Q waves (from septal hypertrophy depolarization) and repolarization abnormalities are classic HCM findings"}
+    ],
+    "key_tests": ["Transthoracic echocardiogram (with Valsalva provocation)", "Cardiac MRI", "12-lead ECG", "Genetic testing (sarcomeric genes)", "Holter monitor (for NSVT)"],
+    "acceptable_tests": ["BNP", "Basic metabolic panel", "Exercise stress echocardiogram", "Signal-averaged ECG", "Troponin", "CBC", "TSH"],
+    "low_yield_tests": ["Coronary angiography", "CT chest", "Pulmonary function tests", "D-dimer", "Cardiac catheterization"],
+    "key_tests_rationale": "Echo with provocation is essential to document dynamic LVOT obstruction and SAM. Cardiac MRI quantifies LGE (fibrosis) for SCD risk stratification. ECG identifies LVH and repolarization abnormalities. Genetic testing confirms the diagnosis and enables family screening. Holter monitor detects NSVT (SCD risk factor)."
+  },
+  "stage5": {
+    "final_clue": "Echocardiography reveals asymmetric septal hypertrophy (24 mm) with systolic anterior motion (SAM) of the mitral valve creating a dynamic LVOT gradient of 45 mmHg at rest (90 mmHg with Valsalva). MYH7 mutation is confirmed. The family history of sudden death and ICD placement supports HOCM with high SCD risk."
+  },
+  "debrief": {
+    "classic_presentation": "HOCM with SAM presents in young adults with exertional syncope, dyspnea, chest pain, and palpitations. It is the most common cause of sudden cardiac death in young athletes. Exam reveals a crescendo-decrescendo systolic murmur that INCREASES with Valsalva/standing (reduced preload increases obstruction) and DECREASES with squatting/leg raise (increased preload reduces obstruction). Bisferiens pulse is characteristic.",
+    "attending_mode_notes": "SCD risk stratification in HCM uses the ESC HCM Risk-SCD calculator or AHA/ACC criteria. Major SCD risk factors: family history of SCD, unexplained syncope, maximal wall thickness ≥30 mm, NSVT on Holter, abnormal BP response to exercise, and extensive LGE on MRI (≥15% LV mass). Any one major risk factor warrants ICD discussion. The dynamic LVOT gradient is load-dependent — avoid dehydration, vasodilators, and digoxin. Mavacamten (cardiac myosin inhibitor) is a game-changing therapy for symptomatic HOCM.",
+    "pathophysiology": "HCM results from sarcomeric protein gene mutations (most commonly MYH7 and MYBPC3), causing myocyte disarray, hypertrophy, and fibrosis. In obstructive HCM, the thickened septum narrows the LVOT, and the Venturi effect pulls the anterior mitral leaflet toward the septum (SAM), creating dynamic obstruction. This obstruction worsens with decreased preload, decreased afterload, or increased contractility. SAM also prevents proper mitral valve coaptation, causing mitral regurgitation.",
+    "treatment_overview": "Lifestyle: restriction from competitive sports. Pharmacologic: beta-blockers (first-line — reduce obstruction by slowing HR and reducing contractility), non-dihydropyridine CCBs (verapamil), disopyramide (negative inotrope). Mavacamten (cardiac myosin inhibitor) is now approved for symptomatic HOCM with significant LVOT obstruction. Avoid vasodilators, diuretics, digoxin, and nitrates. ICD for primary prevention based on risk stratification. Septal reduction therapy (alcohol septal ablation or surgical myectomy) for drug-refractory symptoms with ≥50 mmHg gradient.",
+    "high_yield_pearls": [
+      "HOCM murmur INCREASES with Valsalva and standing (decreased preload, more obstruction) — this is the OPPOSITE of most murmurs and is a classic board question.",
+      "HCM is the most common cause of sudden cardiac death in young athletes in the United States.",
+      "MYH7 and MYBPC3 mutations together account for ~70% of genotype-positive HCM cases.",
+      "Mavacamten, a first-in-class cardiac myosin inhibitor, reduces LVOT gradient and improves symptoms in obstructive HCM (EXPLORER-HCM trial).",
+      "ALL first-degree relatives of an HCM patient should undergo clinical screening (ECG + echo) and/or genetic testing."
+    ],
+    "sources": [
+      "2020 AHA/ACC Guideline for the Diagnosis and Treatment of HCM",
+      "EXPLORER-HCM Trial (Olivotto et al., Lancet 2020)",
+      "Maron & Maron, Hypertrophic Cardiomyopathy, Lancet 2013",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Athlete's heart (physiologic hypertrophy)", "Aortic stenosis", "Subaortic membrane", "Cardiac amyloidosis", "Fabry disease", "Hypertensive heart disease"],
+    "after_stage2_more_likely": ["Hypertrophic obstructive cardiomyopathy", "Aortic stenosis", "Subaortic membrane"],
+    "after_stage2_less_likely": ["Athlete's heart", "Cardiac amyloidosis", "Hypertensive heart disease"],
+    "after_labs_top3": ["HOCM with SAM (MYH7 mutation)", "Aortic stenosis", "Subaortic membrane"]
+  }
+}

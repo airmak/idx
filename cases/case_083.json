@@ -1,0 +1,79 @@
+{
+  "case_id": "case_083",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Restrictive Cardiomyopathy (Cardiac Amyloidosis, AL Type)",
+  "icd_category": "I42.5 — Other restrictive cardiomyopathy",
+  "one_liner": "A 68-year-old male presents with progressive exertional dyspnea, bilateral leg edema, and echocardiographic findings of thickened ventricular walls with preserved EF but severe diastolic dysfunction.",
+  "stage2": {
+    "hpi_extension": "The patient has experienced 6 months of progressive exercise intolerance and bilateral leg swelling. He has orthopnea requiring 3 pillows and one episode of PND. He also reports bilateral carpal tunnel syndrome (surgically released 1 year ago), easy bruising, and a 15-lb unintentional weight loss. He was initially treated for HFpEF with diuretics but has had recurrent admissions for volume overload. He notices his tongue seems larger and has difficulty fitting his dentures.",
+    "pmh": "HFpEF (diagnosed 4 months ago), bilateral carpal tunnel syndrome, lumbar spinal stenosis, chronic kidney disease stage 3",
+    "surgical_history": "Bilateral carpal tunnel release (1 year ago), lumbar laminectomy (3 years ago)",
+    "medications": "Furosemide 80 mg BID, spironolactone 25 mg daily, metolazone 2.5 mg PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of cardiomyopathy or amyloidosis. Father had prostate cancer.",
+    "social_history": "Retired postal worker. Non-smoker. Rare alcohol. Lives with wife. Previously active but now housebound.",
+    "vitals": {
+      "temp": "36.6°C (97.9°F)",
+      "hr": "82 bpm, regular",
+      "bp": "100/65 mmHg (previously 140/85 — declining BP)",
+      "rr": "20 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "84 kg, BMI 27.8"
+    },
+    "physical_exam": "General: Fatigued-appearing elderly male, periorbital purpura bilaterally ('raccoon eyes'). HEENT: JVP elevated to 15 cm H2O. Macroglossia (enlarged, firm tongue with teeth indentations). Cardiovascular: Regular rate, S4, no murmurs, low-voltage complexes expected on ECG. Pulmonary: Bibasilar crackles. Abdomen: Hepatomegaly (4 cm below costal margin), ascites. Extremities: 3+ bilateral pitting edema, bilateral carpal tunnel scars. Skin: Periorbital purpura, waxy skin appearance, ecchymoses on forearms."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "BNP", "result": "1,450 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated despite preserved EF, disproportionate to degree of LV systolic dysfunction — hallmark of restrictive physiology"},
+      {"test_name": "Troponin I", "result": "0.12 ng/mL", "flag": "HIGH", "clinical_significance": "Chronically elevated, ongoing myocardial injury from amyloid infiltration"},
+      {"test_name": "Serum free light chains", "result": "Lambda 285 mg/L (elevated), Kappa 18 mg/L (normal), ratio markedly abnormal", "flag": "HIGH", "clinical_significance": "Markedly elevated lambda free light chains with abnormal kappa/lambda ratio — diagnostic of AL amyloidosis"},
+      {"test_name": "SPEP/SIFE", "result": "Monoclonal lambda light chain band detected", "flag": "ABNORMAL", "clinical_significance": "Confirms monoclonal protein consistent with plasma cell dyscrasia"},
+      {"test_name": "24-hour urine protein", "result": "3.2 g/day with Bence Jones proteinuria (lambda)", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria with light chains, indicating renal amyloid involvement"},
+      {"test_name": "Creatinine", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "Worsening CKD, likely from renal amyloid deposition"},
+      {"test_name": "Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Low from nephrotic syndrome and malnutrition"},
+      {"test_name": "Alkaline phosphatase", "result": "180 U/L", "flag": "HIGH", "clinical_significance": "Elevated, hepatic amyloid involvement"},
+      {"test_name": "Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease and possible bone marrow involvement"},
+      {"test_name": "Sodium", "result": "134 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia from HF and neurohormonal activation"},
+      {"test_name": "INR", "result": "1.3", "flag": "HIGH", "clinical_significance": "Mildly elevated — amyloid can cause Factor X deficiency"},
+      {"test_name": "Bone marrow biopsy", "result": "8% lambda-restricted plasma cells with Congo red-positive amyloid deposits", "flag": "ABNORMAL", "clinical_significance": "Confirms AL amyloidosis with underlying plasma cell neoplasm"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic Echocardiogram", "result": "Concentric biventricular wall thickening (IVS 16 mm). 'Granular sparkling' myocardial texture. Grade III diastolic dysfunction (restrictive filling). LVEF 50% (borderline preserved). Biatrial enlargement. Thickened interatrial septum. Small pericardial effusion. Thickened valve leaflets.", "flag": "ABNORMAL", "clinical_significance": "Classic echocardiographic findings of cardiac amyloidosis — thickened walls with diastolic dysfunction and granular sparkling"},
+      {"test_name": "Cardiac MRI", "result": "Diffuse subendocardial late gadolinium enhancement with abnormal gadolinium kinetics (difficulty nulling the myocardium). Elevated native T1 values (1180 ms) and markedly elevated ECV (55%). Biventricular thickening.", "flag": "ABNORMAL", "clinical_significance": "Diffuse subendocardial LGE with elevated ECV is highly specific for cardiac amyloidosis. Abnormal nulling kinetics are pathognomonic."},
+      {"test_name": "12-lead ECG", "result": "Low voltage in limb leads (all QRS <5 mm) with pseudo-infarction Q waves in V1-V3 and poor R-wave progression. Normal sinus rhythm.", "flag": "ABNORMAL", "clinical_significance": "Low voltage-mass mismatch (low ECG voltage despite thick walls on echo) is a hallmark of cardiac amyloidosis"}
+    ],
+    "key_tests": ["Serum free light chains with kappa/lambda ratio", "SPEP/SIFE and UPEP/UIFE", "Transthoracic echocardiogram", "Cardiac MRI", "Tissue biopsy (fat pad aspirate or endomyocardial biopsy with Congo red)"],
+    "acceptable_tests": ["BNP/NT-proBNP", "Troponin", "Technetium pyrophosphate scan (to distinguish AL from ATTR)", "Bone marrow biopsy", "12-lead ECG", "24-hour urine protein", "Basic metabolic panel", "CBC"],
+    "low_yield_tests": ["Coronary angiography", "Stress test", "Pulmonary function tests", "ANA", "Genetic testing for ATTR (only if Tc-PYP positive)"],
+    "key_tests_rationale": "Free light chains and SPEP/SIFE identify monoclonal protein (AL type). Echo shows characteristic thickening with diastolic dysfunction. Cardiac MRI identifies amyloid with typical LGE pattern. Tissue biopsy with Congo red staining provides histological confirmation. Tc-PYP scan differentiates AL from ATTR amyloid."
+  },
+  "stage5": {
+    "final_clue": "The combination of low-voltage ECG with thickened ventricular walls on echo (voltage-mass mismatch), markedly elevated lambda free light chains, cardiac MRI showing diffuse subendocardial LGE with abnormal nulling, and Congo red-positive biopsy confirms AL amyloidosis with cardiac involvement — restrictive cardiomyopathy."
+  },
+  "debrief": {
+    "classic_presentation": "Cardiac amyloidosis (AL type) presents with rapidly progressive HFpEF refractory to standard therapy, with multi-organ involvement: macroglossia, periorbital purpura, carpal tunnel syndrome, nephropathy, and hepatomegaly. The 'voltage-mass mismatch' (low voltage on ECG despite thick walls on echo) is a classic red flag. Progressive hypotension in a previously hypertensive patient is an ominous sign.",
+    "attending_mode_notes": "Critical distinction: AL amyloidosis (from plasma cell dyscrasia — misfolded light chains) vs. ATTR amyloidosis (from transthyretin — either wild-type/senile or hereditary). Tc-99m pyrophosphate scan is positive in ATTR and negative in AL — it is the key non-invasive differentiator. AL amyloidosis has a worse cardiac prognosis (median survival 6 months untreated if Stage III) but responds to chemotherapy. ATTR amyloidosis is more indolent and now has targeted therapies (tafamidis). NEVER use beta-blockers or CCBs in cardiac amyloidosis — they worsen hemodynamics. Digoxin is contraindicated (binds to amyloid fibrils).",
+    "pathophysiology": "In AL amyloidosis, a clonal plasma cell population produces misfolded immunoglobulin light chains that polymerize into amyloid fibrils. These fibrils deposit in the myocardium, causing wall thickening, stiffness, and restrictive physiology. The amyloid protein itself is directly cardiotoxic (distinct from the mechanical effect). The stiff ventricles cannot fill adequately, leading to elevated filling pressures, atrial dilation, and ultimately low cardiac output. The infiltrative process also involves the conduction system, valves, and atrial walls.",
+    "treatment_overview": "AL amyloidosis: chemotherapy targeting the underlying plasma cell clone (bortezomib-based regimens: CyBorD — cyclophosphamide, bortezomib, dexamethasone). Daratumumab-based regimens for eligible patients. Autologous stem cell transplant in selected patients. Heart failure management: loop diuretics (often high doses), avoid beta-blockers, CCBs, and digoxin. ATTR amyloidosis: tafamidis (TTR stabilizer) — proven mortality benefit. Consider heart transplant in selected AL patients after achieving hematologic remission.",
+    "high_yield_pearls": [
+      "Low voltage on ECG + thick walls on echo (voltage-mass mismatch) is the classic red flag for cardiac amyloidosis.",
+      "Macroglossia is nearly pathognomonic for AL amyloidosis — it does not occur in ATTR.",
+      "Beta-blockers, calcium channel blockers, and digoxin are all CONTRAINDICATED in cardiac amyloidosis.",
+      "Tc-99m pyrophosphate scan is positive in ATTR but negative in AL amyloidosis — essential for non-invasive differentiation.",
+      "Bilateral carpal tunnel syndrome preceding heart failure by years is a common early manifestation of both AL and ATTR cardiac amyloidosis."
+    ],
+    "sources": [
+      "2021 AHA Scientific Statement on Cardiac Amyloidosis",
+      "Falk et al., AL Amyloidosis, NEJM 1997",
+      "Maurer et al., Tafamidis in ATTR Cardiomyopathy, NEJM 2018 (ATTR-ACT Trial)",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Hypertensive heart disease with HFpEF", "Hypertrophic cardiomyopathy", "Fabry disease", "Constrictive pericarditis", "Cardiac sarcoidosis", "Hemochromatosis", "ATTR cardiac amyloidosis"],
+    "after_stage2_more_likely": ["Cardiac amyloidosis", "Hypertrophic cardiomyopathy", "Constrictive pericarditis"],
+    "after_stage2_less_likely": ["Hypertensive heart disease", "Fabry disease", "Hemochromatosis"],
+    "after_labs_top3": ["AL cardiac amyloidosis", "ATTR cardiac amyloidosis", "Multiple myeloma with cardiac involvement"]
+  }
+}

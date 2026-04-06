@@ -1,0 +1,73 @@
+{
+  "case_id": "case_052",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Incarcerated Inguinal Hernia",
+  "icd_category": "K40.0 — Bilateral inguinal hernia, with obstruction, without gangrene",
+  "one_liner": "A 71-year-old male presents with a painful, non-reducible right groin mass, abdominal distension, and vomiting that began 8 hours ago.",
+  "stage2": {
+    "hpi_extension": "Patient reports noticing a painless right groin bulge approximately 2 years ago that would enlarge with standing or straining and reduce spontaneously when lying down. He never sought medical evaluation. Eight hours ago, while lifting heavy boxes, he felt a sudden sharp pain in the right groin and noticed the bulge became larger and harder than usual. Since then, the mass has been painful, tense, and will not go back in despite his attempts to push it. He has developed progressive nausea with three episodes of bilious vomiting. He has not passed gas or had a bowel movement in the last 6 hours. He reports increasing abdominal bloating. He denies fever, hematochezia, or urinary symptoms. He is very concerned about the possibility of needing surgery.",
+    "pmh": "Benign prostatic hyperplasia, chronic cough (COPD), type 2 diabetes mellitus, chronic constipation",
+    "surgical_history": "Open appendectomy (age 25)",
+    "medications": "Tamsulosin 0.4 mg daily, tiotropium inhaler, metformin 500 mg BID, polyethylene glycol daily",
+    "allergies": "Penicillin (anaphylaxis)",
+    "family_history": "Father had bilateral inguinal hernias. No cancer history.",
+    "social_history": "Retired factory worker with history of heavy lifting. Smokes half a pack per day for 40 years. Occasional beer. Lives with wife.",
+    "vitals": {
+      "temp": "99.8 F (37.7 C)",
+      "hr": "102 bpm",
+      "bp": "148/88 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "84 kg, BMI 27.5"
+    },
+    "physical_exam": "General: Elderly male in moderate distress, grimacing with movement. HEENT: Dry mucous membranes. Neck: Supple. Cardiovascular: Tachycardic, regular rhythm. No murmurs. Pulmonary: Scattered expiratory wheezes bilaterally. Abdomen: Moderately distended. Diffuse mild tenderness. Tympanitic to percussion. High-pitched, tinkling bowel sounds. No peritoneal signs. Groin: Right inguinal region demonstrates a firm, tender, erythematous, non-reducible mass approximately 6 cm in diameter extending into the right scrotum. The mass does not transilluminate. No cough impulse appreciated. Left inguinal region is unremarkable. Rectal: Empty rectal vault. No masses. Extremities: No edema. Skin: Overlying skin of the right groin is mildly erythematous and warm."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "13.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may indicate bowel compromise or early ischemia"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from dehydration and vomiting"},
+      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, prerenal component from dehydration"},
+      {"test_name": "BMP - Potassium", "result": "3.3 mEq/L", "flag": "LOW", "clinical_significance": "Mild hypokalemia from repeated vomiting"},
+      {"test_name": "Lactate", "result": "2.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, concerning for early bowel ischemia within the hernia"},
+      {"test_name": "BMP - Glucose", "result": "198 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, stress hyperglycemia in known diabetic"},
+      {"test_name": "BMP - Bicarbonate", "result": "22 mEq/L", "flag": "WNL", "clinical_significance": "Low-normal, may reflect early metabolic acidosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. Bowel gas seen extending into the right inguinal region. No free air.", "flag": "ABNORMAL", "clinical_significance": "Small bowel obstruction pattern with bowel extending into the hernia sac confirms incarcerated inguinal hernia as the cause of obstruction."},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Right inguinal hernia containing a loop of small bowel with proximal small bowel dilation. The incarcerated bowel loop shows wall thickening and reduced enhancement concerning for early ischemia. No free air. No free fluid. Transition point at the right internal inguinal ring.", "flag": "ABNORMAL", "clinical_significance": "Confirms incarcerated inguinal hernia with signs of early bowel compromise. Surgical emergency requiring urgent exploration."}
+    ],
+    "key_tests": ["Physical examination of the groin", "Abdominal X-ray (supine and upright)", "CBC with differential", "BMP (electrolytes)", "Serum lactate"],
+    "acceptable_tests": ["CT abdomen/pelvis with contrast", "Type and screen", "Coagulation studies", "Urinalysis", "Blood cultures (if septic)"],
+    "low_yield_tests": ["Ultrasound of the groin (diagnosis is clinical)", "Herniography", "MRI abdomen (delays treatment)", "Barium follow-through (contraindicated with obstruction)", "Colonoscopy"],
+    "final_clue": "Physical exam reveals a firm, tender, non-reducible right inguinoscrotal mass. Abdominal X-ray and CT confirm small bowel obstruction caused by an incarcerated inguinal hernia with early signs of bowel compromise. This is a surgical emergency requiring urgent operative repair."
+  },
+  "stage5": {
+    "final_clue": "Physical exam reveals a firm, tender, non-reducible right inguinoscrotal mass. Abdominal X-ray and CT confirm small bowel obstruction caused by an incarcerated inguinal hernia with early signs of bowel compromise. This is a surgical emergency requiring urgent operative repair."
+  },
+  "debrief": {
+    "classic_presentation": "A previously reducible groin bulge becomes acutely painful, tense, and irreducible, often after straining or lifting. Symptoms of small bowel obstruction (nausea, vomiting, distension, obstipation) develop as the incarcerated bowel becomes obstructed. If blood supply is compromised, the hernia becomes strangulated, leading to bowel necrosis. Risk factors include male sex, advanced age, chronic cough, constipation, BPH, heavy lifting, and prior reducible hernia left unrepaired.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Inguinal hernias occur when abdominal contents protrude through the inguinal canal. Indirect hernias (most common) pass through the internal inguinal ring lateral to the inferior epigastric vessels. Direct hernias protrude through Hesselbach triangle medial to the inferior epigastric vessels. Incarceration occurs when contents cannot be reduced back into the abdomen. Strangulation occurs when the blood supply to the incarcerated contents is compromised, leading to ischemia, necrosis, and ultimately perforation if untreated. The narrow hernia neck acts as a constricting ring.",
+    "treatment_overview": "Incarcerated hernia with signs of obstruction or strangulation requires emergent surgical exploration. One attempt at gentle bedside reduction (Trendelenburg position, sedation, steady pressure) may be tried if no signs of strangulation (fever, leukocytosis, erythema, peritonitis) are present. If reduction fails or strangulation is suspected, proceed to surgery. Operative approach: open inguinal exploration, assessment of bowel viability, resection of nonviable bowel if needed, and hernia repair (often with mesh if no contamination, or primary tissue repair if bowel resection performed). IV fluid resuscitation, correct electrolytes, NGT decompression, NPO, antibiotics if concern for compromised bowel.",
+    "high_yield_pearls": [
+      "An incarcerated hernia that cannot be reduced at bedside requires emergent surgery; do not delay for additional imaging if the diagnosis is clinically evident.",
+      "Indirect inguinal hernias are lateral to the inferior epigastric vessels; direct hernias are medial (Hesselbach triangle: inferior epigastric vessels, inguinal ligament, lateral border of rectus).",
+      "Strangulation is suggested by fever, marked leukocytosis, erythematous overlying skin, severe tenderness, and elevated lactate.",
+      "Femoral hernias have the highest rate of incarceration and strangulation, though inguinal hernias are far more common overall.",
+      "Mesh repair should be avoided if bowel resection is performed due to infection risk; primary tissue repair (Shouldice or Bassini) is preferred in contaminated fields."
+    ],
+    "sources": [
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 37",
+      "HerniaSurge Group. Hernia 2018;22:1-165 (International guidelines for groin hernia management)",
+      "Fitzgibbons RJ, Forse RA. N Engl J Med 2015;372:756-763"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Incarcerated inguinal hernia", "Testicular torsion", "Epididymitis", "Inguinal lymphadenopathy", "Femoral hernia", "Small bowel obstruction (adhesive)", "Hydrocele"],
+    "after_stage2_more_likely": ["Incarcerated inguinal hernia", "Femoral hernia"],
+    "after_stage2_less_likely": ["Testicular torsion", "Epididymitis", "Hydrocele"],
+    "after_labs_top3": ["Incarcerated inguinal hernia", "Strangulated inguinal hernia", "Femoral hernia"]
+  }
+}

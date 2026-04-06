@@ -1,0 +1,79 @@
+{
+  "case_id": "case_071",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Hypertensive Crisis (Hypertensive Emergency)",
+  "icd_category": "I16.1 — Hypertensive emergency",
+  "one_liner": "A 52-year-old female with a history of poorly controlled hypertension presents with severe headache, blurred vision, and a blood pressure of 220/130 mmHg.",
+  "stage2": {
+    "hpi_extension": "The patient presents to the emergency department with a severe occipital headache that began 4 hours ago, described as the worst headache of her life. She also notes blurred vision, nausea, and mild chest discomfort. She ran out of her blood pressure medications 2 weeks ago and has not been taking them. She denies focal weakness, speech difficulty, or seizures.",
+    "pmh": "Hypertension (20 years, poorly controlled), chronic kidney disease stage 3, type 2 diabetes mellitus, obesity",
+    "surgical_history": "Cesarean section x 2",
+    "medications": "Amlodipine 10 mg daily, losartan 100 mg daily, hydrochlorothiazide 25 mg daily, metformin 1000 mg BID (all non-compliant for 2 weeks)",
+    "allergies": "ACE inhibitors (cough with lisinopril)",
+    "family_history": "Mother had hemorrhagic stroke at age 65. Father had CKD and dialysis. Both parents hypertensive.",
+    "social_history": "Non-smoker. No alcohol. Works as a home health aide. High-sodium diet. Lives alone with 2 teenage children.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "102 bpm, regular",
+      "bp": "220/130 mmHg (confirmed in both arms)",
+      "rr": "22 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "94 kg, BMI 35.2"
+    },
+    "physical_exam": "General: Anxious-appearing female in moderate distress, holding head. HEENT: Fundoscopic exam reveals bilateral papilledema, flame-shaped hemorrhages, and cotton-wool spots (Grade III-IV hypertensive retinopathy). No JVD. Cardiovascular: Tachycardic, regular, S4 gallop, loud A2, no murmurs. Pulmonary: Bibasilar fine crackles. Abdomen: Soft, non-tender, no bruits. Extremities: Trace bilateral edema. Neurological: Alert and oriented, no focal deficits, deep tendon reflexes 3+ throughout."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Creatinine", "result": "2.4 mg/dL (baseline 1.6)", "flag": "HIGH", "clinical_significance": "Acute worsening from baseline, indicating hypertensive nephrosclerosis and acute kidney injury"},
+      {"test_name": "BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with renal injury"},
+      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggesting demand ischemia from severe hypertension"},
+      {"test_name": "BNP", "result": "520 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicating myocardial strain from acute pressure overload"},
+      {"test_name": "Urinalysis", "result": "2+ protein, no RBC casts, no WBCs", "flag": "ABNORMAL", "clinical_significance": "Proteinuria consistent with hypertensive nephropathy"},
+      {"test_name": "Peripheral blood smear", "result": "Occasional schistocytes noted", "flag": "ABNORMAL", "clinical_significance": "Microangiopathic changes from severe hypertension damaging small vessels"},
+      {"test_name": "LDH", "result": "310 U/L", "flag": "HIGH", "clinical_significance": "Elevated, may reflect microangiopathic hemolysis"},
+      {"test_name": "Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal despite renal impairment"},
+      {"test_name": "Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, possibly from CKD or microangiopathic hemolysis"},
+      {"test_name": "Platelet count", "result": "168,000/µL", "flag": "WNL", "clinical_significance": "Normal, though low-normal may suggest mild consumptive process"},
+      {"test_name": "Glucose", "result": "165 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, poorly controlled diabetes"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "Sinus tachycardia at 102 bpm, LVH with strain pattern (ST depression and T-wave inversions in lateral leads), no acute ST elevation", "flag": "ABNORMAL", "clinical_significance": "LVH with strain pattern from chronic hypertension; no STEMI"},
+      {"test_name": "Chest X-ray", "result": "Cardiomegaly, mild pulmonary vascular congestion, no pleural effusions", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly and early pulmonary edema from acute pressure overload"},
+      {"test_name": "CT head without contrast", "result": "No intracranial hemorrhage, no acute infarct, no mass lesion", "flag": "WNL", "clinical_significance": "Rules out hemorrhagic stroke as cause of headache"}
+    ],
+    "key_tests": ["Basic metabolic panel (creatinine, electrolytes)", "Troponin", "Urinalysis", "12-lead ECG", "CT head"],
+    "acceptable_tests": ["CBC with peripheral smear", "BNP", "Chest X-ray", "LDH", "Fundoscopic exam", "Urine protein-to-creatinine ratio", "Renal ultrasound"],
+    "low_yield_tests": ["Cardiac catheterization", "Lumbar puncture", "Serum cortisol", "Toxicology screen", "Cardiac MRI"],
+    "key_tests_rationale": "BMP assesses for hypertensive nephrosclerosis and AKI. Troponin evaluates for myocardial injury. Urinalysis detects proteinuria/hematuria. ECG screens for ischemia. CT head rules out stroke in a patient with headache and severely elevated BP."
+  },
+  "stage5": {
+    "final_clue": "Severely elevated BP at 220/130 mmHg with evidence of acute end-organ damage: hypertensive retinopathy (papilledema, hemorrhages), acute kidney injury (creatinine rise from baseline), troponin elevation, and pulmonary edema. This defines a hypertensive emergency."
+  },
+  "debrief": {
+    "classic_presentation": "Hypertensive emergency is defined by severely elevated BP (usually >180/120 mmHg) with evidence of acute end-organ damage: brain (encephalopathy, stroke), heart (ACS, acute HF, aortic dissection), kidneys (acute renal failure), eyes (papilledema, hemorrhages), or vasculature (microangiopathic hemolytic anemia). Headache, visual changes, chest pain, and dyspnea are common presentations.",
+    "attending_mode_notes": null,
+    "pathophysiology": "When BP rises above the autoregulatory capacity of vascular beds, endothelial damage occurs, leading to fibrinoid necrosis of arterioles. This triggers a vicious cycle: vascular injury activates RAAS and releases vasoconstrictors, further raising BP. End-organ damage results from both direct pressure injury and ischemia from microvascular thrombosis.",
+    "treatment_overview": "Hypertensive emergency requires IV antihypertensives in a monitored setting. Goal: reduce MAP by no more than 25% in the first hour, then to 160/100 mmHg over next 2-6 hours. First-line agents: IV nicardipine, clevidipine, or nitroprusside. Avoid rapid or excessive BP reduction (risk of watershed infarction). Once stabilized, transition to oral medications. Address underlying cause of non-compliance.",
+    "high_yield_pearls": [
+      "Hypertensive EMERGENCY = severely elevated BP + end-organ damage. Hypertensive URGENCY = severely elevated BP WITHOUT end-organ damage.",
+      "Do NOT reduce BP too rapidly — goal is 25% reduction in MAP in the first hour to avoid watershed ischemia.",
+      "Papilledema and retinal hemorrhages on fundoscopy are key findings that distinguish emergency from urgency.",
+      "Schistocytes on peripheral smear indicate microangiopathic hemolysis from severe hypertension.",
+      "Medication non-compliance is the most common cause of hypertensive crisis — always address barriers to adherence."
+    ],
+    "sources": [
+      "2017 ACC/AHA Guideline for High Blood Pressure in Adults",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Varon & Marik, Clinical Review: The Management of Hypertensive Crises, Critical Care 2003",
+      "Harrisons Principles of Internal Medicine, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Hemorrhagic stroke", "Subarachnoid hemorrhage", "Acute coronary syndrome", "Pheochromocytoma", "Pre-eclampsia/eclampsia", "Acute aortic dissection", "Thyroid storm"],
+    "after_stage2_more_likely": ["Hypertensive emergency", "Hypertensive encephalopathy", "Acute coronary syndrome"],
+    "after_stage2_less_likely": ["Subarachnoid hemorrhage", "Pheochromocytoma", "Thyroid storm"],
+    "after_labs_top3": ["Hypertensive emergency with end-organ damage", "Malignant hypertension", "Thrombotic microangiopathy from hypertension"]
+  }
+}

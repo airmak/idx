@@ -1,0 +1,74 @@
+{
+  "case_id": "case_116",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Normal pressure hydrocephalus",
+  "icd_category": "G91.2 — Normal pressure hydrocephalus",
+  "one_liner": "A 74-year-old man presents with progressive gait difficulty described as 'magnetic' feet, urinary incontinence, and cognitive slowing over 8 months, with CT showing ventriculomegaly out of proportion to cortical atrophy.",
+  "stage2": {
+    "hpi_extension": "The patient's daughter has noticed progressive changes over the past 8 months. First, his walking became slow and unsteady — he describes difficulty lifting his feet from the ground and takes short shuffling steps with a wide base. He has had 3 falls in the past 4 months. Around 4 months ago, he began having urinary urgency and now has frank urge incontinence (2-3 episodes per week). His family also notes progressive cognitive changes — difficulty with attention, problem-solving, and processing speed. He has become apathetic, less conversational, and slower to respond. His memory is relatively preserved for recent events compared to his executive dysfunction. These symptoms have been gradually progressive. He was previously independent and active, playing golf weekly until 6 months ago. No headaches, nausea, vomiting, or visual changes. No history of meningitis, subarachnoid hemorrhage, or head trauma.",
+    "pmh": "Hypertension, hyperlipidemia, benign prostatic hyperplasia (mild, stable).",
+    "surgical_history": "Right knee replacement age 70.",
+    "medications": "Hydrochlorothiazide 25 mg daily, atorvastatin 20 mg daily, tamsulosin 0.4 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother had Alzheimer dementia (onset age 82). Father died of MI at 68.",
+    "social_history": "Retired high school principal. Non-smoker. Social alcohol (1 glass of wine with dinner). Lives with wife. Previously independent in all ADLs. No illicit drug use.",
+    "vitals": {
+      "temp": "98.2 F (36.8 C)",
+      "hr": "72 bpm",
+      "bp": "144/82 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "82 kg, BMI 26.8"
+    },
+    "physical_exam": "General: Pleasant elderly man, appropriately dressed, cooperative. HEENT: No papilledema on fundoscopy. Cranial nerves II-XII intact. Neuro: Mental status — Alert, oriented x3 (slow to provide date). MMSE 24/30 (lost points on serial 7s, figure copy, and delayed recall of 1/3 items). Significant psychomotor slowing. Impaired verbal fluency (names only 7 animals in 1 minute). Trail-making test B markedly impaired. Memory is mildly impaired but improves significantly with cueing (suggesting retrieval deficit rather than encoding deficit). Motor: 5/5 strength in all extremities. No rigidity. No tremor. Gait: MARKEDLY abnormal — wide-based, short-step, shuffling 'magnetic' gait. Difficulty initiating steps (gait ignition failure). Feet appear 'glued to the floor.' Poor balance on turns (multistep turning). No festination. No arm swing reduction. DTRs: 2+ upper extremities, 3+ at knees. Babinski equivocal bilaterally. Sensory: Intact. No peripheral neuropathy. Coordination: No dysmetria or intention tremor."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "6,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hyponatremia excluded"},
+      {"test_name": "BMP — Glucose", "result": "102 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "3.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hypothyroidism excluded as cause of cognitive slowing"},
+      {"test_name": "Vitamin B12", "result": "350 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency excluded"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Neurosyphilis excluded"},
+      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Urinalysis", "result": "Normal, no infection", "flag": "WNL", "clinical_significance": "UTI excluded as cause of incontinence and confusion"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "Ventriculomegaly involving all four ventricles (Evans index 0.38) out of proportion to sulcal enlargement. No mass or hemorrhage. Periventricular hypodensities suggesting transependymal CSF flow.", "flag": "ABNORMAL", "clinical_significance": "Evans index >0.3 indicates ventriculomegaly. The disproportionate ventricular enlargement relative to sulcal widening (DESH — disproportionately enlarged subarachnoid space hydrocephalus) supports communicating hydrocephalus rather than ex vacuo ventriculomegaly from atrophy."},
+      {"test_name": "MRI brain", "result": "Ventriculomegaly (Evans index 0.39). Tight high-convexity sulci with effaced medial subarachnoid spaces (DESH pattern). Periventricular T2/FLAIR hyperintensity consistent with transependymal CSF flow. Aqueductal CSF flow void on T2 (patent aqueduct). Callosal angle 62 degrees (acute — consistent with NPH). No obstructing mass.", "flag": "ABNORMAL", "clinical_significance": "MRI confirms communicating hydrocephalus with DESH pattern (dilated ventricles + tight high-convexity + patent aqueduct). Acute callosal angle (<90 degrees) and transependymal flow support NPH. Rules out obstructive hydrocephalus."}
+    ],
+    "key_tests": ["MRI brain (to assess ventricular size, DESH pattern, callosal angle, exclude obstruction)", "Large-volume lumbar puncture (tap test — 30-50 mL CSF removal with pre/post gait assessment)", "CSF opening pressure measurement", "Neuropsychological testing (especially executive function)", "Gait analysis (timed up-and-go test, gait speed before and after tap test)"],
+    "acceptable_tests": ["CT head", "CBC", "BMP", "TSH", "Vitamin B12", "RPR", "Urinalysis", "Extended lumbar drainage trial (72-hour external drain)", "CSF infusion study (Rout measurement)", "Intracranial pressure monitoring"],
+    "low_yield_tests": ["EEG", "Carotid ultrasound", "MRA", "PET scan", "Serum ammonia"],
+    "low_yield_tests_note": "The large-volume LP (tap test) is the most important prognostic test — improvement in gait after 30-50 mL CSF removal predicts a favorable shunt response."
+  },
+  "stage5": {
+    "final_clue": "A large-volume lumbar puncture (tap test) is performed, removing 40 mL of CSF with an opening pressure of 16 cmH2O (within normal range, as expected in NPH). Gait assessment before and 2 hours after the tap test shows significant improvement: timed up-and-go test improves from 28 seconds to 16 seconds, step length increases, and the patient reports his feet feel 'lighter.' His wife notes he is more conversationally engaged the following day. Given the classic triad (gait apraxia > urinary incontinence > cognitive impairment), imaging showing communicating hydrocephalus with DESH pattern, and positive tap test response, the diagnosis of idiopathic normal pressure hydrocephalus is confirmed. He is referred to neurosurgery and undergoes ventriculoperitoneal shunt placement with a programmable valve. At 3-month follow-up, his gait has markedly improved, incontinence has resolved, and MMSE has improved to 27/30."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly patient (>60 years) with the classic Hakim triad: (1) gait disturbance (magnetic, wide-based, shuffling gait with gait ignition failure — the earliest and most responsive symptom), (2) urinary incontinence (urgency progressing to incontinence), and (3) cognitive impairment (subcortical pattern — psychomotor slowing, executive dysfunction, apathy, with relatively preserved memory encoding). Imaging shows communicating hydrocephalus (Evans index >0.3) disproportionate to cortical atrophy. CSF pressure is normal or low-normal.",
+    "attending_mode_notes": "This case tests the ability to distinguish NPH from other causes of dementia with gait disturbance in the elderly. The attending-level challenges include: (1) Differentiating NPH from Parkinson disease — both have gait difficulty and cognitive decline, but NPH has a wide-based gait (PD is narrow-based), no resting tremor, no rigidity, and no levodopa response. (2) Differentiating from vascular dementia — both have subcortical cognitive profile and gait difficulty, but imaging pattern differs. (3) Recognizing that the 'triad' need not be complete — gait disturbance alone with imaging findings warrants tap test. (4) Understanding the critical role of the large-volume tap test as both a diagnostic and prognostic tool — gait is the symptom most likely to improve with shunting, and the tap test response (especially timed up-and-go improvement) is the best predictor of shunt responsiveness. (5) Knowing that NPH is one of the few 'reversible dementias' — early shunt placement produces the best outcomes.",
+    "pathophysiology": "NPH results from impaired CSF absorption at the arachnoid granulations (in idiopathic NPH) or from prior meningitis, SAH, or surgery (secondary NPH). Despite normal opening pressure on LP, intermittent B-waves (pressure waves) cause chronic ventricular dilation. The enlarged ventricles compress periventricular white matter tracts: (1) corona radiata fibers controlling lower extremity motor function (located medially, explaining gait predominance), (2) periventricular sacral motor fibers to the bladder (explaining urinary symptoms), and (3) frontal subcortical circuits (explaining executive dysfunction and apathy). The DESH pattern (disproportionately enlarged subarachnoid space hydrocephalus) — with tight high-convexity sulci but dilated Sylvian fissures and ventricles — reflects altered CSF dynamics with impaired convexity absorption.",
+    "treatment_overview": "Definitive: Ventriculoperitoneal (VP) shunt with a programmable valve (allows post-operative pressure adjustment). Success rate: 60-80% show improvement (gait improves most, incontinence partially, cognition least). Better predictors of shunt response: gait-predominant symptoms, symptom duration <2 years, known etiology (secondary NPH), positive tap test, positive extended lumbar drainage trial. Alternative: Endoscopic third ventriculostomy (ETV) — less commonly used for communicating hydrocephalus. Complications of shunting: subdural hematoma/hygroma (6-15%), infection (5-10%), over-drainage, shunt malfunction. Post-shunt monitoring: serial imaging, programmable valve adjustments, cognitive and gait reassessment.",
+    "high_yield_pearls": [
+      "NPH triad mnemonic: 'Wet, Wacky, and Wobbly' — but the ORDER of symptom responsiveness to shunting is gait (best response) > incontinence > cognition (least responsive). Early treatment before cognitive decline is key.",
+      "The gait of NPH is 'magnetic' (feet glued to the floor) and wide-based — this differs from the narrow-based, festinating gait of Parkinson disease. NPH has no resting tremor and no rigidity.",
+      "Normal CSF opening pressure does NOT exclude NPH — the pressure is 'normal' (hence the name), typically <18 cmH2O. The pathology is in impaired CSF absorption, not elevated pressure.",
+      "The large-volume LP (tap test) is the key prognostic tool: remove 30-50 mL of CSF and reassess gait (timed up-and-go test) at 1-4 hours. Improvement predicts shunt responsiveness with ~80% positive predictive value.",
+      "DESH pattern on MRI (tight high-convexity sulci + dilated ventricles + widened Sylvian fissures) and callosal angle <90 degrees are imaging features that distinguish NPH from cerebral atrophy."
+    ],
+    "sources": [
+      "Relkin N, et al. Diagnosing idiopathic normal-pressure hydrocephalus. Neurosurgery. 2005",
+      "Japanese Guidelines for iNPH, 3rd Edition, 2020",
+      "UpToDate: Normal pressure hydrocephalus — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Normal pressure hydrocephalus", "Parkinson disease", "Vascular dementia (subcortical)", "Alzheimer disease", "Progressive supranuclear palsy", "Cervical spondylotic myelopathy", "Vitamin B12 deficiency"],
+    "after_stage2_more_likely": ["Normal pressure hydrocephalus", "Vascular dementia"],
+    "after_stage2_less_likely": ["Parkinson disease", "Vitamin B12 deficiency", "Cervical spondylotic myelopathy"],
+    "after_labs_top3": ["Normal pressure hydrocephalus", "Vascular dementia", "Alzheimer disease"]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "case_id": "case_188",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Hypertrophic pyloric stenosis",
+  "icd_category": "K31.1 – Adult hypertrophic pyloric stenosis (Q40.0 for congenital)",
+  "one_liner": "A 4-week-old male, firstborn, presents with 5 days of progressively worsening non-bilious projectile vomiting after every feeding, weight loss, and decreased wet diapers.",
+  "stage2": {
+    "hpi_extension": "The infant's mother reports that he began spitting up after feedings about a week ago, which has progressed to forceful projectile vomiting within 15-30 minutes of every feed over the past 5 days. The vomitus is non-bilious (milk-colored, sometimes curdled) and is never green. Despite the vomiting, the infant seems hungry immediately afterward and eagerly accepts re-feeding. He has lost weight — birth weight was 3.6 kg and current weight is 3.3 kg. Wet diapers have decreased from 6-8 per day to 2-3 per day. He had his last bowel movement 2 days ago and it was small and mucousy. He was born full-term via uncomplicated vaginal delivery. He is formula-fed. No fever, diarrhea, bloody stools, or abdominal distension has been noted.",
+    "pmh": "Born full-term at 39 weeks. Birth weight 3.6 kg. Uncomplicated vaginal delivery. APGAR 8/9. No NICU stay. Received erythromycin ophthalmic ointment and vitamin K at birth. No exposure to macrolide antibiotics postnatally.",
+    "surgical_history": "None",
+    "medications": "Formula-fed (standard cow's milk formula, 3 oz every 3 hours)",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother had pyloric stenosis as an infant (surgically corrected). No other family history of GI disorders.",
+    "social_history": "Lives with both parents. First child. No secondhand smoke exposure. Mother denies prenatal smoking.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "162 bpm",
+      "bp": "72/44 mmHg",
+      "rr": "36 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "3.3 kg (down from 3.6 kg birth weight; below 5th percentile)"
+    },
+    "physical_exam": "General: Alert, thin-appearing neonate; appears hungry and eager to suck; mildly dehydrated; no jaundice. HEENT: Anterior fontanelle slightly sunken. Dry mucous membranes. Eyes slightly sunken. No oral lesions. Neck: Supple. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Non-distended; visible gastric peristaltic waves moving from left to right across the upper abdomen observed during feeding. A firm, mobile, olive-shaped mass approximately 2 cm is palpable in the right upper quadrant/epigastrium, best felt after the infant vomits when the stomach is empty. No tenderness to palpation. No hepatosplenomegaly. Skin: Dry, decreased turgor; no rashes. Extremities: Thin, decreased subcutaneous fat. Capillary refill 3 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Sodium",
+        "result": "134 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia from dehydration due to loss of sodium in emesis and decreased oral intake."
+      },
+      {
+        "test_name": "Potassium",
+        "result": "3.0 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia results from renal potassium wasting in exchange for hydrogen ions to compensate for metabolic alkalosis, and from GI losses in emesis."
+      },
+      {
+        "test_name": "Chloride",
+        "result": "88 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypochloremia from loss of hydrochloric acid (HCl) in the non-bilious vomitus is the hallmark electrolyte abnormality of pyloric stenosis."
+      },
+      {
+        "test_name": "CO2 (bicarbonate)",
+        "result": "32 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated bicarbonate reflects the metabolic alkalosis from loss of gastric acid; the classic electrolyte pattern is hypochloremic, hypokalemic metabolic alkalosis."
+      },
+      {
+        "test_name": "Venous blood gas",
+        "result": "pH 7.52, pCO2 44 mmHg, HCO3 34 mEq/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic alkalosis with appropriate respiratory compensation confirms the characteristic acid-base disturbance of pyloric stenosis from HCl losses."
+      },
+      {
+        "test_name": "BUN",
+        "result": "18 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BUN reflects dehydration and prerenal azotemia from volume depletion."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated creatinine for a neonate suggests significant dehydration."
+      },
+      {
+        "test_name": "Glucose",
+        "result": "68 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low-normal glucose in a fasting, vomiting neonate requires monitoring; neonates have limited glycogen stores."
+      },
+      {
+        "test_name": "Total bilirubin",
+        "result": "4.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild unconjugated hyperbilirubinemia occurs in ~2-5% of pyloric stenosis cases, likely due to caloric deprivation and decreased hepatic glucuronyl transferase activity; resolves after pyloromyotomy."
+      },
+      {
+        "test_name": "WBC",
+        "result": "9.6 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC count argues against an infectious etiology for the vomiting."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Abdominal ultrasound (pylorus-focused)",
+        "result": "Pyloric muscle thickness 5 mm (abnormal >3 mm). Pyloric channel length 18 mm (abnormal >15-17 mm). No passage of gastric contents through the pylorus during the 15-minute observation period. Distended stomach with retained fluid. No other abdominal abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pyloric muscle thickness >3 mm and channel length >15-17 mm on ultrasound are diagnostic of hypertrophic pyloric stenosis with >95% sensitivity and specificity."
+      }
+    ],
+    "key_tests": [
+      "Abdominal ultrasound (pylorus-focused)",
+      "BMP (electrolytes: Na, K, Cl, CO2)",
+      "Venous blood gas",
+      "Clinical examination (olive mass, peristaltic waves)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Total bilirubin",
+      "BUN/Creatinine",
+      "Glucose",
+      "Upper GI series (if ultrasound equivocal)"
+    ],
+    "low_yield_tests": [
+      "Abdominal X-ray (nonspecific, may show dilated stomach)",
+      "CT abdomen (unnecessary radiation, US is definitive)",
+      "Stool studies",
+      "Urinalysis",
+      "Lumbar puncture"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Abdominal ultrasound demonstrates a pyloric muscle thickness of 5 mm and a channel length of 18 mm with no passage of gastric contents, confirming the diagnosis of hypertrophic pyloric stenosis. Laboratory studies reveal the classic hypochloremic, hypokalemic metabolic alkalosis from loss of gastric acid."
+  },
+  "debrief": {
+    "classic_presentation": "Hypertrophic pyloric stenosis classically presents in firstborn males at 2-6 weeks of age with progressive, non-bilious, projectile vomiting that occurs within minutes of feeding. The infant remains hungry after vomiting ('hungry vomiter'). On exam, a palpable olive-shaped mass in the right upper quadrant and visible gastric peristaltic waves are pathognomonic. Laboratory findings show hypochloremic, hypokalemic metabolic alkalosis. Risk factors include male sex (M:F = 4:1), firstborn status, family history, and maternal smoking.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pyloric stenosis results from progressive hypertrophy and hyperplasia of the circular smooth muscle layer of the pylorus, causing gastric outlet obstruction. The exact etiology is unclear but likely multifactorial — genetic predisposition (polygenic), environmental factors, and possibly abnormal nitric oxide synthase and ganglion cell function play roles. The hypertrophied muscle creates a palpable 'olive' and prevents gastric emptying. Loss of gastric hydrochloric acid (HCl) through vomiting depletes chloride and hydrogen ions, causing hypochloremic metabolic alkalosis. The kidneys compensate by retaining H+ and excreting K+ and Na+, worsening hypokalemia (paradoxical aciduria occurs when the alkalosis is severe).",
+    "treatment_overview": "Treatment is surgical: Ramstedt pyloromyotomy (open or laparoscopic), which involves longitudinal incision through the hypertrophied pyloric muscle down to but not through the mucosa. HOWEVER, surgery is NOT an emergency — the critical first step is correction of dehydration and electrolyte abnormalities. Preoperative resuscitation includes IV NS boluses (20 mL/kg) followed by D5 0.45% NS with 20-40 mEq/L KCl. Surgery should be delayed until the patient is euvolemic, serum chloride >100 mEq/L, potassium >3.5 mEq/L, and bicarbonate <30 mEq/L to prevent post-anesthesia apnea from uncorrected alkalosis. Postoperatively, feedings are typically initiated within 4-8 hours and advanced rapidly.",
+    "high_yield_pearls": [
+      "The electrolyte hallmark of pyloric stenosis is HYPOCHLOREMIC, HYPOKALEMIC METABOLIC ALKALOSIS — this results from loss of HCl in the non-bilious vomitus and is one of the most tested acid-base disturbances in medical education.",
+      "Pyloric stenosis is a MEDICAL emergency before it is a surgical one — electrolyte correction must be completed BEFORE surgery to avoid post-anesthesia apnea from uncorrected alkalosis.",
+      "The vomiting in pyloric stenosis is ALWAYS non-bilious because the obstruction is PROXIMAL to the ampulla of Vater; bilious (green) vomiting in a neonate suggests malrotation with midgut volvulus until proven otherwise, which is a true surgical emergency.",
+      "Ultrasound criteria for pyloric stenosis: pyloric muscle thickness >3 mm (single wall) and channel length >15-17 mm; target sign on transverse view is characteristic.",
+      "Risk factors include male sex (4:1 ratio), firstborn status, family history (especially affected mother — 20% risk for male offspring), erythromycin/azithromycin exposure in first 2 weeks of life, and maternal smoking."
+    ],
+    "sources": [
+      "UpToDate: Infantile hypertrophic pyloric stenosis",
+      "AAP/ACS: Pyloric Stenosis — Guidelines for Pediatric Surgery",
+      "Nelson Textbook of Pediatrics, 21st Edition",
+      "Pediatric Surgery, 7th Edition (Coran)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hypertrophic pyloric stenosis",
+      "Gastroesophageal reflux (GERD)",
+      "Malrotation with midgut volvulus",
+      "Milk protein allergy / formula intolerance",
+      "Overfeeding",
+      "Urinary tract infection",
+      "Inborn error of metabolism",
+      "Increased intracranial pressure"
+    ],
+    "after_stage2_more_likely": [
+      "Pyloric stenosis (projectile non-bilious vomiting, palpable olive mass, visible peristaltic waves, progressive worsening, classic demographics)",
+      "GERD (common in infants, but typically not projectile and not progressive)"
+    ],
+    "after_stage2_less_likely": [
+      "Malrotation with volvulus (vomiting would be bilious — green; this emesis is non-bilious)",
+      "Overfeeding (weight loss and dehydration argue against simple overfeeding)",
+      "Inborn error of metabolism (would expect metabolic acidosis, not alkalosis)"
+    ],
+    "after_labs_top3": [
+      "Hypertrophic pyloric stenosis",
+      "Gastric outlet obstruction (other cause)",
+      "Gastroesophageal reflux disease"
+    ]
+  }
+}

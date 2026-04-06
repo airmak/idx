@@ -1,0 +1,168 @@
+{
+  "case_id": "case_187",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Acute appendicitis (pediatric)",
+  "icd_category": "K35.80 – Unspecified acute appendicitis without abscess",
+  "one_liner": "A 10-year-old female with no significant past medical history presents with 18 hours of periumbilical pain that has migrated to the right lower quadrant, accompanied by nausea, vomiting, and low-grade fever.",
+  "stage2": {
+    "hpi_extension": "The patient reports that her abdominal pain began around her belly button yesterday afternoon while at school. She had one episode of non-bilious vomiting and felt nauseated. The pain progressively worsened and shifted to her right lower abdomen by last night. She had no appetite for dinner and refused breakfast this morning. She reports the pain is constant, sharp, and worsened by walking and coughing. She had a small non-bloody bowel movement yesterday. She denies dysuria, vaginal discharge, or menstrual history (premenarchal). No recent travel, sick contacts, or trauma. No similar episodes in the past.",
+    "pmh": "No significant past medical history. Up to date on immunizations.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 200 mg PO given at home for pain (10 mg/kg)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had appendectomy at age 14. No family history of inflammatory bowel disease.",
+    "social_history": "Lives with both parents and two siblings. Attends 5th grade. Active in gymnastics. No secondhand smoke exposure.",
+    "vitals": {
+      "temp": "38.2°C (100.8°F)",
+      "hr": "104 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "32 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Lying still on the stretcher, knees slightly drawn up, appears uncomfortable; reluctant to move. HEENT: Dry lips, mucous membranes mildly dry. Neck: Supple, no lymphadenopathy. Cardiovascular: Mildly tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mildly distended. Tenderness maximal at McBurney's point (right lower quadrant). Voluntary and involuntary guarding in the RLQ. Positive Rovsing sign (pain in RLQ with palpation of LLQ). Positive psoas sign (pain with passive right hip extension). Obturator sign equivocal. No palpable mass. Decreased bowel sounds. No rebound tenderness. Rectal exam deferred. Extremities: Warm, well-perfused. Skin: No rashes. GU: Premenarchal, external exam normal, no discharge."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "15.6 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with left shift is present in 80-90% of pediatric appendicitis cases."
+      },
+      {
+        "test_name": "Neutrophils",
+        "result": "82%",
+        "flag": "HIGH",
+        "clinical_significance": "Neutrophil predominance supports an acute bacterial inflammatory process."
+      },
+      {
+        "test_name": "CRP",
+        "result": "48 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CRP supports acute inflammation; CRP >10 mg/L combined with leukocytosis increases the likelihood of appendicitis; very high CRP (>100) may suggest perforation."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; no evidence of bleeding or chronic disease."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "295 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count."
+      },
+      {
+        "test_name": "BMP (Na, K, Cl, CO2, BUN, Cr, Glucose)",
+        "result": "Na 137, K 4.0, Cl 101, CO2 23, BUN 14, Cr 0.6, Glucose 96",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function; no significant dehydration."
+      },
+      {
+        "test_name": "Lipase",
+        "result": "22 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lipase excludes pancreatitis as a cause of the abdominal pain."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, SG 1.025, pH 6.0, 3-5 WBCs/hpf, no bacteria, no nitrites, trace leukocyte esterase",
+        "flag": "WNL",
+        "clinical_significance": "Mild pyuria can be seen in appendicitis due to proximity of an inflamed appendix to the ureter/bladder; the absence of bacteria and nitrites makes UTI unlikely."
+      },
+      {
+        "test_name": "Urine hCG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative pregnancy test is important to obtain in all female patients of reproductive age presenting with abdominal pain to rule out ectopic pregnancy; this patient is premenarchal."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Ultrasound abdomen (RLQ focused)",
+        "result": "Non-compressible, aperistaltic tubular structure in the RLQ measuring 8 mm in diameter with wall thickening. Periappendiceal fat stranding. Small amount of free fluid in the pelvis. No appendicolith identified. No abscess or phlegmon.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An appendiceal diameter >6 mm with non-compressibility is highly suggestive of acute appendicitis; ultrasound is the preferred initial imaging modality in children to avoid radiation."
+      },
+      {
+        "test_name": "Abdominal X-ray (KUB)",
+        "result": "Mild ileus pattern with a few air-fluid levels in the right lower quadrant. No free air. No calcified appendicolith. No bowel obstruction pattern.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Localized ileus in the RLQ can be seen with appendicitis but is nonspecific; an appendicolith is seen in only 10-15% of cases on plain film."
+      }
+    ],
+    "key_tests": [
+      "Ultrasound abdomen (RLQ focused)",
+      "CBC with differential",
+      "CRP",
+      "Urinalysis",
+      "Urine pregnancy test (females)"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "CT abdomen/pelvis with contrast (if US equivocal)",
+      "Lipase",
+      "Blood type and screen (preoperative)",
+      "Abdominal X-ray (KUB)",
+      "MRI abdomen (radiation-free alternative to CT)"
+    ],
+    "low_yield_tests": [
+      "Barium enema",
+      "Upper GI series",
+      "Liver function tests",
+      "Stool studies (unless diarrhea prominent)",
+      "ESR (less useful than CRP in acute setting)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "RLQ ultrasound reveals a non-compressible, dilated appendix measuring 8 mm with surrounding fat stranding and a small amount of pelvic free fluid, confirming the diagnosis of acute appendicitis. Pediatric surgery is consulted for appendectomy."
+  },
+  "debrief": {
+    "classic_presentation": "Pediatric appendicitis classically presents with periumbilical pain that migrates to the right lower quadrant (McBurney's point) over 12-24 hours, accompanied by anorexia, nausea, vomiting (typically after pain onset), and low-grade fever. Peak incidence is 10-12 years. Younger children (<5 years) often have atypical presentations and higher perforation rates due to delayed diagnosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Appendicitis begins with luminal obstruction, most commonly by a fecalith (appendicolith) but also by lymphoid hyperplasia (especially in children after viral illness), parasites, or tumor. Obstruction leads to increased intraluminal pressure, mucosal ischemia, and bacterial overgrowth (E. coli, Bacteroides fragilis). The distended appendix initially causes visceral, poorly localized periumbilical pain (referred via visceral afferents to T10 dermatome). As transmural inflammation progresses and involves the parietal peritoneum, the pain localizes to the RLQ (somatic pain). Without intervention, progression to gangrenous appendicitis and perforation occurs, typically within 24-72 hours of symptom onset.",
+    "treatment_overview": "Definitive treatment is appendectomy, preferably laparoscopic. Preoperative management includes: IV fluid resuscitation, NPO status, analgesics (morphine does not mask peritoneal signs), and broad-spectrum antibiotics covering gram-negatives and anaerobes (e.g., cefoxitin or piperacillin-tazobactam). For uncomplicated appendicitis, antibiotics are continued for 24 hours postoperatively. For perforated appendicitis, IV antibiotics are continued for 5-7 days or until clinically improved. Non-operative antibiotic management is being studied but surgery remains the standard of care. For perforated appendicitis with abscess, interval appendectomy after percutaneous drainage and antibiotics may be preferred.",
+    "high_yield_pearls": [
+      "The Pediatric Appendicitis Score (PAS) and Alvarado score help risk-stratify patients: elements include RLQ tenderness, cough/percussion/hopping tenderness, migration of pain, anorexia, nausea/vomiting, fever, leukocytosis, and left shift.",
+      "Ultrasound is the FIRST-LINE imaging modality for suspected appendicitis in children (sensitivity 85-95%, specificity 95%+); CT should be reserved for equivocal cases to minimize radiation exposure.",
+      "In children <5 years, appendicitis presents atypically — diffuse abdominal pain, diarrhea, and irritability are common — leading to delayed diagnosis and perforation rates of 80-100% in this age group.",
+      "The classic teaching of 'pain before vomiting' favors appendicitis, while 'vomiting before pain' favors gastroenteritis — this historical feature has reasonable predictive value.",
+      "Mild pyuria or hematuria on urinalysis can occur in appendicitis (30% of cases) when an inflamed retrocecal or pelvic appendix lies adjacent to the ureter or bladder — this should not divert the diagnosis to UTI."
+    ],
+    "sources": [
+      "UpToDate: Acute appendicitis in children: Clinical manifestations and diagnosis",
+      "UpToDate: Acute appendicitis in children: Management",
+      "ACS/EAST Guidelines: Evaluation and Management of Acute Appendicitis in the Pediatric Patient",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute appendicitis",
+      "Mesenteric lymphadenitis",
+      "Gastroenteritis",
+      "Urinary tract infection",
+      "Ovarian cyst/torsion",
+      "Constipation",
+      "Meckel diverticulitis",
+      "Inflammatory bowel disease (first presentation)"
+    ],
+    "after_stage2_more_likely": [
+      "Acute appendicitis (classic migratory pain, McBurney's tenderness, positive Rovsing and psoas signs, anorexia, low-grade fever)",
+      "Mesenteric lymphadenitis (RLQ pain with preceding URI — but typically no migration or peritoneal signs)"
+    ],
+    "after_stage2_less_likely": [
+      "Gastroenteritis (pain preceded vomiting, no diarrhea, focal RLQ findings)",
+      "UTI (no dysuria, minimal pyuria, no bacteria on UA)",
+      "Ovarian torsion (premenarchal, no pelvic mass on exam, pain migration pattern classic for appendicitis)"
+    ],
+    "after_labs_top3": [
+      "Acute appendicitis",
+      "Mesenteric lymphadenitis",
+      "Meckel diverticulitis"
+    ]
+  }
+}

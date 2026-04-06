@@ -1,0 +1,78 @@
+{
+  "case_id": "case_070",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Stable Angina Pectoris",
+  "icd_category": "I20.9 — Angina pectoris, unspecified",
+  "one_liner": "A 58-year-old male with hypertension, hyperlipidemia, and a 35-pack-year smoking history presents with exertional substernal chest pressure relieved by rest.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 3-month history of substernal chest pressure that occurs predictably when he walks briskly for more than 2 blocks or climbs stairs. The pressure is described as a 'tightness' or 'squeezing,' radiates to his left arm, and is associated with mild dyspnea. Symptoms resolve within 5 minutes of rest. He has not tried nitroglycerin. The pattern has been consistent without worsening. He denies rest pain, nocturnal symptoms, nausea, or diaphoresis.",
+    "pmh": "Hypertension (12 years), hyperlipidemia, type 2 diabetes mellitus, obesity",
+    "surgical_history": "Inguinal hernia repair (age 40)",
+    "medications": "Lisinopril 20 mg daily, atorvastatin 20 mg daily, metformin 500 mg BID, aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had CABG at age 62. Brother had MI at age 55. Mother alive with hypertension.",
+    "social_history": "Active smoker, 35 pack-years. Drinks 1-2 beers daily. Works as a construction foreman. Sedentary outside of work.",
+    "vitals": {
+      "temp": "36.6°C (97.9°F)",
+      "hr": "76 bpm, regular",
+      "bp": "148/92 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "102 kg, BMI 32.8"
+    },
+    "physical_exam": "General: Overweight male, no acute distress at rest. HEENT: No JVD, no carotid bruits. Cardiovascular: Regular rate and rhythm, normal S1/S2, no murmurs, gallops, or rubs; PMI non-displaced. Pulmonary: Clear to auscultation bilaterally. Abdomen: Obese, soft, non-tender. Extremities: No edema, normal pulses bilaterally. Skin: No xanthomas."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no acute myocardial necrosis (expected in stable angina)"},
+      {"test_name": "Total cholesterol", "result": "248 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, suboptimally controlled dyslipidemia"},
+      {"test_name": "LDL cholesterol", "result": "162 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, needs intensification of statin therapy"},
+      {"test_name": "HDL cholesterol", "result": "36 mg/dL", "flag": "LOW", "clinical_significance": "Low HDL, additional cardiovascular risk factor"},
+      {"test_name": "Triglycerides", "result": "210 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, associated with metabolic syndrome"},
+      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control, increases cardiovascular risk"},
+      {"test_name": "Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Fasting glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with uncontrolled diabetes"},
+      {"test_name": "CBC", "result": "WBC 7.8, Hgb 15.2, Plt 198", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BNP", "result": "38 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no heart failure"},
+      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG (resting)", "result": "Normal sinus rhythm, LVH by voltage criteria, no ST-T changes at rest", "flag": "ABNORMAL", "clinical_significance": "LVH from chronic hypertension; normal resting ECG does not exclude CAD"},
+      {"test_name": "Exercise stress ECG", "result": "At 6 minutes on Bruce protocol (7 METs), patient developed typical chest pressure with 2 mm horizontal ST depression in leads V4-V6 and lead II. Symptoms and ECG changes resolved within 3 minutes of recovery. No arrhythmias.", "flag": "ABNORMAL", "clinical_significance": "Positive stress test reproducing symptoms with ischemic ECG changes, consistent with obstructive CAD"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly, no pulmonary congestion or effusion", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with hypertensive heart disease"}
+    ],
+    "key_tests": ["12-lead ECG", "Exercise stress test", "Troponin", "Lipid panel", "Fasting glucose/HbA1c"],
+    "acceptable_tests": ["BNP", "CBC", "Basic metabolic panel", "TSH", "Chest X-ray", "Coronary CT angiography", "Stress echocardiogram", "Nuclear stress test"],
+    "low_yield_tests": ["D-dimer", "CRP", "Cardiac MRI", "Pulmonary function tests", "Serum cortisol"],
+    "key_tests_rationale": "ECG identifies baseline abnormalities. Stress testing provokes and documents ischemia. Troponin rules out acute injury. Lipid panel and HbA1c quantify cardiovascular risk factors requiring optimization."
+  },
+  "stage5": {
+    "final_clue": "Exercise stress testing reproduces the patient's typical chest pressure at 6 minutes with 2 mm ST depression in the lateral leads, confirming ischemia. Symptoms and ECG changes resolve with rest. This is classic stable angina pectoris."
+  },
+  "debrief": {
+    "classic_presentation": "Stable angina presents as predictable exertional substernal chest pressure/tightness that radiates to the arm or jaw, is provoked by physical exertion or emotional stress, and is relieved within minutes by rest or nitroglycerin. The pattern is consistent and does not occur at rest. Multiple cardiovascular risk factors (smoking, hypertension, diabetes, hyperlipidemia, family history) are typical.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Stable angina results from fixed atherosclerotic plaque causing ≥70% stenosis of a coronary artery. At rest, coronary blood flow is adequate, but during exertion, myocardial oxygen demand exceeds supply through the narrowed vessel, causing transient ischemia. Unlike unstable angina/ACS, the plaque is not ruptured and there is no thrombus formation.",
+    "treatment_overview": "Lifestyle: smoking cessation (single most impactful intervention), exercise, weight loss, dietary modification. Medical therapy: aspirin, high-intensity statin (target LDL < 70 mg/dL), optimal BP and glucose control. Anti-anginal therapy: sublingual nitroglycerin PRN, beta-blocker (first-line), calcium channel blocker or long-acting nitrate as second-line. Ranolazine for refractory symptoms. Revascularization (PCI or CABG) if medical therapy fails or high-risk anatomy on angiography.",
+    "high_yield_pearls": [
+      "Stable angina is provoked by exertion, relieved by rest within 5 minutes, and has a consistent threshold — this differentiates it from unstable angina.",
+      "A normal resting ECG does NOT exclude significant coronary artery disease — stress testing is needed.",
+      "The COURAGE and ISCHEMIA trials showed that initial conservative management with optimal medical therapy is non-inferior to PCI for stable angina in most patients.",
+      "High-intensity statin therapy reduces cardiovascular events by 30-40% independent of baseline LDL in patients with known or suspected CAD.",
+      "Smoking cessation reduces cardiovascular mortality risk by 50% within 1 year."
+    ],
+    "sources": [
+      "2021 AHA/ACC Chest Pain Guideline",
+      "ISCHEMIA Trial (Maron et al., NEJM 2020)",
+      "COURAGE Trial (Boden et al., NEJM 2007)",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Unstable angina/ACS", "GERD", "Musculoskeletal chest pain", "Aortic stenosis", "Hypertrophic cardiomyopathy", "Esophageal spasm"],
+    "after_stage2_more_likely": ["Stable angina", "Unstable angina", "Aortic stenosis"],
+    "after_stage2_less_likely": ["GERD", "Musculoskeletal pain", "Esophageal spasm"],
+    "after_labs_top3": ["Stable angina pectoris", "Coronary artery disease", "Metabolic syndrome with CAD"]
+  }
+}

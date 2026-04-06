@@ -1,0 +1,151 @@
+{
+  "case_id": "case_203",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Gestational diabetes mellitus (GDM, class A2)",
+  "icd_category": "O24.419 – Gestational diabetes mellitus in pregnancy, unspecified control",
+  "one_liner": "A 30-year-old G2P1 at 28 weeks gestation is found to have an abnormal 1-hour glucose challenge test (185 mg/dL) followed by a diagnostic 3-hour OGTT confirming gestational diabetes.",
+  "stage2": {
+    "hpi_extension": "The patient presents for routine prenatal care at 28 weeks gestation. She underwent a 1-hour 50-g glucose challenge test which returned at 185 mg/dL (cutoff 130-140 mg/dL). She reports feeling well overall but notes increased thirst, frequent urination, and fatigue over the past 3 weeks, which she attributed to normal pregnancy. She has had a 3 kg weight gain in the past month (more than expected). Her first pregnancy was uncomplicated and resulted in a 3.8 kg (8 lb 6 oz) baby delivered vaginally at 39 weeks. She denies polyhydramnios symptoms. She has no history of diabetes. Her diet includes regular sugar-sweetened beverages and high-carbohydrate meals.",
+    "pmh": "G2P1001. Prior uncomplicated pregnancy with macrosomic infant (3.8 kg). BMI 32 pre-pregnancy (obese). No prior GDM diagnosis.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with type 2 diabetes diagnosed at age 48. Maternal grandmother with type 2 diabetes. Father with hypertension.",
+    "social_history": "Works from home. Non-smoker. No alcohol during pregnancy. Sedentary lifestyle. Eats a high-carbohydrate diet.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "82 bpm",
+      "bp": "122/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "88 kg (pre-pregnancy 82 kg, BMI 32 kg/m²)"
+    },
+    "physical_exam": "General: Well-appearing, overweight gravid female in no distress. HEENT: No acanthosis nigricans on neck. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Gravid uterus; fundal height 30 cm (2 cm above expected for dates, suggesting possible macrosomia or polyhydramnios); non-tender. Extremities: Mild bilateral pedal edema; no skin changes. Neurologic: Intact sensation in bilateral feet."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "1-hour glucose challenge test (50 g)",
+        "result": "185 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated (>140 mg/dL); values >200 mg/dL are sometimes used to diagnose GDM without a 3-hour test. This result warrants a diagnostic 3-hour OGTT."
+      },
+      {
+        "test_name": "3-hour OGTT (100 g) — Carpenter-Coustan criteria",
+        "result": "Fasting: 102 mg/dL (cutoff 95), 1-hour: 198 mg/dL (cutoff 180), 2-hour: 172 mg/dL (cutoff 155), 3-hour: 138 mg/dL (cutoff 140)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Three of four values exceed Carpenter-Coustan thresholds (≥2 abnormal values required), confirming the diagnosis of GDM."
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.0%",
+        "flag": "HIGH",
+        "clinical_significance": "HbA1c of 6.0% suggests recent glucose dysregulation; while not used for GDM diagnosis, it provides a baseline for monitoring."
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "105 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated fasting glucose indicates that diet alone may be insufficient (class A2 GDM), and pharmacologic therapy may be needed."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.5 × 10³/µL, Hgb 11.2 g/dL, Plt 240 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; mild physiologic anemia of pregnancy is within expected range."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Glucose 2+, protein negative, ketones negative, WBC negative",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Glucosuria reflects hyperglycemia exceeding the renal threshold; its presence supports the need for glycemic control."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 137, K 4.1, Cl 101, CO2 23, BUN 8, Cr 0.6, Glucose 118",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Random glucose of 118 mg/dL is mildly elevated; creatinine is normal for pregnancy."
+      },
+      {
+        "test_name": "Thyroid function (TSH)",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can contribute to weight gain and metabolic derangements but is excluded here."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Obstetric ultrasound",
+        "result": "Single live intrauterine pregnancy at 28 weeks 3 days. Estimated fetal weight 1,250 g (75th percentile). Abdominal circumference at 80th percentile. Amniotic fluid index 22 cm (mildly elevated). Placenta anterior, grade I.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Fetal abdominal circumference trending above expected and mild polyhydramnios are early signs of fetal macrosomia related to maternal hyperglycemia."
+      }
+    ],
+    "key_tests": [
+      "1-hour glucose challenge test (50 g) — screening",
+      "3-hour oral glucose tolerance test (100 g) — diagnostic",
+      "Fasting and postprandial glucose monitoring (self-monitoring)"
+    ],
+    "acceptable_tests": [
+      "HbA1c",
+      "Urinalysis (glucosuria screening)",
+      "Serial obstetric ultrasound for fetal growth",
+      "Non-stress testing (third trimester)",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "Insulin levels (not needed for GDM diagnosis)",
+      "C-peptide",
+      "GAD antibodies (unless type 1 diabetes suspected)",
+      "CT or MRI (no indication)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "After 2 weeks of dietary modification and glucose self-monitoring, the patient's fasting glucose remains 100-115 mg/dL and 2-hour postprandial values are 130-150 mg/dL, exceeding targets (fasting <95, 2-hour postprandial <120), confirming class A2 GDM requiring insulin therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Gestational diabetes is often asymptomatic and detected on routine screening at 24-28 weeks gestation. Risk factors include obesity, age >25, family history of diabetes, prior GDM, prior macrosomic infant, and certain ethnicities (Hispanic, African American, Native American, South Asian). When symptomatic, patients may report polydipsia, polyuria, and excessive weight gain. Ultrasound may show fetal macrosomia or polyhydramnios.",
+    "attending_mode_notes": null,
+    "pathophysiology": "During normal pregnancy, placental hormones (human placental lactogen, progesterone, cortisol, growth hormone) create progressive insulin resistance to ensure adequate glucose delivery to the fetus. In GDM, maternal pancreatic beta cells cannot compensate for this increased insulin demand, resulting in hyperglycemia. Fetal hyperglycemia stimulates fetal hyperinsulinemia, which drives excessive fetal growth (macrosomia), organomegaly, increased fat deposition (especially truncal), and increased metabolic rate (causing fetal hypoxia and polycythemia). Fetal hyperinsulinemia also inhibits surfactant production, increasing the risk of neonatal respiratory distress syndrome.",
+    "treatment_overview": "First-line management is medical nutrition therapy (MNT) with carbohydrate-controlled diet (3 meals and 2-3 snacks daily, 33-40% calories from carbohydrates) and moderate exercise (30 minutes daily). Self-monitoring of blood glucose (fasting and 1-hour or 2-hour postprandial) is essential. Targets: fasting <95 mg/dL, 1-hour postprandial <140 mg/dL, 2-hour postprandial <120 mg/dL. If targets are not met within 1-2 weeks of lifestyle modification (class A2), insulin is the preferred pharmacologic therapy. Glyburide and metformin are alternatives but cross the placenta. Fetal surveillance includes serial growth ultrasounds every 3-4 weeks and antenatal testing (NST, BPP) starting at 32-36 weeks depending on severity. Delivery timing: well-controlled diet-managed GDM may await 39-40 weeks; medication-requiring GDM is typically delivered at 39 weeks; poorly controlled GDM may warrant earlier delivery.",
+    "high_yield_pearls": [
+      "Universal screening for GDM is performed at 24-28 weeks with a 1-hour 50-g glucose challenge test; early screening at the first prenatal visit is recommended for patients with risk factors (obesity, prior GDM, family history).",
+      "The 3-hour 100-g OGTT requires ≥2 abnormal values to diagnose GDM using Carpenter-Coustan criteria (fasting ≥95, 1-hr ≥180, 2-hr ≥155, 3-hr ≥140 mg/dL).",
+      "Fetal macrosomia in GDM is driven by fetal hyperinsulinemia in response to maternal hyperglycemia — the Pedersen hypothesis explains the pathophysiology of diabetic fetopathy.",
+      "Women with GDM have a 50% lifetime risk of developing type 2 diabetes — a 75-g OGTT should be performed 4-12 weeks postpartum, and screening should continue every 1-3 years.",
+      "Neonatal complications of GDM include hypoglycemia, hypocalcemia, polycythemia, jaundice, respiratory distress syndrome, and birth injuries from macrosomia (shoulder dystocia, brachial plexus injury)."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 190: Gestational Diabetes Mellitus (2018)",
+      "ADA Standards of Medical Care in Diabetes (2024): Management of Diabetes in Pregnancy",
+      "UpToDate: Gestational diabetes mellitus: Screening, diagnosis, and prevention",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Gestational diabetes mellitus",
+      "Pre-existing type 2 diabetes (undiagnosed)",
+      "Pre-existing type 1 diabetes (undiagnosed, rare at this age without symptoms)",
+      "Impaired glucose tolerance (pre-diabetes)",
+      "Cushing syndrome",
+      "Stress hyperglycemia"
+    ],
+    "after_stage2_more_likely": [
+      "Gestational diabetes mellitus (abnormal GCT at 28 weeks, risk factors of obesity, family history, prior macrosomic infant, polyhydramnios on exam)",
+      "Pre-existing type 2 diabetes (possible if early first-trimester hyperglycemia was missed)"
+    ],
+    "after_stage2_less_likely": [
+      "Type 1 diabetes (no ketosis, no significant weight loss, gradual onset)",
+      "Cushing syndrome (no cushingoid features, no striae beyond pregnancy-related)",
+      "Stress hyperglycemia (persistent elevation on formal OGTT, not isolated)"
+    ],
+    "after_labs_top3": [
+      "Gestational diabetes mellitus (confirmed by 3-hour OGTT with 3 of 4 abnormal values)",
+      "Pre-existing type 2 diabetes (HbA1c 6.0% could suggest pre-existing glucose intolerance, but was not tested early in pregnancy)",
+      "Impaired glucose tolerance (only 1 abnormal value on OGTT would suggest this, but patient has 3 abnormal values)"
+    ]
+  }
+}

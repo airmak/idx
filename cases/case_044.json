@@ -1,0 +1,74 @@
+{
+  "case_id": "case_044",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Ovarian Torsion",
+  "icd_category": "N83.5 — Torsion of ovary, ovarian pedicle, and fallopian tube",
+  "one_liner": "A 24-year-old female undergoing fertility treatment presents with sudden-onset severe right lower quadrant pain, nausea, and vomiting, initially mistaken for appendicitis.",
+  "stage2": {
+    "hpi_extension": "Patient developed sudden-onset severe right lower quadrant abdominal pain approximately 5 hours ago while rolling over in bed. The pain is sharp, constant, rated 9/10, and radiates to the right flank. She has had 4 episodes of vomiting. She was moving her position frequently trying to find a comfortable position. She reports the pain initially came and went over the first hour (intermittent torsion/detorsion) but has been constant for the past 4 hours. She is currently undergoing ovarian stimulation with clomiphene citrate for IVF and had an ultrasound 3 days ago showing bilaterally enlarged ovaries with multiple follicles (right ovary measured 6.2 cm). Her last menstrual period was 2 weeks ago. Urine pregnancy test at home this morning was negative. She denies fever, diarrhea, constipation, dysuria, or vaginal bleeding. No history of similar episodes.",
+    "pmh": "Polycystic ovary syndrome (PCOS), infertility (2 years), mild asthma",
+    "surgical_history": "None",
+    "medications": "Clomiphene citrate 100 mg (CD 5-9, completed 5 days ago), metformin 1500 mg daily, prenatal vitamins, albuterol inhaler as needed",
+    "allergies": "Latex (contact dermatitis)",
+    "family_history": "Mother has PCOS. Sister had an ovarian cyst rupture at age 19.",
+    "social_history": "Non-smoker. No alcohol (trying to conceive). Marketing analyst. Married. No illicit drugs.",
+    "vitals": {
+      "temp": "99.4 F (37.4 C)",
+      "hr": "104 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "72 kg, BMI 26.1"
+    },
+    "physical_exam": "General: Young woman in significant distress, writhing on stretcher, unable to find comfortable position. Tearful. HEENT: Unremarkable. Neck: Supple. Cardiovascular: Mildly tachycardic, regular rhythm. Normal heart sounds. Pulmonary: Clear bilaterally. Abdomen: Right lower quadrant tenderness with guarding. Mild right flank tenderness. No rebound tenderness. No Rovsing sign. Psoas sign negative. McBurney point tenderness equivocal. Bowel sounds hypoactive. Pelvic exam: No vaginal discharge or bleeding. Cervix closed, non-tender. Right adnexal fullness and exquisite tenderness on bimanual exam. Left adnexa mildly enlarged, non-tender. No cervical motion tenderness. Extremities: No edema. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urine hCG", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes ectopic pregnancy"},
+      {"test_name": "CBC - WBC", "result": "13.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis — can occur with torsion (pain, stress) but does NOT confirm appendicitis"},
+      {"test_name": "CBC - Hemoglobin", "result": "12.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Urinalysis", "result": "Normal — no WBCs, no RBCs, no bacteria, no nitrites", "flag": "WNL", "clinical_significance": "Excludes UTI/pyelonephritis"},
+      {"test_name": "CRP", "result": "3.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, nonspecific inflammation"},
+      {"test_name": "Lactate", "result": "1.8 mmol/L", "flag": "WNL", "clinical_significance": "Normal — lactate is not a reliable marker for ovarian torsion"},
+      {"test_name": "LDH", "result": "290 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, may indicate tissue ischemia"},
+      {"test_name": "BMP - Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Lipase", "result": "32 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Pelvic Ultrasound with Doppler", "result": "Right ovary markedly enlarged (7.1 x 5.8 cm) with multiple peripheral follicles ('string of pearls' appearance from stimulation). Absent arterial and venous Doppler flow to the right ovary. Right ovary is displaced superiorly and medially. Free fluid in the cul-de-sac (small amount). Left ovary enlarged (4.8 cm) with multiple follicles, normal Doppler flow. Uterus normal.", "flag": "ABNORMAL", "clinical_significance": "Enlarged right ovary with absent Doppler flow is highly suspicious for ovarian torsion. However, presence of flow does NOT exclude torsion (dual blood supply may preserve some flow)."},
+      {"test_name": "CT Abdomen/Pelvis with Contrast (obtained prior to ultrasound)", "result": "Enlarged right ovary with surrounding fat stranding. Thickened right ovarian pedicle with 'whirlpool sign.' Small amount of pelvic free fluid. Appendix is normal (6 mm, no inflammation). No other acute pathology.", "flag": "ABNORMAL", "clinical_significance": "Whirlpool sign (twisted pedicle) is specific for torsion. Normal appendix effectively excludes appendicitis."}
+    ],
+    "key_tests": ["Pelvic ultrasound with Doppler", "Urine hCG", "CBC", "Urinalysis"],
+    "acceptable_tests": ["CT abdomen/pelvis with contrast (if diagnosis uncertain)", "BMP", "CRP", "Lactate", "LDH", "Lipase"],
+    "low_yield_tests": ["MRI pelvis (delays surgery)", "CA-125 (not useful acutely)", "Serum estradiol", "Abdominal X-ray", "Culdocentesis"]
+  },
+  "stage5": {
+    "final_clue": "Pelvic ultrasound shows a markedly enlarged right ovary (7.1 cm from ovarian stimulation) with absent Doppler flow, and CT demonstrates the whirlpool sign of a twisted pedicle. In a patient undergoing fertility treatment with enlarged ovaries, the sudden onset of severe unilateral pelvic pain is ovarian torsion until proven otherwise. The normal appendix on CT effectively excludes appendicitis. Emergent surgery for ovarian detorsion is needed to salvage the ovary."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden-onset severe unilateral lower abdominal/pelvic pain with nausea and vomiting in a reproductive-age woman. Pain may be intermittent initially (torsion-detorsion). Risk factors include ovarian enlargement (stimulation for IVF, cysts >5 cm, dermoid), PCOS, pregnancy, prior torsion, and long utero-ovarian ligament. Right side is more common (60%) due to the sigmoid colon limiting left ovarian mobility.",
+    "attending_mode_notes": "Ovarian torsion is frequently misdiagnosed as appendicitis, ruptured ovarian cyst, or PID — especially when right-sided. Key distinguishing factors: (1) the intermittent nature of early pain (torsion/detorsion), (2) association with ovarian enlargement or fertility treatment, (3) absence of fever (torsion is not initially infectious), (4) absence of GI symptoms like diarrhea. The critical pitfall is relying on Doppler flow — the ovary has dual blood supply (ovarian and uterine arteries), so preserved Doppler flow does NOT exclude torsion. Up to 60% of surgically confirmed torsion cases have some Doppler flow on ultrasound.",
+    "pathophysiology": "Ovarian torsion occurs when the ovary (with or without the fallopian tube) rotates on its vascular pedicle, compromising venous outflow first (due to lower intraluminal pressure), then arterial inflow. Venous congestion causes ovarian edema and enlargement, further propagating the torsion. Prolonged ischemia (>24-36 hours) leads to hemorrhagic infarction and eventual necrosis. Enlarged ovaries are predisposed because their increased weight and size create more torque. Ovarian stimulation (IVF) is a particularly high-risk scenario because multiple large follicles dramatically increase ovarian size.",
+    "treatment_overview": "Emergent laparoscopic ovarian detorsion is the treatment of choice, regardless of ovarian appearance (even black/hemorrhagic ovaries can recover after detorsion). Oophoropexy (fixation) may be performed to prevent recurrence. Oophorectomy is reserved for clearly necrotic tissue without recovery after detorsion. Time to surgery is critical for ovarian salvage: >80% salvage rate if surgery within 8 hours, significantly lower after 24-36 hours. Pain management with IV opioids and antiemetics pre-operatively. If the patient is undergoing IVF, the fertility specialist should be involved in the surgical plan.",
+    "high_yield_pearls": [
+      "NORMAL Doppler flow does NOT exclude ovarian torsion — up to 60% of confirmed cases have some arterial flow due to dual blood supply.",
+      "Ovarian torsion is a SURGICAL diagnosis — if clinical suspicion is high, proceed to laparoscopy even if imaging is equivocal.",
+      "Ovarian stimulation for IVF is a major risk factor — enlarged ovaries (>5 cm) dramatically increase torsion risk.",
+      "Always detorse first, even if the ovary appears necrotic — ovarian salvage rates are high with timely intervention.",
+      "Intermittent pain that becomes constant suggests initial torsion-detorsion progressing to fixed torsion — this temporal pattern is a key diagnostic clue."
+    ],
+    "sources": [
+      "Houry D et al. Acad Emerg Med 2001;8:758-762",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 100",
+      "Sasaki KJ et al. Am J Obstet Gynecol 2014;211:109.e1-9"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Ovarian torsion", "Appendicitis", "Ruptured ovarian cyst", "Ectopic pregnancy", "Ovarian hyperstimulation syndrome", "Pelvic inflammatory disease", "Kidney stone"],
+    "after_stage2_more_likely": ["Ovarian torsion", "Appendicitis", "Ruptured ovarian cyst"],
+    "after_stage2_less_likely": ["Ectopic pregnancy", "Pelvic inflammatory disease", "Kidney stone"],
+    "after_labs_top3": ["Ovarian torsion", "Ruptured ovarian cyst", "Appendicitis"]
+  }
+}

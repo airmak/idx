@@ -1,0 +1,74 @@
+{
+  "case_id": "case_087",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Spontaneous pneumothorax",
+  "icd_category": "J93.11 — Primary spontaneous pneumothorax",
+  "one_liner": "A 19-year-old tall, thin man presents with sudden-onset right-sided chest pain and dyspnea while at rest.",
+  "stage2": {
+    "hpi_extension": "The patient was sitting in class when he suddenly developed sharp, right-sided pleuritic chest pain and shortness of breath. The pain is worse with deep inspiration and does not radiate. He denies trauma, recent travel, fever, cough, or hemoptysis. He has never experienced similar symptoms before. He reports mild anxiety related to the episode.",
+    "pmh": "No significant past medical history. No prior lung disease.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of lung disease or connective tissue disorders. Mother has hypertension.",
+    "social_history": "College freshman. Smokes e-cigarettes (vapes) approximately 1 pod/day for 2 years. Occasional marijuana use. No alcohol. No occupational exposures.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "108 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "68 kg, BMI 19.2 (height 188 cm)"
+    },
+    "physical_exam": "General: Tall, thin young man in mild distress, splinting on the right side. HEENT: Normal. Lungs: Decreased breath sounds over the right hemithorax; hyperresonance to percussion on the right. Normal breath sounds on the left. Cardiovascular: Tachycardic, regular rhythm, no murmurs, trachea midline. Abdomen: Soft, non-tender. Extremities: No cyanosis or edema. Skin: No Marfanoid features noted. Arm span proportional to height."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "8,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infectious process"},
+      {"test_name": "CBC — Hemoglobin", "result": "15.1 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ABG pH", "result": "7.44", "flag": "WNL", "clinical_significance": "Mild respiratory alkalosis from tachypnea"},
+      {"test_name": "ABG pCO2", "result": "34 mmHg", "flag": "LOW", "clinical_significance": "Slight hypocapnia consistent with hyperventilation"},
+      {"test_name": "ABG pO2", "result": "78 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from collapsed lung tissue not participating in gas exchange"},
+      {"test_name": "Troponin I", "result": "<0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal; rules out myocardial injury"},
+      {"test_name": "D-dimer", "result": "0.3 mcg/mL", "flag": "WNL", "clinical_significance": "Normal; argues against pulmonary embolism"},
+      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no tissue hypoperfusion"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (upright PA)", "result": "Visible visceral pleural line on the right with absence of lung markings peripherally, consistent with a moderate right-sided pneumothorax (~30%). No mediastinal shift. Left lung clear.", "flag": "ABNORMAL", "clinical_significance": "Confirms the diagnosis of right-sided spontaneous pneumothorax. No tension physiology present."},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. No ST changes or axis deviation.", "flag": "WNL", "clinical_significance": "Tachycardia likely reactive; no evidence of right heart strain or ischemia"}
+    ],
+    "key_tests": ["Chest X-ray (upright PA)", "Pulse oximetry", "ABG or VBG", "ECG"],
+    "acceptable_tests": ["CBC", "BMP", "Troponin", "D-dimer", "CT chest (if X-ray equivocal or for sizing)", "Lactate", "Coagulation studies"],
+    "low_yield_tests": ["Sputum culture", "Bronchoscopy", "Echocardiogram", "PFTs", "BNP"]
+  },
+  "stage5": {
+    "final_clue": "A chest tube (16 Fr) is placed in the right 4th intercostal space at the anterior axillary line with an immediate rush of air. Follow-up chest X-ray shows full re-expansion of the right lung with resolution of the pneumothorax."
+  },
+  "debrief": {
+    "classic_presentation": "Tall, thin young male presenting with sudden-onset pleuritic chest pain and dyspnea, with decreased breath sounds and hyperresonance on the affected side, and visible pleural line on chest X-ray.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Primary spontaneous pneumothorax occurs due to rupture of subpleural apical blebs or bullae, which are thought to develop from differential mechanical stresses at the lung apex. Risk factors include tall/thin body habitus, male sex, and smoking (including vaping). Air leaks into the pleural space, breaking the normal negative intrapleural pressure, causing the elastic lung to collapse. If the leak acts as a one-way valve, tension pneumothorax can develop with mediastinal shift and hemodynamic compromise.",
+    "treatment_overview": "Small pneumothorax (<2 cm at hilum on CXR) in a stable patient: observation with supplemental high-flow O2 (accelerates reabsorption by 4x). Large or symptomatic pneumothorax: needle aspiration or chest tube thoracostomy. Surgical intervention (VATS with bleb resection and pleurodesis) is indicated for recurrent ipsilateral PSP, bilateral PSP, or persistent air leak >5 days. Smoking/vaping cessation counseling is essential. Recurrence risk is ~30% without surgery.",
+    "high_yield_pearls": [
+      "Primary spontaneous pneumothorax classically affects tall, thin, young males — risk increases 20-fold with smoking.",
+      "Tension pneumothorax is a clinical diagnosis — do NOT delay treatment for imaging. Signs: hypotension, tracheal deviation, absent breath sounds, JVD.",
+      "High-flow supplemental O2 accelerates pleural air reabsorption by reducing the nitrogen partial pressure gradient (nitrogen washout effect).",
+      "Recurrence rate is approximately 30% after first episode and 50% after second — VATS pleurodesis is recommended after second ipsilateral occurrence.",
+      "Vaping/e-cigarette use is an emerging risk factor for spontaneous pneumothorax in young patients."
+    ],
+    "sources": [
+      "BTS Pleural Disease Guideline 2023",
+      "MacDuff A et al. Management of spontaneous pneumothorax: British Thoracic Society Pleural Disease Guideline. Thorax. 2010",
+      "UpToDate: Primary spontaneous pneumothorax in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Spontaneous pneumothorax", "Pulmonary embolism", "Pleuritis/pleurisy", "Musculoskeletal chest pain", "Pericarditis", "Acute coronary syndrome"],
+    "after_stage2_more_likely": ["Spontaneous pneumothorax", "Pleuritis/pleurisy"],
+    "after_stage2_less_likely": ["Acute coronary syndrome", "Pericarditis", "Musculoskeletal chest pain"],
+    "after_labs_top3": ["Spontaneous pneumothorax", "Pleuritis/pleurisy", "Pulmonary embolism"]
+  }
+}

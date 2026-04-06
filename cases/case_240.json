@@ -1,0 +1,114 @@
+{
+  "case_id": "case_240",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Conversion disorder (functional neurological symptom disorder)",
+  "icd_category": "F44.4 — Conversion disorder with motor symptom or deficit",
+  "one_liner": "A 28-year-old woman presents with sudden-onset bilateral leg paralysis and inability to walk following a severe argument with her spouse, with normal neurological workup and positive Hoover sign.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the ED by ambulance after suddenly collapsing and becoming unable to move her legs during a heated argument with her husband about his infidelity. She reports complete inability to feel or move either leg from the hips down. The onset was witnessed by her husband and was abrupt — she screamed, fell to the floor, and stated she 'couldn't feel her legs.' She denies back pain, trauma, bowel/bladder incontinence, or saddle anesthesia. She has no history of multiple sclerosis, spinal cord injury, or neuromuscular disease. She reports a history of childhood sexual abuse by a family member that she has never received treatment for. She had a prior episode 3 years ago of non-epileptic seizures during a stressful period that resolved with therapy. She appears notably calm despite the severity of her reported symptoms (la belle indifference). She is certain she is paralyzed and expresses concern but without the expected level of distress.",
+    "pmh": "PTSD (childhood sexual abuse, untreated). Prior episode of psychogenic non-epileptic seizures (3 years ago, resolved). Generalized anxiety disorder. Migraines.",
+    "surgical_history": "Cesarean section (1 year ago)",
+    "medications": "Sertraline 100 mg daily, sumatriptan PRN for migraines",
+    "allergies": "Codeine (nausea)",
+    "family_history": "Mother with fibromyalgia and depression. Father with alcohol use disorder. Sister with irritable bowel syndrome. No family history of multiple sclerosis or neuromuscular disease.",
+    "social_history": "Married for 4 years with one child (age 1). Works part-time as a daycare worker. Relationship under significant strain — husband recently admitted to an affair. History of childhood sexual abuse ages 8-12 (perpetrated by uncle). Previously attended therapy briefly for PNES but discontinued. Denies tobacco, illicit drug use. Occasional glass of wine. College-educated.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "82 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "145 lbs, BMI 24.1 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing young woman lying in bed, appears calm despite reported paralysis. HEENT: Normocephalic, atraumatic. Pupils equal and reactive. Neck: Supple, no meningismus. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, well-healed cesarean scar. Neurological exam (critical findings): Motor — reports 0/5 strength in bilateral lower extremities to voluntary testing. However, HOOVER SIGN POSITIVE: when asked to flex the 'paralyzed' hip against resistance, contralateral hip extension is absent; when asked to flex the 'normal' (unaffected) contralateral hip against resistance, involuntary extension of the 'paralyzed' hip is present — demonstrating inconsistent effort. Hip abductor sign also positive. During distracted testing, patient observed to move legs to adjust position in bed. Sensory — reports complete loss of sensation in both legs with a sharp non-dermatomal boundary exactly at the inguinal crease bilaterally (splitting the midline). Vibration reportedly absent over both legs but present over sternum (tubular bone vibration should be transmitted). Reflexes — 2+ and symmetric in bilateral lower extremities (normal; would expect hyperreflexia in UMN lesion or areflexia in LMN/acute cord). Plantar reflex flexor bilaterally (normal). Rectal tone normal. No clonus. Mental Status Exam: Appearance — well-groomed, calm. Behavior — cooperative, demonstrates la belle indifference (relative lack of concern about paralysis). Speech — normal. Mood — 'worried but okay.' Affect — incongruently calm. Thought process — linear. Thought content — no SI/HI, no psychotic features. Cognition — intact. Insight — limited."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 7.2, Hgb 12.8, Hct 38.4, Plt 260", "flag": "WNL", "clinical_significance": "Normal, no evidence of infection or hematologic disease"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.1, Cl 102, CO2 24, BUN 11, Cr 0.7, Glucose 90, Ca 9.3, AST 19, ALT 16, Alk Phos 62, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no electrolyte or metabolic cause for weakness"},
+      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no evidence of inflammatory or autoimmune process"},
+      {"test_name": "CRP", "result": "0.3 mg/dL", "flag": "WNL", "clinical_significance": "Normal inflammatory marker"},
+      {"test_name": "CPK", "result": "85 U/L", "flag": "WNL", "clinical_significance": "Normal CPK; no evidence of myopathy or muscle damage"},
+      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Vitamin B12", "result": "490 pg/mL", "flag": "WNL", "clinical_significance": "Normal; rules out B12 deficiency myelopathy"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against lupus myelitis or other autoimmune condition"},
+      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out substance-induced neurological symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Thoracic and Lumbar Spine with contrast", "result": "No spinal cord compression, myelopathy, demyelination, mass, or disc herniation. Conus medullaris terminates at L1-L2 level normally. No enhancement.", "flag": "WNL", "clinical_significance": "Rules out structural spinal cord pathology, compressive myelopathy, transverse myelitis, and cauda equina syndrome"},
+      {"test_name": "MRI Brain with contrast", "result": "No demyelinating lesions, mass, or acute infarction. Normal-appearing brain parenchyma.", "flag": "WNL", "clinical_significance": "Rules out multiple sclerosis plaques, brain mass, or stroke as cause of bilateral leg weakness"},
+      {"test_name": "CT Angiography of Aorta", "result": "Normal aortic caliber, no dissection, no occlusion. Patent iliac vessels bilaterally.", "flag": "WNL", "clinical_significance": "Rules out aortic dissection causing spinal cord ischemia"}
+    ],
+    "key_tests": [
+      "Hoover sign — positive, demonstrating inconsistent motor effort (involuntary hip extension present when testing contralateral leg, absent during voluntary testing of affected leg)",
+      "MRI Spine — normal, ruling out structural and inflammatory spinal cord pathology",
+      "MRI Brain — normal, ruling out demyelinating disease and structural lesion",
+      "Comprehensive neurological exam — demonstrating internal inconsistency (non-dermatomal sensory loss, normal reflexes inconsistent with paralysis, movement during distraction)"
+    ],
+    "acceptable_tests": [
+      "CBC and CMP — baseline workup for new-onset neurological deficit",
+      "ESR/CRP — screening for inflammatory myelopathy",
+      "CPK — ruling out myopathy",
+      "ANA — screening for autoimmune myelitis",
+      "Vitamin B12 — ruling out subacute combined degeneration",
+      "Urine drug screen — ruling out substance-related weakness"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (no evidence of inflammatory or infectious myelopathy on MRI)",
+      "EMG/Nerve conduction studies (exam findings clearly inconsistent with organic neuropathy/myopathy)",
+      "Visual evoked potentials (no visual symptoms)",
+      "Aquaporin-4 antibodies (normal MRI without longitudinally extensive lesion)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The diagnosis is confirmed by: (1) positive Hoover sign demonstrating involuntary motor function inconsistent with reported paralysis, (2) observed leg movement during distraction, (3) non-dermatomal sensory loss with exact midline splitting, (4) normal reflexes (2+ symmetric with flexor plantars — incompatible with any organic cause of acute bilateral paralysis), (5) completely normal MRI of brain and spine, and (6) clear psychological stressor (acute marital conflict) in a patient with prior conversion symptoms (PNES) and childhood trauma history. The pattern of internal inconsistency on exam, not merely the absence of organic findings, is what makes the diagnosis positive."
+  },
+  "debrief": {
+    "classic_presentation": "A patient, often with a history of psychological trauma or significant psychosocial stressor, presenting with acute onset of neurological symptoms (paralysis, sensory loss, blindness, non-epileptic seizures, aphonia) that are internally inconsistent on examination and incompatible with any recognized neurological disease. Key positive diagnostic signs include Hoover sign, hip abductor sign, drift without pronation, give-way weakness, and non-anatomic sensory loss. La belle indifference (relative indifference to the symptom) may be present but is not reliable as a diagnostic criterion.",
+    "attending_mode_notes": "Conversion disorder is a positive diagnosis made by demonstrating internal inconsistency, NOT a diagnosis of exclusion. The 2013 DSM-5 revision removed the requirement to identify a psychological stressor and instead emphasizes clinical findings of incompatibility between symptoms and neurological disease. Positive diagnostic signs (Hoover, hip abductor, tremor entrainment for tremor, video-EEG for non-epileptic seizures) have good sensitivity and specificity and should be systematically sought. Critical pitfalls: (1) Do NOT tell the patient 'nothing is wrong' or 'it's all in your head' — their symptoms and suffering are real. Use the term 'functional neurological disorder' and explain that the nervous system is not damaged but is not functioning correctly. (2) Do NOT order excessive testing 'just to be sure' as this reinforces illness behavior and delays appropriate treatment. (3) Comorbidity with neurological disease is common (~15% of conversion disorder patients have a coexisting neurological condition). (4) La belle indifference is an unreliable sign — it is present in only ~20% of cases and also occurs in organic neurological disease. (5) The prognosis is better with acute onset, identifiable stressor, and early treatment; chronic cases (>6 months) have poorer outcomes.",
+    "pathophysiology": "Functional neuroimaging reveals that conversion disorder involves altered connectivity between motor planning areas (supplementary motor area, prefrontal cortex) and motor execution areas (primary motor cortex). In conversion paralysis, the intention to move generates normal activity in premotor areas, but this signal fails to activate the primary motor cortex — the disconnection appears mediated by excessive activation of limbic structures (amygdala, anterior cingulate). This provides a neurobiological basis for the dissociation between intention and execution. Emotional processing circuits modulate motor output, potentially explaining the link to psychological stress. The condition likely represents aberrant predictive coding, where the brain generates a strong prior expectation of paralysis that overrides actual motor capability.",
+    "treatment_overview": "Acute: Validate the patient's experience — explain that their symptoms are real and that FND is a recognized, treatable condition where the nervous system is not damaged but is sending and receiving signals incorrectly. Avoid excessive diagnostic testing. Physiotherapy is first-line: graded motor retraining using distraction-based techniques that demonstrate the limbs can move (leveraging the examination findings). Psychotherapy: CBT addressing illness beliefs, trauma processing (especially if PTSD is comorbid), and stress management. Treat comorbid psychiatric conditions (depression, anxiety, PTSD) with appropriate medication. Interdisciplinary care (neurology, psychiatry, physiotherapy) produces the best outcomes. For this patient specifically: address unresolved childhood trauma and acute marital stressor, optimize PTSD treatment, and engage in specialized FND physiotherapy.",
+    "high_yield_pearls": [
+      "Conversion disorder (FND) is a POSITIVE diagnosis based on demonstrating internal inconsistency on exam — it is NOT a diagnosis of exclusion. Positive signs (Hoover sign, hip abductor sign, tremor entrainment) have high specificity.",
+      "Hoover sign: in organic paralysis, contralateral involuntary hip extension occurs during ipsilateral hip flexion. In conversion paralysis, this involuntary extension is present (proving the leg CAN extend) but voluntary extension is absent.",
+      "La belle indifference is an unreliable diagnostic criterion — present in only ~20% of conversion disorder cases and also seen in ~30% of patients with organic neurological disease.",
+      "DSM-5 no longer requires identification of a psychological stressor for diagnosis — the emphasis is on clinical findings of incompatibility with neurological disease.",
+      "Normal reflexes are a critical clue: acute organic bilateral paralysis would produce either hyperreflexia (UMN lesion) or areflexia (LMN/spinal shock) — normal reflexes with reported paralysis is incompatible with organic disease.",
+      "Up to 15% of patients with conversion disorder have a comorbid neurological condition — always perform a thorough neurological exam and appropriate baseline imaging."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "Stone J et al. Systematic review of misdiagnosis of conversion symptoms and 'hysteria.' BMJ, 2005",
+      "Espay AJ et al. Current concepts in diagnosis and treatment of functional neurological disorders. JAMA Neurol, 2018",
+      "Hallett M et al. Functional neurological disorder: new subtypes and shared mechanisms. Lancet Neurol, 2022",
+      "Nielsen G et al. Physiotherapy for functional motor disorders: a consensus recommendation. J Neurol Neurosurg Psychiatry, 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Conversion disorder (functional neurological symptom disorder)",
+      "Transverse myelitis",
+      "Cauda equina syndrome",
+      "Multiple sclerosis (spinal cord relapse)",
+      "Spinal cord infarction",
+      "Guillain-Barré syndrome",
+      "Acute disc herniation with cord compression",
+      "Malingering"
+    ],
+    "after_stage2_more_likely": [
+      "Conversion disorder — positive Hoover sign, non-dermatomal sensory loss, normal reflexes with reported paralysis, movement during distraction, psychological precipitant, prior PNES history",
+      "Transverse myelitis — acute bilateral leg weakness and sensory loss, though normal reflexes and positive Hoover sign argue against"
+    ],
+    "after_stage2_less_likely": [
+      "Cauda equina syndrome — no back pain, normal rectal tone, normal reflexes",
+      "Guillain-Barré syndrome — normal reflexes (would expect areflexia), no ascending pattern, no antecedent infection",
+      "Spinal cord infarction — no vascular risk factors, normal reflexes in acute setting would be unusual"
+    ],
+    "after_labs_top3": [
+      "Conversion disorder (FND) — positive Hoover sign with internal inconsistency, completely normal MRI brain and spine, normal labs, clear psychological precipitant and trauma history",
+      "Malingering — possible but no external incentive identified; prior PNES history suggests genuine functional neurological disorder rather than conscious fabrication",
+      "Transverse myelitis — excluded by normal MRI spine and normal inflammatory markers"
+    ]
+  }
+}

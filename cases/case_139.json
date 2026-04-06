@@ -1,0 +1,109 @@
+{
+  "case_id": "case_139",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Contrast-Induced Nephropathy (Contrast-Associated Acute Kidney Injury)",
+  "icd_category": "N14.1 — Nephropathy induced by other drugs, medicaments and biological substances",
+  "one_liner": "A 70-year-old male with diabetes and CKD stage 3 presents with rising creatinine 48 hours after a cardiac catheterization with iodinated contrast.",
+  "stage2": {
+    "hpi_extension": "The patient underwent elective cardiac catheterization with PCI and stent placement 2 days ago for unstable angina. He received approximately 150 mL of iodinated contrast during the procedure. Pre-procedure creatinine was 1.8 mg/dL (eGFR 38). He was started on a low-rate IV normal saline infusion peri-procedurally. He reports decreased urine output over the past 24 hours and mild nausea. He denies flank pain, hematuria, or fever. He was restarted on all home medications including metformin immediately post-procedure.",
+    "pmh": "Coronary artery disease, type 2 diabetes mellitus (15 years), CKD stage 3b (baseline Cr 1.8), hypertension, peripheral artery disease.",
+    "surgical_history": "PCI with stent (2 days ago), appendectomy (age 35).",
+    "medications": "Aspirin 81 mg daily, clopidogrel 75 mg daily, atorvastatin 80 mg daily, lisinopril 20 mg daily, metformin 500 mg twice daily, amlodipine 10 mg daily, insulin glargine 20 units nightly.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had MI at age 62. Mother had diabetes and CKD.",
+    "social_history": "Retired engineer. Former smoker (25 pack-years, quit 10 years ago). Social drinker. No illicit drug use.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "76 bpm",
+      "bp": "138/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "86 kg, BMI 28.2"
+    },
+    "physical_exam": "Elderly male in no acute distress. Groin access site: clean, no hematoma or bruit. Heart: regular rate and rhythm, no murmurs. Lungs: bibasilar crackles. Abdomen: soft, non-tender, no masses. Extremities: 1+ bilateral lower extremity edema. No livedo reticularis, blue toes, or evidence of cholesterol crystal embolization. Pedal pulses palpable bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine (current)", "result": "3.1 mg/dL (baseline 1.8, pre-procedure 1.8)", "flag": "HIGH", "clinical_significance": "Rise of >0.5 mg/dL (or >25%) within 48 hours of contrast exposure meets criteria for contrast-induced nephropathy"},
+      {"test_name": "Serum Creatinine (24h post-procedure)", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Creatinine rising at 24 hours, consistent with typical CIN timeline (onset 24-48h, peak 3-5 days)"},
+      {"test_name": "BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated with rising creatinine"},
+      {"test_name": "Serum Potassium", "result": "5.2 mEq/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from acute-on-chronic kidney injury"},
+      {"test_name": "Serum Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from worsened renal function"},
+      {"test_name": "Urinalysis", "result": "Specific gravity 1.010, muddy brown granular casts, renal tubular epithelial cells, trace protein, no RBC casts", "flag": "ABNORMAL", "clinical_significance": "Muddy brown granular casts and tubular epithelial cells are characteristic of acute tubular necrosis/injury from contrast nephrotoxicity"},
+      {"test_name": "Fractional Excretion of Sodium", "result": "2.8%", "flag": "HIGH", "clinical_significance": "FENa >2% is consistent with intrinsic renal injury (ATN from contrast); contrasts with prerenal FENa <1%"},
+      {"test_name": "Urine Sodium", "result": "48 mEq/L", "flag": "HIGH", "clinical_significance": "Elevated urine sodium consistent with intrinsic renal injury (impaired tubular reabsorption)"},
+      {"test_name": "CBC", "result": "Hgb 11.8 g/dL, WBC 7,600/μL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "No eosinophilia (argues against allergic interstitial nephritis or cholesterol embolism)"},
+      {"test_name": "Serum Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no evidence of metformin-associated lactic acidosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Right kidney 10.2 cm, left kidney 10.5 cm. Bilateral mildly increased cortical echogenicity without hydronephrosis. No renal artery thrombosis on Doppler.", "flag": "ABNORMAL", "clinical_significance": "Mildly echogenic kidneys consistent with chronic disease and superimposed acute injury; no obstruction"},
+      {"test_name": "Chest X-ray", "result": "Mild pulmonary vascular congestion. No pleural effusion. Cardiac stent visible.", "flag": "ABNORMAL", "clinical_significance": "Mild volume overload in setting of decreased urine output"}
+    ],
+    "key_tests": [
+      "Serial serum creatinine measurements (baseline, 24h, 48h, 72h post-contrast)",
+      "Urinalysis with microscopy (muddy brown casts)",
+      "Fractional excretion of sodium",
+      "Basic metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Renal ultrasound (exclude obstruction)",
+      "Complete blood count (evaluate for eosinophilia)",
+      "Urine eosinophils (exclude AIN)",
+      "Serum lactate (if metformin use with AKI)",
+      "Urine sodium and osmolality",
+      "Chest X-ray"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (clinical diagnosis is straightforward)",
+      "ANA/ANCA panel",
+      "Anti-GBM antibody",
+      "CT with contrast (avoid additional contrast!)",
+      "Serum complement levels"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A creatinine rise from 1.8 to 3.1 mg/dL within 48 hours of iodinated contrast exposure, with muddy brown granular casts on urinalysis, elevated FENa (2.8%), and no evidence of obstruction, in a patient with baseline CKD and diabetes confirms contrast-induced nephropathy (contrast-associated AKI)."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with pre-existing CKD and/or diabetes develops an asymptomatic rise in creatinine 24-48 hours after iodinated contrast exposure, peaking at 3-5 days and usually resolving within 7-14 days. Urinalysis shows muddy brown granular casts consistent with tubular injury. Urine output may be decreased.",
+    "attending_mode_notes": "The incidence of CIN in patients with eGFR <30 and diabetes can exceed 20-30%. Prevention is the most important strategy: (1) Periprocedural IV isotonic saline (1 mL/kg/hr for 12 hours before and after) is the cornerstone; (2) use lowest possible contrast volume (contrast volume/eGFR ratio <3.7 reduces risk); (3) use iso-osmolar or low-osmolar contrast agents; (4) hold metformin for 48 hours after contrast and check creatinine before restarting (risk of lactic acidosis in AKI); (5) withhold NSAIDs and diuretics if possible. N-acetylcysteine showed no benefit in the PRESERVE trial. Statins may have a protective role. Cholesterol crystal embolization can mimic CIN but typically presents later (days to weeks), with livedo reticularis, blue toes, eosinophilia, and low complement — always examine the extremities.",
+    "pathophysiology": "Contrast-induced nephropathy results from two mechanisms: (1) Direct tubular toxicity: iodinated contrast is directly cytotoxic to proximal tubular epithelial cells, causing vacuolization, necrosis, and apoptosis. (2) Renal medullary ischemia: contrast initially causes brief vasodilation followed by prolonged vasoconstriction of the vasa recta (mediated by endothelin, adenosine, and ROS), reducing medullary blood flow. The outer medulla, which normally operates at low oxygen tension, is particularly vulnerable to ischemic injury. Pre-existing CKD and diabetes amplify both mechanisms due to impaired autoregulation, preexisting endothelial dysfunction, and reduced renal reserve.",
+    "treatment_overview": "Treatment is primarily supportive once CIN develops: (1) IV isotonic crystalloid to maintain hydration and renal perfusion. (2) Hold nephrotoxic medications (metformin, NSAIDs, ACEi/ARB temporarily if hemodynamically significant AKI). (3) Avoid additional contrast exposure. (4) Monitor electrolytes, creatinine, and urine output closely. (5) Dialysis for standard indications (refractory hyperkalemia, volume overload, severe acidosis). Most cases are self-limited with creatinine peaking at days 3-5 and returning toward baseline within 1-3 weeks. Approximately 1-2% of CIN cases require dialysis.",
+    "high_yield_pearls": [
+      "CIN is defined as a rise in serum creatinine ≥0.5 mg/dL or ≥25% from baseline within 48-72 hours of iodinated contrast exposure, with no alternative explanation.",
+      "Pre-existing CKD (especially eGFR <30) and diabetes mellitus are the two strongest risk factors for CIN; the Mehran risk score incorporates these and other variables.",
+      "IV isotonic saline is the ONLY proven preventive strategy; the PRESERVE trial showed that N-acetylcysteine and sodium bicarbonate offered no benefit over saline alone.",
+      "Metformin must be held for 48 hours after contrast in patients with CKD (eGFR <30) due to risk of metformin-associated lactic acidosis if AKI develops.",
+      "Cholesterol crystal embolization (atheroembolic disease) is an important mimic of CIN that presents with livedo reticularis, blue toes, eosinophilia, hypocomplementemia, and progressive renal failure — unlike CIN, it does not typically recover."
+    ],
+    "sources": [
+      "Weisbord SD et al. Outcomes after angiography with sodium bicarbonate and acetylcysteine (PRESERVE). NEJM. 2018;378(7):603-614.",
+      "KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012)",
+      "UpToDate: Contrast-associated and contrast-induced acute kidney injury: clinical features, diagnosis, and management (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Contrast-induced nephropathy",
+      "Cholesterol crystal embolization (atheroembolic disease)",
+      "Prerenal AKI (from periprocedural volume depletion or bleeding)",
+      "Acute interstitial nephritis (drug-induced from new medications)",
+      "Renal artery thrombosis/dissection (catheter-related)",
+      "Cardiorenal syndrome (type 1)"
+    ],
+    "after_stage2_more_likely": [
+      "Contrast-induced nephropathy — creatinine rise 48 hours after contrast with known risk factors (CKD, diabetes, large contrast volume)",
+      "Cholesterol crystal embolization — post-catheterization AKI, but would expect livedo reticularis and blue toes"
+    ],
+    "after_stage2_less_likely": [
+      "Renal artery thrombosis — would present with severe flank pain and more dramatic creatinine rise; Doppler normal",
+      "Cardiorenal syndrome — no acute decompensated heart failure; mild congestion only"
+    ],
+    "after_labs_top3": [
+      "Contrast-induced nephropathy — classic timeline (48h post-contrast), muddy brown casts, elevated FENa (intrinsic injury), no eosinophilia",
+      "Cholesterol crystal embolization — no livedo reticularis, no blue toes, no eosinophilia, no hypocomplementemia",
+      "Prerenal AKI — FENa >2% argues against prerenal etiology; tubular casts indicate intrinsic injury"
+    ]
+  }
+}

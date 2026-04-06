@@ -1,0 +1,79 @@
+{
+  "case_id": "case_059",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Necrotizing Fasciitis",
+  "icd_category": "M72.6 — Necrotizing fasciitis",
+  "one_liner": "A 54-year-old diabetic male presents with rapidly progressive left lower extremity pain, swelling, dusky skin discoloration, and crepitus 3 days after a minor skin laceration, with hemodynamic instability and altered mental status.",
+  "stage2": {
+    "hpi_extension": "Patient was brought in by EMS for rapidly worsening left leg pain and confusion. According to his wife, he sustained a small laceration on his left shin while gardening 3 days ago. He cleaned the wound and applied a bandage. Over the next 24 hours, the area became red and swollen, which he attributed to a normal infection. He started a leftover course of oral cephalexin. By day 2, the redness had spread rapidly beyond the initial wound, the pain became excruciating (he described it as 'the worst pain of his life'), and he developed fever, chills, and rigors. Today (day 3), his wife noticed the skin had turned dusky purple, he was confused and not making sense, and he could not bear weight on the leg. She called 911 when he became increasingly lethargic. He has poorly controlled type 2 diabetes and is a heavy drinker. He denies IV drug use, recent surgery, or immunosuppressive therapy.",
+    "pmh": "Type 2 diabetes mellitus (poorly controlled, HbA1c 10.2% three months ago), peripheral arterial disease, alcohol use disorder, obesity, chronic kidney disease (stage 2)",
+    "surgical_history": "Left great toe amputation (diabetic foot infection, 2 years ago)",
+    "medications": "Insulin glargine 40 units at bedtime, insulin lispro sliding scale (poor compliance), lisinopril 40 mg daily, aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with diabetes and peripheral vascular disease.",
+    "social_history": "Drinks 6-8 beers daily. Smokes 1 pack per day for 30 years. Retired construction worker. Lives with wife. Intermittent compliance with medications.",
+    "vitals": {
+      "temp": "103.2 F (39.6 C)",
+      "hr": "128 bpm",
+      "bp": "86/52 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "92% on room air",
+      "weight_bmi": "108 kg, BMI 34.2"
+    },
+    "physical_exam": "General: Obese male, acutely ill, diaphoretic, confused, responding only to voice. GCS 12 (E3V4M5). HEENT: Dry mucous membranes. Neck: Supple. Cardiovascular: Tachycardic, regular rhythm. No murmurs. Weak peripheral pulses in the left lower extremity. Pulmonary: Tachypneic. Clear bilaterally. Abdomen: Soft, obese, non-tender. Left Lower Extremity: Extensive dusky, purplish-red discoloration extending from the mid-shin to above the knee. The skin is tense, edematous, and exquisitely tender to even light palpation. Palpable crepitus is present over the anterior shin and medial calf. Multiple hemorrhagic bullae are noted over the discolored area. A 2 cm laceration on the anterior shin is the apparent portal of entry, surrounded by necrotic-appearing tissue. The boundaries of erythema are ill-defined and have advanced beyond skin markings made 1 hour ago in the ED. There is a wooden, indurated feel to the subcutaneous tissue (dishwater gray appearance on close inspection). Sensation is diminished over the affected area despite the appearance of severe inflammation. Right lower extremity: Unremarkable except for absent left great toe. Skin: Left leg as described. No other skin lesions."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "28.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift (15% bands), reflecting severe systemic infection"},
+      {"test_name": "CBC - Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Anemia, likely multifactorial (chronic disease, hemodilution, possible hemolysis in group A strep infection)"},
+      {"test_name": "BMP - Creatinine", "result": "2.8 mg/dL", "flag": "HIGH", "clinical_significance": "Acute kidney injury, likely from sepsis-related hypoperfusion (baseline 1.4)"},
+      {"test_name": "BMP - Glucose", "result": "348 mg/dL", "flag": "HIGH", "clinical_significance": "Severe hyperglycemia in septic, poorly controlled diabetic"},
+      {"test_name": "BMP - Sodium", "result": "128 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia; sodium <135 is a component of the LRINEC score"},
+      {"test_name": "CRP", "result": "32.4 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated; CRP >150 mg/L is a component of the LRINEC score"},
+      {"test_name": "Lactate", "result": "6.8 mmol/L", "flag": "HIGH", "clinical_significance": "Significantly elevated, consistent with septic shock and tissue necrosis"},
+      {"test_name": "CK (Creatine Kinase)", "result": "1,248 U/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting muscle involvement and tissue destruction; may indicate necrotizing process extending to muscle"},
+      {"test_name": "ABG - pH", "result": "7.28", "flag": "LOW", "clinical_significance": "Metabolic acidosis from lactic acidosis and sepsis"},
+      {"test_name": "Coagulation - INR", "result": "1.8", "flag": "HIGH", "clinical_significance": "Coagulopathy consistent with DIC in the setting of severe sepsis"},
+      {"test_name": "Fibrinogen", "result": "128 mg/dL", "flag": "LOW", "clinical_significance": "Low fibrinogen consistent with consumptive coagulopathy (DIC)"},
+      {"test_name": "Blood Cultures", "result": "Pending (Gram-positive cocci in chains on Gram stain at 12 hours)", "flag": "ABNORMAL", "clinical_significance": "Gram-positive cocci in chains suggest group A Streptococcus or other streptococcal species; final culture and sensitivity pending"}
+    ],
+    "imaging_results": [
+      {"test_name": "X-ray Left Lower Extremity", "result": "Soft tissue gas tracking along fascial planes of the anterior and medial compartments of the left leg. No fracture. No osteomyelitis.", "flag": "ABNORMAL", "clinical_significance": "Subcutaneous and fascial gas is highly concerning for necrotizing soft tissue infection. However, gas is only present in 25-50% of cases, so its absence does not exclude the diagnosis."},
+      {"test_name": "CT Left Lower Extremity with IV Contrast", "result": "Extensive fascial thickening and enhancement along the deep fascia of the left leg from mid-tibia to the distal femur. Gas tracking along fascial planes in multiple compartments. Non-enhancing areas of fascia suggesting necrosis. Subcutaneous edema and fluid collections. No abscess.", "flag": "ABNORMAL", "clinical_significance": "CT confirms necrotizing fasciitis with fascial gas, fascial thickening, and non-enhancement suggesting necrosis. Imaging should NOT delay surgical exploration if the clinical suspicion is high."}
+    ],
+    "key_tests": ["Surgical exploration (gold standard for diagnosis and treatment)", "CBC with differential", "BMP (sodium, creatinine, glucose)", "Serum lactate", "Blood cultures", "CRP"],
+    "acceptable_tests": ["CK (creatine kinase)", "Coagulation studies (PT/INR, fibrinogen, D-dimer for DIC)", "ABG/VBG", "X-ray of affected area (for gas)", "CT with contrast (if diagnosis uncertain)", "Wound culture/Gram stain", "Procalcitonin"],
+    "low_yield_tests": ["MRI (too time-consuming in an emergency, delays surgery)", "Wound culture alone without surgical exploration", "Punch biopsy (inadequate sampling)", "Ultrasound of the extremity (low sensitivity for fascial necrosis)", "Bone scan"],
+    "final_clue": "Clinical findings of rapidly spreading skin discoloration, hemorrhagic bullae, crepitus, pain out of proportion (followed by later diminished sensation from nerve destruction), and septic shock in a diabetic patient with a minor wound are diagnostic of necrotizing fasciitis. Imaging confirms fascial gas and necrosis. The LRINEC score components (WBC >25, Na <135, Cr >1.6, glucose >180, CRP >150, Hgb <13.5) are all present. This is a surgical emergency requiring immediate radical debridement."
+  },
+  "stage5": {
+    "final_clue": "Clinical findings of rapidly spreading skin discoloration, hemorrhagic bullae, crepitus, pain out of proportion (followed by later diminished sensation from nerve destruction), and septic shock in a diabetic patient with a minor wound are diagnostic of necrotizing fasciitis. Imaging confirms fascial gas and necrosis. The LRINEC score components (WBC >25, Na <135, Cr >1.6, glucose >180, CRP >150, Hgb <13.5) are all present. This is a surgical emergency requiring immediate radical debridement."
+  },
+  "debrief": {
+    "classic_presentation": "Rapidly progressive soft tissue infection with pain out of proportion to visible findings (early) that evolves to skin color changes (erythema to dusky purple), edema, hemorrhagic bullae, crepitus (gas gangrene), and eventually skin anesthesia (cutaneous nerve destruction). Systemic toxicity (sepsis, shock, organ failure) is common. The hallmark clinical feature is pain out of proportion to the skin findings in the early stages, followed by rapid progression. Risk factors include diabetes, immunosuppression, alcoholism, peripheral vascular disease, obesity, recent surgery or trauma, and injection drug use.",
+    "attending_mode_notes": "This case highlights several critical attending-level points: (1) Necrotizing fasciitis is a clinical and surgical diagnosis. Do NOT wait for imaging or lab results to confirm the diagnosis if clinical suspicion is high — the patient goes to the OR. Every hour of delay in surgical debridement increases mortality. (2) The 'finger test' at the bedside: under local anesthesia, a 2 cm incision through skin and subcutaneous tissue is made. If the finger dissects easily along the fascial plane with no resistance and dishwater-gray necrotic fascia is encountered, the diagnosis is confirmed. (3) The LRINEC score (Laboratory Risk Indicator for Necrotizing Fasciitis) can support the diagnosis but should NEVER delay surgery. A score >=6 suggests necrotizing fasciitis; >=8 is strongly predictive. (4) Type I necrotizing fasciitis (polymicrobial, typically in diabetics/immunocompromised) versus Type II (monomicrobial, usually Group A Streptococcus, can occur in healthy individuals) — this distinction matters for antibiotic selection. This patient's profile is more consistent with Type I, but the Gram stain suggesting streptococci raises the possibility of Type II or mixed infection. (5) The initial debridement must be radical — all necrotic tissue must be excised until healthy, bleeding tissue is encountered. Plan for return to OR every 24-48 hours for re-exploration until no further necrotic tissue is found (typically 3-4 debridements). (6) Amputation may be necessary if the infection involves the entire circumference of a limb or if the patient continues to deteriorate despite debridement. (7) Adjunctive IVIG (intravenous immunoglobulin) may be considered for Group A Streptococcal necrotizing fasciitis as it neutralizes streptococcal superantigens, though evidence is mixed.",
+    "pathophysiology": "Necrotizing fasciitis is a rapidly progressive infection that spreads along fascial planes at rates of 2-3 cm per hour. Bacteria (aerobic and anaerobic) enter through a breach in the skin and invade the superficial fascia and subcutaneous tissue. Bacterial enzymes (hyaluronidase, lipases, collagenases) and toxins facilitate spread along the relatively avascular fascial planes. Thrombosis of perforating blood vessels causes overlying skin ischemia and necrosis (explaining why the skin changes lag behind the fascial destruction). Group A Streptococcus produces superantigens (streptococcal pyrogenic exotoxins) that cause massive T-cell activation and cytokine release (streptococcal toxic shock syndrome). The combination of local tissue destruction and systemic toxin-mediated shock leads to multi-organ failure and death in 25-35% of cases despite treatment.",
+    "treatment_overview": "Emergent radical surgical debridement is the cornerstone of treatment. All necrotic fascia, subcutaneous tissue, and non-viable skin must be excised aggressively. Plan for scheduled re-explorations every 24-48 hours until no further necrosis is identified. Broad-spectrum IV antibiotics: vancomycin (for MRSA coverage) plus piperacillin-tazobactam or a carbapenem (for gram-negatives and anaerobes) plus clindamycin (for toxin suppression — inhibits ribosomal protein synthesis and reduces superantigen production). Aggressive ICU-level resuscitation: IV fluids, vasopressors for refractory shock, mechanical ventilation as needed. Correct coagulopathy (FFP, cryoprecipitate, platelets for DIC). Consider IVIG for confirmed streptococcal toxic shock. Wound management: negative pressure wound therapy (wound VAC) after debridement. Delayed primary closure, skin grafting, or flap coverage once infection is controlled. Hyperbaric oxygen therapy is controversial with limited evidence. Nutritional support (high-protein, high-calorie). Amputation if limb-threatening or life-threatening spread cannot be controlled.",
+    "high_yield_pearls": [
+      "Necrotizing fasciitis is a surgical emergency: every hour of delay in surgical debridement significantly increases mortality.",
+      "Pain out of proportion to visible skin findings is the earliest and most important clinical clue; late findings include crepitus, hemorrhagic bullae, and skin anesthesia.",
+      "The 'finger test' (inability of tissue to resist gentle finger dissection along the fascial plane through a small incision) is a rapid bedside diagnostic maneuver.",
+      "Clindamycin is added to the antibiotic regimen specifically because it suppresses bacterial toxin production (including streptococcal superantigens) by inhibiting ribosomal protein synthesis.",
+      "Type I (polymicrobial) necrotizing fasciitis typically affects immunocompromised/diabetic patients; Type II (Group A Streptococcus monomicrobial) can affect healthy individuals.",
+      "Gas in the soft tissues is present in only 25-50% of cases and is not required for diagnosis; its absence does not exclude necrotizing fasciitis."
+    ],
+    "sources": [
+      "Stevens DL et al. Clin Infect Dis 2014;59:e10-e52 (IDSA Guidelines for Skin and Soft Tissue Infections)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 9",
+      "Wong CH et al. Crit Care Med 2004;32:1535-1541 (LRINEC Score)",
+      "Hakkarainen TW et al. JAMA Surg 2014;149:1272-1277"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Necrotizing fasciitis", "Cellulitis (severe/complicated)", "Gas gangrene (clostridial myonecrosis)", "Deep vein thrombosis with cellulitis", "Compartment syndrome", "Pyomyositis"],
+    "after_stage2_more_likely": ["Necrotizing fasciitis", "Gas gangrene"],
+    "after_stage2_less_likely": ["Cellulitis", "Deep vein thrombosis", "Compartment syndrome"],
+    "after_labs_top3": ["Necrotizing fasciitis", "Gas gangrene", "Pyomyositis"]
+  }
+}

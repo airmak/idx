@@ -1,0 +1,76 @@
+{
+  "case_id": "case_103",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Malignant pleural mesothelioma",
+  "icd_category": "C45.0 — Mesothelioma of pleura",
+  "one_liner": "A 68-year-old retired shipyard worker presents with progressive dyspnea, dull chest pain, and a large unilateral pleural effusion with pleural thickening on CT.",
+  "stage2": {
+    "hpi_extension": "The patient reports insidious onset of right-sided chest heaviness and dull, aching pain over 4 months. He has experienced progressive exertional dyspnea, now occurring with light activities. He has lost 6 kg unintentionally over 3 months. He reports mild dry cough but denies hemoptysis, fever, or night sweats. He worked as a pipe fitter in shipyards for 30 years (ages 18-48) with significant asbestos exposure and minimal respiratory protection. He was diagnosed with asbestos-related pleural plaques on a screening CXR 10 years ago.",
+    "pmh": "Asbestos-related pleural plaques, hypertension, hyperlipidemia, GERD.",
+    "surgical_history": "Right inguinal hernia repair, age 40.",
+    "medications": "Lisinopril 20 mg daily, atorvastatin 40 mg daily, omeprazole 20 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of cancer. Father had COPD.",
+    "social_history": "Retired shipyard pipe fitter (30 years of asbestos exposure). Former smoker (20 pack-years, quit 20 years ago). Social alcohol. Lives with wife. Hobbies: woodworking.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "82 bpm",
+      "bp": "136/82 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "76 kg (previous 82 kg), BMI 24.8"
+    },
+    "physical_exam": "General: Thin, cachectic man appearing older than stated age. HEENT: Normal. No lymphadenopathy. Lungs: Markedly decreased breath sounds and dullness to percussion over the entire right hemithorax. Left lung clear. No wheezing. Cardiovascular: Regular rate and rhythm. Heart sounds distant. No murmurs. Abdomen: Soft, non-tender. No hepatomegaly. Extremities: No edema. Mild digital clubbing. Skin: No subcutaneous nodules."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia of chronic disease associated with malignancy"},
+      {"test_name": "CBC — WBC", "result": "9,800/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Platelets", "result": "480,000/uL", "flag": "HIGH", "clinical_significance": "Reactive thrombocytosis — common in mesothelioma and correlates with advanced disease/poor prognosis"},
+      {"test_name": "LDH", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH may reflect tumor burden"},
+      {"test_name": "Albumin", "result": "2.9 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from malnutrition and chronic disease"},
+      {"test_name": "CRP", "result": "4.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; chronic inflammatory process from malignancy"},
+      {"test_name": "Pleural fluid cytology", "result": "Atypical mesothelial cells present. Suspicious for malignancy. Cannot definitively differentiate reactive from malignant mesothelial cells on cytology alone.", "flag": "ABNORMAL", "clinical_significance": "Pleural fluid cytology has low sensitivity (~30%) for mesothelioma — tissue biopsy is usually required for definitive diagnosis"},
+      {"test_name": "Pleural fluid analysis", "result": "Exudative (protein ratio 0.62, LDH ratio 0.72). Bloody. Glucose 48 mg/dL. pH 7.22.", "flag": "ABNORMAL", "clinical_significance": "Bloody exudative effusion with low glucose and pH suggests malignant effusion — low glucose/pH in mesothelioma indicates advanced disease and poor prognosis"},
+      {"test_name": "Soluble mesothelin-related peptide (SMRP)", "result": "4.8 nmol/L", "flag": "HIGH", "clinical_significance": "Elevated SMRP is a biomarker for mesothelioma with reasonable specificity; useful for diagnosis and monitoring treatment response"},
+      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Hepatic panel", "result": "AST 28, ALT 22, ALP 98 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
+      {"test_name": "Coagulation — PT/INR", "result": "12.2 sec / 1.0", "flag": "WNL", "clinical_significance": "Normal coagulation"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT chest with contrast", "result": "Large right-sided pleural effusion with circumferential, nodular pleural thickening (rind-like) encasing the right lung. Mediastinal pleural involvement. Bilateral calcified pleural plaques. Volume loss of right hemithorax with ipsilateral mediastinal shift. No contralateral disease. No hepatic metastases.", "flag": "ABNORMAL", "clinical_significance": "Circumferential, nodular pleural thickening with effusion and ipsilateral volume loss is the classic CT presentation of mesothelioma. The pleural plaques confirm prior asbestos exposure. Mediastinal shift toward the affected side (rather than away) indicates encasement/trapped lung."},
+      {"test_name": "PET-CT", "result": "Intensely FDG-avid circumferential right pleural thickening (SUVmax 8.4). FDG-avid right mediastinal lymph nodes. No distant metastatic disease.", "flag": "ABNORMAL", "clinical_significance": "PET-CT confirms metabolically active pleural malignancy and helps with staging; no distant metastases suggests potentially resectable disease (depending on histologic subtype and performance status)"}
+    ],
+    "key_tests": ["CT chest with contrast", "Thoracoscopic (VATS) pleural biopsy", "Pleural fluid analysis with cytology", "PET-CT (for staging)", "Soluble mesothelin-related peptide (SMRP)"],
+    "acceptable_tests": ["CBC", "BMP", "LDH", "Albumin", "CRP", "Hepatic panel", "CT-guided pleural biopsy", "Chest X-ray", "PFTs"],
+    "low_yield_tests": ["Sputum cytology", "D-dimer", "Bronchoscopy (tumor is pleural, not endobronchial)", "ANCA", "ACE level"]
+  },
+  "stage5": {
+    "final_clue": "Video-assisted thoracoscopic surgery (VATS) pleural biopsy reveals malignant epithelioid mesothelioma. Immunohistochemistry is positive for calretinin, CK5/6, WT-1, and D2-40, and negative for CEA, TTF-1, and BerEP4, confirming mesothelioma and distinguishing it from adenocarcinoma. BAP1 loss is present. Clinical staging: T3N1M0, Stage IIIA."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly man with occupational asbestos exposure (latency 20-50 years) presenting with unilateral chest pain, dyspnea, and large pleural effusion, with circumferential nodular pleural thickening encasing the lung on CT, and bloody exudative effusion with low glucose/pH.",
+    "attending_mode_notes": "Mesothelioma has a latency period of 20-50 years after asbestos exposure. The key imaging feature distinguishing it from metastatic pleural disease is circumferential (rind-like) thickening of the pleura with ipsilateral volume loss — metastatic disease typically causes contralateral mediastinal shift from effusion. Pleural fluid cytology has only ~30% sensitivity for mesothelioma because malignant mesothelial cells are difficult to distinguish from reactive cells — tissue biopsy (VATS preferred) is usually required. Histologic subtypes: epithelioid (best prognosis, 50-60%), sarcomatoid (worst prognosis, 10-15%), and biphasic/mixed (25-30%). The IHC panel is crucial: calretinin+, CK5/6+, WT-1+ (mesothelioma markers) vs. CEA+, TTF-1+, BerEP4+ (adenocarcinoma markers).",
+    "pathophysiology": "Asbestos fibers (amphibole types — crocidolite, amosite — are most carcinogenic) are inhaled and penetrate to the pleural surface. They cause chronic pleural inflammation, DNA damage via reactive oxygen species, and interference with mitotic spindle formation. Over decades, these mutagenic effects lead to malignant transformation of mesothelial cells. Key genetic alterations include loss of BAP1 (BRCA1-associated protein), NF2, and CDKN2A tumor suppressors. Asbestos exposure is the primary risk factor in ~80% of cases. Unlike lung cancer, smoking does NOT increase mesothelioma risk (but is synergistic with asbestos for lung cancer).",
+    "treatment_overview": "Multimodal therapy for resectable disease: Radical surgery (extrapleural pneumonectomy or pleurectomy/decortication) + adjuvant chemotherapy (pemetrexed + cisplatin/carboplatin) +/- radiation. Unresectable disease: palliative chemotherapy (pemetrexed + platinum — the EMPHACIS trial showed survival benefit). Nivolumab + ipilimumab (CheckMate 743 trial) is now first-line for unresectable mesothelioma. Pleurodesis or indwelling pleural catheter for recurrent symptomatic effusion. BAP1 loss may predict better prognosis and immunotherapy response. Median survival: 12-18 months (all stages).",
+    "high_yield_pearls": [
+      "Mesothelioma has a latency period of 20-50 years after asbestos exposure — always obtain occupational history in patients with pleural disease.",
+      "Circumferential (rind-like) pleural thickening with ipsilateral volume loss and mediastinal shift TOWARD the affected side is characteristic — contrast with contralateral shift from simple effusion.",
+      "Pleural fluid cytology has only ~30% sensitivity — VATS biopsy is the gold standard for diagnosis.",
+      "IHC distinguishes mesothelioma (calretinin+, CK5/6+, WT-1+, D2-40+) from pleural adenocarcinoma (CEA+, TTF-1+, BerEP4+).",
+      "Smoking increases lung cancer risk synergistically with asbestos (multiplicative effect) but does NOT independently increase mesothelioma risk."
+    ],
+    "sources": [
+      "Baas P et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). Lancet. 2021",
+      "Vogelzang NJ et al. Phase III Study of Pemetrexed in Combination with Cisplatin vs. Cisplatin Alone in Patients with Malignant Pleural Mesothelioma (EMPHACIS). J Clin Oncol. 2003",
+      "UpToDate: Malignant pleural mesothelioma: Clinical presentation, diagnosis, and staging"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Malignant pleural mesothelioma", "Metastatic pleural disease (lung, breast)", "Pleural lymphoma", "Empyema/complicated parapneumonic effusion", "Benign asbestos pleural effusion", "Pleural plaques (benign)"],
+    "after_stage2_more_likely": ["Malignant pleural mesothelioma", "Metastatic pleural disease"],
+    "after_stage2_less_likely": ["Empyema", "Benign asbestos pleural effusion"],
+    "after_labs_top3": ["Malignant pleural mesothelioma", "Metastatic pleural disease", "Pleural lymphoma"]
+  }
+}

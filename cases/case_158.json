@@ -1,0 +1,107 @@
+{
+  "case_id": "case_158",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Coccidioidomycosis",
+  "icd_category": "B38.0 — Acute pulmonary coccidioidomycosis",
+  "one_liner": "A 35-year-old Filipino male from Arizona's Phoenix Valley presents with 3 weeks of cough, fever, arthralgias, diffuse erythema nodosum, and bilateral hilar lymphadenopathy after recent dust storm exposure.",
+  "stage2": {
+    "hpi_extension": "The patient lives in the Phoenix metropolitan area and works as a landscape contractor. Approximately 3 weeks ago, during a major dust storm (haboob), he was working outdoors without respiratory protection. Ten days later, he developed a dry cough, fever up to 38.8°C, fatigue, headache, and diffuse arthralgias (knees, ankles, wrists). He has had night sweats and a 3 kg weight loss. One week ago, he noticed tender red nodules on his shins bilaterally that his wife initially thought were bruises. He reports mild dyspnea on exertion and pleuritic right-sided chest pain. No hemoptysis, rash other than the shin nodules, or neurologic symptoms. He has no history of prior coccidioidomycosis.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "Ibuprofen 600 mg TID PRN for arthralgias.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Born in the Philippines, emigrated to Arizona 8 years ago. Landscape contractor with extensive outdoor dust exposure. Non-smoker. Social alcohol. No illicit drugs. Lives with wife and two children.",
+    "vitals": {
+      "temp": "38.4°C (101.1°F)",
+      "hr": "86 bpm",
+      "bp": "126/78 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "76 kg, BMI 24.8"
+    },
+    "physical_exam": "Well-nourished male in mild discomfort. Bilateral shins: multiple tender, erythematous, subcutaneous nodules (2-4 cm) consistent with erythema nodosum. No ulceration or drainage from skin lesions. Diffuse arthralgias without frank synovitis or effusion. Lungs: decreased breath sounds at the right base with dullness to percussion. No wheezes or crackles. Mild right-sided pleuritic friction rub. No lymphadenopathy on palpation. Abdomen soft, non-tender, no hepatosplenomegaly. Neurologic exam non-focal."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Coccidioides Complement Fixation (CF) Antibody", "result": "Titer 1:32", "flag": "ABNORMAL", "clinical_significance": "CF titer ≥1:16 suggests significant disease burden; higher titers correlate with disseminated disease risk; used for monitoring treatment response"},
+      {"test_name": "Coccidioides Immunodiffusion (IDCF/IDTP)", "result": "IgM (tube precipitin) positive, IgG (complement fixation) positive", "flag": "ABNORMAL", "clinical_significance": "Positive IgM indicates acute/early infection; positive IgG supports diagnosis and correlates with disease activity"},
+      {"test_name": "Coccidioides EIA IgM/IgG", "result": "IgM positive, IgG positive", "flag": "ABNORMAL", "clinical_significance": "EIA is a sensitive screening test but has lower specificity; confirmatory IDCF is more reliable"},
+      {"test_name": "CBC — WBC", "result": "11,400/μL with 6% eosinophils (absolute eosinophil count 684/μL)", "flag": "HIGH", "clinical_significance": "Peripheral eosinophilia is common in coccidioidomycosis (present in ~25% of cases) and is actually a favorable prognostic sign"},
+      {"test_name": "ESR", "result": "62 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker consistent with active coccidioidal disease"},
+      {"test_name": "CRP", "result": "48 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CMP — Calcium", "result": "10.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mild hypercalcemia can occur in granulomatous diseases including coccidioidomycosis from 1,25-dihydroxyvitamin D production by macrophages"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and Lateral)", "result": "Right lower lobe consolidation with bilateral hilar lymphadenopathy. Small right-sided pleural effusion. No cavitary lesion.", "flag": "ABNORMAL", "clinical_significance": "Community-acquired pneumonia pattern with hilar lymphadenopathy is classic for primary pulmonary coccidioidomycosis"},
+      {"test_name": "CT Chest with Contrast", "result": "Right lower lobe consolidation (5 cm) with surrounding ground-glass opacity. Bilateral hilar and right paratracheal lymphadenopathy (largest node 2.8 cm). Small right pleural effusion. No cavitation.", "flag": "ABNORMAL", "clinical_significance": "Confirms extent of pulmonary coccidioidomycosis; hilar lymphadenopathy helps distinguish from typical bacterial pneumonia"}
+    ],
+    "key_tests": [
+      "Coccidioides serologies: complement fixation (CF) titer and immunodiffusion (IgM and IgG)",
+      "Chest imaging (X-ray and CT)",
+      "CBC with differential (eosinophilia is a helpful clue)",
+      "ESR and/or CRP"
+    ],
+    "acceptable_tests": [
+      "Coccidioides EIA screening (IgM/IgG)",
+      "Sputum or BAL culture for Coccidioides (grows on routine fungal media in 5-7 days — BSL-3 pathogen, notify lab)",
+      "Sputum or BAL Coccidioides PCR",
+      "Basic metabolic panel (calcium)",
+      "HIV screening",
+      "Thoracentesis if significant effusion (to rule out empyema and for Coccidioides CF)",
+      "Lumbar puncture (only if neurologic symptoms suggesting meningitis)"
+    ],
+    "low_yield_tests": [
+      "Coccidioides skin test (coccidioidin/spherulin — not available commercially; used for epidemiologic studies, not acute diagnosis)",
+      "Serum beta-D-glucan (can be positive but non-specific; not the preferred test for Coccidioides)",
+      "Histoplasma antigen (may cross-react but is the wrong test for Coccidioides)",
+      "Bone marrow biopsy (not indicated without cytopenias)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A Filipino male landscape worker in Arizona presenting with community-acquired pneumonia (consolidation, pleural effusion, bilateral hilar lymphadenopathy) plus the classic triad of Valley fever: cough/fever + erythema nodosum + arthralgias ('desert rheumatism'). Peripheral eosinophilia and positive Coccidioides serologies (CF titer 1:32, positive IgM and IgG) confirm primary pulmonary coccidioidomycosis. The high CF titer and Filipino ethnicity place him at higher risk for dissemination."
+  },
+  "debrief": {
+    "classic_presentation": "Primary pulmonary coccidioidomycosis ('Valley fever') presents 1-3 weeks after inhalation of arthroconidia in endemic areas (Sonoran Desert — Arizona, Central California, parts of Nevada, New Mexico, West Texas, and northwestern Mexico). Symptoms include cough, fever, fatigue, pleuritic chest pain, and headache. The classic triad of erythema nodosum + arthralgias + fever ('desert rheumatism' or 'valley fever triad') occurs in a minority of cases but is highly suggestive. Chest imaging shows pneumonia (often with hilar lymphadenopathy and pleural effusion). Approximately 60% of infections are asymptomatic; 40% produce a self-limited respiratory illness; <5% disseminate.",
+    "attending_mode_notes": "Filipino and African American patients are at 10-175x higher risk for disseminated coccidioidomycosis compared to non-Hispanic whites, likely related to differences in cell-mediated immune responses to Coccidioides. This patient's Filipino heritage and CF titer of 1:32 warrant antifungal treatment and close monitoring. CF titers >1:16 are associated with higher disease burden and risk of dissemination; serial titers should be followed (declining titers indicate treatment response). Erythema nodosum, paradoxically, is a GOOD prognostic sign — it represents a robust Th1 immune response and is associated with LOWER risk of dissemination. Conversely, erythema multiforme or diffuse maculopapular rash in coccidioidomycosis suggests a weaker immune response and higher dissemination risk. Coccidioidomycosis meningitis is the most feared complication and may present insidiously weeks to months after primary infection. Any headache, altered mental status, or neurologic symptom in a patient with coccidioidomycosis warrants LP with CSF Coccidioides CF testing. Coccidioidomycosis meningitis requires lifelong fluconazole therapy (typically 800 mg/day). Coccidioides is a BSL-3 organism — laboratory must be notified before culture to prevent laboratory-acquired infections. Coccidioides grows as a mold with barrel-shaped arthroconidia that are highly infectious when airborne.",
+    "pathophysiology": "Coccidioides immitis (California) and C. posadasii (Arizona/rest of endemic area) are dimorphic fungi residing in the alkaline desert soil of the Lower Sonoran life zone. During dry, windy conditions (especially after rain), arthroconidia become airborne. After inhalation, arthroconidia transform into the tissue-phase spherule (60-100 μm), which is unique to Coccidioides and pathognomonic on histopathology. Each spherule matures and ruptures, releasing hundreds of endospores (2-5 μm) that each develop into new spherules, exponentially expanding the infection. Host defense depends primarily on cell-mediated immunity (Th1 response, IFN-gamma, TNF-alpha). Granuloma formation by activated macrophages contains the infection in most immunocompetent individuals. Failure of the Th1 response (as seen in HIV, pregnancy third trimester, anti-TNF therapy, and certain genetic backgrounds) leads to dissemination to skin, bones, joints, and meninges.",
+    "treatment_overview": "Mild primary pulmonary disease in low-risk patients: observation with serial serologies (some clinicians treat all symptomatic cases). Moderate or high-risk primary pulmonary disease (this patient — Filipino, CF titer 1:32): fluconazole 400-800 mg/day PO for 3-6 months minimum; alternative: itraconazole 200 mg BID. Severe pneumonia or immunocompromised: amphotericin B (lipid formulation) initially, then step down to fluconazole/itraconazole. Disseminated non-meningeal disease: fluconazole 400-800 mg/day for ≥12 months. Coccidioidomycosis meningitis: fluconazole 800-1200 mg/day for LIFE (relapses are common and potentially fatal if treatment stopped). Follow CF titers serially: expect 2-fold decline every 3-4 months with successful treatment. For this patient: start fluconazole 400 mg daily, serial CF titers Q3 months, close monitoring for signs of dissemination (new skin lesions, bone pain, headache), and low threshold for LP if any neurologic symptoms develop.",
+    "high_yield_pearls": [
+      "The Coccidioides complement fixation (CF) titer is both diagnostic and prognostic — titers >1:16 indicate higher disease burden and increased risk of dissemination; serial titers monitor treatment response.",
+      "Erythema nodosum in coccidioidomycosis is a GOOD prognostic sign — it reflects a strong Th1 immune response and is associated with LOWER risk of dissemination.",
+      "Filipino, African American, and pregnant (third trimester) patients are at significantly higher risk for disseminated coccidioidomycosis and should be treated with antifungal therapy even for primary disease.",
+      "Coccidioidomycosis meningitis requires LIFELONG fluconazole therapy — relapse after stopping treatment can be fatal.",
+      "Peripheral eosinophilia in a patient with community-acquired pneumonia from the southwestern US should raise suspicion for coccidioidomycosis."
+    ],
+    "sources": [
+      "Galgiani JN et al. 2016 IDSA Clinical Practice Guideline for the Treatment of Coccidioidomycosis. Clin Infect Dis. 2016;63(6):e112-e146.",
+      "Stockamp NW, Thompson GR. Coccidioidomycosis. Infect Dis Clin North Am. 2016;30(1):229-246.",
+      "UpToDate: Primary pulmonary coccidioidomycosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Coccidioidomycosis (Valley fever)",
+      "Community-acquired bacterial pneumonia",
+      "Sarcoidosis",
+      "Histoplasmosis",
+      "Lung malignancy with hilar lymphadenopathy",
+      "Tuberculosis"
+    ],
+    "after_stage2_more_likely": [
+      "Coccidioidomycosis — community-acquired pneumonia with hilar lymphadenopathy, erythema nodosum, and arthralgias ('desert rheumatism') in a patient from the Phoenix Valley with dust storm exposure",
+      "Sarcoidosis — bilateral hilar lymphadenopathy with erythema nodosum (Löfgren syndrome) overlaps significantly, but acute febrile illness after dust exposure in Arizona favors Cocci"
+    ],
+    "after_stage2_less_likely": [
+      "Bacterial pneumonia — hilar lymphadenopathy and erythema nodosum are atypical for typical bacterial CAP",
+      "Tuberculosis — hilar lymphadenopathy and constitutional symptoms can overlap, but erythema nodosum with this geographic exposure is more suggestive of coccidioidomycosis"
+    ],
+    "after_labs_top3": [
+      "Coccidioidomycosis — positive Coccidioides CF titer (1:32), positive IgM and IgG, peripheral eosinophilia, bilateral hilar lymphadenopathy, erythema nodosum, endemic area exposure",
+      "Sarcoidosis — excluded by positive Coccidioides serologies; hilar lymphadenopathy with EN in this context is infectious",
+      "Histoplasmosis — not endemic to Arizona (Ohio/Mississippi River Valley); Coccidioides serologies confirm the specific diagnosis"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "case_id": "case_184",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Type 1 diabetes mellitus (new diagnosis, diabetic ketoacidosis)",
+  "icd_category": "E10.10 – Type 1 diabetes mellitus with ketoacidosis without coma",
+  "one_liner": "A 9-year-old female with no significant past medical history presents with 3 weeks of polyuria, polydipsia, and a 5-pound weight loss, now with nausea, vomiting, and abdominal pain.",
+  "stage2": {
+    "hpi_extension": "The patient's parents report that over the past 3 weeks she has been drinking excessive amounts of water (up to 3 liters per day) and urinating frequently, including nocturia and a recent bed-wetting episode (previously dry at night since age 4). She has lost approximately 5 pounds despite eating well. Over the past 2 days she has developed nausea, two episodes of non-bloody vomiting, diffuse abdominal pain, and progressive fatigue. Today she appeared lethargic and was breathing heavily, prompting the ED visit. She denies fever, diarrhea, dysuria, or recent illness. No recent travel or sick contacts.",
+    "pmh": "No significant past medical history. Born full-term. Up to date on immunizations. No prior surgeries or hospitalizations.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Maternal grandmother with type 2 diabetes. Maternal aunt with Hashimoto thyroiditis. No family history of type 1 diabetes.",
+    "social_history": "Lives with both parents and a younger brother. Attends 4th grade. Active in soccer. No secondhand smoke exposure. No substance use.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "118 bpm",
+      "bp": "100/62 mmHg",
+      "rr": "28 breaths/min, deep (Kussmaul breathing)",
+      "spo2": "99% on room air",
+      "weight_bmi": "27 kg (25th percentile; decreased from 29.3 kg at last well-child visit 3 months ago)"
+    },
+    "physical_exam": "General: Lethargic but arousable, thin-appearing girl with deep and rapid (Kussmaul) respirations; fruity odor on breath. HEENT: Dry mucous membranes, sunken eyes, no oral thrush or lesions. Neck: Supple, no lymphadenopathy, no thyromegaly. Cardiovascular: Tachycardic, regular rhythm, no murmurs; peripheral pulses thready. Pulmonary: Clear to auscultation bilaterally; deep Kussmaul breathing pattern. Abdomen: Diffusely tender to palpation without guarding or rebound; no hepatosplenomegaly; decreased bowel sounds. Extremities: Cool extremities, capillary refill 3 seconds. Skin: Dry, decreased turgor (tenting of skin on abdomen). Neurologic: Alert and oriented to person and place, slightly confused regarding time; GCS 14 (E4, V4, M6)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Point-of-care glucose",
+        "result": "486 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated glucose confirms hyperglycemia; glucose >200 mg/dL in the setting of symptoms is diagnostic of diabetes."
+      },
+      {
+        "test_name": "Venous blood gas",
+        "result": "pH 7.18, pCO2 22 mmHg, HCO3 8 mEq/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with respiratory compensation (Kussmaul breathing); pH <7.3 and HCO3 <15 define DKA; pH <7.2 classifies this as moderate-to-severe DKA."
+      },
+      {
+        "test_name": "Serum ketones (beta-hydroxybutyrate)",
+        "result": "5.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated beta-hydroxybutyrate confirms ketosis; >3 mmol/L is consistent with significant DKA."
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "11.8%",
+        "flag": "HIGH",
+        "clinical_significance": "HbA1c >6.5% is diagnostic of diabetes; 11.8% indicates average blood glucose of ~290 mg/dL over the preceding 2-3 months, consistent with new-onset T1DM."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "131 mEq/L (corrected Na: 137 mEq/L)",
+        "flag": "LOW",
+        "clinical_significance": "Pseudohyponatremia due to osmotic shift from hyperglycemia; corrected sodium (add 1.6 mEq/L per 100 mg/dL glucose above 100) is 137, which is normal."
+      },
+      {
+        "test_name": "Potassium",
+        "result": "5.2 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild hyperkalemia is common in DKA due to extracellular potassium shift from acidosis and insulin deficiency; total body potassium is actually depleted and will drop rapidly with insulin therapy."
+      },
+      {
+        "test_name": "Anion gap",
+        "result": "22 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated anion gap (normal 8-12) confirms anion gap metabolic acidosis from ketoacid accumulation (beta-hydroxybutyrate and acetoacetate)."
+      },
+      {
+        "test_name": "BUN/Creatinine",
+        "result": "BUN 24 mg/dL, Cr 0.9 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BUN and creatinine reflect prerenal azotemia from significant dehydration due to osmotic diuresis."
+      },
+      {
+        "test_name": "Phosphate",
+        "result": "4.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Phosphate may be initially normal or high in DKA but will drop with insulin therapy and fluid resuscitation; monitoring is important."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Glucose 4+, ketones 3+, specific gravity 1.035, pH 5.0, no WBCs, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Glucosuria and ketonuria confirm hyperglycemia exceeding renal threshold (~180 mg/dL) and ketone production; concentrated urine reflects dehydration."
+      },
+      {
+        "test_name": "GAD-65 antibodies",
+        "result": "Positive (>250 U/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive GAD-65 antibodies confirm autoimmune etiology of beta-cell destruction, consistent with type 1 diabetes mellitus."
+      },
+      {
+        "test_name": "C-peptide",
+        "result": "0.3 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low C-peptide reflects markedly diminished endogenous insulin production, consistent with autoimmune destruction of pancreatic beta cells in T1DM."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Chest X-ray",
+        "result": "Clear lung fields bilaterally. Normal cardiac silhouette. No pleural effusions.",
+        "flag": "WNL",
+        "clinical_significance": "Normal CXR helps exclude infectious etiology contributing to DKA presentation."
+      }
+    ],
+    "key_tests": [
+      "Point-of-care blood glucose",
+      "Venous or arterial blood gas",
+      "Serum ketones (beta-hydroxybutyrate)",
+      "BMP (electrolytes, BUN, creatinine, glucose)",
+      "HbA1c"
+    ],
+    "acceptable_tests": [
+      "Urinalysis (glucose, ketones)",
+      "CBC with differential",
+      "Phosphate and magnesium levels",
+      "Diabetes autoantibodies (GAD-65, IA-2, ZnT8, insulin antibodies)",
+      "C-peptide level",
+      "Lipid panel",
+      "Thyroid function tests (TSH, free T4)",
+      "Celiac screen (tissue transglutaminase IgA)"
+    ],
+    "low_yield_tests": [
+      "Abdominal CT (abdominal pain is from DKA, not surgical)",
+      "Lipase/amylase (unless pancreatitis suspected)",
+      "Blood cultures (afebrile, no infectious signs)",
+      "Lumbar puncture",
+      "Echocardiogram"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After initiation of IV insulin infusion and fluid resuscitation, the patient's anion gap begins to close, pH improves to 7.32, and glucose decreases to 220 mg/dL. GAD-65 antibodies return strongly positive, confirming the diagnosis of new-onset type 1 diabetes mellitus presenting with DKA."
+  },
+  "debrief": {
+    "classic_presentation": "New-onset T1DM in children classically presents with the 'polys' — polyuria, polydipsia, and polyphagia with weight loss — developing over days to weeks. Approximately 30-40% of newly diagnosed children present in DKA with nausea, vomiting, abdominal pain, Kussmaul breathing (deep, rapid respirations), fruity breath odor, dehydration, and altered mental status. Peak age of diagnosis is 4-6 years and 10-14 years.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells, mediated by autoreactive CD4+ and CD8+ T lymphocytes. This leads to absolute insulin deficiency. Without insulin, glucose cannot enter cells, causing hyperglycemia. When blood glucose exceeds the renal threshold (~180 mg/dL), glucosuria causes osmotic diuresis, leading to polyuria and dehydration. Unopposed glucagon and counter-regulatory hormones (cortisol, catecholamines, growth hormone) stimulate lipolysis, producing free fatty acids that are converted to ketone bodies (beta-hydroxybutyrate, acetoacetate) in the liver. Accumulation of these organic acids causes the anion gap metabolic acidosis of DKA.",
+    "treatment_overview": "DKA management follows ISPAD/ADA guidelines: (1) IV fluid resuscitation with 0.9% NS 10-20 mL/kg bolus over 1-2 hours, then calculate fluid deficit (typically 5-10% dehydration) and replace evenly over 24-48 hours. (2) Continuous IV regular insulin infusion at 0.05-0.1 units/kg/hr (do NOT bolus insulin in pediatric DKA). (3) Potassium replacement when K <5.5 mEq/L (add 20-40 mEq/L KCl and/or KPhos to IV fluids). (4) Monitor glucose hourly and electrolytes/blood gas every 2-4 hours. (5) Transition to subcutaneous insulin when DKA resolved (pH >7.3, HCO3 >15, anion gap closed, patient tolerating PO). CRITICAL: Avoid rapid correction of glucose or sodium to prevent cerebral edema, the most dangerous complication of pediatric DKA treatment.",
+    "high_yield_pearls": [
+      "Cerebral edema is the most feared complication of DKA treatment in children, occurring in 0.5-1% of cases with 20-25% mortality. Risk factors include younger age, new-onset DKA, higher BUN, lower pCO2, and failure of sodium to rise with treatment. Treat with IV mannitol or hypertonic saline.",
+      "In DKA, serum potassium is often normal or high on presentation due to acidosis-driven extracellular shift, but total body potassium is severely depleted. Insulin therapy drives potassium intracellularly and can cause life-threatening hypokalemia — always confirm K >3.5 before starting insulin.",
+      "The corrected sodium should be calculated in DKA: add 1.6 mEq/L to measured sodium for every 100 mg/dL glucose above 100. A corrected sodium that does not rise appropriately with treatment suggests excessive free water and increased cerebral edema risk.",
+      "HbA1c at diagnosis helps distinguish new-onset T1DM (usually >9%) from an acute stress hyperglycemia event; it also provides a baseline for future glycemic management.",
+      "Screen all newly diagnosed T1DM patients for associated autoimmune conditions: thyroid disease (TSH, anti-TPO antibodies) and celiac disease (tissue transglutaminase IgA) at diagnosis and periodically."
+    ],
+    "sources": [
+      "ISPAD Clinical Practice Consensus Guidelines 2022: Diabetic ketoacidosis and hyperglycemic hyperosmolar state",
+      "ADA Standards of Care in Diabetes – 2024: Children and Adolescents",
+      "UpToDate: Diabetic ketoacidosis in children: Clinical features and diagnosis",
+      "UpToDate: Diabetic ketoacidosis in children: Treatment and complications",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diabetic ketoacidosis (new-onset T1DM)",
+      "Gastroenteritis with dehydration",
+      "Appendicitis",
+      "Urinary tract infection",
+      "Diabetes insipidus",
+      "Sepsis",
+      "Ingestion/toxic exposure"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic ketoacidosis (polyuria/polydipsia, weight loss, Kussmaul breathing, fruity breath, dehydration)",
+      "Diabetes insipidus (polyuria/polydipsia — but would not have Kussmaul breathing or fruity breath)"
+    ],
+    "after_stage2_less_likely": [
+      "Gastroenteritis (no diarrhea, progressive polyuria/polydipsia over weeks suggests an osmotic process)",
+      "Appendicitis (diffuse tenderness without focal RLQ signs, Kussmaul breathing atypical for surgical abdomen)",
+      "Sepsis (afebrile, no infectious source identified)"
+    ],
+    "after_labs_top3": [
+      "Type 1 diabetes mellitus with DKA",
+      "Type 2 diabetes with DKA (less likely given age and BMI)",
+      "Starvation ketosis with incidental hyperglycemia (excluded by markedly elevated glucose and HbA1c)"
+    ]
+  }
+}

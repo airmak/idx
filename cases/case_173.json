@@ -1,0 +1,74 @@
+{
+  "case_id": "case_173",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Hepatocellular Carcinoma",
+  "icd_category": "C22.0 — Hepatocellular carcinoma",
+  "one_liner": "A 60-year-old male with known hepatitis C cirrhosis presents with worsening right upper quadrant pain, a 7 kg weight loss, and a rising AFP level.",
+  "stage2": {
+    "hpi_extension": "The patient has a 15-year history of hepatitis C cirrhosis (genotype 1a, achieved SVR with direct-acting antivirals 3 years ago). He was adherent to surveillance ultrasounds until 18 months ago when he missed appointments. He now presents with 3 months of progressive RUQ pain (dull, constant), early satiety, a 7 kg unintentional weight loss, and worsening fatigue. He noticed increasing abdominal girth over the past month. He denies fever, hematemesis, melena, or encephalopathy symptoms. His last AFP was 12 ng/mL two years ago.",
+    "pmh": "Hepatitis C cirrhosis (Child-Pugh A, achieved SVR 3 years ago), type 2 diabetes, hypertension, esophageal varices (grade 1, last EGD 2 years ago)",
+    "surgical_history": "None",
+    "medications": "Nadolol 40 mg daily, metformin 500 mg BID, lisinopril 10 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of liver cancer. Father had hepatitis C.",
+    "social_history": "Former IV drug use (heroin, 20 years ago, now in recovery). Former smoker (15 pack-years, quit 10 years ago). No current alcohol use (sober for 10 years). Works part-time as a peer counselor.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "78 bpm, regular",
+      "bp": "128/74 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "72 kg, BMI 24.5"
+    },
+    "physical_exam": "General: Cachectic male with temporal wasting. HEENT: Mild scleral icterus, no oral lesions. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear bilaterally. Abdomen: Firm, nodular hepatomegaly with liver edge palpable 5 cm below the right costal margin, a palpable hard mass in the right upper quadrant, moderate ascites with shifting dullness, splenomegaly. Skin: Multiple spider angiomata on the chest, palmar erythema, mild jaundice. Extremities: 1+ bilateral pedal edema. No asterixis."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "AFP", "result": "1,240 ng/mL (normal <10)", "flag": "HIGH", "clinical_significance": "Markedly elevated AFP (>400) is highly suggestive of HCC in the setting of cirrhosis"},
+      {"test_name": "AFP-L3%", "result": "22% (normal <10%)", "flag": "HIGH", "clinical_significance": "Elevated AFP-L3 fraction is more specific for HCC than total AFP alone"},
+      {"test_name": "LFTs", "result": "AST 95, ALT 68, ALP 210, Total bilirubin 3.8, Albumin 2.8", "flag": "ABNORMAL", "clinical_significance": "Worsening liver function compared to baseline; elevated bilirubin and low albumin indicate decompensation"},
+      {"test_name": "CBC", "result": "WBC 5.5, Hgb 11.2, Plt 68", "flag": "LOW", "clinical_significance": "Thrombocytopenia from portal hypertension/hypersplenism; mild anemia"},
+      {"test_name": "PT/INR", "result": "INR 1.6", "flag": "HIGH", "clinical_significance": "Impaired hepatic synthetic function"},
+      {"test_name": "CMP", "result": "Na 131, K 3.8, Cr 1.1, BUN 18", "flag": "LOW", "clinical_significance": "Hyponatremia from cirrhosis-related water retention"},
+      {"test_name": "Hepatitis C viral load", "result": "Undetectable", "flag": "WNL", "clinical_significance": "Confirms sustained virologic response; however, SVR does not eliminate HCC risk in established cirrhosis"},
+      {"test_name": "DCP (des-gamma-carboxyprothrombin)", "result": "185 mAU/mL (normal <40)", "flag": "HIGH", "clinical_significance": "Elevated biomarker complementary to AFP for HCC detection"},
+      {"test_name": "Ascitic fluid analysis", "result": "SAAG 1.6, Total protein 1.8, Cytology negative for malignant cells", "flag": "ABNORMAL", "clinical_significance": "Portal hypertensive ascites; negative cytology does not exclude HCC (peritoneal carcinomatosis is uncommon)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Triphasic CT of the liver", "result": "5.8 cm mass in the right hepatic lobe (segments 5/6) with arterial phase hyperenhancement and portal venous/delayed phase washout. A satellite nodule (1.2 cm) in segment 7 also showing arterial enhancement with washout. No portal vein invasion. No extrahepatic metastases. Cirrhotic liver morphology with ascites and splenomegaly.", "flag": "ABNORMAL", "clinical_significance": "Classic LI-RADS 5 (definite HCC) appearance: arterial hyperenhancement with washout in the setting of cirrhosis. Biopsy is NOT required for diagnosis."},
+      {"test_name": "MRI liver with contrast (gadoxetate)", "result": "Confirms 5.8 cm mass in the right lobe with arterial enhancement, washout on portal venous phase, and hypointensity on hepatobiliary phase. Enhancing capsule present. 1.2 cm satellite nodule confirmed. No diffusion restriction suggesting biliary features. No portal vein thrombus.", "flag": "ABNORMAL", "clinical_significance": "MRI confirms HCC with LI-RADS 5 features. The enhancing capsule is an additional major feature. Staging: BCLC stage B (intermediate, multinodular)."}
+    ],
+    "key_tests": ["AFP", "Triphasic CT or MRI with contrast (LI-RADS)", "LFTs with albumin", "PT/INR", "CBC"],
+    "acceptable_tests": ["AFP-L3%", "DCP (PIVKA-II)", "CMP", "HCV viral load", "Diagnostic paracentesis", "Chest CT (staging)", "Bone scan (if symptoms)", "Liver biopsy (only if imaging indeterminate)"],
+    "low_yield_tests": ["Colonoscopy", "MRCP", "CA 19-9 (more relevant for cholangiocarcinoma)", "CEA", "Upper endoscopy (unless variceal screening needed)"],
+    "key_tests_rationale": "AFP >400 ng/mL is highly suggestive of HCC. Triphasic CT or contrast-enhanced MRI showing arterial hyperenhancement with washout (LI-RADS 5) is diagnostic for HCC in cirrhotic patients without the need for biopsy. LFTs, albumin, and INR determine Child-Pugh class for treatment allocation. CBC identifies cytopenias from portal hypertension."
+  },
+  "stage5": {
+    "final_clue": "A cirrhotic patient with a rising AFP (1,240 ng/mL), a 5.8 cm right hepatic mass with classic arterial hyperenhancement and portal venous washout (LI-RADS 5) on both CT and MRI, and a 1.2 cm satellite nodule confirms hepatocellular carcinoma. BCLC stage B (intermediate) with preserved liver function guides treatment toward locoregional therapy (TACE). No biopsy is needed given the classic imaging pattern in cirrhosis."
+  },
+  "debrief": {
+    "classic_presentation": "HCC typically arises in the setting of cirrhosis (any etiology) and presents with worsening RUQ pain, weight loss, early satiety, rising AFP, and hepatic decompensation. Risk factors include hepatitis B/C, alcoholic cirrhosis, NAFLD/NASH, and hemochromatosis. Surveillance with ultrasound ± AFP every 6 months is recommended for all cirrhotic patients. HCC can be diagnosed by imaging alone (without biopsy) when characteristic features (arterial hyperenhancement with washout) are present in a cirrhotic liver.",
+    "attending_mode_notes": "HCC management has several nuances: (1) The LI-RADS classification system (LR-1 to LR-5, LR-M, LR-TIV) standardizes imaging interpretation — LR-5 is 'definite HCC,' while LR-M may represent non-HCC malignancy (intrahepatic cholangiocarcinoma or combined HCC-CCA) and requires biopsy; (2) AFP can be normal in up to 40% of small HCCs — sole reliance on AFP for diagnosis is insufficient; (3) SVR from hepatitis C does NOT eliminate HCC risk in patients with established cirrhosis — surveillance must continue indefinitely; (4) The Barcelona Clinic Liver Cancer (BCLC) staging system integrates tumor burden, liver function (Child-Pugh), and performance status to guide treatment; (5) Portal vein tumor thrombus (PVTT) dramatically changes staging from intermediate to advanced (BCLC C) and shifts treatment to systemic therapy (atezolizumab-bevacizumab); (6) Milan criteria (single tumor ≤5 cm or up to 3 tumors each ≤3 cm, no vascular invasion) define transplant eligibility — downstaging protocols can bring patients within criteria.",
+    "pathophysiology": "HCC develops through a multistep process of chronic liver injury → inflammation → fibrosis → cirrhosis → dysplastic nodules → HCC. Chronic hepatocyte turnover in the cirrhotic liver creates a permissive environment for accumulation of genetic mutations (TP53, CTNNB1, TERT promoter). Hepatitis B can cause HCC through direct oncogenic mechanisms (HBV DNA integration) even without cirrhosis. The characteristic arterial hypervascularity results from neoangiogenesis — HCC derives blood supply predominantly from the hepatic artery (unlike normal liver parenchyma supplied by portal vein), forming the basis for diagnostic imaging and transarterial therapies.",
+    "treatment_overview": "BCLC 0/A (very early/early): Surgical resection (if good liver function), liver transplantation (within Milan criteria), or ablation (RFA/MWA for tumors <3 cm). BCLC B (intermediate): Transarterial chemoembolization (TACE). BCLC C (advanced, portal invasion or extrahepatic spread): Systemic therapy — atezolizumab + bevacizumab is first-line, followed by sorafenib/lenvatinib as alternatives. BCLC D (end-stage): Best supportive care. For this patient (BCLC B, 5.8 cm + 1.2 cm satellite): TACE is standard of care with consideration for transplant evaluation if downstaging is achievable. Surveillance after treatment: contrast-enhanced imaging every 3-6 months.",
+    "high_yield_pearls": [
+      "HCC can be diagnosed by imaging alone (no biopsy needed) when a ≥1 cm lesion in a cirrhotic liver shows arterial hyperenhancement with washout on CT or MRI (LI-RADS 5).",
+      "AFP >400 ng/mL in a cirrhotic patient is highly suggestive of HCC but is NOT required for diagnosis — 40% of small HCCs have normal AFP.",
+      "Milan criteria for liver transplant: single tumor ≤5 cm OR up to 3 tumors each ≤3 cm, with no macrovascular invasion and no extrahepatic spread.",
+      "Atezolizumab-bevacizumab is first-line systemic therapy for advanced HCC (IMbrave150 trial), replacing sorafenib as standard of care.",
+      "Hepatitis C patients with SVR who have established cirrhosis remain at risk for HCC and require indefinite surveillance every 6 months."
+    ],
+    "sources": [
+      "2023 AASLD Practice Guidance on Prevention, Diagnosis, and Treatment of Hepatocellular Carcinoma",
+      "Reig M et al., BCLC Strategy for Prognosis Prediction and Treatment Recommendation, Journal of Hepatology 2022",
+      "Finn RS et al., Atezolizumab plus Bevacizumab in HCC (IMbrave150), NEJM 2020"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Intrahepatic cholangiocarcinoma", "Hepatic metastases", "Hepatic adenoma", "Focal nodular hyperplasia", "Hemangioma", "Regenerative/dysplastic nodule"],
+    "after_stage2_more_likely": ["Hepatocellular carcinoma", "Intrahepatic cholangiocarcinoma", "Hepatic metastases"],
+    "after_stage2_less_likely": ["Hepatic adenoma", "Focal nodular hyperplasia", "Hemangioma"],
+    "after_labs_top3": ["Hepatocellular carcinoma", "Combined HCC-cholangiocarcinoma", "Intrahepatic cholangiocarcinoma"]
+  }
+}

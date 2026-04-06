@@ -1,0 +1,70 @@
+{
+  "case_id": "case_112",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Benign paroxysmal positional vertigo",
+  "icd_category": "H81.10 — Benign paroxysmal positional vertigo, unspecified ear",
+  "one_liner": "A 55-year-old woman presents with brief episodes of intense spinning dizziness triggered by rolling over in bed and looking up, lasting 20-30 seconds, recurring over the past 10 days.",
+  "stage2": {
+    "hpi_extension": "The patient first noticed a sudden sensation of the room spinning 10 days ago when she rolled over to her right side in bed. The vertigo was intense, lasted approximately 20-30 seconds, and resolved when she held still. She has since had recurrent episodes triggered by rolling to the right in bed, looking up (e.g., reaching for a high shelf), and bending forward and then straightening up. Each episode lasts less than 1 minute and resolves spontaneously. She has mild residual unsteadiness and nausea between episodes but no persistent vertigo. She denies hearing loss, tinnitus, ear fullness, ear pain, or otorrhea. No headache, diplopia, dysarthria, dysphagia, limb weakness, or numbness. No recent head trauma or ear infection. She had a viral upper respiratory infection 3 weeks ago that has resolved.",
+    "pmh": "Hypertension, osteoporosis, vitamin D deficiency.",
+    "surgical_history": "Hysterectomy age 48.",
+    "medications": "Amlodipine 5 mg daily, calcium with vitamin D supplement, alendronate 70 mg weekly.",
+    "allergies": "Sulfa drugs (rash).",
+    "family_history": "Mother had Meniere disease. Father had coronary artery disease.",
+    "social_history": "Elementary school teacher. Non-smoker. Rare alcohol. Lives with husband. No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "74 bpm",
+      "bp": "134/80 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "68 kg, BMI 24.8"
+    },
+    "physical_exam": "General: Well-appearing woman, mildly anxious about dizziness. HEENT: External ears normal. Tympanic membranes clear bilaterally. Weber test midline. Rinne air > bone bilaterally. No hearing deficit on bedside testing. Cranial nerves II-XII intact. No nystagmus on primary gaze or smooth pursuit. Dix-Hallpike test: Positive on the RIGHT — after a 2-3 second latency, torsional (clockwise from the patient's perspective) upbeat nystagmus appears, lasts approximately 15 seconds, and fatigues. Patient reports reproduction of her vertigo during the maneuver. LEFT Dix-Hallpike negative. Head impulse test: Normal (no corrective saccade). No skew deviation. HINTS exam (where applicable): Reassuring for peripheral cause. Neuro: Normal strength, sensation, coordination, and gait. Romberg mildly positive (slight sway, does not fall). Cerebellar testing normal. No dysarthria or dysphagia."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "6,600/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal; anemia excluded as cause of dizziness"},
+      {"test_name": "BMP — Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Vitamin D, 25-hydroxy", "result": "22 ng/mL", "flag": "LOW", "clinical_significance": "Low vitamin D — recent studies associate vitamin D deficiency with increased BPPV recurrence; supplementation may reduce recurrence"},
+      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "No acute intracranial abnormality. No mass or hemorrhage. Normal posterior fossa.", "flag": "WNL", "clinical_significance": "Normal; obtained to rule out central cause given patient age, though not typically required for classic BPPV presentation"}
+    ],
+    "key_tests": ["Dix-Hallpike maneuver (diagnostic gold standard for posterior canal BPPV)", "Supine roll test (for horizontal canal BPPV if Dix-Hallpike negative)", "Complete neurological examination including cranial nerves and cerebellar testing", "HINTS exam (Head Impulse, Nystagmus, Test of Skew — to differentiate peripheral vs. central vertigo)"],
+    "acceptable_tests": ["CBC (to exclude anemia)", "BMP (electrolytes, glucose)", "TSH", "Vitamin D level", "Audiometry (if hearing loss suspected)", "CT head (if central cause suspected)"],
+    "low_yield_tests": ["MRI brain (unless central features present)", "Carotid ultrasound", "EEG", "Echocardiogram", "Holter monitor", "Lumbar puncture"]
+  },
+  "stage5": {
+    "final_clue": "The positive right Dix-Hallpike test with characteristic latency, torsional upbeat nystagmus lasting <1 minute, and fatigability confirms right posterior canal BPPV. An Epley maneuver (canalith repositioning procedure) is performed at the bedside for the right posterior canal. After the maneuver, the patient reports significant improvement. She is counseled on post-maneuver precautions and given Brandt-Daroff exercises for home. At 1-week follow-up, her vertigo has resolved and repeat Dix-Hallpike is negative. Vitamin D supplementation is optimized to reduce recurrence risk."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged or older adult with brief episodes (<1 minute) of intense rotational vertigo triggered by changes in head position relative to gravity (rolling in bed, looking up, bending over), with a positive Dix-Hallpike test showing latent, torsional, fatigable nystagmus. No hearing loss or tinnitus. Normal neurological exam between episodes.",
+    "attending_mode_notes": null,
+    "pathophysiology": "BPPV results from dislodged otoconia (calcium carbonate crystals) from the utricle that migrate into one of the semicircular canals, most commonly the posterior canal (~80-90%). When the head moves into a provocative position (aligning the affected canal with gravity), the free-floating otoconia (canalithiasis) or otoconia adherent to the cupula (cupulolithiasis) cause abnormal endolymph movement, deflecting the cupula and generating a false signal of rotation. This produces vertigo and nystagmus that follow the plane of the affected canal. The 2-3 second latency reflects the time for otoconia to settle in the canal. The self-limited duration (<1 minute) corresponds to the time for otoconia to reach a dependent position. Fatigability occurs because repeated provocations disperse the otoconia. Risk factors include advanced age, head trauma, prolonged bedrest, vitamin D deficiency, and osteoporosis.",
+    "treatment_overview": "Canalith repositioning maneuvers are first-line treatment (85-95% success rate). For posterior canal BPPV: Epley maneuver (most studied and effective) or Semont maneuver. For horizontal canal BPPV: Lempert (BBQ roll) maneuver. Post-maneuver: Some clinicians advise sleeping upright for 1-2 nights, though evidence for post-maneuver restrictions is limited. Brandt-Daroff exercises for home use. Vestibular suppressants (meclizine, dimenhydrinate) are NOT recommended as primary treatment — they only suppress symptoms and do not address the underlying mechanism. They may be used briefly for severe nausea. Vitamin D supplementation (if deficient) reduces recurrence. Recurrence rate: ~15-30% at 1 year. Surgical option (posterior canal plugging) for rare refractory cases.",
+    "high_yield_pearls": [
+      "BPPV is the most common cause of vertigo (~25% of all vertigo cases). It is a clinical diagnosis made by the Dix-Hallpike maneuver — no imaging or labs are required for a classic presentation.",
+      "Posterior canal BPPV (most common) shows UPBEAT and TORSIONAL nystagmus on Dix-Hallpike with a brief latency and duration <1 minute. If nystagmus is purely horizontal, suspect HORIZONTAL canal BPPV and perform the supine roll test.",
+      "Central vertigo red flags: No latency, nystagmus does not fatigue, direction-changing nystagmus, purely vertical nystagmus (downbeat), abnormal HINTS exam (normal head impulse test + direction-changing nystagmus + skew deviation = central), and associated neurological deficits.",
+      "Vitamin D deficiency and osteoporosis are associated with BPPV and its recurrence — supplementation has been shown to reduce recurrence in randomized trials.",
+      "Vestibular suppressants (meclizine) should NOT be used as the primary treatment for BPPV — the Epley maneuver is curative in most cases and is far more effective."
+    ],
+    "sources": [
+      "AAN/AAO-HNS Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo, 2017 Update",
+      "Bhattacharyya N, et al. Clinical Practice Guideline: BPPV. Otolaryngol Head Neck Surg. 2017",
+      "UpToDate: Benign paroxysmal positional vertigo"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Benign paroxysmal positional vertigo", "Meniere disease", "Vestibular neuritis", "Posterior circulation stroke/TIA", "Vestibular migraine", "Orthostatic hypotension"],
+    "after_stage2_more_likely": ["Benign paroxysmal positional vertigo"],
+    "after_stage2_less_likely": ["Meniere disease", "Vestibular neuritis", "Posterior circulation stroke"],
+    "after_labs_top3": ["Benign paroxysmal positional vertigo", "Vestibular migraine", "Meniere disease"]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "case_023",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hypertrophic cardiomyopathy",
+  "icd_category": "I42.1 — Obstructive hypertrophic cardiomyopathy",
+  "one_liner": "A 22-year-old male collegiate athlete presents with exertional syncope and a systolic murmur that increases with Valsalva maneuver.",
+  "stage2": {
+    "hpi_extension": "The patient collapsed on the basketball court after a fast break and lost consciousness for approximately 30 seconds. Bystanders did not report any seizure activity. He was briefly confused upon awakening but quickly returned to his baseline. He reports having experienced 3-4 prior episodes of exertional lightheadedness and near-syncope during intense exercise over the past year, which he attributed to dehydration. He has noticed occasional chest tightness and dyspnea during high-intensity sprints but not during routine daily activities. He denies palpitations, though his girlfriend noted he seemed to have irregular heartbeats once when she felt his pulse. He has no history of cardiac testing or pre-participation screening echocardiography. He denies performance-enhancing drug or stimulant use.",
+    "pmh": "None — previously considered healthy",
+    "surgical_history": "None",
+    "medications": "Whey protein supplement, multivitamin",
+    "allergies": "NKDA",
+    "family_history": "Father had a pacemaker placed at age 45 for reasons unknown to the patient. A paternal cousin died suddenly at age 19 while jogging — cause of death was attributed to cardiac arrest but no autopsy was performed. Paternal grandfather died of heart failure at age 58.",
+    "social_history": "No alcohol, no tobacco, no illicit drugs. Division I college basketball player. Lives in university dorms. No recreational drug use including stimulants or energy drinks.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "68 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "BMI 24 kg/m²"
+    },
+    "physical_exam": "General: Well-developed, muscular young man in no acute distress. HEENT: Normal. Cardiovascular: Normal S1 and S2. Grade III/VI harsh crescendo-decrescendo systolic murmur best heard at the left lower sternal border and apex. The murmur INCREASES with Valsalva maneuver and standing (decreased preload) and DECREASES with squatting and passive leg elevation (increased preload). Brisk, bisferiens carotid pulse (spike and dome pattern). PMI is laterally displaced and sustained. No S3 or S4. Pulmonary: Clear bilaterally. Abdomen: Benign. Extremities: No edema, no clubbing. Neuro: Alert, oriented, no focal deficits. Normal neurologic exam post-syncopal episode."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; can be seen after syncope or vigorous exercise in HCM due to demand ischemia from LVH and dynamic outflow obstruction"},
+      {"test_name": "BNP", "result": "180 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated reflecting diastolic dysfunction and elevated filling pressures common in HCM"},
+      {"test_name": "CBC", "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 245,000/μL", "flag": "WNL", "clinical_significance": "Normal; rules out anemia as a contributing cause of syncope"},
+      {"test_name": "Basic metabolic panel", "result": "Na 141, K 4.2, Cr 1.0, glucose 92, Ca 9.5", "flag": "WNL", "clinical_significance": "Normal electrolytes; rules out metabolic causes of syncope or arrhythmia"},
+      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal; important to check as hypomagnesemia can contribute to arrhythmias"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Deep, narrow Q waves in leads I, aVL, V5, and V6 (septal Q waves). T-wave inversions in lateral leads. No delta waves or prolonged QT.", "flag": "ABNORMAL", "clinical_significance": "LVH with deep septal Q waves and repolarization abnormalities are classic ECG findings of HCM; Q waves represent septal hypertrophy, not prior infarction"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant use (cocaine, amphetamines) as a cause of cardiac symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic echocardiogram", "result": "Asymmetric septal hypertrophy with interventricular septum measuring 22 mm (normal <12 mm). Septal-to-posterior wall thickness ratio 1.8. Systolic anterior motion (SAM) of the mitral valve with resting LVOT gradient of 45 mmHg, increasing to 95 mmHg with Valsalva. Moderate mitral regurgitation (posteriorly directed jet from SAM). Left atrial enlargement. LVEF 70% (hyperdynamic). Normal RV function.", "flag": "ABNORMAL", "clinical_significance": "Findings diagnostic of obstructive HCM: asymmetric septal hypertrophy, SAM of the mitral valve, and dynamic LVOT obstruction with significant gradient"},
+      {"test_name": "Cardiac MRI with gadolinium", "result": "Asymmetric septal hypertrophy (23 mm) with late gadolinium enhancement (LGE) at the RV insertion points and within the hypertrophied septum, involving approximately 12% of LV mass. No apical aneurysm. Consistent with HCM.", "flag": "ABNORMAL", "clinical_significance": "Late gadolinium enhancement indicates myocardial fibrosis and is an independent risk factor for sudden cardiac death in HCM; extent >15% of LV mass is considered high risk"},
+      {"test_name": "Holter monitor (48-hour)", "result": "Predominantly sinus rhythm. Three episodes of non-sustained ventricular tachycardia (NSVT) — longest run 8 beats at 180 bpm. No sustained VT.", "flag": "ABNORMAL", "clinical_significance": "NSVT is a major risk factor for sudden cardiac death in HCM and is an indication for ICD implantation"}
+    ],
+    "key_tests": ["12-lead ECG", "Transthoracic echocardiogram", "Cardiac MRI with gadolinium", "Holter monitor (48-72 hours)", "Troponin"],
+    "acceptable_tests": ["BNP", "Basic metabolic panel", "CBC", "Exercise stress echocardiogram (provoke gradient)", "Urine drug screen", "TSH", "Genetic testing for HCM-causing mutations"],
+    "low_yield_tests": ["Coronary angiography (young athlete with low pretest probability for CAD)", "CT coronary angiography", "Electrophysiology study (not first-line for risk stratification in HCM)", "Head CT (syncope clearly exertional and cardiac)", "EEG"]
+  },
+  "stage5": {
+    "final_clue": "SCD risk stratification using the AHA/ACC enhanced model reveals multiple high-risk features: exertional syncope likely due to LVOT obstruction, non-sustained VT on Holter, massive LVH (≥30 mm approaches threshold), late gadolinium enhancement on cardiac MRI (12% LV mass), and a strong family history of sudden cardiac death (cousin at age 19). An ICD is recommended for primary prevention of sudden cardiac death."
+  },
+  "debrief": {
+    "classic_presentation": "Hypertrophic cardiomyopathy typically presents in young adults or athletes with exertional dyspnea, chest pain, syncope, or sudden cardiac death. Physical exam reveals a crescendo-decrescendo systolic murmur that increases with maneuvers that decrease preload (Valsalva, standing) or decrease afterload, and decreases with increased preload (squatting, leg elevation). A bisferiens (spike-and-dome) carotid pulse is characteristic. ECG shows LVH with deep septal Q waves. Echocardiography reveals asymmetric septal hypertrophy with or without dynamic LVOT obstruction.",
+    "attending_mode_notes": "This case is atypical because the patient had been exercising at a high level for years with only subtle premonitory symptoms (near-syncope attributed to dehydration). The absence of pre-participation echocardiographic screening meant the diagnosis was not made until a dramatic sentinel event. The harsh systolic murmur could be confused with aortic stenosis, but the dynamic nature (increasing with Valsalva, decreasing with squatting) is the critical distinguishing feature. The family history of sudden death and early pacemaker implantation, had it been explored earlier, would have prompted workup sooner.",
+    "pathophysiology": "HCM is the most common genetic cardiovascular disease, with autosomal dominant inheritance and variable penetrance. Mutations in sarcomere protein genes (most commonly beta-myosin heavy chain and myosin-binding protein C) cause myocyte disarray and hypertrophy, predominantly of the interventricular septum. The dynamic LVOT obstruction results from systolic anterior motion (SAM) of the mitral valve, which is drawn toward the hypertrophied septum by Venturi forces during systole. The obstruction worsens with decreased preload (dehydration, Valsalva) or increased contractility (exercise). Myocardial fibrosis from chronic ischemia (due to small vessel disease and increased mass) creates the substrate for ventricular arrhythmias and sudden death.",
+    "treatment_overview": "Management priorities: (1) Sudden cardiac death prevention — ICD implantation for patients with high-risk features (prior cardiac arrest, sustained VT, family history of SCD, syncope, massive LVH ≥30 mm, extensive LGE on MRI, NSVT, LVOT gradient ≥50 mmHg); (2) Symptom management — beta-blockers (first-line) or non-dihydropyridine calcium channel blockers (verapamil) to reduce heart rate and improve diastolic filling; disopyramide for refractory obstruction; (3) Mavacamten (cardiac myosin inhibitor) is a newer targeted therapy that reduces LVOT gradients; (4) Septal reduction therapy (surgical myectomy or alcohol septal ablation) for severely symptomatic patients refractory to medications; (5) Avoid dehydration, high-intensity competitive sports, and vasodilators (which worsen obstruction); (6) First-degree relatives should undergo screening echocardiography and/or genetic testing.",
+    "high_yield_pearls": [
+      "HCM is the most common cause of sudden cardiac death in young athletes — the murmur increases with Valsalva (decreased preload) unlike aortic stenosis which decreases",
+      "Echocardiographic hallmarks are asymmetric septal hypertrophy (septum ≥15 mm), SAM of the mitral valve, and dynamic LVOT obstruction",
+      "Avoid dehydration, nitrates, digoxin, and high-dose diuretics — all decrease preload and worsen outflow obstruction",
+      "Late gadolinium enhancement on cardiac MRI is an independent risk factor for SCD and helps guide ICD decisions in borderline cases"
+    ],
+    "sources": ["UpToDate: Hypertrophic cardiomyopathy — Clinical manifestations, diagnosis, and evaluation", "AHA/ACC Guideline for the Diagnosis and Treatment of Hypertrophic Cardiomyopathy 2024"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Hypertrophic cardiomyopathy", "Aortic stenosis", "Athlete's heart (physiologic hypertrophy)", "Long QT syndrome", "Arrhythmogenic right ventricular cardiomyopathy", "Wolff-Parkinson-White syndrome", "Brugada syndrome", "Vasovagal syncope"],
+    "after_stage2_more_likely": ["Hypertrophic cardiomyopathy (exertional syncope in young athlete, systolic murmur that increases with Valsalva, family history of sudden cardiac death, bisferiens pulse)"],
+    "after_stage2_less_likely": ["Vasovagal syncope (occurs during intense exercise, not typical prodrome)", "Aortic stenosis (murmur increases with Valsalva — opposite of AS behavior)"],
+    "after_labs_top3": ["Hypertrophic cardiomyopathy", "Athlete's heart with benign arrhythmia", "Arrhythmogenic cardiomyopathy"]
+  }
+}

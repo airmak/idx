@@ -1,0 +1,76 @@
+{
+  "case_id": "case_101",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pulmonary sarcoidosis",
+  "icd_category": "D86.0 — Sarcoidosis of lung",
+  "one_liner": "A 30-year-old African American woman presents with a persistent dry cough, bilateral hilar lymphadenopathy on chest X-ray, and a painful rash on her shins.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 3-month history of dry cough, progressive exertional dyspnea, fatigue, and malaise. Two weeks ago, she developed tender, raised, red nodules on both shins. She also describes blurred vision in her right eye and dry, gritty eyes for the past month. She denies fever, night sweats, weight loss, hemoptysis, or joint pain. She was seen by her PCP who obtained a chest X-ray revealing bilateral hilar lymphadenopathy. She has no history of TB exposure or travel to endemic fungal areas.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "Ibuprofen 400 mg PRN for shin pain. Artificial tears.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Aunt had sarcoidosis. No TB in family.",
+    "social_history": "Social worker. Never smoker. No alcohol or drug use. Born and raised in urban southeastern United States. No occupational exposures. No travel.",
+    "vitals": {
+      "temp": "98.8 F (37.1 C)",
+      "hr": "76 bpm",
+      "bp": "122/74 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "72 kg, BMI 25.6"
+    },
+    "physical_exam": "General: Well-appearing woman, not in distress. HEENT: Right eye: slit-lamp reveals anterior uveitis with cells and flare. Left eye normal. Parotid glands mildly enlarged bilaterally. Lungs: Clear to auscultation bilaterally. No crackles or wheezing. Cardiovascular: Regular rate and rhythm, no murmurs. Abdomen: Soft, non-tender. Mild hepatomegaly (liver edge 2 cm below costal margin). Extremities: Bilateral tender, erythematous, indurated nodules (2-4 cm) on anterior shins consistent with erythema nodosum. No joint swelling. Skin: No lupus pernio. Lymph nodes: Bilateral non-tender epitrochlear and cervical lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ACE (angiotensin-converting enzyme)", "result": "98 U/L", "flag": "HIGH", "clinical_significance": "Elevated ACE level — produced by granuloma macrophages; ~60% sensitive for sarcoidosis but not specific (also elevated in other granulomatous diseases)"},
+      {"test_name": "Calcium (serum)", "result": "11.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia — granulomatous macrophages express 1-alpha-hydroxylase, producing excess 1,25-dihydroxyvitamin D leading to increased intestinal calcium absorption"},
+      {"test_name": "1,25-dihydroxyvitamin D (calcitriol)", "result": "82 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated calcitriol from extrarenal production by granuloma macrophages — characteristic of granulomatous disease"},
+      {"test_name": "25-hydroxyvitamin D", "result": "22 ng/mL", "flag": "WNL", "clinical_significance": "Normal substrate level; the elevated calcitriol is from granuloma conversion, not dietary excess"},
+      {"test_name": "CBC — WBC", "result": "5,200/uL", "flag": "WNL", "clinical_significance": "Low-normal; lymphopenia can be seen in sarcoidosis from T-cell sequestration in granulomas"},
+      {"test_name": "CBC — Lymphocyte count", "result": "900/uL", "flag": "LOW", "clinical_significance": "Peripheral lymphopenia — T cells are recruited to granulomas, depleting the peripheral pool"},
+      {"test_name": "ESR", "result": "42 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; active granulomatous inflammation"},
+      {"test_name": "Hepatic panel — ALP", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Elevated alkaline phosphatase suggests hepatic granulomatous involvement"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; monitor given hypercalcemia risk of nephrocalcinosis"},
+      {"test_name": "24-hour urine calcium", "result": "420 mg/24hr", "flag": "HIGH", "clinical_significance": "Hypercalciuria — increases risk of nephrolithiasis and nephrocalcinosis"},
+      {"test_name": "QuantiFERON-TB Gold", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative IGRA; important to exclude TB before diagnosing sarcoidosis (both cause granulomas)"},
+      {"test_name": "BAL CD4:CD8 ratio", "result": "6.2", "flag": "HIGH", "clinical_significance": "Elevated CD4:CD8 ratio (>3.5) on BAL is characteristic of sarcoidosis and supports the diagnosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Bilateral symmetric hilar lymphadenopathy with right paratracheal lymphadenopathy (1-2-3 sign / Garland triad). No parenchymal infiltrates. Stage II sarcoidosis.", "flag": "ABNORMAL", "clinical_significance": "Bilateral hilar lymphadenopathy (BHL) is the hallmark CXR finding of sarcoidosis. The 1-2-3 sign (right paratracheal + bilateral hilar) is classic. Radiographic staging: Stage I = BHL alone, Stage II = BHL + pulmonary infiltrates."},
+      {"test_name": "CT chest", "result": "Bilateral symmetric mediastinal and hilar lymphadenopathy. Scattered perilymphatic micronodules along bronchovascular bundles, interlobular septa, and subpleural regions. No masses or effusions.", "flag": "ABNORMAL", "clinical_significance": "Perilymphatic distribution of nodules (along bronchovascular bundles, septa, and subpleural) is characteristic of sarcoidosis and distinguishes it from random (metastatic) or centrilobular (infection/HP) distributions"}
+    ],
+    "key_tests": ["Chest X-ray", "CT chest", "Tissue biopsy (lymph node, skin, or transbronchial) with histology", "ACE level", "Serum calcium and 1,25-dihydroxyvitamin D", "QuantiFERON-TB Gold or PPD (to exclude TB)"],
+    "acceptable_tests": ["CBC with differential", "BAL with CD4:CD8 ratio", "Hepatic panel", "ESR/CRP", "24-hour urine calcium", "PFTs", "Ophthalmologic exam (slit-lamp)", "BMP", "ECG"],
+    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture (for routine bacteria)", "Anti-GBM antibodies", "Procalcitonin"]
+  },
+  "stage5": {
+    "final_clue": "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of a mediastinal lymph node reveals well-formed non-caseating granulomas without evidence of acid-fast bacilli, fungi, or foreign material on special stains. The combination of non-caseating granulomas on biopsy, BHL on imaging, multisystem involvement (lungs, eyes, skin, liver), elevated ACE, and exclusion of TB and fungal infection confirms the diagnosis of sarcoidosis."
+  },
+  "debrief": {
+    "classic_presentation": "Young African American woman with dry cough, bilateral hilar lymphadenopathy, erythema nodosum, anterior uveitis, hypercalcemia, elevated ACE, and non-caseating granulomas on biopsy. Lofgren syndrome (BHL + erythema nodosum + polyarthralgia + fever) is an acute presentation with excellent prognosis.",
+    "attending_mode_notes": "Sarcoidosis is a diagnosis of exclusion requiring: (1) compatible clinical/radiographic presentation, (2) histologic evidence of non-caseating granulomas, AND (3) exclusion of other granulomatous diseases (TB, fungal infections, berylliosis, GPA). CXR staging predicts prognosis: Stage I has ~80% spontaneous resolution rate; Stage IV (pulmonary fibrosis) rarely remits. Cardiac sarcoidosis (arrhythmias, cardiomyopathy) and neurosarcoidosis (cranial neuropathies, especially CN VII) are serious extrapulmonary manifestations. ACE level is ~60% sensitive and not useful for monitoring disease activity.",
+    "pathophysiology": "Sarcoidosis is a systemic granulomatous disease of unknown etiology. The immune response involves CD4+ Th1 lymphocytes and macrophages forming non-caseating granulomas in affected organs. An unidentified antigen (possibly mycobacterial proteins, propionibacteria, or environmental triggers) is presented to T cells via HLA class II molecules, triggering granuloma formation. Hypercalcemia results from unregulated conversion of 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D by macrophage 1-alpha-hydroxylase within granulomas. Peripheral lymphopenia occurs because T cells are sequestered within granulomas.",
+    "treatment_overview": "Many patients (especially Stage I) require no treatment — observation for spontaneous resolution. Indications for treatment: symptomatic pulmonary disease, declining PFTs, hypercalcemia, cardiac/neuro/ocular involvement. First-line: oral corticosteroids (prednisone 20-40 mg/day, taper over 6-12 months). Steroid-sparing agents for chronic/refractory disease: methotrexate, azathioprine, mycophenolate. Anti-TNF agents (infliximab, adalimumab) for refractory disease. Topical steroids for anterior uveitis. Manage hypercalcemia with corticosteroids, hydroxychloroquine, and avoidance of vitamin D supplementation.",
+    "high_yield_pearls": [
+      "Non-caseating granulomas are the histologic hallmark of sarcoidosis — but you MUST exclude caseating granulomatous diseases (TB, fungal) before making the diagnosis.",
+      "Hypercalcemia in sarcoidosis is mediated by granuloma macrophage production of 1,25-dihydroxyvitamin D (calcitriol) — treat with corticosteroids, not bisphosphonates.",
+      "Lofgren syndrome (bilateral hilar lymphadenopathy + erythema nodosum + fever + polyarthralgia) carries an excellent prognosis with >90% spontaneous resolution.",
+      "CXR staging: I = BHL alone, II = BHL + infiltrates, III = infiltrates without BHL, IV = pulmonary fibrosis. Prognosis worsens with higher stage.",
+      "Always screen for cardiac (ECG, consider cardiac MRI) and ocular (slit-lamp exam) involvement, as these have the highest morbidity."
+    ],
+    "sources": [
+      "Crouser ED et al. ATS Clinical Practice Guidelines: Diagnosis and Detection of Sarcoidosis. Am J Respir Crit Care Med. 2020",
+      "Baughman RP et al. ERS clinical practice guidelines on treatment of sarcoidosis. Eur Respir J. 2021",
+      "UpToDate: Clinical manifestations and diagnosis of pulmonary sarcoidosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Sarcoidosis", "Lymphoma (mediastinal)", "Pulmonary tuberculosis", "Berylliosis", "Fungal infection (histoplasmosis/coccidioidomycosis)", "Hypersensitivity pneumonitis"],
+    "after_stage2_more_likely": ["Sarcoidosis", "Lymphoma"],
+    "after_stage2_less_likely": ["Pulmonary tuberculosis", "Berylliosis", "Hypersensitivity pneumonitis"],
+    "after_labs_top3": ["Sarcoidosis", "Lymphoma", "Fungal infection"]
+  }
+}

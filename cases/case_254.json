@@ -1,0 +1,113 @@
+{
+  "case_id": "case_254",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Subclinical hypothyroidism with comorbid depressive symptoms",
+  "icd_category": "E02 — Subclinical iodine-deficiency hypothyroidism",
+  "one_liner": "A 52-year-old woman presents with 4 months of worsening fatigue, low mood, weight gain, and constipation, with TSH of 8.2 mIU/L and normal free T4.",
+  "stage2": {
+    "hpi_extension": "The patient presents with 4 months of progressive fatigue, difficulty concentrating, low mood, and decreased motivation. She reports a 10-pound weight gain despite no change in diet. She has noticed increased constipation (bowel movement every 3-4 days), dry skin, and feeling cold more easily than usual. She also reports depressed mood, loss of interest in social activities, and poor sleep (difficulty staying asleep). She initially saw a mental health provider who diagnosed depression and started her on sertraline 50 mg 6 weeks ago, but she reports minimal improvement. She denies suicidal ideation. Her menstrual periods have become irregular and heavier over the past year. She has no history of thyroid disease but recalls her doctor mentioned her thyroid was 'borderline' 2 years ago. She denies neck pain, dysphagia, or palpitations.",
+    "pmh": "Borderline TSH elevation 2 years ago (not treated). Menorrhagia (recent onset). No prior psychiatric history.",
+    "surgical_history": "Cholecystectomy",
+    "medications": "Sertraline 50 mg daily (started 6 weeks ago), calcium carbonate 600 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with Hashimoto thyroiditis. Sister with Graves disease. Father with type 2 diabetes. Maternal aunt with vitiligo.",
+    "social_history": "Works as an office manager. Married with two teenage children. Non-smoker. Occasional wine. No illicit drug use. Previously active (yoga, walking) but has stopped due to fatigue. No recent travel or dietary changes.",
+    "vitals": {
+      "temp": "97.6°F (36.4°C)",
+      "hr": "62 bpm",
+      "bp": "138/88 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "168 lbs, BMI 29.4 kg/m²"
+    },
+    "physical_exam": "General: Mildly overweight woman appearing fatigued, slow to respond but cooperative. HEENT: Periorbital puffiness. Eyebrows intact (no lateral thinning). Dry lips. Neck: Thyroid mildly enlarged, firm, non-tender, rubbery consistency. No discrete nodules. No lymphadenopathy. Cardiovascular: Bradycardic at 62 bpm, regular rhythm, no murmurs. Lungs: Clear. Abdomen: Soft, mild diffuse fullness, non-tender, normoactive bowel sounds. Skin: Dry, cool skin. Mild non-pitting edema of hands and face (myxedema). Delayed relaxation phase of Achilles deep tendon reflexes bilaterally. Extremities: No pitting edema. Neurological: Mildly slowed movements, deep tendon reflexes with delayed relaxation phase, otherwise intact. Mental Status: Alert and oriented, mood 'tired and down,' affect flat, thought process intact but slowed."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "8.2 mIU/L", "flag": "HIGH", "clinical_significance": "Elevated TSH (normal 0.4-4.0) indicating hypothyroidism; in the subclinical range (4.5-10) with normal free T4"},
+      {"test_name": "Free T4", "result": "0.9 ng/dL", "flag": "LOW-NORMAL", "clinical_significance": "Free T4 in the low-normal range (normal 0.8-1.8) — by definition, subclinical hypothyroidism has normal free T4, but low-normal value combined with symptoms may warrant treatment"},
+      {"test_name": "Free T3", "result": "2.4 pg/mL", "flag": "LOW-NORMAL", "clinical_significance": "Low-normal T3 (normal 2.3-4.2) — some patients with subclinical hypothyroidism have symptoms due to inadequate T3 conversion"},
+      {"test_name": "Anti-TPO antibodies", "result": "385 IU/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated anti-TPO antibodies confirming autoimmune (Hashimoto) thyroiditis as the etiology; presence of antibodies predicts progression to overt hypothyroidism at 4.3% per year"},
+      {"test_name": "Anti-thyroglobulin antibodies", "result": "120 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated, supporting autoimmune thyroiditis diagnosis"},
+      {"test_name": "CBC with differential", "result": "WBC 5.8, Hgb 11.8, Hct 35.4, MCV 96 fL, Plt 220", "flag": "MILD ABNORMAL", "clinical_significance": "Mild normocytic to borderline macrocytic anemia — can be associated with hypothyroidism"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 136, K 4.0, Cl 101, CO2 26, BUN 18, Cr 0.9, Glucose 102, Ca 9.0, AST 28, ALT 25, Alk Phos 68, Albumin 3.8", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mild hyponatremia can occur in hypothyroidism"},
+      {"test_name": "Lipid panel", "result": "Total cholesterol 248, LDL 162, HDL 48, Triglycerides 190", "flag": "ABNORMAL", "clinical_significance": "Dyslipidemia — hypothyroidism impairs LDL receptor expression, causing elevated LDL; lipids may improve with thyroid hormone replacement"},
+      {"test_name": "Vitamin B12", "result": "280 pg/mL", "flag": "LOW-NORMAL", "clinical_significance": "Low-normal B12 — autoimmune thyroiditis is associated with pernicious anemia; worth monitoring"},
+      {"test_name": "PHQ-9", "result": "Score 14 (moderate depression)", "flag": "ABNORMAL", "clinical_significance": "Moderate depressive symptoms — overlap between hypothyroidism and depression makes it important to treat thyroid first and reassess mood"}
+    ],
+    "imaging_results": [
+      {"test_name": "Thyroid ultrasound", "result": "Diffusely heterogeneous, hypoechoic thyroid parenchyma with increased vascularity consistent with Hashimoto thyroiditis. No discrete nodules. Thyroid volume mildly increased (right lobe 8 mL, left lobe 7 mL).", "flag": "ABNORMAL", "clinical_significance": "Ultrasound confirms Hashimoto thyroiditis morphology; no nodules requiring further workup"}
+    ],
+    "key_tests": [
+      "TSH — elevated at 8.2 mIU/L (subclinical hypothyroidism range with symptoms)",
+      "Free T4 — low-normal at 0.9, confirming subclinical (not overt) hypothyroidism",
+      "Anti-TPO antibodies — 385, confirming Hashimoto thyroiditis as etiology and predicting progression",
+      "PHQ-9 — score 14 documenting comorbid depression severity for tracking after thyroid treatment"
+    ],
+    "acceptable_tests": [
+      "Anti-thyroglobulin antibodies — supporting autoimmune thyroiditis",
+      "Lipid panel — identifying hypothyroidism-related dyslipidemia",
+      "CBC — identifying associated mild anemia",
+      "Thyroid ultrasound — confirming Hashimoto pattern, excluding nodules",
+      "Vitamin B12 — screening for associated pernicious anemia",
+      "Free T3 — assessing T4-to-T3 conversion"
+    ],
+    "low_yield_tests": [
+      "Thyroid scintigraphy (not indicated for hypothyroidism workup)",
+      "Brain MRI (no focal neurological deficits to suggest structural cause)",
+      "Cortisol level (no features of adrenal insufficiency)",
+      "Thyroid biopsy (no nodules on ultrasound; Hashimoto confirmed by serology)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has subclinical hypothyroidism (TSH 8.2 with low-normal free T4) caused by Hashimoto thyroiditis (markedly elevated anti-TPO antibodies, characteristic ultrasound findings). Her symptomatic presentation — fatigue, weight gain, constipation, cold intolerance, dry skin, bradycardia, delayed DTR relaxation, dyslipidemia, and myxedematous changes — overlaps significantly with her depressive symptoms, and treatment of hypothyroidism should precede or accompany depression treatment. The incomplete response to sertraline may be due to undertreated thyroid disease."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged woman presenting with fatigue, weight gain, cold intolerance, constipation, dry skin, and cognitive slowing with TSH elevated above the upper limit of normal but free T4 still within reference range. Subclinical hypothyroidism is defined as TSH 4.5-10 mIU/L with normal free T4. When accompanied by symptoms, positive anti-TPO antibodies, or dyslipidemia, treatment is generally recommended. The overlap between hypothyroid and depressive symptoms is a major diagnostic challenge.",
+    "attending_mode_notes": "The management of subclinical hypothyroidism is nuanced and depends on TSH level, symptoms, antibody status, age, and comorbidities. Current guidelines suggest: (1) TSH >10 mIU/L: treat regardless of symptoms. (2) TSH 4.5-10 with symptoms AND positive anti-TPO: treatment is recommended, as this predicts progression to overt hypothyroidism at 4.3% per year (vs. 2.6% without antibodies). (3) TSH 4.5-10 without symptoms and negative antibodies: observation with repeat TSH in 6-12 months. (4) In elderly patients (>70 years), subclinical hypothyroidism may be PROTECTIVE — the TRUST trial showed no benefit of levothyroxine treatment in patients >65 with TSH 4.6-19.9. In this case, the diagnostic challenge is parsing the contributions of subclinical hypothyroidism vs. primary depression. The recommended approach is to start levothyroxine, reassess both thyroid function and mood at 8-12 weeks, and adjust the depression treatment plan based on response. If depressive symptoms fully resolve with euthyroidism, the depression was likely thyroid-mediated. If symptoms persist, continue SSRI optimization.",
+    "pathophysiology": "Hashimoto thyroiditis is an autoimmune condition where CD4+ T-helper cells and anti-thyroid antibodies (anti-TPO, anti-thyroglobulin) mediate progressive destruction of thyroid follicular cells. The thyroid compensates initially by increasing TSH-driven production, maintaining normal free T4 (subclinical phase). As destruction progresses, free T4 falls (overt hypothyroidism). Anti-TPO antibodies activate complement-mediated cytotoxicity and antibody-dependent cell-mediated cytotoxicity. The subclinical phase can cause symptoms through: (1) tissue-level hypothyroidism despite 'normal' serum T4 — peripheral T4-to-T3 conversion may be impaired, (2) direct effects of elevated TSH on non-thyroid tissues, and (3) associated dyslipidemia, endothelial dysfunction, and cardiovascular risk. The overlap with depression occurs because thyroid hormones regulate serotonin, norepinephrine, and GABA synthesis and receptor expression in the CNS.",
+    "treatment_overview": "Start levothyroxine at a low dose: 25-50 mcg daily (lower starting dose in elderly or cardiac patients). Take on an empty stomach, 30-60 minutes before breakfast, separated from calcium supplements by 4 hours. Recheck TSH at 6-8 weeks and titrate by 12.5-25 mcg increments. Target TSH: 1-2.5 mIU/L (lower half of normal range in symptomatic patients). Continue sertraline at current dose while thyroid is being optimized — reassess depressive symptoms with PHQ-9 at 8-12 weeks. If depressive symptoms resolve with euthyroidism, consider gradual sertraline taper. If depression persists despite euthyroidism, optimize SSRI. Monitor lipids — dyslipidemia may improve with thyroid normalization. Repeat anti-TPO is not needed (diagnosis established). Note: calcium supplements interfere with levothyroxine absorption — separate by at least 4 hours. Long-term: annual TSH monitoring, periodic assessment for progression.",
+    "high_yield_pearls": [
+      "Subclinical hypothyroidism (elevated TSH, normal free T4) affects 4-10% of the general population — most common in women and increases with age.",
+      "Anti-TPO antibodies predict progression to overt hypothyroidism at 4.3% per year — their presence, combined with symptoms, is a strong indication to treat even when TSH is 4.5-10.",
+      "The overlap between hypothyroid and depressive symptoms is substantial — always check TSH before diagnosing new-onset depression, and reassess mood after thyroid normalization.",
+      "Levothyroxine should be taken 30-60 minutes before breakfast on an empty stomach — calcium, iron, PPIs, and coffee all interfere with absorption.",
+      "In patients >70 years, subclinical hypothyroidism may be PROTECTIVE and the TRUST trial showed no benefit of treatment — avoid overtreatment in the elderly.",
+      "Hypothyroidism causes dyslipidemia (elevated LDL) — always recheck lipids after achieving euthyroidism before starting statin therapy."
+    ],
+    "sources": [
+      "ATA/AACE Guidelines for Hypothyroidism in Adults (Thyroid, 2012)",
+      "Garber JR et al. ATA/AACE Clinical practice guidelines for hypothyroidism in adults. Thyroid, 2012",
+      "Stott DJ et al. Thyroid hormone therapy for older adults with subclinical hypothyroidism (TRUST trial). N Engl J Med, 2017",
+      "Biondi B, Cooper DS. The clinical significance of subclinical thyroid dysfunction. Endocr Rev, 2008",
+      "Chaker L et al. Hypothyroidism. Lancet, 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Subclinical hypothyroidism (Hashimoto thyroiditis)",
+      "Major depressive disorder (primary)",
+      "Perimenopause",
+      "Iron deficiency anemia",
+      "Vitamin B12 deficiency",
+      "Obstructive sleep apnea",
+      "Chronic fatigue syndrome",
+      "Diabetes mellitus (early)"
+    ],
+    "after_stage2_more_likely": [
+      "Subclinical hypothyroidism — fatigue, weight gain, constipation, cold intolerance, bradycardia, dry skin, delayed DTR relaxation, firm goiter, family history of autoimmune thyroid disease",
+      "Major depressive disorder — low mood, anhedonia, sleep disturbance, poor concentration, but incomplete SSRI response raises concern for medical contributor"
+    ],
+    "after_stage2_less_likely": [
+      "Perimenopause — menstrual irregularity could suggest this, but cold intolerance, bradycardia, and delayed DTRs point to thyroid",
+      "Iron deficiency anemia — mild anemia present but hemoglobin is not severely low, and symptoms are too broad for IDA alone",
+      "Obstructive sleep apnea — no snoring, apneas, or excessive daytime sleepiness pattern reported"
+    ],
+    "after_labs_top3": [
+      "Subclinical hypothyroidism due to Hashimoto thyroiditis — TSH 8.2, low-normal free T4, markedly elevated anti-TPO, Hashimoto pattern on ultrasound, with comorbid depression that may be thyroid-mediated",
+      "Major depressive disorder (comorbid or primary) — PHQ-9 of 14 confirms moderate depression; may improve with thyroid optimization or may require independent treatment",
+      "Early diabetes mellitus — glucose 102 and HbA1c not checked, but lipid derangement may be thyroid-related; reassess after euthyroidism"
+    ]
+  }
+}

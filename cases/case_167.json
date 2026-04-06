@@ -1,0 +1,76 @@
+{
+  "case_id": "case_167",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Celiac Disease",
+  "icd_category": "K90.0 — Celiac disease",
+  "one_liner": "A 32-year-old female presents with 8 months of chronic diarrhea, bloating, and a 6 kg weight loss despite a normal appetite.",
+  "stage2": {
+    "hpi_extension": "The patient reports an 8-month history of watery, non-bloody diarrhea with 4-6 loose, foul-smelling, greasy stools per day that are difficult to flush. She has progressive bloating and flatulence, worse after eating bread, pasta, and cereal. She has lost 6 kg despite maintaining a normal appetite. She notes increasing fatigue, easy bruising, and a recurrent itchy, blistering rash on her elbows and knees for the past 3 months. She has had difficulty conceiving for the past year. She denies fever, nocturnal symptoms, hematochezia, recent travel, or antibiotic use.",
+    "pmh": "Iron deficiency anemia (recurrent, previously attributed to menstruation), hypothyroidism",
+    "surgical_history": "None",
+    "medications": "Levothyroxine 75 mcg daily, ferrous sulfate 325 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Sister has type 1 diabetes. Maternal aunt has thyroid disease.",
+    "social_history": "Non-smoker. Social alcohol. Works as a marketing analyst. Diet is unrestricted with frequent pasta and bread consumption. No recent travel.",
+    "vitals": {
+      "temp": "36.6°C (97.9°F)",
+      "hr": "82 bpm, regular",
+      "bp": "110/68 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "52 kg, BMI 19.2"
+    },
+    "physical_exam": "General: Thin-appearing female, no acute distress. HEENT: Pale conjunctivae, angular cheilitis, smooth tongue (glossitis). Cardiovascular: Normal rate and rhythm. Pulmonary: Clear. Abdomen: Soft, mild diffuse tenderness, distended with tympany, hyperactive bowel sounds, no masses or organomegaly. Skin: Grouped vesicular/papular rash on bilateral elbows and knees (dermatitis herpetiformis). Extremities: Multiple ecchymoses on the forearms. Musculoskeletal: No joint swelling."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 6.2, Hgb 10.2, MCV 74, Plt 310", "flag": "LOW", "clinical_significance": "Microcytic anemia consistent with iron deficiency from malabsorption"},
+      {"test_name": "tTG-IgA (tissue transglutaminase IgA)", "result": "128 U/mL (normal <20)", "flag": "HIGH", "clinical_significance": "Strongly positive, highly sensitive and specific for celiac disease"},
+      {"test_name": "Total IgA", "result": "215 mg/dL", "flag": "WNL", "clinical_significance": "Normal IgA level confirms tTG-IgA is a valid screening test (rules out IgA deficiency)"},
+      {"test_name": "Anti-endomysial antibody (EMA) IgA", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirmatory test for celiac disease, highly specific (~99%)"},
+      {"test_name": "Iron studies", "result": "Ferritin 8, Iron 22, TIBC 450, Sat 5%", "flag": "LOW", "clinical_significance": "Severe iron deficiency from duodenal malabsorption"},
+      {"test_name": "Vitamin D, 25-hydroxy", "result": "12 ng/mL", "flag": "LOW", "clinical_significance": "Deficiency from fat-soluble vitamin malabsorption"},
+      {"test_name": "Folate", "result": "3.2 ng/mL", "flag": "LOW", "clinical_significance": "Low folate from proximal small bowel malabsorption"},
+      {"test_name": "Albumin", "result": "3.0 g/dL", "flag": "LOW", "clinical_significance": "Low from protein malabsorption and chronic illness"},
+      {"test_name": "PT/INR", "result": "INR 1.4", "flag": "HIGH", "clinical_significance": "Elevated from vitamin K malabsorption (explains easy bruising)"},
+      {"test_name": "Fecal fat (72-hour)", "result": "12 g/day (normal <7)", "flag": "HIGH", "clinical_significance": "Steatorrhea confirms fat malabsorption"},
+      {"test_name": "TSH", "result": "4.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, may need levothyroxine dose adjustment; autoimmune thyroid disease is associated with celiac"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper endoscopy (EGD) with duodenal biopsies", "result": "Duodenal mucosa shows scalloping of folds, fissuring, and mosaic pattern in D2. Gastric and esophageal mucosa normal.", "flag": "ABNORMAL", "clinical_significance": "Endoscopic findings suggestive of celiac disease; scalloped folds and mucosal fissuring are classic."},
+      {"test_name": "Duodenal biopsies (D1 and D2)", "result": "Villous atrophy (Marsh 3b — marked villous atrophy with crypt hyperplasia), increased intraepithelial lymphocytes (>40/100 enterocytes). No evidence of lymphoma.", "flag": "ABNORMAL", "clinical_significance": "Histologic gold standard confirms celiac disease — villous atrophy with IEL increase is pathognomonic."}
+    ],
+    "key_tests": ["tTG-IgA antibody", "Total IgA level", "Upper endoscopy with duodenal biopsies", "CBC", "Iron studies"],
+    "acceptable_tests": ["Anti-endomysial antibody (EMA)", "Deamidated gliadin peptide (DGP) IgG", "Fecal fat", "Vitamin D level", "Folate/B12", "Albumin", "BMP", "PT/INR"],
+    "low_yield_tests": ["Colonoscopy", "CT abdomen", "Stool culture", "C. difficile toxin", "Serum amylase/lipase", "Abdominal X-ray"],
+    "key_tests_rationale": "tTG-IgA is the preferred initial serologic test with >95% sensitivity and specificity for celiac disease. Total IgA must be checked to exclude IgA deficiency (which would cause a false-negative tTG-IgA). Upper endoscopy with duodenal biopsies is the gold standard for diagnosis, demonstrating villous atrophy. CBC and iron studies assess the degree of malabsorption-related anemia."
+  },
+  "stage5": {
+    "final_clue": "Strongly positive tTG-IgA and EMA antibodies, combined with duodenal biopsies showing Marsh 3b villous atrophy and increased intraepithelial lymphocytes, confirm celiac disease. The clinical picture of steatorrhea, iron deficiency anemia refractory to oral supplementation, dermatitis herpetiformis, and multiple nutrient deficiencies (iron, folate, vitamin D, vitamin K) is classic."
+  },
+  "debrief": {
+    "classic_presentation": "Celiac disease classically presents with chronic diarrhea, steatorrhea, bloating, weight loss, and manifestations of malabsorption (iron deficiency anemia, osteoporosis from vitamin D deficiency, coagulopathy from vitamin K deficiency). Dermatitis herpetiformis (grouped vesicles on extensor surfaces) is pathognomonic. Associated autoimmune conditions include type 1 diabetes, autoimmune thyroid disease, and IgA deficiency.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Celiac disease is an autoimmune enteropathy triggered by dietary gluten (gliadin from wheat, barley, rye) in genetically susceptible individuals carrying HLA-DQ2 (~95%) or HLA-DQ8 (~5%). Gliadin peptides are deamidated by tissue transglutaminase in the lamina propria, creating immunogenic epitopes that activate CD4+ T cells, leading to villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes. The resulting loss of absorptive surface area in the duodenum and proximal jejunum causes malabsorption of iron, folate, calcium, fat-soluble vitamins, and other nutrients.",
+    "treatment_overview": "Strict lifelong gluten-free diet (GFD) is the cornerstone of treatment — elimination of wheat, barley, and rye. Oats are tolerated by most patients if uncontaminated. Nutritional repletion: iron, folate, vitamin D, calcium, and vitamin K as needed. Monitor serologic response: tTG-IgA should normalize within 6-12 months on GFD. Repeat duodenal biopsies at 1-2 years to confirm mucosal healing. Screen for osteoporosis with DEXA scan. Pneumococcal vaccination (due to functional hyposplenia). Refractory celiac disease unresponsive to GFD requires evaluation for enteropathy-associated T-cell lymphoma (EATL).",
+    "high_yield_pearls": [
+      "IgA deficiency occurs in 2-3% of celiac patients — always check total IgA when ordering tTG-IgA. If IgA deficient, use DGP-IgG or tTG-IgG.",
+      "Dermatitis herpetiformis is pathognomonic for celiac disease and is treated with dapsone and a gluten-free diet.",
+      "Iron deficiency anemia refractory to oral iron supplementation should raise suspicion for celiac disease (iron is absorbed in the duodenum).",
+      "HLA-DQ2/DQ8 testing has a high negative predictive value — a negative result essentially rules out celiac disease.",
+      "Patients with celiac disease are at increased risk for enteropathy-associated T-cell lymphoma (EATL) and small bowel adenocarcinoma."
+    ],
+    "sources": [
+      "2023 ACG Clinical Guideline: Diagnosis and Management of Celiac Disease",
+      "Rubio-Tapia A et al., ACG Guidelines for Celiac Disease, American Journal of Gastroenterology 2023",
+      "Green PH, Cellier C, Celiac Disease, NEJM 2007"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Tropical sprue", "Small intestinal bacterial overgrowth (SIBO)", "Crohn disease (small bowel)", "Lactose intolerance", "Chronic pancreatitis (exocrine insufficiency)", "Whipple disease", "Irritable bowel syndrome"],
+    "after_stage2_more_likely": ["Celiac disease", "Small bowel Crohn disease", "SIBO"],
+    "after_stage2_less_likely": ["Irritable bowel syndrome", "Chronic pancreatitis", "Lactose intolerance"],
+    "after_labs_top3": ["Celiac disease", "Tropical sprue", "Autoimmune enteropathy"]
+  }
+}

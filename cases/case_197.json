@@ -1,0 +1,179 @@
+{
+  "case_id": "case_197",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Juvenile idiopathic arthritis (oligoarticular subtype)",
+  "icd_category": "M08.40 – Pauciarticular juvenile rheumatoid arthritis, unspecified site",
+  "one_liner": "A 4-year-old female presents with 6 weeks of right knee swelling, morning stiffness lasting over 30 minutes, and a painless limp without preceding trauma or fever.",
+  "stage2": {
+    "hpi_extension": "The patient's mother reports progressive right knee swelling over the past 6 weeks. The child limps most noticeably in the mornings and after naps, with stiffness that improves after about 45 minutes of activity. She has had no fevers, rash, weight loss, or recent illness. There is no history of trauma, tick bites, or travel. The left knee has been intermittently puffy over the past 2 weeks. She has had no eye redness or visual complaints. The mother tried ibuprofen which provided partial relief.",
+    "pmh": "Unremarkable. Up to date on immunizations.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 100 mg PO as needed (approximately 10 mg/kg)",
+    "allergies": "No known drug allergies",
+    "family_history": "Maternal aunt with psoriasis. Mother with hypothyroidism. No family history of rheumatoid arthritis or inflammatory bowel disease.",
+    "social_history": "Lives with both parents, attends preschool. No secondhand smoke exposure. Developmentally appropriate for age.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "100 bpm",
+      "bp": "92/56 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "16.2 kg (55th percentile for age)"
+    },
+    "physical_exam": "General: Well-appearing, cooperative child in no acute distress; antalgic gait favoring the right leg. HEENT: No conjunctival injection, anterior chamber clear on penlight exam; no oral ulcers. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, no hepatosplenomegaly. Musculoskeletal: Right knee with moderate non-tender effusion, warmth, and decreased range of motion (flexion limited to 120°); left knee with mild effusion without warmth; no erythema of either knee; remaining joints without swelling, tenderness, or limited range of motion. Skin: No rashes, psoriatic plaques, or nail pitting. Extremities: No leg length discrepancy noted; capillary refill <2 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "9.2 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal white count argues against active infection or systemic JIA."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.5 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; chronic inflammation may cause mild anemia but is not seen here."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "345 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; reactive thrombocytosis can occur in systemic JIA."
+      },
+      {
+        "test_name": "ESR",
+        "result": "38 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ESR supports an active inflammatory process in the joints."
+      },
+      {
+        "test_name": "CRP",
+        "result": "14 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CRP corroborates ongoing systemic inflammation."
+      },
+      {
+        "test_name": "ANA",
+        "result": "Positive (1:320, homogeneous pattern)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ANA positivity in oligoarticular JIA confers increased risk for chronic anterior uveitis and necessitates ophthalmologic screening."
+      },
+      {
+        "test_name": "Rheumatoid Factor (RF)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "RF is negative in the majority of JIA subtypes; RF-positive polyarticular JIA carries a worse prognosis."
+      },
+      {
+        "test_name": "Anti-CCP antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative anti-CCP further supports a seronegative process typical of oligoarticular JIA."
+      },
+      {
+        "test_name": "Lyme antibody (ELISA)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative Lyme serology helps exclude Lyme arthritis, an important mimic of oligoarticular JIA."
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "3.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal uric acid; gout is exceedingly rare in children but rules out crystal arthropathy."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "X-ray of bilateral knees (AP and lateral)",
+        "result": "Right knee: joint effusion with soft tissue swelling; no bony erosions, fractures, or periosteal reaction. Left knee: small effusion. Growth plates appear normal bilaterally.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Effusion without erosions is consistent with early inflammatory arthritis; erosive changes typically develop later in poorly controlled disease."
+      },
+      {
+        "test_name": "Ultrasound of right knee",
+        "result": "Moderate synovial effusion with synovial thickening and increased Doppler flow in the right knee. Small effusion in the left knee without significant synovial thickening.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Synovial hypertrophy with hyperemia on Doppler is characteristic of active inflammatory arthritis and supports the diagnosis of JIA."
+      }
+    ],
+    "key_tests": [
+      "ANA",
+      "ESR and CRP",
+      "Slit-lamp ophthalmologic examination",
+      "Joint ultrasound or MRI with contrast"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Rheumatoid factor",
+      "Anti-CCP antibodies",
+      "Lyme serology",
+      "X-ray of affected joints",
+      "HLA-B27",
+      "Ferritin (to exclude systemic JIA)"
+    ],
+    "low_yield_tests": [
+      "Blood cultures (afebrile, non-toxic)",
+      "CT of the knee",
+      "Bone scan",
+      "Uric acid",
+      "Complement levels (C3/C4)"
+    ],
+    "attending_pimp_questions": [
+      "What is the most common subtype of JIA, and what is the age and sex predilection?",
+      "How does ANA status affect screening recommendations for uveitis in JIA?",
+      "What distinguishes oligoarticular from polyarticular JIA, and when is the extended oligoarticular designation applied?",
+      "What is the recommended first-line DMARD for JIA refractory to NSAIDs and intra-articular steroids?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Slit-lamp examination by ophthalmology reveals early bilateral chronic anterior uveitis with trace anterior chamber cells in the right eye, confirming the association with ANA-positive oligoarticular JIA and the critical importance of routine ophthalmologic screening."
+  },
+  "debrief": {
+    "classic_presentation": "Oligoarticular JIA classically presents in young girls (peak age 2-4 years) with painless or mildly painful swelling of a large joint (most commonly the knee), morning stiffness lasting >30 minutes, and no systemic symptoms. The arthritis involves ≤4 joints in the first 6 months. ANA positivity is common and associated with chronic anterior uveitis, which is often asymptomatic.",
+    "attending_mode_notes": "Oligoarticular JIA is the most common JIA subtype (50-60% of cases). The ILAR classification requires arthritis in ≤4 joints during the first 6 months; if it extends to >4 joints after 6 months, it is reclassified as extended oligoarticular JIA, which has a worse prognosis. ANA-positive patients require slit-lamp exams every 3 months regardless of symptoms, as uveitis is insidious and can cause band keratopathy, posterior synechiae, cataracts, and glaucoma if untreated. The differential must include septic arthritis (afebrile presentation makes this unlikely), Lyme arthritis (endemic area exposure), reactive arthritis, and malignancy (particularly leukemia, which can present with joint pain and refusal to walk). Treatment escalation follows a stepwise approach: NSAIDs → intra-articular triamcinolone hexacetonide → methotrexate → biologic DMARDs (TNF-α inhibitors such as adalimumab or etanercept).",
+    "pathophysiology": "JIA results from a complex interplay of genetic susceptibility (HLA associations, particularly HLA-A2 and HLA-DRB1 in oligoarticular JIA) and immune dysregulation. Autoreactive T cells infiltrate the synovium, driving synovial hypertrophy and pannus formation. Pro-inflammatory cytokines (TNF-α, IL-6, IL-1) perpetuate chronic inflammation, leading to cartilage degradation and potential bony erosions. The uveitis associated with oligoarticular JIA is a non-granulomatous chronic anterior uveitis driven by similar autoimmune mechanisms targeting the uveal tract.",
+    "treatment_overview": "Initial management includes NSAIDs (naproxen 10-15 mg/kg/day BID or ibuprofen 30-40 mg/kg/day TID) for symptom relief. Intra-articular corticosteroid injection (triamcinolone hexacetonide preferred for longer duration) is first-line definitive therapy for oligoarticular JIA. Methotrexate (10-15 mg/m²/week) is initiated for refractory disease, extended oligoarticular course, or active uveitis. Biologic agents (adalimumab, etanercept) are used for methotrexate-refractory disease. Uveitis management includes topical corticosteroid eye drops and systemic immunosuppression if refractory. Regular ophthalmologic screening per ACR guidelines is essential.",
+    "high_yield_pearls": [
+      "Oligoarticular JIA is the most common subtype (50-60%), typically affecting girls aged 2-4 with asymmetric large-joint arthritis involving ≤4 joints in the first 6 months.",
+      "ANA positivity in JIA is the strongest risk factor for chronic anterior uveitis, which is often asymptomatic — slit-lamp screening every 3 months is mandatory for ANA-positive patients under age 7.",
+      "Lyme arthritis is the most important differential for oligoarticular JIA in endemic areas; it typically causes a large, painless knee effusion and must be excluded serologically.",
+      "Leukemia can mimic JIA with joint pain and limp — a CBC with peripheral smear and LDH should be considered before starting corticosteroids if clinical suspicion exists.",
+      "Triamcinolone hexacetonide is preferred over triamcinolone acetonide for intra-articular injection in JIA due to longer duration of response (median 12 months vs. 6 months)."
+    ],
+    "sources": [
+      "ACR/Arthritis Foundation Guideline for the Treatment of JIA (2019)",
+      "UpToDate: Oligoarticular juvenile idiopathic arthritis",
+      "UpToDate: Uveitis in juvenile idiopathic arthritis",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Juvenile idiopathic arthritis (oligoarticular)",
+      "Lyme arthritis",
+      "Septic arthritis",
+      "Reactive arthritis",
+      "Acute lymphoblastic leukemia",
+      "Transient synovitis",
+      "Psoriatic arthritis"
+    ],
+    "after_stage2_more_likely": [
+      "Juvenile idiopathic arthritis (chronic afebrile joint swelling with morning stiffness, young girl, bilateral knee involvement)",
+      "Lyme arthritis (painless large joint effusion, though no tick bite or endemic exposure reported)"
+    ],
+    "after_stage2_less_likely": [
+      "Septic arthritis (afebrile, non-toxic, chronic course over 6 weeks)",
+      "Transient synovitis (duration far exceeds typical 1-2 week course, bilateral involvement)",
+      "Leukemia (well-appearing, no cytopenias expected, no bone pain)"
+    ],
+    "after_labs_top3": [
+      "Juvenile idiopathic arthritis (oligoarticular, ANA-positive)",
+      "Psoriatic arthritis (family history of psoriasis in aunt, though no skin findings)",
+      "Lyme arthritis (excluded by negative serology)"
+    ]
+  }
+}

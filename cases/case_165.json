@@ -1,0 +1,77 @@
+{
+  "case_id": "case_165",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Acute Cholangitis",
+  "icd_category": "K83.0 — Cholangitis",
+  "one_liner": "A 62-year-old female presents with fever, jaundice, and right upper quadrant pain 3 days after the onset of colicky abdominal discomfort.",
+  "stage2": {
+    "hpi_extension": "The patient describes 3 days of progressively worsening right upper quadrant pain, initially colicky but now constant. She developed fevers to 39.2°C with rigors yesterday and noticed yellowing of her eyes and dark urine this morning. She reports nausea with two episodes of non-bloody emesis. She has had clay-colored stools for the past 2 days. She has a history of gallstones diagnosed 5 years ago but declined cholecystectomy. She denies prior episodes of jaundice, recent travel, or new medications.",
+    "pmh": "Cholelithiasis, hypertension, type 2 diabetes mellitus, obesity",
+    "surgical_history": "Appendectomy at age 25",
+    "medications": "Lisinopril 20 mg daily, metformin 500 mg BID",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "Mother had gallbladder disease. Father had colon cancer at age 70.",
+    "social_history": "Non-smoker. Occasional glass of wine. Retired school teacher. No illicit drug use.",
+    "vitals": {
+      "temp": "39.4°C (102.9°F)",
+      "hr": "108 bpm, regular",
+      "bp": "98/62 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "88 kg, BMI 32.1"
+    },
+    "physical_exam": "General: Ill-appearing, diaphoretic female in moderate distress. HEENT: Scleral icterus bilaterally, icteric sublingual mucosa. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Right upper quadrant tenderness with guarding, positive Murphy sign, no rebound tenderness, no palpable masses, normoactive bowel sounds. Skin: Jaundiced. Extremities: No edema, warm peripherally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 18.5, Hgb 13.2, Plt 198", "flag": "HIGH", "clinical_significance": "Leukocytosis with left shift indicates acute bacterial infection"},
+      {"test_name": "Total bilirubin", "result": "8.4 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated indicating biliary obstruction"},
+      {"test_name": "Direct bilirubin", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated hyperbilirubinemia consistent with obstructive jaundice"},
+      {"test_name": "ALP", "result": "485 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated alkaline phosphatase consistent with cholestatic pattern"},
+      {"test_name": "GGT", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated, confirms hepatobiliary origin of elevated ALP"},
+      {"test_name": "AST", "result": "125 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated, secondary to biliary obstruction"},
+      {"test_name": "ALT", "result": "148 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated, secondary to biliary obstruction"},
+      {"test_name": "Lipase", "result": "55 U/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of concurrent pancreatitis"},
+      {"test_name": "BMP", "result": "Na 136, K 3.8, Cr 1.4, BUN 28, Glucose 195", "flag": "HIGH", "clinical_significance": "Mild acute kidney injury likely from sepsis-related hypoperfusion"},
+      {"test_name": "Blood cultures (x2)", "result": "Gram-negative rods growing at 18 hours (later identified as E. coli)", "flag": "ABNORMAL", "clinical_significance": "Bacteremia from biliary source, most common organism in cholangitis"},
+      {"test_name": "Lactate", "result": "3.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicating tissue hypoperfusion/sepsis"},
+      {"test_name": "PT/INR", "result": "INR 1.3", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from cholestasis-impaired vitamin K absorption"}
+    ],
+    "imaging_results": [
+      {"test_name": "Right upper quadrant ultrasound", "result": "Dilated common bile duct (12 mm) with echogenic focus and posterior shadowing in the distal CBD consistent with choledocholithiasis. Gallbladder with multiple stones and wall thickening (5 mm). Intrahepatic ductal dilation present.", "flag": "ABNORMAL", "clinical_significance": "Confirms biliary obstruction from choledocholithiasis, the most common cause of cholangitis."},
+      {"test_name": "MRCP", "result": "10 mm stone in the distal common bile duct with upstream dilation of the CBD to 13 mm and intrahepatic ductal dilation. Gallbladder with multiple stones.", "flag": "ABNORMAL", "clinical_significance": "Delineates location and size of obstructing stone, aids ERCP planning."}
+    ],
+    "key_tests": ["CBC with differential", "Liver function tests (AST, ALT, ALP, bilirubin)", "Blood cultures", "Right upper quadrant ultrasound", "Lactate"],
+    "acceptable_tests": ["BMP/CMP", "Lipase", "PT/INR", "MRCP", "CT abdomen with contrast", "Procalcitonin", "GGT", "Urinalysis"],
+    "low_yield_tests": ["HIDA scan", "Colonoscopy", "Upper endoscopy (EGD)", "Serum amyloid A", "Anti-mitochondrial antibodies"],
+    "key_tests_rationale": "CBC identifies leukocytosis/infection. LFTs reveal the cholestatic pattern (elevated ALP and bilirubin) characteristic of biliary obstruction. Blood cultures identify the causative organism and guide antibiotic therapy. RUQ ultrasound is the first-line imaging to identify biliary dilation and stones. Lactate assesses severity and identifies sepsis."
+  },
+  "stage5": {
+    "final_clue": "Charcot triad (fever, jaundice, RUQ pain) with leukocytosis, cholestatic LFTs, dilated CBD with a distal stone on ultrasound and MRCP, and E. coli bacteremia confirm acute cholangitis secondary to choledocholithiasis. The patient meets criteria for moderate (Grade II) cholangitis given the elevated WBC and hypotension."
+  },
+  "debrief": {
+    "classic_presentation": "Acute cholangitis classically presents with Charcot triad: fever/chills, jaundice, and right upper quadrant pain. Reynolds pentad adds altered mental status and hypotension, indicating severe (suppurative) cholangitis. The most common cause is choledocholithiasis. Patients typically have a cholestatic LFT pattern with markedly elevated ALP, GGT, and direct bilirubin.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Cholangitis results from biliary obstruction (most commonly by gallstones) leading to bile stasis and subsequent bacterial colonization of the biliary tree. Increased intrabiliary pressure forces bacteria and endotoxins into the hepatic sinusoids and systemic circulation, causing bacteremia and sepsis. The most common organisms are gram-negative enterics (E. coli, Klebsiella), enterococci, and anaerobes (Bacteroides). Without decompression, cholangitis progresses to suppurative cholangitis, septic shock, and hepatic abscess formation.",
+    "treatment_overview": "Acute management: IV fluid resuscitation, broad-spectrum antibiotics (piperacillin-tazobactam or a carbapenem for severe cases), and urgent biliary decompression. ERCP with sphincterotomy and stone extraction is the gold standard for decompression. Timing depends on severity: Grade III (severe) requires emergent ERCP within 24 hours; Grade II (moderate) within 24-48 hours; Grade I (mild) can be semi-elective. Percutaneous transhepatic biliary drainage (PTBD) is an alternative if ERCP fails. Interval cholecystectomy should be performed to prevent recurrence.",
+    "high_yield_pearls": [
+      "Charcot triad (fever, jaundice, RUQ pain) is present in 50-70% of cholangitis cases. Reynolds pentad (adding hypotension and AMS) indicates severe disease.",
+      "Tokyo Guidelines severity grading: Grade I (mild, responds to antibiotics), Grade II (moderate, with organ dysfunction), Grade III (severe, with shock or organ failure requiring ICU).",
+      "E. coli is the most common causative organism in acute cholangitis, followed by Klebsiella and Enterococcus.",
+      "ERCP is both diagnostic and therapeutic and is the preferred method of biliary decompression in acute cholangitis.",
+      "A normal-diameter CBD on ultrasound does not exclude choledocholithiasis — sensitivity of ultrasound for CBD stones is only 50-80%."
+    ],
+    "sources": [
+      "2018 Tokyo Guidelines (TG18) for Acute Cholangitis and Cholecystitis",
+      "Miura F et al., TG18 Flowchart for Management of Acute Cholangitis, J Hepatobiliary Pancreat Sci 2018",
+      "Zimmer V, Lammert F, Acute Bacterial Cholangitis, Visceral Medicine 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute cholecystitis", "Choledocholithiasis without cholangitis", "Hepatic abscess", "Acute pancreatitis (gallstone)", "Biliary stricture/malignancy", "Acute hepatitis"],
+    "after_stage2_more_likely": ["Acute cholangitis", "Acute cholecystitis", "Choledocholithiasis"],
+    "after_stage2_less_likely": ["Acute hepatitis", "Biliary malignancy", "Hepatic abscess"],
+    "after_labs_top3": ["Acute cholangitis (choledocholithiasis)", "Acute cholecystitis with CBD stone", "Gallstone pancreatitis"]
+  }
+}

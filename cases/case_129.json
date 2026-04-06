@@ -1,0 +1,111 @@
+{
+  "case_id": "case_129",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Hyponatremia — Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH)",
+  "icd_category": "E22.2 — Syndrome of inappropriate secretion of antidiuretic hormone",
+  "one_liner": "A 62-year-old male with small cell lung cancer presents with confusion, nausea, and headache, found to have a serum sodium of 118 mEq/L.",
+  "stage2": {
+    "hpi_extension": "The patient was diagnosed with limited-stage small cell lung cancer 3 weeks ago and is scheduled to begin chemotherapy. Over the past 5 days, his wife noticed progressive lethargy, confusion, and unsteady gait. He has had nausea, a persistent headache, and one episode of vomiting. He has been drinking normal amounts of fluid. He denies diarrhea, excessive urination, edema, or recent diuretic use. No new medications have been started. No history of liver or heart disease.",
+    "pmh": "Small cell lung cancer (recently diagnosed), COPD, hypertension.",
+    "surgical_history": "None.",
+    "medications": "Amlodipine 5 mg daily, albuterol inhaler PRN, tiotropium inhaler daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother had breast cancer. Father had COPD.",
+    "social_history": "Retired electrician. 40 pack-year smoking history, still smoking. Social drinker (2-3 beers/week). Lives with wife.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "82 bpm",
+      "bp": "132/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "76 kg, BMI 25.8"
+    },
+    "physical_exam": "Elderly male appearing drowsy but arousable. Oriented to person and place, not to date. Mucous membranes moist. No JVD. Heart: regular rate and rhythm, no murmurs or gallops. Lungs: decreased breath sounds at right apex, no wheezes or crackles. Abdomen: soft, non-tender, non-distended, no ascites. Extremities: no peripheral edema. Neurologic: diffuse hyperreflexia, mild gait ataxia, no focal motor deficits. The patient is clinically euvolemic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Sodium", "result": "118 mEq/L", "flag": "LOW", "clinical_significance": "Severe hyponatremia causing neurologic symptoms (confusion, headache, ataxia)"},
+      {"test_name": "Serum Osmolality", "result": "248 mOsm/kg", "flag": "LOW", "clinical_significance": "Hypotonic hyponatremia; confirms true hyponatremia (excludes pseudohyponatremia)"},
+      {"test_name": "Urine Osmolality", "result": "580 mOsm/kg", "flag": "HIGH", "clinical_significance": "Inappropriately concentrated urine (>100 mOsm/kg) despite low serum osmolality — hallmark of SIADH"},
+      {"test_name": "Urine Sodium", "result": "68 mEq/L", "flag": "HIGH", "clinical_significance": "Urine sodium >40 mEq/L in euvolemic hyponatremia supports SIADH"},
+      {"test_name": "Serum Uric Acid", "result": "2.1 mg/dL", "flag": "LOW", "clinical_significance": "Low uric acid supports SIADH (ADH increases urate excretion)"},
+      {"test_name": "Serum BUN", "result": "8 mg/dL", "flag": "LOW", "clinical_significance": "Low BUN consistent with SIADH (dilution and increased urea clearance)"},
+      {"test_name": "Serum Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal; excludes hypothyroidism as a cause of hyponatremia"},
+      {"test_name": "Morning Cortisol", "result": "18 μg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes adrenal insufficiency as a cause of hyponatremia"},
+      {"test_name": "Serum Glucose", "result": "102 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes hyperglycemia-induced pseudohyponatremia"},
+      {"test_name": "Serum Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal; potassium is typically normal in SIADH (unlike adrenal insufficiency where hyperkalemia may occur)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Right hilar mass with associated right upper lobe opacity consistent with known malignancy. No pleural effusion or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Confirms known small cell lung cancer — the most common cause of paraneoplastic SIADH"},
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild cerebral edema.", "flag": "ABNORMAL", "clinical_significance": "Mild cerebral edema consistent with hyponatremia; no structural brain lesion causing symptoms"}
+    ],
+    "key_tests": [
+      "Serum sodium and serum osmolality",
+      "Urine osmolality and urine sodium",
+      "TSH and morning cortisol (to exclude other causes)",
+      "Serum glucose"
+    ],
+    "acceptable_tests": [
+      "Basic metabolic panel",
+      "Serum uric acid",
+      "Chest X-ray",
+      "CT head (if neurologic symptoms present)",
+      "Lipid panel and serum protein (exclude pseudohyponatremia)",
+      "ADH level (rarely needed clinically)"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy",
+      "24-hour urine collection (not needed for acute diagnosis)",
+      "Echocardiogram (no signs of heart failure)",
+      "Liver function tests (no signs of liver disease)",
+      "ANCA panel"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Euvolemic hypotonic hyponatremia (Na 118, serum osm 248) with inappropriately concentrated urine (urine osm 580) and elevated urine sodium (68 mEq/L), in a patient with small cell lung cancer and normal thyroid and adrenal function, confirms SIADH — most likely paraneoplastic from small cell lung cancer."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with small cell lung cancer (or other SIADH-associated condition) presents with progressive confusion, nausea, headache, and gait instability. Labs reveal severe hypotonic hyponatremia with inappropriately concentrated urine, elevated urine sodium, and clinical euvolemia. TSH and cortisol are normal.",
+    "attending_mode_notes": null,
+    "pathophysiology": "SIADH is caused by excessive ADH secretion independent of normal osmotic or hemodynamic stimuli. In this case, small cell lung cancer cells ectopically produce ADH (paraneoplastic syndrome). Excess ADH causes free water retention by inserting aquaporin-2 channels in the renal collecting ducts. This dilutes serum sodium (dilutional hyponatremia) while producing inappropriately concentrated urine. Volume expansion triggers natriuresis (elevated urine sodium), uricosuria (low serum uric acid), and low BUN. Severe hyponatremia causes cerebral edema (water shifts into brain cells via osmotic gradient), producing neurologic symptoms ranging from nausea and confusion to seizures and coma.",
+    "treatment_overview": "Acute symptomatic hyponatremia (seizures, coma): hypertonic (3%) saline IV, targeting Na correction of 4-6 mEq/L in the first 6 hours to reduce cerebral edema. CRITICAL: do not correct Na by more than 8-10 mEq/L in any 24-hour period to avoid osmotic demyelination syndrome (ODS). Moderate symptoms (this patient): fluid restriction (1-1.5 L/day) is first-line. If fluid restriction fails, consider oral salt tablets with a loop diuretic, or vasopressin receptor antagonists (tolvaptan). Treat the underlying cause: chemotherapy for small cell lung cancer. Monitor sodium every 4-6 hours during active correction.",
+    "high_yield_pearls": [
+      "SIADH is a diagnosis of EXCLUSION requiring: (1) hypotonic hyponatremia, (2) urine osm >100, (3) urine Na >40, (4) clinical euvolemia, (5) normal thyroid and adrenal function, (6) no diuretic use.",
+      "Small cell lung cancer is the most common malignancy associated with SIADH; other causes include CNS disorders, pulmonary diseases, drugs (SSRIs, carbamazepine, cyclophosphamide), and pain/nausea.",
+      "The rate of sodium correction must not exceed 8-10 mEq/L in 24 hours to prevent osmotic demyelination syndrome (ODS), which causes irreversible pontine and extrapontine myelinolysis.",
+      "Low serum uric acid (<4 mg/dL) and low BUN are characteristic of SIADH and help distinguish it from hypovolemic hyponatremia.",
+      "Tolvaptan (V2 receptor antagonist) promotes aquaresis (free water excretion) and is effective in SIADH, but requires inpatient initiation due to risk of overcorrection."
+    ],
+    "sources": [
+      "Ellison DH, Berl T. The syndrome of inappropriate antidiuresis. NEJM. 2007;356(20):2064-2072.",
+      "European Clinical Practice Guidelines on the Diagnosis and Treatment of Hyponatremia. Eur J Endocrinol. 2014;170(3):G1-G47.",
+      "UpToDate: Pathophysiology and etiology of the syndrome of inappropriate antidiuretic hormone secretion (SIADH) (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "SIADH (paraneoplastic from SCLC)",
+      "Hypothyroidism-related hyponatremia",
+      "Adrenal insufficiency",
+      "Psychogenic polydipsia",
+      "Cerebral salt wasting",
+      "Beer potomania",
+      "Diuretic-induced hyponatremia"
+    ],
+    "after_stage2_more_likely": [
+      "SIADH — euvolemic patient with small cell lung cancer (classic paraneoplastic association), no edema or signs of volume depletion",
+      "Cerebral salt wasting — neurologic symptoms present, but patient is euvolemic (not hypovolemic)"
+    ],
+    "after_stage2_less_likely": [
+      "Diuretic-induced hyponatremia — patient is not on diuretics",
+      "Psychogenic polydipsia — patient is not drinking excessive fluids"
+    ],
+    "after_labs_top3": [
+      "SIADH — hypotonic hyponatremia, urine osm >100, urine Na >40, euvolemia, normal TSH/cortisol, low uric acid, associated with SCLC",
+      "Cerebral salt wasting — similar labs but patient is euvolemic (CSW presents with hypovolemia); mild cerebral edema on CT is from hyponatremia, not a CNS lesion",
+      "Adrenal insufficiency — excluded by normal morning cortisol"
+    ]
+  }
+}

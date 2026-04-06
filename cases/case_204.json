@@ -1,0 +1,146 @@
+{
+  "case_id": "case_204",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Ruptured ovarian cyst (hemorrhagic corpus luteum cyst)",
+  "icd_category": "N83.10 – Unspecified ovarian cyst, ruptured",
+  "one_liner": "A 24-year-old female presents with sudden-onset left lower quadrant pain mid-cycle, mild vaginal spotting, and free fluid in the pelvis on ultrasound consistent with a ruptured hemorrhagic corpus luteum cyst.",
+  "stage2": {
+    "hpi_extension": "The patient reports sudden onset of sharp left lower quadrant pain approximately 3 hours ago while exercising. The pain is rated 7/10, constant with intermittent sharp exacerbations, and radiates to her left flank. She has had mild vaginal spotting since the pain started. Her last menstrual period was 16 days ago, and her cycles are regular (28 days). She denies being sexually active in the past 2 months. A urine pregnancy test performed at triage is negative. She has had no fever, nausea, vomiting, dysuria, or bowel changes. She has had a similar but milder episode of mid-cycle pelvic pain in the past that resolved on its own.",
+    "pmh": "Regular menstrual cycles. No history of ovarian cysts, endometriosis, or STIs. No chronic medical conditions.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen as needed for menstrual cramps. No hormonal contraception.",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of ovarian cancer or gynecologic conditions.",
+    "social_history": "College student. Non-smoker. Occasional alcohol use socially. Not currently sexually active. No illicit drug use.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "94 bpm",
+      "bp": "112/72 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "60 kg, BMI 22 kg/m²"
+    },
+    "physical_exam": "General: Uncomfortable-appearing young woman, guarding her left lower abdomen. HEENT: No pallor, mucous membranes moist. Cardiovascular: Mildly tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft, non-distended; moderate tenderness in the left lower quadrant with mild voluntary guarding; no rebound tenderness; no peritoneal signs; bowel sounds present. Pelvic examination: No active vaginal bleeding; cervical os closed; no cervical motion tenderness; left adnexal tenderness without a discrete palpable mass; right adnexa non-tender. Extremities: Warm, well-perfused."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urine hCG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative pregnancy test excludes ectopic pregnancy, the most critical diagnosis to rule out in a reproductive-age woman with pelvic pain."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 9.8 × 10³/µL, Hgb 12.0 g/dL, Plt 255 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin at presentation; serial monitoring is appropriate if ongoing hemorrhage is suspected."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 139, K 4.0, Cl 103, CO2 24, BUN 10, Cr 0.7, Glucose 92",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function; no evidence of dehydration."
+      },
+      {
+        "test_name": "CRP",
+        "result": "5 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal CRP makes an infectious or inflammatory process (PID, appendicitis) less likely."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, no WBC, no RBC, no bacteria, no nitrites",
+        "flag": "WNL",
+        "clinical_significance": "Normal urinalysis excludes urinary tract infection as a cause of the pain."
+      },
+      {
+        "test_name": "Lipase",
+        "result": "30 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lipase excludes pancreatitis."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Left ovary measures 4.5 × 3.8 cm containing a 3.2-cm complex cystic structure with internal echoes consistent with hemorrhagic corpus luteum cyst. No solid component or internal vascularity within the cyst. Moderate free fluid in the cul-de-sac with low-level echoes suggesting hemoperitoneum. Right ovary normal. Uterus normal size with 8 mm endometrium (secretory phase).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemorrhagic corpus luteum cyst with pelvic free fluid is the most common cause of acute pelvic pain in reproductive-age women mid-cycle. The internal echoes represent clotted blood."
+      },
+      {
+        "test_name": "Transabdominal ultrasound (limited)",
+        "result": "Small amount of free fluid in Morrison's pouch. No large hemoperitoneum.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Trace free fluid in Morrison's pouch indicates a small amount of intraperitoneal bleeding, but no evidence of significant ongoing hemorrhage."
+      }
+    ],
+    "key_tests": [
+      "Urine pregnancy test (rule out ectopic)",
+      "Transvaginal ultrasound",
+      "CBC with hemoglobin (serial if hemorrhage suspected)"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "CRP",
+      "Urinalysis",
+      "STI testing (GC/chlamydia NAAT)",
+      "Blood type and screen (if surgical intervention possible)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (unnecessary radiation, US is diagnostic)",
+      "CA-125 (nonspecific, not indicated for functional cysts)",
+      "MRI pelvis (not needed for acute presentation)",
+      "Laparoscopy (only if hemodynamically unstable or diagnosis uncertain)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "Serial hemoglobin monitoring over 6 hours shows stable values (12.0 → 11.8 g/dL) and vital signs remain stable. Repeat ultrasound at 4 weeks shows complete resolution of the cyst, confirming the diagnosis of a self-limited ruptured hemorrhagic corpus luteum cyst."
+  },
+  "debrief": {
+    "classic_presentation": "A ruptured ovarian cyst classically presents in a reproductive-age woman with sudden-onset unilateral lower abdominal/pelvic pain, often occurring mid-cycle (ovulation) or in the luteal phase. The pain may be associated with mild vaginal spotting, nausea, or referred flank pain. Physical examination shows unilateral adnexal tenderness. Most cases are self-limiting. Hemorrhagic corpus luteum cysts are the most common type to cause symptoms.",
+    "attending_mode_notes": null,
+    "pathophysiology": "After ovulation, the dominant follicle transforms into the corpus luteum, which produces progesterone to support a potential pregnancy. The corpus luteum is a highly vascular structure. Hemorrhage can occur into the cyst cavity (hemorrhagic corpus luteum) or through the cyst wall into the peritoneal cavity (ruptured hemorrhagic cyst). Rupture releases blood and cyst fluid into the peritoneum, causing peritoneal irritation and pain. Most hemorrhagic cysts are self-limiting as the bleeding is tamponaded by the ovarian capsule and surrounding structures. Anticoagulant use increases the risk of significant hemorrhage.",
+    "treatment_overview": "Most ruptured ovarian cysts are managed conservatively with analgesics (NSAIDs, acetaminophen), IV fluids if needed, and observation. Serial hemoglobin monitoring every 4-6 hours is indicated if there is concern for ongoing bleeding. Surgical intervention (laparoscopy with cystectomy or oophorectomy) is reserved for hemodynamic instability, falling hemoglobin despite resuscitation, or inability to exclude ovarian torsion. Hormonal contraception (combined OCPs) may be recommended to suppress ovulation and prevent future functional cysts. A follow-up ultrasound in 4-6 weeks should confirm resolution; persistent or enlarging cysts (>5-6 cm) warrant further evaluation.",
+    "high_yield_pearls": [
+      "Always obtain a pregnancy test in any reproductive-age woman with acute pelvic pain — ectopic pregnancy must be excluded before attributing pain to a ruptured cyst.",
+      "Hemorrhagic corpus luteum cysts are the most common cause of acute ovarian-related pelvic pain and typically occur in the luteal phase (days 14-28 of the cycle).",
+      "Most ruptured functional ovarian cysts are self-limiting and managed conservatively — surgical intervention is needed only for hemodynamic instability or diagnostic uncertainty.",
+      "On ultrasound, a hemorrhagic cyst shows internal echoes (reticular pattern from fibrin strands) without internal vascularity on Doppler, distinguishing it from a solid mass.",
+      "Anticoagulant use (warfarin, heparin, DOACs) increases the risk of significant hemorrhage from a ruptured corpus luteum cyst and may warrant closer monitoring or earlier surgical intervention."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 174: Evaluation and Management of Adnexal Masses (2016)",
+      "UpToDate: Evaluation and management of ruptured ovarian cyst",
+      "UpToDate: Ovarian cysts and ovarian neoplasms in the reproductive years",
+      "Williams Gynecology, 4th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ruptured ovarian cyst",
+      "Ovarian torsion",
+      "Ectopic pregnancy",
+      "Appendicitis",
+      "Mittelschmerz (ovulatory pain)",
+      "Pelvic inflammatory disease",
+      "Ureterolithiasis"
+    ],
+    "after_stage2_more_likely": [
+      "Ruptured ovarian cyst (sudden mid-cycle pelvic pain, left adnexal tenderness, negative pregnancy test, prior similar episode)",
+      "Mittelschmerz (mid-cycle timing, but pain is more severe and prolonged than typical ovulatory discomfort)"
+    ],
+    "after_stage2_less_likely": [
+      "Ectopic pregnancy (excluded by negative pregnancy test)",
+      "PID (afebrile, no purulent discharge, no cervical motion tenderness, normal CRP)",
+      "Appendicitis (pain is left-sided, no GI symptoms, normal WBC)"
+    ],
+    "after_labs_top3": [
+      "Ruptured hemorrhagic corpus luteum cyst (confirmed by TVUS showing hemorrhagic cyst with pelvic free fluid)",
+      "Ovarian torsion (less likely — normal ovarian Doppler flow, no ovarian enlargement beyond the cyst)",
+      "Endometrioma rupture (less likely — no history of endometriosis, cyst appears consistent with corpus luteum)"
+    ]
+  }
+}

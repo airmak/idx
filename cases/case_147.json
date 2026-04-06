@@ -1,0 +1,104 @@
+{
+  "case_id": "case_147",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Lyme disease",
+  "icd_category": "A69.20 — Lyme disease, unspecified",
+  "one_liner": "A 38-year-old female from Connecticut presents with a 12 cm expanding annular rash on her right thigh with central clearing, low-grade fever, and arthralgias 10 days after hiking.",
+  "stage2": {
+    "hpi_extension": "The patient went hiking in a wooded area in southeastern Connecticut about 10 days ago. Five days ago, she noticed a small red bump on her right thigh that she initially thought was a bug bite. The area has progressively expanded into a large circular rash with a brighter red border and lighter center. She has associated low-grade fevers (38.2°C), fatigue, diffuse arthralgias (knees, wrists), mild headache, and myalgias. She does not recall a tick attachment but was not using insect repellent. She denies neck stiffness, facial weakness, palpitations, visual changes, or joint swelling. No prior history of Lyme disease.",
+    "pmh": "Seasonal allergies. Otherwise healthy.",
+    "surgical_history": "None.",
+    "medications": "Loratadine 10 mg daily PRN allergies.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Elementary school teacher. Lives in suburban Connecticut near wooded area. Non-smoker. Social alcohol. Active outdoors (hiking, gardening). No recent travel outside the Northeast.",
+    "vitals": {
+      "temp": "38.1°C (100.6°F)",
+      "hr": "78 bpm",
+      "bp": "116/70 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "65 kg, BMI 23.4"
+    },
+    "physical_exam": "Well-appearing female in no distress. Right anterolateral thigh: 12 cm well-circumscribed annular erythematous patch with central clearing (targetoid appearance). The lesion is flat, warm, and non-tender. No vesicles or scale. No other skin lesions. No facial asymmetry or droop. Full range of motion in all joints without effusion, erythema, or warmth. No cervical lymphadenopathy. Cranial nerves intact. Cardiac exam: regular rate and rhythm, no murmurs. Neurological exam is non-focal."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Lyme ELISA (EIA) Screen", "result": "Positive (OD index 2.4)", "flag": "ABNORMAL", "clinical_significance": "Positive first-tier screening test; requires confirmatory Western blot"},
+      {"test_name": "Lyme Western Blot — IgM", "result": "Positive (3 of 3 bands: 23, 39, 41 kDa)", "flag": "ABNORMAL", "clinical_significance": "Positive IgM Western blot (≥2 of 3 bands) confirms early Lyme disease within first 4 weeks of infection"},
+      {"test_name": "Lyme Western Blot — IgG", "result": "Negative (1 of 10 bands)", "flag": "WNL", "clinical_significance": "IgG typically negative in early localized Lyme; seroconversion occurs later"},
+      {"test_name": "CBC — WBC", "result": "7,800/μL", "flag": "WNL", "clinical_significance": "Normal WBC; Lyme disease typically does not cause significant leukocytosis"},
+      {"test_name": "ESR", "result": "28 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; non-specific inflammatory marker"},
+      {"test_name": "CRP", "result": "14 mg/L", "flag": "HIGH", "clinical_significance": "Mildly elevated inflammatory marker consistent with early infection"},
+      {"test_name": "AST/ALT", "result": "AST 42 U/L, ALT 48 U/L", "flag": "HIGH", "clinical_significance": "Mild transaminitis can occur in early Lyme disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG (12-lead)", "result": "Normal sinus rhythm, rate 78 bpm. PR interval 168 ms. No ST-T wave changes. No heart block.", "flag": "WNL", "clinical_significance": "No evidence of Lyme carditis (PR prolongation or heart block); reassuring baseline"}
+    ],
+    "key_tests": [
+      "Clinical recognition of erythema migrans (EM) — diagnosis is clinical; serologic testing is not required to treat",
+      "Two-tier Lyme serology (ELISA/EIA followed by Western blot) if EM not present or diagnosis uncertain",
+      "ECG (to screen for Lyme carditis if systemic symptoms present)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "CRP or ESR",
+      "Hepatic function panel",
+      "Basic metabolic panel",
+      "Joint aspiration with Lyme PCR (if joint effusion present)"
+    ],
+    "low_yield_tests": [
+      "Lyme serology in classic erythema migrans (serology may be negative in early localized disease; EM is diagnostic)",
+      "Lyme PCR on blood (low sensitivity)",
+      "CD57 natural killer cell assay (not validated, not recommended)",
+      "Urine Lyme antigen test (not validated)",
+      "Brain MRI (no neurologic symptoms)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A classic expanding erythema migrans lesion (12 cm, annular with central clearing) appearing 10 days after tick exposure in a Lyme-endemic area (Connecticut), accompanied by constitutional symptoms (fever, fatigue, arthralgias, myalgias). Positive two-tier Lyme serology (ELISA positive, IgM Western blot positive). Normal ECG excludes early Lyme carditis. This is early localized Lyme disease."
+  },
+  "debrief": {
+    "classic_presentation": "An expanding erythema migrans (EM) rash appearing 3-30 days (typically 7-14 days) after a tick bite in an endemic area. The EM lesion is ≥5 cm, annular with central clearing (targetoid or 'bull's-eye' pattern — though uniform erythema is equally common), warm, non-pruritic, and non-tender. Constitutional symptoms (fever, fatigue, arthralgias, myalgias, headache) may accompany the rash. Only ~30% of patients recall a tick bite.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Borrelia burgdorferi sensu stricto (in North America) is transmitted by the Ixodes scapularis tick (deer tick/black-legged tick). The tick must be attached for at least 36-48 hours for transmission to occur. After inoculation into the skin, the spirochete migrates centrifugally through the dermis, producing the expanding EM rash. The organism evades the immune system through antigenic variation of surface lipoproteins (VlsE) and complement resistance. Early disseminated disease (days to weeks) can involve the heart (AV block), nervous system (cranial neuropathy, especially facial nerve palsy; lymphocytic meningitis), joints, and skin (multiple EM lesions). Late disseminated disease (months) primarily manifests as Lyme arthritis (large joint, especially the knee) or late neuroborreliosis. The immune response drives much of the pathology, particularly in Lyme arthritis.",
+    "treatment_overview": "Early localized Lyme disease (EM without systemic complications): doxycycline 100 mg PO BID for 10-14 days (preferred in adults; also covers potential Anaplasma co-infection). Alternatives: amoxicillin 500 mg TID for 14 days or cefuroxime axetil 500 mg BID for 14 days. Early disseminated disease: doxycycline for most manifestations; IV ceftriaxone 2g daily for 14-28 days reserved for neurologic Lyme (meningitis) or third-degree heart block. Lyme arthritis: doxycycline 100 mg BID for 28 days. The EM rash typically resolves within days of starting antibiotics. Advise tick prevention: DEET, permethrin-treated clothing, tick checks after outdoor activity.",
+    "high_yield_pearls": [
+      "Erythema migrans is a clinical diagnosis — treatment should NOT be delayed for serologic confirmation, as serology is negative in up to 50% of patients at the time of EM presentation.",
+      "Only ~30% of patients with Lyme disease recall a tick bite; absence of recalled tick exposure does not exclude Lyme.",
+      "The classic 'bull's-eye' pattern with central clearing is seen in only ~20% of EM lesions; uniform erythema is equally common.",
+      "Doxycycline is the preferred treatment for early Lyme in adults because it also covers Anaplasma phagocytophilum, which is transmitted by the same tick.",
+      "Lyme carditis should be screened for with an ECG when systemic symptoms are present; PR prolongation or heart block may progress rapidly."
+    ],
+    "sources": [
+      "Lantos PM et al. Clinical Practice Guidelines by the IDSA, AAN, and ACR: 2020 Guidelines for the Prevention, Diagnosis, and Treatment of Lyme Disease. Clin Infect Dis. 2021;72(1):e1-e48.",
+      "Steere AC et al. Lyme borreliosis. Nat Rev Dis Primers. 2016;2:16090.",
+      "UpToDate: Clinical manifestations of Lyme disease in adults (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lyme disease (erythema migrans)",
+      "Southern tick-associated rash illness (STARI)",
+      "Cellulitis",
+      "Tinea corporis (ringworm)",
+      "Granuloma annulare",
+      "Spider bite reaction",
+      "Erythema multiforme"
+    ],
+    "after_stage2_more_likely": [
+      "Lyme disease — expanding annular lesion with central clearing >5 cm, tick exposure in endemic area, constitutional symptoms (fever, arthralgias, myalgias)",
+      "STARI — similar expanding rash after tick bite but associated with Amblyomma americanum (Lone Star tick); typically in southeastern US, not Connecticut"
+    ],
+    "after_stage2_less_likely": [
+      "Cellulitis — typically painful, non-annular, without central clearing",
+      "Tinea corporis — typically scaly with raised border; would not explain systemic symptoms"
+    ],
+    "after_labs_top3": [
+      "Lyme disease — positive two-tier serology (ELISA + IgM Western blot), classic EM rash in endemic area, consistent systemic symptoms",
+      "STARI — cannot be serologically confirmed; geographic location favors B. burgdorferi (Connecticut is highest incidence state)",
+      "Viral exanthem — excluded by characteristic annular morphology and positive Lyme serology"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "case_id": "case_169",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Acute Pancreatitis (Alcohol-Induced)",
+  "icd_category": "K85.2 — Alcohol-induced acute pancreatitis",
+  "one_liner": "A 42-year-old male with heavy alcohol use presents with sudden-onset severe epigastric pain radiating to the back after a binge drinking episode.",
+  "stage2": {
+    "hpi_extension": "The patient presents with sudden onset of severe, constant epigastric pain that began 12 hours ago after a night of heavy drinking (estimated 12-15 beers). The pain is described as boring, radiating straight through to the back, rated 9/10. He is unable to find a comfortable position but notes slight relief when leaning forward. He has had persistent nausea with 5 episodes of non-bloody bilious vomiting. He has been unable to tolerate any oral intake. He reports similar but less severe episodes in the past that resolved on their own. He denies fever, diarrhea, hematemesis, or melena.",
+    "pmh": "Alcohol use disorder, prior episodes of epigastric pain (never evaluated), hypertriglyceridemia",
+    "surgical_history": "None",
+    "medications": "None (not compliant with any medical care)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father has type 2 diabetes. No family history of pancreatic disease.",
+    "social_history": "Drinks 8-10 beers daily for 15 years with binge episodes on weekends. Smokes 1 pack per day for 20 years. Works as a bartender. Divorced. No illicit drug use.",
+    "vitals": {
+      "temp": "38.1°C (100.6°F)",
+      "hr": "112 bpm, regular",
+      "bp": "136/88 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "78 kg, BMI 25.8"
+    },
+    "physical_exam": "General: Distressed male, lying with knees drawn up, diaphoretic. HEENT: Dry mucous membranes, no scleral icterus. Cardiovascular: Tachycardic, regular rhythm. Pulmonary: Decreased breath sounds at left base. Abdomen: Marked epigastric tenderness with voluntary guarding, no rebound tenderness, distended with decreased bowel sounds, no palpable masses. No Grey Turner or Cullen sign. Skin: No jaundice. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Lipase", "result": "1,850 U/L (normal <60)", "flag": "HIGH", "clinical_significance": "Greater than 3x upper limit of normal, diagnostic criterion for acute pancreatitis"},
+      {"test_name": "Amylase", "result": "680 U/L (normal <100)", "flag": "HIGH", "clinical_significance": "Elevated but less specific than lipase for pancreatitis"},
+      {"test_name": "CBC", "result": "WBC 16.8, Hgb 15.2, Hct 48%, Plt 210", "flag": "HIGH", "clinical_significance": "Leukocytosis from inflammation/stress response; hemoconcentration from dehydration"},
+      {"test_name": "BMP", "result": "Na 134, K 3.3, Cr 1.5, BUN 32, Glucose 210, Ca 7.8", "flag": "ABNORMAL", "clinical_significance": "Prerenal azotemia from dehydration, hyperglycemia from pancreatic stress, hypocalcemia (poor prognostic sign)"},
+      {"test_name": "LFTs", "result": "AST 85, ALT 62, ALP 120, Total bilirubin 1.8", "flag": "HIGH", "clinical_significance": "Mildly elevated transaminases from alcohol use; mild bilirubin elevation but ALT <150 makes gallstone etiology unlikely"},
+      {"test_name": "Triglycerides", "result": "380 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated but below the threshold (>1000) for hypertriglyceridemia-induced pancreatitis; alcohol use contributes to elevation"},
+      {"test_name": "Lactate", "result": "2.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue hypoperfusion due to dehydration and systemic inflammation"},
+      {"test_name": "LDH", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated, component of Ranson criteria at admission (>350 is 1 point)"},
+      {"test_name": "CRP (at 48 hours)", "result": "185 mg/L", "flag": "HIGH", "clinical_significance": "CRP >150 at 48 hours predicts severe pancreatitis"},
+      {"test_name": "ABG", "result": "pH 7.35, pCO2 32, pO2 72, HCO3 18", "flag": "ABNORMAL", "clinical_significance": "Mild metabolic acidosis with respiratory compensation; pO2 <80 concerning for early ARDS"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT abdomen/pelvis with IV contrast", "result": "Diffuse enlargement of the pancreas with peripancreatic fat stranding and fluid collections in the anterior pararenal space. No pancreatic necrosis identified (homogeneous enhancement). No gallstones or biliary dilation. Small left pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Confirms acute interstitial pancreatitis without necrosis. No biliary etiology identified, consistent with alcohol-induced pancreatitis."},
+      {"test_name": "Right upper quadrant ultrasound", "result": "No gallstones. No biliary dilation (CBD 4 mm). Mild hepatic steatosis.", "flag": "WNL", "clinical_significance": "Excludes gallstone pancreatitis. Hepatic steatosis consistent with chronic alcohol use."}
+    ],
+    "key_tests": ["Serum lipase", "CBC", "BMP (including calcium and glucose)", "CT abdomen with contrast (if diagnosis uncertain or severe)", "RUQ ultrasound"],
+    "acceptable_tests": ["Serum amylase", "LFTs", "Triglycerides", "CRP at 48 hours", "Lactate", "ABG", "LDH", "Chest X-ray"],
+    "low_yield_tests": ["Colonoscopy", "Upper endoscopy", "MRCP (in clear alcohol-induced cases)", "CA 19-9", "Serum trypsinogen"],
+    "key_tests_rationale": "Lipase >3x ULN is diagnostic of acute pancreatitis (more specific than amylase). BMP identifies electrolyte derangements, hypocalcemia (prognostic marker), and renal impairment. CT with contrast is indicated for severe pancreatitis or diagnostic uncertainty to evaluate for necrosis and complications. RUQ ultrasound is essential to evaluate for gallstone etiology in all patients with acute pancreatitis."
+  },
+  "stage5": {
+    "final_clue": "A heavy drinker presenting after a binge episode with classic boring epigastric pain radiating to the back, lipase >3x ULN (1,850 U/L), CT showing interstitial pancreatitis without necrosis, and ultrasound excluding gallstones confirms acute alcohol-induced pancreatitis. Prognostic markers (hypocalcemia, hemoconcentration, CRP >150, hypoxemia) suggest moderately severe disease."
+  },
+  "debrief": {
+    "classic_presentation": "Acute pancreatitis presents with sudden-onset severe epigastric pain radiating to the back, often triggered by alcohol binge or gallstones. The pain is constant, boring, and partially relieved by leaning forward. Nausea and vomiting are nearly universal. The diagnosis requires 2 of 3 criteria: characteristic abdominal pain, serum lipase >3x ULN, and characteristic imaging findings. Alcohol and gallstones account for ~80% of cases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Alcohol-induced pancreatitis results from direct toxic effects of ethanol and its metabolite acetaldehyde on pancreatic acinar cells. Alcohol increases pancreatic ductal permeability, causes premature activation of trypsinogen to trypsin within acinar cells, promotes protein plug formation that obstructs small ducts, and increases sphincter of Oddi tone. The resulting autodigestion triggers an intense inflammatory cascade with local and systemic inflammation, potentially progressing to organ failure and pancreatic necrosis. Repeated episodes lead to chronic pancreatitis.",
+    "treatment_overview": "Aggressive IV fluid resuscitation: goal-directed with lactated Ringer solution at 5-10 mL/kg/hr initially, titrated to urine output >0.5 mL/kg/hr. Pain management: IV opioids (hydromorphone or fentanyl), avoiding morphine traditionally (though evidence for sphincter of Oddi spasm is debated). NPO initially, then early oral feeding (within 24-48 hours) as tolerated — low-fat solid diet is preferred over clear liquids. No role for prophylactic antibiotics in interstitial pancreatitis. Monitor for organ failure (BISAP or APACHE-II scoring). Alcohol cessation counseling. If gallstone etiology were identified: cholecystectomy during the same admission for mild cases, or ERCP if cholangitis is present.",
+    "high_yield_pearls": [
+      "Lipase is more sensitive and specific than amylase for acute pancreatitis and remains elevated longer (8-14 days vs. 3-5 days).",
+      "The revised Atlanta classification categorizes severity: mild (no organ failure), moderately severe (transient organ failure <48 hrs or local complications), and severe (persistent organ failure >48 hrs).",
+      "Hypocalcemia in pancreatitis results from saponification (calcium binding to free fatty acids in peripancreatic fat necrosis) and is a poor prognostic sign.",
+      "CT should NOT be performed on admission solely to diagnose pancreatitis — it is best reserved for 48-72 hours after onset to evaluate for necrosis, or when the diagnosis is uncertain.",
+      "Ranson criteria are assessed at admission and at 48 hours; >3 criteria predicts severe disease."
+    ],
+    "sources": [
+      "2024 ACG Guideline on Management of Acute Pancreatitis",
+      "Tenner S et al., ACG Guidelines for Acute Pancreatitis, American Journal of Gastroenterology 2024",
+      "Banks PA et al., Revised Atlanta Classification of Acute Pancreatitis, Gut 2013"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Perforated peptic ulcer", "Acute cholecystitis", "Mesenteric ischemia", "Acute coronary syndrome (inferior MI)", "Gastritis/peptic ulcer disease", "Abdominal aortic aneurysm rupture"],
+    "after_stage2_more_likely": ["Acute pancreatitis", "Perforated peptic ulcer", "Acute cholecystitis"],
+    "after_stage2_less_likely": ["Acute coronary syndrome", "Abdominal aortic aneurysm", "Mesenteric ischemia"],
+    "after_labs_top3": ["Acute pancreatitis (alcohol-induced)", "Gallstone pancreatitis", "Hypertriglyceridemia-induced pancreatitis"]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "case_105",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Bell palsy",
+  "icd_category": "G51.0 — Bell palsy",
+  "one_liner": "A 35-year-old man presents with sudden-onset right-sided facial weakness, inability to close his right eye, and drooling noticed upon waking this morning.",
+  "stage2": {
+    "hpi_extension": "The patient woke up this morning and noticed the right side of his face felt 'stiff.' His wife noted that his smile was asymmetric. He is unable to fully close his right eye, and food falls out of the right side of his mouth when eating. He also reports loss of taste on the right anterior two-thirds of his tongue and increased sensitivity to sounds in his right ear (hyperacusis). He notes that 3 days ago he had right-sided retroauricular (behind the ear) pain. He denies limb weakness, numbness, vision changes, headache, vesicular rash, fever, or recent tick exposure.",
+    "pmh": "No significant past medical history. No diabetes, hypertension, or autoimmune disease.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory. No family history of Bell palsy or neurological conditions.",
+    "social_history": "Software engineer. Non-smoker. Social alcohol. No recent travel. No sick contacts. No recent vaccinations. Lives with wife and infant child.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "74 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "80 kg, BMI 25.6"
+    },
+    "physical_exam": "General: Well-appearing man, right-sided facial asymmetry apparent at rest. HEENT: Right-sided facial droop involving BOTH the forehead and lower face. Unable to raise right eyebrow, close right eye completely (Bell phenomenon — upward rolling of eye on attempted closure), or puff out right cheek. Flattened right nasolabial fold. Left face moves normally. No vesicles on ear, ear canal, or palate. Intact hearing bilaterally. No parotid swelling. Cranial nerves: CN II — visual fields full. CN III, IV, VI — extraocular movements intact. CN V — sensation intact. CN VII — complete right-sided upper and lower facial weakness (LMN pattern). CN VIII-XII — intact. Neuro: Alert, oriented. Strength 5/5 in all four extremities. Sensation intact. Reflexes 2+ and symmetric. Gait normal. No cerebellar signs."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "8,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "15.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal; diabetes excluded as risk factor (DM increases Bell palsy risk)"},
+      {"test_name": "HbA1c", "result": "5.2%", "flag": "WNL", "clinical_significance": "Normal; no diabetes"},
+      {"test_name": "Lyme antibody (ELISA)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; Lyme disease is an important treatable cause of facial palsy, especially in endemic areas"},
+      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
+      {"test_name": "RPR/VDRL", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Syphilis excluded as cause of cranial neuropathy"},
+      {"test_name": "HIV screening", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Negative; HIV is a risk factor for facial palsy"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain with gadolinium (if obtained)", "result": "Enhancement of the right facial nerve (CN VII) at the geniculate ganglion and labyrinthine segment. No mass lesion, stroke, or demyelinating disease. Normal brain parenchyma.", "flag": "ABNORMAL", "clinical_significance": "Facial nerve enhancement is seen in Bell palsy and represents inflammation/edema of the nerve within the bony facial canal. MRI is not required for diagnosis but helps exclude structural causes."}
+    ],
+    "key_tests": ["Clinical diagnosis (detailed neurological exam)", "Lyme serology (in endemic areas)", "Blood glucose or HbA1c"],
+    "acceptable_tests": ["CBC", "ESR/CRP", "RPR/VDRL", "HIV test", "MRI brain with gadolinium (if atypical features or no improvement)", "Electromyography/nerve conduction studies (for prognosis at 2 weeks if no improvement)", "BMP"],
+    "low_yield_tests": ["CT head", "Lumbar puncture (unless Lyme, HIV, or neoplastic meningitis suspected)", "EEG", "Carotid ultrasound", "Chest X-ray"]
+  },
+  "stage5": {
+    "final_clue": "The patient's history and exam are consistent with Bell palsy: acute unilateral facial nerve palsy involving both the upper and lower face (LMN pattern), with retroauricular pain, hyperacusis, and dysgeusia. Lyme serology is negative. He is started on prednisone 60 mg/day for 7 days with taper, and prescribed artificial tears with nighttime eye patching. At 6-week follow-up, he has recovered ~80% of facial function."
+  },
+  "debrief": {
+    "classic_presentation": "Acute-onset unilateral facial weakness involving BOTH the forehead and lower face (LMN pattern), with inability to close the eye (Bell phenomenon), associated with retroauricular pain, hyperacusis, and loss of taste on the anterior two-thirds of the tongue. No other neurological deficits.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Bell palsy is thought to be caused by reactivation of herpes simplex virus (HSV-1) in the geniculate ganglion, leading to inflammation and edema of the facial nerve (CN VII) within the narrow bony fallopian canal of the temporal bone. The swelling causes nerve compression and demyelination. CN VII carries motor fibers (facial muscles), sensory fibers (taste to anterior 2/3 of tongue via chorda tympani), parasympathetic fibers (submandibular/sublingual glands, lacrimal gland), and the nerve to stapedius (explains hyperacusis). The distinction between UMN and LMN facial weakness is critical: UMN (stroke) spares the forehead because it receives bilateral cortical input; LMN (Bell palsy) affects the entire face.",
+    "treatment_overview": "Oral corticosteroids within 72 hours of onset: prednisone 60-80 mg/day for 7 days (strong evidence for improved outcomes). Antiviral therapy (valacyclovir) in combination with steroids for severe palsy (House-Brackmann grade IV-VI) — evidence is less robust. Eye care is critical: artificial tears during the day, lubricating ointment at night, tape eye shut or moisture chamber to prevent exposure keratopathy. Physical therapy/facial exercises. Prognosis: ~85% recover completely without treatment; with steroids, ~95% achieve good recovery. If no improvement by 3-4 months, consider surgical decompression or further workup.",
+    "high_yield_pearls": [
+      "UMN vs LMN facial weakness: Bell palsy (LMN) affects the ENTIRE face (forehead + lower face); stroke (UMN) spares the forehead due to bilateral cortical innervation.",
+      "Always check for vesicles on the ear — herpes zoster oticus (Ramsay Hunt syndrome) causes facial palsy + vesicular eruption + sensorineural hearing loss and carries a worse prognosis.",
+      "Lyme disease is the most common infectious cause of bilateral facial palsy — always check Lyme serology in endemic areas.",
+      "Eye protection (artificial tears, taping, moisture chamber) is essential to prevent corneal ulceration from lagophthalmos.",
+      "Corticosteroids started within 72 hours improve the probability of complete recovery — the treatment window is critical."
+    ],
+    "sources": [
+      "Sullivan FM et al. Early Treatment with Prednisolone or Acyclovir in Bell's Palsy. N Engl J Med. 2007",
+      "AAN Practice Guideline: Bell's Palsy (Evidence-based guideline update), 2012",
+      "UpToDate: Bell palsy: Treatment and prognosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Bell palsy", "Stroke (UMN facial weakness)", "Ramsay Hunt syndrome (herpes zoster oticus)", "Lyme disease", "Acoustic neuroma/vestibular schwannoma", "Parotid tumor", "Sarcoidosis (Heerfordt syndrome)"],
+    "after_stage2_more_likely": ["Bell palsy", "Ramsay Hunt syndrome"],
+    "after_stage2_less_likely": ["Stroke", "Acoustic neuroma", "Parotid tumor"],
+    "after_labs_top3": ["Bell palsy", "Ramsay Hunt syndrome", "Idiopathic facial nerve palsy"]
+  }
+}

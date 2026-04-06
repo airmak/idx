@@ -1,0 +1,112 @@
+{
+  "case_id": "case_134",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Membranous Nephropathy",
+  "icd_category": "N04.2 — Nephrotic syndrome with diffuse membranous glomerulonephritis",
+  "one_liner": "A 52-year-old male with no significant PMH presents with progressive lower extremity edema and foamy urine over 2 months, found to have nephrotic-range proteinuria.",
+  "stage2": {
+    "hpi_extension": "The patient noticed gradual swelling in both legs starting about 2 months ago, now progressing to include scrotal and periorbital edema. He has observed persistent foamy urine. He reports a 5 kg weight gain and mild exertional dyspnea but denies hematuria, flank pain, fever, joint pain, rash, or recent infections. He has had no recent medication changes and takes no NSAIDs or herbal supplements. He was treated for hepatitis B 10 years ago and was told it resolved. No history of malignancy. He is a non-smoker.",
+    "pmh": "Resolved hepatitis B (10 years ago).",
+    "surgical_history": "Inguinal hernia repair (age 40).",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of kidney disease or autoimmune disease.",
+    "social_history": "Accountant. Non-smoker. Social drinker (1-2 glasses of wine/week). No illicit drug use. Monogamous relationship.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "76 bpm",
+      "bp": "130/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "91 kg, BMI 28.4"
+    },
+    "physical_exam": "Middle-aged male with visible periorbital edema. Heart: regular rate and rhythm, no murmurs. Lungs: decreased breath sounds at the right base with dullness to percussion. Abdomen: mildly distended, shifting dullness present, non-tender, no hepatosplenomegaly. Extremities: 3+ bilateral pitting edema to mid-thigh. Scrotal edema. Skin: no rash, no purpura. No lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "24-hour Urine Protein", "result": "8.2 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria (>3.5 g/day); membranous nephropathy is the most common cause of primary nephrotic syndrome in white adults"},
+      {"test_name": "Serum Albumin", "result": "1.8 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia from massive urinary losses"},
+      {"test_name": "Total Cholesterol", "result": "362 mg/dL", "flag": "HIGH", "clinical_significance": "Nephrotic hyperlipidemia"},
+      {"test_name": "Serum Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Preserved renal function; typical of early membranous nephropathy"},
+      {"test_name": "Anti-PLA2R Antibody", "result": "Positive, 185 RU/mL (normal <14)", "flag": "HIGH", "clinical_significance": "Anti-phospholipase A2 receptor antibodies are found in ~70% of primary membranous nephropathy and are highly specific; titers correlate with disease activity"},
+      {"test_name": "Complement C3", "result": "110 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement; expected in primary membranous nephropathy"},
+      {"test_name": "Complement C4", "result": "24 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus-associated membranous nephropathy"},
+      {"test_name": "Hepatitis B Surface Antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "No active hepatitis B; resolved infection does not cause secondary membranous nephropathy"},
+      {"test_name": "Hepatitis C Antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes hepatitis C-associated membranous nephropathy"},
+      {"test_name": "Urinalysis", "result": "4+ protein, oval fat bodies, fatty casts, no RBC casts, no dysmorphic RBCs", "flag": "ABNORMAL", "clinical_significance": "Nephrotic sediment without nephritic features; consistent with membranous nephropathy"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.6 cm, left 11.3 cm) with normal cortical echogenicity. No hydronephrosis or masses.", "flag": "WNL", "clinical_significance": "Normal kidney size expected in membranous nephropathy with preserved renal function"},
+      {"test_name": "Renal Biopsy", "result": "Light microscopy: diffuse thickening of glomerular basement membranes with 'spike and dome' pattern on silver stain. No mesangial proliferation. Immunofluorescence: granular IgG and C3 deposition along capillary walls. PLA2R staining positive in glomeruli. Electron microscopy: subepithelial electron-dense deposits with effacement of foot processes.", "flag": "ABNORMAL", "clinical_significance": "Classic biopsy findings of primary membranous nephropathy: subepithelial deposits, GBM spikes, and positive PLA2R staining"}
+    ],
+    "key_tests": [
+      "Anti-PLA2R antibody (serum)",
+      "Renal biopsy with LM, IF, and EM",
+      "24-hour urine protein or UPCR",
+      "Serum albumin"
+    ],
+    "acceptable_tests": [
+      "ANA, anti-dsDNA (exclude lupus)",
+      "Hepatitis B and C serologies",
+      "Complement C3/C4",
+      "Age-appropriate cancer screening (secondary MN workup)",
+      "Serum creatinine and eGFR",
+      "Lipid panel",
+      "Renal ultrasound",
+      "D-dimer/Doppler of renal veins (renal vein thrombosis risk)"
+    ],
+    "low_yield_tests": [
+      "ANCA panel",
+      "Anti-GBM antibody",
+      "Serum free light chains",
+      "CT abdomen without clinical indication",
+      "Renal artery Doppler"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Nephrotic syndrome in a middle-aged adult with positive anti-PLA2R antibodies and biopsy showing subepithelial immune deposits, GBM 'spike and dome' pattern, and granular IgG/C3 along capillary walls confirms primary membranous nephropathy."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged to older adult presenting with insidious nephrotic syndrome (edema, foamy urine, hypoalbuminemia, hyperlipidemia) with preserved renal function and bland urinary sediment. Anti-PLA2R antibodies are positive in ~70% of primary cases. Biopsy shows subepithelial deposits with GBM thickening.",
+    "attending_mode_notes": "Always perform age-appropriate cancer screening in patients with membranous nephropathy, as ~10-20% of cases in patients >65 years are secondary to malignancy (lung, colon, breast, prostate, stomach). The anti-PLA2R antibody titer correlates with disease activity and can be used to monitor treatment response (immunologic remission often precedes proteinuria reduction). Anti-THSD7A is a second target antigen found in ~3-5% of PLA2R-negative primary MN, and has been associated with malignancy. The 'rule of thirds' describes the natural history: ~1/3 spontaneous remission, ~1/3 persistent proteinuria with preserved function, ~1/3 progressive renal failure.",
+    "pathophysiology": "Primary membranous nephropathy is an autoimmune disease caused by IgG4 autoantibodies targeting the M-type phospholipase A2 receptor (PLA2R) on podocytes. Immune complex formation occurs in situ on the subepithelial surface of the glomerular basement membrane. Complement activation (primarily via the lectin and terminal complement pathways, forming C5b-9 membrane attack complex) damages podocytes, leading to foot process effacement, basement membrane disruption, and massive proteinuria. The GBM thickens as new basement membrane material is deposited around and between the subepithelial immune deposits, creating the characteristic 'spike and dome' appearance on silver stain.",
+    "treatment_overview": "Risk-stratified approach: Low risk (proteinuria <4 g/day, normal GFR): conservative management with ACEi/ARB, monitor for 6 months. Moderate risk (proteinuria 4-8 g/day): observe 6 months with supportive care; treat if no improvement. High risk (proteinuria >8 g/day or declining GFR): immunosuppressive therapy. First-line immunosuppression: rituximab (anti-CD20) based on the MENTOR and RI-CYCLO trials. Alternative: cyclical cyclophosphamide-corticosteroid regimen (Ponticelli protocol) or calcineurin inhibitors (cyclosporine, tacrolimus). Supportive care: ACEi/ARB, statin, anticoagulation if albumin <2.5 g/dL (high VTE risk). Monitor anti-PLA2R titers for treatment response.",
+    "high_yield_pearls": [
+      "Membranous nephropathy is the most common cause of primary nephrotic syndrome in white adults (peak age 50-60).",
+      "Anti-PLA2R antibodies are ~70% sensitive and >99% specific for primary membranous nephropathy; positive serology may allow avoidance of biopsy in some cases.",
+      "The 'spike and dome' pattern on silver stain (GBM spikes projecting between subepithelial deposits) is the classic light microscopy finding.",
+      "Patients with membranous nephropathy have the highest risk of renal vein thrombosis among all glomerular diseases, especially when albumin <2.5 g/dL — prophylactic anticoagulation should be considered.",
+      "Rituximab has replaced cyclophosphamide-based regimens as preferred first-line immunosuppressive therapy based on the MENTOR trial (rituximab non-inferior to cyclosporine with more sustained remissions)."
+    ],
+    "sources": [
+      "Fervenza FC et al. Rituximab or cyclosporine in the treatment of membranous nephropathy (MENTOR). NEJM. 2019;381(1):36-46.",
+      "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
+      "UpToDate: Membranous nephropathy — treatment and prognosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Primary membranous nephropathy",
+      "Secondary membranous nephropathy (malignancy, lupus, hepatitis B)",
+      "Minimal change disease",
+      "Focal segmental glomerulosclerosis",
+      "Diabetic nephropathy",
+      "Amyloidosis"
+    ],
+    "after_stage2_more_likely": [
+      "Membranous nephropathy — insidious nephrotic syndrome in a middle-aged adult without diabetes",
+      "FSGS — nephrotic syndrome with similar presentation; biopsy needed to differentiate"
+    ],
+    "after_stage2_less_likely": [
+      "Diabetic nephropathy — no history of diabetes",
+      "Minimal change disease — less common in adults >50; typically more acute onset"
+    ],
+    "after_labs_top3": [
+      "Primary membranous nephropathy — positive anti-PLA2R, classic biopsy with subepithelial deposits, normal complement, negative ANA/HBV/HCV",
+      "Secondary membranous nephropathy — excluded by negative ANA (lupus), negative HBV (hepatitis B); age-appropriate cancer screening still warranted",
+      "Amyloidosis — could present with nephrotic syndrome, but biopsy shows immune complex disease, not amyloid fibrils"
+    ]
+  }
+}

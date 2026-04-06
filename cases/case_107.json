@@ -1,0 +1,73 @@
+{
+  "case_id": "case_107",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Parkinson disease",
+  "icd_category": "G20 — Parkinson disease",
+  "one_liner": "A 67-year-old man presents with progressive right-hand tremor at rest, difficulty buttoning his shirt, and a shuffling gait over the past year.",
+  "stage2": {
+    "hpi_extension": "The patient's wife first noticed a tremor in his right hand approximately 14 months ago while he was watching television. Over the past year, he has had increasing difficulty with fine motor tasks such as buttoning shirts, using utensils, and writing (his handwriting has become progressively smaller). He walks more slowly with shorter steps and his wife says he no longer swings his right arm when walking. He has had two near-falls from tripping over door thresholds. He reports constipation for the past 2 years, loss of sense of smell for about 3 years, and restless sleep with vivid dreams where he 'acts out' his dreams (confirmed by his wife who has been kicked during his sleep). He denies exposure to antipsychotics or antiemetics. No family history of movement disorders.",
+    "pmh": "Hypertension, chronic constipation, REM sleep behavior disorder (undiagnosed).",
+    "surgical_history": "Appendectomy age 30.",
+    "medications": "Lisinopril 10 mg daily, docusate sodium 100 mg BID.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had essential tremor. Mother had Alzheimer dementia. No known Parkinson disease.",
+    "social_history": "Retired postal worker. Never smoker. Occasional glass of wine. Lives with wife. Independent in ADLs but slowing. No illicit drug use.",
+    "vitals": {
+      "temp": "98.2 F (36.8 C)",
+      "hr": "68 bpm",
+      "bp": "138/82 mmHg supine, 118/70 mmHg standing",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "78 kg, BMI 25.6"
+    },
+    "physical_exam": "General: Alert, pleasant man with masked facies (reduced facial expression) and mild hypophonia. HEENT: Reduced blink frequency. No KF rings. Cranial nerves intact. Neuro: 4-5 Hz resting tremor in the right hand (pill-rolling type), which diminishes with intentional movement. Cogwheel rigidity at right wrist and elbow, mild rigidity on left. Bradykinesia demonstrated by slow, decrementing finger taps on the right (more affected) > left. Gait: Narrow-based, short shuffling steps, reduced right arm swing, mild stooped posture, 3-step en bloc turning. No festination observed. Postural instability on pull test (takes 2 retropulsive steps but recovers). Sensation intact. DTRs 2+ and symmetric. Cerebellar testing normal. MMSE 28/30 (lost points on recall)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "6,800/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.5 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Glucose", "result": "98 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hypothyroidism excluded as cause of slowness"},
+      {"test_name": "Ceruloplasmin", "result": "32 mg/dL", "flag": "WNL", "clinical_significance": "Normal; Wilson disease excluded"},
+      {"test_name": "BMP — Calcium", "result": "9.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Vitamin B12", "result": "480 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency excluded as cause of gait difficulty"},
+      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Syphilis excluded as cause of neurological symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain without contrast", "result": "Age-appropriate cerebral volume. No mass, stroke, or hydrocephalus. Mild nonspecific periventricular white matter changes. Normal basal ganglia signal.", "flag": "WNL", "clinical_significance": "Normal MRI; helps exclude structural causes such as NPH, vascular parkinsonism, or mass lesion. MRI is typically normal in idiopathic PD."}
+    ],
+    "key_tests": ["Clinical diagnosis based on MDS clinical criteria (bradykinesia + rest tremor or rigidity)", "Neurological examination demonstrating cardinal motor features", "Levodopa challenge test (robust response supports diagnosis)", "DaTscan (dopamine transporter SPECT) if diagnostic uncertainty"],
+    "acceptable_tests": ["MRI brain (to exclude structural causes)", "TSH", "Ceruloplasmin and serum copper (if age <50 to exclude Wilson disease)", "Vitamin B12 level", "Orthostatic blood pressure measurement", "Neuropsychological testing"],
+    "low_yield_tests": ["EEG", "Lumbar puncture", "CT head (inferior to MRI)", "Serum paraneoplastic antibodies", "EMG/NCS"]
+  },
+  "stage5": {
+    "final_clue": "The patient is started on carbidopa-levodopa 25/100 mg three times daily. At 4-week follow-up, he reports significant improvement in tremor, stiffness, and gait speed, confirming a robust levodopa response. His orthostatic hypotension is managed with increased fluid intake and compression stockings. He is referred to a movement disorder specialist for long-term management planning and a physical therapist for gait and balance training. His REM sleep behavior disorder is recognized as a prodromal feature of his alpha-synucleinopathy."
+  },
+  "debrief": {
+    "classic_presentation": "Older adult with insidious, asymmetric onset of resting tremor (pill-rolling), bradykinesia (slow decrementing movements), cogwheel rigidity, and postural instability, with supportive features including shuffling gait, hypomimia, micrographia, hypophonia, and non-motor prodromal symptoms (anosmia, constipation, REM sleep behavior disorder).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Parkinson disease results from progressive loss of dopaminergic neurons in the substantia nigra pars compacta, leading to dopamine depletion in the striatum (putamen > caudate). The pathological hallmark is Lewy bodies — intraneuronal inclusions composed primarily of misfolded alpha-synuclein. The Braak staging hypothesis proposes that alpha-synuclein pathology begins in the olfactory bulb and dorsal motor nucleus of the vagus (explaining early anosmia and constipation), then ascends through the brainstem (REM sleep behavior disorder, autonomic dysfunction) before reaching the substantia nigra (motor symptoms) and eventually the cortex (cognitive decline).",
+    "treatment_overview": "Pharmacologic: Carbidopa-levodopa remains the most effective symptomatic treatment (gold standard). Dopamine agonists (pramipexole, ropinirole, rotigotine) may be used as initial monotherapy in younger patients to delay levodopa-related motor complications. MAO-B inhibitors (rasagiline, selegiline, safinamide) provide mild benefit and may be used early. COMT inhibitors (entacapone, opicapone) extend levodopa duration. For motor fluctuations: adjust levodopa dosing, add adjuncts. For advanced disease: deep brain stimulation (STN or GPi), levodopa-carbidopa intestinal gel. Non-motor: treat RBD (melatonin, clonazepam), orthostatic hypotension (fludrocortisone, midodrine, droxidopa), depression (SSRIs), constipation. Physical/occupational therapy and exercise (esp. high-intensity) are essential.",
+    "high_yield_pearls": [
+      "Parkinson disease is a CLINICAL diagnosis based on MDS criteria: bradykinesia PLUS rest tremor or rigidity, with supportive criteria and absence of exclusion criteria.",
+      "Non-motor symptoms (anosmia, constipation, REM sleep behavior disorder, depression) may precede motor symptoms by years to decades — they reflect early Braak staging of alpha-synuclein pathology.",
+      "Red flags suggesting atypical parkinsonism (not PD): early falls, rapid progression, symmetric onset, poor levodopa response, cerebellar signs, early severe autonomic failure, vertical gaze palsy, or early dementia.",
+      "Orthostatic hypotension is common in PD due to autonomic dysfunction — always check standing BP, especially before starting dopaminergic medications which can worsen it.",
+      "Levodopa-induced motor complications (wearing-off, on-off fluctuations, dyskinesias) develop in ~50% of patients after 5 years of treatment — early referral to a movement disorder specialist helps optimize management."
+    ],
+    "sources": [
+      "MDS Clinical Diagnostic Criteria for Parkinson Disease. Movement Disorders, 2015",
+      "AAN Practice Parameter: Treatment of Parkinson Disease, 2021 Update",
+      "UpToDate: Clinical manifestations of Parkinson disease"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Parkinson disease", "Essential tremor", "Drug-induced parkinsonism", "Vascular parkinsonism", "Progressive supranuclear palsy", "Multiple system atrophy", "Normal pressure hydrocephalus", "Dementia with Lewy bodies"],
+    "after_stage2_more_likely": ["Parkinson disease", "Dementia with Lewy bodies"],
+    "after_stage2_less_likely": ["Drug-induced parkinsonism", "Essential tremor", "Normal pressure hydrocephalus"],
+    "after_labs_top3": ["Parkinson disease", "Dementia with Lewy bodies", "Multiple system atrophy"]
+  }
+}

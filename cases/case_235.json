@@ -1,0 +1,116 @@
+{
+  "case_id": "case_235",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Lithium toxicity",
+  "icd_category": "T43.595A — Adverse effect of other antipsychotics and neuroleptics, initial encounter",
+  "one_liner": "A 58-year-old man with bipolar I disorder on chronic lithium therapy presents with coarse tremor, vomiting, confusion, and ataxia after starting an ACE inhibitor for new-onset hypertension.",
+  "stage2": {
+    "hpi_extension": "The patient has been stable on lithium 900 mg twice daily for 12 years for bipolar I disorder. Two weeks ago, his primary care physician started lisinopril 20 mg daily for newly diagnosed hypertension. Over the past 3 days, he has developed progressively worsening nausea, vomiting (4-5 episodes per day), coarse bilateral hand tremor, unsteady gait, slurred speech, and confusion. His wife reports he has been increasingly drowsy and 'not himself' — forgetting recent conversations and appearing disoriented. She also noticed him stumbling into walls. He has had decreased oral intake due to nausea. He has had no fever, seizures, or recent illness. No changes to diet or fluid intake prior to symptom onset. He has not started any NSAIDs or diuretics.",
+    "pmh": "Bipolar I disorder (diagnosed age 28, well-controlled on lithium). Hypertension (newly diagnosed 2 weeks ago). Hypothyroidism (lithium-induced, on levothyroxine).",
+    "surgical_history": "None",
+    "medications": "Lithium carbonate 900 mg BID, levothyroxine 75 mcg daily, lisinopril 20 mg daily (started 2 weeks ago)",
+    "allergies": "Sulfa drugs (rash)",
+    "family_history": "Father with bipolar disorder. Mother with hypertension and chronic kidney disease. Brother with alcohol use disorder.",
+    "social_history": "Retired electrician. Married for 30 years. Lives with wife. One adult child. Drinks 1-2 beers per week. Denies tobacco or illicit drug use. No recent travel or illness exposure.",
+    "vitals": {
+      "temp": "98.2°F (36.8°C)",
+      "hr": "92 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "185 lbs, BMI 27.1 kg/m²"
+    },
+    "physical_exam": "General: Drowsy, ill-appearing man, responds slowly to questions. HEENT: Dry mucous membranes. Pupils equal and reactive but sluggish. No nystagmus at rest but present on lateral gaze. Neck: Mild thyromegaly. No meningismus. Cardiovascular: Regular rhythm, mild tachycardia, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, mildly tender diffusely, normoactive bowel sounds. Extremities: No edema, decreased skin turgor. Neurological: Coarse bilateral tremor (worse than baseline per wife), dysmetria on finger-to-nose, wide-based ataxic gait, hyperreflexia (3+) in bilateral lower extremities. Mental Status Exam: Appearance — disheveled, clothing stained. Behavior — cooperative but slow. Speech — slurred, slow rate. Mood — 'I feel sick.' Affect — blunted. Thought process — impoverished, tangential at times. Thought content — no delusions, no SI/HI. Perception — no hallucinations. Cognition — oriented to person only, unable to perform serial 7s, impaired short-term recall (0/3 at 5 minutes). Insight — poor. Judgment — impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum lithium level", "result": "3.2 mEq/L", "flag": "CRITICAL HIGH", "clinical_significance": "Severely elevated lithium level (therapeutic range 0.6-1.2 mEq/L) confirming lithium toxicity"},
+      {"test_name": "BMP (Basic Metabolic Panel)", "result": "Na 148, K 3.2, Cl 112, CO2 18, BUN 42, Cr 2.8, Glucose 105", "flag": "ABNORMAL", "clinical_significance": "Hypernatremia, hypokalemia, metabolic acidosis, and acute kidney injury — dehydration from vomiting and ACE inhibitor-induced renal impairment contributing to lithium accumulation"},
+      {"test_name": "CBC with differential", "result": "WBC 12.1, Hgb 15.8, Hct 47.2, Plt 210", "flag": "MILD ABNORMAL", "clinical_significance": "Leukocytosis (lithium-induced) and hemoconcentration consistent with dehydration"},
+      {"test_name": "TSH", "result": "6.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated TSH — chronic lithium use can worsen hypothyroidism; levothyroxine may need adjustment"},
+      {"test_name": "Calcium", "result": "11.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia — lithium can cause hyperparathyroidism; may contribute to symptoms"},
+      {"test_name": "Magnesium", "result": "1.6 mg/dL", "flag": "LOW", "clinical_significance": "Hypomagnesemia likely from vomiting and poor oral intake"},
+      {"test_name": "Phosphorus", "result": "2.2 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus consistent with metabolic derangement"},
+      {"test_name": "Urinalysis", "result": "Specific gravity 1.030, no WBC, no bacteria, no casts", "flag": "ABNORMAL", "clinical_significance": "Concentrated urine consistent with dehydration and prerenal azotemia"},
+      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out concomitant substance intoxication"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 94 bpm, flattened T waves, prolonged QTc at 480 ms, no ST changes", "flag": "ABNORMAL", "clinical_significance": "ECG changes consistent with lithium toxicity and electrolyte abnormalities — QTc prolongation requires monitoring"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus. Mild generalized cerebral atrophy appropriate for age.", "flag": "WNL", "clinical_significance": "Rules out stroke or structural lesion as cause of acute neurological symptoms"},
+      {"test_name": "Chest X-ray", "result": "Clear lung fields. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "No evidence of aspiration pneumonia despite vomiting"}
+    ],
+    "key_tests": [
+      "Serum lithium level — 3.2 mEq/L, confirming severe toxicity (>2.5 mEq/L)",
+      "BMP — revealing AKI (Cr 2.8), hypernatremia, hypokalemia, and metabolic acidosis",
+      "ECG — showing QTc prolongation and T-wave flattening",
+      "Medication reconciliation — identifying recent addition of ACE inhibitor as precipitant"
+    ],
+    "acceptable_tests": [
+      "CBC — baseline and to assess for hemoconcentration",
+      "TSH — monitoring lithium-induced hypothyroidism",
+      "Calcium and PTH — screening for lithium-induced hyperparathyroidism",
+      "Magnesium and phosphorus levels",
+      "Urinalysis — assessing hydration status and renal function",
+      "CT Head — ruling out stroke in an acutely confused patient",
+      "Urine drug screen"
+    ],
+    "low_yield_tests": [
+      "MRI Brain (CT sufficient for acute presentation)",
+      "Lumbar puncture (no meningeal signs or fever)",
+      "EEG (clinical picture clearly points to toxic-metabolic encephalopathy)",
+      "Blood cultures (afebrile, no signs of infection)",
+      "Ammonia level (no liver disease history)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient's serum lithium level is critically elevated at 3.2 mEq/L with acute kidney injury (Cr 2.8), directly precipitated by the recent addition of lisinopril (ACE inhibitor), which reduces GFR and impairs lithium excretion. The clinical triad of neuromuscular excitability (coarse tremor, hyperreflexia), cerebellar dysfunction (ataxia, dysmetria, nystagmus), and altered mental status in a patient on chronic lithium confirms the diagnosis of severe lithium toxicity."
+  },
+  "debrief": {
+    "classic_presentation": "A patient on chronic lithium therapy presenting with the progression from mild toxicity (fine tremor, GI upset, polyuria) to moderate toxicity (coarse tremor, ataxia, confusion, slurred speech) to severe toxicity (seizures, coma, renal failure). A common precipitant is the addition of a medication that impairs renal lithium clearance (ACE inhibitors, ARBs, NSAIDs, thiazide diuretics) or volume depletion from any cause.",
+    "attending_mode_notes": "The distinction between chronic lithium toxicity and acute ingestion is clinically critical. In chronic toxicity (as in this case), CNS and renal manifestations predominate because lithium has had time to equilibrate into tissues — serum levels may underestimate tissue burden. In acute ingestion, GI symptoms dominate early while CNS is relatively spared. Hemodialysis is indicated for levels >4.0 in acute ingestion or >2.5 in chronic toxicity with significant symptoms, or any patient with AKI preventing clearance. The EXTRIP guidelines provide specific indications. Notably, lithium has a rebound phenomenon post-dialysis as tissue stores re-equilibrate, so serial levels and potentially repeated dialysis sessions are necessary. The nephrogenic diabetes insipidus from chronic lithium use may paradoxically worsen dehydration and toxicity.",
+    "pathophysiology": "Lithium is a monovalent cation with a narrow therapeutic index (0.6-1.2 mEq/L). It is freely filtered at the glomerulus and approximately 80% is reabsorbed in the proximal tubule via sodium channels. Any condition that increases proximal tubule sodium reabsorption (volume depletion, decreased GFR, sodium restriction) will proportionally increase lithium reabsorption. ACE inhibitors decrease GFR and enhance proximal tubule sodium reabsorption, directly reducing lithium clearance. At toxic levels, lithium interferes with inositol phosphate signaling, sodium-potassium ATPase, and multiple neurotransmitter systems, causing neurotoxicity. Chronic lithium exposure also causes nephrogenic diabetes insipidus (via downregulation of aquaporin-2) and hyperparathyroidism.",
+    "treatment_overview": "Immediate management: discontinue lithium and the offending agent (ACE inhibitor). Aggressive IV normal saline resuscitation to restore volume and enhance renal lithium clearance. Correct electrolyte abnormalities (potassium, magnesium). Continuous cardiac monitoring given QTc prolongation. For severe toxicity (level >2.5 with symptoms, or >4.0 regardless): emergent hemodialysis is the definitive treatment — lithium is ideally suited for dialysis (small molecule, water-soluble, no protein binding, low volume of distribution). Monitor lithium levels every 2-4 hours post-dialysis for rebound. Avoid whole bowel irrigation (only useful in acute ingestion). Long-term: reassess need for lithium vs alternative mood stabilizer, consider renal function trajectory.",
+    "high_yield_pearls": [
+      "The mnemonic for drugs that increase lithium levels: 'LITHIUM' — Losartan/ACE inhibitors, Ibuprofen/NSAIDs, Thiazides, Haldol (minimal), Inadequate sodium/dehydration, Uncompensated renal failure, Metronidazole.",
+      "Lithium therapeutic range is narrow (0.6-1.2 mEq/L); toxicity symptoms begin at 1.5 mEq/L: mild (1.5-2.0), moderate (2.0-2.5), severe (>2.5).",
+      "ACE inhibitors, ARBs, NSAIDs, and thiazide diuretics are the most common medications precipitating lithium toxicity — always check drug interactions before prescribing.",
+      "Chronic lithium toxicity has worse neurological outcomes than acute ingestion at the same serum level because of greater CNS tissue accumulation over time.",
+      "Hemodialysis indications (EXTRIP guidelines): lithium >4.0 in acute, >2.5 in chronic with significant symptoms, impaired renal function preventing clearance, or life-threatening symptoms regardless of level.",
+      "Monitor for rebound in lithium levels 6-12 hours post-dialysis due to redistribution from tissue compartments — repeat dialysis may be needed."
+    ],
+    "sources": [
+      "Decker BS et al. Extracorporeal treatment for lithium poisoning: systematic review and recommendations from the EXTRIP workgroup. Clin J Am Soc Nephrol, 2015",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Kaplan & Sadock's Comprehensive Textbook of Psychiatry, 10th Edition",
+      "Timmer RT, Sands JM. Lithium intoxication. J Am Soc Nephrol, 1999",
+      "Gitlin M. Lithium side effects and toxicity: prevalence and management strategies. Int J Bipolar Disord, 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lithium toxicity",
+      "Uremic encephalopathy",
+      "Stroke (cerebellar or brainstem)",
+      "Serotonin syndrome",
+      "Neuroleptic malignant syndrome",
+      "Wernicke encephalopathy",
+      "Hypercalcemic crisis",
+      "Metabolic encephalopathy (other)"
+    ],
+    "after_stage2_more_likely": [
+      "Lithium toxicity — chronic lithium use with recent ACE inhibitor addition, classic neurotoxic triad (tremor, ataxia, confusion), dehydration",
+      "Uremic encephalopathy — dry mucous membranes, vomiting, altered mental status"
+    ],
+    "after_stage2_less_likely": [
+      "Serotonin syndrome — no serotonergic medications, no clonus, fever, or diaphoresis",
+      "Neuroleptic malignant syndrome — no antipsychotic use, no rigidity or hyperthermia",
+      "Stroke — gradual onset over days rather than acute"
+    ],
+    "after_labs_top3": [
+      "Lithium toxicity — critically elevated lithium level (3.2 mEq/L) with AKI precipitated by ACE inhibitor, classic neurotoxic presentation",
+      "Acute kidney injury with metabolic encephalopathy — contributing factor but secondary to lithium toxicity and dehydration",
+      "Lithium-induced hyperparathyroidism with hypercalcemia — calcium 11.2, contributing to confusion but not the primary diagnosis"
+    ]
+  }
+}

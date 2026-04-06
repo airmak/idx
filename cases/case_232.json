@@ -1,0 +1,119 @@
+{
+  "case_id": "case_232",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Neuroleptic Malignant Syndrome",
+  "icd_category": "G21.0 — Neuroleptic malignant syndrome",
+  "one_liner": "A 45-year-old man with schizophrenia presents with acute onset of high fever (104.2°F), severe muscle rigidity ('lead-pipe'), altered mental status, and autonomic instability 5 days after haloperidol was increased.",
+  "stage2": {
+    "hpi_extension": "The patient has a 20-year history of schizophrenia treated with haloperidol decanoate. Five days ago, his outpatient psychiatrist increased his oral haloperidol from 10 mg to 20 mg daily due to worsening auditory hallucinations. Over the past 48 hours, he has developed progressive symptoms: initially noted to be more confused and less verbal by his group home staff, followed by development of high fever (measured at 104.2°F at the group home), profuse diaphoresis, and 'stiffness all over.' He was brought to the ED when staff found him rigid and minimally responsive. On arrival, he has severe generalized 'lead-pipe' muscle rigidity, is diaphoretic, tachycardic, and hypertensive. He is confused and oriented only to person. His temperature is 104.2°F. He has been incontinent of urine. He has no prior history of NMS, malignant hyperthermia, or rhabdomyolysis. His last haloperidol decanoate injection was 2 weeks ago.",
+    "pmh": "Chronic paranoid schizophrenia (20 years). Type 2 diabetes mellitus. Hyperlipidemia. Obesity. No seizure history.",
+    "surgical_history": "Appendectomy (age 22). No prior surgeries requiring general anesthesia recently.",
+    "medications": "Haloperidol 20 mg PO daily (recently increased from 10 mg). Haloperidol decanoate 200 mg IM monthly (last injection 2 weeks ago). Metformin 1000 mg BID. Atorvastatin 20 mg daily. Benztropine 1 mg BID.",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of malignant hyperthermia. Mother with type 2 diabetes. Father with schizophrenia.",
+    "social_history": "Lives in a supervised group home. Non-verbal baseline is limited but usually communicative. Unemployed, on disability. Non-smoker. No alcohol or drug use. Has a conservator (sister) who manages his affairs.",
+    "vitals": {
+      "temp": "104.2°F (40.1°C)",
+      "hr": "132 bpm",
+      "bp": "168/102 mmHg, labile (also recorded at 92/60 mmHg 30 minutes later)",
+      "rr": "24 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "230 lbs, BMI 33.1 kg/m²"
+    },
+    "physical_exam": "General: Diaphoretic, obtunded, rigid man in hospital gown. Extremely warm to touch. HEENT: Diaphoretic. Pupils mid-position, sluggishly reactive. Dry mucous membranes. No trismus. Neck: Rigid, but no meningismus (passive range of motion limited by rigidity, not pain). Cardiovascular: Tachycardic, regular rhythm, labile blood pressure. Lungs: Diminished at bases bilaterally, no wheezing. Shallow respirations due to chest wall rigidity. Abdomen: Rigid abdominal musculature (generalized rigidity, not peritoneal — no rebound). Bowel sounds diminished. Extremities: Severe 'lead-pipe' rigidity in all four extremities — constant resistance throughout entire range of motion (NOT cogwheeling). No clonus. Skin: Diaphoretic, warm, no rash. Neurological: Obtunded, oriented to person only. Cranial nerves difficult to assess — limited cooperation. Diffuse lead-pipe rigidity. Reflexes hypoactive. No Babinski. Tremor present (coarse, postural). Dysphagia present. Mental Status Exam: Limited by altered mental status. Patient is confused, muttering incoherently. Severely limited cooperation. No purposeful speech. Appears distressed."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CK (Creatine Kinase)", "result": "18,500 U/L (markedly elevated, normal <200)", "flag": "HIGH", "clinical_significance": "Severely elevated CK from massive muscle breakdown (rhabdomyolysis) due to sustained rigidity — hallmark of NMS"},
+      {"test_name": "CBC", "result": "WBC 16.8 (elevated), Hgb 15.2, Hct 46.1, Plt 210", "flag": "HIGH", "clinical_significance": "Leukocytosis common in NMS (stress response); NOT typically infectious leukocytosis pattern"},
+      {"test_name": "CMP", "result": "Na 148 (elevated), K 5.8 (elevated), Cl 108, CO2 18 (low), BUN 42 (elevated), Cr 2.8 (elevated), Glucose 185, Ca 7.2 (low), AST 420, ALT 280, Alk Phos 95", "flag": "ABNORMAL", "clinical_significance": "Hypernatremia (dehydration), hyperkalemia (muscle breakdown — cardiac risk), metabolic acidosis, acute kidney injury (Cr 2.8 from rhabdomyolysis), markedly elevated transaminases from muscle injury, hypocalcemia from calcium deposition in damaged muscle"},
+      {"test_name": "Myoglobin (urine)", "result": "Positive (dark brown urine)", "flag": "ABNORMAL", "clinical_significance": "Myoglobinuria from rhabdomyolysis — risk factor for acute tubular necrosis"},
+      {"test_name": "Lactate", "result": "5.8 mmol/L (elevated)", "flag": "HIGH", "clinical_significance": "Elevated lactate from muscle rigidity, dehydration, and tissue hypoperfusion"},
+      {"test_name": "ABG", "result": "pH 7.28, pCO2 32, pO2 72, HCO3 15, Base excess -10", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation — from lactic acidosis and renal failure"},
+      {"test_name": "Coagulation studies", "result": "PT 16.2, INR 1.4, PTT 42, Fibrinogen 180 (low normal), D-dimer 1200 (elevated)", "flag": "ABNORMAL", "clinical_significance": "Mildly deranged coagulation — NMS can progress to DIC in severe cases; requires monitoring"},
+      {"test_name": "Blood cultures (x2)", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Rules out bacteremia/sepsis as cause of fever and altered mental status"},
+      {"test_name": "Urinalysis", "result": "Dark brown color, large blood on dipstick, no RBCs on microscopy, specific gravity 1.035", "flag": "ABNORMAL", "clinical_significance": "Blood-positive dipstick with no RBCs indicates myoglobinuria (myoglobin cross-reacts with hemoglobin on dipstick) — confirms rhabdomyolysis"},
+      {"test_name": "Serum iron", "result": "Low (12 mcg/dL)", "flag": "LOW", "clinical_significance": "Low serum iron is a supportive finding in NMS — highly sensitive marker (though not specific)"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No hemorrhage, mass, or hydrocephalus.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology as cause of altered mental status"},
+      {"test_name": "Chest X-ray", "result": "Bibasilar atelectasis. No consolidation. Heart size normal.", "flag": "ABNORMAL", "clinical_significance": "Atelectasis from shallow respirations due to chest wall rigidity; no aspiration pneumonia currently"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 132 bpm. Peaked T waves in V2-V4. QTc 480 ms.", "flag": "ABNORMAL", "clinical_significance": "Peaked T waves concerning for hyperkalemia (K 5.8); prolonged QTc from electrolyte derangement and antipsychotic effect"}
+    ],
+    "key_tests": [
+      "CK (Creatine Kinase) — massively elevated at 18,500 U/L, confirming rhabdomyolysis from sustained muscle rigidity",
+      "CMP with renal function — acute kidney injury (Cr 2.8) from myoglobin-induced renal damage, hyperkalemia requiring urgent treatment",
+      "Temperature — 104.2°F, part of the diagnostic tetrad",
+      "ECG — peaked T waves from hyperkalemia, requires urgent intervention",
+      "Blood cultures — essential to rule out sepsis as an alternative cause of fever, rigidity, and AMS"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "ABG (metabolic acidosis assessment)",
+      "Lactate",
+      "Coagulation studies (DIC screening)",
+      "Urinalysis with myoglobin",
+      "CT Head (rule out structural cause of AMS)",
+      "Chest X-ray (aspiration risk)",
+      "Serum iron (supportive of NMS diagnosis)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (no meningeal signs; rigidity is generalized lead-pipe, not nuchal)",
+      "EEG (altered mental status explained by NMS; EEG shows non-specific slowing in NMS)",
+      "Thyroid function tests (presentation clearly iatrogenic, not thyroid storm)",
+      "Ammonia level (liver synthetic function more relevant)",
+      "MRI Brain (CT adequate, patient too unstable for prolonged MRI)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "This patient presents with the classic tetrad of Neuroleptic Malignant Syndrome (NMS): (1) Hyperthermia (104.2°F), (2) Severe lead-pipe muscle rigidity, (3) Altered mental status (obtundation, confusion), and (4) Autonomic instability (labile blood pressure, tachycardia, diaphoresis). The temporal relationship is clear — symptoms developed within 5 days of haloperidol dose increase. CK of 18,500 U/L confirms massive rhabdomyolysis. Acute kidney injury, hyperkalemia, and metabolic acidosis represent life-threatening complications. The rigidity is 'lead-pipe' (constant resistance throughout ROM) NOT cogwheeling — this distinguishes NMS from simple EPS."
+  },
+  "debrief": {
+    "classic_presentation": "A patient on dopamine-blocking agents (typically first-generation/typical antipsychotics, especially high-potency agents like haloperidol) presenting with the diagnostic tetrad: (1) hyperthermia (often >104°F), (2) severe 'lead-pipe' muscle rigidity, (3) altered mental status, and (4) autonomic instability (labile BP, tachycardia, diaphoresis). Onset is typically within 1-2 weeks of starting or increasing a neuroleptic. CK is markedly elevated (often >1000 U/L, can exceed 100,000).",
+    "attending_mode_notes": "Key diagnostic distinctions: (1) NMS vs. Serotonin Syndrome — NMS has LEAD-PIPE rigidity (constant resistance) while SS has CLONUS, hyperreflexia, and myoclonus; NMS develops over DAYS while SS develops over HOURS; NMS involves dopamine blockade while SS involves serotonergic excess. (2) NMS vs. Malignant Hyperthermia — MH occurs during/after general anesthesia with succinylcholine/volatile anesthetics; NMS occurs with antipsychotics. (3) NMS vs. Lethal Catatonia — nearly identical presentations; lethal catatonia may precede antipsychotic exposure and has waxing-waning rigidity. (4) NMS vs. Meningitis/Encephalitis — NMS rigidity is generalized lead-pipe, not true nuchal rigidity. Serum iron is characteristically low in NMS (sensitivity ~90%) and may help distinguish from other hyperthermic syndromes.",
+    "pathophysiology": "NMS results from acute, severe dopamine D2 receptor blockade, primarily in the hypothalamus (causing hyperthermia via disrupted thermoregulation), basal ganglia (causing rigidity), and cortex (causing altered mental status). The sustained muscle contraction causes rhabdomyolysis, releasing CK, myoglobin, potassium, and phosphorus. Myoglobin precipitates in renal tubules causing acute tubular necrosis. Autonomic instability results from hypothalamic and brainstem dopaminergic disruption. Risk factors include high-potency D2 blockers, rapid dose escalation, dehydration, agitation, IM formulations, and prior NMS episodes. Mortality is 5-10% with treatment, higher if complicated by renal failure or DIC.",
+    "treatment_overview": "IMMEDIATE: Stop ALL dopamine-blocking agents (oral and depot forms). ICU admission. Aggressive IV hydration (NS bolus, then maintenance targeting UOP >200 mL/hr to protect kidneys from myoglobin). Active cooling measures (ice packs, cooling blankets, cold IV fluids). Treat hyperkalemia urgently (calcium gluconate, insulin/glucose, kayexalate). Specific therapies: Dantrolene (1-2.5 mg/kg IV, repeat Q6h) — a skeletal muscle relaxant that works at the ryanodine receptor. Bromocriptine (2.5-5 mg PO/NG Q8h) — a dopamine agonist that directly counters the D2 blockade. Amantadine as an alternative dopamine agonist. Benzodiazepines for agitation (avoid further antipsychotics). Monitor CK, renal function, and electrolytes Q6-8h. Recovery typically takes 7-14 days (longer with depot formulations). When psychosis requires retreatment, wait ≥2 weeks and use a low-potency or atypical antipsychotic with slow titration.",
+    "high_yield_pearls": [
+      "The NMS tetrad: Fever + Lead-pipe Rigidity + Altered Mental Status + Autonomic Instability. Think 'FARM' — Fever, Autonomic instability, Rigidity, Mental status changes.",
+      "NMS has LEAD-PIPE rigidity (constant resistance) and HYPOREFLEXIA. Serotonin syndrome has CLONUS, HYPERREFLEXIA, and myoclonus. This is the single most important differentiator on exam.",
+      "NMS develops over DAYS (1-14 days), while serotonin syndrome develops over HOURS. NMS resolves over 1-2 weeks; SS resolves in 24-72 hours after drug discontinuation.",
+      "CK >1000 U/L is characteristic; levels can exceed 100,000 U/L. Aggressive IV hydration targeting UOP >200 mL/hr is critical to prevent myoglobin-induced renal failure.",
+      "Depot (long-acting injectable) antipsychotics make NMS MORE PROLONGED because the drug cannot be rapidly discontinued — symptoms may persist for weeks.",
+      "Low serum iron (<10 mcg/dL) has ~90% sensitivity for NMS and can help distinguish from other causes of fever and rigidity."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "Strawn JR et al. — Neuroleptic Malignant Syndrome. Am J Psychiatry 2007",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Velamoor VR — Neuroleptic malignant syndrome: recognition, prevention, and management. Drug Safety 1998",
+      "Ware MR et al. — Neuroleptic Malignant Syndrome: Diagnosis and Management. Primary Care Companion CNS Disorders 2018"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Neuroleptic malignant syndrome",
+      "Serotonin syndrome",
+      "Malignant hyperthermia",
+      "Lethal catatonia",
+      "Meningitis/encephalitis",
+      "Sepsis",
+      "Heat stroke",
+      "Thyroid storm"
+    ],
+    "after_stage2_more_likely": [
+      "Neuroleptic malignant syndrome — classic tetrad (fever, lead-pipe rigidity, AMS, autonomic instability) with clear temporal relationship to haloperidol dose increase",
+      "Lethal catatonia — nearly identical presentation but typically precedes antipsychotic use"
+    ],
+    "after_stage2_less_likely": [
+      "Serotonin syndrome — patient is NOT on serotonergic agents; rigidity is lead-pipe (not clonus/hyperreflexia)",
+      "Malignant hyperthermia — no recent general anesthesia or succinylcholine exposure",
+      "Meningitis — rigidity is generalized (not nuchal), no headache or photophobia"
+    ],
+    "after_labs_top3": [
+      "Neuroleptic malignant syndrome — CK 18,500 with rhabdomyolysis, AKI, hyperkalemia, metabolic acidosis; temporal link to haloperidol increase; negative blood cultures rule out sepsis",
+      "Lethal catatonia — cannot be fully excluded by labs alone, but temporal relationship to medication change strongly favors NMS",
+      "Sepsis — ruled out with negative blood cultures and absence of infectious source; leukocytosis is stress response"
+    ]
+  }
+}

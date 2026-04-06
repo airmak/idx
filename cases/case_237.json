@@ -1,0 +1,115 @@
+{
+  "case_id": "case_237",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Factitious disorder imposed on self (Munchausen syndrome)",
+  "icd_category": "F68.10 — Factitious disorder imposed on self, unspecified",
+  "one_liner": "A 31-year-old female nurse presents with recurrent episodes of fever, leukocytosis, and polymicrobial bacteremia of unclear source, with extensive negative workup and suspicious hospital behavior.",
+  "stage2": {
+    "hpi_extension": "The patient is a registered nurse presenting to the ED with fever (102.8°F), chills, and malaise for the past 24 hours. This is her 7th hospital admission in the past 18 months at 4 different hospitals for recurrent febrile episodes and bacteremia. Previous blood cultures have grown unusual combinations of organisms including polymicrobial flora. Extensive prior workups including echocardiography, CT imaging, and bone scans have been negative for a source. She has had two PICC lines placed during prior admissions. She provides a detailed and sophisticated medical history using medical terminology. She seems calm and even eager about being admitted. Nursing staff on this admission note she was found manipulating her IV line with a syringe from her purse. When confronted, she became tearful and denied any wrongdoing. Review of outside records reveals inconsistencies: she reported a history of lupus at one hospital but denied it at another. No outside rheumatologist can be identified.",
+    "pmh": "Per patient: systemic lupus erythematosus (not confirmed), Crohn disease (not confirmed), recurrent line infections, chronic pain syndrome. Per outside records: no confirmed chronic medical conditions; multiple admissions for fever of unknown origin.",
+    "surgical_history": "Appendectomy, cholecystectomy, multiple central line placements (per patient reports; unable to confirm all)",
+    "medications": "Per patient: prednisone 10 mg daily, mesalamine, oxycodone 10 mg TID (no prescribing physician identified for any of these)",
+    "allergies": "Reports allergies to 12 medications including most first-line antibiotics (penicillin, cephalosporins, fluoroquinolones, sulfonamides)",
+    "family_history": "Reports mother died of breast cancer at age 45. Father with 'heart problems.' Reports a sister who died in infancy from 'a rare disease.' Details are vague and inconsistent across records.",
+    "social_history": "Registered nurse, currently on medical leave. Single, lives alone. Reports limited social support. Denies alcohol, tobacco, or illicit drug use. Prior records from another hospital note she was fired from a nursing position for medication discrepancies. She has visited at least 4 different hospital systems in the past 18 months.",
+    "vitals": {
+      "temp": "102.8°F (39.3°C)",
+      "hr": "110 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "135 lbs, BMI 23.1 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman who looks comfortable despite reported severity of symptoms, no rigors. HEENT: Normocephalic, atraumatic. No oral lesions. Neck: No lymphadenopathy, no meningismus. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, mild diffuse tenderness without guarding or rebound, well-healed surgical scars. Skin: Multiple venipuncture marks on bilateral antecubital fossae and forearms; left PICC line site from prior admission healed but with surrounding erythema; no rash. Extremities: No edema, no joint swelling. Neurological: Alert and oriented, cranial nerves intact, normal motor and sensory exam. Mental Status Exam: Appearance — well-groomed, wearing hospital gown with personal items neatly arranged. Behavior — overly cooperative, volunteering detailed medical information, asking for specific tests and medications by name. Speech — normal rate and rhythm, uses medical terminology fluently. Mood — 'I just want someone to figure out what's wrong with me.' Affect — surprisingly calm for reported severity of illness, briefly tearful when IV manipulation was mentioned. Thought process — linear, detailed, rehearsed quality. Thought content — preoccupied with medical symptoms and diagnoses, no SI/HI. Perception — no hallucinations. Cognition — fully oriented, above-average knowledge base. Insight — poor. Judgment — impaired."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 15.8, Hgb 11.2, Hct 33.8, Plt 340", "flag": "ABNORMAL", "clinical_significance": "Leukocytosis consistent with infection or inflammation; mild anemia possibly from repeated blood draws and hospitalizations"},
+      {"test_name": "Blood cultures (x2 sets)", "result": "Set 1: Staphylococcus epidermidis and Enterococcus faecalis. Set 2: Staphylococcus epidermidis and mixed enteric flora", "flag": "ABNORMAL", "clinical_significance": "Polymicrobial bacteremia with skin flora AND enteric organisms is highly unusual from a natural source — strongly suggests inoculation of contaminated material into IV line"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 3.8, Cl 101, CO2 24, BUN 10, Cr 0.7, Glucose 98, Ca 9.2, AST 25, ALT 22, Alk Phos 70, Albumin 3.5", "flag": "WNL", "clinical_significance": "Normal metabolic panel — no organ dysfunction despite multiple reported chronic illnesses"},
+      {"test_name": "ESR", "result": "42 mm/hr", "flag": "MILD HIGH", "clinical_significance": "Mild elevation consistent with acute infection/inflammation"},
+      {"test_name": "CRP", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with bacteremia"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative ANA contradicts patient's reported diagnosis of systemic lupus erythematosus"},
+      {"test_name": "Procalcitonin", "result": "2.1 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with bacterial infection — confirms true bacteremia (not contamination)"},
+      {"test_name": "Urine drug screen", "result": "Positive for opioids", "flag": "ABNORMAL", "clinical_significance": "Positive for opioids consistent with reported oxycodone use, though no prescriber can be identified"},
+      {"test_name": "Urinalysis", "result": "Clear, no WBC, no bacteria, no casts", "flag": "WNL", "clinical_significance": "Rules out urinary source of bacteremia"},
+      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal lactate — not septic despite bacteremia and fever, which is unusual"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Chest/Abdomen/Pelvis with contrast", "result": "No abscess, lymphadenopathy, or mass. No evidence of Crohn disease. Prior appendectomy and cholecystectomy changes noted. No source of infection identified.", "flag": "WNL", "clinical_significance": "Comprehensive imaging fails to identify any source of recurrent bacteremia — a key red flag for factitious disorder"},
+      {"test_name": "Transthoracic echocardiogram", "result": "Normal biventricular function. No valvular vegetations. No intracardiac mass.", "flag": "WNL", "clinical_significance": "Rules out endocarditis as source of recurrent bacteremia"}
+    ],
+    "key_tests": [
+      "Blood cultures — polymicrobial bacteremia with skin + enteric flora (unnatural combination suggesting deliberate inoculation)",
+      "Review of outside hospital records — revealing inconsistent medical histories across 4 hospitals and unconfirmable diagnoses",
+      "Direct observation — nursing staff witnessed patient manipulating IV line with syringe",
+      "ANA — negative, contradicting patient's reported lupus diagnosis"
+    ],
+    "acceptable_tests": [
+      "CBC and CMP — baseline assessment",
+      "CT Chest/Abdomen/Pelvis — comprehensive infection source workup",
+      "Echocardiogram — ruling out endocarditis in recurrent bacteremia",
+      "ESR/CRP and procalcitonin — confirming true infection",
+      "Urinalysis and urine culture — ruling out urinary source",
+      "Urine drug screen"
+    ],
+    "low_yield_tests": [
+      "Bone scan or PET scan (prior scans negative, source is iatrogenic not occult)",
+      "Autoimmune panel beyond ANA (no clinical features of autoimmune disease)",
+      "Lumbar puncture (no meningeal signs)",
+      "Tumor markers (no mass on imaging)",
+      "Additional advanced rheumatologic workup (no objective findings)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The diagnosis is established by the convergence of: (1) recurrent polymicrobial bacteremia with an unnatural combination of organisms (skin flora + enteric organisms strongly suggesting deliberate IV line contamination), (2) extensive negative workup failing to identify any anatomic source, (3) direct observation of IV line manipulation, (4) inconsistent and fabricated medical history across multiple hospitals (unconfirmable lupus, Crohn disease), (5) healthcare worker with medical knowledge enabling sophisticated symptom production, and (6) absence of external incentive (not seeking disability, litigation, or drugs as primary motivation — the sick role itself is the goal)."
+  },
+  "debrief": {
+    "classic_presentation": "A patient, often with medical knowledge or healthcare background, presenting with recurrent, dramatic medical complaints that do not follow typical disease patterns. Key red flags include: extensive negative workups, multiple hospitalizations at different institutions ('hospital shopping'), inconsistent medical history, unusual lab findings (polymicrobial infections, unexplained lab results), enthusiasm about invasive testing, worsening of symptoms when discharge is discussed, and direct evidence of symptom fabrication. The motivation is to assume the 'sick role' — not for external gain (which would be malingering).",
+    "attending_mode_notes": "Factitious disorder is one of the most challenging diagnoses in psychiatry. The key distinction from malingering is motivation: factitious disorder is driven by internal psychological need to assume the sick role, while malingering is driven by external incentives (disability payments, avoiding work/legal obligations, obtaining drugs). In practice, motivations may overlap. Confrontation must be handled with extreme care — direct accusatory confrontation typically leads to the patient leaving AMA and presenting elsewhere. The recommended approach is non-punitive, face-saving: 'We have not found a medical cause for your symptoms, but we recognize you are suffering and want to help.' Psychiatric consultation should be obtained but framed supportively. Document findings carefully for medicolegal purposes. Healthcare workers represent a disproportionate subset of cases due to medical knowledge and access to materials for symptom production. Polymicrobial bacteremia with enteric organisms in a patient with IV access and no GI source is a classic finding. The PDFA (Prescription Drug Monitoring Program, Database searches, Factitious disorder Algorithm) can help identify hospital-shopping patterns.",
+    "pathophysiology": "Factitious disorder is classified in DSM-5 under Somatic Symptom and Related Disorders. The psychological mechanism involves assuming the 'sick role' to fulfill unmet needs for attention, nurturance, and care. Risk factors include childhood abuse or neglect, early chronic illness with positive hospital experiences, healthcare employment, personality disorders (especially borderline), and insecure attachment styles. Methods of symptom production include self-injection of contaminated substances (causing polymicrobial bacteremia), self-administration of medications (e.g., insulin to cause hypoglycemia, warfarin for coagulopathy), wound manipulation, specimen tampering, and symptom fabrication. In this case, the likely mechanism is self-injection of fecal material or oral secretions into the IV line, producing the characteristic polymicrobial bacteremia.",
+    "treatment_overview": "Acute management: treat the genuine medical complication (bacteremia with appropriate antibiotics). Remove opportunities for self-harm (supervised IV access, room searches if safety concern). Psychiatric consultation — approach the patient in a non-confrontational, empathetic manner. Do not use accusatory language. Avoid unnecessary further medical workup. Long-term: psychotherapy is the mainstay, though engagement is extremely difficult. CBT and psychodynamic therapy may help. Address comorbid conditions (depression, personality disorders). Coordinate care across hospital systems (flag medical record, but use non-punitive language). Prognosis is guarded — most patients have a chronic relapsing course, and mortality from self-induced illness can be significant (estimated at ~5%).",
+    "high_yield_pearls": [
+      "The key distinction: factitious disorder = internal motivation (sick role); malingering = external incentive (financial gain, avoidance of duty). Malingering is not a mental disorder.",
+      "Polymicrobial bacteremia with skin flora AND enteric organisms in a patient with IV access but no GI pathology is a classic red flag for self-inoculation.",
+      "The complete triad of Munchausen syndrome includes: pathological lying (pseudologia fantastica), peregrination (traveling to multiple hospitals), and recurrent factitious illness.",
+      "Healthcare workers are disproportionately represented among factitious disorder patients due to medical knowledge and access to materials.",
+      "Confrontation should be non-punitive and face-saving — accusatory confrontation leads to discharge AMA and presentation at another hospital, perpetuating the cycle.",
+      "Factitious disorder imposed on another (Munchausen by proxy) is a form of child abuse and requires mandatory reporting — it carries significant morbidity and mortality for the victim."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "Bass C, Halligan P. Factitious disorders and malingering: challenges for clinical assessment and management. Lancet, 2014",
+      "Yates GP, Feldman MD. Factitious disorder: a systematic review of 455 cases in the professional literature. Gen Hosp Psychiatry, 2016",
+      "Kaplan & Sadock's Comprehensive Textbook of Psychiatry, 10th Edition",
+      "Krahn LE, Li H, O'Connor MK. Patients who strive to be ill: factitious disorder with physical symptoms. Am J Psychiatry, 2003"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Factitious disorder (Munchausen syndrome)",
+      "Recurrent line infection (genuine)",
+      "Occult endocarditis",
+      "Immunodeficiency (primary or secondary)",
+      "Occult abscess",
+      "Systemic lupus erythematosus with immunosuppression",
+      "Malingering",
+      "Crohn disease with bacterial translocation"
+    ],
+    "after_stage2_more_likely": [
+      "Factitious disorder — healthcare worker with inconsistent history across multiple hospitals, witnessed IV manipulation, unusually detailed medical knowledge, calm affect inappropriate to severity",
+      "Recurrent line infection — multiple prior IV line placements could be a genuine source"
+    ],
+    "after_stage2_less_likely": [
+      "SLE with immunosuppression — no confirmed diagnosis, patient-reported only",
+      "Crohn disease with translocation — no GI symptoms, patient-reported diagnosis not confirmed",
+      "Occult endocarditis — prior echocardiograms negative"
+    ],
+    "after_labs_top3": [
+      "Factitious disorder — polymicrobial bacteremia (skin + enteric flora) without identifiable source on comprehensive imaging, witnessed IV manipulation, fabricated medical history (negative ANA contradicts reported lupus)",
+      "Malingering — possible but no clear external incentive identified; sick role appears to be primary motivation",
+      "Recurrent genuine line infection — polymicrobial flora with enteric organisms is not typical of simple line colonization and strongly suggests deliberate inoculation"
+    ]
+  }
+}

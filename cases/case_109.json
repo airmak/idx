@@ -1,0 +1,73 @@
+{
+  "case_id": "case_109",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Epilepsy (temporal lobe)",
+  "icd_category": "G40.209 — Localization-related (focal) epilepsy with complex partial seizures, not intractable",
+  "one_liner": "A 24-year-old man presents after a witnessed episode of staring, lip smacking, and left hand fumbling lasting 90 seconds, followed by confusion for 10 minutes, with a history of similar spells over the past 2 years.",
+  "stage2": {
+    "hpi_extension": "The patient's coworker witnessed him suddenly stop mid-conversation, stare blankly, and begin repetitive lip smacking and fumbling movements with his left hand. The episode lasted approximately 90 seconds. He did not fall or have convulsive movements. Afterward, he was confused and could not recall the event. He reports a rising 'queasy' sensation in his epigastrium and a vivid sense of déjà vu lasting a few seconds before the episode — which he now recognizes he has experienced before. Over the past 2 years, he has had approximately 10-12 similar events, initially attributed to 'zoning out' or daydreaming. Two episodes progressed to generalized tonic-clonic convulsions with tongue biting and postictal confusion lasting 30 minutes. He had a complex febrile seizure at age 14 months that lasted 20 minutes. No recent head trauma, infection, or drug use.",
+    "pmh": "Complex febrile seizure in infancy. No prior epilepsy diagnosis.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of epilepsy. Mother has migraines.",
+    "social_history": "Software developer. Non-smoker. Drinks 1-2 beers on weekends. Denies illicit drug use. Sleeps 6 hours/night (often less due to work). Drives to work daily.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "78 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "75 kg, BMI 23.4"
+    },
+    "physical_exam": "General: Alert, oriented, cooperative young man. No acute distress. Currently at baseline. HEENT: No tongue laceration. No signs of head trauma. Cranial nerves II-XII intact. Neuro: Mental status — alert and oriented x4, normal language, intact memory for recent events (not for the seizure episode). Motor: 5/5 strength throughout. Sensory: Intact to light touch, pinprick, vibration, and proprioception. DTRs 2+ and symmetric. Babinski downgoing bilaterally. Coordination: Normal finger-to-nose and heel-to-shin. Gait: Normal. No meningismus."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "15.1 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hyponatremia excluded as seizure trigger"},
+      {"test_name": "BMP — Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded"},
+      {"test_name": "BMP — Calcium", "result": "9.6 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypocalcemia excluded as seizure cause"},
+      {"test_name": "BMP — Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Serum prolactin (drawn 25 min post-event)", "result": "42 ng/mL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated prolactin drawn 10-20 min after event supports true seizure vs. psychogenic nonepileptic event (sensitivity ~60%)"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; drug-induced seizure excluded"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Hepatic function panel — ALT", "result": "24 U/L", "flag": "WNL", "clinical_significance": "Normal; baseline before initiating antiepileptic drug"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain with epilepsy protocol", "result": "Right mesial temporal sclerosis: hippocampal atrophy with increased T2/FLAIR signal in the right hippocampus. No mass, vascular malformation, or cortical dysplasia identified.", "flag": "ABNORMAL", "clinical_significance": "Mesial temporal sclerosis (MTS) is the most common structural cause of temporal lobe epilepsy. The right-sided finding correlates with seizure semiology (left-hand automatisms suggest right temporal focus). MTS is strongly associated with history of prolonged febrile seizures in childhood."}
+    ],
+    "key_tests": ["EEG (routine and/or prolonged video-EEG monitoring)", "MRI brain with epilepsy protocol (thin-cut coronal FLAIR through temporal lobes)", "Detailed seizure semiology and witness description", "Serum electrolytes (sodium, calcium, magnesium, glucose)"],
+    "acceptable_tests": ["CBC", "BMP with calcium and magnesium", "Hepatic function panel (baseline before AED)", "Urine drug screen", "Serum prolactin (if diagnostic uncertainty)", "CT head (if MRI unavailable or acute presentation)"],
+    "low_yield_tests": ["Lumbar puncture (unless meningitis/encephalitis suspected)", "Cerebral angiography", "Carotid ultrasound", "Serum ammonia (without liver disease)", "Blood cultures (without fever)"]
+  },
+  "stage5": {
+    "final_clue": "Routine EEG shows intermittent right temporal sharp waves and slow-wave discharges maximal at T4/T6 electrodes, consistent with a right temporal epileptogenic focus. Combined with MRI showing right mesial temporal sclerosis and a clinical history of focal seizures with impaired awareness (aura of epigastric rising and déjà vu, followed by staring and oroalimentary/manual automatisms) with occasional secondary generalization, the diagnosis of right temporal lobe epilepsy due to mesial temporal sclerosis is confirmed. He is started on levetiracetam and counseled regarding driving restrictions per state law."
+  },
+  "debrief": {
+    "classic_presentation": "Young adult with recurrent focal seizures with impaired awareness originating from the temporal lobe: epigastric rising aura and déjà vu (mesial temporal aura), followed by behavioral arrest, staring, oroalimentary automatisms (lip smacking), and unilateral hand automatisms, with postictal confusion and amnesia. History of prolonged febrile seizure in childhood and MRI showing mesial temporal sclerosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Mesial temporal sclerosis (MTS) is characterized by hippocampal neuronal loss (particularly in CA1 and CA3 subfields) and reactive gliosis, often resulting from an initial precipitating injury (e.g., prolonged febrile seizure, status epilepticus, CNS infection, or head trauma in early childhood). The damaged hippocampus undergoes mossy fiber sprouting and reorganization of excitatory circuits, creating a hyperexcitable epileptogenic network. Seizures arise from the mesial temporal structures (hippocampus, amygdala, parahippocampal gyrus) and propagate through limbic circuits, producing the characteristic aura (epigastric rising = insular/amygdala activation, déjà vu = mesial temporal), automatisms (temporal-limbic spread), and impaired consciousness (bilateral temporal or subcortical spread).",
+    "treatment_overview": "First-line AEDs for focal epilepsy: Levetiracetam, lamotrigine, oxcarbazepine, carbamazepine, lacosamide. Levetiracetam is often chosen first for its broad spectrum, no drug interactions, no need for titration, and renal clearance. Lamotrigine is an alternative with good tolerability but requires slow titration (risk of Stevens-Johnson syndrome). Carbamazepine and oxcarbazepine are also effective for focal seizures. If 2 adequate AED trials fail (drug-resistant epilepsy, ~30% of TLE), surgical evaluation is indicated. Anterior temporal lobectomy for MTS achieves seizure freedom in 60-80% of well-selected patients — it is one of the most effective surgical treatments in all of medicine. Lifestyle: adequate sleep, alcohol moderation, driving restrictions per state law.",
+    "high_yield_pearls": [
+      "Temporal lobe epilepsy is the most common form of focal epilepsy in adults. The classic aura is epigastric rising sensation, déjà vu, or fear — followed by behavioral arrest, staring, and oroalimentary automatisms.",
+      "Mesial temporal sclerosis is the most common pathological substrate of drug-resistant temporal lobe epilepsy — it is strongly associated with a history of prolonged febrile seizures in childhood.",
+      "Focal to bilateral tonic-clonic seizures (formerly 'secondarily generalized') — hand automatisms are typically IPSILATERAL to the seizure focus, while dystonic posturing is CONTRALATERAL.",
+      "Approximately 30% of epilepsy patients are drug-resistant (fail 2 adequate AED trials) — these patients should be referred for surgical evaluation early, not trialed on endless medications.",
+      "Post-seizure prolactin elevation (drawn 10-20 min after event) supports a true epileptic seizure over a psychogenic nonepileptic event, but sensitivity is only ~60% and it should not be used alone."
+    ],
+    "sources": [
+      "ILAE Classification of the Epilepsies, 2017",
+      "AAN/AES Practice Guideline: Management of Drug-Resistant Epilepsy, 2018",
+      "UpToDate: Focal epilepsy — causes, clinical features, and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events", "Syncope (cardiogenic or vasovagal)", "Transient ischemic attack", "Hypoglycemia", "Absence seizures", "Brain tumor"],
+    "after_stage2_more_likely": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events"],
+    "after_stage2_less_likely": ["Syncope", "Hypoglycemia", "Transient ischemic attack"],
+    "after_labs_top3": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events", "Brain tumor"]
+  }
+}

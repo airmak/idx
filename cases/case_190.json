@@ -1,0 +1,161 @@
+{
+  "case_id": "case_190",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Intussusception (ileocolic)",
+  "icd_category": "K56.1 – Intussusception",
+  "one_liner": "A 9-month-old male with no significant past medical history presents with sudden-onset episodic abdominal pain, inconsolable crying with drawing up of the legs, and 'currant jelly' stools.",
+  "stage2": {
+    "hpi_extension": "The infant was in his usual state of health until approximately 6 hours ago when he suddenly began screaming inconsolably, pulling his knees to his chest. The episodes last 2-3 minutes and recur every 15-20 minutes. Between episodes he initially seemed comfortable but has become progressively lethargic. He vomited twice (initially non-bilious, then bilious-green). Two hours ago, his mother noticed a bloody, mucousy stool in his diaper that she describes as looking like 'raspberry jelly.' He has had decreased oral intake and no wet diapers in the last 4 hours. He had a mild viral URI that resolved 1 week ago. No recent vaccinations (last rotavirus vaccine was at 4 months). No history of prior episodes, abdominal surgery, or known lead point.",
+    "pmh": "Born full-term. Up to date on immunizations. No prior hospitalizations or surgeries. Mild viral URI 1 week ago (resolved).",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of intussusception, Meckel diverticulum, or inflammatory bowel disease.",
+    "social_history": "Lives with both parents. Breastfed with introduction of solids at 6 months. No daycare attendance. No secondhand smoke exposure.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "168 bpm",
+      "bp": "78/48 mmHg",
+      "rr": "38 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "9.0 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alternating between inconsolable crying with legs drawn up and periods of lethargy; pale; appears ill. HEENT: Anterior fontanelle flat, mucous membranes dry, no oral lesions. Neck: Supple. Cardiovascular: Tachycardic, regular rhythm, no murmurs; peripheral pulses diminished. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mildly distended. A sausage-shaped mass is palpable in the right upper quadrant extending toward the transverse colon. The right lower quadrant feels notably empty (Dance sign). Mild diffuse tenderness; no peritoneal signs. Hyperactive, high-pitched bowel sounds. Rectal exam: Grossly bloody, mucoid stool ('currant jelly') on examining finger; no palpable rectal mass. Skin: Pale, delayed capillary refill (3 seconds). Extremities: Cool distal extremities."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "16.8 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis is nonspecific but commonly seen in intussusception due to physiological stress and possible bowel ischemia."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "10.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mildly low hemoglobin may reflect GI blood loss from the 'currant jelly' stools or hemodilution; significant anemia would suggest prolonged bleeding."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "342 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count."
+      },
+      {
+        "test_name": "BMP (Na, K, Cl, CO2, BUN, Cr, Glucose)",
+        "result": "Na 136, K 4.6, Cl 100, CO2 18, BUN 20, Cr 0.4, Glucose 76",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild metabolic acidosis (low CO2), elevated BUN, and borderline creatinine suggest dehydration and possible early ischemia; the metabolic acidosis may reflect lactic acid from bowel compromise."
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate raises concern for bowel ischemia from mesenteric vessel compression within the intussusceptum."
+      },
+      {
+        "test_name": "CRP",
+        "result": "32 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CRP reflects the inflammatory response to bowel wall edema and ischemia."
+      },
+      {
+        "test_name": "Stool guaiac",
+        "result": "Strongly positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms the presence of blood in stool; currant jelly stool (blood mixed with mucus) results from venous congestion and mucosal sloughing of the intussuscepted bowel."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "SG 1.032, no WBCs, no bacteria, no blood",
+        "flag": "WNL",
+        "clinical_significance": "Concentrated urine confirms dehydration; normal UA helps exclude UTI as a cause of abdominal pain and irritability."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Abdominal ultrasound",
+        "result": "Target sign (doughnut sign) visualized in the right upper quadrant on transverse view, measuring 3.2 cm in diameter. Pseudokidney sign on longitudinal view. Trapped mesenteric lymph nodes and fat within the intussusceptum. Small amount of free fluid in the peritoneal cavity. No pneumoperitoneum. No lead point mass identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The target/doughnut sign on transverse ultrasound and pseudokidney sign on longitudinal view are diagnostic of intussusception with >98% sensitivity and specificity. Free fluid suggests longer duration and possible ischemia."
+      },
+      {
+        "test_name": "Abdominal X-ray (supine and upright)",
+        "result": "Paucity of bowel gas in the right lower quadrant. Soft tissue density in the right upper quadrant/hepatic flexure region. Mild small bowel dilation with a few air-fluid levels. No free air. No calcifications.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A soft tissue mass with absent RLQ bowel gas is suggestive but not diagnostic of intussusception; abdominal X-ray has low sensitivity (50-60%) and should not be used to rule out the diagnosis."
+      }
+    ],
+    "key_tests": [
+      "Abdominal ultrasound",
+      "Abdominal X-ray (to exclude perforation/free air before enema)",
+      "CBC with differential",
+      "BMP (electrolytes, BUN, glucose)"
+    ],
+    "acceptable_tests": [
+      "Lactate",
+      "CRP",
+      "Blood type and crossmatch (in case surgery needed)",
+      "Stool guaiac",
+      "Urinalysis",
+      "Air or barium contrast enema (diagnostic AND therapeutic)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (US is preferred in children)",
+      "Upper GI series",
+      "Stool cultures (unless infectious etiology suspected)",
+      "Coagulation studies (unless DIC suspected)",
+      "Serum amylase/lipase"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Abdominal ultrasound reveals a classic target sign in the right upper quadrant with a 3.2 cm intussusceptum and a pseudokidney sign, confirming ileocolic intussusception. An air contrast enema is performed under fluoroscopy and successfully reduces the intussusception with reflux of air into the terminal ileum."
+  },
+  "debrief": {
+    "classic_presentation": "Intussusception classically presents in infants aged 3-36 months (peak 5-9 months) with the triad of (1) sudden-onset episodic, colicky abdominal pain with inconsolable crying and drawing up of the legs, (2) vomiting (initially non-bilious, later bilious), and (3) 'currant jelly' stools (blood and mucus mixture). Between episodes the child may appear well initially but becomes progressively lethargic. Physical exam may reveal a sausage-shaped mass in the RUQ and emptiness in the RLQ (Dance sign). The complete triad is present in only 20-40% of cases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Intussusception occurs when a proximal segment of bowel (intussusceptum) telescopes into the adjacent distal segment (intussuscipiens). In children, 90% are ileocolic (terminal ileum invaginates into the cecum/ascending colon). Most pediatric cases are idiopathic, though preceding viral illness with lymphoid hyperplasia (Peyer's patches) in the terminal ileum is thought to serve as a lead point. The telescoped bowel drags its mesentery with it, causing compression of mesenteric vessels — first venous obstruction (causing congestion, edema, and bleeding → currant jelly stools), then arterial compromise (ischemia, necrosis, and potential perforation). The intermittent nature of pain corresponds to peristaltic waves attempting to push the intussusceptum forward.",
+    "treatment_overview": "Non-operative reduction with air enema (or hydrostatic contrast enema) under fluoroscopic or ultrasound guidance is the first-line treatment, with success rates of 80-95% when performed within 24 hours. Prerequisites include: no signs of perforation (free air on X-ray), no peritonitis, and hemodynamic stability. The 'rule of 3s' for air enema: maximum pressure 120 mmHg, maximum 3 attempts, maximum 3 minutes each. Success is confirmed by reflux of air/contrast into the terminal ileum. Recurrence rate is 5-10% (usually within 72 hours). Surgical intervention (manual reduction or bowel resection) is required for failed enema reduction, perforation, peritonitis, or prolonged symptoms (>48 hours). All children require post-reduction observation for 24 hours.",
+    "high_yield_pearls": [
+      "The CLASSIC TRIAD of intussusception (colicky pain, vomiting, currant jelly stools) is present in only 20-40% of cases — the most reliable individual finding is intermittent, episodic, severe abdominal pain.",
+      "Currant jelly stools are a LATE finding indicating mucosal ischemia — do not wait for bloody stools to consider the diagnosis; early intussusception may present only with episodic pain and lethargy.",
+      "Ultrasound is the imaging modality of choice (sensitivity >98%, specificity ~100%) — the TARGET/DOUGHNUT SIGN on transverse view and PSEUDOKIDNEY SIGN on longitudinal view are diagnostic.",
+      "Lethargy out of proportion to exam findings in a young infant can be the presenting complaint of intussusception and should prompt evaluation even without abdominal pain history.",
+      "Pathologic lead points (Meckel diverticulum, polyp, lymphoma, Henoch-Schonlein purpura) are more common in children >2 years or in recurrent intussusception and should prompt further workup if identified."
+    ],
+    "sources": [
+      "UpToDate: Intussusception in children: Clinical manifestations and diagnosis",
+      "UpToDate: Intussusception in children: Treatment",
+      "AAP/ACR: Appropriateness Criteria for Intussusception",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Intussusception",
+      "Midgut volvulus (malrotation)",
+      "Incarcerated inguinal hernia",
+      "Gastroenteritis (viral)",
+      "Meckel diverticulum",
+      "Henoch-Schonlein purpura",
+      "Appendicitis",
+      "Hirschsprung-associated enterocolitis"
+    ],
+    "after_stage2_more_likely": [
+      "Intussusception (episodic colicky pain, currant jelly stools, sausage-shaped mass, Dance sign, classic age)",
+      "Midgut volvulus (bilious vomiting — but typically presents in neonatal period)"
+    ],
+    "after_stage2_less_likely": [
+      "Gastroenteritis (would not have episodic colicky pain pattern, palpable mass, or currant jelly stools)",
+      "Incarcerated hernia (no inguinal swelling on exam)",
+      "Appendicitis (too young for classic presentation, episodic pain pattern atypical)"
+    ],
+    "after_labs_top3": [
+      "Intussusception (ileocolic)",
+      "Meckel diverticulum with intussusception as lead point",
+      "Midgut volvulus"
+    ]
+  }
+}

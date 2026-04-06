@@ -1,0 +1,110 @@
+{
+  "case_id": "case_247",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Iron deficiency anemia (menstrual blood loss)",
+  "icd_category": "D50.0 — Iron deficiency anemia secondary to blood loss (chronic)",
+  "one_liner": "A 29-year-old woman presents with 3 months of progressive fatigue, exercise intolerance, and pallor, with a history of heavy menstrual periods lasting 7-8 days.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive fatigue over the past 3 months that has worsened to the point where she feels exhausted after climbing one flight of stairs. She previously exercised regularly at the gym but has had to stop due to shortness of breath and lightheadedness with exertion. She has noticed her skin appears paler than usual and her nails have become brittle. She occasionally craves chewing ice (pica). She reports her menstrual periods have been heavy for the past 2 years — lasting 7-8 days with soaking through a pad every 2-3 hours on the heaviest days (days 2-4), with passage of large clots. She changes pads approximately 10-12 times per day during heavy flow. She denies intermenstrual bleeding. She does not use hormonal contraception. She follows a vegetarian diet. She denies melena, hematochezia, hematuria, or hemoptysis. No weight loss, fever, or night sweats.",
+    "pmh": "Menorrhagia (heavy menstrual bleeding for 2 years, no prior evaluation). No prior history of anemia.",
+    "surgical_history": "None",
+    "medications": "Multivitamin daily (no iron supplementation)",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with uterine fibroids. Sister with iron deficiency anemia. No family history of bleeding disorders, thalassemia, or GI malignancy.",
+    "social_history": "Works as a graphic designer. Lives with roommate. Single. Vegetarian for 5 years. Denies tobacco, alcohol, or illicit drug use. Exercises (or used to) 4 times per week. No recent travel. Sexually active with one male partner, uses condoms.",
+    "vitals": {
+      "temp": "98.2°F (36.8°C)",
+      "hr": "96 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "128 lbs, BMI 21.9 kg/m²"
+    },
+    "physical_exam": "General: Pale-appearing young woman in no acute distress. HEENT: Pale conjunctivae bilaterally. Smooth, atrophic tongue (glossitis). Angular cheilitis at oral commissures. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Tachycardic, regular rhythm, grade 2/6 systolic flow murmur (physiologic). Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, non-distended, no hepatosplenomegaly. Extremities: No edema. Nails: koilonychia (spoon nails) noted on several fingers, brittle. Skin: Pale, no petechiae, no bruising. Neurological: Grossly intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.2, Hgb 8.4, Hct 26.2, MCV 68 fL, MCH 24 pg, MCHC 30 g/dL, RDW 18.2%, Plt 380", "flag": "ABNORMAL", "clinical_significance": "Microcytic hypochromic anemia with elevated RDW and reactive thrombocytosis — classic pattern for iron deficiency anemia"},
+      {"test_name": "Reticulocyte count", "result": "1.8%", "flag": "LOW-NORMAL", "clinical_significance": "Inappropriately low reticulocyte response for degree of anemia, indicating inadequate marrow response due to iron deficiency"},
+      {"test_name": "Serum iron", "result": "22 mcg/dL", "flag": "LOW", "clinical_significance": "Low serum iron confirming iron deficiency (normal 60-170)"},
+      {"test_name": "Ferritin", "result": "6 ng/mL", "flag": "LOW", "clinical_significance": "Critically low ferritin (normal 12-150) — ferritin <15 is diagnostic of iron deficiency; this is the most sensitive and specific single test"},
+      {"test_name": "TIBC (Total Iron Binding Capacity)", "result": "450 mcg/dL", "flag": "HIGH", "clinical_significance": "Elevated TIBC (normal 250-370) reflecting increased transferrin production in response to iron deficiency"},
+      {"test_name": "Transferrin saturation", "result": "5%", "flag": "LOW", "clinical_significance": "Very low transferrin saturation (normal 20-50%) confirming iron deficiency"},
+      {"test_name": "Peripheral blood smear", "result": "Microcytic, hypochromic red blood cells with anisocytosis and occasional pencil cells (elliptocytes). No target cells.", "flag": "ABNORMAL", "clinical_significance": "Morphology consistent with iron deficiency anemia — pencil cells are characteristic"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 103, CO2 25, BUN 10, Cr 0.7, Glucose 85, Ca 9.2, AST 18, ALT 15, Alk Phos 55, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic function; no renal or liver disease contributing to anemia"},
+      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism as contributing cause of fatigue"},
+      {"test_name": "Pregnancy test (urine hCG)", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out pregnancy as cause of anemia or consideration before treatment"}
+    ],
+    "imaging_results": [
+      {"test_name": "Pelvic ultrasound", "result": "Uterus mildly enlarged at 10 cm. Two intramural fibroids, the largest measuring 3.2 cm. Endometrial stripe 8 mm, regular. Bilateral ovaries normal.", "flag": "ABNORMAL", "clinical_significance": "Uterine fibroids identified as the likely cause of menorrhagia and chronic blood loss leading to iron deficiency anemia"}
+    ],
+    "key_tests": [
+      "CBC — showing microcytic hypochromic anemia (Hgb 8.4, MCV 68)",
+      "Ferritin — 6 ng/mL, confirming iron deficiency (most sensitive and specific single test)",
+      "Iron studies (serum iron, TIBC, transferrin saturation) — classic iron deficiency pattern",
+      "Pelvic ultrasound — identifying uterine fibroids as the cause of menorrhagia"
+    ],
+    "acceptable_tests": [
+      "Reticulocyte count — assessing marrow response",
+      "Peripheral blood smear — confirming microcytic morphology",
+      "CMP — baseline metabolic assessment",
+      "TSH — evaluating for thyroid-related fatigue",
+      "Pregnancy test — standard in reproductive-age women",
+      "Hemoglobin electrophoresis — if thalassemia suspected (but RDW elevation and low ferritin favor IDA)"
+    ],
+    "low_yield_tests": [
+      "Bone marrow biopsy (diagnosis established by peripheral blood and iron studies)",
+      "Vitamin B12 and folate (MCV is low, not high — macrocytic causes not primary consideration)",
+      "Colonoscopy (young woman with clear menstrual blood loss source; not indicated unless GI symptoms present)",
+      "Celiac panel (no GI symptoms suggesting malabsorption)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has classic iron deficiency anemia with microcytic hypochromic anemia (Hgb 8.4, MCV 68), critically low ferritin (6 ng/mL), low serum iron, elevated TIBC, and low transferrin saturation. The cause is chronic blood loss from menorrhagia (heavy periods for 2 years with pad saturation every 2-3 hours). Pelvic ultrasound reveals uterine fibroids as the etiology of heavy bleeding. Contributing factors include vegetarian diet with suboptimal dietary iron intake. Physical exam findings are classic: pallor, glossitis, angular cheilitis, koilonychia, and pica (ice craving)."
+  },
+  "debrief": {
+    "classic_presentation": "A reproductive-age woman with heavy menstrual bleeding presenting with gradual-onset fatigue, exercise intolerance, pallor, and signs specific to iron deficiency: koilonychia (spoon nails), glossitis (smooth tongue), angular cheilitis, and pica (craving non-food items, especially ice — pagophagia). Labs show microcytic hypochromic anemia with low ferritin, low serum iron, elevated TIBC, and low transferrin saturation.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Iron is essential for hemoglobin synthesis, oxygen transport, and cellular metabolism. The body contains 3-4 g of total iron, with 65% in hemoglobin. Iron is absorbed in the duodenum and proximal jejunum; absorption is regulated by hepcidin. In iron deficiency, hepcidin levels drop, maximizing iron absorption, but when losses exceed absorption (as in menorrhagia), iron stores are progressively depleted. The sequence is: (1) iron depletion (low ferritin, normal Hgb), (2) iron-deficient erythropoiesis (low transferrin saturation, normal or borderline Hgb), (3) iron deficiency anemia (microcytic hypochromic anemia). Pica and koilonychia result from iron-dependent enzyme deficiency in epithelial tissues. Reactive thrombocytosis occurs because thrombopoietin and erythropoietin share structural homology, and elevated erythropoietin cross-reacts with thrombopoietin receptors.",
+    "treatment_overview": "Iron replacement: oral ferrous sulfate 325 mg (65 mg elemental iron) taken 1-2 times daily on an empty stomach with vitamin C to enhance absorption. Avoid taking with calcium, antacids, tea, or coffee which inhibit absorption. Expect reticulocyte response in 7-10 days and hemoglobin improvement of 1-2 g/dL per month. Continue iron supplementation for 3-6 months after hemoglobin normalizes to replete stores (target ferritin >50). IV iron (ferric carboxymaltose, iron sucrose) for patients who cannot tolerate oral iron or need rapid repletion. Address the underlying cause: gynecology referral for fibroid management — options include hormonal therapy (combined OCP, levonorgestrel IUD, tranexamic acid during menses), myomectomy, or uterine artery embolization. Transfusion rarely needed unless symptomatic anemia with Hgb <7 or hemodynamic instability.",
+    "high_yield_pearls": [
+      "Ferritin is the MOST sensitive and specific single test for iron deficiency — a ferritin <15 ng/mL is diagnostic. However, ferritin is an acute phase reactant and may be falsely normal in infection/inflammation.",
+      "Menorrhagia is the most common cause of iron deficiency anemia in premenopausal women — always quantify menstrual blood loss (>80 mL/cycle = menorrhagia).",
+      "The MCV and RDW help distinguish IDA from thalassemia trait: IDA has elevated RDW (>14.5%) while thalassemia trait typically has normal RDW with a very low MCV.",
+      "Koilonychia (spoon nails), pica (ice craving), glossitis, and angular cheilitis are physical exam findings specific to iron deficiency, not just anemia in general.",
+      "In premenopausal women with clear menstrual blood loss, GI workup is not routinely needed. In postmenopausal women or men with IDA, GI evaluation (colonoscopy, upper endoscopy) is mandatory to rule out GI malignancy."
+    ],
+    "sources": [
+      "AGA Clinical Practice Guideline on the Management of Iron Deficiency Anemia (Gastroenterology, 2020)",
+      "Camaschella C. Iron-deficiency anemia. N Engl J Med, 2015",
+      "ACOG Practice Bulletin: Management of Abnormal Uterine Bleeding Associated with Leiomyomata (2021)",
+      "Short MW, Domagalski JE. Iron deficiency anemia: evaluation and management. Am Fam Physician, 2013",
+      "Lopez A et al. Iron deficiency anaemia. Lancet, 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Iron deficiency anemia",
+      "Thalassemia trait",
+      "Anemia of chronic disease",
+      "Hypothyroidism",
+      "Vitamin B12 deficiency",
+      "Celiac disease with malabsorption"
+    ],
+    "after_stage2_more_likely": [
+      "Iron deficiency anemia — heavy menstrual bleeding, vegetarian diet, pallor, koilonychia, glossitis, pica, tachycardia",
+      "Thalassemia trait — microcytic anemia in a young woman, though pica and koilonychia are more specific for iron deficiency"
+    ],
+    "after_stage2_less_likely": [
+      "Hypothyroidism — no cold intolerance, constipation, or thyromegaly",
+      "Vitamin B12 deficiency — would cause macrocytic anemia, not microcytic",
+      "Anemia of chronic disease — no chronic inflammatory condition identified"
+    ],
+    "after_labs_top3": [
+      "Iron deficiency anemia from menorrhagia — microcytic anemia, ferritin 6, low iron, elevated TIBC, uterine fibroids on ultrasound",
+      "Iron deficiency with thalassemia trait coexistence — cannot fully exclude without hemoglobin electrophoresis, but iron deficiency is clearly present and sufficient to explain findings",
+      "Celiac disease with iron malabsorption — possible contributor but no GI symptoms; menorrhagia is the evident cause"
+    ]
+  }
+}

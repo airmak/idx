@@ -1,0 +1,108 @@
+{
+  "case_id": "case_132",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+  "icd_category": "Q61.2 — Polycystic kidney, adult type",
+  "one_liner": "A 35-year-old male with a family history of kidney disease presents with bilateral flank pain, hematuria, and hypertension, found to have enlarged cystic kidneys.",
+  "stage2": {
+    "hpi_extension": "The patient presents with recurrent dull, aching bilateral flank pain worsening over the past 6 months. He noticed episodes of gross hematuria lasting 2-3 days, the most recent being 1 week ago. He was diagnosed with hypertension at age 30, which his PCP has attributed to 'early onset.' He reports a sensation of abdominal fullness after meals. He has also had 2 urinary tract infections in the past year, which is unusual for him. His father was on dialysis and received a kidney transplant at age 52, and his paternal aunt also had 'kidney problems.'",
+    "pmh": "Hypertension (diagnosed age 30), 2 UTIs in the past year, migraine headaches.",
+    "surgical_history": "None.",
+    "medications": "Lisinopril 20 mg daily, ibuprofen PRN for headaches.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father: ESRD requiring transplant at age 52 (told he had 'large kidneys with cysts'). Paternal aunt: kidney disease (details unknown). Paternal grandfather: died of stroke at age 58.",
+    "social_history": "Software developer. Non-smoker. Drinks 1-2 beers on weekends. No illicit drug use. Married with one child.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "78 bpm",
+      "bp": "148/92 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "84 kg, BMI 26.8"
+    },
+    "physical_exam": "Well-appearing young male in no acute distress. Heart: regular rate and rhythm, no murmurs. Lungs: clear bilaterally. Abdomen: bilateral palpable, non-tender flank masses extending below the costal margin. No hepatomegaly or ascites. No inguinal hernias. Extremities: no edema. No rash or skin lesions."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for age; early renal impairment in ADPKD"},
+      {"test_name": "eGFR", "result": "58 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 3a; GFR decline begins as cysts progressively destroy renal parenchyma"},
+      {"test_name": "Urinalysis", "result": "Moderate blood (25-50 RBCs/hpf), trace protein, no casts, no WBCs", "flag": "ABNORMAL", "clinical_significance": "Hematuria from cyst rupture or hemorrhage into a cyst is common in ADPKD"},
+      {"test_name": "Urine Albumin:Creatinine Ratio", "result": "85 mg/g", "flag": "HIGH", "clinical_significance": "Mild albuminuria; proteinuria in ADPKD is typically modest compared to glomerular diseases"},
+      {"test_name": "CBC", "result": "Hgb 15.2 g/dL, WBC 7,400/μL, Plt 230,000/μL", "flag": "WNL", "clinical_significance": "Normal; hemoglobin may be relatively preserved in ADPKD due to maintained erythropoietin production"},
+      {"test_name": "Serum Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Serum Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Liver Function Tests", "result": "AST 22, ALT 28, ALP 72, total bilirubin 0.8", "flag": "WNL", "clinical_significance": "Normal; hepatic cysts are common in ADPKD but rarely affect liver function"},
+      {"test_name": "Serum Uric Acid", "result": "7.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; hyperuricemia is common in ADPKD and may contribute to stone formation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Right kidney 16.8 cm, left kidney 17.2 cm. Bilateral kidneys are markedly enlarged with innumerable cortical and medullary cysts ranging from 0.5-5 cm. No solid masses. Three hepatic cysts noted in the right lobe (largest 2.3 cm).", "flag": "ABNORMAL", "clinical_significance": "Bilateral enlarged kidneys with multiple cysts in a patient with positive family history meets Ravine criteria for ADPKD (≥3 cysts unilateral or bilateral in patient 15-39 years with positive family history)"},
+      {"test_name": "MRI Brain (MRA Circle of Willis)", "result": "No intracranial aneurysm identified. Normal cerebral vasculature.", "flag": "WNL", "clinical_significance": "Screening for intracranial aneurysms is recommended in ADPKD patients with family history of aneurysm/subarachnoid hemorrhage; reassuring result"}
+    ],
+    "key_tests": [
+      "Renal ultrasound",
+      "Basic metabolic panel with creatinine/eGFR",
+      "Urinalysis",
+      "Family history assessment"
+    ],
+    "acceptable_tests": [
+      "MRI abdomen (total kidney volume measurement for prognosis)",
+      "MRA brain (screen for intracranial aneurysm if family history)",
+      "Urine albumin:creatinine ratio",
+      "Liver function tests",
+      "Genetic testing for PKD1/PKD2 (if diagnosis uncertain)",
+      "Complete blood count",
+      "Serum uric acid"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (diagnosis is radiographic, not histologic)",
+      "ANA/ANCA panel",
+      "CT with contrast (avoid unnecessary contrast exposure in CKD patient)",
+      "Renal artery Doppler"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Bilateral massively enlarged kidneys with innumerable cysts on ultrasound, in a 35-year-old with a family history of ESRD from cystic kidney disease (autosomal dominant pattern), early-onset hypertension, hematuria, and hepatic cysts confirms autosomal dominant polycystic kidney disease (ADPKD)."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult with a family history of cystic kidney disease and ESRD presenting with bilateral flank pain, hematuria, early-onset hypertension, and palpable flank masses. Ultrasound reveals bilaterally enlarged kidneys with multiple cysts. Hepatic cysts are a common extrarenal manifestation.",
+    "attending_mode_notes": null,
+    "pathophysiology": "ADPKD is caused by mutations in PKD1 (chromosome 16, 85% of cases, more severe) or PKD2 (chromosome 4, 15%, milder). These genes encode polycystin-1 and polycystin-2, proteins that form a mechanosensory complex in primary cilia of renal tubular epithelial cells. Loss of polycystin function leads to dysregulated cell proliferation, fluid secretion into cyst lumens (driven by CFTR-mediated chloride secretion and cAMP), and progressive cyst expansion. Cysts arise from all nephron segments and compress surrounding parenchyma, leading to progressive loss of functional nephrons. Hypertension occurs early due to RAAS activation from intrarenal ischemia. Extrarenal manifestations include hepatic cysts (most common), intracranial aneurysms (8-12%), mitral valve prolapse, and colonic diverticula.",
+    "treatment_overview": "Blood pressure control with ACE inhibitor or ARB (target <110/75 in young patients per HALT-PKD trial). Tolvaptan (vasopressin V2 receptor antagonist) slows kidney growth and GFR decline in rapidly progressive ADPKD — FDA approved for at-risk patients. Increase water intake (>3 L/day) to suppress vasopressin. Avoid caffeine (stimulates cAMP). Avoid contact sports (risk of cyst rupture). Manage complications: analgesics for flank pain (avoid NSAIDs), antibiotics for infected cysts (fluoroquinolones penetrate cysts best), manage hematuria conservatively. Screen for intracranial aneurysms (MRA) if family history of aneurysm/SAH. Plan for renal replacement therapy as needed.",
+    "high_yield_pearls": [
+      "ADPKD is the most common inherited cause of ESRD, affecting ~1:1000 individuals. PKD1 mutations progress to ESRD at median age 54; PKD2 at median age 74.",
+      "Revised Ravine ultrasound criteria for ADPKD diagnosis in at-risk individuals: age 15-39, ≥3 cysts total; age 40-59, ≥2 cysts per kidney; age ≥60, ≥4 cysts per kidney.",
+      "Tolvaptan (V2 receptor antagonist) is FDA-approved for ADPKD and reduces total kidney volume growth by ~50% and GFR decline; requires liver function monitoring.",
+      "Intracranial aneurysms occur in 8-12% of ADPKD patients and can cause subarachnoid hemorrhage; screening MRA is recommended for patients with family history of aneurysm/SAH.",
+      "Total kidney volume (measured by MRI) is the best biomarker for ADPKD progression and predicts future renal function decline."
+    ],
+    "sources": [
+      "Torres VE et al. Tolvaptan in patients with autosomal dominant polycystic kidney disease (TEMPO 3:4). NEJM. 2012;367(25):2407-2418.",
+      "Schrier RW et al. Blood pressure in early autosomal dominant polycystic kidney disease (HALT-PKD). NEJM. 2014;371(24):2255-2266.",
+      "UpToDate: Autosomal dominant polycystic kidney disease (ADPKD): Epidemiology, clinical presentation, and diagnosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Autosomal dominant polycystic kidney disease",
+      "Autosomal recessive polycystic kidney disease",
+      "Multiple simple renal cysts",
+      "Tuberous sclerosis complex (renal angiomyolipomas)",
+      "Von Hippel-Lindau disease (renal cysts and RCC)",
+      "Acquired cystic kidney disease"
+    ],
+    "after_stage2_more_likely": [
+      "ADPKD — bilateral palpable flank masses, family history of cystic kidney disease with autosomal dominant pattern, early-onset hypertension",
+      "VHL disease — cystic kidneys possible, but no other features (hemangioblastomas, pheochromocytoma)"
+    ],
+    "after_stage2_less_likely": [
+      "ARPKD — presents in infancy/childhood, autosomal recessive pattern",
+      "Acquired cystic kidney disease — occurs in patients with ESRD on long-term dialysis"
+    ],
+    "after_labs_top3": [
+      "ADPKD — bilateral massively enlarged cystic kidneys meeting Ravine criteria, positive family history, hepatic cysts, early CKD",
+      "Multiple simple renal cysts — these are usually few, isolated, and asymptomatic; not consistent with massive bilateral cystic kidneys",
+      "Tuberous sclerosis — bilateral renal involvement possible but would show angiomyolipomas, not simple cysts; no skin findings"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "case_id": "case_196",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Coarctation of the aorta",
+  "icd_category": "Q25.1 – Coarctation of aorta",
+  "one_liner": "A 2-week-old male born full-term presents with poor feeding, tachypnea, diaphoresis with feeds, and diminished femoral pulses discovered on newborn examination.",
+  "stage2": {
+    "hpi_extension": "The infant was born at 39 weeks via uncomplicated vaginal delivery with a birth weight of 3.4 kg and APGARs of 8 and 9. He was discharged on day 2 of life and initially fed well. Starting 4 days ago (around day 10 of life), the mother noticed he began tiring easily during breastfeeding, taking only 5-10 minutes per feed before falling asleep exhausted (previously 15-20 minutes). He has been breathing rapidly and sweating during feeds. He has had fewer wet diapers (3-4 per day, down from 6-8). He appears increasingly lethargic and has a grayish skin color. There has been no fever, vomiting, or diarrhea. The newborn screening was normal. No prenatal ultrasound abnormalities were reported.",
+    "pmh": "Born full-term at 39 weeks. Birth weight 3.4 kg. Uncomplicated vaginal delivery. No NICU stay. Newborn screening normal. Hearing screen passed bilaterally. No prenatal diagnosis of heart defect.",
+    "surgical_history": "None",
+    "medications": "None; exclusively breastfed",
+    "allergies": "No known drug allergies",
+    "family_history": "Father has a bicuspid aortic valve diagnosed in his 20s. No family history of Turner syndrome or other congenital heart disease.",
+    "social_history": "Lives with both parents. First child. No secondhand smoke exposure.",
+    "vitals": {
+      "temp": "36.5°C (97.7°F)",
+      "hr": "172 bpm",
+      "bp": "Right arm: 92/58 mmHg; Left arm: 88/56 mmHg; Right leg: 52/34 mmHg (>20 mmHg gradient between upper and lower extremities)",
+      "rr": "62 breaths/min",
+      "spo2": "Right hand (preductal): 97%; Right foot (postductal): 88%",
+      "weight_bmi": "3.2 kg (weight loss from 3.4 kg birth weight; below 5th percentile for current weight)"
+    },
+    "physical_exam": "General: Lethargic, pale/grayish neonate with mild respiratory distress; poor muscle tone; diaphoretic. HEENT: Anterior fontanelle flat. No dysmorphic features. Neck: No webbing (Turner syndrome excluded). Cardiovascular: Tachycardic, hyperdynamic precordium with palpable right ventricular heave. Loud S2 (pulmonic component). Grade 2/6 systolic ejection murmur best heard at the left upper sternal border radiating to the back (interscapular area). NO continuous murmur. CRITICAL FINDING: Brachial pulses strong and bounding bilaterally; FEMORAL PULSES markedly diminished/barely palpable bilaterally (upper-lower extremity pulse discrepancy). Radial-femoral delay present. Pulmonary: Tachypneic with mild subcostal retractions. Fine bibasilar crackles (pulmonary edema). Abdomen: Hepatomegaly (liver edge 4 cm below right costal margin). No splenomegaly. Extremities: Upper extremities warm and well-perfused; lower extremities cool with mottled appearance and capillary refill 4-5 seconds. Skin: Mottled, grayish, especially lower body."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Venous blood gas",
+        "result": "pH 7.24, pCO2 32 mmHg, HCO3 14 mEq/L, Lactate 5.8 mmol/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with elevated lactate reflects poor lower body perfusion (tissue hypoxia) from aortic obstruction; this indicates hemodynamically significant coarctation with cardiogenic shock."
+      },
+      {
+        "test_name": "BNP",
+        "result": "1,842 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated BNP confirms significant myocardial stress and heart failure from the left ventricular pressure overload caused by aortic coarctation."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 132, K 5.4, Cl 96, CO2 14, BUN 28, Cr 0.8, Glucose 62",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Prerenal azotemia (elevated BUN/Cr) reflects poor renal perfusion from aortic coarctation; hyperkalemia from acidosis and renal insufficiency; borderline hypoglycemia from poor feeding."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 11.2 × 10³/µL, Hgb 14.8 g/dL, Platelets 312 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC excludes sepsis-associated cytopenias; hemoglobin appropriate for neonatal age."
+      },
+      {
+        "test_name": "Liver function tests",
+        "result": "AST 182 U/L, ALT 148 U/L, Alk Phos 240 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated transaminases indicate hepatic congestion/ischemic hepatitis from right heart failure and hepatic venous congestion."
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.18 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated troponin reflects myocardial injury from severe pressure overload on the left ventricle."
+      },
+      {
+        "test_name": "Blood culture",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Negative blood culture helps exclude neonatal sepsis, which can present similarly with poor feeding, lethargy, and shock."
+      },
+      {
+        "test_name": "CRP",
+        "result": "4 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Low CRP argues against sepsis as the cause of the shock state."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Echocardiogram",
+        "result": "Discrete narrowing of the aortic isthmus (juxtaductal coarctation) with a pressure gradient of 35 mmHg across the coarctation site. Bicuspid aortic valve (two cusps with a raphe — most common associated anomaly). Left ventricular hypertrophy with moderately depressed systolic function (EF 38%). Dilated left atrium. Patent ductus arteriosus with bidirectional shunting. Small perimembranous VSD (3 mm). No aortic arch hypoplasia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Echocardiogram is the gold standard for diagnosis of coarctation in neonates — it reveals the coarctation site, associated anomalies (bicuspid aortic valve in 50-85%, VSD in 30-35%), and the degree of ventricular dysfunction."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Marked cardiomegaly (cardiothoracic ratio 0.68). Pulmonary venous congestion with bilateral perihilar haziness. Small bilateral pleural effusions. No rib notching (too young).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly with pulmonary edema confirms congestive heart failure; rib notching from collateral intercostal arteries is only seen in older children/adults with chronic coarctation, not neonates."
+      }
+    ],
+    "key_tests": [
+      "Four-extremity blood pressure measurement (upper and lower)",
+      "Pre-ductal and post-ductal pulse oximetry",
+      "Echocardiogram",
+      "Venous or arterial blood gas with lactate",
+      "BNP"
+    ],
+    "acceptable_tests": [
+      "Chest X-ray",
+      "BMP (renal function, electrolytes)",
+      "CBC",
+      "Blood culture (to exclude sepsis)",
+      "Troponin",
+      "Liver function tests",
+      "CT angiography or MR angiography (if echocardiogram insufficient)"
+    ],
+    "low_yield_tests": [
+      "ECG alone (may show RVH/LVH but does not diagnose coarctation)",
+      "Cardiac catheterization (not first-line for diagnosis in neonates)",
+      "Abdominal ultrasound (unless renal anomalies suspected)",
+      "Head ultrasound (unless neurologic concerns)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Echocardiogram confirms a discrete juxtaductal coarctation of the aorta with a 35 mmHg gradient, bicuspid aortic valve, small VSD, and depressed LV function. The clinical picture of a neonate presenting at 1-2 weeks of life (as the ductus arteriosus closes) with upper-lower extremity BP gradient >20 mmHg, diminished femoral pulses, differential cyanosis, metabolic acidosis, and heart failure is classic for critical coarctation of the aorta. Prostaglandin E1 infusion is started to reopen the ductus arteriosus, with rapid hemodynamic improvement."
+  },
+  "debrief": {
+    "classic_presentation": "Critical coarctation of the aorta presents in neonates at 1-3 weeks of life (coinciding with ductus arteriosus closure) with acute cardiovascular collapse: poor feeding, tachypnea, diaphoresis, lethargy, and grayish/mottled color. The hallmark finding is upper-lower extremity blood pressure discrepancy (>20 mmHg systolic) with diminished or absent femoral pulses and bounding brachial pulses. Differential cyanosis (preductal SpO2 > postductal SpO2) occurs when the PDA is still partially patent. Older children with milder coarctation may present with incidentally discovered hypertension, headaches, or leg claudication with exercise.",
+    "attending_mode_notes": "Critical management decision: Prostaglandin E1 (PGE1) infusion (0.05-0.1 mcg/kg/min) to maintain ductal patency is the LIFE-SAVING intervention — it must be started immediately upon clinical suspicion, even BEFORE echocardiographic confirmation. PGE1 side effects include apnea (prepare for intubation), fever, hypotension, and flushing. Associated anomalies to assess: bicuspid aortic valve (50-85%), VSD (30-35%), PDA, mitral valve abnormalities, and Turner syndrome (coarctation in ~10% of Turner patients). All females with coarctation should have a karyotype to evaluate for Turner syndrome (45,X).",
+    "pathophysiology": "Coarctation of the aorta is a discrete narrowing of the aorta, most commonly in the juxtaductal region (near the ductus arteriosus). During fetal life, right ventricular output bypasses the coarctation via the ductus arteriosus, maintaining lower body perfusion. After birth, as the ductus closes (typically days 3-14 of life), the coarctation becomes hemodynamically significant — the left ventricle faces acute afterload increase, leading to LV failure, decreased cardiac output, and shock. The upper body (including brain and arms) is perfused by the aorta proximal to the coarctation, while the lower body (including kidneys, gut, and legs) relies on flow through the narrowed segment, resulting in poor perfusion, metabolic acidosis, and renal/hepatic injury.",
+    "treatment_overview": "ACUTE MANAGEMENT: (1) PGE1 infusion to reopen the ductus arteriosus — the most critical intervention; start at 0.05 mcg/kg/min. (2) Stabilize heart failure: diuretics (furosemide), inotropic support (milrinone, dopamine/dobutamine) as needed. (3) Correct metabolic acidosis with fluid resuscitation and improved perfusion. (4) Intubation may be required (PGE1 causes apnea in 10-12%). DEFINITIVE REPAIR: Surgical repair (extended end-to-end anastomosis) is the standard for neonates, typically performed within days of stabilization. In older children/adolescents, balloon angioplasty with stent placement may be preferred for native or recurrent coarctation. Post-repair monitoring: lifelong follow-up for recoarctation (5-10%), persistent hypertension (25-50% even after repair), associated bicuspid aortic valve progression, and berry aneurysm screening.",
+    "high_yield_pearls": [
+      "ABSENT or DIMINISHED FEMORAL PULSES with bounding brachial pulses is the cardinal physical exam finding of coarctation — four-extremity blood pressure measurement should be standard in any neonate presenting with shock or heart failure.",
+      "PGE1 is the LIFE-SAVING bridge therapy — it reopens the ductus arteriosus and restores lower body perfusion; it should be started on CLINICAL SUSPICION before echocardiographic confirmation. Prepare for APNEA (occurs in 10-12% of neonates receiving PGE1).",
+      "Coarctation is the great MIMIC — neonatal coarctation frequently mimics sepsis (lethargy, poor feeding, acidosis, shock), and many infants are initially treated with antibiotics before the correct diagnosis is made. ALWAYS check femoral pulses in a 'septic' neonate.",
+      "Bicuspid aortic valve is the MOST COMMON associated anomaly (50-85%) and is the most common congenital heart defect overall; patients with BAV should be screened for coarctation, and vice versa.",
+      "Long-term hypertension persists in 25-50% of patients even after successful coarctation repair — this is thought to be due to altered vascular compliance, abnormal baroreceptor function, and RAAS activation from the period of renal hypoperfusion."
+    ],
+    "sources": [
+      "AHA/ACC 2018: Guidelines for the Management of Adults with Congenital Heart Disease",
+      "UpToDate: Clinical manifestations and diagnosis of coarctation of the aorta",
+      "UpToDate: Management and outcome of coarctation of the aorta",
+      "Nelson Textbook of Pediatrics, 21st Edition",
+      "Moss & Adams' Heart Disease in Infants, Children, and Adolescents, 10th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Coarctation of the aorta",
+      "Neonatal sepsis",
+      "Hypoplastic left heart syndrome",
+      "Critical aortic stenosis",
+      "Interrupted aortic arch",
+      "Myocarditis",
+      "Inborn error of metabolism",
+      "Congenital adrenal hyperplasia (salt-wasting crisis)"
+    ],
+    "after_stage2_more_likely": [
+      "Coarctation of the aorta (upper-lower extremity BP gradient, diminished femoral pulses, differential oxygen saturations, heart failure developing at 1-2 weeks of life as ductus closes, family history of bicuspid aortic valve)",
+      "Interrupted aortic arch (similar presentation but typically more severe)"
+    ],
+    "after_stage2_less_likely": [
+      "Neonatal sepsis (negative CRP, no fever, pulse discrepancy and BP gradient point to cardiac etiology)",
+      "Inborn error of metabolism (would not have upper-lower body perfusion discrepancy)",
+      "Congenital adrenal hyperplasia (no ambiguous genitalia, pulse discrepancy atypical)"
+    ],
+    "after_labs_top3": [
+      "Critical coarctation of the aorta with heart failure",
+      "Interrupted aortic arch",
+      "Hypoplastic left heart syndrome"
+    ]
+  }
+}

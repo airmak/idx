@@ -1,0 +1,115 @@
+{
+  "case_id": "case_225",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Panic Disorder",
+  "icd_category": "F41.0 — Panic disorder without agoraphobia",
+  "one_liner": "A 32-year-old woman with mitral valve prolapse presents with recurrent episodes of sudden-onset chest tightness, palpitations, diaphoresis, and fear of dying lasting 10-15 minutes.",
+  "stage2": {
+    "hpi_extension": "The patient presents to the ED after her third episode this month of sudden onset palpitations, chest tightness, shortness of breath, diaphoresis, trembling, and a feeling of 'impending doom.' Episodes begin abruptly, peak within minutes, and resolve over 15-20 minutes. She describes derealization during attacks ('feeling like things aren't real'). During today's episode, she was convinced she was having a heart attack and called 911. Between episodes, she has developed persistent worry about having another attack and has been avoiding crowded places including the grocery store and her gym. She has started taking alternate routes to avoid highways where she had one episode. She denies any clear trigger for the episodes. No recent caffeine or stimulant changes. She has had intermittent episodes for 6 months but they have intensified over the past month. No history of trauma. Panic Disorder Severity Scale (PDSS) score is 16 (moderately severe).",
+    "pmh": "Mitral valve prolapse (diagnosed at age 22, asymptomatic). Irritable bowel syndrome.",
+    "surgical_history": "None",
+    "medications": "Dicyclomine 10 mg PRN for IBS symptoms",
+    "allergies": "Sulfa drugs (hives)",
+    "family_history": "Mother with panic disorder. Sister with social anxiety disorder. Father with hypertension and coronary artery disease (MI at age 58). No family history of sudden cardiac death.",
+    "social_history": "Works as a marketing coordinator. Married, no children. Drinks 2 cups of coffee daily. Social drinker (1-2 glasses of wine per week). Denies tobacco or illicit drugs. Previously active (running, yoga) but has reduced activities due to fear of triggering an episode. No recent major life changes.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "98 bpm (during episode); 78 bpm (post-episode)",
+      "bp": "142/88 mmHg (during episode); 118/72 mmHg (post-episode)",
+      "rr": "22 breaths/min (during episode); 14 breaths/min (post-episode)",
+      "spo2": "99% on room air",
+      "weight_bmi": "140 lbs, BMI 23.3 kg/m²"
+    },
+    "physical_exam": "General: Anxious-appearing woman, diaphoretic during initial evaluation, gradually calming. HEENT: Normocephalic, atraumatic. No thyromegaly. Neck: No JVD, no carotid bruits. Cardiovascular: Tachycardic during episode (resolves), regular rhythm, mid-systolic click with late systolic murmur (consistent with known MVP), no S3/S4. Lungs: Clear to auscultation bilaterally, no wheezing. Abdomen: Soft, mildly tender in lower quadrants (baseline IBS). Extremities: No edema, no cyanosis. Neurological: Normal cranial nerves, no focal deficits, mild bilateral hand tremor during episode (resolves). Mental Status Exam: Appearance — well-groomed, appropriate attire. Behavior — initially agitated and clutching chest, later cooperative. Speech — initially rapid, normalizes. Mood — 'terrified' during episode, 'relieved but worried' after. Affect — initially anxious and fearful, later euthymic with underlying worry. Thought process — linear, goal-directed. Thought content — fear of dying during episodes, worry about recurrence, no SI/HI. Perception — derealization during attacks, no hallucinations. Cognition — intact. Insight — good (recognizes episodes may be anxiety-related). Judgment — good."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I (serial x2)", "result": "< 0.01 ng/mL (x2, 3 hours apart)", "flag": "WNL", "clinical_significance": "Rules out acute myocardial infarction as cause of chest pain"},
+      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism as cause of palpitations and anxiety"},
+      {"test_name": "CBC", "result": "WBC 7.0, Hgb 13.5, Hct 40.1, Plt 235", "flag": "WNL", "clinical_significance": "Rules out anemia as contributing factor for tachycardia"},
+      {"test_name": "CMP", "result": "Na 140, K 4.1, Cl 103, CO2 22, BUN 12, Cr 0.7, Glucose 92, Ca 9.3", "flag": "WNL", "clinical_significance": "Mildly low CO2 consistent with hyperventilation during episode; otherwise normal"},
+      {"test_name": "Magnesium", "result": "1.9 mg/dL", "flag": "WNL", "clinical_significance": "Rules out hypomagnesemia which can cause palpitations and anxiety"},
+      {"test_name": "D-dimer", "result": "< 250 ng/mL", "flag": "WNL", "clinical_significance": "Rules out pulmonary embolism as cause of acute dyspnea and chest pain"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant-induced panic symptoms"},
+      {"test_name": "BNP", "result": "22 pg/mL", "flag": "WNL", "clinical_significance": "Rules out heart failure as cause of dyspnea"},
+      {"test_name": "Plasma metanephrines", "result": "Normetanephrine 0.4 nmol/L, Metanephrine 0.2 nmol/L", "flag": "WNL", "clinical_significance": "Rules out pheochromocytoma"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG (12-lead)", "result": "Sinus tachycardia at 98 bpm during episode, resolving to 78 bpm. Normal axis. No ST-T wave changes. Normal QTc. No arrhythmia.", "flag": "ABNORMAL", "clinical_significance": "Transient sinus tachycardia consistent with panic episode; no ischemia or arrhythmia"},
+      {"test_name": "Chest X-ray (PA and lateral)", "result": "Heart size normal. Lungs clear. No pneumothorax or pleural effusion.", "flag": "WNL", "clinical_significance": "Rules out pulmonary pathology as cause of dyspnea and chest pain"}
+    ],
+    "key_tests": [
+      "ECG — essential to rule out cardiac arrhythmia and ischemia during chest pain with palpitations",
+      "Troponin (serial) — to rule out acute coronary syndrome",
+      "TSH — to rule out hyperthyroidism causing panic-like symptoms",
+      "Urine drug screen — to rule out stimulant-induced panic",
+      "D-dimer — to rule out pulmonary embolism"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CMP with electrolytes",
+      "Magnesium level",
+      "BNP (if dyspnea prominent)",
+      "Chest X-ray",
+      "Plasma metanephrines (if episodic hypertension)",
+      "PHQ-9 (screen for comorbid depression)",
+      "Panic Disorder Severity Scale (PDSS)"
+    ],
+    "low_yield_tests": [
+      "Echocardiogram (known MVP, stable, no new murmur)",
+      "CT pulmonary angiography (low pretest probability, normal D-dimer)",
+      "Holter monitor (no arrhythmia on ECG, episodes are situational/panic-related)",
+      "Exercise stress test (low-risk patient, non-cardiac symptoms)",
+      "Cortisol level (episodic symptoms not consistent with Cushing pattern)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient experiences recurrent, unexpected panic attacks (abrupt surges of intense fear peaking within minutes) with 4+ DSM-5 panic symptoms: palpitations, diaphoresis, trembling, chest tightness, dyspnea, derealization, and fear of dying. She has persistent worry about additional attacks and maladaptive behavioral changes (avoidance of crowded places and highways). Cardiac workup is completely negative. This meets DSM-5 criteria for Panic Disorder."
+  },
+  "debrief": {
+    "classic_presentation": "Recurrent, unexpected panic attacks — abrupt surges of intense fear or discomfort peaking within minutes, with 4+ symptoms (palpitations, sweating, trembling, dyspnea, chest pain, nausea, dizziness, chills/hot flashes, paresthesias, derealization/depersonalization, fear of losing control, fear of dying). At least 1 month of persistent worry about additional attacks or maladaptive behavioral changes (avoidance).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Panic attacks involve activation of the fear circuit centered in the amygdala, with projections to the brainstem (locus coeruleus for noradrenergic activation), hypothalamus (HPA axis and autonomic activation), and periaqueductal gray (defensive behavior). The suffocation false alarm theory proposes hypersensitive CO2 chemoreceptors in the brainstem. Noradrenergic hyperactivity from the locus coeruleus and serotonergic dysregulation play key roles. Respiratory alkalosis from hyperventilation causes paresthesias and dizziness. Genetic factors account for ~40% of risk. Conditioning and catastrophic misinterpretation of bodily sensations maintain the disorder.",
+    "treatment_overview": "SSRIs (sertraline, paroxetine, fluoxetine) are first-line pharmacotherapy. SNRIs (venlafaxine XR) are an alternative. CBT is the gold-standard psychotherapy, incorporating psychoeducation, cognitive restructuring, interoceptive exposure, and in-vivo exposure to avoided situations. Benzodiazepines (clonazepam, alprazolam) provide rapid symptom relief but should be used short-term due to dependence risk. Combination of SSRI + CBT is superior to either alone. Educate patients that panic attacks are not dangerous. Address caffeine intake and sleep hygiene.",
+    "high_yield_pearls": [
+      "Panic attacks require 4+ symptoms from the DSM-5 list (there are 13 total). Panic disorder requires recurrent unexpected attacks PLUS persistent worry or behavioral change for ≥1 month.",
+      "The most important mimics to rule out in the ED: acute coronary syndrome (troponin, ECG), pulmonary embolism (D-dimer), hyperthyroidism (TSH), and pheochromocytoma (metanephrines).",
+      "Mitral valve prolapse is associated with panic disorder — the relationship is bidirectional, and MVP alone does not explain panic symptoms.",
+      "Hyperventilation during panic causes respiratory alkalosis, leading to paresthesias, lightheadedness, and tetany (carpopedal spasm in severe cases).",
+      "Panic attacks can occur in other disorders (PTSD, specific phobias, social anxiety) — panic disorder requires that at least some attacks are unexpected (not triggered by a specific situation)."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Panic Disorder (2009)",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Craske MG, Stein MB — Anxiety. Lancet 2016",
+      "Roy-Byrne PP et al. — Panic disorder. Lancet 2006"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Panic disorder",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Hyperthyroidism",
+      "Pheochromocytoma",
+      "Cardiac arrhythmia (SVT)",
+      "Generalized anxiety disorder",
+      "Mitral valve prolapse syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Panic disorder — recurrent discrete episodes with classic panic symptoms, inter-episode anticipatory anxiety and avoidance, family history of panic disorder",
+      "Cardiac arrhythmia — known MVP, palpitations (needs ECG to evaluate)"
+    ],
+    "after_stage2_less_likely": [
+      "Acute coronary syndrome — young female, episodic and fully resolving, no traditional cardiac risk factors",
+      "Pheochromocytoma — episodes are too frequent and brief, no sustained hypertension"
+    ],
+    "after_labs_top3": [
+      "Panic disorder — negative troponin, normal ECG, normal TSH, negative D-dimer; meets full DSM-5 criteria",
+      "Generalized anxiety disorder — possible comorbid diagnosis given inter-episode worry, but discrete attacks are the primary feature",
+      "Mitral valve prolapse syndrome — known MVP but symptoms are more consistent with panic disorder"
+    ]
+  }
+}

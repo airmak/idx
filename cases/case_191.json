@@ -1,0 +1,183 @@
+{
+  "case_id": "case_191",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Henoch-Schönlein purpura (IgA vasculitis)",
+  "icd_category": "D69.0 – Allergic purpura (Henoch-Schönlein)",
+  "one_liner": "A 5-year-old male with a recent upper respiratory infection presents with a palpable purpuric rash on the lower extremities and buttocks, colicky abdominal pain, and joint swelling.",
+  "stage2": {
+    "hpi_extension": "The patient had a URI with sore throat and runny nose 2 weeks ago that resolved without antibiotics. Four days ago, his parents noticed a red rash on his shins that initially looked like small red dots but progressed to raised purple spots spreading to both legs and buttocks over 2 days. He does not have the rash on his trunk or face. Two days ago he developed intermittent colicky abdominal pain with one episode of non-bloody vomiting. Yesterday his ankles and knees became swollen and painful, limiting his ability to walk. Today his mother noticed a small amount of dark-colored (tea-colored) urine. He denies fever, headache, or recent medication use. He has not had any similar rash before.",
+    "pmh": "No significant past medical history. Born full-term. Up to date on immunizations.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 100 mg PO PRN for joint pain",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of vasculitis, autoimmune diseases, or bleeding disorders.",
+    "social_history": "Lives with both parents and older sister. Attends kindergarten. No secondhand smoke exposure.",
+    "vitals": {
+      "temp": "37.6°C (99.7°F)",
+      "hr": "102 bpm",
+      "bp": "112/72 mmHg (elevated for age — 95th percentile for 5-year-old male is 108/69)",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "19 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alert, mildly uncomfortable, sitting with legs dangling from the bed; not toxic-appearing. HEENT: Oropharynx clear, no petechiae on palate, no facial rash. Neck: Supple, no lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mild diffuse tenderness to palpation, worse in periumbilical region. No rebound or guarding. No hepatosplenomegaly. Active bowel sounds. Extremities: Bilateral ankle and knee joint swelling with warmth and tenderness; range of motion limited by pain; no erythema overlying joints. Skin: Palpable purpura (raised, non-blanching, 2-10 mm) symmetrically distributed over both lower extremities (shins, calves, dorsa of feet) and buttocks. No purpura above the waist. No petechiae on the trunk or face. Scrotal exam: Mild left scrotal swelling and tenderness. Neurologic: Grossly normal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "Color tea/brown, SG 1.022, pH 5.5, protein 2+ (100 mg/dL), blood 3+, RBC 50-80/hpf (many dysmorphic), WBC 5/hpf, RBC casts present, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hematuria with proteinuria, dysmorphic RBCs, and RBC casts indicate glomerulonephritis (IgA nephritis), the most serious long-term complication of HSP occurring in 20-50% of cases."
+      },
+      {
+        "test_name": "Urine protein:creatinine ratio",
+        "result": "1.2 mg/mg",
+        "flag": "HIGH",
+        "clinical_significance": "Ratio >0.2 indicates significant proteinuria; >2.0 would suggest nephrotic-range proteinuria. This level warrants close monitoring."
+      },
+      {
+        "test_name": "Serum IgA",
+        "result": "385 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated serum IgA is found in approximately 50% of HSP patients and supports the diagnosis of IgA-mediated vasculitis."
+      },
+      {
+        "test_name": "BUN/Creatinine",
+        "result": "BUN 16 mg/dL, Cr 0.5 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function currently; however, HSP nephritis can progress to renal insufficiency and requires serial monitoring."
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 12.4 × 10³/µL, Hgb 12.2 g/dL, Platelets 388 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal or elevated platelet count distinguishes HSP from thrombocytopenic purpura (ITP, TTP/HUS). Normal CBC excludes leukemia and significant bleeding."
+      },
+      {
+        "test_name": "PT/INR/aPTT",
+        "result": "PT 12.8 sec, INR 1.0, aPTT 28 sec",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation studies confirm that the purpura is not due to a coagulopathy; this is important to distinguish vasculitic purpura from bleeding disorders."
+      },
+      {
+        "test_name": "ESR",
+        "result": "34 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ESR reflects systemic inflammation from vasculitis."
+      },
+      {
+        "test_name": "CRP",
+        "result": "22 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CRP supports active inflammatory process."
+      },
+      {
+        "test_name": "Complement C3/C4",
+        "result": "C3 128 mg/dL, C4 32 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complement levels help distinguish HSP from complement-mediated diseases such as post-streptococcal glomerulonephritis (which typically has low C3) and lupus nephritis (low C3 and C4)."
+      },
+      {
+        "test_name": "ASO titer",
+        "result": "240 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ASO titer is consistent with recent streptococcal infection, which is a known trigger for HSP; however, complement levels are normal, making post-strep GN less likely."
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal albumin indicates proteinuria has not yet reached nephrotic-range severity."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Abdominal ultrasound",
+        "result": "Diffuse bowel wall thickening in the jejunum and ileum. Small amount of free fluid in the pelvis. No intussusception identified. No appendicitis. Kidneys normal in size with normal echogenicity bilaterally.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bowel wall thickening reflects GI mucosal involvement by IgA vasculitis; importantly, intussusception (ileoileal type is characteristic of HSP) has been excluded on this study."
+      },
+      {
+        "test_name": "Scrotal ultrasound with Doppler",
+        "result": "Left epididymis mildly enlarged and hyperemic. Normal testicular blood flow bilaterally. No torsion. Small left hydrocele.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Scrotal involvement (orchitis/epididymitis) occurs in up to 15% of boys with HSP due to IgA vasculitis affecting scrotal vessels; importantly, testicular torsion has been excluded by normal Doppler flow."
+      }
+    ],
+    "key_tests": [
+      "Urinalysis with microscopy",
+      "Urine protein:creatinine ratio",
+      "CBC with differential and platelet count",
+      "PT/INR/aPTT (to exclude coagulopathy)",
+      "BUN/Creatinine"
+    ],
+    "acceptable_tests": [
+      "Serum IgA level",
+      "ESR and CRP",
+      "Complement levels (C3, C4)",
+      "ASO titer",
+      "Abdominal ultrasound (if GI symptoms significant)",
+      "Skin biopsy (if diagnosis uncertain)",
+      "Scrotal ultrasound with Doppler (if scrotal symptoms present)",
+      "Stool guaiac"
+    ],
+    "low_yield_tests": [
+      "ANA (negative in HSP)",
+      "ANCA (negative in HSP; positive in granulomatosis with polyangiitis)",
+      "CT abdomen (US preferred in children)",
+      "Bone marrow biopsy (unless leukemia suspected)",
+      "Serum immunoglobulins panel (IgG, IgM — nonspecific)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Urinalysis reveals hematuria with RBC casts and proteinuria indicating HSP nephritis. The constellation of palpable purpura limited to the lower extremities and buttocks, abdominal pain with bowel wall thickening, arthritis, and renal involvement in a child with normal platelets and coagulation studies confirms IgA vasculitis (Henoch-Schönlein purpura). Skin biopsy (if performed) would show leukocytoclastic vasculitis with IgA deposition on immunofluorescence."
+  },
+  "debrief": {
+    "classic_presentation": "HSP (IgA vasculitis) classically presents in children aged 3-10 years (peak 4-6) with the tetrad of: (1) palpable purpura (100%) — non-thrombocytopenic, gravity-dependent, affecting lower extremities and buttocks; (2) arthritis/arthralgia (75%) — typically ankles and knees; (3) abdominal pain (65%) — colicky, may include GI bleeding; and (4) renal involvement (20-50%) — hematuria and proteinuria. The rash is often preceded by a URI (especially Group A Strep) by 1-3 weeks. Males are affected more than females (2:1).",
+    "attending_mode_notes": "Key diagnostic challenge: distinguishing HSP from ITP (both present with purpura in children, but ITP has low platelets and HSP has normal/high platelets). Also consider meningococcemia, HUS, and child abuse. The EULAR/PRINTO/PRES criteria require palpable purpura (mandatory) plus ≥1 of: arthritis/arthralgia, abdominal pain, renal involvement, or biopsy showing IgA deposition. Renal prognosis is the primary long-term concern — monitor UA weekly for 4 weeks after diagnosis, then monthly for 6 months, as nephritis can develop late.",
+    "pathophysiology": "HSP is a systemic small-vessel vasculitis mediated by IgA immune complex deposition in vessel walls. A triggering event (often a URI, particularly Group A Streptococcus) leads to increased IgA production and formation of IgA-containing immune complexes. These complexes deposit in the walls of small vessels (arterioles, capillaries, venules) in the skin, GI tract, joints, and kidneys, activating complement (alternative pathway) and triggering an inflammatory cascade with neutrophil infiltration — producing leukocytoclastic vasculitis. In the kidneys, mesangial IgA deposition causes IgA nephritis (histologically identical to IgA nephropathy/Berger disease), which is the main determinant of long-term prognosis.",
+    "treatment_overview": "Most HSP is self-limited, resolving within 4-6 weeks. Treatment is primarily supportive: NSAIDs for joint pain and mild abdominal pain, adequate hydration, and close monitoring. For significant GI involvement (severe pain, GI bleeding, intussusception risk), corticosteroids (prednisone 1-2 mg/kg/day for 1-2 weeks with taper) may be beneficial, though evidence is mixed regarding prevention of nephritis. Renal involvement management: mild (isolated hematuria) — observe; moderate (persistent proteinuria) — consider ACE inhibitor; severe (nephrotic syndrome, rapidly progressive GN) — high-dose corticosteroids plus azathioprine or cyclophosphamide, consider renal biopsy. Long-term follow-up with serial urinalysis is essential for at least 6 months after diagnosis.",
+    "high_yield_pearls": [
+      "HSP is the MOST COMMON systemic vasculitis in children — the purpura is NON-THROMBOCYTOPENIC (normal platelet count), which distinguishes it from ITP, TTP, and DIC.",
+      "The RENAL involvement determines the long-term prognosis of HSP — 1-5% of HSP patients develop chronic kidney disease, and nephritis can develop weeks after the initial presentation; serial urinalysis monitoring for 6 months is mandatory.",
+      "Intussusception complicating HSP is characteristically ILEOILEAL (small-bowel-to-small-bowel), unlike the typical ileocolic intussusception of infancy — it is less amenable to air enema reduction and may require surgical management.",
+      "Skin biopsy shows LEUKOCYTOCLASTIC VASCULITIS with IgA deposition in vessel walls on direct immunofluorescence — this is the gold standard for diagnosis but is rarely needed when the clinical presentation is classic.",
+      "HSP recurs in approximately 33% of patients, usually within 4 months, and recurrences tend to be milder than the initial episode; recurrences with renal involvement should prompt consideration of a pathologic lead point or alternative diagnosis."
+    ],
+    "sources": [
+      "EULAR/PRINTO/PRES: Classification Criteria for IgA Vasculitis (2010)",
+      "UpToDate: IgA vasculitis (Henoch-Schönlein purpura): Clinical manifestations and diagnosis",
+      "UpToDate: IgA vasculitis (Henoch-Schönlein purpura): Management",
+      "KDIGO Guidelines: Glomerulonephritis — IgA Nephropathy/IgA Vasculitis",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Henoch-Schönlein purpura (IgA vasculitis)",
+      "Immune thrombocytopenic purpura (ITP)",
+      "Meningococcemia",
+      "Hemolytic uremic syndrome (HUS)",
+      "Child abuse (non-accidental trauma)",
+      "Juvenile idiopathic arthritis",
+      "Post-streptococcal glomerulonephritis",
+      "Leukemia"
+    ],
+    "after_stage2_more_likely": [
+      "HSP (palpable purpura on lower extremities/buttocks, arthritis, abdominal pain, scrotal involvement, preceded by URI — classic tetrad)",
+      "ITP (purpura in a child — but would expect petechiae more than palpable purpura, and no arthritis/abdominal pain)"
+    ],
+    "after_stage2_less_likely": [
+      "Meningococcemia (not toxic-appearing, afebrile, subacute course)",
+      "Child abuse (symmetric distribution on gravity-dependent areas, no bruising pattern, with associated systemic symptoms)",
+      "Leukemia (no hepatosplenomegaly, normal-appearing child between episodes)"
+    ],
+    "after_labs_top3": [
+      "Henoch-Schönlein purpura with IgA nephritis",
+      "Post-streptococcal glomerulonephritis (elevated ASO, but normal complement and palpable purpura favor HSP)",
+      "IgA nephropathy (Berger disease)"
+    ]
+  }
+}

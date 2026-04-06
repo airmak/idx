@@ -1,0 +1,78 @@
+{
+  "case_id": "case_094",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Massive pulmonary embolism",
+  "icd_category": "I26.02 — Saddle embolus of pulmonary artery with acute cor pulmonale",
+  "one_liner": "A 58-year-old woman presents with sudden-onset severe dyspnea, chest pain, and near-syncope 10 days after right knee replacement surgery.",
+  "stage2": {
+    "hpi_extension": "The patient was recovering at a rehabilitation facility following right total knee replacement 10 days ago. She was ambulating with a walker when she suddenly developed severe dyspnea, substernal chest pressure, and lightheadedness, nearly losing consciousness. She was brought to the ED by ambulance. She reports the dyspnea is the worst she has ever experienced. She notes her right leg has been more swollen than the left since surgery but attributed it to postoperative edema. She has been on enoxaparin prophylaxis but missed 2 doses. She denies hemoptysis, cough, or fever.",
+    "pmh": "Osteoarthritis, obesity, hypertension, prior deep vein thrombosis in left leg 8 years ago (completed 3 months of warfarin).",
+    "surgical_history": "Right total knee replacement 10 days ago. Left inguinal hernia repair 15 years ago.",
+    "medications": "Enoxaparin 40 mg SQ daily (missed 2 doses), oxycodone/acetaminophen PRN, amlodipine 5 mg daily, ibuprofen 400 mg TID.",
+    "allergies": "Codeine (nausea).",
+    "family_history": "Sister had pulmonary embolism postpartum. Father had DVT.",
+    "social_history": "Retired office manager. Never smoker. No alcohol. Sedentary since surgery. Takes oral contraceptives (combined estrogen-progestin) for menopausal symptoms. BMI >35.",
+    "vitals": {
+      "temp": "99.0 F (37.2 C)",
+      "hr": "124 bpm",
+      "bp": "82/58 mmHg",
+      "rr": "32 breaths/min",
+      "spo2": "84% on room air",
+      "weight_bmi": "98 kg, BMI 36.4"
+    },
+    "physical_exam": "General: Obese woman in severe respiratory distress, diaphoretic, anxious. HEENT: JVP elevated to 14 cm H2O. Lungs: Clear to auscultation bilaterally (no wheezing, crackles, or consolidation — this is notable). Cardiovascular: Tachycardic, regular rhythm, loud P2, right-sided S3, parasternal heave. No murmurs. Abdomen: Soft, non-tender, mildly distended. Extremities: Right lower extremity is significantly more edematous than left with calf tenderness, warmth, and erythema (asymmetric). Homan sign positive on right. Left leg normal. Skin: Mottled appearance of bilateral lower extremities."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "D-dimer", "result": "8,420 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; highly supportive of acute thromboembolic disease (though D-dimer is nonspecific, the magnitude is concerning)"},
+      {"test_name": "Troponin I", "result": "0.82 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated troponin indicates right ventricular myocardial strain/injury — associated with worse prognosis in PE"},
+      {"test_name": "BNP", "result": "680 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated BNP indicates right ventricular pressure overload and dysfunction"},
+      {"test_name": "ABG pH", "result": "7.48", "flag": "HIGH", "clinical_significance": "Respiratory alkalosis from hyperventilation"},
+      {"test_name": "ABG pCO2", "result": "26 mmHg", "flag": "LOW", "clinical_significance": "Hypocapnia from tachypnea/hyperventilation — classic ABG finding in acute PE"},
+      {"test_name": "ABG pO2", "result": "54 mmHg", "flag": "LOW", "clinical_significance": "Severe hypoxemia from massive V/Q mismatch and intracardiac right-to-left shunting"},
+      {"test_name": "Lactate", "result": "4.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion/shock — poor prognostic marker"},
+      {"test_name": "CBC — WBC", "result": "12,600/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis — stress response"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated — may reflect poor renal perfusion from hemodynamic compromise"},
+      {"test_name": "PT/INR", "result": "11.8 sec / 1.0", "flag": "WNL", "clinical_significance": "Normal baseline coagulation; patient was on enoxaparin, not warfarin"},
+      {"test_name": "BMP — Sodium", "result": "137 mEq/L", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT pulmonary angiography (CTPA)", "result": "Large saddle embolus straddling the main pulmonary artery bifurcation with extension into bilateral lobar and segmental arteries. RV/LV ratio 1.6 (>0.9 is abnormal). Interventricular septum bowing toward the left ventricle. Bilateral segmental and subsegmental filling defects.", "flag": "ABNORMAL", "clinical_significance": "Massive pulmonary embolism with saddle thrombus and right ventricular dilation/strain — meets criteria for massive PE (hemodynamic instability)"},
+      {"test_name": "Bedside echocardiogram", "result": "Severely dilated right ventricle with hypokinesis of the free wall and preserved apical contractility (McConnell sign). Moderate-to-severe tricuspid regurgitation. Estimated RVSP 65 mmHg. Leftward interventricular septal bowing. Normal LV function.", "flag": "ABNORMAL", "clinical_significance": "Confirms acute right heart failure/cor pulmonale from massive PE. McConnell sign is specific for acute PE."},
+      {"test_name": "Bilateral lower extremity duplex ultrasound", "result": "Acute deep vein thrombosis in the right popliteal and femoral veins. Non-compressible segments with echogenic intraluminal thrombus.", "flag": "ABNORMAL", "clinical_significance": "Confirms DVT as the source of pulmonary embolism"}
+    ],
+    "key_tests": ["CT pulmonary angiography (CTPA)", "Troponin I or T", "BNP or NT-proBNP", "Bedside echocardiogram", "ABG"],
+    "acceptable_tests": ["D-dimer", "Lower extremity duplex ultrasound", "CBC", "BMP", "Lactate", "PT/INR/aPTT", "ECG", "Chest X-ray"],
+    "low_yield_tests": ["Sputum culture", "PFTs", "V/Q scan (CTPA preferred in this acute setting)", "Bronchoscopy", "Procalcitonin"]
+  },
+  "stage5": {
+    "final_clue": "Given hemodynamic instability (systolic BP <90 mmHg) with imaging confirmation of massive PE, the patient receives systemic thrombolysis with alteplase (tPA) 100 mg IV over 2 hours. Within 6 hours, her blood pressure improves to 108/68, heart rate decreases to 96, and SpO2 rises to 94% on 2 L nasal cannula."
+  },
+  "debrief": {
+    "classic_presentation": "Post-surgical patient with multiple VTE risk factors presenting with sudden severe dyspnea, hypotension, tachycardia, hypoxemia, elevated JVP, and clear lungs, with saddle PE on CTPA, RV dilation on echo (McConnell sign), and concurrent DVT in the ipsilateral surgical limb.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Massive PE results from large thrombus (typically originating from deep veins of the lower extremities or pelvis) embolizing to the pulmonary vasculature and causing acute obstruction of >50% of the pulmonary vascular bed. This produces acute right ventricular pressure overload (afterload mismatch), RV dilation, tricuspid regurgitation, and reduced LV preload, leading to cardiogenic shock. The Virchow triad (stasis from immobilization, endothelial injury from surgery, hypercoagulability from estrogen) explains this patient's extreme risk. Massive PE is defined by sustained hemodynamic instability.",
+    "treatment_overview": "Massive PE (hemodynamically unstable): systemic thrombolysis (alteplase 100 mg IV over 2 hours) is first-line. If thrombolysis is contraindicated or fails, options include catheter-directed therapy or surgical embolectomy. Concurrent IV unfractionated heparin. Hemodynamic support with IV fluids (cautious — excessive fluid worsens RV dilation) and vasopressors (norepinephrine preferred). For submassive PE (hemodynamically stable with RV dysfunction), anticoagulation alone with close monitoring; thrombolysis is considered if deterioration occurs. Long-term anticoagulation (minimum 3 months, likely extended/indefinite given recurrent VTE).",
+    "high_yield_pearls": [
+      "Massive PE is defined by sustained hypotension (SBP <90 mmHg for >15 minutes) — this is the indication for systemic thrombolysis.",
+      "Clear lungs on auscultation with severe hypoxemia and dyspnea is a classic presentation of PE — the pathology is vascular, not parenchymal.",
+      "McConnell sign (RV free wall hypokinesis with apical sparing) on echo is highly specific for acute PE.",
+      "The classic ECG finding in PE is S1Q3T3 (S wave in lead I, Q wave and inverted T in lead III), though sinus tachycardia is the most common overall finding.",
+      "Wells criteria and PERC rule help risk-stratify patients — but in hemodynamically unstable patients with high clinical suspicion, proceed directly to CTPA.",
+      "Post-surgical patients on subtherapeutic DVT prophylaxis represent one of the highest-risk populations for massive PE."
+    ],
+    "sources": [
+      "ESC/ERS Guidelines for the Diagnosis and Management of Acute Pulmonary Embolism, 2019",
+      "AHA Scientific Statement: Management of Massive and Submassive Pulmonary Embolism, 2011",
+      "UpToDate: Treatment, prognosis, and follow-up of acute pulmonary embolism in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Massive pulmonary embolism", "Acute myocardial infarction", "Cardiac tamponade", "Tension pneumothorax", "Aortic dissection", "Cardiogenic shock (other causes)", "Septic shock"],
+    "after_stage2_more_likely": ["Massive pulmonary embolism", "Acute myocardial infarction"],
+    "after_stage2_less_likely": ["Tension pneumothorax", "Aortic dissection", "Septic shock"],
+    "after_labs_top3": ["Massive pulmonary embolism", "Acute myocardial infarction", "Cardiogenic shock"]
+  }
+}

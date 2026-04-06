@@ -1,0 +1,163 @@
+{
+  "case_id": "case_216",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Asherman syndrome (intrauterine adhesions)",
+  "icd_category": "N85.6 – Intrauterine synechiae",
+  "one_liner": "A 30-year-old G2P1 presents with secondary amenorrhea and infertility for 12 months following a postpartum dilation and curettage for retained placenta; hysteroscopy reveals extensive intrauterine adhesions obliterating the uterine cavity.",
+  "stage2": {
+    "hpi_extension": "The patient reports absence of menstrual periods for the past 12 months. She had an uncomplicated term vaginal delivery 14 months ago, but developed postpartum hemorrhage on day 5 requiring a dilation and curettage for retained placental tissue. After the D&C, her lochia stopped abruptly, and she has not had a period since. She and her partner have been trying to conceive for the past 8 months without success. She has mild cyclical lower abdominal cramping around the time she expects her period but no bleeding. She denies hot flashes, night sweats, vaginal dryness, or other menopausal symptoms. She had regular menstrual cycles before and between her pregnancies. She is breastfeeding infrequently (once daily at bedtime).",
+    "pmh": "G2P1011 (one term vaginal delivery, one early miscarriage). Postpartum D&C 14 months ago for retained placenta. Regular menstrual cycles prior to current amenorrhea.",
+    "surgical_history": "Dilation and curettage (postpartum, 14 months ago). D&C for first-trimester miscarriage (3 years ago).",
+    "medications": "Prenatal vitamins (trying to conceive)",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of premature ovarian insufficiency or reproductive disorders.",
+    "social_history": "Graphic designer. Non-smoker. No alcohol. Lives with partner and infant.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "72 bpm",
+      "bp": "114/70 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "63 kg, BMI 23.2 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no distress. HEENT: No thyroid enlargement; no hirsutism; no galactorrhea on breast exam. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear to auscultation. Abdomen: Soft, non-tender, no masses. Pelvic examination: Normal external genitalia; vagina with no discharge or atrophy; cervix appears normal, os closed; uterus normal size, non-tender, mobile; no adnexal tenderness or masses. No signs of estrogen deficiency (vaginal mucosa is well-estrogenized)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serum β-hCG",
+        "result": "Negative (<2 mIU/mL)",
+        "flag": "WNL",
+        "clinical_significance": "Excludes pregnancy as a cause of amenorrhea."
+      },
+      {
+        "test_name": "FSH",
+        "result": "6.8 mIU/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal FSH excludes premature ovarian insufficiency (POI), which would present with elevated FSH >25 mIU/mL."
+      },
+      {
+        "test_name": "Estradiol",
+        "result": "85 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal estradiol confirms intact ovarian function and estrogenized endometrium — the amenorrhea is not due to hypoestrogenism."
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.3 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function excludes hypothyroidism as a cause of amenorrhea."
+      },
+      {
+        "test_name": "Prolactin",
+        "result": "18 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated prolactin is expected given she is still breastfeeding once daily, but not high enough to cause amenorrhea (typically >50 ng/mL causes menstrual dysfunction)."
+      },
+      {
+        "test_name": "Progesterone challenge test (medroxyprogesterone 10 mg × 10 days)",
+        "result": "No withdrawal bleed after progesterone challenge",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Absence of withdrawal bleeding in a patient with normal estradiol indicates either outflow obstruction or endometrial pathology (Asherman syndrome), not anovulation."
+      },
+      {
+        "test_name": "Estrogen-progesterone challenge test",
+        "result": "No withdrawal bleed after 21 days of conjugated estrogen + 10 days of medroxyprogesterone",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Failure to bleed even after exogenous estrogen and progesterone confirms the amenorrhea is due to endometrial/outflow tract pathology rather than hormonal deficiency — highly suggestive of Asherman syndrome."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Uterus normal size. Endometrial stripe is thin and irregular (3 mm) with hyperechoic bands bridging the anterior and posterior walls of the endometrial cavity. No endometrial fluid collection. Both ovaries normal with follicular development.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Thin, irregular endometrium with hyperechoic bands (adhesions) is suggestive of intrauterine synechiae. Normal follicular development confirms intact ovarian function."
+      },
+      {
+        "test_name": "Saline infusion sonohysterography (SIS)",
+        "result": "Difficulty distending the uterine cavity with saline. Multiple filling defects and bands are seen bridging the anterior and posterior uterine walls. Only partial distension of the lower uterine cavity achieved. Upper cavity cannot be distended.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Inability to distend the cavity with dense adhesion bands is characteristic of Asherman syndrome. SIS is more sensitive than standard ultrasound for detecting intrauterine adhesions."
+      },
+      {
+        "test_name": "Hysteroscopy (diagnostic and therapeutic)",
+        "result": "Dense, avascular adhesions obliterating approximately 70% of the uterine cavity. Both tubal ostia are not visualized due to adhesive obliteration. Minimal normal endometrium visible. Classification: ASRM Grade III (severe).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hysteroscopy is the gold standard for diagnosis and allows simultaneous treatment. Severe adhesions obliterating tubal ostia significantly impact fertility prognosis."
+      }
+    ],
+    "key_tests": [
+      "Hysteroscopy (gold standard — diagnostic and therapeutic)",
+      "Saline infusion sonohysterography",
+      "Progesterone and estrogen-progesterone challenge tests",
+      "FSH and estradiol (exclude ovarian failure)"
+    ],
+    "acceptable_tests": [
+      "Transvaginal ultrasound",
+      "TSH and prolactin",
+      "Serum β-hCG",
+      "HSG (hysterosalpingogram — shows filling defects but cannot treat)",
+      "MRI pelvis (can show adhesions but less useful than hysteroscopy)"
+    ],
+    "low_yield_tests": [
+      "CT pelvis",
+      "Endometrial biopsy (unable to obtain adequate sample with obliterated cavity)",
+      "Karyotype (normal phenotype, no indication for genetic testing)",
+      "Anti-Mullerian hormone (ovarian function is not in question)"
+    ],
+    "attending_pimp_questions": [
+      "What is the most common cause of Asherman syndrome worldwide, and why is the postpartum uterus particularly vulnerable?",
+      "How does the estrogen-progesterone challenge test differentiate between causes of secondary amenorrhea?",
+      "What is the hysteroscopic classification system for Asherman syndrome, and how does severity affect fertility prognosis?",
+      "What is the evidence for anti-adhesion barriers and intrauterine devices after hysteroscopic adhesiolysis?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Hysteroscopic adhesiolysis is performed with sharp dissection under ultrasound guidance, successfully restoring the uterine cavity with visualization of both tubal ostia. A balloon catheter is placed for 1 week and high-dose estrogen therapy is initiated. At 3-month follow-up, the patient has resumed regular menstrual cycles, and repeat hysteroscopy shows a restored cavity with minimal re-adhesion, confirming successful treatment of Asherman syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "Asherman syndrome classically presents with secondary amenorrhea or hypomenorrhea following uterine instrumentation, most commonly dilation and curettage (especially in the postpartum period). Patients may also present with cyclic pelvic pain (if menstrual blood is trapped behind adhesions — hematometra), recurrent pregnancy loss, or infertility. The hallmark is failure to bleed on both progesterone challenge and estrogen-progesterone challenge tests in a patient with normal hormonal function.",
+    "attending_mode_notes": "Asherman syndrome results from destruction of the basalis layer of the endometrium, most commonly from uterine curettage. The postpartum uterus is particularly vulnerable because the soft, decidualized endometrium and open cervix make aggressive curettage more likely to damage the basalis. Postpartum D&C accounts for ~90% of Asherman cases. Other risk factors include multiple D&Cs, curettage for missed abortion, uterine surgery (myomectomy, cesarean), and endometritis (particularly tuberculous endometritis, the most common cause in developing countries). The ASRM classification grades severity: Grade I (thin adhesions, partial cavity involvement), Grade II (dense adhesions, partial cavity involvement), Grade III (dense adhesions obliterating >75% of cavity with ostia involvement). Prognosis correlates with severity: Grade I has pregnancy rates >80% after treatment, while Grade III has rates of 20-40%. Treatment is hysteroscopic adhesiolysis (sharp scissors preferred over electrocautery to reduce thermal damage). Post-operative adjuncts include: intrauterine balloon stent or IUD for 1-2 weeks (mechanical separation), sequential high-dose estrogen therapy (conjugated estrogen 2.5 mg daily × 30 days with medroxyprogesterone for last 10 days), and prophylactic antibiotics. Repeat hysteroscopy in 1-3 months is standard to assess and treat re-adhesion (occurs in 20-50% of severe cases).",
+    "pathophysiology": "The endometrium has two layers: the functionalis (shed during menstruation) and the basalis (regenerative layer). Curettage or other trauma that destroys the basalis removes the regenerative capacity, allowing the opposing raw myometrial surfaces to heal together, forming fibrous adhesions (synechiae). These adhesions obliterate the uterine cavity partially or completely, preventing endometrial regeneration, menstrual shedding, and embryo implantation. The adhesions are composed of fibrous tissue with varying amounts of myometrial smooth muscle and minimal or no endometrial glandular elements. Even after successful adhesiolysis, the endometrium may fail to regenerate fully in areas where the basalis was destroyed, leading to thin endometrium and impaired implantation.",
+    "treatment_overview": "Gold standard treatment is hysteroscopic adhesiolysis using sharp scissors or bipolar energy under direct visualization, often with ultrasound or laparoscopic guidance for severe cases (to prevent perforation). Post-operative cavity maintenance: (1) Intrauterine balloon catheter (Foley or Cook balloon) for 5-7 days, or copper IUD for 1-3 months. (2) Sequential estrogen therapy: conjugated estrogen 2.5 mg PO daily × 30 days + medroxyprogesterone 10 mg × last 10 days for 2-3 cycles to promote endometrial regeneration. (3) Anti-adhesion barriers (hyaluronic acid gel) show promise but evidence is limited. Second-look hysteroscopy in 1-3 months is recommended for Grade II-III cases to lyse re-adhesions (reformation rate 20-50%). Fertility outcomes depend on severity: mild cases have good prognosis; severe cases may require gestational surrogacy. In subsequent pregnancies, there is increased risk of placenta accreta spectrum due to deficient decidualization.",
+    "high_yield_pearls": [
+      "Postpartum D&C is the most common cause of Asherman syndrome — the decidualized, postpartum endometrium is uniquely vulnerable to basalis layer destruction during curettage.",
+      "Failure to bleed on both progesterone challenge AND estrogen-progesterone challenge tests in a patient with normal FSH/estradiol is pathognomonic for endometrial/outflow tract pathology (Asherman syndrome or cervical stenosis).",
+      "Hysteroscopy is the gold standard for both diagnosis and treatment of Asherman syndrome — hysterosalpingography and SIS can suggest the diagnosis but cannot treat it.",
+      "Tuberculosis is the most common cause of Asherman syndrome in endemic regions (South Asia, sub-Saharan Africa) — genital TB causes severe endometrial destruction and carries a worse prognosis than post-curettage adhesions.",
+      "Patients with a history of Asherman syndrome who become pregnant are at increased risk for placenta accreta spectrum due to deficient endometrial basalis at the adhesion sites."
+    ],
+    "sources": [
+      "AAGL Practice Report: Practice Guidelines on Intrauterine Adhesions",
+      "ASRM Committee Opinion: Intrauterine Adhesions",
+      "UpToDate: Intrauterine adhesions: Clinical manifestation and diagnosis",
+      "UpToDate: Intrauterine adhesions: Treatment and prevention"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Asherman syndrome (intrauterine adhesions)",
+      "Premature ovarian insufficiency",
+      "Hypothalamic amenorrhea",
+      "Hyperprolactinemia (lactational or pathologic)",
+      "Cervical stenosis",
+      "Pregnancy"
+    ],
+    "after_stage2_more_likely": [
+      "Asherman syndrome (secondary amenorrhea following D&C, cyclical pain without bleeding, well-estrogenized vaginal mucosa indicating normal ovarian function, failed to resume menses after weaning)",
+      "Cervical stenosis (post-D&C, amenorrhea with cramping — but less common after a single procedure)"
+    ],
+    "after_stage2_less_likely": [
+      "Premature ovarian insufficiency (no hot flashes, no vaginal dryness, well-estrogenized mucosa)",
+      "Hypothalamic amenorrhea (no weight loss, excessive exercise, or stress)",
+      "Hyperprolactinemia (prolactin only mildly elevated, consistent with infrequent breastfeeding, not high enough to cause amenorrhea)"
+    ],
+    "after_labs_top3": [
+      "Asherman syndrome (normal FSH/estradiol, failed progesterone and estrogen-progesterone challenge, intrauterine adhesions on SIS and hysteroscopy)",
+      "Cervical stenosis (excluded by hysteroscopy — cervical canal was navigable, adhesions are intrauterine)",
+      "Endometrial atrophy (unlikely — estradiol is normal, and adhesions rather than atrophy are demonstrated)"
+    ]
+  }
+}

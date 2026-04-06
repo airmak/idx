@@ -1,0 +1,111 @@
+{
+  "case_id": "case_137",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Thrombotic Microangiopathy — Hemolytic Uremic Syndrome (HUS)",
+  "icd_category": "D59.3 — Hemolytic-uremic syndrome",
+  "one_liner": "A 4-year-old girl presents with bloody diarrhea for 5 days followed by decreased urine output, pallor, and petechiae, found to have microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury.",
+  "stage2": {
+    "hpi_extension": "The child developed watery diarrhea 7 days ago after attending a family barbecue where she ate an undercooked hamburger. The diarrhea became bloody 5 days ago. Over the past 2 days, parents noted she became increasingly pale, irritable, and lethargic with decreased urine output (only 2 wet diapers in 24 hours). They noticed small bruises on her arms and petechiae on her trunk. She has had no fever in the past 48 hours. No sick contacts with similar symptoms. She was previously healthy.",
+    "pmh": "None. Up to date on vaccinations.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of blood disorders, kidney disease, or autoimmune conditions.",
+    "social_history": "Attends preschool. Lives with both parents and a 7-year-old brother. Has a pet dog. No recent travel.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "140 bpm",
+      "bp": "128/84 mmHg (>99th percentile for age)",
+      "rr": "28 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "16 kg"
+    },
+    "physical_exam": "Pale, irritable child who is difficult to console. Mild periorbital edema. Skin: pallor, scattered petechiae on trunk and upper extremities, ecchymoses on bilateral arms. No purpuric rash on lower extremities. Heart: tachycardic, systolic flow murmur (grade 2/6). Lungs: clear bilaterally. Abdomen: mildly distended, diffuse tenderness, hyperactive bowel sounds, no hepatosplenomegaly. Extremities: mild bilateral lower extremity edema. Neurologic: irritable but arousable, no focal deficits, no seizure activity."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Hemoglobin", "result": "6.2 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia from microangiopathic hemolytic anemia (MAHA)"},
+      {"test_name": "Peripheral Blood Smear", "result": "Schistocytes (>2%), helmet cells, burr cells, fragmented RBCs. Thrombocytopenia confirmed.", "flag": "ABNORMAL", "clinical_significance": "Schistocytes are pathognomonic for microangiopathic hemolytic anemia; hallmark of TMA"},
+      {"test_name": "Platelet Count", "result": "38,000/μL", "flag": "LOW", "clinical_significance": "Severe thrombocytopenia from platelet consumption in damaged microvasculature"},
+      {"test_name": "Serum Creatinine", "result": "3.4 mg/dL", "flag": "HIGH", "clinical_significance": "Acute kidney injury from thrombotic microangiopathy of renal vasculature"},
+      {"test_name": "BUN", "result": "52 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from renal failure"},
+      {"test_name": "LDH", "result": "2,850 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated from hemolysis and tissue ischemia"},
+      {"test_name": "Haptoglobin", "result": "<10 mg/dL (undetectable)", "flag": "LOW", "clinical_significance": "Consumed by binding free hemoglobin from intravascular hemolysis"},
+      {"test_name": "Indirect Bilirubin", "result": "3.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from hemoglobin catabolism in hemolytic anemia"},
+      {"test_name": "Direct Coombs Test", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative DAT confirms hemolysis is mechanical (MAHA), not autoimmune"},
+      {"test_name": "Reticulocyte Count", "result": "8.2%", "flag": "HIGH", "clinical_significance": "Reticulocytosis reflects bone marrow compensation for hemolysis"},
+      {"test_name": "Stool Culture/PCR", "result": "Positive for Shiga toxin-producing E. coli O157:H7", "flag": "ABNORMAL", "clinical_significance": "Identifies the causative organism; STEC-HUS accounts for ~90% of pediatric HUS cases"},
+      {"test_name": "ADAMTS13 Activity", "result": "68% (normal >10%)", "flag": "WNL", "clinical_significance": "Normal ADAMTS13 activity (>10%) distinguishes HUS from TTP, where ADAMTS13 is severely deficient (<10%)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Bilateral enlarged, echogenic kidneys with increased resistive indices on Doppler. No hydronephrosis or thrombosis of major renal vessels.", "flag": "ABNORMAL", "clinical_significance": "Enlarged echogenic kidneys reflect acute kidney injury from TMA; elevated resistive indices suggest microvascular involvement"},
+      {"test_name": "Abdominal X-ray", "result": "Mild colonic wall thickening. No free air or obstruction. Thumbprinting of the ascending colon.", "flag": "ABNORMAL", "clinical_significance": "Colonic wall thickening and thumbprinting consistent with STEC colitis"}
+    ],
+    "key_tests": [
+      "Complete blood count with peripheral smear (schistocytes)",
+      "Serum creatinine and BUN",
+      "LDH, haptoglobin, indirect bilirubin (hemolysis markers)",
+      "Stool culture/PCR for Shiga toxin-producing E. coli",
+      "ADAMTS13 activity level"
+    ],
+    "acceptable_tests": [
+      "Direct Coombs test (exclude autoimmune hemolysis)",
+      "Reticulocyte count",
+      "Coagulation studies (PT/INR, fibrinogen — typically normal in TMA, unlike DIC)",
+      "Renal ultrasound",
+      "Complement studies (C3, Factor H — if atypical HUS suspected)",
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (diagnosis is clinical; biopsy risks bleeding with thrombocytopenia)",
+      "CT abdomen with contrast (avoid nephrotoxic contrast)",
+      "ANA/ANCA panel",
+      "Bone marrow biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The classic triad of microangiopathic hemolytic anemia (schistocytes, low haptoglobin, elevated LDH), thrombocytopenia, and acute kidney injury following bloody diarrhea from STEC O157:H7 infection, with normal ADAMTS13 activity, confirms Shiga toxin-associated hemolytic uremic syndrome (STEC-HUS)."
+  },
+  "debrief": {
+    "classic_presentation": "A young child (typically <5 years) develops bloody diarrhea (often from undercooked meat), followed 5-10 days later by the triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. Peripheral smear shows schistocytes. ADAMTS13 activity is normal (>10%).",
+    "attending_mode_notes": "Critical distinction: STEC-HUS (typical HUS) has NORMAL ADAMTS13 and follows diarrheal illness; TTP has SEVERELY DEFICIENT ADAMTS13 (<10%) and rarely involves significant renal failure; atypical HUS (aHUS) involves complement dysregulation without diarrheal prodrome and requires complement inhibitor therapy (eculizumab). Antibiotics and antimotility agents are CONTRAINDICATED in STEC infection as they increase risk of HUS (antibiotics lyse bacteria, releasing more Shiga toxin). Platelet transfusion is generally avoided as it may worsen microvascular thrombosis (unless active life-threatening bleeding). The pentad of TTP (MAHA, thrombocytopenia, renal failure, fever, neurologic changes) overlaps with HUS — ADAMTS13 testing is essential for differentiation.",
+    "pathophysiology": "Shiga toxin-producing E. coli (STEC, usually O157:H7) causes hemorrhagic colitis. Shiga toxin is absorbed into the bloodstream and binds to globotriaosylceramide (Gb3) receptors, which are highly expressed on glomerular endothelial cells in children. Toxin binding triggers endothelial cell injury, activation of the coagulation cascade, and formation of platelet-fibrin microthrombi in arterioles and capillaries (thrombotic microangiopathy). Red blood cells are mechanically sheared as they pass through partially occluded vessels (creating schistocytes). Platelets are consumed in microthrombi (thrombocytopenia). Glomerular microvascular thrombosis causes acute kidney injury.",
+    "treatment_overview": "Primarily SUPPORTIVE CARE for STEC-HUS: (1) Aggressive IV fluid resuscitation and careful volume management. (2) RBC transfusion for symptomatic anemia (Hgb <7 g/dL). (3) Dialysis for indications (hyperkalemia, volume overload, severe uremia, acidosis) — approximately 50% of children with STEC-HUS require dialysis. (4) Blood pressure management (avoid ACE inhibitors in acute phase). (5) Monitor for CNS complications (seizures, encephalopathy). (6) AVOID antibiotics (increase Shiga toxin release), antimotility agents, and platelet transfusions. Most children (>90%) recover renal function, though 5% may progress to ESRD. If atypical HUS is suspected, initiate eculizumab (complement C5 inhibitor) promptly.",
+    "high_yield_pearls": [
+      "STEC-HUS is the most common cause of acute kidney injury in children; the classic triad is MAHA + thrombocytopenia + AKI following bloody diarrhea.",
+      "ADAMTS13 activity >10% distinguishes HUS from TTP (ADAMTS13 <10%); this test is essential when the diagnosis is uncertain.",
+      "Antibiotics are CONTRAINDICATED in suspected STEC infection — they lyse bacteria and increase Shiga toxin release, raising HUS risk.",
+      "Schistocytes on peripheral blood smear + negative direct Coombs test = mechanical (microangiopathic) hemolysis, not autoimmune hemolysis.",
+      "Atypical HUS (aHUS) is caused by complement dysregulation (mutations in Factor H, Factor I, MCP, or autoantibodies to Factor H) and requires eculizumab/ravulizumab, unlike STEC-HUS which is treated supportively."
+    ],
+    "sources": [
+      "Noris M, Remuzzi G. Hemolytic uremic syndrome. J Am Soc Nephrol. 2005;16(4):1035-1050.",
+      "Tarr PI et al. Shiga-toxin-producing Escherichia coli and haemolytic uraemic syndrome. Lancet. 2005;365(9464):1073-1086.",
+      "UpToDate: STEC-HUS: clinical features, diagnosis, treatment, and prognosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "STEC-associated HUS (typical HUS)",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Atypical HUS (complement-mediated)",
+      "Disseminated intravascular coagulation (DIC)",
+      "Immune thrombocytopenic purpura (ITP)",
+      "Hemolytic anemia of other cause with coincident AKI"
+    ],
+    "after_stage2_more_likely": [
+      "STEC-HUS — young child with bloody diarrhea after undercooked meat, followed by pallor, decreased urine output, petechiae, and hypertension",
+      "DIC — petechiae and pallor could suggest consumptive coagulopathy, but diarrheal prodrome favors HUS"
+    ],
+    "after_stage2_less_likely": [
+      "TTP — primarily affects adults; severe renal failure is uncommon in TTP",
+      "ITP — would not explain anemia or renal failure; thrombocytopenia in ITP is isolated"
+    ],
+    "after_labs_top3": [
+      "STEC-HUS — classic triad (MAHA, thrombocytopenia, AKI), STEC O157:H7 on stool culture, normal ADAMTS13, negative Coombs",
+      "Atypical HUS — similar presentation but no diarrheal prodrome; would consider if STEC negative and complement studies abnormal",
+      "DIC — schistocytes and thrombocytopenia overlap, but DIC has prolonged PT/INR and low fibrinogen (which are normal in TMA)"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "case_258",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Primary hyperparathyroidism",
+  "icd_category": "E21.0 — Primary hyperparathyroidism",
+  "one_liner": "A 58-year-old postmenopausal woman presents with fatigue, constipation, nephrolithiasis, and osteoporosis, found to have hypercalcemia with elevated PTH.",
+  "stage2": {
+    "hpi_extension": "The patient presents after her primary care physician found an elevated calcium level (11.4 mg/dL) on routine bloodwork. She reports several months of non-specific fatigue, constipation, increased thirst and urination, and mild abdominal discomfort. She was seen in the emergency department 3 months ago for left flank pain and was diagnosed with a calcium oxalate kidney stone (passed spontaneously). She has also noticed worsening 'brain fog,' difficulty concentrating, and depressed mood. She had a DEXA scan last year showing osteoporosis (T-score -2.8 at the lumbar spine), which was attributed to menopause. She has been taking calcium and vitamin D supplements. She denies use of thiazide diuretics, lithium, or excessive antacid use.",
+    "pmh": "Osteoporosis (diagnosed 1 year ago). Nephrolithiasis (1 episode, 3 months ago — calcium oxalate). Hypertension. No history of MEN syndrome or family history of endocrine tumors.",
+    "surgical_history": "Cesarean section x2",
+    "medications": "Amlodipine 5 mg daily, calcium carbonate 600 mg BID (should be stopped), vitamin D3 2000 IU daily, alendronate 70 mg weekly",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with osteoporosis. Father with kidney stones. No family history of parathyroid disease, thyroid cancer, or MEN syndrome.",
+    "social_history": "Works as a real estate agent. Married. Non-smoker. Occasional wine. No illicit drug use. Exercises moderately (walking). Adequate sun exposure.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "72 bpm",
+      "bp": "148/86 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "158 lbs, BMI 26.3 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing postmenopausal woman in no acute distress. HEENT: No neck mass. No thyromegaly. Neck: Difficult to palpate parathyroid glands (typically not palpable); no cervical lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Shortened QT interval noted on bedside monitor. Lungs: Clear. Abdomen: Soft, mild diffuse tenderness, no rebound, normoactive bowel sounds. No costovertebral angle tenderness. Musculoskeletal: Diffuse mild bone tenderness on palpation. No fracture deformity. Normal posture. Neurological: Alert, oriented, mild proximal muscle weakness (difficulty rising from chair without arm support). Reflexes 2+ and symmetric. No focal deficits. Psychiatric: Mildly low affect, endorses depressed mood and concentration difficulties."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Calcium (total)", "result": "11.4 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia (normal 8.5-10.5); the initial finding prompting evaluation"},
+      {"test_name": "Ionized calcium", "result": "1.45 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated ionized calcium (normal 1.12-1.32) confirming true hypercalcemia (not albumin-related artifact)"},
+      {"test_name": "Intact PTH", "result": "128 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated PTH (normal 15-65) with concurrent hypercalcemia — this combination is diagnostic of primary hyperparathyroidism (PTH should be suppressed in other causes of hypercalcemia)"},
+      {"test_name": "Phosphorus", "result": "2.1 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus (normal 2.5-4.5) — PTH causes renal phosphate wasting; hypercalcemia + hypophosphatemia is classic for PHPT"},
+      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D — rules out vitamin D deficiency as cause of secondary hyperparathyroidism"},
+      {"test_name": "24-hour urine calcium", "result": "420 mg/day", "flag": "HIGH", "clinical_significance": "Elevated urinary calcium (normal <250) — rules out familial hypocalciuric hypercalcemia (FHH), which would have LOW urinary calcium; confirms PHPT"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 142, K 3.8, Cl 108, CO2 22, BUN 22, Cr 1.2, Glucose 95, AST 20, ALT 18, Alk Phos 135, Albumin 4.0", "flag": "MILD ABNORMAL", "clinical_significance": "Elevated alkaline phosphatase from increased bone turnover; elevated chloride and low bicarbonate (PTH-induced hyperchloremic acidosis); mildly elevated creatinine suggesting renal impairment"},
+      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 230", "flag": "WNL", "clinical_significance": "Normal CBC"},
+      {"test_name": "PTHrP (PTH-related protein)", "result": "<2.0 pmol/L", "flag": "WNL", "clinical_significance": "Normal PTHrP rules out humoral hypercalcemia of malignancy"},
+      {"test_name": "SPEP (Serum Protein Electrophoresis)", "result": "No monoclonal protein detected", "flag": "WNL", "clinical_significance": "Rules out multiple myeloma as cause of hypercalcemia and bone disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "Sestamibi (Tc-99m) parathyroid scintigraphy", "result": "Focal increased uptake in the right inferior parathyroid gland on delayed images, consistent with a parathyroid adenoma. No additional areas of abnormal uptake.", "flag": "ABNORMAL", "clinical_significance": "Localizes a single parathyroid adenoma — a solitary adenoma accounts for 85% of PHPT cases; localization aids surgical planning"},
+      {"test_name": "Neck ultrasound", "result": "Hypoechoic lesion measuring 1.8 x 1.2 cm posterior to the right thyroid lobe, consistent with a parathyroid adenoma. Thyroid gland normal.", "flag": "ABNORMAL", "clinical_significance": "Concordant localization with sestamibi scan — concordant dual-modality imaging allows minimally invasive parathyroidectomy"},
+      {"test_name": "DEXA scan (bone density)", "result": "T-score: lumbar spine -2.8, femoral neck -2.1, distal 1/3 radius -3.2", "flag": "ABNORMAL", "clinical_significance": "Osteoporosis most prominent at the distal radius (cortical bone) — preferential cortical bone loss is characteristic of hyperparathyroidism (PTH mobilizes cortical bone more than trabecular)"}
+    ],
+    "key_tests": [
+      "Calcium + intact PTH — hypercalcemia (11.4) with inappropriately elevated PTH (128) is diagnostic of primary hyperparathyroidism",
+      "24-hour urine calcium — elevated at 420 mg/day, ruling out FHH",
+      "Sestamibi scan — localizing a right inferior parathyroid adenoma",
+      "DEXA scan — showing osteoporosis with preferential cortical bone loss (distal radius worst)"
+    ],
+    "acceptable_tests": [
+      "Ionized calcium — confirming true hypercalcemia",
+      "Phosphorus — low, consistent with PTH-mediated phosphaturia",
+      "CMP — showing elevated alk phos, chloride, and mild renal impairment",
+      "Neck ultrasound — concordant adenoma localization",
+      "PTHrP — ruling out malignancy-associated hypercalcemia",
+      "SPEP — ruling out multiple myeloma",
+      "Vitamin D — ruling out secondary hyperparathyroidism"
+    ],
+    "low_yield_tests": [
+      "CT neck with contrast (sestamibi + ultrasound provide adequate localization for surgery)",
+      "Bone biopsy (DEXA and labs are sufficient for assessing bone involvement)",
+      "Genetic testing for MEN (no family history, no features of MEN1 or MEN2A)",
+      "Renal ultrasound (reasonable if assessing stone burden, but not diagnostic for PHPT)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The diagnosis is confirmed by the pathognomonic combination of hypercalcemia (11.4 mg/dL) with inappropriately elevated intact PTH (128 pg/mL). The clinical picture demonstrates the classic mnemonic 'stones, bones, groans, and psychic moans': nephrolithiasis (calcium oxalate stone), osteoporosis with preferential cortical bone loss, constipation and abdominal discomfort, and depression with cognitive dysfunction. Elevated 24-hour urine calcium excludes FHH. Sestamibi scan and ultrasound concordantly localize a right inferior parathyroid adenoma."
+  },
+  "debrief": {
+    "classic_presentation": "A postmenopausal woman found to have incidental hypercalcemia on routine bloodwork. The classic clinical features follow the mnemonic 'stones, bones, groans, and psychic moans': nephrolithiasis (calcium stones), bone disease (osteoporosis, fragility fractures — preferentially cortical bone at the distal radius), GI symptoms (constipation, abdominal pain, peptic ulcers, pancreatitis), and neuropsychiatric symptoms (depression, cognitive dysfunction, fatigue). Most patients today are diagnosed in an asymptomatic/mildly symptomatic stage due to routine calcium screening.",
+    "attending_mode_notes": "The critical clinical decisions in PHPT are: (1) Confirming the diagnosis — the KEY is that both calcium AND PTH are elevated simultaneously. In all other causes of hypercalcemia (malignancy, vitamin D excess, granulomatous disease), PTH is appropriately suppressed. (2) Distinguishing from FHH — a benign autosomal dominant condition with lifelong mild hypercalcemia that does NOT require surgery. Calcium-to-creatinine clearance ratio (CCCR) >0.02 or 24-hour urine calcium >200 mg favors PHPT over FHH. (3) Surgical indications per the 4th International Workshop on Asymptomatic PHPT (2014): surgery is recommended if any of: age <50, calcium >1.0 mg/dL above upper limit, CrCl <60, T-score <-2.5 at any site, vertebral fracture, nephrolithiasis on imaging, or 24-hr urine calcium >400 mg. This patient meets multiple criteria. (4) Minimally invasive parathyroidectomy is preferred when sestamibi and ultrasound are concordant — cure rate >95% with intraoperative PTH monitoring (PTH should drop >50% within 10 minutes). (5) Beware of 'hungry bone syndrome' post-parathyroidectomy — the sudden PTH drop allows bones to rapidly take up calcium, causing severe hypocalcemia requiring aggressive calcium supplementation.",
+    "pathophysiology": "Primary hyperparathyroidism results from autonomous PTH secretion, most commonly from a single parathyroid adenoma (85%), followed by four-gland hyperplasia (10-15%) and rarely carcinoma (<1%). PTH acts on: (1) bone — activates osteoclasts via RANKL upregulation, mobilizing calcium and phosphorus (preferentially from cortical bone, explaining the distal radius involvement); (2) kidney — increases distal tubular calcium reabsorption (but overall filtered load overwhelms reabsorption, causing hypercalciuria and kidney stones), promotes phosphate excretion (hypophosphatemia), and stimulates 1-alpha-hydroxylase (increasing 1,25-dihydroxy vitamin D production, which enhances intestinal calcium absorption); (3) GI tract — indirectly increases calcium absorption via vitamin D. The net result is hypercalcemia, hypophosphatemia, and hypercalciuria. The hyperchloremic acidosis results from PTH-mediated bicarbonate wasting in the proximal tubule.",
+    "treatment_overview": "Surgical parathyroidectomy is the definitive treatment and the only cure. Indications: symptomatic disease OR meeting any criteria from the 4th International Workshop (this patient meets multiple). Minimally invasive parathyroidectomy with intraoperative PTH monitoring is standard when localization studies are concordant. Cure rate >95%. Pre-operative: discontinue calcium supplements, adequate hydration. Post-operative: monitor calcium closely for 'hungry bone syndrome' (severe hypocalcemia from rapid bone remineralization); supplemental calcium 1500-2000 mg daily and vitamin D. For patients who decline or are not candidates for surgery: surveillance with annual calcium, PTH, creatinine, and DEXA every 1-2 years. Medical management: cinacalcet (calcimimetic) reduces calcium but does not improve BMD; bisphosphonates improve BMD but do not lower calcium. Adequate hydration; avoid thiazide diuretics and lithium.",
+    "high_yield_pearls": [
+      "The hallmark of primary hyperparathyroidism is ELEVATED calcium + ELEVATED PTH simultaneously — in all other causes of hypercalcemia, PTH should be suppressed.",
+      "'Stones, bones, groans, and psychic moans' — nephrolithiasis, osteoporosis/fractures, GI symptoms (constipation, PUD, pancreatitis), and neuropsychiatric symptoms (depression, cognitive dysfunction).",
+      "DEXA in PHPT shows preferential cortical bone loss — the distal 1/3 radius (cortical bone) is most affected, unlike postmenopausal osteoporosis which preferentially affects the spine (trabecular bone).",
+      "24-hour urine calcium >200 mg (or calcium-to-creatinine clearance ratio >0.02) distinguishes PHPT from familial hypocalciuric hypercalcemia — a critical distinction because FHH does NOT require surgery.",
+      "Primary hyperparathyroidism is the most common cause of hypercalcemia in the OUTPATIENT setting; malignancy is the most common cause in the INPATIENT setting.",
+      "Post-parathyroidectomy 'hungry bone syndrome' can cause severe symptomatic hypocalcemia — ensure aggressive calcium and vitamin D supplementation perioperatively."
+    ],
+    "sources": [
+      "Bilezikian JP et al. Guidelines for the Management of Asymptomatic Primary Hyperparathyroidism: Summary Statement from the 4th International Workshop. J Clin Endocrinol Metab, 2014",
+      "Wilhelm SM et al. AAES Guidelines for Definitive Management of Primary Hyperparathyroidism. Ann Surg, 2016",
+      "Silverberg SJ, Bilezikian JP. Primary hyperparathyroidism. N Engl J Med, 2023",
+      "Walker MD, Silverberg SJ. Primary hyperparathyroidism. Nat Rev Endocrinol, 2018",
+      "Eastell R et al. Diagnosis of asymptomatic primary hyperparathyroidism: proceedings of the 4th International Workshop. J Clin Endocrinol Metab, 2014"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Primary hyperparathyroidism",
+      "Malignancy-associated hypercalcemia",
+      "Familial hypocalciuric hypercalcemia",
+      "Vitamin D intoxication",
+      "Thiazide diuretic-induced hypercalcemia",
+      "Granulomatous disease (sarcoidosis)",
+      "Multiple myeloma",
+      "Milk-alkali syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Primary hyperparathyroidism — hypercalcemia with kidney stone, osteoporosis, constipation, depression, fatigue in a postmenopausal woman",
+      "Malignancy-associated hypercalcemia — always consider in new hypercalcemia, but chronic insidious course favors PHPT"
+    ],
+    "after_stage2_less_likely": [
+      "Thiazide-induced — not on thiazide diuretics",
+      "Vitamin D intoxication — taking standard dose supplementation, not mega-doses",
+      "Milk-alkali syndrome — not taking excessive calcium/antacid (though she is taking calcium supplements)"
+    ],
+    "after_labs_top3": [
+      "Primary hyperparathyroidism — elevated calcium with elevated PTH (diagnostic combination), low phosphorus, elevated 24-hr urine calcium (excluding FHH), parathyroid adenoma on imaging",
+      "Familial hypocalciuric hypercalcemia — excluded by elevated 24-hour urine calcium (FHH has low urine calcium)",
+      "Malignancy-associated hypercalcemia — excluded by normal PTHrP and SPEP, elevated PTH (PTH is suppressed in malignancy)"
+    ]
+  }
+}

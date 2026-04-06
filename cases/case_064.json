@@ -1,0 +1,79 @@
+{
+  "case_id": "case_064",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Acalculous Cholecystitis",
+  "icd_category": "K81.0 — Acute cholecystitis",
+  "one_liner": "A 64-year-old male in the surgical ICU on day 12 following a complicated open abdominal aortic aneurysm repair develops new fever, RUQ tenderness, and rising WBC despite broad-spectrum antibiotics.",
+  "stage2": {
+    "hpi_extension": "Patient is a 64-year-old male who is on day 12 of his ICU stay following emergent repair of a ruptured abdominal aortic aneurysm. His postoperative course has been complicated by septic shock requiring vasopressors (now weaning off), acute kidney injury requiring temporary hemodialysis (now improving), respiratory failure requiring mechanical ventilation (weaned to CPAP 2 days ago), and a ventilator-associated pneumonia treated with vancomycin and cefepime (day 7 of antibiotics, cultures clearing). He had been improving clinically until 24 hours ago when he developed new fevers to 102.4 F, increased WBC, and the nursing staff noted that he grimaces during RUQ palpation. He is unable to provide a meaningful history due to intermittent sedation and ICU delirium, but he has been tolerating tube feeds via nasogastric tube. His abdominal exam had previously been benign (healing midline laparotomy incision). Chest X-ray yesterday showed improving bilateral infiltrates. His lines (central venous catheter, arterial line) were recently changed per protocol. No new medications were started. Blood cultures from 18 hours ago are pending.",
+    "pmh": "Abdominal aortic aneurysm (now post-repair), hypertension, coronary artery disease (2-vessel, prior PCI), type 2 diabetes mellitus, COPD, chronic kidney disease stage 3",
+    "surgical_history": "Emergent open AAA repair (12 days ago), percutaneous coronary intervention (5 years ago)",
+    "medications": "Vasopressin (weaning), propofol (as needed for agitation), fentanyl drip, vancomycin IV, cefepime IV, heparin SQ (DVT prophylaxis), insulin drip, pantoprazole IV, tube feeds (Osmolite 1.5 at 55 mL/hr via NGT)",
+    "allergies": "Iodinated contrast dye (anaphylactoid reaction — rash, wheezing)",
+    "family_history": "Father died of AAA rupture at age 68. Mother with diabetes.",
+    "social_history": "Retired truck driver. Former smoker (quit 5 years ago, 45 pack-year history). Former heavy drinker (quit 10 years ago). Lives with wife.",
+    "vitals": {
+      "temp": "102.4 F (39.1 C)",
+      "hr": "108 bpm",
+      "bp": "98/56 mmHg (on vasopressin 0.02 units/min)",
+      "rr": "22 breaths/min",
+      "spo2": "94% on CPAP 40% FiO2, PEEP 5",
+      "weight_bmi": "88 kg, BMI 29.4"
+    },
+    "physical_exam": "General: Critically ill male, intubated on CPAP, intermittently responsive. Sedated but grimaces with abdominal palpation. HEENT: Endotracheal tube in place. Dry lips. Mild scleral icterus (new finding). Neck: Central venous catheter in right internal jugular. Cardiovascular: Tachycardic, regular rhythm. No new murmurs. Pulmonary: Coarse bilateral breath sounds, improving from baseline. Abdomen: Healing midline laparotomy incision with staples. Abdomen is mildly distended. There is new, focal tenderness in the right upper quadrant with involuntary guarding. No rebound. A vague fullness is palpable in the RUQ (difficult to assess due to body habitus and incision). Bowel sounds are diminished. NGT draining bilious fluid. Extremities: 2+ bilateral pitting edema (fluid overload). Bilateral sequential compression devices in place. Skin: Mild jaundice (new). Multiple IV access sites. No new rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "22.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Significantly elevated (was 14.2 yesterday and trending down), new spike concerning for new infectious source"},
+      {"test_name": "CBC - Hemoglobin", "result": "9.2 g/dL", "flag": "LOW", "clinical_significance": "Chronic anemia of critical illness"},
+      {"test_name": "Total Bilirubin", "result": "4.2 mg/dL", "flag": "HIGH", "clinical_significance": "New elevation (was 1.8 two days ago), concerning for biliary pathology"},
+      {"test_name": "Direct Bilirubin", "result": "3.4 mg/dL", "flag": "HIGH", "clinical_significance": "Conjugated hyperbilirubinemia, cholestatic pattern"},
+      {"test_name": "Alkaline Phosphatase", "result": "286 U/L", "flag": "HIGH", "clinical_significance": "New elevation, cholestatic pattern supporting biliary etiology"},
+      {"test_name": "ALT", "result": "98 U/L", "flag": "HIGH", "clinical_significance": "Elevated, hepatocellular component"},
+      {"test_name": "AST", "result": "114 U/L", "flag": "HIGH", "clinical_significance": "Elevated"},
+      {"test_name": "Lipase", "result": "46 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
+      {"test_name": "Procalcitonin", "result": "8.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (was trending down to 1.2), suggests new bacterial infection"},
+      {"test_name": "Lactate", "result": "3.6 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated (was normalizing), new source of sepsis"},
+      {"test_name": "BMP - Creatinine", "result": "2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, improving from peak of 4.8 but plateau may reflect new hemodynamic insult"},
+      {"test_name": "Blood Cultures", "result": "Pending (drawn 18 hours ago, no growth at 18 hours)", "flag": "PENDING", "clinical_significance": "Await final result; may be negative in acalculous cholecystitis without bacteremia"}
+    ],
+    "imaging_results": [
+      {"test_name": "Right Upper Quadrant Ultrasound (bedside)", "result": "Gallbladder is markedly distended (12 x 5 cm) with diffuse wall thickening (6 mm). Pericholecystic fluid present. Gallbladder lumen contains sludge but NO gallstones. Sonographic Murphy sign is positive (patient grimaces with transducer pressure over the gallbladder). Common bile duct measures 5 mm (normal). No intrahepatic biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient is the classic presentation of acalculous cholecystitis."},
+      {"test_name": "HIDA Scan (hepatobiliary iminodiacetic acid scan)", "result": "Non-visualization of the gallbladder at 4 hours after injection with morphine augmentation. Normal hepatic uptake. Tracer excreted into the small bowel.", "flag": "ABNORMAL", "clinical_significance": "Non-filling of the gallbladder (cystic duct obstruction from inflammation/edema/sludge) confirms acute cholecystitis. HIDA scan has 90-95% sensitivity for acute cholecystitis. Note: iodinated contrast allergy does not preclude HIDA scan (different agent — technetium-labeled IDA compound)."}
+    ],
+    "key_tests": ["Right upper quadrant ultrasound (bedside)", "CBC with differential (trending)", "Hepatic function panel (bilirubin, ALP, ALT, AST)", "Procalcitonin (trending)", "Serum lactate"],
+    "acceptable_tests": ["HIDA scan (if ultrasound equivocal)", "Blood cultures", "BMP", "Lipase", "CT abdomen (if contrast allergy managed with premedication or non-contrast CT)", "Chest X-ray (rule out other source)"],
+    "low_yield_tests": ["CT with iodinated contrast (patient has contrast allergy — requires premedication protocol)", "ERCP (no ductal obstruction)", "MRCP (no biliary dilation, patient may be too unstable for MRI)", "Abdominal X-ray (insensitive for cholecystitis)"],
+    "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is acalculous cholecystitis — a feared complication in critically ill patients that requires urgent intervention."
+  },
+  "stage5": {
+    "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is acalculous cholecystitis — a feared complication in critically ill patients that requires urgent intervention."
+  },
+  "debrief": {
+    "classic_presentation": "New fever, RUQ tenderness, and leukocytosis in a critically ill ICU patient (typically on day 7-14 of ICU stay). Patients are often sedated, intubated, and unable to report symptoms, making the diagnosis challenging. A high index of suspicion is required when an ICU patient develops unexplained sepsis. Risk factors include prolonged ICU stay, total parenteral nutrition (biliary stasis), positive-pressure ventilation, vasopressor use (gallbladder mucosal ischemia), opioid use (sphincter of Oddi spasm), sepsis, major surgery, burns, trauma, and prolonged fasting. Acalculous cholecystitis accounts for 5-10% of all cholecystitis cases but carries mortality rates of 30-50% (much higher than calculous cholecystitis).",
+    "attending_mode_notes": "This case illustrates the diagnostic challenge of identifying acalculous cholecystitis in a complex ICU patient with multiple potential sources of sepsis: (1) The differential for new fever in an ICU patient is broad: catheter-associated infection (central line, urinary catheter), ventilator-associated pneumonia, surgical site infection, Clostridium difficile colitis, deep vein thrombosis/PE, drug fever, and intra-abdominal abscess — acalculous cholecystitis must be on this list. (2) Ultrasound findings in ICU patients can be challenging to interpret: gallbladder wall thickening and distension can be caused by ascites, hypoalbuminemia, hepatitis, and CHF — these are common in ICU patients. The COMBINATION of distension, wall thickening, pericholecystic fluid, and sludge in the clinical context of unexplained sepsis is what makes the diagnosis. (3) HIDA scan is helpful when ultrasound is equivocal but takes time (up to 4 hours) and may have false positives in patients on TPN or who are fasting (cystic duct spasm from disuse). Morphine augmentation improves specificity. (4) The critical management decision: cholecystectomy vs. percutaneous cholecystostomy. In this patient — a critically ill, hemodynamically unstable patient on vasopressors with recent major abdominal surgery — percutaneous cholecystostomy tube placement (image-guided) is the preferred intervention. It can be done at the bedside under ultrasound guidance and avoids the risks of general anesthesia and reoperation. Definitive cholecystectomy can be performed later if the patient recovers. (5) The contrast allergy in this patient is to iodinated CT contrast, NOT to the technetium-labeled compound used in HIDA scans — this is a common misconception that must not delay the HIDA scan. (6) Empiric antibiotic adjustment: broaden to cover biliary pathogens (E. coli, Klebsiella, Enterococcus, anaerobes) — piperacillin-tazobactam or meropenem are appropriate choices.",
+    "pathophysiology": "Acalculous cholecystitis results from gallbladder ischemia and bile stasis in the absence of gallstones. In critically ill patients, the gallbladder mucosa is vulnerable to ischemic injury from: (1) Hypotension and low-flow states (sepsis, hemorrhagic shock). (2) Vasopressor use (splanchnic vasoconstriction reduces gallbladder perfusion). (3) Positive-pressure ventilation (increases hepatic venous pressure, reduces gallbladder perfusion). (4) Opioids and sedation (reduce gallbladder motility, cause sphincter of Oddi spasm). (5) Prolonged fasting or TPN (bile stasis without cholecystokinin-stimulated gallbladder contraction). The combination of mucosal ischemia and bile stasis leads to inflammation, bacterial colonization (bacterial translocation from the gut), and rapid progression to gangrene and perforation. The progression is faster and more aggressive than calculous cholecystitis, accounting for the high mortality rate (30-50%).",
+    "treatment_overview": "Acalculous cholecystitis is a surgical emergency. Two main interventional options: (1) Percutaneous cholecystostomy tube placement (preferred in hemodynamically unstable, critically ill patients who are poor surgical candidates): Performed at the bedside under ultrasound or fluoroscopic guidance. A pigtail catheter is placed into the gallbladder for decompression and drainage. Send bile for culture and Gram stain. The tube remains for 4-6 weeks until a tract matures, then a cholangiogram is performed before removal. (2) Cholecystectomy (laparoscopic or open): Definitive treatment, preferred when the patient can tolerate general anesthesia. In patients with prior open abdominal surgery (as in this case), open cholecystectomy may be necessary due to adhesions. Broad-spectrum antibiotics targeting biliary pathogens: piperacillin-tazobactam, meropenem, or ceftriaxone plus metronidazole. Supportive care: IV fluid resuscitation, vasopressor optimization, correct coagulopathy. If the patient improves with percutaneous cholecystostomy, interval cholecystectomy can be performed 6-8 weeks later once the patient has recovered from the critical illness.",
+    "high_yield_pearls": [
+      "Acalculous cholecystitis accounts for 5-10% of all cholecystitis but carries 30-50% mortality — much higher than calculous cholecystitis.",
+      "It is a disease of the critically ill: ICU patients, post-major surgery, burns, trauma, sepsis, and prolonged TPN are classic settings.",
+      "RUQ ultrasound showing a distended, thick-walled gallbladder with sludge and pericholecystic fluid but NO stones in a critically ill patient should prompt immediate action.",
+      "Percutaneous cholecystostomy tube is the preferred intervention for unstable ICU patients who cannot tolerate general anesthesia.",
+      "Gallbladder gangrene and perforation occur much more rapidly in acalculous cholecystitis than in calculous disease — early intervention is critical.",
+      "HIDA scan uses technetium-labeled agents, NOT iodinated contrast — it is safe in patients with iodinated contrast allergies."
+    ],
+    "sources": [
+      "Barie PS, Eachempati SR. Gastroenterol Clin North Am 2010;39:343-357 (Acute Acalculous Cholecystitis)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 32",
+      "Tokyo Guidelines 2018 (TG18): Diagnostic Criteria and Severity Grading (J Hepatobiliary Pancreat Sci 2018;25:41-54)",
+      "Huffman JL, Schenker S. Clin Gastroenterol Hepatol 2010;8:15-22"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acalculous cholecystitis", "Calculous cholecystitis (stones missed on US)", "Hepatic abscess", "Ventilator-associated pneumonia (recurrent)", "Catheter-related bloodstream infection", "Clostridium difficile colitis", "Surgical site infection/intra-abdominal abscess"],
+    "after_stage2_more_likely": ["Acalculous cholecystitis", "Hepatic abscess"],
+    "after_stage2_less_likely": ["Ventilator-associated pneumonia", "Catheter-related bloodstream infection"],
+    "after_labs_top3": ["Acalculous cholecystitis", "Hepatic abscess", "Calculous cholecystitis"]
+  }
+}

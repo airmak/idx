@@ -1,0 +1,75 @@
+{
+  "case_id": "case_050",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Perforated Peptic Ulcer",
+  "icd_category": "K27.1 — Peptic ulcer, acute with perforation",
+  "one_liner": "A 58-year-old male presents with sudden-onset severe epigastric pain, board-like abdominal rigidity, and tachycardia after years of NSAID use.",
+  "stage2": {
+    "hpi_extension": "Patient reports the sudden onset of severe, 10/10 epigastric pain approximately 4 hours ago while at work. The pain began abruptly ('like a knife'), initially localized to the epigastrium but has since become diffuse across the entire abdomen. He is lying completely still and reports that any movement worsens the pain. He had one episode of dry heaving but no frank vomiting. He endorses a long history of intermittent epigastric burning and discomfort over the past 2 years, often worse on an empty stomach and partially relieved by antacids. He has been taking ibuprofen 800 mg three times daily for the past 4 months for chronic knee pain. He skipped lunch today. He denies hematemesis, melena, hematochezia, fever, recent travel, or prior abdominal surgeries.",
+    "pmh": "Osteoarthritis of both knees, hypertension, history of H. pylori infection (treated 5 years ago, compliance uncertain)",
+    "surgical_history": "Right knee arthroscopy (3 years ago)",
+    "medications": "Ibuprofen 800 mg TID, lisinopril 20 mg daily, occasional over-the-counter antacids",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had gastric ulcer. No family history of gastric cancer.",
+    "social_history": "Smokes 1 pack per day for 30 years. Drinks 2-3 beers daily. Works in construction. Divorced, lives alone.",
+    "vitals": {
+      "temp": "100.2 F (37.9 C)",
+      "hr": "112 bpm",
+      "bp": "98/62 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "78 kg, BMI 25.4"
+    },
+    "physical_exam": "General: Thin male in severe distress, lying motionless, diaphoretic, and pale. HEENT: Dry mucous membranes. No scleral icterus. Neck: Supple. Cardiovascular: Tachycardic, regular rhythm. No murmurs. Pulmonary: Shallow respirations. Decreased breath sounds at the right base. Abdomen: Board-like rigidity. Diffuse tenderness most pronounced in the epigastrium. Rebound tenderness present in all quadrants. Involuntary guarding. Absent bowel sounds. No distension. No hernia. Rectal: No melena. Extremities: Cool, delayed capillary refill (>3 seconds). No edema. Skin: Diaphoretic, pale."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "16.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis consistent with acute peritonitis"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal, hemoconcentration possible given dehydration"},
+      {"test_name": "BMP - BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with dehydration and prerenal state"},
+      {"test_name": "BMP - Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely prerenal from volume depletion"},
+      {"test_name": "Serum Amylase", "result": "78 U/L", "flag": "WNL", "clinical_significance": "Normal, helps exclude pancreatitis as the primary etiology"},
+      {"test_name": "Lipase", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal, rules out acute pancreatitis"},
+      {"test_name": "Lactate", "result": "3.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting tissue hypoperfusion and early sepsis physiology"},
+      {"test_name": "ALT", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal hepatic transaminases"},
+      {"test_name": "Total Bilirubin", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ABG - pH", "result": "7.32", "flag": "LOW", "clinical_significance": "Mild acidosis, consistent with hypoperfusion and lactic acidosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upright Chest X-ray", "result": "Free air (pneumoperitoneum) visible under the right hemidiaphragm. No pleural effusion. No pneumothorax.", "flag": "ABNORMAL", "clinical_significance": "Pneumoperitoneum is pathognomonic for a perforated hollow viscus. In the setting of epigastric pain and NSAID use, perforated peptic ulcer is the leading diagnosis."},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Large amount of free intraperitoneal air. Free fluid in the upper abdomen and pelvis. Extraluminal contrast seen near the anterior first portion of the duodenum, consistent with a perforated duodenal ulcer. No abscess. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Confirms perforated duodenal ulcer with localization of the perforation site. Guides surgical planning."}
+    ],
+    "key_tests": ["Upright chest X-ray (or left lateral decubitus)", "CT abdomen/pelvis with contrast", "CBC with differential", "BMP (renal function, electrolytes)", "Serum lactate"],
+    "acceptable_tests": ["Lipase/amylase", "Hepatic function panel", "Blood cultures", "Type and screen", "ABG/VBG", "Urinalysis", "Coagulation studies (PT/INR)"],
+    "low_yield_tests": ["Abdominal ultrasound (poor for free air detection)", "Upper GI series with water-soluble contrast (delays treatment)", "H. pylori serology (does not change acute management)", "EGD (contraindicated in suspected perforation)", "Barium swallow (contraindicated)"],
+    "final_clue": "Upright chest X-ray reveals pneumoperitoneum under the right hemidiaphragm. CT abdomen confirms free air and extraluminal contrast near the anterior duodenum, diagnostic of a perforated duodenal ulcer. Combined with the acute peritonitis on exam, NSAID use, and smoking history, this patient requires emergent surgical repair."
+  },
+  "stage5": {
+    "final_clue": "Upright chest X-ray reveals pneumoperitoneum under the right hemidiaphragm. CT abdomen confirms free air and extraluminal contrast near the anterior duodenum, diagnostic of a perforated duodenal ulcer. Combined with the acute peritonitis on exam, NSAID use, and smoking history, this patient requires emergent surgical repair."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden-onset, severe ('thunderclap') epigastric pain with rapid progression to diffuse peritonitis. Board-like abdominal rigidity is classic. Risk factors include chronic NSAID use, smoking, H. pylori infection, and physiologic stress. Anterior duodenal ulcers perforate into the peritoneal cavity (causing peritonitis), while posterior ulcers erode into the gastroduodenal artery (causing hemorrhage).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Peptic ulcers result from an imbalance between mucosal defense mechanisms (mucus, bicarbonate, prostaglandins) and aggressive factors (acid, pepsin, H. pylori, NSAIDs). NSAIDs inhibit COX-1, reducing prostaglandin synthesis and impairing mucosal blood flow and bicarbonate secretion. Full-thickness ulceration leads to perforation, with spillage of gastroduodenal contents (acid, bile, bacteria) into the peritoneal cavity, causing chemical and then bacterial peritonitis. Untreated perforation leads to sepsis, multi-organ failure, and death.",
+    "treatment_overview": "Emergent surgical repair is the standard of care. Options include primary repair with omental (Graham) patch via laparoscopic or open approach. Aggressive IV fluid resuscitation with crystalloids. Broad-spectrum antibiotics (piperacillin-tazobactam or ceftriaxone plus metronidazole). NGT decompression. NPO. Discontinue NSAIDs permanently. Post-operative PPI therapy (IV pantoprazole then oral). Test and treat H. pylori. In select patients with small, contained perforations and minimal contamination, non-operative (Taylor) management with NGT, IV antibiotics, and PPI may be considered, though this is controversial.",
+    "high_yield_pearls": [
+      "Pneumoperitoneum on upright CXR is present in approximately 80% of perforated peptic ulcers; its absence does not exclude perforation.",
+      "Anterior duodenal ulcers perforate (peritonitis), posterior duodenal ulcers bleed (gastroduodenal artery erosion).",
+      "NSAIDs and H. pylori are the two most common causes of peptic ulcer disease, and their effects are synergistic.",
+      "Graham patch (omental patch) repair is the classic surgical technique for perforated duodenal ulcer.",
+      "Free air under the diaphragm is best detected on upright CXR or left lateral decubitus abdominal film; CT is the most sensitive study overall."
+    ],
+    "sources": [
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 26",
+      "Lau JY et al. Lancet 2017;390:613-624 (Peptic Ulcer Disease)",
+      "Søreide K et al. World J Emerg Surg 2015;10:34 (Perforated Peptic Ulcer)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Perforated peptic ulcer", "Acute pancreatitis", "Mesenteric ischemia", "Perforated appendicitis", "Ruptured abdominal aortic aneurysm", "Acute cholecystitis", "Boerhaave syndrome"],
+    "after_stage2_more_likely": ["Perforated peptic ulcer", "Acute pancreatitis"],
+    "after_stage2_less_likely": ["Acute cholecystitis", "Ruptured abdominal aortic aneurysm"],
+    "after_labs_top3": ["Perforated peptic ulcer", "Mesenteric ischemia", "Perforated appendicitis"]
+  }
+}

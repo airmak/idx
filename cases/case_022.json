@@ -1,0 +1,68 @@
+{
+  "case_id": "case_022",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Thyroid storm",
+  "icd_category": "E05.5 — Thyrotoxicosis with thyroid crisis",
+  "one_liner": "A 34-year-old female with a history of Graves disease (non-compliant with methimazole) presents with high fever, tachycardia, agitation, and altered mental status 2 days after a dental extraction.",
+  "stage2": {
+    "hpi_extension": "The patient's boyfriend called 911 after finding her confused, tremulous, and speaking incoherently at home. He reports she has been increasingly agitated and irritable over the past 48 hours since having a wisdom tooth extracted under local anesthesia. She has had persistent high fevers at home (measured 103°F) despite acetaminophen, profuse sweating, and diarrhea (5-6 watery stools per day). She was diagnosed with Graves disease 2 years ago and was started on methimazole but stopped taking it approximately 3 months ago because she felt well and disliked the medication. She has lost 12 pounds over the past 3 months. The boyfriend denies ingestion of any drugs or supplements. She has had no similar episodes before. The dental extraction 2 days ago with associated stress and local infection may have been the precipitating event.",
+    "pmh": "Graves disease (diagnosed 2 years ago, non-compliant with methimazole for 3 months), generalized anxiety disorder",
+    "surgical_history": "Wisdom tooth extraction 2 days ago",
+    "medications": "None currently (stopped methimazole 3 months ago)",
+    "allergies": "NKDA",
+    "family_history": "Mother with hypothyroidism (Hashimoto). Grandmother with Graves disease.",
+    "social_history": "Non-smoker. Social drinker. Works as a barista. Lives with boyfriend. No illicit drug use.",
+    "vitals": {
+      "temp": "40.2°C (104.4°F)",
+      "hr": "162 bpm, irregularly irregular",
+      "bp": "168/60 mmHg (widened pulse pressure)",
+      "rr": "28 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "BMI 19 kg/m²"
+    },
+    "physical_exam": "General: Thin, diaphoretic, severely agitated woman requiring two staff members to keep her on the stretcher. HEENT: Bilateral proptosis (exophthalmos), lid lag, conjunctival injection. Staring gaze. Warm, moist skin. Thyroid gland diffusely enlarged (2-3x normal), smooth, non-tender, with an audible bruit. Cardiovascular: Tachycardic, irregularly irregular rhythm (atrial fibrillation), hyperdynamic precordium, systolic flow murmur at left sternal border, widened pulse pressure. Pulmonary: Tachypneic, clear to auscultation. Abdomen: Hyperactive bowel sounds. Mild diffuse tenderness, no guarding. Extremities: Bilateral pretibial myxedema (non-pitting, waxy, indurated plaques over anterior shins). Fine tremor of outstretched hands. Warm, moist palms. Neuro: Severely agitated, disoriented to time and place, pressured speech, hyperreflexia with brisk DTRs."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "<0.01 mIU/L", "flag": "LOW", "clinical_significance": "Suppressed TSH confirms thyrotoxicosis; expected in hyperthyroid states"},
+      {"test_name": "Free T4", "result": "7.8 ng/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated free T4 (normal 0.8-1.8); severe thyrotoxicosis"},
+      {"test_name": "Free T3", "result": "22.5 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated T3 (normal 2.3-4.2); T3 is the more biologically active form driving the acute symptoms"},
+      {"test_name": "TSH receptor antibodies (TRAb)", "result": "18.5 IU/L", "flag": "HIGH", "clinical_significance": "Positive TSH receptor stimulating antibodies confirm Graves disease as the underlying etiology"},
+      {"test_name": "CBC", "result": "WBC 12,800/μL, Hgb 13.5 g/dL, Plt 165,000/μL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress response; important baseline before PTU (which can cause agranulocytosis)"},
+      {"test_name": "Hepatic function panel", "result": "AST 125 U/L, ALT 98 U/L, Alk phos 165 U/L, total bilirubin 2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated liver enzymes and bilirubin from thyrotoxic hepatopathy; can progress to liver failure in severe thyroid storm"},
+      {"test_name": "Glucose", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia from catecholamine-mediated glycogenolysis and peripheral insulin resistance"},
+      {"test_name": "Calcium", "result": "11.5 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia occurs in thyrotoxicosis due to increased bone resorption from thyroid hormone excess"},
+      {"test_name": "Cortisol (random)", "result": "8 μg/dL", "flag": "LOW", "clinical_significance": "Relatively low cortisol for the degree of physiologic stress; thyroid storm accelerates cortisol metabolism, contributing to relative adrenal insufficiency"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG", "result": "Atrial fibrillation with rapid ventricular response at 162 bpm. No ST-segment changes. Short PR interval noted in sinus beats.", "flag": "ABNORMAL", "clinical_significance": "New-onset atrial fibrillation is common in thyrotoxicosis and contributes to hemodynamic instability in thyroid storm"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema. No consolidations or effusions.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly from high-output state; no evidence of heart failure or pneumonia as precipitant"}
+    ],
+    "key_tests": ["TSH", "Free T4 and Free T3", "CBC (baseline before PTU/methimazole)", "Hepatic function panel", "ECG"],
+    "acceptable_tests": ["TSH receptor antibodies", "Cortisol level", "Basic metabolic panel including calcium", "Blood cultures (febrile patient — rule out infection as precipitant)", "Glucose", "Chest X-ray", "Coagulation studies"],
+    "low_yield_tests": ["Thyroid ultrasound (does not change acute management)", "Radioactive iodine uptake scan (contraindicated during acute thyroid storm)", "CT head (agitation explained by metabolic cause)", "Urine drug screen (no history suggestive)"]
+  },
+  "stage5": {
+    "final_clue": "The Burch-Wartofsky Point Scale (BWPS) is calculated: temperature 40.2°C (15 points), heart rate 162 (25 points), atrial fibrillation (10 points), CNS dysfunction with agitation and delirium (20 points), GI dysfunction with diarrhea (10 points), precipitating event (10 points) = 90 points total. A score ≥45 is highly suggestive of thyroid storm. This patient's score of 90 confirms the diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "Thyroid storm is a life-threatening exacerbation of thyrotoxicosis characterized by hyperthermia (>40°C), severe tachycardia (often with atrial fibrillation), altered mental status (agitation, delirium, psychosis, or coma), GI dysfunction (diarrhea, nausea, vomiting, jaundice), and cardiovascular compromise. It typically occurs in patients with undertreated or undiagnosed hyperthyroidism who experience a precipitating event such as infection, surgery, trauma, or medication noncompliance.",
+    "attending_mode_notes": "This case is challenging because the initial presentation of fever, tachycardia, and altered mental status in a young woman could easily be attributed to sepsis (post-dental infection), meningitis, drug intoxication, or a psychiatric emergency. The history of Graves disease noncompliance is the critical piece that may not be immediately available. The widened pulse pressure, atrial fibrillation in a young patient, exophthalmos, thyroid bruit, pretibial myxedema, and hyperreflexia are the physical exam clues that should trigger consideration of thyrotoxicosis even without the history.",
+    "pathophysiology": "Thyroid storm represents a decompensated state of thyrotoxicosis rather than simply very high thyroid hormone levels. The exact mechanism is not fully understood, but involves: (1) rapid increase in free thyroid hormones (from illness, noncompliance, iodine load), (2) increased beta-adrenergic receptor sensitivity leading to catecholamine hypersensitivity, (3) cytokine release from the precipitating illness amplifying the thyrotoxic response, and (4) relative adrenal insufficiency as cortisol metabolism is accelerated. The resulting hypermetabolic state causes multi-organ dysfunction: thermoregulatory failure, cardiac arrhythmias and high-output heart failure, hepatic dysfunction, and CNS excitotoxicity.",
+    "treatment_overview": "Treatment must be immediate and multimodal (in order): (1) Beta-blocker — propranolol IV (also inhibits T4-to-T3 conversion); (2) Thionamide — PTU preferred over methimazole in thyroid storm because PTU also blocks peripheral T4-to-T3 conversion; loading dose PTU 500-1000 mg then 250 mg q4h; (3) Iodine solution — given AT LEAST 1 HOUR after thionamide (to prevent iodine from being used as substrate for new hormone synthesis); SSKI or Lugol solution to block thyroid hormone release; (4) Corticosteroids — hydrocortisone 100 mg IV q8h (blocks T4-to-T3 conversion and treats relative adrenal insufficiency); (5) Supportive — cooling measures for fever (acetaminophen, NOT aspirin which displaces T4 from TBG), IV fluids, dextrose, electrolyte correction; (6) Treat the precipitant — antibiotics if infection suspected; (7) ICU admission for monitoring.",
+    "high_yield_pearls": [
+      "PTU is preferred over methimazole in thyroid storm because it both blocks new hormone synthesis AND inhibits peripheral T4-to-T3 conversion",
+      "Iodine must be given at least 1 hour AFTER thionamide — otherwise it provides substrate for new hormone synthesis (Jod-Basedow effect)",
+      "NEVER give aspirin in thyroid storm — it displaces thyroid hormones from binding proteins, increasing free T4 and T3 levels",
+      "Burch-Wartofsky Point Scale ≥45 is highly suggestive of thyroid storm — the diagnosis is clinical, NOT based on thyroid hormone levels alone"
+    ],
+    "sources": ["UpToDate: Thyroid storm", "ATA Guidelines for Diagnosis and Management of Hyperthyroidism 2016"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Thyroid storm", "Sepsis", "Meningitis or encephalitis", "Sympathomimetic drug intoxication", "Neuroleptic malignant syndrome", "Malignant hyperthermia", "Acute psychotic episode", "Heat stroke"],
+    "after_stage2_more_likely": ["Thyroid storm (known Graves disease with noncompliance, exophthalmos, thyroid bruit, pretibial myxedema, precipitating surgical event)"],
+    "after_stage2_less_likely": ["NMS (not on antipsychotics)", "Malignant hyperthermia (no recent general anesthesia)", "Drug intoxication (no history of substance use, no drug paraphernalia)"],
+    "after_labs_top3": ["Thyroid storm", "Sepsis with delirium", "Sympathomimetic toxicity"]
+  }
+}

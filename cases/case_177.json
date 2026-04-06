@@ -1,0 +1,74 @@
+{
+  "case_id": "case_177",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Gastroparesis (Diabetic)",
+  "icd_category": "K31.84 — Gastroparesis",
+  "one_liner": "A 45-year-old female with longstanding poorly controlled type 1 diabetes presents with 6 months of early satiety, postprandial nausea, vomiting of undigested food, and erratic blood glucose levels.",
+  "stage2": {
+    "hpi_extension": "The patient describes a 6-month progressive course of early satiety after only a few bites, postprandial nausea, and episodic vomiting of undigested food particles several hours after eating. She reports epigastric bloating and fullness that persists for hours after meals. She has lost 8 kg due to poor oral intake and fears eating. Her blood sugars have become erratic with unpredictable postprandial hypoglycemia and delayed hyperglycemia, despite no changes in insulin regimen. She was hospitalized 2 months ago for diabetic ketoacidosis thought to be triggered by poor nutrition and dehydration. She denies abdominal pain as a dominant symptom, dysphagia, hematemesis, melena, or change in bowel habits.",
+    "pmh": "Type 1 diabetes mellitus (diagnosed at age 12, HbA1c 9.8%), diabetic retinopathy (bilateral, laser-treated), diabetic nephropathy (CKD stage 3), peripheral neuropathy",
+    "surgical_history": "Laser photocoagulation for diabetic retinopathy",
+    "medications": "Insulin glargine 28 units at bedtime, insulin lispro sliding scale with meals, lisinopril 20 mg daily, gabapentin 300 mg TID",
+    "allergies": "No known drug allergies",
+    "family_history": "Father has type 2 diabetes. Mother has hypothyroidism.",
+    "social_history": "Non-smoker. No alcohol use. Disability due to diabetic complications. No recent travel.",
+    "vitals": {
+      "temp": "36.6°C (97.9°F)",
+      "hr": "92 bpm, regular",
+      "bp": "136/82 mmHg (supine), 112/68 mmHg (standing)",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "52 kg, BMI 20.1"
+    },
+    "physical_exam": "General: Thin female, no acute distress. HEENT: Dry mucous membranes, poor dentition. Cardiovascular: Tachycardic, regular rhythm, resting tachycardia (suggestive of cardiac autonomic neuropathy). Pulmonary: Clear. Abdomen: Soft, mild epigastric distension, succession splash elicited 4 hours after last meal, mild epigastric tenderness, no rebound or guarding, diminished bowel sounds. Skin: Dry. Extremities: Decreased sensation to monofilament in bilateral feet (stocking-glove distribution), absent ankle reflexes, no edema. Eyes: Bilateral laser scars on fundoscopy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "HbA1c", "result": "9.8%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes; chronic hyperglycemia contributes to gastroparesis and autonomic neuropathy"},
+      {"test_name": "BMP", "result": "Na 134, K 3.0, Cr 1.6, BUN 30, Glucose 245", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia from vomiting, CKD stage 3 from diabetic nephropathy, hyperglycemia (which itself worsens gastric emptying)"},
+      {"test_name": "CBC", "result": "WBC 7.2, Hgb 10.8, Plt 230", "flag": "LOW", "clinical_significance": "Mild anemia of chronic kidney disease"},
+      {"test_name": "LFTs", "result": "AST 28, ALT 32, ALP 90, bilirubin 0.8", "flag": "WNL", "clinical_significance": "Normal liver function rules out hepatic causes of nausea/vomiting"},
+      {"test_name": "Lipase", "result": "38 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as a cause of vomiting"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can mimic gastroparesis"},
+      {"test_name": "Magnesium", "result": "1.5 mg/dL", "flag": "LOW", "clinical_significance": "Low from vomiting and poor oral intake; hypomagnesemia can worsen GI motility"},
+      {"test_name": "Iron studies", "result": "Ferritin 18, Iron 35, TIBC 380", "flag": "LOW", "clinical_significance": "Iron deficiency from poor nutritional intake"}
+    ],
+    "imaging_results": [
+      {"test_name": "Gastric emptying scintigraphy (4-hour solid meal)", "result": "Gastric retention at 1 hour: 82% (normal <90%). Gastric retention at 2 hours: 72% (normal <60%). Gastric retention at 4 hours: 48% (normal <10%). Severely delayed gastric emptying.", "flag": "ABNORMAL", "clinical_significance": "Gold standard test confirms severe gastroparesis. Gastric retention >10% at 4 hours is diagnostic; 48% retention indicates severe disease."},
+      {"test_name": "Upper endoscopy (EGD)", "result": "Retained food in the stomach despite 12-hour fast. Gastric mucosa mildly erythematous without ulcers or masses. No pyloric obstruction. Duodenal mucosa normal. Biopsies negative for H. pylori.", "flag": "ABNORMAL", "clinical_significance": "Retained food after overnight fast supports gastroparesis. EGD importantly excludes mechanical gastric outlet obstruction (GOO) as a cause of symptoms."},
+      {"test_name": "CT abdomen/pelvis", "result": "Distended, food-filled stomach. No small bowel obstruction. No masses in the gastric outlet or duodenum. No pancreatic mass. Bilateral renal cortical thinning.", "flag": "ABNORMAL", "clinical_significance": "Excludes mechanical obstruction and structural causes of delayed emptying."}
+    ],
+    "key_tests": ["Gastric emptying scintigraphy (4-hour standardized meal)", "Upper endoscopy (EGD)", "BMP", "HbA1c", "TSH"],
+    "acceptable_tests": ["Lipase", "LFTs", "CBC", "CT abdomen", "Wireless motility capsule (SmartPill)", "Gastric emptying breath test (GEBT)", "Small bowel follow-through"],
+    "low_yield_tests": ["Colonoscopy", "MRCP", "Celiac serologies", "Barium swallow (inadequate for quantifying emptying)", "HIDA scan"],
+    "key_tests_rationale": "Gastric emptying scintigraphy is the gold standard for diagnosing gastroparesis — a standardized 4-hour protocol measuring retention of a low-fat egg meal is required (not abbreviated 1-2 hour protocols). EGD is essential to exclude mechanical gastric outlet obstruction before diagnosing gastroparesis. BMP identifies electrolyte derangements from vomiting. HbA1c documents glycemic control (hyperglycemia independently slows gastric emptying). TSH excludes hypothyroidism."
+  },
+  "stage5": {
+    "final_clue": "A patient with longstanding poorly controlled type 1 diabetes and established microvascular complications (retinopathy, nephropathy, peripheral neuropathy) presenting with the classic triad of early satiety, postprandial nausea/vomiting, and erratic blood sugars. A succession splash, retained food on EGD despite fasting, and gastric emptying scintigraphy showing 48% retention at 4 hours (normal <10%) confirm severe diabetic gastroparesis. Mechanical obstruction has been excluded."
+  },
+  "debrief": {
+    "classic_presentation": "Diabetic gastroparesis presents with the cardinal symptoms of early satiety, postprandial nausea, vomiting of partially digested food hours after eating, epigastric bloating, and erratic glycemic control. It occurs in the setting of longstanding diabetes (typically >10 years) with other microvascular complications. Abdominal pain may be present but is not usually the predominant symptom. A succession splash (splashing sound with abdominal shaking) hours after eating suggests retained gastric contents.",
+    "attending_mode_notes": "Gastroparesis is diagnostically nuanced: (1) Mechanical gastric outlet obstruction MUST be excluded by EGD before performing gastric emptying studies — strictures, pyloric stenosis, and tumors can perfectly mimic gastroparesis; (2) Hyperglycemia (>275 mg/dL) independently slows gastric emptying — the scintigraphy should ideally be performed when blood glucose is <275 mg/dL to avoid false-positive results; (3) Opioids, GLP-1 agonists, and anticholinergics significantly delay gastric emptying and should be stopped before testing; (4) The 4-hour protocol is critical — abbreviated 1-2 hour studies have poor sensitivity and miss ~40% of cases; (5) Functional dyspepsia and gastroparesis have substantial symptom overlap and can coexist — some experts consider them on a spectrum; (6) Gastroparesis is increasingly recognized in non-diabetic settings (idiopathic gastroparesis accounts for ~50% of cases); (7) Gastric peroral endoscopic myotomy (G-POEM) for pylorospasm is an emerging therapy for refractory cases, targeting pyloric dysfunction measured by EndoFLIP.",
+    "pathophysiology": "Diabetic gastroparesis results from autonomic neuropathy affecting the vagus nerve and enteric nervous system. Chronic hyperglycemia causes oxidative stress damage to the interstitial cells of Cajal (ICC, the pacemaker cells of the GI tract), the vagus nerve, and nitrergic neurons that mediate pyloric relaxation. Loss of ICC disrupts slow-wave generation and propagation. Vagal neuropathy impairs fundic accommodation and antral contractility. Loss of nitrergic inhibitory neurons causes pylorospasm. Additionally, acute hyperglycemia inhibits gastric motility through direct effects on smooth muscle. The result is impaired gastric accommodation, weak antral contractions, and pyloric dysfunction, leading to delayed gastric emptying.",
+    "treatment_overview": "Glycemic optimization: Tight glucose control (HbA1c <7%) is the most important intervention. Dietary modifications: small, frequent, low-fat, low-fiber meals; avoid carbonated beverages; consider liquid calorie supplementation if solid meals are not tolerated. Prokinetics: metoclopramide 5-10 mg before meals (first-line; risk of tardive dyskinesia — black box warning, use lowest dose for shortest duration). Antiemetics: ondansetron for nausea control. Refractory cases: erythromycin (motilin agonist, short-term only as tachyphylaxis occurs), domperidone (if available via FDA compassionate use), gastric electrical stimulation (Enterra device) for nausea-predominant refractory gastroparesis. Emerging therapies: G-POEM (gastric peroral endoscopic myotomy) for pylorospasm. Severe refractory malnutrition: jejunal feeding tube (bypasses the stomach), rarely total parenteral nutrition. Correct electrolyte derangements (K+, Mg2+).",
+    "high_yield_pearls": [
+      "Gastric emptying scintigraphy using a standardized low-fat egg meal with imaging at 0, 1, 2, and 4 hours is the gold standard — retention >10% at 4 hours is diagnostic.",
+      "Metoclopramide carries an FDA black box warning for tardive dyskinesia — limit use to the lowest effective dose for no more than 12 weeks when possible.",
+      "Opioids, GLP-1 receptor agonists (semaglutide, liraglutide), and anticholinergics must be stopped before gastric emptying testing to avoid false positives.",
+      "Hyperglycemia (glucose >275 mg/dL) independently delays gastric emptying — optimizing glucose before testing and as part of treatment is essential.",
+      "Idiopathic gastroparesis (not diabetic) accounts for ~50% of all gastroparesis cases — often post-viral or following surgery."
+    ],
+    "sources": [
+      "2022 ACG Clinical Guideline: Gastroparesis",
+      "Camilleri M et al., ACG Guidelines for Gastroparesis, American Journal of Gastroenterology 2022",
+      "Parkman HP et al., Gastroparesis: Diagnosis and Management, Gastroenterology 2004"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Gastric outlet obstruction (peptic stricture, malignancy)", "Functional dyspepsia", "Cyclic vomiting syndrome", "Superior mesenteric artery syndrome", "Rumination disorder", "Eating disorder (anorexia/bulimia)"],
+    "after_stage2_more_likely": ["Diabetic gastroparesis", "Gastric outlet obstruction", "Functional dyspepsia"],
+    "after_stage2_less_likely": ["SMA syndrome", "Cyclic vomiting syndrome", "Eating disorder"],
+    "after_labs_top3": ["Diabetic gastroparesis", "Gastric outlet obstruction", "Functional dyspepsia"]
+  }
+}

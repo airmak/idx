@@ -1,0 +1,78 @@
+{
+  "case_id": "case_041",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Posterior Stroke (Basilar Artery Occlusion)",
+  "icd_category": "I63.2 — Cerebral infarction due to unspecified occlusion or stenosis of basilar artery",
+  "one_liner": "A 56-year-old male with hypertension presents with acute vertigo, diplopia, dysarthria, and bilateral limb ataxia, initially diagnosed as vestibular neuritis.",
+  "stage2": {
+    "hpi_extension": "Patient called his primary care office 4 hours ago complaining of sudden-onset severe vertigo, nausea, and vomiting. He was advised it was likely a viral inner ear infection and to take meclizine. However, over the following 2 hours, he developed double vision, slurred speech, difficulty swallowing, and progressive clumsiness of both arms and legs. His wife noted his face appeared asymmetric and his gait was severely unsteady. She brought him to the ED. On further questioning, he reports a 2-day history of intermittent episodes of vertigo, each lasting 5-10 minutes, that resolved spontaneously — these may have represented TIAs in the posterior circulation. He denies headache, hearing loss, tinnitus, or ear fullness. No recent head trauma or URI.",
+    "pmh": "Hypertension, hyperlipidemia, type 2 diabetes mellitus, former smoker",
+    "surgical_history": "Cholecystectomy 8 years ago",
+    "medications": "Amlodipine 10 mg daily, losartan 100 mg daily, atorvastatin 80 mg daily, metformin 1000 mg twice daily, aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had a brainstem stroke at age 62.",
+    "social_history": "Former smoker (25 pack-years, quit 5 years ago). Occasional alcohol. Retired mechanic. Lives with wife.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "78 bpm",
+      "bp": "188/102 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "90 kg, BMI 29.4"
+    },
+    "physical_exam": "General: Alert but appears distressed. Speech is severely dysarthric. HEENT: Pupils 3 mm right, 4 mm left (mild anisocoria). Right pupil sluggishly reactive. No nystagmus at rest; gaze-evoked nystagmus present bilaterally (direction-changing). Neck: No bruits. Supple. Cardiovascular: Regular rate and rhythm. Normal heart sounds. Pulmonary: Clear. Abdomen: Soft, non-tender. Neuro: Cranial Nerves: Right CN VI palsy (impaired right eye abduction, causing horizontal diplopia). Left facial droop (lower motor neuron pattern). Diminished gag reflex bilaterally. Dysarthria (severe). Motor: 4/5 bilateral upper and lower extremities (mild bilateral weakness). Sensory: Decreased pain/temperature on the right face and left body (crossed sensory findings). Coordination: Severe bilateral dysmetria on finger-to-nose and heel-to-shin. Truncal ataxia — cannot sit unsupported. Gait: Unable to stand. HINTS exam: Normal horizontal head impulse test (central pattern), direction-changing nystagmus, skew deviation present — all three suggest central cause."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "8.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC - Platelets", "result": "198 x10^9/L", "flag": "WNL", "clinical_significance": "Normal, no contraindication to tPA"},
+      {"test_name": "BMP - Glucose", "result": "162 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia; must exclude hypoglycemia as stroke mimic"},
+      {"test_name": "BMP - Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation; no contraindication to thrombolytics"},
+      {"test_name": "PTT", "result": "30 seconds", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "HbA1c", "result": "7.6%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control contributing to vascular risk"},
+      {"test_name": "Lipid Panel - LDL", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "At goal on statin"},
+      {"test_name": "BMP - Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "Normal, no vasculitis suggested"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute hemorrhage. No mass. Subtle hypodensity in the pons — difficult to appreciate. Brain otherwise unremarkable.", "flag": "ABNORMAL", "clinical_significance": "Non-contrast CT is poorly sensitive for posterior fossa strokes (only 30-40% sensitivity); normal or near-normal CT does NOT exclude basilar occlusion"},
+      {"test_name": "CT Angiography (Head and Neck)", "result": "Near-complete occlusion of the mid-basilar artery with minimal distal flow. Bilateral vertebral arteries show atherosclerotic disease. Anterior circulation patent.", "flag": "ABNORMAL", "clinical_significance": "Confirms basilar artery occlusion — a neurological emergency with high mortality without intervention"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm at 78 bpm. No acute ST changes. No atrial fibrillation.", "flag": "WNL", "clinical_significance": "No cardiac source of embolism identified on ECG; will need prolonged monitoring"}
+    ],
+    "key_tests": ["CT head without contrast", "CT angiography (head and neck)", "Point-of-care glucose", "CBC (platelets)", "PT/INR"],
+    "acceptable_tests": ["BMP", "PTT", "Troponin", "ECG", "MRI brain with diffusion-weighted imaging (if available without delay)", "Lipid panel", "HbA1c", "Telemetry monitoring"],
+    "low_yield_tests": ["Caloric testing", "Audiogram", "EEG", "Carotid duplex (anterior circulation not involved)", "Lumbar puncture"]
+  },
+  "stage5": {
+    "final_clue": "CTA reveals mid-basilar artery occlusion in a patient with crossed cranial nerve and sensory deficits, bilateral ataxia, and dysarthria. The HINTS exam (normal head impulse, direction-changing nystagmus, skew deviation) correctly identified a central cause. The initial misdiagnosis as vestibular neuritis is a common and dangerous pitfall. This is a posterior circulation stroke requiring emergent reperfusion therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Posterior circulation strokes present with the 5 D's: Dizziness/vertigo, Diplopia, Dysarthria, Dysphagia, and Dystaxia (ataxia). Additional findings include cranial nerve palsies, crossed sensory deficits (ipsilateral face, contralateral body), nystagmus, and Horner syndrome. Basilar artery occlusion specifically can cause locked-in syndrome (quadriplegia with preserved consciousness and vertical eye movements) in severe cases.",
+    "attending_mode_notes": "Posterior circulation strokes are the most commonly MISSED strokes in the ED, frequently misdiagnosed as vestibular neuritis, benign positional vertigo, or migraine. The NIHSS underestimates posterior circulation deficits (may score low despite devastating brainstem ischemia). The HINTS exam is critical: in acute vestibular syndrome, a NORMAL head impulse test (as opposed to an abnormal one in vestibular neuritis) suggests a central cause. Direction-changing nystagmus and skew deviation also point to central pathology. A preceding history of brief, stereotyped episodes of vertigo may represent posterior circulation TIAs and should heighten suspicion.",
+    "pathophysiology": "Basilar artery occlusion usually results from in-situ atherothrombosis (most common) or embolism (cardiac or artery-to-artery). The basilar artery supplies the pons, midbrain, cerebellum, and occipital lobes. Occlusion causes ischemia of these structures, producing a spectrum of brainstem syndromes depending on the level and extent. Crossed findings (ipsilateral cranial nerve deficits with contralateral motor/sensory deficits) are characteristic of brainstem lesions. Complete basilar occlusion without collateral flow leads to massive brainstem infarction with very high mortality.",
+    "treatment_overview": "IV tPA if within 4.5-hour window (can be extended in posterior circulation due to collateral flow potential). Emergent endovascular thrombectomy for basilar artery occlusion (the BASICS and ATTENTION trials support this up to 24 hours from onset). Antiplatelet therapy (if not receiving tPA). Permissive hypertension (do not lower BP below 220/120 unless tPA given). ICU admission with neurological monitoring. Swallowing evaluation before oral intake. Long-term: anticoagulation if cardioembolic source identified; dual antiplatelet and high-dose statin if atherothrombotic.",
+    "high_yield_pearls": [
+      "Posterior circulation strokes are the most commonly missed stroke subtype in the ED — 35% are initially misdiagnosed.",
+      "The HINTS exam (Head Impulse, Nystagmus, Test of Skew) is more sensitive than MRI in the first 24-48 hours for distinguishing central from peripheral vertigo.",
+      "NIHSS can be misleadingly LOW in posterior circulation strokes — a patient with basilar occlusion may score 0-4 while having a life-threatening stroke.",
+      "Non-contrast CT is only 30-40% sensitive for posterior fossa strokes; CTA or MRI is essential.",
+      "Preceding stereotyped brief vertigo episodes in a vascular risk factor patient may represent posterior circulation TIAs — a warning sign of impending basilar occlusion."
+    ],
+    "sources": [
+      "Savitz SI et al. Ann Neurol 2007;62:468-477",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 162",
+      "Kattah JC et al. Stroke 2009;40:3504-3510 (HINTS exam)",
+      "BASICS Trial: Lancet 2021;398:828-838"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Posterior circulation stroke (basilar artery occlusion)", "Vestibular neuritis", "Vertebrobasilar TIA", "Cerebellar hemorrhage", "Brainstem encephalitis", "Multiple sclerosis (brainstem demyelination)", "Basilar migraine", "Wernicke encephalopathy"],
+    "after_stage2_more_likely": ["Posterior circulation stroke", "Cerebellar hemorrhage", "Vertebrobasilar TIA"],
+    "after_stage2_less_likely": ["Vestibular neuritis", "Basilar migraine", "Wernicke encephalopathy"],
+    "after_labs_top3": ["Basilar artery occlusion", "Posterior circulation ischemic stroke", "Vertebrobasilar atherothrombosis"]
+  }
+}

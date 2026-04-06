@@ -1,0 +1,145 @@
+{
+  "case_id": "case_206",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Endometriosis (stage III, moderate)",
+  "icd_category": "N80.0 – Endometriosis of uterus",
+  "one_liner": "A 29-year-old nulligravid female presents with worsening cyclic pelvic pain, dysmenorrhea refractory to NSAIDs, dyspareunia, and 18 months of infertility; examination reveals a fixed retroverted uterus and tender nodularity in the posterior cul-de-sac.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressively worsening pelvic pain over the past 3 years, most severe during menstruation but now present throughout the cycle. Her dysmenorrhea begins 2 days before her period and lasts through the first 3 days of flow, requiring her to miss work. NSAIDs and heating pads provide minimal relief. She experiences deep dyspareunia, particularly with deep penetration, which has worsened over the past year. She and her partner have been attempting conception for 18 months without success. She has not undergone a formal infertility workup. She also reports painful bowel movements during her period (dyschezia) and occasional hematochezia around menses. She denies urinary symptoms. Her cycles are regular (26-28 days) with moderate-heavy flow lasting 5-6 days.",
+    "pmh": "Regular menstrual cycles. Menarche at age 11 (early menarche). No prior pregnancies. No history of STIs or PID.",
+    "surgical_history": "Appendectomy at age 14",
+    "medications": "Ibuprofen 600 mg PO TID during menses. No hormonal contraception currently (discontinued 2 years ago to attempt conception).",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother underwent hysterectomy at age 40 for severe endometriosis. Older sister diagnosed with endometriosis at age 25.",
+    "social_history": "Works as a graphic designer. Non-smoker. Occasional alcohol. No illicit drug use. In a stable relationship for 3 years.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "74 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "58 kg, BMI 21.5 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no acute distress. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear to auscultation. Abdomen: Soft, non-distended; mild tenderness in the suprapubic region; no palpable masses. Pelvic examination: Normal external genitalia; vagina with no lesions; cervix with no discharge; on bimanual exam, the uterus is retroverted and fixed (non-mobile) with moderate tenderness on manipulation; tender nodularity palpated in the posterior cul-de-sac and along the uterosacral ligaments bilaterally; left adnexa mildly tender with a fullness (approximately 4 cm) but no distinct discrete mass on the right. Rectovaginal examination: Tender nodularity confirmed in the rectovaginal septum."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.2 × 10³/µL, Hgb 11.0 g/dL, Plt 280 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia likely from chronic heavy menstrual bleeding associated with endometriosis."
+      },
+      {
+        "test_name": "CA-125",
+        "result": "68 U/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CA-125 is common in endometriosis but is neither sensitive nor specific; it is more useful for monitoring treatment response than for diagnosis."
+      },
+      {
+        "test_name": "CRP",
+        "result": "4 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal CRP; endometriosis is an inflammatory condition but does not typically cause elevated systemic inflammatory markers."
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism is excluded as a contributing factor to infertility."
+      },
+      {
+        "test_name": "Urine pregnancy test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Confirms non-pregnant status prior to imaging and potential treatment."
+      },
+      {
+        "test_name": "STI panel (GC/Chlamydia NAAT)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative STI screen helps exclude PID as a cause of chronic pelvic pain and tubal factor infertility."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Left ovary contains a 4.2-cm homogeneous hypoechoic cyst with diffuse low-level internal echoes ('ground glass' appearance) consistent with an endometrioma. Right ovary normal. Uterus retroverted. No uterine fibroids. Cul-de-sac obliteration with limited sliding sign.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'ground glass' appearance of the ovarian cyst is characteristic of an endometrioma (chocolate cyst). Absent sliding sign suggests posterior cul-de-sac obliteration from adhesions."
+      },
+      {
+        "test_name": "MRI pelvis (with and without contrast)",
+        "result": "4.3-cm left ovarian endometrioma showing T1 hyperintensity and T2 shading (characteristic). Deep infiltrating endometriosis with nodular implants along bilateral uterosacral ligaments and the rectovaginal septum. Obliteration of the posterior cul-de-sac by adhesions. No evidence of ureteral involvement or bowel wall penetration.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI confirms deep infiltrating endometriosis (DIE) and maps the extent of disease, aiding surgical planning. T1 hyperintensity with T2 shading is pathognomonic for endometriomas."
+      }
+    ],
+    "key_tests": [
+      "Transvaginal ultrasound",
+      "MRI pelvis (for deep infiltrating endometriosis mapping)",
+      "Diagnostic laparoscopy with biopsy (gold standard for definitive diagnosis)"
+    ],
+    "acceptable_tests": [
+      "CA-125 (limited diagnostic value, useful for monitoring)",
+      "CBC (assess for anemia from menorrhagia)",
+      "STI screening",
+      "HSG or saline infusion sonography (evaluate tubal patency for infertility workup)",
+      "Semen analysis (male partner evaluation)"
+    ],
+    "low_yield_tests": [
+      "CT pelvis (poor soft tissue resolution for endometriosis)",
+      "Abdominal X-ray",
+      "Endometrial biopsy (evaluates endometrium, not ectopic implants)",
+      "Serum estradiol levels"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "Diagnostic and therapeutic laparoscopy reveals extensive endometriotic implants on bilateral uterosacral ligaments, the posterior cul-de-sac, and the left ovarian endometrioma. Biopsy confirms endometrial glands and stroma with hemosiderin-laden macrophages, establishing the definitive diagnosis of endometriosis."
+  },
+  "debrief": {
+    "classic_presentation": "Endometriosis classically presents in reproductive-age women with the triad of dysmenorrhea, dyspareunia, and infertility. Additional symptoms include chronic pelvic pain, dyschezia (painful defecation), and hematochezia during menses. Physical examination findings include a fixed retroverted uterus, tender nodularity in the posterior cul-de-sac and uterosacral ligaments, and adnexal masses (endometriomas). Family history is common (6-9 fold increased risk in first-degree relatives).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Endometriosis is defined by the presence of endometrial glands and stroma outside the uterine cavity. The leading theory is retrograde menstruation (Sampson's theory), where menstrual tissue flows through the fallopian tubes and implants on pelvic structures. Other theories include coelomic metaplasia (Meyer's theory) and lymphatic/vascular dissemination. The ectopic endometrial tissue responds to cyclic hormonal stimulation, causing cyclical bleeding, inflammation, fibrosis, and adhesion formation. The inflammatory microenvironment alters peritoneal fluid composition (increased prostaglandins, cytokines, and macrophages), impairing ovum pickup, sperm function, and implantation, contributing to infertility. Endometriomas form when endometriotic implants on the ovarian cortex invaginate and accumulate old blood (chocolate cyst).",
+    "treatment_overview": "Management depends on the primary complaint (pain vs. infertility). For pain: first-line is combined OCPs (continuous or cyclic) or progestins (norethindrone acetate, dienogest, or medroxyprogesterone). Second-line includes GnRH agonists (leuprolide with add-back norethindrone to prevent bone loss) or the levonorgestrel IUD. Surgical excision or ablation of endometriotic implants via laparoscopy is indicated for refractory pain or to confirm diagnosis. For infertility: mild disease may benefit from surgical excision followed by timed intercourse or IUI. Moderate-severe disease or failed conservative treatment warrants IVF. Endometrioma >4 cm should be excised (cystectomy) before IVF to improve access and reduce infection risk. Definitive treatment for completed childbearing is hysterectomy with bilateral salpingo-oophorectomy, though recurrence is possible even after surgery.",
+    "high_yield_pearls": [
+      "Endometriosis affects approximately 10% of reproductive-age women and is found in 25-50% of women with infertility — it should be considered in any woman with chronic pelvic pain or unexplained infertility.",
+      "Laparoscopy with histologic confirmation remains the gold standard for diagnosis, but MRI is increasingly used for non-invasive diagnosis and surgical mapping of deep infiltrating endometriosis.",
+      "The 'ground glass' appearance on ultrasound and T1 hyperintensity with T2 shading on MRI are characteristic of endometriomas (chocolate cysts).",
+      "GnRH agonist therapy must include hormonal add-back (norethindrone 5 mg daily) to prevent bone loss and hypoestrogenic side effects; treatment duration without add-back should not exceed 6 months.",
+      "Endometriosis-related infertility is multifactorial: adhesions distort pelvic anatomy, the inflammatory peritoneal environment impairs gamete function, and endometriomas may reduce ovarian reserve."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 114: Management of Endometriosis (2010, reaffirmed 2022)",
+      "ESHRE Guideline: Endometriosis (2022)",
+      "UpToDate: Endometriosis: Pathogenesis, epidemiology, and clinical impact",
+      "UpToDate: Endometriosis: Treatment of pelvic pain"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Endometriosis",
+      "Adenomyosis",
+      "Chronic pelvic inflammatory disease",
+      "Ovarian cyst (functional or neoplastic)",
+      "Irritable bowel syndrome",
+      "Interstitial cystitis"
+    ],
+    "after_stage2_more_likely": [
+      "Endometriosis (cyclic pelvic pain, dysmenorrhea, dyspareunia, infertility, fixed retroverted uterus, cul-de-sac nodularity, family history)",
+      "Adenomyosis (dysmenorrhea and heavy periods overlap, but adenomyosis typically presents with a diffusely enlarged tender uterus)"
+    ],
+    "after_stage2_less_likely": [
+      "PID (afebrile, no discharge, negative STI screen, chronic rather than acute presentation)",
+      "IBS (dyschezia is cyclical and correlates with menses, not consistent with IBS pattern)",
+      "Interstitial cystitis (no urinary symptoms)"
+    ],
+    "after_labs_top3": [
+      "Endometriosis with endometrioma (TVUS and MRI show classic endometrioma and deep infiltrating disease)",
+      "Adenomyosis (can coexist with endometriosis; MRI may reveal junctional zone thickening)",
+      "Ovarian dermoid or other benign neoplasm (excluded by characteristic ground glass appearance on ultrasound)"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "case_id": "case_217",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Complete hydatidiform mole (molar pregnancy)",
+  "icd_category": "O01.0 – Classical hydatidiform mole",
+  "one_liner": "A 18-year-old G1P0 at a presumed 12 weeks gestation presents with heavy vaginal bleeding, uterine size larger than dates, and a 'snowstorm' pattern on ultrasound with a serum β-hCG of 285,000 mIU/mL.",
+  "stage2": {
+    "hpi_extension": "The patient presents with heavy vaginal bleeding for the past 5 days with passage of small grape-like vesicles mixed with blood. She reports severe nausea and vomiting for the past 4 weeks that has been worse than expected. She has had no prenatal care. Her LMP was 12 weeks ago. She took a positive home pregnancy test 8 weeks ago. She has noticed rapid abdominal enlargement. Over the past 2 days she has developed bilateral lower pelvic pressure and intermittent palpitations. She denies headache, visual changes, seizures, or chest pain. She has no prior pregnancies.",
+    "pmh": "G1P0. No chronic medical conditions. Menarche at age 12. Regular menstrual cycles.",
+    "surgical_history": "None",
+    "medications": "None (no prenatal vitamins)",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of gestational trophoblastic disease.",
+    "social_history": "High school senior. Non-smoker. No alcohol or drugs. Sexually active with one partner. No prior contraception use.",
+    "vitals": {
+      "temp": "37.3°C (99.1°F)",
+      "hr": "112 bpm",
+      "bp": "148/96 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "55 kg, BMI 21 kg/m²"
+    },
+    "physical_exam": "General: Pale, anxious-appearing teenage female with visible tremor of hands. HEENT: Mild bilateral lid lag; no proptosis; no thyromegaly on palpation; pale conjunctivae. Cardiovascular: Tachycardic, regular rhythm; no murmurs; fine tremor of outstretched hands. Pulmonary: Clear to auscultation. Abdomen: Uterus palpable at the level of the umbilicus (consistent with 20-week size, significantly larger than 12-week dates); non-tender; no fetal heart tones detected by Doppler. Pelvic examination: Active moderate vaginal bleeding with small vesicular tissue in the vaginal vault; cervix is dilated to 1 cm; bilateral adnexal fullness with mild tenderness (no discrete masses palpable through the abdominal wall). Extremities: Fine tremor; warm, moist skin."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serum β-hCG (quantitative)",
+        "result": "285,000 mIU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated β-hCG (expected for 12 weeks is ~100,000 peak). Levels >100,000 are strongly associated with complete molar pregnancy and are a risk factor for GTN."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 10.5 × 10³/µL, Hgb 9.2 g/dL, Plt 240 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia from vaginal bleeding requiring assessment for transfusion need."
+      },
+      {
+        "test_name": "TSH",
+        "result": "<0.01 mIU/L",
+        "flag": "LOW",
+        "clinical_significance": "Profoundly suppressed TSH from hCG cross-reactivity with the TSH receptor, causing secondary hyperthyroidism. This occurs in 5-10% of complete moles with very high hCG levels."
+      },
+      {
+        "test_name": "Free T4",
+        "result": "3.8 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated free T4 explains tachycardia, tremor, and palpitations. This is hCG-mediated thyrotoxicosis, not Graves disease."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 137, K 3.8, Cl 100, CO2 22, BUN 12, Cr 0.7, Glucose 90",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function."
+      },
+      {
+        "test_name": "Blood type and screen",
+        "result": "O positive, antibody screen negative",
+        "flag": "WNL",
+        "clinical_significance": "Blood type obtained for potential transfusion."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 12.0 sec, INR 1.0, PTT 28 sec",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; no DIC."
+      },
+      {
+        "test_name": "Urine protein/creatinine ratio",
+        "result": "0.4",
+        "flag": "HIGH",
+        "clinical_significance": "Proteinuria with hypertension before 20 weeks is atypical for preeclampsia but can occur with molar pregnancy — the very high hCG causes early-onset preeclampsia-like syndrome."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No pulmonary metastases. No pleural effusion. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Pre-evacuation CXR is essential to screen for pulmonary trophoblastic metastases (most common site of GTN spread). Clear CXR is reassuring."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Enlarged uterus filled with heterogeneous echogenic material with multiple cystic spaces ('snowstorm' or 'cluster of grapes' pattern) filling the entire endometrial cavity. No fetal parts identified. No gestational sac or fetal cardiac activity. Bilateral theca lutein cysts: right ovary 7 cm, left ovary 6.5 cm, multiloculated and cystic.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic 'snowstorm' or 'Swiss cheese' appearance is pathognomonic for complete hydatidiform mole. Bilateral theca lutein cysts result from ovarian hyperstimulation by extremely high hCG levels."
+      },
+      {
+        "test_name": "Chest X-ray (PA)",
+        "result": "Clear lung fields bilaterally. No evidence of pulmonary metastases.",
+        "flag": "WNL",
+        "clinical_significance": "Baseline chest X-ray is required before evacuation to evaluate for trophoblastic pulmonary disease."
+      }
+    ],
+    "key_tests": [
+      "Serum β-hCG (quantitative)",
+      "Transvaginal ultrasound",
+      "Chest X-ray (pre-evacuation)",
+      "TSH (if tachycardia or thyrotoxicosis symptoms)",
+      "Pathologic examination of evacuated tissue"
+    ],
+    "acceptable_tests": [
+      "CBC with hemoglobin",
+      "Blood type and crossmatch",
+      "BMP and coagulation studies",
+      "Urine protein assessment",
+      "Hepatic function panel",
+      "Free T4 (if TSH suppressed)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (ultrasound is diagnostic)",
+      "Amniocentesis (no amniotic fluid present)",
+      "Fetal karyotype (no fetus present in complete mole)",
+      "PET/CT (not indicated for initial workup)"
+    ],
+    "attending_pimp_questions": [
+      "What is the genetic composition of a complete mole versus a partial mole, and how does this affect the clinical presentation?",
+      "Why does a complete mole cause preeclampsia before 20 weeks, which is otherwise extremely rare?",
+      "What is the risk of gestational trophoblastic neoplasia after complete mole versus partial mole, and how is it monitored?",
+      "What are the FIGO staging and scoring criteria for gestational trophoblastic neoplasia, and when is single-agent versus multi-agent chemotherapy indicated?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Suction curettage is performed under ultrasound guidance, evacuating large volumes of vesicular tissue. Pathology shows hydropic swelling of all chorionic villi with diffuse trophoblastic hyperplasia and no fetal tissue, consistent with complete hydatidiform mole. Immunostaining for p57KIP2 is negative (confirming complete mole). Serial β-hCG monitoring is initiated, and the patient is placed on reliable contraception for the mandatory 6-12 month surveillance period."
+  },
+  "debrief": {
+    "classic_presentation": "Complete hydatidiform mole classically presents in the first or early second trimester with vaginal bleeding (most common symptom, 90%), uterine size greater than dates (50%), hyperemesis gravidarum (more severe than typical pregnancy nausea), markedly elevated β-hCG (>100,000 mIU/mL), and the classic 'snowstorm' pattern on ultrasound. Associated findings include theca lutein cysts (from ovarian hyperstimulation by high hCG), hyperthyroidism (hCG cross-reactivity with TSH receptor), and early-onset preeclampsia (<20 weeks). No fetal parts are present in a complete mole.",
+    "attending_mode_notes": "A complete hydatidiform mole has a diploid 46,XX karyotype (90%) or 46,XY (10%), entirely of paternal origin (androgenetic) — it arises from fertilization of an empty ovum by a single sperm that duplicates (monospermic) or two sperm (dispermic). A partial mole is triploid (69,XXX or 69,XXY) from dispermic fertilization of a normal ovum and contains identifiable fetal parts. p57KIP2 immunostaining is the key pathologic distinction: p57 is a maternally imprinted gene — it is NEGATIVE in complete moles (no maternal DNA) and positive in partial moles and normal pregnancies. Post-evacuation β-hCG monitoring is critical: weekly until negative for 3 consecutive weeks, then monthly for 6 months (complete mole) or 6 months (per recent ACOG guidance). Any rising or plateauing β-hCG during surveillance indicates GTN (15-20% risk after complete mole, 1-5% after partial mole). Risk factors for GTN include: β-hCG >100,000, uterine size >gestational age, theca lutein cysts >6 cm, and age >40. Reliable contraception is mandatory during surveillance (OCPs are safe and recommended) to prevent pregnancy, which would confound β-hCG monitoring. Single-agent chemotherapy (methotrexate or actinomycin-D) achieves >90% cure rate for low-risk GTN. Multi-agent chemotherapy (EMA-CO) is used for high-risk GTN (FIGO score ≥7).",
+    "pathophysiology": "In a complete mole, the fertilized ovum contains no functional maternal genetic material. The entirely paternal genome drives excessive trophoblastic proliferation (paternally expressed genes promote placental growth) without fetal development. All chorionic villi become edematous (hydropic) and avascular, forming the characteristic grape-like vesicles. The trophoblast proliferates excessively, producing massive quantities of hCG. This hCG overproduction explains the secondary phenomena: (1) thyrotoxicosis (hCG cross-reacts with TSH receptors due to structural homology), (2) theca lutein cysts (hCG hyperstimulates ovarian follicles), and (3) early preeclampsia (likely from massive trophoblastic antigen release and abnormal angiogenic factors). The risk of malignant transformation to GTN exists because the abnormal trophoblast retains invasive potential and can develop into invasive mole, choriocarcinoma, or placental site trophoblastic tumor.",
+    "treatment_overview": "Primary treatment is suction curettage under ultrasound guidance. Pre-procedure: stabilize (IV fluids, transfusion if needed), control thyrotoxicosis (beta-blockers; NOT antithyroid drugs as thyrotoxicosis is hCG-mediated and transient), treat hypertension, and obtain baseline CXR. Oxytocin infusion is started AFTER cervical dilation to reduce bleeding (premature oxytocin can cause trophoblastic embolization). RhoGAM for Rh-negative patients. Sharp curettage after suction may increase risk of perforation and is used cautiously. Hysterectomy is an option for patients who have completed childbearing (eliminates local invasion risk but does not eliminate need for hCG monitoring, as distant metastases can still occur). Post-evacuation: serial weekly β-hCG until undetectable for 3 consecutive weeks, then monthly for 6 months. Reliable contraception (OCPs preferred) for the entire surveillance period. If β-hCG rises, plateaus for ≥3 weeks, or remains detectable at 6 months, GTN is diagnosed and chemotherapy is initiated.",
+    "high_yield_pearls": [
+      "Complete moles have a 15-20% risk of gestational trophoblastic neoplasia (GTN) — serial β-hCG monitoring after evacuation is mandatory for at least 6 months, and reliable contraception must be used throughout.",
+      "A complete hydatidiform mole is entirely androgenetic (46,XX from paternal DNA only) and is p57KIP2-negative on immunostaining — this distinguishes it from partial mole (triploid, p57-positive) and hydropic miscarriage.",
+      "Preeclampsia before 20 weeks gestation is exceedingly rare and should raise immediate suspicion for molar pregnancy (or antiphospholipid syndrome).",
+      "Theca lutein cysts resolve spontaneously as β-hCG declines after evacuation — they should NOT be surgically removed, as they may rupture or cause torsion if manipulated.",
+      "Oxytocin should be started AFTER cervical dilation during molar evacuation, not before — premature uterine contractions can force trophoblastic tissue into the venous sinuses, risking trophoblastic embolization."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 53: Diagnosis and Treatment of Gestational Trophoblastic Disease (reaffirmed 2021)",
+      "FIGO Staging and Risk Factor Scoring for Gestational Trophoblastic Neoplasia",
+      "UpToDate: Hydatidiform mole: Epidemiology, clinical features, and diagnosis",
+      "UpToDate: Hydatidiform mole: Treatment and follow-up"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Complete hydatidiform mole",
+      "Partial hydatidiform mole",
+      "Missed miscarriage with hydropic degeneration",
+      "Threatened miscarriage (twin pregnancy)",
+      "Choriocarcinoma",
+      "Hyperemesis gravidarum (isolated)"
+    ],
+    "after_stage2_more_likely": [
+      "Complete hydatidiform mole (markedly elevated hCG, uterine size >> dates, no fetal heart tones, vesicular tissue passed, bilateral theca lutein cysts, thyrotoxicosis, early preeclampsia)",
+      "Partial hydatidiform mole (less likely — partial moles typically have lower hCG, uterus smaller than dates, and some fetal parts)"
+    ],
+    "after_stage2_less_likely": [
+      "Normal pregnancy with hyperemesis (no fetal cardiac activity, snowstorm pattern, hCG much higher than expected)",
+      "Missed miscarriage (would show a gestational sac or embryo without cardiac activity, not the snowstorm pattern)",
+      "Choriocarcinoma (primary choriocarcinoma without antecedent mole would not present with vesicular tissue)"
+    ],
+    "after_labs_top3": [
+      "Complete hydatidiform mole (snowstorm pattern on ultrasound, no fetal parts, markedly elevated hCG, theca lutein cysts, p57KIP2-negative on pathology)",
+      "Partial hydatidiform mole (excluded by absence of fetal parts and negative p57 staining)",
+      "Hydropic miscarriage (excluded by pathology showing diffuse trophoblastic hyperplasia and hydropic villi characteristic of molar pregnancy)"
+    ]
+  }
+}

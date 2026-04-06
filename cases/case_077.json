@@ -1,0 +1,78 @@
+{
+  "case_id": "case_077",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Brugada Syndrome",
+  "icd_category": "I49.8 — Other specified cardiac arrhythmias",
+  "one_liner": "A 38-year-old male of Southeast Asian descent presents after a nocturnal syncopal episode with a family history of sudden cardiac death in a young male relative.",
+  "stage2": {
+    "hpi_extension": "The patient's wife found him unresponsive in bed at 3 AM, making gasping sounds. She performed sternal rub and he regained consciousness after approximately 30 seconds. He has no memory of the event. Over the past year, he has had 2 episodes of near-syncope occurring at rest or during sleep. He denies exertional symptoms, chest pain, or palpitations. He had a fever 2 days ago (self-limited URI) and took acetaminophen. He has been otherwise healthy.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Brother died suddenly in sleep at age 32 (autopsy inconclusive — 'structurally normal heart'). Father is from the Philippines. Paternal uncle also died suddenly at age 35.",
+    "social_history": "Born in the Philippines, moved to the US at age 10. Non-smoker. Social drinker (1-2 beers/week). Software engineer. Physically active. No illicit drugs.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "72 bpm, regular",
+      "bp": "124/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "75 kg, BMI 24.2"
+    },
+    "physical_exam": "General: Well-appearing male, alert and oriented, no acute distress. HEENT: Normal, no JVD. Cardiovascular: Regular rate and rhythm, normal S1/S2, no murmurs, gallops, or rubs. Pulmonary: Clear bilaterally. Abdomen: Soft, non-tender. Extremities: No edema, normal pulses. Neurological: Alert, oriented, no focal deficits, no post-ictal features."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no myocardial injury"},
+      {"test_name": "Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out electrolyte-mediated arrhythmia"},
+      {"test_name": "Calcium", "result": "9.5 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Glucose", "result": "92 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CBC", "result": "WBC 7.5, Hgb 15.0, Plt 225", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Toxicology screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit substance exposure"},
+      {"test_name": "BNP", "result": "22 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no heart failure"},
+      {"test_name": "Genetic testing (SCN5A)", "result": "Pathogenic variant identified in SCN5A gene", "flag": "ABNORMAL", "clinical_significance": "Confirms genetic basis of Brugada syndrome — SCN5A encodes the cardiac sodium channel"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm. Type 1 Brugada pattern: coved-type ST elevation ≥2 mm in leads V1-V2 with T-wave inversion. Normal QRS duration. Normal QTc.", "flag": "ABNORMAL", "clinical_significance": "Spontaneous Type 1 Brugada ECG pattern — diagnostic in the right clinical context"},
+      {"test_name": "Transthoracic Echocardiogram", "result": "Structurally normal heart. LVEF 60%. No valvular disease. No RVOT abnormalities. Normal wall thickness.", "flag": "WNL", "clinical_significance": "Normal structural heart — Brugada is a channelopathy, not a structural disease"},
+      {"test_name": "Cardiac MRI", "result": "Normal biventricular size and function. No myocardial fibrosis or fatty infiltration. No ARVC features.", "flag": "WNL", "clinical_significance": "Excludes ARVC and other structural causes of sudden death"}
+    ],
+    "key_tests": ["12-lead ECG (with high leads V1-V2)", "Transthoracic echocardiogram", "Basic metabolic panel", "Troponin", "Genetic testing (SCN5A)"],
+    "acceptable_tests": ["Cardiac MRI", "Holter/event monitor", "Electrophysiology study", "Ajmaline/procainamide provocation test (if ECG non-diagnostic)", "Toxicology screen", "TSH", "CBC"],
+    "low_yield_tests": ["Stress test", "Coronary angiography", "CT chest", "EEG (unless seizure strongly suspected)", "D-dimer"],
+    "key_tests_rationale": "ECG is the cornerstone of diagnosis showing the Type 1 Brugada pattern. Echo and MRI exclude structural heart disease. Electrolytes rule out metabolic causes. Genetic testing confirms the diagnosis and enables family screening."
+  },
+  "stage5": {
+    "final_clue": "The ECG reveals a spontaneous Type 1 Brugada pattern (coved ST elevation in V1-V2) in a patient with aborted sudden cardiac death during sleep, a structurally normal heart, and family history of unexplained sudden death in young males of Southeast Asian descent. SCN5A mutation confirms Brugada syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "Brugada syndrome presents with syncope or sudden cardiac death, typically occurring at rest or during sleep, in a patient with a structurally normal heart. Mean age of presentation is 40 years with strong male predominance (8:1). It is most prevalent in Southeast Asian populations (known as 'sudden unexplained nocturnal death syndrome' or 'bangungut' in the Philippines). Fever can unmask or worsen the ECG pattern.",
+    "attending_mode_notes": "Three ECG types exist but only Type 1 (coved pattern) is diagnostic. Type 2 (saddleback) and Type 3 require sodium channel blocker provocation (ajmaline or procainamide) to convert to Type 1 for diagnosis. Fever is a well-known trigger — aggressively treat fever in known Brugada patients. The EP study's role in risk stratification is debated. ICD is the only proven therapy to prevent SCD.",
+    "pathophysiology": "Brugada syndrome results from loss-of-function mutations in SCN5A (or related genes), encoding the cardiac sodium channel Nav1.5. Reduced sodium current in the right ventricular epicardium creates a transmural voltage gradient, producing the characteristic ST elevation on ECG. This creates a substrate for phase-2 reentry, which can trigger polymorphic VT/VF. Vagal tone enhancement during sleep or rest lowers heart rate and increases the transmural gradient, explaining the nocturnal predilection.",
+    "treatment_overview": "ICD implantation is the only proven treatment for prevention of SCD in symptomatic patients (survivors of cardiac arrest or syncope with Type 1 ECG). No antiarrhythmic drug reliably prevents VT/VF. Quinidine (Ito blocker) may be used as adjunctive therapy or when ICD is refused/contraindicated. Avoid all drugs that block sodium channels (Class I antiarrhythmics, tricyclic antidepressants, cocaine). Treat fever aggressively. Family screening with ECG and genetic testing. Refer to www.brugadadrugs.org for drug avoidance list.",
+    "high_yield_pearls": [
+      "Only the Type 1 (coved) Brugada ECG pattern is diagnostic: ≥2 mm coved ST elevation in V1-V2 followed by T-wave inversion.",
+      "Brugada syndrome is the most common cause of sudden cardiac death in young individuals in Southeast Asia.",
+      "Fever can unmask or exacerbate the Brugada ECG pattern and trigger arrhythmias — antipyretics should be given promptly.",
+      "SCN5A mutations are found in only ~20-30% of Brugada patients — a negative genetic test does NOT exclude the diagnosis.",
+      "ICD is the only proven treatment for SCD prevention; isoproterenol is used acutely for electrical storm in Brugada patients."
+    ],
+    "sources": [
+      "2022 ESC Guidelines for Management of Ventricular Arrhythmias and Prevention of SCD",
+      "Brugada et al., Brugada Syndrome, Circulation Research 2017",
+      "Antzelevitch et al., Brugada Syndrome, JACC 2005",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Long QT syndrome", "ARVC", "Catecholaminergic polymorphic VT", "Epilepsy", "Vasovagal syncope", "Hypertrophic cardiomyopathy", "Early repolarization syndrome"],
+    "after_stage2_more_likely": ["Brugada syndrome", "Inherited channelopathy", "Long QT syndrome"],
+    "after_stage2_less_likely": ["Epilepsy", "Vasovagal syncope", "ARVC", "HCM"],
+    "after_labs_top3": ["Brugada syndrome", "Long QT syndrome", "Early repolarization syndrome"]
+  }
+}

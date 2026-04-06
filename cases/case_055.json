@@ -1,0 +1,74 @@
+{
+  "case_id": "case_055",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Invasive Ductal Carcinoma of the Breast",
+  "icd_category": "C50.9 — Malignant neoplasm of breast, unspecified",
+  "one_liner": "A 56-year-old female presents with a painless, firm, irregular left breast mass discovered on self-examination, with associated skin dimpling and ipsilateral axillary lymphadenopathy.",
+  "stage2": {
+    "hpi_extension": "Patient noticed a lump in her left breast approximately 3 weeks ago during routine self-examination in the shower. The mass is painless and has not changed in size since discovery. She also noticed dimpling of the skin overlying the mass when she raises her arm. She has not had a mammogram in 4 years. She denies nipple discharge, nipple retraction, breast skin changes (redness, warmth, peau d'orange), weight loss, bone pain, shortness of breath, or cough. She went through menopause at age 52 and took hormone replacement therapy (combined estrogen/progesterone) for 3 years but discontinued it 1 year ago. She had her first child at age 34. She has no personal history of breast cancer and has never had a breast biopsy.",
+    "pmh": "Hypertension, osteopenia, postmenopausal (age 52), history of HRT use",
+    "surgical_history": "Laparoscopic cholecystectomy (age 48)",
+    "medications": "Amlodipine 5 mg daily, calcium/vitamin D supplementation",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother diagnosed with breast cancer at age 62 (ER-positive, treated with mastectomy). Maternal aunt with ovarian cancer at age 58. Father with prostate cancer at age 70.",
+    "social_history": "Non-smoker. 1-2 glasses of wine per week. Works as a librarian. Married. Two children (first pregnancy at age 34). No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "76 bpm",
+      "bp": "136/82 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "72 kg, BMI 27.1"
+    },
+    "physical_exam": "General: Well-appearing female in no distress. HEENT: Unremarkable. Neck: Supple. No supraclavicular lymphadenopathy. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear bilaterally. Breasts: Right breast is unremarkable with no masses, skin changes, or nipple abnormalities. Left breast contains a firm, irregular, non-tender mass approximately 2.5 cm in the upper outer quadrant at the 10 o'clock position, 4 cm from the nipple. The mass is poorly mobile and appears fixed to surrounding tissue. Skin dimpling is present overlying the mass with arm elevation. No nipple retraction or discharge. No peau d'orange. No erythema or warmth. Axillae: Left axilla has a single firm, non-tender, mobile lymph node approximately 1.5 cm. Right axilla unremarkable. Abdomen: Soft, non-tender. No hepatomegaly. Extremities: No edema. Skin: No lesions. Spine: Non-tender."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "7.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal, no anemia"},
+      {"test_name": "CBC - Platelets", "result": "248 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Hepatic Function Panel", "result": "AST 24, ALT 22, ALP 78, Total Bilirubin 0.6", "flag": "WNL", "clinical_significance": "Normal liver function; no evidence of hepatic metastases"},
+      {"test_name": "Calcium", "result": "9.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypercalcemia would raise concern for bone metastases"},
+      {"test_name": "CA 15-3", "result": "18 U/mL", "flag": "WNL", "clinical_significance": "Within normal range; tumor markers are not used for screening or diagnosis but may be followed during treatment"},
+      {"test_name": "CA 27.29", "result": "22 U/mL", "flag": "WNL", "clinical_significance": "Normal; not recommended for routine screening"}
+    ],
+    "imaging_results": [
+      {"test_name": "Diagnostic Mammogram (bilateral)", "result": "Left breast: An irregular, spiculated, high-density mass measuring 2.4 x 2.1 cm in the upper outer quadrant at the 10 o'clock position. Associated microcalcifications in a linear/branching pattern. No skin thickening. Right breast: No suspicious findings. Assessment: BI-RADS 5 (highly suggestive of malignancy).", "flag": "ABNORMAL", "clinical_significance": "BI-RADS 5 lesion with spiculated margins and suspicious microcalcifications is highly suggestive of malignancy. Tissue sampling is required."},
+      {"test_name": "Breast Ultrasound (left)", "result": "Irregular, hypoechoic solid mass measuring 2.5 x 2.2 x 1.8 cm in the left upper outer quadrant corresponding to the mammographic finding. Posterior acoustic shadowing present. Taller-than-wide orientation. Left axilla: An abnormal-appearing lymph node measuring 1.6 cm with cortical thickening (6 mm) and loss of fatty hilum.", "flag": "ABNORMAL", "clinical_significance": "Ultrasound features (irregular borders, shadowing, taller-than-wide) are highly suspicious for malignancy. Abnormal axillary lymph node suggests possible metastatic involvement."},
+      {"test_name": "Core Needle Biopsy (US-guided, left breast mass and axillary lymph node)", "result": "Left breast mass: Invasive ductal carcinoma, grade 2 (Nottingham score 6). ER positive (90%), PR positive (60%), HER2 negative (IHC 1+). Ki-67: 18%. Left axillary lymph node: Positive for metastatic carcinoma consistent with breast primary.", "flag": "ABNORMAL", "clinical_significance": "Confirms invasive ductal carcinoma, hormone receptor positive, HER2 negative, with axillary nodal metastasis. Clinical stage IIB (T2N1M0). This determines treatment approach including potential neoadjuvant therapy."}
+    ],
+    "key_tests": ["Diagnostic mammogram (bilateral)", "Breast ultrasound", "Core needle biopsy with receptor status (ER, PR, HER2)", "CBC", "Hepatic function panel"],
+    "acceptable_tests": ["Calcium", "Chest X-ray (staging)", "CT chest/abdomen/pelvis (staging)", "Bone scan (if symptomatic)", "Genetic counseling/testing (BRCA1/2 given family history)", "Breast MRI (for extent of disease)", "Axillary ultrasound with FNA"],
+    "low_yield_tests": ["PET/CT (not first-line for early-stage breast cancer staging)", "Tumor markers (CA 15-3, CA 27.29) for diagnosis", "Fine needle aspiration alone (core biopsy preferred for receptor status)", "Thermography (not validated for breast cancer detection)"],
+    "final_clue": "Diagnostic mammogram shows a BI-RADS 5 spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, grade 2, ER+/PR+/HER2-negative, with a positive axillary lymph node. This is clinical stage IIB (T2N1M0) breast cancer requiring multidisciplinary treatment planning."
+  },
+  "stage5": {
+    "final_clue": "Diagnostic mammogram shows a BI-RADS 5 spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, grade 2, ER+/PR+/HER2-negative, with a positive axillary lymph node. This is clinical stage IIB (T2N1M0) breast cancer requiring multidisciplinary treatment planning."
+  },
+  "debrief": {
+    "classic_presentation": "Painless, firm, irregular breast mass, most commonly in the upper outer quadrant (50% of breast cancers). Skin dimpling (Cooper ligament involvement), nipple retraction, peau d'orange (dermal lymphatic invasion), and axillary lymphadenopathy suggest locally advanced disease. Risk factors include age >50, family history (first-degree relative), BRCA1/2 mutations, early menarche, late menopause, nulliparity or late first pregnancy, HRT use, obesity (postmenopausal), and alcohol use. Invasive ductal carcinoma accounts for 70-80% of all breast cancers.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Invasive ductal carcinoma arises from the epithelial cells lining the mammary ducts. It begins as ductal carcinoma in situ (DCIS), with malignant cells confined within the basement membrane, then breaches the basement membrane to become invasive. The tumor invades surrounding stroma, gains access to lymphatic and vascular channels, and metastasizes first to regional (axillary) lymph nodes, then to distant sites (bone, lung, liver, brain). Hormone receptor expression (ER/PR) reflects the tumor's dependence on estrogen/progesterone for growth. HER2 overexpression promotes aggressive tumor growth via receptor tyrosine kinase signaling.",
+    "treatment_overview": "Multidisciplinary approach: Surgery (breast-conserving surgery/lumpectomy with sentinel lymph node biopsy or axillary dissection, versus mastectomy based on tumor-to-breast ratio and patient preference). Radiation therapy after breast-conserving surgery (reduces local recurrence by 50%). Systemic therapy: Adjuvant endocrine therapy for ER/PR-positive tumors (tamoxifen for premenopausal, aromatase inhibitors for postmenopausal). Adjuvant chemotherapy (anthracycline-based or taxane-based) based on Oncotype DX recurrence score, stage, and nodal involvement. Neoadjuvant chemotherapy may be considered for downstaging. For this patient with node-positive ER+/HER2- disease, chemotherapy plus endocrine therapy (aromatase inhibitor for 5-10 years) with possible CDK4/6 inhibitor adjuvant therapy. Genetic counseling given family history.",
+    "high_yield_pearls": [
+      "Invasive ductal carcinoma is the most common type of breast cancer (70-80%), and the upper outer quadrant is the most common location.",
+      "Core needle biopsy is preferred over fine needle aspiration because it provides tissue architecture and allows receptor (ER, PR, HER2) testing.",
+      "BI-RADS 5 on mammogram carries a >95% probability of malignancy and requires tissue biopsy.",
+      "Skin dimpling indicates Cooper ligament invasion, while peau d'orange indicates dermal lymphatic obstruction by tumor cells.",
+      "The 21-gene Oncotype DX recurrence score guides the need for adjuvant chemotherapy in ER+/HER2-negative, node-negative or low-node-positive breast cancer."
+    ],
+    "sources": [
+      "NCCN Guidelines: Breast Cancer Version 2.2025",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 17",
+      "Harbeck N, Gnant M. Lancet 2017;389:1134-1150 (Breast Cancer)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Invasive ductal carcinoma", "Invasive lobular carcinoma", "Fibroadenoma", "Breast cyst", "Phyllodes tumor", "Fat necrosis", "Breast lymphoma"],
+    "after_stage2_more_likely": ["Invasive ductal carcinoma", "Invasive lobular carcinoma"],
+    "after_stage2_less_likely": ["Fibroadenoma", "Breast cyst", "Fat necrosis"],
+    "after_labs_top3": ["Invasive ductal carcinoma", "Invasive lobular carcinoma", "Phyllodes tumor"]
+  }
+}

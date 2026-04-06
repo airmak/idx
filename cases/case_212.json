@@ -1,0 +1,171 @@
+{
+  "case_id": "case_212",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Placental abruption (moderate-severe, concealed component)",
+  "icd_category": "O45.90 – Premature separation of placenta, unspecified",
+  "one_liner": "A 33-year-old G3P2 at 33 weeks gestation with chronic hypertension presents with sudden severe abdominal pain, a rigid 'board-like' uterus, and fetal bradycardia after cocaine use; labs show developing DIC.",
+  "stage2": {
+    "hpi_extension": "The patient presents via EMS with sudden-onset severe abdominal pain that began approximately 1 hour ago. The pain is constant, diffuse across the abdomen, and rated 10/10. She reports minimal dark vaginal bleeding, though the pain seems disproportionate to the visible bleeding. She used cocaine intranasally approximately 2 hours before symptom onset. She has chronic hypertension and has been inconsistently taking labetalol. She felt vigorous fetal movement initially after the pain started but has not felt movement in the past 30 minutes. She denies any trauma, falls, or motor vehicle accident. Her two prior deliveries were uncomplicated vaginal births.",
+    "pmh": "G3P2002. Chronic hypertension (diagnosed pre-pregnancy). Prior uncomplicated vaginal deliveries. No prior abruption or preeclampsia.",
+    "surgical_history": "None",
+    "medications": "Labetalol 200 mg PO BID (inconsistent compliance). Prenatal vitamins.",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with chronic hypertension. No family history of clotting disorders.",
+    "social_history": "Occasional cocaine use. Smokes 5 cigarettes daily. Lives with partner and two children.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "124 bpm",
+      "bp": "170/108 mmHg",
+      "rr": "26 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "80 kg, BMI 29 kg/m²"
+    },
+    "physical_exam": "General: Diaphoretic, writhing in pain, gravid woman in severe distress. HEENT: Pale conjunctivae. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation, mildly tachypneic. Abdomen: Gravid uterus that is firm, woody, and board-like with extreme tenderness to palpation diffusely; uterus measures larger than expected for dates (fundal height 36 cm vs. expected 33 cm); unable to palpate fetal parts due to uterine rigidity. Pelvic: Small amount of dark blood at the introitus; cervix is 2 cm dilated, 50% effaced. Extremities: Cool, diaphoretic; capillary refill 3 seconds. Fetal monitoring: FHR 80 bpm with minimal variability and late decelerations (category III tracing); frequent uterine contractions with elevated baseline tone (hypertonic pattern)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin",
+        "result": "8.5 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Acute anemia from retroplacental hemorrhage; the degree of visible bleeding underestimates actual blood loss in concealed abruption."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "82 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Thrombocytopenia from consumptive coagulopathy (DIC) triggered by abruption."
+      },
+      {
+        "test_name": "Fibrinogen",
+        "result": "125 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Critically low fibrinogen (normal in pregnancy 400-600 mg/dL) is the earliest and most sensitive marker of DIC in obstetric hemorrhage. Fibrinogen <200 mg/dL predicts severe PPH."
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "PT 16.2 sec, INR 1.5",
+        "flag": "HIGH",
+        "clinical_significance": "Prolonged PT/INR reflects consumption of coagulation factors from DIC."
+      },
+      {
+        "test_name": "PTT",
+        "result": "42 sec",
+        "flag": "HIGH",
+        "clinical_significance": "Prolonged PTT from DIC."
+      },
+      {
+        "test_name": "D-dimer",
+        "result": ">10,000 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Massively elevated D-dimer confirms active fibrinolysis consistent with DIC, though D-dimer is normally elevated in pregnancy."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 136, K 5.2, Cl 100, CO2 18, BUN 20, Cr 1.2, Glucose 135",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperkalemia from tissue destruction and hemolysis; metabolic acidosis from poor tissue perfusion; stress hyperglycemia."
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.28, pCO2 28 mmHg, pO2 88 mmHg, HCO3 14 mEq/L, lactate 5.8 mmol/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with elevated lactate reflects hypovolemic shock from hemorrhage."
+      },
+      {
+        "test_name": "Blood type and crossmatch",
+        "result": "O negative, 4 units pRBC crossmatched, massive transfusion protocol activated",
+        "flag": "WNL",
+        "clinical_significance": "Rh-negative patient — RhoGAM needed in addition to transfusion support. Massive transfusion protocol ensures timely delivery of blood products."
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Positive for cocaine metabolites",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cocaine use is a well-established risk factor for placental abruption; it causes acute vasospasm and hypertension."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Bedside obstetric ultrasound",
+        "result": "Difficulty visualizing placental margins due to uterine rigidity. Posterior placenta with possible retroplacental hypoechoic collection (4 × 6 cm). Fetal heart rate confirmed at 78 bpm. Breech presentation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Retroplacental collection is suggestive of abruption, but ultrasound is only 25-50% sensitive for abruption — a normal ultrasound does NOT exclude the diagnosis. Clinical presentation takes precedence."
+      }
+    ],
+    "key_tests": [
+      "CBC with platelet count (serial)",
+      "Coagulation panel with fibrinogen (most important single lab)",
+      "Blood type and crossmatch (massive transfusion protocol)",
+      "Continuous fetal heart rate monitoring",
+      "Kleihauer-Betke test (if Rh-negative)"
+    ],
+    "acceptable_tests": [
+      "ABG with lactate",
+      "BMP (hyperkalemia, acidosis monitoring)",
+      "D-dimer",
+      "Urine drug screen",
+      "Bedside ultrasound (limited sensitivity for abruption)",
+      "Urine protein (evaluate for superimposed preeclampsia)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (delays delivery, abruption is a clinical diagnosis)",
+      "MRI pelvis (too time-consuming in emergency)",
+      "Amniocentesis (contraindicated in abruption)",
+      "Liver function tests (unless HELLP suspected)"
+    ],
+    "attending_pimp_questions": [
+      "Why is fibrinogen the most important lab value in obstetric hemorrhage, and what is the critical threshold?",
+      "How does concealed abruption differ from revealed abruption in clinical presentation and why is concealed abruption more dangerous?",
+      "What is the Couvelaire uterus, and what are its implications for management?",
+      "What is the massive transfusion protocol ratio and how does it apply in obstetric hemorrhage?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Emergent cesarean delivery is performed due to the category III fetal tracing and maternal DIC. A 40% retroplacental clot is found adherent to the posterior placenta with approximately 1,500 mL of blood in the uterine cavity. The myometrium appears purple and ecchymotic (Couvelaire uterus) but contracts adequately after oxytocin and tranexamic acid. The neonate requires NICU admission but survives."
+  },
+  "debrief": {
+    "classic_presentation": "Placental abruption classically presents with painful vaginal bleeding in the third trimester, a rigid/tender 'board-like' uterus, and fetal distress. However, in concealed abruption (20%), external bleeding may be minimal while a large retroplacental clot accumulates. The classic triad is: (1) vaginal bleeding (80%), (2) uterine tenderness/rigidity, and (3) fetal distress. Maternal shock may be disproportionate to visible blood loss. Risk factors include hypertension (most common), cocaine use, trauma, smoking, prior abruption (10-fold increased risk), and preterm premature rupture of membranes.",
+    "attending_mode_notes": "Placental abruption complicates 1% of pregnancies and is the most common cause of DIC in obstetrics. The pathognomonic uterine finding is the Couvelaire uterus — blood dissects into the myometrium, causing ecchymotic discoloration and potential uterine atony. Abruption severity is graded: Grade 0 (retrospective diagnosis on pathology), Grade 1 (mild — small retroplacental clot, reassuring fetal status), Grade 2 (moderate — fetal distress, tender uterus, some coagulopathy), Grade 3 (severe — fetal death, DIC, shock). DIC occurs because tissue thromboplastin (tissue factor) from the decidual injury enters maternal circulation, triggering the extrinsic coagulation cascade with consumption of fibrinogen and clotting factors. Fibrinogen <200 mg/dL has a positive predictive value of 100% for severe hemorrhage in obstetrics. Ultrasound sensitivity for abruption is only 25-50% because acute blood appears isoechoic to placenta — a negative ultrasound does NOT exclude abruption. The diagnosis is clinical. Cocaine causes abruption via acute vasospasm and hypertensive crisis; the risk is increased 5-fold with cocaine use. Recurrence risk is 5-17% after one abruption.",
+    "pathophysiology": "Abruption results from rupture of maternal decidual spiral arteries, creating a retroplacental hematoma that separates the placenta from the decidua basalis. In cocaine-associated abruption, acute vasospasm causes focal ischemia and necrosis of the decidua, weakening the placental attachment. The expanding hematoma compresses surrounding placental tissue, further reducing perfusion to the fetus. Tissue factor released from damaged decidua enters the maternal circulation, activating the extrinsic coagulation cascade and causing DIC. Blood tracking into the myometrium (Couvelaire uterus) can cause uterine atony by preventing effective myometrial contraction. In concealed abruption, the placental margins remain attached to the uterine wall, trapping blood behind the placenta, which can accumulate to several liters before external bleeding is apparent.",
+    "treatment_overview": "Management depends on gestational age, severity, and maternal/fetal status. Mild abruption at term: if fetal and maternal status are stable, vaginal delivery is preferred with close monitoring and amniotomy. Moderate-severe abruption: emergent cesarean delivery if fetal distress (category III tracing) is present or maternal hemorrhage is uncontrolled. Massive transfusion protocol: pRBC:FFP:Platelets in 1:1:1 ratio. Cryoprecipitate for fibrinogen <200 mg/dL (target >200 mg/dL). Tranexamic acid 1 g IV over 10 minutes. Uterotonic agents (oxytocin, methylergonovine, carboprost, misoprostol) for atony. If Couvelaire uterus with refractory atony: compression sutures (B-Lynch), uterine artery embolization, or peripartum hysterectomy as last resort. Magnesium sulfate if preeclampsia coexists. Betamethasone if viable preterm fetus and abruption is mild. RhoGAM for Rh-negative patients.",
+    "high_yield_pearls": [
+      "Fibrinogen is the single most important lab value in obstetric hemorrhage — a level <200 mg/dL in pregnancy (normal 400-600) has 100% positive predictive value for severe hemorrhage and mandates aggressive cryoprecipitate transfusion.",
+      "In concealed abruption, visible bleeding may be minimal while liters of blood accumulate retroplacentally — maternal shock disproportionate to external bleeding should raise immediate suspicion.",
+      "Ultrasound is only 25-50% sensitive for placental abruption because acute blood is isoechoic to the placenta — abruption is a CLINICAL diagnosis, and a normal ultrasound does not exclude it.",
+      "Cocaine use increases abruption risk 5-fold through acute vasospasm and hypertensive crisis — always obtain a urine drug screen in unexplained abruption.",
+      "Couvelaire uterus (uteroplancental apoplexy) occurs when blood infiltrates the myometrium, causing a purple, ecchymotic uterus that may fail to contract adequately — it is not an automatic indication for hysterectomy if uterotonics are effective."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 183: Postpartum Hemorrhage (2017)",
+      "UpToDate: Placental abruption: Pathophysiology, clinical features, diagnosis, and consequences",
+      "UpToDate: Placental abruption: Management and long-term prognosis",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Placental abruption",
+      "Placenta previa",
+      "Uterine rupture",
+      "Preterm labor",
+      "HELLP syndrome",
+      "Acute fatty liver of pregnancy"
+    ],
+    "after_stage2_more_likely": [
+      "Placental abruption (sudden severe pain, board-like uterus, dark bleeding, cocaine use, chronic hypertension, fetal bradycardia)",
+      "Uterine rupture (severe pain with fetal distress, but no prior uterine scar and uterus is rigid rather than soft)"
+    ],
+    "after_stage2_less_likely": [
+      "Placenta previa (bleeding is typically painless and bright red; this patient has severe pain with board-like uterus)",
+      "Preterm labor (contractions without the degree of pain, uterine rigidity, or fetal distress seen here)",
+      "HELLP syndrome (epigastric pain typical; not this presentation of diffuse severe abdominal pain with rigid uterus)"
+    ],
+    "after_labs_top3": [
+      "Placental abruption with DIC (clinical presentation plus low fibrinogen, thrombocytopenia, prolonged coagulation times, retroplacental collection on ultrasound)",
+      "HELLP syndrome (must check liver enzymes; could coexist with abruption in hypertensive patient)",
+      "Uterine rupture (excluded by intact uterus on ultrasound and confirmed at cesarean delivery)"
+    ]
+  }
+}

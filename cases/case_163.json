@@ -1,0 +1,77 @@
+{
+  "case_id": "case_163",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Acute Viral Hepatitis B",
+  "icd_category": "B16.9 — Acute hepatitis B without delta-agent and without hepatic coma",
+  "one_liner": "A 30-year-old male presents with 2 weeks of jaundice, fatigue, dark urine, and right upper quadrant pain with markedly elevated transaminases.",
+  "stage2": {
+    "hpi_extension": "The patient presents with a 2-week history of progressive fatigue, malaise, nausea, and loss of appetite. He noticed dark ('cola-colored') urine 5 days ago, followed by yellowing of his eyes and skin. He has a dull aching pain in the right upper quadrant. He also reports low-grade fevers, arthralgias in his hands and knees, and a brief urticarial rash on his trunk that has since resolved. He recently returned from a 3-month work trip in Southeast Asia where he had unprotected sexual encounters. He has not been vaccinated for hepatitis B.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No liver disease in family. Parents are healthy.",
+    "social_history": "Social alcohol (2-3 drinks/week, stopped 2 weeks ago). Non-smoker. Works in international development. Recent travel to Vietnam and Thailand. Unprotected sexual contact with multiple partners during travel. No IV drug use. No tattoos.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "82 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "76 kg, BMI 24.0"
+    },
+    "physical_exam": "General: Jaundiced young male, fatigued but not in acute distress. HEENT: Scleral icterus, no pharyngeal erythema. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Right upper quadrant tenderness with hepatomegaly (liver palpable 4 cm below costal margin, smooth, tender edge). No splenomegaly. No ascites. No Murphy sign. Skin: Jaundice, resolving urticarial rash on trunk. No spider angiomata, no palmar erythema. Extremities: Mild joint tenderness in MCPs bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ALT", "result": "2,450 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated (>10x ULN), classic for acute viral hepatitis"},
+      {"test_name": "AST", "result": "1,980 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, ALT > AST pattern typical of viral hepatitis"},
+      {"test_name": "Total bilirubin", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, causing clinical jaundice"},
+      {"test_name": "Direct bilirubin", "result": "6.2 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated hyperbilirubinemia from hepatocyte injury"},
+      {"test_name": "Alkaline phosphatase", "result": "185 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; hepatocellular pattern (ALT/AST >> ALP)"},
+      {"test_name": "HBsAg", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirms active hepatitis B infection"},
+      {"test_name": "Anti-HBc IgM", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "IgM anti-core antibody confirms ACUTE infection (not chronic or past)"},
+      {"test_name": "HBeAg", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates high viral replication and infectivity"},
+      {"test_name": "HBV DNA viral load", "result": "85,000,000 IU/mL", "flag": "HIGH", "clinical_significance": "Very high viral load, active replication"},
+      {"test_name": "Anti-HBs", "result": "Negative", "flag": "WNL", "clinical_significance": "No immunity yet (expected in acute phase)"},
+      {"test_name": "INR", "result": "1.3", "flag": "HIGH", "clinical_significance": "Mildly elevated, mild synthetic dysfunction — monitor for acute liver failure"},
+      {"test_name": "Albumin", "result": "3.5 g/dL", "flag": "LOW", "clinical_significance": "Mildly low, reflects acute hepatic inflammation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Right upper quadrant ultrasound", "result": "Enlarged liver (18 cm span) with diffusely increased echogenicity consistent with acute hepatitis. No focal lesions. No biliary dilation. Normal gallbladder. Patent portal vein. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hepatomegaly with diffuse parenchymal changes consistent with acute hepatitis; no biliary obstruction"},
+      {"test_name": "Chest X-ray", "result": "Normal", "flag": "WNL", "clinical_significance": "No pulmonary pathology"}
+    ],
+    "key_tests": ["Hepatitis B serological panel (HBsAg, anti-HBc IgM, HBeAg, anti-HBs)", "ALT/AST", "Total and direct bilirubin", "INR", "HBV DNA viral load"],
+    "acceptable_tests": ["CBC", "Albumin", "RUQ ultrasound", "Hepatitis A IgM", "Hepatitis C antibody", "HIV test", "Hepatitis D antibody", "BMP"],
+    "low_yield_tests": ["CT abdomen", "MRCP", "Liver biopsy (not needed in acute setting)", "ERCP", "ANA/SMA (unless autoimmune hepatitis suspected)"],
+    "key_tests_rationale": "HBsAg confirms hepatitis B. Anti-HBc IgM distinguishes acute from chronic infection. HBeAg and HBV DNA assess viral replication. ALT/AST quantify liver injury. INR monitors synthetic function and risk of progression to liver failure."
+  },
+  "stage5": {
+    "final_clue": "Positive HBsAg with positive anti-HBc IgM in the setting of markedly elevated transaminases (ALT 2,450), jaundice, and a serum-sickness-like prodrome (arthralgias, urticaria) confirms acute hepatitis B infection. Sexual exposure in an endemic area is the likely transmission route."
+  },
+  "debrief": {
+    "classic_presentation": "Acute hepatitis B presents with a prodromal phase (fatigue, malaise, anorexia, nausea, serum-sickness-like syndrome with arthralgias and urticaria) followed by an icteric phase (jaundice, dark urine, RUQ pain, hepatomegaly). Transaminases are markedly elevated (often >1000 U/L) with ALT > AST. The serum-sickness-like prodrome (from circulating immune complexes) is a distinctive feature of HBV.",
+    "attending_mode_notes": null,
+    "pathophysiology": "HBV is a DNA virus that infects hepatocytes. Liver damage is primarily immune-mediated (CD8+ cytotoxic T cells attacking infected hepatocytes), not from direct viral cytopathic effect. In acute infection, a robust immune response clears the virus in ~95% of immunocompetent adults. The serum-sickness-like prodrome (arthralgias, urticaria, fever) results from circulating HBsAg-anti-HBs immune complexes during the early phase.",
+    "treatment_overview": "Acute hepatitis B in immunocompetent adults: supportive care (hydration, antiemetics, avoid hepatotoxins). ~95% clear the infection spontaneously. Monitor INR and clinical status for acute liver failure (encephalopathy, INR >1.5). Antiviral therapy (tenofovir or entecavir) reserved for severe or protracted course, acute liver failure, or immunosuppressed patients. Refer for liver transplant evaluation if acute liver failure develops. Test and vaccinate sexual contacts. Report to public health.",
+    "high_yield_pearls": [
+      "Anti-HBc IgM is THE test that distinguishes acute from chronic hepatitis B — it is positive only in acute infection and reactivation.",
+      "The 'window period' occurs when HBsAg has cleared but anti-HBs has not yet appeared — anti-HBc IgM is the only positive marker.",
+      "95% of immunocompetent adults clear acute HBV spontaneously; 90% of neonates progress to chronic infection (immature immune system).",
+      "Serum-sickness-like syndrome (arthralgias + urticaria) preceding jaundice is highly suggestive of acute hepatitis B.",
+      "HBV serologic interpretation: HBsAg+/anti-HBc IgM+ = acute; HBsAg+/anti-HBc IgG+ = chronic; anti-HBs+/anti-HBc+ = resolved; anti-HBs+ only = vaccinated."
+    ],
+    "sources": [
+      "2018 AASLD Guidance on Hepatitis B",
+      "Terrault et al., Update on Prevention, Diagnosis, and Treatment of Chronic Hepatitis B, Hepatology 2018",
+      "Liang TJ, Hepatitis B, NEJM 2009"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute hepatitis A", "Acute hepatitis C", "Drug-induced liver injury", "Autoimmune hepatitis", "Alcoholic hepatitis", "Biliary obstruction (choledocholithiasis)"],
+    "after_stage2_more_likely": ["Acute viral hepatitis (B, A, or C)", "Drug-induced liver injury", "Autoimmune hepatitis"],
+    "after_stage2_less_likely": ["Biliary obstruction", "Alcoholic hepatitis", "Wilson disease"],
+    "after_labs_top3": ["Acute hepatitis B", "Acute hepatitis A", "Autoimmune hepatitis"]
+  }
+}

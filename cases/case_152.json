@@ -1,0 +1,113 @@
+{
+  "case_id": "case_152",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Disseminated histoplasmosis",
+  "icd_category": "B39.3 — Disseminated histoplasmosis capsulati",
+  "one_liner": "A 42-year-old HIV-positive male from the Ohio River Valley with a CD4 count of 45 presents with 6 weeks of fever, weight loss, pancytopenia, hepatosplenomegaly, and scattered oral and skin lesions.",
+  "stage2": {
+    "hpi_extension": "The patient was diagnosed with HIV 3 years ago but has been non-adherent with antiretroviral therapy. Over the past 6 weeks, he has developed progressive fatigue, daily fevers up to 39.5°C with drenching night sweats, 8 kg unintentional weight loss, dry cough, and diffuse abdominal discomfort. He noticed several painless raised lesions on his face, arms, and inside his mouth 2 weeks ago. He reports progressive dyspnea on exertion but denies hemoptysis or pleuritic chest pain. He has intermittent loose stools without blood. He lives in rural Indiana along the Ohio River Valley and works in demolition, with recent exposure to old buildings. He denies recent travel outside the Midwest.",
+    "pmh": "HIV/AIDS (diagnosed 3 years ago, non-adherent to ART), prior oral candidiasis, depression.",
+    "surgical_history": "None.",
+    "medications": "None (stopped ART 18 months ago due to side effects).",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Demolition worker. Lives in rural Indiana (Ohio River Valley). Smokes 1 pack/day. Social alcohol. History of cocaine use (in remission for 2 years). Single.",
+    "vitals": {
+      "temp": "39.2°C (102.6°F)",
+      "hr": "108 bpm",
+      "bp": "100/60 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "58 kg, BMI 19.4"
+    },
+    "physical_exam": "Cachectic, chronically ill-appearing male. Oral exam: multiple shallow ulcers on the tongue and buccal mucosa with raised, rolled borders. Skin: scattered papular and nodular lesions (0.5-1.5 cm) on the face, forearms, and chest, some with central umbilication resembling molluscum. Bilateral cervical and axillary lymphadenopathy (1-2 cm, non-tender). Lungs: scattered bilateral crackles. Abdomen: hepatomegaly (liver 4 cm below costal margin) and splenomegaly (spleen 5 cm below costal margin). No ascites. No peripheral edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "2,100/μL (ANC 800/μL)", "flag": "LOW", "clinical_significance": "Leukopenia with severe neutropenia from bone marrow involvement by Histoplasma"},
+      {"test_name": "CBC — Hemoglobin", "result": "8.4 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease compounded by bone marrow infiltration"},
+      {"test_name": "CBC — Platelets", "result": "68,000/μL", "flag": "LOW", "clinical_significance": "Thrombocytopenia completing the triad of pancytopenia; characteristic of disseminated histoplasmosis with marrow involvement"},
+      {"test_name": "Histoplasma Urine Antigen", "result": "Positive (12.4 ng/mL)", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive (>95%) for disseminated histoplasmosis; key diagnostic test"},
+      {"test_name": "Histoplasma Serum Antigen", "result": "Positive (8.2 ng/mL)", "flag": "ABNORMAL", "clinical_significance": "Confirms high fungal burden; useful for monitoring treatment response"},
+      {"test_name": "Serum LDH", "result": "842 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated LDH common in disseminated histoplasmosis; can be used as a prognostic marker"},
+      {"test_name": "Serum Ferritin", "result": "4,280 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated ferritin suggests macrophage activation/hemophagocytic syndrome, which can accompany disseminated histoplasmosis"},
+      {"test_name": "AST/ALT", "result": "AST 124 U/L, ALT 96 U/L", "flag": "HIGH", "clinical_significance": "Hepatic involvement from disseminated disease"},
+      {"test_name": "Alkaline Phosphatase", "result": "286 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic granulomatous infiltration"},
+      {"test_name": "CD4 Count", "result": "45 cells/μL", "flag": "LOW", "clinical_significance": "Severely immunocompromised; disseminated histoplasmosis typically occurs at CD4 <150, most commonly <100"},
+      {"test_name": "HIV Viral Load", "result": "320,000 copies/mL", "flag": "HIGH", "clinical_significance": "Uncontrolled viremia from ART non-adherence"},
+      {"test_name": "Blood Culture (Fungal — Lysis Centrifugation)", "result": "Growth of Histoplasma capsulatum at 14 days", "flag": "ABNORMAL", "clinical_significance": "Definitive diagnosis; fungal blood cultures positive in ~50-70% of disseminated disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Chest", "result": "Diffuse bilateral miliary-pattern micronodules (<3 mm) throughout both lung fields. Mediastinal and bilateral hilar lymphadenopathy. No cavitary lesions. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Miliary pattern suggests hematogenous dissemination; differential includes miliary TB, but Histoplasma is more likely given geography and antigen results"},
+      {"test_name": "CT Abdomen/Pelvis", "result": "Hepatomegaly (18 cm) and splenomegaly (16 cm). Diffuse retroperitoneal and mesenteric lymphadenopathy. No abscess. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Hepatosplenomegaly and diffuse lymphadenopathy consistent with disseminated fungal infection"}
+    ],
+    "key_tests": [
+      "Histoplasma urine antigen (sensitivity >95% in disseminated disease)",
+      "Histoplasma serum antigen",
+      "Fungal blood cultures (lysis centrifugation technique preferred)",
+      "CBC with differential (pancytopenia is a clue to marrow involvement)",
+      "CD4 count and HIV viral load"
+    ],
+    "acceptable_tests": [
+      "Histoplasma antibody (complement fixation and immunodiffusion) — less sensitive in immunocompromised",
+      "Bone marrow biopsy with fungal culture and histopathology",
+      "Peripheral blood smear (may show intracellular yeast in WBCs)",
+      "LDH and ferritin",
+      "CT chest, abdomen, and pelvis",
+      "Skin biopsy of papular lesions with GMS/PAS staining",
+      "Serum (1,3)-beta-D-glucan"
+    ],
+    "low_yield_tests": [
+      "Sputum AFB (low yield without cavitary disease; will not identify Histoplasma)",
+      "Cryptococcal antigen (different organism, though reasonable to send given CD4 <100)",
+      "CT head without clinical meningeal symptoms",
+      "ANA/rheumatologic panel"
+    ]
+  },
+  "stage5": {
+    "final_clue": "An HIV/AIDS patient (CD4 45) from the Ohio River Valley with occupational exposure to old buildings presenting with 6 weeks of fever, weight loss, pancytopenia, hepatosplenomegaly, miliary lung nodules, oral ulcers, and umbilicated skin papules. Histoplasma urine and serum antigens are strongly positive, and fungal blood cultures grow H. capsulatum. The triad of pancytopenia + hepatosplenomegaly + markedly elevated LDH/ferritin in an AIDS patient from an endemic area is classic for disseminated histoplasmosis."
+  },
+  "debrief": {
+    "classic_presentation": "Disseminated histoplasmosis typically occurs in severely immunocompromised patients (HIV with CD4 <150, organ transplant recipients, TNF-alpha inhibitor users) from endemic areas (Ohio and Mississippi River Valleys, Central America). The presentation is subacute over weeks: fever, weight loss, pancytopenia, hepatosplenomegaly, and mucocutaneous lesions (oral ulcers with rolled borders, umbilicated skin papules). Miliary pulmonary infiltrates, markedly elevated LDH and ferritin, and adrenal involvement are classic.",
+    "attending_mode_notes": "The skin lesions of disseminated histoplasmosis can mimic molluscum contagiosum (umbilicated papules), Kaposi sarcoma, secondary syphilis, or Cryptococcus skin lesions in HIV patients — always biopsy. The markedly elevated ferritin (>4,000) should raise concern for hemophagocytic lymphohistiocytosis (HLH), which can be triggered by disseminated histoplasmosis. Cross-reactivity of Histoplasma antigen with Blastomyces and Coccidioides is important to recognize — clinical context and geographic epidemiology help differentiate. Bone marrow biopsy showing small (2-4 μm) intracellular yeasts within macrophages on GMS stain is pathognomonic. Adrenal insufficiency can occur from adrenal infiltration and should be evaluated if hypotension persists despite treatment. ART should be deferred for 2-4 weeks after starting antifungal therapy to reduce the risk of immune reconstitution inflammatory syndrome (IRIS).",
+    "pathophysiology": "Histoplasma capsulatum is a dimorphic fungus endemic to the Ohio and Mississippi River Valleys. The mold phase exists in soil enriched with bird or bat guano. Inhaled microconidia convert to the yeast phase at body temperature and are phagocytosed by alveolar macrophages. Unlike most pathogens, Histoplasma survives and replicates within the phagolysosome of macrophages by modulating intracellular pH and iron acquisition. In immunocompetent hosts, T-cell-mediated immunity (CD4+ Th1 response, IFN-gamma, TNF-alpha) activates macrophages to kill intracellular yeast, forming granulomas that contain the infection. In patients with impaired cell-mediated immunity (HIV/AIDS), macrophages fail to contain the organism, leading to progressive dissemination via reticuloendothelial spread to the liver, spleen, bone marrow, adrenal glands, and skin. Pancytopenia results from bone marrow infiltration and granulomatous replacement. The markedly elevated LDH reflects widespread tissue destruction from intracellular parasitism of macrophages.",
+    "treatment_overview": "Severe/disseminated disease: induction with liposomal amphotericin B 3 mg/kg/day IV for 1-2 weeks (until clinical improvement), followed by step-down to itraconazole 200 mg PO TID for 3 days, then 200 mg PO BID for at least 12 months. Monitor itraconazole trough levels (target 1-5 μg/mL). Monitor Histoplasma urine antigen levels every 3-6 months to assess treatment response (>50% decrease expected at 2 weeks). For HIV patients: restart ART 2-4 weeks after initiating antifungal therapy to minimize IRIS risk. Secondary prophylaxis with itraconazole 200 mg daily should continue until CD4 >150 for ≥6 months on suppressive ART. Mild disease in immunocompetent: itraconazole 200 mg TID for 3 days, then 200 mg BID for 6-12 weeks. Do NOT use fluconazole — it has poor activity against Histoplasma.",
+    "high_yield_pearls": [
+      "The Histoplasma urine antigen test is >95% sensitive for disseminated disease and is the fastest way to diagnose disseminated histoplasmosis — results often available within 24 hours.",
+      "Pancytopenia + hepatosplenomegaly + markedly elevated LDH/ferritin in an immunocompromised patient from the Ohio/Mississippi River Valley is disseminated histoplasmosis until proven otherwise.",
+      "Histoplasma antigen cross-reacts with Blastomyces, Coccidioides, Paracoccidioides, and Talaromyces (Penicillium) marneffei — clinical context is essential for interpretation.",
+      "Liposomal amphotericin B (not conventional amphotericin B deoxycholate) is the preferred induction agent for severe disease due to better efficacy and less nephrotoxicity.",
+      "Fluconazole has poor activity against Histoplasma; itraconazole is the azole of choice. Voriconazole and posaconazole are alternatives if itraconazole is not tolerated."
+    ],
+    "sources": [
+      "Wheat LJ et al. Clinical Practice Guidelines for the Management of Patients with Histoplasmosis: 2007 Update by the IDSA. Clin Infect Dis. 2007;45(7):807-825.",
+      "Azar MM, Hage CA. Clinical Perspectives in the Diagnosis and Management of Histoplasmosis. Clin Chest Med. 2017;38(3):403-415.",
+      "UpToDate: Diagnosis and treatment of disseminated histoplasmosis in patients with HIV (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Disseminated histoplasmosis",
+      "Disseminated Mycobacterium avium complex (MAC)",
+      "Miliary tuberculosis",
+      "Disseminated coccidioidomycosis",
+      "Lymphoma",
+      "Visceral leishmaniasis",
+      "Hemophagocytic lymphohistiocytosis (HLH)"
+    ],
+    "after_stage2_more_likely": [
+      "Disseminated histoplasmosis — AIDS patient from Ohio River Valley with demolition exposure, pancytopenia, hepatosplenomegaly, miliary pattern, oral ulcers, and umbilicated skin lesions",
+      "Disseminated MAC — common in AIDS with CD4 <50; presents with fever, weight loss, hepatosplenomegaly, and pancytopenia, but typically lacks skin and oral lesions"
+    ],
+    "after_stage2_less_likely": [
+      "Lymphoma — can cause similar B symptoms and pancytopenia, but oral ulcers and umbilicated skin lesions with this epidemiologic context favor infection",
+      "Miliary tuberculosis — miliary lung pattern possible but oral/skin lesions are uncommon in TB; geographic exposure strongly favors Histoplasma"
+    ],
+    "after_labs_top3": [
+      "Disseminated histoplasmosis — strongly positive urine and serum Histoplasma antigens, fungal blood cultures growing H. capsulatum, pancytopenia, elevated LDH/ferritin, miliary nodules on CT",
+      "Disseminated MAC — send AFB blood cultures (mycobacterial blood cultures can be positive concurrently; co-infection at this CD4 count is possible)",
+      "HLH — the markedly elevated ferritin raises this possibility as a secondary complication of disseminated histoplasmosis rather than a competing diagnosis"
+    ]
+  }
+}

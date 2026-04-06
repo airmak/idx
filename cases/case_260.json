@@ -1,0 +1,115 @@
+{
+  "case_id": "case_260",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Fibromyalgia",
+  "icd_category": "M79.7 — Fibromyalgia",
+  "one_liner": "A 44-year-old woman presents with 2 years of widespread musculoskeletal pain, fatigue, unrefreshing sleep, and cognitive difficulties ('fibro fog'), with normal inflammatory markers and extensive negative workup.",
+  "stage2": {
+    "hpi_extension": "The patient reports 2 years of widespread pain involving both sides of the body, above and below the waist, and including axial (neck and low back) involvement. She describes the pain as a constant 'deep aching' with intermittent sharp exacerbations, rated 6-7/10 on average. The pain migrates — some days her shoulders are worst, other days her hips or thighs. She has profound fatigue despite sleeping 8-9 hours ('I feel like I've been hit by a truck every morning'). Her sleep is unrefreshing, and she wakes multiple times per night. She reports significant cognitive difficulties — poor memory, difficulty finding words, and inability to multitask ('fibro fog'). She has headaches (tension-type pattern) 2-3 times per week. She has also developed IBS-like symptoms with alternating constipation and diarrhea. She reports sensitivity to cold, bright lights, and loud sounds. Symptoms worsened after a car accident 2 years ago (no significant injury). She has seen multiple specialists — rheumatologist, orthopedist, neurologist — without a unifying diagnosis. She denies joint swelling, rash, fever, weight loss, or Raynaud phenomenon.",
+    "pmh": "Irritable bowel syndrome. Tension-type headaches. TMJ disorder. Restless leg syndrome. Anxiety disorder (generalized).",
+    "surgical_history": "Cesarean section x1",
+    "medications": "Escitalopram 10 mg daily (for anxiety), cyclobenzaprine 10 mg at bedtime PRN, ibuprofen 400 mg PRN",
+    "allergies": "Codeine (nausea/vomiting)",
+    "family_history": "Mother with fibromyalgia and depression. Sister with chronic fatigue syndrome. Father with osteoarthritis. Maternal aunt with rheumatoid arthritis.",
+    "social_history": "Works as an administrative assistant (has missed significant work). Married with one child. Non-smoker. Occasional wine. No illicit drug use. Previously enjoyed hiking and gardening but has limited activities due to pain. Sleep hygiene is poor (screen time before bed, irregular schedule).",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "76 bpm",
+      "bp": "120/76 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "155 lbs, BMI 26.5 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no acute distress but appears uncomfortable during exam. HEENT: Normal, no oral ulcers. TMJ tenderness bilaterally with mild crepitus. Neck: No lymphadenopathy, no thyromegaly. Tender paraspinal muscles. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear. Abdomen: Soft, diffusely tender, no guarding, no hepatosplenomegaly. Musculoskeletal: Diffuse tenderness to palpation at multiple tender points — bilateral occiput, bilateral low cervical, bilateral trapezius, bilateral supraspinatus, bilateral 2nd costochondral junction, bilateral lateral epicondyle, bilateral gluteal, bilateral greater trochanter, bilateral medial knee. 15 of 18 tender points positive. NO joint swelling, warmth, erythema, or effusion in any joint. Full range of motion in all joints. No muscle atrophy. Skin: No rash, no livedo reticularis, no skin thickening. Neurological: Cranial nerves II-XII intact. Motor strength 5/5 throughout (with pain during testing). Sensation intact. Reflexes 2+ and symmetric. Allodynia — painful response to light touch over bilateral trapezii."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.2, Hgb 13.5, Hct 40.5, Plt 240", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia, infection, or hematologic disease"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 90, Ca 9.4, AST 20, ALT 18, Alk Phos 58, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no organ dysfunction"},
+      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal ESR — critically important to distinguish fibromyalgia from inflammatory conditions (ESR is ALWAYS normal in fibromyalgia)"},
+      {"test_name": "CRP", "result": "0.3 mg/dL", "flag": "WNL", "clinical_significance": "Normal CRP confirming no systemic inflammation"},
+      {"test_name": "RF (Rheumatoid Factor)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rules out rheumatoid arthritis"},
+      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; further argues against RA"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against SLE and other connective tissue diseases"},
+      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can mimic fibromyalgia"},
+      {"test_name": "Vitamin D, 25-OH", "result": "24 ng/mL", "flag": "LOW-NORMAL", "clinical_significance": "Borderline low vitamin D — deficiency can worsen widespread pain; supplementation recommended"},
+      {"test_name": "CPK", "result": "80 U/L", "flag": "WNL", "clinical_significance": "Normal CPK; rules out inflammatory myopathy (polymyositis)"},
+      {"test_name": "Vitamin B12", "result": "420 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12; deficiency can cause fatigue and neuropathic symptoms"},
+      {"test_name": "HbA1c", "result": "5.3%", "flag": "WNL", "clinical_significance": "Normal; rules out diabetes-related neuropathy"}
+    ],
+    "imaging_results": [
+      {"test_name": "X-ray cervical spine", "result": "Mild degenerative changes at C5-C6. No fracture, dislocation, or significant stenosis.", "flag": "MILD ABNORMAL", "clinical_significance": "Minor degenerative changes are age-appropriate and do not explain the widespread pain pattern"}
+    ],
+    "key_tests": [
+      "ACR 2016 Revised Fibromyalgia Diagnostic Criteria — Widespread Pain Index (WPI) score 14 (threshold >7) and Symptom Severity Scale (SSS) score 10 (threshold >5 when WPI >7)",
+      "ESR and CRP — both normal, ruling out inflammatory rheumatic disease",
+      "ANA, RF, Anti-CCP — all negative, ruling out autoimmune connective tissue diseases",
+      "CPK — normal, ruling out inflammatory myopathy"
+    ],
+    "acceptable_tests": [
+      "CBC and CMP — baseline assessment",
+      "TSH — ruling out hypothyroidism",
+      "Vitamin D — assessing for deficiency contributing to pain",
+      "Vitamin B12 — ruling out deficiency",
+      "Cervical spine X-ray — assessing for structural pathology in axial pain"
+    ],
+    "low_yield_tests": [
+      "MRI Brain (no focal neurological deficits; fibro fog is a clinical diagnosis)",
+      "EMG/NCS (no neuropathic pattern on exam; allodynia in fibromyalgia is central, not peripheral)",
+      "Bone scan (no concern for metastatic disease or Paget disease)",
+      "Full autoimmune panel (ANA and RF are sufficient screening in absence of specific autoimmune features)",
+      "Sleep study (poor sleep is expected in fibromyalgia; consider only if primary sleep disorder suspected)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets the 2016 ACR revised criteria for fibromyalgia: (1) widespread pain in at least 4 of 5 body regions (she has all 5: left upper, right upper, left lower, right lower, and axial), (2) symptoms present for at least 3 months, (3) Widespread Pain Index (WPI) >7 and Symptom Severity Scale (SSS) >5, and (4) fibromyalgia is valid regardless of other diagnoses. Normal inflammatory markers (ESR, CRP), negative autoimmune serologies (ANA, RF, anti-CCP), and normal CPK exclude inflammatory and autoimmune conditions. Characteristic comorbidities support the diagnosis: IBS, tension headaches, TMJ disorder, sleep disturbance, cognitive dysfunction, and anxiety."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged woman presenting with chronic widespread musculoskeletal pain (>3 months, involving all 4 body quadrants plus axial skeleton), profound fatigue, unrefreshing sleep, and cognitive difficulties ('fibro fog'). Pain is diffuse, migratory, with tender points but NO joint swelling. Commonly associated conditions include IBS, TMJ disorder, tension/migraine headaches, restless leg syndrome, interstitial cystitis, and mood/anxiety disorders. All laboratory studies and imaging are characteristically normal. The condition often begins after a triggering event (physical trauma, infection, emotional stress).",
+    "attending_mode_notes": "The biggest clinical challenge in fibromyalgia is making a confident positive diagnosis without excessive testing, while simultaneously not missing an overlapping autoimmune or inflammatory condition. Key principles: (1) Fibromyalgia is a POSITIVE diagnosis based on clinical criteria, NOT a diagnosis of exclusion. The 2016 ACR criteria removed the tender point examination requirement and use self-reported symptom scales (WPI + SSS). (2) ESR and CRP should ALWAYS be normal in isolated fibromyalgia — if elevated, look for a coexisting inflammatory condition. Fibromyalgia can coexist with RA, SLE, and OA (occurs in 20-30% of RA patients). (3) The 'central sensitization' model is key to explaining the condition to patients — their nervous system amplifies pain signals. Use the analogy of a 'volume knob turned up too high.' (4) Opioids are INEFFECTIVE and harmful in fibromyalgia — they worsen central sensitization (opioid-induced hyperalgesia) and should be avoided. (5) The three FDA-approved medications (duloxetine, milnacipran, pregabalin) have modest efficacy (~30% pain reduction in ~50% of patients). Non-pharmacologic approaches (exercise, CBT, sleep hygiene) have equal or better evidence. (6) Setting realistic expectations is essential — the goal is functional improvement, not complete pain elimination.",
+    "pathophysiology": "Fibromyalgia is a central sensitization syndrome characterized by augmented pain and sensory processing in the central nervous system. Key mechanisms: (1) Central sensitization — hyperexcitability of central neurons in the spinal dorsal horn and brain, lowering the threshold for pain perception (allodynia — pain from non-painful stimuli) and amplifying pain signals (hyperalgesia). (2) Descending inhibitory pathway dysfunction — reduced serotonin, norepinephrine, and endogenous opioid-mediated descending pain inhibition from the brainstem. (3) Neuroimaging findings — fMRI shows augmented pain processing in the insula, anterior cingulate, and somatosensory cortex; elevated substance P and glutamate in CSF; altered functional connectivity. (4) Sleep architecture disruption — alpha-wave intrusion into delta (deep) sleep, resulting in non-restorative sleep. (5) Hypothalamic-pituitary-adrenal axis dysfunction — blunted cortisol response to stress. (6) Small fiber neuropathy — some studies show reduced intraepidermal nerve fiber density, suggesting a peripheral component. (7) Genetic predisposition — polymorphisms in serotonin transporter, catechol-O-methyltransferase (COMT), and dopamine receptor genes.",
+    "treatment_overview": "Multimodal approach is essential — no single treatment is sufficient. Non-pharmacologic (highest evidence): aerobic exercise (swimming, walking, cycling — start low, progress slowly), CBT for pain (reduces catastrophizing and improves coping), sleep hygiene optimization, and stress reduction techniques. Pharmacologic: FDA-approved medications — duloxetine 60 mg daily (SNRI, improves pain and mood), pregabalin 150-225 mg BID (reduces pain, improves sleep), milnacipran 50 mg BID (SNRI). Other options: amitriptyline 10-50 mg at bedtime (improves sleep and pain, oldest evidence base), cyclobenzaprine 10-30 mg at bedtime (muscle relaxant, improves sleep). For this patient: switch escitalopram to duloxetine (addresses both anxiety and fibromyalgia pain), add pregabalin or low-dose amitriptyline for sleep, implement graduated exercise program, refer to CBT for pain management, and optimize sleep hygiene. AVOID opioids (worsen central sensitization) and excessive diagnostic testing.",
+    "high_yield_pearls": [
+      "Fibromyalgia is a POSITIVE clinical diagnosis based on ACR criteria, NOT a diagnosis of exclusion — extensive unnecessary testing delays appropriate treatment and reinforces illness behavior.",
+      "ESR and CRP are ALWAYS normal in isolated fibromyalgia — if inflammatory markers are elevated, look for a coexisting inflammatory condition (fibromyalgia frequently coexists with RA, SLE, and other autoimmune diseases).",
+      "Opioids are CONTRAINDICATED in fibromyalgia — they are ineffective and worsen the condition through opioid-induced hyperalgesia and central sensitization.",
+      "The three FDA-approved medications for fibromyalgia are duloxetine (SNRI), pregabalin (alpha-2-delta ligand), and milnacipran (SNRI) — each provides modest benefit (~30% pain reduction in ~50% of patients).",
+      "Aerobic exercise has the strongest evidence base of ANY intervention for fibromyalgia — more effective than medications in many studies, but must be introduced gradually to avoid flare.",
+      "Central sensitization is the unifying mechanism — explaining the condition to patients as their nervous system 'amplifying signals' helps with acceptance and treatment engagement."
+    ],
+    "sources": [
+      "Wolfe F et al. 2016 Revisions to the 2010/2011 Fibromyalgia Diagnostic Criteria. Semin Arthritis Rheum, 2016",
+      "Macfarlane GJ et al. EULAR Revised Recommendations for the Management of Fibromyalgia. Ann Rheum Dis, 2017",
+      "Clauw DJ. Fibromyalgia: A Clinical Review. JAMA, 2014",
+      "Arnold LM et al. AAPT Diagnostic Criteria for Fibromyalgia. J Pain, 2019",
+      "Häuser W et al. Fibromyalgia. Nat Rev Dis Primers, 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Fibromyalgia",
+      "Rheumatoid arthritis (early)",
+      "Systemic lupus erythematosus",
+      "Hypothyroidism",
+      "Polymyalgia rheumatica",
+      "Vitamin D deficiency",
+      "Inflammatory myopathy (polymyositis)",
+      "Chronic fatigue syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Fibromyalgia — widespread pain in all body regions, unrefreshing sleep, cognitive dysfunction, tender points without joint swelling, classic comorbidities (IBS, TMJ, tension headaches, anxiety), post-traumatic onset",
+      "Chronic fatigue syndrome — overlapping fatigue and cognitive symptoms, but widespread pain and tender points are more dominant"
+    ],
+    "after_stage2_less_likely": [
+      "Rheumatoid arthritis — NO joint swelling, warmth, or morning stiffness >1 hour; pain is in muscles/soft tissues rather than joints",
+      "SLE — no rash, no photosensitivity, no oral ulcers, no Raynaud, no serositis",
+      "Polymyalgia rheumatica — age <50 (PMR typically >50), no morning girdle stiffness pattern, symptoms are diffuse rather than proximal girdle"
+    ],
+    "after_labs_top3": [
+      "Fibromyalgia — meets 2016 ACR criteria (WPI 14, SSS 10), normal ESR/CRP, negative ANA/RF/anti-CCP/CPK, extensive negative workup with characteristic comorbidity pattern",
+      "Fibromyalgia with borderline vitamin D deficiency — vitamin D of 24 may contribute to pain; supplementation is recommended",
+      "ME/CFS (overlapping) — fatigue and cognitive symptoms overlap significantly, but widespread pain and tender points are the dominant features favoring fibromyalgia"
+    ]
+  }
+}

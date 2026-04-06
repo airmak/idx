@@ -1,0 +1,79 @@
+{
+  "case_id": "case_075",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Cardiac Tamponade",
+  "icd_category": "I31.4 — Cardiac tamponade",
+  "one_liner": "A 55-year-old female with metastatic breast cancer presents with progressive dyspnea, hypotension, and muffled heart sounds.",
+  "stage2": {
+    "hpi_extension": "The patient presents with 1 week of worsening dyspnea that is now present at rest. She feels lightheaded when sitting up and had a near-syncopal episode today. She notes a vague chest pressure and has difficulty lying flat. She was diagnosed with metastatic breast cancer 6 months ago with bone and lung metastases and recently completed her third cycle of chemotherapy. She denies fever, cough, or hemoptysis.",
+    "pmh": "Metastatic breast cancer (ER+/PR+/HER2-), hypertension, depression",
+    "surgical_history": "Left mastectomy with sentinel lymph node biopsy (8 months ago), port-a-cath placement",
+    "medications": "Letrozole 2.5 mg daily, palbociclib 125 mg daily (3 weeks on/1 week off), lisinopril 10 mg daily, sertraline 50 mg daily",
+    "allergies": "Latex (anaphylaxis)",
+    "family_history": "Mother had breast cancer at age 60. Father had prostate cancer.",
+    "social_history": "Never smoker. No alcohol. Former real estate agent, now on disability. Lives with husband.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "118 bpm, regular",
+      "bp": "88/70 mmHg with pulsus paradoxus of 18 mmHg",
+      "rr": "26 breaths/min",
+      "spo2": "93% on room air",
+      "weight_bmi": "62 kg, BMI 23.8"
+    },
+    "physical_exam": "General: Anxious female in respiratory distress, sitting upright. HEENT: JVP markedly elevated (>15 cm H2O), does not decrease with inspiration (Kussmaul sign). Cardiovascular: Tachycardic, distant/muffled heart sounds, no murmurs or rubs. Pulmonary: Clear to auscultation bilaterally (no crackles). Abdomen: Mildly distended, hepatomegaly. Extremities: Cool, mottled, no significant edema. Skin: Diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated, no acute MI"},
+      {"test_name": "BNP", "result": "95 pg/mL", "flag": "WNL", "clinical_significance": "Relatively low for degree of dyspnea — BNP is often NOT markedly elevated in tamponade because ventricles are compressed, not stretched"},
+      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mild elevation suggesting decreased renal perfusion from low cardiac output"},
+      {"test_name": "Lactate", "result": "3.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, indicating tissue hypoperfusion from obstructive shock"},
+      {"test_name": "Hemoglobin", "result": "10.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely from chemotherapy and chronic disease"},
+      {"test_name": "WBC", "result": "3,800/µL", "flag": "LOW", "clinical_significance": "Leukopenia from palbociclib (CDK4/6 inhibitor)"},
+      {"test_name": "Platelet count", "result": "145,000/µL", "flag": "WNL", "clinical_significance": "Low-normal, may reflect bone marrow suppression"},
+      {"test_name": "Sodium", "result": "136 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Potassium", "result": "4.6 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation, relevant for pericardiocentesis planning"},
+      {"test_name": "AST", "result": "48 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely congestive hepatopathy from tamponade"},
+      {"test_name": "Albumin", "result": "3.0 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic illness and malnutrition"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transthoracic Echocardiogram", "result": "Large circumferential pericardial effusion (>2 cm posteriorly). Right atrial collapse during systole (>1/3 of cardiac cycle). Early diastolic RV collapse. Exaggerated respiratory variation in mitral inflow velocities (>25%). Dilated IVC without respiratory collapse. Swinging heart motion.", "flag": "ABNORMAL", "clinical_significance": "Large pericardial effusion with echocardiographic signs of tamponade physiology — emergent drainage indicated"},
+      {"test_name": "12-lead ECG", "result": "Sinus tachycardia at 118 bpm, low voltage QRS in all leads, electrical alternans (alternating QRS amplitude)", "flag": "ABNORMAL", "clinical_significance": "Low voltage and electrical alternans are classic ECG findings of large pericardial effusion/tamponade"},
+      {"test_name": "Chest X-ray", "result": "Enlarged cardiac silhouette with a 'water-bottle' configuration, clear lung fields", "flag": "ABNORMAL", "clinical_significance": "Water-bottle heart from large effusion; clear lungs help distinguish from CHF"}
+    ],
+    "key_tests": ["Transthoracic echocardiogram (STAT)", "12-lead ECG", "Basic metabolic panel", "Troponin", "CBC"],
+    "acceptable_tests": ["Chest X-ray", "Lactate", "BNP", "INR/PTT", "Blood cultures", "Pericardial fluid cytology (after drainage)", "CT chest"],
+    "low_yield_tests": ["Stress test", "Cardiac catheterization (delays definitive treatment)", "Pulmonary function tests", "Cardiac MRI (unstable patient)"],
+    "key_tests_rationale": "Echo is the gold standard for diagnosing tamponade and guiding pericardiocentesis. ECG may show low voltage and electrical alternans. BMP assesses renal function. Troponin rules out MI. CBC evaluates for infection and chemotherapy effects."
+  },
+  "stage5": {
+    "final_clue": "Echocardiography reveals a large pericardial effusion with RA and RV diastolic collapse, exaggerated respiratory variation in mitral inflow, and a non-collapsing IVC. Combined with Beck's triad (hypotension, muffled heart sounds, JVD) and pulsus paradoxus of 18 mmHg, this confirms cardiac tamponade."
+  },
+  "debrief": {
+    "classic_presentation": "Cardiac tamponade presents with Beck's triad: hypotension, muffled heart sounds, and elevated JVP. Pulsus paradoxus >10 mmHg is a key finding. Patients are tachycardic and dyspneic with clear lungs (unlike CHF). Common causes include malignancy, uremia, infection, post-MI (Dressler), and idiopathic/viral pericarditis.",
+    "attending_mode_notes": "Tamponade is a clinical diagnosis — do not delay treatment for imaging if the patient is hemodynamically unstable. BNP is characteristically NOT elevated in tamponade (ventricles are compressed, not dilated). In cancer patients, always send pericardial fluid for cytology. Electrical alternans has high specificity but low sensitivity for tamponade.",
+    "pathophysiology": "Pericardial fluid accumulation raises intrapericardial pressure, compressing cardiac chambers. When intrapericardial pressure exceeds right-sided filling pressures, diastolic filling is impaired, reducing stroke volume and cardiac output. The key determinant is the RATE of fluid accumulation: slow accumulation allows pericardial stretch, while rapid accumulation (even small volumes) can cause tamponade. Pulsus paradoxus occurs because inspiration increases RV filling at the expense of LV filling due to ventricular interdependence in the fixed pericardial space.",
+    "treatment_overview": "Emergent pericardiocentesis (echo-guided, subxiphoid approach) is the definitive treatment. IV fluid bolus as a temporizing measure to increase filling pressures. Avoid diuretics, vasodilators, and positive-pressure ventilation (all worsen hemodynamics). For malignant effusions: consider pericardial window or catheter drainage with sclerotherapy to prevent recurrence. Address underlying cause.",
+    "high_yield_pearls": [
+      "Beck's triad (hypotension, JVD, muffled heart sounds) is present in only ~30% of tamponade cases — don't rely on all three being present.",
+      "Pulsus paradoxus >10 mmHg is a hallmark finding but can be absent in severe aortic regurgitation, atrial septal defect, or positive-pressure ventilation.",
+      "BNP is paradoxically low or normal in tamponade because the ventricles are compressed and cannot stretch — this distinguishes tamponade from CHF.",
+      "Electrical alternans (alternating QRS amplitude) on ECG is highly specific for large pericardial effusion with a swinging heart.",
+      "Tamponade can occur with as little as 150-200 mL if fluid accumulates rapidly (e.g., trauma, post-procedural), but can tolerate >1 L if accumulation is slow (e.g., malignancy, uremia)."
+    ],
+    "sources": [
+      "2015 ESC Guidelines for Pericardial Diseases",
+      "Spodick DH, Acute Cardiac Tamponade, NEJM 2003",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Adler et al., 2015 ESC Guidelines — Pericardial Diseases, European Heart Journal"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Tension pneumothorax", "Massive pulmonary embolism", "Decompensated heart failure", "Constrictive pericarditis", "Superior vena cava syndrome", "Cardiogenic shock (other)"],
+    "after_stage2_more_likely": ["Cardiac tamponade", "Malignant pericardial effusion", "Pericarditis with effusion"],
+    "after_stage2_less_likely": ["Tension pneumothorax", "Decompensated CHF", "Pulmonary embolism"],
+    "after_labs_top3": ["Cardiac tamponade (malignant)", "Obstructive shock from pericardial effusion", "Malignant pericardial disease"]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "case_142",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Cellulitis",
+  "icd_category": "L03.115 — Cellulitis of right lower limb",
+  "one_liner": "A 48-year-old male with obesity and tinea pedis presents with a rapidly expanding area of warmth, redness, and swelling on his right lower leg with fever.",
+  "stage2": {
+    "hpi_extension": "The patient noticed a small abrasion on his right shin 4 days ago after bumping it on a coffee table. Over the past 2 days, he developed progressive redness, warmth, and swelling of the right lower leg, now extending from the ankle to below the knee. He reports worsening pain (7/10), chills, and a fever of 38.9°C at home. He has chronic bilateral tinea pedis with cracking between his toes. He denies purulent drainage, crepitus, numbness, or recent animal bites. No history of MRSA or recurrent skin infections.",
+    "pmh": "Obesity, type 2 diabetes mellitus (HbA1c 8.1%), chronic tinea pedis, chronic venous insufficiency.",
+    "surgical_history": "Right knee arthroscopy (10 years ago).",
+    "medications": "Metformin 1000 mg twice daily, atorvastatin 20 mg daily.",
+    "allergies": "Penicillin (hives as a child).",
+    "family_history": "Non-contributory.",
+    "social_history": "Warehouse worker. Non-smoker. Occasional beer. No illicit drugs. No recent travel or water exposure.",
+    "vitals": {
+      "temp": "38.6°C (101.5°F)",
+      "hr": "98 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "110 kg, BMI 36.2"
+    },
+    "physical_exam": "Obese male in mild distress from leg pain. Right lower leg: well-demarcated area of erythema, warmth, and edema extending from the ankle to just below the knee. Skin is taut and shiny. Tenderness to palpation throughout the affected area. No fluctuance, crepitus, or palpable abscess. A small healing abrasion noted on the anterior shin (likely portal of entry). Bilateral interdigital maceration and scaling consistent with tinea pedis. No bullae, hemorrhagic changes, or dusky discoloration. No inguinal lymphadenopathy. Posterior tibial and dorsalis pedis pulses palpable."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "14,800/μL with 82% neutrophils, 2% bands", "flag": "HIGH", "clinical_significance": "Leukocytosis with neutrophilia and left shift consistent with bacterial infection"},
+      {"test_name": "CRP", "result": "86 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting acute bacterial infection"},
+      {"test_name": "Blood Cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Negative blood cultures are expected in uncomplicated cellulitis (positive in <5% of cases)"},
+      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "HbA1c", "result": "8.1%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control increases infection risk and may slow healing"},
+      {"test_name": "Procalcitonin", "result": "0.4 ng/mL", "flag": "WNL", "clinical_significance": "Low procalcitonin argues against bacteremia or deep-seated infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "Ultrasound of Right Lower Leg", "result": "Diffuse subcutaneous edema and thickening consistent with cellulitis. No drainable abscess identified. No cobblestoning pattern. No gas in soft tissues.", "flag": "ABNORMAL", "clinical_significance": "Confirms cellulitis without abscess; excludes necrotizing fasciitis (no gas)"},
+      {"test_name": "Venous Duplex Ultrasound (Right Leg)", "result": "No evidence of deep vein thrombosis. Chronic venous insufficiency changes noted.", "flag": "WNL", "clinical_significance": "Excludes DVT, which can mimic cellulitis with unilateral leg erythema and swelling"}
+    ],
+    "key_tests": [
+      "Clinical diagnosis based on history and physical examination",
+      "Complete blood count with differential",
+      "Blood cultures (if systemic toxicity, immunocompromised, or special circumstances)"
+    ],
+    "acceptable_tests": [
+      "CRP or ESR",
+      "Basic metabolic panel",
+      "Soft tissue ultrasound (exclude abscess)",
+      "Venous duplex ultrasound (exclude DVT if clinical concern)",
+      "HbA1c (if diabetic)",
+      "Wound culture (only if purulent drainage present)"
+    ],
+    "low_yield_tests": [
+      "MRI of the leg (reserved for suspected osteomyelitis or necrotizing fasciitis)",
+      "CT with contrast",
+      "Skin biopsy",
+      "ANA panel",
+      "Needle aspiration of cellulitis (low yield, not recommended routinely)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A well-demarcated, expanding area of erythema, warmth, edema, and tenderness on the lower leg with systemic signs (fever, leukocytosis), a clear portal of entry (shin abrasion), predisposing factors (tinea pedis, venous insufficiency, obesity, diabetes), no abscess or crepitus, confirms non-purulent cellulitis."
+  },
+  "debrief": {
+    "classic_presentation": "An adult with a predisposing skin barrier disruption (tinea pedis, venous insufficiency, lymphedema, or trauma) presenting with acute-onset unilateral lower extremity erythema, warmth, edema, and tenderness, with or without systemic symptoms (fever, chills, leukocytosis). No purulent drainage or abscess.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Cellulitis is an acute spreading infection of the dermis and subcutaneous tissue, most commonly caused by beta-hemolytic streptococci (especially Group A Streptococcus) in non-purulent cellulitis. Bacteria enter through breaks in the skin (trauma, tinea pedis, venous ulcers, insect bites). Virulence factors (M protein, hyaluronidase, streptokinase) allow rapid spread through tissue planes. The inflammatory response (neutrophilic infiltration, vasodilation, increased capillary permeability) produces the cardinal signs: rubor, calor, tumor, and dolor. Predisposing conditions that disrupt lymphatic drainage (lymphedema, prior cellulitis, saphenous vein harvest) or skin integrity (tinea pedis, eczema) increase risk significantly.",
+    "treatment_overview": "Non-purulent cellulitis: empiric beta-hemolytic streptococcal coverage. Mild: oral cephalexin 500 mg QID or dicloxacillin 500 mg QID. For penicillin allergy: clindamycin 300-450 mg TID or TMP-SMX (less effective for streptococci; combine with a beta-lactam alternative). Moderate/severe (systemic toxicity): IV cefazolin 1g Q8h or IV clindamycin 600-900 mg Q8h. Elevate the affected limb. Treat the portal of entry (antifungal for tinea pedis). Mark the border of erythema to track progression. Duration: 5-7 days minimum; extend if slow improvement. Optimize diabetes management.",
+    "high_yield_pearls": [
+      "Non-purulent cellulitis is most commonly caused by beta-hemolytic streptococci (Group A); purulent cellulitis/abscess is more likely S. aureus (including MRSA).",
+      "Blood cultures are positive in <5% of uncomplicated cellulitis and are NOT routinely recommended; consider only in immunocompromised, systemic toxicity, or unusual presentations.",
+      "Tinea pedis (athlete's foot) is the most common portal of entry for lower extremity cellulitis; treating tinea reduces recurrence.",
+      "The most common cellulitis mimic is venous stasis dermatitis — it is typically bilateral, chronic, non-tender, and without systemic signs.",
+      "Red flags for necrotizing fasciitis: pain out of proportion to exam, rapid spread, crepitus, dusky/bullous skin changes, hemodynamic instability, failure to improve on antibiotics."
+    ],
+    "sources": [
+      "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (2014)",
+      "Stevens DL et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections. Clin Infect Dis. 2014;59(2):e10-e52.",
+      "UpToDate: Cellulitis and skin abscess in adults (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cellulitis",
+      "Deep vein thrombosis",
+      "Venous stasis dermatitis",
+      "Necrotizing fasciitis",
+      "Erysipelas",
+      "Skin abscess"
+    ],
+    "after_stage2_more_likely": [
+      "Cellulitis — unilateral lower extremity erythema, warmth, edema with fever; portal of entry identified; predisposing factors (tinea pedis, diabetes, venous insufficiency)",
+      "Erysipelas — similar presentation but classically more sharply demarcated and raised borders; involves more superficial dermis"
+    ],
+    "after_stage2_less_likely": [
+      "DVT — tenderness and swelling present, but the prominent erythema, warmth, and fever are more consistent with cellulitis",
+      "Necrotizing fasciitis — no pain out of proportion, no crepitus, no dusky or bullous changes"
+    ],
+    "after_labs_top3": [
+      "Cellulitis — leukocytosis, elevated CRP, no abscess on ultrasound, no DVT, classic clinical presentation",
+      "DVT — excluded by negative venous duplex ultrasound",
+      "Necrotizing fasciitis — no gas on ultrasound, hemodynamically stable, no rapidly progressive or disproportionate findings"
+    ]
+  }
+}

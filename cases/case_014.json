@@ -1,0 +1,69 @@
+{
+  "case_id": "case_014",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Acute gout",
+  "icd_category": "M10.9 — Gout, unspecified",
+  "one_liner": "A 55-year-old male with obesity and chronic kidney disease presents with sudden onset of severe pain, swelling, and redness of the right first metatarsophalangeal joint for 1 day.",
+  "stage2": {
+    "hpi_extension": "The patient woke up at 3 AM with excruciating pain in his right big toe that came on suddenly. The pain is described as 10/10 in severity — even the weight of the bedsheet is unbearable. The joint is visibly red, swollen, and warm. He has never experienced this type of pain before. He reports attending a barbecue yesterday where he ate large amounts of steak and shellfish and drank several beers. He started hydrochlorothiazide two weeks ago for his blood pressure. He denies any recent trauma, fever, chills, or involvement of other joints. He denies any history of kidney stones.",
+    "pmh": "Obesity, hypertension (recently diagnosed), chronic kidney disease stage 2 (baseline Cr 1.3), hyperlipidemia",
+    "surgical_history": "Appendectomy at age 18",
+    "medications": "Hydrochlorothiazide 25 mg daily (started 2 weeks ago), lisinopril 10 mg daily, atorvastatin 20 mg daily",
+    "allergies": "NKDA",
+    "family_history": "Father had gout. Mother with hypertension and type 2 diabetes.",
+    "social_history": "Drinks 3-4 beers most evenings, more on weekends. Non-smoker. Works as a sales manager. Lives with wife and two children. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "37.6°C (99.7°F)",
+      "hr": "88 bpm, regular",
+      "bp": "152/94 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 33 kg/m²"
+    },
+    "physical_exam": "General: Obese male in obvious discomfort, guarding his right foot. HEENT: No tophi on ears. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Obese, soft, non-tender. MSK: Right first MTP joint is exquisitely tender to palpation, erythematous, swollen, and warm. Active and passive range of motion severely limited by pain. No other joints involved. No tophi on hands or elbows. Skin: Overlying skin of the right great toe is shiny and erythematous with mild desquamation."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum uric acid", "result": "9.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated uric acid supports gout diagnosis, though levels can be normal during an acute flare"},
+      {"test_name": "Synovial fluid analysis — crystal exam", "result": "Negatively birefringent, needle-shaped crystals under polarized light microscopy", "flag": "ABNORMAL", "clinical_significance": "Monosodium urate crystals are the gold standard for definitive diagnosis of gout"},
+      {"test_name": "Synovial fluid WBC", "result": "48,000/μL with 90% neutrophils", "flag": "HIGH", "clinical_significance": "Inflammatory synovial fluid; high WBC count but below the typical threshold (>50,000) that strongly suggests septic arthritis"},
+      {"test_name": "Synovial fluid Gram stain and culture", "result": "No organisms seen on Gram stain. Culture pending (eventually negative).", "flag": "WNL", "clinical_significance": "Rules out septic arthritis, which must always be considered in an acute monoarthritis"},
+      {"test_name": "WBC", "result": "11,800/μL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis can occur during acute gout flare from systemic inflammation"},
+      {"test_name": "ESR", "result": "52 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with acute gouty arthritis"},
+      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting acute inflammatory process"},
+      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; CKD impairs uric acid excretion and is a risk factor for gout"},
+      {"test_name": "BUN", "result": "22 mg/dL", "flag": "WNL", "clinical_significance": "Mildly elevated but within range; consistent with known CKD"},
+      {"test_name": "eGFR", "result": "58 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "Reduced renal function contributes to hyperuricemia; also impacts treatment choices (avoid high-dose NSAIDs)"}
+    ],
+    "imaging_results": [
+      {"test_name": "X-ray of right foot", "result": "Soft tissue swelling around the first MTP joint. No erosions, no chondrocalcinosis, no fractures. Joint space is preserved.", "flag": "ABNORMAL", "clinical_significance": "Early gout typically shows only soft tissue swelling on plain films; erosions and tophi appear in chronic tophaceous gout"},
+      {"test_name": "Dual-energy CT of right foot", "result": "Monosodium urate crystal deposits identified at the first MTP joint, confirming gout.", "flag": "ABNORMAL", "clinical_significance": "DECT can non-invasively identify urate deposits; useful when arthrocentesis is difficult or inconclusive"}
+    ],
+    "key_tests": ["Arthrocentesis with synovial fluid crystal analysis", "Synovial fluid Gram stain and culture", "Serum uric acid", "Basic metabolic panel (creatinine/eGFR)", "CBC"],
+    "acceptable_tests": ["ESR and CRP", "X-ray of affected joint", "Dual-energy CT", "Liver function tests", "Lipid panel", "HbA1c", "Urinalysis"],
+    "low_yield_tests": ["MRI of the foot (unnecessary for classic presentation)", "ANA (not an autoimmune presentation)", "Rheumatoid factor", "Blood cultures (no systemic signs of sepsis)", "Lyme antibodies"]
+  },
+  "stage5": {
+    "final_clue": "The synovial fluid analysis returns showing strongly negatively birefringent, needle-shaped crystals with intracellular phagocytosis by neutrophils — pathognomonic for monosodium urate gout. Gram stain is negative and cultures are no growth to date."
+  },
+  "debrief": {
+    "classic_presentation": "Acute gout classically presents as a sudden onset of excruciating monoarticular pain, most commonly affecting the first MTP joint (podagra). The attack often begins at night and reaches peak intensity within 12-24 hours. The joint is red, swollen, warm, and exquisitely tender. Common triggers include alcohol (especially beer), purine-rich foods, dehydration, and medications that alter uric acid levels (thiazide diuretics, loop diuretics). Risk factors include male sex, obesity, CKD, and family history.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Gout results from deposition of monosodium urate (MSU) crystals in joints and soft tissues when serum uric acid exceeds its saturation point (~6.8 mg/dL). Hyperuricemia can result from overproduction or, more commonly, underexcretion of uric acid (as in CKD or thiazide use). During an acute flare, MSU crystals activate the NLRP3 inflammasome in tissue macrophages, triggering IL-1β release and an intense neutrophilic inflammatory response. Triggers can include rapid changes in uric acid levels (either up or down), which destabilize existing crystal deposits.",
+    "treatment_overview": "Acute flare management: NSAIDs (indomethacin, naproxen) are first-line if no contraindications; colchicine is effective especially if started within 36 hours of onset (1.2 mg then 0.6 mg one hour later); systemic corticosteroids (prednisone 30-40 mg/day tapering over 7-10 days) for patients who cannot take NSAIDs or colchicine. Intra-articular corticosteroid injection is also an option. Urate-lowering therapy (allopurinol or febuxostat) should NOT be initiated during an acute flare but should be considered for recurrent gout, tophi, or urate nephrolithiasis. Lifestyle modifications include limiting alcohol, purine-rich foods, and fructose-sweetened beverages. The hydrochlorothiazide should ideally be switched to an alternative antihypertensive (losartan has uricosuric properties).",
+    "high_yield_pearls": [
+      "Arthrocentesis with polarized microscopy showing negatively birefringent needle-shaped crystals is the gold standard for diagnosis",
+      "Serum uric acid can be NORMAL during an acute flare — a normal level does not rule out gout",
+      "Septic arthritis must always be excluded in acute monoarthritis — gout and septic arthritis can coexist",
+      "Thiazide diuretics are a common iatrogenic cause of hyperuricemia and should be switched when possible in gout patients"
+    ],
+    "sources": ["UpToDate: Clinical manifestations and diagnosis of gout", "ACR/Rheumatology Guidelines for Management of Gout 2020"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute gout", "Septic arthritis", "Pseudogout (CPPD)", "Cellulitis", "Trauma/fracture", "Reactive arthritis", "Rheumatoid arthritis flare"],
+    "after_stage2_more_likely": ["Acute gout (classic podagra, dietary/alcohol trigger, new thiazide, family history, CKD, obesity)"],
+    "after_stage2_less_likely": ["Septic arthritis (no fever, no systemic toxicity, identifiable triggers)", "Trauma/fracture (no history of injury)"],
+    "after_labs_top3": ["Acute gout", "Septic arthritis", "Pseudogout"]
+  }
+}

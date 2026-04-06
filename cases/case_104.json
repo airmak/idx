@@ -1,0 +1,72 @@
+{
+  "case_id": "case_104",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Migraine with aura",
+  "icd_category": "G43.109 — Migraine with aura, not intractable, without status migrainosus",
+  "one_liner": "A 28-year-old woman presents with a severe unilateral throbbing headache preceded by 20 minutes of visual zigzag lines and tingling in her left hand.",
+  "stage2": {
+    "hpi_extension": "The patient describes a 6-year history of recurrent headaches occurring 2-3 times per month. Today's episode began with scintillating scotoma (zigzag, shimmering lines) in her right visual field lasting approximately 20 minutes, followed by tingling in her left hand that spread to her forearm over 5 minutes. The visual and sensory symptoms resolved completely, followed within 30 minutes by a severe, pulsating, right-sided headache associated with nausea, photophobia, and phonophobia. The headache has been present for 6 hours and is rated 8/10. She reports that bright lights, her menstrual period, and stress trigger episodes. She took sumatriptan 2 hours ago with partial relief.",
+    "pmh": "Migraine headaches (since age 22), irritable bowel syndrome.",
+    "surgical_history": "None.",
+    "medications": "Sumatriptan 50 mg PRN (takes 2-3 times/month), combined oral contraceptive pills.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother and maternal grandmother have migraines with aura.",
+    "social_history": "Graduate student. Non-smoker. Drinks 2 coffees daily. Social alcohol (2-3 drinks/week). Regular sleep schedule. No drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "72 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "62 kg, BMI 22.8"
+    },
+    "physical_exam": "General: Young woman in moderate discomfort, eyes closed, hand over forehead, light-averse. HEENT: No tenderness over temporal arteries. No papilledema on fundoscopy. No neck stiffness. Cranial nerves: Intact CN II-XII. No visual field deficits currently. Neuro: Alert and oriented x4. Normal strength, sensation, and coordination in all extremities. Deep tendon reflexes 2+ and symmetric. Gait normal. No focal neurological deficits. Kernig and Brudzinski signs negative."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,400/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Glucose", "result": "92 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded as headache trigger"},
+      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal; excludes temporal arteritis (GCA) as cause of headache"},
+      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammation"},
+      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "LOW", "clinical_significance": "Low-normal; magnesium deficiency can lower migraine threshold and supplementation is recommended for prevention"},
+      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or midline shift. Normal ventricles.", "flag": "WNL", "clinical_significance": "Normal CT; rules out acute hemorrhage, mass lesion, or hydrocephalus as cause of headache"}
+    ],
+    "key_tests": ["Clinical diagnosis based on ICHD-3 criteria", "Neurological examination", "CT head or MRI brain (to rule out secondary causes if atypical features)"],
+    "acceptable_tests": ["CBC", "BMP", "ESR/CRP (if GCA suspected)", "TSH", "Magnesium level", "MRI brain with and without contrast", "MRA (if vascular cause suspected)"],
+    "low_yield_tests": ["Lumbar puncture (unless meningitis or SAH suspected)", "EEG", "Carotid ultrasound", "CT angiography", "Blood cultures"]
+  },
+  "stage5": {
+    "final_clue": "The patient's headache resolves with a second dose of sumatriptan and IV ketorolac in the ED. Her symptoms meet ICHD-3 criteria for migraine with typical aura: at least 2 episodes of fully reversible visual and sensory symptoms, gradual spread over >5 minutes, each lasting 5-60 minutes, followed by headache within 60 minutes. Given her use of combined OCPs with migraine with aura, she is counseled about her elevated stroke risk and referred for contraceptive change."
+  },
+  "debrief": {
+    "classic_presentation": "Young woman with recurrent unilateral throbbing headaches preceded by fully reversible visual (scintillating scotoma) and sensory (tingling spreading gradually) aura lasting 5-60 minutes, followed by headache with nausea, photophobia, and phonophobia.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Migraine aura is caused by cortical spreading depression (CSD) — a wave of neuronal and glial depolarization that propagates across the cortex at 3-5 mm/min, followed by suppression of cortical activity. This wave accounts for the gradual spread of aura symptoms (visual aura from occipital cortex, sensory aura from somatosensory cortex). The subsequent headache phase involves activation of the trigeminovascular system: trigeminal nerve endings in the meninges release CGRP (calcitonin gene-related peptide), causing meningeal vasodilation, neurogenic inflammation, and sensitization of central pain pathways.",
+    "treatment_overview": "Acute: Triptans (sumatriptan, rizatriptan) are first-line for moderate-severe migraine — most effective when taken early. NSAIDs (ibuprofen, naproxen, ketorolac) for mild-moderate attacks. Anti-emetics (metoclopramide, ondansetron). Gepants (ubrogepant, rimegepant) and ditans (lasmiditan) for triptan-refractory patients. Preventive (if >=4 headache days/month): CGRP monoclonal antibodies (erenumab, fremanezumab, galcanezumab), topiramate, propranolol, amitriptyline, valproate. Magnesium supplementation. Lifestyle: regular sleep, stress management, trigger avoidance.",
+    "high_yield_pearls": [
+      "Migraine with aura + combined estrogen-progestin contraceptives is CONTRAINDICATED due to 2-4x increased risk of ischemic stroke — switch to progestin-only methods.",
+      "Aura symptoms must develop gradually over >5 minutes and last 5-60 minutes — sudden onset should prompt evaluation for stroke or TIA.",
+      "CGRP (calcitonin gene-related peptide) is the key mediator in migraine pathophysiology — CGRP monoclonal antibodies have revolutionized preventive treatment.",
+      "Medication overuse headache (rebound) occurs when acute migraine medications are used >10-15 days/month — a common cause of chronic daily headache.",
+      "Red flags for secondary headache (SNOOP): Systemic symptoms, Neurological signs, Onset sudden (thunderclap), Older age (>50), Pattern change."
+    ],
+    "sources": [
+      "ICHD-3 (International Classification of Headache Disorders, 3rd edition). Cephalalgia. 2018",
+      "AAN/AHS Practice Guideline: Acute Treatment of Migraine in Adults, 2021",
+      "UpToDate: Pathophysiology, clinical manifestations, and diagnosis of migraine in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Migraine with aura", "Transient ischemic attack", "Tension-type headache", "Cluster headache", "Seizure with postictal headache", "Subarachnoid hemorrhage", "Intracranial mass"],
+    "after_stage2_more_likely": ["Migraine with aura", "Tension-type headache"],
+    "after_stage2_less_likely": ["Subarachnoid hemorrhage", "Intracranial mass", "Transient ischemic attack"],
+    "after_labs_top3": ["Migraine with aura", "Tension-type headache", "Transient ischemic attack"]
+  }
+}

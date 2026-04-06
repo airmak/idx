@@ -1,0 +1,111 @@
+{
+  "case_id": "case_130",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Renal Artery Stenosis",
+  "icd_category": "I70.1 — Atherosclerosis of renal artery",
+  "one_liner": "A 68-year-old male with resistant hypertension and peripheral vascular disease presents with flash pulmonary edema and worsening renal function after starting an ACE inhibitor.",
+  "stage2": {
+    "hpi_extension": "The patient has had increasingly difficult-to-control hypertension over the past year despite being on four antihypertensive medications at maximal doses. Two weeks ago, his PCP added lisinopril 10 mg to his regimen. Three days later, he developed acute shortness of breath requiring an ED visit where he was found to be in flash pulmonary edema. After diuresis, repeat labs showed a significant rise in creatinine. He has a history of claudication in his left leg. He denies illicit drug use, new dietary supplements, or NSAID use.",
+    "pmh": "Resistant hypertension, peripheral artery disease (left lower extremity claudication), hyperlipidemia, type 2 diabetes, prior MI (8 years ago), 50 pack-year smoking history.",
+    "surgical_history": "Left femoral-popliteal bypass (3 years ago), percutaneous coronary intervention with stent placement (8 years ago).",
+    "medications": "Amlodipine 10 mg daily, hydrochlorothiazide 25 mg daily, metoprolol succinate 200 mg daily, lisinopril 10 mg daily (recently added), atorvastatin 80 mg daily, aspirin 81 mg daily, metformin 1000 mg twice daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had coronary artery disease and stroke. Mother had hypertension.",
+    "social_history": "Retired truck driver. Smoked 1.5 packs/day for 35 years, quit 5 years ago. No alcohol. Lives with wife.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "72 bpm",
+      "bp": "188/102 mmHg (right arm), 192/105 mmHg (left arm)",
+      "rr": "18 breaths/min",
+      "spo2": "94% on 2L nasal cannula",
+      "weight_bmi": "90 kg, BMI 29.4"
+    },
+    "physical_exam": "Elderly male, breathing comfortably at rest on supplemental oxygen. JVP elevated at 12 cm H2O. Heart: regular rate and rhythm, S4 gallop, grade 2/6 systolic murmur at aortic area. Lungs: bibasilar crackles, no wheezes. Abdomen: soft, non-tender; systolic bruit auscultated in the right periumbilical area. Extremities: left leg with well-healed surgical scar, diminished dorsalis pedis pulse on left; 2+ bilateral lower extremity edema. Fundoscopic: grade II hypertensive retinopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "2.8 mg/dL (was 1.4 mg/dL prior to starting lisinopril)", "flag": "HIGH", "clinical_significance": "Doubling of creatinine after ACE inhibitor initiation is classic for bilateral renal artery stenosis or stenosis of a solitary kidney"},
+      {"test_name": "BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with worsened renal function"},
+      {"test_name": "Serum Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from ACE inhibitor in setting of acutely impaired renal function"},
+      {"test_name": "Serum Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Plasma Renin Activity", "result": "12.5 ng/mL/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated renin consistent with renovascular hypertension from renal hypoperfusion"},
+      {"test_name": "Plasma Aldosterone", "result": "28 ng/dL", "flag": "HIGH", "clinical_significance": "Elevated secondary to high renin; activation of RAAS from renal ischemia"},
+      {"test_name": "Urinalysis", "result": "Trace protein, no casts, no RBCs", "flag": "WNL", "clinical_significance": "Bland sediment; no evidence of glomerulonephritis"},
+      {"test_name": "CBC", "result": "Hgb 12.8 g/dL, WBC 8,200/μL, Plt 245,000/μL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "HbA1c", "result": "7.2%", "flag": "HIGH", "clinical_significance": "Adequate glycemic control; diabetes is a risk factor for atherosclerotic RAS"},
+      {"test_name": "Lipid Panel — LDL", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "At goal on statin therapy"},
+      {"test_name": "BNP", "result": "680 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with volume overload and flash pulmonary edema"}
+    ],
+    "imaging_results": [
+      {"test_name": "Duplex Renal Ultrasound with Doppler", "result": "Right kidney 9.2 cm, left kidney 11.4 cm. Peak systolic velocity in right renal artery is 380 cm/s (normal <200). Renal-aortic ratio (RAR) 4.2 (>3.5 indicates >60% stenosis). Left renal artery PSV 165 cm/s. Resistive indices elevated bilaterally.", "flag": "ABNORMAL", "clinical_significance": "Hemodynamically significant right renal artery stenosis >60%; size discrepancy (>1.5 cm) between kidneys supports unilateral chronic ischemia"},
+      {"test_name": "CT Angiography of Renal Arteries", "result": "85% atherosclerotic stenosis of the right renal artery at the ostium with post-stenotic dilatation. Left renal artery with 30% stenosis. Diffuse aortic atherosclerosis.", "flag": "ABNORMAL", "clinical_significance": "Confirms severe right-sided atherosclerotic renal artery stenosis; ostial location is classic for atherosclerotic disease"},
+      {"test_name": "Chest X-ray", "result": "Cardiomegaly, bilateral pulmonary vascular congestion with bilateral pleural effusions, consistent with resolving pulmonary edema.", "flag": "ABNORMAL", "clinical_significance": "Flash pulmonary edema is a recognized presentation of bilateral RAS or severe unilateral RAS"}
+    ],
+    "key_tests": [
+      "Duplex renal ultrasound with Doppler",
+      "CT angiography or MR angiography of renal arteries",
+      "Basic metabolic panel (especially creatinine before/after ACEi)",
+      "BNP or NT-proBNP"
+    ],
+    "acceptable_tests": [
+      "Plasma renin and aldosterone levels",
+      "Chest X-ray",
+      "Echocardiogram",
+      "Urinalysis",
+      "Lipid panel",
+      "Captopril renal scan (nuclear medicine)"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy",
+      "ANA/ANCA panel",
+      "Urine eosinophils",
+      "24-hour urine catecholamines (no symptoms of pheochromocytoma)",
+      "Adrenal CT (no features of primary aldosteronism)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Resistant hypertension, flash pulmonary edema, and creatinine doubling after ACE inhibitor initiation, with an abdominal bruit and asymmetric kidney sizes, and CTA showing 85% atherosclerotic right renal artery stenosis confirm hemodynamically significant renal artery stenosis."
+  },
+  "debrief": {
+    "classic_presentation": "An older patient with extensive atherosclerotic disease (PAD, CAD) presents with resistant hypertension, flash pulmonary edema, and acute kidney injury after starting an ACE inhibitor. Physical exam reveals an abdominal bruit. Imaging shows significant renal artery stenosis with asymmetric kidney sizes.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Atherosclerotic renal artery stenosis reduces perfusion to the affected kidney, activating the renin-angiotensin-aldosterone system (RAAS). Elevated angiotensin II causes systemic vasoconstriction and aldosterone-mediated sodium retention, producing severe hypertension. The ischemic kidney relies on efferent arteriolar constriction (mediated by angiotensin II) to maintain GFR. ACE inhibitors block this compensatory mechanism, causing GFR to drop precipitously — manifesting as acute creatinine rise. Flash pulmonary edema occurs because sodium/water retention (from RAAS activation) combined with impaired natriuresis leads to sudden volume overload that the left ventricle cannot accommodate.",
+    "treatment_overview": "Discontinue ACE inhibitor immediately and monitor renal function recovery. Medical management: calcium channel blockers and diuretics for blood pressure control; optimize statin therapy, antiplatelet agents, and glycemic control. Revascularization (percutaneous transluminal angioplasty with stenting) is considered for: recurrent flash pulmonary edema, progressive renal failure despite medical therapy, or failure to control blood pressure on maximal medical therapy. The CORAL trial (2014) showed no benefit of stenting over medical therapy alone for most patients, so revascularization is reserved for specific clinical scenarios.",
+    "high_yield_pearls": [
+      "The triad of resistant hypertension + flash pulmonary edema + AKI after ACE inhibitor/ARB is a classic presentation of hemodynamically significant renal artery stenosis.",
+      "Atherosclerotic RAS (90% of cases) typically affects the ostium/proximal renal artery in elderly patients with vascular risk factors. Fibromuscular dysplasia (10%) affects the mid-to-distal artery in young women.",
+      "A rise in creatinine >30% after starting an ACE inhibitor/ARB should raise suspicion for bilateral RAS or stenosis of a solitary functioning kidney.",
+      "Kidney size asymmetry >1.5 cm on ultrasound suggests chronic unilateral renal ischemia and is a clue to renal artery stenosis.",
+      "The CORAL trial demonstrated that renal artery stenting did not confer a significant benefit over medical therapy alone for most patients with atherosclerotic RAS, limiting indications for revascularization."
+    ],
+    "sources": [
+      "Cooper CJ et al. Stenting and medical therapy for atherosclerotic renal-artery stenosis (CORAL). NEJM. 2014;370(1):13-22.",
+      "Textor SC. Renal arterial disease. In: Brenner & Rector's The Kidney. 11th ed. 2020.",
+      "UpToDate: Establishing the diagnosis of renal artery stenosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Atherosclerotic renal artery stenosis",
+      "Fibromuscular dysplasia",
+      "Primary aldosteronism",
+      "Pheochromocytoma",
+      "Essential (primary) resistant hypertension",
+      "Acute interstitial nephritis (from ACEi)"
+    ],
+    "after_stage2_more_likely": [
+      "Atherosclerotic RAS — elderly male with diffuse atherosclerosis, resistant HTN, flash pulmonary edema, creatinine rise on ACEi, abdominal bruit",
+      "Primary aldosteronism — resistant hypertension, but no hypokalemia and clinical picture strongly favors RAS"
+    ],
+    "after_stage2_less_likely": [
+      "Fibromuscular dysplasia — typically affects young women; this is an elderly male with atherosclerotic risk factors",
+      "Pheochromocytoma — no paroxysmal symptoms (headache, sweating, palpitations in episodes)"
+    ],
+    "after_labs_top3": [
+      "Atherosclerotic RAS — 85% right renal artery stenosis on CTA, elevated renin, creatinine doubled on ACEi, asymmetric kidneys",
+      "Essential resistant hypertension — cannot fully exclude coexisting essential HTN, but RAS is clearly the primary driver",
+      "Primary aldosteronism — elevated aldosterone is secondary to high renin (secondary hyperaldosteronism), not primary"
+    ]
+  }
+}

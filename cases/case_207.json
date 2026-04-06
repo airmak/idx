@@ -1,0 +1,172 @@
+{
+  "case_id": "case_207",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Polycystic ovary syndrome (PCOS)",
+  "icd_category": "E28.2 – Polycystic ovarian syndrome",
+  "one_liner": "A 22-year-old female presents with irregular periods occurring every 45-90 days, progressive hirsutism, acne, and weight gain; ultrasound reveals bilateral polycystic ovarian morphology.",
+  "stage2": {
+    "hpi_extension": "The patient reports that her menstrual cycles have been irregular since menarche at age 13. Over the past 2 years, her cycles have become increasingly infrequent, occurring every 45-90 days with variable flow. She has noticed progressive coarse dark hair growth on her chin, upper lip, chest, and lower abdomen over the past 3 years. Her acne, primarily on the jawline and chin, has worsened despite topical treatments. She has gained approximately 10 kg over the past 2 years despite no significant dietary changes. She is not currently trying to conceive but is concerned about future fertility. She denies galactorrhea, visual changes, voice deepening, or clitoromegaly. She has no heat/cold intolerance or changes in energy level.",
+    "pmh": "Menarche at age 13 with irregular cycles since. No prior pregnancies. Mild depression managed with lifestyle measures.",
+    "surgical_history": "None",
+    "medications": "Benzoyl peroxide topical gel for acne",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with type 2 diabetes and irregular periods when younger. Maternal aunt with PCOS. Father with hypertension and dyslipidemia.",
+    "social_history": "College senior. Non-smoker. Occasional alcohol. No illicit drugs. Sedentary lifestyle. Not sexually active currently.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "76 bpm",
+      "bp": "128/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "82 kg, BMI 30.5 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing, overweight female in no distress. HEENT: Mild acne along jawline and chin; no frontal balding; no proptosis or thyromegaly. Skin: Acanthosis nigricans on the posterior neck and axillae; hirsutism with coarse terminal hairs on the upper lip, chin, periareolar area, and linea alba (Ferriman-Gallwey score 14); no striae. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation. Abdomen: Soft, obese, non-tender, no palpable masses. Pelvic examination: Normal external genitalia, no clitoromegaly; cervix without lesions; uterus normal size, non-tender; bilateral ovaries slightly enlarged but non-tender. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Total testosterone",
+        "result": "68 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated total testosterone (normal <45 ng/dL in women) is consistent with PCOS-related hyperandrogenism. Markedly elevated levels (>200 ng/dL) would warrant evaluation for androgen-secreting tumor."
+      },
+      {
+        "test_name": "Free testosterone",
+        "result": "8.2 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated free testosterone confirms biochemical hyperandrogenism, one of the Rotterdam criteria for PCOS."
+      },
+      {
+        "test_name": "DHEA-S",
+        "result": "320 µg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal DHEA-S argues against an adrenal source of androgen excess (adrenal tumor or congenital adrenal hyperplasia)."
+      },
+      {
+        "test_name": "17-hydroxyprogesterone",
+        "result": "120 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal 17-OHP (<200 ng/dL in follicular phase) excludes non-classic congenital adrenal hyperplasia (21-hydroxylase deficiency), an important mimicker of PCOS."
+      },
+      {
+        "test_name": "LH",
+        "result": "14.2 mIU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LH with a high LH:FSH ratio (>2:1) is characteristic of PCOS, driven by increased GnRH pulse frequency."
+      },
+      {
+        "test_name": "FSH",
+        "result": "5.8 mIU/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal FSH in the setting of elevated LH creates an LH:FSH ratio of 2.4:1, classic for PCOS."
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function excludes hypothyroidism as a cause of oligomenorrhea and weight gain."
+      },
+      {
+        "test_name": "Prolactin",
+        "result": "12 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal prolactin excludes hyperprolactinemia (prolactinoma) as a cause of menstrual irregularity."
+      },
+      {
+        "test_name": "Fasting glucose and insulin",
+        "result": "Glucose 102 mg/dL, Insulin 28 µIU/mL (HOMA-IR 7.0)",
+        "flag": "HIGH",
+        "clinical_significance": "Fasting glucose is in the impaired range (100-125) and elevated insulin with HOMA-IR >2.5 confirms significant insulin resistance, present in 50-70% of women with PCOS."
+      },
+      {
+        "test_name": "Lipid panel",
+        "result": "Total cholesterol 218 mg/dL, LDL 142 mg/dL, HDL 38 mg/dL, Triglycerides 190 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dyslipidemia (high LDL, low HDL, elevated triglycerides) is common in PCOS and contributes to increased cardiovascular risk."
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.8%",
+        "flag": "HIGH",
+        "clinical_significance": "HbA1c in the prediabetes range (5.7-6.4%) reflects chronic insulin resistance and glucose dysregulation."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Right ovary: 12 mL volume with 14 peripherally arranged follicles (2-9 mm). Left ovary: 10.5 mL volume with 12 peripherally arranged follicles (2-9 mm). Endometrium: 10 mm, homogeneous (non-secretory pattern consistent with anovulation). Uterus normal size. No free fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral polycystic ovarian morphology (≥12 follicles per ovary or ovarian volume >10 mL) meets the Rotterdam ultrasound criterion. The thickened endometrium in an anovulatory patient warrants monitoring for endometrial hyperplasia."
+      }
+    ],
+    "key_tests": [
+      "Total and free testosterone",
+      "17-hydroxyprogesterone (exclude NCCAH)",
+      "TSH and prolactin (exclude other causes of oligomenorrhea)",
+      "Transvaginal ultrasound"
+    ],
+    "acceptable_tests": [
+      "LH and FSH",
+      "DHEA-S",
+      "Fasting glucose and insulin (or 2-hour OGTT)",
+      "HbA1c",
+      "Lipid panel",
+      "Cortisol or dexamethasone suppression test (if Cushing suspected)"
+    ],
+    "low_yield_tests": [
+      "CT or MRI of adrenals (unless DHEA-S markedly elevated or virilization present)",
+      "Pelvic MRI (ultrasound is sufficient)",
+      "Anti-Mullerian hormone (elevated in PCOS but not part of diagnostic criteria)",
+      "Estradiol level (not helpful for diagnosis)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "The patient meets all three Rotterdam criteria: oligo-anovulation (irregular cycles every 45-90 days), clinical and biochemical hyperandrogenism (hirsutism, elevated testosterone), and polycystic ovarian morphology on ultrasound — confirming the diagnosis of PCOS after exclusion of other causes."
+  },
+  "debrief": {
+    "classic_presentation": "PCOS classically presents in adolescent or young adult women with oligomenorrhea or amenorrhea, signs of hyperandrogenism (hirsutism, acne, androgenic alopecia), and often obesity with insulin resistance. The diagnosis requires meeting at least 2 of 3 Rotterdam criteria: (1) oligo/anovulation, (2) clinical and/or biochemical hyperandrogenism, and (3) polycystic ovarian morphology on ultrasound — after excluding other etiologies.",
+    "attending_mode_notes": null,
+    "pathophysiology": "PCOS is driven by a vicious cycle of hormonal dysregulation. Increased GnRH pulse frequency preferentially stimulates LH over FSH, leading to theca cell androgen overproduction. Relative FSH deficiency impairs follicular maturation, causing anovulation and the accumulation of small antral follicles (polycystic morphology). Insulin resistance and compensatory hyperinsulinemia further stimulate ovarian androgen production (insulin acts synergistically with LH on theca cells) and decrease hepatic sex hormone-binding globulin (SHBG) synthesis, increasing free androgen levels. Adipose tissue amplifies the process through aromatization of androgens to estrogens (primarily estrone), providing constant estrogenic stimulation without the progesterone opposition that follows ovulation, increasing the risk of endometrial hyperplasia.",
+    "treatment_overview": "Treatment targets the primary complaint. For menstrual irregularity and hyperandrogenism: combined OCPs are first-line (regulate cycles, reduce androgens by increasing SHBG, oppose endometrial hyperplasia). Spironolactone (50-200 mg/day) is added for refractory hirsutism (requires contraception due to teratogenicity). For insulin resistance and metabolic risk: lifestyle modification (5-10% weight loss improves ovulation, insulin sensitivity, and androgen levels) is the cornerstone. Metformin (1500-2000 mg/day) is second-line for metabolic features. For infertility: letrozole is first-line ovulation induction (superior to clomiphene per NICHD trial). Clomiphene citrate is an alternative. Gonadotropins and IVF are used for refractory cases. Endometrial protection with progestins or OCPs is essential in anovulatory patients to prevent endometrial hyperplasia.",
+    "high_yield_pearls": [
+      "PCOS is diagnosed using the Rotterdam criteria (≥2 of 3: oligo/anovulation, hyperandrogenism, polycystic ovarian morphology) AFTER excluding thyroid disease, hyperprolactinemia, non-classic congenital adrenal hyperplasia, and Cushing syndrome.",
+      "Non-classic congenital adrenal hyperplasia (21-hydroxylase deficiency) is the most important diagnosis to exclude — check an early morning follicular-phase 17-hydroxyprogesterone in all patients with suspected PCOS.",
+      "Women with PCOS have a 50-70% prevalence of insulin resistance regardless of BMI — screen with fasting glucose/insulin or OGTT at diagnosis and periodically thereafter.",
+      "Letrozole has replaced clomiphene as the first-line ovulation induction agent for PCOS-related infertility based on superior live birth rates in the NICHD Reproductive Medicine Network trial.",
+      "Chronic anovulation without progesterone opposition places PCOS patients at increased risk for endometrial hyperplasia and endometrial cancer — cyclic progestin withdrawal or OCPs are essential for endometrial protection."
+    ],
+    "sources": [
+      "International Evidence-Based Guideline for the Assessment and Management of PCOS (2023 Update)",
+      "ACOG Practice Bulletin: Polycystic Ovary Syndrome",
+      "UpToDate: Diagnosis of polycystic ovary syndrome in adults",
+      "UpToDate: Treatment of polycystic ovary syndrome in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Polycystic ovary syndrome",
+      "Non-classic congenital adrenal hyperplasia",
+      "Hypothyroidism",
+      "Hyperprolactinemia",
+      "Cushing syndrome",
+      "Androgen-secreting tumor (ovarian or adrenal)",
+      "Idiopathic hirsutism"
+    ],
+    "after_stage2_more_likely": [
+      "PCOS (oligomenorrhea since menarche, progressive hirsutism, acne, obesity, acanthosis nigricans, family history)",
+      "Non-classic CAH (can present identically to PCOS; requires 17-OHP to differentiate)"
+    ],
+    "after_stage2_less_likely": [
+      "Androgen-secreting tumor (gradual symptom onset over years, no virilization such as voice deepening or clitoromegaly)",
+      "Cushing syndrome (no striae, moon facies, buffalo hump, or proximal muscle weakness)",
+      "Hypothyroidism (no cold intolerance, fatigue, or dry skin; later confirmed by normal TSH)"
+    ],
+    "after_labs_top3": [
+      "PCOS (meets all three Rotterdam criteria; other causes excluded by normal 17-OHP, TSH, prolactin)",
+      "Metabolic syndrome with PCOS (insulin resistance, prediabetes, dyslipidemia confirm metabolic component)",
+      "Idiopathic hirsutism (excluded by documented biochemical hyperandrogenism and ovulatory dysfunction)"
+    ]
+  }
+}

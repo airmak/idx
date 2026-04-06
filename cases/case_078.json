@@ -1,0 +1,78 @@
+{
+  "case_id": "case_078",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Cardiac Sarcoidosis",
+  "icd_category": "D86.85 — Sarcoid myocarditis",
+  "one_liner": "A 42-year-old African American female with known pulmonary sarcoidosis presents with new-onset palpitations, presyncope, and complete heart block.",
+  "stage2": {
+    "hpi_extension": "The patient was diagnosed with pulmonary sarcoidosis 3 years ago based on bilateral hilar lymphadenopathy and non-caseating granulomas on transbronchial biopsy. She has been stable on low-dose prednisone. Over the past 2 months, she has developed frequent palpitations, 3 episodes of near-syncope, and progressive exercise intolerance. Her cardiologist was consulted after an ambulatory monitor revealed high-grade AV block. She denies chest pain, fever, or weight loss.",
+    "pmh": "Pulmonary sarcoidosis (3 years), erythema nodosum (resolved), anterior uveitis (treated)",
+    "surgical_history": "Transbronchial biopsy (3 years ago)",
+    "medications": "Prednisone 10 mg daily, artificial tears",
+    "allergies": "No known drug allergies",
+    "family_history": "Sister has sarcoidosis. No family history of cardiac disease or sudden death.",
+    "social_history": "Non-smoker. No alcohol. Works as a nurse. Single, lives alone. Active until recent symptoms.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "42 bpm (intermittent complete heart block)",
+      "bp": "105/65 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "70 kg, BMI 25.3"
+    },
+    "physical_exam": "General: Well-appearing female, alert. HEENT: No active uveitis, no JVD. Cardiovascular: Bradycardic, variable S1 intensity, cannon A waves intermittently visible, no murmurs. Pulmonary: Clear bilaterally. Abdomen: Soft, non-tender, no hepatosplenomegaly. Extremities: No edema. Skin: Resolved erythema nodosum on shins (hyperpigmented macules). No lupus pernio."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggesting active myocardial inflammation"},
+      {"test_name": "BNP", "result": "280 pg/mL", "flag": "HIGH", "clinical_significance": "Moderately elevated, indicates myocardial stress"},
+      {"test_name": "ACE level", "result": "82 U/L", "flag": "HIGH", "clinical_significance": "Elevated, consistent with active sarcoidosis (but has limited sensitivity/specificity)"},
+      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated, systemic inflammation"},
+      {"test_name": "CRP", "result": "2.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
+      {"test_name": "Calcium", "result": "10.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated — sarcoid granulomas produce 1,25-dihydroxyvitamin D causing hypercalcemia"},
+      {"test_name": "Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CBC", "result": "WBC 5.2, Hgb 12.8, Plt 195", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Lyme antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Lyme carditis as cause of heart block"}
+    ],
+    "imaging_results": [
+      {"test_name": "Cardiac MRI", "result": "Patchy mid-wall and epicardial late gadolinium enhancement (LGE) in the basal septum and lateral wall. T2 hyperintensity in the septum suggesting active inflammation/edema. Mild LV systolic dysfunction (LVEF 45%). Basal septal thinning.", "flag": "ABNORMAL", "clinical_significance": "LGE pattern and T2 edema are characteristic of cardiac sarcoidosis. Septal involvement explains conduction abnormalities."},
+      {"test_name": "FDG-PET/CT", "result": "Patchy focal FDG uptake in the basal septum and lateral wall of the myocardium consistent with active granulomatous inflammation. Persistent bilateral hilar and mediastinal lymphadenopathy with FDG avidity.", "flag": "ABNORMAL", "clinical_significance": "Active cardiac sarcoidosis with ongoing inflammation — supports need for immunosuppressive therapy"},
+      {"test_name": "12-lead ECG", "result": "Complete heart block with junctional escape at 42 bpm. Fragmented QRS in V1-V3. Q waves in leads III, aVF without prior MI history.", "flag": "ABNORMAL", "clinical_significance": "Complete heart block and pseudo-infarction pattern (Q waves from granulomatous replacement) are classic for cardiac sarcoidosis"}
+    ],
+    "key_tests": ["Cardiac MRI with LGE", "FDG-PET/CT (cardiac protocol)", "12-lead ECG", "Troponin", "ACE level"],
+    "acceptable_tests": ["BNP", "Transthoracic echocardiogram", "Holter monitor", "Basic metabolic panel", "Calcium level", "CBC", "ESR/CRP", "Lyme antibody", "Endomyocardial biopsy"],
+    "low_yield_tests": ["Coronary angiography (low pre-test probability for CAD)", "Stress test", "Cardiac catheterization", "Pulmonary function tests"],
+    "key_tests_rationale": "Cardiac MRI identifies myocardial inflammation (T2 edema) and fibrosis/scarring (LGE). FDG-PET detects active granulomatous inflammation and monitors treatment response. ECG identifies conduction disease. Troponin reflects active myocardial injury. ACE level supports sarcoidosis activity."
+  },
+  "stage5": {
+    "final_clue": "In a patient with known pulmonary sarcoidosis, cardiac MRI shows patchy mid-wall LGE with T2 edema in the basal septum, FDG-PET shows active myocardial inflammation, and ECG reveals complete heart block. This is cardiac sarcoidosis with active granulomatous infiltration of the conduction system."
+  },
+  "debrief": {
+    "classic_presentation": "Cardiac sarcoidosis presents with conduction abnormalities (heart block is the most common manifestation), ventricular arrhythmias, and heart failure. It affects ~5% of sarcoidosis patients clinically, though autopsy studies suggest 25% involvement. AV block in a young patient (<60 years) without other explanation, especially with known sarcoidosis, should raise high suspicion.",
+    "attending_mode_notes": "Endomyocardial biopsy has low sensitivity (~25%) due to the patchy nature of granulomatous infiltration — a negative biopsy does not exclude cardiac sarcoidosis. Diagnosis relies on the HRS consensus criteria: histological (biopsy-proven) or clinical (extracardiac sarcoidosis + cardiac imaging abnormalities). FDG-PET is crucial for assessing disease activity and guiding immunosuppression. Cardiac sarcoidosis patients need ICD evaluation even if EF is preserved due to arrhythmia risk.",
+    "pathophysiology": "Non-caseating granulomas infiltrate the myocardium, with a predilection for the basal septum (explaining the high rate of conduction disease). Active inflammation causes edema and conduction delay; chronic granulomatous replacement leads to fibrosis and scar, creating substrate for reentry circuits (VT) and permanent conduction block. LV dilation and dysfunction result from progressive myocardial replacement.",
+    "treatment_overview": "Immunosuppression: high-dose corticosteroids (prednisone 30-40 mg/day) are first-line for active cardiac sarcoidosis, tapered over months. Steroid-sparing agents (methotrexate, azathioprine, mycophenolate) for long-term maintenance. Permanent pacemaker for high-grade AV block. ICD for sustained VT, VF, or significant LV dysfunction (EF ≤35%). GDMT for heart failure. FDG-PET monitors treatment response.",
+    "high_yield_pearls": [
+      "Unexplained complete heart block or VT in a patient <60 years should prompt evaluation for cardiac sarcoidosis.",
+      "Endomyocardial biopsy has only ~25% sensitivity for cardiac sarcoidosis due to patchy granuloma distribution — diagnosis usually relies on imaging (MRI + PET).",
+      "Cardiac MRI with LGE identifies fibrosis/scar, while FDG-PET identifies ACTIVE inflammation — both are complementary and guide different aspects of management.",
+      "Pseudo-infarction Q waves on ECG can occur from granulomatous replacement of myocardium, mimicking prior MI.",
+      "ICD should be considered in cardiac sarcoidosis even with preserved EF due to the high risk of ventricular arrhythmias independent of systolic function."
+    ],
+    "sources": [
+      "2014 HRS Expert Consensus Statement on Diagnosis and Management of Arrhythmias Associated with Cardiac Sarcoidosis",
+      "Birnie et al., Cardiac Sarcoidosis, JACC 2016",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Blankstein et al., Cardiac Sarcoidosis, JACC 2021"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Giant cell myocarditis", "Lyme carditis", "Cardiac amyloidosis", "Idiopathic dilated cardiomyopathy", "Ischemic heart disease", "Chagas disease", "Lymphoma with cardiac involvement"],
+    "after_stage2_more_likely": ["Cardiac sarcoidosis", "Giant cell myocarditis", "Lyme carditis"],
+    "after_stage2_less_likely": ["Ischemic heart disease", "Chagas disease", "Lymphoma"],
+    "after_labs_top3": ["Cardiac sarcoidosis", "Giant cell myocarditis", "Myocarditis with conduction disease"]
+  }
+}

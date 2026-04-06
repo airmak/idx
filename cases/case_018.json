@@ -1,0 +1,70 @@
+{
+  "case_id": "case_018",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Upper GI bleed (peptic ulcer)",
+  "icd_category": "K25.0 — Acute gastric ulcer with hemorrhage",
+  "one_liner": "A 58-year-old male with chronic NSAID use and H. pylori history presents with melena, hematemesis, and lightheadedness for 1 day.",
+  "stage2": {
+    "hpi_extension": "The patient reports passing multiple black, tarry, foul-smelling stools over the past 24 hours. He had one episode of hematemesis this morning with approximately 200 mL of coffee-ground emesis. He feels lightheaded, particularly with standing, and nearly fainted walking to the bathroom. He reports a dull epigastric pain for the past 2 weeks that was partially relieved by eating. He has been taking ibuprofen 800 mg three times daily for the past 3 months for chronic back pain. He was diagnosed with H. pylori gastritis 5 years ago and completed treatment but never had a confirmation of eradication. He denies alcohol use, liver disease, prior GI bleeds, recent anticoagulant use, or weight loss.",
+    "pmh": "Chronic low back pain, H. pylori infection (treated 5 years ago), osteoarthritis, hypertension",
+    "surgical_history": "L4-L5 laminectomy 2 years ago",
+    "medications": "Ibuprofen 800 mg three times daily, lisinopril 20 mg daily, omeprazole 20 mg daily (recently prescribed but admits to not taking consistently)",
+    "allergies": "NKDA",
+    "family_history": "No family history of GI malignancy or bleeding disorders. Father had peptic ulcer disease.",
+    "social_history": "Former smoker (quit 2 years ago, 25 pack-year history). No alcohol use. Works part-time as a janitor. Lives with wife.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "112 bpm, regular",
+      "bp": "92/58 mmHg (supine), 78/50 mmHg (standing)",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "BMI 26 kg/m²"
+    },
+    "physical_exam": "General: Pale, diaphoretic male in mild distress. HEENT: Pale conjunctivae, dry mucous membranes, no scleral icterus. Cardiovascular: Tachycardic, regular rhythm, no murmurs. JVP flat. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mild epigastric tenderness without guarding or rebound. No hepatosplenomegaly. No ascites. No caput medusae. Rectal exam: Black, tarry stool that is strongly positive for occult blood. Extremities: Cool extremities, capillary refill 3 seconds. No spider angiomata or palmar erythema. Skin: Pale, diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Hemoglobin", "result": "7.2 g/dL", "flag": "LOW", "clinical_significance": "Significant anemia from acute blood loss; baseline hemoglobin was reportedly 14 g/dL 3 months ago"},
+      {"test_name": "Hematocrit", "result": "22%", "flag": "LOW", "clinical_significance": "Significantly decreased; may still be equilibrating and could drop further"},
+      {"test_name": "MCV", "result": "88 fL", "flag": "WNL", "clinical_significance": "Normocytic anemia consistent with acute blood loss (not yet microcytic)"},
+      {"test_name": "Platelet count", "result": "285,000/μL", "flag": "WNL", "clinical_significance": "Normal platelets; rules out thrombocytopenia as a contributing factor"},
+      {"test_name": "BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Disproportionately elevated BUN relative to creatinine (ratio >20:1) suggests upper GI bleed with absorption of blood proteins"},
+      {"test_name": "Creatinine", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from prerenal azotemia due to hypovolemia"},
+      {"test_name": "INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Normal coagulation; rules out coagulopathy as cause of bleeding"},
+      {"test_name": "Type and screen", "result": "Blood type O positive, antibody screen negative", "flag": "WNL", "clinical_significance": "Essential for blood transfusion preparation"},
+      {"test_name": "Lactate", "result": "3.4 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion from hemorrhagic shock"},
+      {"test_name": "H. pylori stool antigen", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Active H. pylori infection; treatment 5 years ago was either incomplete or reinfection occurred"},
+      {"test_name": "Liver function panel", "result": "AST 32 U/L, ALT 28 U/L, Alk phos 75 U/L, total bilirubin 0.6 mg/dL, albumin 3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal liver function makes variceal bleeding unlikely"}
+    ],
+    "imaging_results": [
+      {"test_name": "Esophagogastroduodenoscopy (EGD)", "result": "1.5 cm clean-based gastric ulcer along the lesser curvature of the stomach with a visible vessel (Forrest IIa). No active bleeding at the time of endoscopy. Surrounding erythematous and edematous mucosa. No esophageal varices. Biopsies taken from ulcer margins.", "flag": "ABNORMAL", "clinical_significance": "Gastric ulcer with a visible vessel has a high risk of rebleeding (~43%) and requires endoscopic therapy (epinephrine injection plus thermal coagulation or clips)"},
+      {"test_name": "Chest X-ray", "result": "No free air under the diaphragm. Clear lung fields. No cardiomegaly.", "flag": "WNL", "clinical_significance": "No evidence of perforation; rules out pneumoperitoneum"}
+    ],
+    "key_tests": ["CBC with differential", "Type and crossmatch", "Basic metabolic panel (BUN/creatinine)", "Coagulation studies (INR, PT, PTT)", "EGD (esophagogastroduodenoscopy)"],
+    "acceptable_tests": ["Lactate", "Liver function panel", "H. pylori testing (stool antigen or biopsy)", "Chest X-ray (upright to rule out perforation)", "Lipase (if pancreatitis considered)", "Reticulocyte count", "Blood cultures (if infection suspected)"],
+    "low_yield_tests": ["CT abdomen (no indication for imaging before endoscopy in typical UGIB)", "Colonoscopy (melena with hematemesis clearly points to upper source)", "D-dimer", "Barium swallow (contraindicated in acute bleed)", "Abdominal ultrasound"]
+  },
+  "stage5": {
+    "final_clue": "Endoscopic biopsies from the ulcer margins return negative for malignancy but positive for H. pylori on histology and rapid urease testing, confirming the dual etiology of NSAID use and active H. pylori infection contributing to the peptic ulcer."
+  },
+  "debrief": {
+    "classic_presentation": "Upper GI bleed from peptic ulcer disease classically presents with hematemesis (bright red blood or coffee-ground emesis), melena (black tarry stools), and signs of hypovolemia (tachycardia, hypotension, orthostatic changes). Epigastric pain may precede the bleed. Key risk factors include NSAID use, H. pylori infection, and smoking. An elevated BUN/creatinine ratio (>20:1) is a classic lab finding suggesting upper GI hemorrhage.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Peptic ulcers develop when the mucosal defense mechanisms (mucus layer, bicarbonate secretion, prostaglandin-mediated mucosal blood flow) are overwhelmed by aggressive factors. NSAIDs inhibit COX-1-mediated prostaglandin synthesis, reducing mucosal blood flow and bicarbonate secretion. H. pylori causes chronic inflammation and disrupts the mucus-bicarbonate barrier. The combination of NSAIDs and H. pylori is synergistic in ulcer risk. Bleeding occurs when the ulcer erodes into a submucosal artery or arteriole. The elevated BUN in upper GI bleeds results from digestion and absorption of hemoglobin in the small intestine, which acts as a protein load.",
+    "treatment_overview": "Acute management: (1) Resuscitation — two large-bore IVs, aggressive crystalloid resuscitation, transfuse pRBCs for Hgb < 7 g/dL (or <9 in active bleeding/cardiac disease); (2) IV PPI — high-dose pantoprazole 80 mg bolus then 8 mg/hr continuous infusion; (3) Urgent EGD within 24 hours (within 12 hours if high-risk features) for diagnosis and endoscopic hemostasis; (4) Endoscopic therapy — dual therapy with epinephrine injection plus thermal coagulation or clips for high-risk stigmata; (5) Post-endoscopy — continue oral PPI for 8-12 weeks; (6) H. pylori eradication — triple or quadruple therapy; (7) Discontinue NSAIDs permanently if possible, or switch to COX-2 selective NSAID with PPI if absolutely needed.",
+    "high_yield_pearls": [
+      "An elevated BUN-to-creatinine ratio (>20:1) in a patient with GI bleeding suggests an upper source due to absorption of blood proteins",
+      "The combination of NSAID use and active H. pylori infection synergistically increases peptic ulcer risk by 6-fold compared to either alone",
+      "Forrest classification predicts rebleeding risk: Ia (spurting) and Ib (oozing) = high risk; IIa (visible vessel) = moderate risk; IIb (adherent clot) = intermediate risk; IIc (flat spot) and III (clean base) = low risk",
+      "IV PPI infusion after endoscopic therapy reduces rebleeding — continue for 72 hours then transition to oral PPI"
+    ],
+    "sources": ["UpToDate: Approach to acute upper gastrointestinal bleeding in adults", "ACG Clinical Guideline: Management of Patients with Ulcer Bleeding 2021"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Peptic ulcer disease with hemorrhage", "Esophageal varices", "Mallory-Weiss tear", "Erosive gastritis/esophagitis", "Gastric malignancy", "Dieulafoy lesion", "Aortoenteric fistula"],
+    "after_stage2_more_likely": ["Peptic ulcer disease (chronic NSAID use, prior H. pylori, epigastric pain relieved by eating, no liver disease)"],
+    "after_stage2_less_likely": ["Esophageal varices (no liver disease, no stigmata of portal hypertension)", "Mallory-Weiss tear (no preceding retching before hematemesis)"],
+    "after_labs_top3": ["Peptic ulcer disease with hemorrhage", "Erosive gastritis from NSAIDs", "Gastric malignancy"]
+  }
+}

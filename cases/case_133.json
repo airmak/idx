@@ -1,0 +1,112 @@
+{
+  "case_id": "case_133",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "IgA Nephropathy (Berger Disease)",
+  "icd_category": "N02.8 — Recurrent and persistent hematuria with other morphologic changes",
+  "one_liner": "A 26-year-old male presents with episodic gross hematuria coinciding with upper respiratory infections and is found to have persistent microscopic hematuria and proteinuria.",
+  "stage2": {
+    "hpi_extension": "The patient reports 3 episodes of cola-colored urine over the past 18 months, each occurring 1-2 days after the onset of a sore throat or upper respiratory infection and lasting 2-3 days before resolving. Between episodes, he has had no visible hematuria. He presented today because his PCP found persistent microscopic hematuria and proteinuria on a routine urinalysis performed 2 weeks after his most recent episode. He denies dysuria, flank pain, joint pain, skin rash, or recent travel. No history of hearing loss.",
+    "pmh": "None significant.",
+    "surgical_history": "Tonsillectomy at age 10.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father has hypertension. No family history of kidney disease or hearing loss.",
+    "social_history": "Graduate student. Non-smoker, occasional social alcohol. No illicit drugs.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "72 bpm",
+      "bp": "138/86 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "78 kg, BMI 24.2"
+    },
+    "physical_exam": "Well-appearing young male in no acute distress. Pharynx mildly erythematous without exudate. No periorbital or peripheral edema. Heart: regular rate and rhythm, no murmurs. Lungs: clear bilaterally. Abdomen: soft, non-tender, no masses or organomegaly. No rash, purpura, or joint swelling. No hearing deficit on bedside testing."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urinalysis", "result": "pH 5.5, 2+ blood, 1+ protein, 20-50 RBCs/hpf (many dysmorphic), RBC casts present, no WBC casts", "flag": "ABNORMAL", "clinical_significance": "Dysmorphic RBCs and RBC casts indicate glomerular origin of hematuria"},
+      {"test_name": "Urine Protein:Creatinine Ratio", "result": "1.2 g/g", "flag": "HIGH", "clinical_significance": "Subnephrotic proteinuria; >1 g/day is an adverse prognostic factor in IgA nephropathy"},
+      {"test_name": "Serum Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for a 26-year-old male; early renal impairment"},
+      {"test_name": "eGFR", "result": "72 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "Mildly reduced; concerning in a young patient"},
+      {"test_name": "Serum IgA Level", "result": "485 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated in ~50% of IgA nephropathy patients; supportive but not diagnostic"},
+      {"test_name": "Complement C3", "result": "118 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement is expected in IgA nephropathy; helps exclude lupus nephritis and MPGN"},
+      {"test_name": "Complement C4", "result": "28 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus nephritis"},
+      {"test_name": "ANCA (MPO and PR3)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes ANCA-associated vasculitis"},
+      {"test_name": "Anti-GBM Antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes anti-GBM disease"},
+      {"test_name": "ASO Titer", "result": "120 IU/mL", "flag": "WNL", "clinical_significance": "Not elevated; argues against post-streptococcal glomerulonephritis"},
+      {"test_name": "Serum Albumin", "result": "3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal; proteinuria is subnephrotic"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.5 cm, left 11.8 cm) with normal cortical echogenicity. No hydronephrosis, cysts, or masses.", "flag": "WNL", "clinical_significance": "Normal renal ultrasound; structural abnormalities excluded"},
+      {"test_name": "Renal Biopsy (Light, IF, EM)", "result": "Light microscopy: mesangial hypercellularity and matrix expansion. Immunofluorescence: dominant mesangial IgA deposits with co-deposition of C3 and lesser IgG. Electron microscopy: electron-dense deposits in the mesangium. Oxford classification: M1 E0 S0 T0 C0.", "flag": "ABNORMAL", "clinical_significance": "Mesangial IgA-dominant deposits are diagnostic of IgA nephropathy; Oxford/MEST-C score guides prognosis"}
+    ],
+    "key_tests": [
+      "Renal biopsy with light microscopy, immunofluorescence, and electron microscopy",
+      "Urinalysis with microscopy (dysmorphic RBCs, RBC casts)",
+      "Urine protein:creatinine ratio",
+      "Serum creatinine and eGFR"
+    ],
+    "acceptable_tests": [
+      "Serum IgA level",
+      "Complement C3/C4 levels",
+      "ANA, ANCA, anti-GBM antibodies (to exclude other causes)",
+      "ASO titer (exclude PSGN)",
+      "Hepatitis B/C serologies",
+      "Renal ultrasound"
+    ],
+    "low_yield_tests": [
+      "CT abdomen",
+      "Anti-PLA2R antibody (for membranous nephropathy, not IgA)",
+      "Serum free light chains",
+      "Cystoscopy (hematuria is glomerular in origin)",
+      "24-hour urine catecholamines"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Synpharyngitic gross hematuria (occurring during rather than after URI), persistent microscopic hematuria with dysmorphic RBCs and RBC casts, subnephrotic proteinuria, and renal biopsy showing mesangial IgA-dominant deposits confirm IgA nephropathy."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult male presenting with episodic gross hematuria that occurs concurrently with (synpharyngitic) upper respiratory infections, persistent microscopic hematuria between episodes, mild proteinuria, and mild hypertension. Biopsy shows mesangial IgA deposits.",
+    "attending_mode_notes": "IgA nephropathy is distinguished from post-streptococcal GN by the timing of hematuria: IgA nephropathy causes synpharyngitic hematuria (during the URI, latency 1-2 days), while PSGN has a latent period of 1-3 weeks after pharyngitis. The Oxford MEST-C classification (Mesangial hypercellularity, Endocapillary proliferation, Segmental sclerosis, Tubular atrophy/interstitial fibrosis, Crescents) independently predicts renal outcomes. The TESTING trial and STOP-IGA trial provide conflicting evidence on immunosuppression. Recent data supports targeted-release budesonide (Nefecon/Tarpeyo) for IgA nephropathy with proteinuria >1 g/day despite optimized supportive care.",
+    "pathophysiology": "IgA nephropathy results from the deposition of galactose-deficient IgA1 (Gd-IgA1) immune complexes in the glomerular mesangium. The pathogenesis involves a multi-hit model: (1) increased production of Gd-IgA1, (2) formation of autoantibodies against Gd-IgA1, (3) formation of immune complexes, (4) mesangial deposition triggering complement activation, mesangial proliferation, and inflammatory injury. Mucosal infections (particularly pharyngeal) trigger surges in IgA production, causing episodic gross hematuria. Approximately 30-40% of patients progress to ESRD over 20-30 years.",
+    "treatment_overview": "Supportive care first: ACE inhibitor or ARB titrated to maximally tolerated dose to reduce proteinuria (target <1 g/day). SGLT2 inhibitor (dapagliflozin) based on DAPA-CKD trial data. Blood pressure goal <130/80 mmHg. If proteinuria remains >1 g/day after 3-6 months of optimized supportive care, consider targeted-release budesonide (Tarpeyo/Nefecon) or systemic corticosteroids. Immunosuppressive therapy (mycophenolate, cyclophosphamide) is considered for rapidly progressive disease or crescentic IgA nephropathy. Fish oil (omega-3 fatty acids) has modest evidence. Tonsillectomy has been studied in Japan but is not standard practice globally.",
+    "high_yield_pearls": [
+      "IgA nephropathy is the most common primary glomerulonephritis worldwide; diagnosis requires renal biopsy showing dominant mesangial IgA deposits on immunofluorescence.",
+      "Synpharyngitic hematuria (during URI, latency 1-2 days) distinguishes IgA nephropathy from post-streptococcal GN (latency 1-3 weeks after pharyngitis).",
+      "Key prognostic factors for poor outcome: proteinuria >1 g/day, reduced GFR at presentation, hypertension, and Oxford MEST-C score (S1, T1-2 are particularly adverse).",
+      "IgA vasculitis (Henoch-Schonlein purpura) is the systemic form of IgA deposition disease; renal biopsy findings are identical to IgA nephropathy.",
+      "Serum IgA levels are elevated in ~50% of patients but are neither sensitive nor specific for diagnosis; biopsy is always required."
+    ],
+    "sources": [
+      "Kidney Disease: Improving Global Outcomes (KDIGO) 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
+      "Lv J et al. Effect of oral methylprednisolone on clinical outcomes in patients with IgA nephropathy (TESTING). JAMA. 2017;318(5):432-442.",
+      "UpToDate: IgA nephropathy — treatment and prognosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "IgA nephropathy",
+      "Post-streptococcal glomerulonephritis",
+      "Thin basement membrane disease",
+      "Alport syndrome",
+      "Lupus nephritis",
+      "ANCA-associated vasculitis",
+      "IgA vasculitis (Henoch-Schonlein purpura)"
+    ],
+    "after_stage2_more_likely": [
+      "IgA nephropathy — young male with synpharyngitic gross hematuria, persistent microscopic hematuria, mild proteinuria, mild hypertension",
+      "Thin basement membrane disease — episodic hematuria in a young patient, but typically without proteinuria or hypertension"
+    ],
+    "after_stage2_less_likely": [
+      "Post-streptococcal GN — hematuria occurs during (not weeks after) the URI; no edema or hypocomplementemia expected",
+      "Alport syndrome — no hearing loss, no family history of renal disease or deafness"
+    ],
+    "after_labs_top3": [
+      "IgA nephropathy — confirmed by biopsy showing dominant mesangial IgA deposits; elevated serum IgA, normal complement, RBC casts",
+      "IgA vasculitis (HSP nephritis) — identical biopsy findings but no purpura, abdominal pain, or arthralgia to suggest systemic disease",
+      "Post-streptococcal GN — normal ASO titer and normal complement levels make this unlikely"
+    ]
+  }
+}

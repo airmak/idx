@@ -1,0 +1,111 @@
+{
+  "case_id": "case_140",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Hepatorenal Syndrome Type 1",
+  "icd_category": "K76.7 — Hepatorenal syndrome",
+  "one_liner": "A 54-year-old male with decompensated alcoholic cirrhosis and refractory ascites presents with progressive oliguria and rising creatinine despite volume resuscitation, without evidence of intrinsic renal disease.",
+  "stage2": {
+    "hpi_extension": "The patient has a history of alcoholic cirrhosis and was hospitalized 1 week ago for a spontaneous bacterial peritonitis (SBP) episode, treated with IV ceftriaxone. SBP has resolved (repeat paracentesis is negative), but he has had progressively declining urine output over the past 4 days despite receiving IV albumin. His creatinine has doubled in 2 weeks. He reports worsening abdominal distension, fatigue, and mild confusion. He had a large-volume paracentesis (6 liters) 10 days ago. He denies taking NSAIDs or nephrotoxic medications.",
+    "pmh": "Alcoholic cirrhosis (Child-Pugh C, MELD 28), portal hypertension, esophageal varices (banded 6 months ago), refractory ascites requiring serial paracenteses, prior SBP, hepatic encephalopathy.",
+    "surgical_history": "None.",
+    "medications": "Lactulose 30 mL TID, rifaximin 550 mg BID, spironolactone 100 mg daily (recently held), furosemide 40 mg daily (recently held), nadolol 20 mg daily, albumin IV infusions.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had alcoholism and liver disease.",
+    "social_history": "Unemployed. Former heavy alcohol use (1 pint of whiskey daily for 25 years); reports abstinence for 6 months. Former smoker. No illicit drugs.",
+    "vitals": {
+      "temp": "36.6°C (97.9°F)",
+      "hr": "104 bpm",
+      "bp": "82/52 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "78 kg, BMI 25.6"
+    },
+    "physical_exam": "Cachectic male with jaundice and temporal wasting. Scleral icterus. Spider angiomata on the chest and upper extremities. Gynecomastia. Asterixis present on hand dorsiflexion. Heart: tachycardic, regular rhythm, no murmurs. Lungs: decreased breath sounds at bilateral bases. Abdomen: markedly distended with tense ascites, fluid wave positive, caput medusae, no tenderness. Hepatosplenomegaly difficult to assess due to ascites. Extremities: bilateral lower extremity edema (2+); palmar erythema. No peripheral cyanosis."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "3.8 mg/dL (was 1.6 mg/dL two weeks ago, baseline 1.0 mg/dL)", "flag": "HIGH", "clinical_significance": "Doubling within 2 weeks meets HRS-AKI criteria (formerly HRS Type 1); rapid progressive renal failure in cirrhosis"},
+      {"test_name": "BUN", "result": "56 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from renal failure"},
+      {"test_name": "Serum Sodium", "result": "124 mEq/L", "flag": "LOW", "clinical_significance": "Dilutional hyponatremia from avid water retention; poor prognostic sign in cirrhosis"},
+      {"test_name": "Urinalysis", "result": "Bland sediment — no casts, no RBCs, no WBCs, specific gravity 1.025", "flag": "WNL", "clinical_significance": "Bland urinalysis with concentrated urine is characteristic of HRS (renal parenchyma is structurally normal)"},
+      {"test_name": "Urine Sodium", "result": "4 mEq/L", "flag": "LOW", "clinical_significance": "Very low urine sodium (<10) reflects avid sodium reabsorption from severe splanchnic vasodilation and RAAS activation"},
+      {"test_name": "FENa", "result": "0.2%", "flag": "LOW", "clinical_significance": "FENa <1% with bland sediment is characteristic of HRS (functional prerenal state)"},
+      {"test_name": "Total Bilirubin", "result": "8.4 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated in decompensated cirrhosis; bilirubin is a component of MELD score"},
+      {"test_name": "INR", "result": "2.4", "flag": "HIGH", "clinical_significance": "Coagulopathy from hepatic synthetic failure"},
+      {"test_name": "Serum Albumin", "result": "1.9 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia from hepatic synthetic dysfunction"},
+      {"test_name": "Platelet Count", "result": "62,000/μL", "flag": "LOW", "clinical_significance": "Thrombocytopenia from portal hypertension (splenic sequestration)"},
+      {"test_name": "Urine Protein (24-hour)", "result": "180 mg/day", "flag": "WNL", "clinical_significance": "Minimal proteinuria supports HRS over intrinsic glomerular disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound with Doppler", "result": "Normal-sized kidneys bilaterally (right 11.0 cm, left 11.2 cm) with normal cortical echogenicity. No hydronephrosis or masses. Elevated renal resistive indices (0.82 bilaterally, normal <0.70).", "flag": "ABNORMAL", "clinical_significance": "Structurally normal kidneys with elevated resistive indices reflect renal vasoconstriction (hallmark hemodynamic abnormality in HRS)"},
+      {"test_name": "Abdominal Ultrasound", "result": "Cirrhotic liver with nodular contour. Large-volume ascites. Patent portal vein (hepatopetal flow). Splenomegaly (16 cm).", "flag": "ABNORMAL", "clinical_significance": "Confirms decompensated cirrhosis with portal hypertension"}
+    ],
+    "key_tests": [
+      "Serial serum creatinine (document rate of rise)",
+      "Urinalysis with microscopy (must be bland for HRS diagnosis)",
+      "Urine sodium and FENa",
+      "Albumin challenge (1 g/kg/day x 2 days — failure to improve Cr confirms HRS)"
+    ],
+    "acceptable_tests": [
+      "Renal ultrasound with Doppler",
+      "Basic metabolic panel",
+      "Liver function tests and INR",
+      "Diagnostic paracentesis (rule out SBP as trigger)",
+      "CBC",
+      "Urine culture (exclude UTI)",
+      "MELD score calculation"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (kidneys are structurally normal in HRS; high bleeding risk with coagulopathy and thrombocytopenia)",
+      "ANA/ANCA panel",
+      "Anti-GBM antibody",
+      "CT with contrast (nephrotoxic; avoid)",
+      "Serum complement levels"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Rapidly progressive AKI (Cr doubling in 2 weeks) in decompensated cirrhosis with refractory ascites, bland urinalysis, FENa 0.2%, urine Na 4 mEq/L, structurally normal kidneys, elevated renal resistive indices, and failure to improve after albumin challenge confirms hepatorenal syndrome type 1 (HRS-AKI)."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with advanced cirrhosis (high MELD, Child-Pugh C) and a precipitating event (SBP, large-volume paracentesis, GI bleed) develops rapidly progressive oliguria and rising creatinine. Urine is bland and concentrated (low urine Na, low FENa), kidneys are structurally normal on ultrasound, and creatinine does not improve with albumin volume expansion.",
+    "attending_mode_notes": "The revised ICA (International Club of Ascites) criteria for HRS-AKI (2015) replaced the old Type 1/Type 2 classification: HRS-AKI = rapid rise in Cr ≥0.3 mg/dL in 48h or ≥50% from baseline in <7 days, with no response to 48h of diuretic withdrawal and albumin (1 g/kg x 2 days). Common precipitants: SBP (~30% of SBP cases develop HRS), large-volume paracentesis without albumin replacement, GI hemorrhage, overdiuresis, and infections. The albumin challenge is DIAGNOSTIC — if creatinine improves, it was prerenal azotemia, not HRS. Terlipressin (vasopressin V1 receptor agonist) was FDA-approved in 2022 based on the CONFIRM trial, providing the first pharmacologic therapy for HRS-AKI in the US.",
+    "pathophysiology": "HRS is a functional (potentially reversible) renal failure caused by extreme renal vasoconstriction in the setting of systemic and splanchnic vasodilation from portal hypertension. The pathophysiology follows the 'arterial underfilling' hypothesis: (1) Portal hypertension causes splanchnic vasodilation (mediated by NO, prostaglandins). (2) Effective arterial blood volume decreases. (3) Compensatory activation of RAAS, sympathetic nervous system, and ADH causes renal vasoconstriction, sodium/water retention, and dilutional hyponatremia. (4) As cirrhosis worsens, renal vasoconstriction becomes profound, and GFR drops despite structurally normal kidneys. Precipitants (SBP, bleeding) further reduce effective circulating volume, tipping the kidney into HRS.",
+    "treatment_overview": "First-line: Terlipressin (vasopressin V1 agonist) + IV albumin — terlipressin causes splanchnic vasoconstriction, improving effective circulating volume and renal perfusion. Alternative (where terlipressin unavailable): norepinephrine infusion + albumin, or midodrine + octreotide + albumin (less effective). IV albumin: 1 g/kg on day 1, then 20-40 g/day. Discontinue diuretics. Avoid nephrotoxins. TIPS may be considered in select cases. DEFINITIVE TREATMENT: Liver transplantation — the only cure for HRS. Renal function typically recovers after transplant if kidneys have not been injured for prolonged periods. Dialysis is a bridge to transplant (not a standalone treatment for HRS). Prognosis without treatment is extremely poor (median survival 2 weeks for HRS Type 1).",
+    "high_yield_pearls": [
+      "HRS is a DIAGNOSIS OF EXCLUSION: bland urinalysis, urine Na <10, FENa <1%, structurally normal kidneys, no improvement after albumin challenge — no other explanation for AKI.",
+      "The most common precipitant of HRS is spontaneous bacterial peritonitis (SBP); prophylactic albumin (1.5 g/kg day 1, 1 g/kg day 3) during SBP treatment reduces HRS incidence by ~60%.",
+      "Terlipressin (FDA-approved 2022, CONFIRM trial) is the first-line vasopressor for HRS-AKI; it works by constricting splanchnic vasculature and improving renal perfusion.",
+      "Kidneys from donors with HRS can be transplanted into recipients because the kidneys are structurally normal — HRS is purely a hemodynamic/functional disorder.",
+      "Dilutional hyponatremia (Na <130) in cirrhosis is a strong predictor of HRS development and is associated with poor prognosis."
+    ],
+    "sources": [
+      "Wong F et al. Terlipressin plus albumin for the treatment of type 1 hepatorenal syndrome (CONFIRM). NEJM. 2021;384(9):818-828.",
+      "Angeli P et al. Diagnosis and management of acute kidney injury in patients with cirrhosis (ICA-AKI). J Hepatol. 2015;62(4):968-974.",
+      "UpToDate: Hepatorenal syndrome (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hepatorenal syndrome (HRS-AKI)",
+      "Prerenal AKI from volume depletion (overdiuresis, GI bleed)",
+      "Acute tubular necrosis",
+      "Sepsis-associated AKI (from SBP)",
+      "NSAID-induced AKI",
+      "Obstructive uropathy"
+    ],
+    "after_stage2_more_likely": [
+      "HRS-AKI — decompensated cirrhosis (Child-Pugh C, MELD 28), recent SBP, refractory ascites, progressive oliguria despite albumin, hypotension",
+      "Prerenal AKI — recent large-volume paracentesis could contribute; albumin challenge distinguishes from HRS"
+    ],
+    "after_stage2_less_likely": [
+      "NSAID-induced AKI — patient denies NSAID use",
+      "Obstructive uropathy — no urinary symptoms, no bladder distension"
+    ],
+    "after_labs_top3": [
+      "Hepatorenal syndrome — bland urine, FENa 0.2%, urine Na 4, normal kidneys on US, elevated renal resistive indices, no response to albumin",
+      "Prerenal AKI — similar labs (low FENa, low urine Na) but should respond to albumin challenge; failure to respond defines HRS",
+      "Acute tubular necrosis — excluded by bland urinalysis (no muddy brown casts) and low FENa (ATN would have FENa >2%)"
+    ]
+  }
+}

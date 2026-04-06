@@ -1,0 +1,77 @@
+{
+  "case_id": "case_060",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Ruptured Splenic Artery Aneurysm",
+  "icd_category": "I72.8 — Aneurysm of other specified arteries",
+  "one_liner": "A 34-year-old multiparous woman in her third trimester of pregnancy presents with sudden-onset severe left upper quadrant pain, hemodynamic instability, and rapidly declining hemoglobin.",
+  "stage2": {
+    "hpi_extension": "Patient is a 34-year-old woman at 34 weeks gestation (G4P3) who was at home watching television when she experienced sudden onset of severe left upper quadrant and epigastric pain, rated 10/10. The pain occurred without any preceding trauma or exertion. She immediately felt lightheaded and nearly fainted. She called 911 and was transported by EMS. In the ambulance, she had a brief syncopal episode. She denies vaginal bleeding, rupture of membranes, or regular contractions, though she does report diffuse abdominal discomfort. She had an uncomplicated pregnancy thus far. She denies any history of abdominal trauma, pancreatitis, or liver disease. Her prior three pregnancies were uncomplicated vaginal deliveries.",
+    "pmh": "Gestational hypertension (current pregnancy, managed with methyldopa), multiparity (G4P3), mild mitral valve prolapse",
+    "surgical_history": "None",
+    "medications": "Methyldopa 250 mg TID, prenatal vitamins, iron supplementation",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with fibromuscular dysplasia. No family history of aneurysms or connective tissue disorders.",
+    "social_history": "Non-smoker. No alcohol during pregnancy. Works as a nurse. Married with 3 children.",
+    "vitals": {
+      "temp": "98.2 F (36.8 C)",
+      "hr": "132 bpm",
+      "bp": "78/48 mmHg",
+      "rr": "26 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "82 kg (pre-pregnancy weight 68 kg), BMI 25.8 pre-pregnancy"
+    },
+    "physical_exam": "General: Gravid female in acute distress, pale, diaphoretic, restless. GCS 14 (E4V4M6, slightly confused). HEENT: Marked pallor of conjunctivae and mucous membranes. Neck: Supple. JVP flat (hypovolemia). Cardiovascular: Tachycardic, regular rhythm. Systolic click. Weak peripheral pulses. Pulmonary: Clear, tachypneic. Abdomen: Gravid uterus consistent with 34 weeks. Diffuse abdominal tenderness, most severe in the left upper quadrant and epigastrium. Voluntary guarding. No rebound initially but equivocal on repeat exam 20 minutes later. Uterus is non-tender and soft between contractions. No vaginal bleeding. Fetal heart rate tracing shows baseline 160 bpm with minimal variability and occasional late decelerations (category II tracing). Extremities: Cold, pale, delayed capillary refill (>4 seconds). Skin: Pale, diaphoretic."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - Hemoglobin", "result": "7.2 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia in a patient with normal prenatal hemoglobin of 11.8 g/dL, indicating significant acute hemorrhage"},
+      {"test_name": "CBC - Hematocrit", "result": "22%", "flag": "LOW", "clinical_significance": "Critically low, consistent with massive hemorrhage"},
+      {"test_name": "CBC - Platelets", "result": "168 x10^9/L", "flag": "WNL", "clinical_significance": "Normal; helps exclude HELLP syndrome"},
+      {"test_name": "Type and Screen", "result": "Type O positive. Antibody screen negative.", "flag": "WNL", "clinical_significance": "Essential for massive transfusion protocol activation"},
+      {"test_name": "Coagulation - INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Normal coagulation; helps exclude DIC and HELLP syndrome"},
+      {"test_name": "Fibrinogen", "result": "386 mg/dL", "flag": "WNL", "clinical_significance": "Normal (elevated in pregnancy); would be low in DIC or placental abruption with coagulopathy"},
+      {"test_name": "Lactate", "result": "5.4 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, consistent with hemorrhagic shock and tissue hypoperfusion"},
+      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "AST", "result": "34 U/L", "flag": "WNL", "clinical_significance": "Normal; helps exclude HELLP syndrome"},
+      {"test_name": "LDH", "result": "188 U/L", "flag": "WNL", "clinical_significance": "Normal; argues against hemolysis seen in HELLP syndrome"},
+      {"test_name": "Lipase", "result": "32 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as cause of LUQ pain"}
+    ],
+    "imaging_results": [
+      {"test_name": "FAST Exam (Focused Assessment with Sonography for Trauma)", "result": "Large amount of free fluid in the left upper quadrant (perisplenic), Morison pouch, and pelvis. No pericardial effusion. Single live intrauterine pregnancy.", "flag": "ABNORMAL", "clinical_significance": "Large hemoperitoneum confirmed. In a hemodynamically unstable pregnant patient with acute LUQ pain and no history of trauma, this is highly concerning for ruptured splenic artery aneurysm."},
+      {"test_name": "CT Angiogram Abdomen (performed after initial stabilization)", "result": "Active contrast extravasation from a 2.8 cm splenic artery aneurysm located at the mid-body of the splenic artery. Large hemoperitoneum with blood layering in the left paracolic gutter and pelvis. Estimated >1.5 liters of free blood. Spleen appears intact. Gravid uterus with single live intrauterine pregnancy. No evidence of aortic pathology.", "flag": "ABNORMAL", "clinical_significance": "Confirms ruptured splenic artery aneurysm with active hemorrhage. This is the most common visceral artery aneurysm and pregnancy is a major risk factor for rupture."}
+    ],
+    "key_tests": ["FAST exam (bedside ultrasound)", "CBC (hemoglobin/hematocrit)", "Type and crossmatch", "Serum lactate", "CT angiogram abdomen (if hemodynamically stabilizable)"],
+    "acceptable_tests": ["Coagulation panel (PT/INR, PTT, fibrinogen)", "BMP", "Hepatic function panel (exclude HELLP)", "LDH and peripheral smear (exclude HELLP)", "Fetal monitoring (continuous CTG)", "Lipase"],
+    "low_yield_tests": ["Abdominal X-ray (delays care, radiation in pregnancy with no diagnostic value)", "MRI (too slow for acute hemorrhage)", "Diagnostic peritoneal lavage (FAST is preferred)", "Upper GI series", "EGD"],
+    "final_clue": "FAST exam reveals large hemoperitoneum. CT angiogram confirms a 2.8 cm ruptured splenic artery aneurysm with active extravasation. In a multiparous woman in the third trimester with sudden hemodynamic collapse, this is the classic scenario for splenic artery aneurysm rupture — the most feared complication of the most common visceral artery aneurysm. Emergent surgical intervention and concurrent cesarean delivery are required."
+  },
+  "stage5": {
+    "final_clue": "FAST exam reveals large hemoperitoneum. CT angiogram confirms a 2.8 cm ruptured splenic artery aneurysm with active extravasation. In a multiparous woman in the third trimester with sudden hemodynamic collapse, this is the classic scenario for splenic artery aneurysm rupture — the most feared complication of the most common visceral artery aneurysm. Emergent surgical intervention and concurrent cesarean delivery are required."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden-onset severe LUQ or epigastric pain with hemodynamic instability in a multiparous pregnant woman in the third trimester. The classic 'double rupture' phenomenon occurs when initial hemorrhage is contained within the lesser sac (causing transient stabilization), followed by free rupture into the peritoneal cavity with cardiovascular collapse. Splenic artery aneurysm is the most common visceral artery aneurysm (60% of all visceral aneurysms), with a 4:1 female-to-male ratio. Rupture risk increases in pregnancy (especially third trimester and peripartum) and with aneurysms >2 cm.",
+    "attending_mode_notes": "This case demands immediate life-saving decisions under extreme time pressure: (1) The initial differential in a third-trimester pregnant woman with acute abdomen and shock includes placental abruption, uterine rupture, ruptured ectopic (not at 34 weeks), HELLP syndrome, and ruptured visceral artery aneurysm. Normal coagulation, normal LFTs/LDH, and non-tender uterus argue against abruption and HELLP. (2) FAST exam is the critical first step — demonstrating large free fluid NOT associated with the uterus shifts the differential toward intra-abdominal hemorrhage rather than obstetric causes. (3) CT angiography should only be performed if the patient can be transiently stabilized; a hemodynamically unstable patient goes directly to the OR. Radiation risk to the fetus is justified in a life-threatening emergency. (4) Operative approach: midline laparotomy, control hemorrhage at the splenic artery (proximal and distal control), splenectomy is often necessary (though splenic artery ligation with splenic preservation may be possible). Concurrent cesarean delivery should be performed if fetal distress is present or if surgical access requires uterine mobilization. (5) The 'double rupture' phenomenon may provide a transient window of hemodynamic stability — this must not falsely reassure the team. (6) For unruptured splenic artery aneurysms discovered during pregnancy: aneurysms >2 cm should be repaired, ideally in the second trimester. Endovascular treatment (coil embolization, stent grafts) is preferred for elective repair. (7) Maternal mortality from rupture during pregnancy is 75% and fetal mortality is 95% — emphasizing the need for early detection and prophylactic repair.",
+    "pathophysiology": "Splenic artery aneurysms develop due to a combination of hemodynamic and hormonal factors. In women, estrogen and progesterone cause smooth muscle relaxation and elastic fiber fragmentation in the arterial wall. During pregnancy, increased blood volume (40-50% increase), increased splanchnic blood flow, and hormonal effects on the vessel wall synergistically weaken the splenic artery. Multiparity amplifies these effects with each successive pregnancy. Portal hypertension (from any cause, including pregnancy-related compression) increases splenic artery flow and contributes to aneurysm formation. Rupture occurs when wall stress exceeds tensile strength, typically in the third trimester when hemodynamic changes are maximal. The 'double rupture' phenomenon: initial hemorrhage into the lesser sac (contained by the omentum and gastrosplenic ligament) followed by free intraperitoneal rupture through the foramen of Winslow.",
+    "treatment_overview": "Ruptured splenic artery aneurysm requires emergent surgery. Massive transfusion protocol activation (1:1:1 ratio of PRBCs, FFP, platelets). Emergent midline laparotomy: control splenic artery hemorrhage (proximal ligation, aneurysmectomy, splenectomy if needed). Splenectomy is frequently necessary due to the extent of hemorrhage and the inability to preserve the spleen during emergent repair. Concurrent cesarean delivery for fetal distress or surgical necessity. Post-splenectomy: vaccinate against encapsulated organisms (Pneumococcus, Meningococcus, H. influenzae). For unruptured aneurysms: repair is indicated if >2 cm, in women of childbearing potential, or before liver transplantation (portal hypertension patients). Endovascular options (coil embolization, covered stent) are preferred for elective repair due to lower morbidity. Laparoscopic ligation or open repair are surgical alternatives.",
+    "high_yield_pearls": [
+      "Splenic artery aneurysm is the most common visceral artery aneurysm (60% of all visceral aneurysms), with a 4:1 female predominance.",
+      "Risk of rupture increases significantly in pregnancy (especially third trimester), with maternal mortality of 75% and fetal mortality of 95% when rupture occurs during pregnancy.",
+      "The 'double rupture' phenomenon: initial hemorrhage contained in the lesser sac provides transient stability before free intraperitoneal rupture occurs.",
+      "Indications for elective repair of unruptured splenic artery aneurysm: diameter >2 cm, planned pregnancy, liver transplant candidate, or symptomatic aneurysm.",
+      "FAST exam is the critical initial imaging study in the hemodynamically unstable patient to identify hemoperitoneum and guide immediate surgical decision-making."
+    ],
+    "sources": [
+      "Abbas MA et al. J Vasc Surg 2002;35:58-63 (Splenic Artery Aneurysms)",
+      "Trastek VF et al. Surgery 1982;91:694-699 (Splenic Artery Aneurysms in Pregnancy)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 34",
+      "Ha JF, Phillips M, Faulkner K. Aust N Z J Obstet Gynaecol 2009;49:8-12"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Ruptured splenic artery aneurysm", "Placental abruption", "Uterine rupture", "HELLP syndrome", "Splenic rupture", "Ruptured hepatic artery aneurysm", "Acute pancreatitis", "Ruptured splenic cyst"],
+    "after_stage2_more_likely": ["Ruptured splenic artery aneurysm", "Placental abruption", "Splenic rupture"],
+    "after_stage2_less_likely": ["HELLP syndrome", "Uterine rupture", "Acute pancreatitis"],
+    "after_labs_top3": ["Ruptured splenic artery aneurysm", "Splenic rupture", "Ruptured hepatic artery aneurysm"]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "case_id": "case_061",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Gallstone Ileus",
+  "icd_category": "K56.3 — Gallstone ileus",
+  "one_liner": "A 76-year-old female with known gallstones presents with intermittent crampy abdominal pain, vomiting, and distension for 4 days, with imaging revealing small bowel obstruction, pneumobilia, and an ectopic gallstone in the ileum.",
+  "stage2": {
+    "hpi_extension": "Patient is a 76-year-old female presenting with a 4-day history of intermittent, crampy abdominal pain that initially was periumbilical but has become more diffuse. The pain comes and goes in waves, lasting 20-30 minutes at a time with partial relief between episodes. She has had progressive nausea and bilious vomiting (initially intermittent but now occurring with every attempt to eat or drink). She has not passed gas or had a bowel movement for the past 2 days. She reports increasing abdominal distension. She has a history of symptomatic gallstones with recurrent episodes of biliary colic over the past 5 years but declined cholecystectomy due to her advanced age and concerns about surgery. She was hospitalized 6 months ago for acute cholecystitis that was managed conservatively with antibiotics. She denies jaundice, fever, recent travel, or changes in medications.",
+    "pmh": "Cholelithiasis (symptomatic, declined surgery), previous episode of acute cholecystitis (6 months ago, treated conservatively), atrial fibrillation (on rate control), congestive heart failure (EF 40%), hypertension, osteoporosis",
+    "surgical_history": "Total knee replacement (right, 4 years ago)",
+    "medications": "Diltiazem 180 mg daily, apixaban 5 mg BID, furosemide 40 mg daily, potassium chloride 20 mEq daily, alendronate 70 mg weekly",
+    "allergies": "Morphine (confusion)",
+    "family_history": "Mother with gallstones. No significant family surgical history.",
+    "social_history": "Non-smoker. No alcohol. Lives alone in an assisted living facility. Uses a walker for ambulation. Former school principal (retired 14 years ago).",
+    "vitals": {
+      "temp": "99.4 F (37.4 C)",
+      "hr": "92 bpm (irregularly irregular)",
+      "bp": "118/68 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "95% on room air",
+      "weight_bmi": "62 kg, BMI 24.8"
+    },
+    "physical_exam": "General: Elderly female appearing chronically ill and dehydrated. Mild distress during episodes of crampy pain. HEENT: Dry mucous membranes. Mild scleral icterus (may be chronic). Neck: JVP mildly elevated. Cardiovascular: Irregularly irregular rhythm (atrial fibrillation). Soft systolic murmur at the apex. Pulmonary: Bibasilar crackles (mild, chronic CHF). Abdomen: Moderately distended and tympanitic. Diffuse tenderness without peritoneal signs. No guarding or rebound. A vague fullness is palpable in the right iliac fossa. High-pitched, tinkling bowel sounds with occasional rushes. No hernias in the inguinal or femoral regions. No surgical scars. Rectal: Empty rectum. No masses. Guaiac negative. Extremities: 1+ bilateral pitting edema (chronic). Skin: Mild jaundice. Thin, fragile skin."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "11.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may reflect stress response or early bacterial translocation from obstruction"},
+      {"test_name": "CBC - Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
+      {"test_name": "BMP - BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration and poor oral intake"},
+      {"test_name": "BMP - Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from volume depletion"},
+      {"test_name": "BMP - Potassium", "result": "2.9 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and furosemide use"},
+      {"test_name": "BMP - Chloride", "result": "90 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting, consistent with hypochloremic metabolic alkalosis"},
+      {"test_name": "BMP - Bicarbonate", "result": "32 mEq/L", "flag": "HIGH", "clinical_significance": "Metabolic alkalosis from vomiting (loss of HCl)"},
+      {"test_name": "Total Bilirubin", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from chronic biliary disease and cholecystobiliary fistula"},
+      {"test_name": "Alkaline Phosphatase", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, chronic biliary disease"},
+      {"test_name": "Lactate", "result": "1.6 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of bowel ischemia currently"},
+      {"test_name": "Lipase", "result": "34 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. A round, calcified density (2.8 cm) is seen projected over the right iliac fossa. Air is present within the biliary tree (pneumobilia).", "flag": "ABNORMAL", "clinical_significance": "The combination of small bowel obstruction, pneumobilia, and an ectopic calcified gallstone constitutes the Rigler triad, which is pathognomonic for gallstone ileus."},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Small bowel obstruction with a transition point in the distal ileum where a 2.9 cm calcified gallstone is impacted in the ileal lumen (approximately 60 cm proximal to the ileocecal valve). Pneumobilia with air throughout the intrahepatic and extrahepatic biliary tree. A cholecystobiliary fistula is identified between the gallbladder fundus and the first portion of the duodenum (cholecystoduodenal fistula). The gallbladder is contracted and partially collapsed. No free air. Mild ascites.", "flag": "ABNORMAL", "clinical_significance": "CT confirms all components of gallstone ileus: impacted ectopic gallstone in the distal ileum, pneumobilia, and cholecystoduodenal fistula. The stone entered the bowel via the biliary-enteric fistula that formed during prior cholecystitis episodes."}
+    ],
+    "key_tests": ["CT abdomen/pelvis with IV contrast", "Abdominal X-ray (supine and upright)", "CBC with differential", "BMP (electrolytes, renal function)", "Serum lactate"],
+    "acceptable_tests": ["Hepatic function panel", "Coagulation studies (on anticoagulation)", "Type and screen", "Lipase", "Chest X-ray (pre-operative)", "ECG"],
+    "low_yield_tests": ["Abdominal ultrasound alone (may show pneumobilia but poor for bowel obstruction)", "MRCP (not needed if CT is diagnostic)", "ERCP (therapeutic for biliary disease but not for gallstone ileus)", "Barium follow-through (contraindicated with obstruction)", "Upper GI endoscopy"],
+    "final_clue": "Abdominal X-ray and CT reveal the Rigler triad: small bowel obstruction, pneumobilia, and an ectopic gallstone impacted in the distal ileum. A cholecystoduodenal fistula is the conduit through which the gallstone entered the bowel. This is gallstone ileus, a rare but important cause of mechanical small bowel obstruction in elderly patients, requiring emergent surgical enterolithotomy."
+  },
+  "stage5": {
+    "final_clue": "Abdominal X-ray and CT reveal the Rigler triad: small bowel obstruction, pneumobilia, and an ectopic gallstone impacted in the distal ileum. A cholecystoduodenal fistula is the conduit through which the gallstone entered the bowel. This is gallstone ileus, a rare but important cause of mechanical small bowel obstruction in elderly patients, requiring emergent surgical enterolithotomy."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly female (gallstone ileus accounts for 1-4% of SBO overall but up to 25% in patients >65 years) with known gallstone disease presenting with intermittent ('tumbling') SBO that waxes and wanes as the stone alternately obstructs and passes through the bowel lumen. This intermittent, relapsing pattern of obstruction is characteristic and may persist for days before a definitive obstruction occurs. The Rigler triad (small bowel obstruction + pneumobilia + ectopic gallstone) is present in only 40-50% on plain X-ray but is identified on CT in >80% of cases.",
+    "attending_mode_notes": "This is a case with several important surgical decision points: (1) One-stage vs. two-stage procedure: The primary debate in gallstone ileus is whether to perform enterolithotomy alone (stone extraction through an enterotomy) versus enterolithotomy plus cholecystectomy and fistula repair in one operation. In elderly, comorbid patients (like this one with CHF and AF), enterolithotomy alone is the safer first-stage operation with lower morbidity and mortality. The fistula can be addressed later if symptomatic (though many close spontaneously). (2) Examine the ENTIRE bowel: At surgery, run the entire length of the small bowel to search for additional stones — 5-10% of patients have more than one gallstone in the bowel, and missing a proximal stone will lead to recurrent obstruction. (3) The most common site of gallstone impaction is the terminal ileum (60-70%) because it has the narrowest lumen. Other sites include the duodenum (Bouveret syndrome — stone impacts at the pylorus/duodenum causing gastric outlet obstruction) and the sigmoid colon. (4) Anticoagulation management: This patient is on apixaban for AF. The last dose timing must be established. Intraoperative bridging or reversal (andexanet alfa or 4-factor PCC) may be needed. (5) The cholecystoduodenal fistula is the most common type (60%), followed by cholecystocolonic (10-20%). Cholecystocolonic fistulae can cause gallstone impaction in the sigmoid or, more importantly, bile salt diarrhea and vitamin K malabsorption. (6) Bouveret syndrome (gallstone impacting in the duodenum/pylorus) may be amenable to endoscopic extraction, avoiding surgery in frail patients.",
+    "pathophysiology": "Gallstone ileus results from chronic cholecystitis causing adhesion between the inflamed gallbladder and an adjacent segment of bowel (most commonly the duodenum). Recurrent inflammation leads to pressure necrosis and erosion through the gallbladder wall and bowel wall, creating a cholecystoenteric fistula. A large gallstone (typically >2-2.5 cm) passes through this fistula into the bowel lumen. The stone travels distally until it impacts at a point where the bowel lumen narrows, most commonly the terminal ileum (narrowest fixed segment of the small bowel). The fistula also allows air to enter the biliary tree (pneumobilia). The condition is a misnomer — it is a mechanical obstruction, not a true ileus (which implies functional/paralytic bowel dysmotility).",
+    "treatment_overview": "IV fluid resuscitation with aggressive electrolyte correction (especially potassium and chloride). NGT decompression. Hold anticoagulation and plan for reversal/bridging if urgent surgery needed. Surgical enterolithotomy: laparotomy (or laparoscopic approach in select centers), locate the impacted stone, perform enterotomy proximal to the impaction site, extract the stone, close the enterotomy primarily. Run the entire bowel to search for additional stones (found in 5-10% of cases). The decision to simultaneously perform cholecystectomy and fistula repair depends on the patient's clinical stability and comorbidity burden. In elderly, frail patients: enterolithotomy alone is the safer approach (mortality 12% vs. 17% for combined procedures in meta-analyses). In younger, fit patients or those with ongoing biliary symptoms: one-stage enterolithotomy plus cholecystectomy and fistula repair may be considered. The fistula may close spontaneously after the gallbladder is decompressed. Long-term: there is a small risk (2-5%) of gallbladder carcinoma in the setting of chronic cholecystoenteric fistula, which is the argument for eventual fistula repair.",
+    "high_yield_pearls": [
+      "The Rigler triad (small bowel obstruction, pneumobilia, ectopic gallstone) is pathognomonic for gallstone ileus but is seen in only 40-50% on plain X-ray; CT sensitivity exceeds 80%.",
+      "Gallstone ileus accounts for only 1-4% of all SBO but up to 25% of non-strangulated SBO in patients over 65.",
+      "The most common site of gallstone impaction is the terminal ileum; impaction at the duodenum/pylorus is called Bouveret syndrome.",
+      "At surgery, the entire bowel must be examined ('run') for additional stones, present in 5-10% of cases.",
+      "Enterolithotomy alone (without cholecystectomy and fistula repair) is preferred in elderly, high-risk patients to minimize operative morbidity and mortality.",
+      "The gallstone must be >2-2.5 cm to cause obstruction; smaller stones pass through the ileocecal valve without obstruction."
+    ],
+    "sources": [
+      "Reisner RM, Cohen JR. Am J Surg 1994;167:562-566 (Gallstone Ileus: A Review of 1001 Reported Cases)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 32",
+      "Nuño-Guzmán CM et al. World J Gastrointest Surg 2016;8:65-76",
+      "Halabi WJ et al. Ann Surg 2014;259:329-335"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Gallstone ileus", "Adhesive small bowel obstruction", "Small bowel tumor (obstructing)", "Incarcerated hernia", "Bezoar-related obstruction", "Crohn disease stricture"],
+    "after_stage2_more_likely": ["Gallstone ileus", "Adhesive small bowel obstruction"],
+    "after_stage2_less_likely": ["Incarcerated hernia", "Crohn disease stricture"],
+    "after_labs_top3": ["Gallstone ileus", "Adhesive small bowel obstruction", "Small bowel tumor"]
+  }
+}

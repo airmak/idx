@@ -1,0 +1,171 @@
+{
+  "case_id": "case_214",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Cervical cancer (early stage, squamous cell carcinoma, FIGO stage IB1)",
+  "icd_category": "C53.9 – Malignant neoplasm of cervix uteri, unspecified",
+  "one_liner": "A 38-year-old female with a history of high-risk HPV and missed Pap smears presents with 3 months of postcoital bleeding and a friable 2.5-cm cervical lesion; biopsy reveals invasive squamous cell carcinoma.",
+  "stage2": {
+    "hpi_extension": "The patient reports intermittent vaginal bleeding after intercourse for the past 3 months. The bleeding is typically small in volume (spotting to light flow) and resolves within a day. She has also noticed a watery, sometimes blood-tinged vaginal discharge with a mild odor. Her menstrual cycles have been regular, though she notes slightly heavier and longer periods over the past 2 months. She has no pelvic pain, urinary symptoms, bowel changes, or weight loss. She has not had a Pap smear in 6 years. At her last Pap smear (age 32), she was told she had 'an abnormal result' but did not follow up. She has no HIV history. She smokes 1 pack of cigarettes daily for the past 18 years.",
+    "pmh": "Abnormal Pap smear 6 years ago (no follow-up). HPV vaccination not received (aged out of initial vaccine recommendations). Three vaginal deliveries. No history of immunosuppression.",
+    "surgical_history": "None",
+    "medications": "Combined oral contraceptive pills for 8 years (discontinued 2 years ago)",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of cervical or gynecologic cancers.",
+    "social_history": "Smokes 1 pack per day for 18 years (18 pack-years). Social alcohol use. Works as a bartender. First sexual intercourse at age 15. Lifetime sexual partners: 8. No current partner.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "78 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "68 kg, BMI 24.5 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing woman in no acute distress. HEENT: No supraclavicular lymphadenopathy. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear to auscultation. Abdomen: Soft, non-tender, no masses, no hepatomegaly. Pelvic examination: Normal external genitalia; vagina without lesions; cervix with a 2.5 × 2.0-cm exophytic, friable, irregular mass on the anterior lip of the cervix that bleeds easily on contact; the mass does not appear to extend to the vaginal fornices; bimanual exam reveals a normal-sized mobile uterus; no parametrial thickening or nodularity; no adnexal masses or tenderness. Rectal examination: No parametrial extension palpated; rectum is smooth. Extremities: No edema; no inguinal lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Cervical biopsy (punch biopsy of lesion)",
+        "result": "Invasive squamous cell carcinoma, moderately differentiated. Depth of invasion approximately 8 mm. Lymphovascular space invasion (LVSI) not identified on biopsy specimen.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Histologic confirmation of invasive cervical cancer. Depth >5 mm and size >2 cm classifies this as FIGO stage IB1 (clinically visible lesion ≤4 cm)."
+      },
+      {
+        "test_name": "HPV genotyping",
+        "result": "HPV 16 positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "HPV 16 is the highest-risk HPV genotype, responsible for approximately 50% of cervical cancers worldwide."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.5 × 10³/µL, Hgb 10.8 g/dL, Plt 295 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia likely from chronic cervical bleeding."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 140, K 4.2, Cl 104, CO2 24, BUN 12, Cr 0.8, Glucose 90",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important baseline before potential treatment with nephrotoxic agents (cisplatin)."
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 22 U/L, ALT 18 U/L, Alk Phos 68 U/L, Total bilirubin 0.6 mg/dL, Albumin 4.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function; no evidence of hepatic metastases."
+      },
+      {
+        "test_name": "SCC antigen (squamous cell carcinoma antigen)",
+        "result": "4.8 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated SCC antigen (normal <1.5 ng/mL) is seen in squamous cell cervical cancer and can be used for monitoring treatment response and recurrence."
+      },
+      {
+        "test_name": "HIV test",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "HIV screening is recommended in all patients with cervical cancer, as immunosuppression accelerates HPV-related carcinogenesis."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Normal, no hematuria",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of urinary tract involvement by tumor."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "MRI pelvis with contrast",
+        "result": "Cervical mass measuring 2.5 × 2.0 × 1.8 cm confined to the cervix. No parametrial invasion. No evidence of vaginal extension beyond the cervix. No pelvic sidewall involvement. No enlarged pelvic or para-aortic lymph nodes. No hydronephrosis. Uterus and ovaries normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI confirms tumor confined to the cervix (stage IB1) with no parametrial or lymph node involvement. MRI is the best imaging modality for local staging of cervical cancer."
+      },
+      {
+        "test_name": "CT chest/abdomen/pelvis with contrast",
+        "result": "No pulmonary metastases. No hepatic metastases. No para-aortic lymphadenopathy. No hydronephrosis. Cervical mass as described on MRI.",
+        "flag": "WNL",
+        "clinical_significance": "No distant metastatic disease identified. CT is used for systemic staging to complement MRI local staging."
+      },
+      {
+        "test_name": "PET/CT (optional for early stage)",
+        "result": "FDG-avid cervical mass (SUVmax 8.2). No FDG-avid pelvic or para-aortic lymph nodes. No distant metastatic disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PET/CT confirms localized disease and is particularly useful for detecting occult lymph node metastases, though its role in early-stage disease is debated."
+      }
+    ],
+    "key_tests": [
+      "Cervical biopsy (punch biopsy or LEEP/cone biopsy for histologic confirmation)",
+      "MRI pelvis with contrast (local staging — parametrial invasion, vaginal extension)",
+      "CT chest/abdomen/pelvis (systemic staging)",
+      "HPV genotyping"
+    ],
+    "acceptable_tests": [
+      "CBC (baseline for treatment planning)",
+      "Renal function (baseline for cisplatin)",
+      "Hepatic function panel",
+      "SCC antigen (baseline for monitoring)",
+      "HIV screening",
+      "PET/CT (for equivocal lymph node findings)",
+      "Cystoscopy/proctoscopy (if concern for bladder or rectal invasion)"
+    ],
+    "low_yield_tests": [
+      "CA-125 (not a primary marker for cervical cancer)",
+      "Bone scan (no bone symptoms, PET/CT is superior)",
+      "Tumor genetic profiling (not standard for initial staging)",
+      "Brain MRI (no CNS symptoms, cervical cancer rarely metastasizes to brain initially)"
+    ],
+    "attending_pimp_questions": [
+      "How has the FIGO staging system for cervical cancer been updated to incorporate imaging and pathologic findings?",
+      "What is the role of sentinel lymph node mapping in early-stage cervical cancer?",
+      "When is radical hysterectomy versus concurrent chemoradiation the preferred treatment for cervical cancer?",
+      "What is the significance of LVSI in early-stage cervical cancer, and how does it affect management decisions?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Radical hysterectomy with bilateral pelvic lymph node dissection is performed. Final pathology confirms a 2.5-cm squamous cell carcinoma confined to the cervix with negative margins, no LVSI, and 0/22 lymph nodes positive for metastasis, consistent with FIGO stage IB1 with favorable prognostic features and no indication for adjuvant therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Early-stage cervical cancer typically presents with abnormal vaginal bleeding — most commonly postcoital bleeding (bleeding after intercourse). Other symptoms include intermenstrual bleeding, postmenopausal bleeding, and watery or blood-tinged vaginal discharge. A visible cervical lesion on speculum exam that bleeds on contact is highly suspicious. Risk factors include high-risk HPV infection (types 16 and 18), smoking, early sexual debut, multiple sexual partners, immunosuppression (HIV), and lack of cervical cancer screening.",
+    "attending_mode_notes": "The updated FIGO 2018 staging system for cervical cancer allows incorporation of imaging and pathologic findings (lymph node status) in addition to clinical examination, a significant change from the prior purely clinical staging system. Stage IB is subdivided: IB1 (≤2 cm), IB2 (>2-4 cm), IB3 (>4 cm). Sentinel lymph node (SLN) mapping is increasingly used in early-stage cervical cancer (IB1, IB2) to reduce morbidity of full lymphadenectomy while maintaining oncologic outcomes (SENTICOL trials). For IB1 with low-risk features (tumor <2 cm, stromal invasion <10 mm, no LVSI), radical hysterectomy with lymph node assessment is standard. The LACC trial demonstrated that minimally invasive radical hysterectomy (laparoscopic/robotic) was associated with worse disease-free survival compared to open surgery, changing practice back to open radical hysterectomy for early-stage disease. For stage IB3 and above, concurrent chemoradiation (cisplatin-based) with brachytherapy is the standard of care. Adjuvant chemoradiation after radical hysterectomy is indicated for: positive margins, parametrial invasion, or positive lymph nodes (Peters criteria). Intermediate-risk factors (LVSI+, deep stromal invasion, large tumor size — Sedlis criteria) warrant adjuvant radiation.",
+    "pathophysiology": "Cervical cancer arises from persistent infection with high-risk HPV (primarily types 16 and 18, which account for ~70% of cases). HPV oncoproteins E6 and E7 inactivate tumor suppressors p53 and Rb, respectively, driving cell proliferation. The transformation zone (squamocolumnar junction) of the cervix is the site of initial HPV infection and neoplastic transformation. Progression from HPV infection to CIN1 (low-grade) to CIN2/3 (high-grade) to invasive cancer typically takes 10-20 years, providing a window for screening and treatment. Smoking acts as a co-carcinogen by concentrating nicotine metabolites in cervical mucus and impairing local immune responses. Immunosuppression (HIV) accelerates progression by reducing immune clearance of HPV.",
+    "treatment_overview": "Stage IA1 without LVSI: cone biopsy or simple hysterectomy (fertility-sparing option). Stage IA1 with LVSI or IA2: radical hysterectomy with pelvic lymph node dissection (or radical trachelectomy for fertility preservation). Stage IB1-IB2: radical hysterectomy (open approach preferred per LACC trial) with bilateral pelvic lymphadenectomy ± SLN mapping. Concurrent chemoradiation (cisplatin 40 mg/m² weekly × 5-6 cycles with external beam radiation followed by brachytherapy) is an alternative. Stage IB3-IVA: concurrent chemoradiation with brachytherapy is primary treatment (GOG 120 established cisplatin-based chemoRT superiority). Immunotherapy (pembrolizumab) is FDA-approved for persistent/recurrent cervical cancer with PD-L1 expression or MSI-H. The KEYNOTE-826 trial showed benefit of pembrolizumab + chemotherapy ± bevacizumab in advanced cervical cancer.",
+    "high_yield_pearls": [
+      "Postcoital bleeding in a reproductive-age woman should prompt a speculum exam and Pap smear — a visible friable cervical lesion must be biopsied regardless of Pap results.",
+      "HPV types 16 and 18 cause approximately 70% of cervical cancers; HPV vaccination (Gardasil 9) prevents infection with these and 7 other oncogenic types and has dramatically reduced cervical cancer incidence in vaccinated populations.",
+      "The LACC trial demonstrated inferior outcomes with minimally invasive radical hysterectomy compared to open surgery for early-stage cervical cancer — open radical hysterectomy is now the standard approach.",
+      "MRI pelvis is the imaging modality of choice for local staging of cervical cancer (parametrial invasion, vaginal extension, tumor size), while CT or PET/CT is used for systemic staging (lymph nodes, distant metastases).",
+      "Cervical cancer is the only gynecologic malignancy staged by the FIGO clinical/pathologic staging system that does NOT change after surgery — the stage assigned at diagnosis remains the official stage even if surgical pathology differs."
+    ],
+    "sources": [
+      "NCCN Clinical Practice Guidelines: Cervical Cancer (2024)",
+      "FIGO Staging of Cervical Cancer (2018 Revision)",
+      "Ramirez PT et al. Minimally Invasive versus Abdominal Radical Hysterectomy for Cervical Cancer (LACC Trial). NEJM 2018",
+      "UpToDate: Invasive cervical cancer: Staging and evaluation of lymph nodes"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cervical cancer (squamous cell carcinoma)",
+      "Cervical polyp",
+      "Cervicitis (infectious or inflammatory)",
+      "Cervical ectropion",
+      "Endometrial cancer with cervical extension",
+      "Vaginal cancer"
+    ],
+    "after_stage2_more_likely": [
+      "Cervical cancer (visible friable mass on cervix, postcoital bleeding, risk factors including HPV exposure, smoking, missed screening, and early sexual debut)",
+      "Cervical polyp (can cause postcoital bleeding, but friable irregular mass is more concerning for malignancy)"
+    ],
+    "after_stage2_less_likely": [
+      "Cervicitis (no purulent discharge, mass lesion rather than inflammatory changes)",
+      "Cervical ectropion (ectropion is smooth and velvety, not friable and irregular)",
+      "Endometrial cancer (typically postmenopausal, and this mass originates from the cervix)"
+    ],
+    "after_labs_top3": [
+      "Cervical squamous cell carcinoma (confirmed by biopsy, HPV 16 positive, elevated SCC antigen)",
+      "Cervical adenocarcinoma (excluded by biopsy showing squamous histology)",
+      "Cervical adenosquamous carcinoma (excluded by pure squamous histology on biopsy)"
+    ]
+  }
+}

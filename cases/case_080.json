@@ -1,0 +1,79 @@
+{
+  "case_id": "case_080",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Culture-Negative Endocarditis",
+  "icd_category": "I33.0 — Acute and subacute infective endocarditis",
+  "one_liner": "A 48-year-old male with a prosthetic aortic valve presents with 6 weeks of fever, malaise, and weight loss with persistently negative blood cultures.",
+  "stage2": {
+    "hpi_extension": "The patient underwent mechanical aortic valve replacement 2 years ago for bicuspid aortic valve with severe regurgitation. He has had 6 weeks of low-grade fevers (100-101°F), drenching night sweats, 10-lb weight loss, fatigue, and myalgias. He was initially treated with a course of empiric antibiotics (amoxicillin/clavulanate) by his PCP 3 weeks ago for presumed URI with partial improvement, but symptoms recurred. Multiple blood cultures drawn at outside facilities have been negative. He denies IV drug use, dental procedures, or recent travel.",
+    "pmh": "Bicuspid aortic valve (mechanical AVR 2 years ago), hypertension, gout",
+    "surgical_history": "Mechanical aortic valve replacement (2 years ago)",
+    "medications": "Warfarin (target INR 2.5-3.5), lisinopril 10 mg daily, allopurinol 100 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had bicuspid aortic valve. No family history of immunodeficiency.",
+    "social_history": "Non-smoker. Moderate alcohol use (stopped due to illness). Owns a small farm with cattle and goats. Works outdoors. No IV drug use. No recent dental work. No recent travel outside the country.",
+    "vitals": {
+      "temp": "38.6°C (101.5°F)",
+      "hr": "96 bpm, regular",
+      "bp": "130/74 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "78 kg, BMI 25.1"
+    },
+    "physical_exam": "General: Chronically ill-appearing male, diaphoretic. HEENT: Roth spots on fundoscopic exam (retinal hemorrhages with white centers). No oral lesions. Cardiovascular: Mechanical click of prosthetic valve, new soft diastolic murmur (perivalvular leak), no rub. Pulmonary: Clear. Abdomen: Splenomegaly (palpable 3 cm below costal margin). Extremities: Osler nodes on fingertips (tender, raised nodules), splinter hemorrhages in nail beds. Skin: No Janeway lesions. No track marks."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Blood cultures (3 sets)", "result": "No growth at 5 days on standard media", "flag": "WNL", "clinical_significance": "Negative cultures in context of clinical endocarditis — defines culture-negative endocarditis. Prior antibiotics or fastidious organisms are likely causes."},
+      {"test_name": "ESR", "result": "78 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with chronic infection/inflammation"},
+      {"test_name": "CRP", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, active inflammatory process"},
+      {"test_name": "WBC", "result": "14,200/µL", "flag": "HIGH", "clinical_significance": "Leukocytosis indicating active infection"},
+      {"test_name": "Hemoglobin", "result": "10.5 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease/infection"},
+      {"test_name": "Rheumatoid factor", "result": "Positive (68 IU/mL)", "flag": "HIGH", "clinical_significance": "Elevated in subacute endocarditis (immune complex formation) — a minor Duke criterion"},
+      {"test_name": "Complement C3/C4", "result": "C3 65 mg/dL, C4 8 mg/dL", "flag": "LOW", "clinical_significance": "Hypocomplementemia from immune complex consumption"},
+      {"test_name": "Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment, possibly from immune complex glomerulonephritis or septic emboli"},
+      {"test_name": "Urinalysis", "result": "Microscopic hematuria (20 RBCs/hpf), 1+ protein", "flag": "ABNORMAL", "clinical_significance": "Glomerulonephritis from immune complex deposition — supports endocarditis"},
+      {"test_name": "Coxiella burnetii serology (Phase I IgG)", "result": "Phase I IgG 1:1024", "flag": "HIGH", "clinical_significance": "Diagnostic of chronic Q fever (Coxiella burnetii) endocarditis — Phase I IgG ≥1:800 is diagnostic"},
+      {"test_name": "Bartonella serology", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Bartonella endocarditis"},
+      {"test_name": "INR", "result": "2.8", "flag": "HIGH", "clinical_significance": "Therapeutic on warfarin for mechanical valve"}
+    ],
+    "imaging_results": [
+      {"test_name": "Transesophageal Echocardiogram (TEE)", "result": "Prosthetic aortic valve with a 12 mm mobile vegetation on the ventricular side. Moderate perivalvular regurgitation (new paravalvular leak). No abscess. Preserved LV function (LVEF 55%).", "flag": "ABNORMAL", "clinical_significance": "Vegetation on prosthetic valve confirms endocarditis. New perivalvular leak suggests progressive infection."},
+      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm, no new conduction abnormalities, no PR prolongation", "flag": "WNL", "clinical_significance": "No evidence of perivalvular abscess extending to conduction system"},
+      {"test_name": "CT abdomen/pelvis", "result": "Splenomegaly (16 cm). Wedge-shaped splenic infarct. No hepatic abscess.", "flag": "ABNORMAL", "clinical_significance": "Splenic infarct from septic embolization, supporting endocarditis diagnosis"}
+    ],
+    "key_tests": ["Blood cultures (multiple sets before antibiotics)", "Transesophageal echocardiogram", "Coxiella burnetii serology", "Bartonella serology", "ESR/CRP"],
+    "acceptable_tests": ["CBC", "Basic metabolic panel", "Urinalysis", "Rheumatoid factor", "Complement levels", "Brucella serology", "Legionella serology", "Fungal cultures", "CT abdomen", "12-lead ECG", "PCR of blood for fastidious organisms"],
+    "low_yield_tests": ["Stress test", "Cardiac catheterization", "Pulmonary function tests", "ANA", "Cardiac MRI"],
+    "key_tests_rationale": "TEE is superior to TTE for prosthetic valve endocarditis (sensitivity >90% vs ~50%). Blood cultures identify the pathogen. Coxiella and Bartonella serologies are essential when cultures are negative — they account for the majority of culture-negative endocarditis. ESR/CRP track inflammation."
+  },
+  "stage5": {
+    "final_clue": "TEE reveals a vegetation on the prosthetic aortic valve with perivalvular leak. Despite negative blood cultures, Coxiella burnetii Phase I IgG is ≥1:800, diagnostic of chronic Q fever endocarditis. The patient's farm exposure (cattle and goats) is the likely source."
+  },
+  "debrief": {
+    "classic_presentation": "Culture-negative endocarditis presents with the same clinical features as standard endocarditis (fever, new murmur, embolic phenomena, immune complex findings) but with persistently negative blood cultures. It accounts for 5-10% of all endocarditis cases. The most common causes are prior antibiotic use, Coxiella burnetii (Q fever), Bartonella species, HACEK organisms, and fungi.",
+    "attending_mode_notes": "The HACEK organisms (Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella) may require prolonged incubation but modern systems usually detect them. True culture-negative endocarditis is most commonly Coxiella or Bartonella. Q fever endocarditis almost exclusively affects patients with prior valvular disease or prosthetic valves. Phase I IgG ≥1:800 is a modified Duke major criterion. Treatment requires prolonged dual therapy (doxycycline + hydroxychloroquine for ≥18 months).",
+    "pathophysiology": "Coxiella burnetii is an obligate intracellular organism that infects monocytes/macrophages and cannot grow on standard blood culture media. Inhalation of aerosolized bacteria from infected livestock (cattle, goats, sheep) causes acute Q fever. In patients with pre-existing valvular disease, the organism can establish persistent infection on damaged or prosthetic valves. The chronicity leads to immune complex formation (positive RF, glomerulonephritis, Roth spots, Osler nodes).",
+    "treatment_overview": "Q fever endocarditis: doxycycline 100 mg BID + hydroxychloroquine 200 mg TID for a minimum of 18 months (often 2+ years until Phase I IgG titers fall below 1:200). Monitor titers every 3-6 months. Surgical valve replacement may be needed for hemodynamic deterioration, large vegetations, or uncontrolled infection. For other culture-negative causes: empiric therapy with ampicillin-sulbactam + gentamicin while awaiting serologies.",
+    "high_yield_pearls": [
+      "The top 3 causes of culture-negative endocarditis are prior antibiotic use, Coxiella burnetii (Q fever), and Bartonella species.",
+      "Coxiella burnetii Phase I IgG ≥1:800 is a major modified Duke criterion for Q fever endocarditis.",
+      "Q fever endocarditis almost exclusively occurs in patients with pre-existing valve disease or prosthetic valves — always ask about livestock/farm exposure.",
+      "TEE is essential for prosthetic valve endocarditis — TTE sensitivity is only ~50% for prosthetic valves due to acoustic shadowing.",
+      "Osler nodes (tender, immune-mediated) and Janeway lesions (painless, septic emboli) are classic peripheral manifestations of endocarditis but are found in fewer than 25% of cases."
+    ],
+    "sources": [
+      "2023 AHA/ACC Guideline for the Management of Endocarditis",
+      "Raoult et al., Culture-Negative Endocarditis, Annals of Internal Medicine 2005",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Fournier et al., Q Fever Endocarditis, Clinical Microbiology Reviews 1998"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Standard bacterial endocarditis", "Nonbacterial thrombotic endocarditis (marantic)", "Libman-Sacks endocarditis (SLE)", "Prosthetic valve dysfunction", "Occult malignancy with fever", "Systemic vasculitis"],
+    "after_stage2_more_likely": ["Infective endocarditis (prosthetic valve)", "Culture-negative endocarditis", "Q fever endocarditis"],
+    "after_stage2_less_likely": ["Nonbacterial endocarditis", "Malignancy", "Vasculitis"],
+    "after_labs_top3": ["Coxiella burnetii (Q fever) endocarditis", "Culture-negative prosthetic valve endocarditis", "Bartonella endocarditis"]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "case_id": "case_056",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Cholangiocarcinoma",
+  "icd_category": "C22.1 — Intrahepatic bile duct carcinoma",
+  "one_liner": "A 67-year-old male presents with progressive painless jaundice, pruritus, 15-pound weight loss, and acholic stools over the past 6 weeks.",
+  "stage2": {
+    "hpi_extension": "Patient reports a 6-week history of progressively worsening yellow discoloration of his skin and eyes. He noticed his urine becoming increasingly dark (tea-colored) and his stools becoming pale and clay-colored. He has developed intense generalized pruritus that is worse at night and has been disrupting his sleep. He has lost approximately 15 pounds over the past 2 months without trying. He reports vague right upper quadrant discomfort that is dull and constant but not severe. He has had intermittent low-grade fevers. His appetite has significantly decreased with early satiety and mild nausea. He denies abdominal pain crises, hematemesis, melena, or prior biliary disease. He was diagnosed with primary sclerosing cholangitis 12 years ago and has been followed with intermittent imaging and liver function monitoring. He also carries a diagnosis of ulcerative colitis, which is well-controlled.",
+    "pmh": "Primary sclerosing cholangitis (diagnosed 12 years ago), ulcerative colitis (diagnosed 15 years ago, well-controlled), hypertension, type 2 diabetes mellitus",
+    "surgical_history": "None",
+    "medications": "Mesalamine 1.2 g BID, ursodiol 300 mg TID, metformin 1000 mg BID, lisinopril 20 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of biliary disease or cancer. Father with type 2 diabetes.",
+    "social_history": "Never smoker. Former social drinker (quit 12 years ago when PSC diagnosed). Retired engineer. Married. No travel to endemic liver fluke areas. No illicit drug use.",
+    "vitals": {
+      "temp": "99.6 F (37.6 C)",
+      "hr": "82 bpm",
+      "bp": "128/74 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "70 kg, BMI 23.8"
+    },
+    "physical_exam": "General: Thin male appearing older than stated age. Marked jaundice. Mild temporal wasting. In no acute distress. HEENT: Deep scleral icterus bilaterally. Dry mucous membranes. Neck: Supple. No cervical or supraclavicular lymphadenopathy (no Virchow node). Cardiovascular: Regular rate and rhythm. No murmurs. Pulmonary: Clear bilaterally. Abdomen: Soft, mildly distended. Mild tenderness in the right upper quadrant. No rebound or guarding. Liver edge palpable 3 cm below the costal margin, firm. A non-tender, distended, palpable gallbladder is noted in the RUQ (Courvoisier sign). No splenomegaly. No ascites. Bowel sounds present. Rectal: Normal. Guaiac negative. Extremities: No edema. Skin: Jaundiced. Diffuse excoriations from scratching. No spider angiomata. No palmar erythema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Total Bilirubin", "result": "14.8 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with biliary obstruction"},
+      {"test_name": "Direct Bilirubin", "result": "12.2 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated (direct) hyperbilirubinemia confirms obstructive etiology"},
+      {"test_name": "Alkaline Phosphatase", "result": "642 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, cholestatic pattern typical of biliary obstruction"},
+      {"test_name": "GGT", "result": "486 U/L", "flag": "HIGH", "clinical_significance": "Elevated, confirms hepatobiliary origin of elevated ALP"},
+      {"test_name": "ALT", "result": "128 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated, secondary to cholestasis"},
+      {"test_name": "AST", "result": "96 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated"},
+      {"test_name": "Albumin", "result": "3.0 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic disease, malnutrition, and hepatic synthetic dysfunction"},
+      {"test_name": "PT/INR", "result": "INR 1.4", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from vitamin K malabsorption due to bile salt deficiency from biliary obstruction"},
+      {"test_name": "CA 19-9", "result": "486 U/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (normal <37); CA 19-9 >129 in PSC patients has high sensitivity for cholangiocarcinoma"},
+      {"test_name": "CEA", "result": "8.2 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may be elevated in cholangiocarcinoma but is nonspecific"},
+      {"test_name": "CBC - WBC", "result": "9.8 x10^9/L", "flag": "WNL", "clinical_significance": "Normal white count, no overt cholangitis"},
+      {"test_name": "CBC - Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely anemia of chronic disease"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast (triple phase)", "result": "A 3.2 cm hilar mass at the confluence of the right and left hepatic ducts (Klatskin tumor) causing marked intrahepatic biliary dilation bilaterally. The gallbladder is distended. Main portal vein appears patent. No definite hepatic metastases. No peritoneal carcinomatosis. Mild perihilar lymphadenopathy. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hilar cholangiocarcinoma (Bismuth-Corlette type IIIA or higher) causing bilateral intrahepatic ductal dilation. Portal vein patency is critical for surgical resectability assessment."},
+      {"test_name": "MRCP (Magnetic Resonance Cholangiopancreatography)", "result": "Complete obstruction at the hepatic duct confluence with bilateral intrahepatic biliary dilation. A 3.4 cm enhancing hilar mass is identified. The right hepatic duct appears involved with extension to the right posterior sectoral duct. Left hepatic duct is dilated to the hilum. No intrahepatic metastases. Main portal vein patent. Right portal vein encased by tumor.", "flag": "ABNORMAL", "clinical_significance": "MRCP confirms hilar cholangiocarcinoma (Bismuth type IIIa) with right portal vein encasement, which has implications for surgical planning and resectability."},
+      {"test_name": "Brush Cytology (via ERCP)", "result": "Atypical cells suspicious for adenocarcinoma. FISH (fluorescence in situ hybridization) positive for polysomy, consistent with malignancy.", "flag": "ABNORMAL", "clinical_significance": "Cytology with FISH positivity significantly increases diagnostic yield for cholangiocarcinoma in the setting of PSC. Confirms malignant biliary stricture."}
+    ],
+    "key_tests": ["CT abdomen (triple phase)", "MRCP", "Hepatic function panel (bilirubin, ALP, GGT, transaminases)", "CA 19-9", "ERCP with brush cytology and FISH"],
+    "acceptable_tests": ["CBC", "BMP", "Coagulation studies (PT/INR)", "CEA", "Albumin", "Chest CT (staging)", "PET/CT (staging for extrahepatic disease)", "EUS with FNA (for distal lesions)", "Percutaneous transhepatic cholangiography (PTC)"],
+    "low_yield_tests": ["Abdominal ultrasound alone (insufficient for staging)", "Percutaneous biopsy of hilar mass (risk of tumor seeding along needle tract)", "Abdominal X-ray", "Upper GI series", "Colonoscopy (for cholangiocarcinoma evaluation)"],
+    "final_clue": "CT and MRCP reveal a 3.4 cm hilar mass at the bile duct confluence (Klatskin tumor, Bismuth IIIa) with bilateral intrahepatic dilation and right portal vein encasement. CA 19-9 is markedly elevated at 486 U/mL. Brush cytology with FISH confirms malignancy. In a patient with longstanding primary sclerosing cholangitis, this is cholangiocarcinoma — the most feared complication of PSC."
+  },
+  "stage5": {
+    "final_clue": "CT and MRCP reveal a 3.4 cm hilar mass at the bile duct confluence (Klatskin tumor, Bismuth IIIa) with bilateral intrahepatic dilation and right portal vein encasement. CA 19-9 is markedly elevated at 486 U/mL. Brush cytology with FISH confirms malignancy. In a patient with longstanding primary sclerosing cholangitis, this is cholangiocarcinoma — the most feared complication of PSC."
+  },
+  "debrief": {
+    "classic_presentation": "Painless obstructive jaundice with pruritus, weight loss, and acholic stools. A palpable, non-tender gallbladder in the setting of painless jaundice (Courvoisier sign) suggests malignant biliary obstruction rather than gallstone disease. Cholangiocarcinoma is classified by anatomic location: intrahepatic (peripheral), perihilar (Klatskin tumor, 60-70% of cases), and distal extrahepatic. Primary sclerosing cholangitis is the strongest risk factor in Western countries; liver flukes (Opisthorchis, Clonorchis) are the major risk factor in Southeast Asia.",
+    "attending_mode_notes": "This case requires distinguishing malignant biliary stricture from benign PSC stricture, which is a major clinical challenge. Key attending-level considerations: (1) In PSC patients, a rapidly rising CA 19-9 >129 U/mL combined with a new dominant stricture should raise high suspicion for cholangiocarcinoma. (2) Conventional brush cytology has only 40-60% sensitivity; adding FISH for polysomy increases sensitivity to 60-70%. (3) The Bismuth-Corlette classification determines resectability: Type I-II may be resectable with bile duct excision; Type IIIa requires right hepatectomy plus caudate lobe resection; Type IIIb requires left hepatectomy plus caudate; Type IV is generally unresectable. (4) Right portal vein encasement in this case may preclude standard resection but portal vein resection and reconstruction may be considered at high-volume centers. (5) For unresectable perihilar cholangiocarcinoma in PSC patients, the Mayo Clinic neoadjuvant chemoradiation protocol followed by liver transplantation has shown 5-year survival rates of 65-70% in carefully selected patients. (6) Percutaneous biopsy of hilar lesions is generally avoided due to risk of peritoneal seeding, which would exclude the patient from transplant eligibility.",
+    "pathophysiology": "Cholangiocarcinoma arises from the epithelial cells of the bile ducts (cholangiocytes). Chronic biliary inflammation (PSC, liver flukes, hepatolithiasis) drives repeated cycles of injury and repair, promoting dysplasia and malignant transformation through accumulation of genetic alterations (TP53, KRAS, SMAD4, IDH1/2 mutations). In PSC, chronic cholestasis leads to bile acid toxicity, oxidative stress, and chronic inflammation that promotes carcinogenesis. Perihilar tumors (Klatskin tumors) grow along the bile duct wall with a desmoplastic reaction, often encasing adjacent portal vein and hepatic artery branches, which limits surgical resectability. Tumor spread occurs via direct extension, perineural invasion, lymphatic metastasis, and hematogenous spread to liver and peritoneum.",
+    "treatment_overview": "Surgical resection is the only potentially curative treatment. For perihilar tumors: bile duct resection with hepatectomy (the side with greater ductal involvement), caudate lobe resection (obligatory due to direct caudate drainage into the hilar confluence), and regional lymphadenectomy with Roux-en-Y hepaticojejunostomy. Preoperative portal vein embolization may be needed to hypertrophy the future liver remnant. Biliary drainage (ERCP or PTC) for preoperative decompression if cholangitis or planned chemotherapy. For unresectable/metastatic disease: gemcitabine plus cisplatin (ABC-02 trial regimen). Durvalumab added to gemcitabine-cisplatin (TOPAZ-1 trial) has become the new standard for first-line treatment of advanced biliary tract cancer. For PSC-associated cholangiocarcinoma, the Mayo Clinic liver transplant protocol (neoadjuvant chemoradiation followed by transplant) offers excellent outcomes in selected patients. Palliative biliary stenting (metal stent via ERCP or PTC) for symptom relief in unresectable cases.",
+    "high_yield_pearls": [
+      "Courvoisier sign (painless jaundice with palpable gallbladder) suggests malignant biliary obstruction; gallstone obstruction causes a fibrotic, non-distensible gallbladder.",
+      "Primary sclerosing cholangitis carries a 10-15% lifetime risk of cholangiocarcinoma, and this is the leading cause of death in PSC patients.",
+      "Klatskin tumor (perihilar cholangiocarcinoma) is the most common location, accounting for 60-70% of cholangiocarcinomas.",
+      "Bismuth-Corlette classification guides surgical approach: Types I-IIIa/b may be resectable; Type IV is generally unresectable.",
+      "CA 19-9 is the most useful serum marker, but it can be falsely elevated in cholangitis and cholestasis; it is also undetectable in Lewis antigen-negative patients (~7% of population).",
+      "Percutaneous biopsy of suspected hilar cholangiocarcinoma should be avoided to prevent tumor seeding, especially if liver transplantation is being considered."
+    ],
+    "sources": [
+      "Rizvi S et al. Nat Rev Dis Primers 2018;4:18 (Cholangiocarcinoma)",
+      "Oh DY et al. N Engl J Med 2022;387:1124-1135 (TOPAZ-1 Trial: Durvalumab plus gemcitabine-cisplatin in biliary tract cancer)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 31",
+      "Darwish Murad S et al. Gastroenterology 2012;143:88-98 (Liver transplantation for perihilar cholangiocarcinoma)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Cholangiocarcinoma (perihilar)", "Pancreatic head adenocarcinoma", "Benign PSC dominant stricture", "Gallbladder carcinoma", "Hepatocellular carcinoma", "Ampullary carcinoma", "IgG4-related sclerosing cholangitis", "Metastatic disease to the porta hepatis"],
+    "after_stage2_more_likely": ["Cholangiocarcinoma", "Pancreatic head adenocarcinoma", "Gallbladder carcinoma"],
+    "after_stage2_less_likely": ["Benign PSC dominant stricture", "Hepatocellular carcinoma"],
+    "after_labs_top3": ["Cholangiocarcinoma", "Pancreatic head adenocarcinoma", "Gallbladder carcinoma"]
+  }
+}

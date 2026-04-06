@@ -1,0 +1,111 @@
+{
+  "case_id": "case_155",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Prosthetic joint infection",
+  "icd_category": "T84.54XA — Infection and inflammatory reaction due to internal left knee prosthesis, initial encounter",
+  "one_liner": "A 70-year-old female presents with 3 months of progressive left knee pain, stiffness, and low-grade fevers 14 months after left total knee arthroplasty, with elevated synovial fluid WBC and cultures growing coagulase-negative Staphylococcus.",
+  "stage2": {
+    "hpi_extension": "The patient underwent left total knee arthroplasty (TKA) 14 months ago for severe osteoarthritis. She initially recovered well with good range of motion. However, over the past 3 months, she has developed progressive left knee pain, stiffness, and intermittent swelling. The pain is worse with weight-bearing and at night. She reports intermittent low-grade fevers (up to 37.9°C) and general malaise. There is no history of wound drainage, trauma, or recent dental procedures. She was treated with two courses of oral antibiotics (cephalexin, then ciprofloxacin) by her primary care physician without improvement. She had an unremarkable knee X-ray 2 months ago showing a well-positioned prosthesis without loosening. She has no other joint replacements.",
+    "pmh": "Osteoarthritis (bilateral knees, left worse), hypertension, type 2 diabetes mellitus (HbA1c 7.4%), obesity, hypothyroidism.",
+    "surgical_history": "Left total knee arthroplasty (14 months ago), cholecystectomy (8 years ago).",
+    "medications": "Metformin 1000 mg BID, lisinopril 20 mg daily, levothyroxine 75 mcg daily, acetaminophen 1000 mg TID.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired nurse. Lives with husband. Non-smoker. Occasional wine. No illicit drugs.",
+    "vitals": {
+      "temp": "37.6°C (99.7°F)",
+      "hr": "78 bpm",
+      "bp": "142/86 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "88 kg, BMI 33.4"
+    },
+    "physical_exam": "Obese elderly female in mild discomfort. Left knee: well-healed surgical scar, mild warmth compared to the right knee, moderate effusion, limited range of motion (10-85 degrees, compared to 0-120 on the right). Tenderness to palpation around the joint line. No erythema, sinus tract, or wound drainage. Pain with passive and active range of motion. Neurovascular exam intact distally. Right knee without effusion or tenderness. No other joint involvement."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Synovial Fluid WBC", "result": "12,400 cells/μL with 86% neutrophils", "flag": "HIGH", "clinical_significance": "Synovial WBC >3,000 with >80% PMNs meets MSIS criteria for chronic PJI (threshold for prosthetic joints is much lower than native joints)"},
+      {"test_name": "Synovial Fluid Culture", "result": "Growth of coagulase-negative Staphylococcus (S. epidermidis) at 7 days, in 2 of 3 samples. Sensitive to vancomycin, rifampin, daptomycin. Resistant to oxacillin, clindamycin.", "flag": "ABNORMAL", "clinical_significance": "S. epidermidis is the most common cause of chronic/delayed PJI; growth in ≥2 samples confirms true pathogen (not contaminant)"},
+      {"test_name": "Synovial Fluid Alpha-Defensin", "result": "Positive (signal-to-cutoff ratio 2.8)", "flag": "ABNORMAL", "clinical_significance": "Highly specific biomarker for PJI (specificity >95%); positive result strongly supports infection"},
+      {"test_name": "Serum ESR", "result": "52 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated ESR (>30 mm/hr) is a screening criterion for PJI per MSIS criteria"},
+      {"test_name": "Serum CRP", "result": "28 mg/L", "flag": "HIGH", "clinical_significance": "Elevated CRP (>10 mg/L) meets MSIS screening criterion for chronic PJI"},
+      {"test_name": "CBC — WBC", "result": "9,800/μL", "flag": "WNL", "clinical_significance": "Peripheral WBC is often normal in chronic PJI; does not rule out infection"},
+      {"test_name": "Blood Cultures (x2 sets)", "result": "No growth at 5 days", "flag": "WNL", "clinical_significance": "Bacteremia is uncommon in chronic PJI due to biofilm-based infection"},
+      {"test_name": "Serum D-dimer", "result": "1,420 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated D-dimer is included in the 2018 MSIS scoring criteria for PJI; non-specific but supportive"},
+      {"test_name": "HbA1c", "result": "7.4%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control is a risk factor for PJI"}
+    ],
+    "imaging_results": [
+      {"test_name": "X-ray Left Knee (AP and Lateral)", "result": "Left total knee prosthesis in place. Possible subtle radiolucent line at the tibial component-bone interface (2 mm). No frank loosening, periprosthetic fracture, or hardware failure.", "flag": "ABNORMAL", "clinical_significance": "Progressive radiolucent lines at the bone-prosthesis interface suggest loosening, which in this clinical context is likely infectious rather than aseptic"},
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Not performed.", "flag": "WNL", "clinical_significance": "Not indicated in this case"},
+      {"test_name": "Three-Phase Bone Scan with Indium-111 WBC Scan", "result": "Increased uptake on all three phases around the left knee prosthesis with concordant indium-111 labeled WBC uptake at the tibial component.", "flag": "ABNORMAL", "clinical_significance": "Combined bone scan and WBC scan concordant uptake supports prosthetic joint infection (higher specificity than bone scan alone)"}
+    ],
+    "key_tests": [
+      "Arthrocentesis with synovial fluid analysis: cell count and differential, culture (hold for 14 days), alpha-defensin",
+      "Serum ESR and CRP (screening criteria per MSIS)",
+      "Synovial fluid culture (minimum 2 samples, incubation ≥14 days for slow-growing organisms)",
+      "Intraoperative tissue cultures (5-6 samples at time of revision surgery)",
+      "Plain radiographs of the involved joint"
+    ],
+    "acceptable_tests": [
+      "Synovial fluid alpha-defensin (lateral flow or ELISA)",
+      "Serum D-dimer",
+      "Blood cultures",
+      "Nuclear imaging (combined bone scan + WBC scan)",
+      "Synovial fluid leukocyte esterase (strip test)",
+      "HbA1c (risk factor assessment)",
+      "Histopathology of periprosthetic tissue (>5 PMNs per HPF supports infection)"
+    ],
+    "low_yield_tests": [
+      "MRI of the knee (significant metal artifact from prosthesis limits diagnostic value)",
+      "CT without metal artifact reduction protocol",
+      "Peripheral blood WBC (often normal in chronic PJI)",
+      "Synovial fluid Gram stain (sensitivity <25% in chronic PJI)",
+      "PET/CT (may not distinguish infection from aseptic loosening in all cases)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A patient with progressive pain, effusion, and stiffness 14 months after TKA, with elevated ESR/CRP, synovial fluid WBC >3,000 with >80% PMNs, positive alpha-defensin, and S. epidermidis growing in 2 of 3 synovial fluid cultures. This meets the Musculoskeletal Infection Society (MSIS) diagnostic criteria for chronic periprosthetic joint infection. The chronic (>4-12 weeks from implantation) time course and coagulase-negative staphylococcal etiology are characteristic of delayed/hematogenous biofilm-based PJI."
+  },
+  "debrief": {
+    "classic_presentation": "Chronic PJI presents insidiously weeks to months (or years) after arthroplasty with progressive joint pain, stiffness, and effusion, often with low-grade fevers and failure to improve with conservative measures. Unlike acute PJI (within 4 weeks of surgery, presenting with wound drainage, erythema, and high fevers), chronic PJI has a more indolent course driven by biofilm-forming organisms. The most common pathogens are coagulase-negative staphylococci (S. epidermidis), followed by S. aureus, streptococci, enterococci, and gram-negative bacilli. Culture-negative PJI accounts for 5-10% of cases.",
+    "attending_mode_notes": "The 2018 MSIS (Musculoskeletal Infection Society) criteria use a weighted scoring system: major criteria (any one is diagnostic): (1) two positive cultures with the same organism, or (2) sinus tract communicating with the joint. Minor criteria (scored): elevated serum CRP (>1 mg/dL) = 1 point, elevated D-dimer (>860 ng/mL) = 2 points, elevated ESR (>30 mm/hr) = 1 point, elevated synovial WBC (>3,000) = 3 points, elevated synovial PMN% (>80%) = 2 points, positive synovial CRP (>6.9 mg/L) = 1 point. Score ≥6 = infected. Alpha-defensin is not in the formal MSIS criteria but has excellent performance (sensitivity ~97%, specificity ~97%) and is used widely in practice. Key management decision: timing of implantation determines surgical strategy. For chronic PJI (>4 weeks from onset), two-stage exchange arthroplasty is the gold standard (remove prosthesis, place antibiotic-impregnated cement spacer, 6-8 weeks of IV antibiotics, then reimplant). One-stage exchange is gaining acceptance in selected cases. DAIR (debridement, antibiotics, and implant retention) has high failure rates (~50%) for chronic PJI and is reserved for acute infections (<4 weeks from onset). Rifampin is a critical component of oral suppressive therapy due to its biofilm-penetrating activity but MUST always be combined with another antibiotic to prevent resistance.",
+    "pathophysiology": "PJI is fundamentally a biofilm infection. After inoculation (perioperative contamination or hematogenous seeding), bacteria adhere to the prosthetic surface and produce an extracellular polysaccharide matrix (biofilm). Within the biofilm, bacteria exist in a sessile, metabolically dormant state that is 100-1,000 times more resistant to antibiotics than planktonic bacteria. Biofilm also shields organisms from immune cell phagocytosis and prevents effective antibiotic penetration. This explains why systemic antibiotics alone cannot cure established PJI — the prosthetic material must be removed or exchanged. Coagulase-negative staphylococci (especially S. epidermidis) are particularly adept at biofilm formation via the icaADBC-encoded polysaccharide intercellular adhesin (PIA). The foreign body reaction at the implant surface also creates a local immune deficiency, impairing neutrophil function and complement activity in the periprosthetic space.",
+    "treatment_overview": "Chronic PJI (as in this case): two-stage exchange arthroplasty. Stage 1: explantation of all prosthetic components, thorough debridement, placement of antibiotic-loaded cement spacer (vancomycin + tobramycin), and collection of 5-6 intraoperative tissue cultures. Initiate IV antibiotics based on sensitivity: vancomycin 15-20 mg/kg Q12h for MRSE (adjust by trough 15-20 μg/mL) for 6 weeks. After IV course, transition to oral suppressive therapy with rifampin 300 mg BID + a companion drug (TMP-SMX DS BID, minocycline 100 mg BID, or a fluoroquinolone if sensitive) for 2-3 months. Stage 2: reimplantation when inflammatory markers normalize and repeat aspiration is negative. Overall success rate of two-stage exchange: 85-95%. Risk factor optimization: preoperative HbA1c <8%, BMI reduction, smoking cessation, nutritional optimization. This patient should have preoperative infectious disease and orthopedic surgery co-management.",
+    "high_yield_pearls": [
+      "Chronic PJI is a biofilm infection — systemic antibiotics alone will not cure it; surgical removal or exchange of the prosthesis is essential.",
+      "Coagulase-negative staphylococci (especially S. epidermidis) are the most common cause of chronic/delayed PJI; growth in ≥2 cultures confirms true infection rather than contamination.",
+      "Synovial fluid WBC thresholds for PJI are MUCH lower than for native joint septic arthritis: >3,000 WBC (chronic) or >10,000 WBC (acute) in prosthetic joints, versus >50,000 in native joints.",
+      "Rifampin is the key anti-biofilm antibiotic and must be included in the oral suppressive regimen for staphylococcal PJI, but it must ALWAYS be given with a companion agent to prevent resistance emergence.",
+      "The peripheral WBC is often normal in chronic PJI — ESR, CRP, and synovial fluid analysis are far more reliable diagnostic tools."
+    ],
+    "sources": [
+      "Parvizi J et al. The 2018 Definition of Periprosthetic Joint Infection: An Evidence-Based and Validated Criteria. J Arthroplasty. 2018;33(5):1309-1314.",
+      "Osmon DR et al. IDSA Clinical Practice Guidelines for the Diagnosis and Management of Prosthetic Joint Infection: 2012 Update. Clin Infect Dis. 2013;56(1):e1-e25.",
+      "UpToDate: Prosthetic joint infection — Treatment (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Prosthetic joint infection (chronic)",
+      "Aseptic loosening of prosthesis",
+      "Periprosthetic fracture",
+      "Crystal arthropathy (gout/pseudogout) in prosthetic joint",
+      "Metallosis (adverse local tissue reaction)",
+      "Referred pain from hip pathology"
+    ],
+    "after_stage2_more_likely": [
+      "Prosthetic joint infection — progressive pain and effusion 14 months after TKA with low-grade fevers, failure of oral antibiotics, and warmth on exam; subacute course suggests chronic infection",
+      "Aseptic loosening — progressive pain after TKA is the most common cause overall, but low-grade fevers and effusion raise concern for infection"
+    ],
+    "after_stage2_less_likely": [
+      "Crystal arthropathy — can occur in prosthetic joints but would not explain persistent fevers and failure to improve on antibiotics",
+      "Periprosthetic fracture — no trauma history, and X-ray 2 months ago showed no fracture"
+    ],
+    "after_labs_top3": [
+      "Chronic PJI — meets MSIS criteria: ≥2 positive cultures (S. epidermidis), elevated ESR and CRP, synovial WBC >3,000 with >80% PMNs, positive alpha-defensin",
+      "Aseptic loosening — excluded by positive microbiologic and biochemical evidence of infection; the radiolucent line on X-ray is likely infectious loosening",
+      "Crystal arthropathy — synovial fluid analysis shows no crystals; neutrophilic predominance with positive cultures confirms infection"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "case_id": "case_154",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Brucellosis",
+  "icd_category": "A23.0 — Brucellosis due to Brucella melitensis",
+  "one_liner": "A 45-year-old male sheep farmer who recently emigrated from Turkey presents with 8 weeks of undulant fever, profuse sweating, sacroiliac joint pain, hepatosplenomegaly, and cultures growing a slow-growing gram-negative coccobacillus.",
+  "stage2": {
+    "hpi_extension": "The patient emigrated from southeastern Turkey 6 months ago and previously worked as a sheep and goat farmer. He has been experiencing 8 weeks of undulant fevers (peaking to 39.5°C in the evening, resolving by morning), drenching night sweats with a characteristic musty odor, progressive fatigue, anorexia, and 5 kg weight loss. He reports worsening low back and left sacroiliac pain that has made it difficult to walk. He also reports diffuse arthralgias and myalgias. He consumed unpasteurized goat cheese regularly in Turkey and continued to find it at local ethnic markets. He denies cough, rash, or urinary symptoms. No diarrhea. No known TB contacts.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "Ibuprofen 600 mg TID PRN for joint pain.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Recent immigrant from Turkey (6 months). Former sheep/goat farmer. Now works in construction. Non-smoker. No alcohol. No illicit drugs. Married with 3 children. Regularly consumes unpasteurized dairy products from ethnic markets.",
+    "vitals": {
+      "temp": "38.8°C (101.8°F)",
+      "hr": "88 bpm",
+      "bp": "124/76 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "72 kg, BMI 24.1"
+    },
+    "physical_exam": "Mildly ill-appearing male with visible diaphoresis. No lymphadenopathy. Lungs clear. Heart: regular rate and rhythm, no murmurs. Abdomen: hepatomegaly (liver palpable 3 cm below right costal margin) and splenomegaly (spleen tip palpable 4 cm below left costal margin). No ascites. Musculoskeletal: marked tenderness over the left sacroiliac joint with positive FABER test on the left. No lumbar spine tenderness. Limited range of motion in the left hip due to pain. Bilateral knee examination normal. Skin: no rash, no nodules. Neurologic exam non-focal."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Blood Cultures (Aerobic)", "result": "Growth at 5 days: gram-negative coccobacilli identified as Brucella melitensis by MALDI-TOF", "flag": "ABNORMAL", "clinical_significance": "Gold standard for diagnosis; Brucella species require prolonged incubation (up to 21 days in older systems); laboratory must be notified of clinical suspicion due to biosafety risk (BSL-3 agent)"},
+      {"test_name": "Brucella Serum Agglutination Test (SAT)", "result": "Titer 1:640", "flag": "ABNORMAL", "clinical_significance": "Titer ≥1:160 is diagnostic in the appropriate clinical context; high titer supports active disease"},
+      {"test_name": "CBC — WBC", "result": "3,600/μL with 55% lymphocytes", "flag": "LOW", "clinical_significance": "Leukopenia with relative lymphocytosis is characteristic of brucellosis"},
+      {"test_name": "CBC — Platelets", "result": "124,000/μL", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia seen in brucellosis from splenic sequestration and bone marrow involvement"},
+      {"test_name": "AST/ALT", "result": "AST 78 U/L, ALT 92 U/L", "flag": "HIGH", "clinical_significance": "Granulomatous hepatitis is common in brucellosis"},
+      {"test_name": "Alkaline Phosphatase", "result": "188 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic granulomatous infiltration"},
+      {"test_name": "ESR", "result": "48 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with chronic infection"},
+      {"test_name": "CRP", "result": "56 mg/L", "flag": "HIGH", "clinical_significance": "Moderate elevation reflecting chronic inflammatory state"},
+      {"test_name": "Serum Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "QuantiFERON-TB Gold", "result": "Negative", "flag": "WNL", "clinical_significance": "Helps exclude tuberculosis, which shares clinical and epidemiologic overlap"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Pelvis (Sacroiliac Joints)", "result": "Left sacroiliac joint: bone marrow edema on both iliac and sacral sides, joint space irregularity, small joint effusion, and periarticular soft tissue enhancement. Right SI joint appears normal.", "flag": "ABNORMAL", "clinical_significance": "Unilateral sacroiliitis is a classic musculoskeletal complication of brucellosis; left SI joint most commonly affected"},
+      {"test_name": "CT Abdomen with Contrast", "result": "Hepatomegaly (17 cm) and splenomegaly (15 cm). Several small hypodense lesions in the spleen (up to 1.2 cm). No abscess. Mild retroperitoneal lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Hepatosplenomegaly with splenic granulomas consistent with disseminated brucellosis"}
+    ],
+    "key_tests": [
+      "Blood cultures (extended incubation up to 21 days; notify lab of Brucella suspicion for biosafety)",
+      "Brucella serum agglutination test (SAT) — titer ≥1:160 diagnostic",
+      "MRI of affected joint (for osteoarticular involvement)",
+      "CBC with differential",
+      "Hepatic function panel"
+    ],
+    "acceptable_tests": [
+      "Brucella IgM/IgG ELISA",
+      "CRP and ESR",
+      "CT abdomen/pelvis (hepatosplenomegaly, splenic lesions)",
+      "QuantiFERON or PPD (exclude TB)",
+      "Echocardiography (if concern for Brucella endocarditis — leading cause of Brucella-related mortality)",
+      "Bone marrow biopsy with culture (if blood cultures negative)"
+    ],
+    "low_yield_tests": [
+      "Brucella skin test (Brucellergene — not available in the US, not recommended for diagnosis)",
+      "ANA panel",
+      "X-ray of sacroiliac joints (insensitive compared to MRI for early sacroiliitis)",
+      "Lumbar puncture (no neurologic symptoms)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A sheep farmer from Turkey with undulant fevers (evening peaks, morning resolution), profuse sweating, hepatosplenomegaly, unilateral sacroiliitis, and consumption of unpasteurized goat dairy. Blood cultures grow B. melitensis, serum agglutination titer is 1:640, and MRI confirms left SI joint sacroiliitis. Leukopenia with relative lymphocytosis and granulomatous hepatitis complete the clinical picture of osteoarticular brucellosis."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with occupational exposure to livestock (farmers, veterinarians, slaughterhouse workers) or consumption of unpasteurized dairy products from endemic regions (Mediterranean, Middle East, Central/South America, Central Asia) presenting with undulant fevers (rising in the evening, resolving by morning), drenching sweats (classically described as having a 'musty barn-like' odor), hepatosplenomegaly, and osteoarticular involvement (sacroiliitis, spondylitis, peripheral arthritis). Laboratory findings include leukopenia with relative lymphocytosis, transaminitis, and elevated ESR/CRP.",
+    "attending_mode_notes": "Brucella is a BSL-3 organism — laboratory personnel MUST be notified of clinical suspicion to prevent occupational exposure. Unsuspected Brucella growth has caused numerous laboratory-acquired infections. Modern automated blood culture systems (BACTEC) can detect Brucella within 5-7 days, but older systems may require up to 21 days. MALDI-TOF has revolutionized identification. Neurobrucellosis (meningoencephalitis, cranial neuropathies) occurs in 2-5% of cases and requires addition of ceftriaxone or TMP-SMX to penetrate the CNS. Brucella endocarditis, though rare (1-2%), is the leading cause of Brucella-related death and requires prolonged therapy plus valve surgery. The prozone phenomenon can cause false-negative agglutination tests at low dilutions — always request serial dilutions. Relapse rate is 5-15% even with appropriate dual therapy; most relapses occur within 6 months and are due to insufficient treatment duration rather than resistance.",
+    "pathophysiology": "Brucella species are facultative intracellular gram-negative coccobacilli. B. melitensis (goats/sheep) is the most virulent species; B. abortus (cattle), B. suis (pigs), and B. canis (dogs) also cause human disease. Transmission occurs through ingestion of unpasteurized dairy, direct contact with infected animal tissues/secretions (especially aborted material), or inhalation of aerosolized organisms. After entry, Brucella is phagocytosed by macrophages but survives intracellularly by inhibiting phagosome-lysosome fusion using its type IV secretion system (VirB). The organism replicates within ER-derived compartments in macrophages, then disseminates via the reticuloendothelial system to lymph nodes, liver, spleen, and bone marrow, forming non-caseating granulomas. The intracellular survival explains the requirement for prolonged combination antibiotic therapy with intracellular-penetrating agents. Osteoarticular tropism (especially sacroiliac joints and lumbar spine) may relate to the reticuloendothelial tissue in vertebral bodies and the relative sluggish blood flow in the sacroiliac joints.",
+    "treatment_overview": "WHO-recommended regimen: doxycycline 100 mg PO BID for 6 weeks PLUS streptomycin 1g IM daily for 2-3 weeks. Alternative (more practical): doxycycline 100 mg PO BID PLUS rifampin 600-900 mg PO daily, both for 6 weeks. For osteoarticular brucellosis (as in this patient): extend to 8-12 weeks with doxycycline + rifampin (some experts add a fluoroquinolone or aminoglycoside for the first 2-3 weeks). For Brucella endocarditis or neurobrucellosis: triple therapy (doxycycline + rifampin + ceftriaxone or TMP-SMX) for 3-6 months minimum; surgical valve replacement for endocarditis. Monitor for relapse: repeat Brucella serology at 3, 6, and 12 months; declining SAT titer indicates treatment response. Relapse should be treated with a different combination for a longer duration. Counsel on avoidance of unpasteurized dairy products.",
+    "high_yield_pearls": [
+      "Brucella is a BSL-3 organism — the clinical laboratory MUST be notified of suspicion to prevent laboratory-acquired infections, which are among the most common.",
+      "Undulant fever (evening peaks, morning resolution) with profuse sweating, hepatosplenomegaly, and sacroiliitis in a patient from an endemic area with livestock or unpasteurized dairy exposure is classic for brucellosis.",
+      "The most common musculoskeletal complication of brucellosis is sacroiliitis (typically unilateral, left > right), followed by spondylitis (lumbar > thoracic).",
+      "Brucella endocarditis is rare (1-2%) but is the leading cause of Brucella-related mortality; echocardiography should be performed if a new murmur, persistent bacteremia, or unexplained heart failure develops.",
+      "Treatment requires prolonged combination therapy (minimum 6 weeks) with intracellular-penetrating antibiotics — doxycycline + rifampin or doxycycline + streptomycin are first-line."
+    ],
+    "sources": [
+      "Pappas G et al. Brucellosis. N Engl J Med. 2005;352(22):2325-2336.",
+      "Ariza J et al. Perspectives for the treatment of brucellosis in the 21st century: the Ioannina recommendations. PLoS Med. 2007;4(12):e317.",
+      "UpToDate: Clinical manifestations, diagnosis, and treatment of brucellosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Brucellosis",
+      "Tuberculosis (spinal or disseminated)",
+      "Q fever (Coxiella burnetii)",
+      "Infective endocarditis",
+      "Lymphoma",
+      "Visceral leishmaniasis",
+      "Systemic lupus erythematosus"
+    ],
+    "after_stage2_more_likely": [
+      "Brucellosis — undulant fever, profuse sweating, hepatosplenomegaly, and sacroiliitis in a former sheep farmer from Turkey with unpasteurized dairy consumption; classic epidemiologic and clinical profile",
+      "Spinal tuberculosis — livestock farmer from an endemic area with low back pain and systemic symptoms; geographic overlap but less typical clinical pattern for TB"
+    ],
+    "after_stage2_less_likely": [
+      "Lymphoma — B symptoms present but sacroiliitis and sweating pattern are atypical; epidemiologic exposure strongly favors an infectious etiology",
+      "SLE — arthralgias and cytopenias could overlap, but undulant fever and hepatosplenomegaly with this exposure history point to infection"
+    ],
+    "after_labs_top3": [
+      "Brucellosis — blood cultures grow B. melitensis, SAT titer 1:640, MRI confirms sacroiliitis, leukopenia with relative lymphocytosis, granulomatous hepatitis",
+      "Tuberculosis — excluded by negative QuantiFERON and Brucella-positive cultures; remains a differential in sacroiliitis from endemic areas",
+      "Q fever — another zoonosis with hepatosplenomegaly and granulomatous hepatitis but excluded by positive Brucella cultures and serology"
+    ]
+  }
+}

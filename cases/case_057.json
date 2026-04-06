@@ -1,0 +1,78 @@
+{
+  "case_id": "case_057",
+  "mode": "attending",
+  "specialty": "Surgery",
+  "diagnosis": "Mesenteric Venous Thrombosis",
+  "icd_category": "K55.0 — Acute vascular disorders of intestine",
+  "one_liner": "A 42-year-old male with a recent diagnosis of factor V Leiden presents with 5 days of worsening, diffuse abdominal pain out of proportion to exam findings, along with nausea, anorexia, and bloody diarrhea.",
+  "stage2": {
+    "hpi_extension": "Patient reports a 5-day history of progressively worsening abdominal pain. The pain started as vague periumbilical discomfort and has gradually become more diffuse and severe, now rated 8/10. It is constant, crampy, and not related to meals. He has had progressive nausea, decreased appetite, abdominal bloating, and intermittent bloody diarrhea for the past 2 days (3-4 episodes of maroon-colored stools). He has felt generally unwell with malaise and low-grade fevers. He was recently diagnosed with factor V Leiden heterozygosity after his brother was diagnosed with a deep vein thrombosis. He was not started on anticoagulation as he had no personal history of thrombotic events. He has been on a long international flight 10 days ago. He denies any history of liver disease, portal hypertension, or recent abdominal surgery. He has not had any recent medication changes.",
+    "pmh": "Factor V Leiden (heterozygous, diagnosed 3 months ago), no personal history of thromboembolism, mild obesity",
+    "surgical_history": "Laparoscopic appendectomy (age 28)",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Brother with DVT at age 38 (also factor V Leiden). Mother with pulmonary embolism at age 55.",
+    "social_history": "Non-smoker. Drinks 2-3 beers per week. Works as a business consultant with frequent international travel. Single. No illicit drug use. Recent 14-hour flight 10 days ago.",
+    "vitals": {
+      "temp": "100.4 F (38.0 C)",
+      "hr": "104 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "94 kg, BMI 30.8"
+    },
+    "physical_exam": "General: Male appearing uncomfortable but not in acute distress. Mild diaphoresis. HEENT: Mucous membranes slightly dry. No scleral icterus. Neck: Supple. No JVD. Cardiovascular: Tachycardic, regular rhythm. No murmurs. Pulmonary: Clear bilaterally. Abdomen: Mildly distended. Diffuse tenderness with a vague quality — the pain appears out of proportion to the physical findings. Minimal voluntary guarding. No rebound tenderness. No rigidity. No peritoneal signs. Bowel sounds are present but diminished. No hepatosplenomegaly. No ascites. Rectal: Maroon-colored stool in the vault. No masses. Extremities: No lower extremity edema. No calf tenderness. Skin: No rashes. No signs of chronic liver disease."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "16.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis consistent with mesenteric ischemia and systemic inflammation"},
+      {"test_name": "CBC - Hemoglobin", "result": "15.6 g/dL", "flag": "WNL", "clinical_significance": "Normal to high-normal, may reflect hemoconcentration from third-spacing"},
+      {"test_name": "CBC - Platelets", "result": "142 x10^9/L", "flag": "WNL", "clinical_significance": "Low-normal, may be consumed in the thrombotic process"},
+      {"test_name": "Lactate", "result": "4.2 mmol/L", "flag": "HIGH", "clinical_significance": "Significantly elevated, concerning for intestinal ischemia and tissue hypoperfusion"},
+      {"test_name": "D-dimer", "result": "6.8 mg/L FEU", "flag": "HIGH", "clinical_significance": "Markedly elevated, highly sensitive (though nonspecific) for thrombosis; a normal D-dimer would make MVT unlikely"},
+      {"test_name": "BMP - BUN", "result": "34 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration and possible third-spacing"},
+      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, prerenal component"},
+      {"test_name": "BMP - Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Low, metabolic acidosis consistent with lactic acidosis from bowel ischemia"},
+      {"test_name": "LDH", "result": "342 U/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting tissue ischemia"},
+      {"test_name": "ALT", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal hepatic function"},
+      {"test_name": "Amylase", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, can occur with bowel ischemia (not specific to pancreatitis)"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast (CT angiography, portal venous phase)", "result": "Extensive thrombosis of the superior mesenteric vein (SMV) extending to the portal vein confluence. Multiple loops of small bowel in the mid-jejunum and proximal ileum show wall thickening, submucosal edema ('target sign'), and mesenteric congestion. Mesenteric fat stranding and small amount of ascites. No pneumatosis intestinalis. No portal venous gas. The superior mesenteric artery is patent.", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of acute mesenteric venous thrombosis with secondary venous congestion and bowel wall edema. Absence of pneumatosis and portal venous gas suggests the bowel has not yet progressed to transmural infarction."},
+      {"test_name": "CT Chest (obtained simultaneously for PE screening)", "result": "No pulmonary embolism. No pleural effusions. Clear lung fields.", "flag": "WNL", "clinical_significance": "Excludes concurrent pulmonary embolism in this patient with prothrombotic state."}
+    ],
+    "key_tests": ["CT abdomen/pelvis with IV contrast (CTA with arterial and portal venous phases)", "Serum lactate", "D-dimer", "CBC with differential", "BMP with bicarbonate"],
+    "acceptable_tests": ["ABG/VBG", "LDH", "Amylase/lipase", "Coagulation studies (PT/INR, PTT)", "Blood type and screen", "Hepatic function panel", "Thrombophilia workup (factor V Leiden confirmation, protein C/S, antithrombin III — after acute phase)", "CT chest (PE screening)"],
+    "low_yield_tests": ["Abdominal X-ray (late findings only: thumbprinting, pneumatosis)", "Mesenteric angiography (better for arterial occlusion than venous thrombosis)", "Abdominal ultrasound with Doppler (limited by bowel gas and body habitus)", "Colonoscopy (does not evaluate small bowel mesenteric circulation)", "Barium studies (contraindicated if ischemia suspected)"],
+    "final_clue": "CT angiography reveals extensive superior mesenteric vein thrombosis with secondary small bowel wall edema and mesenteric congestion, without signs of transmural infarction. Lactate is significantly elevated at 4.2 mmol/L. In a patient with factor V Leiden and recent prolonged immobility, this is acute mesenteric venous thrombosis requiring immediate anticoagulation and close surgical monitoring."
+  },
+  "stage5": {
+    "final_clue": "CT angiography reveals extensive superior mesenteric vein thrombosis with secondary small bowel wall edema and mesenteric congestion, without signs of transmural infarction. Lactate is significantly elevated at 4.2 mmol/L. In a patient with factor V Leiden and recent prolonged immobility, this is acute mesenteric venous thrombosis requiring immediate anticoagulation and close surgical monitoring."
+  },
+  "debrief": {
+    "classic_presentation": "Insidious onset of vague, diffuse abdominal pain over days to weeks (in contrast to the abrupt onset in arterial mesenteric ischemia). Pain out of proportion to physical exam findings is a classic feature of all mesenteric ischemia. Nausea, anorexia, diarrhea (often bloody), and abdominal bloating are common. MVT accounts for 5-15% of mesenteric ischemia cases. Risk factors include hypercoagulable states (factor V Leiden, protein C/S deficiency, antithrombin III deficiency, antiphospholipid syndrome), portal hypertension, cirrhosis, malignancy, recent abdominal surgery, pancreatitis, and oral contraceptive use.",
+    "attending_mode_notes": "This case illustrates several key attending-level decision points: (1) The gradual onset of abdominal pain over days with pain out of proportion to exam is the hallmark that should prompt consideration of mesenteric ischemia — the differential must include venous thrombosis, not just arterial occlusion. (2) CT angiography must include both arterial AND portal venous phases; a routine CT with only portal venous phase may detect MVT, but CTA protocol optimizes sensitivity for both arterial and venous pathology. (3) The critical management decision is operative vs. non-operative: In the absence of peritonitis, pneumatosis intestinalis, or portal venous gas, initial non-operative management with systemic anticoagulation (IV heparin) is first-line. (4) Serial abdominal exams and lactate trending every 4-6 hours are essential — a rising lactate or development of peritoneal signs mandates emergent laparotomy. (5) The role of catheter-directed thrombolysis (via transjugular intrahepatic or transhepatic approach into the SMV) is reserved for patients with worsening despite anticoagulation but without overt peritonitis. (6) Long-term anticoagulation (lifelong warfarin or DOAC) is required given the underlying thrombophilia. (7) Thrombophilia workup should be deferred until the acute event is resolved and the patient is off anticoagulation, though factor V Leiden genotyping is unaffected by acute thrombosis or anticoagulation.",
+    "pathophysiology": "Acute mesenteric venous thrombosis results from thrombus formation in the mesenteric veins (most commonly the SMV), leading to venous outflow obstruction. This causes venous congestion, increased capillary pressure, bowel wall edema, submucosal hemorrhage, and transudation of fluid into the bowel lumen and peritoneal cavity. As venous congestion worsens, arterial inflow is compromised (due to the increased venous back-pressure), leading to ischemia and eventually transmural infarction. The process is more gradual than arterial occlusion, explaining the subacute presentation. Thrombus extension to the portal vein can cause portal hypertension. In hypercoagulable states, an imbalance between procoagulant and anticoagulant factors predisposes to venous thrombosis, particularly in the low-flow splanchnic venous system.",
+    "treatment_overview": "Immediate systemic anticoagulation with unfractionated heparin (UFH) infusion is the cornerstone of treatment for MVT without signs of bowel infarction. Bowel rest, IV fluid resuscitation, and broad-spectrum antibiotics (for bacterial translocation). Serial clinical assessments (abdominal exam every 4-6 hours) and serial lactate monitoring. If peritonitis develops, pneumatosis intestinalis or portal venous gas appears, or the patient clinically deteriorates despite anticoagulation, emergent exploratory laparotomy is indicated with resection of nonviable bowel and a planned second-look laparotomy at 24-48 hours. Catheter-directed thrombolysis or mechanical thrombectomy may be considered in select patients with clinical deterioration despite anticoagulation. Transition to long-term oral anticoagulation (warfarin with INR goal 2-3, or DOAC if no contraindication). Duration: lifelong if underlying thrombophilia is identified. Thrombophilia workup should be completed. Assess for occult malignancy if no other etiology identified.",
+    "high_yield_pearls": [
+      "Pain out of proportion to physical exam findings is the hallmark of mesenteric ischemia (both arterial and venous).",
+      "Mesenteric venous thrombosis has a more insidious, subacute onset (days to weeks) compared to arterial mesenteric ischemia (sudden, catastrophic).",
+      "CT angiography with portal venous phase is the diagnostic study of choice for MVT; look for thrombus in the SMV, bowel wall thickening, mesenteric congestion, and ascites.",
+      "Anticoagulation (not surgery) is first-line treatment for MVT in the absence of peritonitis or bowel infarction.",
+      "Pneumatosis intestinalis and portal venous gas on CT are late, ominous signs indicating transmural bowel infarction and the need for emergent surgery.",
+      "D-dimer has high sensitivity (>90%) for MVT; a normal D-dimer effectively excludes the diagnosis."
+    ],
+    "sources": [
+      "Singal AK et al. Mayo Clin Proc 2013;88:285-294 (Mesenteric Venous Thrombosis)",
+      "Hmoud B et al. Clin Liver Dis 2014;18:547-563",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 26",
+      "Acosta S. Br J Surg 2014;101:e100-e108 (Mesenteric Vascular Disease)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia (SMA embolism/thrombosis)", "Inflammatory bowel disease flare", "Infectious colitis", "Small bowel obstruction", "Acute pancreatitis", "Ischemic colitis (non-occlusive)"],
+    "after_stage2_more_likely": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia", "Inflammatory bowel disease"],
+    "after_stage2_less_likely": ["Small bowel obstruction", "Acute pancreatitis"],
+    "after_labs_top3": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia", "Ischemic colitis"]
+  }
+}

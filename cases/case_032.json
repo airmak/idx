@@ -1,0 +1,74 @@
+{
+  "case_id": "case_032",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Tension Pneumothorax",
+  "icd_category": "J93.0 — Spontaneous tension pneumothorax",
+  "one_liner": "A 22-year-old tall, thin male presents with sudden-onset right-sided chest pain, severe dyspnea, and hypotension after playing basketball.",
+  "stage2": {
+    "hpi_extension": "Patient was playing basketball when he experienced sudden, sharp right-sided chest pain followed by progressive difficulty breathing over the past 30 minutes. The dyspnea has been rapidly worsening and he is now unable to speak in full sentences. He feels lightheaded and as if he might pass out. Denies any trauma or contact injury during the game. No cough, fever, hemoptysis, or leg swelling. No history of similar episodes. No recent air travel or surgery. He reports he has been told he has a 'tall, thin body type.' Non-smoker.",
+    "pmh": "None. No history of lung disease, connective tissue disorders, or prior pneumothorax.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of Marfan syndrome or lung disease. Mother and father are healthy.",
+    "social_history": "College student. Non-smoker. Occasional alcohol. No illicit drug use. Active in sports (basketball, running).",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "132 bpm",
+      "bp": "78/50 mmHg",
+      "rr": "36 breaths/min",
+      "spo2": "82% on room air",
+      "weight_bmi": "72 kg, BMI 19.1 (height 6'4\")"
+    },
+    "physical_exam": "General: Tall, thin young male in severe respiratory distress. Diaphoretic, unable to speak in full sentences, appears anxious. HEENT: Pale. Trachea deviated to the LEFT. Distended neck veins (JVD present). Cardiovascular: Severely tachycardic. Distant heart sounds. No murmurs appreciated. Weak, thready pulses. Pulmonary: ABSENT breath sounds on the RIGHT side. Hyperresonance to percussion on the right. Left lung with fair air entry. No wheezing. Abdomen: Soft, non-tender. Skin: Diaphoretic, cool, mottled peripherally. Extremities: No edema. No stigmata of connective tissue disease. Capillary refill >4 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "ABG - pH", "result": "7.30", "flag": "LOW", "clinical_significance": "Acidosis from respiratory failure and poor tissue perfusion"},
+      {"test_name": "ABG - pCO2", "result": "52 mmHg", "flag": "HIGH", "clinical_significance": "Hypercapnia from impaired ventilation"},
+      {"test_name": "ABG - pO2", "result": "48 mmHg", "flag": "LOW", "clinical_significance": "Severe hypoxemia"},
+      {"test_name": "Lactate", "result": "4.5 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from obstructive shock and tissue hypoperfusion"},
+      {"test_name": "CBC - Hemoglobin", "result": "15.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, excludes hemorrhage"},
+      {"test_name": "CBC - WBC", "result": "9.8 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal, excludes acute MI"},
+      {"test_name": "BMP - Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mildly low, mixed acid-base disturbance"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (obtained after needle decompression)", "result": "Large right pneumothorax with partial re-expansion after decompression. Visible visceral pleural line. Mediastinal shift to left partially corrected. No rib fractures.", "flag": "ABNORMAL", "clinical_significance": "Confirms pneumothorax and documents post-decompression status; chest tube placement still required"},
+      {"test_name": "Bedside Ultrasound (E-FAST)", "result": "Absent lung sliding on the right with barcode sign on M-mode. Normal lung sliding on the left. No pericardial effusion.", "flag": "ABNORMAL", "clinical_significance": "Absent lung sliding confirms pneumothorax; performed at bedside to support clinical diagnosis"}
+    ],
+    "key_tests": ["Bedside ultrasound (lung sliding assessment)", "Chest X-ray (after stabilization)", "Arterial blood gas"],
+    "acceptable_tests": ["CBC", "BMP", "Lactate", "Troponin", "ECG", "Point-of-care glucose"],
+    "low_yield_tests": ["CT chest (delays treatment in unstable patient)", "D-dimer", "BNP", "Sputum culture", "Pulmonary function tests"]
+  },
+  "stage5": {
+    "final_clue": "The triad of hypotension, absent breath sounds on the right, and tracheal deviation to the left in a young, tall male with sudden-onset dyspnea confirms tension pneumothorax. This is a clinical diagnosis requiring immediate needle decompression without waiting for imaging."
+  },
+  "debrief": {
+    "classic_presentation": "Sudden-onset unilateral chest pain and dyspnea with hypotension, tachycardia, JVD, absent breath sounds, hyperresonance to percussion, and contralateral tracheal deviation on the affected side. Often in tall, thin young males (primary spontaneous) or after trauma/mechanical ventilation (secondary/traumatic).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Tension pneumothorax occurs when air enters the pleural space through a one-way valve mechanism and cannot escape. Progressive accumulation of air under pressure collapses the ipsilateral lung, shifts the mediastinum contralaterally, compresses the contralateral lung, and kinks the great vessels (IVC and SVC). This impairs venous return, reducing cardiac output and causing obstructive shock. Without immediate decompression, cardiovascular collapse and death occur rapidly.",
+    "treatment_overview": "Immediate needle decompression (14-gauge needle, 2nd intercostal space midclavicular line or 4th/5th intercostal space anterior axillary line) is the first-line emergency treatment. Do NOT delay for imaging. Follow with tube thoracostomy (chest tube, 28-32 French) for definitive drainage. Monitor with serial chest X-rays. Consider thoracic surgery consultation for persistent air leak or recurrent pneumothorax. For primary spontaneous pneumothorax, video-assisted thoracoscopic surgery (VATS) with bleb resection and pleurodesis reduces recurrence from 30% to <5%.",
+    "high_yield_pearls": [
+      "Tension pneumothorax is a CLINICAL diagnosis. Do not delay treatment for imaging in an unstable patient.",
+      "The 4th/5th intercostal space at the anterior axillary line is now preferred for needle decompression (higher success rate than 2nd ICS MCL).",
+      "Risk factors for primary spontaneous pneumothorax: tall/thin habitus, male sex, smoking, family history, Marfan syndrome.",
+      "Pulseless electrical activity (PEA) arrest with absent unilateral breath sounds should prompt immediate needle decompression.",
+      "Recurrence rate for primary spontaneous pneumothorax is approximately 30% within the first year."
+    ],
+    "sources": [
+      "ATLS, 10th Edition (American College of Surgeons)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 65",
+      "BTS Guidelines for Spontaneous Pneumothorax (Thorax 2010;65:ii18-ii31)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Tension pneumothorax", "Simple pneumothorax", "Massive hemothorax", "Pulmonary embolism", "Cardiac tamponade", "Acute asthma exacerbation", "Myocardial infarction"],
+    "after_stage2_more_likely": ["Tension pneumothorax", "Simple pneumothorax"],
+    "after_stage2_less_likely": ["Acute asthma exacerbation", "Myocardial infarction", "Massive hemothorax"],
+    "after_labs_top3": ["Tension pneumothorax", "Simple pneumothorax", "Pulmonary embolism"]
+  }
+}

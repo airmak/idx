@@ -1,0 +1,77 @@
+{
+  "case_id": "case_120",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Cerebral venous sinus thrombosis",
+  "icd_category": "I67.6 — Nonpyogenic thrombosis of intracranial venous system",
+  "one_liner": "A 32-year-old woman on combined oral contraceptives presents with progressive headache worsening over 10 days, a seizure, and papilledema, with CT venography showing superior sagittal sinus thrombosis.",
+  "stage2": {
+    "hpi_extension": "The patient developed a diffuse headache 10 days ago that has progressively worsened despite ibuprofen and acetaminophen. The headache is constant, worse in the morning and when lying down, and exacerbated by coughing and straining (Valsalva maneuver). Five days ago, she noticed intermittent blurred vision (transient visual obscurations lasting seconds). Two days ago, she experienced a focal seizure with twitching of her left hand that progressed to a generalized tonic-clonic seizure lasting 2 minutes. She has had nausea and vomiting for the past 3 days. She started combined oral contraceptive pills 4 months ago. She recently completed a 12-hour international flight 2 weeks ago. No history of prior blood clots, miscarriages, or family history of thrombophilia. No head trauma. No recent infection.",
+    "pmh": "Migraine without aura (occasional, well-controlled). Obesity.",
+    "surgical_history": "None.",
+    "medications": "Combined oral contraceptive pills (ethinyl estradiol/norgestimate), ibuprofen 400 mg PRN.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother had DVT at age 45 (on estrogen therapy). No known thrombophilia testing in family.",
+    "social_history": "Marketing executive. Non-smoker. Social alcohol (1-2 drinks/week, stopped since headache). No illicit drug use. Recently returned from a business trip to Japan (12-hour flight) 2 weeks ago.",
+    "vitals": {
+      "temp": "99.0 F (37.2 C)",
+      "hr": "88 bpm",
+      "bp": "132/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "86 kg, BMI 31.2"
+    },
+    "physical_exam": "General: Alert, uncomfortable-appearing woman, shielding eyes from light. HEENT: BILATERAL PAPILLEDEMA on fundoscopy — blurred disc margins, elevated optic discs, venous engorgement, and loss of spontaneous venous pulsations bilaterally. Visual acuity: 20/30 bilaterally (baseline 20/20). Cranial nerves: Left CN VI (abducens) palsy — limited left lateral gaze with horizontal diplopia (a false localizing sign of elevated ICP). Other cranial nerves intact. Neuro: Alert, oriented x4. Language fluent. No aphasia. Motor: 5/5 strength in all extremities. No pronator drift. Sensory: Intact. DTRs: 2+ and symmetric. Babinski downgoing bilaterally. Gait: Normal but patient is unsteady due to headache and nausea. No neck stiffness. Visual fields: Enlarged blind spots bilaterally on confrontation testing."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "9,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal; polycythemia excluded"},
+      {"test_name": "CBC — Platelets", "result": "268,000/uL", "flag": "WNL", "clinical_significance": "Normal; thrombocytosis excluded"},
+      {"test_name": "PT/INR", "result": "11.8 sec / INR 1.0", "flag": "WNL", "clinical_significance": "Normal baseline coagulation; establishes pre-anticoagulation baseline"},
+      {"test_name": "D-dimer", "result": "2.8 ug/mL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated D-dimer supports active thrombosis. However, a normal D-dimer does not exclude CVST (sensitivity ~94% but not 100%)."},
+      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Pregnancy test (beta-hCG)", "result": "Negative", "flag": "WNL", "clinical_significance": "Pregnancy excluded (important as pregnancy/puerperium is a major risk factor for CVST, and pregnancy status affects anticoagulation management)"},
+      {"test_name": "Factor V Leiden mutation", "result": "Heterozygous positive", "flag": "ABNORMAL", "clinical_significance": "Factor V Leiden (activated protein C resistance) is the most common inherited thrombophilia. Combined with OCP use, it significantly increases CVST risk (synergistic effect — 30-50x increased risk)."},
+      {"test_name": "Protein C activity", "result": "68% (low-normal; interpret with caution during acute thrombosis)", "flag": "BORDERLINE", "clinical_significance": "Borderline low; may be consumed during acute thrombosis. Repeat testing recommended 3 months after acute event, off anticoagulation."},
+      {"test_name": "Antithrombin III", "result": "92%", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Antiphospholipid antibodies (lupus anticoagulant, anticardiolipin, beta-2-GP1)", "result": "Negative", "flag": "WNL", "clinical_significance": "Antiphospholipid syndrome excluded"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "Hyperdense superior sagittal sinus (dense triangle sign). Subtle left parasagittal cortical hypodensity suggesting venous infarction with small petechial hemorrhage. Mild cerebral edema.", "flag": "ABNORMAL", "clinical_significance": "The dense triangle sign (hyperdense thrombus in the SSS on non-contrast CT) is a classic but insensitive finding (~25% sensitivity). The cortical hemorrhagic venous infarct is a complication of CVST."},
+      {"test_name": "CT venography (CTV)", "result": "Filling defect in the superior sagittal sinus extending into the right transverse sinus — consistent with dural venous sinus thrombosis. The 'empty delta sign' is present (contrast enhancement around a central filling defect in the SSS on contrast CT). Left parasagittal venous infarction with petechial hemorrhage.", "flag": "ABNORMAL", "clinical_significance": "CTV confirms extensive superior sagittal sinus thrombosis with extension into the right transverse sinus. The 'empty delta sign' on contrast-enhanced CT is the classic imaging finding. CTV has >95% sensitivity for CVST."},
+      {"test_name": "MRI/MRV brain", "result": "MRI: Left parasagittal venous infarction with hemorrhagic transformation. MRV: Absent flow in the superior sagittal sinus and right transverse sinus, confirming thrombosis. Collateral cortical venous drainage present.", "flag": "ABNORMAL", "clinical_significance": "MRV confirms the extent of venous thrombosis. MRI better characterizes the venous infarct and hemorrhagic component. MRV is the gold standard non-invasive test for CVST."}
+    ],
+    "key_tests": ["CT venography (CTV) or MR venography (MRV) — definitive imaging", "CT head without contrast (initial screening, low sensitivity for CVST itself)", "D-dimer (if negative, reduces probability but does not exclude)", "Fundoscopy (for papilledema)", "Thrombophilia workup (after acute phase)"],
+    "acceptable_tests": ["CBC with differential", "BMP", "PT/INR, aPTT", "Pregnancy test", "D-dimer", "Thrombophilia panel (Factor V Leiden, Prothrombin G20210A, Protein C, Protein S, Antithrombin III, antiphospholipid antibodies)", "Lumbar puncture with opening pressure (after imaging rules out herniation risk)"],
+    "low_yield_tests": ["Carotid ultrasound", "EEG (unless seizure management needed)", "Cerebral angiography (rarely needed — CTV/MRV sufficient)", "ESR/CRP (nonspecific)"],
+    "low_yield_tests_note": "Thrombophilia testing during the acute phase may be unreliable (protein C/S consumed, heparin affects antithrombin) — defer definitive testing to 3 months post-event off anticoagulation."
+  },
+  "stage5": {
+    "final_clue": "CTV and MRV confirm extensive superior sagittal sinus thrombosis with right transverse sinus extension and left parasagittal venous hemorrhagic infarction. Thrombophilia workup reveals heterozygous Factor V Leiden mutation, which combined with OCP use represents a high-risk prothrombotic state. The patient is admitted and started on IV unfractionated heparin (despite the presence of hemorrhagic infarction — anticoagulation is still indicated in CVST with hemorrhage). OCPs are immediately discontinued. Levetiracetam is continued for seizure prophylaxis. Acetazolamide is added for ICP management. The headache gradually improves over 2 weeks. She is transitioned to warfarin (target INR 2-3) and discharged at day 10. She is counseled to avoid estrogen-containing contraception permanently and is switched to a progestin-only method. Anticoagulation is planned for at least 6-12 months given the provoked thrombosis with underlying thrombophilia."
+  },
+  "debrief": {
+    "classic_presentation": "Young woman on combined oral contraceptives presenting with progressive headache worsening over days to weeks, seizures, papilledema with transient visual obscurations, and focal neurological signs (depending on location of venous infarction), with CT showing the dense triangle or empty delta sign and CTV/MRV confirming dural venous sinus thrombosis.",
+    "attending_mode_notes": "This case tests several attending-level concepts: (1) Recognizing that CVST can mimic idiopathic intracranial hypertension (IIH) — both present with headache, papilledema, and CN VI palsy in young obese women. The critical distinguishing feature is seizures (unusual in IIH) and the progressive, worsening nature of headache. Always obtain venous imaging before diagnosing IIH. (2) Understanding that anticoagulation is indicated even when CVST is complicated by hemorrhagic infarction — this is counterintuitive but supported by evidence (hemorrhage results from venous congestion, and anticoagulation prevents thrombus propagation). (3) Recognizing the synergistic risk of OCP + thrombophilia — Factor V Leiden heterozygosity alone increases VTE risk ~5x, but combined with OCP use the risk is 30-50x. (4) Understanding that non-contrast CT has only ~30% sensitivity for CVST — a normal CT does NOT exclude it. CTV or MRV is required. (5) CN VI palsy in this context is a 'false localizing sign' of elevated ICP (the long course of CN VI makes it vulnerable to compression), not a sign of focal brainstem pathology.",
+    "pathophysiology": "CVST results from thrombosis of the dural venous sinuses (most commonly the superior sagittal sinus, transverse sinus, or both). Pathogenesis involves Virchow's triad: stasis (dehydration, long flights), endothelial injury, and hypercoagulability (OCP use, thrombophilia, pregnancy). Venous thrombosis impairs CSF absorption at the arachnoid granulations (which drain into the SSS), causing elevated ICP — explaining headache, papilledema, and CN VI palsy. Venous outflow obstruction also causes venous congestion and elevated venous pressure in cortical veins, leading to vasogenic edema and venous infarction. Venous infarcts characteristically show hemorrhagic transformation (because reperfusion through collaterals into congested tissue causes hemorrhage) — this distinguishes them from arterial infarcts (which are typically non-hemorrhagic initially). The location of venous infarction depends on which sinus is thrombosed (SSS → bilateral parasagittal, transverse sinus → temporal lobe).",
+    "treatment_overview": "Anticoagulation: IV heparin (UFH) or LMWH is first-line treatment for CVST — EVEN in the presence of hemorrhagic infarction (supported by ISCVT study and international guidelines). Transition to warfarin (INR 2-3) or DOAC (limited data but increasing use). Duration: 3-6 months for provoked CVST, 6-12 months for unprovoked or with thrombophilia, indefinite if recurrent or severe thrombophilia. ICP management: Acetazolamide (reduces CSF production), head elevation, avoid hypotension. Lumbar puncture may be therapeutic if vision-threatening papilledema. Seizures: Levetiracetam or other AED; prophylactic anticonvulsants recommended if cortical venous infarct present. Endovascular thrombectomy: Reserved for patients deteriorating despite anticoagulation. OCP discontinuation is mandatory. Prognosis: Good — 80% have good outcome (mRS 0-1), mortality 3-5%.",
+    "high_yield_pearls": [
+      "Anticoagulation with heparin is indicated in CVST even when complicated by hemorrhagic infarction — the hemorrhage is a CONSEQUENCE of venous congestion, and anticoagulation prevents thrombus propagation. This is evidence-based (ISCVT study).",
+      "Non-contrast CT is NORMAL in up to 70% of CVST cases — CTV or MRV must be obtained when CVST is suspected. The 'dense triangle sign' (non-contrast) and 'empty delta sign' (contrast) are classic but insensitive.",
+      "Always obtain CTV or MRV before diagnosing idiopathic intracranial hypertension (IIH) — CVST is a dangerous mimic that presents similarly (headache, papilledema, CN VI palsy) but requires anticoagulation, not acetazolamide alone.",
+      "OCP use + Factor V Leiden heterozygosity has a synergistic effect on CVST risk (~30-50x increased risk) — always obtain thrombophilia testing in young CVST patients and counsel against estrogen-containing contraception.",
+      "Seizures occur in ~40% of CVST patients (much higher than in IIH) and should raise suspicion for CVST over IIH when present with headache and papilledema."
+    ],
+    "sources": [
+      "Ferro JM, et al. International Study on Cerebral Vein and Dural Sinus Thrombosis (ISCVT). Stroke. 2004",
+      "AHA/ASA Scientific Statement: Diagnosis and Management of Cerebral Venous Thrombosis, 2011",
+      "UpToDate: Cerebral venous thrombosis — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension", "Meningitis", "Subarachnoid hemorrhage", "Brain tumor", "Migraine with complications", "Arterial ischemic stroke", "Cerebral abscess"],
+    "after_stage2_more_likely": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension"],
+    "after_stage2_less_likely": ["Meningitis", "Subarachnoid hemorrhage"],
+    "after_labs_top3": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension", "Brain tumor"]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "case_253",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Hereditary hemochromatosis presenting as fatigue",
+  "icd_category": "E83.110 — Hereditary hemochromatosis",
+  "one_liner": "A 48-year-old man of Northern European descent presents with 6 months of progressive fatigue, arthralgia of the second and third MCP joints, and mildly elevated liver enzymes, with markedly elevated transferrin saturation.",
+  "stage2": {
+    "hpi_extension": "The patient presents with 6 months of progressive fatigue that he initially attributed to work stress. He describes feeling 'drained' despite adequate sleep (7-8 hours nightly). He has noticed new-onset joint pain in his hands, specifically the second and third MCP joints bilaterally, which is worse in the morning and with gripping. His wife has commented that his skin appears slightly darker or 'bronze' despite no sun exposure. He reports decreased libido and erectile dysfunction for the past 3 months. He was found to have mildly elevated liver enzymes on routine bloodwork 2 months ago but did not follow up. He denies abdominal pain, jaundice, dark urine, or change in bowel habits. He has no history of excessive alcohol intake, hepatitis, or blood transfusions. He is of Irish descent.",
+    "pmh": "Elevated liver enzymes (discovered 2 months ago, uninvestigated). Pre-diabetes (HbA1c 6.2% last year). No prior diagnosis of liver disease.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of liver cirrhosis at age 62 ('they never figured out why — he wasn't a heavy drinker'). Mother with type 2 diabetes. Paternal uncle with 'liver problems.' No known family history of hemochromatosis (not tested). Irish/Scottish ancestry on both sides.",
+    "social_history": "Works as a construction manager. Married with two children. Drinks 2-3 beers per week (consistent for years). Non-smoker. No illicit drug use. No tattoos, no IV drug use, no blood transfusions. Eats red meat regularly (5-6 times/week). Takes vitamin C supplements with meals.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "76 bpm",
+      "bp": "130/80 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "195 lbs, BMI 28.8 kg/m²"
+    },
+    "physical_exam": "General: Middle-aged man with slightly bronze-tinted skin, appears fatigued. HEENT: Mild scleral icterus. Oropharynx clear. Neck: No lymphadenopathy, no thyromegaly. Cardiovascular: Regular rate and rhythm, no murmurs, no S3. Lungs: Clear to auscultation bilaterally. Abdomen: Liver palpable 2 cm below costal margin, mildly firm, non-tender. No splenomegaly. No ascites. Musculoskeletal: Bony enlargement and mild tenderness of bilateral 2nd and 3rd MCP joints with reduced grip strength. No warmth or erythema. Skin: Diffuse bronze hyperpigmentation, most prominent on sun-exposed areas and axillae. No palmar erythema, no spider angiomata. Genitourinary: Testicular exam deferred, patient reports small testes. Neurological: Grossly intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum iron", "result": "245 mcg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated serum iron (normal 60-170) indicating iron overload"},
+      {"test_name": "Ferritin", "result": "1,850 ng/mL", "flag": "HIGH", "clinical_significance": "Dramatically elevated ferritin (normal 12-300) indicating substantial iron stores; ferritin >1000 increases risk of cirrhosis"},
+      {"test_name": "Transferrin saturation", "result": "82%", "flag": "HIGH", "clinical_significance": "Fasting transferrin saturation >45% is the best screening test for hemochromatosis; >82% is strongly diagnostic"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.1, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 118, Ca 9.4, AST 68, ALT 82, Alk Phos 95, Albumin 3.8, Total Bilirubin 1.4", "flag": "ABNORMAL", "clinical_significance": "Elevated transaminases indicating hepatocellular injury from iron deposition; fasting glucose elevated consistent with pre-diabetes/diabetes from pancreatic iron deposition"},
+      {"test_name": "HbA1c", "result": "6.8%", "flag": "HIGH", "clinical_significance": "Diabetes range — 'bronze diabetes' is a classic finding of hemochromatosis due to iron deposition in the pancreas"},
+      {"test_name": "HFE gene testing", "result": "Homozygous C282Y mutation (C282Y/C282Y)", "flag": "ABNORMAL", "clinical_significance": "C282Y homozygosity is present in >90% of hereditary hemochromatosis cases; confirms genetic diagnosis"},
+      {"test_name": "CBC with differential", "result": "WBC 6.0, Hgb 15.2, Hct 45.8, Plt 180", "flag": "WNL", "clinical_significance": "Normal CBC; hemoglobin is not elevated (iron overload does not cause polycythemia)"},
+      {"test_name": "Testosterone (total, AM)", "result": "148 ng/dL", "flag": "LOW", "clinical_significance": "Low testosterone from iron deposition in the pituitary (hypogonadotropic hypogonadism) — explains decreased libido and erectile dysfunction"},
+      {"test_name": "LH/FSH", "result": "LH 1.2, FSH 1.8 mIU/mL", "flag": "LOW", "clinical_significance": "Inappropriately low gonadotropins confirming secondary (hypogonadotropic) hypogonadism from pituitary iron deposition"},
+      {"test_name": "Hepatitis B surface antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out hepatitis B as cause of elevated transaminases"},
+      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out hepatitis C"},
+      {"test_name": "Alpha-fetoprotein", "result": "8 ng/mL", "flag": "WNL", "clinical_significance": "Normal AFP — baseline for hepatocellular carcinoma surveillance (hemochromatosis patients with cirrhosis need regular screening)"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Liver (with T2* iron quantification)", "result": "Hepatomegaly. Diffusely decreased T2* signal intensity consistent with hepatic iron overload. Hepatic iron concentration estimated at 180 mcmol/g (normal <36). No focal liver lesions. No evidence of cirrhosis by imaging criteria.", "flag": "ABNORMAL", "clinical_significance": "MRI T2* confirms significant hepatic iron overload; FerriScan estimation of liver iron concentration is markedly elevated; absence of cirrhosis is favorable"},
+      {"test_name": "X-ray bilateral hands", "result": "Joint space narrowing and hook-like osteophytes at bilateral 2nd and 3rd MCP joints. Chondrocalcinosis in the triangular fibrocartilage of the wrist bilaterally.", "flag": "ABNORMAL", "clinical_significance": "Hemochromatosis arthropathy — MCP joint involvement with hook osteophytes and chondrocalcinosis (pseudogout) are classic radiographic findings"}
+    ],
+    "key_tests": [
+      "Transferrin saturation — 82%, the best initial screening test for hemochromatosis (>45% warrants further evaluation)",
+      "Ferritin — 1,850 ng/mL, indicating substantial iron stores and organ damage risk",
+      "HFE gene testing — C282Y homozygosity confirming hereditary hemochromatosis",
+      "MRI Liver with T2* — confirming hepatic iron overload and absence of cirrhosis",
+      "Hand X-rays — showing characteristic hemochromatosis arthropathy (2nd/3rd MCP hook osteophytes)"
+    ],
+    "acceptable_tests": [
+      "CMP — identifying elevated transaminases from hepatic iron",
+      "HbA1c — diagnosing diabetes from pancreatic iron deposition",
+      "Testosterone and LH/FSH — diagnosing hypogonadotropic hypogonadism",
+      "Hepatitis B and C serologies — ruling out viral hepatitis",
+      "Alpha-fetoprotein — baseline HCC screening",
+      "CBC — baseline assessment"
+    ],
+    "low_yield_tests": [
+      "Liver biopsy (MRI T2* is now preferred for iron quantification; biopsy reserved if ferritin >1000 with possible cirrhosis or uncertain diagnosis)",
+      "Bone marrow biopsy (not indicated when diagnosis is established by serum studies and genetics)",
+      "CT abdomen (MRI is preferred for iron quantification; CT cannot accurately quantify iron)",
+      "Serum ceruloplasmin (Wilson disease presents younger with different features)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The diagnosis of hereditary hemochromatosis is confirmed by: (1) dramatically elevated transferrin saturation (82%) and ferritin (1,850), (2) C282Y homozygosity on HFE gene testing, and (3) MRI confirming hepatic iron overload. The clinical picture demonstrates multi-organ iron deposition: liver (elevated transaminases, hepatomegaly), pancreas (new diabetes — 'bronze diabetes'), pituitary (hypogonadotropic hypogonadism with low testosterone), joints (2nd/3rd MCP arthropathy with chondrocalcinosis), and skin (bronze hyperpigmentation). The father's unexplained cirrhosis strongly suggests he had undiagnosed hemochromatosis."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged man (typically 40-60 years; women present later due to menstrual iron losses) of Northern European ancestry presenting with the classic triad of 'bronze diabetes': bronze skin hyperpigmentation, diabetes mellitus, and hepatomegaly/cirrhosis. Additional manifestations include arthropathy (characteristically affecting the 2nd and 3rd MCP joints), hypogonadism, fatigue, and cardiomyopathy. The presentation is often subtle with fatigue and arthralgia as initial symptoms, and the classic triad represents advanced disease.",
+    "attending_mode_notes": "Hemochromatosis is the most common genetic disorder in people of Northern European descent (1:200-250 prevalence for C282Y homozygosity, though clinical penetrance is only 25-50%). The key clinical challenge is early detection before organ damage occurs. Transferrin saturation >45% (fasting) is the best screening test — it becomes elevated before ferritin rises. Ferritin >1000 ng/mL correlates with increased risk of cirrhosis and is an indication for liver biopsy or advanced imaging to stage fibrosis. The arthropathy is often the first and most persistent symptom — importantly, it does NOT improve with phlebotomy and may worsen. The pattern of MCP joint involvement with hook osteophytes and chondrocalcinosis should trigger hemochromatosis evaluation even without other features. Screen all first-degree relatives with HFE genotyping and iron studies. Phlebotomy is highly effective when started before cirrhosis develops — 5-year survival approaches 100% in non-cirrhotic patients. Once cirrhosis develops, there is a 200-fold increased risk of hepatocellular carcinoma requiring lifelong surveillance with ultrasound and AFP every 6 months.",
+    "pathophysiology": "Hereditary hemochromatosis (HH) is an autosomal recessive disorder caused by mutations in the HFE gene on chromosome 6. The most common mutation is C282Y (90% of HH cases). The HFE protein normally interacts with transferrin receptor and regulates hepcidin production. Hepcidin is the master regulator of iron homeostasis — it inhibits ferroportin-mediated iron absorption from enterocytes and iron release from macrophages. In HH, defective HFE leads to inappropriately low hepcidin levels, causing unrestricted iron absorption from the gut (2-4x normal). Over decades, iron accumulates in parenchymal cells of the liver (hepatocytes), pancreas (beta cells), heart (myocytes), pituitary (gonadotrophs), skin (melanocytes), and joints (synovium). Iron generates free radicals via the Fenton reaction (Fe²⁺ + H₂O₂ → Fe³⁺ + OH⁻ + OH•), causing oxidative stress, lipid peroxidation, organelle damage, and ultimately fibrosis.",
+    "treatment_overview": "Therapeutic phlebotomy is the mainstay: remove 500 mL of blood (containing ~250 mg iron) weekly until ferritin reaches 50-100 ng/mL and transferrin saturation <50%. This typically requires 1-2 years of weekly phlebotomy. Maintenance: phlebotomy every 2-4 months to keep ferritin at 50-100. For patients who cannot tolerate phlebotomy: iron chelation therapy (deferasirox) is an alternative. Dietary modifications: avoid iron-fortified foods, vitamin C supplements (enhances iron absorption), and raw shellfish (Vibrio vulnificus risk). Moderate alcohol only. Manage complications: diabetes (standard management), hypogonadism (testosterone replacement), arthropathy (NSAIDs, does NOT improve with phlebotomy), cardiomyopathy (aggressive phlebotomy). HCC surveillance: ultrasound + AFP every 6 months in patients with cirrhosis. Screen first-degree relatives: HFE genotyping + iron studies.",
+    "high_yield_pearls": [
+      "Transferrin saturation >45% (fasting) is the best initial screening test for hemochromatosis — more sensitive than ferritin for early disease.",
+      "Arthropathy of the 2nd and 3rd MCP joints is often the presenting symptom and does NOT improve with phlebotomy — it is the most common persistent complaint after treatment.",
+      "Ferritin >1000 ng/mL correlates with risk of hepatic fibrosis/cirrhosis — this threshold should prompt liver fibrosis assessment.",
+      "C282Y homozygosity has only 25-50% clinical penetrance — many homozygotes never develop clinical disease, so genotype alone does not confirm disease (phenotype matters).",
+      "Women present 10-20 years later than men due to iron losses from menstruation — postmenopausal women may 'catch up' and develop clinical disease.",
+      "Hemochromatosis patients with cirrhosis have a 200-fold increased risk of hepatocellular carcinoma — lifelong surveillance with ultrasound and AFP every 6 months is required even after iron normalization."
+    ],
+    "sources": [
+      "AASLD Practice Guidelines: Diagnosis and Management of Hemochromatosis (Hepatology, 2011)",
+      "Bacon BR et al. Diagnosis and management of hemochromatosis: 2011 Practice Guideline by AASLD. Hepatology, 2011",
+      "Powell LW et al. Hereditary hemochromatosis. Lancet, 2016",
+      "European Association for the Study of the Liver (EASL) Clinical Practice Guidelines for HFE Hemochromatosis, 2010",
+      "Adams PC, Barton JC. A diagnostic approach to hyperferritinemia with a non-elevated transferrin saturation. J Hepatol, 2011"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hereditary hemochromatosis",
+      "Non-alcoholic fatty liver disease",
+      "Alcoholic liver disease",
+      "Viral hepatitis (B or C)",
+      "Rheumatoid arthritis",
+      "Type 2 diabetes mellitus (primary)",
+      "Hypothyroidism",
+      "Wilson disease"
+    ],
+    "after_stage2_more_likely": [
+      "Hereditary hemochromatosis — fatigue, bronze skin, MCP arthropathy (2nd/3rd), hepatomegaly, elevated transaminases, erectile dysfunction, family history of unexplained cirrhosis, Northern European ancestry",
+      "NAFLD — overweight with elevated transaminases, but bronze skin, MCP arthropathy, and hypogonadism suggest systemic iron disease"
+    ],
+    "after_stage2_less_likely": [
+      "Alcoholic liver disease — drinks only 2-3 beers/week, insufficient for ALD",
+      "Rheumatoid arthritis — 2nd/3rd MCP involvement but no synovitis, swelling, or warmth; no morning stiffness typical of RA",
+      "Wilson disease — typically presents in younger patients (<40) with neuropsychiatric symptoms"
+    ],
+    "after_labs_top3": [
+      "Hereditary hemochromatosis — transferrin saturation 82%, ferritin 1850, C282Y homozygosity, MRI confirming hepatic iron overload, multi-organ involvement (liver, pancreas, pituitary, joints, skin)",
+      "Secondary iron overload — possible but no history of transfusions, hemolytic anemia, or ineffective erythropoiesis; genetic testing confirms hereditary cause",
+      "NAFLD with coincidental hyperferritinemia — ferritin can be elevated in metabolic syndrome, but transferrin saturation >45% and C282Y homozygosity confirm hemochromatosis"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "case_id": "case_033",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Sepsis (Urinary Source)",
+  "icd_category": "A41.9 — Sepsis, unspecified organism; N39.0 — Urinary tract infection",
+  "one_liner": "A 78-year-old female with diabetes and recurrent UTIs presents with fever, confusion, and foul-smelling urine.",
+  "stage2": {
+    "hpi_extension": "Patient's daughter brought her to the ED because she has been increasingly confused over the past 12 hours. The patient has had urinary frequency, urgency, and dysuria for the past 3 days but did not seek medical attention. Today she developed fever, chills, and rigors. She has been unable to eat or drink since this morning. Her daughter reports the patient has been incontinent with foul-smelling, cloudy urine. She has had two similar UTI episodes in the past year requiring hospitalization. She was found lethargic and disoriented at home. Denies cough, chest pain, abdominal pain, or diarrhea.",
+    "pmh": "Type 2 diabetes mellitus (HbA1c 8.2%), recurrent urinary tract infections (3 in the past year), benign prostatic hypertrophy equivalent — neurogenic bladder, hypertension, chronic kidney disease stage 3, mild dementia",
+    "surgical_history": "Total knee replacement (right) 5 years ago",
+    "medications": "Insulin glargine 24 units nightly, metformin 500 mg twice daily, amlodipine 5 mg daily, donepezil 10 mg daily",
+    "allergies": "Sulfonamides (anaphylaxis)",
+    "family_history": "No significant family history.",
+    "social_history": "Non-smoker. No alcohol. Lives with daughter. Uses a walker for ambulation. Retired school teacher. Has a Foley catheter intermittently for urinary retention.",
+    "vitals": {
+      "temp": "102.8 F (39.3 C)",
+      "hr": "118 bpm",
+      "bp": "88/52 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "68 kg, BMI 26.8"
+    },
+    "physical_exam": "General: Elderly female, lethargic, confused, appears ill. Opens eyes to voice but answers are incoherent. HEENT: Dry mucous membranes. Sunken eyes. Neck: Supple, no meningismus, no JVD. Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. No murmurs. Pulmonary: Clear to auscultation bilaterally. No crackles or wheezing. Abdomen: Soft, mild suprapubic tenderness. No rebound or guarding. Normoactive bowel sounds. GU: Foley catheter in place draining cloudy, dark, foul-smelling urine. Costovertebral angle tenderness on the right. Extremities: Warm, dry skin. No edema. Capillary refill 4 seconds. Skin: No rashes. Neuro: GCS 12 (E3V4M5). No focal deficits. No neck stiffness."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "22.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis with left shift indicating severe infection"},
+      {"test_name": "CBC - WBC Differential", "result": "88% neutrophils, 8% bands", "flag": "ABNORMAL", "clinical_significance": "Bandemia (left shift) suggesting acute bacterial infection"},
+      {"test_name": "CBC - Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
+      {"test_name": "CBC - Platelets", "result": "128 x10^9/L", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia, may indicate early DIC or sepsis-related consumption"},
+      {"test_name": "BMP - Creatinine", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated above baseline (1.4), acute kidney injury from sepsis"},
+      {"test_name": "BMP - BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with prerenal azotemia and dehydration"},
+      {"test_name": "BMP - Glucose", "result": "286 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia from sepsis-induced stress and poorly controlled diabetes"},
+      {"test_name": "Lactate", "result": "4.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate >4 indicates severe sepsis/septic shock with tissue hypoperfusion"},
+      {"test_name": "Procalcitonin", "result": "12.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, highly suggestive of bacterial sepsis"},
+      {"test_name": "Urinalysis", "result": "Positive nitrites, positive leukocyte esterase, >100 WBC/hpf, many bacteria, trace protein", "flag": "ABNORMAL", "clinical_significance": "Strongly positive for urinary tract infection"},
+      {"test_name": "Blood Cultures (x2)", "result": "Pending (eventually grows E. coli)", "flag": "ABNORMAL", "clinical_significance": "Bacteremia from urinary source"},
+      {"test_name": "Urine Culture", "result": "Pending (eventually >100,000 CFU/mL E. coli)", "flag": "ABNORMAL", "clinical_significance": "Confirms urinary source of infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Right kidney mildly hydronephrotic. No renal calculi. Left kidney normal. Bladder thick-walled with debris.", "flag": "ABNORMAL", "clinical_significance": "Right hydronephrosis may suggest obstruction contributing to infection; thick-walled bladder suggests chronic changes"},
+      {"test_name": "Chest X-ray", "result": "No focal consolidation. No pleural effusion. Heart size normal.", "flag": "WNL", "clinical_significance": "Excludes pneumonia as source of sepsis"}
+    ],
+    "key_tests": ["Urinalysis", "Urine culture", "Blood cultures (x2 sets)", "Serum lactate", "CBC with differential", "BMP"],
+    "acceptable_tests": ["Procalcitonin", "Renal ultrasound", "Chest X-ray", "Blood glucose", "Coagulation studies", "Hepatic function panel", "Venous blood gas"],
+    "low_yield_tests": ["CT head (unless meningitis suspected)", "Lumbar puncture (no meningeal signs)", "Abdominal X-ray", "C-reactive protein (nonspecific)", "D-dimer"]
+  },
+  "stage5": {
+    "final_clue": "Elderly diabetic patient with urinary catheter presenting with fever, altered mental status, and hypotension. Urinalysis shows pyuria and bacteriuria, lactate is 4.8 mmol/L, and there is an acute kidney injury. This presentation meets Sepsis-3 criteria for septic shock from a urinary source."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly patient (often with diabetes, urinary catheter, or structural urinary abnormality) presenting with fever, dysuria, urinary frequency, altered mental status, and hemodynamic instability. Urosepsis accounts for approximately 25% of all sepsis cases. Altered mental status may be the only presenting sign in elderly patients.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Urinary tract infections ascend from the bladder to the kidneys (pyelonephritis) and can seed the bloodstream, causing bacteremia and sepsis. E. coli is the most common causative organism (70-80%). Risk factors include urinary catheterization, diabetes (impaired immunity and glycosuria), urinary tract obstruction, neurogenic bladder, and female anatomy. Sepsis triggers a dysregulated host immune response leading to organ dysfunction through inflammatory cascades, endothelial damage, microvascular thrombosis, and distributive shock.",
+    "treatment_overview": "Follow the Surviving Sepsis Campaign (Hour-1 Bundle): (1) Measure lactate, (2) obtain blood cultures before antibiotics, (3) administer broad-spectrum antibiotics within 1 hour (ceftriaxone 2g IV or piperacillin-tazobactam; avoid fluoroquinolones if resistance rates >10%), (4) begin 30 mL/kg crystalloid for hypotension or lactate >=4, (5) start vasopressors (norepinephrine first-line) if MAP <65 after fluids. Address source control: relieve any urinary obstruction (percutaneous nephrostomy or ureteral stent if hydronephrosis). Monitor lactate clearance, urine output, and mental status. Narrow antibiotics based on culture sensitivities.",
+    "high_yield_pearls": [
+      "Altered mental status may be the ONLY sign of sepsis in elderly patients, especially those with baseline dementia.",
+      "Lactate >= 4 mmol/L combined with hypotension refractory to fluids defines septic shock (Sepsis-3 criteria).",
+      "The qSOFA score (altered mentation, RR >= 22, SBP <= 100) helps identify sepsis outside the ICU.",
+      "Catheter-associated UTI (CAUTI) is the most common hospital-acquired infection and a leading cause of urosepsis.",
+      "Procalcitonin >2 ng/mL strongly suggests bacterial sepsis and can guide antibiotic duration."
+    ],
+    "sources": [
+      "Surviving Sepsis Campaign: International Guidelines 2021 (Intensive Care Med 2021;47:1181-1247)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 146",
+      "Singer M et al. JAMA 2016;315:801-810 (Sepsis-3 definitions)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Sepsis (urinary source)", "Meningitis", "Pneumonia", "Acute pyelonephritis (without sepsis)", "Diabetic ketoacidosis", "Cholangitis", "Intra-abdominal abscess"],
+    "after_stage2_more_likely": ["Sepsis (urinary source)", "Acute pyelonephritis"],
+    "after_stage2_less_likely": ["Meningitis", "Pneumonia", "Cholangitis"],
+    "after_labs_top3": ["Sepsis (urinary source)", "Urosepsis with AKI", "Complicated pyelonephritis"]
+  }
+}

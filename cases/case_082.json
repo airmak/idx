@@ -1,0 +1,79 @@
+{
+  "case_id": "case_082",
+  "mode": "attending",
+  "specialty": "Cardiology",
+  "diagnosis": "Idiopathic Pulmonary Arterial Hypertension",
+  "icd_category": "I27.0 — Primary pulmonary hypertension",
+  "one_liner": "A 32-year-old female presents with progressive exertional dyspnea, fatigue, and exertional syncope over the past 6 months with a loud P2 on exam.",
+  "stage2": {
+    "hpi_extension": "The patient has noticed progressive shortness of breath with exertion over 6 months, now limiting her to walking one block. She has had 2 exertional syncopal episodes — both occurred while climbing stairs. She reports increasing fatigue, chest tightness with exertion, and ankle swelling for the past 2 weeks. She initially attributed symptoms to being out of shape. She has no history of DVT/PE, connective tissue disease, or drug exposures. She denies orthopnea, PND, cough, or hemoptysis.",
+    "pmh": "Raynaud phenomenon (mild, not associated with connective tissue disease on prior workup)",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of pulmonary hypertension, connective tissue disease, or sudden death.",
+    "social_history": "Non-smoker. No alcohol. No illicit drugs (no anorexigens, methamphetamine). Middle school teacher. Single, no children. No oral contraceptive use.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "92 bpm, regular",
+      "bp": "108/70 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% on room air (desaturates to 88% with ambulation)",
+      "weight_bmi": "60 kg, BMI 22.0"
+    },
+    "physical_exam": "General: Thin female, mild dyspnea at rest. HEENT: JVP elevated to 12 cm H2O, prominent A wave. Cardiovascular: RV heave (left parasternal lift), loud P2 (palpable), widely split S2, grade II/VI holosystolic murmur at left lower sternal border increasing with inspiration (tricuspid regurgitation), right-sided S4. Pulmonary: Clear to auscultation. Abdomen: Pulsatile liver (from TR), mild hepatomegaly. Extremities: 1+ bilateral pitting edema, cool hands with Raynaud changes. No clubbing."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "BNP", "result": "450 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated from RV strain and dysfunction, prognostic marker in PAH"},
+      {"test_name": "Troponin I", "result": "0.05 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated from RV ischemia due to increased wall stress"},
+      {"test_name": "ANA", "result": "Weakly positive (1:80, speckled)", "flag": "ABNORMAL", "clinical_significance": "Low titer, nonspecific — full connective tissue panel negative, unlikely CTD-associated PAH"},
+      {"test_name": "Anti-Scl-70, anti-centromere", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out scleroderma-associated PAH"},
+      {"test_name": "Anti-dsDNA, anti-Smith", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out SLE-associated PAH"},
+      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV-associated PAH"},
+      {"test_name": "Hepatitis panel", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out portopulmonary hypertension from liver disease"},
+      {"test_name": "TSH", "result": "5.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated — thyroid disease is associated with PAH and should be treated"},
+      {"test_name": "Uric acid", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, associated with severity and poor prognosis in PAH"},
+      {"test_name": "CBC", "result": "WBC 6.5, Hgb 15.8, Plt 195", "flag": "HIGH", "clinical_significance": "Polycythemia from chronic hypoxemia"},
+      {"test_name": "D-dimer", "result": "0.3 µg/mL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "LFTs", "result": "ALT 38, AST 35, Alk Phos 120", "flag": "WNL", "clinical_significance": "Mildly elevated alk phos from hepatic congestion"}
+    ],
+    "imaging_results": [
+      {"test_name": "Right heart catheterization", "result": "Mean PAP 52 mmHg (normal <20), PCWP 10 mmHg (normal), PVR 10 Wood units (markedly elevated, normal <3), cardiac index 2.0 L/min/m² (reduced). Positive acute vasoreactivity test (>10 mmHg decrease in mPAP to <40 with inhaled NO).", "flag": "ABNORMAL", "clinical_significance": "Confirms pre-capillary pulmonary hypertension (mPAP ≥20, PCWP ≤15, PVR >2). Positive vasoreactivity allows trial of CCB therapy."},
+      {"test_name": "CT pulmonary angiography", "result": "Dilated main pulmonary artery (35 mm). No filling defects (no PE). Dilated right heart chambers. No parenchymal lung disease.", "flag": "ABNORMAL", "clinical_significance": "Excludes chronic thromboembolic disease (CTEPH). Dilated PA supports pulmonary hypertension."},
+      {"test_name": "Transthoracic Echocardiogram", "result": "Dilated RV with reduced function (TAPSE 14 mm). Flattened interventricular septum (D-shaped LV in systole). Moderate tricuspid regurgitation with estimated RVSP 75 mmHg. Small pericardial effusion. Normal LV size and function.", "flag": "ABNORMAL", "clinical_significance": "Severe RV pressure overload and dysfunction. Pericardial effusion in PAH is a marker of poor prognosis."}
+    ],
+    "key_tests": ["Right heart catheterization (gold standard)", "Transthoracic echocardiogram", "CT pulmonary angiography", "V/Q scan", "BNP"],
+    "acceptable_tests": ["6-minute walk test", "Pulmonary function tests", "ANA and connective tissue serologies", "HIV test", "Hepatitis panel", "Chest X-ray", "CBC", "LFTs", "TSH", "Overnight oximetry/sleep study"],
+    "low_yield_tests": ["Coronary angiography", "Stress test", "Cardiac MRI (helpful but not essential)", "D-dimer", "Holter monitor"],
+    "key_tests_rationale": "Right heart catheterization is the gold standard — confirms pre-capillary PH and allows vasoreactivity testing. Echo screens for RV dysfunction and estimates RVSP. CTPA/V-Q scan excludes CTEPH. BNP correlates with prognosis."
+  },
+  "stage5": {
+    "final_clue": "Right heart catheterization confirms pre-capillary pulmonary hypertension (mPAP 52 mmHg, PCWP 10 mmHg, PVR 10 WU) with a positive vasoreactivity test. After excluding CTD, CTEPH, lung disease, HIV, and liver disease, the diagnosis is idiopathic pulmonary arterial hypertension."
+  },
+  "debrief": {
+    "classic_presentation": "Idiopathic PAH typically presents in young women (20-40 years) with progressive exertional dyspnea, fatigue, exertional syncope, and right heart failure signs. Loud P2, RV heave, and tricuspid regurgitation murmur are classic exam findings. Exertional syncope indicates inability to augment cardiac output and is a high-risk feature.",
+    "attending_mode_notes": "PAH is a diagnosis of exclusion within the pulmonary hypertension classification (WHO Group 1). The workup must systematically exclude left heart disease (Group 2), lung disease (Group 3), CTEPH (Group 4), and multifactorial/unclear mechanisms (Group 5). V/Q scan is more sensitive than CTPA for CTEPH. Vasoreactivity testing during RHC is critical — the ~10% who are positive can be treated with high-dose CCBs. BMPR2 mutations are found in ~20% of idiopathic PAH.",
+    "pathophysiology": "PAH results from progressive pulmonary vascular remodeling: intimal proliferation, medial hypertrophy, adventitial fibrosis, and plexiform lesions in small pulmonary arteries. This increases pulmonary vascular resistance, leading to RV pressure overload, hypertrophy, dilation, and eventual failure. Three pathways are targeted therapeutically: endothelin (vasoconstriction), nitric oxide (vasodilation), and prostacyclin (vasodilation and antiproliferation).",
+    "treatment_overview": "General measures: supplemental O2, diuretics for RV failure, exercise rehabilitation, anticoagulation (controversial). Vasoreactivity-positive: high-dose CCBs (nifedipine or diltiazem). Vasoreactivity-negative: PAH-specific therapy based on risk stratification. Monotherapy or combination: endothelin receptor antagonists (ambrisentan, bosentan), PDE5 inhibitors (sildenafil, tadalafil), or prostacyclin analogues (epoprostenol, treprostinil) and soluble guanylate cyclase stimulators (riociguat). Upfront combination therapy is standard for intermediate/high-risk patients. Lung transplant for refractory disease.",
+    "high_yield_pearls": [
+      "Right heart catheterization is REQUIRED to diagnose PAH — echo estimates are insufficient for definitive diagnosis.",
+      "Pre-capillary PH is defined as mPAP ≥20 mmHg AND PCWP ≤15 mmHg AND PVR >2 Wood units.",
+      "V/Q scan, not CTPA, is the screening test of choice for CTEPH — CTPA can miss chronic organized thrombus.",
+      "Only ~10% of idiopathic PAH patients are vasoreactivity-positive and eligible for CCB monotherapy.",
+      "Pericardial effusion and elevated BNP/troponin are markers of poor prognosis in PAH."
+    ],
+    "sources": [
+      "2022 ESC/ERS Guidelines for Pulmonary Hypertension",
+      "Humbert et al., Pulmonary Arterial Hypertension, NEJM 2022",
+      "AMBITION Trial (Coghlan et al., NEJM 2015)",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Chronic thromboembolic pulmonary hypertension (CTEPH)", "Connective tissue disease-associated PAH (scleroderma)", "Left heart disease (HFpEF)", "Chronic lung disease with PH", "Pulmonary veno-occlusive disease", "Congenital heart disease with Eisenmenger"],
+    "after_stage2_more_likely": ["Idiopathic PAH", "CTD-associated PAH", "CTEPH"],
+    "after_stage2_less_likely": ["Left heart disease", "Chronic lung disease", "Congenital heart disease"],
+    "after_labs_top3": ["Idiopathic pulmonary arterial hypertension", "CTD-associated PAH", "CTEPH"]
+  }
+}

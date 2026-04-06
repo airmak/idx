@@ -1,0 +1,77 @@
+{
+  "case_id": "case_035",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Status Epilepticus",
+  "icd_category": "G41.0 — Grand mal status epilepticus",
+  "one_liner": "A 34-year-old male with a history of epilepsy presents with continuous generalized tonic-clonic seizure activity lasting over 10 minutes without regaining consciousness.",
+  "stage2": {
+    "hpi_extension": "EMS was called by the patient's roommate who witnessed him fall to the ground and begin convulsing approximately 15 minutes ago. The seizure activity has been continuous with generalized tonic-clonic movements. The patient has not regained consciousness between episodes. EMS administered midazolam 10 mg IM en route with partial reduction but not cessation of seizure activity. The roommate reports the patient ran out of his seizure medication (levetiracetam) 4 days ago and has not refilled it. He had been well prior to this event with no recent illness, fever, trauma, or alcohol/drug use. His last seizure was 8 months ago and was a single, self-limited event.",
+    "pmh": "Epilepsy (generalized, diagnosed age 16), no other medical conditions",
+    "surgical_history": "None",
+    "medications": "Levetiracetam 1000 mg twice daily (non-compliant, ran out 4 days ago)",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother has epilepsy. No family history of metabolic disorders.",
+    "social_history": "Works as a software developer. Non-smoker. Social alcohol (1-2 beers per week, last drink 2 days ago). Denies illicit drug use. Lives with a roommate.",
+    "vitals": {
+      "temp": "101.2 F (38.4 C)",
+      "hr": "136 bpm",
+      "bp": "168/102 mmHg",
+      "rr": "8 breaths/min (irregular, with apneic periods during tonic phase)",
+      "spo2": "86% on 15L non-rebreather",
+      "weight_bmi": "80 kg, BMI 25.6"
+    },
+    "physical_exam": "General: Unresponsive male with ongoing generalized tonic-clonic activity. Cyanotic around lips. Diaphoretic. Foaming at the mouth. HEENT: Tongue laceration (lateral). Pupils 5 mm, reactive but sluggish bilaterally. No papilledema able to be assessed during active seizure. Neck: Unable to assess for meningismus during active seizure. Cardiovascular: Tachycardic, regular rhythm. Pulmonary: Decreased air entry bilaterally with poor respiratory effort. Occasional grunting. Abdomen: Unable to fully assess; no obvious distension. Extremities: Rhythmic tonic-clonic movements of all four extremities. Urinary incontinence noted. Skin: Warm, diaphoretic, cyanotic perioral area. Neuro: GCS 3 (E1V1M1 between seizure bursts). No purposeful movements. Unable to assess reflexes during seizure activity."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Point-of-care Glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated (stress response); hypoglycemia excluded as seizure cause"},
+      {"test_name": "BMP - Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal, hyponatremia excluded"},
+      {"test_name": "BMP - Calcium (ionized)", "result": "4.6 mg/dL", "flag": "WNL", "clinical_significance": "Normal, hypocalcemia excluded"},
+      {"test_name": "BMP - Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ABG - pH", "result": "7.18", "flag": "LOW", "clinical_significance": "Severe acidosis from prolonged seizure activity (lactic + respiratory)"},
+      {"test_name": "ABG - pCO2", "result": "58 mmHg", "flag": "HIGH", "clinical_significance": "Hypercapnia from impaired ventilation during seizure"},
+      {"test_name": "ABG - pO2", "result": "62 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia requiring airway management"},
+      {"test_name": "Lactate", "result": "8.2 mmol/L", "flag": "HIGH", "clinical_significance": "Markedly elevated from sustained muscle contraction and tissue hypoxia"},
+      {"test_name": "CBC - WBC", "result": "14.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis from stress demargination"},
+      {"test_name": "CK (Creatine Kinase)", "result": "1,850 U/L", "flag": "HIGH", "clinical_significance": "Elevated from prolonged muscle contraction; monitor for rhabdomyolysis"},
+      {"test_name": "Levetiracetam level", "result": "<2 mcg/mL", "flag": "LOW", "clinical_significance": "Undetectable, confirms medication non-compliance as precipitant"},
+      {"test_name": "Urine Drug Screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit substances contributing to seizure"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage. No mass, midline shift, or hydrocephalus. No cerebral edema.", "flag": "WNL", "clinical_significance": "Excludes structural cause of seizure (hemorrhage, mass, etc.)"},
+      {"test_name": "Chest X-ray", "result": "No aspiration pneumonia. Endotracheal tube in appropriate position (obtained after intubation).", "flag": "WNL", "clinical_significance": "Excludes aspiration; confirms ETT placement"}
+    ],
+    "key_tests": ["Point-of-care glucose", "BMP (sodium, calcium, magnesium)", "CT head without contrast", "Arterial blood gas", "Antiepileptic drug levels"],
+    "acceptable_tests": ["CBC", "CK/Myoglobin (rhabdomyolysis screen)", "Lactate", "Urine drug screen", "Hepatic function panel", "Chest X-ray", "Continuous EEG monitoring"],
+    "low_yield_tests": ["MRI brain (during acute seizure)", "Lumbar puncture (unless meningitis suspected)", "Thyroid function tests", "Ammonia level (unless hepatic disease suspected)", "CT angiography"]
+  },
+  "stage5": {
+    "final_clue": "Continuous generalized tonic-clonic seizure activity lasting >5 minutes in a patient with known epilepsy who stopped his levetiracetam 4 days ago. Undetectable drug levels confirm non-compliance. CT head excludes structural causes. This is status epilepticus precipitated by anticonvulsant withdrawal."
+  },
+  "debrief": {
+    "classic_presentation": "Continuous seizure activity lasting more than 5 minutes, or two or more seizures without return to baseline consciousness between them. Most commonly occurs in patients with known epilepsy (anticonvulsant non-compliance is the #1 precipitant). Generalized convulsive status epilepticus is a medical emergency with mortality of 10-20% if not promptly treated.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Status epilepticus results from a failure of the mechanisms that normally terminate a seizure. Excitatory (glutamate) neurotransmission overwhelms inhibitory (GABA) pathways. Prolonged seizure activity causes progressive internalization of GABA-A receptors from the synaptic surface and externalization of excitatory NMDA receptors, creating a self-sustaining cycle. After 30 minutes, pharmacoresistance to benzodiazepines develops due to GABA receptor trafficking. Systemic effects include hyperthermia, rhabdomyolysis, acidosis, aspiration, and neuronal death.",
+    "treatment_overview": "Stepwise protocol: (1) ABCs and stabilization — position, suction, oxygen, IV access, check glucose. (2) First-line: IV lorazepam 0.1 mg/kg (max 4 mg/dose, may repeat once) or IM midazolam 10 mg if no IV access. (3) Second-line (if seizures persist after 2 doses of benzodiazepines): IV fosphenytoin 20 mg PE/kg, or levetiracetam 60 mg/kg (max 4500 mg), or valproate 40 mg/kg. (4) Third-line (refractory status): continuous IV infusion of midazolam, propofol, or pentobarbital with EEG monitoring; requires intubation. Correct underlying cause. Load appropriate maintenance anticonvulsant. Continuous EEG monitoring for non-convulsive status.",
+    "high_yield_pearls": [
+      "Anticonvulsant non-compliance is the most common precipitant of status epilepticus in known epilepsy patients.",
+      "Status epilepticus is defined as seizure activity lasting >5 minutes (updated from the prior 30-minute definition).",
+      "After 30 minutes, benzodiazepine resistance develops due to GABA receptor internalization, necessitating second-line agents.",
+      "Always check glucose — hypoglycemia is a reversible cause of seizures that mimics status epilepticus.",
+      "Non-convulsive status epilepticus (NCSE) should be considered in any patient with unexplained altered mental status; requires EEG for diagnosis."
+    ],
+    "sources": [
+      "Neurocritical Care Society Status Epilepticus Guidelines (Neurocrit Care 2012;17:3-23)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 166",
+      "Brophy GM et al. Neurocrit Care 2012;17:3-23",
+      "Kapur J et al. NEJM 2019;381:2103-2113 (ESETT trial)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Status epilepticus", "Meningitis/Encephalitis", "Hypoglycemia", "Drug overdose/withdrawal", "Intracranial hemorrhage", "Hyponatremia", "Psychogenic non-epileptic seizure"],
+    "after_stage2_more_likely": ["Status epilepticus (medication non-compliance)", "Drug withdrawal seizures"],
+    "after_stage2_less_likely": ["Meningitis/Encephalitis", "Psychogenic non-epileptic seizure", "Hyponatremia"],
+    "after_labs_top3": ["Status epilepticus (AED non-compliance)", "Breakthrough seizure", "Epilepsy with secondary complications"]
+  }
+}

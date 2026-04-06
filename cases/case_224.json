@@ -1,0 +1,119 @@
+{
+  "case_id": "case_224",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Schizophrenia, first episode",
+  "icd_category": "F20.9 — Schizophrenia, unspecified",
+  "one_liner": "A 21-year-old man with no prior psychiatric history presents with 4 months of auditory hallucinations, paranoid delusions, social withdrawal, and declining academic performance.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the emergency department by his parents who noticed progressive behavioral changes over the past 4 months. He has become increasingly isolated, dropping out of college mid-semester. He stopped hanging out with friends and spends most of his time alone in his room with the curtains drawn. His parents overheard him talking to himself and discovered he believes the government is monitoring him through his phone and laptop. He reports hearing two male voices commenting on his actions and occasionally telling him he is 'worthless.' The voices are perceived as external and coming from outside his head. He believes his neighbor has installed cameras in his apartment. He has become suspicious of family members, accusing his mother of 'being in on it.' Over the past 2 months, he has had flat affect and speaks very little. His hygiene has declined significantly. There has been no clear precipitant. He denies drug use, though his parents suspect possible marijuana use in the past.",
+    "pmh": "No significant medical history. Normal developmental milestones.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Paternal uncle with schizophrenia diagnosed in his 20s. Mother with anxiety disorder. No family history of mood disorders or substance abuse.",
+    "social_history": "Former college student (dropped out 2 months ago from a computer science program). Lives with parents. Previously social with a small friend group, now isolative. Smoked marijuana intermittently in high school but parents believe he stopped 1 year ago. Denies other drugs or alcohol. No legal history. No employment currently. No romantic relationships.",
+    "vitals": {
+      "temp": "98.5°F (36.9°C)",
+      "hr": "76 bpm",
+      "bp": "122/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "155 lbs, BMI 22.3 kg/m²"
+    },
+    "physical_exam": "General: Thin young man with poor hygiene, unkempt hair, body odor noted, wearing wrinkled clothing. Appears guarded. HEENT: Normocephalic, atraumatic. Pupils equal and reactive, not dilated. No nystagmus. Neck: Supple, no thyromegaly. Cardiovascular: Regular rate and rhythm. Lungs: Clear bilaterally. Abdomen: Soft, non-tender. Neurological: Cranial nerves II-XII intact. Normal gait. No focal deficits. No abnormal movements. Mental Status Exam: Appearance — disheveled, poor hygiene. Behavior — guarded, minimal eye contact, occasionally glances around the room as if hearing something. Speech — soft, low volume, increased latency, poverty of speech. Mood — 'fine' (incongruent). Affect — flat, restricted range. Thought process — tangential at times, loose associations noted. Thought content — paranoid delusions (government surveillance, neighbor spying), no SI/HI, no thought broadcasting or insertion elicited. Perception — auditory hallucinations (two male voices, running commentary). Cognition — oriented x4 but poor attention. Insight — poor (does not believe he is ill). Judgment — poor."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urine drug screen", "result": "Negative for all substances including THC, amphetamines, PCP, cocaine", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychosis (especially PCP, stimulants, cannabis)"},
+      {"test_name": "CBC", "result": "WBC 6.8, Hgb 14.9, Hct 43.5, Plt 248", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality; baseline before antipsychotic initiation"},
+      {"test_name": "CMP", "result": "Na 140, K 4.2, Cl 102, CO2 24, BUN 14, Cr 0.9, Glucose 88, Ca 9.5, AST 19, ALT 21, Alk Phos 58", "flag": "WNL", "clinical_significance": "Normal metabolic panel; rules out metabolic encephalopathy; baseline for antipsychotic monitoring"},
+      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction as cause of psychotic symptoms"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis as cause of psychosis"},
+      {"test_name": "HIV 1/2 Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out HIV-associated psychosis"},
+      {"test_name": "Vitamin B12", "result": "510 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency psychosis"},
+      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 168, LDL 98, HDL 52, Triglycerides 90", "flag": "WNL", "clinical_significance": "Baseline metabolic monitoring before atypical antipsychotic initiation"},
+      {"test_name": "Fasting glucose", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Baseline before antipsychotic therapy (metabolic syndrome risk)"},
+      {"test_name": "HbA1c", "result": "5.0%", "flag": "WNL", "clinical_significance": "Baseline glycemic control before atypical antipsychotic use"},
+      {"test_name": "Ceruloplasmin", "result": "28 mg/dL", "flag": "WNL", "clinical_significance": "Rules out Wilson disease in young patient with new psychiatric symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Brain without contrast", "result": "No acute intracranial abnormality. No mass, demyelination, or structural abnormality. Normal ventricular size.", "flag": "WNL", "clinical_significance": "Rules out brain tumor, demyelinating disease, or structural lesion causing psychosis in first-episode presentation"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm at 76 bpm. QTc 410 ms. No conduction abnormalities.", "flag": "WNL", "clinical_significance": "Baseline QTc important before starting antipsychotics, which can prolong QT interval"}
+    ],
+    "key_tests": [
+      "Urine drug screen — essential to rule out substance-induced psychosis",
+      "MRI Brain — recommended for first-episode psychosis to rule out structural cause",
+      "TSH — to rule out thyroid-related psychosis",
+      "CMP — to rule out metabolic encephalopathy",
+      "RPR — to rule out neurosyphilis"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "HIV testing",
+      "Vitamin B12 level",
+      "Ceruloplasmin (Wilson disease screen in young patients)",
+      "Fasting glucose and lipid panel (baseline metabolic monitoring)",
+      "HbA1c",
+      "ECG (baseline QTc before antipsychotics)",
+      "Anti-NMDA receptor antibody (if atypical features)"
+    ],
+    "low_yield_tests": [
+      "EEG (no seizure-like episodes or fluctuating consciousness)",
+      "Lumbar puncture (no meningeal signs, fever, or acute presentation)",
+      "Heavy metal screen (no occupational exposure)",
+      "ANA (no systemic lupus features)",
+      "CT head (MRI preferred for first episode; CT only if MRI unavailable)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient presents with 4 months of positive symptoms (auditory hallucinations, paranoid delusions) and negative symptoms (flat affect, social withdrawal, poverty of speech, poor hygiene) with significant functional decline, meeting the DSM-5 duration criterion of at least 6 months total disturbance (including prodromal period). Family history of schizophrenia in first-degree relative supports the diagnosis. All medical, neurological, and substance-related causes have been excluded. This is consistent with a first episode of schizophrenia."
+  },
+  "debrief": {
+    "classic_presentation": "A young male (typically age 18-25) presenting with insidious onset of positive symptoms (hallucinations, delusions) and negative symptoms (flat affect, avolition, alogia, social withdrawal) with functional decline over at least 6 months. Auditory hallucinations and paranoid delusions are the most common positive symptoms. Negative symptoms often precede positive symptoms in a prodromal period.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The dopamine hypothesis proposes hyperactivity of mesolimbic dopaminergic pathways (causing positive symptoms) and hypoactivity of mesocortical pathways (causing negative and cognitive symptoms). Glutamate hypofunction at NMDA receptors also plays a role. Neurodevelopmental factors include synaptic pruning abnormalities during adolescence, enlarged ventricles, and decreased cortical gray matter. Genetic risk is substantial (~80% heritability); first-degree relatives have 10% risk. Environmental risk factors include cannabis use during adolescence, urban upbringing, migration, and obstetric complications.",
+    "treatment_overview": "First-episode psychosis: Start a second-generation (atypical) antipsychotic at a low dose — risperidone, aripiprazole, or paliperidone are first-line. Allow 4-6 weeks for adequate trial. First-episode patients often respond to lower doses. Clozapine is reserved for treatment-resistant schizophrenia (failed 2 adequate antipsychotic trials). Long-acting injectable antipsychotics improve adherence. Psychosocial interventions: CBT for psychosis, family psychoeducation, supported employment/education, social skills training. Early intervention programs (first-episode psychosis clinics) significantly improve outcomes. Monitor metabolic parameters (weight, glucose, lipids) regularly with atypical antipsychotics.",
+    "high_yield_pearls": [
+      "DSM-5 requires ≥2 of the following for ≥1 month (at least one must be 1, 2, or 3): (1) delusions, (2) hallucinations, (3) disorganized speech, (4) disorganized/catatonic behavior, (5) negative symptoms. Total disturbance must last ≥6 months.",
+      "Peak onset is 18-25 in males and 25-35 in females. Earlier onset in males is associated with worse prognosis.",
+      "Cannabis use during adolescence doubles the risk of developing schizophrenia, especially with high-potency THC.",
+      "First-episode psychosis requires brain imaging (MRI preferred) to rule out organic causes before diagnosing a primary psychotic disorder.",
+      "Negative symptoms (flat affect, avolition, alogia, anhedonia, asociality) are the strongest predictor of functional outcome and are poorly treated by typical antipsychotics.",
+      "Clozapine is the only antipsychotic proven effective for treatment-resistant schizophrenia but requires monitoring for agranulocytosis (weekly then biweekly CBC)."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Schizophrenia (2020)",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "NICE Guidelines: Psychosis and Schizophrenia in Adults (CG178)",
+      "Howes OD, Kapur S — The Dopamine Hypothesis of Schizophrenia. Schizophr Bull 2009"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Schizophrenia",
+      "Substance-induced psychotic disorder (cannabis, PCP, stimulants)",
+      "Brief psychotic disorder",
+      "Schizoaffective disorder",
+      "Schizophreniform disorder",
+      "Bipolar I disorder with psychotic features",
+      "Major depressive disorder with psychotic features",
+      "Autoimmune encephalitis (anti-NMDA receptor)"
+    ],
+    "after_stage2_more_likely": [
+      "Schizophrenia — insidious onset over 4 months with both positive and negative symptoms, functional decline, family history, typical age of onset",
+      "Schizophreniform disorder — if total duration is less than 6 months"
+    ],
+    "after_stage2_less_likely": [
+      "Bipolar disorder with psychotic features — no mood episode preceding psychotic symptoms",
+      "Brief psychotic disorder — duration exceeds 1 month",
+      "Substance-induced psychosis — patient and parents deny recent substance use"
+    ],
+    "after_labs_top3": [
+      "Schizophrenia — negative drug screen, normal brain MRI, normal metabolic and infectious workup; meets DSM-5 criteria",
+      "Schizophreniform disorder — possible if total disturbance is <6 months; may be reclassified as schizophrenia with continued symptoms",
+      "Schizoaffective disorder — less likely without prominent concurrent mood episode"
+    ]
+  }
+}

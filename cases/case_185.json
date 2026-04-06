@@ -1,0 +1,152 @@
+{
+  "case_id": "case_185",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Simple febrile seizure",
+  "icd_category": "R56.00 – Simple febrile convulsions",
+  "one_liner": "An 18-month-old male with no significant past medical history presents after a 2-minute generalized tonic-clonic seizure in the setting of a 39.5°C fever from an upper respiratory infection.",
+  "stage2": {
+    "hpi_extension": "The patient's father reports that the child had been having a runny nose and mild cough for 2 days. This evening he felt warm, and his temperature at home was 39.5°C. Approximately 30 minutes after the fever was noted, the child suddenly became rigid, his eyes rolled back, and he had rhythmic jerking of all four extremities lasting approximately 2 minutes. The father called 911. By the time EMS arrived, the seizure had stopped spontaneously. There was no focal component to the seizure, no preceding head trauma, no ingestion, and no prior history of seizures. The child was initially drowsy and confused for about 15 minutes post-ictally but is now back to baseline, interactive and playful. He has had no prior seizures, no developmental delays, and no recent antibiotic use.",
+    "pmh": "Born full-term. Developmentally appropriate for age. Up to date on immunizations (including recent 12-month vaccines 6 months ago). No prior seizures. No history of meningitis or encephalitis.",
+    "surgical_history": "None",
+    "medications": "Acetaminophen 180 mg (15 mg/kg) PO given by EMS",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother had febrile seizures as a child (resolved by age 5). No family history of epilepsy or other neurologic disorders.",
+    "social_history": "Lives with both parents. Attends daycare 3 days per week. No secondhand smoke exposure. Developmentally meeting all milestones.",
+    "vitals": {
+      "temp": "38.8°C (101.8°F) (post-acetaminophen)",
+      "hr": "132 bpm",
+      "bp": "86/52 mmHg",
+      "rr": "30 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "11.5 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alert, active, playful toddler in no apparent distress; at baseline per parents. HEENT: Anterior fontanelle closed. Bilateral clear rhinorrhea. TMs mildly erythematous bilaterally but mobile. Oropharynx mildly erythematous without exudates. PERRL, no papilledema on fundoscopic exam. Neck: Supple, no meningismus, no Kernig or Brudzinski signs, small bilateral anterior cervical lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally, no wheezes or crackles. Abdomen: Soft, non-tender, non-distended. Neurologic: Alert and interactive, smiling, reaching for toys; symmetric spontaneous movements; normal tone bilaterally; intact cranial nerves (tracking, facial symmetry, gag reflex); no focal deficits; gait is age-appropriate (stable independent walking). Skin: No rashes, petechiae, or bruising."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "11.2 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC count; mild elevation would be expected with viral URI but significant leukocytosis might suggest bacterial infection."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin for age."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "268 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count; no evidence of consumptive process."
+      },
+      {
+        "test_name": "Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal sodium; hyponatremia (which can lower seizure threshold) is excluded."
+      },
+      {
+        "test_name": "Glucose",
+        "result": "92 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal glucose; hypoglycemia as a seizure cause is excluded."
+      },
+      {
+        "test_name": "Calcium",
+        "result": "9.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal calcium; hypocalcemia as a seizure trigger is excluded."
+      },
+      {
+        "test_name": "BMP (K, Cl, CO2, BUN, Cr)",
+        "result": "K 4.3, Cl 104, CO2 21, BUN 12, Cr 0.3",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function; metabolic derangements as seizure triggers have been excluded."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, SG 1.020, pH 6.0, no WBCs, no nitrites, no leukocyte esterase, no bacteria",
+        "flag": "WNL",
+        "clinical_significance": "Normal urinalysis helps exclude UTI as the febrile source, particularly important in this age group."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CT head without contrast",
+        "result": "No acute intracranial hemorrhage, mass lesion, or midline shift. Normal ventricular size. No skull fracture. Normal brain parenchyma for age.",
+        "flag": "WNL",
+        "clinical_significance": "Neuroimaging is NOT routinely recommended for simple febrile seizures per AAP guidelines; this CT was obtained due to parental concern but shows no abnormality, as expected."
+      }
+    ],
+    "key_tests": [
+      "Clinical history and seizure characterization",
+      "Complete neurological examination",
+      "Temperature measurement and fever source identification"
+    ],
+    "acceptable_tests": [
+      "BMP (glucose, sodium, calcium)",
+      "CBC with differential",
+      "Urinalysis (to identify fever source)",
+      "Blood glucose (point-of-care)"
+    ],
+    "low_yield_tests": [
+      "CT head (not indicated for simple febrile seizure)",
+      "MRI brain (not indicated for simple febrile seizure)",
+      "EEG (not indicated for simple febrile seizure)",
+      "Lumbar puncture (only if meningitis suspected — not routine for well-appearing children >12 months with up-to-date immunizations)",
+      "Blood cultures (unless toxic-appearing)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The child remains at baseline neurologic status 2 hours after the seizure with no recurrence. The fever source is identified as a viral upper respiratory infection. The seizure characteristics — generalized, <5 minutes, single episode, with rapid return to baseline in a febrile child aged 6 months to 5 years — confirm the diagnosis of a simple febrile seizure."
+  },
+  "debrief": {
+    "classic_presentation": "Simple febrile seizures occur in neurologically normal children aged 6 months to 5 years (peak 12-18 months) in the setting of a fever ≥38°C, typically from a viral illness. By definition, a simple febrile seizure is generalized (not focal), lasts <15 minutes, does not recur within 24 hours, and resolves spontaneously with a brief postictal period and return to neurologic baseline. The seizure often occurs as the temperature is rapidly rising.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The exact mechanism of febrile seizures is not fully understood. The immature brain has a lower seizure threshold that is particularly susceptible to the rapid rate of temperature change rather than the absolute fever height. Genetic factors play a significant role — there is a strong family predisposition with polygenic inheritance. Cytokine release (IL-1β, TNF-α) during the febrile response may enhance neuronal excitability. The developing brain has an imbalance between excitatory (glutamatergic) and inhibitory (GABAergic) neurotransmission, making it more prone to seizure activity during fever.",
+    "treatment_overview": "Per AAP 2011 guidelines, simple febrile seizures require NO specific treatment beyond managing the underlying febrile illness and parental reassurance. Key management points: (1) No antiepileptic drugs (AEDs) are recommended — neither continuous prophylaxis nor intermittent therapy for simple febrile seizures. (2) Antipyretics (acetaminophen, ibuprofen) treat discomfort but do NOT prevent febrile seizure recurrence. (3) EEG, neuroimaging, and routine lab work are NOT indicated for a simple febrile seizure in a well-appearing child. (4) Lumbar puncture should be considered if meningeal signs are present, in children <12 months, or in children with incomplete Hib/PCV immunization. (5) Parental education about the benign nature, expected recurrence risk (30%), and seizure first aid is essential.",
+    "high_yield_pearls": [
+      "Simple febrile seizures are BENIGN — they do NOT cause brain damage, do NOT increase the risk of epilepsy beyond the general population (2-4% if simple, vs 1% baseline), and do NOT require antiepileptic treatment.",
+      "Recurrence risk is approximately 30% overall; risk factors for recurrence include younger age at first seizure (<18 months), lower temperature at seizure onset, shorter duration of fever before seizure, and family history of febrile seizures.",
+      "COMPLEX febrile seizures (focal features, duration >15 minutes, or recurrence within 24 hours) warrant a more thorough workup including consideration of LP, EEG, and neuroimaging — these carry a higher risk of subsequent epilepsy (~4-6%).",
+      "Antipyretics prevent fever-related discomfort but do NOT prevent febrile seizure recurrence — this is one of the most important points to communicate to parents.",
+      "The AAP recommends AGAINST routine lumbar puncture for well-appearing children >12 months with simple febrile seizures who are up to date on Hib and PCV13 vaccinations."
+    ],
+    "sources": [
+      "AAP Clinical Practice Guideline: Febrile Seizures: Guideline for the Neurodiagnostic Evaluation of the Child With a Simple Febrile Seizure (2011)",
+      "AAP Subcommittee on Febrile Seizures: Long-term Treatment of the Child with Simple Febrile Seizures (2008)",
+      "UpToDate: Febrile seizures in children: Clinical features and diagnosis",
+      "UpToDate: Febrile seizures in children: Treatment and prognosis",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Simple febrile seizure",
+      "Complex febrile seizure",
+      "Meningitis / Encephalitis",
+      "Epilepsy (new-onset)",
+      "Electrolyte abnormality (hyponatremia, hypoglycemia, hypocalcemia)",
+      "Shigella gastroenteritis (seizure-associated)",
+      "Non-accidental trauma"
+    ],
+    "after_stage2_more_likely": [
+      "Simple febrile seizure (generalized, <5 min, single episode, rapid return to baseline, febrile child aged 6-60 months, normal neurologic exam)",
+      "Viral URI as fever source (rhinorrhea, cough, erythematous TMs)"
+    ],
+    "after_stage2_less_likely": [
+      "Meningitis (no meningeal signs, no irritability, fontanelle closed, well-appearing, up-to-date immunizations)",
+      "Epilepsy (first seizure in a febrile child, no focal features, no prior history)",
+      "Non-accidental trauma (no bruising, no history of trauma, normal neurologic exam)"
+    ],
+    "after_labs_top3": [
+      "Simple febrile seizure",
+      "Viral upper respiratory infection (fever source)",
+      "Complex febrile seizure (excluded by seizure characterization — single, brief, generalized)"
+    ]
+  }
+}

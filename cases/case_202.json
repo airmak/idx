@@ -1,0 +1,167 @@
+{
+  "case_id": "case_202",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Preeclampsia with severe features",
+  "icd_category": "O14.10 – Severe preeclampsia, unspecified trimester",
+  "one_liner": "A 32-year-old primigravida at 34 weeks gestation presents with new-onset headache, visual changes, and blood pressure of 168/110 mmHg with 3+ proteinuria.",
+  "stage2": {
+    "hpi_extension": "The patient presents to labor and delivery triage with a frontal headache that started earlier today and has been worsening despite acetaminophen. She describes intermittent 'sparkles' in her visual field bilaterally. She has noticed progressive bilateral lower extremity edema and facial puffiness over the past week. She reports right upper quadrant discomfort that she attributed to the baby's position. She has had no vaginal bleeding, leakage of fluid, or contractions. She felt fetal movement earlier today. Her prenatal course has been uncomplicated until now, with blood pressures consistently in the 110-120/70-80 range. She has no prior history of hypertension. She gained 4 kg in the last 2 weeks.",
+    "pmh": "G1P0 at 34 weeks by first-trimester ultrasound dating. No prior history of hypertension, renal disease, or autoimmune disorders.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins with iron and folic acid",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother had preeclampsia during pregnancy with the patient. Father with hypertension. No family history of seizures or stroke.",
+    "social_history": "Works as an accountant. Non-smoker. No alcohol or illicit drug use during pregnancy. Married, lives with spouse. First pregnancy conceived naturally.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "92 bpm",
+      "bp": "168/110 mmHg (confirmed on repeat measurement 15 minutes later: 172/108 mmHg)",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "82 kg (pre-pregnancy 68 kg), BMI 29.8 kg/m²"
+    },
+    "physical_exam": "General: Alert, anxious-appearing gravid female in mild distress from headache. HEENT: Facial edema noted; fundoscopic exam limited but no papilledema seen on direct ophthalmoscopy; visual fields grossly intact. Neck: No lymphadenopathy or thyromegaly. Cardiovascular: Regular rate and rhythm; S1/S2 normal; no murmurs; no JVD. Pulmonary: Clear to auscultation bilaterally; no crackles or wheezing. Abdomen: Gravid uterus consistent with 34 weeks; fundal height 33 cm; right upper quadrant tenderness to palpation over the liver; no rebound or guarding. Extremities: 3+ pitting edema in bilateral lower extremities extending to the knees; 1+ edema in hands. Neurologic: Alert and oriented; DTRs 3+ and brisk at bilateral patella and ankles with 3 beats of clonus bilaterally; no focal deficits. Fetal: FHR 145 bpm on continuous monitoring, category I tracing."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urine protein/creatinine ratio",
+        "result": "0.8 (equivalent to ~800 mg/day proteinuria)",
+        "flag": "HIGH",
+        "clinical_significance": "Significant proteinuria (≥0.3 g/day or protein/creatinine ratio ≥0.3) confirms the diagnosis of preeclampsia; however, proteinuria is no longer required if other severe features are present."
+      },
+      {
+        "test_name": "Urine dipstick",
+        "result": "3+ protein",
+        "flag": "HIGH",
+        "clinical_significance": "Supports significant proteinuria, though quantitative measurement is more accurate."
+      },
+      {
+        "test_name": "AST",
+        "result": "128 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated AST (>2x upper limit of normal) indicates hepatic involvement and qualifies as a severe feature of preeclampsia."
+      },
+      {
+        "test_name": "ALT",
+        "result": "145 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ALT further supports hepatic dysfunction consistent with severe preeclampsia."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "118 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Thrombocytopenia (<150,000) indicates platelet consumption from endothelial dysfunction; if <100,000, it qualifies as a severe feature."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated creatinine (>1.1 mg/dL) reflects renal impairment and constitutes a severe feature of preeclampsia."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Hemoconcentration can occur in preeclampsia due to third spacing of plasma; hemoglobin may appear falsely normal or elevated."
+      },
+      {
+        "test_name": "LDH",
+        "result": "380 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDH reflects microangiopathic hemolysis and hepatic dysfunction, raising concern for evolving HELLP syndrome."
+      },
+      {
+        "test_name": "Peripheral smear",
+        "result": "Occasional schistocytes, mild polychromasia",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Schistocytes indicate microangiopathic hemolytic anemia from endothelial damage, a feature of progressing to HELLP syndrome."
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "7.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated uric acid is commonly seen in preeclampsia due to decreased renal clearance and correlates with disease severity."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Obstetric ultrasound with Doppler",
+        "result": "Single live intrauterine pregnancy at 34 weeks 2 days. Estimated fetal weight 2,100 g (25th percentile). Amniotic fluid index 8 cm (low-normal). Umbilical artery Doppler: elevated S/D ratio (3.8) with preserved end-diastolic flow. Placenta posterior, grade II. No abruption.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated umbilical artery Doppler suggests increased placental vascular resistance consistent with uteroplacental insufficiency seen in preeclampsia."
+      }
+    ],
+    "key_tests": [
+      "Serial blood pressure measurements",
+      "Urine protein quantification (protein/creatinine ratio or 24-hour urine)",
+      "CBC with platelets",
+      "Hepatic function panel (AST/ALT)",
+      "Serum creatinine"
+    ],
+    "acceptable_tests": [
+      "LDH",
+      "Peripheral blood smear",
+      "Uric acid",
+      "Coagulation studies (PT/PTT/fibrinogen)",
+      "Obstetric ultrasound with Doppler",
+      "Non-stress test / continuous fetal monitoring",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "CT head (unless concern for stroke or atypical presentation)",
+      "Renal ultrasound",
+      "Echocardiogram",
+      "Thyroid function tests"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "Despite initiation of IV magnesium sulfate and antihypertensive therapy, repeat labs 6 hours later show platelets declining to 95,000, AST rising to 210 U/L, and persistent severe-range blood pressures, prompting the decision for delivery via induction of labor with magnesium sulfate continued for seizure prophylaxis."
+  },
+  "debrief": {
+    "classic_presentation": "Preeclampsia with severe features classically presents after 20 weeks gestation with severe hypertension (≥160/110 mmHg), proteinuria, and end-organ damage. Symptoms include persistent headache (frontal or occipital), visual disturbances (scotomata, photopsia), right upper quadrant or epigastric pain (hepatic capsule distension), and rapid weight gain with edema. Hyperreflexia with clonus suggests CNS irritability and impending eclampsia.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Preeclampsia originates from abnormal placentation. In normal pregnancy, extravillous trophoblasts remodel spiral arteries into low-resistance vessels. In preeclampsia, this remodeling fails, resulting in high-resistance uteroplacental circulation and placental ischemia. The ischemic placenta releases anti-angiogenic factors (soluble fms-like tyrosine kinase-1/sFlt-1 and soluble endoglin) that antagonize pro-angiogenic factors (VEGF and PlGF), causing widespread maternal endothelial dysfunction. This endothelial injury leads to vasospasm (hypertension), glomerular endotheliosis (proteinuria), hepatic ischemia (elevated transaminases, RUQ pain), platelet activation and consumption (thrombocytopenia), and cerebral edema (headache, seizures).",
+    "treatment_overview": "Delivery is the only definitive cure. For preeclampsia with severe features at ≥34 weeks, delivery is recommended after maternal stabilization. For severe preeclampsia at <34 weeks, expectant management with betamethasone for fetal lung maturity may be considered for 48 hours in selected cases without deterioration. IV magnesium sulfate (4-6 g loading dose, then 1-2 g/hr) is given for seizure prophylaxis and continued 24-48 hours postpartum. Antihypertensives for acute severe hypertension include IV labetalol (20 mg initial bolus, escalating), IV hydralazine (5-10 mg), or oral immediate-release nifedipine (10 mg). Target BP is 140-150/90-100 mmHg. Monitor for magnesium toxicity (loss of reflexes at 7-10 mEq/L, respiratory depression at 10-13 mEq/L) — antidote is calcium gluconate.",
+    "high_yield_pearls": [
+      "Severe features of preeclampsia include: BP ≥160/110, platelets <100,000, creatinine >1.1, AST/ALT >2x normal, pulmonary edema, or cerebral/visual symptoms — delivery is indicated at ≥34 weeks.",
+      "Magnesium sulfate is the first-line agent for seizure prophylaxis in preeclampsia/eclampsia; it is superior to phenytoin and benzodiazepines (MAGPIE trial).",
+      "Right upper quadrant or epigastric pain in a pregnant woman with hypertension is a red flag for hepatic involvement (capsular distension or subcapsular hematoma) and should prompt urgent labs.",
+      "Proteinuria is no longer required to diagnose preeclampsia if other severe features are present (ACOG 2020 guidelines updated the criteria).",
+      "The only cure for preeclampsia is delivery of the placenta — postpartum preeclampsia can still occur up to 6 weeks after delivery and must be monitored."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 222: Gestational Hypertension and Preeclampsia (2020)",
+      "UpToDate: Preeclampsia: Clinical features and diagnosis",
+      "UpToDate: Preeclampsia: Management and prognosis",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Preeclampsia with severe features",
+      "HELLP syndrome",
+      "Chronic hypertension with superimposed preeclampsia",
+      "Gestational hypertension",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Acute fatty liver of pregnancy"
+    ],
+    "after_stage2_more_likely": [
+      "Preeclampsia with severe features (new-onset hypertension >160/110 after 20 weeks with headache, visual changes, RUQ pain, hyperreflexia, clonus, proteinuria)",
+      "HELLP syndrome (RUQ pain with potential hemolysis and liver dysfunction)"
+    ],
+    "after_stage2_less_likely": [
+      "Chronic hypertension (no prior history of hypertension, BP was normal throughout prenatal care until now)",
+      "Gestational hypertension (proteinuria and end-organ symptoms indicate preeclampsia, not simple gestational hypertension)",
+      "TTP (typically presents with more severe thrombocytopenia and neurologic findings without hypertension)"
+    ],
+    "after_labs_top3": [
+      "Preeclampsia with severe features (confirmed by severe hypertension, elevated creatinine, elevated transaminases, proteinuria)",
+      "Evolving HELLP syndrome (schistocytes, rising LDH, thrombocytopenia, elevated liver enzymes)",
+      "Acute fatty liver of pregnancy (less likely — typically presents with jaundice, hypoglycemia, and coagulopathy)"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "case_id": "case_246",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Major depressive disorder, single episode, moderate",
+  "icd_category": "F32.1 — Major depressive disorder, single episode, moderate",
+  "one_liner": "A 38-year-old man presents with 6 weeks of persistent low mood, insomnia, loss of interest in hobbies, fatigue, and difficulty concentrating at work following a job layoff.",
+  "stage2": {
+    "hpi_extension": "The patient presents to his primary care physician for a routine visit and, upon questioning, reveals he has been feeling 'down and empty' for the past 6 weeks since being laid off from his marketing job. He reports difficulty falling asleep (takes 1-2 hours), waking at 4 AM unable to return to sleep, and feeling tired throughout the day despite spending more time in bed. He has lost interest in playing guitar and watching sports — activities he previously enjoyed. He has had a decreased appetite with 8-pound unintentional weight loss. He finds it difficult to concentrate when reading or completing job applications. He feels worthless and blames himself for being laid off, despite it being a company-wide restructuring. He denies suicidal ideation, plan, or intent. He denies any prior depressive episodes or history of mania/hypomania. He has been drinking 2-3 beers nightly to help him sleep (increased from occasional weekend drinking). PHQ-9 score is 16 (moderately severe).",
+    "pmh": "No significant past medical history. No prior psychiatric diagnoses.",
+    "surgical_history": "Wisdom teeth extraction",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with generalized anxiety disorder. Father with history of depression treated with fluoxetine. No family history of bipolar disorder or suicide.",
+    "social_history": "Unemployed for 6 weeks (laid off from marketing manager position). Single, lives alone in an apartment. College-educated. Previously socially active, now isolating. Increased alcohol intake (2-3 beers nightly, up from occasional). Denies tobacco or illicit drug use. Has a supportive friend group but has been declining invitations. No firearms in the home.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "68 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "170 lbs, BMI 24.4 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing man with mild psychomotor slowing, maintains adequate eye contact. HEENT: Normocephalic, atraumatic. Pupils equal and reactive. Oropharynx clear. Neck: No thyromegaly or lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, non-distended. Neurological: Cranial nerves II-XII intact, normal gait, normal motor and sensory exam. Mental Status Exam: Appearance — casually dressed, slightly unkempt. Behavior — cooperative, slowed movements. Speech — normal rate but low volume. Mood — 'pretty low.' Affect — sad, constricted range, congruent. Thought process — linear, goal-directed. Thought content — guilt about job loss, feelings of worthlessness, no SI/HI, no delusions. Perception — no hallucinations. Cognition — oriented x3, mild difficulty with concentration (slow on serial 7s). Insight — fair. Judgment — fair."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.8, Hgb 15.0, Hct 44.8, Plt 248", "flag": "WNL", "clinical_significance": "Normal; rules out anemia contributing to fatigue"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism as cause of depressive symptoms"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 14, Cr 1.0, Glucose 92, Ca 9.6, AST 32, ALT 28, Alk Phos 58, Albumin 4.1", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mildly elevated AST could reflect recent alcohol use"},
+      {"test_name": "Vitamin B12", "result": "520 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12; rules out deficiency causing fatigue and mood symptoms"},
+      {"test_name": "Folate", "result": "14.2 ng/mL", "flag": "WNL", "clinical_significance": "Normal folate level"},
+      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "No illicit substance use; alcohol would not be detected"},
+      {"test_name": "Testosterone (total, AM)", "result": "485 ng/dL", "flag": "WNL", "clinical_significance": "Normal testosterone; rules out hypogonadism as cause of fatigue and low mood in a male patient"},
+      {"test_name": "HbA1c", "result": "5.1%", "flag": "WNL", "clinical_significance": "Normal; rules out diabetes contributing to fatigue"}
+    ],
+    "imaging_results": [
+      {"test_name": "No imaging indicated", "result": "N/A", "flag": "N/A", "clinical_significance": "No focal neurological deficits or features suggesting structural pathology; imaging not warranted"}
+    ],
+    "key_tests": [
+      "PHQ-9 — score 16 (moderately severe depression)",
+      "TSH — ruling out hypothyroidism as a medical cause of depressive symptoms",
+      "CBC — ruling out anemia as cause of fatigue",
+      "AUDIT (Alcohol Use Disorders Identification Test) — score 12, indicating hazardous drinking"
+    ],
+    "acceptable_tests": [
+      "CMP — baseline metabolic assessment",
+      "Vitamin B12 and folate — ruling out nutritional deficiency",
+      "Testosterone (AM) — screening for hypogonadism in males with depressive symptoms",
+      "Urine drug screen — ruling out substance-induced mood disorder",
+      "HbA1c — screening for diabetes"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological deficits)",
+      "CT Head (no indication for neuroimaging)",
+      "EEG (no seizure history)",
+      "Cortisol level (no features of Cushing or Addison disease)",
+      "Heavy metal screen (no exposure history)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets DSM-5 criteria for major depressive disorder: depressed mood, anhedonia, insomnia (initial and terminal), fatigue, weight loss/decreased appetite, feelings of worthlessness, and difficulty concentrating — 7 of 9 criteria present for >2 weeks, causing significant functional impairment. PHQ-9 of 16 confirms moderately severe depression. All medical causes have been ruled out with normal labs. A clear precipitant (job loss) is identified, but severity and duration exceed adjustment disorder. The increasing alcohol use is a concerning secondary issue requiring attention."
+  },
+  "debrief": {
+    "classic_presentation": "An adult presenting with at least 2 weeks of persistent depressed mood and/or loss of interest (anhedonia) plus additional neurovegetative symptoms totaling 5 or more from the SIG E CAPS criteria: Sleep changes, Interest loss, Guilt/worthlessness, Energy loss, Concentration difficulty, Appetite/weight changes, Psychomotor changes, Suicidality. Symptoms cause significant distress or impaired functioning. A psychosocial stressor is commonly identified but not required for diagnosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Major depressive disorder involves dysregulation of multiple neurotransmitter systems: decreased serotonergic and noradrenergic transmission (monoamine hypothesis), reduced BDNF (brain-derived neurotrophic factor) with impaired neuroplasticity, HPA axis hyperactivity with elevated cortisol, and neuroinflammatory processes. Neuroimaging shows decreased prefrontal cortex activity (executive dysfunction), increased amygdala reactivity (negative emotional bias), and hippocampal volume reduction (memory and stress regulation impairment). Genetic factors account for ~40% of risk, with gene-environment interaction models best explaining vulnerability (e.g., 5-HTTLPR polymorphism modulating stress sensitivity).",
+    "treatment_overview": "First-line: for moderate depression, the combination of pharmacotherapy and psychotherapy is most effective. SSRIs are first-line pharmacotherapy: sertraline 50 mg, escitalopram 10 mg, or fluoxetine 20 mg — start low, titrate at 4-week intervals, allow 4-6 weeks for response. Psychotherapy: CBT and interpersonal therapy have the strongest evidence. For this patient, address alcohol misuse concurrently — alcohol is a CNS depressant and worsens depression; brief motivational interviewing is appropriate. Follow-up in 2 weeks to assess tolerability, then every 4 weeks. After remission, continue antidepressant for 6-12 months to prevent relapse (for first episode). Screen for suicide risk at every visit.",
+    "high_yield_pearls": [
+      "PHQ-9 is the standard screening and monitoring tool: 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe depression.",
+      "Always screen for bipolar disorder before starting antidepressants — antidepressants can trigger manic switch in undiagnosed bipolar disorder.",
+      "Always assess alcohol use in depression — comorbid alcohol use disorder is present in 30-40% of depressed patients and worsens outcomes.",
+      "Hypothyroidism is the most important medical mimic of depression — TSH should be checked in all new presentations.",
+      "For first-episode depression, continue antidepressant for at least 6-12 months after remission before considering taper."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for the Treatment of Major Depressive Disorder (3rd Edition)",
+      "USPSTF Recommendation: Screening for Depression in Adults (2016)",
+      "Kroenke K et al. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med, 2001",
+      "Cipriani A et al. Comparative efficacy and acceptability of 21 antidepressant drugs. Lancet, 2018"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Major depressive disorder",
+      "Adjustment disorder with depressed mood",
+      "Hypothyroidism",
+      "Alcohol-induced depressive disorder",
+      "Persistent depressive disorder (dysthymia)",
+      "Bipolar II disorder (depressive episode)"
+    ],
+    "after_stage2_more_likely": [
+      "Major depressive disorder — meets 7/9 SIG E CAPS criteria for >2 weeks with functional impairment, PHQ-9 of 16",
+      "Adjustment disorder — clear temporal relationship to stressor, but severity of symptoms favors MDD"
+    ],
+    "after_stage2_less_likely": [
+      "Bipolar II disorder — no history of manic or hypomanic episodes",
+      "Hypothyroidism — no thyromegaly, no constipation, no cold intolerance on exam",
+      "Persistent depressive disorder — duration only 6 weeks (requires 2 years)"
+    ],
+    "after_labs_top3": [
+      "Major depressive disorder — normal TSH, B12, testosterone, and metabolic panel; meets full DSM-5 criteria; severity exceeds adjustment disorder",
+      "Alcohol-induced depressive disorder — escalating alcohol use could be contributing but temporal sequence (depression preceded increased drinking) favors primary MDD",
+      "Adjustment disorder with depressed mood — possible but symptom severity (7/9 criteria, PHQ-9 of 16) exceeds typical adjustment disorder"
+    ]
+  }
+}

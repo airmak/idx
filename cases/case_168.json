@@ -1,0 +1,75 @@
+{
+  "case_id": "case_168",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Cirrhosis (Alcoholic)",
+  "icd_category": "K70.30 — Alcoholic cirrhosis of liver without ascites",
+  "one_liner": "A 55-year-old male with a 25-year history of heavy alcohol use presents with progressive abdominal distension, lower extremity edema, and fatigue over 3 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive abdominal swelling over the past 3 months with a 10 kg weight gain despite decreased appetite. He has noticed bilateral lower extremity swelling and easy fatigability. He reports dark urine and pale stools intermittently. He has had two episodes of confusion noted by his wife, with disorientation and sleep-wake reversal lasting 1-2 days each. He has noticed increased bruising with minimal trauma. He denies hematemesis, melena, or hematochezia. He has consumed 6-8 beers daily for 25 years and half a bottle of whiskey on weekends. He attempted to cut down 6 months ago but continued drinking.",
+    "pmh": "Hypertension, gastritis, prior episode of alcoholic hepatitis 3 years ago",
+    "surgical_history": "Inguinal hernia repair 10 years ago",
+    "medications": "Amlodipine 10 mg daily, omeprazole 20 mg daily, thiamine 100 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of liver disease at age 60. Brother has alcohol use disorder.",
+    "social_history": "Active heavy alcohol use (6-8 beers daily for 25 years, plus liquor on weekends). Former smoker (20 pack-years, quit 2 years ago). Unemployed, previously worked in construction. Divorced. Lives alone.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "88 bpm, regular",
+      "bp": "104/62 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "92 kg, BMI 29.4"
+    },
+    "physical_exam": "General: Chronically ill-appearing male with temporal wasting and muscle wasting. HEENT: Scleral icterus, parotid gland enlargement. Cardiovascular: Regular rate, no murmurs. Pulmonary: Decreased breath sounds at right base. Abdomen: Markedly distended with shifting dullness and fluid wave consistent with ascites, caput medusae visible on abdominal wall, liver edge not palpable, spleen palpable 3 cm below left costal margin. Skin: Jaundice, multiple spider angiomata on the chest and face, palmar erythema, Dupuytren contracture of the right hand. Extremities: 3+ bilateral pitting edema to the knees. Neuro: Alert, oriented to person and place but not date, asterixis present bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 4.2, Hgb 10.5, MCV 104, Plt 72", "flag": "LOW", "clinical_significance": "Pancytopenia with macrocytic anemia from folate deficiency/alcohol toxicity; thrombocytopenia from splenic sequestration"},
+      {"test_name": "CMP", "result": "Na 128, K 3.2, Cr 1.3, BUN 22, Glucose 88, Albumin 2.4, Total protein 5.8", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia (dilutional from ascites), hypokalemia, impaired synthetic function (low albumin)"},
+      {"test_name": "LFTs", "result": "AST 98, ALT 52, ALP 145, Total bilirubin 4.8, Direct bilirubin 3.2", "flag": "HIGH", "clinical_significance": "AST:ALT ratio >2:1 is classic for alcoholic liver disease; elevated bilirubin from impaired hepatic conjugation"},
+      {"test_name": "PT/INR", "result": "INR 1.8, PT 22 seconds", "flag": "HIGH", "clinical_significance": "Prolonged from impaired hepatic synthesis of clotting factors"},
+      {"test_name": "Ammonia", "result": "88 µmol/L", "flag": "HIGH", "clinical_significance": "Elevated ammonia consistent with hepatic encephalopathy"},
+      {"test_name": "GGT", "result": "385 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with chronic alcohol use and cholestasis"},
+      {"test_name": "Hepatitis B panel", "result": "HBsAg negative, anti-HBs positive, anti-HBc negative", "flag": "WNL", "clinical_significance": "Immune from vaccination, no active or prior HBV infection"},
+      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "No hepatitis C co-infection"},
+      {"test_name": "Ascitic fluid analysis", "result": "SAAG 1.8, Total protein 1.5, WBC 120 (65% lymphocytes), culture negative", "flag": "ABNORMAL", "clinical_significance": "SAAG >1.1 confirms portal hypertension; low protein ascites typical of cirrhosis; no SBP"},
+      {"test_name": "AFP", "result": "8 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no evidence of hepatocellular carcinoma"}
+    ],
+    "imaging_results": [
+      {"test_name": "Abdominal ultrasound with Doppler", "result": "Liver is small and nodular with coarse heterogeneous echotexture. Large-volume ascites. Splenomegaly (16 cm). Patent portal vein with hepatofugal flow. No focal liver lesions. No biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Confirms cirrhosis with portal hypertension (hepatofugal flow, splenomegaly, ascites). No HCC on initial screening."},
+      {"test_name": "Chest X-ray", "result": "Right-sided pleural effusion. No infiltrate or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Hepatic hydrothorax from ascitic fluid transudation through diaphragmatic defects."}
+    ],
+    "key_tests": ["LFTs (AST, ALT, bilirubin)", "CMP (albumin, sodium)", "PT/INR", "CBC with platelet count", "Abdominal ultrasound with Doppler"],
+    "acceptable_tests": ["Hepatitis B and C serologies", "Diagnostic paracentesis with ascitic fluid analysis", "GGT", "Ammonia level", "AFP", "Fibroscan/liver elastography", "Chest X-ray", "BMP"],
+    "low_yield_tests": ["CT coronary angiography", "Colonoscopy", "MRCP", "ANA/anti-smooth muscle antibodies", "Serum ceruloplasmin"],
+    "key_tests_rationale": "LFTs with AST:ALT ratio >2:1 is characteristic of alcoholic liver disease. Albumin and INR assess hepatic synthetic function and determine Child-Pugh/MELD scores. CBC reveals thrombocytopenia from portal hypertension. Ultrasound with Doppler confirms cirrhotic morphology and evaluates portal hemodynamics."
+  },
+  "stage5": {
+    "final_clue": "A 55-year-old heavy drinker with jaundice, ascites, splenomegaly, hepatic encephalopathy, and AST:ALT >2:1 with impaired synthetic function (low albumin, elevated INR). Ultrasound shows a nodular liver with portal hypertension and hepatofugal flow. SAAG >1.1 confirms portal hypertensive ascites. These findings confirm decompensated alcoholic cirrhosis (Child-Pugh C)."
+  },
+  "debrief": {
+    "classic_presentation": "Alcoholic cirrhosis presents with signs of chronic liver disease (jaundice, spider angiomata, palmar erythema, gynecomastia, caput medusae) and portal hypertension (ascites, splenomegaly, varices). Decompensation is marked by ascites, variceal bleeding, hepatic encephalopathy, or jaundice. The AST:ALT ratio >2:1 is a hallmark of alcohol-related liver injury. Patients often have concurrent nutritional deficiencies.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic alcohol consumption causes hepatocyte injury through acetaldehyde (a toxic metabolite of ethanol via alcohol dehydrogenase), oxidative stress, and inflammation. Repeated injury activates hepatic stellate cells, leading to progressive fibrosis and nodular regeneration (cirrhosis). Increased intrahepatic resistance causes portal hypertension, leading to portosystemic shunting, splenomegaly, ascites, and varices. Impaired hepatic clearance of ammonia and other toxins causes hepatic encephalopathy. Loss of synthetic function results in hypoalbuminemia, coagulopathy, and hyperbilirubinemia.",
+    "treatment_overview": "Alcohol cessation is the most critical intervention — refer to addiction medicine. Ascites management: sodium restriction (<2 g/day), diuretics (spironolactone 100 mg + furosemide 40 mg in 100:40 ratio), therapeutic paracentesis with albumin replacement for large-volume ascites. Hepatic encephalopathy: lactulose (titrate to 2-3 soft stools/day) and rifaximin 550 mg BID. Variceal screening: EGD for esophageal varices, prophylaxis with non-selective beta-blockers (nadolol or propranolol). SBP prophylaxis if ascitic fluid protein <1.5 g/dL. Calculate MELD score for transplant eligibility. Nutritional support, thiamine, and folate supplementation.",
+    "high_yield_pearls": [
+      "AST:ALT ratio >2:1 is the hallmark of alcoholic liver disease — ALT requires pyridoxal phosphate (B6) as a cofactor, which is deficient in alcoholics.",
+      "MELD score (bilirubin, INR, creatinine) is used to prioritize liver transplant listing; MELD >15 generally warrants transplant evaluation.",
+      "SAAG (serum-ascites albumin gradient) >1.1 g/dL indicates portal hypertension with 97% accuracy.",
+      "Six months of documented alcohol abstinence is traditionally required for liver transplant listing, though some centers now offer early transplant for select patients.",
+      "SBP should be suspected in any cirrhotic patient with ascites who develops fever, abdominal pain, or encephalopathy — diagnose with ascitic fluid PMN count >250/mm3."
+    ],
+    "sources": [
+      "2018 AASLD Practice Guidance on Alcohol-Related Liver Disease",
+      "Singal AK et al., ACG Clinical Guideline: Alcoholic Liver Disease, American Journal of Gastroenterology 2018",
+      "European Association for the Study of the Liver (EASL) Guidelines on Decompensated Cirrhosis 2018"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Non-alcoholic steatohepatitis (NASH) cirrhosis", "Hepatitis C cirrhosis", "Hepatitis B cirrhosis", "Cardiac cirrhosis", "Hemochromatosis", "Autoimmune hepatitis"],
+    "after_stage2_more_likely": ["Alcoholic cirrhosis", "NASH cirrhosis", "Hepatitis C cirrhosis"],
+    "after_stage2_less_likely": ["Cardiac cirrhosis", "Hemochromatosis", "Autoimmune hepatitis"],
+    "after_labs_top3": ["Alcoholic cirrhosis (decompensated)", "NASH cirrhosis", "Mixed alcoholic and viral cirrhosis"]
+  }
+}

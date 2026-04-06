@@ -1,0 +1,77 @@
+{
+  "case_id": "case_066",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Congestive Heart Failure with Reduced Ejection Fraction (HFrEF)",
+  "icd_category": "I50.2 — Systolic (congestive) heart failure",
+  "one_liner": "A 62-year-old male with a history of hypertension and prior MI presents with progressive dyspnea on exertion and bilateral lower extremity edema.",
+  "stage2": {
+    "hpi_extension": "The patient reports worsening shortness of breath over the past 3 weeks, now occurring with minimal activity such as walking to the bathroom. He sleeps propped up on 3 pillows and has been waking at night gasping for air. He has gained 8 lbs over the past 2 weeks and notes his shoes feel tight. He denies chest pain or palpitations.",
+    "pmh": "Hypertension (15 years), anterior STEMI 2 years ago with PCI to LAD, type 2 diabetes mellitus, hyperlipidemia",
+    "surgical_history": "PCI with drug-eluting stent to LAD (2 years ago), appendectomy (age 20)",
+    "medications": "Lisinopril 10 mg daily, metoprolol succinate 25 mg daily, atorvastatin 40 mg daily, metformin 1000 mg BID, aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of MI at age 58. Mother has hypertension and diabetes. No family history of cardiomyopathy.",
+    "social_history": "Former smoker (30 pack-year history, quit 2 years ago after MI). Drinks 1-2 beers per week. Retired electrician. Lives with wife.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "98 bpm, regular",
+      "bp": "105/72 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "92% on room air",
+      "weight_bmi": "98 kg, BMI 31.2"
+    },
+    "physical_exam": "General: Mild respiratory distress, sitting upright. HEENT: JVP elevated to 12 cm H2O. Cardiovascular: S1/S2 with S3 gallop, no murmurs, PMI displaced laterally. Pulmonary: Bibasilar crackles extending to mid-lung fields. Abdomen: Soft, mild hepatomegaly with positive hepatojugular reflux. Extremities: 2+ bilateral pitting edema to mid-shin. Skin: Cool extremities."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "BNP", "result": "1,240 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with decompensated heart failure"},
+      {"test_name": "Troponin I", "result": "0.03 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial injury"},
+      {"test_name": "Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia, common in advanced HF due to neurohormonal activation"},
+      {"test_name": "Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment, likely cardiorenal syndrome"},
+      {"test_name": "BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with prerenal azotemia from poor forward flow"},
+      {"test_name": "Hemoglobin", "result": "12.8 g/dL", "flag": "WNL", "clinical_significance": "Normal, rules out anemia as contributor"},
+      {"test_name": "ALT", "result": "62 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation suggesting hepatic congestion"},
+      {"test_name": "AST", "result": "55 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation from hepatic congestion"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out thyroid disease as cause"},
+      {"test_name": "HbA1c", "result": "7.2%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "Cardiomegaly with cephalization of pulmonary vasculature, bilateral pleural effusions, and Kerley B lines", "flag": "ABNORMAL", "clinical_significance": "Classic findings of congestive heart failure"},
+      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 25%, global hypokinesis with akinetic anterior wall, LV dilation (LVEDD 6.8 cm), moderate mitral regurgitation (functional), mild tricuspid regurgitation, elevated RVSP 45 mmHg", "flag": "ABNORMAL", "clinical_significance": "Severely reduced EF with ischemic cardiomyopathy pattern confirming HFrEF"}
+    ],
+    "key_tests": ["BNP or NT-proBNP", "Transthoracic echocardiogram", "Chest X-ray", "Basic metabolic panel", "Troponin"],
+    "acceptable_tests": ["CBC", "Liver function tests", "TSH", "Urinalysis", "Iron studies", "HbA1c", "Lipid panel", "12-lead ECG"],
+    "low_yield_tests": ["CT coronary angiography", "Cardiac MRI", "PET scan", "Pulmonary function tests", "D-dimer"],
+    "key_tests_rationale": "BNP confirms clinical suspicion of HF. Echo is essential to determine EF and classify HF type. CXR shows pulmonary congestion. BMP assesses renal function and electrolytes. Troponin rules out acute ischemia."
+  },
+  "stage5": {
+    "final_clue": "The echocardiogram reveals an LVEF of 25% with global hypokinesis and akinetic anterior wall, consistent with ischemic cardiomyopathy. BNP is markedly elevated at 1,240 pg/mL."
+  },
+  "debrief": {
+    "classic_presentation": "HFrEF classically presents with dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, lower extremity edema, and weight gain. Exam findings include elevated JVP, S3 gallop, bibasilar crackles, and peripheral edema. History of prior MI is a major risk factor.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In HFrEF, reduced cardiac output triggers compensatory neurohormonal activation (RAAS, sympathetic nervous system), leading to sodium and water retention, vasoconstriction, and progressive ventricular remodeling. The failing ventricle dilates, worsening mitral regurgitation and further reducing forward flow. This creates a vicious cycle of worsening heart failure.",
+    "treatment_overview": "Acute management: IV loop diuretics for decongestion, oxygen if hypoxic, fluid and sodium restriction. Guideline-directed medical therapy (GDMT): ACEi/ARB/ARNI, beta-blocker (carvedilol, metoprolol succinate, or bisoprolol), mineralocorticoid receptor antagonist (spironolactone/eplerenone), SGLT2 inhibitor (dapagliflozin/empagliflozin). Consider ICD for primary prevention if EF remains ≤35% after 3 months of GDMT. Cardiac resynchronization therapy if LBBB with QRS ≥150 ms.",
+    "high_yield_pearls": [
+      "BNP >400 pg/mL has high sensitivity for decompensated HF; BNP <100 pg/mL essentially rules it out.",
+      "The 'four pillars' of HFrEF therapy are ARNI/ACEi/ARB, beta-blocker, MRA, and SGLT2 inhibitor — all reduce mortality.",
+      "S3 gallop is the most specific heart sound finding for HF and correlates with elevated filling pressures.",
+      "Hyponatremia in HF is a marker of severity and poor prognosis due to excessive ADH secretion.",
+      "ICD is indicated for primary prevention in patients with EF ≤35% despite ≥3 months of optimized GDMT."
+    ],
+    "sources": [
+      "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+      "Braunwald's Heart Disease, 12th Edition",
+      "PARADIGM-HF Trial (McMurray et al., NEJM 2014)",
+      "DAPA-HF Trial (McMurray et al., NEJM 2019)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute coronary syndrome", "Pneumonia", "COPD exacerbation", "Pulmonary embolism", "Nephrotic syndrome", "Acute kidney injury"],
+    "after_stage2_more_likely": ["Congestive heart failure", "Acute coronary syndrome"],
+    "after_stage2_less_likely": ["Pneumonia", "COPD exacerbation", "Pulmonary embolism"],
+    "after_labs_top3": ["Congestive heart failure (HFrEF)", "Cardiorenal syndrome", "Acute coronary syndrome"]
+  }
+}

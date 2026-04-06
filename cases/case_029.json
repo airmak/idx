@@ -1,0 +1,74 @@
+{
+  "case_id": "case_029",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Anaphylaxis",
+  "icd_category": "T78.2 — Anaphylactic shock, unspecified",
+  "one_liner": "A 32-year-old female with a history of seasonal allergies presents with diffuse urticaria, tongue swelling, and wheezing after eating shrimp at a restaurant.",
+  "stage2": {
+    "hpi_extension": "Patient was dining at a seafood restaurant approximately 20 minutes ago when she developed sudden itching of her palms and soles, followed by a diffuse rash. She then noticed swelling of her lips and tongue, difficulty swallowing, and progressive shortness of breath with wheezing. She reports lightheadedness and a sensation of throat tightness. She has never eaten shrimp before. No prior known shellfish allergy. She denies any insect stings, new medications, or other exposures today. Her dining companion called 911 when she appeared to have difficulty breathing.",
+    "pmh": "Seasonal allergic rhinitis, mild intermittent asthma (well-controlled)",
+    "surgical_history": "None",
+    "medications": "Cetirizine 10 mg as needed, albuterol inhaler as needed",
+    "allergies": "No known drug allergies. No previously known food allergies.",
+    "family_history": "Mother has asthma and eczema. Father has no significant medical history.",
+    "social_history": "Non-smoker, occasional alcohol use. Works as a graphic designer. No illicit drug use.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "128 bpm",
+      "bp": "82/48 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "90% on room air",
+      "weight_bmi": "65 kg, BMI 23.4"
+    },
+    "physical_exam": "General: Anxious female in acute respiratory distress with visible urticarial rash. Voice is hoarse and muffled. HEENT: Significant angioedema of lips and tongue. Oropharynx shows uvular edema. Eyes: bilateral conjunctival injection and periorbital edema. Neck: No JVD. Trachea midline. Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. No murmurs. Weak peripheral pulses. Pulmonary: Diffuse bilateral wheezing. Decreased air entry bilaterally. Accessory muscle use. Abdomen: Soft, mildly tender diffusely. Hyperactive bowel sounds. Skin: Diffuse erythematous urticarial wheals over trunk, extremities, and face. Warm, flushed. Extremities: No edema (aside from angioedema). Capillary refill 4 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Tryptase", "result": "48 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (normal <11.4), confirms mast cell degranulation consistent with anaphylaxis"},
+      {"test_name": "CBC - WBC", "result": "11.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress/epinephrine response"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Potassium", "result": "3.4 mEq/L", "flag": "LOW", "clinical_significance": "Mildly low, can occur with epinephrine administration and catecholamine surge"},
+      {"test_name": "BMP - Glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia"},
+      {"test_name": "Arterial Blood Gas - pH", "result": "7.48", "flag": "HIGH", "clinical_significance": "Respiratory alkalosis from hyperventilation"},
+      {"test_name": "ABG - pCO2", "result": "30 mmHg", "flag": "LOW", "clinical_significance": "Hypocapnia consistent with tachypnea"},
+      {"test_name": "ABG - pO2", "result": "68 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia from bronchospasm and V/Q mismatch"},
+      {"test_name": "Lactate", "result": "3.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from hypoperfusion/distributive shock"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (portable)", "result": "Hyperinflated lungs. No focal consolidation, pneumothorax, or pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Hyperinflation consistent with bronchospasm; no alternative etiology identified"},
+      {"test_name": "Soft tissue neck X-ray (lateral)", "result": "Soft tissue swelling of the epiglottic and aryepiglottic folds. No foreign body.", "flag": "ABNORMAL", "clinical_significance": "Confirms upper airway edema consistent with angioedema"}
+    ],
+    "key_tests": ["Serum tryptase", "Arterial blood gas", "Chest X-ray", "Continuous pulse oximetry"],
+    "acceptable_tests": ["CBC", "BMP", "Lactate", "ECG (to evaluate for cardiac involvement)", "Soft tissue neck X-ray", "IgE levels (not acute but for follow-up)", "Serial vital signs monitoring"],
+    "low_yield_tests": ["CT chest", "Procalcitonin", "Blood cultures", "D-dimer", "Liver function tests"]
+  },
+  "stage5": {
+    "final_clue": "The clinical triad of urticaria/angioedema, bronchospasm, and hypotension occurring within minutes of shellfish ingestion, combined with a markedly elevated serum tryptase of 48 ng/mL, confirms anaphylaxis requiring immediate epinephrine."
+  },
+  "debrief": {
+    "classic_presentation": "Rapid onset (minutes to hours) of multi-system involvement after allergen exposure: skin (urticaria, angioedema), respiratory (bronchospasm, laryngeal edema), cardiovascular (hypotension, tachycardia), and/or GI (nausea, cramping). Food, insect stings, and medications are the most common triggers.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Anaphylaxis is a severe, systemic type I hypersensitivity reaction mediated by IgE. Re-exposure (or first exposure in sensitized individuals) triggers mast cell and basophil degranulation, releasing histamine, leukotrienes, prostaglandins, and other mediators. These cause widespread vasodilation, increased vascular permeability, bronchospasm, and mucous secretion, leading to distributive shock and airway compromise.",
+    "treatment_overview": "Epinephrine IM (0.3-0.5 mg of 1:1000 concentration) in the anterolateral thigh is the first-line treatment. Repeat every 5-15 minutes as needed. Adjuncts include: IV fluids (1-2 L NS bolus for hypotension), albuterol nebulization for bronchospasm, H1 blocker (diphenhydramine 50 mg IV), H2 blocker (famotidine 20 mg IV), corticosteroids (methylprednisolone 125 mg IV to prevent biphasic reaction). Prepare for advanced airway management if there is progressive upper airway edema. Observe for at least 4-6 hours for biphasic reactions. Prescribe epinephrine auto-injector and refer to allergy/immunology on discharge.",
+    "high_yield_pearls": [
+      "Epinephrine is the ONLY first-line treatment for anaphylaxis. Do not delay for antihistamines or steroids.",
+      "Biphasic reactions occur in 5-20% of cases, typically within 8-12 hours, necessitating observation.",
+      "Serum tryptase peaks 60-90 minutes after symptom onset and should be drawn promptly.",
+      "Anaphylaxis can occur without skin findings in up to 10-20% of cases.",
+      "Fatal anaphylaxis most commonly results from airway compromise (food-triggered) or cardiovascular collapse (medication/venom-triggered)."
+    ],
+    "sources": [
+      "World Allergy Organization Anaphylaxis Guidance 2020",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 26",
+      "Sampson HA et al. JACI 2006;117:391-397 (Anaphylaxis diagnostic criteria)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Anaphylaxis", "Angioedema (ACE-inhibitor or hereditary)", "Acute asthma exacerbation", "Vasovagal reaction", "Foreign body aspiration", "Epiglottitis", "Carcinoid syndrome"],
+    "after_stage2_more_likely": ["Anaphylaxis", "Angioedema"],
+    "after_stage2_less_likely": ["Epiglottitis", "Foreign body aspiration", "Vasovagal reaction"],
+    "after_labs_top3": ["Anaphylaxis", "Acute allergic reaction", "Angioedema"]
+  }
+}

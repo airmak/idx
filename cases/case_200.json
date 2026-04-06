@@ -1,0 +1,170 @@
+{
+  "case_id": "case_200",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Hirschsprung disease (rectosigmoid aganglionosis)",
+  "icd_category": "Q43.1 – Hirschsprung disease",
+  "one_liner": "A 3-day-old full-term male has not passed meconium since birth, presents with progressive abdominal distension, bilious vomiting, and failure to tolerate feeds.",
+  "stage2": {
+    "hpi_extension": "The patient is a full-term male born via uncomplicated vaginal delivery at 39 weeks with birth weight 3.6 kg and Apgar scores of 8 and 9. He has not passed meconium in the first 72 hours of life. Over the past 24 hours, he has developed progressive abdominal distension and has had 3 episodes of bilious (green) vomiting. He initially breastfed well but has become increasingly disinterested in feeding and irritable. The nursing staff notes he had a small amount of stool after a rectal temperature was taken, described as explosive liquid stool. There is no family history of cystic fibrosis. Prenatal ultrasounds were unremarkable. The newborn screen is pending.",
+    "pmh": "Full-term, birth weight 3.6 kg, Apgar 8/9. Prenatal ultrasounds normal. No polyhydramnios.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of Hirschsprung disease, cystic fibrosis, or inflammatory bowel disease. Older sibling (female) is healthy. No consanguinity.",
+    "social_history": "First-born male. Parents are non-consanguineous. No relevant exposures.",
+    "vitals": {
+      "temp": "37.4°C (99.3°F)",
+      "hr": "168 bpm",
+      "bp": "72/44 mmHg",
+      "rr": "52 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "3.5 kg (slight weight loss from birth weight, appropriate for age)"
+    },
+    "physical_exam": "General: Irritable, crying neonate with visibly distended abdomen. HEENT: Anterior fontanelle soft and flat; no dysmorphic features. Neck: No masses or lymphadenopathy. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Mildly tachypneic; decreased breath sounds at bilateral bases due to abdominal distension; no crackles or wheezes. Abdomen: Markedly distended with tympany to percussion throughout; no visible peristaltic waves; bowel sounds are high-pitched and hyperactive; no palpable masses; no erythema or discoloration of abdominal wall. Rectal examination: Normal external anal appearance and position; rectal tone is notably tight; on withdrawal of the examining finger, an explosive gush of liquid meconium stool is released with immediate partial decompression of the abdomen. Skin: No rashes, no jaundice. Extremities: Warm, well-perfused, capillary refill <2 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC",
+        "result": "WBC 14.5 × 10³/µL, Hgb 18.2 g/dL, Plt 265 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal neonatal CBC; no evidence of infection or anemia."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 133, K 3.8, Cl 94, CO2 20, BUN 12, Cr 0.5, Glucose 62",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild hyponatremia and hypochloremic metabolic alkalosis from bilious vomiting with gastrointestinal losses."
+      },
+      {
+        "test_name": "CRP",
+        "result": "8 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated CRP in a neonate can be nonspecific; no clear evidence of systemic infection."
+      },
+      {
+        "test_name": "Blood gas (capillary)",
+        "result": "pH 7.38, pCO2 36 mmHg, HCO3 21 mEq/L, lactate 1.8 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal acid-base status; no evidence of bowel ischemia or shock at this point."
+      },
+      {
+        "test_name": "Blood culture",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Negative blood culture helps exclude neonatal sepsis as a cause of poor feeding and distension."
+      },
+      {
+        "test_name": "Thyroid function (TSH, free T4)",
+        "result": "TSH 4.2 mIU/L, Free T4 1.4 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can cause neonatal constipation and must be excluded."
+      },
+      {
+        "test_name": "Sweat chloride test",
+        "result": "18 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal sweat chloride (<30 mEq/L) effectively excludes cystic fibrosis, which can cause meconium ileus."
+      },
+      {
+        "test_name": "Prealbumin",
+        "result": "15 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal nutritional marker; no evidence of protein malnutrition at this early stage."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Abdominal X-ray (AP supine and left lateral decubitus)",
+        "result": "Markedly dilated loops of large and small bowel with multiple air-fluid levels. No pneumatosis intestinalis. No free air. Absence of rectal gas.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diffuse bowel dilation with absent rectal gas in a neonate who has not passed meconium is highly suggestive of distal colonic obstruction, consistent with Hirschsprung disease."
+      },
+      {
+        "test_name": "Contrast enema (barium)",
+        "result": "Transition zone identified at the rectosigmoid junction with a narrow, spastic-appearing rectum and a dilated proximal sigmoid and descending colon. Rectosigmoid index <1.0. Delayed 24-hour film shows retained barium.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The transition zone at the rectosigmoid junction is the hallmark finding of Hirschsprung disease on contrast enema. The rectosigmoid index <1.0 (normally >1.0) indicates the rectum is narrower than the sigmoid, pathognomonic for Hirschsprung disease."
+      },
+      {
+        "test_name": "Rectal suction biopsy",
+        "result": "Absence of ganglion cells in the submucosal (Meissner) and myenteric (Auerbach) plexuses. Hypertrophied nerve trunks with increased acetylcholinesterase staining.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rectal suction biopsy is the gold standard for diagnosis. Absence of ganglion cells confirms Hirschsprung disease. Elevated acetylcholinesterase activity in hypertrophied nerve fibers is a supportive finding."
+      }
+    ],
+    "key_tests": [
+      "Rectal suction biopsy (gold standard)",
+      "Contrast enema (barium or water-soluble)",
+      "Abdominal X-ray",
+      "Anorectal manometry (absent rectoanal inhibitory reflex)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BMP (assess electrolyte derangements from vomiting)",
+      "Blood culture (rule out sepsis in distended neonate)",
+      "Thyroid function tests",
+      "Sweat chloride test (exclude cystic fibrosis/meconium ileus)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (radiation exposure, biopsy is definitive)",
+      "Upper GI series (obstruction is distal)",
+      "Stool studies for infection",
+      "Genetic testing (not needed for diagnosis)"
+    ],
+    "attending_pimp_questions": [
+      "What is the embryologic basis of Hirschsprung disease, and why does it always involve the rectum?",
+      "What is the rectoanal inhibitory reflex, and why is it absent in Hirschsprung disease?",
+      "What is Hirschsprung-associated enterocolitis, when does it occur, and why is it the most dangerous complication?",
+      "What are the surgical options for definitive management, and which approach is most commonly used today?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Rectal suction biopsy confirms the absence of ganglion cells in both the submucosal and myenteric plexuses with hypertrophied nerve trunks and positive acetylcholinesterase staining, establishing the definitive diagnosis of Hirschsprung disease with a rectosigmoid transition zone."
+  },
+  "debrief": {
+    "classic_presentation": "Hirschsprung disease classically presents in the neonatal period with failure to pass meconium within the first 48 hours of life (90% of full-term neonates pass meconium by 24 hours, 99% by 48 hours). Subsequent findings include abdominal distension, bilious vomiting, and feeding intolerance. A key clinical sign is the 'squirt sign' — explosive expulsion of stool and gas on digital rectal examination due to functional obstruction at the aganglionic segment. The condition affects males 4 times more frequently than females.",
+    "attending_mode_notes": "Hirschsprung disease results from failure of neural crest cell migration during weeks 5-12 of gestation. Migration proceeds craniocaudally, which is why the aganglionic segment always includes the rectum and extends proximally for a variable distance. Short-segment disease (rectosigmoid, 80%) has the best prognosis; total colonic aganglionosis (3-8%) and total intestinal aganglionosis are rare and carry a worse prognosis. The most feared complication is Hirschsprung-associated enterocolitis (HAEC), which occurs in 20-30% of patients (both pre- and post-operatively) and presents with explosive diarrhea, abdominal distension, fever, and can progress to toxic megacolon and sepsis. HAEC requires urgent rectal irrigations, IV antibiotics, and may require diverting colostomy. Associated conditions include Down syndrome (2-15% of Hirschsprung patients have trisomy 21), MEN2A/2B (RET proto-oncogene mutations), Waardenburg syndrome, and congenital central hypoventilation syndrome (Ondine's curse — PHOX2B mutations). The RET gene is the most commonly implicated gene, mutated in ~50% of familial and ~15-20% of sporadic cases.",
+    "pathophysiology": "During normal embryologic development, neural crest-derived cells migrate craniocaudally along the gut to form the enteric nervous system (ganglia in the Meissner and Auerbach plexuses). In Hirschsprung disease, this migration is arrested, leaving the distal bowel aganglionic. The aganglionic segment cannot relax (no inhibitory neurons), creating a functional obstruction with tonic contraction of the affected bowel. The proximal, normally ganglionated bowel dilates as it tries to push contents through the non-relaxing segment. The internal anal sphincter fails to relax in response to rectal distension (absent rectoanal inhibitory reflex), which is the basis for anorectal manometry diagnosis.",
+    "treatment_overview": "Initial management includes bowel decompression with rectal irrigations (warm saline 10-20 mL/kg), NPO status, nasogastric decompression, IV fluids, and broad-spectrum antibiotics if enterocolitis is suspected. Definitive treatment is surgical pull-through procedure, connecting normally ganglionated bowel to the anus. The three classic approaches are the Swenson (full-thickness resection), Duhamel (retrorectal pull-through), and Soave (endorectal pull-through) procedures. Transanal endorectal pull-through (TERPT) is the most commonly used modern technique for short-segment disease. Intraoperative frozen sections confirm the presence of ganglion cells at the proximal margin. Long-term complications include enterocolitis (most common), obstructive symptoms, fecal incontinence, and constipation.",
+    "high_yield_pearls": [
+      "Failure to pass meconium within 48 hours of birth in a full-term neonate should raise immediate suspicion for Hirschsprung disease — 99% of healthy full-term neonates pass meconium by 48 hours.",
+      "The 'squirt sign' (explosive stool release on digital rectal exam) is a classic clinical finding in Hirschsprung disease and can provide dramatic, temporary decompression of the distended abdomen.",
+      "Rectal suction biopsy is the gold standard — absence of ganglion cells with hypertrophied nerve trunks and increased acetylcholinesterase staining confirms the diagnosis.",
+      "Hirschsprung-associated enterocolitis (HAEC) is the most serious complication and can occur before or after surgical repair; it requires urgent rectal irrigations and IV antibiotics.",
+      "Down syndrome is present in 2-15% of Hirschsprung patients — always consider Hirschsprung disease in a child with trisomy 21 presenting with chronic constipation."
+    ],
+    "sources": [
+      "AAP Section on Surgery: Hirschsprung Disease",
+      "UpToDate: Congenital aganglionic megacolon (Hirschsprung disease)",
+      "UpToDate: Surgical management of Hirschsprung disease",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hirschsprung disease",
+      "Meconium ileus (cystic fibrosis)",
+      "Meconium plug syndrome (small left colon syndrome)",
+      "Intestinal atresia (ileal or colonic)",
+      "Malrotation with midgut volvulus",
+      "Hypothyroidism (neonatal)",
+      "Anorectal malformation (imperforate anus)"
+    ],
+    "after_stage2_more_likely": [
+      "Hirschsprung disease (failure to pass meconium at 72 hours, abdominal distension, bilious vomiting, tight rectal tone, explosive stool on rectal exam)",
+      "Meconium plug syndrome (functional immaturity of colon, though explosive stool release is more characteristic of Hirschsprung)"
+    ],
+    "after_stage2_less_likely": [
+      "Meconium ileus (normal sweat chloride excludes CF; meconium ileus produces a ground-glass appearance on X-ray)",
+      "Anorectal malformation (normal-appearing anus rules this out)",
+      "Malrotation with volvulus (would expect more acute presentation with bloody stools)"
+    ],
+    "after_labs_top3": [
+      "Hirschsprung disease (confirmed by absent ganglion cells on rectal suction biopsy)",
+      "Meconium plug syndrome (transition zone on contrast enema can mimic, but biopsy distinguishes)",
+      "Intestinal neuronal dysplasia (rare, histopathology differs with hyperganglionosis)"
+    ]
+  }
+}

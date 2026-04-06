@@ -1,0 +1,74 @@
+{
+  "case_id": "case_047",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Acute Cholecystitis",
+  "icd_category": "K81.0 — Acute cholecystitis",
+  "one_liner": "A 44-year-old obese female presents with right upper quadrant pain, fever, and nausea 30 minutes after eating a fatty meal.",
+  "stage2": {
+    "hpi_extension": "Patient reports sudden onset of severe right upper quadrant abdominal pain that began approximately 6 hours ago, roughly 30 minutes after eating fried chicken. The pain is constant, sharp, rated 8/10, and radiates to her right shoulder and scapular region. She has associated nausea with two episodes of vomiting. She reports having had similar but milder episodes of RUQ pain after fatty meals over the past 6 months that typically resolved within 1-2 hours (biliary colic). This episode is more severe and has not resolved. She developed fever and chills in the past 2 hours. She denies jaundice, dark urine, clay-colored stools, diarrhea, or prior abdominal surgeries. She has been otherwise healthy.",
+    "pmh": "Obesity, multiparous (4 pregnancies), oral contraceptive use, gastroesophageal reflux",
+    "surgical_history": "None",
+    "medications": "Combined oral contraceptive pill, omeprazole 20 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother had gallstones and cholecystectomy. Sister has gallstones.",
+    "social_history": "Non-smoker. Occasional wine. Works as an office manager. Married with 4 children. No illicit drugs.",
+    "vitals": {
+      "temp": "101.4 F (38.6 C)",
+      "hr": "96 bpm",
+      "bp": "142/86 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "102 kg, BMI 36.8"
+    },
+    "physical_exam": "General: Obese female in moderate distress, lying still and guarding her right upper quadrant. HEENT: No scleral icterus. Moist mucous membranes. Neck: Supple. No lymphadenopathy. Cardiovascular: Regular rate and rhythm. Normal heart sounds. Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft but significant RUQ tenderness with voluntary guarding. Positive Murphy sign (inspiratory arrest during palpation of the gallbladder fossa). No rebound. No rigidity. Mildly distended. Bowel sounds present but hypoactive. No palpable mass. No periumbilical or flank ecchymosis. Extremities: No edema. Skin: Warm, no jaundice."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "14.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis consistent with acute inflammatory/infectious process"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Total Bilirubin", "result": "1.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal to borderline (mild elevation can occur in cholecystitis without CBD obstruction)"},
+      {"test_name": "Direct Bilirubin", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Not elevated, making choledocholithiasis less likely"},
+      {"test_name": "ALT", "result": "48 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect mild hepatic inflammation from adjacent gallbladder disease"},
+      {"test_name": "AST", "result": "42 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated"},
+      {"test_name": "Alkaline Phosphatase", "result": "118 U/L", "flag": "WNL", "clinical_significance": "Normal, argues against biliary obstruction"},
+      {"test_name": "Lipase", "result": "38 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes gallstone pancreatitis"},
+      {"test_name": "BMP - Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CRP", "result": "8.4 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with acute inflammation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Right Upper Quadrant Ultrasound", "result": "Multiple gallstones, largest 1.8 cm. Gallbladder wall thickening (5.2 mm, normal <3 mm). Pericholecystic fluid present. Sonographic Murphy sign positive. Common bile duct measures 4 mm (normal). No intrahepatic biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Gallstones with wall thickening, pericholecystic fluid, and sonographic Murphy sign are diagnostic of acute cholecystitis. Normal CBD argues against choledocholithiasis."},
+      {"test_name": "HIDA Scan (hepatobiliary iminodiacetic acid scan)", "result": "Non-visualization of the gallbladder at 4 hours despite IV morphine augmentation. Normal hepatic uptake and excretion into the duodenum.", "flag": "ABNORMAL", "clinical_significance": "Non-filling of gallbladder confirms cystic duct obstruction, consistent with acute cholecystitis (95% sensitivity)"}
+    ],
+    "key_tests": ["Right upper quadrant ultrasound", "CBC with differential", "Hepatic function panel (bilirubin, ALT, AST, ALP)", "Lipase"],
+    "acceptable_tests": ["CRP", "BMP", "HIDA scan (if ultrasound equivocal)", "Blood cultures (if sepsis suspected)", "Urinalysis", "Chest X-ray (pre-operative)", "ECG (pre-operative)"],
+    "low_yield_tests": ["CT abdomen (lower sensitivity than US for gallstones)", "Abdominal X-ray (only 15% of gallstones are radiopaque)", "MRCP (reserved for suspected CBD stones)", "ERCP (therapeutic, not diagnostic first-line)", "Upper GI series"]
+  },
+  "stage5": {
+    "final_clue": "RUQ ultrasound demonstrates gallstones with gallbladder wall thickening (5.2 mm), pericholecystic fluid, and a positive sonographic Murphy sign. Combined with fever, leukocytosis, and typical history, this meets Tokyo Guidelines criteria for acute cholecystitis. Normal bilirubin and CBD diameter exclude common bile duct stone. This patient requires early laparoscopic cholecystectomy."
+  },
+  "debrief": {
+    "classic_presentation": "RUQ or epigastric pain triggered by fatty meals, lasting >6 hours (distinguishing from biliary colic which is <6 hours), with fever, nausea, and positive Murphy sign. Classic risk factors: 'Fat, Forty, Female, Fertile, Fair' (though cholecystitis occurs in all demographics). Gallstones are present in 90-95% of cases (acalculous cholecystitis accounts for 5-10%).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute cholecystitis occurs when a gallstone becomes impacted in the cystic duct, causing gallbladder distension, inflammation, and secondary bacterial infection. Gallbladder wall ischemia from distension leads to transmural inflammation. Bile stasis allows bacterial proliferation (E. coli, Klebsiella, Enterococcus). If untreated, progresses to gangrenous cholecystitis, empyema, or perforation. Gallstones form from cholesterol supersaturation of bile, biliary stasis, and gallbladder hypomotility.",
+    "treatment_overview": "Early laparoscopic cholecystectomy (within 72 hours of symptom onset) is the standard of care. NPO. IV fluid resuscitation. IV antibiotics (cefazolin for mild; piperacillin-tazobactam for moderate/severe). Pain management (NSAIDs preferred over opioids as they do not cause sphincter of Oddi spasm; however, ketorolac or morphine are acceptable). If the patient is not a surgical candidate (high-risk), percutaneous cholecystostomy tube can be placed as a temporizing measure. Intra-operative cholangiogram or pre-operative MRCP if concern for CBD stones (elevated bilirubin, dilated CBD).",
+    "high_yield_pearls": [
+      "Murphy sign (inspiratory arrest during RUQ palpation) is the most specific physical exam finding for acute cholecystitis.",
+      "RUQ ultrasound is the first-line imaging study; HIDA scan is used when ultrasound is equivocal.",
+      "Early cholecystectomy (<72 hours) is superior to delayed surgery in terms of outcomes, complications, and hospital stay.",
+      "Normal bilirubin and CBD diameter (<6 mm in adults, <10 mm post-cholecystectomy) argue against choledocholithiasis.",
+      "Acalculous cholecystitis occurs in critically ill/ICU patients and has higher morbidity and mortality than calculous cholecystitis."
+    ],
+    "sources": [
+      "Tokyo Guidelines 2018 (TG18): Acute Cholecystitis (J Hepatobiliary Pancreat Sci 2018;25:41-54)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 32",
+      "Gurusamy KS et al. Cochrane Database Syst Rev 2013 (Early vs delayed cholecystectomy)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute cholecystitis", "Biliary colic", "Choledocholithiasis", "Cholangitis", "Acute pancreatitis", "Peptic ulcer disease", "Hepatitis"],
+    "after_stage2_more_likely": ["Acute cholecystitis", "Biliary colic"],
+    "after_stage2_less_likely": ["Cholangitis", "Hepatitis", "Peptic ulcer disease"],
+    "after_labs_top3": ["Acute cholecystitis", "Biliary colic", "Choledocholithiasis"]
+  }
+}

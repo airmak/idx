@@ -1,0 +1,75 @@
+{
+  "case_id": "case_179",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Carcinoid Syndrome",
+  "icd_category": "E34.0 — Carcinoid syndrome",
+  "one_liner": "A 58-year-old female presents with episodic flushing, secretory diarrhea, and wheezing, found to have a liver mass and elevated urinary 5-HIAA.",
+  "stage2": {
+    "hpi_extension": "The patient describes 8 months of episodic flushing of the face and upper chest, occurring several times daily, each episode lasting 1-5 minutes. The flushing is triggered by alcohol, spicy food, emotional stress, and exercise. She has profuse watery diarrhea with 5-8 loose stools per day, unrelated to meals, and a 6 kg weight loss. She has developed episodic wheezing unresponsive to inhaled bronchodilators. She reports intermittent right-sided abdominal discomfort and exertional dyspnea. She was evaluated by a dermatologist for the flushing and by a pulmonologist for the wheezing without a definitive diagnosis. She denies hematemesis, melena, hematochezia, or palpitations.",
+    "pmh": "Hypertension, mild intermittent asthma (recently diagnosed but not improving with treatment)",
+    "surgical_history": "Appendectomy at age 20",
+    "medications": "Lisinopril 10 mg daily, albuterol inhaler PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of neuroendocrine tumors. Father had colon cancer at age 72.",
+    "social_history": "Non-smoker. Occasional wine with dinner (triggers flushing). Retired banker. No illicit drug use.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "88 bpm, regular",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "62 kg, BMI 23.8"
+    },
+    "physical_exam": "General: Thin female, diffuse erythematous flushing of the face and neck noted during the examination. HEENT: Facial telangiectasias, no oral lesions. Cardiovascular: Regular rhythm, grade 2/6 systolic murmur at the left lower sternal border (new), possible right-sided S3. Pulmonary: Scattered expiratory wheezes bilaterally. Abdomen: Firm, palpable nodular hepatomegaly (liver palpable 5 cm below costal margin), no ascites, no splenomegaly. Skin: Episodic violaceous flush over face and chest, pellagra-like dermatitis on sun-exposed areas. Extremities: Mild bilateral ankle edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "24-hour urine 5-HIAA", "result": "85 mg/24 hours (normal <6)", "flag": "HIGH", "clinical_significance": "Markedly elevated 5-HIAA is highly specific for carcinoid syndrome — produced by serotonin metabolism in neuroendocrine tumors"},
+      {"test_name": "Serum chromogranin A", "result": "680 ng/mL (normal <93)", "flag": "HIGH", "clinical_significance": "Elevated general neuroendocrine tumor marker; correlates with tumor burden"},
+      {"test_name": "Serotonin (5-HT) plasma", "result": "1,250 ng/mL (normal <230)", "flag": "HIGH", "clinical_significance": "Markedly elevated serotonin produced by the neuroendocrine tumor"},
+      {"test_name": "CBC", "result": "WBC 6.8, Hgb 11.5, Plt 210", "flag": "WNL", "clinical_significance": "Mild anemia from chronic disease or nutritional deficiency (niacin/tryptophan depletion)"},
+      {"test_name": "BMP", "result": "Na 138, K 3.3, Cr 0.8, Glucose 142", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia from chronic diarrhea; mild hyperglycemia (serotonin can cause glucose intolerance)"},
+      {"test_name": "LFTs", "result": "AST 52, ALT 48, ALP 180, GGT 145, Bilirubin 1.2", "flag": "HIGH", "clinical_significance": "Mildly elevated from hepatic metastases"},
+      {"test_name": "BNP", "result": "320 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, suggesting right-sided heart failure from carcinoid heart disease"},
+      {"test_name": "Niacin (vitamin B3)", "result": "Low", "flag": "LOW", "clinical_significance": "Tryptophan is shunted to serotonin production, depleting niacin synthesis, causing pellagra-like symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT abdomen/pelvis with contrast", "result": "Multiple hypervascular hepatic metastases (largest 4.5 cm in the right lobe). A 2.8 cm enhancing mass in the distal ileum with mesenteric desmoplastic reaction and calcification. Mesenteric lymphadenopathy. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Primary ileal neuroendocrine tumor with hepatic metastases. The mesenteric desmoplastic reaction is characteristic and can cause mesenteric fibrosis/ischemia. Carcinoid syndrome occurs because hepatic metastases release serotonin directly into systemic circulation, bypassing hepatic first-pass metabolism."},
+      {"test_name": "Somatostatin receptor scintigraphy (Octreoscan) / 68Ga-DOTATATE PET/CT", "result": "Intense uptake in the distal ileal mass, multiple hepatic lesions, and mesenteric lymph nodes. No additional sites of disease identified.", "flag": "ABNORMAL", "clinical_significance": "Somatostatin receptor imaging confirms neuroendocrine tumor with receptor expression — essential for staging and determining eligibility for peptide receptor radionuclide therapy (PRRT)."},
+      {"test_name": "Echocardiogram", "result": "Thickened, retracted tricuspid valve leaflets with moderate-to-severe tricuspid regurgitation. Mild pulmonic stenosis with valve thickening. Right ventricular dilation with reduced systolic function. Normal left-sided valves.", "flag": "ABNORMAL", "clinical_significance": "Carcinoid heart disease: serotonin-mediated fibrotic endocardial plaques preferentially affect the right-sided valves (tricuspid and pulmonic), causing regurgitation and stenosis."}
+    ],
+    "key_tests": ["24-hour urine 5-HIAA", "Serum chromogranin A", "CT abdomen/pelvis with contrast", "Somatostatin receptor imaging (68Ga-DOTATATE PET/CT)", "Echocardiogram"],
+    "acceptable_tests": ["Plasma serotonin", "BNP/NT-proBNP", "LFTs", "CBC", "BMP", "Liver biopsy (for tissue diagnosis)", "Niacin level", "Serum neuron-specific enolase"],
+    "low_yield_tests": ["Colonoscopy (primary is in the ileum)", "MRCP", "Celiac serologies", "Upper endoscopy", "Stool calprotectin"],
+    "key_tests_rationale": "24-hour urine 5-HIAA is the most specific biochemical test for carcinoid syndrome (~95% specificity when properly collected). Chromogranin A is a sensitive but less specific marker that correlates with tumor burden. CT localizes the primary tumor and metastases. 68Ga-DOTATATE PET/CT has superior sensitivity for neuroendocrine tumors and determines somatostatin receptor status. Echocardiogram screens for carcinoid heart disease, which develops in 20-50% of carcinoid syndrome patients."
+  },
+  "stage5": {
+    "final_clue": "A patient with the classic carcinoid syndrome triad (flushing, secretory diarrhea, bronchoconstriction), pellagra-like dermatitis from niacin deficiency, new right-sided cardiac murmur (carcinoid heart disease), markedly elevated 24-hour urine 5-HIAA (85 mg), and imaging showing an ileal primary tumor with hepatic metastases confirms carcinoid syndrome secondary to a metastatic small bowel neuroendocrine tumor (NET). The syndrome manifests ONLY after hepatic metastases allow serotonin to bypass hepatic first-pass metabolism."
+  },
+  "debrief": {
+    "classic_presentation": "Carcinoid syndrome occurs in ~10% of patients with neuroendocrine tumors (NETs), almost exclusively when hepatic metastases are present (allowing serotonin to bypass hepatic metabolism). The classic triad is episodic flushing (most common, 85%), secretory diarrhea (80%), and bronchoconstriction (15%). Carcinoid heart disease (right-sided valvular fibrosis) develops in 20-50%. Pellagra (dermatitis, diarrhea, dementia) results from tryptophan shunting to serotonin synthesis. The most common primary site is the small bowel (ileum).",
+    "attending_mode_notes": "Carcinoid syndrome has several important clinical nuances: (1) The syndrome almost NEVER occurs without hepatic metastases (exceptions: bronchial or ovarian carcinoids that drain directly into systemic circulation) — if carcinoid syndrome is present, assume metastatic disease; (2) 5-HIAA collection requires dietary avoidance of serotonin-rich foods (bananas, avocados, walnuts, tomatoes, pineapple) for 48-72 hours before and during collection to avoid false positives; PPI use can also cause false elevation; (3) Carcinoid crisis (life-threatening hypotension, bronchospasm, flushing) can be precipitated by anesthesia, surgery, biopsy, or chemotherapy — octreotide bolus (500-1000 mcg IV) must be available during any procedure; (4) 68Ga-DOTATATE PET/CT has largely replaced Octreoscan with sensitivity >95% vs ~60-80% for Octreoscan; (5) Carcinoid heart disease screening with echocardiography and NT-proBNP should be performed in all carcinoid syndrome patients — valve replacement may be needed; (6) Ki-67 index on biopsy determines tumor grade (G1 <3%, G2 3-20%, G3 >20%) and guides treatment decisions.",
+    "pathophysiology": "Neuroendocrine tumors arise from enterochromaffin cells and produce serotonin (5-HT) and other vasoactive substances (histamine, tachykinins, prostaglandins). Normally, the liver metabolizes serotonin via monoamine oxidase to 5-HIAA before it reaches the systemic circulation. When hepatic metastases are present, serotonin is released directly into the systemic circulation, causing the carcinoid syndrome. Serotonin causes diarrhea (intestinal hypermotility via 5-HT3 receptors), while tachykinins and histamine mediate flushing. Chronic serotonin exposure induces fibrotic endocardial plaques on the right-sided heart valves (serotonin stimulates fibroblast proliferation via 5-HT2B receptors), leading to tricuspid regurgitation and pulmonic stenosis. Left-sided valves are protected because pulmonary MAO metabolizes serotonin.",
+    "treatment_overview": "Somatostatin analogues (octreotide LAR 20-30 mg IM monthly, lanreotide 120 mg SQ monthly) are first-line for symptom control and tumor growth inhibition. Surgical resection of primary tumor and debulking of hepatic metastases if feasible. Hepatic-directed therapies: transarterial embolization (TAE), chemoembolization (TACE), or radioembolization for liver-dominant disease. Peptide receptor radionuclide therapy (PRRT) with 177Lu-DOTATATE (Lutathera) for progressive disease with positive somatostatin receptor expression (NETTER-1 trial). Telotristat ethyl (tryptophan hydroxylase inhibitor) for carcinoid syndrome diarrhea refractory to SSAs. Niacin supplementation for pellagra. Carcinoid heart disease: valve replacement surgery when hemodynamically significant. Avoid carcinoid crisis triggers; pre-treat with octreotide for any procedure.",
+    "high_yield_pearls": [
+      "Carcinoid syndrome almost always indicates hepatic metastases — serotonin from gut NETs is normally metabolized by the liver before reaching systemic circulation.",
+      "5-HIAA collection requires avoidance of serotonin-rich foods (bananas, avocados, walnuts, tomatoes) for 48-72 hours to prevent false positives.",
+      "Carcinoid heart disease affects right-sided valves (tricuspid > pulmonic) because pulmonary MAO metabolizes serotonin before it reaches the left heart.",
+      "Carcinoid crisis (severe hypotension, bronchospasm) can be triggered by anesthesia, surgery, or biopsy — always pre-treat with IV octreotide.",
+      "68Ga-DOTATATE PET/CT has >95% sensitivity for well-differentiated NETs and has replaced Octreoscan as the imaging standard.",
+      "Pellagra in carcinoid syndrome results from tryptophan diversion to serotonin synthesis, depleting niacin (vitamin B3) — supplement with niacin."
+    ],
+    "sources": [
+      "2023 NCCN Clinical Practice Guidelines in Oncology: Neuroendocrine and Adrenal Tumors",
+      "Strosberg J et al., NETTER-1 Phase 3 Trial: 177Lu-DOTATATE for Midgut Neuroendocrine Tumors, NEJM 2017",
+      "Halperin DM et al., Carcinoid Syndrome: Updates and Current Therapies, Endocrinology and Metabolism Clinics 2023"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Systemic mastocytosis", "Pheochromocytoma", "Medullary thyroid carcinoma", "VIPoma", "Menopause/hot flashes", "Anaphylaxis/allergic reaction", "Panic disorder"],
+    "after_stage2_more_likely": ["Carcinoid syndrome", "Systemic mastocytosis", "Pheochromocytoma"],
+    "after_stage2_less_likely": ["Menopause", "Panic disorder", "Anaphylaxis"],
+    "after_labs_top3": ["Carcinoid syndrome (metastatic ileal NET)", "Systemic mastocytosis", "VIPoma"]
+  }
+}

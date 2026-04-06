@@ -1,0 +1,104 @@
+{
+  "case_id": "case_245",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Osteoarthritis of the knee",
+  "icd_category": "M17.11 — Primary osteoarthritis, right knee",
+  "one_liner": "A 62-year-old overweight woman presents with 8 months of progressive right knee pain that worsens with activity and improves with rest, with morning stiffness lasting less than 30 minutes.",
+  "stage2": {
+    "hpi_extension": "The patient reports gradually worsening right knee pain over the past 8 months. The pain is a deep, aching quality localized to the medial aspect of the right knee. It worsens with weight-bearing activities — walking, climbing stairs, and getting up from a seated position. The pain improves with rest and does not wake her at night. She reports brief morning stiffness lasting approximately 15-20 minutes that resolves with movement. She occasionally notices a 'grinding' sensation (crepitus) with knee movement. She denies knee swelling, locking, giving way, or redness. She has no history of significant knee trauma. She has been taking acetaminophen 500 mg as needed with partial relief. She has had to limit her walking and has stopped gardening, her main hobby. No involvement of other joints. No constitutional symptoms (fever, weight loss, fatigue).",
+    "pmh": "Obesity. Hypertension. Dyslipidemia. No history of inflammatory arthritis.",
+    "surgical_history": "Hysterectomy 10 years ago",
+    "medications": "Lisinopril 20 mg daily, atorvastatin 20 mg daily, acetaminophen 500 mg PRN",
+    "allergies": "Ibuprofen (GI upset)",
+    "family_history": "Mother with osteoarthritis of bilateral knees (had knee replacement at age 70). Father with coronary artery disease. No family history of rheumatoid arthritis or lupus.",
+    "social_history": "Retired teacher. Lives with husband. Walks 2-3 blocks before pain limits her. Former tennis player (played regularly until 5 years ago). Denies tobacco, alcohol, or illicit drug use. Sedentary lifestyle due to pain.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "74 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "185 lbs, BMI 32.4 kg/m²"
+    },
+    "physical_exam": "General: Obese woman in no acute distress, antalgic gait favoring right knee. HEENT: Unremarkable. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender. Musculoskeletal (focused exam): Right knee — mild bony enlargement of the medial joint line. No warmth, no erythema. Small cool effusion (positive bulge sign). Crepitus palpable with passive range of motion. Range of motion: flexion limited to 110° (normal 135°), full extension. Medial joint line tenderness. Valgus stress test negative. McMurray test negative. Anterior and posterior drawer tests negative. Left knee — unremarkable. Hands — no Heberden or Bouchard nodes. No synovitis of MCPs or wrists. No rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 235", "flag": "WNL", "clinical_significance": "Normal CBC; no evidence of systemic inflammatory process"},
+      {"test_name": "ESR", "result": "14 mm/hr", "flag": "WNL", "clinical_significance": "Normal ESR; argues against inflammatory arthritis (RA, PMR)"},
+      {"test_name": "CRP", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal CRP; no systemic inflammation"},
+      {"test_name": "Rheumatoid Factor (RF)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative RF argues against rheumatoid arthritis"},
+      {"test_name": "Uric acid", "result": "5.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal uric acid; argues against gout"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.1, Cl 103, CO2 25, BUN 16, Cr 0.9, Glucose 105, Ca 9.5, AST 20, ALT 22, Alk Phos 65, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mild fasting glucose elevation consistent with metabolic syndrome"}
+    ],
+    "imaging_results": [
+      {"test_name": "X-ray Right Knee (weight-bearing AP, lateral, sunrise views)", "result": "Moderate medial compartment joint space narrowing. Subchondral sclerosis. Marginal osteophytes of the medial femoral condyle and tibial plateau. No loose bodies. No fracture.", "flag": "ABNORMAL", "clinical_significance": "Classic radiographic findings of osteoarthritis: joint space narrowing, osteophytes, subchondral sclerosis — confirms the diagnosis"}
+    ],
+    "key_tests": [
+      "Weight-bearing knee X-ray — showing classic OA features (joint space narrowing, osteophytes, subchondral sclerosis)",
+      "ESR and CRP — normal, ruling out inflammatory arthritis",
+      "Clinical history and exam — mechanical pain pattern with crepitus, brief morning stiffness, and bony enlargement"
+    ],
+    "acceptable_tests": [
+      "RF — ruling out rheumatoid arthritis",
+      "Uric acid — ruling out gout",
+      "CBC — baseline assessment",
+      "CMP — baseline metabolic assessment",
+      "Anti-CCP antibodies — if RA is a strong consideration"
+    ],
+    "low_yield_tests": [
+      "MRI Knee (diagnosis is established by X-ray and clinical exam; MRI reserved for suspected meniscal/ligamentous injury)",
+      "Joint aspiration (no acute hot swollen joint suggesting septic arthritis or crystal disease)",
+      "ANA (no features of SLE)",
+      "HLA-B27 (no features of spondyloarthropathy)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient presents with classic mechanical joint pain: gradual onset, worsening with activity (weight-bearing), improving with rest, brief morning stiffness (<30 minutes), and crepitus — all characteristic of osteoarthritis. Risk factors include age >50, female sex, obesity, and prior high-impact joint use (tennis). Physical exam reveals bony enlargement, crepitus, and medial joint line tenderness. Weight-bearing X-ray confirms the diagnosis with medial compartment joint space narrowing, osteophytes, and subchondral sclerosis. Normal inflammatory markers and negative RF exclude inflammatory arthritis."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged to elderly patient presenting with insidious-onset joint pain that worsens with activity and improves with rest. Morning stiffness is brief (<30 minutes), distinguishing OA from inflammatory arthritis (>60 minutes in RA). Commonly affected joints include knees, hips, hands (DIPs — Heberden nodes, PIPs — Bouchard nodes), and spine. Exam findings include bony enlargement, crepitus, limited range of motion, and tenderness without warmth or erythema. Risk factors include age, obesity, prior joint injury, repetitive occupational use, and female sex.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Osteoarthritis involves progressive degradation of articular cartilage driven by an imbalance between anabolic and catabolic processes. Mechanical stress, particularly in weight-bearing joints, activates chondrocytes to produce matrix metalloproteinases (MMPs) and aggrecanases that degrade the cartilage matrix. Subchondral bone remodeling leads to sclerosis and osteophyte formation at joint margins. Low-grade synovial inflammation contributes to pain and effusion. Pro-inflammatory mediators (IL-1, TNF-alpha, PGE2) are elevated in the joint. Unlike RA, OA is not a systemic inflammatory disease — it is primarily a local biomechanical and biochemical process, though systemic metabolic factors (obesity, metabolic syndrome) contribute.",
+    "treatment_overview": "Non-pharmacologic (first-line): weight loss (every 1 lb lost reduces knee load by 4 lbs), low-impact exercise (swimming, cycling, walking), physical therapy for quadriceps strengthening, use of assistive devices (cane in contralateral hand), knee bracing for medial compartment OA. Pharmacologic: first-line is acetaminophen (up to 3 g/day) or topical NSAIDs (diclofenac gel). Oral NSAIDs (naproxen, meloxicam) with PPI co-therapy if topical inadequate. Duloxetine for chronic OA pain. Intra-articular corticosteroid injections for flares (limit to 3-4 per year). Intra-articular hyaluronic acid has limited evidence. Surgical: total knee arthroplasty for refractory severe OA with significant functional limitation despite conservative management.",
+    "high_yield_pearls": [
+      "Morning stiffness <30 minutes suggests OA; >60 minutes suggests inflammatory arthritis (RA, psoriatic arthritis).",
+      "Weight-bearing X-rays are essential — non-weight-bearing films underestimate joint space narrowing. The classic radiographic findings are joint space narrowing, osteophytes, subchondral sclerosis, and subchondral cysts.",
+      "Obesity is the strongest modifiable risk factor for knee OA — losing 10% of body weight significantly reduces pain and improves function.",
+      "OA labs should be normal (ESR, CRP, RF) — if inflammatory markers are elevated, consider RA, crystal arthropathy, or septic arthritis.",
+      "Topical NSAIDs (diclofenac gel) are recommended before oral NSAIDs for knee OA to minimize systemic side effects, especially in older adults."
+    ],
+    "sources": [
+      "ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee (2019)",
+      "AAOS Clinical Practice Guideline: Treatment of Osteoarthritis of the Knee (3rd Edition, 2021)",
+      "Kolasinski SL et al. 2019 ACR/AF Guideline for the Management of OA. Arthritis Care Res, 2020",
+      "Hunter DJ, Bierma-Zeinstra S. Osteoarthritis. Lancet, 2019",
+      "OARSI Guidelines for Non-Surgical Management of Knee OA (2019)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Osteoarthritis of the knee",
+      "Rheumatoid arthritis",
+      "Gout",
+      "Meniscal tear",
+      "Pes anserine bursitis",
+      "Pseudogout (calcium pyrophosphate disease)"
+    ],
+    "after_stage2_more_likely": [
+      "Osteoarthritis — mechanical pain pattern (activity-related, brief stiffness), crepitus, bony enlargement, obesity, age, family history of OA",
+      "Meniscal tear — medial joint line tenderness, though negative McMurray and no locking/catching argue against"
+    ],
+    "after_stage2_less_likely": [
+      "Rheumatoid arthritis — no prolonged morning stiffness, no MCP/wrist involvement, no warmth/erythema, no systemic symptoms",
+      "Gout — no acute hot swollen joint, gradual onset, no tophi",
+      "Pes anserine bursitis — tenderness is at the joint line, not the medial tibial region below the joint"
+    ],
+    "after_labs_top3": [
+      "Osteoarthritis — classic X-ray findings (joint space narrowing, osteophytes, subchondral sclerosis), normal inflammatory markers, negative RF, normal uric acid",
+      "Meniscal tear (comorbid) — cannot fully exclude without MRI, but clinical features and X-ray are diagnostic of OA",
+      "Pseudogout — possible comorbidity but no chondrocalcinosis on X-ray and no acute inflammatory presentation"
+    ]
+  }
+}

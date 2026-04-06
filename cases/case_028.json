@@ -1,0 +1,76 @@
+{
+  "case_id": "case_028",
+  "mode": "easy",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Acute Myocardial Infarction (STEMI)",
+  "icd_category": "I21.0 — ST elevation myocardial infarction involving left anterior descending coronary artery",
+  "one_liner": "A 58-year-old male with hypertension and hyperlipidemia presents with crushing substernal chest pain radiating to the left arm.",
+  "stage2": {
+    "hpi_extension": "Patient reports sudden onset of severe, crushing substernal chest pain beginning 45 minutes ago while mowing the lawn. Pain radiates to the left arm and jaw. Associated with diaphoresis, nausea, and shortness of breath. He took one aspirin at home before calling 911. Rates pain 9/10. No relief with rest. Denies recent illness, trauma, or similar episodes in the past.",
+    "pmh": "Hypertension (10 years), hyperlipidemia, type 2 diabetes mellitus, former smoker (30 pack-years, quit 2 years ago)",
+    "surgical_history": "Appendectomy age 22",
+    "medications": "Lisinopril 20 mg daily, atorvastatin 40 mg daily, metformin 1000 mg twice daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father died of MI at age 55. Mother has hypertension. Brother had CABG at age 60.",
+    "social_history": "Former smoker (quit 2 years ago, 30 pack-year history). Drinks 2-3 beers on weekends. Works as a construction foreman. Married with two children.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "102 bpm",
+      "bp": "158/92 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "98 kg, BMI 31.2"
+    },
+    "physical_exam": "General: Diaphoretic, anxious male in moderate distress clutching his chest. HEENT: Normocephalic, atraumatic. Pupils equal, round, reactive. Moist mucous membranes. Neck: No JVD. No carotid bruits. Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. S4 gallop noted. No murmurs. Pulmonary: Bibasilar crackles, no wheezing. Abdomen: Soft, non-tender, non-distended. Normoactive bowel sounds. Extremities: No edema. Peripheral pulses 2+ bilaterally. Skin: Cool, diaphoretic. Neuro: Alert, oriented x4. No focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "2.8 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with acute myocardial injury"},
+      {"test_name": "CK-MB", "result": "38 U/L", "flag": "HIGH", "clinical_significance": "Elevated, supports acute MI diagnosis"},
+      {"test_name": "BNP", "result": "580 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, suggests myocardial stress and early heart failure"},
+      {"test_name": "CBC - WBC", "result": "12.1 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, stress response"},
+      {"test_name": "CBC - Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, anemia excluded"},
+      {"test_name": "BMP - Glucose", "result": "198 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, likely stress hyperglycemia in known diabetic"},
+      {"test_name": "BMP - Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal potassium"},
+      {"test_name": "Lipid Panel - LDL", "result": "162 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL, inadequately controlled hyperlipidemia"},
+      {"test_name": "PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation"},
+      {"test_name": "Magnesium", "result": "1.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal, important for arrhythmia risk assessment"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "ST elevation in leads V1-V4 (2-4 mm), reciprocal ST depression in leads II, III, aVF", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of anterior STEMI involving LAD territory"},
+      {"test_name": "Chest X-ray (portable)", "result": "Mild pulmonary vascular congestion. No pneumothorax. Normal cardiac silhouette.", "flag": "ABNORMAL", "clinical_significance": "Early pulmonary congestion consistent with LV dysfunction"},
+      {"test_name": "Bedside echocardiogram", "result": "Anterior wall hypokinesis. Estimated EF 35-40%. No pericardial effusion.", "flag": "ABNORMAL", "clinical_significance": "Regional wall motion abnormality confirms ischemic territory"}
+    ],
+    "key_tests": ["12-lead ECG", "Troponin I (serial)", "CK-MB", "Bedside echocardiogram", "Chest X-ray"],
+    "acceptable_tests": ["BNP/NT-proBNP", "CBC", "BMP", "Coagulation studies (PT/INR, PTT)", "Lipid panel", "Magnesium level", "Type and screen"],
+    "low_yield_tests": ["CT chest without contrast", "D-dimer", "Liver function tests", "Urinalysis", "ESR/CRP"]
+  },
+  "stage5": {
+    "final_clue": "The ECG shows ST elevation in V1-V4 with reciprocal changes, and troponin is markedly elevated at 2.8 ng/mL. Bedside echo confirms anterior wall hypokinesis. This is an acute anterior STEMI requiring emergent reperfusion."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged male with cardiac risk factors presenting with sudden-onset crushing substernal chest pain radiating to the left arm, associated with diaphoresis, nausea, and dyspnea. ECG shows ST elevation in contiguous leads with reciprocal changes, and cardiac biomarkers are elevated.",
+    "attending_mode_notes": null,
+    "pathophysiology": "STEMI results from complete occlusion of a coronary artery, usually due to rupture of an atherosclerotic plaque with subsequent thrombus formation. The resulting transmural ischemia causes ST elevation on ECG in the territory supplied by the occluded artery. Without reperfusion, irreversible myocardial necrosis begins within 20-40 minutes and progresses over hours.",
+    "treatment_overview": "Immediate management: Aspirin 325 mg, P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel), heparin, and nitroglycerin (if no contraindications). Emergent reperfusion is critical: primary PCI (preferred if door-to-balloon <90 min) or fibrinolysis (if PCI not available within 120 min). Beta-blockers, ACE inhibitors, and high-intensity statins should be initiated. Monitor for arrhythmias, heart failure, and mechanical complications.",
+    "high_yield_pearls": [
+      "Door-to-balloon time goal is <90 minutes for primary PCI; door-to-needle <30 minutes for fibrinolysis.",
+      "Anterior STEMI (LAD occlusion) carries the highest mortality risk among STEMI locations.",
+      "Right-sided ECG (V4R) should be obtained if inferior STEMI is suspected to evaluate for RV involvement.",
+      "New left bundle branch block (LBBB) in the setting of chest pain should be treated as a STEMI equivalent.",
+      "Complications include cardiogenic shock, ventricular arrhythmias, free wall rupture, VSD, and papillary muscle rupture."
+    ],
+    "sources": [
+      "2013 ACCF/AHA STEMI Guidelines (Circulation 2013;127:e362-e425)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 49",
+      "2023 ESC Guidelines for Acute Coronary Syndromes"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["STEMI", "NSTEMI/Unstable angina", "Aortic dissection", "Pulmonary embolism", "Pericarditis", "Esophageal rupture", "Tension pneumothorax"],
+    "after_stage2_more_likely": ["STEMI", "NSTEMI/Unstable angina"],
+    "after_stage2_less_likely": ["Aortic dissection", "Pericarditis", "Tension pneumothorax"],
+    "after_labs_top3": ["STEMI", "NSTEMI/Unstable angina", "Acute heart failure"]
+  }
+}

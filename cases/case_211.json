@@ -1,0 +1,185 @@
+{
+  "case_id": "case_211",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "HELLP syndrome",
+  "icd_category": "O14.20 – HELLP syndrome, unspecified trimester",
+  "one_liner": "A 30-year-old G1P0 at 35 weeks gestation presents with severe epigastric pain, malaise, and nausea; labs reveal hemolysis (schistocytes, LDH 820), elevated liver enzymes (AST 340), and low platelets (52,000), consistent with HELLP syndrome.",
+  "stage2": {
+    "hpi_extension": "The patient presents to labor and delivery with severe, band-like epigastric and right upper quadrant pain that began approximately 6 hours ago and has been progressively worsening. She describes associated malaise, nausea with two episodes of vomiting, and a feeling of being 'unwell.' She noticed swelling of her face and hands over the past 2 days. Her prenatal blood pressures have been borderline elevated (130-140/85-90) at the last two visits, and she was being monitored closely. She denies headache, visual changes, vaginal bleeding, or contractions. She felt fetal movement earlier today.",
+    "pmh": "G1P0 at 35 weeks 2 days. Borderline elevated blood pressures at recent prenatal visits. No prior diagnosis of preeclampsia. No chronic hypertension or renal disease.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins",
+    "allergies": "Penicillin (rash)",
+    "family_history": "Mother had pregnancy-induced hypertension. No family history of clotting disorders or autoimmune disease.",
+    "social_history": "Elementary school teacher. Non-smoker. No alcohol. First pregnancy. Lives with husband.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "104 bpm",
+      "bp": "158/102 mmHg (repeated: 162/98 mmHg)",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "78 kg, BMI 28.5 kg/m²"
+    },
+    "physical_exam": "General: Uncomfortable, restless-appearing gravid woman; moderate distress from epigastric pain. HEENT: Facial edema noted; sclera non-icteric; no papilledema. Cardiovascular: Tachycardic, regular rhythm; no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Gravid uterus; severe tenderness in the epigastrium and right upper quadrant over the liver; no rebound; fundal height 34 cm. Extremities: 2+ pitting edema bilateral upper and lower extremities. Neurologic: Alert, oriented; DTRs 3+ bilaterally with 2 beats of clonus at ankles. Skin: Scattered petechiae on bilateral forearms. Fetal monitoring: FHR 140 bpm, moderate variability, no decelerations, no contractions."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Platelets",
+        "result": "52 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Severe thrombocytopenia (<100,000) is a defining feature of HELLP syndrome (LP = Low Platelets). Platelet transfusion may be needed before delivery."
+      },
+      {
+        "test_name": "AST",
+        "result": "340 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated AST (≥70 U/L or ≥2× ULN) fulfills the elevated liver enzyme criterion (EL) of HELLP syndrome."
+      },
+      {
+        "test_name": "ALT",
+        "result": "295 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated ALT corroborates hepatic injury from HELLP syndrome."
+      },
+      {
+        "test_name": "LDH",
+        "result": "820 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "LDH >600 U/L reflects both hemolysis and hepatic cell damage, fulfilling the hemolysis criterion of HELLP."
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Schistocytes (2-3 per HPF), helmet cells, polychromasia, decreased platelets",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Schistocytes confirm microangiopathic hemolytic anemia (MAHA), the hallmark of the hemolysis (H) component of HELLP syndrome."
+      },
+      {
+        "test_name": "Total bilirubin / Indirect bilirubin",
+        "result": "Total: 2.8 mg/dL, Indirect: 2.1 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated indirect bilirubin reflects hemolytic destruction of red blood cells."
+      },
+      {
+        "test_name": "Haptoglobin",
+        "result": "<10 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Undetectable haptoglobin is the most sensitive marker of intravascular hemolysis and confirms the hemolytic component."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "9.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia from ongoing hemolysis; may worsen rapidly."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 13.5 sec, INR 1.1, PTT 32 sec, Fibrinogen 180 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Decreasing fibrinogen (normal in pregnancy is 400-600 mg/dL) suggests early consumptive coagulopathy and impending DIC."
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated creatinine reflects renal involvement from microangiopathic process."
+      },
+      {
+        "test_name": "Urine protein/creatinine ratio",
+        "result": "1.2",
+        "flag": "HIGH",
+        "clinical_significance": "Significant proteinuria supports concurrent preeclampsia, though HELLP can occur without significant proteinuria in 15% of cases."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Right upper quadrant ultrasound",
+        "result": "Liver appears heterogeneous with a small subcapsular hypoechoic area (2.5 cm) in the right lobe suggestive of subcapsular hematoma or hepatic infarction. No hepatic rupture. Gallbladder normal. No biliary dilation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subcapsular hepatic hematoma is a feared complication of HELLP syndrome that can progress to hepatic rupture; urgent delivery and surgical consultation are warranted."
+      },
+      {
+        "test_name": "Obstetric ultrasound",
+        "result": "Single live intrauterine pregnancy, vertex presentation, EFW 2,350 g (30th percentile). AFI 10 cm. Placenta posterior, no abruption. Normal umbilical artery Doppler.",
+        "flag": "WNL",
+        "clinical_significance": "Reassuring fetal status. No evidence of placental abruption, which can complicate HELLP syndrome."
+      }
+    ],
+    "key_tests": [
+      "CBC with platelet count",
+      "Peripheral blood smear (schistocytes)",
+      "AST/ALT (hepatic enzymes)",
+      "LDH and haptoglobin (hemolysis markers)",
+      "Coagulation studies with fibrinogen"
+    ],
+    "acceptable_tests": [
+      "Total and indirect bilirubin",
+      "Creatinine",
+      "Urine protein quantification",
+      "RUQ ultrasound (subcapsular hematoma evaluation)",
+      "Blood type and crossmatch",
+      "D-dimer (if DIC suspected)"
+    ],
+    "low_yield_tests": [
+      "ADAMTS13 activity (only if TTP is a primary concern)",
+      "Hepatitis serologies (unless clinical suspicion for hepatitis)",
+      "CT abdomen (ultrasound is sufficient and avoids radiation)",
+      "Liver biopsy (contraindicated with thrombocytopenia and coagulopathy)"
+    ],
+    "attending_pimp_questions": [
+      "What are the Mississippi and Tennessee classification systems for HELLP syndrome, and how do they guide management?",
+      "Why can HELLP syndrome occur without hypertension or proteinuria, and what is the incidence of normotensive HELLP?",
+      "What is the management of a subcapsular hepatic hematoma in HELLP syndrome?",
+      "How do you differentiate HELLP syndrome from thrombotic thrombocytopenic purpura (TTP) and hemolytic uremic syndrome (HUS)?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Despite initiation of magnesium sulfate and antihypertensives, the patient's platelets decline further to 38,000 and fibrinogen drops to 145 mg/dL over 4 hours. The decision is made for emergent cesarean delivery. Postoperatively, platelet counts begin to recover within 48 hours, and liver enzymes trend downward, confirming the expected postpartum resolution of HELLP syndrome."
+  },
+  "debrief": {
+    "classic_presentation": "HELLP syndrome classically presents in the third trimester (or postpartum in 30%) with epigastric or right upper quadrant pain, malaise, nausea/vomiting, and generalized edema. It is a severe variant of preeclampsia defined by Hemolysis (schistocytes, elevated LDH, low haptoglobin), Elevated Liver enzymes (AST/ALT ≥2× ULN), and Low Platelets (<100,000). Notably, 15% of cases occur without significant hypertension or proteinuria, making it a diagnostic challenge.",
+    "attending_mode_notes": "HELLP syndrome complicates 0.5-0.9% of all pregnancies and 10-20% of severe preeclampsia cases. The Mississippi classification stratifies by platelet nadir: Class 1 (≤50,000 — most severe), Class 2 (50,000-100,000), Class 3 (100,000-150,000). Hepatic complications are the most feared: subcapsular hematoma (1%), hepatic rupture (catastrophic, 60% mortality), and hepatic infarction. The differential must include TTP-HUS (check ADAMTS13 activity — severely deficient in TTP), acute fatty liver of pregnancy (AFLP — characterized by hypoglycemia, hyperammonemia, and coagulopathy with normal or only mildly elevated LDH), and catastrophic antiphospholipid syndrome. DIC develops in 20-40% of HELLP cases and is heralded by declining fibrinogen. Management controversies include: (1) dexamethasone for HELLP — was proposed to improve platelet counts and allow pregnancy prolongation, but the COHELLP trial showed no clear benefit; (2) platelet transfusion threshold — transfuse if <20,000 regardless, or <50,000 if cesarean delivery planned, or actively bleeding; (3) timing of delivery — HELLP at any gestational age is an indication for delivery after maternal stabilization.",
+    "pathophysiology": "HELLP syndrome results from severe endothelial dysfunction triggered by abnormal placentation (similar to preeclampsia). The microangiopathic process causes: (1) Hemolysis — RBCs are mechanically sheared as they pass through damaged, fibrin-coated microvasculature, producing schistocytes and consuming haptoglobin. (2) Elevated liver enzymes — hepatic sinusoidal obstruction from fibrin deposition causes periportal hepatocyte necrosis; severe cases lead to subcapsular hematoma when blood dissects beneath Glisson's capsule. (3) Low platelets — platelet consumption occurs at sites of endothelial damage and fibrin deposition. The cascade is driven by imbalance of angiogenic (VEGF, PlGF) and anti-angiogenic (sFlt-1) factors released from the ischemic placenta.",
+    "treatment_overview": "Delivery is the definitive treatment for HELLP syndrome regardless of gestational age, though a brief delay (24-48 hours) for betamethasone may be considered if the fetus is <34 weeks AND maternal condition is stable. Magnesium sulfate (4-6 g IV load, then 1-2 g/hr) for seizure prophylaxis. Antihypertensives (labetalol, hydralazine, or nifedipine) for severe hypertension. Transfusion support: pRBCs for hemoglobin <7 g/dL or symptomatic anemia; platelets if <20,000 or <50,000 before cesarean; cryoprecipitate or FFP if fibrinogen <200 mg/dL or active DIC. Cesarean delivery is preferred if the fetus is not in labor and cervix is unfavorable. Postpartum monitoring: labs should improve within 24-48 hours; if worsening >72 hours postpartum, consider alternative diagnoses (TTP-HUS, AFLP). Continue magnesium for 24-48 hours postpartum.",
+    "high_yield_pearls": [
+      "HELLP syndrome can occur without hypertension or proteinuria in up to 15% of cases — epigastric pain with thrombocytopenia and elevated transaminases in late pregnancy should always prompt evaluation for HELLP.",
+      "Haptoglobin is the most sensitive marker of hemolysis and is typically undetectable in HELLP syndrome; schistocytes on peripheral smear confirm microangiopathic hemolytic anemia.",
+      "Subcapsular hepatic hematoma is diagnosed by ultrasound or CT and managed conservatively if contained; hepatic rupture is a surgical emergency with 60% mortality requiring packing, transfusion, and often partial hepatectomy.",
+      "HELLP syndrome is an indication for delivery at any gestational age after maternal stabilization — expectant management is associated with increased maternal morbidity without fetal benefit.",
+      "Decreasing fibrinogen below 300 mg/dL in a pregnant patient (normal 400-600 mg/dL) is an early and sensitive marker of evolving DIC and should trigger aggressive monitoring and preparation for delivery."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 222: Gestational Hypertension and Preeclampsia (2020)",
+      "UpToDate: HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets)",
+      "Sibai BM: Diagnosis, controversies, and management of HELLP syndrome. Obstet Gynecol. 2004",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "HELLP syndrome",
+      "Severe preeclampsia",
+      "Acute fatty liver of pregnancy",
+      "Thrombotic thrombocytopenic purpura",
+      "Hemolytic uremic syndrome",
+      "Viral hepatitis",
+      "Cholecystitis",
+      "Placental abruption"
+    ],
+    "after_stage2_more_likely": [
+      "HELLP syndrome (epigastric/RUQ pain, hypertension, edema, petechiae, clonus in a third-trimester patient with recent borderline BPs)",
+      "Severe preeclampsia with hepatic involvement (overlapping presentation)"
+    ],
+    "after_stage2_less_likely": [
+      "Cholecystitis (RUQ pain could overlap, but hypertension, edema, and petechiae favor HELLP)",
+      "Viral hepatitis (no jaundice, no risk factors, acute onset with hypertension)",
+      "Placental abruption (no vaginal bleeding, no uterine tenderness or contractions)"
+    ],
+    "after_labs_top3": [
+      "HELLP syndrome (hemolysis with schistocytes and low haptoglobin, AST 340, platelets 52,000 — all three criteria fulfilled)",
+      "Acute fatty liver of pregnancy (would expect hypoglycemia, hyperammonemia, more prominent coagulopathy, and lower LDH)",
+      "TTP (ADAMTS13 level would distinguish; TTP typically has more severe neurologic involvement and less hepatic injury)"
+    ]
+  }
+}

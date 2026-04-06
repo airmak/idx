@@ -1,0 +1,113 @@
+{
+  "case_id": "case_138",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Lupus Nephritis Class IV (Diffuse Proliferative)",
+  "icd_category": "M32.14 — Glomerular disease in systemic lupus erythematosus",
+  "one_liner": "A 30-year-old African American woman with known SLE presents with facial edema, dark urine, and new hypertension, found to have nephritic-nephrotic overlap syndrome with low complement levels.",
+  "stage2": {
+    "hpi_extension": "The patient was diagnosed with SLE 3 years ago, managed with hydroxychloroquine. She has been mostly stable but over the past 3 weeks has developed progressive facial and lower extremity swelling, dark (cola-colored) urine, and foamy urine. She reports fatigue, low-grade fevers, a new malar rash, and bilateral joint pain in her hands and wrists. She missed her last 2 rheumatology appointments and has been inconsistent with hydroxychloroquine. She denies flank pain, cough, or chest pain.",
+    "pmh": "Systemic lupus erythematosus (3 years; history of malar rash, arthritis, positive ANA/anti-dsDNA), iron deficiency anemia.",
+    "surgical_history": "None.",
+    "medications": "Hydroxychloroquine 200 mg twice daily (inconsistent adherence).",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother has SLE. Maternal aunt has rheumatoid arthritis.",
+    "social_history": "Elementary school teacher. Non-smoker. Occasional alcohol. No illicit drug use. Single, no children.",
+    "vitals": {
+      "temp": "37.6°C (99.7°F)",
+      "hr": "92 bpm",
+      "bp": "162/98 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "72 kg, BMI 26.5"
+    },
+    "physical_exam": "Young woman with visible facial puffiness and malar rash (butterfly distribution, sparing nasolabial folds). Periorbital edema. Oral ulcers on the palate. Heart: regular rate and rhythm, no murmurs. Lungs: decreased breath sounds at bilateral bases. Abdomen: mild distension, shifting dullness, no tenderness or organomegaly. Extremities: 2+ bilateral pitting edema to the knees; swelling and tenderness of MCP and PIP joints bilaterally without deformity. Skin: malar rash, no discoid lesions or vasculitic ulcers. No lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urinalysis", "result": "3+ blood, 3+ protein, >50 RBCs/hpf (many dysmorphic), RBC casts, WBC casts, granular casts", "flag": "ABNORMAL", "clinical_significance": "Active nephritic sediment with RBC casts plus heavy proteinuria = nephritic-nephrotic overlap; classic for proliferative lupus nephritis"},
+      {"test_name": "24-hour Urine Protein", "result": "5.8 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria; combined with nephritic features suggests Class IV (or III/IV) lupus nephritis"},
+      {"test_name": "Serum Creatinine", "result": "1.9 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, indicating impaired renal function from active nephritis"},
+      {"test_name": "Complement C3", "result": "38 mg/dL (normal 80-160)", "flag": "LOW", "clinical_significance": "Severely depressed; complement consumption is a hallmark of active lupus nephritis"},
+      {"test_name": "Complement C4", "result": "6 mg/dL (normal 16-48)", "flag": "LOW", "clinical_significance": "Low C4 supports active lupus with classic complement pathway activation"},
+      {"test_name": "Anti-dsDNA Antibody", "result": "Positive, 240 IU/mL (normal <30)", "flag": "HIGH", "clinical_significance": "Markedly elevated; anti-dsDNA titers correlate with lupus nephritis activity"},
+      {"test_name": "ANA", "result": "Positive, 1:1280 (homogeneous pattern)", "flag": "HIGH", "clinical_significance": "High-titer ANA consistent with active SLE"},
+      {"test_name": "Serum Albumin", "result": "2.4 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from nephrotic-range proteinuria"},
+      {"test_name": "CBC", "result": "Hgb 9.2 g/dL, WBC 3,200/μL, Plt 118,000/μL", "flag": "LOW", "clinical_significance": "Pancytopenia common in active SLE; anemia, leukopenia, and thrombocytopenia"},
+      {"test_name": "ESR", "result": "82 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; active systemic inflammation"},
+      {"test_name": "Anti-Smith Antibody", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Highly specific for SLE (though not sensitive); confirms SLE diagnosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys mildly enlarged (right 12.8 cm, left 13.0 cm) with increased cortical echogenicity. No hydronephrosis or masses.", "flag": "ABNORMAL", "clinical_significance": "Enlarged echogenic kidneys consistent with active nephritis"},
+      {"test_name": "Renal Biopsy", "result": "Light microscopy: diffuse endocapillary and extracapillary proliferation involving >50% of glomeruli, with wire-loop deposits and cellular crescents in 20% of glomeruli. Immunofluorescence: 'full house' pattern — IgG, IgA, IgM, C3, C4, and C1q deposition. Electron microscopy: subendothelial, subepithelial, and mesangial electron-dense deposits. ISN/RPS Class IV-G (A).", "flag": "ABNORMAL", "clinical_significance": "Class IV diffuse proliferative lupus nephritis is the most severe and common form of lupus nephritis; 'full house' IF pattern is virtually pathognomonic for lupus nephritis"}
+    ],
+    "key_tests": [
+      "Renal biopsy with LM, IF, and EM (ISN/RPS classification)",
+      "Urinalysis with microscopy",
+      "Complement C3 and C4 levels",
+      "Anti-dsDNA antibody titer",
+      "24-hour urine protein or UPCR"
+    ],
+    "acceptable_tests": [
+      "ANA and anti-Smith antibody",
+      "Complete blood count",
+      "Serum creatinine and eGFR",
+      "Serum albumin",
+      "ESR and CRP",
+      "Renal ultrasound",
+      "Anti-phospholipid antibodies (lupus anticoagulant, anticardiolipin, anti-beta2GP1)"
+    ],
+    "low_yield_tests": [
+      "ANCA panel (not a lupus marker)",
+      "Anti-PLA2R (membranous nephropathy marker, not lupus)",
+      "CT abdomen",
+      "Renal artery Doppler",
+      "Serum IgA level"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Active nephritic-nephrotic syndrome (RBC casts + 5.8 g/day proteinuria), severely depressed C3/C4, elevated anti-dsDNA, and renal biopsy showing diffuse proliferative GN with 'full house' immunofluorescence confirm Class IV diffuse proliferative lupus nephritis."
+  },
+  "debrief": {
+    "classic_presentation": "A young woman (especially African American or Hispanic) with active SLE (rash, arthritis, cytopenias) presenting with hypertension, edema, hematuria, and proteinuria (nephritic-nephrotic overlap). Labs show elevated anti-dsDNA, low complement, and active urinary sediment. Biopsy shows diffuse proliferative GN with 'full house' IF.",
+    "attending_mode_notes": "The ISN/RPS classification of lupus nephritis drives treatment: Class I/II (minimal/mesangial) — supportive care. Class III (focal proliferative) — immunosuppression if active lesions. Class IV (diffuse proliferative) — aggressive immunosuppression (most common and severe class). Class V (membranous) — immunosuppression if nephrotic-range proteinuria. Class VI (sclerosing) — >90% sclerosed, no active treatment. 'Full house' immunofluorescence (IgG, IgA, IgM, C3, C4, C1q) is virtually pathognomonic for lupus nephritis. Anti-dsDNA titers and complement levels can be used to monitor disease activity, but treatment changes should be based on clinical assessment, not serologies alone.",
+    "pathophysiology": "Lupus nephritis results from deposition of immune complexes (primarily anti-dsDNA/DNA complexes) in the glomeruli. In Class IV, immune complexes deposit predominantly in the subendothelial space, activating complement via the classical pathway (low C3, C4, C1q) and triggering neutrophil infiltration, endocapillary proliferation, and crescent formation. The 'full house' pattern on immunofluorescence reflects the polyclonal nature of the immune response in SLE. Subendothelial deposits produce 'wire-loop' lesions on light microscopy. The nephritic-nephrotic overlap pattern occurs because proliferative inflammation damages the glomerular filtration barrier (proteinuria) while inflammatory cell infiltration reduces GFR (nephritic features).",
+    "treatment_overview": "INDUCTION therapy (6 months): mycophenolate mofetil (MMF) 2-3 g/day or IV cyclophosphamide (Euro-Lupus or NIH protocol), PLUS glucocorticoids (IV pulse methylprednisolone followed by oral prednisone taper). Voclosporin (calcineurin inhibitor) may be added to MMF per the AURORA trial. Belimumab (anti-BAFF) added to standard therapy reduces renal flares per the BLISS-LN trial. MAINTENANCE therapy: MMF (1-2 g/day) or azathioprine, with low-dose prednisone. Hydroxychloroquine should be continued indefinitely (reduces flares and improves survival). ACE inhibitor/ARB for proteinuria and BP control. Duration: minimum 3-5 years of maintenance; monitor anti-dsDNA, complement, proteinuria, and creatinine for relapse.",
+    "high_yield_pearls": [
+      "Class IV (diffuse proliferative) lupus nephritis is the most common and most severe class, occurring in ~40% of patients with lupus nephritis.",
+      "'Full house' immunofluorescence (IgG + IgA + IgM + C3 + C4 + C1q) is virtually pathognomonic for lupus nephritis; no other glomerular disease shows this pattern.",
+      "Low C3/C4 and elevated anti-dsDNA are the best serologic markers for active lupus nephritis; complement levels often normalize with successful treatment.",
+      "The AURORA trial demonstrated that adding voclosporin to MMF and steroids significantly improved complete renal response compared to MMF and steroids alone.",
+      "Hydroxychloroquine should be continued in ALL lupus patients — it reduces renal flares, thromboembolic events, and improves overall survival."
+    ],
+    "sources": [
+      "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis",
+      "Rovin BH et al. Efficacy and safety of voclosporin versus placebo for lupus nephritis (AURORA 1). Lancet. 2021;397(10289):2070-2080.",
+      "UpToDate: Lupus nephritis — diagnosis, classification, and treatment (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lupus nephritis (Class IV)",
+      "IgA nephropathy",
+      "Post-infectious glomerulonephritis",
+      "ANCA-associated vasculitis",
+      "Anti-GBM disease",
+      "Membranoproliferative glomerulonephritis",
+      "Thrombotic microangiopathy"
+    ],
+    "after_stage2_more_likely": [
+      "Lupus nephritis — known SLE with active flare (malar rash, arthritis, oral ulcers), new hypertension, edema, dark urine",
+      "IgA nephropathy — hematuria and proteinuria, but SLE features make lupus nephritis more likely"
+    ],
+    "after_stage2_less_likely": [
+      "Post-infectious GN — no recent streptococcal infection; active SLE features explain findings",
+      "Anti-GBM disease — no hemoptysis; young African American woman with SLE is classic for lupus nephritis"
+    ],
+    "after_labs_top3": [
+      "Lupus nephritis Class IV — nephritic-nephrotic overlap, severely low C3/C4, high anti-dsDNA, 'full house' IF on biopsy, diffuse proliferative GN",
+      "Membranoproliferative GN — can also have low complement and nephritic-nephrotic overlap, but 'full house' IF is specific for lupus",
+      "Post-infectious GN — low C3 can occur, but C4 would be normal (alternate pathway); no infectious prodrome"
+    ]
+  }
+}

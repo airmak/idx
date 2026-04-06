@@ -1,0 +1,115 @@
+{
+  "case_id": "case_222",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Generalized Anxiety Disorder",
+  "icd_category": "F41.1 — Generalized anxiety disorder",
+  "one_liner": "A 28-year-old man with no significant past medical history presents with 8 months of persistent, excessive worry about multiple life domains accompanied by muscle tension, insomnia, and difficulty concentrating.",
+  "stage2": {
+    "hpi_extension": "The patient reports persistent and excessive worry for the past 8 months, spanning work performance, finances, health of family members, and everyday tasks such as being late. He describes the worry as difficult to control and occurring 'more days than not.' Associated symptoms include chronic muscle tension in his neck and shoulders, restlessness, fatigue despite adequate sleep opportunity, difficulty concentrating ('mind goes blank'), and irritability. He reports initial insomnia (takes 1-2 hours to fall asleep due to racing worries). He denies discrete panic attacks, specific phobias, obsessive-compulsive symptoms, or trauma history. GAD-7 score is 18 (severe). He has tried deep breathing exercises with minimal benefit.",
+    "pmh": "Tension headaches. No prior psychiatric diagnoses.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen PRN for headaches",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with generalized anxiety disorder treated with buspirone. Sister with panic disorder. Father healthy. No family history of bipolar disorder or psychosis.",
+    "social_history": "Works as a software engineer. Single, lives alone in an apartment. Drinks 4-5 cups of coffee daily. Occasional alcohol use (1-2 beers on weekends). Denies tobacco or illicit drug use. College-educated. Exercises sporadically. Reports work-life balance is poor with frequent overtime.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "88 bpm",
+      "bp": "132/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "175 lbs, BMI 24.8 kg/m²"
+    },
+    "physical_exam": "General: Well-nourished man, appears anxious, fidgeting in chair, mildly diaphoretic palms. HEENT: Normocephalic, atraumatic. No thyromegaly. Neck: Palpable tension in bilateral trapezius muscles. Cardiovascular: Tachycardic but regular rhythm, no murmurs. Lungs: Clear bilaterally. Abdomen: Soft, non-tender. Neurological: Normal cranial nerves, motor, sensory, reflexes. No tremor. Mental Status Exam: Appearance — well-groomed, appropriately dressed. Behavior — cooperative, restless, frequently shifting position. Speech — normal rate, slightly pressured at times. Mood — 'anxious, on edge.' Affect — anxious, tense. Thought process — linear, goal-directed but with excessive focus on worries. Thought content — excessive worry about multiple domains, no SI/HI, no delusions. Perception — no hallucinations. Cognition — oriented x4, mild difficulty with concentration. Insight — good. Judgment — good."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism which can mimic anxiety"},
+      {"test_name": "Free T4", "result": "1.1 ng/dL", "flag": "WNL", "clinical_significance": "Confirms normal thyroid function"},
+      {"test_name": "CBC", "result": "WBC 7.1, Hgb 15.2, Hct 44.8, Plt 230", "flag": "WNL", "clinical_significance": "No anemia or infection contributing to symptoms"},
+      {"test_name": "CMP", "result": "Na 141, K 4.3, Cl 103, CO2 25, BUN 15, Cr 0.9, Glucose 95, Ca 9.6, AST 20, ALT 22", "flag": "WNL", "clinical_significance": "Rules out metabolic derangements and hypoglycemia"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant use or substance-induced anxiety"},
+      {"test_name": "Plasma metanephrines", "result": "Normetanephrine 0.5 nmol/L, Metanephrine 0.3 nmol/L", "flag": "WNL", "clinical_significance": "Rules out pheochromocytoma as cause of episodic anxiety and tachycardia"},
+      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Hypomagnesemia can cause anxiety symptoms"},
+      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Low vitamin D has been associated with anxiety, level is adequate"},
+      {"test_name": "Urinalysis", "result": "Normal, no protein, no glucose", "flag": "WNL", "clinical_significance": "Baseline renal assessment normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG (12-lead)", "result": "Sinus tachycardia at 88 bpm. Normal axis. No ST changes. Normal intervals.", "flag": "ABNORMAL", "clinical_significance": "Mild resting tachycardia likely related to anxiety state; no arrhythmia or structural abnormality suggested"}
+    ],
+    "key_tests": [
+      "GAD-7 (Generalized Anxiety Disorder-7) — score 18 (severe anxiety)",
+      "TSH — to rule out hyperthyroidism",
+      "Urine drug screen — to rule out substance-induced anxiety",
+      "ECG — to evaluate tachycardia and rule out cardiac cause of symptoms",
+      "CMP including glucose — to rule out metabolic causes"
+    ],
+    "acceptable_tests": [
+      "Free T4 to confirm thyroid status",
+      "CBC",
+      "Plasma or urine metanephrines",
+      "Magnesium level",
+      "Vitamin D level",
+      "PHQ-9 to screen for comorbid depression",
+      "Caffeine intake assessment"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological deficits or red flags)",
+      "EEG (no seizure-like episodes)",
+      "Echocardiogram (ECG without structural findings)",
+      "Cortisol level (no Cushingoid features)",
+      "Heavy metal screening (no exposure history)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets DSM-5 criteria for Generalized Anxiety Disorder: excessive worry about multiple domains for more than 6 months, difficulty controlling the worry, and 3+ associated symptoms (restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance). All medical workup is negative. GAD-7 score of 18 confirms severe anxiety. High caffeine intake may be an exacerbating factor."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult with persistent, excessive, and difficult-to-control worry about multiple life domains (work, health, finances, everyday matters) for at least 6 months, with associated somatic symptoms including muscle tension, restlessness, fatigue, difficulty concentrating, irritability, and insomnia, causing significant functional impairment.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GAD involves dysregulation of the amygdala-prefrontal cortex circuit, with hyperactivation of the amygdala and reduced top-down inhibition from the prefrontal cortex. GABAergic underactivity and serotonergic dysfunction play central roles. The worry circuit involves excessive activity in the anterior cingulate cortex and insula. Genetic heritability is approximately 30%. The intolerance of uncertainty model proposes that individuals with GAD have a low threshold for ambiguity, leading to chronic worry as a maladaptive coping strategy.",
+    "treatment_overview": "First-line pharmacotherapy: SSRIs (escitalopram, sertraline) or SNRIs (venlafaxine XR, duloxetine). Buspirone is an alternative first-line agent. CBT is the gold-standard psychotherapy, focusing on cognitive restructuring of worry and relaxation training. Benzodiazepines should be avoided as long-term treatment due to dependence risk but may be used short-term for severe symptoms. Lifestyle modifications include caffeine reduction, regular exercise, sleep hygiene, and mindfulness meditation. Treatment response typically requires 4-8 weeks.",
+    "high_yield_pearls": [
+      "DSM-5 requires excessive worry about multiple domains for ≥6 months with ≥3 associated symptoms (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance).",
+      "Hyperthyroidism is the most important medical mimic — always check TSH in new-onset anxiety.",
+      "High caffeine intake is a common exacerbating factor and should be addressed as part of treatment.",
+      "GAD is the most common anxiety disorder to present in primary care settings.",
+      "Pheochromocytoma can mimic panic/anxiety with episodic tachycardia, diaphoresis, and hypertension.",
+      "GAD has high comorbidity with major depression (~60-70% lifetime co-occurrence) — always screen for both."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for Anxiety Disorders",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "NICE Guidelines: Generalised Anxiety Disorder in Adults (CG113)",
+      "Craske MG, Stein MB — Anxiety. Lancet 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Generalized anxiety disorder",
+      "Hyperthyroidism",
+      "Panic disorder",
+      "Social anxiety disorder",
+      "Adjustment disorder with anxiety",
+      "Substance/caffeine-induced anxiety",
+      "Pheochromocytoma",
+      "Major depressive disorder with anxious features"
+    ],
+    "after_stage2_more_likely": [
+      "Generalized anxiety disorder — chronic excessive worry across multiple domains with classic somatic symptoms, family history of GAD",
+      "Caffeine-induced anxiety — drinks 4-5 cups of coffee daily"
+    ],
+    "after_stage2_less_likely": [
+      "Panic disorder — no discrete panic attacks",
+      "Hyperthyroidism — no weight loss, tremor, or heat intolerance",
+      "Pheochromocytoma — symptoms are chronic rather than episodic"
+    ],
+    "after_labs_top3": [
+      "Generalized anxiety disorder — normal TSH, metanephrines, and metabolic panel; meets full DSM-5 criteria with GAD-7 of 18",
+      "Caffeine-induced anxiety disorder — excessive caffeine intake is likely an exacerbating factor",
+      "Adjustment disorder with anxiety — possible but duration >6 months and multifocal worry favor GAD"
+    ]
+  }
+}

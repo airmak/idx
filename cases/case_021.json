@@ -1,0 +1,69 @@
+{
+  "case_id": "case_021",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Pheochromocytoma",
+  "icd_category": "D35.0 — Benign neoplasm of adrenal gland",
+  "one_liner": "A 42-year-old female presents with episodic severe headaches, diaphoresis, palpitations, and paroxysmal hypertension refractory to standard antihypertensives for 4 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports episodic spells occurring 2-3 times per week for the past 4 months. Each episode lasts 20-30 minutes and consists of sudden, severe throbbing headache, profuse sweating, rapid heartbeat, tremor, and a sense of impending doom. During episodes, she feels her face flush and she has measured blood pressures as high as 220/130 mmHg at home. Between episodes, her blood pressure is variable — sometimes normal, sometimes elevated. She has been started on lisinopril and then amlodipine by her PCP without adequate control. She reports a 10-pound weight loss despite no change in appetite. She had a recent near-syncopal episode while standing up quickly. The episodes are sometimes triggered by bending over, straining during bowel movements, or exercise. She denies use of decongestants, stimulants, or recreational drugs.",
+    "pmh": "Hypertension (diagnosed 4 months ago, refractory to two medications), anxiety disorder (diagnosed 6 months ago — likely misdiagnosis)",
+    "surgical_history": "Cesarean section x2",
+    "medications": "Lisinopril 40 mg daily, amlodipine 10 mg daily, alprazolam 0.5 mg as needed (prescribed for presumed anxiety)",
+    "allergies": "NKDA",
+    "family_history": "Mother had a thyroid nodule removed at age 50. A maternal uncle died suddenly at age 38 (cause unknown). No known family history of pheochromocytoma or endocrine syndromes.",
+    "social_history": "Non-smoker, no alcohol. No illicit drug use including cocaine or amphetamines. Works as a veterinarian. Married with two children. Reports high stress at work.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "105 bpm, regular (measured during a symptomatic episode in the ED)",
+      "bp": "198/118 mmHg (during episode); 142/88 mmHg (after episode subsides)",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "BMI 23 kg/m²"
+    },
+    "physical_exam": "General: Anxious-appearing woman, diaphoretic during initial assessment (caught during an episode), then calms. HEENT: No thyroid nodules or enlargement. Cardiovascular: Tachycardic during episode, regular rhythm, grade I/VI systolic murmur at apex. Forceful PMI. No S3 or S4. Pulmonary: Clear bilaterally. Abdomen: Non-tender, no palpable masses. NOTE: Deep abdominal palpation provoked a brief episode of tachycardia and hypertension. Extremities: Warm, tremulous hands. No edema. Skin: Diaphoretic, pale during episodes with subsequent facial flushing. Café-au-lait spots noted on trunk. Neuro: Mild tremor of outstretched hands."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Plasma free metanephrines", "result": "Normetanephrine 1,850 pg/mL (ref < 148), Metanephrine 620 pg/mL (ref < 57)", "flag": "HIGH", "clinical_significance": "Markedly elevated plasma free metanephrines — the recommended initial screening test; >3x upper limit is essentially diagnostic"},
+      {"test_name": "24-hour urine catecholamines", "result": "Norepinephrine 485 μg/day (ref < 80), Epinephrine 125 μg/day (ref < 20), Dopamine 310 μg/day (ref < 400)", "flag": "HIGH", "clinical_significance": "Elevated urine catecholamines confirm excessive catecholamine production"},
+      {"test_name": "24-hour urine metanephrines", "result": "Normetanephrine 3,200 μg/day (ref < 900), Metanephrine 1,450 μg/day (ref < 400)", "flag": "HIGH", "clinical_significance": "Markedly elevated, confirming the diagnosis with greater than 2x upper limit of normal"},
+      {"test_name": "Chromogranin A", "result": "285 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated chromogranin A is a marker of neuroendocrine tumors but is nonspecific (also elevated with PPI use)"},
+      {"test_name": "Fasting glucose", "result": "148 mg/dL", "flag": "HIGH", "clinical_significance": "Catecholamine excess causes glucose intolerance via stimulation of glycogenolysis and gluconeogenesis and inhibition of insulin secretion"},
+      {"test_name": "CBC", "result": "WBC 9,200/μL, Hgb 16.8 g/dL, Hct 50%, Plt 225,000/μL", "flag": "HIGH", "clinical_significance": "Polycythemia can occur due to catecholamine-stimulated erythropoietin production and hemoconcentration"},
+      {"test_name": "Basic metabolic panel", "result": "Na 138, K 3.6, Cr 0.8, Ca 10.1", "flag": "WNL", "clinical_significance": "Normal renal function and calcium — important to rule out hyperparathyroidism in MEN syndromes"},
+      {"test_name": "Calcitonin", "result": "8 pg/mL", "flag": "WNL", "clinical_significance": "Normal calcitonin argues against medullary thyroid carcinoma and MEN2 syndrome, though genetic testing is still warranted"},
+      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hyperthyroidism excluded as cause of hyperadrenergic symptoms"},
+      {"test_name": "Urine drug screen", "result": "Negative for cocaine, amphetamines, and other substances", "flag": "WNL", "clinical_significance": "Rules out substance use as a cause of paroxysmal hypertension and sympathomimetic symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT abdomen/pelvis with contrast", "result": "3.8 cm well-circumscribed, heterogeneous right adrenal mass with areas of necrosis and enhancement >110 HU on contrast-enhanced images. Left adrenal gland normal. No lymphadenopathy or metastatic disease.", "flag": "ABNORMAL", "clinical_significance": "Adrenal mass with high contrast enhancement and heterogeneity consistent with pheochromocytoma; necrotic areas are common in larger tumors"},
+      {"test_name": "MIBG scan (I-123 metaiodobenzylguanidine)", "result": "Intense uptake in the right adrenal gland corresponding to the CT-identified mass. No extra-adrenal uptake.", "flag": "ABNORMAL", "clinical_significance": "MIBG is taken up by chromaffin tissue and confirms functional catecholamine-producing tumor. No evidence of metastatic or extra-adrenal disease."}
+    ],
+    "key_tests": ["Plasma free metanephrines", "24-hour urine metanephrines and catecholamines", "CT abdomen/pelvis with contrast", "Basic metabolic panel", "Urine drug screen"],
+    "acceptable_tests": ["MIBG scan", "Chromogranin A", "Fasting glucose or HbA1c", "TSH", "Calcitonin", "ECG", "Echocardiogram", "Genetic testing for hereditary syndromes (RET, VHL, SDHx, NF1)"],
+    "low_yield_tests": ["Random serum catecholamines (too variable, not reliable)", "CT head (no focal neurologic deficits)", "Renal artery duplex (renovascular hypertension is chronic, not paroxysmal)", "Serum cortisol (not Cushing presentation)", "FNA biopsy of adrenal mass (CONTRAINDICATED — can trigger hypertensive crisis)"]
+  },
+  "stage5": {
+    "final_clue": "During IV line placement for preoperative preparation, the patient develops a severe hypertensive crisis (BP 260/140 mmHg) with tachycardia and diaphoresis — provoked by the stress and pain of the procedure. This dramatically illustrates the catecholamine-secreting nature of the tumor and the critical importance of adequate alpha-blockade before any surgical or invasive procedure."
+  },
+  "debrief": {
+    "classic_presentation": "Pheochromocytoma classically presents with the triad of episodic headache, diaphoresis, and palpitations associated with paroxysmal or sustained hypertension. The classic 'rule of 10s' (10% bilateral, 10% extra-adrenal, 10% malignant, 10% familial) has been revised — up to 40% are now recognized as hereditary. Episodes can be triggered by physical exertion, abdominal pressure, anesthesia, certain medications (beta-blockers without alpha-blockade, glucocorticoids), or tumor manipulation.",
+    "attending_mode_notes": "This patient's symptoms were initially attributed to anxiety disorder and essential hypertension — a common diagnostic pitfall. The episodic nature of symptoms with normotension between spells, refractory hypertension in a young woman, weight loss despite normal appetite, and triggering by physical maneuvers are key clues that were initially missed. The café-au-lait spots and family history of thyroid nodule and sudden death raise concern for a hereditary syndrome (possibly NF1 or MEN2) that further complicates the picture. Beta-blockers should NEVER be given without prior alpha-blockade in suspected pheochromocytoma.",
+    "pathophysiology": "Pheochromocytomas are catecholamine-producing tumors arising from chromaffin cells of the adrenal medulla (paragangliomas arise from extra-adrenal sympathetic ganglia). The tumor synthesizes, stores, and episodically releases norepinephrine, epinephrine, and/or dopamine. Catecholamine excess causes alpha-1 mediated vasoconstriction (hypertension), beta-1 mediated cardiac stimulation (tachycardia, palpitations), and metabolic effects (hyperglycemia, weight loss from increased metabolic rate). The episodic nature reflects intermittent catecholamine release from the tumor. Hereditary forms are associated with MEN2 (RET), von Hippel-Lindau (VHL), NF1, and SDH mutations.",
+    "treatment_overview": "Surgical resection is the definitive treatment, but adequate preoperative preparation is CRITICAL. Alpha-blockade must be initiated FIRST: phenoxybenzamine (irreversible) 10-20 mg BID titrated up, or doxazosin (competitive) starting at 2 mg daily. Begin alpha-blockade at least 10-14 days before surgery. THEN add beta-blocker (only after adequate alpha-blockade — unopposed beta-blockade can precipitate hypertensive crisis). Liberal salt and fluid intake to expand contracted intravascular volume. Metyrosine (catecholamine synthesis inhibitor) can be added for refractory cases. Laparoscopic adrenalectomy is the surgical approach of choice. Postoperative monitoring for hypotension and hypoglycemia is essential. Genetic counseling and testing for all patients, even if apparently sporadic.",
+    "high_yield_pearls": [
+      "Plasma free metanephrines have >96% sensitivity and are the recommended initial screening test — a level >3x upper normal is essentially diagnostic",
+      "NEVER give beta-blockers before alpha-blockade — unopposed alpha stimulation can cause hypertensive crisis",
+      "NEVER perform FNA biopsy of a suspected pheochromocytoma — tumor manipulation can trigger a potentially fatal catecholamine surge",
+      "Up to 40% of pheochromocytomas are hereditary — all patients should undergo genetic testing regardless of family history"
+    ],
+    "sources": ["UpToDate: Clinical presentation and diagnosis of pheochromocytoma", "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma 2024"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Pheochromocytoma", "Essential hypertension with anxiety", "Hyperthyroidism", "Carcinoid syndrome", "Panic disorder", "Cocaine/amphetamine use", "Renovascular hypertension", "Cushing syndrome"],
+    "after_stage2_more_likely": ["Pheochromocytoma (classic triad of episodic headache, diaphoresis, palpitations with paroxysmal hypertension; triggered by abdominal palpation; refractory to standard meds)"],
+    "after_stage2_less_likely": ["Panic disorder (hypertension to 220/130 and reproducible triggers like abdominal palpation are not typical)", "Hyperthyroidism (symptoms are episodic not constant, no thyroid enlargement)"],
+    "after_labs_top3": ["Pheochromocytoma", "Paraganglioma", "Adrenal incidentaloma with subclinical catecholamine secretion"]
+  }
+}

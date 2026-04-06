@@ -1,0 +1,71 @@
+{
+  "case_id": "case_017",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Chronic kidney disease stage 4",
+  "icd_category": "N18.4 — Chronic kidney disease, stage 4",
+  "one_liner": "A 62-year-old male with longstanding type 2 diabetes and hypertension presents with progressive fatigue, decreased appetite, and bilateral lower extremity edema for 3 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports progressive fatigue over 3 months with decreased exercise tolerance. He has noticed worsening bilateral leg swelling, most prominent at the end of the day. His appetite has decreased significantly and he reports an occasional metallic taste in his mouth. He has nocturia 3-4 times per night (increased from baseline of 1 time). He notes that his urine has been foamy for the past several months. He has had poorly controlled diabetes for 15 years with an HbA1c ranging from 8-10%. His blood pressure has been difficult to control despite multiple medications. He has known diabetic retinopathy requiring laser treatment 2 years ago. He denies gross hematuria, flank pain, dysuria, or recent NSAID use.",
+    "pmh": "Type 2 diabetes mellitus (15 years, poorly controlled), hypertension (18 years), diabetic retinopathy (status post laser photocoagulation), hyperlipidemia, peripheral neuropathy",
+    "surgical_history": "Bilateral laser photocoagulation for diabetic retinopathy",
+    "medications": "Metformin 1000 mg twice daily, glipizide 10 mg twice daily, insulin glargine 30 units at bedtime, lisinopril 40 mg daily, amlodipine 10 mg daily, atorvastatin 40 mg daily, gabapentin 300 mg three times daily",
+    "allergies": "NKDA",
+    "family_history": "Mother with type 2 diabetes and end-stage renal disease on dialysis. Father died of myocardial infarction at age 65.",
+    "social_history": "Former smoker (quit 5 years ago, 30 pack-year history). Drinks alcohol rarely. Retired factory worker. Lives with wife. Diet is inconsistent with frequent fast food.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "82 bpm, regular",
+      "bp": "158/96 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "BMI 31 kg/m²"
+    },
+    "physical_exam": "General: Chronically ill-appearing, mildly pale. HEENT: Pale conjunctivae, no scleral icterus, fundoscopic exam shows dot-blot hemorrhages and laser scars bilaterally. Cardiovascular: Regular rate and rhythm, S4 gallop, no murmurs. JVP elevated to 10 cm. Pulmonary: Bibasilar crackles, no wheezing. Abdomen: Soft, non-tender, no organomegaly, no ascites. Extremities: 2+ bilateral pitting edema to mid-shin. Skin: Excoriations on arms from pruritus, sallow complexion. Neuro: Decreased sensation to light touch in stocking distribution bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Creatinine", "result": "3.8 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, indicating advanced chronic kidney disease"},
+      {"test_name": "eGFR", "result": "18 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "eGFR 15-29 defines CKD stage 4 — severe decrease in kidney function, approaching ESKD"},
+      {"test_name": "BUN", "result": "62 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated due to decreased renal clearance; BUN/Cr ratio normal suggesting intrinsic renal disease"},
+      {"test_name": "Urine albumin-to-creatinine ratio", "result": "1,850 mg/g", "flag": "HIGH", "clinical_significance": "Severely increased albuminuria (A3 category); indicates diabetic nephropathy with significant glomerular damage"},
+      {"test_name": "HbA1c", "result": "8.9%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes; note that HbA1c may be less accurate in CKD due to shortened RBC lifespan"},
+      {"test_name": "Hemoglobin", "result": "9.2 g/dL", "flag": "LOW", "clinical_significance": "Anemia of CKD due to decreased erythropoietin production by failing kidneys"},
+      {"test_name": "Calcium", "result": "8.0 mg/dL", "flag": "LOW", "clinical_significance": "Hypocalcemia from decreased renal conversion of 25-OH vitamin D to active 1,25-dihydroxyvitamin D"},
+      {"test_name": "Phosphorus", "result": "5.8 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperphosphatemia from impaired renal phosphorus excretion; contributes to secondary hyperparathyroidism"},
+      {"test_name": "Intact PTH", "result": "285 pg/mL", "flag": "HIGH", "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia — classic CKD-mineral bone disorder"},
+      {"test_name": "Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from impaired renal potassium excretion; exacerbated by ACE inhibitor use"},
+      {"test_name": "Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from impaired renal acid excretion; common in advanced CKD"},
+      {"test_name": "25-OH Vitamin D", "result": "15 ng/mL", "flag": "LOW", "clinical_significance": "Vitamin D deficiency is extremely common in CKD and contributes to mineral bone disorder"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal ultrasound", "result": "Bilateral kidneys are small (right 8.5 cm, left 8.8 cm) with increased cortical echogenicity and loss of corticomedullary differentiation. No hydronephrosis, no renal masses, no stones.", "flag": "ABNORMAL", "clinical_significance": "Small, echogenic kidneys indicate chronic parenchymal disease — consistent with diabetic nephropathy"},
+      {"test_name": "Chest X-ray", "result": "Mild pulmonary vascular congestion. Small bilateral pleural effusions. Cardiomegaly with cardiothoracic ratio of 0.58.", "flag": "ABNORMAL", "clinical_significance": "Volume overload from impaired renal sodium and water excretion; cardiomegaly from chronic hypertension"}
+    ],
+    "key_tests": ["Basic metabolic panel (creatinine, eGFR, potassium, bicarbonate)", "Urine albumin-to-creatinine ratio", "CBC (hemoglobin)", "Calcium, phosphorus, intact PTH", "Renal ultrasound"],
+    "acceptable_tests": ["HbA1c", "25-OH Vitamin D", "Lipid panel", "Urinalysis", "Chest X-ray", "Echocardiogram", "Serum iron studies", "Uric acid"],
+    "low_yield_tests": ["Renal biopsy (diabetic nephropathy is clinical diagnosis with proteinuria and retinopathy)", "CT abdomen", "Renal artery duplex (no suspicion for RAS)", "ANCA or anti-GBM (no features of glomerulonephritis)", "Cystoscopy"]
+  },
+  "stage5": {
+    "final_clue": "A review of the patient's prior labs reveals a gradual decline in eGFR over the past 3 years: eGFR 45 (3 years ago), eGFR 32 (18 months ago), and now eGFR 18 — confirming a progressive chronic decline consistent with diabetic nephropathy rather than an acute process."
+  },
+  "debrief": {
+    "classic_presentation": "CKD stage 4 from diabetic nephropathy typically presents in patients with longstanding, poorly controlled diabetes who have concurrent diabetic retinopathy and hypertension. Symptoms include fatigue (from anemia), edema (from sodium retention and proteinuria), nocturia (loss of concentrating ability), decreased appetite, metallic taste, and pruritus. Labs show elevated creatinine with low eGFR, significant albuminuria, anemia, hyperkalemia, metabolic acidosis, and CKD-mineral bone disorder (hypocalcemia, hyperphosphatemia, elevated PTH). Renal ultrasound shows small, echogenic kidneys.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Diabetic nephropathy results from chronic hyperglycemia causing glomerular hyperfiltration, mesangial expansion, and progressive glomerulosclerosis (Kimmelstiel-Wilson nodules). Hypertension accelerates the damage through increased intraglomerular pressure. As nephrons are destroyed, the remaining nephrons undergo compensatory hypertrophy but eventually fail. The decline in GFR leads to: (1) inability to excrete potassium and acid (hyperkalemia, metabolic acidosis), (2) inability to excrete phosphorus (hyperphosphatemia leading to secondary hyperparathyroidism), (3) decreased erythropoietin production (anemia), and (4) sodium and water retention (edema, volume overload).",
+    "treatment_overview": "Management of CKD stage 4 is multifaceted: (1) Slow progression: optimize BP control (<130/80), maximize RAAS blockade (ACEi/ARB), add SGLT2 inhibitor (dapagliflozin or empagliflozin — proven benefit even with low eGFR), strict glycemic control; (2) Manage complications: EPO-stimulating agents for anemia (target Hgb 10-11.5), phosphate binders and active vitamin D for CKD-MBD, sodium bicarbonate for acidosis, dietary potassium restriction and medication adjustment for hyperkalemia; (3) Discontinue metformin (eGFR <20); (4) Nephrology referral for dialysis access planning (AV fistula) and transplant evaluation; (5) Dietary counseling: low sodium, low potassium, low phosphorus, moderate protein restriction.",
+    "high_yield_pearls": [
+      "Diabetic nephropathy is the leading cause of ESKD in the United States and is a clinical diagnosis when proteinuria coexists with diabetic retinopathy",
+      "SGLT2 inhibitors have transformed CKD management — they slow progression independent of glycemic control and are now indicated for CKD with eGFR as low as 20",
+      "Metformin must be discontinued when eGFR falls below 30 (some guidelines say 20) due to increased risk of lactic acidosis",
+      "CKD stage 4 patients need nephrology referral for dialysis access planning (ideally AV fistula creation 6+ months before anticipated dialysis start)"
+    ],
+    "sources": ["UpToDate: Overview of the management of chronic kidney disease in adults", "KDIGO 2024 Clinical Practice Guideline for CKD Evaluation and Management"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Diabetic nephropathy (CKD stage 4)", "Hypertensive nephrosclerosis", "IgA nephropathy", "Focal segmental glomerulosclerosis", "Renal artery stenosis", "Obstructive uropathy", "Acute kidney injury superimposed on CKD"],
+    "after_stage2_more_likely": ["Diabetic nephropathy (15 years of poorly controlled diabetes, diabetic retinopathy, progressive symptoms, proteinuria)"],
+    "after_stage2_less_likely": ["Obstructive uropathy (no hydronephrosis on history, bilateral symptoms)", "Acute kidney injury (3-month progressive course, not acute)"],
+    "after_labs_top3": ["Diabetic nephropathy", "Hypertensive nephrosclerosis", "Combined diabetic and hypertensive nephropathy"]
+  }
+}

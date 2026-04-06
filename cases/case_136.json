@@ -1,0 +1,113 @@
+{
+  "case_id": "case_136",
+  "mode": "attending",
+  "specialty": "Nephrology",
+  "diagnosis": "Renal Tubular Acidosis Type 1 (Distal RTA)",
+  "icd_category": "N25.89 — Other disorders resulting from impaired renal tubular function",
+  "one_liner": "A 42-year-old woman with Sjogren syndrome presents with recurrent nephrolithiasis, muscle weakness, and is found to have a non-anion gap metabolic acidosis with hypokalemia and alkaline urine.",
+  "stage2": {
+    "hpi_extension": "The patient has had 3 episodes of calcium phosphate kidney stones over the past 4 years. She presents with progressive bilateral lower extremity weakness and fatigue over the past month, and tingling in her hands. She reports polyuria and polydipsia for several months. She was diagnosed with Sjogren syndrome 5 years ago, managed with artificial tears and hydroxychloroquine. She denies diarrhea, laxative use, or vomiting. No recent medication changes.",
+    "pmh": "Sjogren syndrome (5 years), recurrent nephrolithiasis (calcium phosphate stones confirmed on prior stone analysis), osteoporosis diagnosed at age 40.",
+    "surgical_history": "Lithotripsy (2 years ago).",
+    "medications": "Hydroxychloroquine 200 mg twice daily, artificial tears PRN, calcium and vitamin D supplements.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother has rheumatoid arthritis. No family history of kidney disease.",
+    "social_history": "School teacher. Non-smoker, non-drinker. No illicit drug use.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "88 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "22 breaths/min (Kussmaul breathing)",
+      "spo2": "99% on room air",
+      "weight_bmi": "60 kg, BMI 22.4"
+    },
+    "physical_exam": "Thin woman appearing fatigued. Dry mouth and dry eyes. Dental caries noted. Heart: regular rate and rhythm, no murmurs. Lungs: deep, regular breathing pattern (Kussmaul respirations). Abdomen: soft, mild left flank tenderness. Extremities: diminished reflexes bilaterally, 4/5 proximal muscle strength in lower extremities, no edema. Positive Chvostek sign."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Bicarbonate", "result": "14 mEq/L", "flag": "LOW", "clinical_significance": "Significant metabolic acidosis; characteristic of distal RTA"},
+      {"test_name": "Serum Potassium", "result": "2.6 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia is a hallmark of Type 1 (distal) RTA; explains muscle weakness and diminished reflexes"},
+      {"test_name": "Serum Chloride", "result": "116 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperchloremia characteristic of non-anion gap metabolic acidosis"},
+      {"test_name": "Anion Gap", "result": "10 mEq/L", "flag": "WNL", "clinical_significance": "Normal anion gap; this is a non-anion gap (hyperchloremic) metabolic acidosis — classic for RTA"},
+      {"test_name": "Urine pH", "result": "6.8", "flag": "HIGH", "clinical_significance": "Inappropriately alkaline urine (pH >5.5) despite systemic acidosis is the defining feature of distal (Type 1) RTA — the distal nephron cannot secrete H+"},
+      {"test_name": "Urine Anion Gap", "result": "+15 mEq/L (Na 45, K 30, Cl 60)", "flag": "ABNORMAL", "clinical_significance": "Positive urine anion gap indicates impaired renal ammonium excretion, confirming renal (not GI) cause of acidosis"},
+      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Preserved renal function; GFR is typically maintained in Type 1 RTA until late"},
+      {"test_name": "Serum Calcium", "result": "8.4 mg/dL", "flag": "LOW", "clinical_significance": "Mildly low; chronic acidosis causes bone calcium mobilization contributing to osteoporosis and nephrolithiasis"},
+      {"test_name": "24-hour Urine Calcium", "result": "380 mg/day", "flag": "HIGH", "clinical_significance": "Hypercalciuria from chronic acidosis-driven bone resorption; promotes calcium phosphate stone formation"},
+      {"test_name": "24-hour Urine Citrate", "result": "95 mg/day", "flag": "LOW", "clinical_significance": "Hypocitraturia (normal >320 mg/day); citrate reabsorption increases in acidosis, removing a key inhibitor of stone formation"},
+      {"test_name": "Serum Phosphorus", "result": "2.8 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus from renal phosphate wasting in distal RTA"},
+      {"test_name": "ABG", "result": "pH 7.28, pCO2 26, HCO3 13", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with appropriate respiratory compensation (Winter formula: expected pCO2 = 1.5(13)+8 = 27.5, consistent)"}
+    ],
+    "imaging_results": [
+      {"test_name": "KUB Radiograph", "result": "Bilateral medullary nephrocalcinosis. Small radiopaque calculus in the left renal pelvis (4 mm).", "flag": "ABNORMAL", "clinical_significance": "Medullary nephrocalcinosis is a classic complication of distal RTA, caused by chronic alkaline urine with calcium phosphate precipitation in the renal medulla"},
+      {"test_name": "Renal Ultrasound", "result": "Bilateral increased echogenicity of the renal medullary pyramids consistent with nephrocalcinosis. 4 mm non-obstructing left renal calculus. Normal kidney sizes.", "flag": "ABNORMAL", "clinical_significance": "Confirms nephrocalcinosis; non-obstructing stone"}
+    ],
+    "key_tests": [
+      "Serum electrolytes with anion gap calculation",
+      "Urine pH (must be >5.5 in setting of acidosis for Type 1 RTA)",
+      "Urine anion gap",
+      "24-hour urine calcium and citrate"
+    ],
+    "acceptable_tests": [
+      "Arterial blood gas",
+      "Serum potassium",
+      "KUB radiograph (nephrocalcinosis)",
+      "Renal ultrasound",
+      "Stone analysis (calcium phosphate)",
+      "Ammonium chloride loading test (rarely needed)",
+      "Anti-SSA/SSB antibodies (confirm Sjogren)",
+      "DEXA scan (osteoporosis assessment)"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy",
+      "CT with contrast",
+      "ANCA panel",
+      "Serum aldosterone (Type 4 RTA, not Type 1)",
+      "Stool studies (no diarrhea)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Non-anion gap metabolic acidosis (bicarb 14) with hypokalemia (K 2.6), inappropriately alkaline urine (pH 6.8), positive urine anion gap, hypercalciuria, hypocitraturia, and medullary nephrocalcinosis in a patient with Sjogren syndrome confirms Type 1 (distal) renal tubular acidosis."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with an autoimmune disease (Sjogren syndrome, SLE, or autoimmune hepatitis) presenting with recurrent calcium phosphate kidney stones, nephrocalcinosis, muscle weakness from hypokalemia, and polyuria. Labs reveal non-anion gap metabolic acidosis with inappropriately alkaline urine (pH >5.5) and hypokalemia.",
+    "attending_mode_notes": "Type 1 (distal) RTA must be distinguished from Type 2 (proximal) and Type 4 (hypoaldosteronism): Type 1 has alkaline urine (>5.5), hypokalemia, and nephrolithiasis/nephrocalcinosis. Type 2 has a urine pH that CAN be <5.5 when serum bicarb drops below the lowered reabsorption threshold, with Fanconi syndrome features. Type 4 has hyperkalemia and acidic urine. The urine anion gap is a critical test: positive = impaired renal NH4+ excretion (RTA); negative = appropriate NH4+ excretion (GI bicarbonate loss like diarrhea). Sjogren syndrome is the most common autoimmune cause of distal RTA, through lymphocytic infiltration of the distal tubular epithelium.",
+    "pathophysiology": "In Type 1 (distal) RTA, the alpha-intercalated cells of the collecting duct are unable to secrete hydrogen ions into the tubular lumen. This can result from defects in the H+-ATPase pump, the Cl-/HCO3- exchanger (AE1/Band 3), or destruction of intercalated cells (as in Sjogren syndrome). The inability to acidify urine means H+ is retained in the blood (metabolic acidosis) while urine remains alkaline (>5.5). Compensatory K+ secretion causes hypokalemia. Chronic acidosis promotes bone resorption (releasing calcium and phosphate), hypercalciuria, and hypocitraturia (proximal tubular citrate reabsorption increases in acidosis). The alkaline, calcium-rich, citrate-poor urine favors calcium phosphate stone formation and medullary nephrocalcinosis.",
+    "treatment_overview": "Alkali replacement therapy: oral sodium bicarbonate or potassium citrate (preferred because it also replaces potassium and citrate). Typical dose: 1-2 mEq/kg/day in divided doses. Potassium citrate is the preferred agent as it addresses the acidosis, hypokalemia, and hypocitraturia simultaneously, reducing stone risk. Monitor electrolytes and serum bicarbonate. Increase fluid intake. Treat underlying disease (Sjogren syndrome). Thiazide diuretics may be added if hypercalciuria persists. Monitor for nephrocalcinosis progression and osteoporosis.",
+    "high_yield_pearls": [
+      "The hallmark of Type 1 (distal) RTA is the inability to acidify urine below pH 5.5 in the setting of systemic metabolic acidosis.",
+      "Type 1 RTA causes hypoKalemia; Type 4 RTA causes hyperKalemia — 'Type 1 = Low K, Type 4 = High K' is a high-yield memory aid.",
+      "Calcium PHOSPHATE stones and nephrocalcinosis are characteristic of distal RTA (alkaline urine favors calcium phosphate precipitation). This contrasts with calcium OXALATE stones, which are the most common type overall.",
+      "The urine anion gap (Na + K - Cl) estimates renal ammonium excretion: positive = impaired (renal cause of acidosis, i.e., RTA); negative = intact (extrarenal cause, i.e., diarrhea).",
+      "Sjogren syndrome is the most common autoimmune cause of distal RTA; it causes lymphocytic infiltration of the collecting duct, destroying H+-secreting intercalated cells."
+    ],
+    "sources": [
+      "Rodríguez Soriano J. Renal tubular acidosis: the clinical entity. J Am Soc Nephrol. 2002;13(8):2160-2170.",
+      "Both T et al. Prevalence of distal renal tubular acidosis in primary Sjogren syndrome. Rheumatology. 2015;54(5):933-939.",
+      "UpToDate: Etiology and diagnosis of distal (type 1) and proximal (type 2) renal tubular acidosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Distal (Type 1) renal tubular acidosis",
+      "Proximal (Type 2) renal tubular acidosis",
+      "Type 4 renal tubular acidosis",
+      "Diarrhea-related non-anion gap metabolic acidosis",
+      "Chronic kidney disease with acidosis",
+      "Primary hyperparathyroidism (nephrolithiasis, hypercalciuria)"
+    ],
+    "after_stage2_more_likely": [
+      "Distal RTA — Sjogren syndrome (known association), recurrent calcium phosphate stones, nephrocalcinosis, muscle weakness, Kussmaul breathing",
+      "Type 2 RTA — autoimmune disease can cause proximal tubular damage, but stone formation is more characteristic of distal RTA"
+    ],
+    "after_stage2_less_likely": [
+      "Diarrhea-related acidosis — no diarrhea history",
+      "Type 4 RTA — would expect hyperkalemia, not hypokalemia"
+    ],
+    "after_labs_top3": [
+      "Type 1 (distal) RTA — non-anion gap metabolic acidosis, urine pH >5.5, hypokalemia, positive urine anion gap, hypercalciuria, hypocitraturia, nephrocalcinosis",
+      "Type 2 (proximal) RTA — urine pH can be >5.5 early, but once bicarb falls below reabsorption threshold, urine pH drops <5.5; no nephrocalcinosis typically",
+      "Primary hyperparathyroidism — hypercalciuria and stones present, but acidosis and alkaline urine point to distal RTA"
+    ]
+  }
+}

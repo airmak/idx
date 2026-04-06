@@ -1,0 +1,75 @@
+{
+  "case_id": "case_040",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Ludwig Angina",
+  "icd_category": "K12.2 — Cellulitis and abscess of mouth",
+  "one_liner": "A 38-year-old male with poor dentition and recent dental pain presents with progressive floor-of-mouth swelling, drooling, and a muffled voice.",
+  "stage2": {
+    "hpi_extension": "Patient reports he has had a painful lower left molar for the past 2 weeks but could not afford to see a dentist. Three days ago, he developed swelling under his chin that has progressively worsened. The swelling is now bilateral and extends into his neck. He has difficulty swallowing (dysphagia), has been drooling for the past 6 hours, and notes his voice has become muffled. He has had fevers and chills since yesterday. He has not been able to eat solid food for 2 days and has been drinking small amounts of water with difficulty. He denies difficulty breathing when sitting upright but feels short of breath when lying flat. He tried taking leftover amoxicillin from a prior prescription without improvement. No recent dental procedures.",
+    "pmh": "Type 2 diabetes mellitus (poorly controlled, HbA1c 10.2%), no dental care in 5 years",
+    "surgical_history": "None",
+    "medications": "Metformin 1000 mg twice daily (inconsistent)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father has diabetes. No family history of immune deficiency.",
+    "social_history": "Smokes 1 pack/day for 18 years. Drinks 4-6 beers daily. Works as a construction laborer. Uninsured. Single, lives in a boarding house.",
+    "vitals": {
+      "temp": "102.4 F (39.1 C)",
+      "hr": "112 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "94% on room air",
+      "weight_bmi": "85 kg, BMI 27.8"
+    },
+    "physical_exam": "General: Febrile, toxic-appearing male sitting upright and leaning forward. Drooling. Speaking with a muffled, 'hot potato' voice. Trismus present (inter-incisor distance ~15 mm). HEENT: Bilateral submandibular swelling, firm, woody, and exquisitely tender. 'Bull neck' appearance. Floor of mouth is markedly elevated and indurated bilaterally. Tongue is protruding and displaced posterosuperiorly. Carious left lower second molar with surrounding gingival erythema and purulence. No fluctuance palpated submandibularly (phlegmon rather than discrete abscess). Neck: Bilateral submandibular and submental induration extending to the anterior neck. No crepitus. No palpable lymphadenopathy (obscured by swelling). Cardiovascular: Tachycardic, regular. Pulmonary: Mild inspiratory stridor when supine. Clear lungs when sitting. Abdomen: Soft, non-tender. Extremities: Warm. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "24.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift indicating severe deep space infection"},
+      {"test_name": "CBC - Neutrophils", "result": "89% with 12% bands", "flag": "HIGH", "clinical_significance": "Bandemia suggesting severe bacterial infection"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Glucose", "result": "342 mg/dL", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes exacerbated by infection"},
+      {"test_name": "BMP - Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mild AKI from dehydration"},
+      {"test_name": "BMP - Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia from poor intake and illness"},
+      {"test_name": "CRP", "result": "28.6 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker"},
+      {"test_name": "Lactate", "result": "2.8 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated suggesting early sepsis"},
+      {"test_name": "HbA1c", "result": "10.2%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes, significant risk factor for deep space infections"},
+      {"test_name": "Blood Cultures (x2)", "result": "Pending (later grows Streptococcus anginosus and anaerobes)", "flag": "ABNORMAL", "clinical_significance": "Polymicrobial bacteremia from deep space neck infection"},
+      {"test_name": "Procalcitonin", "result": "8.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with severe bacterial infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Neck with IV Contrast", "result": "Bilateral submandibular, sublingual, and submental space infection with diffuse edema and inflammatory stranding. Elevation of the floor of mouth with posterior displacement of the tongue. Gas bubbles within the sublingual and submandibular spaces. No discrete drainable abscess. Narrowing of the oropharyngeal airway. No extension into the mediastinum. Left second mandibular molar periapical abscess as probable source.", "flag": "ABNORMAL", "clinical_significance": "Confirms Ludwig angina with bilateral submandibular space involvement. Gas in soft tissues raises concern for gas-forming organisms. Airway compromise present."},
+      {"test_name": "Lateral Soft Tissue Neck X-ray", "result": "Marked soft tissue swelling of the submandibular region. Prevertebral soft tissue thickening at C3-C4. No retropharyngeal abscess.", "flag": "ABNORMAL", "clinical_significance": "Supports deep space infection; no retropharyngeal extension"}
+    ],
+    "key_tests": ["CT neck with IV contrast", "CBC with differential", "Blood cultures", "Blood glucose", "Airway assessment (direct visualization or flexible nasolaryngoscopy)"],
+    "acceptable_tests": ["BMP", "CRP/Procalcitonin", "Lactate", "HbA1c", "Lateral soft tissue neck X-ray", "Wound culture (if purulence expressed)", "Coagulation studies"],
+    "low_yield_tests": ["CT chest (unless mediastinal extension suspected)", "MRI neck (delays management)", "Panoramic dental X-ray (low acute priority)", "Throat culture", "Monospot"]
+  },
+  "stage5": {
+    "final_clue": "CT neck confirms bilateral submandibular, sublingual, and submental space infection with gas in the soft tissues and airway narrowing, originating from a dental source. This is Ludwig angina — a rapidly progressive, life-threatening deep space neck infection requiring emergent airway management and surgical intervention."
+  },
+  "debrief": {
+    "classic_presentation": "Bilateral submandibular space infection causing progressive floor-of-mouth swelling, tongue elevation/protrusion, drooling, muffled voice, trismus, and 'bull neck' appearance. Almost always odontogenic in origin (70-90% from infected lower molars). Rapidly progressive and potentially fatal from airway obstruction. Risk factors include poor dentition, diabetes, immunosuppression, and IV drug use.",
+    "attending_mode_notes": "The danger of Ludwig angina is airway loss. The posterior displacement of the tongue can cause complete obstruction, and the woody induration of the floor of mouth makes intubation extremely difficult. Awake fiberoptic intubation or surgical airway (cricothyrotomy/tracheostomy) may be needed. Do NOT attempt blind oral intubation — this can precipitate complete airway obstruction. The presence of gas in soft tissues on CT suggests gas-forming anaerobes and is a poor prognostic sign. This patient's poorly controlled diabetes significantly worsens prognosis.",
+    "pathophysiology": "Ludwig angina is a rapidly spreading cellulitis/phlegmon (not typically a discrete abscess) of the bilateral submandibular, sublingual, and submental spaces. It typically originates from an infected lower second or third molar whose roots extend below the mylohyoid line, providing direct access to the submandibular space. The infection spreads through fascial planes, causing brawny induration rather than fluctuant abscess. The tongue is displaced posteriorly and superiorly, progressively compromising the airway. Untreated, the infection can spread to the retropharyngeal space, mediastinum (descending necrotizing mediastinitis), and carotid sheath.",
+    "treatment_overview": "AIRWAY IS THE FIRST PRIORITY. Options: awake fiberoptic intubation (preferred), surgical airway (cricothyrotomy or tracheostomy under local anesthesia). Avoid blind oral intubation and paralytics until airway is secured. IV antibiotics targeting oral flora (polymicrobial: streptococci, staphylococci, anaerobes): ampicillin-sulbactam 3g IV q6h, or clindamycin + ceftriaxone, or piperacillin-tazobactam. Add vancomycin if MRSA suspected. Surgical consultation for incision and drainage (even without discrete abscess, decompression of the floor of mouth is often necessary). Source control: extraction of the offending tooth once stabilized. Glycemic control with insulin. Dexamethasone may reduce edema and facilitate intubation.",
+    "high_yield_pearls": [
+      "AIRWAY is the #1 priority in Ludwig angina — prepare for difficult airway before any other intervention.",
+      "Ludwig angina is defined by BILATERAL submandibular space involvement; unilateral infection is a submandibular abscess, not Ludwig angina.",
+      "The infection is typically a cellulitis/phlegmon (woody induration), not a discrete abscess — imaging may not show a drainable collection.",
+      "Lower molar infections are the source in 70-90% of cases; the roots of the 2nd and 3rd mandibular molars penetrate below the mylohyoid line.",
+      "Untreated, Ludwig angina has a mortality rate of >50% (primarily from airway obstruction); with appropriate treatment, mortality is <10%."
+    ],
+    "sources": [
+      "An J et al. J Emerg Med 2012;43:1119-1126",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 241",
+      "Candamourty R et al. J Nat Sci Biol Med 2012;3:206-208"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Ludwig angina", "Peritonsillar abscess", "Submandibular abscess (unilateral)", "Angioedema", "Parapharyngeal abscess", "Epiglottitis", "Salivary gland infection (submandibular sialadenitis)"],
+    "after_stage2_more_likely": ["Ludwig angina", "Submandibular abscess"],
+    "after_stage2_less_likely": ["Angioedema", "Epiglottitis", "Salivary gland infection"],
+    "after_labs_top3": ["Ludwig angina", "Deep space neck infection with bacteremia", "Submandibular phlegmon"]
+  }
+}

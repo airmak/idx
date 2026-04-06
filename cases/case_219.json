@@ -1,0 +1,145 @@
+{
+  "case_id": "case_219",
+  "mode": "attending",
+  "specialty": "OB/GYN",
+  "diagnosis": "Uterine rupture (prior classical cesarean scar)",
+  "icd_category": "O71.1 – Rupture of uterus during labor",
+  "one_liner": "A 34-year-old G3P2 with a prior classical (vertical) cesarean scar at 37 weeks presents during labor with sudden tearing abdominal pain, loss of contractions, fetal bradycardia, and palpable fetal parts through the abdominal wall — findings consistent with complete uterine rupture.",
+  "stage2": {
+    "hpi_extension": "The patient is a 34-year-old G3P2 at 37 weeks 4 days who presented in spontaneous labor. She has a history of a prior classical (vertical/corporeal) cesarean section 4 years ago for a placenta previa at 28 weeks, and a subsequent uncomplicated low-transverse cesarean delivery 2 years ago. She was counseled against attempting vaginal birth after cesarean (VBAC) due to her classical scar but presented in advanced labor (7 cm dilated) before a repeat cesarean could be arranged. During a strong contraction, she suddenly screamed, reported a 'tearing' or 'ripping' sensation in her abdomen, and the pain then paradoxically decreased. Within minutes, the fetal heart rate tracing showed prolonged bradycardia to 70 bpm.",
+    "pmh": "G3P2. Prior classical cesarean at 28 weeks (4 years ago) for complete placenta previa. Subsequent low-transverse cesarean at 39 weeks (2 years ago). No other medical conditions.",
+    "surgical_history": "Classical cesarean section (4 years ago). Low-transverse cesarean section (2 years ago).",
+    "medications": "Prenatal vitamins",
+    "allergies": "No known drug allergies",
+    "family_history": "Non-contributory",
+    "social_history": "Homemaker. Non-smoker. No alcohol or drug use.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "132 bpm",
+      "bp": "86/52 mmHg",
+      "rr": "28 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "78 kg, BMI 28 kg/m²"
+    },
+    "physical_exam": "General: Pale, diaphoretic, in severe distress with a paradoxical decrease in abdominal pain after the initial tearing sensation. HEENT: Pale conjunctivae. Cardiovascular: Tachycardic with thready peripheral pulses. Pulmonary: Tachypneic, clear to auscultation. Abdomen: Previously laboring uterus has lost its firm contour; the abdomen is diffusely tender; fetal parts are abnormally easily palpable through the abdominal wall (suggesting fetus has extruded through the uterine defect); no contractions detected by palpation or tocometry (loss of uterine tone); tenderness greatest in the periumbilical region over the old classical scar site. Vaginal examination: The previously palpable presenting part (fetal head at 0 station) has receded and is no longer palpable at the cervix ('loss of station'). Moderate vaginal bleeding. Fetal monitoring: FHR 65 bpm with absent variability (category III); no contractions recorded on tocometer."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hemoglobin (point-of-care)",
+        "result": "7.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Acute hemorrhagic anemia from uterine rupture with intra-abdominal bleeding."
+      },
+      {
+        "test_name": "Blood type and crossmatch",
+        "result": "B positive, emergency release of 4 units O-negative pRBC while crossmatch pending; massive transfusion protocol activated",
+        "flag": "WNL",
+        "clinical_significance": "Emergent blood product availability is critical; massive transfusion protocol should be activated immediately."
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 14.5 sec, INR 1.3, PTT 35 sec, Fibrinogen 210 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Early coagulopathy developing from hemorrhagic shock; fibrinogen trending down (normal in pregnancy 400-600 mg/dL) heralds DIC."
+      },
+      {
+        "test_name": "Lactate",
+        "result": "6.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate confirms tissue hypoperfusion from hemorrhagic shock."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 135, K 4.8, Cl 100, CO2 18, BUN 16, Cr 0.9, Glucose 142",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis, mild hyperkalemia, and stress hyperglycemia reflect hemorrhagic shock."
+      },
+      {
+        "test_name": "CBC (post-resuscitation)",
+        "result": "WBC 18.5 × 10³/µL, Hgb 7.8 g/dL, Plt 155 × 10³/µL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Stress leukocytosis and anemia; platelet count still adequate but may decline with ongoing hemorrhage."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Bedside FAST ultrasound",
+        "result": "Large amount of free fluid in all four quadrants (Morrison's pouch, splenorenal recess, bilateral paracolic gutters, pelvis). Fetal parts identified in the peritoneal cavity outside of the uterine contour.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemoperitoneum with fetal parts outside the uterus on FAST exam confirms complete uterine rupture with fetal extrusion. This is a surgical emergency."
+      }
+    ],
+    "key_tests": [
+      "Clinical recognition (sudden pain, loss of contractions, fetal bradycardia, loss of station)",
+      "Continuous fetal heart rate monitoring",
+      "FAST ultrasound (hemoperitoneum, fetal position)",
+      "CBC and coagulation panel (hemorrhage assessment)"
+    ],
+    "acceptable_tests": [
+      "Blood type and crossmatch",
+      "ABG with lactate",
+      "BMP",
+      "Point-of-care hemoglobin",
+      "Thromboelastography (TEG/ROTEM)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (too unstable, delays surgery)",
+      "MRI pelvis (completely inappropriate in emergency)",
+      "Abdominal X-ray (does not change management)",
+      "Urinalysis (irrelevant in this emergency)"
+    ],
+    "attending_pimp_questions": [
+      "What are the contraindications to trial of labor after cesarean (TOLAC), and why is a prior classical scar an absolute contraindication?",
+      "How does uterine rupture differ from uterine dehiscence in terms of presentation, severity, and management?",
+      "What is the decision-to-incision time goal for emergent cesarean in uterine rupture, and how does delay affect neonatal outcomes?",
+      "What surgical options exist for managing the uterine defect after rupture, and when is hysterectomy indicated?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Emergent laparotomy reveals complete rupture of the prior classical cesarean scar with extension into the uterine fundus. The fetus and placenta are found free in the peritoneal cavity with approximately 2,500 mL of hemoperitoneum. The neonate is delivered with Apgar scores of 1/4/6, requiring extensive resuscitation including intubation. The uterine defect is repaired in two layers; hemostasis is achieved with additional sutures and uterotonics. The patient is transfused 6 units pRBC, 4 units FFP, and 1 pool of cryoprecipitate. She recovers with counseling that future pregnancies are contraindicated."
+  },
+  "debrief": {
+    "classic_presentation": "Uterine rupture classically presents during labor with the triad of: (1) sudden onset of severe abdominal pain (often described as 'tearing' or 'ripping'), sometimes followed by paradoxical relief as the uterine tension is released; (2) fetal heart rate abnormalities, most commonly sudden prolonged bradycardia (most sensitive sign); and (3) loss of uterine contractions (the ruptured uterus cannot generate effective contractions). Additional signs include loss of fetal station (presenting part recedes on vaginal exam), change in abdominal contour with easy palpation of fetal parts, vaginal bleeding (often modest relative to the severity), and maternal hemodynamic instability. Prior cesarean scar (especially classical/corporeal incision) is the most significant risk factor.",
+    "attending_mode_notes": "Uterine rupture occurs in 0.5-0.9% of TOLAC attempts with a prior low-transverse scar, but the risk with a prior classical (vertical/corporeal) scar is 4-9%, which is why classical scar is an absolute contraindication to TOLAC. Other contraindications include prior fundal uterine surgery (myomectomy entering the cavity), prior T-incision, and more than one prior cesarean (relative contraindication — varies by center). Uterine rupture must be distinguished from uterine dehiscence (incomplete rupture/scar separation): dehiscence is typically asymptomatic, incidental finding with intact serosa, no hemorrhage, and minimal fetal risk; rupture is a complete full-thickness disruption with hemorrhage, fetal compromise, and potential maternal death. The decision-to-delivery interval is the critical determinant of neonatal outcome — fetal acidosis worsens significantly with each minute of delay beyond 18 minutes of bradycardia. The 30-minute ACOG goal for emergency cesarean may be insufficient for uterine rupture; many centers aim for 10-15 minutes. Repair of the rupture site (rather than hysterectomy) is appropriate when the defect is accessible, hemostasis can be achieved, and the patient desires future fertility — but the patient must understand the ~6% re-rupture risk and the mandate for early elective cesarean at 36-37 weeks in future pregnancies. Hysterectomy is indicated for uncontrollable hemorrhage, extensive uterine destruction, or the patient's desire for permanent sterilization.",
+    "pathophysiology": "Uterine rupture occurs when the myometrium gives way under the stress of labor contractions. Prior cesarean scars replace the normal myometrium with scar tissue (fibrosis), which has reduced tensile strength and distensibility. Classical (vertical/corporeal) scars are particularly vulnerable because they traverse the actively contracting upper uterine segment (corpus), which generates the strongest contractile forces during labor. In contrast, low-transverse scars are in the passive lower segment, which thins and stretches rather than contracting. When rupture occurs, the full thickness of the uterine wall tears open, allowing the fetus, placenta, and amniotic fluid to extrude into the peritoneal cavity. This causes immediate cessation of effective contractions, maternal hemorrhage from torn uterine arteries and veins, placental separation with complete loss of fetal oxygenation, and peritoneal irritation from blood and amniotic fluid.",
+    "treatment_overview": "Uterine rupture is the most time-critical surgical emergency in obstetrics. Immediate actions: (1) Call for emergent cesarean delivery — no waiting for imaging; (2) Large-bore IV access × 2, activate massive transfusion protocol; (3) Left lateral tilt to optimize venous return; (4) Discontinue oxytocin; (5) Emergent laparotomy (vertical midline incision for fastest entry). At laparotomy: deliver the fetus and placenta, evacuate hemoperitoneum, identify and characterize the uterine defect. Repair options: (1) Primary repair in 2 layers if the defect is limited and hemostasis achievable; (2) Subtotal or total hysterectomy for extensive rupture, uncontrollable hemorrhage, or completed childbearing. Uterotonics, tranexamic acid, compression sutures, or uterine artery ligation may be adjunctive measures. Neonatal resuscitation team must be present. Post-operative: ICU monitoring, serial labs, counseling regarding future pregnancy risk.",
+    "high_yield_pearls": [
+      "Prior classical (vertical) cesarean scar is an ABSOLUTE contraindication to trial of labor after cesarean (TOLAC) — the rupture rate is 4-9%, compared to 0.5-0.9% for a prior low-transverse scar.",
+      "The most sensitive early sign of uterine rupture is sudden fetal bradycardia — a prolonged deceleration during labor in a patient with a prior uterine scar must be treated as uterine rupture until proven otherwise.",
+      "Paradoxical cessation of pain during labor ('pain-free interval') after an episode of severe tearing pain is a classic but late finding of uterine rupture — the ruptured uterus cannot contract.",
+      "Loss of fetal station (the presenting part recedes on vaginal exam) is a pathognomonic finding of uterine rupture with fetal extrusion into the peritoneal cavity.",
+      "The decision-to-delivery time is the strongest predictor of neonatal outcome in uterine rupture — permanent neonatal brain injury increases significantly with each minute beyond 18 minutes of fetal bradycardia."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 205: Vaginal Birth After Cesarean Delivery (2019)",
+      "UpToDate: Uterine rupture after previous cesarean delivery",
+      "Landon MB et al. Maternal and Perinatal Outcomes Associated with a Trial of Labor after Prior Cesarean Delivery. NEJM 2004",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Uterine rupture",
+      "Placental abruption",
+      "Cord prolapse",
+      "Uterine dehiscence (scar separation without full rupture)",
+      "Vasa previa rupture",
+      "Amniotic fluid embolism"
+    ],
+    "after_stage2_more_likely": [
+      "Uterine rupture (tearing pain, loss of contractions, fetal bradycardia, loss of station, easy palpation of fetal parts, prior classical scar — textbook presentation)",
+      "Placental abruption (sudden pain and fetal distress, but loss of fetal station and loss of contractions are distinctive for uterine rupture)"
+    ],
+    "after_stage2_less_likely": [
+      "Cord prolapse (no cord palpable on vaginal exam; loss of station in cord prolapse is associated with cord preceding the head, not recession)",
+      "Uterine dehiscence (typically asymptomatic without hemorrhage or fetal compromise; this presentation is too dramatic for dehiscence)",
+      "AFE (would present with respiratory failure and DIC first, not primarily as abdominal pain with loss of contractions)"
+    ],
+    "after_labs_top3": [
+      "Complete uterine rupture (confirmed by FAST showing hemoperitoneum and extruded fetal parts, hemorrhagic shock, clinical findings pathognomonic)",
+      "Placental abruption with uterine rupture (both may coexist; surgical findings will differentiate)",
+      "Uterine dehiscence (excluded by clinical severity — profound hemorrhage, fetal extrusion, and hemodynamic instability indicate complete rupture)"
+    ]
+  }
+}

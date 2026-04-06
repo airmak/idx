@@ -1,0 +1,76 @@
+{
+  "case_id": "case_090",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Idiopathic pulmonary fibrosis",
+  "icd_category": "J84.112 — Idiopathic pulmonary fibrosis",
+  "one_liner": "A 68-year-old man with a history of smoking presents with progressive exertional dyspnea and a dry cough over the past 12 months.",
+  "stage2": {
+    "hpi_extension": "The patient describes a gradual worsening of dyspnea on exertion over the past year. He used to walk 2 miles without difficulty but now becomes breathless after one block. He has a persistent, nonproductive cough that is worse at night. He denies hemoptysis, fever, weight loss, chest pain, or orthopnea. He has not had occupational dust or chemical exposures beyond his smoking history. His primary care physician initially attributed his symptoms to COPD but an inhaler trial did not improve symptoms.",
+    "pmh": "Gastroesophageal reflux disease, hypertension, former smoker.",
+    "surgical_history": "Cholecystectomy, age 55.",
+    "medications": "Omeprazole 20 mg daily, lisinopril 10 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had pulmonary fibrosis (died at 74). Mother had hypertension. No connective tissue diseases in family.",
+    "social_history": "Retired accountant. Former smoker — 15 pack-years, quit 10 years ago. No alcohol. No occupational dust, asbestos, or chemical exposures. Lives with wife.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "78 bpm",
+      "bp": "132/80 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "93% at rest, drops to 86% with 6-minute walk",
+      "weight_bmi": "82 kg, BMI 27.1"
+    },
+    "physical_exam": "General: Well-appearing man, not in acute distress at rest. HEENT: Normal. No JVD. Lungs: Fine bibasilar inspiratory crackles (velcro-like) that do not clear with cough, extending to mid-lung zones bilaterally. No wheezing. Cardiovascular: Regular rate and rhythm, loud P2. No murmurs. Abdomen: Soft, non-tender. Extremities: Digital clubbing present bilaterally. No peripheral edema. Skin: No rashes or sclerodactyly."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,600/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection or eosinophilia"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal; polycythemia may develop with chronic hypoxemia"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against autoimmune/connective tissue disease-related ILD"},
+      {"test_name": "RF (Rheumatoid Factor)", "result": "< 10 IU/mL", "flag": "WNL", "clinical_significance": "Negative; helps exclude rheumatoid arthritis-associated ILD"},
+      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; further excludes RA-ILD"},
+      {"test_name": "Anti-Scl-70 (topoisomerase I)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; excludes systemic sclerosis-associated pulmonary fibrosis"},
+      {"test_name": "ESR", "result": "22 mm/hr", "flag": "WNL", "clinical_significance": "Normal; not suggestive of active systemic inflammatory disease"},
+      {"test_name": "KL-6", "result": "1,850 U/mL", "flag": "HIGH", "clinical_significance": "Elevated KL-6 is a biomarker of interstitial lung disease activity and alveolar epithelial injury"},
+      {"test_name": "BNP", "result": "145 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated — may reflect right heart strain from pulmonary hypertension secondary to fibrosis"},
+      {"test_name": "ABG pO2", "result": "72 mmHg", "flag": "LOW", "clinical_significance": "Resting hypoxemia with significant desaturation on exertion"},
+      {"test_name": "Hypersensitivity pneumonitis panel", "result": "Negative for avian, mold, and farmer antigens", "flag": "WNL", "clinical_significance": "Negative; helps exclude chronic hypersensitivity pneumonitis as a mimic of IPF"}
+    ],
+    "imaging_results": [
+      {"test_name": "High-resolution CT (HRCT) chest", "result": "Bilateral, basilar-predominant, subpleural reticular opacities with honeycombing and traction bronchiectasis. Minimal ground-glass opacities. Pattern is consistent with usual interstitial pneumonia (UIP).", "flag": "ABNORMAL", "clinical_significance": "UIP pattern on HRCT in the appropriate clinical context is diagnostic of IPF without requiring surgical lung biopsy"},
+      {"test_name": "Chest X-ray", "result": "Bilateral lower lobe reticular opacities with reduced lung volumes.", "flag": "ABNORMAL", "clinical_significance": "Nonspecific but consistent with interstitial lung disease; HRCT is required for definitive pattern recognition"}
+    ],
+    "key_tests": ["High-resolution CT (HRCT) chest", "Pulmonary function tests (spirometry + DLCO)", "Autoimmune serologies (ANA, RF, anti-CCP, anti-Scl-70)", "6-minute walk test with oximetry", "ABG or pulse oximetry"],
+    "acceptable_tests": ["CBC", "BMP", "BNP", "Hypersensitivity pneumonitis serology panel", "KL-6 or SP-D biomarkers", "ESR/CRP", "Chest X-ray", "Echocardiogram (for pulmonary hypertension assessment)"],
+    "low_yield_tests": ["Sputum culture", "D-dimer", "Bronchoscopy with BAL (for UIP pattern — may be needed for non-UIP patterns)", "PET-CT", "Procalcitonin"]
+  },
+  "stage5": {
+    "final_clue": "Pulmonary function tests show a restrictive pattern: FVC 62% predicted, FEV1/FVC ratio 0.84 (preserved), and DLCO 38% predicted. Combined with the definite UIP pattern on HRCT and negative autoimmune workup, multidisciplinary discussion confirms the diagnosis of idiopathic pulmonary fibrosis."
+  },
+  "debrief": {
+    "classic_presentation": "Older male with insidious progressive exertional dyspnea and dry cough, bibasilar velcro-like crackles, digital clubbing, restrictive PFTs with markedly reduced DLCO, and UIP pattern (basilar honeycombing, traction bronchiectasis) on HRCT.",
+    "attending_mode_notes": null,
+    "pathophysiology": "IPF is a chronic, progressive fibrosing interstitial pneumonia of unknown cause. The current paradigm holds that repetitive microinjury to alveolar epithelial cells triggers aberrant wound healing, with excessive fibroblast proliferation, myofibroblast differentiation, and extracellular matrix deposition (collagen). This leads to progressive architectural distortion, honeycombing, and loss of gas exchange surface area. Risk factors include smoking, advanced age, male sex, GERD, and genetic variants in telomerase (TERT/TERC) and mucin genes (MUC5B).",
+    "treatment_overview": "Antifibrotic therapy: pirfenidone or nintedanib slow the rate of FVC decline but do not reverse fibrosis. Lung transplant referral for eligible candidates (median survival without transplant is 3-5 years from diagnosis). Supplemental O2 for resting or exertional hypoxemia. Pulmonary rehabilitation. GERD management (aspiration may accelerate fibrosis). Acute exacerbations of IPF carry >50% mortality — managed with high-dose corticosteroids, though evidence is limited.",
+    "high_yield_pearls": [
+      "A definite UIP pattern on HRCT (basilar-predominant honeycombing + traction bronchiectasis + reticulation) in the right clinical setting is sufficient for IPF diagnosis without surgical lung biopsy.",
+      "DLCO is typically reduced out of proportion to the restrictive defect in IPF and is the most sensitive PFT marker.",
+      "Velcro-like bibasilar crackles + digital clubbing in an older patient should always prompt evaluation for IPF.",
+      "Pirfenidone and nintedanib reduce the rate of FVC decline by ~50% per year but do not improve or stabilize lung function.",
+      "A connective tissue disease workup (ANA, RF, anti-CCP, myositis panel) is mandatory before diagnosing IPF, as CTD-ILD has different treatment and prognosis."
+    ],
+    "sources": [
+      "ATS/ERS/JRS/ALAT Clinical Practice Guideline: Diagnosis of Idiopathic Pulmonary Fibrosis, 2022 Update",
+      "Raghu G et al. Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults. Am J Respir Crit Care Med. 2022",
+      "UpToDate: Clinical manifestations and diagnosis of idiopathic pulmonary fibrosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Connective tissue disease-associated ILD", "Asbestosis", "Nonspecific interstitial pneumonia (NSIP)", "Drug-induced pulmonary fibrosis", "Sarcoidosis"],
+    "after_stage2_more_likely": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Asbestosis"],
+    "after_stage2_less_likely": ["Connective tissue disease-associated ILD", "Drug-induced pulmonary fibrosis", "Sarcoidosis"],
+    "after_labs_top3": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Asbestosis"]
+  }
+}

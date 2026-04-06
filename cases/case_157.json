@@ -1,0 +1,111 @@
+{
+  "case_id": "case_157",
+  "mode": "attending",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Invasive aspergillosis",
+  "icd_category": "B44.0 — Invasive pulmonary aspergillosis",
+  "one_liner": "A 58-year-old male with AML on induction chemotherapy presents with persistent fever despite broad-spectrum antibiotics, pleuritic chest pain, hemoptysis, and CT chest showing a nodule with surrounding ground-glass halo sign.",
+  "stage2": {
+    "hpi_extension": "The patient was admitted 18 days ago for induction chemotherapy for newly diagnosed acute myeloid leukemia (AML). He received 7+3 induction (cytarabine + daunorubicin) and has been profoundly neutropenic (ANC <100) for the past 12 days. He developed febrile neutropenia on day 8 and was started on piperacillin-tazobactam. Despite 10 days of broad-spectrum antibacterial therapy, he continues to spike fevers to 39°C daily. Three days ago, he developed right-sided pleuritic chest pain and dry cough. Yesterday he had a small episode of hemoptysis (approximately 5 mL of blood-streaked sputum). He reports progressive dyspnea on exertion and malaise. He denies headache, sinus congestion, or visual changes. His room has a HEPA filter.",
+    "pmh": "AML (newly diagnosed, currently on induction), hypertension, type 2 diabetes mellitus.",
+    "surgical_history": "Port-a-cath placement (3 weeks ago).",
+    "medications": "Piperacillin-tazobactam 4.5g IV Q6h, fluconazole 400 mg IV daily (antifungal prophylaxis), acyclovir 400 mg PO BID (HSV prophylaxis), filgrastim (G-CSF), insulin glargine, metoprolol 50 mg BID.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired construction worker. Non-smoker. Social alcohol (none since diagnosis). No illicit drugs. Lives with wife in suburban home. No gardening or composting exposure during neutropenia.",
+    "vitals": {
+      "temp": "38.9°C (102.0°F)",
+      "hr": "102 bpm",
+      "bp": "110/68 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "92% on 2L nasal cannula",
+      "weight_bmi": "80 kg, BMI 26.3"
+    },
+    "physical_exam": "Chronically ill-appearing, alopecic male. Oral mucositis present. No sinus tenderness. Lungs: decreased breath sounds at right base with a pleural friction rub over the right mid-lung zone. No wheezing. Heart: tachycardic, regular rhythm. Port site clean without erythema or drainage. Abdomen: soft, non-tender. Skin: scattered ecchymoses. No rashes or nodular lesions. No focal neurologic deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — ANC", "result": "ANC 40/μL (WBC 0.2 × 10³/μL)", "flag": "LOW", "clinical_significance": "Profound neutropenia (ANC <100) is the single greatest risk factor for invasive aspergillosis"},
+      {"test_name": "Serum Galactomannan (GM) Antigen", "result": "Positive (index 2.4)", "flag": "ABNORMAL", "clinical_significance": "GM index ≥0.5 is positive; highly suggestive of invasive aspergillosis in this clinical context (sensitivity ~70-80% in hematologic malignancy)"},
+      {"test_name": "Serum (1,3)-Beta-D-Glucan", "result": "286 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated BDG (>80 pg/mL is positive) supports invasive fungal infection; non-specific for Aspergillus (positive in many fungal infections except Mucorales and Cryptococcus)"},
+      {"test_name": "BAL Galactomannan", "result": "Positive (index 4.8)", "flag": "ABNORMAL", "clinical_significance": "BAL GM is more sensitive than serum GM; index ≥1.0 from BAL is highly specific for invasive pulmonary aspergillosis"},
+      {"test_name": "BAL Culture (Fungal)", "result": "Aspergillus fumigatus complex isolated", "flag": "ABNORMAL", "clinical_significance": "Isolation of Aspergillus from BAL in an immunocompromised host with compatible imaging is diagnostic of probable/proven invasive aspergillosis"},
+      {"test_name": "BAL Cytology", "result": "Septate hyphae with dichotomous (45-degree) branching identified on GMS stain", "flag": "ABNORMAL", "clinical_significance": "Morphology characteristic of Aspergillus species; confirms invasive fungal elements in the lower respiratory tract"},
+      {"test_name": "Blood Cultures (Bacterial, x2 sets)", "result": "No growth at 5 days", "flag": "WNL", "clinical_significance": "Excludes concurrent bacteremia; Aspergillus almost never grows from blood cultures"},
+      {"test_name": "CRP", "result": "142 mg/L", "flag": "HIGH", "clinical_significance": "Significant systemic inflammation"},
+      {"test_name": "Procalcitonin", "result": "0.32 ng/mL", "flag": "WNL", "clinical_significance": "Low-normal procalcitonin argues against bacterial infection; invasive fungal infections typically do not elevate procalcitonin significantly"},
+      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; important for voriconazole dosing considerations"},
+      {"test_name": "LFTs", "result": "AST 38 U/L, ALT 42 U/L, ALP 98 U/L, total bilirubin 0.8 mg/dL", "flag": "WNL", "clinical_significance": "Baseline hepatic function normal; important before starting voriconazole (hepatotoxic)"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Chest (High-Resolution)", "result": "Right upper lobe: 3.2 cm dense nodule with surrounding ground-glass attenuation (halo sign). Right lower lobe: smaller 1.4 cm nodule abutting the pleura. Small right-sided pleural effusion. No cavitation. No air crescent sign. Left lung clear.", "flag": "ABNORMAL", "clinical_significance": "The halo sign (ground-glass surrounding a dense nodule) is highly suggestive of angioinvasive aspergillosis in a neutropenic patient; represents hemorrhagic infarction around the fungal nodule"},
+      {"test_name": "CT Sinuses", "result": "Mild mucosal thickening in bilateral maxillary sinuses without bone erosion. No evidence of invasive fungal sinusitis.", "flag": "WNL", "clinical_significance": "No sinonasal aspergillosis"}
+    ],
+    "key_tests": [
+      "CT chest (high-resolution) — the halo sign in a neutropenic febrile patient is highly suggestive",
+      "Serum galactomannan antigen (twice weekly surveillance in high-risk patients)",
+      "BAL with galactomannan, fungal culture, and cytology/histopathology",
+      "Serum (1,3)-beta-D-glucan",
+      "CBC with differential (documenting neutropenia duration)"
+    ],
+    "acceptable_tests": [
+      "BAL Aspergillus PCR",
+      "CT sinuses (to exclude sinonasal disease)",
+      "Blood cultures (to exclude bacterial co-infection)",
+      "Procalcitonin (to differentiate bacterial vs. fungal etiology)",
+      "CRP",
+      "Hepatic and renal function panels (baseline before antifungal therapy)"
+    ],
+    "low_yield_tests": [
+      "Sputum culture for fungus (very low sensitivity in neutropenic patients; unable to cough effectively)",
+      "Blood cultures for Aspergillus (almost never positive; Aspergillus fungemia is exceedingly rare)",
+      "Aspergillus serology (IgG/IgE) — useful for chronic pulmonary aspergillosis/ABPA, not invasive disease",
+      "Chest X-ray (insufficiently sensitive for early detection; CT is required)",
+      "Skin biopsy (no skin lesions present)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A profoundly neutropenic AML patient on induction chemotherapy with persistent fever despite broad-spectrum antibiotics, hemoptysis, pleuritic chest pain, and the pathognomonic CT halo sign. Serum and BAL galactomannan are positive, BDG is elevated, BAL culture grows A. fumigatus, and cytology shows septate hyphae with 45-degree branching. This meets EORTC/MSG criteria for probable invasive pulmonary aspergillosis."
+  },
+  "debrief": {
+    "classic_presentation": "Invasive pulmonary aspergillosis (IPA) classically occurs in profoundly neutropenic patients (ANC <500 for >10 days, typically ANC <100) with hematologic malignancies undergoing induction chemotherapy or HSCT. The presentation includes persistent fever despite broad-spectrum antibiotics, pleuritic chest pain, dyspnea, and hemoptysis. The CT halo sign (ground-glass opacity surrounding a dense nodule, representing hemorrhagic infarction) is the earliest and most characteristic finding, seen in the first week; the air crescent sign (crescent of air between necrotic fungal tissue and lung parenchyma) appears later during neutrophil recovery.",
+    "attending_mode_notes": "The EORTC/MSG (European Organization for Research and Treatment of Cancer/Mycoses Study Group) 2020 criteria classify invasive fungal disease as proven, probable, or possible based on host factors, clinical criteria, and mycological evidence. This case meets probable IPA criteria. The halo sign has a limited diagnostic window — it is most specific in the first week of symptoms and should be sought with early CT imaging (not chest X-ray). Galactomannan false positives can occur with piperacillin-tazobactam (older preparations, less common with current formulations), oral amoxicillin-clavulanate, and cross-reactive antigens from other fungi (Histoplasma, Fusarium, Paecilomyces). Fluconazole prophylaxis does NOT cover Aspergillus — this patient broke through fluconazole, highlighting that fluconazole-based prophylaxis in high-risk AML patients is suboptimal (posaconazole 300 mg is preferred). Voriconazole therapeutic drug monitoring (TDM) is essential: target trough 1-5.5 μg/mL; <1 associated with treatment failure, >5.5 associated with hepatotoxicity and neurotoxicity. In cases of voriconazole intolerance, isavuconazole is an alternative with fewer drug interactions and no need for TDM. The CYP2C19 polymorphism affects voriconazole metabolism: poor metabolizers have toxic levels; ultra-rapid metabolizers have subtherapeutic levels. Consider CYP2C19 genotyping.",
+    "pathophysiology": "Aspergillus fumigatus conidia (2-3 μm spores) are ubiquitous in the environment and are inhaled daily by everyone. In immunocompetent individuals, alveolar macrophages and neutrophils efficiently kill germinating conidia. In neutropenic patients, conidia germinate into invasive hyphae that penetrate bronchial walls and invade pulmonary vasculature (angioinvasion). This angioinvasive phenotype causes thrombosis of small and medium pulmonary vessels, leading to hemorrhagic infarction (the pathologic basis of the CT halo sign). As the fungal mass undergoes necrosis (often coinciding with neutrophil recovery), cavitation occurs, producing the air crescent sign. Aspergillus virulence factors include thermotolerance (grows at 37-50°C), small conidial size (reaches terminal bronchioles), galactomannan (cell wall component, the basis of the diagnostic antigen test), gliotoxin (immunosuppressive — inhibits neutrophil oxidative burst), and melanin (protects against reactive oxygen species). Dissemination to the CNS, skin, and other organs occurs in ~10-20% of cases, especially with persistent neutropenia.",
+    "treatment_overview": "Primary therapy: voriconazole IV (6 mg/kg Q12h x 2 loading doses, then 4 mg/kg Q12h) for at least 6-12 weeks and until resolution of neutropenia, immunosuppression, and radiographic findings. Voriconazole trough monitoring: target 1-5.5 μg/mL; check on day 5-7 and weekly. Alternative first-line: isavuconazole 200 mg IV/PO Q8h x 6 doses, then 200 mg daily. Salvage therapy: liposomal amphotericin B 3-5 mg/kg/day, or combination therapy (voriconazole + echinocandin). Echinocandins (caspofungin, micafungin) as monotherapy are second-line only. Duration: minimum 6-12 weeks; continue antifungal through subsequent chemotherapy cycles. Source control: surgical resection of residual pulmonary nodule considered before next chemotherapy cycle if lesion abuts great vessels (risk of fatal hemoptysis during subsequent neutropenic episodes). Discontinue fluconazole. Secondary prophylaxis with voriconazole during all subsequent immunosuppressive periods.",
+    "high_yield_pearls": [
+      "The CT halo sign in a febrile neutropenic patient should be considered angioinvasive aspergillosis until proven otherwise — it appears early and should prompt immediate antifungal therapy.",
+      "Galactomannan testing (serum and BAL) is the cornerstone of non-invasive diagnosis; BAL GM (cutoff ≥1.0) is more sensitive than serum GM (cutoff ≥0.5).",
+      "Fluconazole does NOT cover Aspergillus — patients on fluconazole prophylaxis who develop breakthrough fungal infection should be suspected of having aspergillosis or mucormycosis.",
+      "Voriconazole is the first-line treatment for invasive aspergillosis and requires therapeutic drug monitoring (target trough 1-5.5 μg/mL).",
+      "Aspergillus almost never grows from blood cultures — a positive blood culture for mold suggests Fusarium, not Aspergillus."
+    ],
+    "sources": [
+      "Patterson TF et al. Practice Guidelines for the Diagnosis and Management of Aspergillosis: 2016 Update by the IDSA. Clin Infect Dis. 2016;63(4):e1-e60.",
+      "Donnelly JP et al. Revision and Update of the Consensus Definitions of Invasive Fungal Disease From the EORTC/MSG. Clin Infect Dis. 2020;71(6):1367-1376.",
+      "UpToDate: Treatment and prevention of invasive pulmonary aspergillosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Invasive pulmonary aspergillosis",
+      "Pulmonary mucormycosis",
+      "Bacterial pneumonia (resistant organism)",
+      "Pulmonary embolism with infarction",
+      "Leukemic pulmonary infiltrates",
+      "Non-Aspergillus invasive mold infection (Fusarium, Scedosporium)"
+    ],
+    "after_stage2_more_likely": [
+      "Invasive pulmonary aspergillosis — profoundly neutropenic AML patient, persistent fever despite antibacterials, hemoptysis, pleuritic chest pain; classic risk profile and clinical presentation",
+      "Pulmonary mucormycosis — similar clinical scenario (neutropenia, breakthrough fever) and can cause angioinvasive disease; must be considered alongside aspergillosis"
+    ],
+    "after_stage2_less_likely": [
+      "Bacterial pneumonia — 10 days of piperacillin-tazobactam without improvement and low procalcitonin argue against bacterial etiology",
+      "Pulmonary embolism — pleuritic chest pain and hypoxia overlap, but persistent fever and nodular CT pattern favor infection"
+    ],
+    "after_labs_top3": [
+      "Invasive pulmonary aspergillosis — halo sign on CT, positive serum and BAL galactomannan, BAL culture growing A. fumigatus, septate hyphae with 45-degree branching on cytology",
+      "Pulmonary mucormycosis — excluded by positive galactomannan (Mucorales do not produce galactomannan) and culture identifying Aspergillus",
+      "Non-Aspergillus mold — excluded by specific A. fumigatus identification on culture"
+    ]
+  }
+}

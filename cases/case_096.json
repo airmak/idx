@@ -1,0 +1,76 @@
+{
+  "case_id": "case_096",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Lymphangioleiomyomatosis",
+  "icd_category": "J84.81 — Lymphangioleiomyomatosis",
+  "one_liner": "A 32-year-old woman presents with recurrent spontaneous pneumothoraces, progressive exertional dyspnea, and a chylous pleural effusion.",
+  "stage2": {
+    "hpi_extension": "The patient presents to the ED with acute right-sided chest pain and dyspnea, her third pneumothorax in 2 years (two prior on the left, one requiring chest tube). She has been experiencing progressive exertional dyspnea over the past year. She was also found to have a left-sided pleural effusion 4 months ago during her second pneumothorax evaluation; thoracentesis revealed milky fluid but no further workup was done. She reports no cough, hemoptysis, or fever. She has no history of tuberous sclerosis complex. She was evaluated by a pulmonologist for recurrent pneumothoraces, and PFTs 6 months ago showed an obstructive pattern.",
+    "pmh": "Recurrent spontaneous pneumothoraces (x2 prior). No tuberous sclerosis. No seizures or skin findings.",
+    "surgical_history": "Left-sided chest tube placement x2 for pneumothoraces.",
+    "medications": "Albuterol MDI PRN.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No family history of tuberous sclerosis, lung disease, or pneumothoraces.",
+    "social_history": "Marketing coordinator. Never smoker. No alcohol or drug use. Uses oral contraceptive pills. No occupational exposures. Gravida 0.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "96 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "92% on room air",
+      "weight_bmi": "60 kg, BMI 22.4"
+    },
+    "physical_exam": "General: Slender young woman in mild respiratory distress. HEENT: No facial angiofibromas or periungual fibromas. No ash-leaf macules. Lungs: Decreased breath sounds on the right with hyperresonance (consistent with pneumothorax). Fine crackles at left base. Cardiovascular: Tachycardic, regular, no murmurs. Abdomen: Soft, non-tender. A palpable 4 cm mass in the right flank (renal angiomyolipoma suspected). Extremities: No edema or clubbing. Skin: No hypomelanotic macules, shagreen patches, or angiofibromas. No lymphangioleiomyomas."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum VEGF-D", "result": "1,850 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (>800 pg/mL is diagnostic threshold for LAM in appropriate clinical context). VEGF-D is the key serologic biomarker for LAM."},
+      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "Alpha-1 antitrypsin level", "result": "180 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes alpha-1 antitrypsin deficiency as cause of cystic lung disease in a young woman"},
+      {"test_name": "ABG pH", "result": "7.44", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ABG pO2", "result": "70 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from combination of pneumothorax and underlying cystic lung disease"},
+      {"test_name": "Pleural fluid triglycerides (from prior thoracentesis)", "result": "320 mg/dL", "flag": "HIGH", "clinical_significance": "Triglycerides >110 mg/dL confirms chylous effusion — chylothorax occurs in LAM from lymphatic obstruction by smooth muscle cell proliferation"},
+      {"test_name": "Pleural fluid cholesterol", "result": "52 mg/dL", "flag": "WNL", "clinical_significance": "Normal cholesterol with elevated triglycerides — true chylous effusion (not pseudochylous)"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; excludes connective tissue disease"},
+      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
+      {"test_name": "LDH", "result": "195 U/L", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "HRCT chest", "result": "Numerous thin-walled, round, well-defined cysts diffusely distributed throughout both lungs in a uniform pattern. Right-sided pneumothorax (moderate). Small left-sided pleural effusion. No ground-glass opacities or nodules.", "flag": "ABNORMAL", "clinical_significance": "Diffuse, thin-walled, round cysts uniformly distributed throughout the lungs are the hallmark CT finding of LAM. The pattern is distinct from Langerhans cell histiocytosis (upper-lobe predominant, irregular cysts) and lymphocytic interstitial pneumonia (lower-lobe predominant)."},
+      {"test_name": "CT abdomen/pelvis with contrast", "result": "5.2 cm fat-containing mass in the right kidney consistent with renal angiomyolipoma. No lymphangioleiomyomas or retroperitoneal lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Renal angiomyolipoma is associated with LAM (both sporadic LAM and TSC-LAM). Fat density within the mass confirms AML."}
+    ],
+    "key_tests": ["HRCT chest", "Serum VEGF-D level", "PFTs (spirometry + DLCO + lung volumes)", "CT abdomen/pelvis", "Pleural fluid analysis (triglycerides)"],
+    "acceptable_tests": ["ABG", "Alpha-1 antitrypsin level", "CBC", "BMP", "ANA", "TSH", "Chest X-ray", "Genetic testing for TSC1/TSC2 mutations"],
+    "low_yield_tests": ["Sputum culture", "D-dimer", "BNP", "Procalcitonin", "Bronchoscopy (BAL not typically diagnostic)"]
+  },
+  "stage5": {
+    "final_clue": "The combination of diffuse thin-walled cysts on HRCT in a young woman, serum VEGF-D >800 pg/mL, chylous pleural effusion, renal angiomyolipoma, and recurrent pneumothoraces establishes the diagnosis of sporadic lymphangioleiomyomatosis without need for lung biopsy. PFTs show obstructive pattern with FEV1 58% predicted and DLCO 45% predicted."
+  },
+  "debrief": {
+    "classic_presentation": "Young woman of reproductive age with recurrent spontaneous pneumothoraces, progressive obstructive lung disease, chylous pleural effusion, diffuse thin-walled lung cysts on HRCT, renal angiomyolipoma, and elevated serum VEGF-D.",
+    "attending_mode_notes": "LAM almost exclusively affects women and should be suspected in any premenopausal woman with recurrent pneumothoraces, unexplained obstructive lung disease, or chylothorax. Serum VEGF-D >800 pg/mL in the setting of characteristic cystic CT findings is considered diagnostic without biopsy (ATS/JRS 2017 guidelines). Sporadic LAM occurs without TSC, whereas TSC-LAM occurs in ~30-40% of women with tuberous sclerosis complex. The differential for diffuse cystic lung disease includes LAM, pulmonary Langerhans cell histiocytosis, Birt-Hogg-Dube syndrome, and lymphocytic interstitial pneumonia.",
+    "pathophysiology": "LAM is caused by neoplastic proliferation of abnormal smooth muscle-like cells (LAM cells) that infiltrate the lung parenchyma, airways, lymphatics, and blood vessels. LAM cells have loss-of-function mutations in TSC1 or TSC2 genes, leading to constitutive activation of the mTOR signaling pathway, which drives cell proliferation. Cyst formation results from proteolytic destruction of lung parenchyma by matrix metalloproteinases secreted by LAM cells. Lymphatic obstruction causes chylous effusions. Estrogen promotes LAM cell growth, explaining the female predominance and worsening during pregnancy.",
+    "treatment_overview": "mTOR inhibitor therapy (sirolimus/rapamycin) is the primary pharmacologic treatment — stabilizes or improves FEV1, reduces chylous effusions, and shrinks angiomyolipomas. Indicated for moderate-to-severe disease (FEV1 <70% or declining, symptomatic chylothorax). Avoid estrogen-containing medications. Manage pneumothoraces with chest tube +/- pleurodesis (chemical or surgical). Lung transplantation for end-stage disease. Renal AMLs >4 cm may require embolization or sirolimus for size reduction. Annual PFTs and HRCT for monitoring. Pregnancy counseling (LAM may worsen).",
+    "high_yield_pearls": [
+      "LAM almost exclusively affects women of reproductive age — estrogen drives disease progression; exogenous estrogen (OCPs, HRT) should be discontinued.",
+      "Serum VEGF-D >800 pg/mL is diagnostic of LAM in the presence of characteristic cystic CT findings (ATS/JRS 2017 criteria).",
+      "Sirolimus (mTOR inhibitor) is the first-line treatment for LAM — it stabilizes lung function and reduces chylous effusions.",
+      "Renal angiomyolipomas are found in ~30-40% of sporadic LAM and ~80% of TSC-LAM patients.",
+      "The cystic pattern of LAM (uniform, round, thin-walled, diffuse) differs from PLCH (upper-lobe predominant, irregular, bizarre-shaped cysts with nodules)."
+    ],
+    "sources": [
+      "McCormack FX et al. ATS/JRS Clinical Practice Guidelines: Lymphangioleiomyomatosis Diagnosis and Management. Am J Respir Crit Care Med. 2016",
+      "McCormack FX et al. Efficacy and Safety of Sirolimus in Lymphangioleiomyomatosis (MILES Trial). N Engl J Med. 2011",
+      "UpToDate: Lymphangioleiomyomatosis: Treatment and prognosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Lymphangioleiomyomatosis", "Pulmonary Langerhans cell histiocytosis", "Birt-Hogg-Dube syndrome", "Alpha-1 antitrypsin deficiency", "Lymphocytic interstitial pneumonia", "COPD/emphysema"],
+    "after_stage2_more_likely": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome"],
+    "after_stage2_less_likely": ["COPD/emphysema", "Alpha-1 antitrypsin deficiency"],
+    "after_labs_top3": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome", "Lymphocytic interstitial pneumonia"]
+  }
+}

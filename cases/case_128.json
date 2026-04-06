@@ -1,0 +1,108 @@
+{
+  "case_id": "case_128",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Hyperkalemia — Medication-Induced",
+  "icd_category": "E87.5 — Hyperkalemia",
+  "one_liner": "A 65-year-old male with heart failure and CKD stage 3 presents with generalized weakness and palpitations 2 weeks after starting spironolactone.",
+  "stage2": {
+    "hpi_extension": "The patient was started on spironolactone 50 mg daily 2 weeks ago by his cardiologist for heart failure with reduced ejection fraction. He has noticed progressive generalized weakness, muscle cramps, and a sensation of palpitations over the past 3 days. He reports mild nausea but no vomiting or diarrhea. He continues to take his other medications including lisinopril and has been using a potassium-based salt substitute at home per a friend's recommendation. He denies chest pain, syncope, or shortness of breath.",
+    "pmh": "Heart failure with reduced ejection fraction (EF 30%), CKD stage 3 (baseline Cr 1.6, eGFR 42), hypertension, type 2 diabetes mellitus.",
+    "surgical_history": "Coronary artery bypass grafting (5 years ago).",
+    "medications": "Lisinopril 20 mg daily, spironolactone 50 mg daily (new, 2 weeks), carvedilol 25 mg twice daily, furosemide 40 mg daily, aspirin 81 mg daily, metformin 500 mg twice daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father died of sudden cardiac death at age 60.",
+    "social_history": "Retired mechanic. Former smoker (30 pack-years, quit 6 years ago). No alcohol or drug use. Uses potassium-based salt substitute (KCl).",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "54 bpm, irregular",
+      "bp": "106/64 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "88 kg, BMI 28.9"
+    },
+    "physical_exam": "Elderly male appearing fatigued. Alert and oriented. Heart: bradycardic, irregularly irregular rhythm, no murmurs, distant heart sounds. JVP mildly elevated at 10 cm H2O. Lungs: bibasilar crackles. Abdomen: soft, non-tender, no hepatomegaly. Extremities: 1+ bilateral lower extremity edema. Neurologic: decreased deep tendon reflexes bilaterally, 4/5 strength in all extremities, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Potassium", "result": "7.2 mEq/L", "flag": "HIGH", "clinical_significance": "Severe hyperkalemia; life-threatening arrhythmia risk; likely from combined ACEi + spironolactone + CKD + KCl salt substitute"},
+      {"test_name": "ECG", "result": "Peaked T waves, prolonged PR interval (240 ms), widened QRS (140 ms), heart rate 54 bpm with irregular rhythm", "flag": "ABNORMAL", "clinical_significance": "Classic ECG changes of hyperkalemia: peaked T waves, prolonged PR, widened QRS — indicates cardiac toxicity requiring emergent treatment"},
+      {"test_name": "Serum Creatinine", "result": "2.1 mg/dL (baseline 1.6)", "flag": "HIGH", "clinical_significance": "Worsened from baseline; CKD + ACEi + spironolactone impair renal potassium excretion"},
+      {"test_name": "BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with worsened renal function"},
+      {"test_name": "Serum Sodium", "result": "136 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Serum Bicarbonate", "result": "19 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis; acidosis drives potassium out of cells, worsening hyperkalemia"},
+      {"test_name": "Serum Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal; low magnesium can exacerbate cardiac effects of hyperkalemia"},
+      {"test_name": "Serum Glucose", "result": "145 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; relevant for insulin-glucose treatment of hyperkalemia"},
+      {"test_name": "CBC", "result": "Hgb 11.2 g/dL, WBC 7,800/μL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "Mild anemia of CKD; no hemolysis to explain pseudohyperkalemia"},
+      {"test_name": "Venous Blood Gas", "result": "pH 7.31, pCO2 34 mmHg, HCO3 18 mEq/L", "flag": "ABNORMAL", "clinical_significance": "Non-anion gap metabolic acidosis; acidosis promotes transcellular potassium shift and worsens hyperkalemia"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-Lead ECG", "result": "Sinus bradycardia at 54 bpm with peaked T waves (most prominent V2-V4), prolonged PR interval (240 ms), widened QRS (140 ms). No ST elevations or depressions.", "flag": "ABNORMAL", "clinical_significance": "ECG changes represent progressive cardiac toxicity from hyperkalemia and demand emergent treatment"},
+      {"test_name": "Chest X-ray", "result": "Cardiomegaly with mild pulmonary vascular congestion. Small bilateral pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Consistent with chronic heart failure; mild congestion"}
+    ],
+    "key_tests": [
+      "Stat serum potassium level",
+      "12-lead ECG",
+      "Basic metabolic panel",
+      "Medication reconciliation (identify K+-raising drugs)"
+    ],
+    "acceptable_tests": [
+      "Venous or arterial blood gas",
+      "Serum magnesium",
+      "Complete blood count (rule out hemolysis/pseudohyperkalemia)",
+      "Repeat potassium on fresh non-hemolyzed specimen",
+      "Chest X-ray",
+      "Point-of-care potassium"
+    ],
+    "low_yield_tests": [
+      "Serum aldosterone/renin levels",
+      "Adrenal CT scan",
+      "24-hour urine potassium (in acute setting)",
+      "Renal biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Severe hyperkalemia (K+ 7.2) with ECG changes (peaked T waves, widened QRS, bradycardia) in a patient on spironolactone + ACE inhibitor + potassium salt substitute with underlying CKD confirms medication-induced hyperkalemia requiring emergent treatment."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with CKD and/or heart failure on RAAS inhibitors (ACEi/ARB + mineralocorticoid receptor antagonist) presents with weakness, muscle cramps, and palpitations. Labs reveal severe hyperkalemia with characteristic ECG changes. Additional contributors may include potassium supplements, salt substitutes, or metabolic acidosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Potassium homeostasis depends on renal excretion (90%) and transcellular shifts. Spironolactone blocks aldosterone receptors in the distal nephron, reducing potassium secretion. ACE inhibitors decrease aldosterone production by blocking angiotensin II. Together in a patient with CKD (already impaired K+ excretion), they dramatically reduce the kidney's ability to excrete potassium. The KCl salt substitute provides an additional potassium load. As serum K+ rises, the resting membrane potential of cardiac myocytes becomes less negative, leading to progressive ECG changes: peaked T waves → prolonged PR → widened QRS → sine wave → ventricular fibrillation/asystole.",
+    "treatment_overview": "Emergent treatment for K+ >6.5 or ECG changes: (1) IV calcium gluconate 10% (10 mL over 2-3 min) to stabilize the cardiac membrane — does NOT lower potassium. (2) Shift K+ intracellularly: IV insulin (10 units regular) with dextrose (25g D50W), nebulized albuterol (10-20 mg), and IV sodium bicarbonate if acidotic. (3) Remove potassium: sodium polystyrene sulfonate (Kayexalate) or patiromer/sodium zirconium cyclosilicate (preferred newer agents), loop diuretics if adequate urine output, or emergent hemodialysis if refractory. (4) Discontinue offending agents: spironolactone and potentially hold ACEi. Discontinue KCl salt substitute. Continuous cardiac monitoring.",
+    "high_yield_pearls": [
+      "ECG changes in hyperkalemia follow a predictable progression: peaked T waves (K+ ~6.0) → prolonged PR and flattened P waves (K+ ~7.0) → widened QRS (K+ ~7.5) → sine wave → VFib/asystole.",
+      "IV calcium gluconate stabilizes the cardiac membrane within minutes but does NOT lower serum potassium — it is a bridge while definitive treatments are initiated.",
+      "The combination of ACE inhibitor + spironolactone + CKD is a well-known high-risk combination for severe hyperkalemia; potassium must be monitored within 1 week of starting or dose-adjusting either agent.",
+      "Potassium-based salt substitutes (KCl) are a commonly overlooked cause of hyperkalemia in patients on RAAS inhibitors — always ask about their use.",
+      "Insulin-glucose is the fastest way to shift potassium intracellularly (onset 15-30 min, lasts 4-6 hours); always co-administer dextrose to prevent hypoglycemia."
+    ],
+    "sources": [
+      "AHA 2023 Scientific Statement: Management of Hyperkalemia",
+      "UpToDate: Treatment and prevention of hyperkalemia in adults (2024)",
+      "Palmer BF. Managing hyperkalemia caused by inhibitors of the renin-angiotensin-aldosterone system. NEJM. 2004;351(6):585-592."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Medication-induced hyperkalemia (spironolactone + ACEi)",
+      "Hyperkalemia from CKD progression",
+      "Hyperkalemia from metabolic acidosis",
+      "Adrenal insufficiency (hyporeninemic hypoaldosteronism)",
+      "Pseudohyperkalemia (hemolyzed sample)",
+      "Rhabdomyolysis"
+    ],
+    "after_stage2_more_likely": [
+      "Medication-induced hyperkalemia — recently started spironolactone on top of ACEi with underlying CKD; using KCl salt substitute",
+      "CKD-related hyperkalemia — baseline CKD stage 3 with worsening creatinine"
+    ],
+    "after_stage2_less_likely": [
+      "Rhabdomyolysis — no history of trauma, immobilization, or severe exertion",
+      "Pseudohyperkalemia — symptoms (weakness, palpitations, ECG changes) confirm true hyperkalemia"
+    ],
+    "after_labs_top3": [
+      "Medication-induced hyperkalemia — K+ 7.2 with ECG changes in setting of spironolactone + ACEi + KCl salt substitute + CKD",
+      "CKD-related hyperkalemia — worsened Cr and acidosis contribute, but the medication combination is the primary driver",
+      "Acidosis-exacerbated hyperkalemia — metabolic acidosis (pH 7.31) contributes to transcellular K+ shift"
+    ]
+  }
+}

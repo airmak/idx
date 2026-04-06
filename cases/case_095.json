@@ -1,0 +1,76 @@
+{
+  "case_id": "case_095",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pulmonary alveolar proteinosis",
+  "icd_category": "J84.01 — Alveolar proteinosis",
+  "one_liner": "A 42-year-old man with occupational dust exposure presents with progressive dyspnea and a dry cough over 6 months, with a characteristic 'crazy-paving' pattern on CT.",
+  "stage2": {
+    "hpi_extension": "The patient reports slowly progressive exertional dyspnea that has worsened over 6 months from being able to jog to now becoming short of breath walking up a single flight of stairs. He has a persistent dry cough but denies hemoptysis, fever, night sweats, or weight loss. He works at a concrete cutting facility and notes significant silica dust exposure without consistent respiratory protection. He saw his PCP 3 months ago and was treated for 'walking pneumonia' with azithromycin without improvement.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "None currently. Completed azithromycin course 3 months ago.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory. No autoimmune diseases.",
+    "social_history": "Concrete cutter for 12 years with significant silica dust exposure; inconsistent use of respiratory protection. Former smoker (10 pack-years, quit 5 years ago). Social alcohol. Lives with partner.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "84 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "91% on room air, 85% with exertion",
+      "weight_bmi": "80 kg, BMI 25.8"
+    },
+    "physical_exam": "General: Well-appearing man, not in acute distress at rest. HEENT: Normal. No lymphadenopathy. Lungs: Fine inspiratory crackles bilaterally, more prominent at bases. No wheezing. Cardiovascular: Regular rate and rhythm, no murmurs. Abdomen: Soft, non-tender. Extremities: Mild digital clubbing. No edema or cyanosis. Skin: Normal."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,800/uL", "flag": "WNL", "clinical_significance": "Normal; no leukocytosis"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "LDH", "result": "480 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH is a characteristic finding in PAP and correlates with disease severity"},
+      {"test_name": "Anti-GM-CSF antibodies", "result": "Positive (elevated titer)", "flag": "ABNORMAL", "clinical_significance": "Diagnostic: anti-GM-CSF antibodies are the hallmark of autoimmune PAP and are found in >90% of adult cases"},
+      {"test_name": "CEA", "result": "8.2 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated CEA can be seen in PAP — it is produced by type II pneumocytes and is a nonspecific marker"},
+      {"test_name": "KL-6", "result": "2,400 U/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; KL-6 is a mucin glycoprotein elevated in PAP and other interstitial lung diseases"},
+      {"test_name": "ABG pH", "result": "7.43", "flag": "WNL", "clinical_significance": "Normal pH"},
+      {"test_name": "ABG pO2", "result": "64 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia at rest with significant desaturation on exertion indicates impaired gas exchange"},
+      {"test_name": "ABG pCO2", "result": "36 mmHg", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CRP", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal; not suggestive of acute infection"},
+      {"test_name": "BAL fluid analysis", "result": "Milky, opaque fluid. PAS-positive proteinaceous material with foamy macrophages. No organisms on culture.", "flag": "ABNORMAL", "clinical_significance": "Pathognomonic: milky BAL fluid with PAS-positive lipoproteinaceous material is diagnostic of PAP"}
+    ],
+    "imaging_results": [
+      {"test_name": "HRCT chest", "result": "Bilateral, patchy ground-glass opacities with superimposed interlobular septal thickening creating a 'crazy-paving' pattern. Geographic distribution with sharp borders between affected and unaffected lung. No honeycombing or traction bronchiectasis.", "flag": "ABNORMAL", "clinical_significance": "Crazy-paving pattern is highly characteristic of PAP, though not pathognomonic (also seen in lipoid pneumonia, PCP, alveolar hemorrhage)"},
+      {"test_name": "Chest X-ray", "result": "Bilateral diffuse alveolar opacities in a 'bat-wing' distribution. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Bilateral alveolar opacities can mimic pulmonary edema, but absence of cardiomegaly and clinical context suggest alternative diagnosis"}
+    ],
+    "key_tests": ["HRCT chest", "Anti-GM-CSF antibody titer", "Bronchoalveolar lavage (BAL) with PAS stain", "ABG", "LDH"],
+    "acceptable_tests": ["PFTs (restrictive pattern with reduced DLCO)", "CBC", "KL-6", "CEA", "Chest X-ray", "6-minute walk test", "CRP/ESR"],
+    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture (not diagnostic)", "PET-CT", "Echocardiogram"]
+  },
+  "stage5": {
+    "final_clue": "Bronchoscopy with BAL yields milky, opaque fluid that is strongly PAS-positive on histochemical staining. Anti-GM-CSF antibody titer is markedly elevated. PFTs show a restrictive pattern (FVC 68% predicted) with DLCO 42% predicted. The constellation of crazy-paving on HRCT, milky PAS-positive BAL fluid, and positive anti-GM-CSF antibodies confirms the diagnosis of autoimmune pulmonary alveolar proteinosis."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged adult with insidious progressive dyspnea and dry cough, crazy-paving pattern on HRCT, milky PAS-positive BAL fluid, and elevated anti-GM-CSF antibodies. The CXR may mimic pulmonary edema ('bat-wing' opacities) but without cardiomegaly or clinical CHF.",
+    "attending_mode_notes": "PAP is a rare disease (prevalence ~7 per million) that is easily mistaken for atypical pneumonia, pulmonary edema, or other ILDs. The key to diagnosis is recognizing the crazy-paving pattern on HRCT and performing BAL. Anti-GM-CSF antibodies are >90% sensitive and specific for the autoimmune form. Secondary PAP from silica/dust exposure may have negative anti-GM-CSF antibodies. A 'bat-wing' CXR pattern that does not respond to diuretics or antibiotics should prompt further investigation.",
+    "pathophysiology": "PAP is characterized by accumulation of surfactant-derived lipoproteinaceous material in the alveoli due to impaired alveolar macrophage clearance. In autoimmune PAP (~90% of cases), autoantibodies against GM-CSF neutralize the cytokine, which is essential for macrophage maturation and surfactant catabolism. Without functional GM-CSF signaling, alveolar macrophages cannot clear surfactant, leading to progressive alveolar filling. Secondary PAP can result from inhalational exposures (silica, aluminum dust) or hematologic malignancies that impair macrophage function.",
+    "treatment_overview": "Whole lung lavage (WLL) is the standard treatment — one lung is selectively ventilated while the other is sequentially lavaged with 15-20 L of warm saline to physically wash out the accumulated surfactant. GM-CSF supplementation (inhaled or subcutaneous) is an alternative or adjunct for autoimmune PAP. Rituximab has shown efficacy in refractory autoimmune PAP. Secondary PAP requires addressing the underlying cause (removal from exposure, treatment of hematologic malignancy). Spontaneous remission occurs in ~5-8% of cases.",
+    "high_yield_pearls": [
+      "The 'crazy-paving' pattern (ground-glass opacities + septal thickening) on HRCT is the imaging hallmark of PAP but is not pathognomonic — also consider PCP, lipoid pneumonia, and diffuse alveolar hemorrhage.",
+      "Anti-GM-CSF antibodies are the serologic hallmark of autoimmune PAP and are >90% sensitive and specific.",
+      "Milky, PAS-positive BAL fluid is virtually diagnostic of PAP — it has a characteristic 'laundry water' appearance.",
+      "PAP patients are at increased risk of opportunistic infections (Nocardia, Mycobacteria, fungi) due to impaired macrophage function.",
+      "Whole lung lavage remains the gold standard treatment and provides durable improvement in most patients."
+    ],
+    "sources": [
+      "Trapnell BC et al. Pulmonary Alveolar Proteinosis. N Engl J Med. 2003",
+      "McCarthy C et al. Autoimmune Pulmonary Alveolar Proteinosis. Am J Respir Crit Care Med. 2022",
+      "UpToDate: Pulmonary alveolar proteinosis in adults"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Pulmonary alveolar proteinosis", "Pneumocystis pneumonia", "Lipoid pneumonia", "Diffuse alveolar hemorrhage", "Pulmonary edema (cardiogenic)", "Hypersensitivity pneumonitis", "Sarcoidosis"],
+    "after_stage2_more_likely": ["Pulmonary alveolar proteinosis", "Hypersensitivity pneumonitis"],
+    "after_stage2_less_likely": ["Pulmonary edema", "Pneumocystis pneumonia", "Diffuse alveolar hemorrhage"],
+    "after_labs_top3": ["Pulmonary alveolar proteinosis", "Lipoid pneumonia", "Hypersensitivity pneumonitis"]
+  }
+}

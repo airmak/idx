@@ -1,0 +1,113 @@
+{
+  "case_id": "case_226",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Obsessive-Compulsive Disorder",
+  "icd_category": "F42.2 — Obsessive-compulsive disorder, mixed obsessional thoughts and acts",
+  "one_liner": "A 25-year-old woman with a history of eczema presents with 1 year of intrusive thoughts about contamination and repetitive handwashing rituals consuming 4 hours daily.",
+  "stage2": {
+    "hpi_extension": "The patient reports intrusive, unwanted thoughts about contamination that began approximately 1 year ago after a food poisoning episode. She describes persistent fears that her hands are contaminated with germs and that she will become seriously ill or spread illness to her family. To reduce the distress, she washes her hands 40-50 times daily, each time following a specific ritual (soap, water at specific temperature, wash for exactly 2 minutes, repeat 3 times). She recognizes the behavior is excessive but feels unable to stop. If the ritual is interrupted, she must restart from the beginning. She also avoids touching doorknobs, shaking hands, and using public restrooms. She has started wearing gloves in public. The compulsions consume approximately 4 hours daily and have caused her to be frequently late to work, resulting in a written warning. She avoids social gatherings. Her skin on both hands is raw, cracked, and bleeding from excessive washing. She denies hoarding, checking, counting, or symmetry obsessions. Y-BOCS score is 28 (severe). She denies depressive symptoms, though she feels frustrated and embarrassed. No history of tics.",
+    "pmh": "Atopic dermatitis (eczema) since childhood. No prior psychiatric diagnoses.",
+    "surgical_history": "None",
+    "medications": "Triamcinolone cream PRN for eczema (rarely uses now due to frequent handwashing)",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with 'checking rituals' (never formally diagnosed). Brother with Tourette syndrome. Mother healthy. No family history of depression or psychosis.",
+    "social_history": "Works as a librarian. Single, lives alone in an apartment. Non-smoker, non-drinker. No illicit drug use. Previously enjoyed reading, gardening, and socializing. Has become increasingly isolated due to contamination fears. College-educated. No history of trauma or abuse.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "74 bpm",
+      "bp": "116/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "130 lbs, BMI 22.3 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing young woman, wearing gloves, anxious when asked to remove them for hand examination. HEENT: Normocephalic, atraumatic. Oropharynx clear. Neck: No thyromegaly or lymphadenopathy. Cardiovascular: Regular rate and rhythm. Lungs: Clear bilaterally. Abdomen: Soft, non-tender. Extremities: Both hands markedly erythematous with dry, cracked, fissured skin. Multiple areas of excoriation and bleeding on dorsal hands and between fingers. Skin thickened (lichenification) on dorsal hands. Nails are intact. No signs of secondary infection. Neurological: Normal cranial nerves, no tics, no abnormal movements. Mental Status Exam: Appearance — well-groomed (aside from hand dermatitis), wearing gloves. Behavior — cooperative but visibly uncomfortable, avoids touching exam table surfaces. Speech — normal rate, rhythm, volume. Mood — 'frustrated.' Affect — anxious, congruent. Thought process — linear, goal-directed. Thought content — prominent contamination obsessions, ego-dystonic (recognizes as excessive), no SI/HI, no delusions. Perception — no hallucinations. Cognition — intact. Insight — good (knows thoughts are irrational but cannot control them). Judgment — fair."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 6.5, Hgb 13.8, Hct 41.2, Plt 240", "flag": "WNL", "clinical_significance": "No infection despite skin breakdown; no eosinophilia to suggest parasitic cause of contamination concern"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction contributing to anxiety symptoms"},
+      {"test_name": "CMP", "result": "Na 139, K 4.0, Cl 102, CO2 24, BUN 13, Cr 0.7, Glucose 90, Ca 9.4, AST 18, ALT 16", "flag": "WNL", "clinical_significance": "Normal metabolic panel; hepatic function baseline before SSRI initiation"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out substance-induced obsessive-compulsive symptoms"},
+      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "No systemic inflammation; relevant in context of PANDAS/autoimmune considerations"},
+      {"test_name": "ASO titer", "result": "< 200 IU/mL", "flag": "WNL", "clinical_significance": "Rules out PANDAS (Pediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal infections) in a young patient"},
+      {"test_name": "Vitamin B12", "result": "490 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency contributing to neuropsychiatric symptoms"},
+      {"test_name": "Wound culture (hand)", "result": "Normal skin flora, no pathogenic organisms", "flag": "WNL", "clinical_significance": "No secondary bacterial infection of excoriated hands despite open skin"}
+    ],
+    "imaging_results": [
+      {"test_name": "Hand X-ray (bilateral)", "result": "No fractures, no osteomyelitis. Soft tissue swelling noted.", "flag": "WNL", "clinical_significance": "Rules out underlying bony pathology; soft tissue changes consistent with chronic dermatitis"}
+    ],
+    "key_tests": [
+      "Yale-Brown Obsessive Compulsive Scale (Y-BOCS) — score 28 (severe OCD)",
+      "TSH — to rule out thyroid dysfunction contributing to anxiety",
+      "Urine drug screen — to rule out substance-induced symptoms",
+      "Dermatologic assessment of hands — severe contact/irritant dermatitis from compulsive washing"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "CMP",
+      "ASO titer (especially in younger patients, to consider PANDAS)",
+      "ESR/CRP (inflammatory markers)",
+      "Vitamin B12",
+      "Wound culture of excoriated skin",
+      "PHQ-9 (screen for comorbid depression)"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological deficits)",
+      "EEG (no seizure-like episodes)",
+      "Heavy metal screening (no exposure history)",
+      "ANA panel (no systemic autoimmune features)",
+      "HIV testing (no risk factors)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has recurrent, persistent, intrusive thoughts (obsessions) about contamination that are ego-dystonic and cause marked distress, leading to repetitive handwashing compulsions performed according to rigid rules. The obsessions and compulsions are time-consuming (4 hours/day), causing significant functional impairment (work, social). Y-BOCS score of 28 confirms severe OCD. Physical examination reveals severe irritant contact dermatitis from compulsive handwashing. All medical workup is unremarkable. This meets DSM-5 criteria for Obsessive-Compulsive Disorder."
+  },
+  "debrief": {
+    "classic_presentation": "A young adult presenting with ego-dystonic, intrusive, unwanted thoughts (obsessions) that cause marked anxiety, leading to repetitive behaviors or mental acts (compulsions) performed to reduce distress. Common themes include contamination/washing, harm/checking, symmetry/ordering, and forbidden thoughts. The obsessions and compulsions are time-consuming (>1 hour/day) and cause significant distress or functional impairment.",
+    "attending_mode_notes": null,
+    "pathophysiology": "OCD involves hyperactivity of the cortico-striato-thalamo-cortical (CSTC) circuit, particularly the orbitofrontal cortex (error detection), anterior cingulate cortex (conflict monitoring), and caudate nucleus (habit formation). Serotonergic dysfunction is central — OCD responds preferentially to serotonergic agents. Glutamatergic hyperactivity in the CSTC loop may contribute. The 'error signal' model proposes that the orbitofrontal cortex generates a persistent feeling that 'something is wrong,' driving compulsive behavior. PANDAS (post-streptococcal autoimmune) can cause acute OCD onset in children. Heritability is approximately 45-65%.",
+    "treatment_overview": "First-line treatment is SSRIs at higher doses than used for depression (e.g., fluoxetine 40-80 mg, fluvoxamine 200-300 mg, sertraline 200 mg). Clomipramine (TCA, potent serotonin reuptake inhibitor) is highly effective but has more side effects. CBT with Exposure and Response Prevention (ERP) is the gold-standard psychotherapy. ERP involves gradual exposure to contamination triggers while preventing the washing ritual. Combination of SSRI + ERP is optimal. For refractory OCD, augmentation with low-dose atypical antipsychotics (aripiprazole, risperidone) or deep brain stimulation may be considered. Treatment response takes 8-12 weeks at adequate doses.",
+    "high_yield_pearls": [
+      "OCD requires obsessions (intrusive thoughts), compulsions (repetitive behaviors to reduce anxiety), or both, that are time-consuming (>1 hour/day) or cause significant distress/impairment.",
+      "OCD obsessions are ego-dystonic (the patient recognizes them as excessive or unreasonable) — this distinguishes OCD from delusional disorder.",
+      "SSRIs for OCD require higher doses and longer duration (8-12 weeks) than for depression. Clomipramine is the most potent SRI for OCD.",
+      "Exposure and Response Prevention (ERP) is the most effective psychotherapy — more effective than traditional CBT or relaxation alone.",
+      "PANDAS should be considered in children with acute-onset OCD after streptococcal infection (check ASO titer, anti-DNase B).",
+      "OCD is classified separately from anxiety disorders in DSM-5, in the Obsessive-Compulsive and Related Disorders chapter."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for OCD (2007, updated 2013)",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Stein DJ et al. — Obsessive-compulsive disorder. Lancet 2019",
+      "Goodman WK — Y-BOCS: development, use, and reliability. Arch Gen Psychiatry 1989"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Obsessive-compulsive disorder",
+      "Generalized anxiety disorder",
+      "Illness anxiety disorder (hypochondriasis)",
+      "Specific phobia (contamination type)",
+      "Body dysmorphic disorder",
+      "Obsessive-compulsive personality disorder",
+      "Tic disorder with OCD features",
+      "PANDAS"
+    ],
+    "after_stage2_more_likely": [
+      "Obsessive-compulsive disorder — classic contamination obsessions with washing compulsions, ego-dystonic, time-consuming (4 hours/day), with physical evidence of compulsive washing on hands",
+      "OCD with tic-related features — brother with Tourette syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "GAD — worry is focused specifically on contamination rather than multiple generalized domains",
+      "Obsessive-compulsive personality disorder — OCPD is ego-syntonic; this patient recognizes thoughts as excessive",
+      "PANDAS — patient is an adult without acute streptococcal trigger"
+    ],
+    "after_labs_top3": [
+      "Obsessive-compulsive disorder — normal ASO titer (rules out PANDAS), normal TSH, Y-BOCS 28; meets full DSM-5 criteria",
+      "OCD with tic-related specifier — family history of Tourette syndrome, though patient has no tics herself",
+      "Illness anxiety disorder — less likely as concern is specifically about contamination/germs rather than having a specific disease"
+    ]
+  }
+}

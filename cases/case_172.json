@@ -1,0 +1,77 @@
+{
+  "case_id": "case_172",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Autoimmune Hepatitis",
+  "icd_category": "K75.4 — Autoimmune hepatitis",
+  "one_liner": "A 34-year-old female presents with 2 months of progressive fatigue, jaundice, and arthralgias, found to have markedly elevated transaminases and hypergammaglobulinemia.",
+  "stage2": {
+    "hpi_extension": "The patient describes a 2-month progressive course of debilitating fatigue, generalized arthralgias (particularly in the hands and wrists without swelling), and worsening jaundice. She noted dark urine 3 weeks ago and has had intermittent low-grade fevers. She reports a 5 kg weight loss with decreased appetite and mild nausea without vomiting. She has no history of liver disease, alcohol use, IV drug use, transfusions, or recent travel. She has not started any new medications, supplements, or herbal remedies. She has a personal history of Hashimoto thyroiditis diagnosed at age 28.",
+    "pmh": "Hashimoto thyroiditis, vitiligo",
+    "surgical_history": "None",
+    "medications": "Levothyroxine 100 mcg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother has systemic lupus erythematosus. Sister has celiac disease.",
+    "social_history": "Non-smoker. No alcohol use. Works as a pediatric nurse. No tattoos, piercings, or high-risk sexual behavior. No recent travel.",
+    "vitals": {
+      "temp": "37.4°C (99.3°F)",
+      "hr": "82 bpm, regular",
+      "bp": "114/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "60 kg, BMI 22.5"
+    },
+    "physical_exam": "General: Thin female with jaundice, appears fatigued. HEENT: Scleral icterus, icteric mucosae. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Soft, hepatomegaly (liver span 16 cm by percussion, firm, smooth edge palpable 4 cm below the costal margin), mild RUQ tenderness, no splenomegaly, no ascites. Skin: Jaundice, patches of vitiligo on the dorsal hands, no spider angiomata, no palmar erythema. Joints: No synovitis. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "AST", "result": "680 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated transaminases (>10x ULN) characteristic of AIH flare"},
+      {"test_name": "ALT", "result": "820 U/L", "flag": "HIGH", "clinical_significance": "Hepatocellular injury pattern; ALT predominance is typical of AIH"},
+      {"test_name": "Total bilirubin", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Significant jaundice indicating moderate-severe hepatocellular dysfunction"},
+      {"test_name": "ALP", "result": "155 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; ALP <2x ULN supports hepatocellular rather than cholestatic pattern"},
+      {"test_name": "Serum IgG", "result": "2,850 mg/dL (normal 700-1600)", "flag": "HIGH", "clinical_significance": "Polyclonal hypergammaglobulinemia is a hallmark of AIH and contributes to the simplified diagnostic score"},
+      {"test_name": "ANA", "result": "Positive, titer 1:320 (homogeneous pattern)", "flag": "ABNORMAL", "clinical_significance": "ANA positivity supports Type 1 AIH (present in ~75% of Type 1 AIH)"},
+      {"test_name": "Anti-smooth muscle antibody (ASMA)", "result": "Positive, titer 1:160", "flag": "ABNORMAL", "clinical_significance": "ASMA is the most characteristic antibody of Type 1 AIH, present in ~70%"},
+      {"test_name": "Anti-LKM1 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative, argues against Type 2 AIH (more common in children)"},
+      {"test_name": "Hepatitis A IgM", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes acute hepatitis A"},
+      {"test_name": "Hepatitis B panel", "result": "HBsAg negative, anti-HBs positive, anti-HBc negative", "flag": "WNL", "clinical_significance": "Immune from vaccination, no HBV infection"},
+      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes hepatitis C"},
+      {"test_name": "PT/INR", "result": "INR 1.5", "flag": "HIGH", "clinical_significance": "Impaired synthetic function from hepatocellular injury"}
+    ],
+    "imaging_results": [
+      {"test_name": "Liver ultrasound with Doppler", "result": "Hepatomegaly (18 cm span) with heterogeneous echotexture. No focal lesions. Patent hepatic and portal veins with normal flow direction. No biliary dilation. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hepatomegaly without cirrhotic morphology or biliary obstruction. Patent vasculature excludes Budd-Chiari."},
+      {"test_name": "Liver biopsy", "result": "Interface hepatitis with dense lymphoplasmacytic infiltrate at the portal-parenchymal interface. Rosette formation of hepatocytes. Emperipolesis present. Moderate portal and periportal fibrosis (Ishak stage 3/6). No biliary injury or granulomas.", "flag": "ABNORMAL", "clinical_significance": "Classic histologic triad of AIH: interface hepatitis, lymphoplasmacytic infiltrate, and hepatocyte rosettes. Emperipolesis is highly suggestive. Fibrosis indicates some chronicity."}
+    ],
+    "key_tests": ["AST/ALT", "Serum IgG level", "ANA and anti-smooth muscle antibody (ASMA)", "Liver biopsy", "Hepatitis A/B/C serologies"],
+    "acceptable_tests": ["Anti-LKM1 antibody", "Total bilirubin", "ALP", "PT/INR", "Albumin", "Liver ultrasound with Doppler", "Anti-SLA/LP antibody", "Ceruloplasmin"],
+    "low_yield_tests": ["MRCP", "ERCP", "Anti-mitochondrial antibody", "CT abdomen", "Serum ferritin/iron studies (unless hemochromatosis suspected)"],
+    "key_tests_rationale": "AST/ALT reveal the severity of hepatocellular injury. Serum IgG >1.1x ULN is a key diagnostic criterion. ANA and ASMA are the hallmark autoantibodies of Type 1 AIH. Viral serologies must be negative to exclude viral hepatitis. Liver biopsy is the gold standard, demonstrating interface hepatitis and the characteristic lymphoplasmacytic infiltrate, and is required for the revised IAIHG diagnostic scoring system."
+  },
+  "stage5": {
+    "final_clue": "A young woman with autoimmune comorbidities (Hashimoto thyroiditis, vitiligo) presenting with hepatocellular injury (AST/ALT >10x ULN), marked hypergammaglobulinemia (IgG 2,850), positive ANA (1:320) and ASMA (1:160), negative viral serologies, and liver biopsy showing interface hepatitis with lymphoplasmacytic infiltrate and hepatocyte rosettes confirms Type 1 autoimmune hepatitis. The simplified AIH score totals ≥7 (definite AIH)."
+  },
+  "debrief": {
+    "classic_presentation": "AIH presents with a spectrum from asymptomatic elevation of transaminases to acute hepatitis with jaundice, or even fulminant hepatic failure. Type 1 (ANA/ASMA-positive) is the most common form and affects women predominantly (4:1 female-to-male ratio). Patients often have other autoimmune conditions. The key features are hepatocellular transaminitis, polyclonal hypergammaglobulinemia (elevated IgG), positive autoantibodies, and interface hepatitis on biopsy. Up to 30% of patients present with cirrhosis at diagnosis.",
+    "attending_mode_notes": "AIH can be diagnostically challenging because: (1) Up to 20% of AIH patients are seronegative (negative ANA, ASMA, and LKM1) — anti-SLA/LP antibody should be checked in seronegative cases as it is the most specific antibody for AIH; (2) AIH can present acutely mimicking drug-induced liver injury (DILI), acute viral hepatitis, or Wilson disease — liver biopsy is critical to distinguish these; (3) The 'overlap syndrome' with PBC or PSC occurs in ~10% and requires different treatment strategies; (4) In acute/fulminant AIH, IgG may be normal and autoantibodies may be low-titer, making the simplified scoring system unreliable — the original revised IAIHG scoring system is more accurate in this setting; (5) Treatment-response is itself diagnostic: rapid normalization of transaminases on corticosteroids strongly supports AIH, while failure to respond should prompt reconsideration of the diagnosis; (6) Wilson disease must be excluded in any patient <40 with unexplained hepatitis (check ceruloplasmin and 24-hour urine copper).",
+    "pathophysiology": "AIH is a chronic, immune-mediated hepatocellular injury driven by autoreactive CD4+ T cells targeting hepatocyte surface antigens. Loss of immune tolerance, possibly triggered by molecular mimicry (viral infections, drugs) in genetically predisposed individuals (HLA-DR3, HLA-DR4), leads to T-cell-mediated cytotoxicity and antibody-dependent cell-mediated cytotoxicity against hepatocytes. The resulting interface hepatitis (periportal inflammation with piecemeal necrosis) and plasma cell-rich infiltrate cause progressive fibrosis and, if untreated, cirrhosis. Polyclonal B-cell activation produces the characteristic hypergammaglobulinemia and autoantibodies.",
+    "treatment_overview": "Induction: Prednisone 40-60 mg/day (or budesonide 9 mg/day in non-cirrhotic patients) tapered over 4-8 weeks to the lowest effective dose. Azathioprine 50-100 mg/day (or 1-2 mg/kg/day) is introduced early as a steroid-sparing agent. Check TPMT activity before starting azathioprine. Maintenance: Azathioprine monotherapy (1-2 mg/kg/day) with gradual steroid withdrawal. Goal: normalization of transaminases and IgG. Treatment is typically continued for at least 2-3 years before attempting withdrawal, and relapse occurs in 80-90% after cessation. Alternatives for azathioprine-intolerant patients: mycophenolate mofetil. Liver transplantation for fulminant disease or decompensated cirrhosis (AIH recurs post-transplant in ~20-30%).",
+    "high_yield_pearls": [
+      "Type 1 AIH (ANA/ASMA+) is the most common form worldwide; Type 2 (anti-LKM1+) is more common in children and tends to be more severe.",
+      "Anti-SLA/LP (anti-soluble liver antigen/liver-pancreas) is the most specific antibody for AIH (~100% specificity) and should be checked in seronegative cases.",
+      "Always check TPMT (thiopurine methyltransferase) activity before starting azathioprine — homozygous TPMT deficiency causes severe, potentially fatal myelosuppression.",
+      "Budesonide can replace prednisone for induction in non-cirrhotic AIH patients — it has fewer systemic steroid side effects due to high first-pass hepatic metabolism.",
+      "AIH should be considered in the differential of any acute hepatitis, especially in young women — up to 40% can present acutely, and some as fulminant hepatic failure."
+    ],
+    "sources": [
+      "2020 AASLD Practice Guidance on Autoimmune Hepatitis",
+      "Mack CL et al., AASLD Guidance on Autoimmune Hepatitis, Hepatology 2020",
+      "Liberal R et al., Autoimmune Hepatitis: A Comprehensive Review, Journal of Autoimmunity 2013"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Drug-induced liver injury (DILI)", "Wilson disease", "Acute viral hepatitis (A, B, E)", "Primary biliary cholangitis", "Overlap syndrome (AIH-PBC or AIH-PSC)", "Hemochromatosis"],
+    "after_stage2_more_likely": ["Autoimmune hepatitis", "Acute viral hepatitis", "Drug-induced liver injury"],
+    "after_stage2_less_likely": ["Primary biliary cholangitis", "Hemochromatosis", "Wilson disease"],
+    "after_labs_top3": ["Autoimmune hepatitis (Type 1)", "AIH-PBC overlap syndrome", "Drug-induced liver injury with autoimmune features"]
+  }
+}

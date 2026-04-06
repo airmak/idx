@@ -1,0 +1,75 @@
+{
+  "case_id": "case_113",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Ischemic stroke (MCA territory)",
+  "icd_category": "I63.5 — Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery",
+  "one_liner": "A 68-year-old man with atrial fibrillation presents with sudden onset of right-sided face and arm weakness, slurred speech, and right visual field cut, with symptoms beginning 90 minutes ago.",
+  "stage2": {
+    "hpi_extension": "The patient's wife reports that he was eating breakfast at 7:30 AM when he suddenly dropped his fork with his right hand, his face drooped on the right side, and his speech became slurred and garbled. She called 911 immediately. He has not had any headache, vomiting, or loss of consciousness. The time of symptom onset was clearly witnessed at 7:30 AM and it is now 9:00 AM (90 minutes from onset). He has a history of atrial fibrillation but stopped taking his anticoagulant (apixaban) 3 weeks ago on his own because of concern about bleeding risk after he noticed a bruise on his arm. He has no history of prior stroke or TIA.",
+    "pmh": "Atrial fibrillation (CHA2DS2-VASc score 4), hypertension, type 2 diabetes mellitus, hyperlipidemia.",
+    "surgical_history": "Cholecystectomy age 55.",
+    "medications": "Apixaban 5 mg BID (self-discontinued 3 weeks ago), metformin 1000 mg BID, lisinopril 20 mg daily, atorvastatin 40 mg daily, metoprolol succinate 50 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had stroke at age 72. Mother had hypertension.",
+    "social_history": "Retired accountant. Former smoker (30 pack-years, quit 5 years ago). Social alcohol. Lives with wife. Independent at baseline.",
+    "vitals": {
+      "temp": "98.6 F (37.0 C)",
+      "hr": "88 bpm, irregularly irregular",
+      "bp": "172/94 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "88 kg, BMI 28.3"
+    },
+    "physical_exam": "General: Alert but appears distressed. HEENT: No head trauma. Carotid auscultation — no bruits. Cardiac: Irregularly irregular rhythm, no murmurs. Neuro (NIH Stroke Scale assessment): Level of consciousness: Alert (0). LOC questions: Answers month correctly, incorrect on age (1). LOC commands: Follows both (0). Best gaze: Forced right gaze preference (partial) (1). Visual fields: Right homonymous hemianopia (2). Facial palsy: Right lower face droop, moderate (2). Right arm: Drifts down before 10 seconds, some effort against gravity (2). Left arm: No drift (0). Right leg: Drift, some effort against gravity (1). Left leg: No drift (0). Limb ataxia: Absent (0). Sensory: Decreased sensation right side (1). Best language: Mild-moderate aphasia — can name objects with paraphasic errors, comprehension partly impaired (Broca-type pattern) (1). Dysarthria: Moderate slurring (1). Extinction/Inattention: Mild right-sided neglect (1). NIHSS Total: 13."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "9,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Platelets", "result": "218,000/uL", "flag": "WNL", "clinical_significance": "Normal; adequate platelet count (must be >100,000 for thrombolysis)"},
+      {"test_name": "BMP — Glucose", "result": "168 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated glucose; hyperglycemia worsens stroke outcomes — must be excluded as cause of focal deficits and should be corrected"},
+      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "PT/INR", "result": "12.2 sec / INR 1.0", "flag": "WNL", "clinical_significance": "Normal INR; patient stopped apixaban — no contraindication to IV tPA based on anticoagulant effect. Apixaban discontinued >2 days ago."},
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal; excludes concurrent MI (afib with stroke can coexist with cardiac events)"},
+      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control; diabetes is a major stroke risk factor"},
+      {"test_name": "Lipid panel — LDL", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL despite statin therapy; dose intensification needed for secondary prevention"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT head without contrast", "result": "No acute hemorrhage. No hyperdense vessel sign. Early subtle loss of grey-white differentiation in the left insular cortex (insular ribbon sign). No midline shift.", "flag": "ABNORMAL", "clinical_significance": "No hemorrhage — patient is a candidate for IV thrombolysis. Early ischemic changes in the left MCA territory (insular ribbon sign) support the clinical diagnosis. ASPECTS score approximately 9/10."},
+      {"test_name": "CT angiography (head and neck)", "result": "Occlusion of the left middle cerebral artery (M1 segment). Left internal carotid artery patent with mild atherosclerotic disease. Right-sided circulation patent. No dissection.", "flag": "ABNORMAL", "clinical_significance": "Left M1 MCA occlusion — likely cardioembolic given atrial fibrillation and recent anticoagulation discontinuation. Large vessel occlusion qualifies for mechanical thrombectomy consideration."},
+      {"test_name": "CT perfusion", "result": "Large area of penumbra (Tmax >6 sec) in the left MCA territory with small ischemic core (CBF <30%). Mismatch ratio >1.8. Core volume approximately 15 mL.", "flag": "ABNORMAL", "clinical_significance": "Significant penumbral tissue (tissue at risk but salvageable) with small ischemic core — favorable perfusion profile supporting both IV tPA and mechanical thrombectomy."}
+    ],
+    "key_tests": ["Non-contrast CT head (STAT — to exclude hemorrhage before thrombolysis)", "CT angiography (to identify large vessel occlusion for thrombectomy)", "CT perfusion (to assess ischemic core vs. penumbra)", "Blood glucose (STAT — to exclude hypoglycemia as stroke mimic)", "NIH Stroke Scale (NIHSS) assessment"],
+    "acceptable_tests": ["CBC with platelets", "PT/INR, aPTT", "BMP", "Troponin", "ECG/telemetry (to confirm atrial fibrillation)", "Lipid panel", "HbA1c", "Echocardiogram (TTE or TEE for embolic source)"],
+    "low_yield_tests": ["Lumbar puncture (no indication)", "EEG (acutely)", "Carotid ultrasound (CTA already performed)", "Serum drug screen"],
+    "low_yield_tests_note": "Time is brain — minimize any tests that delay treatment. Only blood glucose and CT head are required before IV tPA."
+  },
+  "stage5": {
+    "final_clue": "The patient receives IV alteplase (tPA) at 95 minutes from symptom onset (within the 4.5-hour window) and is immediately taken for mechanical thrombectomy. Successful recanalization of the left M1 MCA occlusion is achieved with a stent retriever (TICI 2b/3 flow). Post-procedure, his NIHSS improves from 13 to 4 within 24 hours (mild residual right facial droop and subtle aphasia). He is restarted on apixaban for stroke prevention in atrial fibrillation, statin dose is increased, and diabetes management is optimized. He is counseled extensively about the critical importance of anticoagulation adherence given his CHA2DS2-VASc score of 5 (now including prior stroke). He is discharged to inpatient rehabilitation."
+  },
+  "debrief": {
+    "classic_presentation": "Older adult with atrial fibrillation presenting with sudden-onset contralateral hemiparesis (face and arm > leg, suggesting MCA territory), aphasia (if dominant hemisphere), hemianopia, and hemispatial neglect, with a clearly defined symptom onset time. CT shows no hemorrhage, CTA reveals large vessel (M1 MCA) occlusion, and CT perfusion shows salvageable penumbra.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Ischemic stroke in the MCA territory results from occlusion of the middle cerebral artery or its branches, most commonly from cardioembolism (atrial fibrillation is the leading cause of cardioembolic stroke). The MCA supplies the lateral cerebral cortex (motor and sensory cortex for face/arm, Broca and Wernicke areas, and temporal-parietal regions) and deep structures (via lenticulostriate arteries). Acute occlusion creates an ischemic core (irreversibly damaged tissue with CBF <10-12 mL/100g/min) surrounded by penumbra (functionally impaired but salvageable tissue with CBF 12-22 mL/100g/min maintained by collateral flow). Without reperfusion, the penumbra progressively converts to core — hence 'time is brain' (1.9 million neurons die per minute of untreated large vessel occlusion). Reperfusion therapy (IV tPA and/or mechanical thrombectomy) salvages penumbral tissue.",
+    "treatment_overview": "Hyperacute: IV alteplase (tPA) 0.9 mg/kg (max 90 mg, 10% bolus, 90% over 1 hour) within 4.5 hours of onset. Mechanical thrombectomy for large vessel occlusion (ICA, M1 MCA) within 24 hours if favorable perfusion imaging (per DAWN/DEFUSE-3 criteria for 6-24 hour window). BP management: permissive hypertension (allow up to 220/120) unless tPA given (then keep <185/110). Antiplatelet: Aspirin 325 mg within 24-48 hours (if no tPA given) or after 24 hours (if tPA given). Anticoagulation for AF: Start DOAC (apixaban, rivarafaban) typically 4-14 days post-stroke depending on size. Secondary prevention: High-intensity statin, BP control, diabetes management, smoking cessation. Rehabilitation: PT, OT, speech therapy. Swallow evaluation before any PO intake.",
+    "high_yield_pearls": [
+      "Only blood glucose and non-contrast CT head are required before IV tPA — do NOT delay thrombolysis for other lab results (check platelets, INR only if clinical suspicion of abnormality).",
+      "Mechanical thrombectomy for large vessel occlusion (ICA, M1 MCA) provides dramatic benefit: NNT of ~3 to reduce disability. It is effective up to 24 hours from onset if favorable perfusion imaging (DAWN/DEFUSE-3 trials).",
+      "Atrial fibrillation is the #1 cause of cardioembolic stroke. CHA2DS2-VASc score guides anticoagulation — virtually all patients with AFib and a prior stroke (score >=2) require long-term anticoagulation.",
+      "The 'insular ribbon sign' (loss of grey-white differentiation in the insula) is one of the earliest CT findings in MCA stroke — look for it when the CT appears 'normal.'",
+      "Stroke mimics to exclude rapidly: Hypoglycemia (check glucose!), Todd paralysis (postictal), hemiplegic migraine, conversion disorder. Hyperglycemia can also cause focal deficits."
+    ],
+    "sources": [
+      "AHA/ASA Guidelines for Early Management of Acute Ischemic Stroke, 2019",
+      "Powers WJ, et al. Stroke. 2019;50:e344-e418",
+      "UpToDate: Approach to reperfusion therapy for acute ischemic stroke"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke (intracerebral hemorrhage)", "Transient ischemic attack", "Todd paralysis (postictal)", "Hypoglycemia", "Hemiplegic migraine", "Brain tumor with acute decompensation"],
+    "after_stage2_more_likely": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke"],
+    "after_stage2_less_likely": ["Hypoglycemia", "Todd paralysis", "Hemiplegic migraine"],
+    "after_labs_top3": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke", "Transient ischemic attack"]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "case_id": "case_162",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Peptic Ulcer Disease (H. pylori-associated)",
+  "icd_category": "K25.9 — Gastric ulcer, unspecified",
+  "one_liner": "A 55-year-old male presents with 6 weeks of gnawing epigastric pain that improves with eating and recurs 2-3 hours after meals.",
+  "stage2": {
+    "hpi_extension": "The patient describes a gnawing, burning epigastric pain that began 6 weeks ago. The pain improves briefly after eating but recurs 2-3 hours later and often wakes him at night (between 1-3 AM). He has tried antacids with temporary relief. Over the past week, he noticed dark, tarry stools on 2 occasions. He has lost 5 lbs unintentionally. He denies NSAID use, vomiting, or hematemesis. He has no prior history of ulcers.",
+    "pmh": "Hypertension, chronic low back pain (managed with physical therapy)",
+    "surgical_history": "None",
+    "medications": "Lisinopril 10 mg daily, acetaminophen PRN",
+    "allergies": "Aspirin (GI upset)",
+    "family_history": "Father had gastric cancer at age 68. Mother has hypertension.",
+    "social_history": "Smokes half a pack per day for 25 years. Drinks 1-2 beers most evenings. Works as a truck driver. High-stress lifestyle.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "84 bpm, regular",
+      "bp": "132/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "82 kg, BMI 26.8"
+    },
+    "physical_exam": "General: Mildly uncomfortable male, no acute distress. HEENT: Pale conjunctivae. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Soft, focal tenderness in the epigastrium, no rebound or guarding, no palpable masses, positive bowel sounds. Rectal exam: Guaiac-positive stool (melanotic). Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely from chronic GI blood loss (melena)"},
+      {"test_name": "MCV", "result": "76 fL", "flag": "LOW", "clinical_significance": "Microcytic anemia consistent with iron deficiency from chronic blood loss"},
+      {"test_name": "Iron", "result": "35 µg/dL", "flag": "LOW", "clinical_significance": "Low serum iron confirming iron deficiency"},
+      {"test_name": "Ferritin", "result": "12 ng/mL", "flag": "LOW", "clinical_significance": "Depleted iron stores"},
+      {"test_name": "H. pylori stool antigen", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Active H. pylori infection — primary etiology of the ulcer"},
+      {"test_name": "BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN/creatinine ratio suggesting upper GI bleeding (blood protein digestion)"},
+      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function — elevated BUN/Cr ratio supports upper GI source"},
+      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, rules out pancreatitis"},
+      {"test_name": "ALT", "result": "30 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
+      {"test_name": "Platelet count", "result": "310,000/µL", "flag": "WNL", "clinical_significance": "Reactive thrombocytosis from iron deficiency and chronic bleeding"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper Endoscopy (EGD)", "result": "1.5 cm clean-based ulcer on the lesser curvature of the gastric antrum with surrounding erythema. No active bleeding. No raised margins or mass-like features. Duodenal bulb normal. CLO test (rapid urease) positive for H. pylori.", "flag": "ABNORMAL", "clinical_significance": "Gastric ulcer with positive H. pylori — biopsies taken to rule out malignancy"},
+      {"test_name": "Gastric ulcer biopsies", "result": "Chronic active gastritis with H. pylori organisms identified. No intestinal metaplasia, no dysplasia, no malignancy.", "flag": "ABNORMAL", "clinical_significance": "Confirms H. pylori gastritis as the cause. Benign ulcer — no cancer."},
+      {"test_name": "Chest X-ray", "result": "No free air under diaphragm, clear lung fields", "flag": "WNL", "clinical_significance": "No perforation"}
+    ],
+    "key_tests": ["Upper endoscopy (EGD) with biopsies", "H. pylori testing (stool antigen, CLO test, or urea breath test)", "CBC with iron studies", "BMP", "Fecal occult blood test"],
+    "acceptable_tests": ["Lipase", "LFTs", "Chest X-ray (upright for perforation)", "Type and screen", "Reticulocyte count", "INR"],
+    "low_yield_tests": ["CT abdomen (unless perforation suspected)", "Barium swallow (inferior to EGD)", "Colonoscopy", "Serum gastrin (unless ZES suspected)", "Abdominal ultrasound"],
+    "key_tests_rationale": "EGD allows direct visualization, biopsy to rule out malignancy (essential for all gastric ulcers), and H. pylori testing via CLO test. Stool antigen confirms active infection. CBC identifies anemia from bleeding. BMP checks BUN/Cr ratio (upper GI bleed marker)."
+  },
+  "stage5": {
+    "final_clue": "EGD reveals a 1.5 cm gastric antral ulcer with positive CLO test for H. pylori. Biopsies confirm chronic active gastritis with H. pylori organisms and no malignancy. Iron deficiency anemia and melena indicate chronic blood loss from the ulcer."
+  },
+  "debrief": {
+    "classic_presentation": "H. pylori-associated peptic ulcer disease presents with gnawing or burning epigastric pain. Duodenal ulcers classically cause pain 2-3 hours after meals and nocturnal pain relieved by eating. Gastric ulcers may cause pain worsened by eating. Melena or hematemesis indicates bleeding. H. pylori and NSAIDs account for >90% of peptic ulcers.",
+    "attending_mode_notes": null,
+    "pathophysiology": "H. pylori colonizes the gastric mucosa, producing urease (which creates an alkaline microenvironment) and virulence factors (CagA, VacA) that damage the epithelium and trigger chronic inflammation. In the antrum, inflammation increases gastrin release, leading to acid hypersecretion and duodenal ulceration. In the body/fundus, inflammation causes gland atrophy and reduced acid secretion, predisposing to gastric ulcers and eventually gastric cancer.",
+    "treatment_overview": "H. pylori eradication: standard triple therapy (PPI + clarithromycin + amoxicillin for 14 days) or bismuth quadruple therapy (PPI + bismuth + metronidazole + tetracycline for 14 days) based on local resistance patterns. PPI continued for 4-8 weeks for ulcer healing. Confirm eradication with urea breath test or stool antigen ≥4 weeks after completing antibiotics (≥2 weeks off PPI). Repeat EGD in 8-12 weeks for all gastric ulcers to confirm healing and exclude malignancy.",
+    "high_yield_pearls": [
+      "ALL gastric ulcers require biopsy to rule out malignancy — duodenal ulcers do not (very rarely malignant).",
+      "H. pylori and NSAIDs together account for >90% of peptic ulcers; always test for and treat H. pylori.",
+      "Elevated BUN with normal creatinine (high BUN/Cr ratio >20:1) suggests upper GI bleeding — digested blood provides a protein load.",
+      "Confirm H. pylori eradication with urea breath test or stool antigen ≥4 weeks after completing antibiotics.",
+      "H. pylori is classified as a WHO Group 1 carcinogen — eradication reduces the risk of gastric adenocarcinoma and MALT lymphoma."
+    ],
+    "sources": [
+      "2017 ACG Clinical Guideline: Treatment of H. pylori Infection",
+      "Chey et al., ACG Clinical Guideline on H. pylori, Am J Gastroenterol 2017",
+      "Laine et al., Peptic Ulcer Disease, NEJM 2016"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Gastric cancer", "GERD", "Functional dyspepsia", "Pancreatitis", "Gastric lymphoma (MALT)", "Zollinger-Ellison syndrome"],
+    "after_stage2_more_likely": ["Peptic ulcer disease", "Gastric cancer", "GERD"],
+    "after_stage2_less_likely": ["Pancreatitis", "Functional dyspepsia", "Zollinger-Ellison syndrome"],
+    "after_labs_top3": ["H. pylori-associated peptic ulcer disease", "Gastric ulcer with chronic GI bleeding", "Gastric cancer"]
+  }
+}

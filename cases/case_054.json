@@ -1,0 +1,70 @@
+{
+  "case_id": "case_054",
+  "mode": "easy",
+  "specialty": "Surgery",
+  "diagnosis": "Pilonidal Abscess",
+  "icd_category": "L05.01 — Pilonidal cyst with abscess",
+  "one_liner": "A 22-year-old male presents with a painful, fluctuant swelling over his sacrococcygeal region with purulent drainage and fever.",
+  "stage2": {
+    "hpi_extension": "Patient reports a 5-day history of progressively worsening pain and swelling over his 'tailbone area.' The pain is constant, throbbing, rated 7/10, and worse with sitting and driving. He noticed the area becoming increasingly red and swollen over the past few days. Today he developed fever and chills, and noticed a small amount of foul-smelling yellowish drainage staining his underwear. He tried warm compresses at home without relief. He denies any history of trauma to the area, recent prolonged sitting (though he does sit for extended periods at his desk job), or prior similar episodes. He has not had any bowel changes, rectal bleeding, or perianal symptoms. He reports that he is quite hairy and noticed irritation in the area before the current episode.",
+    "pmh": "No significant past medical history",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 400 mg as needed (has been taking it for this pain)",
+    "allergies": "No known drug allergies",
+    "family_history": "No significant family history",
+    "social_history": "Non-smoker. Occasional social alcohol. Works as a software developer (prolonged sitting). Single. Physically active on weekends. No illicit drug use.",
+    "vitals": {
+      "temp": "100.9 F (38.3 C)",
+      "hr": "92 bpm",
+      "bp": "124/76 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "86 kg, BMI 26.8"
+    },
+    "physical_exam": "General: Young male in mild distress, preferring to stand rather than sit. HEENT: Unremarkable. Neck: Supple. Cardiovascular: Regular rate and rhythm. Pulmonary: Clear bilaterally. Abdomen: Soft, non-tender, non-distended. Normal bowel sounds. Sacrococcygeal region: A 4 x 3 cm erythematous, warm, fluctuant, and exquisitely tender mass is noted in the intergluteal cleft, approximately 5 cm superior to the anus. There are visible midline pits (small dimples) in the natal cleft. A small amount of purulent drainage is noted from one of the pits. Surrounding cellulitis extends 2 cm beyond the mass. No perianal fissures, fistulae, or hemorrhoids. Rectal exam: Normal tone, no tenderness anteriorly, no masses. Extremities: No abnormalities. Skin: Thick dark hair noted over the sacral region."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC - WBC", "result": "13.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis consistent with localized infection/abscess"},
+      {"test_name": "CBC - Hemoglobin", "result": "15.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with acute infection"},
+      {"test_name": "BMP - Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal, excludes diabetes as a predisposing factor"},
+      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with active infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "Ultrasound of Sacrococcygeal Region", "result": "A well-defined hypoechoic fluid collection measuring 3.8 x 2.6 x 2.2 cm within the subcutaneous tissue of the sacrococcygeal region. Internal echoes and debris consistent with abscess. No communication with the spinal canal or presacral space. No foreign body identified.", "flag": "ABNORMAL", "clinical_significance": "Confirms the presence of a subcutaneous abscess in the pilonidal region. Delineates the size and extent for surgical planning."}
+    ],
+    "key_tests": ["Physical examination (inspection and palpation of sacrococcygeal region)", "CBC with differential", "Wound culture (at time of incision and drainage)"],
+    "acceptable_tests": ["CRP/ESR", "BMP", "Blood glucose/HbA1c (to screen for diabetes)", "Ultrasound of the area (if diagnosis unclear)", "MRI (if complex or recurrent disease suspected)"],
+    "low_yield_tests": ["CT abdomen/pelvis (unnecessary for straightforward pilonidal abscess)", "Colonoscopy (no indication)", "Fistulography (not first-line)", "Barium enema (not indicated)"],
+    "final_clue": "Clinical examination reveals a classic pilonidal abscess: a fluctuant, erythematous mass in the sacrococcygeal midline with midline pits and purulent drainage. Ultrasound confirms a 3.8 cm subcutaneous abscess. This requires incision and drainage as definitive acute treatment."
+  },
+  "stage5": {
+    "final_clue": "Clinical examination reveals a classic pilonidal abscess: a fluctuant, erythematous mass in the sacrococcygeal midline with midline pits and purulent drainage. Ultrasound confirms a 3.8 cm subcutaneous abscess. This requires incision and drainage as definitive acute treatment."
+  },
+  "debrief": {
+    "classic_presentation": "A young (15-35 years old), hirsute male presents with a painful, fluctuant mass in the sacrococcygeal intergluteal cleft. Midline pits in the natal cleft are pathognomonic. Risk factors include male sex, obesity, sedentary occupation, local trauma, family history, and excessive body hair. Historically called 'Jeep driver's disease' due to high incidence in WWII military personnel who sat for prolonged periods in jeeps.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pilonidal disease results from loose hair shafts penetrating the skin of the natal cleft through midline pits. The hair acts as a foreign body, inciting a chronic inflammatory granulomatous reaction in the subcutaneous tissue. Bacterial colonization (usually mixed flora including Staphylococcus, anaerobes, and gram-negative organisms) leads to abscess formation. Friction, sweating, and the depth of the natal cleft contribute to hair impaction. The disease is acquired (not congenital), though midline pits may represent enlarged hair follicles or areas of follicular occlusion.",
+    "treatment_overview": "Acute pilonidal abscess: Incision and drainage under local anesthesia. The incision should ideally be made lateral to the midline (off-midline) to facilitate healing and reduce recurrence. Pack the wound open and allow healing by secondary intention. Wound care with daily packing changes. Oral antibiotics are generally not necessary unless significant surrounding cellulitis or immunocompromise. Definitive surgical management for chronic/recurrent disease includes excision with primary closure (off-midline techniques such as Karydakis flap or Limberg flap have lower recurrence than midline closure), marsupialization, or minimally invasive techniques (endoscopic pilonidal sinus treatment, pit picking). Hair removal (shaving or laser) of the sacrococcygeal area reduces recurrence.",
+    "high_yield_pearls": [
+      "Midline pits in the natal cleft are pathognomonic for pilonidal disease and distinguish it from perianal abscess or hidradenitis suppurativa.",
+      "Incision and drainage is the treatment for acute pilonidal abscess; definitive excision should not be performed during the acute phase.",
+      "Off-midline closure techniques (Karydakis flap, Limberg flap) have significantly lower recurrence rates than midline closure after excision.",
+      "Pilonidal disease is acquired, not congenital, despite the name ('pilus' = hair, 'nidus' = nest).",
+      "Recurrence rates are high (up to 40% after simple I&D), so patients should be counseled on hygiene, hair removal, and the potential need for definitive surgery."
+    ],
+    "sources": [
+      "Steele SR et al. Dis Colon Rectum 2013;56:1000-1007 (ASCRS Practice Parameters for Pilonidal Disease)",
+      "Schwartz's Principles of Surgery, 11th Edition, Ch. 30",
+      "Søndenaa K et al. Cochrane Database Syst Rev 2010 (Surgical interventions for pilonidal disease)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Pilonidal abscess", "Perianal abscess", "Hidradenitis suppurativa", "Furuncle/carbuncle", "Presacral dermoid cyst", "Sacrococcygeal teratoma"],
+    "after_stage2_more_likely": ["Pilonidal abscess", "Furuncle/carbuncle"],
+    "after_stage2_less_likely": ["Perianal abscess", "Sacrococcygeal teratoma"],
+    "after_labs_top3": ["Pilonidal abscess", "Furuncle/carbuncle", "Hidradenitis suppurativa"]
+  }
+}

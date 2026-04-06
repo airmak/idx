@@ -1,0 +1,110 @@
+{
+  "case_id": "case_125",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Nephrolithiasis — Calcium Oxalate Stone",
+  "icd_category": "N20.0 — Calculus of kidney",
+  "one_liner": "A 38-year-old male with a history of recurrent kidney stones presents with acute-onset severe left flank pain radiating to the groin.",
+  "stage2": {
+    "hpi_extension": "Patient reports sudden onset of severe, colicky left flank pain that started 3 hours ago and radiates to the left lower quadrant and groin. He rates it 9/10 and describes it as the worst pain of his life. He is unable to find a comfortable position. He has had 2 episodes of emesis. He noticed pink-tinged urine before coming to the ED. He reports a prior calcium oxalate stone 3 years ago that passed spontaneously. He admits to poor fluid intake and a diet high in red meat and spinach. No fever, dysuria, or urinary retention.",
+    "pmh": "Recurrent nephrolithiasis (1 prior stone), obesity, gout.",
+    "surgical_history": "None.",
+    "medications": "Ibuprofen PRN for joint pain, multivitamin with calcium.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father had kidney stones. Mother has type 2 diabetes.",
+    "social_history": "Software engineer. Drinks 2-3 cups of coffee daily, limited water intake. Occasional beer. No tobacco or illicit drugs.",
+    "vitals": {
+      "temp": "37.1°C (98.8°F)",
+      "hr": "102 bpm",
+      "bp": "152/90 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "98 kg, BMI 31.2"
+    },
+    "physical_exam": "Male in obvious distress, constantly shifting position on the bed. No diaphoresis. Heart: tachycardic, regular rhythm. Lungs: clear bilaterally. Abdomen: soft, non-distended, mild left lower quadrant tenderness, no rebound or guarding, no palpable masses. Severe left costovertebral angle tenderness on percussion. Genitourinary: no scrotal swelling or tenderness, cremasteric reflex intact bilaterally. Extremities: no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urinalysis", "result": "pH 5.5, >50 RBCs/hpf, no WBCs, no bacteria, calcium oxalate crystals (envelope-shaped)", "flag": "ABNORMAL", "clinical_significance": "Hematuria with calcium oxalate crystals strongly suggests calcium oxalate nephrolithiasis"},
+      {"test_name": "Serum Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; no evidence of obstructive nephropathy"},
+      {"test_name": "BUN", "result": "18 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Serum Calcium", "result": "10.4 mg/dL", "flag": "WNL", "clinical_significance": "Upper normal; should prompt evaluation for hypercalciuria"},
+      {"test_name": "Serum Uric Acid", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperuricemia may contribute to stone formation through heterogeneous nucleation"},
+      {"test_name": "Serum Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Serum Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — WBC", "result": "9,800/μL", "flag": "WNL", "clinical_significance": "No leukocytosis; argues against superimposed infection"},
+      {"test_name": "Serum Phosphorus", "result": "3.5 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "PTH (Parathyroid Hormone)", "result": "42 pg/mL", "flag": "WNL", "clinical_significance": "Normal; excludes primary hyperparathyroidism as a cause of stones"}
+    ],
+    "imaging_results": [
+      {"test_name": "Non-contrast CT Abdomen/Pelvis", "result": "5 mm radiopaque calculus in the left proximal ureter at the ureteropelvic junction with mild left-sided hydronephrosis. No additional stones. No other abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Gold standard imaging confirms obstructing ureteral stone; 5 mm stones have ~70% chance of spontaneous passage"},
+      {"test_name": "KUB X-ray", "result": "Radiopaque density projecting over the left renal area consistent with calcification.", "flag": "ABNORMAL", "clinical_significance": "Calcium oxalate stones are radiopaque on plain film; useful for follow-up monitoring"}
+    ],
+    "key_tests": [
+      "Non-contrast CT abdomen/pelvis (stone protocol)",
+      "Urinalysis with microscopy",
+      "Basic metabolic panel",
+      "Serum calcium"
+    ],
+    "acceptable_tests": [
+      "Complete blood count",
+      "Serum uric acid",
+      "PTH level",
+      "KUB radiograph",
+      "Urine culture",
+      "24-hour urine stone risk panel (for recurrent stone formers)"
+    ],
+    "low_yield_tests": [
+      "CT with contrast (contrast obscures stones)",
+      "MRI abdomen (poor sensitivity for stones)",
+      "Renal biopsy",
+      "Serum complement levels",
+      "ANCA panel"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A 5 mm obstructing left ureteral stone on non-contrast CT with calcium oxalate crystals on urinalysis, in a patient with recurrent stones, obesity, high-oxalate diet, and low fluid intake, confirms calcium oxalate nephrolithiasis."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged male with sudden-onset severe colicky flank pain radiating to the groin, with nausea/vomiting, hematuria, and inability to find a comfortable position. Risk factors include male sex, obesity, low fluid intake, high-protein and high-oxalate diet, and family history of stones.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Calcium oxalate stones form when urine becomes supersaturated with calcium and oxalate, creating crystals that aggregate into stones in the renal collecting system. Risk factors include low urine volume (dehydration), hypercalciuria, hyperoxaluria (dietary or enteric), hyperuricosuria (uric acid promotes calcium oxalate nucleation), and hypocitraturia (citrate inhibits crystallization). When a stone migrates from the kidney into the ureter, it causes obstruction and ureteral spasm, producing severe colicky pain that follows the dermatomal distribution of the ureter.",
+    "treatment_overview": "Acute management: aggressive pain control with NSAIDs (ketorolac first-line) and/or opioids, IV fluids, antiemetics. Medical expulsive therapy with tamsulosin (alpha-blocker) for distal ureteral stones <10 mm. Stones <5 mm usually pass spontaneously. Stones >10 mm or those causing persistent obstruction, infection, or intractable symptoms require urological intervention (shock wave lithotripsy or ureteroscopy). Prevention: increase fluid intake to >2.5 L/day, dietary modifications (reduce sodium and animal protein, increase citrus fruits), and potassium citrate for hypocitraturia.",
+    "high_yield_pearls": [
+      "Calcium oxalate stones are the most common type of kidney stone (~80%) and appear as envelope-shaped crystals on urinalysis.",
+      "Non-contrast CT abdomen/pelvis is the gold standard imaging study for nephrolithiasis (sensitivity >95%).",
+      "Stones <5 mm have a ~70-90% spontaneous passage rate; stones 5-10 mm have ~50% rate; stones >10 mm rarely pass and usually need intervention.",
+      "The three natural narrowing points where stones commonly lodge: ureteropelvic junction, pelvic brim (where ureter crosses iliac vessels), and ureterovesical junction.",
+      "Hypercalciuria is the most common metabolic abnormality in calcium stone formers. Thiazide diuretics reduce urinary calcium and are used for prevention."
+    ],
+    "sources": [
+      "AUA/Endourological Society Guideline: Surgical Management of Stones (2022)",
+      "UpToDate: Kidney stones in adults — diagnosis and acute management (2024)",
+      "Curhan GC. Epidemiology of stone disease. Urol Clin North Am. 2007;34(3):287-293."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Nephrolithiasis (calcium oxalate)",
+      "Ureteral colic (uric acid stone)",
+      "Pyelonephritis",
+      "Renal infarction",
+      "Abdominal aortic aneurysm",
+      "Appendicitis",
+      "Testicular torsion"
+    ],
+    "after_stage2_more_likely": [
+      "Nephrolithiasis — classic presentation with severe colicky flank pain radiating to groin, hematuria, CVA tenderness, history of prior stones",
+      "Ureteral colic — symptoms are consistent regardless of stone composition"
+    ],
+    "after_stage2_less_likely": [
+      "Testicular torsion — intact cremasteric reflex, no scrotal tenderness or swelling",
+      "Appendicitis — pain is left-sided and radiates to groin; no peritoneal signs"
+    ],
+    "after_labs_top3": [
+      "Calcium oxalate nephrolithiasis — calcium oxalate crystals on UA, obstructing stone on CT, radiopaque stone",
+      "Uric acid stone — hyperuricemia present but stone is radiopaque (uric acid stones are radiolucent)",
+      "Pyelonephritis — no fever, no WBCs in urine, no leukocytosis"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "case_id": "case_110",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Guillain-Barré syndrome",
+  "icd_category": "G61.0 — Guillain-Barré syndrome",
+  "one_liner": "A 42-year-old man presents with 4 days of progressive symmetric ascending weakness starting in the feet, now involving the thighs, with areflexia and tingling in the hands and feet, 2 weeks after a diarrheal illness.",
+  "stage2": {
+    "hpi_extension": "Two weeks ago, the patient had a 3-day episode of watery diarrhea, abdominal cramps, and low-grade fever that resolved spontaneously (likely Campylobacter gastroenteritis based on exposure history — ate undercooked chicken at a barbecue). Four days ago, he noticed tingling in both feet, followed by difficulty climbing stairs due to leg weakness. Over the past 2 days, the weakness has ascended to involve his thighs and he has difficulty standing from a seated position. This morning, he noticed tingling in his fingertips and mild hand weakness (difficulty opening jars). He denies facial weakness, difficulty swallowing, or shortness of breath, but his wife notes his voice sounds slightly nasal. He has not had urinary retention. No recent vaccinations. No tick exposure.",
+    "pmh": "Seasonal allergies. No prior neurological conditions.",
+    "surgical_history": "Right inguinal hernia repair age 35.",
+    "medications": "Cetirizine 10 mg daily PRN.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No neurological diseases. Father has type 2 diabetes.",
+    "social_history": "Electrician. Non-smoker. Social drinker (2-3 beers/week). Married with 2 children. No illicit drug use. No recent travel.",
+    "vitals": {
+      "temp": "98.8 F (37.1 C)",
+      "hr": "92 bpm",
+      "bp": "148/88 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "85 kg, BMI 27.1"
+    },
+    "physical_exam": "General: Alert, anxious-appearing man sitting in wheelchair. HEENT: Mild bilateral facial weakness (cannot fully bury eyelashes). Slight nasal speech. Gag reflex present but diminished bilaterally. Cranial nerves otherwise intact. Neuro: Motor — proximal and distal weakness in lower extremities: hip flexion 3/5, knee extension 3/5, ankle dorsiflexion 4-/5 bilaterally. Upper extremities: grip strength 4/5, shoulder abduction 4+/5 bilaterally. Sensory: Decreased vibration and light touch in a glove-and-stocking distribution (hands and feet). DTRs: Absent (0) at ankles, knees, biceps, and triceps bilaterally. Plantars: Mute (no response). Gait: Unable to walk independently — requires bilateral support. No ataxia when supported. Respiratory: Using accessory muscles slightly. Negative inspiratory force (NIF) = -35 cmH2O (borderline — normal > -60). Forced vital capacity (FVC) = 2.1 L (55% predicted)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "8,400/uL", "flag": "WNL", "clinical_significance": "Normal; no leukocytosis"},
+      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "137 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hypokalemic paralysis excluded"},
+      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "CK (Creatine kinase)", "result": "120 U/L", "flag": "WNL", "clinical_significance": "Normal; myopathy/rhabdomyolysis less likely"},
+      {"test_name": "CSF — Protein", "result": "118 mg/dL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated CSF protein with normal cell count = albuminocytologic dissociation, the hallmark CSF finding in GBS"},
+      {"test_name": "CSF — Cell count", "result": "3 WBCs/uL, 0 RBCs", "flag": "WNL", "clinical_significance": "Normal cell count; >50 WBCs should prompt reconsideration of GBS diagnosis (consider HIV, Lyme, CMV polyradiculopathy, carcinomatous meningitis)"},
+      {"test_name": "CSF — Glucose", "result": "64 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Anti-ganglioside antibodies (GM1)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Anti-GM1 antibodies are associated with AIDP and AMAN variants of GBS, often following Campylobacter infection"},
+      {"test_name": "Campylobacter jejuni stool PCR", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirms recent Campylobacter infection as the likely antecedent trigger for GBS via molecular mimicry"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI spine with contrast (lumbosacral)", "result": "Enhancement and thickening of the cauda equina nerve roots on post-gadolinium T1-weighted images. No cord compression or mass.", "flag": "ABNORMAL", "clinical_significance": "Nerve root enhancement reflects breakdown of the blood-nerve barrier and active inflammation, consistent with GBS. Helps exclude compressive myelopathy."}
+    ],
+    "key_tests": ["Lumbar puncture (CSF showing albuminocytologic dissociation)", "Nerve conduction studies / Electromyography (NCS/EMG)", "Serial respiratory monitoring (NIF and FVC every 4-6 hours)", "Detailed neurological exam including cranial nerves and respiratory function"],
+    "acceptable_tests": ["CBC", "BMP with potassium, calcium, magnesium", "CK level", "Anti-ganglioside antibodies (GM1, GQ1b, GD1a)", "MRI spine with contrast", "Stool culture or PCR for Campylobacter", "HIV test", "Lyme serology"],
+    "low_yield_tests": ["EEG", "CT head", "Serum protein electrophoresis", "ANA", "Muscle biopsy"],
+    "low_yield_tests_note": "EEG and CT head are not relevant for peripheral nervous system pathology."
+  },
+  "stage5": {
+    "final_clue": "Nerve conduction studies performed on hospital day 2 show prolonged distal motor latencies, slowed conduction velocities, conduction block, and temporal dispersion in multiple motor nerves bilaterally — consistent with acute inflammatory demyelinating polyneuropathy (AIDP), the most common GBS variant. CSF albuminocytologic dissociation (protein 118 mg/dL, 3 cells) and positive anti-GM1 antibodies following confirmed Campylobacter infection support the diagnosis. The patient is admitted to the ICU for respiratory monitoring (FVC trending downward) and started on intravenous immunoglobulin (IVIg) 0.4 g/kg/day for 5 days. His FVC nadirs at 1.8 L on day 3 but does not require intubation. He begins to improve by day 7 and is transferred to rehabilitation."
+  },
+  "debrief": {
+    "classic_presentation": "Adult presenting with progressive, symmetric, ascending weakness with areflexia (absent deep tendon reflexes), distal paresthesias, and possible cranial nerve involvement (facial diplegia, bulbar weakness), developing over days to 4 weeks following a preceding infection (especially Campylobacter jejuni gastroenteritis). CSF shows albuminocytologic dissociation (high protein, normal cell count) and NCS/EMG shows demyelinating features.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GBS is an acute, immune-mediated polyradiculoneuropathy triggered by molecular mimicry. Lipooligosaccharides on the surface of Campylobacter jejuni (or other pathogens: CMV, EBV, Zika, Mycoplasma) share structural homology with gangliosides on peripheral nerve myelin and axonal membranes. Cross-reactive antibodies (e.g., anti-GM1, anti-GD1a, anti-GQ1b) attack the peripheral nervous system. In AIDP (most common, ~85% in Western countries), macrophage-mediated demyelination of peripheral nerves predominates. In AMAN (axonal variant, more common in Asia and post-Campylobacter), antibodies target axonal gangliosides directly. Autonomic nerve involvement causes tachycardia, blood pressure lability, and arrhythmias.",
+    "treatment_overview": "Immunotherapy (start ASAP, most effective within 2 weeks of onset): IVIg 0.4 g/kg/day x 5 days OR plasma exchange (PLEX) x 5 sessions — both are equally effective. Do NOT combine IVIg and PLEX (no added benefit). Corticosteroids are NOT effective and should NOT be used. Respiratory monitoring: Check NIF and FVC every 4-6 hours. The '20/30/40 rule' for intubation: FVC <20 mL/kg, NIF > -30 cmH2O (less negative), or >30% decline from baseline. Autonomic monitoring: telemetry for arrhythmias. DVT prophylaxis. Pain management (neuropathic pain is common — gabapentin/pregabalin). Early rehabilitation. Most patients recover, but 20% have residual disability and 3-5% die (respiratory failure, autonomic instability, PE).",
+    "high_yield_pearls": [
+      "The '20/30/40 rule' guides intubation in GBS: FVC <20 mL/kg, NIF > -30 cmH2O (less negative), or >30% decline in FVC — do NOT rely on pulse oximetry, as desaturation is a late sign of respiratory failure in neuromuscular disease.",
+      "Albuminocytologic dissociation (elevated CSF protein + normal cell count) is the hallmark CSF finding — but may be NORMAL in the first week. If CSF cell count >50, reconsider diagnosis (HIV, Lyme, CMV, carcinomatous meningitis).",
+      "Corticosteroids are NOT effective in GBS and should not be given — this distinguishes GBS from CIDP (chronic inflammatory demyelinating polyneuropathy), which does respond to steroids.",
+      "Anti-GQ1b antibodies are associated with the Miller Fisher variant (ophthalmoplegia, ataxia, areflexia) — a useful serological clue.",
+      "Autonomic dysfunction occurs in 70% of GBS patients (tachycardia, BP lability, urinary retention, ileus, arrhythmias) and is a major cause of mortality — all GBS patients need telemetry monitoring."
+    ],
+    "sources": [
+      "Shahrizaila N, et al. Guillain-Barré syndrome. Lancet. 2021",
+      "AAN Practice Parameter: Immunotherapy for GBS, 2012",
+      "UpToDate: Guillain-Barré syndrome in adults — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Guillain-Barré syndrome", "Transverse myelitis", "Myasthenia gravis", "Hypokalemic periodic paralysis", "Acute inflammatory myopathy (polymyositis)", "Botulism", "Tick paralysis", "Chronic inflammatory demyelinating polyneuropathy (CIDP)"],
+    "after_stage2_more_likely": ["Guillain-Barré syndrome", "Transverse myelitis"],
+    "after_stage2_less_likely": ["Hypokalemic periodic paralysis", "Myasthenia gravis", "Botulism"],
+    "after_labs_top3": ["Guillain-Barré syndrome", "Chronic inflammatory demyelinating polyneuropathy", "Transverse myelitis"]
+  }
+}

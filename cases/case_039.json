@@ -1,0 +1,77 @@
+{
+  "case_id": "case_039",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Adrenal Crisis",
+  "icd_category": "E27.2 — Addisonian crisis",
+  "one_liner": "A 52-year-old female on chronic prednisone for rheumatoid arthritis presents with profound hypotension, confusion, and abdominal pain after abruptly stopping her steroids one week ago.",
+  "stage2": {
+    "hpi_extension": "Patient has been on prednisone 20 mg daily for the past 8 months for severe rheumatoid arthritis. She ran out of her prescription one week ago and could not get a refill due to a lapsed insurance plan. Over the past 3 days, she has developed progressive fatigue, diffuse weakness, nausea, vomiting (4-5 episodes daily), and diffuse abdominal pain. She was found by her sister this morning confused and barely responsive on her couch. She has had no oral intake for 2 days. She reports progressively worsening joint pains since stopping the prednisone. Denies fever, cough, chest pain, or urinary symptoms. No diarrhea. No recent surgeries, trauma, or infections. She has lost approximately 8 pounds in the past week.",
+    "pmh": "Rheumatoid arthritis (severe, seropositive), osteoporosis, depression, hypothyroidism",
+    "surgical_history": "Right total knee replacement 2 years ago, bilateral carpal tunnel release",
+    "medications": "Prednisone 20 mg daily (STOPPED 1 week ago), methotrexate 15 mg weekly, levothyroxine 100 mcg daily, sertraline 100 mg daily, calcium/vitamin D",
+    "allergies": "Aspirin (GI upset)",
+    "family_history": "Mother had rheumatoid arthritis. No family history of endocrine disorders.",
+    "social_history": "Non-smoker. No alcohol. Former librarian, now on disability. Lives alone. No illicit drug use.",
+    "vitals": {
+      "temp": "96.8 F (36.0 C)",
+      "hr": "124 bpm",
+      "bp": "72/42 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "58 kg, BMI 22.1"
+    },
+    "physical_exam": "General: Cachectic, lethargic female. Minimally responsive, moaning. Appears profoundly dehydrated. HEENT: Sunken eyes. Dry, cracked mucous membranes. No hyperpigmentation of buccal mucosa (secondary adrenal insufficiency). Neck: Supple. No thyromegaly. Cardiovascular: Tachycardic, regular rhythm. Distant heart sounds. No murmurs. Weak, thready peripheral pulses. Pulmonary: Clear to auscultation bilaterally. Abdomen: Diffusely tender, more pronounced in the periumbilical region. No rebound or guarding. No rigidity. Hypoactive bowel sounds. Extremities: Cool, mottled. Capillary refill 5 seconds. Joint deformities consistent with RA (ulnar deviation, swan neck deformity of fingers). Skin: Pale, no hyperpigmentation (distinguishes from primary adrenal insufficiency). Dry skin, poor turgor. Neuro: GCS 11 (E3V3M5). Lethargic but arousable. Confused, unable to follow commands. No focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Random Cortisol", "result": "1.2 mcg/dL", "flag": "LOW", "clinical_significance": "Critically low cortisol (<3 mcg/dL in critically ill patient is diagnostic of adrenal insufficiency)"},
+      {"test_name": "ACTH", "result": "8 pg/mL", "flag": "LOW", "clinical_significance": "Low ACTH with low cortisol confirms SECONDARY adrenal insufficiency (HPA axis suppression from chronic steroids)"},
+      {"test_name": "BMP - Sodium", "result": "124 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia from cortisol deficiency and impaired free water excretion"},
+      {"test_name": "BMP - Potassium", "result": "5.8 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from cortisol deficiency (though less severe than in primary AI due to intact aldosterone in secondary AI — this case has additional factors)"},
+      {"test_name": "BMP - Glucose", "result": "52 mg/dL", "flag": "LOW", "clinical_significance": "Hypoglycemia from cortisol deficiency and poor oral intake"},
+      {"test_name": "BMP - Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from hypoperfusion"},
+      {"test_name": "BMP - Creatinine", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "AKI from dehydration and hypoperfusion"},
+      {"test_name": "BMP - BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia"},
+      {"test_name": "CBC - WBC", "result": "3.8 x10^9/L", "flag": "LOW", "clinical_significance": "Leukopenia; eosinophilia may be present with cortisol deficiency"},
+      {"test_name": "CBC - Eosinophils", "result": "12%", "flag": "HIGH", "clinical_significance": "Relative eosinophilia from cortisol deficiency (cortisol normally suppresses eosinophils)"},
+      {"test_name": "TSH", "result": "6.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; cortisol deficiency can increase TSH"},
+      {"test_name": "Lactate", "result": "4.6 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue hypoperfusion due to refractory hypotension"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "No acute cardiopulmonary process. Small cardiac silhouette.", "flag": "WNL", "clinical_significance": "Small heart may reflect chronic volume depletion; no pneumonia"},
+      {"test_name": "CT Abdomen/Pelvis", "result": "Normal-appearing adrenal glands (no hemorrhage, no masses). No acute intra-abdominal pathology. Diffusely decompressed bowel.", "flag": "WNL", "clinical_significance": "Normal adrenal glands expected in secondary adrenal insufficiency (pathology is at pituitary/HPA level, not adrenal)"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 124 bpm. Peaked T waves in V2-V4 (hyperkalemia).", "flag": "ABNORMAL", "clinical_significance": "ECG changes from hyperkalemia require monitoring; tachycardia from hypovolemia"}
+    ],
+    "key_tests": ["Random cortisol level", "ACTH level", "BMP (sodium, potassium, glucose)", "Point-of-care glucose", "ECG"],
+    "acceptable_tests": ["CBC with differential", "Lactate", "TSH", "Chest X-ray", "CT abdomen/pelvis (to rule out other causes)", "Blood cultures (to exclude sepsis)", "VBG"],
+    "low_yield_tests": ["ACTH stimulation test (do not delay treatment; can be done later)", "Adrenal CT with contrast", "Aldosterone/Renin ratio", "MRI pituitary (not acute)", "DHEA-S"]
+  },
+  "stage5": {
+    "final_clue": "Critically low random cortisol (1.2 mcg/dL) with low ACTH in a patient on chronic steroids who abruptly stopped prednisone one week ago. The triad of refractory hypotension, hyponatremia, and hypoglycemia in this context is diagnostic of adrenal crisis from secondary adrenal insufficiency. Immediate IV hydrocortisone is life-saving."
+  },
+  "debrief": {
+    "classic_presentation": "Severe hypotension refractory to IV fluids, with altered mental status, nausea, vomiting, abdominal pain, and dehydration. Labs show hyponatremia, hyperkalemia (more prominent in primary AI), and hypoglycemia. In secondary AI (chronic steroid use), hyperpigmentation is ABSENT (unlike Addison disease). Precipitants include abrupt steroid discontinuation, physiological stress (surgery, infection, trauma), or pituitary pathology.",
+    "attending_mode_notes": "This case is challenging because the presentation mimics sepsis, acute abdomen, or severe dehydration. The key to diagnosis is recognizing the history of chronic steroid use with abrupt discontinuation. The absence of hyperpigmentation distinguishes secondary (pituitary) from primary (adrenal) insufficiency. Hypotension refractory to fluid resuscitation in the absence of a clear infectious or hemorrhagic source should always prompt consideration of adrenal crisis. Empiric steroids should be given BEFORE diagnostic confirmation.",
+    "pathophysiology": "Chronic exogenous corticosteroid use suppresses the hypothalamic-pituitary-adrenal (HPA) axis via negative feedback. The adrenal glands atrophy from disuse. Abrupt withdrawal leaves the patient unable to produce adequate cortisol, which is essential for maintaining vascular tone, cardiac contractility, hepatic gluconeogenesis, and immune modulation. The resulting cortisol deficiency causes vasodilation, cardiovascular collapse, hypoglycemia, and electrolyte derangements. HPA axis suppression can occur after >3 weeks of supraphysiologic steroid use and may take 6-12 months to recover.",
+    "treatment_overview": "Immediate: IV hydrocortisone 100 mg bolus, then 50 mg IV every 8 hours (or continuous infusion 200 mg/24 hours). Do NOT wait for lab confirmation. Aggressive IV fluid resuscitation with D5NS (addresses hypovolemia, hyponatremia, and hypoglycemia simultaneously). Correct hypoglycemia with IV dextrose. Treat hyperkalemia if ECG changes present (calcium gluconate, insulin/dextrose). Do NOT give mineralocorticoid in acute setting (hydrocortisone at stress doses has sufficient mineralocorticoid activity). Once stable, taper to oral hydrocortisone maintenance and slowly taper to allow HPA axis recovery. Educate on stress dosing and medical alert identification.",
+    "high_yield_pearls": [
+      "Any patient on >3 weeks of prednisone >=7.5 mg/day (or equivalent) is at risk for HPA axis suppression and should never abruptly stop steroids.",
+      "In adrenal crisis, give hydrocortisone FIRST, diagnose LATER — delay in treatment is lethal.",
+      "Secondary adrenal insufficiency (from chronic steroids) does NOT cause hyperpigmentation (ACTH is low, not high).",
+      "Aldosterone secretion is relatively preserved in secondary AI (RAAS-driven), so hyperkalemia is less prominent than in primary AI.",
+      "Stress dosing rule: double or triple the daily steroid dose during illness; give IV hydrocortisone 100 mg for major surgery or critical illness."
+    ],
+    "sources": [
+      "Bornstein SR et al. J Clin Endocrinol Metab 2016;101:364-389 (Endocrine Society Clinical Practice Guideline)",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 224",
+      "Rushworth RL et al. Endocr Rev 2019;40:336-370"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Adrenal crisis", "Septic shock", "Acute abdomen (perforated viscus)", "Severe dehydration/hypovolemic shock", "Myxedema coma", "Diabetic ketoacidosis", "Opioid overdose"],
+    "after_stage2_more_likely": ["Adrenal crisis", "Septic shock", "Severe dehydration"],
+    "after_stage2_less_likely": ["Acute abdomen", "Myxedema coma", "Opioid overdose"],
+    "after_labs_top3": ["Adrenal crisis (secondary AI)", "HPA axis suppression with acute adrenal insufficiency", "Septic shock with adrenal insufficiency"]
+  }
+}

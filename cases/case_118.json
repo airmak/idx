@@ -1,0 +1,73 @@
+{
+  "case_id": "case_118",
+  "mode": "attending",
+  "specialty": "Neurology",
+  "diagnosis": "Progressive supranuclear palsy",
+  "icd_category": "G23.1 — Progressive supranuclear palsy [Steele-Richardson-Olszewski]",
+  "one_liner": "A 71-year-old man presents with recurrent unexplained backward falls, progressive difficulty looking downward, personality changes with apathy, and symmetric parkinsonism poorly responsive to levodopa.",
+  "stage2": {
+    "hpi_extension": "The patient's wife reports that over the past 18 months, her husband has had progressive balance problems with frequent falls. Notably, the falls tend to be BACKWARD — he has fallen backward off chairs, on stairs, and while standing, sustaining a scalp laceration 2 months ago. He has difficulty looking down at his plate while eating and reading a book in his lap (has to tilt his entire head down). His speech has become slow and slurred. His wife describes personality changes: he has become apathetic, less spontaneous, and occasionally impulsive (making inappropriate comments). He moves slowly and appears stiff, but never had a tremor. His PCP started him on carbidopa-levodopa 25/100 TID 4 months ago with no meaningful improvement. He has had occasional choking episodes while drinking liquids. No hallucinations, fluctuating cognition, or REM sleep behavior disorder.",
+    "pmh": "Hypertension, osteoarthritis of the knees.",
+    "surgical_history": "Right knee arthroscopy age 60.",
+    "medications": "Carbidopa-levodopa 25/100 TID (no benefit), amlodipine 5 mg daily, acetaminophen PRN.",
+    "allergies": "No known drug allergies.",
+    "family_history": "No neurological diseases. Mother died of stroke at 78.",
+    "social_history": "Retired police officer. Former smoker (quit 20 years ago, 15 pack-years). No alcohol. Married. Requires assistance with ADLs. Uses a walker. No illicit drug use.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "70 bpm",
+      "bp": "136/80 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "76 kg, BMI 25.3"
+    },
+    "physical_exam": "General: Elderly man with erect (not stooped) posture, staring expression with wide-eyed surprised look, deep facial furrows. HEENT: Retrocollis (neck extension). Cranial nerves: VERTICAL GAZE PALSY — marked restriction of voluntary DOWNWARD gaze; moderate restriction of upward gaze. Saccades markedly slow vertically, relatively preserved horizontally. IMPORTANTLY: Vertical eye movements improve with oculocephalic (doll's eyes) maneuver, confirming the gaze palsy is SUPRANUCLEAR (not nuclear or infranuclear). Square-wave jerks on fixation. No nystagmus. Frontalis overactivity (contributing to surprised expression). Dysarthria — slow, strained, spastic quality. Neuro: Motor — symmetric axial and limb rigidity, predominantly axial. NO resting tremor. Bradykinesia present but symmetric (symmetric parkinsonism). Neck rigidity more prominent than limb rigidity (axial > appendicular). Motor strength 5/5 throughout. Gait: Stiff, wide-based gait. Tendency to fall BACKWARD (retropulsion) on pull test — takes no corrective steps. Uses walker. No festination. DTRs: 3+ throughout. Babinski positive bilaterally. Frontal release signs: Positive grasp, palmomental, and applause sign (cannot stop clapping after 3 claps). Cognitive: Impaired verbal fluency, impaired abstraction, reduced processing speed. MMSE 23/30. Personality: Apathetic, reduced spontaneous speech."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "7,000/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP — Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "2.6 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Vitamin B12", "result": "420 pg/mL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Neurosyphilis excluded"},
+      {"test_name": "Ceruloplasmin", "result": "30 mg/dL", "flag": "WNL", "clinical_significance": "Normal; Wilson disease excluded"},
+      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI brain", "result": "Midbrain atrophy with reduced AP diameter. On sagittal view, concavity of the superior midbrain surface (hummingbird sign/penguin sign). On axial view, reduced midbrain to pons ratio (morning glory sign). Mild frontal cortical atrophy. No mass, hydrocephalus, or vascular lesions.", "flag": "ABNORMAL", "clinical_significance": "The hummingbird sign (selective midbrain atrophy seen on midsagittal MRI) is characteristic of PSP. The midbrain tegmentum atrophy correlates with the vertical gaze palsy (damage to the rostral interstitial nucleus of the MLF and related structures)."},
+      {"test_name": "DaTscan (dopamine transporter SPECT)", "result": "Symmetric reduction in dopamine transporter uptake in both putamina.", "flag": "ABNORMAL", "clinical_significance": "Confirms nigrostriatal dopaminergic degeneration. However, DaTscan cannot distinguish PSP from PD — both show reduced uptake. The symmetric pattern is more suggestive of PSP (PD is typically asymmetric)."}
+    ],
+    "key_tests": ["Detailed neuro-ophthalmological examination (vertical supranuclear gaze palsy)", "MRI brain (hummingbird sign on sagittal, midbrain atrophy)", "Levodopa challenge test (poor response supports PSP over PD)", "Neuropsychological testing (frontal-subcortical pattern)", "Assessment of fall direction (backward falls characteristic)"],
+    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "RPR", "Ceruloplasmin", "DaTscan (to confirm dopaminergic deficit)", "PET scan (tau PET if available)", "Swallowing evaluation (videofluoroscopy)"],
+    "low_yield_tests": ["Lumbar puncture", "EEG", "EMG/NCS", "Genetic testing (PSP is almost always sporadic)", "Paraneoplastic antibody panel"],
+    "low_yield_tests_note": "PSP is a clinical diagnosis — no definitive biomarker exists. The MDS-PSP diagnostic criteria (2017) rely on clinical features and MRI support."
+  },
+  "stage5": {
+    "final_clue": "The combination of vertical supranuclear gaze palsy (predominantly downward, improving with oculocephalic maneuver), early postural instability with unexplained backward falls (within the first year), symmetric akinetic-rigid parkinsonism without tremor, poor levodopa response, axial predominant rigidity with retrocollis, frontal cognitive-behavioral syndrome (apathy, executive dysfunction), pseudobulbar features (dysarthria, dysphagia), and MRI showing the hummingbird sign confirms the diagnosis of probable PSP-Richardson syndrome per the MDS-PSP 2017 criteria. The patient is counseled about the progressive nature of the disease (median survival 6-7 years from onset). Levodopa is discontinued given lack of benefit. Management focuses on fall prevention (home safety evaluation, hip protectors), speech therapy, swallowing precautions to prevent aspiration pneumonia, and physical therapy for balance. Advance care planning is initiated."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly patient (>60) with early unexplained backward falls, vertical supranuclear gaze palsy (especially downward, correctable with oculocephalic maneuver), symmetric axial-predominant rigidity with retrocollis (not stooped posture), frontal behavioral changes (apathy, impulsivity), pseudobulbar palsy, poor levodopa response, and MRI showing the hummingbird sign (midbrain atrophy). The 'surprised' facial expression (due to frontalis overactivity and lid retraction) is characteristic.",
+    "attending_mode_notes": "This case tests the ability to differentiate PSP from idiopathic Parkinson disease and other atypical parkinsonian syndromes. Key PSP red flags that distinguish it from PD: (1) EARLY falls (within first year — PD falls are late), (2) Falls are BACKWARD (PD falls are forward), (3) NO tremor (PD has resting tremor in 70%), (4) SYMMETRIC symptoms (PD is asymmetric), (5) Axial > limb rigidity with retrocollis (PD has limb rigidity and stooped posture), (6) Vertical supranuclear gaze palsy (absent in PD), (7) Poor levodopa response (PD has robust response). The attending-level pitfall is attributing the early falls to 'aging' or orthopedic causes before recognizing the neurological syndrome. Also critical to recognize that the supranuclear nature of the gaze palsy (preserved doll's eyes) localizes the lesion to the supranuclear pathways, not the brainstem nuclei — this distinction separates PSP from pontine lesions.",
+    "pathophysiology": "PSP is a primary 4-repeat (4R) tauopathy characterized by abnormal hyperphosphorylated tau accumulation in neurons and glial cells (tufted astrocytes are pathognomonic). The predominant tau isoforms are 4-repeat tau (distinguishing it from Alzheimer disease, which has 3R+4R tau). Neurodegeneration preferentially affects the midbrain (substantia nigra, superior colliculus, rostral interstitial nucleus of the medial longitudinal fasciculus — explaining vertical gaze palsy), subthalamic nucleus, globus pallidus, frontal cortex, and cerebellar dentate nucleus. The rostral interstitial nucleus of the MLF (riMLF) controls vertical saccades — its damage produces the characteristic vertical supranuclear gaze palsy (downward gaze affected earlier because downward saccade pathways are more compact and vulnerable). Frontal cortical and subcortical tau deposition explains the executive dysfunction, apathy, and behavioral changes.",
+    "treatment_overview": "No disease-modifying therapy exists. Treatment is purely symptomatic and supportive. Levodopa: Trial is warranted (some patients have mild, transient response), but most show poor or no benefit — discontinue if no improvement after adequate trial. Amantadine: May provide mild benefit for rigidity in some patients. Botulinum toxin: For retrocollis, blepharospasm, or limb dystonia. Fall prevention: Home safety evaluation, physical therapy (balance training), hip protectors, appropriate assistive devices. Dysphagia management: Speech-language pathology, swallowing evaluation, diet modification, PEG tube consideration as disease progresses. Depression/apathy: SSRIs may help. Advance care planning: Discuss goals of care early — median survival 6-7 years from symptom onset. Leading cause of death: aspiration pneumonia.",
+    "high_yield_pearls": [
+      "Early unexplained backward falls are the hallmark of PSP — if an elderly patient presents with falls within the first year of parkinsonism, think PSP before PD.",
+      "Vertical supranuclear gaze palsy in PSP is SUPRANUCLEAR — voluntary vertical saccades are impaired but reflexive eye movements (doll's eyes/oculocephalic maneuver) are PRESERVED. This distinguishes it from nuclear or infranuclear causes.",
+      "The 'hummingbird sign' (or penguin sign) on midsagittal MRI reflects selective midbrain atrophy with preserved pons — it is the characteristic imaging finding of PSP.",
+      "PSP is a 4-repeat tauopathy with tufted astrocytes as the pathognomonic histological finding — this distinguishes it from corticobasal degeneration (also 4R tau but with astrocytic plaques) and Alzheimer disease (3R+4R tau with neurofibrillary tangles).",
+      "The 'applause sign' (inability to stop clapping after 3 claps — the patient continues clapping 4+ times) reflects frontal lobe dysfunction and motor perseveration, and is relatively specific for PSP among parkinsonian syndromes."
+    ],
+    "sources": [
+      "Hoglinger GU, et al. MDS Clinical Diagnostic Criteria for Progressive Supranuclear Palsy. Movement Disorders, 2017",
+      "Boxer AL, et al. Advances in progressive supranuclear palsy. Lancet Neurol. 2017",
+      "UpToDate: Progressive supranuclear palsy — clinical features and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Progressive supranuclear palsy", "Parkinson disease", "Multiple system atrophy", "Corticobasal degeneration", "Normal pressure hydrocephalus", "Vascular parkinsonism", "Dementia with Lewy bodies"],
+    "after_stage2_more_likely": ["Progressive supranuclear palsy", "Corticobasal degeneration"],
+    "after_stage2_less_likely": ["Parkinson disease", "Normal pressure hydrocephalus", "Dementia with Lewy bodies"],
+    "after_labs_top3": ["Progressive supranuclear palsy", "Corticobasal degeneration", "Multiple system atrophy"]
+  }
+}

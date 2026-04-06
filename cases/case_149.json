@@ -1,0 +1,104 @@
+{
+  "case_id": "case_149",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Clostridioides difficile infection",
+  "icd_category": "A04.72 — Enterocolitis due to Clostridioides difficile, not specified as recurrent",
+  "one_liner": "A 68-year-old female presents with profuse watery diarrhea, crampy abdominal pain, and low-grade fever 5 days after completing a course of clindamycin for a dental abscess.",
+  "stage2": {
+    "hpi_extension": "The patient completed a 7-day course of clindamycin 4 days ago for a dental abscess. Two days ago, she developed watery, non-bloody diarrhea (8-10 episodes per day), crampy lower abdominal pain, low-grade fevers, and nausea. The stool is greenish and foul-smelling. She denies vomiting, hematemesis, or melena. She has not traveled recently and has no sick contacts with similar symptoms. She was hospitalized 3 months ago for a hip fracture and received perioperative IV cefazolin. She reports decreased oral intake and mild dizziness when standing.",
+    "pmh": "Osteoporosis, hypertension, gastroesophageal reflux disease, right hip fracture (3 months ago).",
+    "surgical_history": "Right hip open reduction internal fixation (3 months ago).",
+    "medications": "Alendronate 70 mg weekly, omeprazole 20 mg daily, lisinopril 10 mg daily, calcium/vitamin D supplement.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired librarian. Lives alone. Non-smoker. No alcohol. No illicit drugs. Independent with ADLs.",
+    "vitals": {
+      "temp": "38.2°C (100.8°F)",
+      "hr": "96 bpm",
+      "bp": "108/62 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "62 kg, BMI 25.4"
+    },
+    "physical_exam": "Elderly female appearing mildly dehydrated. Dry mucous membranes. Abdomen soft, diffusely tender to palpation, more prominent in the lower quadrants. Mild distension. Active bowel sounds. No peritoneal signs, no guarding or rigidity. No rectal tenderness on exam. Stool is watery and greenish. No skin rash. No lower extremity edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "C. difficile PCR (Stool NAAT)", "result": "Positive for toxigenic C. difficile (tcdB gene detected)", "flag": "ABNORMAL", "clinical_significance": "Confirms presence of toxigenic C. difficile; in context of compatible symptoms, diagnostic of CDI"},
+      {"test_name": "C. difficile Toxin EIA (A/B)", "result": "Positive for toxin A and B", "flag": "ABNORMAL", "clinical_significance": "Positive toxin assay confirms active toxin production, supporting CDI diagnosis"},
+      {"test_name": "CBC — WBC", "result": "16,400/μL with 80% neutrophils", "flag": "HIGH", "clinical_significance": "Leukocytosis common in CDI; WBC >15,000 is a severity marker"},
+      {"test_name": "Serum Creatinine", "result": "1.4 mg/dL (baseline 0.9)", "flag": "HIGH", "clinical_significance": "Acute kidney injury from dehydration; creatinine >1.5x baseline is a severity criterion"},
+      {"test_name": "Serum Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from protein-losing enteropathy and decreased intake; albumin <2.5 is a severity marker"},
+      {"test_name": "BMP — Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from profuse diarrhea"},
+      {"test_name": "Serum Lactate", "result": "1.4 mmol/L", "flag": "WNL", "clinical_significance": "Normal lactate; elevated lactate would suggest fulminant disease"},
+      {"test_name": "CRP", "result": "68 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with colonic inflammation"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Diffuse colonic wall thickening (up to 8 mm) involving the entire colon, with pericolonic fat stranding and mild ascites. No pneumatosis, free air, or megacolon. No small bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Pancolitis consistent with C. difficile colitis; no evidence of toxic megacolon or perforation"}
+    ],
+    "key_tests": [
+      "Stool testing for C. difficile: NAAT (PCR) and/or toxin EIA (multi-step algorithm preferred)",
+      "CBC with differential (WBC >15,000 indicates severity)",
+      "Basic metabolic panel (creatinine for severity assessment)"
+    ],
+    "acceptable_tests": [
+      "Serum albumin (severity marker)",
+      "Serum lactate (if concern for fulminant disease)",
+      "CT abdomen/pelvis (if concern for complications: megacolon, perforation, ileus)",
+      "CRP",
+      "Stool for ova and parasites (if travel history or immunocompromised)",
+      "Blood cultures (if systemic toxicity)"
+    ],
+    "low_yield_tests": [
+      "Stool culture for C. difficile (too slow, not recommended for acute diagnosis)",
+      "Repeat C. difficile testing during same episode (test of cure not recommended)",
+      "Colonoscopy (risk of perforation; reserved for diagnostic uncertainty)",
+      "Abdominal X-ray (CT is preferred if imaging needed)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A hospitalized elderly patient on a PPI with recent antibiotic exposure (clindamycin and prior cefazolin) presenting with profuse watery diarrhea, abdominal pain, and fever. Stool PCR and toxin EIA both positive for C. difficile. WBC 16,400, creatinine elevated above baseline, low albumin, and CT showing pancolitis without megacolon. This is a non-severe to moderate C. difficile infection based on IDSA severity criteria."
+  },
+  "debrief": {
+    "classic_presentation": "Profuse watery (rarely bloody) diarrhea (often foul-smelling and greenish) with crampy abdominal pain, fever, and leukocytosis developing during or within 4-8 weeks after antibiotic exposure. The highest-risk antibiotics are fluoroquinolones, clindamycin, and broad-spectrum cephalosporins. Additional risk factors include age >65, recent hospitalization, PPI use, and immunosuppression. Severe disease features include WBC >15,000, creatinine ≥1.5 mg/dL, and albumin <2.5 g/dL.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Clostridioides difficile is an anaerobic, spore-forming, gram-positive bacillus. Antibiotics disrupt the normal gut microbiome, reducing colonization resistance and allowing C. difficile spores (acquired from the environment or endogenous carriage) to germinate and proliferate. Pathogenic strains produce two large clostridial toxins: Toxin A (TcdA, enterotoxin) and Toxin B (TcdB, cytotoxin). These toxins glucosylate Rho GTPases in colonocytes, disrupting the actin cytoskeleton, causing cell rounding, tight junction disruption, and massive fluid secretion. The resulting inflammation produces pseudomembranes (raised yellow-white plaques of fibrin, mucus, neutrophils, and cellular debris) characteristic of pseudomembranous colitis. The hypervirulent NAP1/BI/027 strain produces more toxin and the additional binary toxin CDT, and is associated with severe disease and outbreaks. Spores are resistant to alcohol-based hand sanitizers, necessitating soap-and-water handwashing.",
+    "treatment_overview": "Initial episode, non-severe (WBC ≤15,000, Cr <1.5): fidaxomicin 200 mg PO BID for 10 days (preferred) or vancomycin 125 mg PO QID for 10 days. Severe (WBC >15,000 or Cr ≥1.5): vancomycin 125 mg PO QID for 10 days or fidaxomicin. Fulminant (hypotension, ileus, megacolon): vancomycin 500 mg PO/NG QID + vancomycin 500 mg per rectum Q6h + IV metronidazole 500 mg Q8h; urgent surgical consultation for colectomy if not improving. Discontinue the inciting antibiotic if possible. Do NOT use antimotility agents (loperamide). Correct electrolytes and rehydrate. Contact precautions with soap-and-water hand hygiene (alcohol-based sanitizers do not kill spores). Consider fecal microbiota transplant (FMT) for recurrent CDI (≥2 recurrences). Avoid unnecessary PPIs. This patient: fidaxomicin or oral vancomycin; replete potassium; IV fluids.",
+    "high_yield_pearls": [
+      "The highest-risk antibiotics for CDI are fluoroquinolones, clindamycin, and broad-spectrum cephalosporins, but virtually any antibiotic (including vancomycin and metronidazole) can trigger CDI.",
+      "Do NOT test for C. difficile in formed stools — only test diarrheal (unformed) stool. Do not perform test of cure after treatment.",
+      "Oral vancomycin (NOT IV) is the correct route for CDI treatment — IV vancomycin does not reach adequate colonic concentrations. Fidaxomicin is preferred for initial episode due to lower recurrence rates.",
+      "PPI use is an independent risk factor for CDI; reassess PPI necessity in all CDI patients.",
+      "Alcohol-based hand sanitizers do NOT kill C. difficile spores — soap and water with mechanical friction is required for hand hygiene in CDI."
+    ],
+    "sources": [
+      "McDonald LC et al. Clinical Practice Guidelines for Clostridioides difficile Infection in Adults and Children: 2017 Update by IDSA and SHEA. Clin Infect Dis. 2018;66(7):e1-e48.",
+      "Johnson S et al. Clinical Practice Guideline by the IDSA and SHEA: 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults. Clin Infect Dis. 2021;73(5):e1029-e1044.",
+      "UpToDate: Clostridioides difficile infection in adults — Clinical manifestations and diagnosis (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Clostridioides difficile infection",
+      "Antibiotic-associated diarrhea (non-CDI)",
+      "Infectious gastroenteritis (viral or bacterial)",
+      "Ischemic colitis",
+      "Inflammatory bowel disease flare",
+      "Microscopic colitis"
+    ],
+    "after_stage2_more_likely": [
+      "C. difficile infection — profuse watery diarrhea with abdominal pain and fever after clindamycin use in an elderly patient with recent hospitalization and PPI use; textbook risk factor profile",
+      "Antibiotic-associated diarrhea (non-CDI) — antibiotic-related disruption of gut flora, but typically milder and without fever"
+    ],
+    "after_stage2_less_likely": [
+      "Ischemic colitis — typically presents with bloody diarrhea and left-sided pain; no clear vascular risk factors beyond age",
+      "Infectious gastroenteritis — no sick contacts, no travel, no food exposure history; timing strongly implicates antibiotic-associated etiology"
+    ],
+    "after_labs_top3": [
+      "C. difficile infection — positive stool PCR and toxin EIA, leukocytosis, AKI, pancolitis on CT, classic clinical and epidemiologic context",
+      "Ischemic colitis — excluded by CT showing pancolitis (ischemic colitis is typically segmental) and confirmed CDI testing",
+      "IBD flare — no prior IBD history; positive CDI testing explains the presentation"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "case_id": "case_126",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Acute Pyelonephritis",
+  "icd_category": "N10 — Acute tubulo-interstitial nephritis (pyelonephritis)",
+  "one_liner": "A 28-year-old woman with a history of recurrent UTIs presents with fever, right flank pain, and dysuria for 2 days.",
+  "stage2": {
+    "hpi_extension": "The patient reports 3 days of urinary frequency, urgency, and burning with urination, followed by the onset of right-sided flank pain, fevers up to 39.4°C, chills, and rigors over the past 2 days. She has had nausea with one episode of vomiting. She has had 4 UTIs in the past 2 years, all treated with oral antibiotics. She is sexually active with one male partner and uses oral contraceptive pills. She denies vaginal discharge, hematuria, or recent urinary instrumentation.",
+    "pmh": "Recurrent urinary tract infections, irritable bowel syndrome.",
+    "surgical_history": "None.",
+    "medications": "Combined oral contraceptive pill.",
+    "allergies": "Sulfonamides (rash).",
+    "family_history": "Mother with recurrent UTIs. No family history of kidney disease.",
+    "social_history": "Graduate student. Non-smoker, occasional alcohol use. Sexually active with one partner. No illicit drug use.",
+    "vitals": {
+      "temp": "39.2°C (102.6°F)",
+      "hr": "112 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "20 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "62 kg, BMI 22.5"
+    },
+    "physical_exam": "Young woman appearing flushed and uncomfortable. Mild diaphoresis. Heart: tachycardic, regular rhythm. Lungs: clear bilaterally. Abdomen: soft, non-distended, mild suprapubic tenderness, no rebound or guarding. Marked right costovertebral angle tenderness on percussion. No left CVA tenderness. No vaginal discharge on external inspection. Extremities: warm, no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Urinalysis", "result": "Cloudy, pH 6.5, large leukocyte esterase, positive nitrites, >100 WBCs/hpf, moderate bacteria, 5-10 RBCs/hpf, WBC casts present", "flag": "ABNORMAL", "clinical_significance": "Pyuria with WBC casts localizes infection to the kidney (pyelonephritis); positive nitrites suggest gram-negative bacteria"},
+      {"test_name": "Urine Culture", "result": "Escherichia coli >100,000 CFU/mL; sensitive to ciprofloxacin, ceftriaxone, gentamicin; resistant to ampicillin and trimethoprim-sulfamethoxazole", "flag": "ABNORMAL", "clinical_significance": "Confirms E. coli UTI with antibiotic sensitivities; guides definitive therapy"},
+      {"test_name": "CBC — WBC", "result": "16,200/μL with 88% neutrophils, 4% bands", "flag": "HIGH", "clinical_significance": "Leukocytosis with neutrophilic predominance and left shift indicates bacterial infection"},
+      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; uncomplicated pyelonephritis typically preserves GFR"},
+      {"test_name": "BUN", "result": "14 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Blood Cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "No bacteremia; supports uncomplicated pyelonephritis"},
+      {"test_name": "CRP", "result": "148 mg/L", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker consistent with upper urinary tract infection"},
+      {"test_name": "Serum Lactate", "result": "1.4 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no evidence of sepsis-related tissue hypoperfusion"},
+      {"test_name": "Procalcitonin", "result": "2.1 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated procalcitonin helps distinguish upper tract infection (pyelonephritis) from lower tract infection (cystitis)"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Right kidney mildly enlarged at 13.2 cm with mild perinephric stranding. No hydronephrosis, abscess, or calculi identified. Left kidney normal.", "flag": "ABNORMAL", "clinical_significance": "Renal enlargement and perinephric stranding consistent with acute pyelonephritis; no obstructing stone or abscess"},
+      {"test_name": "CT Abdomen/Pelvis with Contrast", "result": "Not performed (reserved for complicated cases or failure to improve on antibiotics).", "flag": "WNL", "clinical_significance": "Not indicated in uncomplicated pyelonephritis"}
+    ],
+    "key_tests": [
+      "Urinalysis with microscopy",
+      "Urine culture with sensitivities",
+      "Complete blood count",
+      "Blood cultures"
+    ],
+    "acceptable_tests": [
+      "Basic metabolic panel",
+      "CRP or procalcitonin",
+      "Serum lactate",
+      "Renal ultrasound",
+      "Urine Gram stain",
+      "Pregnancy test (reproductive-age female)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen with contrast (first-line in uncomplicated case)",
+      "Cystoscopy",
+      "Voiding cystourethrogram",
+      "ANA/ANCA panel",
+      "Renal biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Fever, right CVA tenderness, pyuria with WBC casts (localizing infection to the kidney), positive nitrites, and E. coli >100,000 CFU/mL on urine culture confirm acute pyelonephritis."
+  },
+  "debrief": {
+    "classic_presentation": "A young woman with recurrent UTIs presents with high fever, chills, flank pain, CVA tenderness, and lower urinary tract symptoms (dysuria, frequency, urgency). UA shows pyuria with WBC casts, and culture grows >100,000 CFU/mL of E. coli.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute pyelonephritis is a bacterial infection of the renal parenchyma and collecting system, most commonly caused by ascending infection from the lower urinary tract. E. coli accounts for 80-90% of cases. Virulence factors such as P fimbriae facilitate bacterial adhesion to uroepithelium and ascent to the kidney. Risk factors include female anatomy (short urethra), sexual activity, prior UTIs, urinary obstruction, and vesicoureteral reflux. The infection triggers an intense inflammatory response with neutrophilic infiltration of the renal interstitium. WBC casts in urine are pathognomonic for renal parenchymal inflammation.",
+    "treatment_overview": "Outpatient management for uncomplicated pyelonephritis: oral fluoroquinolone (ciprofloxacin 500 mg BID for 7 days) or TMP-SMX (if susceptible) for 14 days. Hospitalization criteria: inability to tolerate oral intake, sepsis, hemodynamic instability, pregnancy, or concern for complicated infection. Inpatient therapy: IV ceftriaxone 1g daily or IV fluoroquinolone. Switch to oral therapy once afebrile for 24-48 hours and clinically improving. Follow-up urine culture is generally not needed if symptoms resolve.",
+    "high_yield_pearls": [
+      "WBC casts on urinalysis are pathognomonic for pyelonephritis and localize infection to the kidney parenchyma.",
+      "E. coli causes 80-90% of community-acquired pyelonephritis; other organisms include Klebsiella, Proteus, and Enterococcus.",
+      "Procalcitonin >0.5 ng/mL helps distinguish pyelonephritis from lower UTI (cystitis) and may guide treatment intensity.",
+      "Imaging is not routinely needed for uncomplicated pyelonephritis; CT is indicated if no improvement after 48-72 hours of appropriate antibiotics (to evaluate for abscess, obstruction, or emphysematous pyelonephritis).",
+      "Complicated pyelonephritis risk factors: male sex, pregnancy, diabetes, immunocompromised state, urinary tract abnormalities, indwelling catheter, or hospital-acquired infection."
+    ],
+    "sources": [
+      "IDSA Guidelines: Diagnosis, Prevention, and Treatment of Catheter-Associated Urinary Tract Infection (2010)",
+      "Gupta K et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women. Clin Infect Dis. 2011;52(5):e103-e120.",
+      "UpToDate: Acute uncomplicated pyelonephritis in women (2024)"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute pyelonephritis",
+      "Complicated lower UTI (cystitis)",
+      "Nephrolithiasis with superimposed UTI",
+      "Renal abscess",
+      "Acute appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_stage2_more_likely": [
+      "Acute pyelonephritis — fever, chills, unilateral CVA tenderness, lower urinary tract symptoms, history of recurrent UTIs",
+      "Nephrolithiasis with infection — flank pain could be from a stone, but fever and dysuria suggest infectious process"
+    ],
+    "after_stage2_less_likely": [
+      "Acute appendicitis — pain is in the flank (not RLQ), and urinary symptoms predominate",
+      "Pelvic inflammatory disease — no vaginal discharge, pain is in the flank"
+    ],
+    "after_labs_top3": [
+      "Acute pyelonephritis — WBC casts, pyuria, E. coli >100K CFU/mL, elevated procalcitonin, no obstruction on imaging",
+      "Complicated UTI — heavy pyuria and bacteriuria, but WBC casts and elevated procalcitonin confirm upper tract involvement",
+      "Renal abscess — ultrasound shows no abscess; perinephric stranding is consistent with pyelonephritis"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "case_242",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Essential hypertension",
+  "icd_category": "I10 — Essential (primary) hypertension",
+  "one_liner": "A 48-year-old male with obesity and a sedentary lifestyle presents for a routine checkup and is found to have blood pressure 158/96 mmHg on multiple readings.",
+  "stage2": {
+    "hpi_extension": "The patient presents for an employer-required physical examination. He has not seen a physician in 4 years. He is asymptomatic and feels well. On screening, his blood pressure is measured at 158/96 mmHg. A repeat measurement after 5 minutes of rest is 154/94 mmHg. He reports that he was told his blood pressure was borderline high 4 years ago but never followed up. He denies headaches, vision changes, chest pain, dyspnea, palpitations, or epistaxis. He consumes a high-sodium diet with frequent processed and fast foods. He adds salt to most meals. He does not exercise regularly. He drinks 2-3 beers most evenings. He denies use of NSAIDs, decongestants, stimulants, or energy drinks. He has no symptoms of sleep apnea (snoring, daytime somnolence).",
+    "pmh": "Obesity, prediabetes (HbA1c 6.0% four years ago), borderline high blood pressure (not treated)",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Father with hypertension and stroke at age 62. Mother with hypertension and type 2 diabetes. Brother with hypertension diagnosed at age 42.",
+    "social_history": "Smokes half a pack of cigarettes per day for 20 years (10 pack-years). Drinks 2-3 beers most evenings. Works as an IT project manager (desk job). Married. Diet high in sodium, processed foods, and red meat. No regular exercise.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "78 bpm, regular",
+      "bp": "156/95 mmHg (average of 3 readings, both arms similar)",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 32 kg/m²"
+    },
+    "physical_exam": "General: Obese male in no acute distress. HEENT: Fundoscopic exam shows arteriolar narrowing and arteriovenous nicking (grade I-II hypertensive retinopathy). No papilledema. No thyromegaly. Cardiovascular: Regular rate and rhythm, S4 gallop at apex, no murmurs. PMI is sustained but not displaced. No carotid bruits. Pulmonary: Clear bilaterally. Abdomen: Obese, soft, non-tender, no renal bruits. Extremities: No edema. Peripheral pulses 2+ bilaterally. Neuro: Normal exam, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Basic metabolic panel", "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 16, Cr 1.0, glucose 108, Ca 9.6", "flag": "WNL", "clinical_significance": "Normal electrolytes and renal function; important baseline before starting antihypertensive therapy"},
+      {"test_name": "eGFR", "result": "88 mL/min/1.73m²", "flag": "WNL", "clinical_significance": "Normal renal function; no evidence of hypertensive nephropathy currently"},
+      {"test_name": "Urinalysis", "result": "No protein, no blood, no glucose, specific gravity 1.018", "flag": "WNL", "clinical_significance": "No proteinuria; rules out early renal damage from hypertension"},
+      {"test_name": "Urine albumin-to-creatinine ratio", "result": "18 mg/g", "flag": "WNL", "clinical_significance": "Normal (<30 mg/g); no microalbuminuria — no early target organ damage to kidneys"},
+      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 242 mg/dL, LDL 162 mg/dL, HDL 38 mg/dL, Triglycerides 210 mg/dL", "flag": "HIGH", "clinical_significance": "Dyslipidemia with elevated LDL, low HDL, and high triglycerides — common comorbidity with hypertension that increases cardiovascular risk"},
+      {"test_name": "HbA1c", "result": "6.2%", "flag": "HIGH", "clinical_significance": "Prediabetes (5.7-6.4%); warrants lifestyle intervention and monitoring"},
+      {"test_name": "Fasting glucose", "result": "112 mg/dL", "flag": "HIGH", "clinical_significance": "Impaired fasting glucose (100-125) consistent with prediabetes"},
+      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism or hyperthyroidism as secondary cause of hypertension"},
+      {"test_name": "CBC", "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 220,000/μL", "flag": "WNL", "clinical_significance": "Normal; polycythemia can cause hypertension but is not present here"},
+      {"test_name": "Uric acid", "result": "7.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated uric acid is associated with hypertension and metabolic syndrome; avoid thiazides if gout risk is high"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG", "result": "Normal sinus rhythm. Meets Sokolow-Lyon voltage criteria for left ventricular hypertrophy (S in V1 + R in V5 = 38 mm). Left atrial enlargement. No ST-T wave changes.", "flag": "ABNORMAL", "clinical_significance": "ECG evidence of LVH indicates target organ damage from chronic uncontrolled hypertension; increases cardiovascular risk"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary congestion or pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with LVH from chronic hypertension"}
+    ],
+    "key_tests": ["Basic metabolic panel", "Urinalysis with urine albumin-to-creatinine ratio", "Fasting lipid panel", "HbA1c or fasting glucose", "ECG"],
+    "acceptable_tests": ["CBC", "TSH", "Uric acid", "Chest X-ray", "Echocardiogram (to confirm LVH)", "Liver function tests", "Ambulatory blood pressure monitoring"],
+    "low_yield_tests": ["Renal artery duplex (no clinical suspicion for renovascular HTN)", "Plasma renin/aldosterone (no clinical features of secondary HTN)", "CT abdomen", "Cortisol level", "Urine drug screen"]
+  },
+  "stage5": {
+    "final_clue": "Ambulatory blood pressure monitoring over 24 hours confirms sustained hypertension with an average daytime BP of 152/92 mmHg and a blunted nocturnal dipping pattern (average nighttime BP 145/88 mmHg). The non-dipping pattern is associated with increased cardiovascular risk and target organ damage, consistent with the LVH already seen on ECG."
+  },
+  "debrief": {
+    "classic_presentation": "Essential hypertension is typically asymptomatic and discovered incidentally on screening. Most patients have no symptoms, which is why it is called the 'silent killer.' When present, symptoms such as headache, dizziness, or epistaxis usually indicate severe or longstanding disease. Risk factors include family history, obesity, sedentary lifestyle, high sodium intake, alcohol use, and smoking. Target organ damage (LVH, hypertensive retinopathy, nephropathy, stroke) may be present at diagnosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Essential (primary) hypertension accounts for 90-95% of hypertension cases and has no single identifiable cause. It results from a complex interplay of genetic susceptibility, environmental factors, and regulatory mechanisms. Key pathophysiologic factors include: increased sympathetic nervous system activity, RAAS activation, endothelial dysfunction with reduced nitric oxide production, increased peripheral vascular resistance from vascular remodeling, sodium retention from renal mechanisms, and insulin resistance. Over time, sustained elevated blood pressure causes vascular damage through endothelial injury, promoting atherosclerosis and end-organ damage to the heart (LVH, CAD, HF), brain (stroke), kidneys (nephrosclerosis), and eyes (retinopathy).",
+    "treatment_overview": "Management follows a stepwise approach per ACC/AHA guidelines: (1) Lifestyle modifications for ALL patients: DASH diet, sodium restriction (<2300 mg/day, ideally <1500 mg), regular aerobic exercise (150 min/week), weight loss (lose 1 kg = ~1 mmHg decrease), moderation of alcohol, smoking cessation; (2) Pharmacotherapy for Stage 2 HTN (≥140/90) or Stage 1 with high ASCVD risk: first-line agents include thiazide diuretics (chlorthalidone preferred), ACE inhibitors, ARBs, or CCBs. For this patient: ACE inhibitor or ARB is ideal given prediabetes and metabolic syndrome (RAAS blockade has metabolic benefits). Start amlodipine 5 mg + lisinopril 10 mg (combination therapy for stage 2 HTN). Target BP <130/80 mmHg. Add statin for ASCVD risk reduction. Recheck BP in 4-6 weeks.",
+    "high_yield_pearls": [
+      "Hypertension is defined as ≥130/80 mmHg (ACC/AHA 2017) — Stage 1 is 130-139/80-89, Stage 2 is ≥140/90",
+      "Always check for target organ damage at diagnosis: ECG (LVH), urinalysis (proteinuria), fundoscopy (retinopathy), and creatinine (nephropathy)",
+      "An S4 gallop on cardiac exam suggests LVH with diastolic dysfunction — a sign of longstanding hypertension",
+      "Lifestyle modifications alone can lower systolic BP by 10-15 mmHg when combined (DASH diet + exercise + sodium restriction + weight loss + moderation of alcohol)"
+    ],
+    "sources": ["UpToDate: Overview of hypertension in adults", "ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults 2017"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Essential hypertension", "White coat hypertension", "Secondary hypertension (renovascular, primary aldosteronism, pheochromocytoma)", "Obstructive sleep apnea-related hypertension", "Medication/substance-induced hypertension", "Thyroid disease"],
+    "after_stage2_more_likely": ["Essential hypertension (strong family history, obesity, high sodium diet, sedentary lifestyle, borderline BP years ago, age 48, no features of secondary causes)"],
+    "after_stage2_less_likely": ["White coat hypertension (sustained elevation on multiple readings and target organ damage already present)", "Pheochromocytoma (no episodic symptoms, no paroxysms)"],
+    "after_labs_top3": ["Essential hypertension", "Metabolic syndrome with hypertension", "Secondary hypertension (less likely given normal electrolytes and no clinical red flags)"]
+  }
+}

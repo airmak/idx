@@ -1,0 +1,104 @@
+{
+  "case_id": "case_250",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Acute bacterial sinusitis",
+  "icd_category": "J01.90 — Acute sinusitis, unspecified",
+  "one_liner": "A 40-year-old man presents with 12 days of worsening nasal congestion, purulent nasal discharge, facial pain/pressure over the maxillary sinuses, and low-grade fever following a viral upper respiratory infection.",
+  "stage2": {
+    "hpi_extension": "The patient initially developed a typical 'cold' 12 days ago with clear rhinorrhea, nasal congestion, sore throat, and mild malaise. His symptoms appeared to improve around day 5, but then worsened again on day 8 ('double worsening' pattern). Over the past 4 days, he has developed thick, yellow-green purulent nasal discharge, bilateral facial pressure and pain over the maxillary and frontal sinuses that worsens when bending forward, decreased sense of smell, and a low-grade fever (100.4°F). He reports postnasal drip with a productive cough, worse at night. He has maxillary tooth discomfort on the right side that his dentist confirmed is not dental in origin. He has tried saline nasal irrigation and pseudoephedrine with minimal relief. He denies severe headache, high fever, visual changes, periorbital swelling, or neck stiffness.",
+    "pmh": "Allergic rhinitis (seasonal). No history of recurrent sinusitis or nasal polyps.",
+    "surgical_history": "None",
+    "medications": "Loratadine 10 mg daily, pseudoephedrine 30 mg PRN",
+    "allergies": "Amoxicillin (childhood rash — unclear if true allergy)",
+    "family_history": "Mother with allergic rhinitis. Father with hypertension. No family history of immunodeficiency or cystic fibrosis.",
+    "social_history": "Elementary school teacher (frequent URI exposure). Married with three children. Non-smoker. Occasional alcohol. No illicit drug use. Lives in a house with forced-air heating.",
+    "vitals": {
+      "temp": "100.6°F (38.1°C)",
+      "hr": "82 bpm",
+      "bp": "126/78 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "180 lbs, BMI 25.9 kg/m²"
+    },
+    "physical_exam": "General: Mildly ill-appearing man, mouth-breathing. HEENT: Eyes — no periorbital edema, erythema, or proptosis. Extraocular movements intact. Nose — mucosal edema and erythema bilaterally. Thick yellow-green purulent discharge in bilateral middle meati. Deviated septum to the left (mild). No polyps. Face — tenderness to palpation over bilateral maxillary sinuses and right frontal sinus. Transillumination shows diminished light transmission through right maxillary sinus. Ears — TMs clear bilaterally. Oropharynx — posterior pharyngeal purulent postnasal drip, no peritonsillar swelling. Teeth — no dental caries, mild right maxillary dental tenderness on percussion. Neck: No lymphadenopathy. Lungs: Clear to auscultation bilaterally. Cardiovascular: Regular rate and rhythm."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 12.5, Neutrophils 78%, Hgb 14.2, Hct 42.5, Plt 280", "flag": "MILD ABNORMAL", "clinical_significance": "Mild leukocytosis with neutrophilia consistent with acute bacterial infection"},
+      {"test_name": "CRP", "result": "3.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated CRP supporting bacterial infection; can help differentiate bacterial from viral sinusitis"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 14, Cr 1.0, Glucose 95, Ca 9.4, AST 22, ALT 20, Alk Phos 62, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel"},
+      {"test_name": "Procalcitonin", "result": "0.3 ng/mL", "flag": "BORDERLINE", "clinical_significance": "Low-level elevation suggests localized bacterial infection rather than systemic process"},
+      {"test_name": "Rapid strep test", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out strep pharyngitis as cause of sore throat symptoms"},
+      {"test_name": "Monospot", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out infectious mononucleosis"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Sinuses (non-contrast)", "result": "Mucosal thickening and partial opacification of bilateral maxillary sinuses (right > left). Air-fluid level in right maxillary sinus. Mild mucosal thickening in right frontal sinus. Ethmoid and sphenoid sinuses clear. No bony erosion. No orbital involvement.", "flag": "ABNORMAL", "clinical_significance": "CT confirms acute sinusitis with air-fluid level in right maxillary sinus; no evidence of complications (no orbital or intracranial extension)"}
+    ],
+    "key_tests": [
+      "Clinical diagnosis based on IDSA criteria — symptoms >10 days without improvement, double worsening pattern, purulent discharge, facial pain",
+      "CT Sinuses — confirming maxillary sinus opacification with air-fluid level (imaging is not routinely required but confirms diagnosis)",
+      "CRP — supporting bacterial rather than viral etiology"
+    ],
+    "acceptable_tests": [
+      "CBC — showing leukocytosis supporting bacterial infection",
+      "CMP — baseline metabolic assessment",
+      "Procalcitonin — differentiating bacterial from viral infection",
+      "Rapid strep test — ruling out strep pharyngitis",
+      "Nasal endoscopy — if diagnosis is uncertain or chronic sinusitis suspected"
+    ],
+    "low_yield_tests": [
+      "Plain sinus X-rays (poor sensitivity and specificity; CT is preferred if imaging needed)",
+      "Sinus MRI (not first-line for acute sinusitis; reserved for suspected complications or tumors)",
+      "Blood cultures (localized infection, no systemic sepsis)",
+      "Sinus aspirate culture (reserved for complicated or refractory cases)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets IDSA diagnostic criteria for acute bacterial sinusitis: symptoms persisting >10 days without improvement with a 'double worsening' pattern (initial improvement followed by new deterioration). The clinical triad of purulent nasal discharge, facial pain/pressure, and fever after initial viral URI supports bacterial superinfection. CT sinuses confirm bilateral maxillary sinusitis with air-fluid level. The three most common pathogens are Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis."
+  },
+  "debrief": {
+    "classic_presentation": "A patient presenting with nasal congestion, purulent nasal discharge, facial pain/pressure (worse with bending forward), and decreased smell, typically following a viral URI. Three clinical patterns suggest bacterial rather than viral sinusitis (IDSA criteria): (1) persistent symptoms lasting >10 days without improvement, (2) onset with severe symptoms (high fever >39°C and purulent discharge for 3-4 consecutive days), or (3) 'double worsening' — initial improvement followed by new worsening of symptoms. Maxillary tooth pain and diminished sinus transillumination are supportive findings.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute bacterial sinusitis typically develops as a complication of viral URI. Viral infection causes mucosal inflammation and edema of the sinus ostia, impairing mucociliary clearance and creating a closed, hypoxic environment within the sinus cavity. This promotes bacterial proliferation. The most common pathogens are Streptococcus pneumoniae, Haemophilus influenzae (often non-typeable), and Moraxella catarrhalis. The maxillary sinuses are most commonly affected because their ostia are located superiorly, making gravity-dependent drainage difficult. Allergic rhinitis, septal deviation, and nasal polyps are predisposing factors due to baseline ostial narrowing. Only 0.5-2% of viral URIs progress to bacterial sinusitis.",
+    "treatment_overview": "Watchful waiting with symptomatic treatment is an option for mild cases. First-line antibiotic: amoxicillin-clavulanate 875/125 mg BID for 5-7 days (or 10 days for severe or recurrent cases). For penicillin allergy: doxycycline 100 mg BID or a respiratory fluoroquinolone (levofloxacin, moxifloxacin). Second-line for treatment failure (no improvement after 72 hours): high-dose amoxicillin-clavulanate (2000/125 mg BID) or respiratory fluoroquinolone. Adjunctive therapy: intranasal corticosteroids (fluticasone), saline nasal irrigation, analgesics. Avoid first-line macrolides (high resistance rates for S. pneumoniae) and oral decongestants beyond 3 days. Refer to ENT if: recurrent sinusitis (>4 episodes/year), chronic sinusitis (>12 weeks), or suspected complications.",
+    "high_yield_pearls": [
+      "Most sinusitis is viral (98-99.5% of URIs) — antibiotics are only indicated when clinical criteria suggest bacterial superinfection (symptoms >10 days, severe onset, or double worsening).",
+      "Imaging is NOT routinely recommended for uncomplicated acute sinusitis — the diagnosis is clinical. CT is reserved for suspected complications, chronic symptoms, or recurrent episodes.",
+      "Amoxicillin-clavulanate is first-line over amoxicillin alone due to increasing beta-lactamase-producing H. influenzae and M. catarrhalis resistance.",
+      "Danger signs of complicated sinusitis requiring urgent imaging and ENT referral: periorbital edema/erythema, proptosis, ophthalmoplegia, severe headache, altered mental status, or high fever (suggesting orbital or intracranial extension).",
+      "Saline nasal irrigation is an evidence-based adjunctive treatment that improves symptoms by promoting mucociliary clearance."
+    ],
+    "sources": [
+      "IDSA Clinical Practice Guideline for Acute Bacterial Rhinosinusitis in Children and Adults (Clin Infect Dis, 2012)",
+      "Rosenfeld RM et al. AAO-HNS Clinical Practice Guideline: Adult Sinusitis, 2015",
+      "Chow AW et al. IDSA Guidelines for Acute Bacterial Rhinosinusitis. Clin Infect Dis, 2012",
+      "Wald ER et al. Acute bacterial rhinosinusitis in children and adults. N Engl J Med, 2023",
+      "Lemiengre MB et al. Antibiotics for acute rhinosinusitis in adults. Cochrane Database Syst Rev, 2018"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute bacterial sinusitis",
+      "Prolonged viral upper respiratory infection",
+      "Allergic rhinitis flare",
+      "Dental abscess",
+      "Tension-type headache",
+      "Migraine with nasal autonomic features"
+    ],
+    "after_stage2_more_likely": [
+      "Acute bacterial sinusitis — symptoms >10 days with double worsening, purulent discharge, facial tenderness, low-grade fever, maxillary tooth pain without dental pathology",
+      "Prolonged viral URI — possible but double worsening pattern and purulent discharge for >4 days favor bacterial"
+    ],
+    "after_stage2_less_likely": [
+      "Dental abscess — dentist confirmed no dental pathology; maxillary tooth pain is referred from sinus",
+      "Allergic rhinitis flare — purulent discharge and fever are not consistent with allergic rhinitis alone",
+      "Migraine — pain pattern, purulent discharge, and fever are not consistent with migraine"
+    ],
+    "after_labs_top3": [
+      "Acute bacterial sinusitis — clinical criteria met (IDSA), CT confirms maxillary sinus opacification with air-fluid level, leukocytosis and elevated CRP support bacterial infection",
+      "Prolonged viral URI with secondary bacterial superinfection — the double worsening and CT findings confirm bacterial component",
+      "Allergic rhinitis with secondary bacterial sinusitis — possible underlying predisposition given allergic rhinitis history"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "case_256",
+  "mode": "attending",
+  "specialty": "Family Medicine",
+  "diagnosis": "Vitamin B12 deficiency with peripheral neuropathy",
+  "icd_category": "E53.8 — Deficiency of other specified B group vitamins (B12 deficiency neuropathy)",
+  "one_liner": "A 68-year-old man on long-term metformin and proton pump inhibitor presents with 8 months of progressive bilateral foot numbness, tingling, and gait unsteadiness, with macrocytic anemia and critically low B12.",
+  "stage2": {
+    "hpi_extension": "The patient presents with 8 months of gradually progressive numbness and tingling ('pins and needles') in both feet that has slowly ascended to mid-calf level. He describes a 'walking on cotton' sensation and difficulty feeling the floor beneath his feet. He has noticed increasing unsteadiness when walking, especially in the dark or on uneven surfaces, and has fallen twice in the past month. He also reports fatigue, intermittent difficulty concentrating, and occasional 'brain fog.' His wife has noticed his tongue looks 'smooth and red.' He has had no back pain, no bowel/bladder dysfunction, and no radicular symptoms. He has been taking metformin 2000 mg daily for 10 years and omeprazole 40 mg daily for 6 years. He was told his hemoglobin was 'slightly low' at his last annual visit. He has no dietary restrictions and is not vegan.",
+    "pmh": "Type 2 diabetes mellitus (10 years, HbA1c 6.9%). GERD (on PPI for 6 years). Hypertension. Hyperlipidemia.",
+    "surgical_history": "None",
+    "medications": "Metformin 1000 mg BID, omeprazole 40 mg daily, lisinopril 20 mg daily, atorvastatin 40 mg daily, aspirin 81 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother with pernicious anemia (diagnosed age 70). Father with coronary artery disease. No family history of multiple sclerosis.",
+    "social_history": "Retired postal worker. Lives with wife. Non-smoker. Occasional alcohol (1-2 glasses of wine per week). No illicit drug use. Eats a standard diet including meat, dairy, and vegetables. Walks daily but has reduced activity due to unsteadiness.",
+    "vitals": {
+      "temp": "98.4°F (36.9°C)",
+      "hr": "82 bpm",
+      "bp": "136/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "175 lbs, BMI 25.2 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing elderly man, mildly pale. HEENT: Pale conjunctivae. Smooth, erythematous, atrophic tongue (glossitis). No angular cheilitis. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, grade 1/6 systolic flow murmur. Lungs: Clear. Abdomen: Soft, non-tender, no hepatosplenomegaly. Neurological (key findings): Cranial nerves II-XII intact. Motor — 5/5 strength in all extremities, no atrophy. Sensory — markedly decreased vibration sense (128 Hz tuning fork) in bilateral feet and ankles (cannot detect vibration at all in toes, reduced at ankles, intact at knees). Decreased light touch and pinprick sensation in stocking distribution to mid-calf bilaterally. Proprioception impaired in bilateral great toes. Reflexes — absent ankle jerks bilaterally, 1+ at knees, 2+ in upper extremities. Gait — wide-based, positive Romberg test (sways with eyes closed). Unable to tandem walk. No Babinski sign. Skin: No ulcers, no diabetic foot changes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 4.8, Hgb 10.2, Hct 31.5, MCV 112 fL, MCH 38 pg, RDW 16.8%, Plt 165", "flag": "ABNORMAL", "clinical_significance": "Macrocytic anemia (MCV 112) — classic finding of B12 deficiency; elevated RDW indicates anisocytosis"},
+      {"test_name": "Peripheral blood smear", "result": "Macroovalocytes, hypersegmented neutrophils (6+ lobes), anisocytosis, poikilocytosis", "flag": "ABNORMAL", "clinical_significance": "Hypersegmented neutrophils are pathognomonic for megaloblastic anemia (B12 or folate deficiency)"},
+      {"test_name": "Vitamin B12", "result": "88 pg/mL", "flag": "LOW", "clinical_significance": "Critically low B12 (normal 200-900); confirms severe deficiency as cause of both neuropathy and macrocytic anemia"},
+      {"test_name": "Methylmalonic acid (MMA)", "result": "1,850 nmol/L", "flag": "HIGH", "clinical_significance": "Markedly elevated MMA (normal <370) — most sensitive and specific metabolic marker for B12 deficiency; confirms tissue-level deficiency"},
+      {"test_name": "Homocysteine", "result": "28 mcmol/L", "flag": "HIGH", "clinical_significance": "Elevated homocysteine — elevated in both B12 and folate deficiency; cardiovascular risk factor"},
+      {"test_name": "Folate", "result": "14.8 ng/mL", "flag": "WNL", "clinical_significance": "Normal folate — rules out folate deficiency as cause of megaloblastic anemia; distinguishes from B12 deficiency (MMA is normal in folate deficiency)"},
+      {"test_name": "Anti-intrinsic factor antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive intrinsic factor antibodies are specific for pernicious anemia — autoimmune destruction of parietal cells causing B12 malabsorption"},
+      {"test_name": "Anti-parietal cell antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive parietal cell antibodies supporting autoimmune gastritis/pernicious anemia"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.2, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 108, Ca 9.4, AST 22, ALT 18, Alk Phos 55, Albumin 3.8", "flag": "WNL", "clinical_significance": "Normal metabolic panel; renal function normal (renal failure can cause elevated MMA)"},
+      {"test_name": "HbA1c", "result": "6.9%", "flag": "MILD HIGH", "clinical_significance": "Reasonably controlled diabetes — diabetic neuropathy is a competing diagnosis but macrocytic anemia and glossitis point to B12 deficiency"},
+      {"test_name": "TSH", "result": "4.8 mIU/L", "flag": "BORDERLINE HIGH", "clinical_significance": "Borderline TSH — pernicious anemia is associated with autoimmune thyroiditis; warrants monitoring"},
+      {"test_name": "Reticulocyte count", "result": "0.8%", "flag": "LOW", "clinical_significance": "Inappropriately low reticulocyte count for degree of anemia — consistent with megaloblastic ineffective erythropoiesis"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Cervical and Thoracic Spine", "result": "No spinal cord compression or myelopathy signal. No demyelinating lesions. No stenosis. Normal cord caliber.", "flag": "WNL", "clinical_significance": "Rules out cervical myelopathy, spinal stenosis, and subacute combined degeneration (which may not yet be visible on MRI in early B12 deficiency neuropathy)"}
+    ],
+    "key_tests": [
+      "Serum B12 — critically low at 88 pg/mL, confirming deficiency",
+      "Methylmalonic acid — 1,850 nmol/L (markedly elevated), confirming tissue-level B12 deficiency",
+      "Peripheral blood smear — hypersegmented neutrophils pathognomonic for megaloblastic anemia",
+      "Anti-intrinsic factor antibodies — positive, confirming pernicious anemia as the underlying cause",
+      "Neurological exam — demonstrating large-fiber neuropathy (vibration, proprioception) and positive Romberg"
+    ],
+    "acceptable_tests": [
+      "Folate — ruling out concurrent folate deficiency",
+      "Homocysteine — elevated in B12 deficiency (also a cardiovascular risk marker)",
+      "Anti-parietal cell antibodies — supporting autoimmune gastritis",
+      "CMP — ensuring renal function is normal (renal failure causes elevated MMA)",
+      "MRI Spine — ruling out cervical myelopathy and subacute combined degeneration",
+      "TSH — screening for associated autoimmune thyroiditis",
+      "Reticulocyte count — assessing marrow response"
+    ],
+    "low_yield_tests": [
+      "EMG/NCS (diagnosis established by labs and exam; would show axonal sensory neuropathy but adds little to management)",
+      "Lumbar puncture (no indication without suspected CNS infection or demyelination)",
+      "Brain MRI (no cognitive symptoms warranting CNS evaluation at this stage)",
+      "Schilling test (historical test no longer routinely available; anti-IF antibodies are diagnostic)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has B12 deficiency neuropathy caused by pernicious anemia, with three contributing factors to B12 depletion: (1) pernicious anemia (positive anti-intrinsic factor antibodies — the primary cause), (2) long-term metformin use (impairs ileal B12 absorption), and (3) chronic PPI therapy (impairs acid-dependent B12 release from food proteins). Clinical features include large-fiber sensory neuropathy (decreased vibration and proprioception with positive Romberg), macrocytic anemia with megaloblastic features (hypersegmented neutrophils), glossitis, and markedly elevated MMA confirming tissue-level deficiency."
+  },
+  "debrief": {
+    "classic_presentation": "An elderly patient presenting with progressive symmetric sensory neuropathy (numbness, tingling in stocking distribution), gait ataxia (impaired proprioception, positive Romberg), macrocytic anemia with hypersegmented neutrophils, and glossitis. B12 deficiency affects both the peripheral nerves (peripheral neuropathy) and posterior/lateral columns of the spinal cord (subacute combined degeneration — loss of vibration and proprioception). Neuropsychiatric symptoms (cognitive impairment, depression, psychosis) may also occur. Importantly, neurological manifestations can occur WITHOUT anemia in up to 25% of cases.",
+    "attending_mode_notes": "Critical management pearls: (1) Neurological damage from B12 deficiency may be irreversible if treatment is delayed — the degree of recovery correlates inversely with duration and severity of deficiency. Initiate treatment immediately upon diagnosis without waiting for confirmatory tests. (2) NEVER supplement folate without B12 — folate corrects the anemia, masking the deficiency, while neurological damage progresses silently. This is why folate is limited to 1 mg in OTC supplements. (3) In patients with both diabetes and B12 deficiency, distinguishing diabetic neuropathy from B12 neuropathy is challenging. Key differentiators: B12 neuropathy preferentially affects large fibers (vibration, proprioception, with absent ankle jerks but positive Romberg), while diabetic neuropathy often affects small fibers first (pain, temperature). The presence of macrocytic anemia is the strongest clue. (4) Metformin impairs B12 absorption in 10-30% of long-term users — the ADA recommends periodic B12 monitoring in patients on long-term metformin. (5) Long-term PPI use is an independent risk factor for B12 deficiency through impaired acid-dependent cleavage of B12 from food proteins — consider de-escalating PPI therapy when possible.",
+    "pathophysiology": "B12 (cobalamin) is a cofactor for two critical enzymatic reactions: (1) methionine synthase — converts homocysteine to methionine, generating tetrahydrofolate necessary for DNA synthesis (explaining megaloblastic anemia), and (2) methylmalonyl-CoA mutase — converts methylmalonyl-CoA to succinyl-CoA in mitochondrial fatty acid metabolism (explaining elevated MMA). Neurological damage results from impaired methylmalonyl-CoA mutase activity: accumulated methylmalonic acid is incorporated into fatty acids, producing abnormal myelin that undergoes progressive demyelination, primarily affecting the posterior columns (vibration, proprioception) and lateral corticospinal tracts (motor) of the spinal cord (subacute combined degeneration). Peripheral nerves undergo both demyelination and axonal degeneration. In pernicious anemia, autoimmune destruction of gastric parietal cells eliminates intrinsic factor production, preventing B12 absorption in the terminal ileum. Metformin interferes with calcium-dependent ileal B12-IF complex absorption. PPIs impair the acid-pepsin-dependent release of B12 from food proteins in the stomach.",
+    "treatment_overview": "Intramuscular B12 (cyanocobalamin or hydroxocobalamin) 1000 mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for life (in pernicious anemia, oral absorption is unreliable). High-dose oral B12 (1000-2000 mcg daily) may be used for non-pernicious anemia causes, as 1% of oral B12 is absorbed by passive diffusion independent of IF. Monitor reticulocyte count at 1 week (should see reticulocyte crisis — brisk rise at days 5-7). Recheck CBC at 6-8 weeks (anemia should correct). Monitor MMA and homocysteine to confirm metabolic normalization. Monitor potassium during initial treatment (rapid erythropoiesis can cause hypokalemia). Address contributing medications: consider metformin dose reduction or monitoring, and attempt PPI de-escalation. Neurological improvement: begins within weeks but may take 6-12 months; complete recovery depends on duration and severity — damage present >6 months is often irreversible.",
+    "high_yield_pearls": [
+      "Neurological damage from B12 deficiency can be IRREVERSIBLE — treat urgently and do not wait for confirmatory tests. Damage present for >6 months has a poor prognosis for full recovery.",
+      "NEVER give folate without B12 — folate corrects the anemia, masking the deficiency, while neurological damage progresses ('folate trap').",
+      "B12 deficiency neurological manifestations can occur WITHOUT anemia in 25% of cases — a normal CBC does not exclude B12 neuropathy.",
+      "Methylmalonic acid (MMA) is the most sensitive and specific test for B12 deficiency — it is elevated in B12 deficiency but NORMAL in folate deficiency (key distinguishing feature).",
+      "Metformin impairs B12 absorption in 10-30% of long-term users — the ADA recommends periodic monitoring. Long-term PPIs independently reduce B12 absorption.",
+      "In pernicious anemia, patients need lifelong B12 supplementation and screening for associated autoimmune conditions (thyroiditis, type 1 DM, vitiligo) and gastric carcinoid tumors."
+    ],
+    "sources": [
+      "Stabler SP. Clinical practice: Vitamin B12 deficiency. N Engl J Med, 2013",
+      "Green R et al. Vitamin B12 deficiency. Nat Rev Dis Primers, 2017",
+      "de Jager J et al. Long term treatment with metformin in patients with type 2 diabetes and risk of vitamin B12 deficiency (HOME trial). BMJ, 2010",
+      "ADA Standards of Medical Care in Diabetes — Pharmacologic Approaches to Glycemic Treatment, 2024",
+      "Langan RC, Goodbred AJ. Vitamin B12 Deficiency: Recognition and Management. Am Fam Physician, 2017"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Vitamin B12 deficiency neuropathy",
+      "Diabetic peripheral neuropathy",
+      "Cervical myelopathy",
+      "Multiple sclerosis",
+      "Folate deficiency",
+      "Copper deficiency myeloneuropathy",
+      "Chronic inflammatory demyelinating polyneuropathy (CIDP)",
+      "Peripheral neuropathy from other cause (alcoholic, uremic)"
+    ],
+    "after_stage2_more_likely": [
+      "B12 deficiency neuropathy — large-fiber predominant neuropathy (impaired vibration, proprioception, positive Romberg), glossitis, macrocytic changes likely, long-term metformin and PPI use, family history of pernicious anemia",
+      "Diabetic peripheral neuropathy — 10-year diabetes history, peripheral neuropathy symptoms, but large-fiber predominance and glossitis point to B12"
+    ],
+    "after_stage2_less_likely": [
+      "Cervical myelopathy — no upper motor neuron signs (no Babinski, no hyperreflexia), MRI normal",
+      "Multiple sclerosis — age of onset, no visual symptoms, no relapsing-remitting course",
+      "Alcoholic neuropathy — minimal alcohol intake"
+    ],
+    "after_labs_top3": [
+      "Vitamin B12 deficiency neuropathy from pernicious anemia — B12 of 88, MMA 1850, hypersegmented neutrophils, positive anti-IF antibodies, with metformin and PPI as contributing factors",
+      "Diabetic peripheral neuropathy (comorbid) — likely contributing to neuropathic symptoms, but macrocytic anemia and dramatically low B12 confirm B12 deficiency as the dominant cause",
+      "Combined B12 and diabetic neuropathy — both conditions likely contributing; B12 treatment will reveal residual diabetic neuropathy component"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "case_id": "case_097",
+  "mode": "attending",
+  "specialty": "Pulmonology",
+  "diagnosis": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss syndrome)",
+  "icd_category": "M30.1 — Polyarteritis with lung involvement (Churg-Strauss)",
+  "one_liner": "A 45-year-old woman with a history of severe asthma and chronic rhinosinusitis presents with new-onset numbness in her feet, palpable purpura, and peripheral blood eosinophilia.",
+  "stage2": {
+    "hpi_extension": "The patient has had difficult-to-control asthma for 8 years requiring high-dose inhaled corticosteroids and frequent oral prednisone bursts. Over the past 3 months, she has developed progressive numbness and tingling in both feet (worse in the right), a painful rash on her lower legs, fatigue, myalgias, and a 3 kg weight loss. She also reports worsening nasal congestion and thick nasal discharge. Two weeks ago, she developed right foot drop that prompted this evaluation. Her asthma has paradoxically improved in recent weeks despite no medication changes.",
+    "pmh": "Severe persistent asthma (diagnosed age 37), chronic rhinosinusitis with nasal polyps (multiple polypectomies), allergic rhinitis.",
+    "surgical_history": "Nasal polypectomy x3, tonsillectomy as a child.",
+    "medications": "Fluticasone/salmeterol 500/50 BID, montelukast 10 mg daily, prednisone 10 mg daily (chronic), albuterol PRN, mometasone nasal spray.",
+    "allergies": "Aspirin (nasal polyps/asthma worsening — Samter triad).",
+    "family_history": "No family history of vasculitis or autoimmune disease. Mother has asthma.",
+    "social_history": "Graphic designer. Never smoker. Occasional wine. No occupational exposures.",
+    "vitals": {
+      "temp": "99.8 F (37.7 C)",
+      "hr": "88 bpm",
+      "bp": "142/86 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "68 kg, BMI 24.8"
+    },
+    "physical_exam": "General: Fatigued-appearing woman, not in acute respiratory distress. HEENT: Nasal polyps visible on anterior rhinoscopy. Boggy nasal turbinates. No saddle-nose deformity. Lungs: Scattered expiratory wheezes bilaterally, no crackles. Cardiovascular: Regular rate and rhythm, no murmurs or rubs. Abdomen: Soft, mild diffuse tenderness without guarding. Extremities: Palpable purpura on bilateral lower extremities (non-blanching, raised). Skin: Subcutaneous nodules palpable on extensor surfaces of forearms. Neuro: Right foot drop (peroneal nerve distribution). Decreased sensation to light touch and pinprick in stocking distribution bilaterally. Weakness in right dorsiflexion (2/5) and left dorsiflexion (4/5)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC — WBC", "result": "16,800/uL", "flag": "HIGH", "clinical_significance": "Leukocytosis with marked eosinophilic predominance"},
+      {"test_name": "CBC — Eosinophil count (absolute)", "result": "8,400/uL (50%)", "flag": "HIGH", "clinical_significance": "Marked peripheral eosinophilia (>1,500 is significant; >10% is a diagnostic criterion for EGPA) — hallmark finding"},
+      {"test_name": "CBC — Hemoglobin", "result": "12.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "ESR", "result": "82 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; active systemic inflammation consistent with vasculitis"},
+      {"test_name": "CRP", "result": "6.4 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated; active inflammatory disease"},
+      {"test_name": "p-ANCA (MPO-ANCA)", "result": "Positive, MPO titer 68 U/mL", "flag": "ABNORMAL", "clinical_significance": "Positive MPO-ANCA (p-ANCA pattern) is found in ~40% of EGPA cases and correlates with vasculitic manifestations (neuropathy, purpura, glomerulonephritis)"},
+      {"test_name": "IgE (total)", "result": "680 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated total IgE consistent with atopic/eosinophilic disease"},
+      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function currently; glomerulonephritis is a potential manifestation to monitor"},
+      {"test_name": "Urinalysis", "result": "Trace protein, 5-10 RBC/HPF, no casts", "flag": "ABNORMAL", "clinical_significance": "Microscopic hematuria and proteinuria may indicate early glomerular involvement"},
+      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; cardiac involvement (myocarditis, pericarditis) is the leading cause of death in EGPA — warrants echocardiogram"},
+      {"test_name": "BNP", "result": "220 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may indicate subclinical myocardial involvement"},
+      {"test_name": "Skin biopsy (purpura)", "result": "Leukocytoclastic vasculitis with eosinophilic infiltration of small vessel walls. Extravascular granulomas present.", "flag": "ABNORMAL", "clinical_significance": "Histopathology confirms eosinophilic small-vessel vasculitis with granulomas — consistent with EGPA"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT chest", "result": "Patchy, migratory ground-glass opacities and consolidations predominantly in the periphery bilaterally. No cavitation. Mild bronchial wall thickening. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Peripheral migratory infiltrates are characteristic of EGPA — may be confused with eosinophilic pneumonia"},
+      {"test_name": "CT sinuses", "result": "Pansinusitis with mucosal thickening in all paranasal sinuses. Bilateral nasal polyps. No bony erosion.", "flag": "ABNORMAL", "clinical_significance": "Chronic rhinosinusitis with polyposis is a near-universal finding in EGPA"},
+      {"test_name": "Echocardiogram", "result": "Mildly reduced LVEF 48%. Small pericardial effusion. No valvular abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Subclinical cardiac involvement (myocarditis) — cardiac disease is the leading cause of mortality in EGPA and requires aggressive treatment"}
+    ],
+    "key_tests": ["CBC with differential (absolute eosinophil count)", "ANCA panel (MPO and PR3)", "ESR/CRP", "Tissue biopsy (skin, nerve, or lung)", "Echocardiogram", "CT chest"],
+    "acceptable_tests": ["IgE level", "Troponin", "BNP", "BMP with creatinine", "Urinalysis", "CT sinuses", "Nerve conduction studies/EMG", "Cardiac MRI"],
+    "low_yield_tests": ["D-dimer", "Procalcitonin", "Sputum culture", "PFTs (during acute vasculitis)", "Bronchoscopy"]
+  },
+  "stage5": {
+    "final_clue": "Nerve conduction studies confirm mononeuritis multiplex involving the right common peroneal and bilateral sural nerves. Combined with severe eosinophilia, ANCA positivity, biopsy-proven eosinophilic vasculitis with granulomas, asthma, sinusitis/polyps, and cardiac involvement, the patient meets ACR criteria and Five-Factor Score criteria for EGPA requiring aggressive immunosuppression."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged patient with late-onset severe asthma and chronic rhinosinusitis with nasal polyps who develops peripheral eosinophilia, migratory pulmonary infiltrates, palpable purpura, mononeuritis multiplex (foot drop), and positive MPO-ANCA. The paradoxical improvement of asthma coincides with the systemic vasculitic phase.",
+    "attending_mode_notes": "EGPA classically evolves through 3 phases: (1) allergic/prodromal phase (asthma, rhinosinusitis, polyps), (2) eosinophilic infiltration phase (peripheral eosinophilia, migratory pulmonary infiltrates, GI involvement), and (3) vasculitic phase (mononeuritis multiplex, purpura, glomerulonephritis, cardiomyopathy). The Five-Factor Score (FFS) guides treatment intensity: 1 point each for cardiac involvement, GI involvement, renal insufficiency (Cr >1.58), proteinuria >1g/day, and CNS involvement. FFS >=1 warrants cyclophosphamide + corticosteroids. ANCA-positive EGPA has more vasculitic features; ANCA-negative EGPA has more cardiac/eosinophilic features.",
+    "pathophysiology": "EGPA is an ANCA-associated small/medium vessel vasculitis characterized by eosinophil-rich granulomatous inflammation. The pathogenesis involves T-helper-2 (Th2) immune dysregulation with overproduction of IL-5 (which drives eosinophil production and activation) and IL-4/IL-13. Eosinophil degranulation releases major basic protein and eosinophilic cationic protein, causing direct tissue damage. MPO-ANCA activates neutrophils and monocytes, causing endothelial injury and necrotizing vasculitis. Cardiac involvement (eosinophilic myocarditis) is the leading cause of death.",
+    "treatment_overview": "Induction: High-dose corticosteroids (pulse methylprednisolone then prednisone 1 mg/kg/day with taper). Add cyclophosphamide for severe disease (FFS >=1) or mepolizumab (anti-IL-5) for non-severe/relapsing disease. Maintenance: Azathioprine or mepolizumab. Cardiac involvement requires aggressive immunosuppression and cardiology co-management. Rituximab is an alternative for refractory disease. Monitor eosinophil count and ANCA titers for relapse. Physical therapy for neuropathy/foot drop.",
+    "high_yield_pearls": [
+      "EGPA evolves in 3 phases: allergic (asthma/sinusitis), eosinophilic (tissue infiltration), and vasculitic (systemic vasculitis) — but phases often overlap.",
+      "Cardiac involvement (eosinophilic myocarditis) is the leading cause of death in EGPA — always get an echocardiogram and troponin.",
+      "MPO-ANCA (p-ANCA) is positive in ~40% of EGPA patients and correlates with vasculitic manifestations; ANCA-negative EGPA tends to have more cardiac/eosinophilic features.",
+      "Mepolizumab (anti-IL-5) is FDA-approved for EGPA and is increasingly used as first-line for non-severe disease.",
+      "Mononeuritis multiplex (e.g., foot drop, wrist drop) is the most common neurologic manifestation and results from vasculitis of the vasa nervorum."
+    ],
+    "sources": [
+      "Chung SA et al. ACR/VF 2021 Guideline for the Management of ANCA-Associated Vasculitis. Arthritis Rheumatol. 2021",
+      "Wechsler ME et al. Mepolizumab or Placebo for Eosinophilic Granulomatosis with Polyangiitis. N Engl J Med. 2017",
+      "UpToDate: Eosinophilic granulomatosis with polyangiitis (Churg-Strauss): Treatment and prognosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome", "Chronic eosinophilic pneumonia", "Granulomatosis with polyangiitis (GPA)", "Allergic bronchopulmonary aspergillosis", "Polyarteritis nodosa", "Parasitic infection"],
+    "after_stage2_more_likely": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome"],
+    "after_stage2_less_likely": ["Allergic bronchopulmonary aspergillosis", "Parasitic infection", "Granulomatosis with polyangiitis"],
+    "after_labs_top3": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome", "Polyarteritis nodosa"]
+  }
+}

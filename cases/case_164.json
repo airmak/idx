@@ -1,0 +1,74 @@
+{
+  "case_id": "case_164",
+  "mode": "easy",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Irritable Bowel Syndrome (IBS-D, Diarrhea-Predominant)",
+  "icd_category": "K58.0 — Irritable bowel syndrome with diarrhea",
+  "one_liner": "A 32-year-old female presents with 8 months of recurrent crampy abdominal pain improved with defecation and associated with loose stools, with normal labs and colonoscopy.",
+  "stage2": {
+    "hpi_extension": "The patient reports 8 months of recurrent lower abdominal cramping that occurs at least 4 days per week. The pain is diffuse but predominantly in the left lower quadrant, is crampy in nature, and consistently improves after a bowel movement. She has 4-6 loose, watery stools per day, often with urgency, and worse in the morning. She notes occasional mucus in stool but denies blood, melena, or nocturnal diarrhea (it never wakes her from sleep). Symptoms worsen with stress and certain foods (dairy, fried foods). She has had a 2-lb weight gain (not loss). She denies fever, joint pain, or rash.",
+    "pmh": "Generalized anxiety disorder, migraines",
+    "surgical_history": "None",
+    "medications": "Sertraline 100 mg daily, sumatriptan PRN",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother has IBS. No family history of IBD, celiac disease, or GI malignancy.",
+    "social_history": "Non-smoker. Occasional wine. Works as a corporate lawyer (high-stress job). Regular exercise (yoga 3x/week). No recent travel. No dietary supplements.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "72 bpm, regular",
+      "bp": "116/72 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "62 kg, BMI 22.4"
+    },
+    "physical_exam": "General: Well-appearing, no acute distress. HEENT: Normal. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Soft, mild diffuse tenderness to deep palpation in the left lower quadrant, no rebound or guarding, no masses, no organomegaly, active bowel sounds, no abdominal distension. Rectal exam: Normal tone, no masses, guaiac-negative stool. Extremities: No edema, no rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 6.5, Hgb 13.8, Plt 245", "flag": "WNL", "clinical_significance": "Normal, no anemia or leukocytosis to suggest organic disease"},
+      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal, no systemic inflammation — argues against IBD"},
+      {"test_name": "Fecal calprotectin", "result": "18 µg/g", "flag": "WNL", "clinical_significance": "Normal (<50) — effectively excludes IBD as cause of symptoms"},
+      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out hyperthyroidism as cause of diarrhea"},
+      {"test_name": "Celiac panel (tTG IgA + total IgA)", "result": "tTG IgA 3 U/mL (negative), total IgA 180 mg/dL (normal)", "flag": "WNL", "clinical_significance": "Normal, rules out celiac disease"},
+      {"test_name": "Stool studies (culture, O&P, C. diff)", "result": "All negative", "flag": "WNL", "clinical_significance": "No infectious etiology"},
+      {"test_name": "BMP", "result": "All within normal limits", "flag": "WNL", "clinical_significance": "Normal electrolytes"},
+      {"test_name": "ALT", "result": "22 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
+      {"test_name": "Albumin", "result": "4.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, no malabsorption or chronic inflammation"}
+    ],
+    "imaging_results": [
+      {"test_name": "Colonoscopy", "result": "Normal mucosa throughout colon and terminal ileum. No ulcers, erythema, or polyps. Random biopsies from right and left colon show normal histology.", "flag": "WNL", "clinical_significance": "Normal structural exam with normal biopsies — rules out IBD and microscopic colitis"},
+      {"test_name": "Abdominal X-ray", "result": "Normal bowel gas pattern, no obstruction or dilation", "flag": "WNL", "clinical_significance": "No structural abnormality"}
+    ],
+    "key_tests": ["Fecal calprotectin", "CBC", "CRP", "Celiac panel (tTG IgA)", "TSH"],
+    "acceptable_tests": ["Stool studies (culture, O&P, C. diff toxin)", "Colonoscopy with biopsies", "BMP", "LFTs", "Lactose hydrogen breath test", "Fecal elastase"],
+    "low_yield_tests": ["CT abdomen", "MRCP", "Upper endoscopy (no upper GI symptoms)", "Serum gastrin", "Small bowel follow-through"],
+    "key_tests_rationale": "Fecal calprotectin <50 effectively excludes IBD (NPV >95%). CBC and CRP screen for organic disease. Celiac panel rules out celiac disease (present in ~5% of IBS-D patients). TSH excludes thyroid disease. Stool studies exclude infectious diarrhea."
+  },
+  "stage5": {
+    "final_clue": "The patient meets Rome IV criteria for IBS-D: recurrent abdominal pain related to defecation with altered stool form, occurring at least 1 day/week for ≥6 months. All laboratory and endoscopic evaluations are normal, including fecal calprotectin, celiac serologies, and colonoscopy with biopsies."
+  },
+  "debrief": {
+    "classic_presentation": "IBS presents with chronic, recurrent abdominal pain associated with defecation and altered bowel habits (diarrhea, constipation, or both). Pain does NOT occur during sleep (unlike organic disease). Symptoms are exacerbated by stress and certain foods. There is NO weight loss, rectal bleeding, fever, or nocturnal diarrhea. Normal labs and endoscopy support the diagnosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "IBS is a disorder of gut-brain interaction (DGBI) characterized by visceral hypersensitivity (lowered pain threshold in the gut), altered GI motility, disrupted gut microbiome, immune activation (mast cells), and central sensitization. The gut-brain axis bidirectionally connects emotional/psychological stress with GI symptoms through vagal and sympathetic pathways, HPA axis, and serotonin signaling. 95% of the body's serotonin is in the gut.",
+    "treatment_overview": "Stepped approach: (1) Diet: low-FODMAP diet trial for 4-6 weeks (effective in ~50-70% of patients), fiber supplementation (soluble fiber like psyllium). (2) Pharmacologic for IBS-D: loperamide for diarrhea, antispasmodics (dicyclomine, hyoscyamine), rifaximin (550 mg TID x 14 days), bile acid sequestrant (cholestyramine), eluxadoline. (3) Neuromodulators: low-dose TCAs (amitriptyline 10-25 mg at bedtime) are highly effective for pain and diarrhea. (4) Psychological therapies: CBT, gut-directed hypnotherapy.",
+    "high_yield_pearls": [
+      "Rome IV criteria for IBS: recurrent abdominal pain ≥1 day/week for ≥3 months (onset ≥6 months prior) associated with ≥2 of: related to defecation, associated with change in frequency, associated with change in form.",
+      "Fecal calprotectin <50 µg/g has >95% negative predictive value for excluding IBD — it is the best non-invasive test to differentiate IBS from IBD.",
+      "Alarm features that argue AGAINST IBS: nocturnal symptoms, rectal bleeding, weight loss, fever, anemia, age >50 with new symptoms, family history of IBD/colon cancer.",
+      "Low-FODMAP diet is the most evidence-based dietary intervention, effective in 50-70% of IBS patients.",
+      "Low-dose tricyclic antidepressants (e.g., amitriptyline 10-25 mg) are highly effective for IBS pain through visceral analgesic and neuromodulatory effects."
+    ],
+    "sources": [
+      "2021 ACG Clinical Guideline: Management of Irritable Bowel Syndrome",
+      "Lacy et al., ACG Guideline on IBS, Am J Gastroenterol 2021",
+      "Ford et al., IBS, Lancet 2020"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Inflammatory bowel disease (UC/Crohn's)", "Celiac disease", "Microscopic colitis", "Hyperthyroidism", "Lactose intolerance", "Chronic infectious diarrhea", "Small intestinal bacterial overgrowth (SIBO)"],
+    "after_stage2_more_likely": ["IBS", "Food intolerance", "Functional dyspepsia"],
+    "after_stage2_less_likely": ["IBD", "Celiac disease", "Hyperthyroidism", "Infectious diarrhea"],
+    "after_labs_top3": ["Irritable bowel syndrome (diarrhea-predominant)", "Food intolerance", "SIBO"]
+  }
+}

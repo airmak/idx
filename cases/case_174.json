@@ -1,0 +1,71 @@
+{
+  "case_id": "case_174",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Eosinophilic Esophagitis",
+  "icd_category": "K20.0 — Eosinophilic esophagitis",
+  "one_liner": "A 30-year-old male with a history of asthma and food allergies presents with recurrent dysphagia to solids and a food impaction episode.",
+  "stage2": {
+    "hpi_extension": "The patient has experienced intermittent dysphagia to solid foods for the past 2 years, occurring 2-3 times per month. He modifies his eating behavior by chewing carefully, eating slowly, and drinking water with each bite. He had a food impaction with chicken 1 week ago requiring emergency department evaluation (resolved spontaneously after 3 hours). He reports occasional chest discomfort and heartburn unresponsive to a 2-month trial of omeprazole 40 mg BID. He has no dysphagia to liquids, no weight loss, no odynophagia, and no vomiting. He has had allergic rhinitis since childhood and uses an albuterol inhaler for asthma.",
+    "pmh": "Asthma (mild persistent), allergic rhinitis, food allergies (tree nuts), eczema in childhood",
+    "surgical_history": "None",
+    "medications": "Fluticasone propionate inhaler 110 mcg BID, cetirizine 10 mg daily, omeprazole 40 mg BID (started 2 months ago)",
+    "allergies": "Tree nuts (anaphylaxis), pollen",
+    "family_history": "Brother has asthma. Mother has eczema. Father has allergic rhinitis.",
+    "social_history": "Non-smoker. Social alcohol. Works as an accountant. No illicit drug use.",
+    "vitals": {
+      "temp": "36.7°C (98.1°F)",
+      "hr": "72 bpm, regular",
+      "bp": "120/74 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "75 kg, BMI 24.0"
+    },
+    "physical_exam": "General: Well-appearing male, no distress. HEENT: Normal oropharynx, no oral lesions, mild boggy nasal turbinates. Cardiovascular: Normal. Pulmonary: Mild expiratory wheezing bilaterally, otherwise clear. Abdomen: Soft, non-tender, non-distended, normal bowel sounds. Skin: Mild xerosis of the antecubital fossae, no active eczema. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC", "result": "WBC 8.5, Hgb 15.0, Plt 240, Eosinophils 8% (absolute 680/µL)", "flag": "HIGH", "clinical_significance": "Mild peripheral eosinophilia found in ~50% of EoE patients; not diagnostic but supportive"},
+      {"test_name": "Total IgE", "result": "320 IU/mL (normal <100)", "flag": "HIGH", "clinical_significance": "Elevated total IgE consistent with atopic diathesis; common in EoE patients"},
+      {"test_name": "BMP", "result": "All within normal limits", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Specific IgE panel (food allergens)", "result": "Positive for tree nuts, wheat, milk, egg", "flag": "ABNORMAL", "clinical_significance": "Multiple food sensitizations; food allergen triggers are common in EoE"},
+      {"test_name": "CRP", "result": "2 mg/L", "flag": "WNL", "clinical_significance": "Normal systemic inflammation, consistent with a localized esophageal process"},
+      {"test_name": "Tryptase", "result": "5.2 ng/mL (normal <11.4)", "flag": "WNL", "clinical_significance": "Normal, argues against systemic mastocytosis or hypereosinophilic syndrome"}
+    ],
+    "imaging_results": [
+      {"test_name": "Upper endoscopy (EGD)", "result": "Esophageal mucosa shows concentric rings ('trachealization'), linear furrows (longitudinal grooves), white exudates/plaques, edema with loss of vascular pattern, and a narrowed esophageal caliber. No stricture impeding passage of standard endoscope. Biopsies taken from proximal and distal esophagus.", "flag": "ABNORMAL", "clinical_significance": "Classic endoscopic features of EoE (EREFS classification: exudates, rings, edema, furrows, stricture). Findings are present despite PPI therapy."},
+      {"test_name": "Esophageal biopsies (proximal and distal)", "result": "≥15 eosinophils per high-power field (peak count 52 eos/hpf) in both proximal and distal esophagus. Eosinophilic microabscesses, basal zone hyperplasia, and subepithelial fibrosis present. No eosinophilic infiltration in gastric or duodenal biopsies.", "flag": "ABNORMAL", "clinical_significance": "Peak eosinophil count ≥15/hpf is the histologic threshold for EoE diagnosis. Biopsies taken on PPI therapy confirm this is not PPI-responsive esophageal eosinophilia."}
+    ],
+    "key_tests": ["Upper endoscopy (EGD) with esophageal biopsies", "CBC with differential (eosinophil count)", "PPI trial (8 weeks, high-dose BID — already completed)", "Gastric and duodenal biopsies (to exclude eosinophilic gastroenteritis)"],
+    "acceptable_tests": ["Total IgE", "Food-specific IgE/skin prick testing", "Barium swallow", "Esophageal manometry", "BMP", "CRP", "Tryptase level"],
+    "low_yield_tests": ["CT chest/abdomen", "Colonoscopy", "Stool studies", "H. pylori testing", "MRCP", "24-hour pH monitoring"],
+    "key_tests_rationale": "EGD with biopsies is essential — EoE is diagnosed by ≥15 eos/hpf on esophageal biopsies with symptoms of esophageal dysfunction. Biopsies must be obtained from both proximal and distal esophagus (EoE is often patchy). Per updated guidelines, a PPI trial is no longer required before diagnosis but helps confirm the diagnosis is not PPI-responsive esophageal eosinophilia. Gastric and duodenal biopsies exclude eosinophilic gastroenteritis."
+  },
+  "stage5": {
+    "final_clue": "A young atopic male (asthma, allergic rhinitis, food allergies) with progressive dysphagia to solids and food impaction, endoscopy showing rings, furrows, and exudates, and biopsies demonstrating ≥15 eos/hpf (peak 52/hpf) despite 8 weeks of high-dose PPI therapy confirms eosinophilic esophagitis. Normal gastric and duodenal biopsies exclude eosinophilic gastroenteritis."
+  },
+  "debrief": {
+    "classic_presentation": "EoE is a chronic, immune/antigen-mediated esophageal disease. It classically presents in young atopic males (ages 20-40) with dysphagia to solids and food impaction. Patients often have concurrent atopic conditions (asthma, eczema, allergic rhinitis, food allergies). Endoscopy shows rings ('trachealization'), linear furrows, white exudates, edema, and strictures. Diagnosis requires ≥15 eos/hpf on esophageal biopsy with symptoms of esophageal dysfunction.",
+    "attending_mode_notes": "EoE has several diagnostic and management pitfalls: (1) The endoscopic appearance can be normal in up to 10% of EoE patients — biopsies should be taken even if the mucosa appears normal in patients with compatible symptoms; (2) EoE is patchy, so biopsies from at least 6 sites across the proximal and distal esophagus are recommended to avoid false negatives; (3) Per updated 2022 AGA/JTF guidelines, PPI-responsive esophageal eosinophilia (PPI-REE) is now considered part of the EoE spectrum — a PPI trial is no longer a diagnostic requirement, though PPIs can be used as first-line treatment; (4) Subepithelial fibrosis (not captured by mucosal biopsies) can cause a rigid, narrowed esophagus despite normal-appearing mucosa — the 'fibrostenotic' phenotype requires dilation; (5) The EndoFLIP (endoluminal functional lumen imaging probe) can assess esophageal distensibility and identify fibrotic remodeling not apparent endoscopically; (6) Esophageal perforation risk during food impaction is increased in EoE patients — glucagon and gentle push technique are preferred over aggressive manipulation.",
+    "pathophysiology": "EoE is a Th2-mediated immune response to food and aeroallergens. Antigen exposure triggers IL-4, IL-5, and IL-13 production by Th2 cells and innate lymphoid cells (ILC2s). IL-5 drives eosinophil recruitment, activation, and survival in the esophageal mucosa. IL-13 stimulates esophageal epithelial cells to produce eotaxin-3 (the most upregulated gene in EoE), which is a potent eosinophil chemoattractant. Eosinophilic degranulation releases toxic granule proteins (MBP, ECP) causing epithelial damage. TGF-β released from eosinophils promotes subepithelial fibrosis, smooth muscle hypertrophy, and esophageal remodeling, leading to stricture formation and dysphagia.",
+    "treatment_overview": "First-line options (all are considered equivalent): (1) Swallowed topical corticosteroids: budesonide orodispersible tablet 1 mg BID or fluticasone swallowed via MDI 440 mcg BID (no spacer, no rinsing); (2) PPI therapy: omeprazole 20-40 mg BID; (3) Dietary elimination: six-food elimination diet (dairy, wheat, egg, soy, nuts, seafood) or targeted elimination based on allergy testing. Dupilumab (anti-IL-4Rα monoclonal antibody) is FDA-approved for EoE refractory to conventional therapy. Esophageal dilation is indicated for symptomatic strictures. Maintenance therapy is recommended as EoE recurs in >90% after treatment cessation. Monitor histologic response with repeat EGD/biopsies at 8-12 weeks.",
+    "high_yield_pearls": [
+      "EoE is the leading cause of food impaction and dysphagia to solids in young adults — biopsy the esophagus during any food impaction endoscopy.",
+      "≥15 eosinophils per high-power field on esophageal biopsy is the diagnostic threshold — biopsies from ≥6 sites across the esophagus improve diagnostic sensitivity.",
+      "Dupilumab (anti-IL-4Rα) is the first FDA-approved biologic for EoE (2022), indicated for patients ≥12 years weighing ≥40 kg.",
+      "PPI-responsive esophageal eosinophilia is now part of the EoE spectrum per AGA/JTF 2022 guidelines — PPIs are a valid first-line treatment for EoE, not just a diagnostic exclusion criterion.",
+      "The EREFS scoring system (Exudates, Rings, Edema, Furrows, Stricture) standardizes endoscopic assessment and tracks treatment response in EoE."
+    ],
+    "sources": [
+      "2022 AGA/JTF Guidelines on Management of Eosinophilic Esophagitis",
+      "Dellon ES et al., Updated International Consensus Diagnostic Criteria for Eosinophilic Esophagitis, Gastroenterology 2018",
+      "Hirano I et al., Dupilumab Efficacy in EoE, NEJM 2022"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["GERD with esophagitis", "Esophageal stricture (peptic)", "Esophageal web or ring (Schatzki ring)", "Eosinophilic gastroenteritis", "Achalasia", "Esophageal cancer"],
+    "after_stage2_more_likely": ["Eosinophilic esophagitis", "GERD with esophagitis", "Esophageal ring/web"],
+    "after_stage2_less_likely": ["Esophageal cancer", "Achalasia", "Eosinophilic gastroenteritis"],
+    "after_labs_top3": ["Eosinophilic esophagitis", "GERD-related esophageal eosinophilia", "Eosinophilic gastroenteritis"]
+  }
+}

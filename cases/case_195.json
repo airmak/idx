@@ -1,0 +1,194 @@
+{
+  "case_id": "case_195",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Juvenile idiopathic arthritis (polyarticular, RF-negative)",
+  "icd_category": "M08.30 – Juvenile rheumatoid polyarthritis (seronegative), unspecified site",
+  "one_liner": "A 6-year-old female with no significant past medical history presents with 8 weeks of progressive bilateral knee and wrist swelling, morning stiffness lasting over 1 hour, and a daily spiking fever with a salmon-colored evanescent rash.",
+  "stage2": {
+    "hpi_extension": "The patient's mother reports the child first complained of bilateral knee pain 8 weeks ago. Over the following weeks, swelling appeared in both knees, both wrists, and several small joints of the hands. She has marked morning stiffness lasting 1.5-2 hours that gradually improves with activity throughout the day. Her gait has become stiff and she avoids running. Over the past 3 weeks, she has developed daily fevers spiking to 39-40°C, typically in the late afternoon/evening, with spontaneous return to normal or below normal by morning (quotidian fever pattern). A faint pink rash appears on her trunk and proximal extremities during fever spikes and fades when the fever breaks. She has had a 1.5 kg weight loss and generalized fatigue. There is no sore throat, diarrhea, or recent travel. No tick exposure. No preceding trauma.",
+    "pmh": "No significant past medical history. Born full-term. Up to date on immunizations.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 200 mg PO TID (10 mg/kg/dose) with minimal improvement",
+    "allergies": "No known drug allergies",
+    "family_history": "Maternal aunt with rheumatoid arthritis. No family history of psoriasis, inflammatory bowel disease, or other autoimmune conditions.",
+    "social_history": "Lives with both parents. Attends 1st grade but has missed 2 weeks due to symptoms. Previously active in ballet but stopped due to joint pain. No pets. No travel history.",
+    "vitals": {
+      "temp": "39.4°C (102.9°F) (afternoon spike)",
+      "hr": "112 bpm",
+      "bp": "100/62 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "19 kg (25th percentile, down from 50th percentile)"
+    },
+    "physical_exam": "General: Alert, appears fatigued, mildly pale; weight loss evident. HEENT: No uveitis on external exam (slit lamp exam recommended). No oral ulcers. No lymphadenopathy in head/neck. Neck: Supple, no cervical lymphadenopathy. Cardiovascular: Mildly tachycardic, regular rhythm, no murmurs, rubs, or gallops; no pericardial friction rub. Pulmonary: Clear to auscultation bilaterally. Abdomen: Mild hepatosplenomegaly (liver 3 cm below costal margin, spleen tip palpable). No tenderness. Musculoskeletal: Bilateral knee effusions with warmth and limited range of motion (flexion limited to 100°); bilateral wrist swelling with tenderness and decreased dorsiflexion; MCP joints 2-4 bilaterally swollen; no joint erythema. Skin: Faint salmon-pink, macular, evanescent rash on trunk and proximal extremities, with central clearing — the rash blanches with pressure and appeared coincident with fever spike; the rash is NOT pruritic. Lymph nodes: Generalized lymphadenopathy (bilateral axillary and inguinal, 1-2 cm, non-tender, mobile)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "ESR",
+        "result": "82 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ESR reflects significant systemic inflammation characteristic of systemic JIA."
+      },
+      {
+        "test_name": "CRP",
+        "result": "96 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated CRP confirms active systemic inflammation."
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "892 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ferritin is characteristic of systemic JIA and is a key marker to monitor for macrophage activation syndrome (MAS) — ferritin >10,000 ng/mL raises high suspicion for MAS."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 22.4 × 10³/µL (neutrophils 78%), Hgb 9.8 g/dL, Hct 30%, Platelets 548 × 10³/µL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leukocytosis with neutrophilia, anemia of chronic disease, and reactive thrombocytosis are typical of systemic JIA."
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Normochromic normocytic anemia. Reactive neutrophilia. Reactive thrombocytosis. No blasts. No atypical lymphocytes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Absence of blasts is critical to exclude leukemia, which is the most important malignant mimic of systemic JIA."
+      },
+      {
+        "test_name": "Rheumatoid Factor (RF)",
+        "result": "Negative (<14 IU/mL)",
+        "flag": "WNL",
+        "clinical_significance": "RF is negative in most JIA subtypes; when positive in polyarticular JIA, it is associated with a more aggressive, erosive course similar to adult RA."
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "ANA is typically negative in systemic JIA; a positive ANA in oligoarticular JIA increases risk of chronic anterior uveitis."
+      },
+      {
+        "test_name": "Anti-CCP antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative anti-CCP, consistent with RF-negative disease."
+      },
+      {
+        "test_name": "LDH",
+        "result": "420 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated LDH reflects tissue inflammation and cell turnover."
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "1.8 µg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated D-dimer in systemic JIA warrants monitoring for MAS; markedly elevated D-dimer with falling platelets and fibrinogen would suggest evolving MAS."
+      },
+      {
+        "test_name": "Blood culture",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Negative blood cultures help exclude bacterial sepsis and endocarditis as causes of fever with arthritis."
+      },
+      {
+        "test_name": "ASO / Anti-DNase B",
+        "result": "ASO 125 IU/mL, Anti-DNase B 140 U/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal streptococcal antibody titers argue against acute rheumatic fever."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "X-rays bilateral knees and wrists",
+        "result": "Bilateral knee and wrist joint effusions. Periarticular soft tissue swelling. Periarticular osteopenia. No joint space narrowing. No erosions. Growth plates appear normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Soft tissue swelling and periarticular osteopenia without erosions are typical early findings of JIA; erosions develop later with uncontrolled disease."
+      },
+      {
+        "test_name": "Echocardiogram",
+        "result": "Normal biventricular function. Small pericardial effusion (4 mm). No valvular abnormalities. No vegetations.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small pericardial effusion (serositis) is common in systemic JIA and helps differentiate from other JIA subtypes; no evidence of endocarditis."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly (likely due to pericardial effusion). No pleural effusions. Clear lung fields.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cardiomegaly from pericardial effusion; serositis is a feature of systemic JIA."
+      }
+    ],
+    "key_tests": [
+      "ESR and CRP",
+      "CBC with differential and peripheral blood smear",
+      "Ferritin",
+      "ANA and RF",
+      "Blood culture (to exclude sepsis)"
+    ],
+    "acceptable_tests": [
+      "Anti-CCP antibodies",
+      "LDH",
+      "D-dimer / Fibrinogen",
+      "ASO titer / Anti-DNase B",
+      "X-rays of affected joints",
+      "Echocardiogram",
+      "Slit-lamp ophthalmologic exam",
+      "HLA-B27 (more relevant for enthesitis-related JIA)"
+    ],
+    "low_yield_tests": [
+      "Lyme serology (no tick exposure history)",
+      "Joint aspiration (unless septic arthritis suspected)",
+      "MRI of joints (not first-line for diagnosis)",
+      "Bone marrow biopsy (only if leukemia strongly suspected)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The child meets ILAR criteria for systemic juvenile idiopathic arthritis: arthritis in ≥1 joint for ≥6 weeks duration with quotidian (daily spiking) fever for ≥2 weeks, accompanied by the characteristic evanescent salmon-colored rash, hepatosplenomegaly, generalized lymphadenopathy, and serositis (pericardial effusion). Markedly elevated inflammatory markers with a high ferritin and negative RF/ANA complete the picture. Bone marrow biopsy (if pursued) shows reactive changes without blasts, excluding leukemia."
+  },
+  "debrief": {
+    "classic_presentation": "Systemic JIA (formerly Still's disease) presents in children <16 years with arthritis and prominent systemic features: quotidian (daily spiking) fever that reaches ≥39°C once or twice daily and returns to baseline or below, characteristic evanescent salmon-pink macular rash that appears with fever spikes, hepatosplenomegaly, generalized lymphadenopathy, and serositis (pericarditis/pleuritis). Lab findings show markedly elevated inflammatory markers (ESR, CRP, ferritin), leukocytosis, anemia, and thrombocytosis. RF and ANA are characteristically negative. Peak age of onset is 1-5 years with equal sex distribution.",
+    "attending_mode_notes": "The most life-threatening complication is macrophage activation syndrome (MAS), a form of secondary hemophagocytic lymphohistiocytosis (HLH) that occurs in 10-15% of systemic JIA patients. Key MAS warning signs: paradoxically FALLING ESR (despite worsening clinical status — because fibrinogen drops), markedly rising ferritin (>10,000), FALLING platelet count and WBC (previously elevated), rising LDH and liver enzymes, rising triglycerides, falling fibrinogen, and coagulopathy. MAS is a medical emergency requiring high-dose IV methylprednisolone and cyclosporine. Also critical: the differential diagnosis must always include leukemia (ALL can mimic JIA with joint pain, fever, lymphadenopathy, and hepatosplenomegaly), particularly before starting steroids — a peripheral smear and potentially bone marrow biopsy should be obtained.",
+    "pathophysiology": "Systemic JIA is now classified as an autoinflammatory (rather than autoimmune) disease, driven primarily by innate immune system dysregulation. Key cytokines include IL-1β, IL-6, and IL-18, which drive the quotidian fever, systemic inflammation, and elevated acute-phase reactants. Unlike other JIA subtypes, adaptive immunity (T/B cells) plays a secondary role, explaining the absence of autoantibodies (RF, ANA negative). The pathogenesis involves macrophage and neutrophil activation with excessive cytokine production. IL-6 drives hepatic acute-phase protein synthesis (CRP, ferritin, fibrinogen, hepcidin), contributes to anemia of chronic disease (via hepcidin-mediated iron sequestration), and promotes the systemic inflammatory response.",
+    "treatment_overview": "Treatment has been revolutionized by biologic therapies targeting IL-1 and IL-6: FIRST-LINE for systemic features: NSAIDs for mild disease; systemic corticosteroids (prednisone 1-2 mg/kg/day) for moderate-severe disease. BIOLOGIC AGENTS: IL-1 inhibitors (anakinra — daily SC injection; canakinumab — monthly SC injection) or IL-6 inhibitor (tocilizumab — IV or SC) are now considered early in disease course and can produce dramatic responses. Traditional DMARDs (methotrexate) are less effective for systemic features but may help with articular disease. For MAS: high-dose pulse IV methylprednisolone (30 mg/kg) + cyclosporine A; refractory MAS may require etoposide or anakinra. Long-term monitoring: ophthalmologic screening for uveitis (less common in systemic JIA than oligoarticular), growth monitoring, bone density assessment.",
+    "high_yield_pearls": [
+      "The quotidian fever pattern of systemic JIA is DIAGNOSTIC: the temperature spikes to ≥39°C once or twice daily (often late afternoon/evening) and returns to NORMAL or BELOW normal between spikes — this distinguishes it from the continuous fever of infection or malignancy.",
+      "The EVANESCENT salmon-pink rash of systemic JIA is pathognomonic: it appears during fever spikes and FADES when the fever resolves; it is macular, non-pruritic, found on the trunk and proximal extremities, and can be provoked by scratching (Koebner phenomenon).",
+      "Macrophage activation syndrome (MAS) is the most dangerous complication — a FALLING ESR (dropping fibrinogen) in a worsening patient is a RED FLAG; paradoxically falling platelets and WBC (previously elevated) with skyrocketing ferritin should trigger immediate treatment.",
+      "ALWAYS exclude leukemia before starting corticosteroids in a child with fever, arthralgia, lymphadenopathy, and hepatosplenomegaly — ALL can mimic systemic JIA; obtain a peripheral smear and consider bone marrow biopsy.",
+      "IL-1 (anakinra, canakinumab) and IL-6 (tocilizumab) inhibitors have transformed systemic JIA treatment with response rates >80%, often allowing steroid sparing and preventing the devastating growth and bone effects of long-term corticosteroid use."
+    ],
+    "sources": [
+      "ILAR: International League of Associations for Rheumatology Classification of JIA",
+      "ACR/AF 2019: Guidelines for the Treatment of Juvenile Idiopathic Arthritis",
+      "UpToDate: Systemic juvenile idiopathic arthritis: Clinical manifestations and diagnosis",
+      "UpToDate: Systemic juvenile idiopathic arthritis: Treatment",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Systemic juvenile idiopathic arthritis",
+      "Acute lymphoblastic leukemia",
+      "Acute rheumatic fever",
+      "Systemic lupus erythematosus",
+      "Infectious arthritis / Sepsis",
+      "Kawasaki disease",
+      "Reactive arthritis",
+      "Lymphoma"
+    ],
+    "after_stage2_more_likely": [
+      "Systemic JIA (quotidian fever, evanescent rash, polyarthritis, hepatosplenomegaly, lymphadenopathy — classic Still's disease presentation)",
+      "ALL (overlapping features: fever, hepatosplenomegaly, lymphadenopathy, joint pain, anemia)"
+    ],
+    "after_stage2_less_likely": [
+      "Acute rheumatic fever (no evidence of recent strep, no carditis murmur, rash pattern differs, polyarthritis of JIA is additive vs migratory in ARF)",
+      "SLE (no malar rash, no oral ulcers, no hair loss, ANA negative, age atypical for SLE)",
+      "Kawasaki disease (>5 days fever but lacks conjunctivitis, oral changes, extremity changes — and KD does not typically cause polyarthritis)"
+    ],
+    "after_labs_top3": [
+      "Systemic juvenile idiopathic arthritis",
+      "Acute lymphoblastic leukemia (must be excluded before steroids)",
+      "Macrophage activation syndrome (if ferritin rises dramatically)"
+    ]
+  }
+}

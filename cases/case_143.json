@@ -1,0 +1,110 @@
+{
+  "case_id": "case_143",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "HIV (new diagnosis)",
+  "icd_category": "B20 — Human immunodeficiency virus [HIV] disease",
+  "one_liner": "A 29-year-old male presenting with 3 weeks of fatigue, sore throat, diffuse lymphadenopathy, and a maculopapular rash following unprotected sexual contact.",
+  "stage2": {
+    "hpi_extension": "The patient reports a 3-week history of progressive fatigue, sore throat, intermittent fevers up to 39°C, night sweats, myalgias, and a diffuse non-pruritic rash over his trunk and arms. He had unprotected sexual intercourse with a new male partner approximately 4 weeks ago. He noticed painless swelling in his neck and axillae. He reports mild diarrhea (3-4 loose stools per day) and a 3 kg unintentional weight loss. He denies IV drug use, blood transfusions, or known exposure to HIV-positive individuals. No prior STI testing. No oral ulcers or visual changes.",
+    "pmh": "No significant past medical history.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Works in marketing. Men who have sex with men (MSM). Social alcohol use. No tobacco or illicit drugs. No recent travel. Not on PrEP.",
+    "vitals": {
+      "temp": "38.4°C (101.1°F)",
+      "hr": "92 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "74 kg, BMI 23.5"
+    },
+    "physical_exam": "Alert, mildly fatigued-appearing male. Oropharynx with mild erythema, no exudates, no oral thrush. Bilateral non-tender cervical, axillary, and inguinal lymphadenopathy (1-2 cm nodes, rubbery, mobile). Diffuse maculopapular rash over the trunk and upper extremities, sparing palms and soles. No vesicles or petechiae. No hepatosplenomegaly. Neurological exam is non-focal. No genital ulcers or urethral discharge."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "HIV-1/2 Ag/Ab Combination (4th generation)", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Positive screening test consistent with HIV infection"},
+      {"test_name": "HIV-1 RNA Viral Load", "result": "485,000 copies/mL", "flag": "HIGH", "clinical_significance": "Very high viral load consistent with acute/early HIV infection"},
+      {"test_name": "HIV-1 Confirmatory Differentiation Assay", "result": "HIV-1 positive, HIV-2 negative", "flag": "ABNORMAL", "clinical_significance": "Confirms HIV-1 infection"},
+      {"test_name": "CD4 Count", "result": "380 cells/μL", "flag": "LOW", "clinical_significance": "Moderately decreased CD4 count; above threshold for opportunistic infections but warrants prompt ART initiation"},
+      {"test_name": "CBC — WBC", "result": "3,800/μL with 18% atypical lymphocytes", "flag": "LOW", "clinical_significance": "Leukopenia with atypical lymphocytes typical of acute retroviral syndrome"},
+      {"test_name": "CBC — Platelets", "result": "128,000/μL", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia commonly seen in acute HIV"},
+      {"test_name": "AST/ALT", "result": "AST 68 U/L, ALT 72 U/L", "flag": "HIGH", "clinical_significance": "Mild transaminitis seen in acute HIV infection"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "No serologic evidence of syphilis co-infection"},
+      {"test_name": "Hepatitis B Panel", "result": "HBsAg negative, anti-HBs positive, anti-HBc negative", "flag": "WNL", "clinical_significance": "Immune from vaccination; no active hepatitis B"},
+      {"test_name": "Hepatitis C Antibody", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "No hepatitis C co-infection"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "No infiltrates, effusions, or lymphadenopathy. Heart size normal.", "flag": "WNL", "clinical_significance": "No evidence of pulmonary opportunistic infection"}
+    ],
+    "key_tests": [
+      "HIV-1/2 Ag/Ab combination immunoassay (4th generation screening test)",
+      "HIV-1 RNA viral load (essential for diagnosing acute infection if antibody negative)",
+      "HIV-1/HIV-2 antibody differentiation assay (confirmatory)",
+      "CD4+ T-cell count"
+    ],
+    "acceptable_tests": [
+      "Complete blood count with differential",
+      "Comprehensive metabolic panel including LFTs",
+      "RPR or VDRL for syphilis co-screening",
+      "Hepatitis B and C serologies",
+      "Gonorrhea/chlamydia NAAT (urine and rectal)",
+      "Toxoplasma IgG",
+      "Chest X-ray"
+    ],
+    "low_yield_tests": [
+      "Monospot/heterophile antibody (may be falsely positive in acute HIV; delays correct diagnosis)",
+      "ANA panel",
+      "CT chest/abdomen/pelvis",
+      "Bone marrow biopsy",
+      "CMV IgM serology"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Reactive 4th-generation HIV Ag/Ab assay, confirmed HIV-1 positive on differentiation assay, with a very high viral load (485,000 copies/mL), CD4 count 380, atypical lymphocytosis, thrombocytopenia, and transaminitis in a young MSM patient with classic acute retroviral syndrome (fever, pharyngitis, lymphadenopathy, diffuse rash) occurring 4 weeks after unprotected sexual contact."
+  },
+  "debrief": {
+    "classic_presentation": "Acute retroviral syndrome presents 2-4 weeks after HIV exposure with a mononucleosis-like illness: fever, pharyngitis, diffuse lymphadenopathy, maculopapular rash (trunk > extremities, sparing palms/soles), myalgia, fatigue, and sometimes oral ulcers or diarrhea. Atypical lymphocytosis, thrombocytopenia, and transaminitis are common laboratory findings.",
+    "attending_mode_notes": null,
+    "pathophysiology": "HIV-1 binds to CD4 receptors and CCR5/CXCR4 co-receptors on T-helper cells, macrophages, and dendritic cells. After entry, reverse transcriptase converts viral RNA to DNA, which integrates into the host genome. During acute infection, massive viral replication occurs (viral loads often >100,000 copies/mL) with widespread dissemination to lymphoid tissue. The initial immune response produces a cytokine storm responsible for the symptomatic acute retroviral syndrome. CD4 counts transiently drop before partially recovering. The 4th-generation Ag/Ab test detects both p24 antigen (present early, before antibody seroconversion) and HIV-1/2 antibodies, closing the diagnostic window period to approximately 2 weeks post-infection.",
+    "treatment_overview": "Initiate antiretroviral therapy (ART) as soon as possible regardless of CD4 count. Recommended initial regimens include integrase inhibitor-based combinations: bictegravir/emtricitabine/tenofovir alafenamide (Biktarvy) or dolutegravir plus emtricitabine/tenofovir. Send HIV genotype/resistance testing before starting ART. Counsel on adherence, transmission risk, and U=U (undetectable = untransmittable). Screen and treat STI co-infections. Ensure partner notification. Vaccinations (pneumococcal, hepatitis A/B if non-immune, annual influenza). Baseline screening: renal function, lipids, urinalysis, TB screening (QuantiFERON or PPD). Follow-up viral load at 4-8 weeks to confirm response.",
+    "high_yield_pearls": [
+      "Acute retroviral syndrome mimics mononucleosis — always consider HIV in the differential for a mono-like illness, especially in at-risk populations.",
+      "The 4th-generation HIV Ag/Ab test detects p24 antigen and can diagnose HIV approximately 2 weeks after infection, weeks before antibody-only tests.",
+      "During the acute HIV window period, the viral load is extremely high (often >100,000 copies/mL), making patients highly infectious.",
+      "A negative monospot with a mononucleosis-like illness should raise suspicion for acute HIV.",
+      "ART should be initiated as soon as possible in acute HIV — early treatment preserves immune function and reduces the viral reservoir."
+    ],
+    "sources": [
+      "DHHS Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents Living with HIV (2024)",
+      "UpToDate: Acute and early HIV infection — Clinical manifestations and diagnosis (2024)",
+      "Pilcher CD et al. Acute HIV revisited: new opportunities for treatment and prevention. J Clin Invest. 2004;113(7):937-945."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute HIV infection",
+      "Infectious mononucleosis (EBV)",
+      "Cytomegalovirus mononucleosis",
+      "Secondary syphilis",
+      "Acute hepatitis B",
+      "Streptococcal pharyngitis",
+      "Drug reaction"
+    ],
+    "after_stage2_more_likely": [
+      "Acute HIV infection — mononucleosis-like syndrome with diffuse rash, generalized lymphadenopathy, and high-risk sexual exposure 4 weeks prior",
+      "Infectious mononucleosis (EBV) — similar presentation with pharyngitis, lymphadenopathy, fatigue, and atypical lymphocytes"
+    ],
+    "after_stage2_less_likely": [
+      "Secondary syphilis — typically involves palms and soles (spared here) and mucosal patches",
+      "Streptococcal pharyngitis — typically exudative; does not explain diffuse rash and lymphadenopathy in this distribution"
+    ],
+    "after_labs_top3": [
+      "Acute HIV infection — confirmed by reactive 4th-gen Ag/Ab, positive HIV-1 differentiation assay, viral load 485,000 copies/mL, CD4 380",
+      "EBV mononucleosis — excluded; would not have reactive HIV testing",
+      "Secondary syphilis — excluded by non-reactive RPR"
+    ]
+  }
+}

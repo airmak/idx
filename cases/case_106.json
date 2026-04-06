@@ -1,0 +1,73 @@
+{
+  "case_id": "case_106",
+  "mode": "easy",
+  "specialty": "Neurology",
+  "diagnosis": "Carpal tunnel syndrome",
+  "icd_category": "G56.00 — Carpal tunnel syndrome, unspecified upper limb",
+  "one_liner": "A 48-year-old woman who works as a data entry clerk presents with intermittent numbness, tingling, and pain in her right hand, worse at night, for 4 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports 4 months of intermittent numbness, tingling ('pins and needles'), and burning pain in the thumb, index, middle, and radial half of the ring finger of her right (dominant) hand. Symptoms are worst at night and frequently wake her from sleep; she obtains relief by shaking her hand (flick sign). Symptoms also worsen while driving, holding a phone, or typing at work. She has noticed weakness in her grip and has begun dropping objects. She reports the numbness occasionally radiates up to her forearm. She denies neck pain, shoulder symptoms, or bilateral leg symptoms.",
+    "pmh": "Hypothyroidism, type 2 diabetes mellitus (well-controlled), obesity.",
+    "surgical_history": "Cesarean section x2.",
+    "medications": "Levothyroxine 100 mcg daily, metformin 1000 mg BID.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother had carpal tunnel syndrome. Father has type 2 diabetes.",
+    "social_history": "Data entry clerk for 15 years with extensive keyboard use. Right-hand dominant. Non-smoker. No alcohol. Lives with husband and two children.",
+    "vitals": {
+      "temp": "98.4 F (36.9 C)",
+      "hr": "72 bpm",
+      "bp": "128/80 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "88 kg, BMI 33.2"
+    },
+    "physical_exam": "General: Well-appearing woman, no acute distress. HEENT: Normal. Neck: Full range of motion, no tenderness, negative Spurling test. Upper extremities: Right hand — thenar eminence shows mild atrophy compared to left. Decreased sensation to light touch and pinprick in the median nerve distribution (thumb, index, middle finger, radial half of ring finger). Tinel sign positive at right wrist (tingling with percussion over carpal tunnel). Phalen test positive (reproduces symptoms within 15 seconds of wrist flexion). Grip strength mildly reduced on right. Reverse Phalen (wrist extension) also reproduces symptoms. Left hand: Normal examination. Lower extremities: Normal. Deep tendon reflexes: 2+ and symmetric throughout. No Hoffmann sign."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal on replacement therapy; hypothyroidism is a risk factor for CTS"},
+      {"test_name": "HbA1c", "result": "6.5%", "flag": "WNL", "clinical_significance": "At target; diabetes is a risk factor for CTS and peripheral neuropathy"},
+      {"test_name": "Fasting glucose", "result": "108 mg/dL", "flag": "WNL", "clinical_significance": "Adequately controlled"},
+      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CBC — Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "CRP", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process (RA excluded clinically)"},
+      {"test_name": "RF", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rheumatoid arthritis excluded as underlying cause of CTS"},
+      {"test_name": "Vitamin B12", "result": "380 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency excluded as cause of peripheral neuropathy"},
+      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"}
+    ],
+    "imaging_results": [
+      {"test_name": "Nerve conduction studies (NCS) / Electromyography (EMG)", "result": "Median nerve: prolonged distal sensory latency (4.8 ms, normal <3.5 ms) and prolonged distal motor latency (5.2 ms, normal <4.2 ms) at the wrist. Reduced sensory nerve action potential amplitude. EMG of abductor pollicis brevis shows fibrillation potentials and reduced recruitment. Ulnar nerve studies normal.", "flag": "ABNORMAL", "clinical_significance": "NCS/EMG confirms moderate-to-severe right carpal tunnel syndrome with both demyelinating and axonal changes. Fibrillations indicate denervation of thenar muscles."},
+      {"test_name": "Wrist X-ray (if obtained)", "result": "No fracture, dislocation, or arthritis. Normal carpal bones.", "flag": "WNL", "clinical_significance": "Excludes bony causes of carpal tunnel compression (fracture, arthritis)"}
+    ],
+    "key_tests": ["Nerve conduction studies / electromyography (NCS/EMG)", "Detailed neurological examination (Tinel, Phalen tests)", "TSH", "HbA1c or fasting glucose"],
+    "acceptable_tests": ["CBC", "CRP/ESR", "Rheumatoid factor", "Vitamin B12", "Wrist X-ray", "Ultrasound of carpal tunnel (measures median nerve cross-sectional area)", "BMP"],
+    "low_yield_tests": ["MRI wrist (unless structural mass suspected)", "CT wrist", "Brain MRI", "Cervical spine MRI (unless cervical radiculopathy suspected)", "Lumbar puncture"]
+  },
+  "stage5": {
+    "final_clue": "NCS/EMG confirms moderate-to-severe right median neuropathy at the wrist with both sensory and motor involvement and early denervation changes. Given the severity (thenar atrophy, fibrillations on EMG), the patient is referred for carpal tunnel release surgery. Post-operatively, her nighttime symptoms resolve within 1 week, and grip strength improves over 3 months."
+  },
+  "debrief": {
+    "classic_presentation": "Middle-aged woman with repetitive hand use, obesity, hypothyroidism, and diabetes presenting with numbness and tingling in the median nerve distribution (first 3.5 fingers), worse at night with relief from hand shaking ('flick sign'), positive Tinel and Phalen signs, and thenar atrophy in advanced cases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Carpal tunnel syndrome results from compression of the median nerve as it passes through the carpal tunnel at the wrist — a rigid space bounded by carpal bones and the transverse carpal ligament. Increased pressure within the tunnel (from tendon swelling, fluid retention, or space-occupying lesions) compromises nerve blood flow, causing demyelination initially (sensory symptoms, prolonged latencies on NCS) and axonal degeneration in advanced cases (thenar weakness/atrophy, fibrillations on EMG). Risk factors include repetitive hand use, obesity, pregnancy, hypothyroidism, diabetes, RA, and acromegaly.",
+    "treatment_overview": "Conservative (mild-moderate): Nighttime wrist splinting in neutral position (reduces pressure in carpal tunnel), NSAIDs, ergonomic modifications, corticosteroid injection into the carpal tunnel (provides temporary relief for weeks-months). Surgical (moderate-severe or failed conservative therapy): Carpal tunnel release (open or endoscopic) — sectioning of the transverse carpal ligament to decompress the nerve. Surgery has >90% success rate. Thenar atrophy may not fully recover after decompression if denervation has been prolonged. Address underlying risk factors (optimize thyroid, diabetes, weight).",
+    "high_yield_pearls": [
+      "The 'flick sign' (shaking the hand for relief) has high sensitivity and specificity for carpal tunnel syndrome.",
+      "CTS affects the median nerve distribution: thumb, index, middle, and radial half of the ring finger — the little finger is SPARED (ulnar nerve territory).",
+      "NCS/EMG is the gold standard for confirming CTS and grading severity — prolonged distal sensory latency is the earliest electrodiagnostic finding.",
+      "Thenar atrophy and fibrillation potentials on EMG indicate advanced disease with axonal loss — these patients need surgical decompression.",
+      "Pregnancy is a common transient cause of CTS due to fluid retention — symptoms often resolve postpartum."
+    ],
+    "sources": [
+      "AAOS Clinical Practice Guideline: Management of Carpal Tunnel Syndrome, 2016",
+      "AAN Practice Guideline: Diagnosis of Carpal Tunnel Syndrome, 2011",
+      "UpToDate: Carpal tunnel syndrome: Clinical manifestations and diagnosis"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Carpal tunnel syndrome", "Cervical radiculopathy (C6-C7)", "Ulnar neuropathy at elbow", "Pronator teres syndrome", "Peripheral neuropathy (diabetic)", "Thoracic outlet syndrome", "De Quervain tenosynovitis"],
+    "after_stage2_more_likely": ["Carpal tunnel syndrome", "Pronator teres syndrome"],
+    "after_stage2_less_likely": ["Cervical radiculopathy", "Thoracic outlet syndrome", "De Quervain tenosynovitis"],
+    "after_labs_top3": ["Carpal tunnel syndrome", "Pronator teres syndrome", "Peripheral neuropathy (diabetic)"]
+  }
+}

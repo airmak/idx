@@ -1,0 +1,101 @@
+{
+  "case_id": "case_150",
+  "mode": "easy",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Herpes zoster",
+  "icd_category": "B02.9 — Zoster without complications",
+  "one_liner": "A 72-year-old male presents with a 3-day history of burning pain followed by a grouped vesicular rash in a T5 dermatomal distribution on the left thorax, not crossing the midline.",
+  "stage2": {
+    "hpi_extension": "The patient developed a band-like burning and tingling sensation over the left side of his chest 5 days ago. He initially attributed it to a muscle strain. Three days ago, a cluster of small red bumps appeared in the same area, which quickly evolved into painful fluid-filled blisters. The pain is described as sharp, burning, and constant (8/10), worsened by clothing contact. The blisters are grouped in a band-like pattern from his left mid-back wrapping around to the left anterior chest, not crossing the midline. He reports mild malaise and low-grade fever. He had chickenpox as a child. He has never received the shingles vaccine. He denies immunosuppressive conditions, recent illness, or stress. No eye involvement, ear pain, or facial weakness.",
+    "pmh": "Hypertension, benign prostatic hyperplasia, osteoarthritis.",
+    "surgical_history": "Right total knee replacement (5 years ago).",
+    "medications": "Amlodipine 5 mg daily, tamsulosin 0.4 mg daily, acetaminophen PRN.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Non-contributory.",
+    "social_history": "Retired electrician. Lives with wife. Non-smoker. Social alcohol. No illicit drugs.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "76 bpm",
+      "bp": "142/84 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "85 kg, BMI 28.2"
+    },
+    "physical_exam": "Elderly male in moderate discomfort. Left thorax (T5 dermatome): grouped vesicles on an erythematous base, some with cloudy fluid and some with crusting, arranged in a dermatomal band extending from the posterior midline around to the anterior chest. The rash does not cross the midline. Surrounding skin is erythematous and edematous. Exquisitely tender to light touch (allodynia). No disseminated lesions (fewer than 20 vesicles outside the primary dermatome). No facial or oral lesions. External ear canals clear bilaterally. Cranial nerves intact with symmetric facial movement. Eyes: no conjunctival injection, no keratitis on penlight examination."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "VZV PCR (Vesicle Fluid)", "result": "Positive for varicella-zoster virus DNA", "flag": "ABNORMAL", "clinical_significance": "Confirmatory test when clinical diagnosis is uncertain; gold standard for VZV identification"},
+      {"test_name": "Tzanck Smear (Vesicle Base)", "result": "Multinucleated giant cells identified", "flag": "ABNORMAL", "clinical_significance": "Supportive of herpesvirus infection (VZV or HSV); cannot distinguish between the two"},
+      {"test_name": "CBC — WBC", "result": "8,200/μL", "flag": "WNL", "clinical_significance": "Normal WBC; herpes zoster typically does not cause significant leukocytosis"},
+      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; important for valacyclovir dosing"},
+      {"test_name": "CRP", "result": "18 mg/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from localized inflammation"},
+      {"test_name": "HIV Screen (4th Gen Ag/Ab)", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "HIV excluded as a predisposing immunosuppressive condition; reasonable to screen in younger patients or atypical presentations"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray", "result": "No infiltrates, effusions, or bony abnormalities. Heart size normal.", "flag": "WNL", "clinical_significance": "No evidence of varicella pneumonia or other pulmonary complication"}
+    ],
+    "key_tests": [
+      "Clinical diagnosis based on characteristic dermatomal vesicular rash (lab confirmation often unnecessary)",
+      "VZV PCR from vesicle fluid (when diagnosis is uncertain or atypical)",
+      "Direct fluorescent antibody (DFA) of vesicle scraping (alternative to PCR)"
+    ],
+    "acceptable_tests": [
+      "Tzanck smear (rapid, low cost, but nonspecific — cannot distinguish VZV from HSV)",
+      "CBC with differential",
+      "BMP (for antiviral dosing adjustment)",
+      "HIV screening (if young patient or concern for immunosuppression)",
+      "Slit-lamp examination (if ophthalmic distribution — V1 dermatome)"
+    ],
+    "low_yield_tests": [
+      "VZV serology (IgM/IgG) — most adults are seropositive from prior varicella; not useful for diagnosing zoster",
+      "Skin biopsy (rarely needed with classic presentation)",
+      "MRI of the spine (unless concern for myelitis or motor involvement)",
+      "Blood cultures (not a bacteremia)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Classic herpes zoster: a unilateral, dermatomal (T5) grouped vesicular eruption on an erythematous base in an elderly patient with a history of childhood varicella and no prior shingles vaccination. Preceded by 2 days of prodromal neuropathic pain. VZV PCR positive from vesicle fluid. No evidence of dissemination, ophthalmic involvement, or complications."
+  },
+  "debrief": {
+    "classic_presentation": "A unilateral, painful, grouped vesicular eruption in a dermatomal distribution, typically in a patient over age 50. The rash does not cross the midline. A prodrome of burning, tingling, or stabbing pain in the affected dermatome precedes the rash by 1-5 days. Vesicles evolve over 3-5 days, then crust over 7-10 days. The thoracic dermatomes (T1-T12) are most commonly affected. Allodynia (pain from normally non-painful stimuli) is characteristic.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Herpes zoster results from reactivation of latent varicella-zoster virus (VZV) residing in dorsal root ganglia or cranial nerve ganglia since primary varicella (chickenpox) infection. VZV maintains latency in neuronal cell bodies, with its genome persisting as circular episomes. Reactivation occurs when cell-mediated immunity wanes (aging, immunosuppression, stress). The virus replicates and travels anterograde along sensory nerves to the skin, producing the characteristic dermatomal vesicular eruption. Inflammation and neuronal damage in the ganglion and nerve cause the associated pain. Postherpetic neuralgia (PHN) results from persistent neuronal injury and aberrant nerve repair, with central sensitization contributing to chronic pain. Risk of PHN increases significantly with age (>30% in patients over 80).",
+    "treatment_overview": "Antiviral therapy (most effective if started within 72 hours of rash onset, but still beneficial up to 7 days if new vesicles are forming): valacyclovir 1000 mg PO TID for 7 days (preferred — better bioavailability) or acyclovir 800 mg PO 5 times daily for 7 days, or famciclovir 500 mg PO TID for 7 days. Pain management: acetaminophen/NSAIDs for mild pain; gabapentin 300-600 mg TID or pregabalin 75-150 mg BID for neuropathic pain; short-course opioids for severe acute pain. Keep lesions clean and dry; calamine lotion for comfort. Recombinant zoster vaccine (Shingrix) is recommended for adults ≥50 years and immunocompromised adults ≥19 years; administer after acute episode resolves. Postherpetic neuralgia prevention: antivirals reduce risk; gabapentin/pregabalin may be continued.",
+    "high_yield_pearls": [
+      "Herpes zoster is a clinical diagnosis — the characteristic dermatomal vesicular rash is pathognomonic; lab confirmation is needed only for atypical presentations.",
+      "Herpes zoster ophthalmicus (V1 dermatome) requires urgent ophthalmologic evaluation — Hutchinson sign (vesicles on the nose tip) indicates nasociliary nerve involvement and predicts ocular complications.",
+      "Antiviral therapy should be started within 72 hours of rash onset to reduce duration, severity, and risk of postherpetic neuralgia.",
+      "Postherpetic neuralgia (pain persisting >90 days after rash) is the most common complication, affecting 10-18% of patients; risk increases markedly with age.",
+      "Shingrix (recombinant adjuvanted vaccine) is >90% effective at preventing herpes zoster and is recommended for all adults ≥50 years, including those with prior shingles."
+    ],
+    "sources": [
+      "Cohen JI. Herpes Zoster. N Engl J Med. 2013;369(3):255-263.",
+      "UpToDate: Epidemiology, clinical manifestations, and diagnosis of herpes zoster (2024)",
+      "Dworkin RH et al. Recommendations for the management of herpes zoster. Clin Infect Dis. 2007;44(Suppl 1):S1-S26."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Herpes zoster",
+      "Herpes simplex virus (recurrent)",
+      "Contact dermatitis",
+      "Bullous impetigo",
+      "Dermatitis herpetiformis",
+      "Zosteriform cutaneous metastasis"
+    ],
+    "after_stage2_more_likely": [
+      "Herpes zoster — classic dermatomal grouped vesicles on erythematous base, unilateral, not crossing midline, with neuropathic prodrome in an elderly unvaccinated patient",
+      "HSV recurrence — can present with grouped vesicles, but typically smaller area, recurrent at same site, and less commonly dermatomal"
+    ],
+    "after_stage2_less_likely": [
+      "Contact dermatitis — typically pruritic rather than painful; distribution follows exposure pattern, not dermatome",
+      "Dermatitis herpetiformis — intensely pruritic, symmetric, extensor surfaces; associated with celiac disease"
+    ],
+    "after_labs_top3": [
+      "Herpes zoster — VZV PCR positive from vesicle fluid, Tzanck smear showing multinucleated giant cells, classic dermatomal distribution",
+      "HSV — excluded by VZV-specific PCR (Tzanck smear alone cannot differentiate)",
+      "Disseminated zoster — excluded by fewer than 20 vesicles outside primary dermatome and HIV-negative status"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "case_id": "case_186",
+  "mode": "easy",
+  "specialty": "Pediatrics",
+  "diagnosis": "Croup (viral laryngotracheobronchitis)",
+  "icd_category": "J05.0 – Acute obstructive laryngitis [croup]",
+  "one_liner": "A 2-year-old male with no significant past medical history presents at 2 AM with a barking cough, inspiratory stridor, and hoarseness following 2 days of upper respiratory symptoms.",
+  "stage2": {
+    "hpi_extension": "The patient's parents report that he developed a runny nose and mild cough 2 days ago. This evening he was put to bed as usual but woke up around midnight with a harsh, barking cough that sounds like a 'seal.' He has become increasingly hoarse and his parents noticed a high-pitched noise when he breathes in, which worsens when he cries. There has been no drooling, difficulty swallowing, or refusal to drink. He has had no fever at home. Symptoms seem somewhat better in the cool night air on the drive to the ED. There is no history of choking, foreign body ingestion, or recent intubation. He attends daycare where several children have had colds. No history of prior croup episodes.",
+    "pmh": "Born full-term. Up to date on immunizations. No prior hospitalizations. No history of subglottic stenosis or intubation.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of airway anomalies. Father had asthma as a child.",
+    "social_history": "Lives with both parents. Attends daycare full-time. No secondhand smoke exposure. No pets.",
+    "vitals": {
+      "temp": "38.1°C (100.6°F)",
+      "hr": "130 bpm",
+      "bp": "88/54 mmHg",
+      "rr": "34 breaths/min",
+      "spo2": "96% on room air",
+      "weight_bmi": "13 kg (50th percentile for age)"
+    },
+    "physical_exam": "General: Alert, mildly anxious toddler sitting upright in mother's lap; intermittent barking cough; audible inspiratory stridor at rest that worsens with agitation; mild suprasternal and subcostal retractions. HEENT: Mild clear rhinorrhea bilaterally. Oropharynx mildly erythematous without exudates, tonsillar enlargement, or membrane. No drooling. Voice is hoarse. TMs clear bilaterally. Neck: Supple, no lymphadenopathy, no neck swelling or crepitus. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Inspiratory stridor; transmitted upper airway sounds; mild subcostal retractions; good air entry bilaterally; no focal wheezes or crackles. Abdomen: Soft, non-tender, non-distended. Extremities: Warm, well-perfused, capillary refill <2 seconds. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "10.4 × 10³/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC count is typical of viral croup; significant leukocytosis would raise concern for bacterial tracheitis."
+      },
+      {
+        "test_name": "Lymphocytes",
+        "result": "52%",
+        "flag": "WNL",
+        "clinical_significance": "Lymphocyte predominance supports a viral etiology."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "12.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin for age."
+      },
+      {
+        "test_name": "CRP",
+        "result": "12 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated CRP consistent with viral infection; markedly elevated CRP would suggest bacterial superinfection."
+      },
+      {
+        "test_name": "BMP (Na, K, Glucose)",
+        "result": "Na 139, K 4.4, Glucose 94",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and glucose; no metabolic derangement."
+      },
+      {
+        "test_name": "Rapid influenza test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative for influenza; parainfluenza virus (most common cause of croup) is not detected by rapid flu testing."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "AP neck radiograph (soft tissue)",
+        "result": "Symmetric subglottic narrowing of the tracheal air column producing the classic 'steeple sign.' No epiglottic enlargement (no 'thumb sign'). No prevertebral soft tissue swelling. No radiopaque foreign body.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The steeple sign represents subglottic edema narrowing the normally shouldered tracheal air column, which is the hallmark radiographic finding of croup. Absence of epiglottic enlargement helps exclude epiglottitis."
+      },
+      {
+        "test_name": "Lateral neck radiograph",
+        "result": "Normal epiglottis. No retropharyngeal widening. Subglottic narrowing confirmed. No foreign body.",
+        "flag": "WNL",
+        "clinical_significance": "Normal epiglottis on lateral view helps rule out epiglottitis (thumb sign) and retropharyngeal abscess."
+      }
+    ],
+    "key_tests": [
+      "Clinical assessment (Westley croup score)",
+      "Pulse oximetry",
+      "AP neck radiograph (if diagnosis uncertain)"
+    ],
+    "acceptable_tests": [
+      "Lateral neck radiograph",
+      "Respiratory viral panel",
+      "CBC with differential",
+      "CRP"
+    ],
+    "low_yield_tests": [
+      "CT neck (rarely needed unless abscess suspected)",
+      "Blood cultures (unless toxic-appearing)",
+      "Chest X-ray (unless lower airway disease suspected)",
+      "Laryngoscopy (contraindicated unless epiglottitis/foreign body suspected in controlled setting)",
+      "ABG/VBG (unless severe respiratory distress)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Following a single dose of oral dexamethasone, the child's stridor at rest resolves within 2 hours, and the barking cough becomes less frequent. The AP neck film confirms the classic steeple sign of subglottic narrowing, confirming the diagnosis of viral croup."
+  },
+  "debrief": {
+    "classic_presentation": "Croup (laryngotracheobronchitis) classically presents in children aged 6 months to 3 years (peak 1-2 years) with a 1-3 day viral URI prodrome followed by the acute onset of a distinctive barking (seal-like) cough, hoarseness, and inspiratory stridor. Symptoms characteristically worsen at night and with agitation. The illness is typically self-limited, lasting 3-7 days. Parainfluenza virus types 1 and 3 account for ~75% of cases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Croup is caused by viral infection (most commonly parainfluenza types 1 and 3, but also RSV, influenza, adenovirus, and human metapneumovirus) of the larynx, trachea, and bronchi. The viral infection causes inflammation and edema of the subglottic region, which is the narrowest portion of the pediatric airway (bounded by the cricoid cartilage). Even modest subglottic edema significantly reduces the airway cross-sectional area (by Poiseuille's law, resistance is inversely proportional to the 4th power of the radius), producing the characteristic inspiratory stridor and barking cough. The stridor worsens with agitation due to increased turbulent airflow through the narrowed airway.",
+    "treatment_overview": "Treatment is based on croup severity (Westley croup score): MILD (barking cough, no stridor at rest): single dose of oral dexamethasone 0.6 mg/kg (max 10 mg) and discharge home. MODERATE (stridor at rest, retractions): dexamethasone 0.6 mg/kg PO/IM PLUS nebulized racemic epinephrine (0.5 mL of 2.25% solution in 3 mL NS). Observe for 2-4 hours after epinephrine for rebound. SEVERE (significant stridor, retractions, altered consciousness, cyanosis): nebulized racemic epinephrine, dexamethasone, supplemental oxygen, and consider ICU admission/intubation if respiratory failure imminent. Cool mist therapy is widely used but evidence of benefit is limited. Antibiotics are NOT indicated for viral croup.",
+    "high_yield_pearls": [
+      "Dexamethasone (0.6 mg/kg PO/IM, single dose) is the cornerstone of croup treatment and is beneficial for ALL severity levels, including mild croup — it reduces return visits, hospitalizations, and duration of symptoms.",
+      "Racemic epinephrine provides rapid but TEMPORARY relief (onset 10 minutes, duration 2 hours) via subglottic mucosal vasoconstriction — patients must be observed for at least 2-4 hours after administration for rebound stridor.",
+      "The STEEPLE sign on AP neck radiograph (subglottic narrowing) is classic but NOT required for diagnosis — croup is primarily a clinical diagnosis; radiographs are indicated when the diagnosis is uncertain or alternative diagnoses (epiglottitis, foreign body, retropharyngeal abscess) are considered.",
+      "Epiglottitis (now rare due to Hib vaccination) presents differently: acute high fever, toxic appearance, drooling, muffled voice (not hoarse), tripod positioning, and the 'thumb sign' on lateral neck film — it is a true airway emergency.",
+      "Spasmodic croup presents identically to viral croup but without a URI prodrome and with a tendency to recur; it may have an allergic component and responds well to the same treatment."
+    ],
+    "sources": [
+      "UpToDate: Croup: Clinical features, evaluation, and diagnosis",
+      "UpToDate: Croup: Approach to management",
+      "Alberta Clinical Practice Guideline: Croup in Children (2018)",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Croup (viral laryngotracheobronchitis)",
+      "Epiglottitis",
+      "Foreign body aspiration",
+      "Bacterial tracheitis",
+      "Retropharyngeal abscess",
+      "Peritonsillar abscess",
+      "Angioedema / Allergic reaction"
+    ],
+    "after_stage2_more_likely": [
+      "Croup (classic age, barking cough, URI prodrome, stridor worse at night, no drooling, non-toxic appearance)",
+      "Spasmodic croup (similar presentation but typically without prodrome)"
+    ],
+    "after_stage2_less_likely": [
+      "Epiglottitis (no drooling, no toxic appearance, no muffled voice, Hib-vaccinated)",
+      "Foreign body aspiration (no choking history, bilateral findings, URI prodrome present)",
+      "Bacterial tracheitis (non-toxic, low-grade fever, no purulent secretions)",
+      "Retropharyngeal abscess (no neck stiffness, no dysphagia, no drooling)"
+    ],
+    "after_labs_top3": [
+      "Viral croup (laryngotracheobronchitis)",
+      "Spasmodic croup",
+      "Viral laryngitis"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "case_131",
+  "mode": "easy",
+  "specialty": "Nephrology",
+  "diagnosis": "Diabetic Nephropathy",
+  "icd_category": "E11.21 — Type 2 diabetes mellitus with diabetic nephropathy",
+  "one_liner": "A 55-year-old woman with a 20-year history of poorly controlled type 2 diabetes presents with progressive bilateral leg swelling, foamy urine, and elevated creatinine found on routine labs.",
+  "stage2": {
+    "hpi_extension": "The patient presents after her PCP found proteinuria and an elevated creatinine on routine labs. She reports progressive bilateral lower extremity swelling over the past 3 months, foamy urine, and mild fatigue. She has had poorly controlled diabetes (HbA1c consistently >9%) and has been non-adherent with dietary recommendations. She was told she had trace protein in her urine 3 years ago but did not follow up. She also reports worsening vision and numbness/tingling in both feet. No hematuria, flank pain, fever, or recent illness.",
+    "pmh": "Type 2 diabetes mellitus (20 years), hypertension (15 years), nonproliferative diabetic retinopathy, peripheral neuropathy, hyperlipidemia, obesity.",
+    "surgical_history": "Bilateral cataract surgery.",
+    "medications": "Insulin glargine 40 units at bedtime, insulin lispro sliding scale, amlodipine 10 mg daily, hydrochlorothiazide 25 mg daily, atorvastatin 40 mg daily, gabapentin 300 mg TID.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Mother and two siblings with type 2 diabetes. Mother was on dialysis before her death.",
+    "social_history": "Homemaker. Non-smoker. No alcohol or illicit drug use. Sedentary lifestyle. Diet high in carbohydrates and processed foods.",
+    "vitals": {
+      "temp": "36.8°C (98.4°F)",
+      "hr": "80 bpm",
+      "bp": "158/96 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "102 kg, BMI 38.5"
+    },
+    "physical_exam": "Obese woman in no acute distress. Fundoscopic exam: microaneurysms, hard exudates, and dot-blot hemorrhages bilaterally (moderate nonproliferative diabetic retinopathy). Heart: regular rate and rhythm, S4 gallop. Lungs: clear bilaterally. Abdomen: obese, soft, non-tender. Extremities: 2+ bilateral pitting edema to the mid-shin. Decreased sensation to monofilament testing bilateral feet in stocking distribution. Diminished ankle reflexes bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Serum Creatinine", "result": "2.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, indicating significant renal impairment"},
+      {"test_name": "eGFR (CKD-EPI)", "result": "28 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 4; severe reduction in kidney function"},
+      {"test_name": "Urine Albumin:Creatinine Ratio", "result": "2,400 mg/g", "flag": "HIGH", "clinical_significance": "Severely increased albuminuria (A3 category, >300 mg/g); indicates advanced glomerular disease"},
+      {"test_name": "24-hour Urine Protein", "result": "4.8 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria from diabetic glomerulosclerosis"},
+      {"test_name": "HbA1c", "result": "9.6%", "flag": "HIGH", "clinical_significance": "Very poorly controlled diabetes; chronic hyperglycemia drives nephropathy progression"},
+      {"test_name": "Serum Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from massive urinary protein losses; contributes to edema"},
+      {"test_name": "Serum Potassium", "result": "5.3 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from impaired renal excretion in advanced CKD"},
+      {"test_name": "Serum Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from reduced renal acid excretion"},
+      {"test_name": "Hemoglobin", "result": "9.8 g/dL", "flag": "LOW", "clinical_significance": "Moderate anemia of CKD from decreased erythropoietin production"},
+      {"test_name": "Serum Phosphorus", "result": "5.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperphosphatemia from impaired excretion in CKD stage 4"},
+      {"test_name": "Total Cholesterol", "result": "288 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperlipidemia worsened by nephrotic-range proteinuria"},
+      {"test_name": "Urinalysis", "result": "3+ protein, no RBC casts, no dysmorphic RBCs, waxy casts, oval fat bodies", "flag": "ABNORMAL", "clinical_significance": "Heavy proteinuria with lipiduria but no active nephritic sediment; consistent with diabetic nephropathy rather than primary glomerulonephritis"}
+    ],
+    "imaging_results": [
+      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys normal to mildly enlarged (right 12.8 cm, left 12.5 cm) with increased cortical echogenicity. No hydronephrosis or masses.", "flag": "ABNORMAL", "clinical_significance": "In early diabetic nephropathy, kidneys may be enlarged (hyperfiltration phase) before eventually shrinking; increased echogenicity reflects parenchymal disease"}
+    ],
+    "key_tests": [
+      "Urine albumin:creatinine ratio (UACR)",
+      "Serum creatinine with eGFR",
+      "HbA1c",
+      "Urinalysis with microscopy"
+    ],
+    "acceptable_tests": [
+      "24-hour urine protein",
+      "Serum albumin",
+      "Complete metabolic panel",
+      "Renal ultrasound",
+      "CBC",
+      "Lipid panel",
+      "Fundoscopic examination (assess for retinopathy)",
+      "Serum phosphorus, calcium, PTH"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (clinical picture is classic for diabetic nephropathy with retinopathy)",
+      "ANA/ANCA/anti-GBM antibodies",
+      "Serum complement levels",
+      "Renal artery Doppler"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A patient with 20 years of poorly controlled diabetes, nephrotic-range proteinuria (UACR 2,400 mg/g), eGFR of 28, diabetic retinopathy, peripheral neuropathy, and no features of alternative glomerular disease confirms advanced diabetic nephropathy (CKD stage 4, A3)."
+  },
+  "debrief": {
+    "classic_presentation": "A patient with longstanding poorly controlled diabetes presenting with progressive proteinuria (initially microalbuminuria, then macroalbuminuria, then nephrotic-range), declining eGFR, hypertension, edema, and concurrent diabetic retinopathy and neuropathy. The natural history is a gradual progression over years from hyperfiltration to ESRD.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Diabetic nephropathy (diabetic kidney disease) progresses through defined stages: (1) Hyperfiltration with glomerular hypertrophy. (2) Normoalbuminuria with basement membrane thickening and mesangial expansion. (3) Microalbuminuria (30-300 mg/g) — first clinically detectable stage. (4) Macroalbuminuria (>300 mg/g) with declining GFR — Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) on biopsy. (5) ESRD. Chronic hyperglycemia activates the polyol pathway, advanced glycation end products (AGEs), protein kinase C, and the hexosamine pathway, leading to mesangial matrix expansion, basement membrane thickening, podocyte loss, and progressive glomerulosclerosis. Hypertension and hyperfiltration accelerate damage.",
+    "treatment_overview": "Start an ACE inhibitor or ARB (regardless of blood pressure) for nephroprotection and antiproteinuric effect. Add an SGLT2 inhibitor (empagliflozin, dapagliflozin) for cardiorenal benefit — reduces intraglomerular pressure and slows CKD progression. Consider finerenone (nonsteroidal MRA) for additional cardiorenal protection. Optimize glycemic control (target HbA1c ~7%, adjust agents for CKD stage). Blood pressure goal <130/80 mmHg. Dietary protein restriction (0.8 g/kg/day). Manage CKD complications: anemia (iron, ESAs), CKD-MBD (phosphate binders, vitamin D), acidosis (sodium bicarbonate). Nephrology referral for CKD stage 4 and dialysis planning.",
+    "high_yield_pearls": [
+      "Diabetic nephropathy is the #1 cause of ESRD in the United States, accounting for ~40% of new dialysis patients.",
+      "The presence of diabetic retinopathy in a patient with diabetes and proteinuria strongly supports diabetic nephropathy as the cause, and biopsy is generally NOT needed.",
+      "SGLT2 inhibitors (dapagliflozin, empagliflozin) reduce the risk of CKD progression by ~30-40% independent of glycemic control, via reduction in intraglomerular pressure.",
+      "Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) are the pathognomonic biopsy finding of diabetic nephropathy but are not required for clinical diagnosis.",
+      "Screening for diabetic nephropathy: annual UACR testing should begin 5 years after diagnosis of type 1 DM and at diagnosis of type 2 DM."
+    ],
+    "sources": [
+      "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD",
+      "ADA Standards of Medical Care in Diabetes 2024 — Chronic Kidney Disease and Risk Management",
+      "Tuttle KR et al. Diabetic kidney disease: a report from an ADA consensus conference. Diabetes Care. 2014;37(10):2864-2883."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diabetic nephropathy",
+      "Hypertensive nephrosclerosis",
+      "Focal segmental glomerulosclerosis",
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "Amyloidosis (secondary)"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic nephropathy — 20 years of poorly controlled DM, retinopathy, neuropathy, progressive proteinuria, strong family history",
+      "Hypertensive nephrosclerosis — longstanding HTN likely contributes as a cofactor"
+    ],
+    "after_stage2_less_likely": [
+      "IgA nephropathy — no hematuria episodes, no active urinary sediment",
+      "Amyloidosis — no hepatomegaly, macroglossia, or other systemic amyloid features"
+    ],
+    "after_labs_top3": [
+      "Diabetic nephropathy — nephrotic-range proteinuria, bland sediment (no RBC casts), retinopathy confirms microvascular disease, classic progressive course",
+      "FSGS — can present with nephrotic-range proteinuria but less likely given the classic diabetic picture with retinopathy",
+      "Membranous nephropathy — nephrotic-range proteinuria in an adult, but clinical context overwhelmingly favors diabetic nephropathy"
+    ]
+  }
+}

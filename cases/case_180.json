@@ -1,0 +1,76 @@
+{
+  "case_id": "case_180",
+  "mode": "attending",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Zollinger-Ellison Syndrome",
+  "icd_category": "E16.4 — Increased secretion of gastrin",
+  "one_liner": "A 48-year-old male presents with recurrent peptic ulcers refractory to PPI therapy, severe diarrhea, and a fasting serum gastrin level >1,000 pg/mL.",
+  "stage2": {
+    "hpi_extension": "The patient has a 3-year history of recurrent epigastric pain and peptic ulcers. He has been diagnosed with duodenal ulcers on three separate EGDs over the past 3 years, including ulcers in atypical locations (distal duodenum and jejunum). He remains symptomatic despite high-dose omeprazole 40 mg BID. He has profuse watery diarrhea (6-8 loose stools per day) with a 7 kg weight loss. He was hospitalized 6 months ago for an upper GI bleed from a duodenal ulcer and received blood transfusions. He reports steatorrhea and heartburn radiating to the back. He denies NSAID use, alcohol use, or H. pylori on prior testing. His father was recently diagnosed with a pituitary adenoma.",
+    "pmh": "Recurrent duodenal ulcers (3 episodes in 3 years), upper GI bleed, GERD, nephrolithiasis (calcium oxalate, 1 year ago)",
+    "surgical_history": "None",
+    "medications": "Omeprazole 40 mg BID, sucralfate 1 g QID",
+    "allergies": "No known drug allergies",
+    "family_history": "Father recently diagnosed with pituitary adenoma (prolactinoma). Brother had kidney stones.",
+    "social_history": "Non-smoker. No alcohol. No NSAIDs. Engineer. Married with two children.",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "80 bpm, regular",
+      "bp": "130/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "70 kg, BMI 23.1"
+    },
+    "physical_exam": "General: Thin male, no acute distress. HEENT: No oral ulcers, normal. Cardiovascular: Normal. Pulmonary: Clear. Abdomen: Mild epigastric tenderness, no rebound or guarding, no hepatosplenomegaly, no masses, active bowel sounds. Skin: No rash. Extremities: No edema. No lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Fasting serum gastrin", "result": "1,450 pg/mL (normal <100)", "flag": "HIGH", "clinical_significance": "Markedly elevated (>10x ULN); fasting gastrin >1,000 pg/mL is virtually diagnostic of gastrinoma in the appropriate clinical setting"},
+      {"test_name": "Gastric pH", "result": "pH 1.2 (on PPI therapy held for 1 week)", "flag": "LOW", "clinical_significance": "Acidic gastric pH (<2) with elevated gastrin excludes secondary hypergastrinemia from achlorhydria (e.g., atrophic gastritis, PPI use) and confirms inappropriate gastrin secretion"},
+      {"test_name": "Secretin stimulation test", "result": "Gastrin rises from 1,450 to 2,380 pg/mL after IV secretin (increase >120 pg/mL)", "flag": "ABNORMAL", "clinical_significance": "Paradoxical gastrin rise >120 pg/mL after secretin administration is diagnostic of gastrinoma (normal G-cells decrease gastrin in response to secretin)"},
+      {"test_name": "CBC", "result": "WBC 7.0, Hgb 10.2, MCV 76, Plt 250", "flag": "LOW", "clinical_significance": "Microcytic anemia from chronic blood loss (recurrent ulcer bleeding)"},
+      {"test_name": "BMP", "result": "Na 140, K 3.6, Cr 0.9, Ca 11.2, Glucose 98", "flag": "HIGH", "clinical_significance": "Hypercalcemia raises suspicion for MEN1 syndrome (hyperparathyroidism + gastrinoma + pituitary adenoma)"},
+      {"test_name": "PTH (intact)", "result": "95 pg/mL (normal 15-65)", "flag": "HIGH", "clinical_significance": "Elevated PTH confirms primary hyperparathyroidism — component of MEN1 syndrome"},
+      {"test_name": "Chromogranin A", "result": "285 ng/mL (normal <93)", "flag": "HIGH", "clinical_significance": "Elevated neuroendocrine tumor marker; must interpret with caution as PPIs also elevate chromogranin A (PPI was held before testing)"},
+      {"test_name": "Iron studies", "result": "Ferritin 10, Iron 25, TIBC 420", "flag": "LOW", "clinical_significance": "Iron deficiency from chronic GI blood loss"},
+      {"test_name": "Vitamin B12", "result": "Normal", "flag": "WNL", "clinical_significance": "Normal, excludes pernicious anemia (which causes secondary hypergastrinemia)"},
+      {"test_name": "Fecal fat (72-hour)", "result": "14 g/day (normal <7)", "flag": "HIGH", "clinical_significance": "Steatorrhea from acid-mediated inactivation of pancreatic lipase and precipitation of bile acids in the duodenum"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT abdomen with contrast (pancreatic protocol)", "result": "1.8 cm hypervascular lesion in the head of the pancreas (gastrinoma triangle region). No hepatic metastases. No pancreatic ductal dilation. Mildly prominent gastric rugal folds.", "flag": "ABNORMAL", "clinical_significance": "Pancreatic head gastrinoma identified. The 'gastrinoma triangle' (junction of cystic duct, 2nd/3rd portions of duodenum, and neck/body of pancreas) contains >90% of sporadic gastrinomas."},
+      {"test_name": "68Ga-DOTATATE PET/CT", "result": "Intense somatostatin receptor uptake in the 1.8 cm pancreatic head lesion. Two additional subcentimeter lesions with uptake in the duodenal wall (D1 and D2). No distant metastases.", "flag": "ABNORMAL", "clinical_significance": "Superior sensitivity for localizing gastrinomas, including small duodenal gastrinomas often missed by CT. Multiple lesions suggest MEN1-associated disease."},
+      {"test_name": "Endoscopic ultrasound (EUS)", "result": "1.8 cm hypoechoic, well-defined mass in the pancreatic head. No vascular invasion. Fine-needle aspiration performed.", "flag": "ABNORMAL", "clinical_significance": "EUS provides high-resolution imaging and tissue sampling. FNA confirms neuroendocrine tumor on cytology."}
+    ],
+    "key_tests": ["Fasting serum gastrin (off PPIs if possible)", "Gastric pH measurement", "Secretin stimulation test", "CT/MRI of the abdomen (pancreatic protocol)", "Serum calcium and PTH (MEN1 screening)"],
+    "acceptable_tests": ["68Ga-DOTATATE PET/CT", "EUS with FNA", "Chromogranin A", "CBC", "Iron studies", "Fecal fat", "Somatostatin receptor scintigraphy (Octreoscan)", "Pituitary MRI (MEN1 workup)", "Prolactin level"],
+    "low_yield_tests": ["Colonoscopy", "MRCP", "CA 19-9", "CEA", "Anti-parietal cell antibodies"],
+    "key_tests_rationale": "Fasting serum gastrin >1,000 pg/mL with a gastric pH <2 is essentially diagnostic of gastrinoma. Gastric pH measurement is critical to exclude PPI-induced or atrophic gastritis-related hypergastrinemia (where pH is >4). The secretin stimulation test is the confirmatory test: a paradoxical rise in gastrin >120 pg/mL after IV secretin differentiates gastrinoma from other causes of hypergastrinemia. Cross-sectional imaging and somatostatin receptor imaging localize the tumor. Calcium and PTH screen for MEN1 syndrome."
+  },
+  "stage5": {
+    "final_clue": "A patient with recurrent, refractory peptic ulcers (including post-bulbar/jejunal ulcers), profuse diarrhea with steatorrhea, fasting gastrin >1,000 pg/mL with gastric pH <2, a positive secretin stimulation test (paradoxical gastrin rise), and a pancreatic head gastrinoma on imaging confirms Zollinger-Ellison syndrome. Concurrent hypercalcemia with elevated PTH and a family history of pituitary adenoma strongly suggest MEN1 syndrome (gastrinoma + hyperparathyroidism + pituitary adenoma)."
+  },
+  "debrief": {
+    "classic_presentation": "Zollinger-Ellison syndrome (ZES) is characterized by gastrin-secreting neuroendocrine tumors (gastrinomas) causing massive gastric acid hypersecretion. The classic presentation includes recurrent peptic ulcers refractory to standard therapy, ulcers in unusual locations (post-bulbar duodenum, jejunum), profuse secretory diarrhea, and steatorrhea. ZES should be suspected when ulcers recur despite appropriate therapy, occur in unusual locations, or are accompanied by diarrhea. Approximately 25-30% of gastrinomas occur in the setting of MEN1 syndrome.",
+    "attending_mode_notes": "ZES is a frequently delayed diagnosis with several pitfalls: (1) PPIs confound diagnosis by raising gastric pH and causing reactive hypergastrinemia — ideally, PPIs should be held for 1 week before measuring fasting gastrin (switch to H2RAs for symptom control), though this is not always safe in practice; (2) The most common cause of elevated fasting gastrin is PPI use, NOT gastrinoma — gastric pH must be checked simultaneously to differentiate (PPI-induced: pH >4; ZES: pH <2); (3) Chromogranin A is significantly elevated by PPIs — it is unreliable as a tumor marker unless PPIs are held for at least 2 weeks; (4) Up to 50% of gastrinomas are malignant with metastases at diagnosis — tumor localization can be challenging as duodenal wall gastrinomas are often <1 cm and missed by CT; 68Ga-DOTATATE PET/CT and EUS significantly improve detection; (5) MEN1 must be excluded in ALL ZES patients — it changes management (MEN1-associated gastrinomas are multiple, often in the duodenal wall, and less likely to metastasize but harder to cure surgically); (6) Surgery is curative for sporadic gastrinomas without metastases — but the role of surgery in MEN1-ZES is debated, as multiple tumors make complete resection difficult.",
+    "pathophysiology": "Gastrinomas are neuroendocrine tumors that secrete gastrin autonomously, unregulated by normal feedback mechanisms. Excess gastrin stimulates parietal cell proliferation and maximal acid secretion, leading to recurrent peptic ulceration. The acid load overwhelms the duodenal buffering capacity, causing injury extending distally to the jejunum. Massive acid in the duodenal lumen inactivates pancreatic lipase and precipitates bile acids, causing steatorrhea. The acid also directly damages the duodenal and jejunal mucosa, impairing absorption. The secretory diarrhea results from both direct acid-mediated injury and the volume of gastric acid production (which can exceed 5 L/day). The secretin stimulation test exploits the unique physiology of gastrinoma cells: secretin paradoxically stimulates gastrin release from gastrinoma cells (via secretin receptors on tumor cells), while it normally inhibits gastrin release from antral G-cells.",
+    "treatment_overview": "Acid suppression: High-dose PPIs (omeprazole 60-120 mg/day, often in divided doses) to control acid hypersecretion and heal ulcers. Surgical resection: The only curative option for sporadic gastrinomas without metastases — typically a Whipple procedure for pancreatic head tumors or duodenotomy with local excision for duodenal gastrinomas. MEN1-ZES: Treat hyperparathyroidism first (parathyroidectomy), as hypercalcemia stimulates gastrin secretion; surgery for gastrinomas in MEN1 is controversial given multiplicity. Metastatic disease: Somatostatin analogues (octreotide LAR) for antisecretory effect and tumor control. PRRT (177Lu-DOTATATE) for progressive somatostatin receptor-positive metastatic disease. Hepatic-directed therapies for liver-dominant metastases. Cytotoxic chemotherapy (temozolomide-capecitabine) for high-grade or rapidly progressive tumors.",
+    "high_yield_pearls": [
+      "Fasting gastrin >1,000 pg/mL with a gastric pH <2 is virtually diagnostic of gastrinoma — but the most common cause of elevated fasting gastrin is PPI use (where pH is >4).",
+      "The secretin stimulation test is the gold standard confirmatory test: a paradoxical gastrin rise >120 pg/mL after IV secretin is diagnostic of gastrinoma.",
+      "MEN1 syndrome (hyperparathyroidism, gastrinoma, pituitary adenoma) accounts for 25-30% of ZES cases — always check calcium, PTH, and prolactin in all ZES patients.",
+      "Post-bulbar (distal duodenal or jejunal) ulcers are highly suggestive of ZES — most peptic ulcers from standard causes occur in the duodenal bulb.",
+      "The gastrinoma triangle (bounded by the cystic duct, the junction of D2/D3, and the junction of the pancreatic neck and body) contains >90% of sporadic gastrinomas."
+    ],
+    "sources": [
+      "2024 NCCN Clinical Practice Guidelines: Neuroendocrine and Adrenal Tumors",
+      "Jensen RT et al., Zollinger-Ellison Syndrome, NEJM 1999",
+      "Ito T et al., Gastrinoma/Zollinger-Ellison Syndrome: Diagnosis and Management, Pancreas 2012"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["PPI-induced hypergastrinemia", "Chronic atrophic gastritis (autoimmune)", "Gastric outlet obstruction", "NSAID-induced ulcer disease", "H. pylori peptic ulcer disease", "Retained gastric antrum syndrome", "Antral G-cell hyperplasia"],
+    "after_stage2_more_likely": ["Zollinger-Ellison syndrome", "Refractory peptic ulcer disease", "Gastric outlet obstruction"],
+    "after_stage2_less_likely": ["H. pylori ulcer disease", "NSAID ulcer disease", "Atrophic gastritis"],
+    "after_labs_top3": ["Zollinger-Ellison syndrome (MEN1-associated)", "Sporadic gastrinoma", "Antral G-cell hyperplasia"]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": "case_015",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hypothyroidism",
+  "icd_category": "E03.9 — Hypothyroidism, unspecified",
+  "one_liner": "A 52-year-old female with no significant past medical history presents with fatigue, weight gain, constipation, and cold intolerance for 6 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports gradually worsening fatigue over the past 6 months, requiring her to nap daily and affecting her work performance. She has gained approximately 15 pounds despite no change in diet or physical activity. She has developed constipation, having bowel movements only every 3-4 days compared to her baseline of daily. She feels cold all the time, wearing extra layers when others are comfortable. She has noticed increased hair loss, dry skin, and puffiness in her face. Her menstrual periods have become heavier and more irregular over the past several months. She also reports feeling mentally sluggish with difficulty concentrating. She denies any neck pain, dysphagia, or history of radiation to the neck. She has no history of thyroid disease.",
+    "pmh": "No significant past medical history. Last routine labs were 3 years ago and were reportedly normal.",
+    "surgical_history": "None",
+    "medications": "Occasional ibuprofen for headaches",
+    "allergies": "NKDA",
+    "family_history": "Mother with Hashimoto thyroiditis diagnosed at age 55. Sister with type 1 diabetes. Maternal aunt with rheumatoid arthritis.",
+    "social_history": "Non-smoker, occasional glass of wine. Works as an office administrator. Married with two children. No illicit drug use. Regular diet without restrictions.",
+    "vitals": {
+      "temp": "36.2°C (97.2°F)",
+      "hr": "56 bpm, regular",
+      "bp": "138/88 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 30 kg/m²"
+    },
+    "physical_exam": "General: Overweight woman appearing fatigued, slow to respond to questions. HEENT: Periorbital puffiness, mild facial edema (myxedema facies), dry coarse hair with thinning of the lateral third of eyebrows (Queen Anne sign), macroglossia, thyroid gland diffusely enlarged and firm but non-tender, no discrete nodules. Cardiovascular: Bradycardic, regular rhythm, distant heart sounds, no murmurs. Pulmonary: Clear bilaterally. Abdomen: Mildly distended, decreased bowel sounds, no tenderness. Extremities: Non-pitting edema of hands and feet, delayed relaxation phase of deep tendon reflexes (hung-up reflexes). Skin: Dry, cool, rough skin with yellowish tint to palms."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "68.5 mIU/L", "flag": "HIGH", "clinical_significance": "Markedly elevated TSH confirms primary hypothyroidism; the pituitary is responding to low thyroid hormone"},
+      {"test_name": "Free T4", "result": "0.3 ng/dL", "flag": "LOW", "clinical_significance": "Low free T4 with elevated TSH confirms overt primary hypothyroidism"},
+      {"test_name": "Free T3", "result": "1.2 pg/mL", "flag": "LOW", "clinical_significance": "Low T3 consistent with hypothyroidism; T3 is less sensitive than T4 for diagnosis"},
+      {"test_name": "Anti-TPO antibodies", "result": "485 IU/mL", "flag": "HIGH", "clinical_significance": "Strongly positive; confirms Hashimoto thyroiditis as the etiology of hypothyroidism"},
+      {"test_name": "Anti-thyroglobulin antibodies", "result": "220 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated, further supporting autoimmune thyroiditis"},
+      {"test_name": "Total cholesterol", "result": "278 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercholesterolemia is a common metabolic consequence of hypothyroidism"},
+      {"test_name": "LDL cholesterol", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL expected in hypothyroidism; often improves with thyroid hormone replacement"},
+      {"test_name": "CBC", "result": "WBC 5,400/μL, Hgb 11.2 g/dL, MCV 92 fL, Plt 180,000/μL", "flag": "LOW", "clinical_significance": "Mild normocytic anemia is common in hypothyroidism"},
+      {"test_name": "Basic metabolic panel", "result": "Na 132 mEq/L, K 4.3 mEq/L, Cr 0.9 mg/dL, glucose 92 mg/dL", "flag": "LOW", "clinical_significance": "Mild hyponatremia can occur in hypothyroidism due to impaired free water excretion"},
+      {"test_name": "CK", "result": "380 U/L", "flag": "HIGH", "clinical_significance": "Elevated CK from hypothyroid myopathy; this is common and reversible with treatment"},
+      {"test_name": "Prolactin", "result": "32 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; TRH stimulates prolactin secretion, explaining the mild elevation in primary hypothyroidism"}
+    ],
+    "imaging_results": [
+      {"test_name": "Thyroid ultrasound", "result": "Diffusely enlarged thyroid gland with heterogeneous echotexture and increased vascularity. Multiple small hypoechoic areas throughout both lobes. No discrete nodules. No suspicious lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with Hashimoto thyroiditis — diffuse heterogeneous enlargement is classic"},
+      {"test_name": "ECG", "result": "Sinus bradycardia at 56 bpm. Low voltage QRS complexes. No ST-T wave changes.", "flag": "ABNORMAL", "clinical_significance": "Bradycardia and low voltage are common ECG findings in hypothyroidism"}
+    ],
+    "key_tests": ["TSH", "Free T4", "Anti-TPO antibodies", "CBC", "Basic metabolic panel"],
+    "acceptable_tests": ["Free T3", "Anti-thyroglobulin antibodies", "Lipid panel", "CK", "Thyroid ultrasound", "ECG", "Prolactin", "LFTs"],
+    "low_yield_tests": ["Thyroid uptake and scan (not indicated for hypothyroidism workup)", "CT neck", "Thyroglobulin level", "Serum cortisol (no signs of adrenal insufficiency)", "ANA"]
+  },
+  "stage5": {
+    "final_clue": "The patient recalls that her mother was diagnosed with Hashimoto thyroiditis and has been on levothyroxine for years. The strong family history of autoimmune thyroid disease, combined with markedly positive anti-TPO antibodies, confirms Hashimoto thyroiditis as the cause of her hypothyroidism."
+  },
+  "debrief": {
+    "classic_presentation": "Hypothyroidism classically presents with insidious onset of fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, and menstrual irregularities. Physical exam findings include bradycardia, periorbital edema, myxedema, delayed relaxation of deep tendon reflexes, macroglossia, and loss of the lateral third of eyebrows. Hashimoto thyroiditis is the most common cause in iodine-sufficient areas and is confirmed by elevated anti-TPO antibodies.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Hashimoto thyroiditis is an autoimmune disorder in which anti-thyroid peroxidase (anti-TPO) and anti-thyroglobulin antibodies mediate lymphocytic infiltration and destruction of thyroid follicular cells. As functional thyroid tissue is progressively destroyed, thyroid hormone production decreases. The hypothalamus and pituitary respond by increasing TRH and TSH secretion in an attempt to stimulate the failing gland. The systemic effects of thyroid hormone deficiency include decreased metabolic rate, impaired thermogenesis, slowed GI motility, and accumulation of glycosaminoglycans in tissues (causing the non-pitting edema of myxedema).",
+    "treatment_overview": "Levothyroxine (T4) replacement is the standard treatment. Starting dose depends on age, weight, and cardiac status — typical full replacement dose is 1.6 mcg/kg/day. For this otherwise healthy patient, starting at 50-75 mcg daily is reasonable, with dose titration every 6-8 weeks based on TSH. Goal TSH is typically 0.5-2.5 mIU/L. Levothyroxine should be taken on an empty stomach, 30-60 minutes before breakfast, separated from calcium, iron, and PPI medications by at least 4 hours. Lipids and other metabolic abnormalities often improve or resolve with adequate thyroid hormone replacement.",
+    "high_yield_pearls": [
+      "TSH is the single best screening and monitoring test for primary hypothyroidism — always pair with free T4 for initial diagnosis",
+      "Hashimoto thyroiditis is the most common cause of hypothyroidism in iodine-sufficient regions and is confirmed by anti-TPO antibodies",
+      "Hypercholesterolemia, hyponatremia, elevated CK, and mild anemia are all reversible metabolic consequences of hypothyroidism",
+      "In elderly patients or those with cardiac disease, start levothyroxine at low doses (12.5-25 mcg/day) and titrate slowly to avoid precipitating angina or arrhythmia"
+    ],
+    "sources": ["UpToDate: Clinical manifestations of hypothyroidism", "ATA Guidelines for the Treatment of Hypothyroidism 2014"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Hypothyroidism", "Major depressive disorder", "Iron deficiency anemia", "Chronic fatigue syndrome", "Obstructive sleep apnea", "Adrenal insufficiency", "Type 2 diabetes mellitus"],
+    "after_stage2_more_likely": ["Hypothyroidism (cold intolerance, constipation, bradycardia, myxedema, delayed DTRs, family history of Hashimoto)"],
+    "after_stage2_less_likely": ["Depression (physical findings like bradycardia, myxedema, and hung-up reflexes point to organic cause)", "Adrenal insufficiency (weight gain rather than weight loss)"],
+    "after_labs_top3": ["Primary hypothyroidism (Hashimoto thyroiditis)", "Central hypothyroidism", "Sick euthyroid syndrome"]
+  }
+}

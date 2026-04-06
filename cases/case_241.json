@@ -1,0 +1,69 @@
+{
+  "case_id": "case_241",
+  "mode": "easy",
+  "specialty": "Family Medicine",
+  "diagnosis": "Type 2 diabetes mellitus (new diagnosis)",
+  "icd_category": "E11.9 — Type 2 diabetes mellitus without complications",
+  "one_liner": "A 52-year-old male with obesity and a family history of diabetes presents with polyuria, polydipsia, blurry vision, and fatigue for 3 months.",
+  "stage2": {
+    "hpi_extension": "The patient reports gradually worsening increased urination (8-10 times per day and 3-4 times at night) and excessive thirst for the past 3 months. He has been drinking 3-4 liters of water daily. He has noticed blurry vision, particularly when reading, that fluctuates throughout the day. He reports increased fatigue and a 10-pound unintentional weight loss despite increased appetite. He has noticed slow wound healing — a small cut on his foot took 3 weeks to heal. He has had recurrent yeast infections in his groin area. He denies abdominal pain, nausea, vomiting, or Kussmaul breathing. He has not seen a doctor in 5 years. He has no prior history of gestational diabetes or prediabetes.",
+    "pmh": "Obesity, hypertension (on medication), hyperlipidemia (untreated)",
+    "surgical_history": "Inguinal hernia repair 10 years ago",
+    "medications": "Lisinopril 20 mg daily",
+    "allergies": "NKDA",
+    "family_history": "Mother with type 2 diabetes (diagnosed at age 50), father with type 2 diabetes and coronary artery disease, sister with gestational diabetes.",
+    "social_history": "Non-smoker. Drinks 2-3 beers on weekends. Works as a truck driver (mostly sedentary). Diet consists of fast food and sugary beverages (3-4 sodas daily). No regular exercise. Married, two children.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "82 bpm, regular",
+      "bp": "142/88 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 34 kg/m²"
+    },
+    "physical_exam": "General: Obese male in no acute distress. HEENT: No diabetic retinopathy on direct ophthalmoscopy (limited exam). Dry oral mucosa. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear bilaterally. Abdomen: Obese, soft, non-tender. Acanthosis nigricans present in axillae and posterior neck. Extremities: No edema. Sensation intact to monofilament testing bilaterally on feet. Dorsalis pedis and posterior tibial pulses 2+ bilaterally. Intertrigo with erythema and satellite lesions in inguinal folds (candidal intertrigo). Skin: Acanthosis nigricans in neck folds and axillae."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Fasting glucose", "result": "268 mg/dL", "flag": "HIGH", "clinical_significance": "Fasting glucose ≥126 mg/dL on two occasions or with symptoms is diagnostic of diabetes"},
+      {"test_name": "HbA1c", "result": "10.2%", "flag": "HIGH", "clinical_significance": "HbA1c ≥6.5% is diagnostic; 10.2% indicates poorly controlled hyperglycemia over the past 2-3 months and warrants consideration of insulin or dual therapy"},
+      {"test_name": "Random glucose", "result": "345 mg/dL", "flag": "HIGH", "clinical_significance": "Random glucose ≥200 mg/dL with classic symptoms (polyuria, polydipsia, weight loss) is diagnostic of diabetes"},
+      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 248 mg/dL, LDL 158 mg/dL, HDL 34 mg/dL, Triglycerides 285 mg/dL", "flag": "HIGH", "clinical_significance": "Dyslipidemia pattern typical of type 2 diabetes — high triglycerides, low HDL, elevated LDL"},
+      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function at diagnosis; important baseline for metformin use and monitoring"},
+      {"test_name": "eGFR", "result": "92 mL/min/1.73m²", "flag": "WNL", "clinical_significance": "Normal eGFR; safe to initiate metformin"},
+      {"test_name": "Urine albumin-to-creatinine ratio", "result": "45 mg/g", "flag": "HIGH", "clinical_significance": "Moderately increased albuminuria (A2, 30-300 mg/g); suggests early diabetic nephropathy even at initial diagnosis"},
+      {"test_name": "Urinalysis", "result": "Glucose 3+, ketones trace, no protein by dipstick, no WBCs, no bacteria", "flag": "ABNORMAL", "clinical_significance": "Glucosuria from glucose exceeding renal threshold (~180 mg/dL); trace ketones suggest some fat mobilization but not DKA"},
+      {"test_name": "CBC", "result": "WBC 7,500/μL, Hgb 14.8 g/dL, Plt 235,000/μL", "flag": "WNL", "clinical_significance": "Normal complete blood count"},
+      {"test_name": "Hepatic function panel", "result": "AST 38 U/L, ALT 52 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated ALT suggesting non-alcoholic fatty liver disease, common in metabolic syndrome"},
+      {"test_name": "Basic metabolic panel", "result": "Na 137, K 4.5, Cl 100, CO2 24, Ca 9.4", "flag": "WNL", "clinical_significance": "Normal bicarbonate rules out significant metabolic acidosis/DKA"}
+    ],
+    "imaging_results": [
+      {"test_name": "Diabetic retinal screening", "result": "No diabetic retinopathy, no macular edema, no hemorrhages. Mild arteriolar narrowing consistent with hypertension.", "flag": "WNL", "clinical_significance": "Baseline eye exam is recommended at diagnosis of type 2 diabetes; no retinopathy currently but annual screening required"}
+    ],
+    "key_tests": ["Fasting glucose", "HbA1c", "Basic metabolic panel", "Urine albumin-to-creatinine ratio", "Fasting lipid panel"],
+    "acceptable_tests": ["Urinalysis", "Hepatic function panel", "CBC", "TSH", "Diabetic retinal exam", "ECG", "Foot exam with monofilament testing"],
+    "low_yield_tests": ["C-peptide (not needed for typical T2DM presentation)", "Islet cell antibodies (no concern for T1DM)", "Serum insulin level", "Oral glucose tolerance test (diagnosis already established)", "CT abdomen"]
+  },
+  "stage5": {
+    "final_clue": "Repeat fasting glucose on a second day returns at 254 mg/dL, confirming the diagnosis. Given the HbA1c of 10.2% with symptomatic hyperglycemia, dual therapy with metformin plus an SGLT2 inhibitor (or early insulin) is recommended per ADA guidelines, rather than metformin monotherapy."
+  },
+  "debrief": {
+    "classic_presentation": "New-onset type 2 diabetes classically presents with polyuria, polydipsia, polyphagia, and unintentional weight loss (the 4 Ps). Additional features include blurry vision (from lens swelling due to osmotic changes), fatigue, slow wound healing, and recurrent infections (particularly candidal). Risk factors include obesity, sedentary lifestyle, family history, and acanthosis nigricans (a marker of insulin resistance). Many patients are asymptomatic and diagnosed on routine screening.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Type 2 diabetes results from a combination of insulin resistance (primarily in muscle, liver, and adipose tissue) and progressive beta-cell dysfunction. Obesity, particularly visceral adiposity, drives insulin resistance through free fatty acid release, adipokine dysregulation, and chronic inflammation. Initially, beta cells compensate by increasing insulin production (hyperinsulinemia). Over time, beta-cell exhaustion and apoptosis lead to relative insulin deficiency and overt hyperglycemia. Chronic hyperglycemia causes glucotoxicity (further impairing beta-cell function and insulin signaling) and lipotoxicity, creating a vicious cycle. Complications arise from microvascular damage (retinopathy, nephropathy, neuropathy) and macrovascular disease (CAD, stroke, PAD).",
+    "treatment_overview": "Initial management follows ADA guidelines: (1) Lifestyle modifications — medical nutrition therapy, regular exercise (150 min/week moderate intensity), weight loss (5-7% of body weight); (2) Metformin is first-line pharmacotherapy (start 500 mg daily, titrate to 1000 mg twice daily); (3) For HbA1c ≥10% or symptomatic hyperglycemia, consider dual therapy from the start — add an SGLT2 inhibitor (empagliflozin, dapagliflozin) or GLP-1 receptor agonist (semaglutide, liraglutide) which have cardiovascular and renal benefits; (4) If HbA1c ≥10% with marked symptoms, consider initial insulin therapy; (5) Statin therapy for cardiovascular risk reduction; (6) ACEi/ARB for microalbuminuria and BP control; (7) Comprehensive monitoring: HbA1c every 3 months until at goal then every 6 months, annual eye exam, annual foot exam, annual UACR, lipid panel.",
+    "high_yield_pearls": [
+      "Diagnosis requires one of: fasting glucose ≥126 mg/dL (x2), HbA1c ≥6.5%, random glucose ≥200 with symptoms, or 2-hour OGTT ≥200 mg/dL",
+      "Acanthosis nigricans is a skin marker of insulin resistance and should prompt diabetes screening",
+      "SGLT2 inhibitors and GLP-1 receptor agonists have proven cardiovascular and renal benefits beyond glucose lowering — prioritize these in patients with ASCVD, HF, or CKD",
+      "At diagnosis of type 2 diabetes, up to 20% of patients already have microvascular complications — emphasizing the importance of screening for retinopathy, nephropathy, and neuropathy from the start"
+    ],
+    "sources": ["UpToDate: Clinical presentation, diagnosis, and initial evaluation of diabetes mellitus in adults", "ADA Standards of Care in Diabetes 2025"]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Type 2 diabetes mellitus", "Type 1 diabetes mellitus (late-onset LADA)", "Prediabetes", "Diabetes insipidus", "Hyperthyroidism", "Cushing syndrome", "Medication-induced hyperglycemia"],
+    "after_stage2_more_likely": ["Type 2 diabetes (obesity, sedentary lifestyle, strong family history, acanthosis nigricans, gradual onset, age >40)"],
+    "after_stage2_less_likely": ["Type 1 diabetes (no ketoacidosis, obese habitus, gradual onset, older age)", "Diabetes insipidus (glucose is elevated, not just water homeostasis)"],
+    "after_labs_top3": ["Type 2 diabetes mellitus", "Late-onset type 1 diabetes (LADA)", "Secondary diabetes (Cushing, steroid-induced)"]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "case_id": "case_088",
+  "mode": "easy",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pleural effusion (transudative/CHF)",
+  "icd_category": "J91.8 — Pleural effusion in other conditions classified elsewhere",
+  "one_liner": "A 72-year-old woman with a history of congestive heart failure presents with progressive dyspnea on exertion and bilateral lower extremity edema over 2 weeks.",
+  "stage2": {
+    "hpi_extension": "The patient reports gradually worsening shortness of breath over 2 weeks, now occurring with minimal exertion (walking to the bathroom). She sleeps propped up on 3 pillows (baseline is 1) and has had two episodes of paroxysmal nocturnal dyspnea. She notes increasing bilateral ankle swelling and a 4 kg weight gain in 2 weeks. She admits to dietary indiscretion (high salt meals) and missed her furosemide doses for 5 days. She denies chest pain, fever, cough, or hemoptysis.",
+    "pmh": "Heart failure with reduced ejection fraction (EF 30%), hypertension, atrial fibrillation, type 2 diabetes mellitus, chronic kidney disease stage 3.",
+    "surgical_history": "Coronary artery bypass graft (CABG) x3, 5 years ago.",
+    "medications": "Furosemide 40 mg daily (non-compliant), lisinopril 20 mg daily, carvedilol 12.5 mg BID, spironolactone 25 mg daily, apixaban 5 mg BID, metformin 500 mg BID, atorvastatin 40 mg daily.",
+    "allergies": "No known drug allergies.",
+    "family_history": "Father died of MI at age 65. Mother had hypertension and diabetes.",
+    "social_history": "Retired teacher. Never smoker. No alcohol. Lives alone. Has a home health aide 3 days/week.",
+    "vitals": {
+      "temp": "98.2 F (36.8 C)",
+      "hr": "88 bpm (irregularly irregular)",
+      "bp": "156/92 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "92% on room air",
+      "weight_bmi": "84 kg (baseline 80 kg), BMI 31.2"
+    },
+    "physical_exam": "General: Obese elderly woman, mildly dyspneic at rest, speaking in full sentences. HEENT: JVP elevated to 12 cm H2O. Lungs: Decreased breath sounds and dullness to percussion at bilateral bases (right > left); fine bibasilar crackles. Cardiovascular: Irregularly irregular rhythm, S3 gallop present, holosystolic murmur at apex (mitral regurgitation). Abdomen: Soft, mildly distended, positive hepatojugular reflux, no tenderness. Extremities: 2+ bilateral pitting edema to mid-shin. Skin: No rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "BNP", "result": "1,240 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; consistent with decompensated heart failure as cause of effusion"},
+      {"test_name": "BMP — Sodium", "result": "134 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia — dilutional, common in decompensated CHF and associated with worse prognosis"},
+      {"test_name": "BMP — Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal; monitor given renal dysfunction and spironolactone use"},
+      {"test_name": "BMP — Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated above baseline (1.2) — cardiorenal syndrome from poor forward flow"},
+      {"test_name": "BMP — BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN:Cr ratio suggestive of prerenal azotemia from poor cardiac output"},
+      {"test_name": "CBC — WBC", "result": "7,800/uL", "flag": "WNL", "clinical_significance": "Normal; argues against infection"},
+      {"test_name": "CBC — Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia — may contribute to symptoms and exacerbate heart failure"},
+      {"test_name": "Albumin", "result": "3.4 g/dL", "flag": "LOW", "clinical_significance": "Low-normal; contributes to reduced oncotic pressure and fluid accumulation"},
+      {"test_name": "Pleural fluid protein", "result": "1.8 g/dL", "flag": "WNL", "clinical_significance": "Pleural fluid protein/serum protein ratio <0.5 — transudative by Light criteria"},
+      {"test_name": "Pleural fluid LDH", "result": "95 U/L", "flag": "WNL", "clinical_significance": "Pleural fluid LDH/serum LDH ratio <0.6 — transudative by Light criteria"},
+      {"test_name": "Serum LDH", "result": "210 U/L", "flag": "WNL", "clinical_significance": "Normal serum LDH for Light criteria calculation"},
+      {"test_name": "Liver function — AST/ALT", "result": "52/48 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated transaminases from hepatic congestion secondary to right heart failure"}
+    ],
+    "imaging_results": [
+      {"test_name": "Chest X-ray (PA and lateral)", "result": "Bilateral pleural effusions (right > left) with meniscus sign. Bilateral perihilar hazy opacities (pulmonary edema). Cardiomegaly with cardiothoracic ratio >0.5. Cephalization of pulmonary vasculature.", "flag": "ABNORMAL", "clinical_significance": "Classic findings of decompensated heart failure with bilateral transudative pleural effusions"},
+      {"test_name": "Point-of-care ultrasound (POCUS)", "result": "Bilateral anechoic pleural effusions, larger on the right (~800 mL estimated). No septations or loculations. IVC dilated >2.1 cm with <50% inspiratory collapse.", "flag": "ABNORMAL", "clinical_significance": "Confirms bilateral simple effusions and elevated right atrial pressure consistent with volume overload"}
+    ],
+    "key_tests": ["Chest X-ray", "BNP or NT-proBNP", "BMP (electrolytes and renal function)", "Thoracentesis with pleural fluid analysis (Light criteria)", "Point-of-care ultrasound"],
+    "acceptable_tests": ["CBC", "Liver function tests", "Albumin", "ECG", "Echocardiogram", "Urinalysis", "Coagulation studies", "Pleural fluid cell count and differential"],
+    "low_yield_tests": ["CT chest with contrast", "D-dimer", "Pleural fluid cytology (in clearly transudative effusion)", "Bronchoscopy", "Sputum culture"]
+  },
+  "stage5": {
+    "final_clue": "Diagnostic thoracentesis yields straw-colored fluid meeting all transudative criteria by Light criteria (protein ratio 0.38, LDH ratio 0.45). IV furosemide produces 3.5 L urine output over 12 hours with significant symptom improvement and interval decrease in effusion on repeat imaging."
+  },
+  "debrief": {
+    "classic_presentation": "Elderly patient with known CHF presents with progressive dyspnea, orthopnea, PND, peripheral edema, and weight gain, with bilateral pleural effusions (right > left) on imaging and transudative fluid on thoracentesis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In decompensated heart failure, elevated left-sided filling pressures increase pulmonary capillary hydrostatic pressure, driving fluid into the interstitium and pleural space. Bilateral effusions (typically right > left due to greater right pleural surface area and lymphatic drainage patterns) are characteristic. The fluid is transudative because it results from hydrostatic pressure imbalances rather than pleural inflammation. Concurrent right heart failure raises systemic venous pressure, contributing to peripheral edema and hepatic congestion.",
+    "treatment_overview": "Primary treatment: aggressive diuresis with IV loop diuretics (furosemide, typically starting at 1-2x the home oral dose given IV). Sodium and fluid restriction. Optimize neurohormonal blockade (ACEi/ARB, beta-blocker, MRA). Therapeutic thoracentesis for large symptomatic effusions (limit to 1-1.5 L per session to avoid re-expansion pulmonary edema). Address precipitants: dietary non-compliance, medication non-adherence, arrhythmia, infection. Monitor daily weights, strict I/Os, and renal function during diuresis.",
+    "high_yield_pearls": [
+      "Light criteria classify effusions as exudative if ANY of the following are met: pleural/serum protein ratio >0.5, pleural/serum LDH ratio >0.6, or pleural LDH >2/3 the upper limit of normal serum LDH.",
+      "CHF effusions can be misclassified as exudative after diuresis (pseudo-exudate) — use the serum-effusion albumin gradient (>1.2 g/dL = transudate) to clarify.",
+      "Bilateral effusions with cardiomegaly in a patient with known CHF do not require diagnostic thoracentesis unless atypical features are present (unilateral, fever, pleuritic pain).",
+      "In CHF-related effusions, right-sided effusions are more common than left-sided — an isolated left-sided effusion should raise suspicion for other etiologies (e.g., PE, malignancy, TB).",
+      "Hyponatremia in decompensated CHF is a poor prognostic sign and is dilutional — fluid restriction, not sodium replacement, is the treatment."
+    ],
+    "sources": [
+      "Light RW. Pleural effusions. Med Clin North Am. 2011",
+      "AHA/ACC 2022 Heart Failure Guidelines",
+      "UpToDate: Pleural effusion in heart failure"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Transudative pleural effusion from CHF", "Pneumonia with parapneumonic effusion", "Nephrotic syndrome", "Hepatic hydrothorax", "Malignant pleural effusion", "Pulmonary embolism with effusion"],
+    "after_stage2_more_likely": ["Transudative pleural effusion from CHF", "Hepatic hydrothorax"],
+    "after_stage2_less_likely": ["Pneumonia with parapneumonic effusion", "Pulmonary embolism"],
+    "after_labs_top3": ["Transudative pleural effusion from CHF", "Nephrotic syndrome", "Hepatic hydrothorax"]
+  }
+}

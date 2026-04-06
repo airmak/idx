@@ -1,0 +1,177 @@
+{
+  "case_id": "case_199",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Acute lymphoblastic leukemia (B-cell precursor, standard risk)",
+  "icd_category": "C91.00 – Acute lymphoblastic leukemia not having achieved remission",
+  "one_liner": "A 5-year-old male presents with 3 weeks of progressive fatigue, pallor, easy bruising, intermittent fevers, and diffuse bone pain that wakes him at night.",
+  "stage2": {
+    "hpi_extension": "The patient's parents report he has been increasingly tired over the past 3 weeks, no longer wanting to play at recess and frequently asking to rest. They noticed pallor about 2 weeks ago and new bruises on his shins and arms without significant trauma. He has had intermittent low-grade fevers (up to 38.5°C) without a clear source over the past 10 days. He has complained of bilateral leg pain, particularly at night, that is not relieved by ibuprofen. He has had decreased appetite and has lost approximately 1 kg. There has been no bleeding from gums or nose, no rash other than bruises, no cough, no diarrhea, and no recent travel or sick contacts.",
+    "pmh": "Unremarkable. Up to date on immunizations. Normal growth and development.",
+    "surgical_history": "None",
+    "medications": "Ibuprofen 200 mg PO as needed for leg pain",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of childhood cancers, bleeding disorders, or autoimmune conditions. Maternal grandmother with breast cancer at age 62.",
+    "social_history": "Lives with both parents and a 7-year-old sibling. Attends kindergarten. No secondhand smoke exposure. No pets. No recent pesticide or radiation exposure.",
+    "vitals": {
+      "temp": "38.3°C (100.9°F)",
+      "hr": "130 bpm",
+      "bp": "96/60 mmHg",
+      "rr": "24 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "18.5 kg (40th percentile, down from 60th percentile 3 months ago)"
+    },
+    "physical_exam": "General: Pale, thin-appearing child; fatigued but alert and cooperative; in no acute distress. HEENT: Pale conjunctivae bilaterally; no petechiae on palate or buccal mucosa; no gingival hypertrophy; no proptosis. Neck: Non-tender bilateral cervical lymphadenopathy (multiple nodes, largest 1.5 cm, rubbery, mobile). Cardiovascular: Tachycardic, regular rhythm; grade 2/6 systolic flow murmur at left sternal border. Pulmonary: Clear to auscultation bilaterally. Abdomen: Hepatomegaly (liver palpable 4 cm below right costal margin); splenomegaly (spleen palpable 3 cm below left costal margin); non-tender. Musculoskeletal: No joint effusions or erythema; tenderness to palpation over bilateral tibial metaphyses. Skin: Multiple ecchymoses of varying ages on bilateral shins and forearms; scattered petechiae on lower extremities; no purpura fulminans. Extremities: No edema; capillary refill 2 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "WBC",
+        "result": "48.2 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Marked leukocytosis raises strong concern for leukemia; peripheral smear review is critical."
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "6.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia from bone marrow replacement by leukemic blasts, explaining pallor, fatigue, and tachycardia."
+      },
+      {
+        "test_name": "Platelets",
+        "result": "28 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Severe thrombocytopenia from marrow infiltration, accounting for bruising and petechiae."
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "72% lymphoblasts with high nuclear-to-cytoplasmic ratio, scant cytoplasm, and fine chromatin. Occasional smudge cells. Decreased normal myeloid and erythroid precursors.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Circulating lymphoblasts confirm the diagnosis of acute leukemia; morphology is consistent with ALL."
+      },
+      {
+        "test_name": "LDH",
+        "result": "1,250 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated LDH reflects high cell turnover from leukemic proliferation."
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "7.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated uric acid from rapid cell turnover; monitor for tumor lysis syndrome before and during treatment."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138, K 4.6, Cl 102, CO2 22, BUN 14, Cr 0.4, Glucose 88, Ca 9.0, Phos 5.2",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes at presentation; phosphorus should be monitored for tumor lysis syndrome (hyperphosphatemia, hyperkalemia, hyperuricemia, hypocalcemia)."
+      },
+      {
+        "test_name": "Coagulation studies (PT/INR/PTT/Fibrinogen)",
+        "result": "PT 13.2 sec, INR 1.1, PTT 30 sec, Fibrinogen 280 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation profile; DIC is more common in AML (especially APL) than in ALL."
+      },
+      {
+        "test_name": "Reticulocyte count",
+        "result": "0.3%",
+        "flag": "LOW",
+        "clinical_significance": "Inappropriately low reticulocyte count indicates bone marrow failure from leukemic infiltration rather than peripheral destruction or blood loss."
+      },
+      {
+        "test_name": "CRP",
+        "result": "32 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CRP reflects the inflammatory burden of the leukemic process."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "No mediastinal mass or widening. Mild cardiomegaly. Clear lung fields.",
+        "flag": "WNL",
+        "clinical_significance": "Absence of a mediastinal mass makes T-cell ALL less likely; mediastinal masses (thymic) are present in 50-75% of T-ALL cases."
+      },
+      {
+        "test_name": "Bone marrow aspirate and biopsy",
+        "result": "Hypercellular marrow with >90% lymphoblasts. Blasts are TdT-positive, CD10-positive (CALLA), CD19-positive, CD22-positive, surface Ig-negative. Cytogenetics: hyperdiploidy (54 chromosomes). FISH: no Philadelphia chromosome t(9;22), no MLL rearrangement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bone marrow confirms B-cell precursor ALL with favorable cytogenetics (hyperdiploidy). Absence of Philadelphia chromosome and MLL rearrangement places this in the standard-risk category."
+      }
+    ],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Bone marrow aspirate and biopsy with flow cytometry",
+      "Cytogenetics and FISH panel",
+      "LDH and uric acid (tumor lysis screening)",
+      "Chest X-ray (to evaluate for mediastinal mass)"
+    ],
+    "acceptable_tests": [
+      "Coagulation studies (PT/PTT/fibrinogen)",
+      "BMP with calcium and phosphorus",
+      "Reticulocyte count",
+      "Blood type and screen",
+      "CRP and blood cultures (febrile)"
+    ],
+    "low_yield_tests": [
+      "ANA or rheumatoid factor (delays diagnosis if pursued instead of CBC)",
+      "Bone X-rays (lucencies may be seen but are nonspecific)",
+      "Abdominal CT (hepatosplenomegaly already detected on exam)",
+      "Throat culture"
+    ],
+    "attending_pimp_questions": [
+      "What cytogenetic and molecular findings classify a patient as standard-risk versus high-risk in B-ALL?",
+      "Why is it critical to obtain a chest X-ray before starting therapy in suspected ALL?",
+      "What defines tumor lysis syndrome, and how do you prevent and manage it?",
+      "How does the presentation of T-ALL differ from B-ALL, and what is the prognostic significance?"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Flow cytometry of the bone marrow aspirate confirms B-cell precursor ALL (CD10+, CD19+, CD22+, TdT+, surface Ig-negative) with favorable hyperdiploidy and no high-risk genetic markers, consistent with standard-risk B-ALL amenable to standard induction chemotherapy."
+  },
+  "debrief": {
+    "classic_presentation": "ALL classically presents in children aged 2-5 years with the triad of bone marrow failure: anemia (pallor, fatigue), thrombocytopenia (bruising, petechiae), and neutropenia (recurrent fevers/infections). Bone pain, hepatosplenomegaly, and lymphadenopathy are common. The presentation may be insidious over weeks, and ALL should be considered in any child with unexplained cytopenias, bone pain, or persistent constitutional symptoms.",
+    "attending_mode_notes": "B-ALL accounts for ~85% of pediatric ALL, with peak incidence at ages 2-5. Risk stratification is critical: standard-risk features include age 1-9.99 years, WBC <50,000, hyperdiploidy or t(12;21)/ETV6-RUNX1, and good early response to therapy. High-risk features include age ≥10 or <1 year, WBC ≥50,000, Philadelphia chromosome t(9;22), MLL (KMT2A) rearrangements, hypodiploidy, and poor early response (high minimal residual disease at day 29). Tumor lysis syndrome must be anticipated — start IV hydration and rasburicase (or allopurinol) before initiating chemotherapy. Avoid potassium in IV fluids. Do NOT transfuse platelets to normal levels before bone marrow biopsy as this can delay diagnosis. A CXR is mandatory before anesthesia for bone marrow biopsy because an anterior mediastinal mass (T-ALL) can cause airway compromise under sedation. CNS involvement is assessed by lumbar puncture with intrathecal chemotherapy during initial staging. The overall cure rate for pediatric B-ALL now exceeds 90% with modern risk-adapted therapy.",
+    "pathophysiology": "ALL arises from clonal proliferation of lymphoid progenitor cells arrested at an early stage of differentiation. Somatic mutations in transcription factors (PAX5, IKZF1), signal transduction pathways (RAS, JAK/STAT), and epigenetic regulators lead to uncontrolled proliferation and survival of immature lymphoblasts. These blasts accumulate in the bone marrow, suppressing normal hematopoiesis (causing cytopenias) and infiltrating extramedullary sites (liver, spleen, lymph nodes, CNS, testes). Hyperdiploidy (>50 chromosomes) confers a favorable prognosis partly because hyperdiploid blasts are more susceptible to methotrexate and mercaptopurine due to increased drug accumulation.",
+    "treatment_overview": "Treatment follows a multi-phase protocol over 2-3 years. Induction (4-6 weeks): vincristine, dexamethasone (or prednisone), L-asparaginase, +/- anthracycline; goal is complete remission (<5% blasts in marrow). Consolidation/Intensification: high-dose methotrexate, cyclophosphamide, cytarabine, mercaptopurine. CNS-directed therapy: intrathecal methotrexate (± cytarabine ± hydrocortisone) throughout treatment; cranial radiation rarely used now. Maintenance (2-3 years total therapy): daily oral mercaptopurine, weekly oral methotrexate, monthly vincristine/steroid pulses. High-risk patients may receive more intensive regimens or targeted therapy (e.g., imatinib for Ph+ ALL). Tumor lysis prevention with IV hydration and rasburicase is initiated before chemotherapy.",
+    "high_yield_pearls": [
+      "The classic ALL triad is bone marrow failure (anemia, thrombocytopenia, neutropenia) plus hepatosplenomegaly and lymphadenopathy — always order a CBC with smear in a child with unexplained bruising, pallor, or bone pain.",
+      "Nighttime bone pain in a child that does not respond to NSAIDs should raise suspicion for malignancy — leukemic infiltration of the periosteum and marrow causes pain that can mimic growing pains or JIA.",
+      "A chest X-ray must be obtained before sedation for bone marrow biopsy to rule out an anterior mediastinal mass (T-ALL), which can compress the airway under anesthesia.",
+      "Tumor lysis syndrome (hyperuricemia, hyperkalemia, hyperphosphatemia, hypocalcemia) can be life-threatening — rasburicase converts uric acid to allantoin and is first-line in high tumor burden ALL.",
+      "Hyperdiploidy (>50 chromosomes) and t(12;21)/ETV6-RUNX1 are the most favorable cytogenetic findings in B-ALL, with cure rates >95%."
+    ],
+    "sources": [
+      "COG (Children's Oncology Group) Risk Stratification for B-ALL",
+      "UpToDate: Overview of the clinical presentation and diagnosis of acute lymphoblastic leukemia in children",
+      "UpToDate: Treatment of acute lymphoblastic leukemia in children and adolescents",
+      "Nelson Textbook of Pediatrics, 21st Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute lymphoblastic leukemia",
+      "Acute myeloid leukemia",
+      "Juvenile idiopathic arthritis (systemic onset)",
+      "Immune thrombocytopenic purpura",
+      "Aplastic anemia",
+      "Epstein-Barr virus infection (infectious mononucleosis)",
+      "Neuroblastoma (with marrow infiltration)"
+    ],
+    "after_stage2_more_likely": [
+      "Acute lymphoblastic leukemia (pancytopenia, hepatosplenomegaly, lymphadenopathy, bone pain, constitutional symptoms in a 5-year-old)",
+      "Acute myeloid leukemia (similar presentation but less common in this age group)"
+    ],
+    "after_stage2_less_likely": [
+      "ITP (isolated thrombocytopenia expected; this patient has pancytopenia and hepatosplenomegaly)",
+      "Systemic JIA (while fever and bone pain overlap, cytopenias and hepatosplenomegaly favor malignancy)",
+      "EBV infection (typically presents with pharyngitis and atypical lymphocytes, not blasts)"
+    ],
+    "after_labs_top3": [
+      "Acute lymphoblastic leukemia (confirmed by peripheral blasts, bone marrow >90% lymphoblasts, flow cytometry)",
+      "Acute myeloid leukemia (excluded by lymphoid immunophenotype on flow cytometry)",
+      "Burkitt lymphoma/leukemia (excluded by flow cytometry showing B-precursor phenotype, not mature B-cell)"
+    ]
+  }
+}

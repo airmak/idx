@@ -1,0 +1,77 @@
+{
+  "case_id": "case_068",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Acute Viral Pericarditis",
+  "icd_category": "I30.0 — Acute nonspecific idiopathic pericarditis",
+  "one_liner": "A 28-year-old male with no significant past medical history presents with sharp chest pain that worsens with inspiration and improves with leaning forward.",
+  "stage2": {
+    "hpi_extension": "The patient developed sharp, substernal chest pain 2 days ago that radiates to the left shoulder and trapezius ridge. The pain is worse with deep breathing, coughing, and lying flat, and improves significantly when he leans forward. He reports a viral upper respiratory illness 10 days ago with fever, sore throat, and myalgias that have since resolved. He denies exertional dyspnea, syncope, or leg swelling.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of cardiac disease, autoimmune disease, or sudden death.",
+    "social_history": "Non-smoker. Social alcohol use (1-2 beers on weekends). Works as a software developer. Physically active, runs 3 times per week. No illicit drug use.",
+    "vitals": {
+      "temp": "37.8°C (100.0°F)",
+      "hr": "92 bpm, regular",
+      "bp": "122/74 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "78 kg, BMI 24.1"
+    },
+    "physical_exam": "General: Young male, appears uncomfortable, leaning forward. HEENT: No JVD. Cardiovascular: Three-component pericardial friction rub best heard at the left lower sternal border with patient leaning forward; regular rate and rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, non-distended. Extremities: No edema. No pulsus paradoxus."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.15 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, consistent with myopericarditis (epicardial inflammation)"},
+      {"test_name": "CRP", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker, supports acute pericarditis and guides therapy duration"},
+      {"test_name": "ESR", "result": "42 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated, consistent with systemic inflammation"},
+      {"test_name": "WBC", "result": "11,200/µL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, consistent with viral/inflammatory process"},
+      {"test_name": "BNP", "result": "45 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no evidence of heart failure"},
+      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "No evidence of autoimmune etiology"},
+      {"test_name": "Blood cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "No evidence of bacterial infection"},
+      {"test_name": "D-dimer", "result": "0.4 µg/mL", "flag": "WNL", "clinical_significance": "Normal, low probability for pulmonary embolism"},
+      {"test_name": "Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "Diffuse ST elevation with upward concavity in leads I, II, III, aVF, V3-V6; PR depression in leads II, III, aVF; PR elevation in aVR; no reciprocal ST depression", "flag": "ABNORMAL", "clinical_significance": "Classic ECG findings of acute pericarditis — diffuse ST elevation with PR depression"},
+      {"test_name": "Transthoracic Echocardiogram", "result": "Normal LV systolic function (LVEF 60%), no wall motion abnormalities, trivial pericardial effusion (< 5 mm), no signs of tamponade", "flag": "ABNORMAL", "clinical_significance": "Small effusion supports pericarditis, no hemodynamic compromise"},
+      {"test_name": "Chest X-ray", "result": "Normal cardiac silhouette, clear lung fields", "flag": "WNL", "clinical_significance": "No cardiomegaly or pulmonary pathology"}
+    ],
+    "key_tests": ["12-lead ECG", "Troponin", "CRP/ESR", "Transthoracic echocardiogram", "Chest X-ray"],
+    "acceptable_tests": ["CBC", "BNP", "Blood cultures", "ANA", "D-dimer", "Basic metabolic panel", "Viral serologies"],
+    "low_yield_tests": ["Cardiac catheterization", "CT coronary angiography", "Stress test", "Pericardiocentesis (no significant effusion)"],
+    "key_tests_rationale": "ECG shows characteristic diffuse ST elevation and PR depression. Troponin assesses for myopericardial involvement. CRP guides treatment duration. Echo evaluates for effusion and tamponade. CXR screens for alternative diagnoses."
+  },
+  "stage5": {
+    "final_clue": "The ECG demonstrates diffuse concave-up ST elevation with PR depression in multiple leads and PR elevation in aVR. Combined with the friction rub, pleuritic chest pain, and recent viral illness, this is classic acute viral pericarditis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute pericarditis presents with sharp, pleuritic chest pain that worsens with lying supine and improves with leaning forward, often radiating to the trapezius ridge. A preceding viral illness is common. Diagnosis requires 2 of 4 criteria: pleuritic chest pain, pericardial friction rub, characteristic ECG changes, or new pericardial effusion.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Viral infection (commonly Coxsackievirus, echovirus, adenovirus, or influenza) triggers inflammation of the pericardial layers. The inflamed pericardial surfaces rub against each other (producing the friction rub) and generate pain through phrenic nerve irritation. Mild troponin elevation indicates epicardial myocyte involvement (myopericarditis).",
+    "treatment_overview": "First-line: High-dose NSAIDs (ibuprofen 600 mg TID or aspirin 750-1000 mg TID) tapered over 1-2 weeks PLUS colchicine 0.5 mg BID for 3 months to reduce recurrence risk. Activity restriction until symptoms resolve and CRP normalizes. Avoid corticosteroids as first-line (associated with higher recurrence). Corticosteroids reserved for contraindications to NSAIDs/colchicine or autoimmune etiology.",
+    "high_yield_pearls": [
+      "The 4 diagnostic criteria for acute pericarditis: pleuritic chest pain, pericardial friction rub, diffuse ST elevation with PR depression on ECG, and new pericardial effusion (need 2 of 4).",
+      "PR depression is the most specific ECG finding for pericarditis and helps distinguish it from early repolarization or STEMI.",
+      "Colchicine added to NSAIDs reduces recurrence from ~30% to ~15% (COPE and ICAP trials).",
+      "Pericardial friction rub is pathognomonic but transient — absence does not rule out pericarditis.",
+      "Avoid corticosteroids as first-line therapy — they paradoxically increase recurrence risk."
+    ],
+    "sources": [
+      "2015 ESC Guidelines for the Diagnosis and Management of Pericardial Diseases",
+      "COPE Trial (Imazio et al., Circulation 2005)",
+      "ICAP Trial (Imazio et al., NEJM 2013)",
+      "Braunwald's Heart Disease, 12th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Acute MI (STEMI)", "Pulmonary embolism", "Myocarditis", "Costochondritis", "Pneumothorax", "Aortic dissection"],
+    "after_stage2_more_likely": ["Acute pericarditis", "Myocarditis", "Myopericarditis"],
+    "after_stage2_less_likely": ["Acute MI", "Pulmonary embolism", "Aortic dissection"],
+    "after_labs_top3": ["Acute viral pericarditis", "Myopericarditis", "Idiopathic pericarditis"]
+  }
+}

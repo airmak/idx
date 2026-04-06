@@ -1,0 +1,153 @@
+{
+  "case_id": "case_210",
+  "mode": "easy",
+  "specialty": "OB/GYN",
+  "diagnosis": "Hyperemesis gravidarum",
+  "icd_category": "O21.1 – Hyperemesis gravidarum with metabolic disturbance",
+  "one_liner": "A 25-year-old G1P0 at 8 weeks gestation presents with intractable nausea and vomiting for 3 weeks, 5% weight loss, ketonuria, and hypochloremic metabolic alkalosis requiring IV hydration.",
+  "stage2": {
+    "hpi_extension": "The patient reports severe, persistent nausea and vomiting that began at approximately 5 weeks gestation and has progressively worsened. She is now vomiting 8-10 times daily and is unable to tolerate any solids or liquids for the past 48 hours. She has lost 4 kg (from 62 to 58 kg). She feels weak, lightheaded, and has noticed decreased urination. She has tried ginger tea, vitamin B6, and doxylamine without improvement. She has no abdominal pain, diarrhea, fever, headache, or visual changes. She has no history of eating disorders or GI conditions. This is her first pregnancy.",
+    "pmh": "G1P0 at 8 weeks by LMP confirmed by early ultrasound. No history of GI disorders, migraines, or eating disorders.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins (unable to keep them down for 2 weeks). Doxylamine 25 mg + pyridoxine (B6) 25 mg PO (unable to tolerate).",
+    "allergies": "No known drug allergies",
+    "family_history": "Mother had hyperemesis gravidarum during both pregnancies.",
+    "social_history": "Works as a dental hygienist (has missed 1 week of work). Non-smoker. No alcohol. Lives with partner. First pregnancy.",
+    "vitals": {
+      "temp": "37.0°C (98.6°F)",
+      "hr": "110 bpm",
+      "bp": "96/60 mmHg",
+      "rr": "18 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "58 kg (pre-pregnancy 62 kg, 6.5% weight loss), BMI 21.5 kg/m²"
+    },
+    "physical_exam": "General: Thin, fatigued-appearing young woman; dry lips; lying still in bed. HEENT: Dry mucous membranes; sunken eyes; no scleral icterus; no thyroid enlargement. Cardiovascular: Tachycardic, regular rhythm; no murmurs; orthostatic changes noted (HR increases by 20 bpm on sitting). Pulmonary: Clear to auscultation bilaterally. Abdomen: Soft, non-distended; mild diffuse tenderness without focal peritoneal signs; no hepatomegaly; bowel sounds present but hypoactive. Skin: Decreased turgor. Extremities: Cool peripheries; capillary refill 3 seconds. Neurologic: Alert but fatigued; no focal deficits; no nystagmus."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "BMP",
+        "result": "Na 131, K 3.0, Cl 86, CO2 32, BUN 24, Cr 1.1, Glucose 68",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia, hypokalemia, hypochloremia, and metabolic alkalosis are classic electrolyte derangements of hyperemesis gravidarum from persistent vomiting and volume depletion. Elevated BUN/Cr ratio reflects prerenal azotemia."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.035, ketones 3+, protein trace, no WBC, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ketonuria (3+) indicates starvation ketosis from inability to maintain oral intake; concentrated urine reflects dehydration."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.0 × 10³/µL, Hgb 14.2 g/dL, Hct 42%, Plt 260 × 10³/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Hemoconcentration (elevated Hgb/Hct) reflects significant volume depletion."
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 52 U/L, ALT 48 U/L, Total bilirubin 1.4 mg/dL, Albumin 3.2 g/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly elevated transaminases occur in up to 50% of hyperemesis patients due to malnutrition and hepatic stress; markedly elevated levels should prompt evaluation for other etiologies."
+      },
+      {
+        "test_name": "TSH",
+        "result": "0.1 mIU/L",
+        "flag": "LOW",
+        "clinical_significance": "Suppressed TSH from hCG cross-reactivity with the TSH receptor (gestational transient thyrotoxicosis) occurs in 60% of hyperemesis patients. This is typically self-limiting and does NOT require antithyroid treatment."
+      },
+      {
+        "test_name": "Free T4",
+        "result": "1.8 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated free T4 with suppressed TSH is consistent with gestational transient thyrotoxicosis from hCG stimulation, not Graves disease."
+      },
+      {
+        "test_name": "Serum β-hCG",
+        "result": "125,000 mIU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated hCG is appropriate for 8 weeks gestation but higher levels correlate with more severe nausea/vomiting; very high levels should raise suspicion for multiple gestation or molar pregnancy."
+      },
+      {
+        "test_name": "Lipase",
+        "result": "28 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lipase excludes pancreatitis as a cause of intractable vomiting."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "Transvaginal ultrasound",
+        "result": "Single live intrauterine pregnancy at 8 weeks 2 days with fetal cardiac activity (FHR 170 bpm). No molar pregnancy. No multiple gestation. Both ovaries with normal-appearing corpus luteum on the right.",
+        "flag": "WNL",
+        "clinical_significance": "Confirms viable singleton pregnancy and excludes molar pregnancy and multiple gestation, both of which are associated with exaggerated hCG levels and more severe hyperemesis."
+      }
+    ],
+    "key_tests": [
+      "BMP (electrolytes, renal function)",
+      "Urinalysis (ketonuria)",
+      "Transvaginal ultrasound (exclude molar pregnancy and multiple gestation)",
+      "TSH (distinguish gestational thyrotoxicosis from Graves disease)"
+    ],
+    "acceptable_tests": [
+      "CBC (assess hemoconcentration)",
+      "Hepatic function panel",
+      "Lipase",
+      "Serum β-hCG",
+      "Free T4 (if TSH abnormal)"
+    ],
+    "low_yield_tests": [
+      "Abdominal X-ray (no indication, radiation exposure)",
+      "Upper endoscopy (invasive, not first-line)",
+      "Cortisol level (not indicated unless adrenal insufficiency suspected)",
+      "Stool studies (no diarrhea)"
+    ],
+    "attending_pimp_questions": null
+  },
+  "stage5": {
+    "final_clue": "After 48 hours of IV fluid resuscitation with dextrose-containing saline and potassium replacement, IV ondansetron, and thiamine supplementation, the patient's electrolytes normalize, ketonuria resolves, and she is able to tolerate small sips of clear liquids, confirming the diagnosis of hyperemesis gravidarum with a favorable response to aggressive supportive care."
+  },
+  "debrief": {
+    "classic_presentation": "Hyperemesis gravidarum presents as intractable nausea and vomiting in early pregnancy (typically 5-10 weeks, peaking at 8-12 weeks) causing >5% pre-pregnancy weight loss, dehydration, ketonuria, and electrolyte disturbances. It is distinguished from normal pregnancy-related nausea and vomiting (NVP) by its severity and impact on nutrition, hydration, and daily functioning. Risk factors include first pregnancy, female fetus, multiple gestation, molar pregnancy, family history, and history of motion sickness or migraines.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The exact pathophysiology of hyperemesis gravidarum is multifactorial and not fully understood. Growth differentiation factor 15 (GDF15), produced by the placenta, has emerged as a key mediator — it activates brainstem receptors in the area postrema and nucleus tractus solitarius, triggering nausea. Higher GDF15 levels correlate with more severe symptoms. Human chorionic gonadotropin (hCG) also contributes, as peak hCG levels coincide with peak symptom severity. hCG cross-reacts with the TSH receptor (structural homology between hCG and TSH), causing gestational transient thyrotoxicosis in severe cases. Persistent vomiting leads to loss of gastric acid (HCl), causing hypochloremic, hypokalemic metabolic alkalosis. Volume depletion activates aldosterone, further promoting potassium and hydrogen ion loss.",
+    "treatment_overview": "Stepwise management: (1) Dietary modifications: small, frequent meals; avoid triggers; ginger supplements (250 mg QID). (2) First-line pharmacotherapy: pyridoxine (vitamin B6) 10-25 mg TID + doxylamine 12.5 mg TID. (3) Second-line: ondansetron 4 mg IV/PO q8h (use cautiously in first trimester due to possible small cleft palate risk), metoclopramide 10 mg PO/IV q8h, or promethazine 12.5-25 mg PO/PR q6h. (4) IV hydration: normal saline or lactated Ringer's with dextrose and potassium replacement. CRITICAL: administer thiamine 100 mg IV BEFORE dextrose to prevent Wernicke encephalopathy. (5) Refractory cases: methylprednisolone 16 mg PO/IV q8h (taper over 2 weeks; avoid before 10 weeks due to possible cleft palate risk). TPN or enteral feeding for severe refractory cases. Monitor potassium, magnesium, and thiamine closely.",
+    "high_yield_pearls": [
+      "Hyperemesis gravidarum is defined by intractable vomiting with >5% weight loss, ketonuria, and electrolyte derangements — it occurs in 0.3-3% of pregnancies and is the most common indication for hospitalization in the first trimester.",
+      "Always administer thiamine (100 mg IV) BEFORE dextrose-containing fluids to prevent Wernicke encephalopathy — this rare but devastating complication causes the classic triad of confusion, ataxia, and ophthalmoplegia.",
+      "Suppressed TSH with mildly elevated free T4 in hyperemesis is gestational transient thyrotoxicosis (from hCG cross-reactivity with the TSH receptor) and does NOT require antithyroid medications — it resolves as hCG declines.",
+      "An ultrasound should be performed in all patients with hyperemesis to exclude molar pregnancy and multiple gestation, which are associated with higher hCG levels and more severe symptoms.",
+      "GDF15 (growth differentiation factor 15) has been identified as a key hormonal mediator of pregnancy-related nausea and may explain why some women are more susceptible to hyperemesis."
+    ],
+    "sources": [
+      "ACOG Practice Bulletin No. 189: Nausea and Vomiting of Pregnancy (2018)",
+      "UpToDate: Nausea and vomiting of pregnancy: Treatment and outcome",
+      "UpToDate: Hyperemesis gravidarum",
+      "Williams Obstetrics, 26th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hyperemesis gravidarum",
+      "Molar pregnancy (gestational trophoblastic disease)",
+      "Multiple gestation",
+      "Gastroenteritis",
+      "Gastroparesis",
+      "Pancreatitis",
+      "Hyperthyroidism (Graves disease)"
+    ],
+    "after_stage2_more_likely": [
+      "Hyperemesis gravidarum (intractable vomiting at 8 weeks, >5% weight loss, dehydration, ketonuria, family history)",
+      "Gestational transient thyrotoxicosis (tachycardia and clinical picture, though this is a feature of HG rather than primary thyroid disease)"
+    ],
+    "after_stage2_less_likely": [
+      "Gastroenteritis (no diarrhea, no fever, chronic 3-week course is atypical for infection)",
+      "Pancreatitis (no epigastric pain radiating to back, normal lipase later confirms)",
+      "Graves disease (no goiter, no eye findings, thyroid changes are more likely hCG-mediated)"
+    ],
+    "after_labs_top3": [
+      "Hyperemesis gravidarum (ketonuria, electrolyte derangements, singleton viable pregnancy confirmed, no molar pregnancy)",
+      "Gestational transient thyrotoxicosis (suppressed TSH with elevated free T4, associated with HG, self-limiting)",
+      "Molar pregnancy (excluded by normal ultrasound showing viable singleton pregnancy)"
+    ]
+  }
+}

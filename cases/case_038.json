@@ -1,0 +1,78 @@
+{
+  "case_id": "case_038",
+  "mode": "attending",
+  "specialty": "Emergency Medicine",
+  "diagnosis": "Carbon Monoxide Poisoning",
+  "icd_category": "T58.01 — Toxic effect of carbon monoxide from motor vehicle exhaust, accidental",
+  "one_liner": "A 45-year-old female presents with headache, nausea, and confusion after working in her attached garage with a running generator during a winter power outage.",
+  "stage2": {
+    "hpi_extension": "Patient's husband called 911 because he found her confused and unable to stand in the garage of their home. A portable gasoline generator has been running in the attached garage for approximately 6 hours during a winter power outage. The patient was intermittently going into the garage to refuel and check on the generator. She developed a progressively worsening headache over the past 3 hours that she attributed to stress. She took ibuprofen without relief. Over the last hour, she became nauseated with one episode of vomiting, developed dizziness, and became increasingly confused. Her husband noticed her skin appeared unusually pink/flushed. He had a mild headache himself. Their smoke detector (but not CO detector) was functioning. The patient denies chest pain, seizures, or loss of consciousness. No suicidal ideation.",
+    "pmh": "Migraine headaches, hypothyroidism",
+    "surgical_history": "Cesarean section x2",
+    "medications": "Levothyroxine 75 mcg daily, sumatriptan as needed",
+    "allergies": "Codeine (nausea)",
+    "family_history": "No significant family history.",
+    "social_history": "Non-smoker. Occasional wine with dinner. School nurse. Married with two children (children were at grandparents' house). No illicit drug use.",
+    "vitals": {
+      "temp": "98.8 F (37.1 C)",
+      "hr": "108 bpm",
+      "bp": "148/88 mmHg",
+      "rr": "22 breaths/min",
+      "spo2": "99% on pulse oximetry (falsely normal)",
+      "weight_bmi": "70 kg, BMI 25.0"
+    },
+    "physical_exam": "General: Confused, agitated female. Cherry-red skin coloration (though subtle and often absent). HEENT: Pupils equal and reactive, 3 mm bilaterally. No papilledema. Tympanic membranes normal. Mucous membranes with pink/red hue. Neck: Supple, no meningismus. Cardiovascular: Tachycardic, regular rhythm. S1/S2 present. No murmurs. Pulmonary: Clear to auscultation bilaterally. No wheezing or crackles. Good air entry. Abdomen: Soft, non-tender. Normal bowel sounds. Extremities: Warm, well-perfused. No edema. Skin: Diffuse erythematous/flushed appearance. No cyanosis. Neuro: GCS 13 (E3V4M6). Confused, oriented to person only. Difficulty with short-term memory and attention. Mild ataxia. No focal motor or sensory deficits. Reflexes symmetric. Cerebellar exam: mild dysmetria bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Carboxyhemoglobin (COHb)", "result": "32%", "flag": "HIGH", "clinical_significance": "Severely elevated (normal <3% non-smokers); confirms significant CO poisoning. Levels >25% associated with serious toxicity"},
+      {"test_name": "Venous Blood Gas - pH", "result": "7.34", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from tissue hypoxia"},
+      {"test_name": "Lactate", "result": "5.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from impaired cellular oxygen utilization"},
+      {"test_name": "Troponin I", "result": "0.18 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated; CO poisoning can cause myocardial injury even without coronary disease"},
+      {"test_name": "CBC - Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal hemoglobin; CO binds to available hemoglobin reducing O2 carrying capacity"},
+      {"test_name": "CBC - WBC", "result": "10.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BMP - Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "BMP - Bicarbonate", "result": "19 mEq/L", "flag": "LOW", "clinical_significance": "Low, consistent with metabolic acidosis from tissue hypoxia"},
+      {"test_name": "CK", "result": "420 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggests muscle injury from CO toxicity"},
+      {"test_name": "BMP - Glucose", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Mild stress hyperglycemia"},
+      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function on replacement"}
+    ],
+    "imaging_results": [
+      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage or mass. Bilateral globus pallidus hypodensities (subtle).", "flag": "ABNORMAL", "clinical_significance": "Bilateral globus pallidus lesions are characteristic of CO poisoning; indicates significant CNS exposure"},
+      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. ST depression in leads V3-V5. No ST elevation.", "flag": "ABNORMAL", "clinical_significance": "Ischemic changes consistent with CO-induced myocardial injury"},
+      {"test_name": "Chest X-ray", "result": "Clear lungs. No focal consolidation or edema.", "flag": "WNL", "clinical_significance": "Normal; CO poisoning typically has normal CXR"}
+    ],
+    "key_tests": ["Carboxyhemoglobin level (co-oximetry)", "Venous or arterial blood gas", "Troponin", "ECG", "CT head without contrast"],
+    "acceptable_tests": ["CBC", "BMP", "Lactate", "CK", "Chest X-ray", "Neuropsychiatric testing (delayed)", "Pregnancy test (reproductive-age women)"],
+    "low_yield_tests": ["Standard pulse oximetry (unreliable — cannot distinguish COHb from OxyHb)", "D-dimer", "MRI brain (not acute priority)", "Urine drug screen", "Liver function tests"]
+  },
+  "stage5": {
+    "final_clue": "Carboxyhemoglobin of 32% on co-oximetry confirms severe carbon monoxide poisoning from generator exhaust in an enclosed space. The falsely normal SpO2 (99%) is a critical pitfall — standard pulse oximeters cannot distinguish carboxyhemoglobin from oxyhemoglobin. CT showing bilateral globus pallidus hypodensities and elevated troponin indicate end-organ damage requiring consideration of hyperbaric oxygen therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Headache, nausea, dizziness, and confusion in a patient with exposure to combustion sources (generators, heaters, car exhaust) in enclosed or poorly ventilated spaces. Multiple household members with similar symptoms is a strong clue. Cherry-red skin is a classic but unreliable finding. Pulse oximetry is falsely normal. Severe cases present with syncope, seizures, coma, or cardiac arrest.",
+    "attending_mode_notes": "This case is deceptive because the SpO2 reads 99% and the patient's chief complaint of headache can easily be attributed to her migraine history or stress. The key pitfall is trusting a falsely normal pulse oximeter. CO poisoning should be considered in any patient with headache, nausea, and confusion — especially during winter months, power outages, or when multiple household members are symptomatic. Always obtain a COHb level via co-oximetry, not standard pulse oximetry.",
+    "pathophysiology": "Carbon monoxide binds hemoglobin with 200-250x greater affinity than oxygen, forming carboxyhemoglobin (COHb). This reduces oxygen-carrying capacity and shifts the oxyhemoglobin dissociation curve to the left, impairing oxygen delivery to tissues. CO also binds myoglobin (causing cardiac dysfunction), cytochrome oxidase (impairing cellular respiration), and causes direct oxidative injury to the CNS. The globus pallidus is particularly vulnerable due to its high metabolic demand and watershed vascular supply. Delayed neurological sequelae (DNS) can occur 2-40 days after exposure.",
+    "treatment_overview": "Immediately remove from CO source. 100% oxygen via non-rebreather mask (half-life of COHb: 5 hours on room air vs. 90 minutes on 100% O2 vs. 30 minutes with hyperbaric O2). Hyperbaric oxygen therapy (HBO) is indicated for: COHb >25%, loss of consciousness, neurological symptoms, cardiac ischemia (troponin elevation), pregnancy, or severe metabolic acidosis. Supportive care: IV fluids, cardiac monitoring, serial troponins. Monitor for delayed neurological sequelae (cognitive impairment, personality changes, movement disorders) at follow-up. All household members with symptoms should be evaluated.",
+    "high_yield_pearls": [
+      "Standard pulse oximeters CANNOT detect CO poisoning — they read COHb as OxyHb, giving falsely normal SpO2.",
+      "COHb levels must be measured by co-oximetry (ABG or VBG analyzer).",
+      "Multiple family members with headache during winter should prompt CO exposure evaluation.",
+      "Delayed neurological sequelae (DNS) occur in 15-40% of patients and may manifest weeks after exposure.",
+      "Pregnant patients are at higher risk because fetal hemoglobin has even greater CO affinity than adult hemoglobin.",
+      "Globus pallidus and deep white matter are the most vulnerable brain regions in CO poisoning."
+    ],
+    "sources": [
+      "Weaver LK. NEJM 2009;360:1217-1225",
+      "Tintinalli's Emergency Medicine, 9th Edition, Ch. 217",
+      "Rose JJ et al. Am J Respir Crit Care Med 2017;195:596-606"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Carbon monoxide poisoning", "Migraine headache", "Viral gastroenteritis", "Meningitis/Encephalitis", "Hypoglycemia", "Drug intoxication", "Acute coronary syndrome"],
+    "after_stage2_more_likely": ["Carbon monoxide poisoning", "Drug intoxication", "Meningitis"],
+    "after_stage2_less_likely": ["Migraine headache", "Viral gastroenteritis", "Hypoglycemia"],
+    "after_labs_top3": ["Carbon monoxide poisoning", "CO poisoning with myocardial injury", "Toxic encephalopathy"]
+  }
+}

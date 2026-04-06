@@ -1,0 +1,77 @@
+{
+  "case_id": "case_072",
+  "mode": "easy",
+  "specialty": "Cardiology",
+  "diagnosis": "Complete (Third-Degree) Heart Block",
+  "icd_category": "I44.2 — Atrioventricular block, complete",
+  "one_liner": "A 74-year-old female with a history of hypertension and prior inferior MI presents with syncope, fatigue, and a heart rate of 38 bpm.",
+  "stage2": {
+    "hpi_extension": "The patient was brought to the ED after a syncopal episode while walking in her garden. She felt lightheaded and 'woozy' for several seconds before losing consciousness for approximately 10 seconds. Her daughter witnessed no seizure activity. She has had increasing fatigue and exercise intolerance over the past 2 weeks and notes intermittent lightheadedness. She denies chest pain, palpitations, or dyspnea at rest.",
+    "pmh": "Hypertension, inferior STEMI 5 years ago (managed medically), type 2 diabetes mellitus, osteoarthritis",
+    "surgical_history": "Right total knee replacement (3 years ago)",
+    "medications": "Metoprolol tartrate 50 mg BID, lisinopril 10 mg daily, aspirin 81 mg daily, atorvastatin 40 mg daily, metformin 500 mg BID",
+    "allergies": "Codeine (nausea)",
+    "family_history": "Father had pacemaker placed at age 78. Mother had diabetes and died of stroke at 80.",
+    "social_history": "Never smoker. Occasional glass of wine. Retired schoolteacher. Lives with daughter. Independent in ADLs until recent fatigue.",
+    "vitals": {
+      "temp": "36.5°C (97.7°F)",
+      "hr": "38 bpm",
+      "bp": "98/60 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "97% on room air",
+      "weight_bmi": "72 kg, BMI 27.5"
+    },
+    "physical_exam": "General: Elderly female, alert but fatigued-appearing. HEENT: Intermittent cannon A waves in JVP. Cardiovascular: Bradycardic, variable intensity of S1 (soft to loud), regular slow ventricular rhythm, no murmurs. Pulmonary: Clear to auscultation. Abdomen: Soft, non-tender. Extremities: No edema. Neurological: Alert and oriented x3, no focal deficits, no post-ictal features."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial injury"},
+      {"test_name": "Potassium", "result": "4.5 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out hyperkalemia as cause of conduction abnormality"},
+      {"test_name": "Calcium", "result": "9.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "TSH", "result": "3.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out hypothyroidism as cause of bradycardia"},
+      {"test_name": "Creatinine", "result": "1.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
+      {"test_name": "BNP", "result": "210 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect bradycardia-related hemodynamic stress"},
+      {"test_name": "Digoxin level", "result": "Not on digoxin", "flag": "WNL", "clinical_significance": "Digoxin toxicity excluded"},
+      {"test_name": "CBC", "result": "WBC 6.8, Hgb 12.5, Plt 205", "flag": "WNL", "clinical_significance": "Normal"},
+      {"test_name": "Glucose", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, known diabetic"},
+      {"test_name": "Lyme antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Lyme carditis as reversible cause"}
+    ],
+    "imaging_results": [
+      {"test_name": "12-lead ECG", "result": "Complete AV dissociation with atrial rate 82 bpm and ventricular rate 38 bpm. P waves march independently of QRS complexes. Narrow QRS escape rhythm (junctional escape). No relationship between P waves and QRS complexes. Old inferior Q waves in leads II, III, aVF.", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of third-degree (complete) heart block with junctional escape rhythm. Old inferior MI visible."},
+      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 50%, inferior wall akinesis (old infarct), mild mitral regurgitation, no significant valvular disease, no pericardial effusion", "flag": "ABNORMAL", "clinical_significance": "Preserved LV function with old inferior wall infarct scar, likely site of AV nodal damage"},
+      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly, clear lung fields", "flag": "ABNORMAL", "clinical_significance": "Mild cardiomegaly, no acute cardiopulmonary pathology"}
+    ],
+    "key_tests": ["12-lead ECG", "Basic metabolic panel", "Troponin", "TSH", "Transthoracic echocardiogram"],
+    "acceptable_tests": ["CBC", "BNP", "Digoxin level", "Lyme antibody", "Magnesium", "Calcium", "Chest X-ray", "Continuous telemetry"],
+    "low_yield_tests": ["CT head", "EEG", "Cardiac catheterization", "Stress test", "Pulmonary function tests"],
+    "key_tests_rationale": "ECG is diagnostic, showing AV dissociation. BMP identifies electrolyte abnormalities that can cause heart block. Troponin rules out acute MI. TSH screens for hypothyroidism. Echo assesses cardiac structure and function."
+  },
+  "stage5": {
+    "final_clue": "ECG demonstrates complete AV dissociation with P waves bearing no relationship to QRS complexes, atrial rate 82 bpm and ventricular escape at 38 bpm. Cannon A waves in the JVP and variable S1 intensity confirm the diagnosis of third-degree heart block."
+  },
+  "debrief": {
+    "classic_presentation": "Complete heart block presents with syncope (Stokes-Adams attacks), presyncope, fatigue, and exercise intolerance. Exam reveals bradycardia, cannon A waves in JVP (atrial contraction against a closed tricuspid valve), and variable S1 intensity. ECG shows AV dissociation with P waves and QRS complexes at independent rates.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In complete heart block, no atrial impulses are conducted to the ventricles. The atria and ventricles beat independently (AV dissociation). An escape rhythm (junctional at 40-60 bpm or ventricular at 20-40 bpm) maintains cardiac output. Common causes include fibrotic degeneration of the conduction system (Lev/Lenegre disease), prior inferior MI (AV nodal artery territory), medications, and infiltrative diseases.",
+    "treatment_overview": "Acute management: IV atropine (may help if block is at AV nodal level), transcutaneous or transvenous temporary pacing if hemodynamically unstable. Definitive treatment: permanent dual-chamber pacemaker (DDD) is indicated for symptomatic complete heart block regardless of cause. Discontinue AV-nodal blocking agents (beta-blockers, calcium channel blockers, digoxin). Reversible causes (hyperkalemia, Lyme disease, medication) should be treated first.",
+    "high_yield_pearls": [
+      "Cannon A waves (large jugular venous pulsations when atria contract against closed AV valves) and variable S1 intensity are classic exam findings of AV dissociation.",
+      "Complete heart block after inferior MI is usually at the AV node (narrow QRS escape), often transient; after anterior MI it is usually infranodal (wide QRS escape) with worse prognosis.",
+      "Permanent pacemaker (Class I indication) is required for symptomatic complete heart block or any complete heart block with ventricular rate < 40 bpm.",
+      "Atropine may help AV nodal block (narrow QRS escape) but is ineffective for infranodal block (wide QRS escape).",
+      "Always check for reversible causes before permanent pacing: hyperkalemia, hypothyroidism, Lyme disease, digoxin toxicity, post-cardiac surgery."
+    ],
+    "sources": [
+      "2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients with Bradycardia and Cardiac Conduction Delay",
+      "Braunwald's Heart Disease, 12th Edition",
+      "Dubin's Rapid Interpretation of EKGs"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": ["Second-degree AV block (Mobitz II)", "Sick sinus syndrome", "Vasovagal syncope", "Seizure", "Drug-induced bradycardia (beta-blocker)", "Hypothyroidism"],
+    "after_stage2_more_likely": ["Complete heart block", "Drug-induced bradycardia", "Sick sinus syndrome"],
+    "after_stage2_less_likely": ["Vasovagal syncope", "Seizure", "Hypothyroidism"],
+    "after_labs_top3": ["Complete heart block (degenerative/post-MI)", "Drug-exacerbated conduction disease", "Sick sinus syndrome"]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "case_id": "case_234",
+  "mode": "attending",
+  "specialty": "Psychiatry",
+  "diagnosis": "Delusional Disorder, erotomanic type",
+  "icd_category": "F22 — Delusional disorders",
+  "one_liner": "A 42-year-old woman presents with a 6-month fixed belief that a local news anchor is secretly in love with her, despite never having met him.",
+  "stage2": {
+    "hpi_extension": "The patient was brought in by her sister who is concerned about her behavior over the past 6 months. The patient firmly believes that a local TV news anchor is in love with her and is sending her secret messages through his broadcasts. She interprets his eye contact with the camera, specific words he uses, and the color of his ties as coded communications meant exclusively for her. She has written over 200 letters to the station and has attempted to visit his home twice, leading to a restraining order. She denies any actual contact or relationship with this person. Importantly, she continues to function well at her job as a librarian, maintains her hygiene, and has no other unusual beliefs. She denies hallucinations. She has no history of mood episodes, substance use, or prior psychiatric treatment. She becomes irritable when her beliefs are questioned but is otherwise calm and cooperative.",
+    "pmh": "Hypertension, well-controlled. No prior psychiatric diagnoses.",
+    "surgical_history": "Appendectomy at age 18",
+    "medications": "Lisinopril 10 mg daily",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with paranoid personality traits (never formally diagnosed). Mother with hypertension and type 2 diabetes. No family history of schizophrenia or bipolar disorder.",
+    "social_history": "Works as a librarian for 15 years with good performance reviews. Single, never married, lives alone. No children. Denies alcohol, tobacco, or illicit drug use. Limited social circle; sister is her primary support. No history of trauma or abuse.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "76 bpm",
+      "bp": "132/82 mmHg",
+      "rr": "16 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "155 lbs, BMI 25.8 kg/m²"
+    },
+    "physical_exam": "General: Well-groomed woman in no acute distress. HEENT: Normocephalic, atraumatic. Pupils equal and reactive. Oropharynx clear. Neck: No thyromegaly or lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear to auscultation bilaterally. Abdomen: Soft, non-tender, non-distended. Neurological: Cranial nerves II-XII intact, normal motor and sensory exam. Mental Status Exam: Appearance — well-groomed, appropriately dressed. Behavior — cooperative, becomes guarded when delusion is challenged. Speech — normal rate, rhythm, and volume. Mood — 'I'm fine, I don't know why I'm here.' Affect — euthymic, congruent, mildly irritable when beliefs questioned. Thought process — linear and goal-directed. Thought content — encapsulated delusional system involving erotomanic beliefs about a public figure; no SI/HI. Perception — no auditory or visual hallucinations. Cognition — fully oriented, MMSE 29/30. Insight — poor regarding delusional beliefs. Judgment — impaired regarding object of delusion, otherwise intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "CBC with differential", "result": "WBC 6.8, Hgb 13.5, Hct 40.1, Plt 230", "flag": "WNL", "clinical_significance": "Rules out infection or anemia contributing to psychiatric symptoms"},
+      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 141, K 4.0, Cl 103, CO2 25, BUN 12, Cr 0.9, Glucose 95, Ca 9.5, AST 20, ALT 19, Alk Phos 58, Albumin 4.0", "flag": "WNL", "clinical_significance": "Rules out metabolic derangements causing psychiatric symptoms"},
+      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction as cause of behavioral changes"},
+      {"test_name": "Free T4", "result": "1.1 ng/dL", "flag": "WNL", "clinical_significance": "Confirms normal thyroid function"},
+      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychotic disorder"},
+      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis as cause of delusional thinking"},
+      {"test_name": "HIV 1/2 Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out HIV-associated neurocognitive disorder"},
+      {"test_name": "Vitamin B12", "result": "510 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency causing neuropsychiatric symptoms"},
+      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "No evidence of systemic inflammatory process"},
+      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out lupus cerebritis as cause of psychiatric symptoms"}
+    ],
+    "imaging_results": [
+      {"test_name": "MRI Brain with and without contrast", "result": "No mass lesion, infarct, or demyelinating disease. Normal ventricular size. No white matter abnormalities.", "flag": "WNL", "clinical_significance": "Rules out structural brain lesion, tumor, or demyelinating disease as cause of delusional thinking"}
+    ],
+    "key_tests": [
+      "Comprehensive psychiatric interview — revealing encapsulated, non-bizarre erotomanic delusion with preserved functioning",
+      "Urine drug screen — to rule out substance-induced psychotic disorder",
+      "TSH — to rule out thyroid-related psychiatric symptoms",
+      "MRI Brain — to rule out structural lesion in a new-onset psychotic presentation"
+    ],
+    "acceptable_tests": [
+      "CBC and CMP — baseline metabolic workup",
+      "RPR/VDRL — screening for neurosyphilis",
+      "HIV testing",
+      "Vitamin B12 and folate levels",
+      "ANA — to screen for CNS lupus",
+      "ESR/CRP — inflammatory markers"
+    ],
+    "low_yield_tests": [
+      "EEG (no seizure history or fluctuating consciousness)",
+      "Lumbar puncture (no meningeal signs or fever)",
+      "Heavy metal screen (no occupational exposure)",
+      "PET scan (no indication beyond MRI findings)",
+      "Genetic testing for psychosis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient has a single, well-encapsulated, non-bizarre delusion of erotomanic type lasting over 1 month, with preserved psychosocial functioning outside the delusional system. She does not meet criteria for schizophrenia (no hallucinations, disorganized speech, negative symptoms, or functional deterioration). All medical and laboratory workup is unremarkable, ruling out organic causes."
+  },
+  "debrief": {
+    "classic_presentation": "A middle-aged individual (more commonly female for erotomanic type) with a fixed, non-bizarre delusional belief lasting at least 1 month. Functioning is relatively preserved outside the delusional system. The erotomanic subtype involves the delusion that another person, usually of higher status, is in love with the patient. Behavior may include attempts to contact the object of the delusion, surveillance, stalking, or letter writing.",
+    "attending_mode_notes": "The key diagnostic challenge is distinguishing delusional disorder from schizophrenia and brief psychotic disorder. Delusional disorder features encapsulated, non-bizarre delusions without the full schizophrenia syndrome (no prominent hallucinations, disorganized thinking, or negative symptoms). The erotomanic type is classically described in de Clérambault syndrome. Consider the forensic implications — erotomanic delusions carry risk for stalking behavior and violence, and may require coordination with law enforcement. Treatment response to antipsychotics is notoriously poor compared to schizophrenia, with only about 50% showing partial response. Building therapeutic alliance without directly confronting the delusion is critical.",
+    "pathophysiology": "The pathophysiology of delusional disorder is not fully understood. Neuroimaging studies suggest dysfunction in frontal-limbic circuits, particularly the right hemisphere and prefrontal cortex. Dopaminergic hyperactivity, particularly in the mesolimbic pathway, is implicated similar to other psychotic disorders. Some evidence suggests preserved dorsolateral prefrontal function (explaining preserved cognition and functioning) with selective dysfunction in ventromedial prefrontal and limbic circuits involved in belief evaluation. The erotomanic subtype may involve aberrant processing in social cognition networks.",
+    "treatment_overview": "First-line treatment is antipsychotic medication, though response rates are lower than in schizophrenia (approximately 50% partial response). Pimozide has been traditionally used for delusional disorder but carries QTc prolongation risk. Second-generation antipsychotics (risperidone, olanzapine) are preferred. CBT focused on reducing distress and behavioral consequences of delusions can be beneficial. Avoid directly confronting the delusion as this impairs therapeutic alliance. Safety planning is essential given risk of stalking behavior. Family psychoeducation and coordination with legal system may be necessary.",
+    "high_yield_pearls": [
+      "Delusional disorder requires at least 1 month of non-bizarre delusions without meeting full criteria for schizophrenia — functioning is relatively preserved outside the delusional system.",
+      "DSM-5 subtypes include erotomanic, grandiose, jealous, persecutory, somatic, mixed, and unspecified — the persecutory type is most common overall.",
+      "Erotomanic type (de Clérambault syndrome) is more common in women and typically involves a person of higher social status as the object.",
+      "Unlike schizophrenia, delusional disorder has a later onset (mean age 40-49), better baseline functioning, and does not feature prominent hallucinations or negative symptoms.",
+      "Treatment response to antipsychotics is significantly lower (~50%) compared to schizophrenia; pimozide was traditionally preferred but atypical antipsychotics are now first-line.",
+      "Erotomanic delusions carry significant forensic risk — patients may engage in stalking, harassment, or even violence, necessitating risk assessment and sometimes legal intervention."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "Kaplan & Sadock's Comprehensive Textbook of Psychiatry, 10th Edition",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Munro A. Delusional Disorder: Paranoia and Related Illnesses. Cambridge University Press, 1999",
+      "Skelton M, Khokhar WA, Thacker SP. Treatments for delusional disorder. Cochrane Database Syst Rev, 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Delusional disorder (erotomanic type)",
+      "Schizophrenia",
+      "Brief psychotic disorder",
+      "Schizoaffective disorder",
+      "Bipolar I disorder with psychotic features",
+      "Substance-induced psychotic disorder",
+      "Psychotic disorder due to another medical condition",
+      "Obsessive-compulsive disorder (obsessional jealousy variant)"
+    ],
+    "after_stage2_more_likely": [
+      "Delusional disorder (erotomanic type) — well-encapsulated, non-bizarre delusion with preserved functioning, no hallucinations, no disorganized thought",
+      "Schizophrenia — new psychotic symptoms, though lack of other features argues against"
+    ],
+    "after_stage2_less_likely": [
+      "Substance-induced psychotic disorder — denies substance use, well-groomed and functioning",
+      "Bipolar disorder with psychotic features — no mood episode identified",
+      "Brief psychotic disorder — symptoms have persisted well beyond 1 month"
+    ],
+    "after_labs_top3": [
+      "Delusional disorder (erotomanic type) — encapsulated delusion, preserved functioning, normal labs and imaging, no hallucinations or disorganization",
+      "Schizophrenia — possible but functioning is too well-preserved and delusion is encapsulated without other psychotic features",
+      "Late-onset psychotic disorder due to medical condition — ruled out by normal MRI, labs, and metabolic workup"
+    ]
+  }
+}

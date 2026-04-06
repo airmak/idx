@@ -1,0 +1,183 @@
+{
+  "case_id": "case_193",
+  "mode": "attending",
+  "specialty": "Pediatrics",
+  "diagnosis": "Neuroblastoma (adrenal, Stage III)",
+  "icd_category": "C74.90 – Malignant neoplasm of unspecified part of unspecified adrenal gland",
+  "one_liner": "A 2-year-old female with no significant past medical history presents with a palpable abdominal mass, weight loss, periorbital ecchymoses (raccoon eyes), and irritability.",
+  "stage2": {
+    "hpi_extension": "The patient's mother noticed progressive abdominal distension over the past 3-4 weeks. The child has become increasingly irritable and has lost interest in playing. She has lost approximately 1 kg over the past month despite eating normally initially, though her appetite has decreased recently. Two days ago the mother noticed dark circles/bruising around both eyes that developed spontaneously without trauma. The child has had intermittent episodes of watery diarrhea for the past 2 weeks. She appears to be in pain when picked up but cannot localize it. There has been no fever, vomiting, bloody stools, or urinary symptoms. No history of trauma.",
+    "pmh": "Born full-term. Up to date on immunizations. No prior hospitalizations. Developmentally appropriate — walking and using two-word phrases.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "No family history of cancer, neuroblastoma, or genetic syndromes. No consanguinity.",
+    "social_history": "Lives with both parents. Attends daycare. No secondhand smoke exposure. No lead exposure concerns.",
+    "vitals": {
+      "temp": "37.2°C (99.0°F)",
+      "hr": "128 bpm",
+      "bp": "118/76 mmHg (elevated for age — >99th percentile)",
+      "rr": "28 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "11.2 kg (10th percentile, down from 25th percentile 3 months ago)"
+    },
+    "physical_exam": "General: Irritable, pale, thin-appearing child; appears chronically ill; not easily consolable. HEENT: Bilateral periorbital ecchymoses ('raccoon eyes') without proptosis. Pale conjunctivae. No papilledema. PERRL. Neck: No lymphadenopathy. No palpable supraclavicular nodes. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Pulmonary: Clear to auscultation bilaterally. Abdomen: Distended. A large, firm, irregular, non-tender mass is palpable in the left flank/upper abdomen, crossing the midline. The mass does not move with respiration. Hepatomegaly present (liver edge 4 cm below right costal margin). No splenomegaly. Extremities: Pale, no edema. Multiple small, firm, non-tender subcutaneous nodules (blueberry muffin lesions) palpable on the trunk. Skin: Scattered firm blue-purple subcutaneous nodules on trunk. Neurologic: Mildly hypotonic; no focal deficits; opsoclonus-myoclonus (dancing eyes, dancing feet) observed intermittently — rapid, chaotic, multi-directional eye movements with myoclonic jerking of extremities."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "24-hour urine catecholamines",
+        "result": "VMA 48 mg/day (normal <7), HVA 62 mg/day (normal <15), Dopamine 1,200 µg/day (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated urinary VMA and HVA are present in ~90% of neuroblastoma cases; these are catecholamine metabolites produced by the neural crest-derived tumor cells."
+      },
+      {
+        "test_name": "Spot urine VMA:creatinine ratio",
+        "result": "32 µg/mg Cr (normal <18)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated spot urine ratio can be used as a screening alternative to 24-hour collection in young children."
+      },
+      {
+        "test_name": "LDH",
+        "result": "1,842 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated LDH reflects high tumor cell turnover and is an adverse prognostic marker in neuroblastoma."
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "428 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ferritin (>142 ng/mL) is an unfavorable prognostic factor in neuroblastoma staging."
+      },
+      {
+        "test_name": "NSE (neuron-specific enolase)",
+        "result": "186 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated NSE (>100 ng/mL) is associated with advanced-stage neuroblastoma and is a marker of neural crest tumor burden."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.4 × 10³/µL, Hgb 8.2 g/dL, Hct 25%, MCV 76 fL, Platelets 128 × 10³/µL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia and mild thrombocytopenia suggest bone marrow infiltration by metastatic neuroblastoma."
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Normochromic, microcytic anemia. Occasional teardrop cells. Rare nucleated RBCs. No blasts. Mild thrombocytopenia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leukoerythroblastic features (nucleated RBCs, teardrop cells) suggest bone marrow infiltration by metastatic tumor."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 136, K 4.2, Cl 101, CO2 22, BUN 12, Cr 0.3, Glucose 88",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function."
+      },
+      {
+        "test_name": "Liver function tests",
+        "result": "AST 58 U/L, ALT 42 U/L, Alk Phos 210 U/L, Total bilirubin 0.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated transaminases may reflect hepatic metastases given the hepatomegaly."
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "7.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated uric acid reflects high cell turnover; important to monitor for tumor lysis syndrome with initiation of therapy."
+      }
+    ],
+    "imaging_results": [
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "Large heterogeneous left adrenal mass measuring 8 × 6 × 7 cm with stippled calcifications (90% of neuroblastomas calcify on CT). Mass crosses midline and encases the aorta and left renal artery (IDRF positive). Multiple enlarged retroperitoneal lymph nodes. Hepatomegaly with multiple hypodense lesions suggestive of hepatic metastases. No renal invasion. No hydronephrosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Adrenal mass crossing midline with calcifications, vascular encasement, and hepatic metastases is classic for neuroblastoma; midline crossing distinguishes neuroblastoma from Wilms tumor, which rarely crosses midline."
+      },
+      {
+        "test_name": "MIBG scan (I-123 metaiodobenzylguanidine)",
+        "result": "Intense uptake in the left adrenal primary tumor. Multiple foci of abnormal uptake in the axial skeleton (thoracic and lumbar vertebral bodies, bilateral proximal femora) and bilateral orbital regions consistent with skeletal metastases.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MIBG is taken up by catecholamine-producing cells and is the most sensitive and specific imaging modality for neuroblastoma staging; skeletal and orbital metastases confirm advanced-stage disease."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No mediastinal mass. Clear lung fields. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "No thoracic primary or pulmonary metastases."
+      }
+    ],
+    "key_tests": [
+      "24-hour urine catecholamines (VMA, HVA, dopamine)",
+      "CT or MRI abdomen/pelvis with contrast",
+      "MIBG scan",
+      "Bone marrow biopsy (bilateral iliac crest)",
+      "Tumor biopsy with MYCN amplification analysis"
+    ],
+    "acceptable_tests": [
+      "CBC with differential and peripheral smear",
+      "LDH",
+      "Ferritin",
+      "NSE (neuron-specific enolase)",
+      "Liver function tests",
+      "Uric acid",
+      "Chest X-ray",
+      "Bone scan (if MIBG unavailable)"
+    ],
+    "low_yield_tests": [
+      "Abdominal X-ray alone (insufficient for staging)",
+      "AFP (marker for hepatoblastoma and germ cell tumors, not neuroblastoma)",
+      "Serum catecholamines (urine catecholamine metabolites are preferred)",
+      "PET-CT (MIBG is preferred for neuroblastoma)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Bilateral bone marrow biopsies reveal small round blue cell infiltration forming Homer-Wright pseudorosettes on histology. MYCN amplification is detected (>10 copies), indicating high-risk disease. The combination of adrenal mass crossing midline with calcifications, elevated urinary catecholamines, MIBG-avid skeletal metastases, periorbital ecchymoses, and opsoclonus-myoclonus confirms the diagnosis of high-risk neuroblastoma."
+  },
+  "debrief": {
+    "classic_presentation": "Neuroblastoma typically presents in children <5 years (median age 18 months) as an abdominal mass (65% of primary tumors are adrenal/retroperitoneal). The mass often crosses midline, is firm and irregular, and may cause abdominal distension. Constitutional symptoms include weight loss, irritability, and failure to thrive. Classic metastatic findings include periorbital ecchymoses ('raccoon eyes' from orbital metastases), proptosis, bone pain, and subcutaneous nodules ('blueberry muffin' lesions in infants). Paraneoplastic syndromes include opsoclonus-myoclonus syndrome (anti-Hu antibodies) and secretory diarrhea (from VIP secretion).",
+    "attending_mode_notes": "Risk stratification is critical: age (<18 months more favorable), MYCN amplification (worst single prognostic factor — amplified in 25% of cases, associated with rapid progression and poor outcomes), tumor histology (Shimada classification), DNA ploidy (hyperdiploid favorable in infants), and INRG staging (presence of Image-Defined Risk Factors). Stage 4S disease (infants <12 months with localized primary + mets to liver, skin, and/or bone marrow <10%) has remarkably high spontaneous regression rates (90%+ survival). MYCN-amplified tumors have <30% long-term survival despite aggressive therapy.",
+    "pathophysiology": "Neuroblastoma arises from neural crest cells that normally differentiate into the sympathetic nervous system (adrenal medulla, sympathetic ganglia). Failure of normal differentiation and apoptosis leads to malignant transformation. The tumors produce catecholamines (dopamine, norepinephrine) whose metabolites (VMA, HVA) are excreted in urine. The spectrum of neural crest tumors ranges from benign ganglioneuroma (fully differentiated) to ganglioneuroblastoma (intermediate) to neuroblastoma (undifferentiated, most aggressive). MYCN amplification drives aggressive tumor behavior through enhanced proliferation and inhibition of apoptosis. Spontaneous regression or differentiation to ganglioneuroma can occur, particularly in infants with favorable biology.",
+    "treatment_overview": "Treatment is risk-stratified per COG (Children's Oncology Group) protocols: LOW-RISK: observation alone (may spontaneously regress, particularly stage 4S in infants) or surgical resection. INTERMEDIATE-RISK: moderate chemotherapy (carboplatin, cyclophosphamide, etoposide, doxorubicin) with surgery. HIGH-RISK (MYCN amplified, >18 months with metastatic disease): intensive multimodal therapy — induction chemotherapy, surgical resection, high-dose consolidation with autologous stem cell transplant, radiation to primary site, then maintenance therapy with anti-GD2 immunotherapy (dinutuximab) + isotretinoin + GM-CSF + IL-2. Five-year survival: low-risk >95%, intermediate-risk 90-95%, high-risk ~50%.",
+    "high_yield_pearls": [
+      "Neuroblastoma is the MOST COMMON extracranial solid tumor in children and the most common cancer in infants, arising from neural crest cells of the sympathetic nervous system.",
+      "The tumor CROSSES MIDLINE — this distinguishes neuroblastoma from Wilms tumor, which typically does NOT cross midline, arises from the kidney, and displaces rather than encases vessels.",
+      "Elevated urinary VMA and HVA (catecholamine metabolites) are found in ~90% of neuroblastoma cases and are both diagnostic and useful for monitoring treatment response and recurrence.",
+      "MYCN amplification is the SINGLE WORST prognostic factor — it is present in ~25% of cases and is associated with rapid progression, resistance to therapy, and <30% long-term survival despite aggressive treatment.",
+      "Stage 4S neuroblastoma (infants <12 months with localized primary and limited metastases to liver, skin, and/or bone marrow) is unique because it has a >90% survival rate with spontaneous regression being the expected natural history — observation alone is often the treatment.",
+      "Opsoclonus-myoclonus syndrome ('dancing eyes, dancing feet') is a paraneoplastic phenomenon seen in 2-3% of neuroblastoma patients; paradoxically, its presence is associated with a BETTER tumor prognosis but may cause long-term neurologic sequelae."
+    ],
+    "sources": [
+      "COG (Children's Oncology Group): Neuroblastoma Treatment Protocols",
+      "INRG (International Neuroblastoma Risk Group) Classification System",
+      "UpToDate: Clinical presentation, diagnosis, and staging evaluation of neuroblastoma",
+      "UpToDate: Treatment and prognosis of neuroblastoma",
+      "Pizzo & Poplack: Principles and Practice of Pediatric Oncology, 8th Edition"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Neuroblastoma",
+      "Wilms tumor (nephroblastoma)",
+      "Hepatoblastoma",
+      "Lymphoma (abdominal)",
+      "Rhabdomyosarcoma",
+      "Germ cell tumor",
+      "Adrenal hemorrhage",
+      "Pheochromocytoma"
+    ],
+    "after_stage2_more_likely": [
+      "Neuroblastoma (adrenal mass crossing midline, periorbital ecchymoses, subcutaneous nodules, opsoclonus-myoclonus, hypertension from catecholamines, age <2 years)",
+      "Wilms tumor (abdominal mass in young child — but typically does not cross midline or cause raccoon eyes)"
+    ],
+    "after_stage2_less_likely": [
+      "Hepatoblastoma (mass is left-sided/adrenal, not liver-origin; AFP would be elevated)",
+      "Pheochromocytoma (extremely rare in this age group, would not present with mass crossing midline and metastatic features)",
+      "Adrenal hemorrhage (would not have chronic features, mass crossing midline, or metastatic findings)"
+    ],
+    "after_labs_top3": [
+      "Neuroblastoma (elevated VMA/HVA, MIBG-avid, calcified adrenal mass crossing midline)",
+      "Ganglioneuroblastoma (intermediate-grade neural crest tumor)",
+      "Wilms tumor with atypical features"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "case_id": "case_230",
+  "mode": "easy",
+  "specialty": "Psychiatry",
+  "diagnosis": "Attention-Deficit/Hyperactivity Disorder, combined presentation, adult",
+  "icd_category": "F90.2 — Attention-deficit hyperactivity disorder, combined type",
+  "one_liner": "A 30-year-old man with a childhood history of behavioral problems presents with lifelong difficulty concentrating, impulsivity, restlessness, and chronic underachievement at work despite high intelligence.",
+  "stage2": {
+    "hpi_extension": "The patient self-referred after reading about ADHD online and recognizing himself in the descriptions. He reports lifelong difficulties with attention and focus that he has compensated for with effort but can no longer manage since his recent promotion to a managerial role. He describes being unable to sustain attention during meetings, frequently losing his train of thought mid-sentence, chronic disorganization (desk is 'a disaster,' loses keys and phone daily), difficulty completing tasks (starts multiple projects, finishes none), and procrastination. He is frequently late to appointments and underestimates how long tasks will take. He feels physically restless, often fidgeting or tapping his feet, and describes an internal sense of restlessness ('my mind is always racing'). He acts impulsively — interrupts others in conversation, makes impulsive purchases, and blurts out comments at work meetings. He reports that in school he was considered 'smart but lazy' — he was placed in gifted classes but nearly failed due to missing homework. He barely graduated college. His mother confirms he was 'always on the go, couldn't sit still' as a child and had behavioral reports from teachers starting in first grade. He was never formally evaluated. Adult ADHD Self-Report Scale (ASRS) Part A: 5/6 items positive (highly consistent with ADHD).",
+    "pmh": "No significant medical history. No prior psychiatric diagnoses. No history of head injury.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "No known drug allergies",
+    "family_history": "Father described as 'hyper and disorganized' (likely undiagnosed ADHD). Brother diagnosed with ADHD at age 8 and treated with methylphenidate. Mother with anxiety disorder. No family history of bipolar disorder, psychosis, or substance use disorder.",
+    "social_history": "Works as a project manager (recently promoted, struggling with increased organizational demands). Married with one child (age 2). Drinks 1-2 beers on weekends. Denies tobacco or illicit drug use. Drinks 3 cups of coffee daily ('to help me focus'). College-educated (graduated with difficulty despite high SAT scores). Reports chronic relationship strain due to forgetfulness and poor follow-through on household responsibilities. Has received multiple traffic tickets for speeding. No legal history otherwise.",
+    "vitals": {
+      "temp": "98.6°F (37.0°C)",
+      "hr": "76 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "182 lbs, BMI 25.3 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing man, fidgeting in chair, tapping foot, occasionally checking phone. HEENT: Normocephalic, atraumatic. No thyromegaly. Cardiovascular: Regular rate and rhythm, no murmurs. Lungs: Clear bilaterally. Abdomen: Soft, non-tender. Neurological: Cranial nerves II-XII intact. Normal motor, sensory, reflexes. No tics. Mental Status Exam: Appearance — casually dressed, slightly disheveled. Behavior — cooperative, restless, frequently shifting position, tapping desk. Speech — normal to slightly rapid rate, occasionally interrupts examiner, goes on tangents. Mood — 'frustrated.' Affect — full range, appropriate. Thought process — tangential at times, loses train of thought, jumps between topics but can be redirected. Thought content — no SI/HI, no delusions, frustration about underperformance. Perception — no hallucinations. Cognition — oriented x4, impaired sustained attention (difficulty completing digit span forward >5), poor working memory on testing. Insight — good (recognizes pattern of difficulties). Judgment — fair (some impulsive decision-making)."
+  },
+  "stage3": {
+    "lab_results": [
+      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction which can cause attention and concentration difficulties"},
+      {"test_name": "CBC", "result": "WBC 6.8, Hgb 15.0, Hct 44.5, Plt 245", "flag": "WNL", "clinical_significance": "No anemia contributing to fatigue or poor concentration"},
+      {"test_name": "CMP", "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 15, Cr 1.0, Glucose 95, Ca 9.5, AST 22, ALT 20", "flag": "WNL", "clinical_significance": "Normal metabolic panel; rules out metabolic causes of cognitive complaints"},
+      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant or substance use as cause of symptoms or drug-seeking behavior"},
+      {"test_name": "Vitamin B12", "result": "520 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency contributing to cognitive symptoms"},
+      {"test_name": "Iron studies", "result": "Ferritin 85 ng/mL, Iron 90 mcg/dL, TIBC 320 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out iron deficiency which has been associated with ADHD symptoms and restless legs"},
+      {"test_name": "Lead level", "result": "< 3.5 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out lead toxicity as contributor to attention difficulties (particularly relevant for childhood onset)"},
+      {"test_name": "ECG", "result": "Normal sinus rhythm at 76 bpm. QTc 400 ms. No structural abnormalities.", "flag": "WNL", "clinical_significance": "Baseline cardiac assessment before potential stimulant medication initiation"}
+    ],
+    "imaging_results": [
+      {"test_name": "ECG (12-lead)", "result": "Normal sinus rhythm. Normal intervals and axis. No structural abnormality suggested.", "flag": "WNL", "clinical_significance": "Baseline ECG recommended before stimulant initiation, particularly if cardiac history or family history of sudden death"}
+    ],
+    "key_tests": [
+      "Adult ADHD Self-Report Scale (ASRS v1.1) — Part A 5/6 positive (highly suggestive of ADHD)",
+      "Conners Adult ADHD Rating Scale (CAARS) — comprehensive symptom assessment",
+      "Collateral history from mother — confirms childhood onset of symptoms before age 12",
+      "Urine drug screen — to rule out substance use and establish baseline before stimulant treatment",
+      "TSH — to rule out thyroid dysfunction mimicking ADHD"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CMP",
+      "Vitamin B12",
+      "Iron studies (ferritin)",
+      "Lead level",
+      "ECG (baseline before stimulants)",
+      "Neuropsychological testing (formal attention and executive function assessment)",
+      "PHQ-9 (screen for comorbid depression)"
+    ],
+    "low_yield_tests": [
+      "Brain MRI (no focal neurological deficits or seizures)",
+      "EEG (no seizure history)",
+      "Sleep study (restlessness is present during waking hours, not primarily a sleep issue)",
+      "Cortisol level (no features of adrenal disorder)",
+      "Heavy metal panel beyond lead (no exposure history)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient meets DSM-5 criteria for ADHD, combined presentation: ≥5 inattention symptoms (difficulty sustaining attention, does not follow through on tasks, difficulty organizing, loses things, easily distracted, forgetful) AND ≥5 hyperactivity-impulsivity symptoms (fidgets, restless, talks excessively, interrupts, difficulty waiting turn, acts impulsively). Symptoms were present before age 12 (confirmed by collateral from mother and school reports). Symptoms are present in multiple settings (work, home, social). Medical workup rules out thyroid disease, anemia, substance use, and metabolic causes. ASRS screening is strongly positive."
+  },
+  "debrief": {
+    "classic_presentation": "An adult with a childhood history of inattention, hyperactivity, and impulsivity presenting with persistent functional impairment in academic/occupational performance, organization, time management, and interpersonal relationships. Adults often present with 'internal restlessness' rather than overt hyperactivity. Common complaints include chronic underachievement, difficulty with executive functioning, impulsive decision-making, and emotional dysregulation.",
+    "attending_mode_notes": null,
+    "pathophysiology": "ADHD involves dysregulation of catecholamine (dopamine and norepinephrine) neurotransmission in the prefrontal cortex, which mediates attention, executive function, and impulse control. Neuroimaging shows reduced prefrontal cortical volume and activity, smaller caudate nucleus, and delayed cortical maturation. Dopamine transporter (DAT) overactivity leads to excessive dopamine reuptake in the synaptic cleft, reducing effective dopaminergic signaling. Heritability is approximately 75% — the most heritable psychiatric disorder. Candidate genes include DAT1, DRD4, DRD5, and SNAP-25. Environmental risk factors include prematurity, low birth weight, prenatal tobacco/alcohol exposure, and lead exposure.",
+    "treatment_overview": "Stimulant medications are first-line: methylphenidate (Ritalin, Concerta) or amphetamine-based (Adderall, Vyvanse). Start low and titrate based on response and side effects. Extended-release formulations are preferred for consistent coverage and lower abuse potential. Non-stimulant options: atomoxetine (NRI), guanfacine XR, clonidine XR, bupropion (off-label). CBT for adult ADHD focuses on organizational skills, time management, and cognitive restructuring. Environmental modifications: use of planners, alarms, breaking tasks into smaller steps. Monitor blood pressure, heart rate, weight, and appetite on stimulants. Screen for comorbidities: anxiety (50%), depression (30%), substance use disorders.",
+    "high_yield_pearls": [
+      "DSM-5 requires ≥5 inattention and/or ≥5 hyperactivity-impulsivity symptoms for adults (≥6 for children), present before age 12, in ≥2 settings, with functional impairment, and not better explained by another disorder.",
+      "Collateral information (parents, teachers, spouse) is essential for diagnosis — childhood onset before age 12 must be documented.",
+      "ADHD persists into adulthood in approximately 60% of cases, though hyperactivity often diminishes while inattention persists.",
+      "Stimulant medications have a 70-80% response rate — the highest efficacy of any psychiatric medication for any disorder.",
+      "Always screen for substance use before prescribing stimulants and use prescription drug monitoring programs (PDMP). Extended-release formulations have lower abuse potential.",
+      "Common ADHD comorbidities: anxiety disorders (50%), major depression (30%), substance use disorders (15-25%), learning disabilities (20-30%)."
+    ],
+    "sources": [
+      "DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, Text Revision (2022)",
+      "APA Practice Guidelines for ADHD",
+      "Stahl's Essential Psychopharmacology, 5th Edition",
+      "Kooij JJS et al. — Updated European Consensus Statement on ADHD in Adults. Eur Psychiatry 2019",
+      "Faraone SV et al. — Attention-deficit/hyperactivity disorder. Nat Rev Dis Primers 2015"
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "ADHD (combined type)",
+      "Generalized anxiety disorder",
+      "Major depressive disorder",
+      "Bipolar II disorder",
+      "Substance use disorder",
+      "Thyroid dysfunction",
+      "Sleep disorder (obstructive sleep apnea)",
+      "Specific learning disorder"
+    ],
+    "after_stage2_more_likely": [
+      "ADHD combined type — lifelong pattern of inattention and hyperactivity-impulsivity beginning in childhood, confirmed by collateral history, classic presentation across multiple domains",
+      "ADHD predominantly inattentive — though hyperactive-impulsive symptoms are also prominent"
+    ],
+    "after_stage2_less_likely": [
+      "Bipolar disorder — no mood episodes, chronic/stable pattern rather than episodic",
+      "Substance use disorder — minimal alcohol use, denies stimulant use",
+      "Major depression — full affect range, no depressed mood or anhedonia"
+    ],
+    "after_labs_top3": [
+      "ADHD combined type — normal TSH, negative drug screen, normal metabolic panel; ASRS positive with childhood-onset symptoms confirmed by collateral",
+      "Generalized anxiety disorder (possible comorbid) — some restlessness and difficulty concentrating overlap, but lifelong hyperactivity-impulsivity pattern distinguishes ADHD",
+      "Specific learning disorder (possible comorbid) — discrepancy between intelligence and academic achievement warrants consideration of formal neuropsychological testing"
+    ]
+  }
+}
