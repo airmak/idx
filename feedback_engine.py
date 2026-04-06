@@ -127,8 +127,8 @@ def get_stage3_feedback_rulebased(case_data: dict, ordered_tests: list) -> dict:
             verdict = "incorrect"
             explanation = "Low-yield for this clinical picture — unlikely to change the diagnosis or management here."
         else:
-            verdict = "reasonable"
-            explanation = "This test may provide useful context, though it is not a top priority for this presentation."
+            verdict = "incorrect"
+            explanation = "Not indicated for this clinical presentation — unlikely to change the diagnosis or management."
         items.append({"name": test, "verdict": verdict, "explanation": explanation})
 
     missed_key = [t for t in key_tests if not any(

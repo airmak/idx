@@ -2766,7 +2766,13 @@ function showStage6(data) {
     html += `<div class="debrief-section">
       <div class="debrief-label">8. Sources</div>
       <ul class="source-list">
-        ${sources.map(s => `<li>${esc(s)}</li>`).join('')}
+        ${sources.map(s => {
+          const parts = s.split(' — ');
+          if (parts.length === 2 && parts[1].startsWith('http')) {
+            return `<li>${esc(parts[0])} — <a href="${esc(parts[1])}" target="_blank" rel="noopener" style="color:var(--teal)">${esc(parts[1])}</a></li>`;
+          }
+          return `<li>${esc(s)}</li>`;
+        }).join('')}
       </ul>
     </div>`;
   }
