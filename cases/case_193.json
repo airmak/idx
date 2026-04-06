@@ -11,7 +11,7 @@
     "surgical_history": "None",
     "medications": "None",
     "allergies": "No known drug allergies",
-    "family_history": "No family history of cancer, neuroblastoma, or genetic syndromes. No consanguinity.",
+    "family_history": "No family history of cancer, this condition, or genetic syndromes. No consanguinity.",
     "social_history": "Lives with both parents. Attends daycare. No secondhand smoke exposure. No lead exposure concerns.",
     "vitals": {
       "temp": "37.2°C (99.0°F)",
@@ -89,13 +89,13 @@
     "imaging_results": [
       {
         "test_name": "CT abdomen/pelvis with contrast",
-        "result": "Large heterogeneous left adrenal mass measuring 8 × 6 × 7 cm with stippled calcifications (90% of this conditions calcify on CT). Mass crosses midline and encases the aorta and left renal artery (IDRF positive). Multiple enlarged retroperitoneal lymph nodes. Hepatomegaly with multiple hypodense lesions suggestive of hepatic metastases. No renal invasion. No hydronephrosis.",
+        "result": "Large heterogeneous left this condition mass measuring 8 × 6 × 7 cm with stippled calcifications (90% of this conditions calcify on CT). Mass crosses midline and encases the aorta and left renal artery (IDRF positive). Multiple enlarged retroperitoneal lymph nodes. Hepatomegaly with multiple hypodense lesions suggestive of hepatic metastases. No renal invasion. No hydronephrosis.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Adrenal mass crossing midline with calcifications, vascular encasement, and hepatic metastases is classic for this condition; midline crossing distinguishes this condition from Wilms tumor, which rarely crosses midline."
+        "clinical_significance": "this condition mass crossing midline with calcifications, vascular encasement, and hepatic metastases is classic for this condition; midline crossing distinguishes this condition from Wilms tumor, which rarely crosses midline."
       },
       {
         "test_name": "MIBG scan (I-123 metaiodobenzylguanidine)",
-        "result": "Intense uptake in the left adrenal primary tumor. Multiple foci of abnormal uptake in the axial skeleton (thoracic and lumbar vertebral bodies, bilateral proximal femora) and bilateral orbital regions consistent with skeletal metastases.",
+        "result": "Intense uptake in the left this condition primary tumor. Multiple foci of abnormal uptake in the axial skeleton (thoracic and lumbar vertebral bodies, bilateral proximal femora) and bilateral orbital regions consistent with skeletal metastases.",
         "flag": "ABNORMAL",
         "clinical_significance": "MIBG is taken up by catecholamine-producing cells and is the most sensitive and specific imaging modality for this condition staging; skeletal and orbital metastases confirm advanced-stage disease."
       },
@@ -131,7 +131,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Bilateral bone marrow biopsies reveal small round blue cell infiltration forming Homer-Wright pseudorosettes on histology. MYCN amplification is detected (>10 copies), indicating high-risk disease. The combination of adrenal mass crossing midline with calcifications, elevated urinary catecholamines, MIBG-avid skeletal metastases, periorbital ecchymoses, and opsoclonus-myoclonus confirms the diagnosis of high-risk this condition."
+    "final_clue": "Bilateral bone marrow biopsies reveal small round blue cell infiltration forming Homer-Wright pseudorosettes on histology. MYCN amplification is detected (>10 copies), indicating high-risk disease. The combination of this condition mass crossing midline with calcifications, elevated urinary catecholamines, MIBG-avid skeletal metastases, periorbital ecchymoses, and opsoclonus-myoclonus confirms the diagnosis of high-risk this condition."
   },
   "debrief": {
     "classic_presentation": "Neuroblastoma typically presents in children <5 years (median age 18 months) as an abdominal mass (65% of primary tumors are adrenal/retroperitoneal). The mass often crosses midline, is firm and irregular, and may cause abdominal distension. Constitutional symptoms include weight loss, irritability, and failure to thrive. Classic metastatic findings include periorbital ecchymoses ('raccoon eyes' from orbital metastases), proptosis, bone pain, and subcutaneous nodules ('blueberry muffin' lesions in infants). Paraneoplastic syndromes include opsoclonus-myoclonus syndrome (anti-Hu antibodies) and secretory diarrhea (from VIP secretion).",

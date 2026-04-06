@@ -25,26 +25,117 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "ALT", "result": "2,450 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated (>10x ULN), classic for acute viral hepatitis"},
-      {"test_name": "AST", "result": "1,980 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, ALT > AST pattern typical of viral hepatitis"},
-      {"test_name": "Total bilirubin", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, causing clinical jaundice"},
-      {"test_name": "Direct bilirubin", "result": "6.2 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated hyperbilirubinemia from hepatocyte injury"},
-      {"test_name": "Alkaline phosphatase", "result": "185 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; hepatocellular pattern (ALT/AST >> ALP)"},
-      {"test_name": "HBsAg", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirms active hepatitis B infection"},
-      {"test_name": "Anti-HBc IgM", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "IgM anti-core antibody confirms ACUTE infection (not chronic or past)"},
-      {"test_name": "HBeAg", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates high viral replication and infectivity"},
-      {"test_name": "HBV DNA viral load", "result": "85,000,000 IU/mL", "flag": "HIGH", "clinical_significance": "Very high viral load, active replication"},
-      {"test_name": "Anti-HBs", "result": "Negative", "flag": "WNL", "clinical_significance": "No immunity yet (expected in acute phase)"},
-      {"test_name": "INR", "result": "1.3", "flag": "HIGH", "clinical_significance": "Mildly elevated, mild synthetic dysfunction — monitor for acute liver failure"},
-      {"test_name": "Albumin", "result": "3.5 g/dL", "flag": "LOW", "clinical_significance": "Mildly low, reflects acute hepatic inflammation"}
+      {
+        "test_name": "ALT",
+        "result": "2,450 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (>10x ULN), classic for this condition hepatitis"
+      },
+      {
+        "test_name": "AST",
+        "result": "1,980 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, ALT > AST pattern typical of viral hepatitis"
+      },
+      {
+        "test_name": "Total bilirubin",
+        "result": "8.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated, causing clinical jaundice"
+      },
+      {
+        "test_name": "Direct bilirubin",
+        "result": "6.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Predominantly conjugated hyperbilirubinemia from hepatocyte injury"
+      },
+      {
+        "test_name": "Alkaline phosphatase",
+        "result": "185 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; hepatocellular pattern (ALT/AST >> ALP)"
+      },
+      {
+        "test_name": "HBsAg",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms active hepatitis B infection"
+      },
+      {
+        "test_name": "Anti-HBc IgM",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "IgM anti-core antibody confirms ACUTE infection (not chronic or past)"
+      },
+      {
+        "test_name": "HBeAg",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Indicates high viral replication and infectivity"
+      },
+      {
+        "test_name": "HBV DNA viral load",
+        "result": "85,000,000 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Very high viral load, active replication"
+      },
+      {
+        "test_name": "Anti-HBs",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No immunity yet (expected in acute phase)"
+      },
+      {
+        "test_name": "INR",
+        "result": "1.3",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, mild synthetic dysfunction — monitor for acute liver failure"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.5 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mildly low, reflects acute hepatic inflammation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Right upper quadrant ultrasound", "result": "Enlarged liver (18 cm span) with diffusely increased echogenicity consistent with acute hepatitis. No focal lesions. No biliary dilation. Normal gallbladder. Patent portal vein. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hepatomegaly with diffuse parenchymal changes consistent with acute hepatitis; no biliary obstruction"},
-      {"test_name": "Chest X-ray", "result": "Normal", "flag": "WNL", "clinical_significance": "No pulmonary pathology"}
+      {
+        "test_name": "Right upper quadrant ultrasound",
+        "result": "Enlarged liver (18 cm span) with diffusely increased echogenicity consistent with acute hepatitis. No focal lesions. No biliary dilation. Normal gallbladder. Patent portal vein. No ascites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatomegaly with diffuse parenchymal changes consistent with acute hepatitis; no biliary obstruction"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Normal",
+        "flag": "WNL",
+        "clinical_significance": "No pulmonary pathology"
+      }
     ],
-    "key_tests": ["Hepatitis B serological panel (HBsAg, anti-HBc IgM, HBeAg, anti-HBs)", "ALT/AST", "Total and direct bilirubin", "INR", "HBV DNA viral load"],
-    "acceptable_tests": ["CBC", "Albumin", "RUQ ultrasound", "Hepatitis A IgM", "Hepatitis C antibody", "HIV test", "Hepatitis D antibody", "BMP"],
-    "low_yield_tests": ["CT abdomen", "MRCP", "Liver biopsy (not needed in acute setting)", "ERCP", "ANA/SMA (unless autoimmune hepatitis suspected)"],
+    "key_tests": [
+      "Hepatitis B serological panel (HBsAg, anti-HBc IgM, HBeAg, anti-HBs)",
+      "ALT/AST",
+      "Total and direct bilirubin",
+      "INR",
+      "HBV DNA viral load"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Albumin",
+      "RUQ ultrasound",
+      "Hepatitis A IgM",
+      "Hepatitis C antibody",
+      "HIV test",
+      "Hepatitis D antibody",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "CT abdomen",
+      "MRCP",
+      "Liver biopsy (not needed in acute setting)",
+      "ERCP",
+      "ANA/SMA (unless autoimmune hepatitis suspected)"
+    ],
     "key_tests_rationale": "HBsAg confirms hepatitis B. Anti-HBc IgM distinguishes acute from chronic infection. HBeAg and HBV DNA assess viral replication. ALT/AST quantify liver injury. INR monitors synthetic function and risk of progression to liver failure."
   },
   "stage5": {
@@ -69,9 +160,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute hepatitis A", "Acute hepatitis C", "Drug-induced liver injury", "Autoimmune hepatitis", "Alcoholic hepatitis", "Biliary obstruction (choledocholithiasis)"],
-    "after_stage2_more_likely": ["Acute viral hepatitis (B, A, or C)", "Drug-induced liver injury", "Autoimmune hepatitis"],
-    "after_stage2_less_likely": ["Biliary obstruction", "Alcoholic hepatitis", "Wilson disease"],
-    "after_labs_top3": ["Acute hepatitis B", "Acute hepatitis A", "Autoimmune hepatitis"]
+    "reasonable_ddx": [
+      "Acute hepatitis A",
+      "Acute hepatitis C",
+      "Drug-induced liver injury",
+      "Autoimmune hepatitis",
+      "Alcoholic hepatitis",
+      "Biliary obstruction (choledocholithiasis)"
+    ],
+    "after_stage2_more_likely": [
+      "Acute viral hepatitis (B, A, or C)",
+      "Drug-induced liver injury",
+      "Autoimmune hepatitis"
+    ],
+    "after_stage2_less_likely": [
+      "Biliary obstruction",
+      "Alcoholic hepatitis",
+      "Wilson disease"
+    ],
+    "after_labs_top3": [
+      "Acute hepatitis B",
+      "Acute hepatitis A",
+      "Autoimmune hepatitis"
+    ]
   }
 }

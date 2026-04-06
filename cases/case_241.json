@@ -11,7 +11,7 @@
     "surgical_history": "Inguinal hernia repair 10 years ago",
     "medications": "Lisinopril 20 mg daily",
     "allergies": "NKDA",
-    "family_history": "Mother with type 2 diabetes (diagnosed at age 50), father with type 2 diabetes and coronary artery disease, sister with gestational diabetes.",
+    "family_history": "Mother with this condition diabetes (diagnosed at age 50), father with this condition diabetes and coronary artery disease, sister with gestational diabetes.",
     "social_history": "Non-smoker. Drinks 2-3 beers on weekends. Works as a truck driver (mostly sedentary). Diet consists of fast food and sugary beverages (3-4 sodas daily). No regular exercise. Married, two children.",
     "vitals": {
       "temp": "37.0°C (98.6°F)",
@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Fasting glucose", "result": "268 mg/dL", "flag": "HIGH", "clinical_significance": "Fasting glucose ≥126 mg/dL on two occasions or with symptoms is diagnostic of diabetes"},
-      {"test_name": "HbA1c", "result": "10.2%", "flag": "HIGH", "clinical_significance": "HbA1c ≥6.5% is diagnostic; 10.2% indicates poorly controlled hyperglycemia over the past 2-3 months and warrants consideration of insulin or dual therapy"},
-      {"test_name": "Random glucose", "result": "345 mg/dL", "flag": "HIGH", "clinical_significance": "Random glucose ≥200 mg/dL with classic symptoms (polyuria, polydipsia, weight loss) is diagnostic of diabetes"},
-      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 248 mg/dL, LDL 158 mg/dL, HDL 34 mg/dL, Triglycerides 285 mg/dL", "flag": "HIGH", "clinical_significance": "Dyslipidemia pattern typical of type 2 diabetes — high triglycerides, low HDL, elevated LDL"},
-      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function at diagnosis; important baseline for metformin use and monitoring"},
-      {"test_name": "eGFR", "result": "92 mL/min/1.73m²", "flag": "WNL", "clinical_significance": "Normal eGFR; safe to initiate metformin"},
-      {"test_name": "Urine albumin-to-creatinine ratio", "result": "45 mg/g", "flag": "HIGH", "clinical_significance": "Moderately increased albuminuria (A2, 30-300 mg/g); suggests early diabetic nephropathy even at initial diagnosis"},
-      {"test_name": "Urinalysis", "result": "Glucose 3+, ketones trace, no protein by dipstick, no WBCs, no bacteria", "flag": "ABNORMAL", "clinical_significance": "Glucosuria from glucose exceeding renal threshold (~180 mg/dL); trace ketones suggest some fat mobilization but not DKA"},
-      {"test_name": "CBC", "result": "WBC 7,500/μL, Hgb 14.8 g/dL, Plt 235,000/μL", "flag": "WNL", "clinical_significance": "Normal complete blood count"},
-      {"test_name": "Hepatic function panel", "result": "AST 38 U/L, ALT 52 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated ALT suggesting non-alcoholic fatty liver disease, common in metabolic syndrome"},
-      {"test_name": "Basic metabolic panel", "result": "Na 137, K 4.5, Cl 100, CO2 24, Ca 9.4", "flag": "WNL", "clinical_significance": "Normal bicarbonate rules out significant metabolic acidosis/DKA"}
+      {
+        "test_name": "Fasting glucose",
+        "result": "268 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Fasting glucose ≥126 mg/dL on two occasions or with symptoms is diagnostic of diabetes"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "10.2%",
+        "flag": "HIGH",
+        "clinical_significance": "HbA1c ≥6.5% is diagnostic; 10.2% indicates poorly controlled hyperglycemia over the past 2-3 months and warrants consideration of insulin or dual therapy"
+      },
+      {
+        "test_name": "Random glucose",
+        "result": "345 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Random glucose ≥200 mg/dL with classic symptoms (polyuria, polydipsia, weight loss) is diagnostic of diabetes"
+      },
+      {
+        "test_name": "Fasting lipid panel",
+        "result": "Total cholesterol 248 mg/dL, LDL 158 mg/dL, HDL 34 mg/dL, Triglycerides 285 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Dyslipidemia pattern typical of this condition diabetes — high triglycerides, low HDL, elevated LDL"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function at diagnosis; important baseline for metformin use and monitoring"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "92 mL/min/1.73m²",
+        "flag": "WNL",
+        "clinical_significance": "Normal eGFR; safe to initiate metformin"
+      },
+      {
+        "test_name": "Urine albumin-to-creatinine ratio",
+        "result": "45 mg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Moderately increased albuminuria (A2, 30-300 mg/g); suggests early diabetic nephropathy even at initial diagnosis"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Glucose 3+, ketones trace, no protein by dipstick, no WBCs, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Glucosuria from glucose exceeding renal threshold (~180 mg/dL); trace ketones suggest some fat mobilization but not DKA"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7,500/μL, Hgb 14.8 g/dL, Plt 235,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complete blood count"
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 38 U/L, ALT 52 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ALT suggesting non-alcoholic fatty liver disease, common in metabolic syndrome"
+      },
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 137, K 4.5, Cl 100, CO2 24, Ca 9.4",
+        "flag": "WNL",
+        "clinical_significance": "Normal bicarbonate rules out significant metabolic acidosis/DKA"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Diabetic retinal screening", "result": "No diabetic retinopathy, no macular edema, no hemorrhages. Mild arteriolar narrowing consistent with hypertension.", "flag": "WNL", "clinical_significance": "Baseline eye exam is recommended at diagnosis of type 2 diabetes; no retinopathy currently but annual screening required"}
+      {
+        "test_name": "Diabetic retinal screening",
+        "result": "No diabetic retinopathy, no macular edema, no hemorrhages. Mild arteriolar narrowing consistent with hypertension.",
+        "flag": "WNL",
+        "clinical_significance": "Baseline eye exam is recommended at diagnosis of this condition diabetes; no retinopathy currently but annual screening required"
+      }
     ],
-    "key_tests": ["Fasting glucose", "HbA1c", "Basic metabolic panel", "Urine albumin-to-creatinine ratio", "Fasting lipid panel"],
-    "acceptable_tests": ["Urinalysis", "Hepatic function panel", "CBC", "TSH", "Diabetic retinal exam", "ECG", "Foot exam with monofilament testing"],
-    "low_yield_tests": ["C-peptide (not needed for typical T2DM presentation)", "Islet cell antibodies (no concern for T1DM)", "Serum insulin level", "Oral glucose tolerance test (diagnosis already established)", "CT abdomen"]
+    "key_tests": [
+      "Fasting glucose",
+      "HbA1c",
+      "Basic metabolic panel",
+      "Urine albumin-to-creatinine ratio",
+      "Fasting lipid panel"
+    ],
+    "acceptable_tests": [
+      "Urinalysis",
+      "Hepatic function panel",
+      "CBC",
+      "TSH",
+      "Diabetic retinal exam",
+      "ECG",
+      "Foot exam with monofilament testing"
+    ],
+    "low_yield_tests": [
+      "C-peptide (not needed for typical T2DM presentation)",
+      "Islet cell antibodies (no concern for T1DM)",
+      "Serum insulin level",
+      "Oral glucose tolerance test (diagnosis already established)",
+      "CT abdomen"
+    ]
   },
   "stage5": {
     "final_clue": "Repeat fasting glucose on a second day returns at 254 mg/dL, confirming the diagnosis. Given the HbA1c of 10.2% with symptomatic hyperglycemia, dual therapy with metformin plus an SGLT2 inhibitor (or early insulin) is recommended per ADA guidelines, rather than metformin monotherapy."
@@ -58,12 +138,32 @@
       "SGLT2 inhibitors and GLP-1 receptor agonists have proven cardiovascular and renal benefits beyond glucose lowering — prioritize these in patients with ASCVD, HF, or CKD",
       "At diagnosis of type 2 diabetes, up to 20% of patients already have microvascular complications — emphasizing the importance of screening for retinopathy, nephropathy, and neuropathy from the start"
     ],
-    "sources": ["UpToDate: Clinical presentation, diagnosis, and initial evaluation of diabetes mellitus in adults", "ADA Standards of Care in Diabetes 2025"]
+    "sources": [
+      "UpToDate: Clinical presentation, diagnosis, and initial evaluation of diabetes mellitus in adults",
+      "ADA Standards of Care in Diabetes 2025"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Type 2 diabetes mellitus", "Type 1 diabetes mellitus (late-onset LADA)", "Prediabetes", "Diabetes insipidus", "Hyperthyroidism", "Cushing syndrome", "Medication-induced hyperglycemia"],
-    "after_stage2_more_likely": ["Type 2 diabetes (obesity, sedentary lifestyle, strong family history, acanthosis nigricans, gradual onset, age >40)"],
-    "after_stage2_less_likely": ["Type 1 diabetes (no ketoacidosis, obese habitus, gradual onset, older age)", "Diabetes insipidus (glucose is elevated, not just water homeostasis)"],
-    "after_labs_top3": ["Type 2 diabetes mellitus", "Late-onset type 1 diabetes (LADA)", "Secondary diabetes (Cushing, steroid-induced)"]
+    "reasonable_ddx": [
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus (late-onset LADA)",
+      "Prediabetes",
+      "Diabetes insipidus",
+      "Hyperthyroidism",
+      "Cushing syndrome",
+      "Medication-induced hyperglycemia"
+    ],
+    "after_stage2_more_likely": [
+      "Type 2 diabetes (obesity, sedentary lifestyle, strong family history, acanthosis nigricans, gradual onset, age >40)"
+    ],
+    "after_stage2_less_likely": [
+      "Type 1 diabetes (no ketoacidosis, obese habitus, gradual onset, older age)",
+      "Diabetes insipidus (glucose is elevated, not just water homeostasis)"
+    ],
+    "after_labs_top3": [
+      "Type 2 diabetes mellitus",
+      "Late-onset type 1 diabetes (LADA)",
+      "Secondary diabetes (Cushing, steroid-induced)"
+    ]
   }
 }

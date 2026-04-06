@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Lithium level", "result": "0.1 mEq/L (subtherapeutic, target 0.6-1.2)", "flag": "LOW", "clinical_significance": "Confirms medication non-compliance — essentially absent lithium level explains mood destabilization"},
-      {"test_name": "Urine drug screen", "result": "Negative (including THC)", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychosis and mania"},
-      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction (also important to monitor with lithium use)"},
-      {"test_name": "CBC", "result": "WBC 8.2, Hgb 13.0, Hct 39.4, Plt 260", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality"},
-      {"test_name": "CMP", "result": "Na 138, K 3.9, Cl 101, CO2 24, BUN 18, Cr 1.1, Glucose 118 (elevated), Ca 9.6, AST 28, ALT 32", "flag": "ABNORMAL", "clinical_significance": "Mildly elevated glucose likely related to metabolic effects of olanzapine; creatinine at upper normal (monitor with lithium)"},
-      {"test_name": "Fasting glucose", "result": "118 mg/dL (impaired fasting glucose)", "flag": "HIGH", "clinical_significance": "Pre-diabetic range, likely metabolic side effect of olanzapine"},
-      {"test_name": "HbA1c", "result": "6.0% (pre-diabetic range)", "flag": "HIGH", "clinical_significance": "Confirms pre-diabetic state from atypical antipsychotic use — requires metabolic monitoring"},
-      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 232, LDL 148, HDL 38, Triglycerides 228", "flag": "HIGH", "clinical_significance": "Dyslipidemia consistent with metabolic syndrome from olanzapine — elevated triglycerides and low HDL"},
-      {"test_name": "Prolactin", "result": "18 ng/mL (mildly elevated)", "flag": "HIGH", "clinical_significance": "Mildly elevated prolactin, may be residual effect of prior antipsychotic use"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis"},
-      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "Not intoxicated"},
-      {"test_name": "BUN/Creatinine ratio", "result": "BUN 18, Cr 1.1 (ratio 16:1)", "flag": "WNL", "clinical_significance": "Baseline renal function important for lithium dosing — at upper normal range"}
+      {
+        "test_name": "Lithium level",
+        "result": "0.1 mEq/L (subtherapeutic, target 0.6-1.2)",
+        "flag": "LOW",
+        "clinical_significance": "Confirms medication non-compliance — essentially absent lithium level explains mood destabilization"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative (including THC)",
+        "flag": "WNL",
+        "clinical_significance": "Rules out substance-induced psychosis and mania"
+      },
+      {
+        "test_name": "TSH",
+        "result": "3.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out thyroid dysfunction (also important to monitor with lithium use)"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.2, Hgb 13.0, Hct 39.4, Plt 260",
+        "flag": "WNL",
+        "clinical_significance": "No infection or hematologic abnormality"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 138, K 3.9, Cl 101, CO2 24, BUN 18, Cr 1.1, Glucose 118 (elevated), Ca 9.6, AST 28, ALT 32",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly elevated glucose likely related to metabolic effects of olanzapine; creatinine at upper normal (monitor with lithium)"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "118 mg/dL (impaired fasting glucose)",
+        "flag": "HIGH",
+        "clinical_significance": "Pre-diabetic range, likely metabolic side effect of olanzapine"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.0% (pre-diabetic range)",
+        "flag": "HIGH",
+        "clinical_significance": "Confirms pre-diabetic state from atypical antipsychotic use — requires metabolic monitoring"
+      },
+      {
+        "test_name": "Fasting lipid panel",
+        "result": "Total cholesterol 232, LDL 148, HDL 38, Triglycerides 228",
+        "flag": "HIGH",
+        "clinical_significance": "Dyslipidemia consistent with metabolic syndrome from olanzapine — elevated triglycerides and low HDL"
+      },
+      {
+        "test_name": "Prolactin",
+        "result": "18 ng/mL (mildly elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated prolactin, may be residual effect of prior antipsychotic use"
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Rules out neurosyphilis"
+      },
+      {
+        "test_name": "Blood alcohol level",
+        "result": "0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Not intoxicated"
+      },
+      {
+        "test_name": "BUN/Creatinine ratio",
+        "result": "BUN 18, Cr 1.1 (ratio 16:1)",
+        "flag": "WNL",
+        "clinical_significance": "Baseline renal function important for lithium dosing — at upper normal range"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass or hemorrhage.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. QTc 440 ms. No conduction abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia from manic hyperarousal. QTc slightly prolonged — important to monitor with antipsychotic use"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No mass or hemorrhage.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out structural brain pathology"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 108 bpm. QTc 440 ms. No conduction abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Tachycardia from manic hyperarousal. QTc slightly prolonged — important to monitor with antipsychotic use"
+      }
     ],
     "key_tests": [
       "Lithium level — confirms non-compliance (subtherapeutic at 0.1 mEq/L)",
@@ -68,7 +138,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The critical diagnostic distinction: this patient has concurrent manic AND psychotic symptoms NOW, but her mother reports a documented 3-month period of psychotic symptoms (hallucinations and delusions) WITHOUT any mood episode. DSM-5 requires that for schizoaffective disorder, delusions or hallucinations must be present for ≥2 weeks in the ABSENCE of a major mood episode during the lifetime duration of the illness. This distinguishes schizoaffective from Bipolar I with psychotic features (where psychosis occurs ONLY during mood episodes). Her lithium level of 0.1 confirms non-compliance as the precipitant for the current exacerbation."
+    "final_clue": "The critical diagnostic distinction: this patient has concurrent manic AND psychotic symptoms NOW, but her mother reports a documented 3-month period of psychotic symptoms (hallucinations and delusions) WITHOUT any mood episode. DSM-5 requires that for this condition delusions or hallucinations must be present for ≥2 weeks in the ABSENCE of a major mood episode during the lifetime duration of the illness. This distinguishes schizoaffective from Bipolar I with psychotic features (where psychosis occurs ONLY during mood episodes). Her lithium level of 0.1 confirms non-compliance as the precipitant for the current exacerbation."
   },
   "debrief": {
     "classic_presentation": "A patient with a chronic psychotic disorder who also has prominent mood episodes (manic and/or depressive). The hallmark distinguishing feature is psychotic symptoms that persist for at least 2 weeks in the ABSENCE of a concurrent mood episode at some point during the illness. When mood episodes are present, psychotic symptoms are also present, but psychotic symptoms extend beyond the mood episodes.",

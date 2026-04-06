@@ -25,26 +25,117 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Creatinine", "result": "3.8 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, indicating advanced chronic kidney disease"},
-      {"test_name": "eGFR", "result": "18 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "eGFR 15-29 defines CKD stage 4 — severe decrease in kidney function, approaching ESKD"},
-      {"test_name": "BUN", "result": "62 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated due to decreased renal clearance; BUN/Cr ratio normal suggesting intrinsic renal disease"},
-      {"test_name": "Urine albumin-to-creatinine ratio", "result": "1,850 mg/g", "flag": "HIGH", "clinical_significance": "Severely increased albuminuria (A3 category); indicates diabetic nephropathy with significant glomerular damage"},
-      {"test_name": "HbA1c", "result": "8.9%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes; note that HbA1c may be less accurate in CKD due to shortened RBC lifespan"},
-      {"test_name": "Hemoglobin", "result": "9.2 g/dL", "flag": "LOW", "clinical_significance": "Anemia of CKD due to decreased erythropoietin production by failing kidneys"},
-      {"test_name": "Calcium", "result": "8.0 mg/dL", "flag": "LOW", "clinical_significance": "Hypocalcemia from decreased renal conversion of 25-OH vitamin D to active 1,25-dihydroxyvitamin D"},
-      {"test_name": "Phosphorus", "result": "5.8 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperphosphatemia from impaired renal phosphorus excretion; contributes to secondary hyperparathyroidism"},
-      {"test_name": "Intact PTH", "result": "285 pg/mL", "flag": "HIGH", "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia — classic CKD-mineral bone disorder"},
-      {"test_name": "Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from impaired renal potassium excretion; exacerbated by ACE inhibitor use"},
-      {"test_name": "Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from impaired renal acid excretion; common in advanced CKD"},
-      {"test_name": "25-OH Vitamin D", "result": "15 ng/mL", "flag": "LOW", "clinical_significance": "Vitamin D deficiency is extremely common in CKD and contributes to mineral bone disorder"}
+      {
+        "test_name": "Creatinine",
+        "result": "3.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated, indicating advanced this condition disease"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "18 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "eGFR 15-29 defines CKD stage 4 — severe decrease in kidney function, approaching ESKD"
+      },
+      {
+        "test_name": "BUN",
+        "result": "62 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated due to decreased renal clearance; BUN/Cr ratio normal suggesting intrinsic renal disease"
+      },
+      {
+        "test_name": "Urine albumin-to-creatinine ratio",
+        "result": "1,850 mg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Severely increased albuminuria (A3 category); indicates diabetic nephropathy with significant glomerular damage"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "8.9%",
+        "flag": "HIGH",
+        "clinical_significance": "Poorly controlled diabetes; note that HbA1c may be less accurate in CKD due to shortened RBC lifespan"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "9.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia of CKD due to decreased erythropoietin production by failing kidneys"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "8.0 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypocalcemia from decreased renal conversion of 25-OH vitamin D to active 1,25-dihydroxyvitamin D"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "5.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperphosphatemia from impaired renal phosphorus excretion; contributes to secondary hyperparathyroidism"
+      },
+      {
+        "test_name": "Intact PTH",
+        "result": "285 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia — classic CKD-mineral bone disorder"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "5.4 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from impaired renal potassium excretion; exacerbated by ACE inhibitor use"
+      },
+      {
+        "test_name": "Bicarbonate",
+        "result": "18 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from impaired renal acid excretion; common in advanced CKD"
+      },
+      {
+        "test_name": "25-OH Vitamin D",
+        "result": "15 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Vitamin D deficiency is extremely common in CKD and contributes to mineral bone disorder"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal ultrasound", "result": "Bilateral kidneys are small (right 8.5 cm, left 8.8 cm) with increased cortical echogenicity and loss of corticomedullary differentiation. No hydronephrosis, no renal masses, no stones.", "flag": "ABNORMAL", "clinical_significance": "Small, echogenic kidneys indicate chronic parenchymal disease — consistent with diabetic nephropathy"},
-      {"test_name": "Chest X-ray", "result": "Mild pulmonary vascular congestion. Small bilateral pleural effusions. Cardiomegaly with cardiothoracic ratio of 0.58.", "flag": "ABNORMAL", "clinical_significance": "Volume overload from impaired renal sodium and water excretion; cardiomegaly from chronic hypertension"}
+      {
+        "test_name": "Renal ultrasound",
+        "result": "Bilateral kidneys are small (right 8.5 cm, left 8.8 cm) with increased cortical echogenicity and loss of corticomedullary differentiation. No hydronephrosis, no renal masses, no stones.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small, echogenic kidneys indicate chronic parenchymal disease — consistent with diabetic nephropathy"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild pulmonary vascular congestion. Small bilateral pleural effusions. Cardiomegaly with cardiothoracic ratio of 0.58.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Volume overload from impaired renal sodium and water excretion; cardiomegaly from chronic hypertension"
+      }
     ],
-    "key_tests": ["Basic metabolic panel (creatinine, eGFR, potassium, bicarbonate)", "Urine albumin-to-creatinine ratio", "CBC (hemoglobin)", "Calcium, phosphorus, intact PTH", "Renal ultrasound"],
-    "acceptable_tests": ["HbA1c", "25-OH Vitamin D", "Lipid panel", "Urinalysis", "Chest X-ray", "Echocardiogram", "Serum iron studies", "Uric acid"],
-    "low_yield_tests": ["Renal biopsy (diabetic nephropathy is clinical diagnosis with proteinuria and retinopathy)", "CT abdomen", "Renal artery duplex (no suspicion for RAS)", "ANCA or anti-GBM (no features of glomerulonephritis)", "Cystoscopy"]
+    "key_tests": [
+      "Basic metabolic panel (creatinine, eGFR, potassium, bicarbonate)",
+      "Urine albumin-to-creatinine ratio",
+      "CBC (hemoglobin)",
+      "Calcium, phosphorus, intact PTH",
+      "Renal ultrasound"
+    ],
+    "acceptable_tests": [
+      "HbA1c",
+      "25-OH Vitamin D",
+      "Lipid panel",
+      "Urinalysis",
+      "Chest X-ray",
+      "Echocardiogram",
+      "Serum iron studies",
+      "Uric acid"
+    ],
+    "low_yield_tests": [
+      "Renal biopsy (diabetic nephropathy is clinical diagnosis with proteinuria and retinopathy)",
+      "CT abdomen",
+      "Renal artery duplex (no suspicion for RAS)",
+      "ANCA or anti-GBM (no features of glomerulonephritis)",
+      "Cystoscopy"
+    ]
   },
   "stage5": {
     "final_clue": "A review of the patient's prior labs reveals a gradual decline in eGFR over the past 3 years: eGFR 45 (3 years ago), eGFR 32 (18 months ago), and now eGFR 18 — confirming a progressive chronic decline consistent with diabetic nephropathy rather than an acute process."
@@ -60,12 +151,32 @@
       "Metformin must be discontinued when eGFR falls below 30 (some guidelines say 20) due to increased risk of lactic acidosis",
       "CKD stage 4 patients need nephrology referral for dialysis access planning (ideally AV fistula creation 6+ months before anticipated dialysis start)"
     ],
-    "sources": ["UpToDate: Overview of the management of chronic kidney disease in adults", "KDIGO 2024 Clinical Practice Guideline for CKD Evaluation and Management"]
+    "sources": [
+      "UpToDate: Overview of the management of chronic kidney disease in adults",
+      "KDIGO 2024 Clinical Practice Guideline for CKD Evaluation and Management"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Diabetic nephropathy (CKD stage 4)", "Hypertensive nephrosclerosis", "IgA nephropathy", "Focal segmental glomerulosclerosis", "Renal artery stenosis", "Obstructive uropathy", "Acute kidney injury superimposed on CKD"],
-    "after_stage2_more_likely": ["Diabetic nephropathy (15 years of poorly controlled diabetes, diabetic retinopathy, progressive symptoms, proteinuria)"],
-    "after_stage2_less_likely": ["Obstructive uropathy (no hydronephrosis on history, bilateral symptoms)", "Acute kidney injury (3-month progressive course, not acute)"],
-    "after_labs_top3": ["Diabetic nephropathy", "Hypertensive nephrosclerosis", "Combined diabetic and hypertensive nephropathy"]
+    "reasonable_ddx": [
+      "Diabetic nephropathy (CKD stage 4)",
+      "Hypertensive nephrosclerosis",
+      "IgA nephropathy",
+      "Focal segmental glomerulosclerosis",
+      "Renal artery stenosis",
+      "Obstructive uropathy",
+      "Acute kidney injury superimposed on CKD"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic nephropathy (15 years of poorly controlled diabetes, diabetic retinopathy, progressive symptoms, proteinuria)"
+    ],
+    "after_stage2_less_likely": [
+      "Obstructive uropathy (no hydronephrosis on history, bilateral symptoms)",
+      "Acute kidney injury (3-month progressive course, not acute)"
+    ],
+    "after_labs_top3": [
+      "Diabetic nephropathy",
+      "Hypertensive nephrosclerosis",
+      "Combined diabetic and hypertensive nephropathy"
+    ]
   }
 }

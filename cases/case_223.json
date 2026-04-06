@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urine drug screen", "result": "Positive for THC, negative for amphetamines, cocaine, opioids, PCP, benzodiazepines", "flag": "ABNORMAL", "clinical_significance": "THC positive likely from prior marijuana use; negative for stimulants rules out substance-induced mania"},
-      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "No acute alcohol intoxication"},
-      {"test_name": "TSH", "result": "2.3 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism as cause of manic symptoms"},
-      {"test_name": "CBC", "result": "WBC 8.4, Hgb 15.8, Hct 46.1, Plt 260", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality"},
-      {"test_name": "CMP", "result": "Na 139, K 4.0, Cl 101, CO2 23, BUN 16, Cr 1.0, Glucose 105, Ca 9.8, AST 24, ALT 26", "flag": "WNL", "clinical_significance": "Normal metabolic panel; baseline renal and hepatic function important before starting mood stabilizers"},
-      {"test_name": "Serum cortisol (AM)", "result": "16.5 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out Cushing syndrome which can cause psychiatric symptoms"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis"},
-      {"test_name": "HIV 1/2 Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out HIV-related neuropsychiatric presentation"},
-      {"test_name": "BUN/Creatinine", "result": "BUN 16, Cr 1.0", "flag": "WNL", "clinical_significance": "Baseline renal function before potential lithium initiation"},
-      {"test_name": "Urinalysis", "result": "Normal specific gravity, no protein, no glucose", "flag": "WNL", "clinical_significance": "Baseline renal concentrating ability"}
+      {
+        "test_name": "Urine drug screen",
+        "result": "Positive for THC, negative for amphetamines, cocaine, opioids, PCP, benzodiazepines",
+        "flag": "ABNORMAL",
+        "clinical_significance": "THC positive likely from prior marijuana use; negative for stimulants rules out substance-induced mania"
+      },
+      {
+        "test_name": "Blood alcohol level",
+        "result": "0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "No acute alcohol intoxication"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.3 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hyperthyroidism as cause of manic symptoms"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.4, Hgb 15.8, Hct 46.1, Plt 260",
+        "flag": "WNL",
+        "clinical_significance": "No infection or hematologic abnormality"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 139, K 4.0, Cl 101, CO2 23, BUN 16, Cr 1.0, Glucose 105, Ca 9.8, AST 24, ALT 26",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; baseline renal and hepatic function important before starting mood stabilizers"
+      },
+      {
+        "test_name": "Serum cortisol (AM)",
+        "result": "16.5 mcg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out Cushing syndrome which can cause psychiatric symptoms"
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Rules out neurosyphilis"
+      },
+      {
+        "test_name": "HIV 1/2 Ag/Ab",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Rules out HIV-related neuropsychiatric presentation"
+      },
+      {
+        "test_name": "BUN/Creatinine",
+        "result": "BUN 16, Cr 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Baseline renal function before potential lithium initiation"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Normal specific gravity, no protein, no glucose",
+        "flag": "WNL",
+        "clinical_significance": "Baseline renal concentrating ability"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology as cause of acute behavioral change"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 102 bpm. Normal QTc (420 ms). No conduction abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia consistent with hyperarousal state; normal QTc important for medication selection"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out structural brain pathology as cause of acute behavioral change"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 102 bpm. Normal QTc (420 ms). No conduction abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Tachycardia consistent with hyperarousal state; normal QTc important for medication selection"
+      }
     ],
     "key_tests": [
       "Urine drug screen — critical to rule out stimulant-induced mania (cocaine, amphetamines)",
@@ -66,7 +126,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient presents with a distinct period of abnormally expansive, euphoric mood lasting more than 1 week with at least 3 additional manic symptoms: decreased need for sleep, grandiosity, pressured speech, flight of ideas, increased goal-directed activity, distractibility, and excessive involvement in risky activities (impulsive spending). Family history of bipolar disorder is strongly supportive. Urine drug screen is negative for stimulants, ruling out substance-induced mania. YMRS score of 32 confirms severe mania. This is diagnostic of Bipolar I Disorder, manic episode."
+    "final_clue": "The patient presents with a distinct period of abnormally expansive, euphoric mood lasting more than 1 week with at least 3 additional manic symptoms: decreased need for sleep, grandiosity, pressured speech, flight of ideas, increased goal-directed activity, distractibility, and excessive involvement in risky activities (impulsive spending). Family history of bipolar disorder is strongly supportive. Urine drug screen is negative for stimulants, ruling out substance-induced mania. YMRS score of 32 confirms severe mania. This is diagnostic of this condition Disorder, manic episode."
   },
   "debrief": {
     "classic_presentation": "A young adult presenting with an acute episode of elevated or irritable mood lasting at least 7 days (or any duration if hospitalization is required) with at least 3 (or 4 if irritable) symptoms captured by the mnemonic DIG FAST: Distractibility, Impulsivity/Indiscretion, Grandiosity, Flight of ideas, Activity increase, Sleep deficit, Talkativeness. Marked functional impairment or psychotic features may be present.",

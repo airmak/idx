@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum iron", "result": "245 mcg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated serum iron (normal 60-170) indicating iron overload"},
-      {"test_name": "Ferritin", "result": "1,850 ng/mL", "flag": "HIGH", "clinical_significance": "Dramatically elevated ferritin (normal 12-300) indicating substantial iron stores; ferritin >1000 increases risk of cirrhosis"},
-      {"test_name": "Transferrin saturation", "result": "82%", "flag": "HIGH", "clinical_significance": "Fasting transferrin saturation >45% is the best screening test for hemochromatosis; >82% is strongly diagnostic"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.1, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 118, Ca 9.4, AST 68, ALT 82, Alk Phos 95, Albumin 3.8, Total Bilirubin 1.4", "flag": "ABNORMAL", "clinical_significance": "Elevated transaminases indicating hepatocellular injury from iron deposition; fasting glucose elevated consistent with pre-diabetes/diabetes from pancreatic iron deposition"},
-      {"test_name": "HbA1c", "result": "6.8%", "flag": "HIGH", "clinical_significance": "Diabetes range — 'bronze diabetes' is a classic finding of hemochromatosis due to iron deposition in the pancreas"},
-      {"test_name": "HFE gene testing", "result": "Homozygous C282Y mutation (C282Y/C282Y)", "flag": "ABNORMAL", "clinical_significance": "C282Y homozygosity is present in >90% of hereditary hemochromatosis cases; confirms genetic diagnosis"},
-      {"test_name": "CBC with differential", "result": "WBC 6.0, Hgb 15.2, Hct 45.8, Plt 180", "flag": "WNL", "clinical_significance": "Normal CBC; hemoglobin is not elevated (iron overload does not cause polycythemia)"},
-      {"test_name": "Testosterone (total, AM)", "result": "148 ng/dL", "flag": "LOW", "clinical_significance": "Low testosterone from iron deposition in the pituitary (hypogonadotropic hypogonadism) — explains decreased libido and erectile dysfunction"},
-      {"test_name": "LH/FSH", "result": "LH 1.2, FSH 1.8 mIU/mL", "flag": "LOW", "clinical_significance": "Inappropriately low gonadotropins confirming secondary (hypogonadotropic) hypogonadism from pituitary iron deposition"},
-      {"test_name": "Hepatitis B surface antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out hepatitis B as cause of elevated transaminases"},
-      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out hepatitis C"},
-      {"test_name": "Alpha-fetoprotein", "result": "8 ng/mL", "flag": "WNL", "clinical_significance": "Normal AFP — baseline for hepatocellular carcinoma surveillance (hemochromatosis patients with cirrhosis need regular screening)"}
+      {
+        "test_name": "Serum iron",
+        "result": "245 mcg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated serum iron (normal 60-170) indicating iron overload"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "1,850 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Dramatically elevated ferritin (normal 12-300) indicating substantial iron stores; ferritin >1000 increases risk of cirrhosis"
+      },
+      {
+        "test_name": "Transferrin saturation",
+        "result": "82%",
+        "flag": "HIGH",
+        "clinical_significance": "Fasting transferrin saturation >45% is the best screening test for hemochromatosis; >82% is strongly diagnostic"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.1, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 118, Ca 9.4, AST 68, ALT 82, Alk Phos 95, Albumin 3.8, Total Bilirubin 1.4",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated transaminases indicating hepatocellular injury from iron deposition; fasting glucose elevated consistent with pre-diabetes/diabetes from pancreatic iron deposition"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Diabetes range — 'bronze diabetes' is a classic finding of hemochromatosis due to iron deposition in the pancreas"
+      },
+      {
+        "test_name": "HFE gene testing",
+        "result": "Homozygous C282Y mutation (C282Y/C282Y)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "C282Y homozygosity is present in >90% of this condition cases; confirms genetic diagnosis"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.0, Hgb 15.2, Hct 45.8, Plt 180",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; hemoglobin is not elevated (iron overload does not cause polycythemia)"
+      },
+      {
+        "test_name": "Testosterone (total, AM)",
+        "result": "148 ng/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low testosterone from iron deposition in the pituitary (hypogonadotropic hypogonadism) — explains decreased libido and erectile dysfunction"
+      },
+      {
+        "test_name": "LH/FSH",
+        "result": "LH 1.2, FSH 1.8 mIU/mL",
+        "flag": "LOW",
+        "clinical_significance": "Inappropriately low gonadotropins confirming secondary (hypogonadotropic) hypogonadism from pituitary iron deposition"
+      },
+      {
+        "test_name": "Hepatitis B surface antigen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hepatitis B as cause of elevated transaminases"
+      },
+      {
+        "test_name": "Hepatitis C antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hepatitis C"
+      },
+      {
+        "test_name": "Alpha-fetoprotein",
+        "result": "8 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal AFP — baseline for hepatocellular carcinoma surveillance (hemochromatosis patients with cirrhosis need regular screening)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI Liver (with T2* iron quantification)", "result": "Hepatomegaly. Diffusely decreased T2* signal intensity consistent with hepatic iron overload. Hepatic iron concentration estimated at 180 mcmol/g (normal <36). No focal liver lesions. No evidence of cirrhosis by imaging criteria.", "flag": "ABNORMAL", "clinical_significance": "MRI T2* confirms significant hepatic iron overload; FerriScan estimation of liver iron concentration is markedly elevated; absence of cirrhosis is favorable"},
-      {"test_name": "X-ray bilateral hands", "result": "Joint space narrowing and hook-like osteophytes at bilateral 2nd and 3rd MCP joints. Chondrocalcinosis in the triangular fibrocartilage of the wrist bilaterally.", "flag": "ABNORMAL", "clinical_significance": "Hemochromatosis arthropathy — MCP joint involvement with hook osteophytes and chondrocalcinosis (pseudogout) are classic radiographic findings"}
+      {
+        "test_name": "MRI Liver (with T2* iron quantification)",
+        "result": "Hepatomegaly. Diffusely decreased T2* signal intensity consistent with hepatic iron overload. Hepatic iron concentration estimated at 180 mcmol/g (normal <36). No focal liver lesions. No evidence of cirrhosis by imaging criteria.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI T2* confirms significant hepatic iron overload; FerriScan estimation of liver iron concentration is markedly elevated; absence of cirrhosis is favorable"
+      },
+      {
+        "test_name": "X-ray bilateral hands",
+        "result": "Joint space narrowing and hook-like osteophytes at bilateral 2nd and 3rd MCP joints. Chondrocalcinosis in the triangular fibrocartilage of the wrist bilaterally.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemochromatosis arthropathy — MCP joint involvement with hook osteophytes and chondrocalcinosis (pseudogout) are classic radiographic findings"
+      }
     ],
     "key_tests": [
       "Transferrin saturation — 82%, the best initial screening test for hemochromatosis (>45% warrants further evaluation)",
@@ -65,7 +135,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The diagnosis of hereditary hemochromatosis is confirmed by: (1) dramatically elevated transferrin saturation (82%) and ferritin (1,850), (2) C282Y homozygosity on HFE gene testing, and (3) MRI confirming hepatic iron overload. The clinical picture demonstrates multi-organ iron deposition: liver (elevated transaminases, hepatomegaly), pancreas (new diabetes — 'bronze diabetes'), pituitary (hypogonadotropic hypogonadism with low testosterone), joints (2nd/3rd MCP arthropathy with chondrocalcinosis), and skin (bronze hyperpigmentation). The father's unexplained cirrhosis strongly suggests he had undiagnosed hemochromatosis."
+    "final_clue": "The diagnosis of this condition is confirmed by: (1) dramatically elevated transferrin saturation (82%) and ferritin (1,850), (2) C282Y homozygosity on HFE gene testing, and (3) MRI confirming hepatic iron overload. The clinical picture demonstrates multi-organ iron deposition: liver (elevated transaminases, hepatomegaly), pancreas (new diabetes — 'bronze diabetes'), pituitary (hypogonadotropic hypogonadism with low testosterone), joints (2nd/3rd MCP arthropathy with chondrocalcinosis), and skin (bronze hyperpigmentation). The father's unexplained cirrhosis strongly suggests he had undiagnosed hemochromatosis."
   },
   "debrief": {
     "classic_presentation": "A middle-aged man (typically 40-60 years; women present later due to menstrual iron losses) of Northern European ancestry presenting with the classic triad of 'bronze diabetes': bronze skin hyperpigmentation, diabetes mellitus, and hepatomegaly/cirrhosis. Additional manifestations include arthropathy (characteristically affecting the 2nd and 3rd MCP joints), hypogonadism, fatigue, and cardiomyopathy. The presentation is often subtle with fatigue and arthralgia as initial symptoms, and the classic triad represents advanced disease.",

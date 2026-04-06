@@ -11,7 +11,7 @@
     "surgical_history": "Hysterectomy 10 years ago",
     "medications": "Lisinopril 20 mg daily, atorvastatin 20 mg daily, acetaminophen 500 mg PRN",
     "allergies": "Ibuprofen (GI upset)",
-    "family_history": "Mother with osteoarthritis of bilateral knees (had knee replacement at age 70). Father with coronary artery disease. No family history of rheumatoid arthritis or lupus.",
+    "family_history": "Mother with this condition bilateral knees (had knee replacement at age 70). Father with coronary artery disease. No family history of rheumatoid arthritis or lupus.",
     "social_history": "Retired teacher. Lives with husband. Walks 2-3 blocks before pain limits her. Former tennis player (played regularly until 5 years ago). Denies tobacco, alcohol, or illicit drug use. Sedentary lifestyle due to pain.",
     "vitals": {
       "temp": "98.4°F (36.9°C)",
@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 235", "flag": "WNL", "clinical_significance": "Normal CBC; no evidence of systemic inflammatory process"},
-      {"test_name": "ESR", "result": "14 mm/hr", "flag": "WNL", "clinical_significance": "Normal ESR; argues against inflammatory arthritis (RA, PMR)"},
-      {"test_name": "CRP", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal CRP; no systemic inflammation"},
-      {"test_name": "Rheumatoid Factor (RF)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative RF argues against rheumatoid arthritis"},
-      {"test_name": "Uric acid", "result": "5.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal uric acid; argues against gout"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.1, Cl 103, CO2 25, BUN 16, Cr 0.9, Glucose 105, Ca 9.5, AST 20, ALT 22, Alk Phos 65, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mild fasting glucose elevation consistent with metabolic syndrome"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 235",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no evidence of systemic inflammatory process"
+      },
+      {
+        "test_name": "ESR",
+        "result": "14 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal ESR; argues against inflammatory arthritis (RA, PMR)"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CRP; no systemic inflammation"
+      },
+      {
+        "test_name": "Rheumatoid Factor (RF)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative RF argues against rheumatoid arthritis"
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "5.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal uric acid; argues against gout"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.1, Cl 103, CO2 25, BUN 16, Cr 0.9, Glucose 105, Ca 9.5, AST 20, ALT 22, Alk Phos 65, Albumin 4.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; mild fasting glucose elevation consistent with metabolic syndrome"
+      }
     ],
     "imaging_results": [
-      {"test_name": "X-ray Right Knee (weight-bearing AP, lateral, sunrise views)", "result": "Moderate medial compartment joint space narrowing. Subchondral sclerosis. Marginal osteophytes of the medial femoral condyle and tibial plateau. No loose bodies. No fracture.", "flag": "ABNORMAL", "clinical_significance": "Classic radiographic findings of osteoarthritis: joint space narrowing, osteophytes, subchondral sclerosis — confirms the diagnosis"}
+      {
+        "test_name": "X-ray Right Knee (weight-bearing AP, lateral, sunrise views)",
+        "result": "Moderate medial compartment joint space narrowing. Subchondral sclerosis. Marginal osteophytes of the medial femoral condyle and tibial plateau. No loose bodies. No fracture.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic radiographic findings of osteoarthritis: joint space narrowing, osteophytes, subchondral sclerosis — confirms the diagnosis"
+      }
     ],
     "key_tests": [
       "Weight-bearing knee X-ray — showing classic OA features (joint space narrowing, osteophytes, subchondral sclerosis)",

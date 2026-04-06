@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "8.2 mIU/L", "flag": "HIGH", "clinical_significance": "Elevated TSH (normal 0.4-4.0) indicating hypothyroidism; in the subclinical range (4.5-10) with normal free T4"},
-      {"test_name": "Free T4", "result": "0.9 ng/dL", "flag": "LOW-NORMAL", "clinical_significance": "Free T4 in the low-normal range (normal 0.8-1.8) — by definition, subclinical hypothyroidism has normal free T4, but low-normal value combined with symptoms may warrant treatment"},
-      {"test_name": "Free T3", "result": "2.4 pg/mL", "flag": "LOW-NORMAL", "clinical_significance": "Low-normal T3 (normal 2.3-4.2) — some patients with subclinical hypothyroidism have symptoms due to inadequate T3 conversion"},
-      {"test_name": "Anti-TPO antibodies", "result": "385 IU/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated anti-TPO antibodies confirming autoimmune (Hashimoto) thyroiditis as the etiology; presence of antibodies predicts progression to overt hypothyroidism at 4.3% per year"},
-      {"test_name": "Anti-thyroglobulin antibodies", "result": "120 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated, supporting autoimmune thyroiditis diagnosis"},
-      {"test_name": "CBC with differential", "result": "WBC 5.8, Hgb 11.8, Hct 35.4, MCV 96 fL, Plt 220", "flag": "MILD ABNORMAL", "clinical_significance": "Mild normocytic to borderline macrocytic anemia — can be associated with hypothyroidism"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 136, K 4.0, Cl 101, CO2 26, BUN 18, Cr 0.9, Glucose 102, Ca 9.0, AST 28, ALT 25, Alk Phos 68, Albumin 3.8", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mild hyponatremia can occur in hypothyroidism"},
-      {"test_name": "Lipid panel", "result": "Total cholesterol 248, LDL 162, HDL 48, Triglycerides 190", "flag": "ABNORMAL", "clinical_significance": "Dyslipidemia — hypothyroidism impairs LDL receptor expression, causing elevated LDL; lipids may improve with thyroid hormone replacement"},
-      {"test_name": "Vitamin B12", "result": "280 pg/mL", "flag": "LOW-NORMAL", "clinical_significance": "Low-normal B12 — autoimmune thyroiditis is associated with pernicious anemia; worth monitoring"},
-      {"test_name": "PHQ-9", "result": "Score 14 (moderate depression)", "flag": "ABNORMAL", "clinical_significance": "Moderate depressive symptoms — overlap between hypothyroidism and depression makes it important to treat thyroid first and reassess mood"}
+      {
+        "test_name": "TSH",
+        "result": "8.2 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated TSH (normal 0.4-4.0) indicating hypothyroidism; in the subclinical range (4.5-10) with normal free T4"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "0.9 ng/dL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Free T4 in the low-normal range (normal 0.8-1.8) — by definition, this condition has normal free T4, but low-normal value combined with symptoms may warrant treatment"
+      },
+      {
+        "test_name": "Free T3",
+        "result": "2.4 pg/mL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Low-normal T3 (normal 2.3-4.2) — some patients with this condition have symptoms due to inadequate T3 conversion"
+      },
+      {
+        "test_name": "Anti-TPO antibodies",
+        "result": "385 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated anti-TPO antibodies confirming autoimmune (Hashimoto) thyroiditis as the etiology; presence of antibodies predicts progression to overt hypothyroidism at 4.3% per year"
+      },
+      {
+        "test_name": "Anti-thyroglobulin antibodies",
+        "result": "120 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, supporting autoimmune thyroiditis diagnosis"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 5.8, Hgb 11.8, Hct 35.4, MCV 96 fL, Plt 220",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Mild normocytic to borderline macrocytic anemia — can be associated with hypothyroidism"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 136, K 4.0, Cl 101, CO2 26, BUN 18, Cr 0.9, Glucose 102, Ca 9.0, AST 28, ALT 25, Alk Phos 68, Albumin 3.8",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; mild hyponatremia can occur in hypothyroidism"
+      },
+      {
+        "test_name": "Lipid panel",
+        "result": "Total cholesterol 248, LDL 162, HDL 48, Triglycerides 190",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dyslipidemia — hypothyroidism impairs LDL receptor expression, causing elevated LDL; lipids may improve with thyroid hormone replacement"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "280 pg/mL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Low-normal B12 — autoimmune thyroiditis is associated with pernicious anemia; worth monitoring"
+      },
+      {
+        "test_name": "PHQ-9",
+        "result": "Score 14 (moderate depression)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Moderate depressive symptoms — overlap between hypothyroidism and depression makes it important to treat thyroid first and reassess mood"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Thyroid ultrasound", "result": "Diffusely heterogeneous, hypoechoic thyroid parenchyma with increased vascularity consistent with Hashimoto thyroiditis. No discrete nodules. Thyroid volume mildly increased (right lobe 8 mL, left lobe 7 mL).", "flag": "ABNORMAL", "clinical_significance": "Ultrasound confirms Hashimoto thyroiditis morphology; no nodules requiring further workup"}
+      {
+        "test_name": "Thyroid ultrasound",
+        "result": "Diffusely heterogeneous, hypoechoic thyroid parenchyma with increased vascularity consistent with Hashimoto thyroiditis. No discrete nodules. Thyroid volume mildly increased (right lobe 8 mL, left lobe 7 mL).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound confirms Hashimoto thyroiditis morphology; no nodules requiring further workup"
+      }
     ],
     "key_tests": [
       "TSH — elevated at 8.2 mIU/L (subclinical hypothyroidism range with symptoms)",
@@ -61,7 +116,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient has subclinical hypothyroidism (TSH 8.2 with low-normal free T4) caused by Hashimoto thyroiditis (markedly elevated anti-TPO antibodies, characteristic ultrasound findings). Her symptomatic presentation — fatigue, weight gain, constipation, cold intolerance, dry skin, bradycardia, delayed DTR relaxation, dyslipidemia, and myxedematous changes — overlaps significantly with her depressive symptoms, and treatment of hypothyroidism should precede or accompany depression treatment. The incomplete response to sertraline may be due to undertreated thyroid disease."
+    "final_clue": "The patient has this condition (TSH 8.2 with low-normal free T4) caused by Hashimoto thyroiditis (markedly elevated anti-TPO antibodies, characteristic ultrasound findings). Her symptomatic presentation — fatigue, weight gain, constipation, cold intolerance, dry skin, bradycardia, delayed DTR relaxation, dyslipidemia, and myxedematous changes — overlaps significantly with her depressive symptoms, and treatment of hypothyroidism should precede or accompany depression treatment. The incomplete response to sertraline may be due to undertreated thyroid disease."
   },
   "debrief": {
     "classic_presentation": "A middle-aged woman presenting with fatigue, weight gain, cold intolerance, constipation, dry skin, and cognitive slowing with TSH elevated above the upper limit of normal but free T4 still within reference range. Subclinical hypothyroidism is defined as TSH 4.5-10 mIU/L with normal free T4. When accompanied by symptoms, positive anti-TPO antibodies, or dyslipidemia, treatment is generally recommended. The overlap between hypothyroid and depressive symptoms is a major diagnostic challenge.",

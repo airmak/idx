@@ -11,7 +11,7 @@
     "surgical_history": "None",
     "medications": "Escitalopram 10 mg daily, sumatriptan PRN",
     "allergies": "Penicillin (hives)",
-    "family_history": "Mother has mitral valve prolapse. Maternal aunt had Marfan syndrome. No sudden cardiac death in family.",
+    "family_history": "Mother has this condition prolapse. Maternal aunt had Marfan syndrome. No sudden cardiac death in family.",
     "social_history": "Non-smoker. Occasional wine with dinner. Works as a graphic designer. Regular yoga and jogging.",
     "vitals": {
       "temp": "36.7°C (98.1°F)",
@@ -25,23 +25,96 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "52 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no evidence of significant heart failure"},
-      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no myocardial injury"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "CBC", "result": "WBC 6.5, Hgb 13.2, Plt 245", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal electrolytes"},
-      {"test_name": "Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CRP", "result": "0.3 mg/dL", "flag": "WNL", "clinical_significance": "No systemic inflammation"}
+      {
+        "test_name": "BNP",
+        "result": "52 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of significant heart failure"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "< 0.01 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no myocardial injury"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.5, Hgb 13.2, Plt 245",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.0 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.3 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "No systemic inflammation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Posterior mitral leaflet prolapse (≥2 mm displacement above the annular plane in the parasternal long-axis view) with moderate mitral regurgitation (eccentric jet), thickened and myxomatous leaflets (≥5 mm), LVEF 60%, mildly dilated left atrium, no significant LV dilation", "flag": "ABNORMAL", "clinical_significance": "Confirms MVP with moderate MR; myxomatous degeneration is the underlying pathology"},
-      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm, occasional premature ventricular complexes (PVCs), T-wave inversions in leads II, III, aVF", "flag": "ABNORMAL", "clinical_significance": "PVCs consistent with palpitation complaint; inferior T-wave changes can occur with MVP"},
-      {"test_name": "Chest X-ray", "result": "Normal cardiac silhouette, no pulmonary congestion", "flag": "WNL", "clinical_significance": "No cardiomegaly despite moderate MR"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Posterior mitral leaflet prolapse (≥2 mm displacement above the annular plane in the parasternal long-axis view) with moderate mitral regurgitation (eccentric jet), thickened and myxomatous leaflets (≥5 mm), LVEF 60%, mildly dilated left atrium, no significant LV dilation",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms MVP with moderate MR; myxomatous degeneration is the underlying pathology"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Normal sinus rhythm, occasional premature ventricular complexes (PVCs), T-wave inversions in leads II, III, aVF",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PVCs consistent with palpitation complaint; inferior T-wave changes can occur with MVP"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Normal cardiac silhouette, no pulmonary congestion",
+        "flag": "WNL",
+        "clinical_significance": "No cardiomegaly despite moderate MR"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram", "12-lead ECG", "Chest X-ray"],
-    "acceptable_tests": ["BNP", "CBC", "TSH", "Holter monitor", "Basic metabolic panel", "Exercise stress test", "Cardiac MRI"],
-    "low_yield_tests": ["Coronary angiography", "CT chest", "Serum lactate", "Blood cultures", "Pulmonary function tests"],
+    "key_tests": [
+      "Transthoracic echocardiogram",
+      "12-lead ECG",
+      "Chest X-ray"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "CBC",
+      "TSH",
+      "Holter monitor",
+      "Basic metabolic panel",
+      "Exercise stress test",
+      "Cardiac MRI"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography",
+      "CT chest",
+      "Serum lactate",
+      "Blood cultures",
+      "Pulmonary function tests"
+    ],
     "key_tests_rationale": "Echocardiogram is the gold standard for diagnosing MVP and quantifying MR severity. ECG evaluates for arrhythmias. CXR assesses heart size and pulmonary congestion."
   },
   "stage5": {
@@ -66,9 +139,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Mitral regurgitation (other causes)", "Hypertrophic cardiomyopathy", "Anxiety/panic disorder", "Supraventricular tachycardia", "Tricuspid valve prolapse", "Marfan syndrome"],
-    "after_stage2_more_likely": ["Mitral valve prolapse", "Marfan syndrome with MVP", "Mitral regurgitation"],
-    "after_stage2_less_likely": ["Hypertrophic cardiomyopathy", "Anxiety disorder alone", "SVT"],
-    "after_labs_top3": ["Mitral valve prolapse with regurgitation", "Myxomatous mitral valve disease", "Connective tissue disorder with MVP"]
+    "reasonable_ddx": [
+      "Mitral regurgitation (other causes)",
+      "Hypertrophic cardiomyopathy",
+      "Anxiety/panic disorder",
+      "Supraventricular tachycardia",
+      "Tricuspid valve prolapse",
+      "Marfan syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Mitral valve prolapse",
+      "Marfan syndrome with MVP",
+      "Mitral regurgitation"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic cardiomyopathy",
+      "Anxiety disorder alone",
+      "SVT"
+    ],
+    "after_labs_top3": [
+      "Mitral valve prolapse with regurgitation",
+      "Myxomatous mitral valve disease",
+      "Connective tissue disorder with MVP"
+    ]
   }
 }

@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urine Protein:Creatinine Ratio", "result": "12.5 mg/mg", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria (>2 mg/mg in children)"},
-      {"test_name": "Urinalysis", "result": "3+ protein, oval fat bodies, no RBCs, no WBCs, fatty casts", "flag": "ABNORMAL", "clinical_significance": "Heavy proteinuria with lipiduria characteristic of nephrotic syndrome"},
-      {"test_name": "Serum Albumin", "result": "1.4 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia drives edema formation in nephrotic syndrome"},
-      {"test_name": "Total Cholesterol", "result": "385 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperlipidemia is a hallmark of nephrotic syndrome due to hepatic lipoprotein overproduction"},
-      {"test_name": "Triglycerides", "result": "290 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated as part of nephrotic hyperlipidemia"},
-      {"test_name": "Serum Creatinine", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; minimal change disease typically preserves GFR"},
-      {"test_name": "BUN", "result": "12 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Serum Sodium", "result": "133 mEq/L", "flag": "LOW", "clinical_significance": "Pseudohyponatremia from hyperlipidemia or dilutional from fluid retention"},
-      {"test_name": "Complement C3", "result": "125 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement levels help exclude membranoproliferative GN, lupus nephritis, and post-infectious GN"},
-      {"test_name": "24-hour Urine Protein", "result": "3,200 mg/day", "flag": "HIGH", "clinical_significance": "Confirms nephrotic-range proteinuria (>40 mg/m²/hr in children)"}
+      {
+        "test_name": "Urine Protein:Creatinine Ratio",
+        "result": "12.5 mg/mg",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic-range proteinuria (>2 mg/mg in children)"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ protein, oval fat bodies, no RBCs, no WBCs, fatty casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Heavy proteinuria with lipiduria characteristic of this condition"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "1.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypoalbuminemia drives edema formation in this condition"
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "result": "385 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperlipidemia is a hallmark of this condition due to hepatic lipoprotein overproduction"
+      },
+      {
+        "test_name": "Triglycerides",
+        "result": "290 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated as part of nephrotic hyperlipidemia"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "0.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; minimal change disease typically preserves GFR"
+      },
+      {
+        "test_name": "BUN",
+        "result": "12 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "133 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Pseudohyponatremia from hyperlipidemia or dilutional from fluid retention"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "125 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complement levels help exclude membranoproliferative GN, lupus nephritis, and post-infectious GN"
+      },
+      {
+        "test_name": "24-hour Urine Protein",
+        "result": "3,200 mg/day",
+        "flag": "HIGH",
+        "clinical_significance": "Confirms nephrotic-range proteinuria (>40 mg/m²/hr in children)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Kidneys are normal in size and echogenicity bilaterally. No hydronephrosis, masses, or renal vein thrombosis.", "flag": "WNL", "clinical_significance": "Excludes structural abnormalities; normal appearance is typical in minimal change disease"},
-      {"test_name": "Chest X-ray", "result": "Small right-sided pleural effusion. No consolidation or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Pleural effusion secondary to low oncotic pressure from hypoalbuminemia"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Kidneys are normal in size and echogenicity bilaterally. No hydronephrosis, masses, or renal vein thrombosis.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes structural abnormalities; normal appearance is typical in minimal change disease"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Small right-sided pleural effusion. No consolidation or cardiomegaly.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pleural effusion secondary to low oncotic pressure from hypoalbuminemia"
+      }
     ],
     "key_tests": [
       "Urinalysis with microscopy",
@@ -63,7 +123,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A young child presenting with nephrotic-range proteinuria (UPC 12.5), severe hypoalbuminemia (1.4 g/dL), hyperlipidemia, and anasarca following a recent URI—with normal complement levels and preserved renal function—is classic for minimal change disease, the most common cause of nephrotic syndrome in children."
+    "final_clue": "A young child presenting with nephrotic-range proteinuria (UPC 12.5), severe hypoalbuminemia (1.4 g/dL), hyperlipidemia, and anasarca following a recent URI—with normal complement levels and preserved renal function—is classic for minimal change disease, the most common cause of this condition in children."
   },
   "debrief": {
     "classic_presentation": "A child aged 2-8 years presenting with periorbital edema (worst in the morning), anasarca, foamy urine, and weight gain, often following a viral URI. Labs reveal nephrotic-range proteinuria, severe hypoalbuminemia, hyperlipidemia, and normal complement levels.",

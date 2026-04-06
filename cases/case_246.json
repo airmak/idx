@@ -25,17 +25,62 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.8, Hgb 15.0, Hct 44.8, Plt 248", "flag": "WNL", "clinical_significance": "Normal; rules out anemia contributing to fatigue"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism as cause of depressive symptoms"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 14, Cr 1.0, Glucose 92, Ca 9.6, AST 32, ALT 28, Alk Phos 58, Albumin 4.1", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mildly elevated AST could reflect recent alcohol use"},
-      {"test_name": "Vitamin B12", "result": "520 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12; rules out deficiency causing fatigue and mood symptoms"},
-      {"test_name": "Folate", "result": "14.2 ng/mL", "flag": "WNL", "clinical_significance": "Normal folate level"},
-      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "No illicit substance use; alcohol would not be detected"},
-      {"test_name": "Testosterone (total, AM)", "result": "485 ng/dL", "flag": "WNL", "clinical_significance": "Normal testosterone; rules out hypogonadism as cause of fatigue and low mood in a male patient"},
-      {"test_name": "HbA1c", "result": "5.1%", "flag": "WNL", "clinical_significance": "Normal; rules out diabetes contributing to fatigue"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.8, Hgb 15.0, Hct 44.8, Plt 248",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out anemia contributing to fatigue"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; rules out hypothyroidism as cause of depressive symptoms"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 14, Cr 1.0, Glucose 92, Ca 9.6, AST 32, ALT 28, Alk Phos 58, Albumin 4.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; mildly elevated AST could reflect recent alcohol use"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "520 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal B12; rules out deficiency causing fatigue and mood symptoms"
+      },
+      {
+        "test_name": "Folate",
+        "result": "14.2 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal folate level"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for all substances",
+        "flag": "WNL",
+        "clinical_significance": "No illicit substance use; alcohol would not be detected"
+      },
+      {
+        "test_name": "Testosterone (total, AM)",
+        "result": "485 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal testosterone; rules out hypogonadism as cause of fatigue and low mood in a male patient"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.1%",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out diabetes contributing to fatigue"
+      }
     ],
     "imaging_results": [
-      {"test_name": "No imaging indicated", "result": "N/A", "flag": "N/A", "clinical_significance": "No focal neurological deficits or features suggesting structural pathology; imaging not warranted"}
+      {
+        "test_name": "No imaging indicated",
+        "result": "N/A",
+        "flag": "N/A",
+        "clinical_significance": "No focal neurological deficits or features suggesting structural pathology; imaging not warranted"
+      }
     ],
     "key_tests": [
       "PHQ-9 — score 16 (moderately severe depression)",
@@ -59,7 +104,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets DSM-5 criteria for major depressive disorder: depressed mood, anhedonia, insomnia (initial and terminal), fatigue, weight loss/decreased appetite, feelings of worthlessness, and difficulty concentrating — 7 of 9 criteria present for >2 weeks, causing significant functional impairment. PHQ-9 of 16 confirms moderately severe depression. All medical causes have been ruled out with normal labs. A clear precipitant (job loss) is identified, but severity and duration exceed adjustment disorder. The increasing alcohol use is a concerning secondary issue requiring attention."
+    "final_clue": "The patient meets DSM-5 criteria for this condition disorder: depressed mood, anhedonia, insomnia (initial and terminal), fatigue, weight loss/decreased appetite, feelings of worthlessness, and difficulty concentrating — 7 of 9 criteria present for >2 weeks, causing significant functional impairment. PHQ-9 of 16 confirms moderately severe depression. All medical causes have been ruled out with normal labs. A clear precipitant (job loss) is identified, but severity and duration exceed adjustment disorder. The increasing alcohol use is a concerning secondary issue requiring attention."
   },
   "debrief": {
     "classic_presentation": "An adult presenting with at least 2 weeks of persistent depressed mood and/or loss of interest (anhedonia) plus additional neurovegetative symptoms totaling 5 or more from the SIG E CAPS criteria: Sleep changes, Interest loss, Guilt/worthlessness, Energy loss, Concentration difficulty, Appetite/weight changes, Psychomotor changes, Suicidality. Symptoms cause significant distress or impaired functioning. A psychosocial stressor is commonly identified but not required for diagnosis.",

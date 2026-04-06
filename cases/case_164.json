@@ -25,27 +25,101 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 6.5, Hgb 13.8, Plt 245", "flag": "WNL", "clinical_significance": "Normal, no anemia or leukocytosis to suggest organic disease"},
-      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal, no systemic inflammation — argues against IBD"},
-      {"test_name": "Fecal calprotectin", "result": "18 µg/g", "flag": "WNL", "clinical_significance": "Normal (<50) — effectively excludes IBD as cause of symptoms"},
-      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out hyperthyroidism as cause of diarrhea"},
-      {"test_name": "Celiac panel (tTG IgA + total IgA)", "result": "tTG IgA 3 U/mL (negative), total IgA 180 mg/dL (normal)", "flag": "WNL", "clinical_significance": "Normal, rules out celiac disease"},
-      {"test_name": "Stool studies (culture, O&P, C. diff)", "result": "All negative", "flag": "WNL", "clinical_significance": "No infectious etiology"},
-      {"test_name": "BMP", "result": "All within normal limits", "flag": "WNL", "clinical_significance": "Normal electrolytes"},
-      {"test_name": "ALT", "result": "22 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
-      {"test_name": "Albumin", "result": "4.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, no malabsorption or chronic inflammation"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.5, Hgb 13.8, Plt 245",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no anemia or leukocytosis to suggest organic disease"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no systemic inflammation — argues against IBD"
+      },
+      {
+        "test_name": "Fecal calprotectin",
+        "result": "18 µg/g",
+        "flag": "WNL",
+        "clinical_significance": "Normal (<50) — effectively excludes IBD as cause of symptoms"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out hyperthyroidism as cause of diarrhea"
+      },
+      {
+        "test_name": "Celiac panel (tTG IgA + total IgA)",
+        "result": "tTG IgA 3 U/mL (negative), total IgA 180 mg/dL (normal)",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out celiac disease"
+      },
+      {
+        "test_name": "Stool studies (culture, O&P, C. diff)",
+        "result": "All negative",
+        "flag": "WNL",
+        "clinical_significance": "No infectious etiology"
+      },
+      {
+        "test_name": "BMP",
+        "result": "All within normal limits",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes"
+      },
+      {
+        "test_name": "ALT",
+        "result": "22 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "4.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no malabsorption or chronic inflammation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Colonoscopy", "result": "Normal mucosa throughout colon and terminal ileum. No ulcers, erythema, or polyps. Random biopsies from right and left colon show normal histology.", "flag": "WNL", "clinical_significance": "Normal structural exam with normal biopsies — rules out IBD and microscopic colitis"},
-      {"test_name": "Abdominal X-ray", "result": "Normal bowel gas pattern, no obstruction or dilation", "flag": "WNL", "clinical_significance": "No structural abnormality"}
+      {
+        "test_name": "Colonoscopy",
+        "result": "Normal mucosa throughout colon and terminal ileum. No ulcers, erythema, or polyps. Random biopsies from right and left colon show normal histology.",
+        "flag": "WNL",
+        "clinical_significance": "Normal structural exam with normal biopsies — rules out IBD and microscopic colitis"
+      },
+      {
+        "test_name": "Abdominal X-ray",
+        "result": "Normal bowel gas pattern, no obstruction or dilation",
+        "flag": "WNL",
+        "clinical_significance": "No structural abnormality"
+      }
     ],
-    "key_tests": ["Fecal calprotectin", "CBC", "CRP", "Celiac panel (tTG IgA)", "TSH"],
-    "acceptable_tests": ["Stool studies (culture, O&P, C. diff toxin)", "Colonoscopy with biopsies", "BMP", "LFTs", "Lactose hydrogen breath test", "Fecal elastase"],
-    "low_yield_tests": ["CT abdomen", "MRCP", "Upper endoscopy (no upper GI symptoms)", "Serum gastrin", "Small bowel follow-through"],
+    "key_tests": [
+      "Fecal calprotectin",
+      "CBC",
+      "CRP",
+      "Celiac panel (tTG IgA)",
+      "TSH"
+    ],
+    "acceptable_tests": [
+      "Stool studies (culture, O&P, C. diff toxin)",
+      "Colonoscopy with biopsies",
+      "BMP",
+      "LFTs",
+      "Lactose hydrogen breath test",
+      "Fecal elastase"
+    ],
+    "low_yield_tests": [
+      "CT abdomen",
+      "MRCP",
+      "Upper endoscopy (no upper GI symptoms)",
+      "Serum gastrin",
+      "Small bowel follow-through"
+    ],
     "key_tests_rationale": "Fecal calprotectin <50 effectively excludes IBD (NPV >95%). CBC and CRP screen for organic disease. Celiac panel rules out celiac disease (present in ~5% of IBS-D patients). TSH excludes thyroid disease. Stool studies exclude infectious diarrhea."
   },
   "stage5": {
-    "final_clue": "The patient meets Rome IV criteria for IBS-D: recurrent abdominal pain related to defecation with altered stool form, occurring at least 1 day/week for ≥6 months. All laboratory and endoscopic evaluations are normal, including fecal calprotectin, celiac serologies, and colonoscopy with biopsies."
+    "final_clue": "The patient meets Rome IV criteria for this condition: recurrent abdominal pain related to defecation with altered stool form, occurring at least 1 day/week for ≥6 months. All laboratory and endoscopic evaluations are normal, including fecal calprotectin, celiac serologies, and colonoscopy with biopsies."
   },
   "debrief": {
     "classic_presentation": "IBS presents with chronic, recurrent abdominal pain associated with defecation and altered bowel habits (diarrhea, constipation, or both). Pain does NOT occur during sleep (unlike organic disease). Symptoms are exacerbated by stress and certain foods. There is NO weight loss, rectal bleeding, fever, or nocturnal diarrhea. Normal labs and endoscopy support the diagnosis.",
@@ -66,9 +140,30 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Inflammatory bowel disease (UC/Crohn's)", "Celiac disease", "Microscopic colitis", "Hyperthyroidism", "Lactose intolerance", "Chronic infectious diarrhea", "Small intestinal bacterial overgrowth (SIBO)"],
-    "after_stage2_more_likely": ["IBS", "Food intolerance", "Functional dyspepsia"],
-    "after_stage2_less_likely": ["IBD", "Celiac disease", "Hyperthyroidism", "Infectious diarrhea"],
-    "after_labs_top3": ["Irritable bowel syndrome (diarrhea-predominant)", "Food intolerance", "SIBO"]
+    "reasonable_ddx": [
+      "Inflammatory bowel disease (UC/Crohn's)",
+      "Celiac disease",
+      "Microscopic colitis",
+      "Hyperthyroidism",
+      "Lactose intolerance",
+      "Chronic infectious diarrhea",
+      "Small intestinal bacterial overgrowth (SIBO)"
+    ],
+    "after_stage2_more_likely": [
+      "IBS",
+      "Food intolerance",
+      "Functional dyspepsia"
+    ],
+    "after_stage2_less_likely": [
+      "IBD",
+      "Celiac disease",
+      "Hyperthyroidism",
+      "Infectious diarrhea"
+    ],
+    "after_labs_top3": [
+      "Irritable bowel syndrome (diarrhea-predominant)",
+      "Food intolerance",
+      "SIBO"
+    ]
   }
 }

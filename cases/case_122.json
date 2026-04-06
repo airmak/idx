@@ -11,7 +11,7 @@
     "surgical_history": "None.",
     "medications": "Ibuprofen 400 mg PRN (2-3 times/week for headaches), gabapentin 300 mg TID (started 2 months ago for hand pain — partial relief).",
     "allergies": "No known drug allergies.",
-    "family_history": "Mother has connective tissue hyperlaxity. No known Chiari malformations in family.",
+    "family_history": "Mother has connective tissue hyperlaxity. No known this conditions in family.",
     "social_history": "Graphic designer. Non-smoker. Social alcohol (stopped due to headaches worsening). Not pregnant, uses IUD. No illicit drug use.",
     "vitals": {
       "temp": "98.4 F (36.9 C)",
@@ -25,23 +25,98 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "6,800/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Glucose", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Vitamin B12", "result": "510 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency myelopathy excluded"},
-      {"test_name": "ESR", "result": "6 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
-      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "6,800/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "141 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "510 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; B12 deficiency myelopathy excluded"
+      },
+      {
+        "test_name": "ESR",
+        "result": "6 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no systemic inflammatory process"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain and craniocervical junction with cine flow study", "result": "Cerebellar tonsillar herniation 12 mm below the foramen magnum (>5 mm is diagnostic of Chiari I). Crowding at the foramen magnum with obliteration of the cisterna magna. Cine CSF flow study shows reduced or absent CSF flow dorsal to the cervicomedullary junction at the foramen magnum, confirming CSF flow obstruction.", "flag": "ABNORMAL", "clinical_significance": "Chiari I malformation is defined by cerebellar tonsillar herniation >=5 mm below the foramen magnum. The 12 mm descent is significant. Cine flow study documenting impaired CSF flow is important for surgical decision-making."},
-      {"test_name": "MRI cervical and thoracic spine", "result": "Syringomyelia: T2 hyperintense fluid-filled cavity within the central spinal cord from C4 to T4, measuring up to 8 mm in maximal anteroposterior diameter. Mild cord expansion at C5-C6. No cord enhancement.", "flag": "ABNORMAL", "clinical_significance": "Syringomyelia is present in 50-70% of symptomatic Chiari I patients. The syrinx extends C4-T4, correlating with the cape-like dissociated sensory loss and hand intrinsic weakness. The syrinx forms due to altered CSF dynamics at the craniocervical junction."},
-      {"test_name": "MRI brain (full)", "result": "No hydrocephalus. Posterior fossa is small (consistent with Chiari I — the posterior fossa is congenitally underdeveloped, crowding the cerebellum inferiorly). No other brain abnormalities.", "flag": "WNL", "clinical_significance": "Small posterior fossa is the underlying structural abnormality in Chiari I — the cerebellum herniates through the foramen magnum due to insufficient space."}
+      {
+        "test_name": "MRI brain and craniocervical junction with cine flow study",
+        "result": "Cerebellar tonsillar herniation 12 mm below the foramen magnum (>5 mm is diagnostic of Chiari I). Crowding at the foramen magnum with obliteration of the cisterna magna. Cine CSF flow study shows reduced or absent CSF flow dorsal to the cervicomedullary junction at the foramen magnum, confirming CSF flow obstruction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Chiari I malformation is defined by cerebellar tonsillar herniation >=5 mm below the foramen magnum. The 12 mm descent is significant. Cine flow study documenting impaired CSF flow is important for surgical decision-making."
+      },
+      {
+        "test_name": "MRI cervical and thoracic spine",
+        "result": "Syringomyelia: T2 hyperintense fluid-filled cavity within the central spinal cord from C4 to T4, measuring up to 8 mm in maximal anteroposterior diameter. Mild cord expansion at C5-C6. No cord enhancement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Syringomyelia is present in 50-70% of symptomatic Chiari I patients. The syrinx extends C4-T4, correlating with the cape-like dissociated sensory loss and hand intrinsic weakness. The syrinx forms due to altered CSF dynamics at the craniocervical junction."
+      },
+      {
+        "test_name": "MRI brain (full)",
+        "result": "No hydrocephalus. Posterior fossa is small (consistent with Chiari I — the posterior fossa is congenitally underdeveloped, crowding the cerebellum inferiorly). No other brain abnormalities.",
+        "flag": "WNL",
+        "clinical_significance": "Small posterior fossa is the underlying structural abnormality in Chiari I — the cerebellum herniates through the foramen magnum due to insufficient space."
+      }
     ],
-    "key_tests": ["MRI brain and craniocervical junction (definitive imaging for Chiari I)", "MRI cervical and thoracic spine (to evaluate for syringomyelia)", "Cine CSF flow study (phase-contrast MRI — assesses CSF dynamics at the foramen magnum)", "Detailed neurological examination (dissociated sensory loss, downbeat nystagmus)"],
-    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "ESR", "MRI full spine (if syrinx extends distally)", "Polysomnography (if sleep apnea suspected — common in Chiari I)", "BAER (brainstem auditory evoked responses)", "Swallowing evaluation (if bulbar symptoms)"],
-    "low_yield_tests": ["CT head (cannot adequately assess craniocervical junction or syrinx)", "EEG", "Lumbar puncture (CONTRAINDICATED — risk of tonsillar herniation with LP in Chiari I)", "Cerebral angiography"],
+    "key_tests": [
+      "MRI brain and craniocervical junction (definitive imaging for Chiari I)",
+      "MRI cervical and thoracic spine (to evaluate for syringomyelia)",
+      "Cine CSF flow study (phase-contrast MRI — assesses CSF dynamics at the foramen magnum)",
+      "Detailed neurological examination (dissociated sensory loss, downbeat nystagmus)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "TSH",
+      "Vitamin B12",
+      "ESR",
+      "MRI full spine (if syrinx extends distally)",
+      "Polysomnography (if sleep apnea suspected — common in Chiari I)",
+      "BAER (brainstem auditory evoked responses)",
+      "Swallowing evaluation (if bulbar symptoms)"
+    ],
+    "low_yield_tests": [
+      "CT head (cannot adequately assess craniocervical junction or syrinx)",
+      "EEG",
+      "Lumbar puncture (CONTRAINDICATED — risk of tonsillar herniation with LP in Chiari I)",
+      "Cerebral angiography"
+    ],
     "low_yield_tests_note": "Lumbar puncture is CONTRAINDICATED in known Chiari I malformation due to risk of precipitating tonsillar herniation."
   },
   "stage5": {
@@ -66,9 +141,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Chiari malformation type I with syringomyelia", "Primary cough headache (benign)", "Cervical spondylotic myelopathy", "Multiple sclerosis", "Intramedullary spinal cord tumor", "Idiopathic syringomyelia", "Tethered cord syndrome"],
-    "after_stage2_more_likely": ["Chiari malformation type I with syringomyelia", "Intramedullary spinal cord tumor"],
-    "after_stage2_less_likely": ["Primary cough headache", "Cervical spondylotic myelopathy", "Multiple sclerosis"],
-    "after_labs_top3": ["Chiari malformation type I with syringomyelia", "Intramedullary spinal cord tumor", "Idiopathic syringomyelia"]
+    "reasonable_ddx": [
+      "Chiari malformation type I with syringomyelia",
+      "Primary cough headache (benign)",
+      "Cervical spondylotic myelopathy",
+      "Multiple sclerosis",
+      "Intramedullary spinal cord tumor",
+      "Idiopathic syringomyelia",
+      "Tethered cord syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Chiari malformation type I with syringomyelia",
+      "Intramedullary spinal cord tumor"
+    ],
+    "after_stage2_less_likely": [
+      "Primary cough headache",
+      "Cervical spondylotic myelopathy",
+      "Multiple sclerosis"
+    ],
+    "after_labs_top3": [
+      "Chiari malformation type I with syringomyelia",
+      "Intramedullary spinal cord tumor",
+      "Idiopathic syringomyelia"
+    ]
   }
 }

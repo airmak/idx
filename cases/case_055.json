@@ -25,27 +25,101 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "7.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC - Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal, no anemia"},
-      {"test_name": "CBC - Platelets", "result": "248 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Hepatic Function Panel", "result": "AST 24, ALT 22, ALP 78, Total Bilirubin 0.6", "flag": "WNL", "clinical_significance": "Normal liver function; no evidence of hepatic metastases"},
-      {"test_name": "Calcium", "result": "9.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypercalcemia would raise concern for bone metastases"},
-      {"test_name": "CA 15-3", "result": "18 U/mL", "flag": "WNL", "clinical_significance": "Within normal range; tumor markers are not used for screening or diagnosis but may be followed during treatment"},
-      {"test_name": "CA 27.29", "result": "22 U/mL", "flag": "WNL", "clinical_significance": "Normal; not recommended for routine screening"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "7.2 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "13.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no anemia"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "248 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Hepatic Function Panel",
+        "result": "AST 24, ALT 22, ALP 78, Total Bilirubin 0.6",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function; no evidence of hepatic metastases"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "9.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypercalcemia would raise concern for bone metastases"
+      },
+      {
+        "test_name": "CA 15-3",
+        "result": "18 U/mL",
+        "flag": "WNL",
+        "clinical_significance": "Within normal range; tumor markers are not used for screening or diagnosis but may be followed during treatment"
+      },
+      {
+        "test_name": "CA 27.29",
+        "result": "22 U/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; not recommended for routine screening"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Diagnostic Mammogram (bilateral)", "result": "Left breast: An irregular, spiculated, high-density mass measuring 2.4 x 2.1 cm in the upper outer quadrant at the 10 o'clock position. Associated microcalcifications in a linear/branching pattern. No skin thickening. Right breast: No suspicious findings. Assessment: BI-RADS 5 (highly suggestive of malignancy).", "flag": "ABNORMAL", "clinical_significance": "BI-RADS 5 lesion with spiculated margins and suspicious microcalcifications is highly suggestive of malignancy. Tissue sampling is required."},
-      {"test_name": "Breast Ultrasound (left)", "result": "Irregular, hypoechoic solid mass measuring 2.5 x 2.2 x 1.8 cm in the left upper outer quadrant corresponding to the mammographic finding. Posterior acoustic shadowing present. Taller-than-wide orientation. Left axilla: An abnormal-appearing lymph node measuring 1.6 cm with cortical thickening (6 mm) and loss of fatty hilum.", "flag": "ABNORMAL", "clinical_significance": "Ultrasound features (irregular borders, shadowing, taller-than-wide) are highly suspicious for malignancy. Abnormal axillary lymph node suggests possible metastatic involvement."},
-      {"test_name": "Core Needle Biopsy (US-guided, left breast mass and axillary lymph node)", "result": "Left breast mass: Invasive ductal carcinoma, grade 2 (Nottingham score 6). ER positive (90%), PR positive (60%), HER2 negative (IHC 1+). Ki-67: 18%. Left axillary lymph node: Positive for metastatic carcinoma consistent with breast primary.", "flag": "ABNORMAL", "clinical_significance": "Confirms invasive ductal carcinoma, hormone receptor positive, HER2 negative, with axillary nodal metastasis. Clinical stage IIB (T2N1M0). This determines treatment approach including potential neoadjuvant therapy."}
+      {
+        "test_name": "Diagnostic Mammogram (bilateral)",
+        "result": "Left breast: An irregular, spiculated, high-density mass measuring 2.4 x 2.1 cm in the upper outer quadrant at the 10 o'clock position. Associated microcalcifications in a linear/branching pattern. No skin thickening. Right breast: No suspicious findings. Assessment: BI-RADS 5 (highly suggestive of malignancy).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "BI-RADS 5 lesion with spiculated margins and suspicious microcalcifications is highly suggestive of malignancy. Tissue sampling is required."
+      },
+      {
+        "test_name": "Breast Ultrasound (left)",
+        "result": "Irregular, hypoechoic solid mass measuring 2.5 x 2.2 x 1.8 cm in the left upper outer quadrant corresponding to the mammographic finding. Posterior acoustic shadowing present. Taller-than-wide orientation. Left axilla: An abnormal-appearing lymph node measuring 1.6 cm with cortical thickening (6 mm) and loss of fatty hilum.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound features (irregular borders, shadowing, taller-than-wide) are highly suspicious for malignancy. Abnormal axillary lymph node suggests possible metastatic involvement."
+      },
+      {
+        "test_name": "Core Needle Biopsy (US-guided, left breast mass and axillary lymph node)",
+        "result": "Left breast mass: this condition carcinoma, grade 2 (Nottingham score 6). ER positive (90%), PR positive (60%), HER2 negative (IHC 1+). Ki-67: 18%. Left axillary lymph node: Positive for metastatic carcinoma consistent with breast primary.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms this condition carcinoma, hormone receptor positive, HER2 negative, with axillary nodal metastasis. Clinical stage IIB (T2N1M0). This determines treatment approach including potential neoadjuvant therapy."
+      }
     ],
-    "key_tests": ["Diagnostic mammogram (bilateral)", "Breast ultrasound", "Core needle biopsy with receptor status (ER, PR, HER2)", "CBC", "Hepatic function panel"],
-    "acceptable_tests": ["Calcium", "Chest X-ray (staging)", "CT chest/abdomen/pelvis (staging)", "Bone scan (if symptomatic)", "Genetic counseling/testing (BRCA1/2 given family history)", "Breast MRI (for extent of disease)", "Axillary ultrasound with FNA"],
-    "low_yield_tests": ["PET/CT (not first-line for early-stage breast cancer staging)", "Tumor markers (CA 15-3, CA 27.29) for diagnosis", "Fine needle aspiration alone (core biopsy preferred for receptor status)", "Thermography (not validated for breast cancer detection)"],
+    "key_tests": [
+      "Diagnostic mammogram (bilateral)",
+      "Breast ultrasound",
+      "Core needle biopsy with receptor status (ER, PR, HER2)",
+      "CBC",
+      "Hepatic function panel"
+    ],
+    "acceptable_tests": [
+      "Calcium",
+      "Chest X-ray (staging)",
+      "CT chest/abdomen/pelvis (staging)",
+      "Bone scan (if symptomatic)",
+      "Genetic counseling/testing (BRCA1/2 given family history)",
+      "Breast MRI (for extent of disease)",
+      "Axillary ultrasound with FNA"
+    ],
+    "low_yield_tests": [
+      "PET/CT (not first-line for early-stage breast cancer staging)",
+      "Tumor markers (CA 15-3, CA 27.29) for diagnosis",
+      "Fine needle aspiration alone (core biopsy preferred for receptor status)",
+      "Thermography (not validated for breast cancer detection)"
+    ],
     "final_clue": "Diagnostic mammogram shows a BI-RADS 5 spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, grade 2, ER+/PR+/HER2-negative, with a positive axillary lymph node. This is clinical stage IIB (T2N1M0) breast cancer requiring multidisciplinary treatment planning."
   },
   "stage5": {
-    "final_clue": "Diagnostic mammogram shows a BI-RADS 5 spiculated mass with microcalcifications. Core needle biopsy confirms invasive ductal carcinoma, grade 2, ER+/PR+/HER2-negative, with a positive axillary lymph node. This is clinical stage IIB (T2N1M0) breast cancer requiring multidisciplinary treatment planning."
+    "final_clue": "Diagnostic mammogram shows a BI-RADS 5 spiculated mass with microcalcifications. Core needle biopsy confirms this condition carcinoma, grade 2, ER+/PR+/HER2-negative, with a positive axillary lymph node. This is clinical stage IIB (T2N1M0) breast cancer requiring multidisciplinary treatment planning."
   },
   "debrief": {
     "classic_presentation": "Painless, firm, irregular breast mass, most commonly in the upper outer quadrant (50% of breast cancers). Skin dimpling (Cooper ligament involvement), nipple retraction, peau d'orange (dermal lymphatic invasion), and axillary lymphadenopathy suggest locally advanced disease. Risk factors include age >50, family history (first-degree relative), BRCA1/2 mutations, early menarche, late menopause, nulliparity or late first pregnancy, HRT use, obesity (postmenopausal), and alcohol use. Invasive ductal carcinoma accounts for 70-80% of all breast cancers.",
@@ -66,9 +140,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Invasive ductal carcinoma", "Invasive lobular carcinoma", "Fibroadenoma", "Breast cyst", "Phyllodes tumor", "Fat necrosis", "Breast lymphoma"],
-    "after_stage2_more_likely": ["Invasive ductal carcinoma", "Invasive lobular carcinoma"],
-    "after_stage2_less_likely": ["Fibroadenoma", "Breast cyst", "Fat necrosis"],
-    "after_labs_top3": ["Invasive ductal carcinoma", "Invasive lobular carcinoma", "Phyllodes tumor"]
+    "reasonable_ddx": [
+      "Invasive ductal carcinoma",
+      "Invasive lobular carcinoma",
+      "Fibroadenoma",
+      "Breast cyst",
+      "Phyllodes tumor",
+      "Fat necrosis",
+      "Breast lymphoma"
+    ],
+    "after_stage2_more_likely": [
+      "Invasive ductal carcinoma",
+      "Invasive lobular carcinoma"
+    ],
+    "after_stage2_less_likely": [
+      "Fibroadenoma",
+      "Breast cyst",
+      "Fat necrosis"
+    ],
+    "after_labs_top3": [
+      "Invasive ductal carcinoma",
+      "Invasive lobular carcinoma",
+      "Phyllodes tumor"
+    ]
   }
 }

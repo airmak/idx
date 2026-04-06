@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Alpha-Galactosidase A Activity (Leukocytes)", "result": "<1% of normal (0.3 nmol/hr/mg protein; normal >3.0)", "flag": "LOW", "clinical_significance": "Markedly deficient enzyme activity is diagnostic of Fabry disease in males"},
-      {"test_name": "Plasma Globotriaosylsphingosine (Lyso-Gb3)", "result": "85 nmol/L (normal <1.8)", "flag": "HIGH", "clinical_significance": "Markedly elevated; biomarker for Fabry disease severity and treatment monitoring"},
-      {"test_name": "Urine Protein:Creatinine Ratio", "result": "1.8 g/g", "flag": "HIGH", "clinical_significance": "Significant proteinuria from Gb3 accumulation in podocytes and mesangial cells"},
-      {"test_name": "Serum Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; early CKD from Fabry nephropathy"},
-      {"test_name": "eGFR", "result": "52 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 3a; GFR decline in Fabry disease accelerates after age 30 in males"},
-      {"test_name": "Urinalysis", "result": "1+ protein, Maltese cross bodies (birefringent lipid) under polarized light, no RBC casts", "flag": "ABNORMAL", "clinical_significance": "Maltese cross (birefringent lipid globules) in urine sediment represents Gb3-laden lipid droplets — suggestive of Fabry disease"},
-      {"test_name": "BNP", "result": "220 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated from LVH-related diastolic dysfunction"},
-      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; chronic myocardial injury from Gb3 deposition in cardiomyocytes"},
-      {"test_name": "CBC", "result": "Hgb 13.8 g/dL, WBC 7,200/μL, Plt 225,000/μL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Genetic Testing (GLA Gene)", "result": "Hemizygous pathogenic missense mutation c.644A>G (p.Asn215Ser) in GLA gene on Xq22.1", "flag": "ABNORMAL", "clinical_significance": "Confirms the molecular diagnosis of Fabry disease; X-linked recessive inheritance"}
+      {
+        "test_name": "Alpha-Galactosidase A Activity (Leukocytes)",
+        "result": "<1% of normal (0.3 nmol/hr/mg protein; normal >3.0)",
+        "flag": "LOW",
+        "clinical_significance": "Markedly deficient enzyme activity is diagnostic of this condition in males"
+      },
+      {
+        "test_name": "Plasma Globotriaosylsphingosine (Lyso-Gb3)",
+        "result": "85 nmol/L (normal <1.8)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; biomarker for this condition severity and treatment monitoring"
+      },
+      {
+        "test_name": "Urine Protein:Creatinine Ratio",
+        "result": "1.8 g/g",
+        "flag": "HIGH",
+        "clinical_significance": "Significant proteinuria from Gb3 accumulation in podocytes and mesangial cells"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; early CKD from Fabry nephropathy"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "52 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "CKD stage 3a; GFR decline in this condition accelerates after age 30 in males"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "1+ protein, Maltese cross bodies (birefringent lipid) under polarized light, no RBC casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Maltese cross (birefringent lipid globules) in urine sediment represents Gb3-laden lipid droplets — suggestive of this condition"
+      },
+      {
+        "test_name": "BNP",
+        "result": "220 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from LVH-related diastolic dysfunction"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.04 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; chronic myocardial injury from Gb3 deposition in cardiomyocytes"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 13.8 g/dL, WBC 7,200/μL, Plt 225,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Genetic Testing (GLA Gene)",
+        "result": "Hemizygous pathogenic missense mutation c.644A>G (p.Asn215Ser) in GLA gene on Xq22.1",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms the molecular diagnosis of this condition; X-linked recessive inheritance"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Echocardiogram", "result": "Concentric left ventricular hypertrophy (interventricular septum 14 mm, posterior wall 13 mm). Mildly reduced diastolic function (grade I). LVEF 55%. No valvular disease. Binary sign (endocardial hyperechogenicity).", "flag": "ABNORMAL", "clinical_significance": "LVH in Fabry is from Gb3 accumulation in cardiomyocytes, not from hypertension; mimics hypertrophic cardiomyopathy"},
-      {"test_name": "Renal Biopsy", "result": "Light microscopy: vacuolated and foamy podocytes and distal tubular epithelial cells. Electron microscopy: lamellated myelin-like inclusions ('zebra bodies') in podocytes, mesangial cells, endothelial cells, and tubular epithelial cells. No immune deposits on immunofluorescence.", "flag": "ABNORMAL", "clinical_significance": "'Zebra bodies' (lamellated Gb3 inclusions) on EM are pathognomonic for Fabry disease"},
-      {"test_name": "Cardiac MRI", "result": "Concentric LVH. Late gadolinium enhancement in the inferolateral basal segment. T1 mapping shows reduced native T1 values (consistent with Gb3 accumulation).", "flag": "ABNORMAL", "clinical_significance": "Low native T1 values on cardiac MRI are characteristic of Fabry cardiomyopathy and help distinguish it from other causes of LVH"}
+      {
+        "test_name": "Echocardiogram",
+        "result": "Concentric left ventricular hypertrophy (interventricular septum 14 mm, posterior wall 13 mm). Mildly reduced diastolic function (grade I). LVEF 55%. No valvular disease. Binary sign (endocardial hyperechogenicity).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH in Fabry is from Gb3 accumulation in cardiomyocytes, not from hypertension; mimics hypertrophic cardiomyopathy"
+      },
+      {
+        "test_name": "Renal Biopsy",
+        "result": "Light microscopy: vacuolated and foamy podocytes and distal tubular epithelial cells. Electron microscopy: lamellated myelin-like inclusions ('zebra bodies') in podocytes, mesangial cells, endothelial cells, and tubular epithelial cells. No immune deposits on immunofluorescence.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "'Zebra bodies' (lamellated Gb3 inclusions) on EM are pathognomonic for this condition"
+      },
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Concentric LVH. Late gadolinium enhancement in the inferolateral basal segment. T1 mapping shows reduced native T1 values (consistent with Gb3 accumulation).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low native T1 values on cardiac MRI are characteristic of Fabry cardiomyopathy and help distinguish it from other causes of LVH"
+      }
     ],
     "key_tests": [
       "Alpha-galactosidase A enzyme activity (in leukocytes — gold standard for males)",
@@ -66,7 +131,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A young man with childhood-onset acroparesthesias, hypohidrosis, angiokeratomas, corneal verticillata, LVH with low T1 values on cardiac MRI, proteinuria with Maltese crosses on urinalysis, and markedly deficient alpha-galactosidase A activity with confirmed GLA gene mutation confirms Fabry disease with renal, cardiac, and neurologic involvement."
+    "final_clue": "A young man with childhood-onset acroparesthesias, hypohidrosis, angiokeratomas, corneal verticillata, LVH with low T1 values on cardiac MRI, proteinuria with Maltese crosses on urinalysis, and markedly deficient alpha-galactosidase A activity with confirmed GLA gene mutation confirms this condition with renal, cardiac, and neurologic involvement."
   },
   "debrief": {
     "classic_presentation": "A young male with childhood-onset neuropathic pain in hands and feet (acroparesthesias), hypohidrosis, clustered angiokeratomas in the bathing trunk area, corneal verticillata, and progressive multi-organ involvement (proteinuria, CKD, LVH, stroke) beginning in the 3rd-4th decade. X-linked inheritance pattern with affected maternal uncle and milder symptoms in carrier females.",

@@ -4,7 +4,7 @@
   "specialty": "OB/GYN",
   "diagnosis": "Gestational diabetes mellitus (GDM, class A2)",
   "icd_category": "O24.419 – Gestational diabetes mellitus in pregnancy, unspecified control",
-  "one_liner": "A 30-year-old G2P1 at 28 weeks gestation is found to have an abnormal 1-hour glucose challenge test (185 mg/dL) followed by a diagnostic 3-hour OGTT confirming gestational diabetes.",
+  "one_liner": "A 30-year-old G2P1 at 28 weeks gestation is found to have an abnormal 1-hour glucose challenge test (185 mg/dL) followed by a diagnostic 3-hour OGTT confirming this condition.",
   "stage2": {
     "hpi_extension": "The patient presents for routine prenatal care at 28 weeks gestation. She underwent a 1-hour 50-g glucose challenge test which returned at 185 mg/dL (cutoff 130-140 mg/dL). She reports feeling well overall but notes increased thirst, frequent urination, and fatigue over the past 3 weeks, which she attributed to normal pregnancy. She has had a 3 kg weight gain in the past month (more than expected). Her first pregnancy was uncomplicated and resulted in a 3.8 kg (8 lb 6 oz) baby delivered vaginally at 39 weeks. She denies polyhydramnios symptoms. She has no history of diabetes. Her diet includes regular sugar-sweetened beverages and high-carbohydrate meals.",
     "pmh": "G2P1001. Prior uncomplicated pregnancy with macrosomic infant (3.8 kg). BMI 32 pre-pregnancy (obese). No prior GDM diagnosis.",
@@ -47,7 +47,7 @@
         "test_name": "Fasting glucose",
         "result": "105 mg/dL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated fasting glucose indicates that diet alone may be insufficient (class A2 GDM), and pharmacologic therapy may be needed."
+        "clinical_significance": "Elevated fasting glucose indicates that diet alone may be insufficient (this condition GDM), and pharmacologic therapy may be needed."
       },
       {
         "test_name": "CBC",
@@ -103,7 +103,7 @@
     "attending_pimp_questions": null
   },
   "stage5": {
-    "final_clue": "After 2 weeks of dietary modification and glucose self-monitoring, the patient's fasting glucose remains 100-115 mg/dL and 2-hour postprandial values are 130-150 mg/dL, exceeding targets (fasting <95, 2-hour postprandial <120), confirming class A2 GDM requiring insulin therapy."
+    "final_clue": "After 2 weeks of dietary modification and glucose self-monitoring, the patient's fasting glucose remains 100-115 mg/dL and 2-hour postprandial values are 130-150 mg/dL, exceeding targets (fasting <95, 2-hour postprandial <120), confirming this condition GDM requiring insulin therapy."
   },
   "debrief": {
     "classic_presentation": "Gestational diabetes is often asymptomatic and detected on routine screening at 24-28 weeks gestation. Risk factors include obesity, age >25, family history of diabetes, prior GDM, prior macrosomic infant, and certain ethnicities (Hispanic, African American, Native American, South Asian). When symptomatic, patients may report polydipsia, polyuria, and excessive weight gain. Ultrasound may show fetal macrosomia or polyhydramnios.",

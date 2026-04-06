@@ -11,7 +11,7 @@
     "surgical_history": "None",
     "medications": "Ibuprofen 600 mg as needed for joint pain",
     "allergies": "Sulfa drugs (rash)",
-    "family_history": "Maternal aunt with systemic lupus erythematosus. Mother with Sjogren syndrome. No family history of renal disease.",
+    "family_history": "Maternal aunt with this condition. Mother with Sjogren syndrome. No family history of renal disease.",
     "social_history": "Non-smoker, no alcohol use, no illicit drug use. Works as a graphic designer. Single, no children. Sexually active with one partner, uses oral contraceptives.",
     "vitals": {
       "temp": "37.8°C (100.0°F)",
@@ -25,26 +25,117 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "ANA", "result": "Positive at 1:640, homogeneous pattern", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive for SLE (>95%); homogeneous pattern suggests anti-dsDNA antibodies"},
-      {"test_name": "Anti-dsDNA antibodies", "result": "185 IU/mL (ref < 30)", "flag": "HIGH", "clinical_significance": "Highly specific for SLE; titers correlate with disease activity and lupus nephritis risk"},
-      {"test_name": "Complement C3", "result": "48 mg/dL", "flag": "LOW", "clinical_significance": "Low C3 indicates complement consumption from immune complex formation, common in active SLE"},
-      {"test_name": "Complement C4", "result": "6 mg/dL", "flag": "LOW", "clinical_significance": "Low C4 further supports complement consumption; useful for monitoring disease activity"},
-      {"test_name": "Anti-Smith antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Highly specific for SLE (>99%); present in about 30% of SLE patients"},
-      {"test_name": "CBC", "result": "WBC 3,100/μL (lymphocytes 800/μL), Hgb 10.8 g/dL, Plt 118,000/μL", "flag": "LOW", "clinical_significance": "Pancytopenia with lymphopenia is characteristic of active SLE"},
-      {"test_name": "ESR", "result": "65 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated ESR is common in active SLE; CRP is often normal or only mildly elevated in SLE flares (unless serositis or infection)"},
-      {"test_name": "CRP", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Only mildly elevated; in SLE, ESR is typically much more elevated than CRP unless infection or serositis is present"},
-      {"test_name": "Urinalysis", "result": "Protein 2+, RBC 15-20/hpf, RBC casts present, no bacteria", "flag": "ABNORMAL", "clinical_significance": "Proteinuria with active sediment (RBC casts) indicates lupus nephritis — requires urgent nephrology evaluation"},
-      {"test_name": "Urine protein-to-creatinine ratio", "result": "1.8 g/g", "flag": "HIGH", "clinical_significance": "Significant proteinuria (>0.5 g/day equivalent) consistent with lupus nephritis"},
-      {"test_name": "Creatinine", "result": "1.1 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for a young woman; suggests early renal impairment"},
-      {"test_name": "Direct Coombs test", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates autoimmune hemolytic anemia component; common in SLE"}
+      {
+        "test_name": "ANA",
+        "result": "Positive at 1:640, homogeneous pattern",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly sensitive for SLE (>95%); homogeneous pattern suggests anti-dsDNA antibodies"
+      },
+      {
+        "test_name": "Anti-dsDNA antibodies",
+        "result": "185 IU/mL (ref < 30)",
+        "flag": "HIGH",
+        "clinical_significance": "Highly specific for SLE; titers correlate with disease activity and lupus nephritis risk"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "48 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low C3 indicates complement consumption from immune complex formation, common in active SLE"
+      },
+      {
+        "test_name": "Complement C4",
+        "result": "6 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low C4 further supports complement consumption; useful for monitoring disease activity"
+      },
+      {
+        "test_name": "Anti-Smith antibodies",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly specific for SLE (>99%); present in about 30% of SLE patients"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 3,100/μL (lymphocytes 800/μL), Hgb 10.8 g/dL, Plt 118,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Pancytopenia with lymphopenia is characteristic of active SLE"
+      },
+      {
+        "test_name": "ESR",
+        "result": "65 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ESR is common in active SLE; CRP is often normal or only mildly elevated in SLE flares (unless serositis or infection)"
+      },
+      {
+        "test_name": "CRP",
+        "result": "1.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Only mildly elevated; in SLE, ESR is typically much more elevated than CRP unless infection or serositis is present"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Protein 2+, RBC 15-20/hpf, RBC casts present, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Proteinuria with active sediment (RBC casts) indicates lupus nephritis — requires urgent nephrology evaluation"
+      },
+      {
+        "test_name": "Urine protein-to-creatinine ratio",
+        "result": "1.8 g/g",
+        "flag": "HIGH",
+        "clinical_significance": "Significant proteinuria (>0.5 g/day equivalent) consistent with lupus nephritis"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated for a young woman; suggests early renal impairment"
+      },
+      {
+        "test_name": "Direct Coombs test",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Indicates autoimmune hemolytic anemia component; common in SLE"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Small left-sided pleural effusion. No cardiomegaly. No pulmonary infiltrates or consolidation.", "flag": "ABNORMAL", "clinical_significance": "Pleural effusion consistent with lupus serositis (pleuritis)"},
-      {"test_name": "Echocardiogram", "result": "Normal left ventricular function (EF 60%). Small pericardial effusion without tamponade physiology. No valvular vegetations.", "flag": "ABNORMAL", "clinical_significance": "Pericardial effusion consistent with lupus serositis; no evidence of Libman-Sacks endocarditis"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Small left-sided pleural effusion. No cardiomegaly. No pulmonary infiltrates or consolidation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pleural effusion consistent with lupus serositis (pleuritis)"
+      },
+      {
+        "test_name": "Echocardiogram",
+        "result": "Normal left ventricular function (EF 60%). Small pericardial effusion without tamponade physiology. No valvular vegetations.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pericardial effusion consistent with lupus serositis; no evidence of Libman-Sacks endocarditis"
+      }
     ],
-    "key_tests": ["ANA", "Anti-dsDNA antibodies", "Complement levels (C3, C4)", "CBC with differential", "Urinalysis with microscopy"],
-    "acceptable_tests": ["Anti-Smith antibodies", "ESR and CRP", "Basic metabolic panel", "Urine protein-to-creatinine ratio", "Direct Coombs test", "Chest X-ray", "Echocardiogram", "Anti-phospholipid antibodies"],
-    "low_yield_tests": ["Rheumatoid factor (nonspecific)", "HLA-B27", "ANCA", "Serum protein electrophoresis", "CT chest without clinical indication"]
+    "key_tests": [
+      "ANA",
+      "Anti-dsDNA antibodies",
+      "Complement levels (C3, C4)",
+      "CBC with differential",
+      "Urinalysis with microscopy"
+    ],
+    "acceptable_tests": [
+      "Anti-Smith antibodies",
+      "ESR and CRP",
+      "Basic metabolic panel",
+      "Urine protein-to-creatinine ratio",
+      "Direct Coombs test",
+      "Chest X-ray",
+      "Echocardiogram",
+      "Anti-phospholipid antibodies"
+    ],
+    "low_yield_tests": [
+      "Rheumatoid factor (nonspecific)",
+      "HLA-B27",
+      "ANCA",
+      "Serum protein electrophoresis",
+      "CT chest without clinical indication"
+    ]
   },
   "stage5": {
     "final_clue": "The nephrology team performs a renal biopsy which shows Class IV diffuse proliferative lupus nephritis with subendothelial immune complex deposits on electron microscopy — the most severe and common form of lupus nephritis requiring aggressive immunosuppressive therapy."
@@ -60,12 +151,32 @@
       "In SLE flares, ESR is typically elevated while CRP remains relatively normal — an elevated CRP should raise concern for infection or serositis",
       "All SLE patients should be on hydroxychloroquine regardless of disease severity — it reduces flares, prevents organ damage, and improves survival"
     ],
-    "sources": ["UpToDate: Clinical manifestations and diagnosis of systemic lupus erythematosus in adults", "ACR/EULAR SLE Classification Criteria 2019"]
+    "sources": [
+      "UpToDate: Clinical manifestations and diagnosis of systemic lupus erythematosus in adults",
+      "ACR/EULAR SLE Classification Criteria 2019"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Systemic lupus erythematosus", "Rheumatoid arthritis", "Mixed connective tissue disease", "Viral infection (parvovirus B19, EBV)", "Drug-induced lupus", "Dermatomyositis", "Adult-onset Still disease"],
-    "after_stage2_more_likely": ["SLE (malar rash sparing nasolabial folds, oral ulcers, arthritis, serositis, alopecia, photosensitivity, young woman, family history of autoimmune disease)"],
-    "after_stage2_less_likely": ["Rheumatoid arthritis (malar rash and oral ulcers not typical)", "Drug-induced lupus (not on offending medications — hydralazine, procainamide, INH)"],
-    "after_labs_top3": ["Systemic lupus erythematosus", "Mixed connective tissue disease", "Drug-induced lupus"]
+    "reasonable_ddx": [
+      "Systemic lupus erythematosus",
+      "Rheumatoid arthritis",
+      "Mixed connective tissue disease",
+      "Viral infection (parvovirus B19, EBV)",
+      "Drug-induced lupus",
+      "Dermatomyositis",
+      "Adult-onset Still disease"
+    ],
+    "after_stage2_more_likely": [
+      "SLE (malar rash sparing nasolabial folds, oral ulcers, arthritis, serositis, alopecia, photosensitivity, young woman, family history of autoimmune disease)"
+    ],
+    "after_stage2_less_likely": [
+      "Rheumatoid arthritis (malar rash and oral ulcers not typical)",
+      "Drug-induced lupus (not on offending medications — hydralazine, procainamide, INH)"
+    ],
+    "after_labs_top3": [
+      "Systemic lupus erythematosus",
+      "Mixed connective tissue disease",
+      "Drug-induced lupus"
+    ]
   }
 }

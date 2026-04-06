@@ -4,7 +4,7 @@
   "specialty": "OB/GYN",
   "diagnosis": "Cervical cancer (early stage, squamous cell carcinoma, FIGO stage IB1)",
   "icd_category": "C53.9 – Malignant neoplasm of cervix uteri, unspecified",
-  "one_liner": "A 38-year-old female with a history of high-risk HPV and missed Pap smears presents with 3 months of postcoital bleeding and a friable 2.5-cm cervical lesion; biopsy reveals invasive squamous cell carcinoma.",
+  "one_liner": "A 38-year-old female with a history of high-risk HPV and missed Pap smears presents with 3 months of postcoital bleeding and a friable 2.5-cm cervical lesion; biopsy reveals invasive this condition.",
   "stage2": {
     "hpi_extension": "The patient reports intermittent vaginal bleeding after intercourse for the past 3 months. The bleeding is typically small in volume (spotting to light flow) and resolves within a day. She has also noticed a watery, sometimes blood-tinged vaginal discharge with a mild odor. Her menstrual cycles have been regular, though she notes slightly heavier and longer periods over the past 2 months. She has no pelvic pain, urinary symptoms, bowel changes, or weight loss. She has not had a Pap smear in 6 years. At her last Pap smear (age 32), she was told she had 'an abnormal result' but did not follow up. She has no HIV history. She smokes 1 pack of cigarettes daily for the past 18 years.",
     "pmh": "Abnormal Pap smear 6 years ago (no follow-up). HPV vaccination not received (aged out of initial vaccine recommendations). Three vaginal deliveries. No history of immunosuppression.",
@@ -27,9 +27,9 @@
     "lab_results": [
       {
         "test_name": "Cervical biopsy (punch biopsy of lesion)",
-        "result": "Invasive squamous cell carcinoma, moderately differentiated. Depth of invasion approximately 8 mm. Lymphovascular space invasion (LVSI) not identified on biopsy specimen.",
+        "result": "Invasive this condition, moderately differentiated. Depth of invasion approximately 8 mm. Lymphovascular space invasion (LVSI) not identified on biopsy specimen.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Histologic confirmation of invasive this condition. Depth >5 mm and size >2 cm classifies this as FIGO stage IB1 (clinically visible lesion ≤4 cm)."
+        "clinical_significance": "Histologic confirmation of invasive this condition. Depth >5 mm and size >2 cm classifies this as this condition (clinically visible lesion ≤4 cm)."
       },
       {
         "test_name": "HPV genotyping",
@@ -123,7 +123,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Radical hysterectomy with bilateral pelvic lymph node dissection is performed. Final pathology confirms a 2.5-cm squamous cell carcinoma confined to the cervix with negative margins, no LVSI, and 0/22 lymph nodes positive for metastasis, consistent with FIGO stage IB1 with favorable prognostic features and no indication for adjuvant therapy."
+    "final_clue": "Radical hysterectomy with bilateral pelvic lymph node dissection is performed. Final pathology confirms a 2.5-cm this condition confined to the cervix with negative margins, no LVSI, and 0/22 lymph nodes positive for metastasis, consistent with this condition with favorable prognostic features and no indication for adjuvant therapy."
   },
   "debrief": {
     "classic_presentation": "Early-stage cervical cancer typically presents with abnormal vaginal bleeding — most commonly postcoital bleeding (bleeding after intercourse). Other symptoms include intermenstrual bleeding, postmenopausal bleeding, and watery or blood-tinged vaginal discharge. A visible cervical lesion on speculum exam that bleeds on contact is highly suspicious. Risk factors include high-risk HPV infection (types 16 and 18), smoking, early sexual debut, multiple sexual partners, immunosuppression (HIV), and lack of cervical cancer screening.",

@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 15.8, Hgb 11.2, Hct 33.8, Plt 340", "flag": "ABNORMAL", "clinical_significance": "Leukocytosis consistent with infection or inflammation; mild anemia possibly from repeated blood draws and hospitalizations"},
-      {"test_name": "Blood cultures (x2 sets)", "result": "Set 1: Staphylococcus epidermidis and Enterococcus faecalis. Set 2: Staphylococcus epidermidis and mixed enteric flora", "flag": "ABNORMAL", "clinical_significance": "Polymicrobial bacteremia with skin flora AND enteric organisms is highly unusual from a natural source — strongly suggests inoculation of contaminated material into IV line"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 3.8, Cl 101, CO2 24, BUN 10, Cr 0.7, Glucose 98, Ca 9.2, AST 25, ALT 22, Alk Phos 70, Albumin 3.5", "flag": "WNL", "clinical_significance": "Normal metabolic panel — no organ dysfunction despite multiple reported chronic illnesses"},
-      {"test_name": "ESR", "result": "42 mm/hr", "flag": "MILD HIGH", "clinical_significance": "Mild elevation consistent with acute infection/inflammation"},
-      {"test_name": "CRP", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with bacteremia"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative ANA contradicts patient's reported diagnosis of systemic lupus erythematosus"},
-      {"test_name": "Procalcitonin", "result": "2.1 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with bacterial infection — confirms true bacteremia (not contamination)"},
-      {"test_name": "Urine drug screen", "result": "Positive for opioids", "flag": "ABNORMAL", "clinical_significance": "Positive for opioids consistent with reported oxycodone use, though no prescriber can be identified"},
-      {"test_name": "Urinalysis", "result": "Clear, no WBC, no bacteria, no casts", "flag": "WNL", "clinical_significance": "Rules out urinary source of bacteremia"},
-      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal lactate — not septic despite bacteremia and fever, which is unusual"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 15.8, Hgb 11.2, Hct 33.8, Plt 340",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leukocytosis consistent with infection or inflammation; mild anemia possibly from repeated blood draws and hospitalizations"
+      },
+      {
+        "test_name": "Blood cultures (x2 sets)",
+        "result": "Set 1: Staphylococcus epidermidis and Enterococcus faecalis. Set 2: Staphylococcus epidermidis and mixed enteric flora",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Polymicrobial bacteremia with skin flora AND enteric organisms is highly unusual from a natural source — strongly suggests inoculation of contaminated material into IV line"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 139, K 3.8, Cl 101, CO2 24, BUN 10, Cr 0.7, Glucose 98, Ca 9.2, AST 25, ALT 22, Alk Phos 70, Albumin 3.5",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel — no organ dysfunction despite multiple reported chronic illnesses"
+      },
+      {
+        "test_name": "ESR",
+        "result": "42 mm/hr",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mild elevation consistent with acute infection/inflammation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "4.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with bacteremia"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative ANA contradicts patient's reported diagnosis of systemic lupus erythematosus"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "2.1 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with bacterial infection — confirms true bacteremia (not contamination)"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Positive for opioids",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive for opioids consistent with reported oxycodone use, though no prescriber can be identified"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, no WBC, no bacteria, no casts",
+        "flag": "WNL",
+        "clinical_significance": "Rules out urinary source of bacteremia"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.2 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lactate — not septic despite bacteremia and fever, which is unusual"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Chest/Abdomen/Pelvis with contrast", "result": "No abscess, lymphadenopathy, or mass. No evidence of Crohn disease. Prior appendectomy and cholecystectomy changes noted. No source of infection identified.", "flag": "WNL", "clinical_significance": "Comprehensive imaging fails to identify any source of recurrent bacteremia — a key red flag for factitious disorder"},
-      {"test_name": "Transthoracic echocardiogram", "result": "Normal biventricular function. No valvular vegetations. No intracardiac mass.", "flag": "WNL", "clinical_significance": "Rules out endocarditis as source of recurrent bacteremia"}
+      {
+        "test_name": "CT Chest/Abdomen/Pelvis with contrast",
+        "result": "No abscess, lymphadenopathy, or mass. No evidence of Crohn disease. Prior appendectomy and cholecystectomy changes noted. No source of infection identified.",
+        "flag": "WNL",
+        "clinical_significance": "Comprehensive imaging fails to identify any source of recurrent bacteremia — a key red flag for this condition"
+      },
+      {
+        "test_name": "Transthoracic echocardiogram",
+        "result": "Normal biventricular function. No valvular vegetations. No intracardiac mass.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out endocarditis as source of recurrent bacteremia"
+      }
     ],
     "key_tests": [
       "Blood cultures — polymicrobial bacteremia with skin + enteric flora (unnatural combination suggesting deliberate inoculation)",

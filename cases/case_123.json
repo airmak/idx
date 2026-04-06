@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "3.8 mg/dL (baseline 1.2)", "flag": "HIGH", "clinical_significance": "Markedly elevated above baseline, consistent with AKI"},
-      {"test_name": "BUN", "result": "68 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; BUN:Cr ratio >20:1 suggests prerenal etiology"},
-      {"test_name": "BUN:Creatinine Ratio", "result": "17.9:1", "flag": "HIGH", "clinical_significance": "Elevated ratio consistent with prerenal azotemia"},
-      {"test_name": "Serum Sodium", "result": "131 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia likely from GI losses"},
-      {"test_name": "Serum Potassium", "result": "5.6 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia due to decreased renal excretion; ACE inhibitor contributes"},
-      {"test_name": "Serum Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from poor perfusion and renal impairment"},
-      {"test_name": "Fractional Excretion of Sodium (FENa)", "result": "0.4%", "flag": "LOW", "clinical_significance": "FENa <1% strongly supports prerenal etiology"},
-      {"test_name": "Urine Sodium", "result": "8 mEq/L", "flag": "LOW", "clinical_significance": "Low urine sodium indicates avid renal sodium reabsorption (prerenal)"},
-      {"test_name": "Urine Osmolality", "result": "620 mOsm/kg", "flag": "HIGH", "clinical_significance": "Concentrated urine suggests intact tubular function and prerenal cause"},
-      {"test_name": "Urinalysis", "result": "Specific gravity 1.030, no casts, no blood, trace protein", "flag": "ABNORMAL", "clinical_significance": "High specific gravity consistent with concentrated urine; bland sediment argues against intrinsic renal disease"},
-      {"test_name": "Serum Lactate", "result": "3.2 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, reflecting tissue hypoperfusion"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "3.8 mg/dL (baseline 1.2)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated above baseline, consistent with AKI"
+      },
+      {
+        "test_name": "BUN",
+        "result": "68 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; BUN:Cr ratio >20:1 suggests prerenal etiology"
+      },
+      {
+        "test_name": "BUN:Creatinine Ratio",
+        "result": "17.9:1",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ratio consistent with prerenal azotemia"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "131 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia likely from GI losses"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.6 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia due to decreased renal excretion; ACE inhibitor contributes"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "18 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis from poor perfusion and renal impairment"
+      },
+      {
+        "test_name": "Fractional Excretion of Sodium (FENa)",
+        "result": "0.4%",
+        "flag": "LOW",
+        "clinical_significance": "FENa <1% strongly supports prerenal etiology"
+      },
+      {
+        "test_name": "Urine Sodium",
+        "result": "8 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Low urine sodium indicates avid renal sodium reabsorption (prerenal)"
+      },
+      {
+        "test_name": "Urine Osmolality",
+        "result": "620 mOsm/kg",
+        "flag": "HIGH",
+        "clinical_significance": "Concentrated urine suggests intact tubular function and prerenal cause"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.030, no casts, no blood, trace protein",
+        "flag": "ABNORMAL",
+        "clinical_significance": "High specific gravity consistent with concentrated urine; bland sediment argues against intrinsic renal disease"
+      },
+      {
+        "test_name": "Serum Lactate",
+        "result": "3.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, reflecting tissue hypoperfusion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.2 cm, left 11.5 cm) without hydronephrosis or masses. No nephrolithiasis identified.", "flag": "WNL", "clinical_significance": "Rules out obstructive uropathy as a cause of AKI"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema or pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "No signs of volume overload; consistent with volume depletion in a patient with known HFrEF"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Normal-sized kidneys bilaterally (right 11.2 cm, left 11.5 cm) without hydronephrosis or masses. No nephrolithiasis identified.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out obstructive uropathy as a cause of AKI"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly. No pulmonary edema or pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "No signs of volume overload; consistent with volume depletion in a patient with known HFrEF"
+      }
     ],
     "key_tests": [
       "Basic Metabolic Panel (BMP) with BUN and Creatinine",
@@ -64,7 +129,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The FENa of 0.4% with a BUN:Cr ratio >20:1 and concentrated urine (osmolality 620 mOsm/kg) in the setting of volume depletion from GI losses confirms a prerenal etiology for acute kidney injury."
+    "final_clue": "The FENa of 0.4% with a BUN:Cr ratio >20:1 and concentrated urine (osmolality 620 mOsm/kg) in the setting of volume depletion from GI losses confirms a prerenal etiology for this condition injury."
   },
   "debrief": {
     "classic_presentation": "An elderly patient on ACE inhibitors and diuretics develops volume depletion from GI losses, presenting with oliguria, hypotension, tachycardia, and rapidly rising creatinine with a BUN:Cr ratio >20:1 and FENa <1%.",

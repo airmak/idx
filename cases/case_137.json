@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Hemoglobin", "result": "6.2 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia from microangiopathic hemolytic anemia (MAHA)"},
-      {"test_name": "Peripheral Blood Smear", "result": "Schistocytes (>2%), helmet cells, burr cells, fragmented RBCs. Thrombocytopenia confirmed.", "flag": "ABNORMAL", "clinical_significance": "Schistocytes are pathognomonic for microangiopathic hemolytic anemia; hallmark of TMA"},
-      {"test_name": "Platelet Count", "result": "38,000/μL", "flag": "LOW", "clinical_significance": "Severe thrombocytopenia from platelet consumption in damaged microvasculature"},
-      {"test_name": "Serum Creatinine", "result": "3.4 mg/dL", "flag": "HIGH", "clinical_significance": "Acute kidney injury from thrombotic microangiopathy of renal vasculature"},
-      {"test_name": "BUN", "result": "52 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from renal failure"},
-      {"test_name": "LDH", "result": "2,850 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated from hemolysis and tissue ischemia"},
-      {"test_name": "Haptoglobin", "result": "<10 mg/dL (undetectable)", "flag": "LOW", "clinical_significance": "Consumed by binding free hemoglobin from intravascular hemolysis"},
-      {"test_name": "Indirect Bilirubin", "result": "3.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from hemoglobin catabolism in hemolytic anemia"},
-      {"test_name": "Direct Coombs Test", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative DAT confirms hemolysis is mechanical (MAHA), not autoimmune"},
-      {"test_name": "Reticulocyte Count", "result": "8.2%", "flag": "HIGH", "clinical_significance": "Reticulocytosis reflects bone marrow compensation for hemolysis"},
-      {"test_name": "Stool Culture/PCR", "result": "Positive for Shiga toxin-producing E. coli O157:H7", "flag": "ABNORMAL", "clinical_significance": "Identifies the causative organism; STEC-HUS accounts for ~90% of pediatric HUS cases"},
-      {"test_name": "ADAMTS13 Activity", "result": "68% (normal >10%)", "flag": "WNL", "clinical_significance": "Normal ADAMTS13 activity (>10%) distinguishes HUS from TTP, where ADAMTS13 is severely deficient (<10%)"}
+      {
+        "test_name": "Hemoglobin",
+        "result": "6.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia from microangiopathic hemolytic anemia (MAHA)"
+      },
+      {
+        "test_name": "Peripheral Blood Smear",
+        "result": "Schistocytes (>2%), helmet cells, burr cells, fragmented RBCs. Thrombocytopenia confirmed.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Schistocytes are pathognomonic for microangiopathic hemolytic anemia; hallmark of TMA"
+      },
+      {
+        "test_name": "Platelet Count",
+        "result": "38,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Severe thrombocytopenia from platelet consumption in damaged microvasculature"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "3.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury from this condition of renal vasculature"
+      },
+      {
+        "test_name": "BUN",
+        "result": "52 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from renal failure"
+      },
+      {
+        "test_name": "LDH",
+        "result": "2,850 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated from hemolysis and tissue ischemia"
+      },
+      {
+        "test_name": "Haptoglobin",
+        "result": "<10 mg/dL (undetectable)",
+        "flag": "LOW",
+        "clinical_significance": "Consumed by binding free hemoglobin from intravascular hemolysis"
+      },
+      {
+        "test_name": "Indirect Bilirubin",
+        "result": "3.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hemoglobin catabolism in hemolytic anemia"
+      },
+      {
+        "test_name": "Direct Coombs Test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative DAT confirms hemolysis is mechanical (MAHA), not autoimmune"
+      },
+      {
+        "test_name": "Reticulocyte Count",
+        "result": "8.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Reticulocytosis reflects bone marrow compensation for hemolysis"
+      },
+      {
+        "test_name": "Stool Culture/PCR",
+        "result": "Positive for Shiga toxin-producing E. coli O157:H7",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Identifies the causative organism; STEC-HUS accounts for ~90% of pediatric HUS cases"
+      },
+      {
+        "test_name": "ADAMTS13 Activity",
+        "result": "68% (normal >10%)",
+        "flag": "WNL",
+        "clinical_significance": "Normal ADAMTS13 activity (>10%) distinguishes HUS from TTP, where ADAMTS13 is severely deficient (<10%)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Bilateral enlarged, echogenic kidneys with increased resistive indices on Doppler. No hydronephrosis or thrombosis of major renal vessels.", "flag": "ABNORMAL", "clinical_significance": "Enlarged echogenic kidneys reflect acute kidney injury from TMA; elevated resistive indices suggest microvascular involvement"},
-      {"test_name": "Abdominal X-ray", "result": "Mild colonic wall thickening. No free air or obstruction. Thumbprinting of the ascending colon.", "flag": "ABNORMAL", "clinical_significance": "Colonic wall thickening and thumbprinting consistent with STEC colitis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Bilateral enlarged, echogenic kidneys with increased resistive indices on Doppler. No hydronephrosis or thrombosis of major renal vessels.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Enlarged echogenic kidneys reflect acute kidney injury from TMA; elevated resistive indices suggest microvascular involvement"
+      },
+      {
+        "test_name": "Abdominal X-ray",
+        "result": "Mild colonic wall thickening. No free air or obstruction. Thumbprinting of the ascending colon.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Colonic wall thickening and thumbprinting consistent with STEC colitis"
+      }
     ],
     "key_tests": [
       "Complete blood count with peripheral smear (schistocytes)",
