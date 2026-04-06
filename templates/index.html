@@ -1066,6 +1066,7 @@ a { color: var(--teal); text-decoration: none; }
   color: var(--text); font-size: 1.5rem; cursor: pointer;
   padding: 4px; line-height: 1;
 }
+.mobile-close { display: none; }
 
 /* =====================================================
    MOBILE RESPONSIVE
@@ -1085,6 +1086,7 @@ a { color: var(--teal); text-decoration: none; }
   #mobile-toggle { display: block; z-index: 300; }
   #auth-area { flex-direction: column; align-items: flex-start; }
   .mobile-close {
+    display: block;
     position: absolute; top: 16px; right: 16px;
     background: none; border: none; color: var(--text-muted);
     font-size: 1.4rem; cursor: pointer;
@@ -2103,7 +2105,7 @@ function showStage2(data) {
   document.getElementById('s2-allergies').textContent = data.allergies || 'NKDA';
   document.getElementById('s2-fhx').textContent = data.family_history || 'Non-contributory';
   document.getElementById('s2-shx').textContent = data.social_history || '';
-  document.getElementById('s2-exam').textContent = data.physical_exam || '';
+  document.getElementById('s2-exam').innerHTML = esc(data.physical_exam || '').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
   // Vitals
   const v = data.vitals || {};
