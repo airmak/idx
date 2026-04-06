@@ -1751,27 +1751,48 @@ function filterDdx() {
   buildDdxDropdown(document.getElementById('ddx-input').value);
   openDdxDropdown();
 }
-function openDdxDropdown() {
-  const dd = document.getElementById('ddx-dropdown');
-  const input = document.getElementById('ddx-input');
-  const rect = input.getBoundingClientRect();
-  dd.style.left = rect.left + 'px';
-  dd.style.width = rect.width + 'px';
-  // Check if dropdown would go below viewport
+function _positionDropdown(dd, anchorEl) {
+  // Portal to body if not already there
+  if (dd.parentElement !== document.body) {
+    dd._originalParent = dd.parentElement;
+    dd._originalNext = dd.nextSibling;
+    document.body.appendChild(dd);
+  }
+  const rect = anchorEl.getBoundingClientRect();
   const spaceBelow = window.innerHeight - rect.bottom;
   const spaceAbove = rect.top;
-  if (spaceBelow < 200 && spaceAbove > spaceBelow) {
+  dd.style.left = rect.left + 'px';
+  dd.style.width = rect.width + 'px';
+  if (spaceBelow < 220 && spaceAbove > spaceBelow) {
     dd.style.top = '';
     dd.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
     dd.style.maxHeight = Math.min(260, spaceAbove - 20) + 'px';
   } else {
     dd.style.bottom = '';
-    dd.style.top = rect.bottom + 'px';
+    dd.style.top = (rect.bottom + 2) + 'px';
     dd.style.maxHeight = Math.min(260, spaceBelow - 20) + 'px';
   }
+}
+
+function _returnDropdown(dd) {
+  if (dd._originalParent) {
+    dd._originalParent.insertBefore(dd, dd._originalNext || null);
+    delete dd._originalParent;
+    delete dd._originalNext;
+  }
+}
+
+function openDdxDropdown() {
+  const dd = document.getElementById('ddx-dropdown');
+  const input = document.getElementById('ddx-input');
+  _positionDropdown(dd, input);
   dd.classList.add('open');
 }
-function closeDdxDropdown() { document.getElementById('ddx-dropdown').classList.remove('open'); }
+function closeDdxDropdown() {
+  const dd = document.getElementById('ddx-dropdown');
+  dd.classList.remove('open');
+  _returnDropdown(dd);
+}
 
 // =====================================================
 // VINDICATE CATEGORY DROPDOWNS
@@ -1921,41 +1942,47 @@ function _toggleVindicateDropdown(catId, diseases, alignRight) {
   // Close previously open dropdown
   if (_openVindicateCatId && _openVindicateCatId !== catId) {
     const prev = document.getElementById(_openVindicateCatId + '-dropdown');
-    if (prev) prev.classList.remove('open');
+    if (prev) {
+      prev.classList.remove('open');
+      _returnDropdown(prev);
+    }
   }
 
   const isOpen = dropdown.classList.contains('open');
 
-  if (!isOpen) {
-    // Position the dropdown using fixed positioning
+  if (isOpen) {
+    dropdown.classList.remove('open');
+    _returnDropdown(dropdown);
+    _openVindicateCatId = null;
+  } else {
     const btn = document.getElementById(catId + '-btn');
     if (btn) {
+      // Portal to body
+      if (dropdown.parentElement !== document.body) {
+        dropdown._originalParent = dropdown.parentElement;
+        dropdown._originalNext = dropdown.nextSibling;
+        document.body.appendChild(dropdown);
+      }
       const rect = btn.getBoundingClientRect();
       const spaceBelow = window.innerHeight - rect.bottom;
       const spaceAbove = rect.top;
-      const ddHeight = 240;
 
-      if (spaceBelow < ddHeight && spaceAbove > spaceBelow) {
+      if (spaceBelow < 250 && spaceAbove > spaceBelow) {
         dropdown.style.top = '';
         dropdown.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
       } else {
         dropdown.style.bottom = '';
         dropdown.style.top = (rect.bottom + 4) + 'px';
       }
-
-      // Align left by default, shift left if it would overflow right edge
       let left = rect.left;
-      if (left + 260 > window.innerWidth) {
-        left = window.innerWidth - 270;
-      }
+      if (left + 260 > window.innerWidth) left = window.innerWidth - 270;
       dropdown.style.left = Math.max(4, left) + 'px';
+      dropdown.style.width = '260px';
     }
-  }
 
-  dropdown.classList.toggle('open', !isOpen);
-  _openVindicateCatId = isOpen ? null : catId;
+    dropdown.classList.add('open');
+    _openVindicateCatId = catId;
 
-  if (!isOpen) {
     const fi = dropdown.querySelector('.vindicate-cat-filter');
     if (fi) { fi.value = ''; setTimeout(() => fi.focus(), 30); }
     _buildVindicateCatOptions(catId, diseases, '');
@@ -1989,7 +2016,10 @@ function updateVindicateGrid() {
 document.addEventListener('click', () => {
   if (_openVindicateCatId) {
     const prev = document.getElementById(_openVindicateCatId + '-dropdown');
-    if (prev) prev.classList.remove('open');
+    if (prev) {
+      prev.classList.remove('open');
+      _returnDropdown(prev);
+    }
     _openVindicateCatId = null;
   }
 });
@@ -2456,23 +2486,14 @@ function filterEscape() { buildEscapeDropdown(document.getElementById('escape-in
 function openEscapeDropdown() {
   const dd = document.getElementById('escape-dropdown');
   const input = document.getElementById('escape-input');
-  const rect = input.getBoundingClientRect();
-  dd.style.left = rect.left + 'px';
-  dd.style.width = rect.width + 'px';
-  const spaceBelow = window.innerHeight - rect.bottom;
-  const spaceAbove = rect.top;
-  if (spaceBelow < 200 && spaceAbove > spaceBelow) {
-    dd.style.top = '';
-    dd.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
-    dd.style.maxHeight = Math.min(260, spaceAbove - 20) + 'px';
-  } else {
-    dd.style.bottom = '';
-    dd.style.top = rect.bottom + 'px';
-    dd.style.maxHeight = Math.min(260, spaceBelow - 20) + 'px';
-  }
+  _positionDropdown(dd, input);
   dd.classList.add('open');
 }
-function closeEscapeDropdown() { document.getElementById('escape-dropdown').classList.remove('open'); }
+function closeEscapeDropdown() {
+  const dd = document.getElementById('escape-dropdown');
+  dd.classList.remove('open');
+  _returnDropdown(dd);
+}
 
 let missedCount = 0;
 function addMissedDiagnosis(disease) {
