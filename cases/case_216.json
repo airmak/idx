@@ -4,7 +4,7 @@
   "specialty": "OB/GYN",
   "diagnosis": "Asherman syndrome (intrauterine adhesions)",
   "icd_category": "N85.6 – Intrauterine synechiae",
-  "one_liner": "A 30-year-old G2P1 presents with secondary amenorrhea and infertility for 12 months following a postpartum dilation and curettage for retained placenta; hysteroscopy reveals extensive intrauterine adhesions obliterating the uterine cavity.",
+  "one_liner": "A 30-year-old G2P1 presents with secondary amenorrhea and infertility for 12 months following a postpartum dilation and curettage for retained placenta; hysteroscopy reveals extensive this condition obliterating the uterine cavity.",
   "stage2": {
     "hpi_extension": "The patient reports absence of menstrual periods for the past 12 months. She had an uncomplicated term vaginal delivery 14 months ago, but developed postpartum hemorrhage on day 5 requiring a dilation and curettage for retained placental tissue. After the D&C, her lochia stopped abruptly, and she has not had a period since. She and her partner have been trying to conceive for the past 8 months without success. She has mild cyclical lower abdominal cramping around the time she expects her period but no bleeding. She denies hot flashes, night sweats, vaginal dryness, or other menopausal symptoms. She had regular menstrual cycles before and between her pregnancies. She is breastfeeding infrequently (once daily at bedtime).",
     "pmh": "G2P1011 (one term vaginal delivery, one early miscarriage). Postpartum D&C 14 months ago for retained placenta. Regular menstrual cycles prior to current amenorrhea.",
@@ -59,13 +59,13 @@
         "test_name": "Progesterone challenge test (medroxyprogesterone 10 mg × 10 days)",
         "result": "No withdrawal bleed after progesterone challenge",
         "flag": "ABNORMAL",
-        "clinical_significance": "Absence of withdrawal bleeding in a patient with normal estradiol indicates either outflow obstruction or endometrial pathology (Asherman syndrome), not anovulation."
+        "clinical_significance": "Absence of withdrawal bleeding in a patient with normal estradiol indicates either outflow obstruction or endometrial pathology (this condition), not anovulation."
       },
       {
         "test_name": "Estrogen-progesterone challenge test",
         "result": "No withdrawal bleed after 21 days of conjugated estrogen + 10 days of medroxyprogesterone",
         "flag": "ABNORMAL",
-        "clinical_significance": "Failure to bleed even after exogenous estrogen and progesterone confirms the amenorrhea is due to endometrial/outflow tract pathology rather than hormonal deficiency — highly suggestive of Asherman syndrome."
+        "clinical_significance": "Failure to bleed even after exogenous estrogen and progesterone confirms the amenorrhea is due to endometrial/outflow tract pathology rather than hormonal deficiency — highly suggestive of the suspected diagnosis."
       }
     ],
     "imaging_results": [
@@ -79,7 +79,7 @@
         "test_name": "Saline infusion sonohysterography (SIS)",
         "result": "Difficulty distending the uterine cavity with saline. Multiple filling defects and bands are seen bridging the anterior and posterior uterine walls. Only partial distension of the lower uterine cavity achieved. Upper cavity cannot be distended.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Inability to distend the cavity with dense adhesion bands is characteristic of Asherman syndrome. SIS is more sensitive than standard ultrasound for detecting intrauterine adhesions."
+        "clinical_significance": "Inability to distend the cavity with dense adhesion bands is characteristic of this condition. SIS is more sensitive than standard ultrasound for detecting this condition."
       },
       {
         "test_name": "Hysteroscopy (diagnostic and therapeutic)",
@@ -115,7 +115,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Hysteroscopic adhesiolysis is performed with sharp dissection under ultrasound guidance, successfully restoring the uterine cavity with visualization of both tubal ostia. A balloon catheter is placed for 1 week and high-dose estrogen therapy is initiated. At 3-month follow-up, the patient has resumed regular menstrual cycles, and repeat hysteroscopy shows a restored cavity with minimal re-adhesion, confirming successful treatment of Asherman syndrome."
+    "final_clue": "Hysteroscopic adhesiolysis is performed with sharp dissection under ultrasound guidance, successfully restoring the uterine cavity with visualization of both tubal ostia. A balloon catheter is placed for 1 week and high-dose estrogen therapy is initiated. At 3-month follow-up, the patient has resumed regular menstrual cycles, and repeat hysteroscopy shows a restored cavity with minimal re-adhesion, confirming successful treatment of this condition."
   },
   "debrief": {
     "classic_presentation": "Asherman syndrome classically presents with secondary amenorrhea or hypomenorrhea following uterine instrumentation, most commonly dilation and curettage (especially in the postpartum period). Patients may also present with cyclic pelvic pain (if menstrual blood is trapped behind adhesions — hematometra), recurrent pregnancy loss, or infertility. The hallmark is failure to bleed on both progesterone challenge and estrogen-progesterone challenge tests in a patient with normal hormonal function.",

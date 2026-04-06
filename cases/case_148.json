@@ -4,9 +4,9 @@
   "specialty": "Infectious Disease",
   "diagnosis": "Malaria (P. falciparum)",
   "icd_category": "B50.9 — Plasmodium falciparum malaria, unspecified",
-  "one_liner": "A 34-year-old male returning from Nigeria 10 days ago presents with cyclical high fevers, rigors, profuse sweating, headache, and jaundice; he did not take malaria prophylaxis.",
+  "one_liner": "A 34-year-old male returning from Nigeria 10 days ago presents with cyclical high fevers, rigors, profuse sweating, headache, and jaundice; he did not take this condition prophylaxis.",
   "stage2": {
-    "hpi_extension": "The patient returned from a 3-week business trip to Lagos, Nigeria 10 days ago. He was advised to take antimalarial prophylaxis but did not fill the prescription. Five days ago, he developed sudden onset of high fevers (up to 40.5°C) with violent shaking chills lasting 1-2 hours, followed by drenching sweats and transient defervescence. The febrile episodes have been recurring every 24-48 hours. He reports severe headache, myalgias, nausea, two episodes of non-bloody vomiting, and progressive fatigue. He noticed yellowing of his eyes 2 days ago. He denies altered mental status, seizures, dark urine (other than concentrated), shortness of breath, or bleeding. No insect repellent use during travel.",
+    "hpi_extension": "The patient returned from a 3-week business trip to Lagos, Nigeria 10 days ago. He was advised to take antithis conditionl prophylaxis but did not fill the prescription. Five days ago, he developed sudden onset of high fevers (up to 40.5°C) with violent shaking chills lasting 1-2 hours, followed by drenching sweats and transient defervescence. The febrile episodes have been recurring every 24-48 hours. He reports severe headache, myalgias, nausea, two episodes of non-bloody vomiting, and progressive fatigue. He noticed yellowing of his eyes 2 days ago. He denies altered mental status, seizures, dark urine (other than concentrated), shortness of breath, or bleeding. No insect repellent use during travel.",
     "pmh": "No significant past medical history.",
     "surgical_history": "Appendectomy (age 16).",
     "medications": "None.",
@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Peripheral Blood Smear (Thick and Thin)", "result": "Thick smear: Plasmodium species identified. Thin smear: P. falciparum trophozoites with characteristic 'headphone' double chromatin dots and multiple ring forms per RBC. Parasitemia: 4.8%.", "flag": "ABNORMAL", "clinical_significance": "Confirms P. falciparum malaria with significant parasitemia (>2% considered high for falciparum)"},
-      {"test_name": "Rapid Malaria Antigen Test (RDT)", "result": "Positive for P. falciparum HRP-2 antigen", "flag": "ABNORMAL", "clinical_significance": "Supports P. falciparum diagnosis; RDT complements but does not replace blood smear"},
-      {"test_name": "CBC — Hemoglobin", "result": "10.2 g/dL", "flag": "LOW", "clinical_significance": "Anemia from hemolysis of parasitized and unparasitized red blood cells"},
-      {"test_name": "CBC — Platelets", "result": "62,000/μL", "flag": "LOW", "clinical_significance": "Thrombocytopenia is very common in malaria (present in >80% of falciparum cases)"},
-      {"test_name": "Total Bilirubin", "result": "4.8 mg/dL (indirect 3.6 mg/dL)", "flag": "HIGH", "clinical_significance": "Predominantly unconjugated hyperbilirubinemia from hemolysis"},
-      {"test_name": "LDH", "result": "580 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH consistent with hemolysis"},
-      {"test_name": "Haptoglobin", "result": "<10 mg/dL", "flag": "LOW", "clinical_significance": "Undetectable haptoglobin confirms intravascular hemolysis"},
-      {"test_name": "Serum Creatinine", "result": "1.3 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; monitor closely as AKI is a complication of severe falciparum malaria"},
-      {"test_name": "Serum Glucose", "result": "82 mg/dL", "flag": "WNL", "clinical_significance": "Normal glucose; hypoglycemia is a marker of severe malaria"},
-      {"test_name": "ALT", "result": "86 U/L", "flag": "HIGH", "clinical_significance": "Mild transaminitis common in malaria from hepatic sequestration of parasitized RBCs"}
+      {
+        "test_name": "Peripheral Blood Smear (Thick and Thin)",
+        "result": "Thick smear: Plasmodium species identified. Thin smear: P. falciparum trophozoites with characteristic 'headphone' double chromatin dots and multiple ring forms per RBC. Parasitemia: 4.8%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis this condition with significant parasitemia (>2% considered high for falciparum)"
+      },
+      {
+        "test_name": "Rapid Malaria Antigen Test (RDT)",
+        "result": "Positive for P. falciparum HRP-2 antigen",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Supports this condition diagnosis; RDT complements but does not replace blood smear"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "10.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia from hemolysis of parasitized and unparasitized red blood cells"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "62,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Thrombocytopenia is very common in this condition (present in >80% of falciparum cases)"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "4.8 mg/dL (indirect 3.6 mg/dL)",
+        "flag": "HIGH",
+        "clinical_significance": "Predominantly unconjugated hyperbilirubinemia from hemolysis"
+      },
+      {
+        "test_name": "LDH",
+        "result": "580 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDH consistent with hemolysis"
+      },
+      {
+        "test_name": "Haptoglobin",
+        "result": "<10 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Undetectable haptoglobin confirms intravascular hemolysis"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; monitor closely as AKI is a complication of severe falciparum this condition"
+      },
+      {
+        "test_name": "Serum Glucose",
+        "result": "82 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal glucose; hypoglycemia is a marker of severe this condition"
+      },
+      {
+        "test_name": "ALT",
+        "result": "86 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild transaminitis common in this condition from hepatic sequestration of parasitized RBCs"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "No infiltrates, effusions, or consolidation. Heart size normal.", "flag": "WNL", "clinical_significance": "No evidence of pulmonary edema or ARDS, which can complicate severe falciparum malaria"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "No infiltrates, effusions, or consolidation. Heart size normal.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of pulmonary edema or ARDS, which can complicate severe falciparum this condition"
+      }
     ],
     "key_tests": [
       "Peripheral blood smear (thick and thin) with parasite speciation and quantification",
@@ -63,7 +118,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A traveler returning from West Africa without antimalarial prophylaxis presenting with cyclical fevers with rigors, jaundice, hepatosplenomegaly, and laboratory evidence of hemolytic anemia (low haptoglobin, elevated indirect bilirubin and LDH, anemia) with thrombocytopenia. Peripheral smear confirms P. falciparum with 4.8% parasitemia. This is uncomplicated falciparum malaria (no altered mental status, no ARDS, no severe anemia <7 g/dL, no renal failure, no hypoglycemia)."
+    "final_clue": "A traveler returning from West Africa without antithis conditionl prophylaxis presenting with cyclical fevers with rigors, jaundice, hepatosplenomegaly, and laboratory evidence of hemolytic anemia (low haptoglobin, elevated indirect bilirubin and LDH, anemia) with thrombocytopenia. Peripheral smear confirms the suspected diagnosis with 4.8% parasitemia. This is uncomplicated falciparum this condition (no altered mental status, no ARDS, no severe anemia <7 g/dL, no renal failure, no hypoglycemia)."
   },
   "debrief": {
     "classic_presentation": "A febrile traveler returning from a malaria-endemic area (Sub-Saharan Africa accounts for >90% of cases) presenting with cyclical fevers with rigors and sweating, headache, myalgias, and hepatosplenomegaly. P. falciparum malaria is the most dangerous species with highest parasitemia levels, and complications including cerebral malaria, severe anemia, ARDS, renal failure, and hypoglycemia. Thrombocytopenia is nearly universal. The classic lab triad is anemia + thrombocytopenia + elevated LDH with hemolytic features.",

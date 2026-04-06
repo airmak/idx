@@ -25,25 +25,111 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "1,240 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with decompensated heart failure"},
-      {"test_name": "Troponin I", "result": "0.03 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial injury"},
-      {"test_name": "Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia, common in advanced HF due to neurohormonal activation"},
-      {"test_name": "Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment, likely cardiorenal syndrome"},
-      {"test_name": "BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with prerenal azotemia from poor forward flow"},
-      {"test_name": "Hemoglobin", "result": "12.8 g/dL", "flag": "WNL", "clinical_significance": "Normal, rules out anemia as contributor"},
-      {"test_name": "ALT", "result": "62 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation suggesting hepatic congestion"},
-      {"test_name": "AST", "result": "55 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation from hepatic congestion"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out thyroid disease as cause"},
-      {"test_name": "HbA1c", "result": "7.2%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes"}
+      {
+        "test_name": "BNP",
+        "result": "1,240 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with decompensated heart failure"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.03 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not elevated, no acute myocardial injury"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "132 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia, common in advanced HF due to neurohormonal activation"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.2 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild renal impairment, likely cardiorenal syndrome"
+      },
+      {
+        "test_name": "BUN",
+        "result": "32 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with prerenal azotemia from poor forward flow"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "12.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out anemia as contributor"
+      },
+      {
+        "test_name": "ALT",
+        "result": "62 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild elevation suggesting hepatic congestion"
+      },
+      {
+        "test_name": "AST",
+        "result": "55 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild elevation from hepatic congestion"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out thyroid disease as cause"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimally controlled diabetes"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Cardiomegaly with cephalization of pulmonary vasculature, bilateral pleural effusions, and Kerley B lines", "flag": "ABNORMAL", "clinical_significance": "Classic findings of congestive heart failure"},
-      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 25%, global hypokinesis with akinetic anterior wall, LV dilation (LVEDD 6.8 cm), moderate mitral regurgitation (functional), mild tricuspid regurgitation, elevated RVSP 45 mmHg", "flag": "ABNORMAL", "clinical_significance": "Severely reduced EF with ischemic cardiomyopathy pattern confirming HFrEF"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Cardiomegaly with cephalization of pulmonary vasculature, bilateral pleural effusions, and Kerley B lines",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic findings of congestive heart failure"
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "LVEF 25%, global hypokinesis with akinetic anterior wall, LV dilation (LVEDD 6.8 cm), moderate mitral regurgitation (functional), mild tricuspid regurgitation, elevated RVSP 45 mmHg",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severely reduced EF with ischemic cardiomyopathy pattern confirming this condition"
+      }
     ],
-    "key_tests": ["BNP or NT-proBNP", "Transthoracic echocardiogram", "Chest X-ray", "Basic metabolic panel", "Troponin"],
-    "acceptable_tests": ["CBC", "Liver function tests", "TSH", "Urinalysis", "Iron studies", "HbA1c", "Lipid panel", "12-lead ECG"],
-    "low_yield_tests": ["CT coronary angiography", "Cardiac MRI", "PET scan", "Pulmonary function tests", "D-dimer"],
+    "key_tests": [
+      "BNP or NT-proBNP",
+      "Transthoracic echocardiogram",
+      "Chest X-ray",
+      "Basic metabolic panel",
+      "Troponin"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Liver function tests",
+      "TSH",
+      "Urinalysis",
+      "Iron studies",
+      "HbA1c",
+      "Lipid panel",
+      "12-lead ECG"
+    ],
+    "low_yield_tests": [
+      "CT coronary angiography",
+      "Cardiac MRI",
+      "PET scan",
+      "Pulmonary function tests",
+      "D-dimer"
+    ],
     "key_tests_rationale": "BNP confirms clinical suspicion of HF. Echo is essential to determine EF and classify HF type. CXR shows pulmonary congestion. BMP assesses renal function and electrolytes. Troponin rules out acute ischemia."
   },
   "stage5": {
@@ -69,9 +155,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute coronary syndrome", "Pneumonia", "COPD exacerbation", "Pulmonary embolism", "Nephrotic syndrome", "Acute kidney injury"],
-    "after_stage2_more_likely": ["Congestive heart failure", "Acute coronary syndrome"],
-    "after_stage2_less_likely": ["Pneumonia", "COPD exacerbation", "Pulmonary embolism"],
-    "after_labs_top3": ["Congestive heart failure (HFrEF)", "Cardiorenal syndrome", "Acute coronary syndrome"]
+    "reasonable_ddx": [
+      "Acute coronary syndrome",
+      "Pneumonia",
+      "COPD exacerbation",
+      "Pulmonary embolism",
+      "Nephrotic syndrome",
+      "Acute kidney injury"
+    ],
+    "after_stage2_more_likely": [
+      "Congestive heart failure",
+      "Acute coronary syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Pneumonia",
+      "COPD exacerbation",
+      "Pulmonary embolism"
+    ],
+    "after_labs_top3": [
+      "Congestive heart failure (HFrEF)",
+      "Cardiorenal syndrome",
+      "Acute coronary syndrome"
+    ]
   }
 }

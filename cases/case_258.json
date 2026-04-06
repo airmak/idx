@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Calcium (total)", "result": "11.4 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia (normal 8.5-10.5); the initial finding prompting evaluation"},
-      {"test_name": "Ionized calcium", "result": "1.45 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated ionized calcium (normal 1.12-1.32) confirming true hypercalcemia (not albumin-related artifact)"},
-      {"test_name": "Intact PTH", "result": "128 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated PTH (normal 15-65) with concurrent hypercalcemia — this combination is diagnostic of primary hyperparathyroidism (PTH should be suppressed in other causes of hypercalcemia)"},
-      {"test_name": "Phosphorus", "result": "2.1 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus (normal 2.5-4.5) — PTH causes renal phosphate wasting; hypercalcemia + hypophosphatemia is classic for PHPT"},
-      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D — rules out vitamin D deficiency as cause of secondary hyperparathyroidism"},
-      {"test_name": "24-hour urine calcium", "result": "420 mg/day", "flag": "HIGH", "clinical_significance": "Elevated urinary calcium (normal <250) — rules out familial hypocalciuric hypercalcemia (FHH), which would have LOW urinary calcium; confirms PHPT"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 142, K 3.8, Cl 108, CO2 22, BUN 22, Cr 1.2, Glucose 95, AST 20, ALT 18, Alk Phos 135, Albumin 4.0", "flag": "MILD ABNORMAL", "clinical_significance": "Elevated alkaline phosphatase from increased bone turnover; elevated chloride and low bicarbonate (PTH-induced hyperchloremic acidosis); mildly elevated creatinine suggesting renal impairment"},
-      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 230", "flag": "WNL", "clinical_significance": "Normal CBC"},
-      {"test_name": "PTHrP (PTH-related protein)", "result": "<2.0 pmol/L", "flag": "WNL", "clinical_significance": "Normal PTHrP rules out humoral hypercalcemia of malignancy"},
-      {"test_name": "SPEP (Serum Protein Electrophoresis)", "result": "No monoclonal protein detected", "flag": "WNL", "clinical_significance": "Rules out multiple myeloma as cause of hypercalcemia and bone disease"}
+      {
+        "test_name": "Calcium (total)",
+        "result": "11.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalcemia (normal 8.5-10.5); the initial finding prompting evaluation"
+      },
+      {
+        "test_name": "Ionized calcium",
+        "result": "1.45 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ionized calcium (normal 1.12-1.32) confirming true hypercalcemia (not albumin-related artifact)"
+      },
+      {
+        "test_name": "Intact PTH",
+        "result": "128 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated PTH (normal 15-65) with concurrent hypercalcemia — this combination is diagnostic of the suspected condition (PTH should be suppressed in other causes of hypercalcemia)"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "2.1 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low phosphorus (normal 2.5-4.5) — PTH causes renal phosphate wasting; hypercalcemia + hypophosphatemia is classic for PHPT"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "28 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Adequate vitamin D — rules out vitamin D deficiency as cause of secondary this condition"
+      },
+      {
+        "test_name": "24-hour urine calcium",
+        "result": "420 mg/day",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated urinary calcium (normal <250) — rules out familial hypocalciuric hypercalcemia (FHH), which would have LOW urinary calcium; confirms PHPT"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 142, K 3.8, Cl 108, CO2 22, BUN 22, Cr 1.2, Glucose 95, AST 20, ALT 18, Alk Phos 135, Albumin 4.0",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Elevated alkaline phosphatase from increased bone turnover; elevated chloride and low bicarbonate (PTH-induced hyperchloremic acidosis); mildly elevated creatinine suggesting renal impairment"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.5, Hgb 13.2, Hct 39.8, Plt 230",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC"
+      },
+      {
+        "test_name": "PTHrP (PTH-related protein)",
+        "result": "<2.0 pmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal PTHrP rules out humoral hypercalcemia of malignancy"
+      },
+      {
+        "test_name": "SPEP (Serum Protein Electrophoresis)",
+        "result": "No monoclonal protein detected",
+        "flag": "WNL",
+        "clinical_significance": "Rules out multiple myeloma as cause of hypercalcemia and bone disease"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Sestamibi (Tc-99m) parathyroid scintigraphy", "result": "Focal increased uptake in the right inferior parathyroid gland on delayed images, consistent with a parathyroid adenoma. No additional areas of abnormal uptake.", "flag": "ABNORMAL", "clinical_significance": "Localizes a single parathyroid adenoma — a solitary adenoma accounts for 85% of PHPT cases; localization aids surgical planning"},
-      {"test_name": "Neck ultrasound", "result": "Hypoechoic lesion measuring 1.8 x 1.2 cm posterior to the right thyroid lobe, consistent with a parathyroid adenoma. Thyroid gland normal.", "flag": "ABNORMAL", "clinical_significance": "Concordant localization with sestamibi scan — concordant dual-modality imaging allows minimally invasive parathyroidectomy"},
-      {"test_name": "DEXA scan (bone density)", "result": "T-score: lumbar spine -2.8, femoral neck -2.1, distal 1/3 radius -3.2", "flag": "ABNORMAL", "clinical_significance": "Osteoporosis most prominent at the distal radius (cortical bone) — preferential cortical bone loss is characteristic of hyperparathyroidism (PTH mobilizes cortical bone more than trabecular)"}
+      {
+        "test_name": "Sestamibi (Tc-99m) parathyroid scintigraphy",
+        "result": "Focal increased uptake in the right inferior parathyroid gland on delayed images, consistent with a parathyroid adenoma. No additional areas of abnormal uptake.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Localizes a single parathyroid adenoma — a solitary adenoma accounts for 85% of PHPT cases; localization aids surgical planning"
+      },
+      {
+        "test_name": "Neck ultrasound",
+        "result": "Hypoechoic lesion measuring 1.8 x 1.2 cm posterior to the right thyroid lobe, consistent with a parathyroid adenoma. Thyroid gland normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Concordant localization with sestamibi scan — concordant dual-modality imaging allows minimally invasive parathyroidectomy"
+      },
+      {
+        "test_name": "DEXA scan (bone density)",
+        "result": "T-score: lumbar spine -2.8, femoral neck -2.1, distal 1/3 radius -3.2",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Osteoporosis most prominent at the distal radius (cortical bone) — preferential cortical bone loss is characteristic of this condition (PTH mobilizes cortical bone more than trabecular)"
+      }
     ],
     "key_tests": [
       "Calcium + intact PTH — hypercalcemia (11.4) with inappropriately elevated PTH (128) is diagnostic of primary hyperparathyroidism",

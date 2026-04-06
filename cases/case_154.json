@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Blood Cultures (Aerobic)", "result": "Growth at 5 days: gram-negative coccobacilli identified as Brucella melitensis by MALDI-TOF", "flag": "ABNORMAL", "clinical_significance": "Gold standard for diagnosis; Brucella species require prolonged incubation (up to 21 days in older systems); laboratory must be notified of clinical suspicion due to biosafety risk (BSL-3 agent)"},
-      {"test_name": "Brucella Serum Agglutination Test (SAT)", "result": "Titer 1:640", "flag": "ABNORMAL", "clinical_significance": "Titer ≥1:160 is diagnostic in the appropriate clinical context; high titer supports active disease"},
-      {"test_name": "CBC — WBC", "result": "3,600/μL with 55% lymphocytes", "flag": "LOW", "clinical_significance": "Leukopenia with relative lymphocytosis is characteristic of brucellosis"},
-      {"test_name": "CBC — Platelets", "result": "124,000/μL", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia seen in brucellosis from splenic sequestration and bone marrow involvement"},
-      {"test_name": "AST/ALT", "result": "AST 78 U/L, ALT 92 U/L", "flag": "HIGH", "clinical_significance": "Granulomatous hepatitis is common in brucellosis"},
-      {"test_name": "Alkaline Phosphatase", "result": "188 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic granulomatous infiltration"},
-      {"test_name": "ESR", "result": "48 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with chronic infection"},
-      {"test_name": "CRP", "result": "56 mg/L", "flag": "HIGH", "clinical_significance": "Moderate elevation reflecting chronic inflammatory state"},
-      {"test_name": "Serum Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "QuantiFERON-TB Gold", "result": "Negative", "flag": "WNL", "clinical_significance": "Helps exclude tuberculosis, which shares clinical and epidemiologic overlap"}
+      {
+        "test_name": "Blood Cultures (Aerobic)",
+        "result": "Growth at 5 days: gram-negative coccobacilli identified as Brucella melitensis by MALDI-TOF",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gold standard for diagnosis; Brucella species require prolonged incubation (up to 21 days in older systems); laboratory must be notified of clinical suspicion due to biosafety risk (BSL-3 agent)"
+      },
+      {
+        "test_name": "Brucella Serum Agglutination Test (SAT)",
+        "result": "Titer 1:640",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Titer ≥1:160 is diagnostic in the appropriate clinical context; high titer supports active disease"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "3,600/μL with 55% lymphocytes",
+        "flag": "LOW",
+        "clinical_significance": "Leukopenia with relative lymphocytosis is characteristic of this condition"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "124,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Mild thrombocytopenia seen in this condition from splenic sequestration and bone marrow involvement"
+      },
+      {
+        "test_name": "AST/ALT",
+        "result": "AST 78 U/L, ALT 92 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Granulomatous hepatitis is common in this condition"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "188 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatic granulomatous infiltration"
+      },
+      {
+        "test_name": "ESR",
+        "result": "48 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with chronic infection"
+      },
+      {
+        "test_name": "CRP",
+        "result": "56 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Moderate elevation reflecting chronic inflammatory state"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "QuantiFERON-TB Gold",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Helps exclude tuberculosis, which shares clinical and epidemiologic overlap"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI Pelvis (Sacroiliac Joints)", "result": "Left sacroiliac joint: bone marrow edema on both iliac and sacral sides, joint space irregularity, small joint effusion, and periarticular soft tissue enhancement. Right SI joint appears normal.", "flag": "ABNORMAL", "clinical_significance": "Unilateral sacroiliitis is a classic musculoskeletal complication of brucellosis; left SI joint most commonly affected"},
-      {"test_name": "CT Abdomen with Contrast", "result": "Hepatomegaly (17 cm) and splenomegaly (15 cm). Several small hypodense lesions in the spleen (up to 1.2 cm). No abscess. Mild retroperitoneal lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Hepatosplenomegaly with splenic granulomas consistent with disseminated brucellosis"}
+      {
+        "test_name": "MRI Pelvis (Sacroiliac Joints)",
+        "result": "Left sacroiliac joint: bone marrow edema on both iliac and sacral sides, joint space irregularity, small joint effusion, and periarticular soft tissue enhancement. Right SI joint appears normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Unilateral sacroiliitis is a classic musculoskeletal complication of this condition; left SI joint most commonly affected"
+      },
+      {
+        "test_name": "CT Abdomen with Contrast",
+        "result": "Hepatomegaly (17 cm) and splenomegaly (15 cm). Several small hypodense lesions in the spleen (up to 1.2 cm). No abscess. Mild retroperitoneal lymphadenopathy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatosplenomegaly with splenic granulomas consistent with disseminated this condition"
+      }
     ],
     "key_tests": [
       "Blood cultures (extended incubation up to 21 days; notify lab of Brucella suspicion for biosafety)",
@@ -63,7 +123,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A sheep farmer from Turkey with undulant fevers (evening peaks, morning resolution), profuse sweating, hepatosplenomegaly, unilateral sacroiliitis, and consumption of unpasteurized goat dairy. Blood cultures grow B. melitensis, serum agglutination titer is 1:640, and MRI confirms left SI joint sacroiliitis. Leukopenia with relative lymphocytosis and granulomatous hepatitis complete the clinical picture of osteoarticular brucellosis."
+    "final_clue": "A sheep farmer from Turkey with undulant fevers (evening peaks, morning resolution), profuse sweating, hepatosplenomegaly, unilateral sacroiliitis, and consumption of unpasteurized goat dairy. Blood cultures grow B. melitensis, serum agglutination titer is 1:640, and MRI confirms left SI joint sacroiliitis. Leukopenia with relative lymphocytosis and granulomatous hepatitis complete the clinical picture of osteoarticular this condition."
   },
   "debrief": {
     "classic_presentation": "A patient with occupational exposure to livestock (farmers, veterinarians, slaughterhouse workers) or consumption of unpasteurized dairy products from endemic regions (Mediterranean, Middle East, Central/South America, Central Asia) presenting with undulant fevers (rising in the evening, resolving by morning), drenching sweats (classically described as having a 'musty barn-like' odor), hepatosplenomegaly, and osteoarticular involvement (sacroiliitis, spondylitis, peripheral arthritis). Laboratory findings include leukopenia with relative lymphocytosis, transaminitis, and elevated ESR/CRP.",

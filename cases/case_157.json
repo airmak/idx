@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — ANC", "result": "ANC 40/μL (WBC 0.2 × 10³/μL)", "flag": "LOW", "clinical_significance": "Profound neutropenia (ANC <100) is the single greatest risk factor for invasive aspergillosis"},
-      {"test_name": "Serum Galactomannan (GM) Antigen", "result": "Positive (index 2.4)", "flag": "ABNORMAL", "clinical_significance": "GM index ≥0.5 is positive; highly suggestive of invasive aspergillosis in this clinical context (sensitivity ~70-80% in hematologic malignancy)"},
-      {"test_name": "Serum (1,3)-Beta-D-Glucan", "result": "286 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated BDG (>80 pg/mL is positive) supports invasive fungal infection; non-specific for Aspergillus (positive in many fungal infections except Mucorales and Cryptococcus)"},
-      {"test_name": "BAL Galactomannan", "result": "Positive (index 4.8)", "flag": "ABNORMAL", "clinical_significance": "BAL GM is more sensitive than serum GM; index ≥1.0 from BAL is highly specific for invasive pulmonary aspergillosis"},
-      {"test_name": "BAL Culture (Fungal)", "result": "Aspergillus fumigatus complex isolated", "flag": "ABNORMAL", "clinical_significance": "Isolation of Aspergillus from BAL in an immunocompromised host with compatible imaging is diagnostic of probable/proven invasive aspergillosis"},
-      {"test_name": "BAL Cytology", "result": "Septate hyphae with dichotomous (45-degree) branching identified on GMS stain", "flag": "ABNORMAL", "clinical_significance": "Morphology characteristic of Aspergillus species; confirms invasive fungal elements in the lower respiratory tract"},
-      {"test_name": "Blood Cultures (Bacterial, x2 sets)", "result": "No growth at 5 days", "flag": "WNL", "clinical_significance": "Excludes concurrent bacteremia; Aspergillus almost never grows from blood cultures"},
-      {"test_name": "CRP", "result": "142 mg/L", "flag": "HIGH", "clinical_significance": "Significant systemic inflammation"},
-      {"test_name": "Procalcitonin", "result": "0.32 ng/mL", "flag": "WNL", "clinical_significance": "Low-normal procalcitonin argues against bacterial infection; invasive fungal infections typically do not elevate procalcitonin significantly"},
-      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; important for voriconazole dosing considerations"},
-      {"test_name": "LFTs", "result": "AST 38 U/L, ALT 42 U/L, ALP 98 U/L, total bilirubin 0.8 mg/dL", "flag": "WNL", "clinical_significance": "Baseline hepatic function normal; important before starting voriconazole (hepatotoxic)"}
+      {
+        "test_name": "CBC — ANC",
+        "result": "ANC 40/μL (WBC 0.2 × 10³/μL)",
+        "flag": "LOW",
+        "clinical_significance": "Profound neutropenia (ANC <100) is the single greatest risk factor for this condition"
+      },
+      {
+        "test_name": "Serum Galactomannan (GM) Antigen",
+        "result": "Positive (index 2.4)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "GM index ≥0.5 is positive; highly suggestive of the suspected diagnosis in this clinical context (sensitivity ~70-80% in hematologic malignancy)"
+      },
+      {
+        "test_name": "Serum (1,3)-Beta-D-Glucan",
+        "result": "286 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BDG (>80 pg/mL is positive) supports invasive fungal infection; non-specific for Aspergillus (positive in many fungal infections except Mucorales and Cryptococcus)"
+      },
+      {
+        "test_name": "BAL Galactomannan",
+        "result": "Positive (index 4.8)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "BAL GM is more sensitive than serum GM; index ≥1.0 from BAL is highly specific for invasive pulmonary aspergillosis"
+      },
+      {
+        "test_name": "BAL Culture (Fungal)",
+        "result": "Aspergillus fumigatus complex isolated",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Isolation of Aspergillus from BAL in an immunocompromised host with compatible imaging is diagnostic of probable/proven this condition"
+      },
+      {
+        "test_name": "BAL Cytology",
+        "result": "Septate hyphae with dichotomous (45-degree) branching identified on GMS stain",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Morphology characteristic of Aspergillus species; confirms invasive fungal elements in the lower respiratory tract"
+      },
+      {
+        "test_name": "Blood Cultures (Bacterial, x2 sets)",
+        "result": "No growth at 5 days",
+        "flag": "WNL",
+        "clinical_significance": "Excludes concurrent bacteremia; Aspergillus almost never grows from blood cultures"
+      },
+      {
+        "test_name": "CRP",
+        "result": "142 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significant systemic inflammation"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.32 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal procalcitonin argues against bacterial infection; invasive fungal infections typically do not elevate procalcitonin significantly"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important for voriconazole dosing considerations"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 38 U/L, ALT 42 U/L, ALP 98 U/L, total bilirubin 0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Baseline hepatic function normal; important before starting voriconazole (hepatotoxic)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Chest (High-Resolution)", "result": "Right upper lobe: 3.2 cm dense nodule with surrounding ground-glass attenuation (halo sign). Right lower lobe: smaller 1.4 cm nodule abutting the pleura. Small right-sided pleural effusion. No cavitation. No air crescent sign. Left lung clear.", "flag": "ABNORMAL", "clinical_significance": "The halo sign (ground-glass surrounding a dense nodule) is highly suggestive of angioinvasive aspergillosis in a neutropenic patient; represents hemorrhagic infarction around the fungal nodule"},
-      {"test_name": "CT Sinuses", "result": "Mild mucosal thickening in bilateral maxillary sinuses without bone erosion. No evidence of invasive fungal sinusitis.", "flag": "WNL", "clinical_significance": "No sinonasal aspergillosis"}
+      {
+        "test_name": "CT Chest (High-Resolution)",
+        "result": "Right upper lobe: 3.2 cm dense nodule with surrounding ground-glass attenuation (halo sign). Right lower lobe: smaller 1.4 cm nodule abutting the pleura. Small right-sided pleural effusion. No cavitation. No air crescent sign. Left lung clear.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The halo sign (ground-glass surrounding a dense nodule) is highly suggestive of angiothis condition in a neutropenic patient; represents hemorrhagic infarction around the fungal nodule"
+      },
+      {
+        "test_name": "CT Sinuses",
+        "result": "Mild mucosal thickening in bilateral maxillary sinuses without bone erosion. No evidence of invasive fungal sinusitis.",
+        "flag": "WNL",
+        "clinical_significance": "No sinonasal aspergillosis"
+      }
     ],
     "key_tests": [
       "CT chest (high-resolution) — the halo sign in a neutropenic febrile patient is highly suggestive",

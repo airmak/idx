@@ -25,27 +25,99 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "12.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may indicate early bowel compromise or stress response"},
-      {"test_name": "CBC - Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
-      {"test_name": "BMP - BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, dehydration and poor oral intake"},
-      {"test_name": "BMP - Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from volume depletion"},
-      {"test_name": "BMP - Potassium", "result": "3.1 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and poor intake, can worsen ileus"},
-      {"test_name": "BMP - Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia, dilutional or from chronic illness"},
-      {"test_name": "Lactate", "result": "2.4 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, concerning for early bowel compromise but not yet indicating frank ischemia"},
-      {"test_name": "BMP - Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mildly low, consistent with early metabolic acidosis"},
-      {"test_name": "BMP - Glucose", "result": "186 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia in known diabetic"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "12.4 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis, may indicate early bowel compromise or stress response"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "11.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely chronic disease"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "38 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, dehydration and poor oral intake"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Prerenal azotemia from volume depletion"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "3.1 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from vomiting and poor intake, can worsen ileus"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "132 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia, dilutional or from chronic illness"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, concerning for early bowel compromise but not yet indicating frank ischemia"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "20 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mildly low, consistent with early metabolic acidosis"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "186 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Stress hyperglycemia in known diabetic"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Massively dilated loop of large bowel arising from the pelvis and extending to the right upper quadrant, with the apex reaching the diaphragm. Classic 'coffee bean' or 'bent inner tube' sign with the limbs of the loop pointing toward the left lower quadrant (pelvis). Loss of haustral markings in the dilated segment. Multiple air-fluid levels in the small bowel indicating proximal obstruction. No free air.", "flag": "ABNORMAL", "clinical_significance": "The 'coffee bean sign' with a massively dilated loop arising from the pelvis is pathognomonic for sigmoid volvulus. The absence of free air is reassuring against perforation."},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Massively dilated sigmoid colon with a 'whirl sign' at the base of the mesentery in the left lower quadrant, confirming torsion of the sigmoid mesentery. The sigmoid loop measures 14 cm in maximal diameter. Bowel wall appears thickened but enhancing, without pneumatosis or portal venous gas. Moderate small bowel dilation proximal to the obstruction. No perforation. No free fluid.", "flag": "ABNORMAL", "clinical_significance": "The 'whirl sign' on CT is diagnostic of volvulus and confirms the torsion point. Preserved bowel wall enhancement suggests viable bowel, supporting an initial attempt at endoscopic decompression."}
+      {
+        "test_name": "Abdominal X-ray (supine and upright)",
+        "result": "Massively dilated loop of large bowel arising from the pelvis and extending to the right upper quadrant, with the apex reaching the diaphragm. Classic 'coffee bean' or 'bent inner tube' sign with the limbs of the loop pointing toward the left lower quadrant (pelvis). Loss of haustral markings in the dilated segment. Multiple air-fluid levels in the small bowel indicating proximal obstruction. No free air.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'coffee bean sign' with a massively dilated loop arising from the pelvis is pathognomonic for this condition. The absence of free air is reassuring against perforation."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Massively dilated sigmoid colon with a 'whirl sign' at the base of the mesentery in the left lower quadrant, confirming torsion of the sigmoid mesentery. The sigmoid loop measures 14 cm in maximal diameter. Bowel wall appears thickened but enhancing, without pneumatosis or portal venous gas. Moderate small bowel dilation proximal to the obstruction. No perforation. No free fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'whirl sign' on CT is diagnostic of volvulus and confirms the torsion point. Preserved bowel wall enhancement suggests viable bowel, supporting an initial attempt at endoscopic decompression."
+      }
     ],
-    "key_tests": ["Abdominal X-ray (supine and upright)", "CT abdomen/pelvis with IV contrast", "CBC with differential", "BMP (electrolytes)", "Serum lactate"],
-    "acceptable_tests": ["Blood type and screen", "Coagulation studies", "Hepatic function panel", "Blood cultures (if septic)", "Chest X-ray (rule out perforation/aspiration)"],
-    "low_yield_tests": ["Barium enema ('bird's beak' sign is classic but rarely needed with CT availability)", "Colonoscopy as primary diagnostic tool (it is therapeutic, not diagnostic first-line)", "MRI abdomen (delays care)", "Abdominal ultrasound (poor for volvulus evaluation)"],
+    "key_tests": [
+      "Abdominal X-ray (supine and upright)",
+      "CT abdomen/pelvis with IV contrast",
+      "CBC with differential",
+      "BMP (electrolytes)",
+      "Serum lactate"
+    ],
+    "acceptable_tests": [
+      "Blood type and screen",
+      "Coagulation studies",
+      "Hepatic function panel",
+      "Blood cultures (if septic)",
+      "Chest X-ray (rule out perforation/aspiration)"
+    ],
+    "low_yield_tests": [
+      "Barium enema ('bird's beak' sign is classic but rarely needed with CT availability)",
+      "Colonoscopy as primary diagnostic tool (it is therapeutic, not diagnostic first-line)",
+      "MRI abdomen (delays care)",
+      "Abdominal ultrasound (poor for volvulus evaluation)"
+    ],
     "final_clue": "Abdominal X-ray demonstrates the pathognomonic 'coffee bean sign' of sigmoid volvulus. CT confirms a 'whirl sign' at the sigmoid mesenteric base with a massively dilated sigmoid loop. Bowel wall enhancement is preserved, suggesting viability. In this elderly, debilitated patient with chronic constipation and anticholinergic medication use, this is sigmoid volvulus requiring urgent decompression."
   },
   "stage5": {
-    "final_clue": "Abdominal X-ray demonstrates the pathognomonic 'coffee bean sign' of sigmoid volvulus. CT confirms a 'whirl sign' at the sigmoid mesenteric base with a massively dilated sigmoid loop. Bowel wall enhancement is preserved, suggesting viability. In this elderly, debilitated patient with chronic constipation and anticholinergic medication use, this is sigmoid volvulus requiring urgent decompression."
+    "final_clue": "Abdominal X-ray demonstrates the pathognomonic 'coffee bean sign' of this condition. CT confirms a 'whirl sign' at the sigmoid mesenteric base with a massively dilated sigmoid loop. Bowel wall enhancement is preserved, suggesting viability. In this elderly, debilitated patient with chronic constipation and anticholinergic medication use, this is this condition requiring urgent decompression."
   },
   "debrief": {
     "classic_presentation": "Elderly, debilitated, institutionalized patient (nursing home, psychiatric facility) with chronic constipation presenting with massive abdominal distension, obstipation, and vomiting. The classic triad is abdominal pain, distension, and constipation. Risk factors include advanced age, chronic constipation, neuropsychiatric disease (Parkinson, schizophrenia, dementia), anticholinergic and psychotropic medications (clozapine is especially associated), a long redundant sigmoid colon (dolichosigmoid), and chronic laxative use. Sigmoid volvulus accounts for 60-75% of all colonic volvulus cases in Western countries.",
@@ -67,9 +139,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Sigmoid volvulus", "Cecal volvulus", "Large bowel obstruction (malignant)", "Ogilvie syndrome (acute colonic pseudo-obstruction)", "Toxic megacolon", "Small bowel obstruction"],
-    "after_stage2_more_likely": ["Sigmoid volvulus", "Ogilvie syndrome", "Large bowel obstruction (malignant)"],
-    "after_stage2_less_likely": ["Toxic megacolon", "Small bowel obstruction"],
-    "after_labs_top3": ["Sigmoid volvulus", "Cecal volvulus", "Ogilvie syndrome"]
+    "reasonable_ddx": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Large bowel obstruction (malignant)",
+      "Ogilvie syndrome (acute colonic pseudo-obstruction)",
+      "Toxic megacolon",
+      "Small bowel obstruction"
+    ],
+    "after_stage2_more_likely": [
+      "Sigmoid volvulus",
+      "Ogilvie syndrome",
+      "Large bowel obstruction (malignant)"
+    ],
+    "after_stage2_less_likely": [
+      "Toxic megacolon",
+      "Small bowel obstruction"
+    ],
+    "after_labs_top3": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Ogilvie syndrome"
+    ]
   }
 }

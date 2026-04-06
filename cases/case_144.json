@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "19,200/μL with 88% neutrophils, 6% bands", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift consistent with severe bacterial infection"},
-      {"test_name": "Serum Lactate", "result": "4.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion consistent with sepsis"},
-      {"test_name": "Serum Creatinine", "result": "1.8 mg/dL (baseline 1.1)", "flag": "HIGH", "clinical_significance": "Acute kidney injury superimposed on CKD, likely from sepsis-related hypoperfusion"},
-      {"test_name": "Blood Cultures (x2 sets)", "result": "2/2 sets growing gram-negative rods at 12 hours (final: E. coli, pansensitive)", "flag": "ABNORMAL", "clinical_significance": "E. coli bacteremia confirming urinary source sepsis"},
-      {"test_name": "Urinalysis", "result": "Cloudy, positive leukocyte esterase, positive nitrites, >50 WBC/hpf, many bacteria", "flag": "ABNORMAL", "clinical_significance": "Pyuria and bacteriuria confirming urinary tract infection"},
-      {"test_name": "Urine Culture", "result": ">100,000 CFU/mL E. coli (pansensitive)", "flag": "ABNORMAL", "clinical_significance": "Significant bacteriuria with organism matching blood cultures, confirming urinary source"},
-      {"test_name": "Procalcitonin", "result": "8.6 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated procalcitonin supports serious bacterial infection/sepsis"},
-      {"test_name": "CRP", "result": "186 mg/L", "flag": "HIGH", "clinical_significance": "Significantly elevated inflammatory marker"},
-      {"test_name": "BMP — Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal sodium"},
-      {"test_name": "BMP — Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal potassium, to be monitored in the setting of AKI"},
-      {"test_name": "Serum Glucose", "result": "218 mg/dL", "flag": "HIGH", "clinical_significance": "Stress hyperglycemia in the setting of sepsis"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "19,200/μL with 88% neutrophils, 6% bands",
+        "flag": "HIGH",
+        "clinical_significance": "Marked leukocytosis with left shift consistent with severe bacterial infection"
+      },
+      {
+        "test_name": "Serum Lactate",
+        "result": "4.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate indicates tissue hypoperfusion consistent with sepsis"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.8 mg/dL (baseline 1.1)",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury superimposed on CKD, likely from sepsis-related hypoperfusion"
+      },
+      {
+        "test_name": "Blood Cultures (x2 sets)",
+        "result": "2/2 sets growing gram-negative rods at 12 hours (final: E. coli, pansensitive)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "E. coli bacteremia confirming urinary source sepsis"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Cloudy, positive leukocyte esterase, positive nitrites, >50 WBC/hpf, many bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pyuria and bacteriuria confirming urinary tract infection"
+      },
+      {
+        "test_name": "Urine Culture",
+        "result": ">100,000 CFU/mL E. coli (pansensitive)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Significant bacteriuria with organism matching blood cultures, confirming urinary source"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "8.6 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated procalcitonin supports serious bacterial infection/sepsis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "186 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated inflammatory marker"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal sodium"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "4.8 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Upper normal potassium, to be monitored in the setting of AKI"
+      },
+      {
+        "test_name": "Serum Glucose",
+        "result": "218 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Stress hyperglycemia in the setting of sepsis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Right kidney with perinephric fat stranding and mild hydronephrosis. No renal abscess. No obstructing calculus identified. Bladder wall thickening.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with acute right pyelonephritis; mild hydronephrosis without obstruction"}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Right kidney with perinephric fat stranding and mild hydronephrosis. No renal abscess. No obstructing calculus identified. Bladder wall thickening.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with acute right pyelonephritis; mild hydronephrosis without obstruction"
+      }
     ],
     "key_tests": [
       "Blood cultures (at least 2 sets before antibiotics)",
@@ -64,7 +124,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A septic elderly diabetic female with dysuria, frequency, right flank pain, fever, hypotension, tachycardia, and altered mental status. Urinalysis confirms pyuria and bacteriuria, blood and urine cultures both grow E. coli, lactate is elevated at 4.2, and CT shows right pyelonephritis with perinephric stranding. The constellation confirms urinary sepsis secondary to E. coli pyelonephritis."
+    "final_clue": "A septic elderly diabetic female with dysuria, frequency, right flank pain, fever, hypotension, tachycardia, and altered mental status. Urinalysis confirms pyuria and bacteriuria, blood and urine cultures both grow E. coli, lactate is elevated at 4.2, and CT shows right pyelonephritis with perinephric stranding. The constellation confirms the suspected diagnosis secondary to E. coli pyelonephritis."
   },
   "debrief": {
     "classic_presentation": "An elderly or immunocompromised patient (often with diabetes, urinary obstruction, or catheterization) presenting with dysuria, urinary frequency, flank pain, high fever with rigors, and progression to sepsis (hypotension, tachycardia, altered mental status, elevated lactate). Urinalysis shows pyuria and bacteriuria, and blood cultures frequently grow the same uropathogen (most commonly E. coli).",

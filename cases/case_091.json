@@ -25,26 +25,116 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — Hemoglobin", "result": "16.8 g/dL", "flag": "HIGH", "clinical_significance": "Mild polycythemia — secondary to chronic intermittent hypoxemia from OSA"},
-      {"test_name": "CBC — Hematocrit", "result": "50.2%", "flag": "HIGH", "clinical_significance": "Elevated hematocrit confirms polycythemia secondary to chronic hypoxia"},
-      {"test_name": "CBC — WBC", "result": "8,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal; excludes hypothyroidism as a cause of fatigue and somnolence"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes — OSA contributes to insulin resistance"},
-      {"test_name": "Fasting glucose", "result": "148 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated fasting glucose consistent with uncontrolled DM2"},
-      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Bicarbonate", "result": "28 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal; may reflect mild chronic CO2 retention"},
-      {"test_name": "Lipid panel — LDL", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL; OSA is an independent risk factor for cardiovascular disease"},
-      {"test_name": "ABG pCO2", "result": "44 mmHg", "flag": "WNL", "clinical_significance": "Normal daytime pCO2; argues against obesity hypoventilation syndrome"},
-      {"test_name": "BNP", "result": "78 pg/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated; no overt heart failure"},
-      {"test_name": "Ferritin", "result": "120 ng/mL", "flag": "WNL", "clinical_significance": "Normal; iron deficiency excluded as cause of restless legs or fatigue"}
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "16.8 g/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild polycythemia — secondary to chronic intermittent hypoxemia from OSA"
+      },
+      {
+        "test_name": "CBC — Hematocrit",
+        "result": "50.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated hematocrit confirms polycythemia secondary to chronic hypoxia"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,100/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes hypothyroidism as a cause of fatigue and somnolence"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimally controlled diabetes — OSA contributes to insulin resistance"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "148 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated fasting glucose consistent with uncontrolled DM2"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Bicarbonate",
+        "result": "28 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Upper normal; may reflect mild chronic CO2 retention"
+      },
+      {
+        "test_name": "Lipid panel — LDL",
+        "result": "142 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDL; OSA is an independent risk factor for cardiovascular disease"
+      },
+      {
+        "test_name": "ABG pCO2",
+        "result": "44 mmHg",
+        "flag": "WNL",
+        "clinical_significance": "Normal daytime pCO2; argues against obesity hypoventilation syndrome"
+      },
+      {
+        "test_name": "BNP",
+        "result": "78 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not significantly elevated; no overt heart failure"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "120 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; iron deficiency excluded as cause of restless legs or fatigue"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Polysomnography (in-lab sleep study)", "result": "AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA, >30). Predominantly obstructive apneas. Lowest SpO2: 72%. SpO2 <90% for 28% of total sleep time. Arousal index: 48/hr. Sleep efficiency: 78%. REM-related worsening with AHI 62 in REM sleep.", "flag": "ABNORMAL", "clinical_significance": "Confirms severe obstructive sleep apnea with significant nocturnal hypoxemia and sleep fragmentation"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria.", "flag": "ABNORMAL", "clinical_significance": "LVH consistent with longstanding poorly controlled hypertension, which OSA exacerbates"}
+      {
+        "test_name": "Polysomnography (in-lab sleep study)",
+        "result": "AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA, >30). Predominantly obstructive apneas. Lowest SpO2: 72%. SpO2 <90% for 28% of total sleep time. Arousal index: 48/hr. Sleep efficiency: 78%. REM-related worsening with AHI 62 in REM sleep.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms severe this condition with significant nocturnal hypoxemia and sleep fragmentation"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH consistent with longstanding poorly controlled hypertension, which OSA exacerbates"
+      }
     ],
-    "key_tests": ["Polysomnography (in-lab sleep study)", "Epworth Sleepiness Scale", "Pulse oximetry", "TSH (to exclude hypothyroidism)"],
-    "acceptable_tests": ["Home sleep apnea testing (HSAT)", "CBC", "ABG or VBG", "BMP", "HbA1c", "Lipid panel", "ECG", "BNP"],
-    "low_yield_tests": ["Chest X-ray", "CT chest", "Pulmonary function tests", "D-dimer", "Brain MRI"]
+    "key_tests": [
+      "Polysomnography (in-lab sleep study)",
+      "Epworth Sleepiness Scale",
+      "Pulse oximetry",
+      "TSH (to exclude hypothyroidism)"
+    ],
+    "acceptable_tests": [
+      "Home sleep apnea testing (HSAT)",
+      "CBC",
+      "ABG or VBG",
+      "BMP",
+      "HbA1c",
+      "Lipid panel",
+      "ECG",
+      "BNP"
+    ],
+    "low_yield_tests": [
+      "Chest X-ray",
+      "CT chest",
+      "Pulmonary function tests",
+      "D-dimer",
+      "Brain MRI"
+    ]
   },
   "stage5": {
     "final_clue": "CPAP titration study demonstrates resolution of apneas and hypopneas at a pressure of 12 cm H2O, with SpO2 maintained above 92% throughout the night. The patient reports dramatic improvement in daytime alertness after 2 weeks of CPAP use."
@@ -68,9 +158,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Obstructive sleep apnea", "Central sleep apnea", "Obesity hypoventilation syndrome", "Hypothyroidism", "Narcolepsy", "Depression-related hypersomnia", "Periodic limb movement disorder", "Chronic fatigue syndrome"],
-    "after_stage2_more_likely": ["Obstructive sleep apnea", "Obesity hypoventilation syndrome"],
-    "after_stage2_less_likely": ["Hypothyroidism", "Narcolepsy", "Depression-related hypersomnia"],
-    "after_labs_top3": ["Obstructive sleep apnea", "Obesity hypoventilation syndrome", "Central sleep apnea"]
+    "reasonable_ddx": [
+      "Obstructive sleep apnea",
+      "Central sleep apnea",
+      "Obesity hypoventilation syndrome",
+      "Hypothyroidism",
+      "Narcolepsy",
+      "Depression-related hypersomnia",
+      "Periodic limb movement disorder",
+      "Chronic fatigue syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Obstructive sleep apnea",
+      "Obesity hypoventilation syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Hypothyroidism",
+      "Narcolepsy",
+      "Depression-related hypersomnia"
+    ],
+    "after_labs_top3": [
+      "Obstructive sleep apnea",
+      "Obesity hypoventilation syndrome",
+      "Central sleep apnea"
+    ]
   }
 }

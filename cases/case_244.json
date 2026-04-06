@@ -25,16 +25,56 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 7.0, Hgb 14.5, Hct 43.2, Plt 240", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia suggesting GI blood loss"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 14, Cr 0.9, Glucose 102, Ca 9.4, AST 22, ALT 24, Alk Phos 60, Albumin 4.1", "flag": "WNL", "clinical_significance": "Normal metabolic panel; mildly elevated fasting glucose in obese patient"},
-      {"test_name": "Lipid panel", "result": "Total cholesterol 215, LDL 138, HDL 42, Triglycerides 175", "flag": "ABNORMAL", "clinical_significance": "Dyslipidemia consistent with metabolic syndrome; relevant for cardiovascular risk assessment given chest pain presentation"},
-      {"test_name": "H. pylori stool antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out H. pylori infection as cause of dyspepsia"},
-      {"test_name": "HbA1c", "result": "5.8%", "flag": "BORDERLINE", "clinical_significance": "Prediabetic range, consistent with obesity and metabolic syndrome"},
-      {"test_name": "Troponin I", "result": "<0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal troponin rules out acute myocardial injury; important given chest pain presentation"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.0, Hgb 14.5, Hct 43.2, Plt 240",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no anemia suggesting GI blood loss"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 14, Cr 0.9, Glucose 102, Ca 9.4, AST 22, ALT 24, Alk Phos 60, Albumin 4.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; mildly elevated fasting glucose in obese patient"
+      },
+      {
+        "test_name": "Lipid panel",
+        "result": "Total cholesterol 215, LDL 138, HDL 42, Triglycerides 175",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dyslipidemia consistent with metabolic syndrome; relevant for cardiovascular risk assessment given chest pain presentation"
+      },
+      {
+        "test_name": "H. pylori stool antigen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out H. pylori infection as cause of dyspepsia"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.8%",
+        "flag": "BORDERLINE",
+        "clinical_significance": "Prediabetic range, consistent with obesity and metabolic syndrome"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "<0.01 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal troponin rules out acute myocardial injury; important given chest pain presentation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "No infiltrate, effusion, or mass. Normal cardiac silhouette. No hiatal hernia visible.", "flag": "WNL", "clinical_significance": "Rules out pulmonary cause of cough and cardiac enlargement"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm, no ST-T changes, no ischemic findings", "flag": "WNL", "clinical_significance": "Rules out cardiac ischemia as cause of chest pain"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "No infiltrate, effusion, or mass. Normal cardiac silhouette. No hiatal hernia visible.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pulmonary cause of cough and cardiac enlargement"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm, no ST-T changes, no ischemic findings",
+        "flag": "WNL",
+        "clinical_significance": "Rules out cardiac ischemia as cause of chest pain"
+      }
     ],
     "key_tests": [
       "Clinical history and symptom assessment — classic GERD symptoms with heartburn, regurgitation, postprandial worsening, and nocturnal symptoms",
@@ -57,7 +97,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient presents with classic GERD symptoms: postprandial substernal burning, nocturnal worsening when supine, sour taste/regurgitation, and extraesophageal manifestation (chronic cough). Multiple risk factors are present: obesity, smoking, late evening meals, caffeine intake. H. pylori is negative, cardiac workup is negative, and there are no alarm features (no dysphagia, weight loss, anemia, or GI bleeding) warranting immediate endoscopy. An empiric PPI trial is both diagnostic and therapeutic."
+    "final_clue": "The patient presents with classic this condition symptoms: postprandial substernal burning, nocturnal worsening when supine, sour taste/regurgitation, and extraesophageal manifestation (chronic cough). Multiple risk factors are present: obesity, smoking, late evening meals, caffeine intake. H. pylori is negative, cardiac workup is negative, and there are no alarm features (no dysphagia, weight loss, anemia, or GI bleeding) warranting immediate endoscopy. An empiric PPI trial is both diagnostic and therapeutic."
   },
   "debrief": {
     "classic_presentation": "A middle-aged, overweight adult presenting with heartburn (burning substernal/epigastric pain worse after meals and when supine) and acid regurgitation, often accompanied by extraesophageal symptoms (chronic cough, laryngitis, dental erosions, asthma exacerbation). Symptoms are worse with large meals, fatty/spicy foods, caffeine, alcohol, smoking, and lying down shortly after eating. Relief with antacids or PPIs is characteristic.",

@@ -25,28 +25,112 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urine hCG (qualitative)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirms pregnancy"},
-      {"test_name": "Serum beta-hCG (quantitative)", "result": "3,200 mIU/mL", "flag": "ABNORMAL", "clinical_significance": "Above discriminatory zone (~1500-3000) - intrauterine pregnancy should be visible on TVUS if present"},
-      {"test_name": "CBC - Hemoglobin", "result": "9.8 g/dL", "flag": "LOW", "clinical_significance": "Anemia suggesting significant hemorrhage"},
-      {"test_name": "CBC - Hematocrit", "result": "29%", "flag": "LOW", "clinical_significance": "Low hematocrit consistent with blood loss"},
-      {"test_name": "CBC - WBC", "result": "10.8 x10^9/L", "flag": "WNL", "clinical_significance": "Upper normal range"},
-      {"test_name": "CBC - Platelets", "result": "245 x10^9/L", "flag": "WNL", "clinical_significance": "Normal platelet count"},
-      {"test_name": "Blood Type and Rh", "result": "B Negative", "flag": "ABNORMAL", "clinical_significance": "Rh-negative; will require RhoGAM administration"},
-      {"test_name": "BMP - Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Lactate", "result": "2.8 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from hypoperfusion"},
-      {"test_name": "Coagulation - PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation"},
-      {"test_name": "Progesterone", "result": "3.2 ng/mL", "flag": "LOW", "clinical_significance": "Low progesterone (<5 ng/mL) suggests non-viable pregnancy"}
+      {
+        "test_name": "Urine hCG (qualitative)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms pregnancy"
+      },
+      {
+        "test_name": "Serum beta-hCG (quantitative)",
+        "result": "3,200 mIU/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Above discriminatory zone (~1500-3000) - intrauterine pregnancy should be visible on TVUS if present"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "9.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia suggesting significant hemorrhage"
+      },
+      {
+        "test_name": "CBC - Hematocrit",
+        "result": "29%",
+        "flag": "LOW",
+        "clinical_significance": "Low hematocrit consistent with blood loss"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "10.8 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Upper normal range"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "245 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelet count"
+      },
+      {
+        "test_name": "Blood Type and Rh",
+        "result": "B Negative",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rh-negative; will require RhoGAM administration"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from hypoperfusion"
+      },
+      {
+        "test_name": "Coagulation - PT/INR",
+        "result": "1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation"
+      },
+      {
+        "test_name": "Progesterone",
+        "result": "3.2 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low progesterone (<5 ng/mL) suggests non-viable pregnancy"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transvaginal Ultrasound", "result": "Empty uterus with thickened endometrium. Left adnexal mass (3.2 cm) with a hyperechoic ring sign. Moderate free fluid in the cul-de-sac.", "flag": "ABNORMAL", "clinical_significance": "No intrauterine pregnancy despite hCG above discriminatory zone. Adnexal mass and free fluid highly suggestive of ruptured ectopic pregnancy."},
-      {"test_name": "FAST Exam (bedside)", "result": "Free fluid in the pelvis (Morison pouch negative, pelvis positive).", "flag": "ABNORMAL", "clinical_significance": "Confirms hemoperitoneum in the setting of hemodynamic instability"}
+      {
+        "test_name": "Transvaginal Ultrasound",
+        "result": "Empty uterus with thickened endometrium. Left adnexal mass (3.2 cm) with a hyperechoic ring sign. Moderate free fluid in the cul-de-sac.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "No intrauterine pregnancy despite hCG above discriminatory zone. Adnexal mass and free fluid highly suggestive of ruptured this condition."
+      },
+      {
+        "test_name": "FAST Exam (bedside)",
+        "result": "Free fluid in the pelvis (Morison pouch negative, pelvis positive).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms hemoperitoneum in the setting of hemodynamic instability"
+      }
     ],
-    "key_tests": ["Urine hCG", "Serum quantitative beta-hCG", "Transvaginal ultrasound", "CBC", "Blood type and Rh"],
-    "acceptable_tests": ["FAST exam", "Progesterone level", "Coagulation studies", "BMP", "Lactate", "Type and crossmatch"],
-    "low_yield_tests": ["CT abdomen/pelvis", "Abdominal X-ray", "Urinalysis", "Liver function tests", "Cervical cultures"]
+    "key_tests": [
+      "Urine hCG",
+      "Serum quantitative beta-hCG",
+      "Transvaginal ultrasound",
+      "CBC",
+      "Blood type and Rh"
+    ],
+    "acceptable_tests": [
+      "FAST exam",
+      "Progesterone level",
+      "Coagulation studies",
+      "BMP",
+      "Lactate",
+      "Type and crossmatch"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis",
+      "Abdominal X-ray",
+      "Urinalysis",
+      "Liver function tests",
+      "Cervical cultures"
+    ]
   },
   "stage5": {
-    "final_clue": "Quantitative beta-hCG of 3,200 mIU/mL with no intrauterine pregnancy on transvaginal ultrasound, a left adnexal mass with ring sign, free pelvic fluid, and hemodynamic instability confirm a ruptured ectopic pregnancy requiring emergent surgical intervention."
+    "final_clue": "Quantitative beta-hCG of 3,200 mIU/mL with no intrauterine pregnancy on transvaginal ultrasound, a left adnexal mass with ring sign, free pelvic fluid, and hemodynamic instability confirm a ruptured this condition requiring emergent surgical intervention."
   },
   "debrief": {
     "classic_presentation": "A woman of reproductive age with amenorrhea (6-8 weeks), unilateral lower abdominal/pelvic pain, and vaginal bleeding. Risk factors include prior PID, ectopic pregnancy, tubal surgery, IUD use, and assisted reproduction. Rupture presents with acute hemodynamic instability, peritoneal signs, and referred shoulder pain (from diaphragmatic irritation).",
@@ -67,9 +151,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Ectopic pregnancy", "Threatened/incomplete abortion", "Ovarian torsion", "Ruptured ovarian cyst", "Appendicitis", "Pelvic inflammatory disease", "Ovarian hyperstimulation syndrome"],
-    "after_stage2_more_likely": ["Ectopic pregnancy", "Ruptured ovarian cyst", "Ovarian torsion"],
-    "after_stage2_less_likely": ["Appendicitis", "Pelvic inflammatory disease"],
-    "after_labs_top3": ["Ectopic pregnancy (ruptured)", "Ruptured ovarian cyst with hemorrhage", "Threatened abortion"]
+    "reasonable_ddx": [
+      "Ectopic pregnancy",
+      "Threatened/incomplete abortion",
+      "Ovarian torsion",
+      "Ruptured ovarian cyst",
+      "Appendicitis",
+      "Pelvic inflammatory disease",
+      "Ovarian hyperstimulation syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Ectopic pregnancy",
+      "Ruptured ovarian cyst",
+      "Ovarian torsion"
+    ],
+    "after_stage2_less_likely": [
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_labs_top3": [
+      "Ectopic pregnancy (ruptured)",
+      "Ruptured ovarian cyst with hemorrhage",
+      "Threatened abortion"
+    ]
   }
 }

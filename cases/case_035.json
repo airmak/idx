@@ -25,29 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Point-of-care Glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated (stress response); hypoglycemia excluded as seizure cause"},
-      {"test_name": "BMP - Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal, hyponatremia excluded"},
-      {"test_name": "BMP - Calcium (ionized)", "result": "4.6 mg/dL", "flag": "WNL", "clinical_significance": "Normal, hypocalcemia excluded"},
-      {"test_name": "BMP - Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ABG - pH", "result": "7.18", "flag": "LOW", "clinical_significance": "Severe acidosis from prolonged seizure activity (lactic + respiratory)"},
-      {"test_name": "ABG - pCO2", "result": "58 mmHg", "flag": "HIGH", "clinical_significance": "Hypercapnia from impaired ventilation during seizure"},
-      {"test_name": "ABG - pO2", "result": "62 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia requiring airway management"},
-      {"test_name": "Lactate", "result": "8.2 mmol/L", "flag": "HIGH", "clinical_significance": "Markedly elevated from sustained muscle contraction and tissue hypoxia"},
-      {"test_name": "CBC - WBC", "result": "14.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis from stress demargination"},
-      {"test_name": "CK (Creatine Kinase)", "result": "1,850 U/L", "flag": "HIGH", "clinical_significance": "Elevated from prolonged muscle contraction; monitor for rhabdomyolysis"},
-      {"test_name": "Levetiracetam level", "result": "<2 mcg/mL", "flag": "LOW", "clinical_significance": "Undetectable, confirms medication non-compliance as precipitant"},
-      {"test_name": "Urine Drug Screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit substances contributing to seizure"}
+      {
+        "test_name": "Point-of-care Glucose",
+        "result": "142 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated (stress response); hypoglycemia excluded as seizure cause"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, hyponatremia excluded"
+      },
+      {
+        "test_name": "BMP - Calcium (ionized)",
+        "result": "4.6 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, hypocalcemia excluded"
+      },
+      {
+        "test_name": "BMP - Magnesium",
+        "result": "1.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ABG - pH",
+        "result": "7.18",
+        "flag": "LOW",
+        "clinical_significance": "Severe acidosis from prolonged seizure activity (lactic + respiratory)"
+      },
+      {
+        "test_name": "ABG - pCO2",
+        "result": "58 mmHg",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercapnia from impaired ventilation during seizure"
+      },
+      {
+        "test_name": "ABG - pO2",
+        "result": "62 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Hypoxemia requiring airway management"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "8.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated from sustained muscle contraction and tissue hypoxia"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "14.8 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis from stress demargination"
+      },
+      {
+        "test_name": "CK (Creatine Kinase)",
+        "result": "1,850 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from prolonged muscle contraction; monitor for rhabdomyolysis"
+      },
+      {
+        "test_name": "Levetiracetam level",
+        "result": "<2 mcg/mL",
+        "flag": "LOW",
+        "clinical_significance": "Undetectable, confirms medication non-compliance as precipitant"
+      },
+      {
+        "test_name": "Urine Drug Screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No illicit substances contributing to seizure"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage. No mass, midline shift, or hydrocephalus. No cerebral edema.", "flag": "WNL", "clinical_significance": "Excludes structural cause of seizure (hemorrhage, mass, etc.)"},
-      {"test_name": "Chest X-ray", "result": "No aspiration pneumonia. Endotracheal tube in appropriate position (obtained after intubation).", "flag": "WNL", "clinical_significance": "Excludes aspiration; confirms ETT placement"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial hemorrhage. No mass, midline shift, or hydrocephalus. No cerebral edema.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes structural cause of seizure (hemorrhage, mass, etc.)"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No aspiration pneumonia. Endotracheal tube in appropriate position (obtained after intubation).",
+        "flag": "WNL",
+        "clinical_significance": "Excludes aspiration; confirms ETT placement"
+      }
     ],
-    "key_tests": ["Point-of-care glucose", "BMP (sodium, calcium, magnesium)", "CT head without contrast", "Arterial blood gas", "Antiepileptic drug levels"],
-    "acceptable_tests": ["CBC", "CK/Myoglobin (rhabdomyolysis screen)", "Lactate", "Urine drug screen", "Hepatic function panel", "Chest X-ray", "Continuous EEG monitoring"],
-    "low_yield_tests": ["MRI brain (during acute seizure)", "Lumbar puncture (unless meningitis suspected)", "Thyroid function tests", "Ammonia level (unless hepatic disease suspected)", "CT angiography"]
+    "key_tests": [
+      "Point-of-care glucose",
+      "BMP (sodium, calcium, magnesium)",
+      "CT head without contrast",
+      "Arterial blood gas",
+      "Antiepileptic drug levels"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CK/Myoglobin (rhabdomyolysis screen)",
+      "Lactate",
+      "Urine drug screen",
+      "Hepatic function panel",
+      "Chest X-ray",
+      "Continuous EEG monitoring"
+    ],
+    "low_yield_tests": [
+      "MRI brain (during acute seizure)",
+      "Lumbar puncture (unless meningitis suspected)",
+      "Thyroid function tests",
+      "Ammonia level (unless hepatic disease suspected)",
+      "CT angiography"
+    ]
   },
   "stage5": {
-    "final_clue": "Continuous generalized tonic-clonic seizure activity lasting >5 minutes in a patient with known epilepsy who stopped his levetiracetam 4 days ago. Undetectable drug levels confirm non-compliance. CT head excludes structural causes. This is status epilepticus precipitated by anticonvulsant withdrawal."
+    "final_clue": "Continuous generalized tonic-clonic seizure activity lasting >5 minutes in a patient with known epilepsy who stopped his levetiracetam 4 days ago. Undetectable drug levels confirm non-compliance. CT head excludes structural causes. This is this condition precipitated by anticonvulsant withdrawal."
   },
   "debrief": {
     "classic_presentation": "Continuous seizure activity lasting more than 5 minutes, or two or more seizures without return to baseline consciousness between them. Most commonly occurs in patients with known epilepsy (anticonvulsant non-compliance is the #1 precipitant). Generalized convulsive status epilepticus is a medical emergency with mortality of 10-20% if not promptly treated.",
@@ -69,9 +159,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Status epilepticus", "Meningitis/Encephalitis", "Hypoglycemia", "Drug overdose/withdrawal", "Intracranial hemorrhage", "Hyponatremia", "Psychogenic non-epileptic seizure"],
-    "after_stage2_more_likely": ["Status epilepticus (medication non-compliance)", "Drug withdrawal seizures"],
-    "after_stage2_less_likely": ["Meningitis/Encephalitis", "Psychogenic non-epileptic seizure", "Hyponatremia"],
-    "after_labs_top3": ["Status epilepticus (AED non-compliance)", "Breakthrough seizure", "Epilepsy with secondary complications"]
+    "reasonable_ddx": [
+      "Status epilepticus",
+      "Meningitis/Encephalitis",
+      "Hypoglycemia",
+      "Drug overdose/withdrawal",
+      "Intracranial hemorrhage",
+      "Hyponatremia",
+      "Psychogenic non-epileptic seizure"
+    ],
+    "after_stage2_more_likely": [
+      "Status epilepticus (medication non-compliance)",
+      "Drug withdrawal seizures"
+    ],
+    "after_stage2_less_likely": [
+      "Meningitis/Encephalitis",
+      "Psychogenic non-epileptic seizure",
+      "Hyponatremia"
+    ],
+    "after_labs_top3": [
+      "Status epilepticus (AED non-compliance)",
+      "Breakthrough seizure",
+      "Epilepsy with secondary complications"
+    ]
   }
 }

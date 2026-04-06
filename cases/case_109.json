@@ -25,26 +25,99 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
-      {"test_name": "CBC — Hemoglobin", "result": "15.1 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hyponatremia excluded as seizure trigger"},
-      {"test_name": "BMP — Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded"},
-      {"test_name": "BMP — Calcium", "result": "9.6 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypocalcemia excluded as seizure cause"},
-      {"test_name": "BMP — Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Serum prolactin (drawn 25 min post-event)", "result": "42 ng/mL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated prolactin drawn 10-20 min after event supports true seizure vs. psychogenic nonepileptic event (sensitivity ~60%)"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; drug-induced seizure excluded"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Hepatic function panel — ALT", "result": "24 U/L", "flag": "WNL", "clinical_significance": "Normal; baseline before initiating antiepileptic drug"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infection"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "15.1 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "139 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hyponatremia excluded as seizure trigger"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "94 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypoglycemia excluded"
+      },
+      {
+        "test_name": "BMP — Calcium",
+        "result": "9.6 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypocalcemia excluded as seizure cause"
+      },
+      {
+        "test_name": "BMP — Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Serum prolactin (drawn 25 min post-event)",
+        "result": "42 ng/mL (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated prolactin drawn 10-20 min after event supports true seizure vs. psychogenic nonepileptic event (sensitivity ~60%)"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; drug-induced seizure excluded"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Hepatic function panel — ALT",
+        "result": "24 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; baseline before initiating antiepileptic drug"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with epilepsy protocol", "result": "Right mesial temporal sclerosis: hippocampal atrophy with increased T2/FLAIR signal in the right hippocampus. No mass, vascular malformation, or cortical dysplasia identified.", "flag": "ABNORMAL", "clinical_significance": "Mesial temporal sclerosis (MTS) is the most common structural cause of temporal lobe epilepsy. The right-sided finding correlates with seizure semiology (left-hand automatisms suggest right temporal focus). MTS is strongly associated with history of prolonged febrile seizures in childhood."}
+      {
+        "test_name": "MRI brain with epilepsy protocol",
+        "result": "Right mesial temporal sclerosis: hippocampal atrophy with increased T2/FLAIR signal in the right hippocampus. No mass, vascular malformation, or cortical dysplasia identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mesial temporal sclerosis (MTS) is the most common structural cause of this condition this condition. The right-sided finding correlates with seizure semiology (left-hand automatisms suggest right temporal focus). MTS is strongly associated with history of prolonged febrile seizures in childhood."
+      }
     ],
-    "key_tests": ["EEG (routine and/or prolonged video-EEG monitoring)", "MRI brain with epilepsy protocol (thin-cut coronal FLAIR through temporal lobes)", "Detailed seizure semiology and witness description", "Serum electrolytes (sodium, calcium, magnesium, glucose)"],
-    "acceptable_tests": ["CBC", "BMP with calcium and magnesium", "Hepatic function panel (baseline before AED)", "Urine drug screen", "Serum prolactin (if diagnostic uncertainty)", "CT head (if MRI unavailable or acute presentation)"],
-    "low_yield_tests": ["Lumbar puncture (unless meningitis/encephalitis suspected)", "Cerebral angiography", "Carotid ultrasound", "Serum ammonia (without liver disease)", "Blood cultures (without fever)"]
+    "key_tests": [
+      "EEG (routine and/or prolonged video-EEG monitoring)",
+      "MRI brain with epilepsy protocol (thin-cut coronal FLAIR through temporal lobes)",
+      "Detailed seizure semiology and witness description",
+      "Serum electrolytes (sodium, calcium, magnesium, glucose)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP with calcium and magnesium",
+      "Hepatic function panel (baseline before AED)",
+      "Urine drug screen",
+      "Serum prolactin (if diagnostic uncertainty)",
+      "CT head (if MRI unavailable or acute presentation)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (unless meningitis/encephalitis suspected)",
+      "Cerebral angiography",
+      "Carotid ultrasound",
+      "Serum ammonia (without liver disease)",
+      "Blood cultures (without fever)"
+    ]
   },
   "stage5": {
-    "final_clue": "Routine EEG shows intermittent right temporal sharp waves and slow-wave discharges maximal at T4/T6 electrodes, consistent with a right temporal epileptogenic focus. Combined with MRI showing right mesial temporal sclerosis and a clinical history of focal seizures with impaired awareness (aura of epigastric rising and déjà vu, followed by staring and oroalimentary/manual automatisms) with occasional secondary generalization, the diagnosis of right temporal lobe epilepsy due to mesial temporal sclerosis is confirmed. He is started on levetiracetam and counseled regarding driving restrictions per state law."
+    "final_clue": "Routine EEG shows intermittent right temporal sharp waves and slow-wave discharges maximal at T4/T6 electrodes, consistent with a right temporal epileptogenic focus. Combined with MRI showing right mesial temporal sclerosis and a clinical history of focal seizures with impaired awareness (aura of epigastric rising and déjà vu, followed by staring and oroalimentary/manual automatisms) with occasional secondary generalization, the diagnosis of right this condition this condition due to mesial temporal sclerosis is confirmed. He is started on levetiracetam and counseled regarding driving restrictions per state law."
   },
   "debrief": {
     "classic_presentation": "Young adult with recurrent focal seizures with impaired awareness originating from the temporal lobe: epigastric rising aura and déjà vu (mesial temporal aura), followed by behavioral arrest, staring, oroalimentary automatisms (lip smacking), and unilateral hand automatisms, with postictal confusion and amnesia. History of prolonged febrile seizure in childhood and MRI showing mesial temporal sclerosis.",
@@ -65,9 +138,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events", "Syncope (cardiogenic or vasovagal)", "Transient ischemic attack", "Hypoglycemia", "Absence seizures", "Brain tumor"],
-    "after_stage2_more_likely": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events"],
-    "after_stage2_less_likely": ["Syncope", "Hypoglycemia", "Transient ischemic attack"],
-    "after_labs_top3": ["Temporal lobe epilepsy", "Psychogenic nonepileptic events", "Brain tumor"]
+    "reasonable_ddx": [
+      "Temporal lobe epilepsy",
+      "Psychogenic nonepileptic events",
+      "Syncope (cardiogenic or vasovagal)",
+      "Transient ischemic attack",
+      "Hypoglycemia",
+      "Absence seizures",
+      "Brain tumor"
+    ],
+    "after_stage2_more_likely": [
+      "Temporal lobe epilepsy",
+      "Psychogenic nonepileptic events"
+    ],
+    "after_stage2_less_likely": [
+      "Syncope",
+      "Hypoglycemia",
+      "Transient ischemic attack"
+    ],
+    "after_labs_top3": [
+      "Temporal lobe epilepsy",
+      "Psychogenic nonepileptic events",
+      "Brain tumor"
+    ]
   }
 }

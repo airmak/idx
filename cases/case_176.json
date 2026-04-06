@@ -25,28 +25,111 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "LFTs", "result": "AST 320, ALT 380, ALP 165, Total bilirubin 4.2, Albumin 2.8", "flag": "HIGH", "clinical_significance": "Hepatocellular injury pattern with elevated transaminases from hepatic congestion; impaired synthetic function"},
-      {"test_name": "PT/INR", "result": "INR 1.7", "flag": "HIGH", "clinical_significance": "Prolonged from impaired hepatic synthetic function"},
-      {"test_name": "CBC", "result": "WBC 8.5, Hgb 16.2, Hct 49%, Plt 520", "flag": "HIGH", "clinical_significance": "Elevated hemoglobin/hematocrit and thrombocytosis — raise concern for myeloproliferative neoplasm (polycythemia vera or essential thrombocythemia)"},
-      {"test_name": "BMP", "result": "Na 130, K 3.4, Cr 1.4, BUN 28", "flag": "ABNORMAL", "clinical_significance": "Dilutional hyponatremia and prerenal azotemia from third-spacing and decreased renal perfusion"},
-      {"test_name": "JAK2 V617F mutation", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "JAK2 mutation confirms underlying myeloproliferative neoplasm — the most common prothrombotic cause of Budd-Chiari in Western countries"},
-      {"test_name": "Factor V Leiden", "result": "Heterozygous positive", "flag": "ABNORMAL", "clinical_significance": "Additional thrombophilic risk factor; dual prothrombotic state increases thrombosis risk synergistically"},
-      {"test_name": "Antithrombin III", "result": "52% (normal 80-120%)", "flag": "LOW", "clinical_significance": "Low, but may be secondary to impaired hepatic synthesis rather than hereditary deficiency — recheck after liver function improves"},
-      {"test_name": "Ascitic fluid analysis", "result": "SAAG 1.5, Total protein 2.8 g/dL, WBC 85 (predominant lymphocytes)", "flag": "ABNORMAL", "clinical_significance": "High SAAG confirms portal hypertension; high ascitic protein (>2.5) is characteristic of Budd-Chiari and cardiac ascites (unlike cirrhotic ascites which is typically <2.5)"},
-      {"test_name": "LDH", "result": "480 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatocyte necrosis due to venous congestion"}
+      {
+        "test_name": "LFTs",
+        "result": "AST 320, ALT 380, ALP 165, Total bilirubin 4.2, Albumin 2.8",
+        "flag": "HIGH",
+        "clinical_significance": "Hepatocellular injury pattern with elevated transaminases from hepatic congestion; impaired synthetic function"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "INR 1.7",
+        "flag": "HIGH",
+        "clinical_significance": "Prolonged from impaired hepatic synthetic function"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 8.5, Hgb 16.2, Hct 49%, Plt 520",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated hemoglobin/hematocrit and thrombocytosis — raise concern for myeloproliferative neoplasm (polycythemia vera or essential thrombocythemia)"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 130, K 3.4, Cr 1.4, BUN 28",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dilutional hyponatremia and prerenal azotemia from third-spacing and decreased renal perfusion"
+      },
+      {
+        "test_name": "JAK2 V617F mutation",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "JAK2 mutation confirms underlying myeloproliferative neoplasm — the most common prothrombotic cause of Budd-Chiari in Western countries"
+      },
+      {
+        "test_name": "Factor V Leiden",
+        "result": "Heterozygous positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Additional thrombophilic risk factor; dual prothrombotic state increases thrombosis risk synergistically"
+      },
+      {
+        "test_name": "Antithrombin III",
+        "result": "52% (normal 80-120%)",
+        "flag": "LOW",
+        "clinical_significance": "Low, but may be secondary to impaired hepatic synthesis rather than hereditary deficiency — recheck after liver function improves"
+      },
+      {
+        "test_name": "Ascitic fluid analysis",
+        "result": "SAAG 1.5, Total protein 2.8 g/dL, WBC 85 (predominant lymphocytes)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "High SAAG confirms portal hypertension; high ascitic protein (>2.5) is characteristic of Budd-Chiari and cardiac ascites (unlike cirrhotic ascites which is typically <2.5)"
+      },
+      {
+        "test_name": "LDH",
+        "result": "480 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatocyte necrosis due to venous congestion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Doppler ultrasound of the liver", "result": "Non-visualization of flow in the right and middle hepatic veins with echogenic thrombus. Left hepatic vein with diminished flow. IVC partially compressed by caudate lobe hypertrophy. Hypertrophied caudate lobe. Heterogeneous liver echotexture. Large-volume ascites.", "flag": "ABNORMAL", "clinical_significance": "Hepatic vein thrombosis is the hallmark of Budd-Chiari. Caudate lobe hypertrophy occurs because its venous drainage goes directly to the IVC via independent hepatic veins, sparing it from outflow obstruction."},
-      {"test_name": "CT abdomen with IV contrast (venous phase)", "result": "Thrombosis of the right and middle hepatic veins. Heterogeneous hepatic enhancement with a 'flip-flop' pattern: peripheral hypoenhancement in the arterial phase with delayed central enhancement. Hypertrophied caudate lobe. Narrowing of the intrahepatic IVC. Large-volume ascites. No focal liver masses.", "flag": "ABNORMAL", "clinical_significance": "CT confirms hepatic vein thrombosis with characteristic heterogeneous hepatic enhancement pattern from impaired venous outflow. The caudate lobe hypertrophy is a classic finding."},
-      {"test_name": "Hepatic venography (during IR consultation)", "result": "Occluded right and middle hepatic veins with 'spider web' pattern of collaterals. Left hepatic vein with high-grade stenosis. Hepatic vein-to-IVC pressure gradient of 18 mmHg.", "flag": "ABNORMAL", "clinical_significance": "Direct confirmation of hepatic venous outflow obstruction with elevated sinusoidal pressure. The spider web pattern indicates chronic/subacute thrombosis with recanalization attempts."}
+      {
+        "test_name": "Doppler ultrasound of the liver",
+        "result": "Non-visualization of flow in the right and middle hepatic veins with echogenic thrombus. Left hepatic vein with diminished flow. IVC partially compressed by caudate lobe hypertrophy. Hypertrophied caudate lobe. Heterogeneous liver echotexture. Large-volume ascites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatic vein thrombosis is the hallmark of Budd-Chiari. Caudate lobe hypertrophy occurs because its venous drainage goes directly to the IVC via independent hepatic veins, sparing it from outflow obstruction."
+      },
+      {
+        "test_name": "CT abdomen with IV contrast (venous phase)",
+        "result": "Thrombosis of the right and middle hepatic veins. Heterogeneous hepatic enhancement with a 'flip-flop' pattern: peripheral hypoenhancement in the arterial phase with delayed central enhancement. Hypertrophied caudate lobe. Narrowing of the intrahepatic IVC. Large-volume ascites. No focal liver masses.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms hepatic vein thrombosis with characteristic heterogeneous hepatic enhancement pattern from impaired venous outflow. The caudate lobe hypertrophy is a classic finding."
+      },
+      {
+        "test_name": "Hepatic venography (during IR consultation)",
+        "result": "Occluded right and middle hepatic veins with 'spider web' pattern of collaterals. Left hepatic vein with high-grade stenosis. Hepatic vein-to-IVC pressure gradient of 18 mmHg.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Direct confirmation of hepatic venous outflow obstruction with elevated sinusoidal pressure. The spider web pattern indicates chronic/subacute thrombosis with recanalization attempts."
+      }
     ],
-    "key_tests": ["Doppler ultrasound of the liver (hepatic veins and IVC)", "CT or MRI with contrast (venous phase)", "JAK2 V617F mutation", "Complete thrombophilia workup", "Ascitic fluid analysis"],
-    "acceptable_tests": ["LFTs", "CBC", "PT/INR", "BMP", "Hepatic venography", "Factor V Leiden", "Protein C/S", "Antithrombin III", "Antiphospholipid antibodies", "Liver biopsy"],
-    "low_yield_tests": ["Upper endoscopy (unless variceal screening)", "MRCP", "Colonoscopy", "AFP", "Celiac serologies"],
+    "key_tests": [
+      "Doppler ultrasound of the liver (hepatic veins and IVC)",
+      "CT or MRI with contrast (venous phase)",
+      "JAK2 V617F mutation",
+      "Complete thrombophilia workup",
+      "Ascitic fluid analysis"
+    ],
+    "acceptable_tests": [
+      "LFTs",
+      "CBC",
+      "PT/INR",
+      "BMP",
+      "Hepatic venography",
+      "Factor V Leiden",
+      "Protein C/S",
+      "Antithrombin III",
+      "Antiphospholipid antibodies",
+      "Liver biopsy"
+    ],
+    "low_yield_tests": [
+      "Upper endoscopy (unless variceal screening)",
+      "MRCP",
+      "Colonoscopy",
+      "AFP",
+      "Celiac serologies"
+    ],
     "key_tests_rationale": "Doppler ultrasound is the first-line imaging for Budd-Chiari, demonstrating absent or reversed hepatic venous flow with >85% sensitivity. Contrast-enhanced CT/MRI confirms the diagnosis and characterizes the extent of thrombosis. JAK2 V617F testing is essential as myeloproliferative neoplasms are the most common underlying cause. Comprehensive thrombophilia workup identifies other prothrombotic states. Ascitic fluid with high protein (>2.5 g/dL) differentiates Budd-Chiari from cirrhotic ascites."
   },
   "stage5": {
-    "final_clue": "A young woman on OCPs with a history of unprovoked DVT presenting with rapidly progressive ascites, tender hepatomegaly, and elevated transaminases. Doppler ultrasound and CT confirm hepatic vein thrombosis with caudate lobe hypertrophy. High-protein ascites (>2.5 g/dL) is characteristic. JAK2 V617F positivity identifies an underlying myeloproliferative neoplasm, and heterozygous Factor V Leiden provides an additional thrombophilic hit. The combination confirms Budd-Chiari syndrome secondary to a dual prothrombotic state."
+    "final_clue": "A young woman on OCPs with a history of unprovoked DVT presenting with rapidly progressive ascites, tender hepatomegaly, and elevated transaminases. Doppler ultrasound and CT confirm hepatic vein thrombosis with caudate lobe hypertrophy. High-protein ascites (>2.5 g/dL) is characteristic. JAK2 V617F positivity identifies an underlying myeloproliferative neoplasm, and heterozygous Factor V Leiden provides an additional thrombophilic hit. The combination confirms the suspected diagnosis secondary to a dual prothrombotic state."
   },
   "debrief": {
     "classic_presentation": "Budd-Chiari syndrome (hepatic venous outflow obstruction) classically presents with the triad of hepatomegaly, ascites, and abdominal pain. Presentation ranges from fulminant (acute liver failure), subacute (weeks to months of progressive ascites and hepatomegaly), to chronic (insidious cirrhosis with portal hypertension). Caudate lobe hypertrophy is a classic finding. Most patients have an identifiable prothrombotic condition, with myeloproliferative neoplasms being the most common cause.",
@@ -67,9 +150,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Decompensated cirrhosis (any etiology)", "Cardiac ascites (right heart failure)", "Sinusoidal obstruction syndrome (SOS/VOD)", "Portal vein thrombosis", "Constrictive pericarditis", "IVC obstruction (web or tumor)"],
-    "after_stage2_more_likely": ["Budd-Chiari syndrome", "Decompensated cirrhosis", "Cardiac ascites"],
-    "after_stage2_less_likely": ["Constrictive pericarditis", "Portal vein thrombosis", "Sinusoidal obstruction syndrome"],
-    "after_labs_top3": ["Budd-Chiari syndrome", "Decompensated cirrhosis with portal vein thrombosis", "Cardiac ascites"]
+    "reasonable_ddx": [
+      "Decompensated cirrhosis (any etiology)",
+      "Cardiac ascites (right heart failure)",
+      "Sinusoidal obstruction syndrome (SOS/VOD)",
+      "Portal vein thrombosis",
+      "Constrictive pericarditis",
+      "IVC obstruction (web or tumor)"
+    ],
+    "after_stage2_more_likely": [
+      "Budd-Chiari syndrome",
+      "Decompensated cirrhosis",
+      "Cardiac ascites"
+    ],
+    "after_stage2_less_likely": [
+      "Constrictive pericarditis",
+      "Portal vein thrombosis",
+      "Sinusoidal obstruction syndrome"
+    ],
+    "after_labs_top3": [
+      "Budd-Chiari syndrome",
+      "Decompensated cirrhosis with portal vein thrombosis",
+      "Cardiac ascites"
+    ]
   }
 }

@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "ESR (Westergren)", "result": "88 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated ESR — characteristic of PMR (typically >40, often >50 mm/hr); strongly supports diagnosis"},
-      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated CRP confirming systemic inflammation; CRP is more specific than ESR for PMR activity"},
-      {"test_name": "CBC with differential", "result": "WBC 9.2, Hgb 11.4, Hct 34.8, MCV 86 fL, Plt 410", "flag": "MILD ABNORMAL", "clinical_significance": "Normocytic anemia of chronic inflammation and reactive thrombocytosis — common findings in PMR"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 18, Cr 0.9, Glucose 108, Ca 9.2, AST 24, ALT 20, Alk Phos 110, Albumin 3.2", "flag": "MILD ABNORMAL", "clinical_significance": "Mildly elevated alk phos and low albumin — common in PMR from chronic inflammation; glucose 108 is baseline before starting steroids"},
-      {"test_name": "Rheumatoid Factor (RF)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative RF argues against late-onset rheumatoid arthritis"},
-      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative anti-CCP — important to distinguish PMR from seronegative RA (anti-CCP has higher specificity for RA)"},
-      {"test_name": "CPK", "result": "95 U/L", "flag": "WNL", "clinical_significance": "Normal CPK rules out inflammatory myopathy (polymyositis/dermatomyositis) as cause of proximal symptoms"},
-      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can cause myalgias and stiffness"},
-      {"test_name": "Protein electrophoresis (SPEP)", "result": "No monoclonal protein detected. Polyclonal gammopathy.", "flag": "WNL", "clinical_significance": "Rules out multiple myeloma, which can mimic PMR with bone pain and elevated ESR"},
-      {"test_name": "Vitamin D, 25-OH", "result": "18 ng/mL", "flag": "LOW", "clinical_significance": "Low vitamin D — relevant for bone health, especially before starting glucocorticoid therapy"}
+      {
+        "test_name": "ESR (Westergren)",
+        "result": "88 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ESR — characteristic of PMR (typically >40, often >50 mm/hr); strongly supports diagnosis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "6.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated CRP confirming systemic inflammation; CRP is more specific than ESR for PMR activity"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 9.2, Hgb 11.4, Hct 34.8, MCV 86 fL, Plt 410",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Normocytic anemia of chronic inflammation and reactive thrombocytosis — common findings in PMR"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 18, Cr 0.9, Glucose 108, Ca 9.2, AST 24, ALT 20, Alk Phos 110, Albumin 3.2",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Mildly elevated alk phos and low albumin — common in PMR from chronic inflammation; glucose 108 is baseline before starting steroids"
+      },
+      {
+        "test_name": "Rheumatoid Factor (RF)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative RF argues against late-onset rheumatoid arthritis"
+      },
+      {
+        "test_name": "Anti-CCP antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative anti-CCP — important to distinguish PMR from seronegative RA (anti-CCP has higher specificity for RA)"
+      },
+      {
+        "test_name": "CPK",
+        "result": "95 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal CPK rules out inflammatory myopathy (polymyositis/dermatomyositis) as cause of proximal symptoms"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can cause myalgias and stiffness"
+      },
+      {
+        "test_name": "Protein electrophoresis (SPEP)",
+        "result": "No monoclonal protein detected. Polyclonal gammopathy.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out multiple myeloma, which can mimic PMR with bone pain and elevated ESR"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "18 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low vitamin D — relevant for bone health, especially before starting glucocorticoid therapy"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Ultrasound of bilateral shoulders", "result": "Bilateral subacromial/subdeltoid bursitis. Bilateral biceps tenosynovitis. No rotator cuff tear. No joint effusion.", "flag": "ABNORMAL", "clinical_significance": "Bilateral bursitis and tenosynovitis pattern is characteristic of PMR — ultrasound is increasingly used to support the diagnosis"},
-      {"test_name": "Chest X-ray", "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Rules out malignancy or infection as cause of constitutional symptoms and elevated ESR"}
+      {
+        "test_name": "Ultrasound of bilateral shoulders",
+        "result": "Bilateral subacromial/subdeltoid bursitis. Bilateral biceps tenosynovitis. No rotator cuff tear. No joint effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral bursitis and tenosynovitis pattern is characteristic of PMR — ultrasound is increasingly used to support the diagnosis"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out malignancy or infection as cause of constitutional symptoms and elevated ESR"
+      }
     ],
     "key_tests": [
       "ESR — 88 mm/hr, markedly elevated (hallmark of PMR)",
@@ -65,7 +125,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets the 2012 ACR/EULAR classification criteria for polymyalgia rheumatica: age >50, bilateral shoulder and hip girdle pain/stiffness, morning stiffness >45 minutes, ESR markedly elevated (88 mm/hr), elevated CRP, normal CPK (excluding myopathy), and negative RF/anti-CCP (excluding RA). Bilateral subacromial bursitis on ultrasound is a supportive finding. The absence of GCA symptoms (no headache, jaw claudication, visual changes, or temporal artery tenderness) is reassuring but requires ongoing monitoring."
+    "final_clue": "The patient meets the 2012 ACR/EULAR classification criteria for this condition: age >50, bilateral shoulder and hip girdle pain/stiffness, morning stiffness >45 minutes, ESR markedly elevated (88 mm/hr), elevated CRP, normal CPK (excluding myopathy), and negative RF/anti-CCP (excluding RA). Bilateral subacromial bursitis on ultrasound is a supportive finding. The absence of GCA symptoms (no headache, jaw claudication, visual changes, or temporal artery tenderness) is reassuring but requires ongoing monitoring."
   },
   "debrief": {
     "classic_presentation": "A patient over age 50 (peak incidence 70-80) with subacute onset of bilateral, symmetric shoulder and hip girdle pain with severe morning stiffness (>45 minutes), dramatic elevation of ESR (>40-50 mm/hr), and constitutional symptoms (fatigue, weight loss, low-grade fever). The pain is primarily articular/periarticular (bursitis, tenosynovitis), not muscular — CPK is characteristically normal. Functional limitation is due to pain, not true weakness. Women are affected 2-3 times more often than men. Response to low-dose prednisone (15-20 mg/day) is typically rapid and dramatic (within 24-72 hours), serving as both therapeutic and diagnostic confirmation.",

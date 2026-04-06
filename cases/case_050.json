@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "16.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis consistent with acute peritonitis"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal, hemoconcentration possible given dehydration"},
-      {"test_name": "BMP - BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with dehydration and prerenal state"},
-      {"test_name": "BMP - Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely prerenal from volume depletion"},
-      {"test_name": "Serum Amylase", "result": "78 U/L", "flag": "WNL", "clinical_significance": "Normal, helps exclude pancreatitis as the primary etiology"},
-      {"test_name": "Lipase", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal, rules out acute pancreatitis"},
-      {"test_name": "Lactate", "result": "3.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting tissue hypoperfusion and early sepsis physiology"},
-      {"test_name": "ALT", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal hepatic transaminases"},
-      {"test_name": "Total Bilirubin", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ABG - pH", "result": "7.32", "flag": "LOW", "clinical_significance": "Mild acidosis, consistent with hypoperfusion and lactic acidosis"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "16.2 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis consistent with acute peritonitis"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, hemoconcentration possible given dehydration"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "32 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with dehydration and prerenal state"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely prerenal from volume depletion"
+      },
+      {
+        "test_name": "Serum Amylase",
+        "result": "78 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, helps exclude pancreatitis as the primary etiology"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "42 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out acute pancreatitis"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, reflecting tissue hypoperfusion and early sepsis physiology"
+      },
+      {
+        "test_name": "ALT",
+        "result": "28 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal hepatic transaminases"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ABG - pH",
+        "result": "7.32",
+        "flag": "LOW",
+        "clinical_significance": "Mild acidosis, consistent with hypoperfusion and lactic acidosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upright Chest X-ray", "result": "Free air (pneumoperitoneum) visible under the right hemidiaphragm. No pleural effusion. No pneumothorax.", "flag": "ABNORMAL", "clinical_significance": "Pneumoperitoneum is pathognomonic for a perforated hollow viscus. In the setting of epigastric pain and NSAID use, perforated peptic ulcer is the leading diagnosis."},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Large amount of free intraperitoneal air. Free fluid in the upper abdomen and pelvis. Extraluminal contrast seen near the anterior first portion of the duodenum, consistent with a perforated duodenal ulcer. No abscess. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Confirms perforated duodenal ulcer with localization of the perforation site. Guides surgical planning."}
+      {
+        "test_name": "Upright Chest X-ray",
+        "result": "Free air (pneumoperitoneum) visible under the right hemidiaphragm. No pleural effusion. No pneumothorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pneumoperitoneum is pathognomonic for a perforated hollow viscus. In the setting of epigastric pain and NSAID use, this condition is the leading diagnosis."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Large amount of free intraperitoneal air. Free fluid in the upper abdomen and pelvis. Extraluminal contrast seen near the anterior first portion of the duodenum, consistent with a perforated duodenal ulcer. No abscess. No bowel obstruction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms perforated duodenal ulcer with localization of the perforation site. Guides surgical planning."
+      }
     ],
-    "key_tests": ["Upright chest X-ray (or left lateral decubitus)", "CT abdomen/pelvis with contrast", "CBC with differential", "BMP (renal function, electrolytes)", "Serum lactate"],
-    "acceptable_tests": ["Lipase/amylase", "Hepatic function panel", "Blood cultures", "Type and screen", "ABG/VBG", "Urinalysis", "Coagulation studies (PT/INR)"],
-    "low_yield_tests": ["Abdominal ultrasound (poor for free air detection)", "Upper GI series with water-soluble contrast (delays treatment)", "H. pylori serology (does not change acute management)", "EGD (contraindicated in suspected perforation)", "Barium swallow (contraindicated)"],
+    "key_tests": [
+      "Upright chest X-ray (or left lateral decubitus)",
+      "CT abdomen/pelvis with contrast",
+      "CBC with differential",
+      "BMP (renal function, electrolytes)",
+      "Serum lactate"
+    ],
+    "acceptable_tests": [
+      "Lipase/amylase",
+      "Hepatic function panel",
+      "Blood cultures",
+      "Type and screen",
+      "ABG/VBG",
+      "Urinalysis",
+      "Coagulation studies (PT/INR)"
+    ],
+    "low_yield_tests": [
+      "Abdominal ultrasound (poor for free air detection)",
+      "Upper GI series with water-soluble contrast (delays treatment)",
+      "H. pylori serology (does not change acute management)",
+      "EGD (contraindicated in suspected perforation)",
+      "Barium swallow (contraindicated)"
+    ],
     "final_clue": "Upright chest X-ray reveals pneumoperitoneum under the right hemidiaphragm. CT abdomen confirms free air and extraluminal contrast near the anterior duodenum, diagnostic of a perforated duodenal ulcer. Combined with the acute peritonitis on exam, NSAID use, and smoking history, this patient requires emergent surgical repair."
   },
   "stage5": {
@@ -67,9 +147,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Perforated peptic ulcer", "Acute pancreatitis", "Mesenteric ischemia", "Perforated appendicitis", "Ruptured abdominal aortic aneurysm", "Acute cholecystitis", "Boerhaave syndrome"],
-    "after_stage2_more_likely": ["Perforated peptic ulcer", "Acute pancreatitis"],
-    "after_stage2_less_likely": ["Acute cholecystitis", "Ruptured abdominal aortic aneurysm"],
-    "after_labs_top3": ["Perforated peptic ulcer", "Mesenteric ischemia", "Perforated appendicitis"]
+    "reasonable_ddx": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Mesenteric ischemia",
+      "Perforated appendicitis",
+      "Ruptured abdominal aortic aneurysm",
+      "Acute cholecystitis",
+      "Boerhaave syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis"
+    ],
+    "after_stage2_less_likely": [
+      "Acute cholecystitis",
+      "Ruptured abdominal aortic aneurysm"
+    ],
+    "after_labs_top3": [
+      "Perforated peptic ulcer",
+      "Mesenteric ischemia",
+      "Perforated appendicitis"
+    ]
   }
 }

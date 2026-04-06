@@ -25,30 +25,122 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "8,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "12.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ANA", "result": "1:160, speckled pattern", "flag": "ABNORMAL", "clinical_significance": "Low-titer positive ANA; NMOSD has frequent autoimmune comorbidities. Does not meet criteria for SLE."},
-      {"test_name": "ESR", "result": "28 mm/hr", "flag": "MILDLY HIGH", "clinical_significance": "Mildly elevated; nonspecific"},
-      {"test_name": "NMO-IgG (Aquaporin-4 antibody) — serum", "result": "Positive (cell-based assay)", "flag": "ABNORMAL", "clinical_significance": "DIAGNOSTIC: AQP4-IgG positivity is highly specific (>99%) for NMOSD and distinguishes it from MS. Cell-based assay is the most sensitive method."},
-      {"test_name": "MOG-IgG antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; MOG antibody disease is a separate entity from AQP4-positive NMOSD"},
-      {"test_name": "CSF — Cell count and protein", "result": "WBC 85/uL (60% neutrophils, 30% lymphocytes), protein 92 mg/dL, glucose 58 mg/dL", "flag": "ABNORMAL", "clinical_significance": "Neutrophilic pleocytosis is more typical of NMOSD than MS (which shows lymphocytic predominance). Elevated protein reflects severe inflammation."},
-      {"test_name": "CSF — Oligoclonal bands", "result": "Negative (no unique bands in CSF)", "flag": "WNL", "clinical_significance": "ABSENT oligoclonal bands — helps differentiate from MS where OCBs are positive in >85% of cases. OCBs are positive in only 15-30% of NMOSD."},
-      {"test_name": "Vitamin B12", "result": "410 pg/mL", "flag": "WNL", "clinical_significance": "Normal; excludes B12 deficiency myelopathy"},
-      {"test_name": "TSH", "result": "5.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; subclinical hypothyroidism, consistent with autoimmune thyroid disease co-occurring with NMOSD"},
-      {"test_name": "Anti-TPO antibodies", "result": "Positive (124 IU/mL)", "flag": "ABNORMAL", "clinical_significance": "Confirms autoimmune thyroiditis; autoimmune comorbidities are common in NMOSD (up to 30%)"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,100/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "12.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ANA",
+        "result": "1:160, speckled pattern",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-titer positive ANA; NMOSD has frequent autoimmune comorbidities. Does not meet criteria for SLE."
+      },
+      {
+        "test_name": "ESR",
+        "result": "28 mm/hr",
+        "flag": "MILDLY HIGH",
+        "clinical_significance": "Mildly elevated; nonspecific"
+      },
+      {
+        "test_name": "NMO-IgG (Aquaporin-4 antibody) — serum",
+        "result": "Positive (cell-based assay)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "DIAGNOSTIC: AQP4-IgG positivity is highly specific (>99%) for NMOSD and distinguishes it from MS. Cell-based assay is the most sensitive method."
+      },
+      {
+        "test_name": "MOG-IgG antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; MOG antibody disease is a separate entity from AQP4-positive NMOSD"
+      },
+      {
+        "test_name": "CSF — Cell count and protein",
+        "result": "WBC 85/uL (60% neutrophils, 30% lymphocytes), protein 92 mg/dL, glucose 58 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Neutrophilic pleocytosis is more typical of NMOSD than MS (which shows lymphocytic predominance). Elevated protein reflects severe inflammation."
+      },
+      {
+        "test_name": "CSF — Oligoclonal bands",
+        "result": "Negative (no unique bands in CSF)",
+        "flag": "WNL",
+        "clinical_significance": "ABSENT oligoclonal bands — helps differentiate from MS where OCBs are positive in >85% of cases. OCBs are positive in only 15-30% of NMOSD."
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "410 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes B12 deficiency myelopathy"
+      },
+      {
+        "test_name": "TSH",
+        "result": "5.8 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; subclinical hypothyroidism, consistent with autoimmune thyroid disease co-occurring with NMOSD"
+      },
+      {
+        "test_name": "Anti-TPO antibodies",
+        "result": "Positive (124 IU/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms autoimmune thyroiditis; autoimmune comorbidities are common in NMOSD (up to 30%)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with and without contrast", "result": "T2/FLAIR hyperintensity in the dorsal medulla/area postrema region bilaterally. No periventricular Dawson fingers pattern. No lesions typical of MS.", "flag": "ABNORMAL", "clinical_significance": "Area postrema lesion explains the intractable hiccups and vomiting — this is a hallmark of NMOSD and one of the core clinical characteristics. Brain MRI pattern is atypical for MS."},
-      {"test_name": "MRI thoracic spine with contrast", "result": "Longitudinally extensive T2 hyperintense lesion spanning T2-T6 (5 vertebral segments) with patchy gadolinium enhancement. Central cord involvement. Cord edema present.", "flag": "ABNORMAL", "clinical_significance": "Longitudinally extensive transverse myelitis (LETM, >=3 vertebral segments) is a hallmark of NMOSD, in contrast to the short-segment lesions of MS. Central cord involvement and cord edema are characteristic."},
-      {"test_name": "MRI orbits with fat suppression and contrast", "result": "Bilateral optic nerve enhancement and swelling, more prominent on the right. Enhancement extends to the optic chiasm.", "flag": "ABNORMAL", "clinical_significance": "Severe bilateral optic neuritis with chiasmal involvement is characteristic of NMOSD (MS typically causes unilateral, retrobulbar optic neuritis without chiasmal extension)."}
+      {
+        "test_name": "MRI brain with and without contrast",
+        "result": "T2/FLAIR hyperintensity in the dorsal medulla/area postrema region bilaterally. No periventricular Dawson fingers pattern. No lesions typical of MS.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Area postrema lesion explains the intractable hiccups and vomiting — this is a hallmark of NMOSD and one of the core clinical characteristics. Brain MRI pattern is atypical for MS."
+      },
+      {
+        "test_name": "MRI thoracic spine with contrast",
+        "result": "Longitudinally extensive T2 hyperintense lesion spanning T2-T6 (5 vertebral segments) with patchy gadolinium enhancement. Central cord involvement. Cord edema present.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Longitudinally extensive transverse myelitis (LETM, >=3 vertebral segments) is a hallmark of NMOSD, in contrast to the short-segment lesions of MS. Central cord involvement and cord edema are characteristic."
+      },
+      {
+        "test_name": "MRI orbits with fat suppression and contrast",
+        "result": "Bilateral optic nerve enhancement and swelling, more prominent on the right. Enhancement extends to the optic chiasm.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe bilateral optic neuritis with chiasmal involvement is characteristic of NMOSD (MS typically causes unilateral, retrobulbar optic neuritis without chiasmal extension)."
+      }
     ],
-    "key_tests": ["Serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay", "MRI spine with contrast (to identify LETM)", "MRI brain with contrast (to identify area postrema lesion)", "MRI orbits with contrast and fat suppression", "Lumbar puncture with CSF analysis", "MOG-IgG antibody (to differentiate from MOG antibody disease)"],
-    "acceptable_tests": ["CBC", "ANA and autoimmune panel", "ESR/CRP", "Vitamin B12", "TSH and anti-TPO antibodies", "Visual evoked potentials", "OCT (optical coherence tomography)", "HIV and syphilis testing"],
-    "low_yield_tests": ["CT head", "EEG", "MRA", "Serum protein electrophoresis", "Muscle biopsy"],
+    "key_tests": [
+      "Serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay",
+      "MRI spine with contrast (to identify LETM)",
+      "MRI brain with contrast (to identify area postrema lesion)",
+      "MRI orbits with contrast and fat suppression",
+      "Lumbar puncture with CSF analysis",
+      "MOG-IgG antibody (to differentiate from MOG antibody disease)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "ANA and autoimmune panel",
+      "ESR/CRP",
+      "Vitamin B12",
+      "TSH and anti-TPO antibodies",
+      "Visual evoked potentials",
+      "OCT (optical coherence tomography)",
+      "HIV and syphilis testing"
+    ],
+    "low_yield_tests": [
+      "CT head",
+      "EEG",
+      "MRA",
+      "Serum protein electrophoresis",
+      "Muscle biopsy"
+    ],
     "low_yield_tests_note": "AQP4-IgG by cell-based assay is the most important diagnostic test — ELISA-based assays have lower sensitivity."
   },
   "stage5": {
-    "final_clue": "Positive serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay, combined with three core clinical characteristics — bilateral optic neuritis with chiasmal involvement, longitudinally extensive transverse myelitis (T2-T6, spanning 5 segments), and area postrema syndrome (intractable hiccups and vomiting) — confirms the diagnosis of AQP4-IgG-positive neuromyelitis optica spectrum disorder per the 2015 International Panel criteria. The patient is treated acutely with IV methylprednisolone 1 g/day for 5 days followed by plasma exchange (5 sessions) due to poor initial response. She is started on rituximab for relapse prevention. Her vision partially recovers (right eye 20/100, left eye 20/40), and lower extremity strength improves to 4/5 with rehabilitation."
+    "final_clue": "Positive serum AQP4-IgG (aquaporin-4 antibody) by cell-based assay, combined with three core clinical characteristics — bilateral optic neuritis with chiasmal involvement, longitudinally extensive transverse myelitis (T2-T6, spanning 5 segments), and area postrema syndrome (intractable hiccups and vomiting) — confirms the diagnosis of AQP4-IgG-positive this condition spectrum disorder per the 2015 International Panel criteria. The patient is treated acutely with IV methylprednisolone 1 g/day for 5 days followed by plasma exchange (5 sessions) due to poor initial response. She is started on rituximab for relapse prevention. Her vision partially recovers (right eye 20/100, left eye 20/40), and lower extremity strength improves to 4/5 with rehabilitation."
   },
   "debrief": {
     "classic_presentation": "Woman (often non-Caucasian, 30s-40s) with severe bilateral optic neuritis (often with chiasmal involvement and poor recovery), longitudinally extensive transverse myelitis (>=3 vertebral segments), and area postrema syndrome (intractable hiccups/vomiting), with positive AQP4-IgG antibody and negative CSF oligoclonal bands.",
@@ -70,9 +162,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Neuromyelitis optica spectrum disorder", "Multiple sclerosis", "MOG antibody disease", "Systemic lupus erythematosus (CNS)", "Sarcoidosis (neurosarcoidosis)", "Spinal cord tumor", "Idiopathic transverse myelitis"],
-    "after_stage2_more_likely": ["Neuromyelitis optica spectrum disorder", "Multiple sclerosis"],
-    "after_stage2_less_likely": ["Spinal cord tumor", "Systemic lupus erythematosus", "Sarcoidosis"],
-    "after_labs_top3": ["Neuromyelitis optica spectrum disorder", "MOG antibody disease", "Multiple sclerosis"]
+    "reasonable_ddx": [
+      "Neuromyelitis optica spectrum disorder",
+      "Multiple sclerosis",
+      "MOG antibody disease",
+      "Systemic lupus erythematosus (CNS)",
+      "Sarcoidosis (neurosarcoidosis)",
+      "Spinal cord tumor",
+      "Idiopathic transverse myelitis"
+    ],
+    "after_stage2_more_likely": [
+      "Neuromyelitis optica spectrum disorder",
+      "Multiple sclerosis"
+    ],
+    "after_stage2_less_likely": [
+      "Spinal cord tumor",
+      "Systemic lupus erythematosus",
+      "Sarcoidosis"
+    ],
+    "after_labs_top3": [
+      "Neuromyelitis optica spectrum disorder",
+      "MOG antibody disease",
+      "Multiple sclerosis"
+    ]
   }
 }

@@ -25,29 +25,114 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "385 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicates myocardial stress from pressure overload"},
-      {"test_name": "Troponin I", "result": "0.03 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial necrosis"},
-      {"test_name": "Creatinine", "result": "1.3 mg/dL", "flag": "WNL", "clinical_significance": "Mildly elevated but within normal for age"},
-      {"test_name": "Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia — consider acquired von Willebrand syndrome (Heyde syndrome)"},
-      {"test_name": "Platelet count", "result": "198,000/µL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Calcium", "result": "9.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "LDL cholesterol", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Well controlled on statin"},
-      {"test_name": "TSH", "result": "2.6 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Albumin", "result": "3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal nutritional status"}
+      {
+        "test_name": "BNP",
+        "result": "385 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicates myocardial stress from pressure overload"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.03 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not elevated, no acute myocardial necrosis"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated but within normal for age"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia — consider acquired von Willebrand syndrome (Heyde syndrome)"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "198,000/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "9.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.3 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "LDL cholesterol",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Well controlled on statin"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.6 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal nutritional status"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Severely calcified bicuspid aortic valve. Peak velocity 4.8 m/s, mean gradient 52 mmHg, aortic valve area 0.7 cm². Concentric LVH. LVEF 55%. No significant mitral regurgitation. Ascending aorta mildly dilated (4.0 cm).", "flag": "ABNORMAL", "clinical_significance": "Severe aortic stenosis by all criteria (velocity >4 m/s, mean gradient >40 mmHg, AVA <1.0 cm²)"},
-      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm, LVH with strain pattern (ST depression and T-wave inversion in I, aVL, V5-V6), left atrial enlargement", "flag": "ABNORMAL", "clinical_significance": "LVH with strain from chronic pressure overload"},
-      {"test_name": "Chest X-ray", "result": "Boot-shaped heart (concentric LVH), calcification of aortic valve visible, no pulmonary edema", "flag": "ABNORMAL", "clinical_significance": "Calcific aortic valve and LVH without decompensation"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Severely calcified bicuspid aortic valve. Peak velocity 4.8 m/s, mean gradient 52 mmHg, aortic valve area 0.7 cm². Concentric LVH. LVEF 55%. No significant mitral regurgitation. Ascending aorta mildly dilated (4.0 cm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe this condition by all criteria (velocity >4 m/s, mean gradient >40 mmHg, AVA <1.0 cm²)"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Normal sinus rhythm, LVH with strain pattern (ST depression and T-wave inversion in I, aVL, V5-V6), left atrial enlargement",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH with strain from chronic pressure overload"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Boot-shaped heart (concentric LVH), calcification of aortic valve visible, no pulmonary edema",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Calcific aortic valve and LVH without decompensation"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram", "12-lead ECG", "BNP", "Basic metabolic panel", "CBC"],
-    "acceptable_tests": ["Chest X-ray", "Troponin", "Lipid panel", "TSH", "Cardiac catheterization (for coronary assessment pre-operatively)", "CT calcium scoring of aortic valve", "Exercise stress test (only if asymptomatic)"],
-    "low_yield_tests": ["Cardiac MRI (echo sufficient)", "D-dimer", "Pulmonary function tests", "Carotid ultrasound", "Holter monitor"],
+    "key_tests": [
+      "Transthoracic echocardiogram",
+      "12-lead ECG",
+      "BNP",
+      "Basic metabolic panel",
+      "CBC"
+    ],
+    "acceptable_tests": [
+      "Chest X-ray",
+      "Troponin",
+      "Lipid panel",
+      "TSH",
+      "Cardiac catheterization (for coronary assessment pre-operatively)",
+      "CT calcium scoring of aortic valve",
+      "Exercise stress test (only if asymptomatic)"
+    ],
+    "low_yield_tests": [
+      "Cardiac MRI (echo sufficient)",
+      "D-dimer",
+      "Pulmonary function tests",
+      "Carotid ultrasound",
+      "Holter monitor"
+    ],
     "key_tests_rationale": "Echo is the gold standard for diagnosing and grading AS severity (velocity, gradient, valve area). ECG shows LVH. BNP correlates with prognosis. BMP checks renal function pre-procedure. CBC screens for anemia (Heyde syndrome)."
   },
   "stage5": {
-    "final_clue": "Echocardiography reveals a severely calcified bicuspid aortic valve with a peak velocity of 4.8 m/s, mean gradient of 52 mmHg, and valve area of 0.7 cm² — meeting all criteria for severe aortic stenosis. The classic triad of angina, syncope, and dyspnea confirms symptomatic severe AS."
+    "final_clue": "Echocardiography reveals a severely calcified bicuspid aortic valve with a peak velocity of 4.8 m/s, mean gradient of 52 mmHg, and valve area of 0.7 cm² — meeting all criteria for severe this condition. The classic triad of angina, syncope, and dyspnea confirms symptomatic severe AS."
   },
   "debrief": {
     "classic_presentation": "Severe aortic stenosis presents with the classic triad of exertional angina, syncope, and heart failure (dyspnea). Physical exam reveals a harsh crescendo-decrescendo systolic murmur at the right upper sternal border radiating to the carotids, pulsus parvus et tardus, narrow pulse pressure, and an S4. Late peaking of the murmur indicates more severe stenosis.",
@@ -69,9 +154,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Hypertrophic obstructive cardiomyopathy", "Coronary artery disease", "Subaortic membrane", "Pulmonary hypertension", "Aortic sclerosis", "Supravalvular aortic stenosis"],
-    "after_stage2_more_likely": ["Aortic stenosis", "Hypertrophic cardiomyopathy", "Coronary artery disease"],
-    "after_stage2_less_likely": ["Pulmonary hypertension", "Subaortic membrane", "Aortic sclerosis"],
-    "after_labs_top3": ["Severe aortic stenosis", "Bicuspid aortic valve with severe AS", "Hypertrophic cardiomyopathy"]
+    "reasonable_ddx": [
+      "Hypertrophic obstructive cardiomyopathy",
+      "Coronary artery disease",
+      "Subaortic membrane",
+      "Pulmonary hypertension",
+      "Aortic sclerosis",
+      "Supravalvular aortic stenosis"
+    ],
+    "after_stage2_more_likely": [
+      "Aortic stenosis",
+      "Hypertrophic cardiomyopathy",
+      "Coronary artery disease"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary hypertension",
+      "Subaortic membrane",
+      "Aortic sclerosis"
+    ],
+    "after_labs_top3": [
+      "Severe aortic stenosis",
+      "Bicuspid aortic valve with severe AS",
+      "Hypertrophic cardiomyopathy"
+    ]
   }
 }

@@ -4,7 +4,7 @@
   "specialty": "OB/GYN",
   "diagnosis": "Ovarian torsion (right ovary with dermoid cyst)",
   "icd_category": "N83.51 – Torsion of right ovary and ovarian pedicle",
-  "one_liner": "A 19-year-old female presents with sudden-onset severe right lower quadrant pain with nausea and vomiting; ultrasound reveals an enlarged right ovary (8 cm) with a dermoid cyst and absent arterial Doppler flow consistent with ovarian torsion.",
+  "one_liner": "A 19-year-old female presents with sudden-onset severe right lower quadrant pain with nausea and vomiting; ultrasound reveals an enlarged right ovary (8 cm) with a dermoid cyst and absent arterial Doppler flow consistent with the suspected diagnosis.",
   "stage2": {
     "hpi_extension": "The patient was at volleyball practice when she developed sudden, excruciating right-sided pelvic pain approximately 4 hours ago. The pain is sharp and constant, rated 9/10, and radiates to her right flank. She has had 4 episodes of vomiting since onset. She reports 2 prior brief episodes of similar right-sided pain in the past 3 months that resolved spontaneously within 30 minutes, which she attributed to muscle strain. She denies fever, vaginal bleeding, or vaginal discharge. Her last menstrual period was 12 days ago and was normal. She is sexually active with one male partner and uses condoms consistently. A urine pregnancy test in the ED is negative.",
     "pmh": "No chronic medical conditions. Regular menstrual cycles (28 days). An ovarian cyst was incidentally noted on ultrasound during an ER visit for right-sided pain 2 months ago (3 cm, 'complex cystic'), and outpatient follow-up was recommended but not completed.",
@@ -35,7 +35,7 @@
         "test_name": "CBC",
         "result": "WBC 14.2 × 10³/µL, Hgb 13.0 g/dL, Plt 285 × 10³/µL",
         "flag": "HIGH",
-        "clinical_significance": "Mild leukocytosis is common in ovarian torsion as a stress/pain response; it does not necessarily indicate infection."
+        "clinical_significance": "Mild leukocytosis is common in this condition as a stress/pain response; it does not necessarily indicate infection."
       },
       {
         "test_name": "CRP",
@@ -79,7 +79,7 @@
         "test_name": "Transvaginal ultrasound with Doppler",
         "result": "Right ovary markedly enlarged (8.2 × 5.5 × 4.8 cm, volume 115 mL) with a 5.5-cm complex cystic mass containing echogenic foci with posterior acoustic shadowing (fat and calcification) consistent with a mature cystic teratoma (dermoid). Peripheral follicles displaced ('string of pearls' sign). No arterial Doppler flow detected in the right ovary. Left ovary normal (3.2 cm, multiple follicles, normal Doppler flow). Small amount of free fluid in the cul-de-sac.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Enlarged ovary with absent arterial Doppler flow is highly suggestive of ovarian torsion. The dermoid cyst (>5 cm) serves as the lead point for torsion. NOTE: presence of Doppler flow does NOT exclude torsion, as intermittent torsion can produce variable flow."
+        "clinical_significance": "Enlarged ovary with absent arterial Doppler flow is highly suggestive of the suspected diagnosis. The dermoid cyst (>5 cm) serves as the lead point for torsion. NOTE: presence of Doppler flow does NOT exclude torsion, as intermittent torsion can produce variable flow."
       },
       {
         "test_name": "CT abdomen/pelvis (obtained before TVUS)",

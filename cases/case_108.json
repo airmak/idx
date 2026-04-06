@@ -25,29 +25,115 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Glucose", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "Normal; helps exclude systemic inflammatory/vasculitic conditions"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; reduces likelihood of SLE-related CNS disease"},
-      {"test_name": "Vitamin B12", "result": "520 pg/mL", "flag": "WNL", "clinical_significance": "Normal; excludes B12 deficiency myelopathy"},
-      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "NMO-IgG (Aquaporin-4 Ab)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; helps differentiate MS from neuromyelitis optica spectrum disorder"},
-      {"test_name": "CSF — Oligoclonal bands", "result": "5 unique bands in CSF, absent in serum", "flag": "ABNORMAL", "clinical_significance": "Positive oligoclonal bands support intrathecal IgG synthesis, found in >85% of MS patients"},
-      {"test_name": "CSF — Cell count", "result": "8 WBCs/uL (lymphocytic), protein 38 mg/dL, glucose 62 mg/dL", "flag": "MILDLY ABNORMAL", "clinical_significance": "Mild lymphocytic pleocytosis typical of MS; rules out infection"},
-      {"test_name": "CSF — IgG index", "result": "0.82 (elevated)", "flag": "HIGH", "clinical_significance": "Elevated IgG index supports intrathecal immunoglobulin production consistent with MS"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,100/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ESR",
+        "result": "12 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; helps exclude systemic inflammatory/vasculitic conditions"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; reduces likelihood of SLE-related CNS disease"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "520 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes B12 deficiency myelopathy"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.9 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "NMO-IgG (Aquaporin-4 Ab)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; helps differentiate MS from neuromyelitis optica spectrum disorder"
+      },
+      {
+        "test_name": "CSF — Oligoclonal bands",
+        "result": "5 unique bands in CSF, absent in serum",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive oligoclonal bands support intrathecal IgG synthesis, found in >85% of MS patients"
+      },
+      {
+        "test_name": "CSF — Cell count",
+        "result": "8 WBCs/uL (lymphocytic), protein 38 mg/dL, glucose 62 mg/dL",
+        "flag": "MILDLY ABNORMAL",
+        "clinical_significance": "Mild lymphocytic pleocytosis typical of MS; rules out infection"
+      },
+      {
+        "test_name": "CSF — IgG index",
+        "result": "0.82 (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated IgG index supports intrathecal immunoglobulin production consistent with MS"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with and without contrast", "result": "Multiple ovoid T2/FLAIR hyperintense lesions in the periventricular white matter (perpendicular to ventricles — Dawson fingers pattern), juxtacortical regions, and left optic nerve. One periventricular lesion shows gadolinium enhancement. At least 9 T2 lesions total.", "flag": "ABNORMAL", "clinical_significance": "Periventricular lesions with Dawson fingers morphology are highly characteristic of MS. Gadolinium-enhancing lesion indicates active demyelination. Meets dissemination in space criteria."},
-      {"test_name": "MRI cervical spine with contrast", "result": "Single T2 hyperintense lesion at C3-C4 level, non-enhancing, spanning less than 2 vertebral segments.", "flag": "ABNORMAL", "clinical_significance": "Short-segment spinal cord lesion typical of MS (as opposed to longitudinally extensive lesion of NMOSD). Explains prior right leg symptoms and Lhermitte sign."}
+      {
+        "test_name": "MRI brain with and without contrast",
+        "result": "Multiple ovoid T2/FLAIR hyperintense lesions in the periventricular white matter (perpendicular to ventricles — Dawson fingers pattern), juxtacortical regions, and left optic nerve. One periventricular lesion shows gadolinium enhancement. At least 9 T2 lesions total.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Periventricular lesions with Dawson fingers morphology are highly characteristic of MS. Gadolinium-enhancing lesion indicates active demyelination. Meets dissemination in space criteria."
+      },
+      {
+        "test_name": "MRI cervical spine with contrast",
+        "result": "Single T2 hyperintense lesion at C3-C4 level, non-enhancing, spanning less than 2 vertebral segments.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Short-segment spinal cord lesion typical of MS (as opposed to longitudinally extensive lesion of NMOSD). Explains prior right leg symptoms and Lhermitte sign."
+      }
     ],
-    "key_tests": ["MRI brain with and without gadolinium contrast", "MRI spinal cord with contrast", "CSF analysis with oligoclonal bands and IgG index", "Visual evoked potentials (if subclinical optic nerve involvement suspected)", "NMO-IgG / Aquaporin-4 antibody (to exclude NMOSD)"],
-    "acceptable_tests": ["CBC", "BMP", "ESR/CRP", "ANA", "Vitamin B12", "TSH", "NMO-IgG and MOG-IgG antibodies", "OCT (optical coherence tomography)"],
-    "low_yield_tests": ["CT head (poor sensitivity for white matter lesions)", "EEG", "Serum protein electrophoresis", "MRA", "Cerebral angiography"],
+    "key_tests": [
+      "MRI brain with and without gadolinium contrast",
+      "MRI spinal cord with contrast",
+      "CSF analysis with oligoclonal bands and IgG index",
+      "Visual evoked potentials (if subclinical optic nerve involvement suspected)",
+      "NMO-IgG / Aquaporin-4 antibody (to exclude NMOSD)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "ESR/CRP",
+      "ANA",
+      "Vitamin B12",
+      "TSH",
+      "NMO-IgG and MOG-IgG antibodies",
+      "OCT (optical coherence tomography)"
+    ],
+    "low_yield_tests": [
+      "CT head (poor sensitivity for white matter lesions)",
+      "EEG",
+      "Serum protein electrophoresis",
+      "MRA",
+      "Cerebral angiography"
+    ],
     "low_yield_tests_note": "CT head is insufficient for evaluating demyelinating lesions — MRI is the imaging modality of choice."
   },
   "stage5": {
-    "final_clue": "The combination of two clinical attacks (optic neuritis now and myelitis 8 months ago) involving different CNS locations (optic nerve and spinal cord), supported by MRI showing dissemination in space (periventricular, juxtacortical, and spinal cord lesions) and dissemination in time (simultaneous enhancing and non-enhancing lesions), along with positive CSF oligoclonal bands, confirms the diagnosis of relapsing-remitting multiple sclerosis per the 2017 McDonald criteria. The patient receives IV methylprednisolone 1 g/day for 3 days for the acute optic neuritis, with improvement in vision over the following weeks. She is counseled about disease-modifying therapies and started on a high-efficacy DMT."
+    "final_clue": "The combination of two clinical attacks (optic neuritis now and myelitis 8 months ago) involving different CNS locations (optic nerve and spinal cord), supported by MRI showing dissemination in space (periventricular, juxtacortical, and spinal cord lesions) and dissemination in time (simultaneous enhancing and non-enhancing lesions), along with positive CSF oligoclonal bands, confirms the diagnosis of this condition this condition per the 2017 McDonald criteria. The patient receives IV methylprednisolone 1 g/day for 3 days for the acute optic neuritis, with improvement in vision over the following weeks. She is counseled about disease-modifying therapies and started on a high-efficacy DMT."
   },
   "debrief": {
     "classic_presentation": "Young woman (20-40 years) with relapsing neurological deficits separated in time and space: optic neuritis (eye pain, vision loss, RAPD), myelitis (limb weakness/numbness, Lhermitte sign, Babinski sign), with MRI showing periventricular Dawson fingers lesions and positive CSF oligoclonal bands.",
@@ -68,9 +154,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Multiple sclerosis", "Neuromyelitis optica spectrum disorder", "Systemic lupus erythematosus (CNS)", "Sarcoidosis (neurosarcoidosis)", "Acute disseminated encephalomyelitis (ADEM)", "Vitamin B12 deficiency", "CNS lymphoma"],
-    "after_stage2_more_likely": ["Multiple sclerosis", "Neuromyelitis optica spectrum disorder"],
-    "after_stage2_less_likely": ["Vitamin B12 deficiency", "Systemic lupus erythematosus", "CNS lymphoma"],
-    "after_labs_top3": ["Multiple sclerosis", "Neuromyelitis optica spectrum disorder", "Neurosarcoidosis"]
+    "reasonable_ddx": [
+      "Multiple sclerosis",
+      "Neuromyelitis optica spectrum disorder",
+      "Systemic lupus erythematosus (CNS)",
+      "Sarcoidosis (neurosarcoidosis)",
+      "Acute disseminated encephalomyelitis (ADEM)",
+      "Vitamin B12 deficiency",
+      "CNS lymphoma"
+    ],
+    "after_stage2_more_likely": [
+      "Multiple sclerosis",
+      "Neuromyelitis optica spectrum disorder"
+    ],
+    "after_stage2_less_likely": [
+      "Vitamin B12 deficiency",
+      "Systemic lupus erythematosus",
+      "CNS lymphoma"
+    ],
+    "after_labs_top3": [
+      "Multiple sclerosis",
+      "Neuromyelitis optica spectrum disorder",
+      "Neurosarcoidosis"
+    ]
   }
 }

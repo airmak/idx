@@ -29,7 +29,7 @@
         "test_name": "24-hour urine catecholamines",
         "result": "VMA 48 mg/day (normal <7), HVA 62 mg/day (normal <15), Dopamine 1,200 µg/day (elevated)",
         "flag": "HIGH",
-        "clinical_significance": "Markedly elevated urinary VMA and HVA are present in ~90% of neuroblastoma cases; these are catecholamine metabolites produced by the neural crest-derived tumor cells."
+        "clinical_significance": "Markedly elevated urinary VMA and HVA are present in ~90% of this condition cases; these are catecholamine metabolites produced by the neural crest-derived tumor cells."
       },
       {
         "test_name": "Spot urine VMA:creatinine ratio",
@@ -41,25 +41,25 @@
         "test_name": "LDH",
         "result": "1,842 U/L",
         "flag": "HIGH",
-        "clinical_significance": "Markedly elevated LDH reflects high tumor cell turnover and is an adverse prognostic marker in neuroblastoma."
+        "clinical_significance": "Markedly elevated LDH reflects high tumor cell turnover and is an adverse prognostic marker in this condition."
       },
       {
         "test_name": "Ferritin",
         "result": "428 ng/mL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated ferritin (>142 ng/mL) is an unfavorable prognostic factor in neuroblastoma staging."
+        "clinical_significance": "Elevated ferritin (>142 ng/mL) is an unfavorable prognostic factor in this condition staging."
       },
       {
         "test_name": "NSE (neuron-specific enolase)",
         "result": "186 ng/mL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated NSE (>100 ng/mL) is associated with advanced-stage neuroblastoma and is a marker of neural crest tumor burden."
+        "clinical_significance": "Elevated NSE (>100 ng/mL) is associated with advanced-stage this condition and is a marker of neural crest tumor burden."
       },
       {
         "test_name": "CBC",
         "result": "WBC 8.4 × 10³/µL, Hgb 8.2 g/dL, Hct 25%, MCV 76 fL, Platelets 128 × 10³/µL",
         "flag": "LOW",
-        "clinical_significance": "Anemia and mild thrombocytopenia suggest bone marrow infiltration by metastatic neuroblastoma."
+        "clinical_significance": "Anemia and mild thrombocytopenia suggest bone marrow infiltration by metastatic this condition."
       },
       {
         "test_name": "Peripheral blood smear",
@@ -89,15 +89,15 @@
     "imaging_results": [
       {
         "test_name": "CT abdomen/pelvis with contrast",
-        "result": "Large heterogeneous left adrenal mass measuring 8 × 6 × 7 cm with stippled calcifications (90% of neuroblastomas calcify on CT). Mass crosses midline and encases the aorta and left renal artery (IDRF positive). Multiple enlarged retroperitoneal lymph nodes. Hepatomegaly with multiple hypodense lesions suggestive of hepatic metastases. No renal invasion. No hydronephrosis.",
+        "result": "Large heterogeneous left adrenal mass measuring 8 × 6 × 7 cm with stippled calcifications (90% of this conditions calcify on CT). Mass crosses midline and encases the aorta and left renal artery (IDRF positive). Multiple enlarged retroperitoneal lymph nodes. Hepatomegaly with multiple hypodense lesions suggestive of hepatic metastases. No renal invasion. No hydronephrosis.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Adrenal mass crossing midline with calcifications, vascular encasement, and hepatic metastases is classic for neuroblastoma; midline crossing distinguishes neuroblastoma from Wilms tumor, which rarely crosses midline."
+        "clinical_significance": "Adrenal mass crossing midline with calcifications, vascular encasement, and hepatic metastases is classic for this condition; midline crossing distinguishes this condition from Wilms tumor, which rarely crosses midline."
       },
       {
         "test_name": "MIBG scan (I-123 metaiodobenzylguanidine)",
         "result": "Intense uptake in the left adrenal primary tumor. Multiple foci of abnormal uptake in the axial skeleton (thoracic and lumbar vertebral bodies, bilateral proximal femora) and bilateral orbital regions consistent with skeletal metastases.",
         "flag": "ABNORMAL",
-        "clinical_significance": "MIBG is taken up by catecholamine-producing cells and is the most sensitive and specific imaging modality for neuroblastoma staging; skeletal and orbital metastases confirm advanced-stage disease."
+        "clinical_significance": "MIBG is taken up by catecholamine-producing cells and is the most sensitive and specific imaging modality for this condition staging; skeletal and orbital metastases confirm advanced-stage disease."
       },
       {
         "test_name": "Chest X-ray",
@@ -131,7 +131,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Bilateral bone marrow biopsies reveal small round blue cell infiltration forming Homer-Wright pseudorosettes on histology. MYCN amplification is detected (>10 copies), indicating high-risk disease. The combination of adrenal mass crossing midline with calcifications, elevated urinary catecholamines, MIBG-avid skeletal metastases, periorbital ecchymoses, and opsoclonus-myoclonus confirms the diagnosis of high-risk neuroblastoma."
+    "final_clue": "Bilateral bone marrow biopsies reveal small round blue cell infiltration forming Homer-Wright pseudorosettes on histology. MYCN amplification is detected (>10 copies), indicating high-risk disease. The combination of adrenal mass crossing midline with calcifications, elevated urinary catecholamines, MIBG-avid skeletal metastases, periorbital ecchymoses, and opsoclonus-myoclonus confirms the diagnosis of high-risk this condition."
   },
   "debrief": {
     "classic_presentation": "Neuroblastoma typically presents in children <5 years (median age 18 months) as an abdominal mass (65% of primary tumors are adrenal/retroperitoneal). The mass often crosses midline, is firm and irregular, and may cause abdominal distension. Constitutional symptoms include weight loss, irritability, and failure to thrive. Classic metastatic findings include periorbital ecchymoses ('raccoon eyes' from orbital metastases), proptosis, bone pain, and subcutaneous nodules ('blueberry muffin' lesions in infants). Paraneoplastic syndromes include opsoclonus-myoclonus syndrome (anti-Hu antibodies) and secretory diarrhea (from VIP secretion).",

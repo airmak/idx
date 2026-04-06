@@ -25,28 +25,113 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Hemoglobin", "result": "7.2 g/dL", "flag": "LOW", "clinical_significance": "Significant anemia from acute blood loss; baseline hemoglobin was reportedly 14 g/dL 3 months ago"},
-      {"test_name": "Hematocrit", "result": "22%", "flag": "LOW", "clinical_significance": "Significantly decreased; may still be equilibrating and could drop further"},
-      {"test_name": "MCV", "result": "88 fL", "flag": "WNL", "clinical_significance": "Normocytic anemia consistent with acute blood loss (not yet microcytic)"},
-      {"test_name": "Platelet count", "result": "285,000/μL", "flag": "WNL", "clinical_significance": "Normal platelets; rules out thrombocytopenia as a contributing factor"},
-      {"test_name": "BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Disproportionately elevated BUN relative to creatinine (ratio >20:1) suggests upper GI bleed with absorption of blood proteins"},
-      {"test_name": "Creatinine", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from prerenal azotemia due to hypovolemia"},
-      {"test_name": "INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Normal coagulation; rules out coagulopathy as cause of bleeding"},
-      {"test_name": "Type and screen", "result": "Blood type O positive, antibody screen negative", "flag": "WNL", "clinical_significance": "Essential for blood transfusion preparation"},
-      {"test_name": "Lactate", "result": "3.4 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion from hemorrhagic shock"},
-      {"test_name": "H. pylori stool antigen", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Active H. pylori infection; treatment 5 years ago was either incomplete or reinfection occurred"},
-      {"test_name": "Liver function panel", "result": "AST 32 U/L, ALT 28 U/L, Alk phos 75 U/L, total bilirubin 0.6 mg/dL, albumin 3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal liver function makes variceal bleeding unlikely"}
+      {
+        "test_name": "Hemoglobin",
+        "result": "7.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Significant anemia from acute blood loss; baseline hemoglobin was reportedly 14 g/dL 3 months ago"
+      },
+      {
+        "test_name": "Hematocrit",
+        "result": "22%",
+        "flag": "LOW",
+        "clinical_significance": "Significantly decreased; may still be equilibrating and could drop further"
+      },
+      {
+        "test_name": "MCV",
+        "result": "88 fL",
+        "flag": "WNL",
+        "clinical_significance": "Normocytic anemia consistent with acute blood loss (not yet microcytic)"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "285,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal platelets; rules out thrombocytopenia as a contributing factor"
+      },
+      {
+        "test_name": "BUN",
+        "result": "48 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Disproportionately elevated BUN relative to creatinine (ratio >20:1) suggests this condition with absorption of blood proteins"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from prerenal azotemia due to hypovolemia"
+      },
+      {
+        "test_name": "INR",
+        "result": "1.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; rules out coagulopathy as cause of bleeding"
+      },
+      {
+        "test_name": "Type and screen",
+        "result": "Blood type O positive, antibody screen negative",
+        "flag": "WNL",
+        "clinical_significance": "Essential for blood transfusion preparation"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate indicates tissue hypoperfusion from hemorrhagic shock"
+      },
+      {
+        "test_name": "H. pylori stool antigen",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active H. pylori infection; treatment 5 years ago was either incomplete or reinfection occurred"
+      },
+      {
+        "test_name": "Liver function panel",
+        "result": "AST 32 U/L, ALT 28 U/L, Alk phos 75 U/L, total bilirubin 0.6 mg/dL, albumin 3.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function makes variceal bleeding unlikely"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Esophagogastroduodenoscopy (EGD)", "result": "1.5 cm clean-based gastric ulcer along the lesser curvature of the stomach with a visible vessel (Forrest IIa). No active bleeding at the time of endoscopy. Surrounding erythematous and edematous mucosa. No esophageal varices. Biopsies taken from ulcer margins.", "flag": "ABNORMAL", "clinical_significance": "Gastric ulcer with a visible vessel has a high risk of rebleeding (~43%) and requires endoscopic therapy (epinephrine injection plus thermal coagulation or clips)"},
-      {"test_name": "Chest X-ray", "result": "No free air under the diaphragm. Clear lung fields. No cardiomegaly.", "flag": "WNL", "clinical_significance": "No evidence of perforation; rules out pneumoperitoneum"}
+      {
+        "test_name": "Esophagogastroduodenoscopy (EGD)",
+        "result": "1.5 cm clean-based gastric ulcer along the lesser curvature of the stomach with a visible vessel (Forrest IIa). No active bleeding at the time of endoscopy. Surrounding erythematous and edematous mucosa. No esophageal varices. Biopsies taken from ulcer margins.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gastric ulcer with a visible vessel has a high risk of rebleeding (~43%) and requires endoscopic therapy (epinephrine injection plus thermal coagulation or clips)"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No free air under the diaphragm. Clear lung fields. No cardiomegaly.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of perforation; rules out pneumoperitoneum"
+      }
     ],
-    "key_tests": ["CBC with differential", "Type and crossmatch", "Basic metabolic panel (BUN/creatinine)", "Coagulation studies (INR, PT, PTT)", "EGD (esophagogastroduodenoscopy)"],
-    "acceptable_tests": ["Lactate", "Liver function panel", "H. pylori testing (stool antigen or biopsy)", "Chest X-ray (upright to rule out perforation)", "Lipase (if pancreatitis considered)", "Reticulocyte count", "Blood cultures (if infection suspected)"],
-    "low_yield_tests": ["CT abdomen (no indication for imaging before endoscopy in typical UGIB)", "Colonoscopy (melena with hematemesis clearly points to upper source)", "D-dimer", "Barium swallow (contraindicated in acute bleed)", "Abdominal ultrasound"]
+    "key_tests": [
+      "CBC with differential",
+      "Type and crossmatch",
+      "Basic metabolic panel (BUN/creatinine)",
+      "Coagulation studies (INR, PT, PTT)",
+      "EGD (esophagogastroduodenoscopy)"
+    ],
+    "acceptable_tests": [
+      "Lactate",
+      "Liver function panel",
+      "H. pylori testing (stool antigen or biopsy)",
+      "Chest X-ray (upright to rule out perforation)",
+      "Lipase (if pancreatitis considered)",
+      "Reticulocyte count",
+      "Blood cultures (if infection suspected)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (no indication for imaging before endoscopy in typical UGIB)",
+      "Colonoscopy (melena with hematemesis clearly points to upper source)",
+      "D-dimer",
+      "Barium swallow (contraindicated in acute bleed)",
+      "Abdominal ultrasound"
+    ]
   },
   "stage5": {
-    "final_clue": "Endoscopic biopsies from the ulcer margins return negative for malignancy but positive for H. pylori on histology and rapid urease testing, confirming the dual etiology of NSAID use and active H. pylori infection contributing to the peptic ulcer."
+    "final_clue": "Endoscopic biopsies from the ulcer margins return negative for malignancy but positive for H. pylori on histology and rapid urease testing, confirming the dual etiology of NSAID use and active H. pylori infection contributing to the this condition."
   },
   "debrief": {
     "classic_presentation": "Upper GI bleed from peptic ulcer disease classically presents with hematemesis (bright red blood or coffee-ground emesis), melena (black tarry stools), and signs of hypovolemia (tachycardia, hypotension, orthostatic changes). Epigastric pain may precede the bleed. Key risk factors include NSAID use, H. pylori infection, and smoking. An elevated BUN/creatinine ratio (>20:1) is a classic lab finding suggesting upper GI hemorrhage.",
@@ -59,12 +144,32 @@
       "Forrest classification predicts rebleeding risk: Ia (spurting) and Ib (oozing) = high risk; IIa (visible vessel) = moderate risk; IIb (adherent clot) = intermediate risk; IIc (flat spot) and III (clean base) = low risk",
       "IV PPI infusion after endoscopic therapy reduces rebleeding — continue for 72 hours then transition to oral PPI"
     ],
-    "sources": ["UpToDate: Approach to acute upper gastrointestinal bleeding in adults", "ACG Clinical Guideline: Management of Patients with Ulcer Bleeding 2021"]
+    "sources": [
+      "UpToDate: Approach to acute upper gastrointestinal bleeding in adults",
+      "ACG Clinical Guideline: Management of Patients with Ulcer Bleeding 2021"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Peptic ulcer disease with hemorrhage", "Esophageal varices", "Mallory-Weiss tear", "Erosive gastritis/esophagitis", "Gastric malignancy", "Dieulafoy lesion", "Aortoenteric fistula"],
-    "after_stage2_more_likely": ["Peptic ulcer disease (chronic NSAID use, prior H. pylori, epigastric pain relieved by eating, no liver disease)"],
-    "after_stage2_less_likely": ["Esophageal varices (no liver disease, no stigmata of portal hypertension)", "Mallory-Weiss tear (no preceding retching before hematemesis)"],
-    "after_labs_top3": ["Peptic ulcer disease with hemorrhage", "Erosive gastritis from NSAIDs", "Gastric malignancy"]
+    "reasonable_ddx": [
+      "Peptic ulcer disease with hemorrhage",
+      "Esophageal varices",
+      "Mallory-Weiss tear",
+      "Erosive gastritis/esophagitis",
+      "Gastric malignancy",
+      "Dieulafoy lesion",
+      "Aortoenteric fistula"
+    ],
+    "after_stage2_more_likely": [
+      "Peptic ulcer disease (chronic NSAID use, prior H. pylori, epigastric pain relieved by eating, no liver disease)"
+    ],
+    "after_stage2_less_likely": [
+      "Esophageal varices (no liver disease, no stigmata of portal hypertension)",
+      "Mallory-Weiss tear (no preceding retching before hematemesis)"
+    ],
+    "after_labs_top3": [
+      "Peptic ulcer disease with hemorrhage",
+      "Erosive gastritis from NSAIDs",
+      "Gastric malignancy"
+    ]
   }
 }

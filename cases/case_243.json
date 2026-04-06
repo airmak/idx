@@ -6,7 +6,7 @@
   "icd_category": "J20.9 — Acute bronchitis, unspecified",
   "one_liner": "A 35-year-old female with no significant past medical history presents with a productive cough for 10 days following an upper respiratory infection.",
   "stage2": {
-    "hpi_extension": "The patient developed nasal congestion, sore throat, and malaise 2 weeks ago, consistent with a viral URI. While the nasal congestion and sore throat improved, she developed a persistent productive cough 10 days ago that has not resolved. The cough produces yellowish-green sputum and is worse at night, sometimes disrupting her sleep. She reports mild substernal chest discomfort with coughing. She has had a low-grade temperature measured at 99.8°F at home. She has tried over-the-counter cough suppressants and honey with minimal relief. She denies high fevers (>101°F), shortness of breath at rest, hemoptysis, wheezing, or pleuritic chest pain. She has no history of asthma, COPD, or recurrent bronchitis. She denies sick contacts with influenza or COVID-19.",
+    "hpi_extension": "The patient developed nasal congestion, sore throat, and malaise 2 weeks ago, consistent with a viral URI. While the nasal congestion and sore throat improved, she developed a persistent productive cough 10 days ago that has not resolved. The cough produces yellowish-green sputum and is worse at night, sometimes disrupting her sleep. She reports mild substernal chest discomfort with coughing. She has had a low-grade temperature measured at 99.8°F at home. She has tried over-the-counter cough suppressants and honey with minimal relief. She denies high fevers (>101°F), shortness of breath at rest, hemoptysis, wheezing, or pleuritic chest pain. She has no history of asthma, COPD, or recurrent this condition. She denies sick contacts with influenza or COVID-19.",
     "pmh": "Seasonal allergies",
     "surgical_history": "None",
     "medications": "Loratadine 10 mg daily as needed for allergies",
@@ -25,22 +25,73 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 8,200/μL (55% neutrophils, 35% lymphocytes), Hgb 13.5 g/dL, Plt 240,000/μL", "flag": "WNL", "clinical_significance": "Normal WBC count without left shift; makes bacterial pneumonia less likely"},
-      {"test_name": "CRP", "result": "1.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated CRP common in viral infections; CRP <5 mg/dL makes bacterial pneumonia unlikely"},
-      {"test_name": "Procalcitonin", "result": "0.08 ng/mL", "flag": "WNL", "clinical_significance": "Procalcitonin <0.25 ng/mL strongly argues against bacterial infection and supports withholding antibiotics"},
-      {"test_name": "Influenza A/B rapid test", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out influenza as the causative agent; consistent with other viral etiology"},
-      {"test_name": "COVID-19 rapid antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out COVID-19 as the cause of persistent cough"},
-      {"test_name": "Strep rapid antigen test", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Group A streptococcal pharyngitis"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 8,200/μL (55% neutrophils, 35% lymphocytes), Hgb 13.5 g/dL, Plt 240,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC count without left shift; makes bacterial pneumonia less likely"
+      },
+      {
+        "test_name": "CRP",
+        "result": "1.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CRP common in viral infections; CRP <5 mg/dL makes bacterial pneumonia unlikely"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.08 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Procalcitonin <0.25 ng/mL strongly argues against bacterial infection and supports withholding antibiotics"
+      },
+      {
+        "test_name": "Influenza A/B rapid test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out influenza as the causative agent; consistent with other viral etiology"
+      },
+      {
+        "test_name": "COVID-19 rapid antigen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out COVID-19 as the cause of persistent cough"
+      },
+      {
+        "test_name": "Strep rapid antigen test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out Group A streptococcal pharyngitis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and lateral)", "result": "Clear lung fields bilaterally. No infiltrates, consolidation, or effusions. No hilar lymphadenopathy. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Normal chest X-ray rules out pneumonia; acute bronchitis is a clinical diagnosis that does not show infiltrates on imaging"}
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "Clear lung fields bilaterally. No infiltrates, consolidation, or effusions. No hilar lymphadenopathy. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Normal chest X-ray rules out pneumonia; this condition is a clinical diagnosis that does not show infiltrates on imaging"
+      }
     ],
-    "key_tests": ["Chest X-ray (if pneumonia is being considered)", "Pulse oximetry", "Influenza test (during flu season)"],
-    "acceptable_tests": ["CBC", "CRP or procalcitonin", "COVID-19 test", "Strep rapid test", "Pertussis PCR (if cough >2 weeks with paroxysms)"],
-    "low_yield_tests": ["Sputum culture (not useful in acute bronchitis)", "CT chest (excessive for typical bronchitis)", "Blood cultures (patient is not systemically ill)", "Pulmonary function tests (not indicated acutely)", "ABG (normal oxygen saturation)"]
+    "key_tests": [
+      "Chest X-ray (if pneumonia is being considered)",
+      "Pulse oximetry",
+      "Influenza test (during flu season)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CRP or procalcitonin",
+      "COVID-19 test",
+      "Strep rapid test",
+      "Pertussis PCR (if cough >2 weeks with paroxysms)"
+    ],
+    "low_yield_tests": [
+      "Sputum culture (not useful in acute bronchitis)",
+      "CT chest (excessive for typical bronchitis)",
+      "Blood cultures (patient is not systemically ill)",
+      "Pulmonary function tests (not indicated acutely)",
+      "ABG (normal oxygen saturation)"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient returns 2 weeks later and reports that her cough has significantly improved over the past week and is now only occasional and dry. This natural resolution timeline (cough lasting up to 3 weeks total) is characteristic of acute bronchitis and confirms the diagnosis. No antibiotics were prescribed."
+    "final_clue": "The patient returns 2 weeks later and reports that her cough has significantly improved over the past week and is now only occasional and dry. This natural resolution timeline (cough lasting up to 3 weeks total) is characteristic of this condition and confirms the diagnosis. No antibiotics were prescribed."
   },
   "debrief": {
     "classic_presentation": "Acute bronchitis typically presents with a cough lasting 1-3 weeks, often following an upper respiratory infection. The cough may be productive with discolored (yellow or green) sputum — purulent sputum does NOT indicate bacterial infection and is caused by inflammatory cells (neutrophils). Patients may have low-grade fever, substernal chest discomfort with coughing, and rhonchi on auscultation. The lungs should be clear of focal crackles or consolidation. Chest X-ray is normal. It is a clinical diagnosis of exclusion after ruling out pneumonia.",
@@ -53,12 +104,33 @@
       "The cough of acute bronchitis typically lasts 2-3 weeks; if it persists beyond 3 weeks, consider pertussis, post-infectious cough, or asthma",
       "Acute bronchitis is the most common condition for which antibiotics are inappropriately prescribed in outpatient settings"
     ],
-    "sources": ["UpToDate: Acute bronchitis in adults", "AAFP: Appropriate Antibiotic Use for Acute Respiratory Tract Infection in Adults 2024"]
+    "sources": [
+      "UpToDate: Acute bronchitis in adults",
+      "AAFP: Appropriate Antibiotic Use for Acute Respiratory Tract Infection in Adults 2024"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute bronchitis", "Community-acquired pneumonia", "Post-nasal drip syndrome", "Asthma exacerbation", "Pertussis", "COVID-19", "Influenza", "Gastroesophageal reflux disease"],
-    "after_stage2_more_likely": ["Acute bronchitis (productive cough following URI, no high fever, rhonchi that clear with cough, normal oxygen saturation)"],
-    "after_stage2_less_likely": ["Pneumonia (no focal crackles, no high fever, no dyspnea at rest)", "Asthma (no history, no wheezing, no recurrent episodes)"],
-    "after_labs_top3": ["Acute bronchitis", "Post-infectious cough", "Post-nasal drip syndrome"]
+    "reasonable_ddx": [
+      "Acute bronchitis",
+      "Community-acquired pneumonia",
+      "Post-nasal drip syndrome",
+      "Asthma exacerbation",
+      "Pertussis",
+      "COVID-19",
+      "Influenza",
+      "Gastroesophageal reflux disease"
+    ],
+    "after_stage2_more_likely": [
+      "Acute bronchitis (productive cough following URI, no high fever, rhonchi that clear with cough, normal oxygen saturation)"
+    ],
+    "after_stage2_less_likely": [
+      "Pneumonia (no focal crackles, no high fever, no dyspnea at rest)",
+      "Asthma (no history, no wheezing, no recurrent episodes)"
+    ],
+    "after_labs_top3": [
+      "Acute bronchitis",
+      "Post-infectious cough",
+      "Post-nasal drip syndrome"
+    ]
   }
 }

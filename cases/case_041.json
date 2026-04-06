@@ -25,30 +25,126 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "8.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC - Platelets", "result": "198 x10^9/L", "flag": "WNL", "clinical_significance": "Normal, no contraindication to tPA"},
-      {"test_name": "BMP - Glucose", "result": "162 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia; must exclude hypoglycemia as stroke mimic"},
-      {"test_name": "BMP - Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation; no contraindication to thrombolytics"},
-      {"test_name": "PTT", "result": "30 seconds", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "HbA1c", "result": "7.6%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control contributing to vascular risk"},
-      {"test_name": "Lipid Panel - LDL", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "At goal on statin"},
-      {"test_name": "BMP - Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "Normal, no vasculitis suggested"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "8.2 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "198 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no contraindication to tPA"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "162 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperglycemia; must exclude hypoglycemia as stroke mimic"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; no contraindication to thrombolytics"
+      },
+      {
+        "test_name": "PTT",
+        "result": "30 seconds",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.02 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.6%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimal glycemic control contributing to vascular risk"
+      },
+      {
+        "test_name": "Lipid Panel - LDL",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "At goal on statin"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "4.3 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ESR",
+        "result": "12 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no vasculitis suggested"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute hemorrhage. No mass. Subtle hypodensity in the pons — difficult to appreciate. Brain otherwise unremarkable.", "flag": "ABNORMAL", "clinical_significance": "Non-contrast CT is poorly sensitive for posterior fossa strokes (only 30-40% sensitivity); normal or near-normal CT does NOT exclude basilar occlusion"},
-      {"test_name": "CT Angiography (Head and Neck)", "result": "Near-complete occlusion of the mid-basilar artery with minimal distal flow. Bilateral vertebral arteries show atherosclerotic disease. Anterior circulation patent.", "flag": "ABNORMAL", "clinical_significance": "Confirms basilar artery occlusion — a neurological emergency with high mortality without intervention"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm at 78 bpm. No acute ST changes. No atrial fibrillation.", "flag": "WNL", "clinical_significance": "No cardiac source of embolism identified on ECG; will need prolonged monitoring"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute hemorrhage. No mass. Subtle hypodensity in the pons — difficult to appreciate. Brain otherwise unremarkable.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-contrast CT is poorly sensitive for posterior fossa strokes (only 30-40% sensitivity); normal or near-normal CT does NOT exclude basilar occlusion"
+      },
+      {
+        "test_name": "CT Angiography (Head and Neck)",
+        "result": "Near-complete occlusion of the mid-basilar artery with minimal distal flow. Bilateral vertebral arteries show atherosclerotic disease. Anterior circulation patent.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis — a neurological emergency with high mortality without intervention"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm at 78 bpm. No acute ST changes. No atrial fibrillation.",
+        "flag": "WNL",
+        "clinical_significance": "No cardiac source of embolism identified on ECG; will need prolonged monitoring"
+      }
     ],
-    "key_tests": ["CT head without contrast", "CT angiography (head and neck)", "Point-of-care glucose", "CBC (platelets)", "PT/INR"],
-    "acceptable_tests": ["BMP", "PTT", "Troponin", "ECG", "MRI brain with diffusion-weighted imaging (if available without delay)", "Lipid panel", "HbA1c", "Telemetry monitoring"],
-    "low_yield_tests": ["Caloric testing", "Audiogram", "EEG", "Carotid duplex (anterior circulation not involved)", "Lumbar puncture"]
+    "key_tests": [
+      "CT head without contrast",
+      "CT angiography (head and neck)",
+      "Point-of-care glucose",
+      "CBC (platelets)",
+      "PT/INR"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "PTT",
+      "Troponin",
+      "ECG",
+      "MRI brain with diffusion-weighted imaging (if available without delay)",
+      "Lipid panel",
+      "HbA1c",
+      "Telemetry monitoring"
+    ],
+    "low_yield_tests": [
+      "Caloric testing",
+      "Audiogram",
+      "EEG",
+      "Carotid duplex (anterior circulation not involved)",
+      "Lumbar puncture"
+    ]
   },
   "stage5": {
-    "final_clue": "CTA reveals mid-basilar artery occlusion in a patient with crossed cranial nerve and sensory deficits, bilateral ataxia, and dysarthria. The HINTS exam (normal head impulse, direction-changing nystagmus, skew deviation) correctly identified a central cause. The initial misdiagnosis as vestibular neuritis is a common and dangerous pitfall. This is a posterior circulation stroke requiring emergent reperfusion therapy."
+    "final_clue": "CTA reveals mid-this condition in a patient with crossed cranial nerve and sensory deficits, bilateral ataxia, and dysarthria. The HINTS exam (normal head impulse, direction-changing nystagmus, skew deviation) correctly identified a central cause. The initial misdiagnosis as vestibular neuritis is a common and dangerous pitfall. This is a posterior circulation stroke requiring emergent reperfusion therapy."
   },
   "debrief": {
     "classic_presentation": "Posterior circulation strokes present with the 5 D's: Dizziness/vertigo, Diplopia, Dysarthria, Dysphagia, and Dystaxia (ataxia). Additional findings include cranial nerve palsies, crossed sensory deficits (ipsilateral face, contralateral body), nystagmus, and Horner syndrome. Basilar artery occlusion specifically can cause locked-in syndrome (quadriplegia with preserved consciousness and vertical eye movements) in severe cases.",
@@ -70,9 +166,30 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Posterior circulation stroke (basilar artery occlusion)", "Vestibular neuritis", "Vertebrobasilar TIA", "Cerebellar hemorrhage", "Brainstem encephalitis", "Multiple sclerosis (brainstem demyelination)", "Basilar migraine", "Wernicke encephalopathy"],
-    "after_stage2_more_likely": ["Posterior circulation stroke", "Cerebellar hemorrhage", "Vertebrobasilar TIA"],
-    "after_stage2_less_likely": ["Vestibular neuritis", "Basilar migraine", "Wernicke encephalopathy"],
-    "after_labs_top3": ["Basilar artery occlusion", "Posterior circulation ischemic stroke", "Vertebrobasilar atherothrombosis"]
+    "reasonable_ddx": [
+      "Posterior circulation stroke (basilar artery occlusion)",
+      "Vestibular neuritis",
+      "Vertebrobasilar TIA",
+      "Cerebellar hemorrhage",
+      "Brainstem encephalitis",
+      "Multiple sclerosis (brainstem demyelination)",
+      "Basilar migraine",
+      "Wernicke encephalopathy"
+    ],
+    "after_stage2_more_likely": [
+      "Posterior circulation stroke",
+      "Cerebellar hemorrhage",
+      "Vertebrobasilar TIA"
+    ],
+    "after_stage2_less_likely": [
+      "Vestibular neuritis",
+      "Basilar migraine",
+      "Wernicke encephalopathy"
+    ],
+    "after_labs_top3": [
+      "Basilar artery occlusion",
+      "Posterior circulation ischemic stroke",
+      "Vertebrobasilar atherothrombosis"
+    ]
   }
 }

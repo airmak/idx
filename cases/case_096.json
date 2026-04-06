@@ -25,29 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum VEGF-D", "result": "1,850 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (>800 pg/mL is diagnostic threshold for LAM in appropriate clinical context). VEGF-D is the key serologic biomarker for LAM."},
-      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Alpha-1 antitrypsin level", "result": "180 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes alpha-1 antitrypsin deficiency as cause of cystic lung disease in a young woman"},
-      {"test_name": "ABG pH", "result": "7.44", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ABG pO2", "result": "70 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from combination of pneumothorax and underlying cystic lung disease"},
-      {"test_name": "Pleural fluid triglycerides (from prior thoracentesis)", "result": "320 mg/dL", "flag": "HIGH", "clinical_significance": "Triglycerides >110 mg/dL confirms chylous effusion — chylothorax occurs in LAM from lymphatic obstruction by smooth muscle cell proliferation"},
-      {"test_name": "Pleural fluid cholesterol", "result": "52 mg/dL", "flag": "WNL", "clinical_significance": "Normal cholesterol with elevated triglycerides — true chylous effusion (not pseudochylous)"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; excludes connective tissue disease"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "LDH", "result": "195 U/L", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "Serum VEGF-D",
+        "result": "1,850 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (>800 pg/mL is diagnostic threshold for LAM in appropriate clinical context). VEGF-D is the key serologic biomarker for LAM."
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Alpha-1 antitrypsin level",
+        "result": "180 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes alpha-1 antitrypsin deficiency as cause of cystic lung disease in a young woman"
+      },
+      {
+        "test_name": "ABG pH",
+        "result": "7.44",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "70 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypoxemia from combination of pneumothorax and underlying cystic lung disease"
+      },
+      {
+        "test_name": "Pleural fluid triglycerides (from prior thoracentesis)",
+        "result": "320 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Triglycerides >110 mg/dL confirms chylous effusion — chylothorax occurs in LAM from lymphatic obstruction by smooth muscle cell proliferation"
+      },
+      {
+        "test_name": "Pleural fluid cholesterol",
+        "result": "52 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal cholesterol with elevated triglycerides — true chylous effusion (not pseudochylous)"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; excludes connective tissue disease"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "LDH",
+        "result": "195 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "HRCT chest", "result": "Numerous thin-walled, round, well-defined cysts diffusely distributed throughout both lungs in a uniform pattern. Right-sided pneumothorax (moderate). Small left-sided pleural effusion. No ground-glass opacities or nodules.", "flag": "ABNORMAL", "clinical_significance": "Diffuse, thin-walled, round cysts uniformly distributed throughout the lungs are the hallmark CT finding of LAM. The pattern is distinct from Langerhans cell histiocytosis (upper-lobe predominant, irregular cysts) and lymphocytic interstitial pneumonia (lower-lobe predominant)."},
-      {"test_name": "CT abdomen/pelvis with contrast", "result": "5.2 cm fat-containing mass in the right kidney consistent with renal angiomyolipoma. No lymphangioleiomyomas or retroperitoneal lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Renal angiomyolipoma is associated with LAM (both sporadic LAM and TSC-LAM). Fat density within the mass confirms AML."}
+      {
+        "test_name": "HRCT chest",
+        "result": "Numerous thin-walled, round, well-defined cysts diffusely distributed throughout both lungs in a uniform pattern. Right-sided pneumothorax (moderate). Small left-sided pleural effusion. No ground-glass opacities or nodules.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diffuse, thin-walled, round cysts uniformly distributed throughout the lungs are the hallmark CT finding of LAM. The pattern is distinct from Langerhans cell histiocytosis (upper-lobe predominant, irregular cysts) and lymphocytic interstitial pneumonia (lower-lobe predominant)."
+      },
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "5.2 cm fat-containing mass in the right kidney consistent with renal angiomyolipoma. No lymphangioleiomyomas or retroperitoneal lymphadenopathy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Renal angiomyolipoma is associated with LAM (both sporadic LAM and TSC-LAM). Fat density within the mass confirms AML."
+      }
     ],
-    "key_tests": ["HRCT chest", "Serum VEGF-D level", "PFTs (spirometry + DLCO + lung volumes)", "CT abdomen/pelvis", "Pleural fluid analysis (triglycerides)"],
-    "acceptable_tests": ["ABG", "Alpha-1 antitrypsin level", "CBC", "BMP", "ANA", "TSH", "Chest X-ray", "Genetic testing for TSC1/TSC2 mutations"],
-    "low_yield_tests": ["Sputum culture", "D-dimer", "BNP", "Procalcitonin", "Bronchoscopy (BAL not typically diagnostic)"]
+    "key_tests": [
+      "HRCT chest",
+      "Serum VEGF-D level",
+      "PFTs (spirometry + DLCO + lung volumes)",
+      "CT abdomen/pelvis",
+      "Pleural fluid analysis (triglycerides)"
+    ],
+    "acceptable_tests": [
+      "ABG",
+      "Alpha-1 antitrypsin level",
+      "CBC",
+      "BMP",
+      "ANA",
+      "TSH",
+      "Chest X-ray",
+      "Genetic testing for TSC1/TSC2 mutations"
+    ],
+    "low_yield_tests": [
+      "Sputum culture",
+      "D-dimer",
+      "BNP",
+      "Procalcitonin",
+      "Bronchoscopy (BAL not typically diagnostic)"
+    ]
   },
   "stage5": {
-    "final_clue": "The combination of diffuse thin-walled cysts on HRCT in a young woman, serum VEGF-D >800 pg/mL, chylous pleural effusion, renal angiomyolipoma, and recurrent pneumothoraces establishes the diagnosis of sporadic lymphangioleiomyomatosis without need for lung biopsy. PFTs show obstructive pattern with FEV1 58% predicted and DLCO 45% predicted."
+    "final_clue": "The combination of diffuse thin-walled cysts on HRCT in a young woman, serum VEGF-D >800 pg/mL, chylous pleural effusion, renal angiomyolipoma, and recurrent pneumothoraces establishes the diagnosis of sporadic this condition without need for lung biopsy. PFTs show obstructive pattern with FEV1 58% predicted and DLCO 45% predicted."
   },
   "debrief": {
     "classic_presentation": "Young woman of reproductive age with recurrent spontaneous pneumothoraces, progressive obstructive lung disease, chylous pleural effusion, diffuse thin-walled lung cysts on HRCT, renal angiomyolipoma, and elevated serum VEGF-D.",
@@ -68,9 +159,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Lymphangioleiomyomatosis", "Pulmonary Langerhans cell histiocytosis", "Birt-Hogg-Dube syndrome", "Alpha-1 antitrypsin deficiency", "Lymphocytic interstitial pneumonia", "COPD/emphysema"],
-    "after_stage2_more_likely": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome"],
-    "after_stage2_less_likely": ["COPD/emphysema", "Alpha-1 antitrypsin deficiency"],
-    "after_labs_top3": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome", "Lymphocytic interstitial pneumonia"]
+    "reasonable_ddx": [
+      "Lymphangioleiomyomatosis",
+      "Pulmonary Langerhans cell histiocytosis",
+      "Birt-Hogg-Dube syndrome",
+      "Alpha-1 antitrypsin deficiency",
+      "Lymphocytic interstitial pneumonia",
+      "COPD/emphysema"
+    ],
+    "after_stage2_more_likely": [
+      "Lymphangioleiomyomatosis",
+      "Birt-Hogg-Dube syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "COPD/emphysema",
+      "Alpha-1 antitrypsin deficiency"
+    ],
+    "after_labs_top3": [
+      "Lymphangioleiomyomatosis",
+      "Birt-Hogg-Dube syndrome",
+      "Lymphocytic interstitial pneumonia"
+    ]
   }
 }

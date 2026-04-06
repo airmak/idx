@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "VZV PCR (Vesicle Fluid)", "result": "Positive for varicella-zoster virus DNA", "flag": "ABNORMAL", "clinical_significance": "Confirmatory test when clinical diagnosis is uncertain; gold standard for VZV identification"},
-      {"test_name": "Tzanck Smear (Vesicle Base)", "result": "Multinucleated giant cells identified", "flag": "ABNORMAL", "clinical_significance": "Supportive of herpesvirus infection (VZV or HSV); cannot distinguish between the two"},
-      {"test_name": "CBC — WBC", "result": "8,200/μL", "flag": "WNL", "clinical_significance": "Normal WBC; herpes zoster typically does not cause significant leukocytosis"},
-      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; important for valacyclovir dosing"},
-      {"test_name": "CRP", "result": "18 mg/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from localized inflammation"},
-      {"test_name": "HIV Screen (4th Gen Ag/Ab)", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "HIV excluded as a predisposing immunosuppressive condition; reasonable to screen in younger patients or atypical presentations"}
+      {
+        "test_name": "VZV PCR (Vesicle Fluid)",
+        "result": "Positive for varicella-zoster virus DNA",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirmatory test when clinical diagnosis is uncertain; gold standard for VZV identification"
+      },
+      {
+        "test_name": "Tzanck Smear (Vesicle Base)",
+        "result": "Multinucleated giant cells identified",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Supportive of herpesvirus infection (VZV or HSV); cannot distinguish between the two"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,200/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC; this condition typically does not cause significant leukocytosis"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; important for valacyclovir dosing"
+      },
+      {
+        "test_name": "CRP",
+        "result": "18 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from localized inflammation"
+      },
+      {
+        "test_name": "HIV Screen (4th Gen Ag/Ab)",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "HIV excluded as a predisposing immunosuppressive condition; reasonable to screen in younger patients or atypical presentations"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "No infiltrates, effusions, or bony abnormalities. Heart size normal.", "flag": "WNL", "clinical_significance": "No evidence of varicella pneumonia or other pulmonary complication"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "No infiltrates, effusions, or bony abnormalities. Heart size normal.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of varicella pneumonia or other pulmonary complication"
+      }
     ],
     "key_tests": [
       "Clinical diagnosis based on characteristic dermatomal vesicular rash (lab confirmation often unnecessary)",
@@ -55,7 +90,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Classic herpes zoster: a unilateral, dermatomal (T5) grouped vesicular eruption on an erythematous base in an elderly patient with a history of childhood varicella and no prior shingles vaccination. Preceded by 2 days of prodromal neuropathic pain. VZV PCR positive from vesicle fluid. No evidence of dissemination, ophthalmic involvement, or complications."
+    "final_clue": "Classic this condition: a unilateral, dermatomal (T5) grouped vesicular eruption on an erythematous base in an elderly patient with a history of childhood varicella and no prior shingles vaccination. Preceded by 2 days of prodromal neuropathic pain. VZV PCR positive from vesicle fluid. No evidence of dissemination, ophthalmic involvement, or complications."
   },
   "debrief": {
     "classic_presentation": "A unilateral, painful, grouped vesicular eruption in a dermatomal distribution, typically in a patient over age 50. The rash does not cross the midline. A prodrome of burning, tingling, or stabbing pain in the affected dermatome precedes the rash by 1-5 days. Vesicles evolve over 3-5 days, then crust over 7-10 days. The thoracic dermatomes (T1-T12) are most commonly affected. Allodynia (pain from normally non-painful stimuli) is characteristic.",

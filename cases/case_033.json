@@ -25,29 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "22.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis with left shift indicating severe infection"},
-      {"test_name": "CBC - WBC Differential", "result": "88% neutrophils, 8% bands", "flag": "ABNORMAL", "clinical_significance": "Bandemia (left shift) suggesting acute bacterial infection"},
-      {"test_name": "CBC - Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
-      {"test_name": "CBC - Platelets", "result": "128 x10^9/L", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia, may indicate early DIC or sepsis-related consumption"},
-      {"test_name": "BMP - Creatinine", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated above baseline (1.4), acute kidney injury from sepsis"},
-      {"test_name": "BMP - BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with prerenal azotemia and dehydration"},
-      {"test_name": "BMP - Glucose", "result": "286 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia from sepsis-induced stress and poorly controlled diabetes"},
-      {"test_name": "Lactate", "result": "4.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate >4 indicates severe sepsis/septic shock with tissue hypoperfusion"},
-      {"test_name": "Procalcitonin", "result": "12.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, highly suggestive of bacterial sepsis"},
-      {"test_name": "Urinalysis", "result": "Positive nitrites, positive leukocyte esterase, >100 WBC/hpf, many bacteria, trace protein", "flag": "ABNORMAL", "clinical_significance": "Strongly positive for urinary tract infection"},
-      {"test_name": "Blood Cultures (x2)", "result": "Pending (eventually grows E. coli)", "flag": "ABNORMAL", "clinical_significance": "Bacteremia from urinary source"},
-      {"test_name": "Urine Culture", "result": "Pending (eventually >100,000 CFU/mL E. coli)", "flag": "ABNORMAL", "clinical_significance": "Confirms urinary source of infection"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "22.6 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significant leukocytosis with left shift indicating severe infection"
+      },
+      {
+        "test_name": "CBC - WBC Differential",
+        "result": "88% neutrophils, 8% bands",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bandemia (left shift) suggesting acute bacterial infection"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "11.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely chronic disease"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "128 x10^9/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild thrombocytopenia, may indicate early DIC or this condition-related consumption"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "2.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated above baseline (1.4), acute kidney injury from this condition"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "42 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with prerenal azotemia and dehydration"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "286 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperglycemia from this condition-induced stress and poorly controlled diabetes"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate >4 indicates severe this condition/septic shock with tissue hypoperfusion"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "12.4 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, highly suggestive of bacterial this condition"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Positive nitrites, positive leukocyte esterase, >100 WBC/hpf, many bacteria, trace protein",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Strongly positive for urinary tract infection"
+      },
+      {
+        "test_name": "Blood Cultures (x2)",
+        "result": "Pending (eventually grows E. coli)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bacteremia from this condition"
+      },
+      {
+        "test_name": "Urine Culture",
+        "result": "Pending (eventually >100,000 CFU/mL E. coli)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis of infection"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Right kidney mildly hydronephrotic. No renal calculi. Left kidney normal. Bladder thick-walled with debris.", "flag": "ABNORMAL", "clinical_significance": "Right hydronephrosis may suggest obstruction contributing to infection; thick-walled bladder suggests chronic changes"},
-      {"test_name": "Chest X-ray", "result": "No focal consolidation. No pleural effusion. Heart size normal.", "flag": "WNL", "clinical_significance": "Excludes pneumonia as source of sepsis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Right kidney mildly hydronephrotic. No renal calculi. Left kidney normal. Bladder thick-walled with debris.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Right hydronephrosis may suggest obstruction contributing to infection; thick-walled bladder suggests chronic changes"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No focal consolidation. No pleural effusion. Heart size normal.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes pneumonia as source of this condition"
+      }
     ],
-    "key_tests": ["Urinalysis", "Urine culture", "Blood cultures (x2 sets)", "Serum lactate", "CBC with differential", "BMP"],
-    "acceptable_tests": ["Procalcitonin", "Renal ultrasound", "Chest X-ray", "Blood glucose", "Coagulation studies", "Hepatic function panel", "Venous blood gas"],
-    "low_yield_tests": ["CT head (unless meningitis suspected)", "Lumbar puncture (no meningeal signs)", "Abdominal X-ray", "C-reactive protein (nonspecific)", "D-dimer"]
+    "key_tests": [
+      "Urinalysis",
+      "Urine culture",
+      "Blood cultures (x2 sets)",
+      "Serum lactate",
+      "CBC with differential",
+      "BMP"
+    ],
+    "acceptable_tests": [
+      "Procalcitonin",
+      "Renal ultrasound",
+      "Chest X-ray",
+      "Blood glucose",
+      "Coagulation studies",
+      "Hepatic function panel",
+      "Venous blood gas"
+    ],
+    "low_yield_tests": [
+      "CT head (unless meningitis suspected)",
+      "Lumbar puncture (no meningeal signs)",
+      "Abdominal X-ray",
+      "C-reactive protein (nonspecific)",
+      "D-dimer"
+    ]
   },
   "stage5": {
-    "final_clue": "Elderly diabetic patient with urinary catheter presenting with fever, altered mental status, and hypotension. Urinalysis shows pyuria and bacteriuria, lactate is 4.8 mmol/L, and there is an acute kidney injury. This presentation meets Sepsis-3 criteria for septic shock from a urinary source."
+    "final_clue": "Elderly diabetic patient with urinary catheter presenting with fever, altered mental status, and hypotension. Urinalysis shows pyuria and bacteriuria, lactate is 4.8 mmol/L, and there is an acute kidney injury. This presentation meets this condition-3 criteria for septic shock from a this condition."
   },
   "debrief": {
     "classic_presentation": "Elderly patient (often with diabetes, urinary catheter, or structural urinary abnormality) presenting with fever, dysuria, urinary frequency, altered mental status, and hemodynamic instability. Urosepsis accounts for approximately 25% of all sepsis cases. Altered mental status may be the only presenting sign in elderly patients.",
@@ -68,9 +159,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Sepsis (urinary source)", "Meningitis", "Pneumonia", "Acute pyelonephritis (without sepsis)", "Diabetic ketoacidosis", "Cholangitis", "Intra-abdominal abscess"],
-    "after_stage2_more_likely": ["Sepsis (urinary source)", "Acute pyelonephritis"],
-    "after_stage2_less_likely": ["Meningitis", "Pneumonia", "Cholangitis"],
-    "after_labs_top3": ["Sepsis (urinary source)", "Urosepsis with AKI", "Complicated pyelonephritis"]
+    "reasonable_ddx": [
+      "Sepsis (urinary source)",
+      "Meningitis",
+      "Pneumonia",
+      "Acute pyelonephritis (without sepsis)",
+      "Diabetic ketoacidosis",
+      "Cholangitis",
+      "Intra-abdominal abscess"
+    ],
+    "after_stage2_more_likely": [
+      "Sepsis (urinary source)",
+      "Acute pyelonephritis"
+    ],
+    "after_stage2_less_likely": [
+      "Meningitis",
+      "Pneumonia",
+      "Cholangitis"
+    ],
+    "after_labs_top3": [
+      "Sepsis (urinary source)",
+      "Urosepsis with AKI",
+      "Complicated pyelonephritis"
+    ]
   }
 }

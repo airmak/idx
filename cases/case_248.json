@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 7.5 (eosinophils 8%), Hgb 13.5, Hct 40.2, Plt 245", "flag": "MILD ABNORMAL", "clinical_significance": "Mild peripheral eosinophilia (8%, normal <5%) consistent with allergic/atopic condition"},
-      {"test_name": "Total serum IgE", "result": "285 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated total IgE (normal <100) supporting atopic predisposition"},
-      {"test_name": "Specific IgE panel (ImmunoCAP)", "result": "Positive: tree pollen (birch, oak), grass pollen. Negative: dust mite, mold, cat dander", "flag": "ABNORMAL", "clinical_significance": "Confirms sensitization to tree and grass pollens, consistent with spring seasonal allergic rhinitis"},
-      {"test_name": "Nasal smear for eosinophils", "result": "Abundant eosinophils present", "flag": "ABNORMAL", "clinical_significance": "Nasal eosinophilia confirms allergic etiology of rhinitis"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.1, Cl 102, CO2 26, BUN 12, Cr 0.7, Glucose 85, Ca 9.4, AST 18, ALT 14, Alk Phos 52, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can rarely cause nasal congestion"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.5 (eosinophils 8%), Hgb 13.5, Hct 40.2, Plt 245",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Mild peripheral eosinophilia (8%, normal <5%) consistent with allergic/atopic condition"
+      },
+      {
+        "test_name": "Total serum IgE",
+        "result": "285 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated total IgE (normal <100) supporting atopic predisposition"
+      },
+      {
+        "test_name": "Specific IgE panel (ImmunoCAP)",
+        "result": "Positive: tree pollen (birch, oak), grass pollen. Negative: dust mite, mold, cat dander",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms sensitization to tree and grass pollens, consistent with spring seasonal this condition"
+      },
+      {
+        "test_name": "Nasal smear for eosinophils",
+        "result": "Abundant eosinophils present",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Nasal eosinophilia confirms allergic etiology of rhinitis"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.1, Cl 102, CO2 26, BUN 12, Cr 0.7, Glucose 85, Ca 9.4, AST 18, ALT 14, Alk Phos 52, Albumin 4.2",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can rarely cause nasal congestion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "No imaging indicated", "result": "N/A", "flag": "N/A", "clinical_significance": "No imaging necessary for uncomplicated allergic rhinitis; sinus imaging only if concern for sinusitis or structural abnormality"}
+      {
+        "test_name": "No imaging indicated",
+        "result": "N/A",
+        "flag": "N/A",
+        "clinical_significance": "No imaging necessary for uncomplicated this condition; sinus imaging only if concern for sinusitis or structural abnormality"
+      }
     ],
     "key_tests": [
       "Clinical history and nasal exam — seasonal pattern, clear rhinorrhea, pale boggy turbinates, allergic crease, and allergic shiners",
@@ -54,7 +89,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient has seasonal allergic rhinitis with a classic presentation: spring-onset nasal congestion, clear rhinorrhea, sneezing paroxysms, nasal and ocular pruritus, with worsening outdoors and improvement in controlled environments. Physical exam shows hallmark findings: pale boggy turbinates, allergic shiners, allergic crease, and posterior pharyngeal cobblestoning. Specific IgE testing confirms sensitization to tree and grass pollens. The seasonal pattern, personal history of eczema, and family history of atopy (atopic triad) are strongly supportive."
+    "final_clue": "The patient has seasonal this condition with a classic presentation: spring-onset nasal congestion, clear rhinorrhea, sneezing paroxysms, nasal and ocular pruritus, with worsening outdoors and improvement in controlled environments. Physical exam shows hallmark findings: pale boggy turbinates, allergic shiners, allergic crease, and posterior pharyngeal cobblestoning. Specific IgE testing confirms sensitization to tree and grass pollens. The seasonal pattern, personal history of eczema, and family history of atopy (atopic triad) are strongly supportive."
   },
   "debrief": {
     "classic_presentation": "A young adult with a personal or family history of atopy (eczema, asthma, food allergy) presenting with seasonal or perennial nasal symptoms: sneezing, rhinorrhea (clear and watery), nasal congestion, and nasal/ocular pruritus. Seasonal symptoms correlate with pollen exposure (spring = trees, late spring/summer = grasses, fall = ragweed). Classic physical findings include pale/boggy turbinates, allergic shiners, allergic crease, and conjunctival injection with chemosis.",

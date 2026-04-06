@@ -25,24 +25,105 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Plasma free metanephrines", "result": "Normetanephrine 1,850 pg/mL (ref < 148), Metanephrine 620 pg/mL (ref < 57)", "flag": "HIGH", "clinical_significance": "Markedly elevated plasma free metanephrines — the recommended initial screening test; >3x upper limit is essentially diagnostic"},
-      {"test_name": "24-hour urine catecholamines", "result": "Norepinephrine 485 μg/day (ref < 80), Epinephrine 125 μg/day (ref < 20), Dopamine 310 μg/day (ref < 400)", "flag": "HIGH", "clinical_significance": "Elevated urine catecholamines confirm excessive catecholamine production"},
-      {"test_name": "24-hour urine metanephrines", "result": "Normetanephrine 3,200 μg/day (ref < 900), Metanephrine 1,450 μg/day (ref < 400)", "flag": "HIGH", "clinical_significance": "Markedly elevated, confirming the diagnosis with greater than 2x upper limit of normal"},
-      {"test_name": "Chromogranin A", "result": "285 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated chromogranin A is a marker of neuroendocrine tumors but is nonspecific (also elevated with PPI use)"},
-      {"test_name": "Fasting glucose", "result": "148 mg/dL", "flag": "HIGH", "clinical_significance": "Catecholamine excess causes glucose intolerance via stimulation of glycogenolysis and gluconeogenesis and inhibition of insulin secretion"},
-      {"test_name": "CBC", "result": "WBC 9,200/μL, Hgb 16.8 g/dL, Hct 50%, Plt 225,000/μL", "flag": "HIGH", "clinical_significance": "Polycythemia can occur due to catecholamine-stimulated erythropoietin production and hemoconcentration"},
-      {"test_name": "Basic metabolic panel", "result": "Na 138, K 3.6, Cr 0.8, Ca 10.1", "flag": "WNL", "clinical_significance": "Normal renal function and calcium — important to rule out hyperparathyroidism in MEN syndromes"},
-      {"test_name": "Calcitonin", "result": "8 pg/mL", "flag": "WNL", "clinical_significance": "Normal calcitonin argues against medullary thyroid carcinoma and MEN2 syndrome, though genetic testing is still warranted"},
-      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hyperthyroidism excluded as cause of hyperadrenergic symptoms"},
-      {"test_name": "Urine drug screen", "result": "Negative for cocaine, amphetamines, and other substances", "flag": "WNL", "clinical_significance": "Rules out substance use as a cause of paroxysmal hypertension and sympathomimetic symptoms"}
+      {
+        "test_name": "Plasma free metanephrines",
+        "result": "Normetanephrine 1,850 pg/mL (ref < 148), Metanephrine 620 pg/mL (ref < 57)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated plasma free metanephrines — the recommended initial screening test; >3x upper limit is essentially diagnostic"
+      },
+      {
+        "test_name": "24-hour urine catecholamines",
+        "result": "Norepinephrine 485 μg/day (ref < 80), Epinephrine 125 μg/day (ref < 20), Dopamine 310 μg/day (ref < 400)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated urine catecholamines confirm excessive catecholamine production"
+      },
+      {
+        "test_name": "24-hour urine metanephrines",
+        "result": "Normetanephrine 3,200 μg/day (ref < 900), Metanephrine 1,450 μg/day (ref < 400)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, confirming the diagnosis with greater than 2x upper limit of normal"
+      },
+      {
+        "test_name": "Chromogranin A",
+        "result": "285 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated chromogranin A is a marker of neuroendocrine tumors but is nonspecific (also elevated with PPI use)"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "148 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Catecholamine excess causes glucose intolerance via stimulation of glycogenolysis and gluconeogenesis and inhibition of insulin secretion"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 9,200/μL, Hgb 16.8 g/dL, Hct 50%, Plt 225,000/μL",
+        "flag": "HIGH",
+        "clinical_significance": "Polycythemia can occur due to catecholamine-stimulated erythropoietin production and hemoconcentration"
+      },
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 138, K 3.6, Cr 0.8, Ca 10.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function and calcium — important to rule out hyperparathyroidism in MEN syndromes"
+      },
+      {
+        "test_name": "Calcitonin",
+        "result": "8 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal calcitonin argues against medullary thyroid carcinoma and MEN2 syndrome, though genetic testing is still warranted"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hyperthyroidism excluded as cause of hyperadrenergic symptoms"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for cocaine, amphetamines, and other substances",
+        "flag": "WNL",
+        "clinical_significance": "Rules out substance use as a cause of paroxysmal hypertension and sympathomimetic symptoms"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT abdomen/pelvis with contrast", "result": "3.8 cm well-circumscribed, heterogeneous right adrenal mass with areas of necrosis and enhancement >110 HU on contrast-enhanced images. Left adrenal gland normal. No lymphadenopathy or metastatic disease.", "flag": "ABNORMAL", "clinical_significance": "Adrenal mass with high contrast enhancement and heterogeneity consistent with pheochromocytoma; necrotic areas are common in larger tumors"},
-      {"test_name": "MIBG scan (I-123 metaiodobenzylguanidine)", "result": "Intense uptake in the right adrenal gland corresponding to the CT-identified mass. No extra-adrenal uptake.", "flag": "ABNORMAL", "clinical_significance": "MIBG is taken up by chromaffin tissue and confirms functional catecholamine-producing tumor. No evidence of metastatic or extra-adrenal disease."}
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "3.8 cm well-circumscribed, heterogeneous right adrenal mass with areas of necrosis and enhancement >110 HU on contrast-enhanced images. Left adrenal gland normal. No lymphadenopathy or metastatic disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Adrenal mass with high contrast enhancement and heterogeneity consistent with the suspected diagnosis; necrotic areas are common in larger tumors"
+      },
+      {
+        "test_name": "MIBG scan (I-123 metaiodobenzylguanidine)",
+        "result": "Intense uptake in the right adrenal gland corresponding to the CT-identified mass. No extra-adrenal uptake.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MIBG is taken up by chromaffin tissue and confirms functional catecholamine-producing tumor. No evidence of metastatic or extra-adrenal disease."
+      }
     ],
-    "key_tests": ["Plasma free metanephrines", "24-hour urine metanephrines and catecholamines", "CT abdomen/pelvis with contrast", "Basic metabolic panel", "Urine drug screen"],
-    "acceptable_tests": ["MIBG scan", "Chromogranin A", "Fasting glucose or HbA1c", "TSH", "Calcitonin", "ECG", "Echocardiogram", "Genetic testing for hereditary syndromes (RET, VHL, SDHx, NF1)"],
-    "low_yield_tests": ["Random serum catecholamines (too variable, not reliable)", "CT head (no focal neurologic deficits)", "Renal artery duplex (renovascular hypertension is chronic, not paroxysmal)", "Serum cortisol (not Cushing presentation)", "FNA biopsy of adrenal mass (CONTRAINDICATED — can trigger hypertensive crisis)"]
+    "key_tests": [
+      "Plasma free metanephrines",
+      "24-hour urine metanephrines and catecholamines",
+      "CT abdomen/pelvis with contrast",
+      "Basic metabolic panel",
+      "Urine drug screen"
+    ],
+    "acceptable_tests": [
+      "MIBG scan",
+      "Chromogranin A",
+      "Fasting glucose or HbA1c",
+      "TSH",
+      "Calcitonin",
+      "ECG",
+      "Echocardiogram",
+      "Genetic testing for hereditary syndromes (RET, VHL, SDHx, NF1)"
+    ],
+    "low_yield_tests": [
+      "Random serum catecholamines (too variable, not reliable)",
+      "CT head (no focal neurologic deficits)",
+      "Renal artery duplex (renovascular hypertension is chronic, not paroxysmal)",
+      "Serum cortisol (not Cushing presentation)",
+      "FNA biopsy of adrenal mass (CONTRAINDICATED — can trigger hypertensive crisis)"
+    ]
   },
   "stage5": {
     "final_clue": "During IV line placement for preoperative preparation, the patient develops a severe hypertensive crisis (BP 260/140 mmHg) with tachycardia and diaphoresis — provoked by the stress and pain of the procedure. This dramatically illustrates the catecholamine-secreting nature of the tumor and the critical importance of adequate alpha-blockade before any surgical or invasive procedure."
@@ -58,12 +139,33 @@
       "NEVER perform FNA biopsy of a suspected pheochromocytoma — tumor manipulation can trigger a potentially fatal catecholamine surge",
       "Up to 40% of pheochromocytomas are hereditary — all patients should undergo genetic testing regardless of family history"
     ],
-    "sources": ["UpToDate: Clinical presentation and diagnosis of pheochromocytoma", "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma 2024"]
+    "sources": [
+      "UpToDate: Clinical presentation and diagnosis of pheochromocytoma",
+      "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma 2024"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pheochromocytoma", "Essential hypertension with anxiety", "Hyperthyroidism", "Carcinoid syndrome", "Panic disorder", "Cocaine/amphetamine use", "Renovascular hypertension", "Cushing syndrome"],
-    "after_stage2_more_likely": ["Pheochromocytoma (classic triad of episodic headache, diaphoresis, palpitations with paroxysmal hypertension; triggered by abdominal palpation; refractory to standard meds)"],
-    "after_stage2_less_likely": ["Panic disorder (hypertension to 220/130 and reproducible triggers like abdominal palpation are not typical)", "Hyperthyroidism (symptoms are episodic not constant, no thyroid enlargement)"],
-    "after_labs_top3": ["Pheochromocytoma", "Paraganglioma", "Adrenal incidentaloma with subclinical catecholamine secretion"]
+    "reasonable_ddx": [
+      "Pheochromocytoma",
+      "Essential hypertension with anxiety",
+      "Hyperthyroidism",
+      "Carcinoid syndrome",
+      "Panic disorder",
+      "Cocaine/amphetamine use",
+      "Renovascular hypertension",
+      "Cushing syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Pheochromocytoma (classic triad of episodic headache, diaphoresis, palpitations with paroxysmal hypertension; triggered by abdominal palpation; refractory to standard meds)"
+    ],
+    "after_stage2_less_likely": [
+      "Panic disorder (hypertension to 220/130 and reproducible triggers like abdominal palpation are not typical)",
+      "Hyperthyroidism (symptoms are episodic not constant, no thyroid enlargement)"
+    ],
+    "after_labs_top3": [
+      "Pheochromocytoma",
+      "Paraganglioma",
+      "Adrenal incidentaloma with subclinical catecholamine secretion"
+    ]
   }
 }

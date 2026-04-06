@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "2.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, indicating significant renal impairment"},
-      {"test_name": "eGFR (CKD-EPI)", "result": "28 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 4; severe reduction in kidney function"},
-      {"test_name": "Urine Albumin:Creatinine Ratio", "result": "2,400 mg/g", "flag": "HIGH", "clinical_significance": "Severely increased albuminuria (A3 category, >300 mg/g); indicates advanced glomerular disease"},
-      {"test_name": "24-hour Urine Protein", "result": "4.8 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria from diabetic glomerulosclerosis"},
-      {"test_name": "HbA1c", "result": "9.6%", "flag": "HIGH", "clinical_significance": "Very poorly controlled diabetes; chronic hyperglycemia drives nephropathy progression"},
-      {"test_name": "Serum Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from massive urinary protein losses; contributes to edema"},
-      {"test_name": "Serum Potassium", "result": "5.3 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from impaired renal excretion in advanced CKD"},
-      {"test_name": "Serum Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from reduced renal acid excretion"},
-      {"test_name": "Hemoglobin", "result": "9.8 g/dL", "flag": "LOW", "clinical_significance": "Moderate anemia of CKD from decreased erythropoietin production"},
-      {"test_name": "Serum Phosphorus", "result": "5.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperphosphatemia from impaired excretion in CKD stage 4"},
-      {"test_name": "Total Cholesterol", "result": "288 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperlipidemia worsened by nephrotic-range proteinuria"},
-      {"test_name": "Urinalysis", "result": "3+ protein, no RBC casts, no dysmorphic RBCs, waxy casts, oval fat bodies", "flag": "ABNORMAL", "clinical_significance": "Heavy proteinuria with lipiduria but no active nephritic sediment; consistent with diabetic nephropathy rather than primary glomerulonephritis"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "2.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating significant renal impairment"
+      },
+      {
+        "test_name": "eGFR (CKD-EPI)",
+        "result": "28 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "CKD stage 4; severe reduction in kidney function"
+      },
+      {
+        "test_name": "Urine Albumin:Creatinine Ratio",
+        "result": "2,400 mg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Severely increased albuminuria (A3 category, >300 mg/g); indicates advanced glomerular disease"
+      },
+      {
+        "test_name": "24-hour Urine Protein",
+        "result": "4.8 g/day",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic-range proteinuria from diabetic glomerulosclerosis"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "9.6%",
+        "flag": "HIGH",
+        "clinical_significance": "Very poorly controlled diabetes; chronic hyperglycemia drives nephropathy progression"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "2.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoalbuminemia from massive urinary protein losses; contributes to edema"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.3 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from impaired renal excretion in advanced CKD"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "18 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from reduced renal acid excretion"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "9.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Moderate anemia of CKD from decreased erythropoietin production"
+      },
+      {
+        "test_name": "Serum Phosphorus",
+        "result": "5.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperphosphatemia from impaired excretion in CKD stage 4"
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "result": "288 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperlipidemia worsened by nephrotic-range proteinuria"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ protein, no RBC casts, no dysmorphic RBCs, waxy casts, oval fat bodies",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Heavy proteinuria with lipiduria but no active nephritic sediment; consistent with the suspected diagnosis rather than primary glomerulonephritis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys normal to mildly enlarged (right 12.8 cm, left 12.5 cm) with increased cortical echogenicity. No hydronephrosis or masses.", "flag": "ABNORMAL", "clinical_significance": "In early diabetic nephropathy, kidneys may be enlarged (hyperfiltration phase) before eventually shrinking; increased echogenicity reflects parenchymal disease"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Bilateral kidneys normal to mildly enlarged (right 12.8 cm, left 12.5 cm) with increased cortical echogenicity. No hydronephrosis or masses.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "In early this condition, kidneys may be enlarged (hyperfiltration phase) before eventually shrinking; increased echogenicity reflects parenchymal disease"
+      }
     ],
     "key_tests": [
       "Urine albumin:creatinine ratio (UACR)",
@@ -65,7 +130,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A patient with 20 years of poorly controlled diabetes, nephrotic-range proteinuria (UACR 2,400 mg/g), eGFR of 28, diabetic retinopathy, peripheral neuropathy, and no features of alternative glomerular disease confirms advanced diabetic nephropathy (CKD stage 4, A3)."
+    "final_clue": "A patient with 20 years of poorly controlled diabetes, nephrotic-range proteinuria (UACR 2,400 mg/g), eGFR of 28, diabetic retinopathy, peripheral neuropathy, and no features of alternative glomerular disease confirms advanced this condition (CKD stage 4, A3)."
   },
   "debrief": {
     "classic_presentation": "A patient with longstanding poorly controlled diabetes presenting with progressive proteinuria (initially microalbuminuria, then macroalbuminuria, then nephrotic-range), declining eGFR, hypertension, edema, and concurrent diabetic retinopathy and neuropathy. The natural history is a gradual progression over years from hyperfiltration to ESRD.",

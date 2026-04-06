@@ -25,30 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Lipase", "result": "2,840 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated (>3x upper limit of normal), diagnostic of acute pancreatitis"},
-      {"test_name": "Amylase", "result": "1,260 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with acute pancreatitis"},
-      {"test_name": "CBC - WBC", "result": "15.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis reflecting systemic inflammatory response"},
-      {"test_name": "Total Bilirubin", "result": "3.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, suggesting transient or ongoing biliary obstruction from gallstone passage"},
-      {"test_name": "Direct Bilirubin", "result": "2.9 mg/dL", "flag": "HIGH", "clinical_significance": "Conjugated hyperbilirubinemia consistent with biliary obstruction"},
-      {"test_name": "ALT", "result": "286 U/L", "flag": "HIGH", "clinical_significance": "Significantly elevated; ALT >150 U/L has 95% positive predictive value for gallstone pancreatitis"},
-      {"test_name": "AST", "result": "198 U/L", "flag": "HIGH", "clinical_significance": "Elevated, consistent with biliary etiology"},
-      {"test_name": "Alkaline Phosphatase", "result": "248 U/L", "flag": "HIGH", "clinical_significance": "Elevated, cholestatic pattern supporting biliary obstruction"},
-      {"test_name": "BMP - Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "BMP - Calcium", "result": "8.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypocalcemia would be a poor prognostic sign (Ranson criteria)"},
-      {"test_name": "Triglycerides", "result": "142 mg/dL", "flag": "WNL", "clinical_significance": "Normal, excludes hypertriglyceridemia as the cause of pancreatitis"},
-      {"test_name": "Lactate", "result": "1.8 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of tissue hypoperfusion"}
+      {
+        "test_name": "Lipase",
+        "result": "2,840 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (>3x upper limit of normal), diagnostic of acute pancreatitis"
+      },
+      {
+        "test_name": "Amylase",
+        "result": "1,260 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with acute pancreatitis"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "15.4 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis reflecting systemic inflammatory response"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "3.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, suggesting transient or ongoing biliary obstruction from gallstone passage"
+      },
+      {
+        "test_name": "Direct Bilirubin",
+        "result": "2.9 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Conjugated hyperbilirubinemia consistent with biliary obstruction"
+      },
+      {
+        "test_name": "ALT",
+        "result": "286 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated; ALT >150 U/L has 95% positive predictive value for this condition"
+      },
+      {
+        "test_name": "AST",
+        "result": "198 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with biliary etiology"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "248 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, cholestatic pattern supporting biliary obstruction"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "BMP - Calcium",
+        "result": "8.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypocalcemia would be a poor prognostic sign (Ranson criteria)"
+      },
+      {
+        "test_name": "Triglycerides",
+        "result": "142 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes hypertriglyceridemia as the cause of pancreatitis"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.8 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of tissue hypoperfusion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Right Upper Quadrant Ultrasound", "result": "Multiple gallstones present, largest 1.2 cm. Gallbladder wall mildly thickened (4 mm). Common bile duct dilated at 9 mm (normal <6 mm). Possible shadowing stone at the distal CBD, though partially obscured by bowel gas. Pancreas not well visualized due to body habitus.", "flag": "ABNORMAL", "clinical_significance": "Gallstones with CBD dilation strongly support gallstone pancreatitis. Possible distal CBD stone may require ERCP."},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Pancreas is diffusely enlarged and edematous with peripancreatic fat stranding and small amount of peripancreatic fluid. No pancreatic necrosis. No pseudocyst. Gallstones noted. CBD mildly dilated. Small left pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with acute interstitial edematous pancreatitis without necrosis. CT severity index is low, suggesting mild disease radiographically."}
+      {
+        "test_name": "Right Upper Quadrant Ultrasound",
+        "result": "Multiple gallstones present, largest 1.2 cm. Gallbladder wall mildly thickened (4 mm). Common bile duct dilated at 9 mm (normal <6 mm). Possible shadowing stone at the distal CBD, though partially obscured by bowel gas. Pancreas not well visualized due to body habitus.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gallstones with CBD dilation strongly support this condition. Possible distal CBD stone may require ERCP."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Pancreas is diffusely enlarged and edematous with peripancreatic fat stranding and small amount of peripancreatic fluid. No pancreatic necrosis. No pseudocyst. Gallstones noted. CBD mildly dilated. Small left pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with acute interstitial edematous pancreatitis without necrosis. CT severity index is low, suggesting mild disease radiographically."
+      }
     ],
-    "key_tests": ["Serum lipase", "Hepatic function panel (ALT, AST, bilirubin, ALP)", "Right upper quadrant ultrasound", "CBC with differential", "BMP"],
-    "acceptable_tests": ["CT abdomen/pelvis with contrast", "Serum amylase", "Triglycerides", "Calcium", "Lactate", "CRP", "MRCP (if CBD stone suspected)", "Chest X-ray"],
-    "low_yield_tests": ["ERCP as initial diagnostic test (therapeutic, not first-line diagnostic)", "Abdominal X-ray (low sensitivity for pancreatitis)", "EGD (not indicated)", "Serum IgG4 (for autoimmune pancreatitis, not acute gallstone pancreatitis)"],
+    "key_tests": [
+      "Serum lipase",
+      "Hepatic function panel (ALT, AST, bilirubin, ALP)",
+      "Right upper quadrant ultrasound",
+      "CBC with differential",
+      "BMP"
+    ],
+    "acceptable_tests": [
+      "CT abdomen/pelvis with contrast",
+      "Serum amylase",
+      "Triglycerides",
+      "Calcium",
+      "Lactate",
+      "CRP",
+      "MRCP (if CBD stone suspected)",
+      "Chest X-ray"
+    ],
+    "low_yield_tests": [
+      "ERCP as initial diagnostic test (therapeutic, not first-line diagnostic)",
+      "Abdominal X-ray (low sensitivity for pancreatitis)",
+      "EGD (not indicated)",
+      "Serum IgG4 (for autoimmune pancreatitis, not acute gallstone pancreatitis)"
+    ],
     "final_clue": "Lipase is markedly elevated at 2,840 U/L. ALT of 286 U/L strongly predicts gallstone etiology. Ultrasound reveals gallstones and a dilated CBD (9 mm). CT shows acute edematous pancreatitis without necrosis. This is acute gallstone pancreatitis requiring aggressive fluid resuscitation, pain management, and cholecystectomy during the same admission."
   },
   "stage5": {
-    "final_clue": "Lipase is markedly elevated at 2,840 U/L. ALT of 286 U/L strongly predicts gallstone etiology. Ultrasound reveals gallstones and a dilated CBD (9 mm). CT shows acute edematous pancreatitis without necrosis. This is acute gallstone pancreatitis requiring aggressive fluid resuscitation, pain management, and cholecystectomy during the same admission."
+    "final_clue": "Lipase is markedly elevated at 2,840 U/L. ALT of 286 U/L strongly predicts gallstone etiology. Ultrasound reveals gallstones and a dilated CBD (9 mm). CT shows acute edematous pancreatitis without necrosis. This is this condition requiring aggressive fluid resuscitation, pain management, and cholecystectomy during the same admission."
   },
   "debrief": {
     "classic_presentation": "Severe, constant epigastric pain radiating to the back, worse supine and improved leaning forward, with nausea and vomiting after a fatty meal. Gallstones and alcohol are the two most common causes (together accounting for ~80% of cases). Gallstone pancreatitis is characterized by elevated liver enzymes (particularly ALT >150 U/L, which has 95% PPV for gallstone etiology) and gallstones on ultrasound. Jaundice may be present if CBD obstruction is ongoing.",
@@ -69,9 +159,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute gallstone pancreatitis", "Acute cholecystitis", "Choledocholithiasis with cholangitis", "Perforated peptic ulcer", "Mesenteric ischemia", "Acute alcoholic pancreatitis", "Myocardial infarction (inferior)"],
-    "after_stage2_more_likely": ["Acute gallstone pancreatitis", "Choledocholithiasis with cholangitis"],
-    "after_stage2_less_likely": ["Perforated peptic ulcer", "Myocardial infarction"],
-    "after_labs_top3": ["Acute gallstone pancreatitis", "Choledocholithiasis", "Acute cholecystitis"]
+    "reasonable_ddx": [
+      "Acute gallstone pancreatitis",
+      "Acute cholecystitis",
+      "Choledocholithiasis with cholangitis",
+      "Perforated peptic ulcer",
+      "Mesenteric ischemia",
+      "Acute alcoholic pancreatitis",
+      "Myocardial infarction (inferior)"
+    ],
+    "after_stage2_more_likely": [
+      "Acute gallstone pancreatitis",
+      "Choledocholithiasis with cholangitis"
+    ],
+    "after_stage2_less_likely": [
+      "Perforated peptic ulcer",
+      "Myocardial infarction"
+    ],
+    "after_labs_top3": [
+      "Acute gallstone pancreatitis",
+      "Choledocholithiasis",
+      "Acute cholecystitis"
+    ]
   }
 }

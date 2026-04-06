@@ -25,30 +25,125 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Carboxyhemoglobin (COHb)", "result": "32%", "flag": "HIGH", "clinical_significance": "Severely elevated (normal <3% non-smokers); confirms significant CO poisoning. Levels >25% associated with serious toxicity"},
-      {"test_name": "Venous Blood Gas - pH", "result": "7.34", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from tissue hypoxia"},
-      {"test_name": "Lactate", "result": "5.2 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from impaired cellular oxygen utilization"},
-      {"test_name": "Troponin I", "result": "0.18 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated; CO poisoning can cause myocardial injury even without coronary disease"},
-      {"test_name": "CBC - Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal hemoglobin; CO binds to available hemoglobin reducing O2 carrying capacity"},
-      {"test_name": "CBC - WBC", "result": "10.2 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "BMP - Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Bicarbonate", "result": "19 mEq/L", "flag": "LOW", "clinical_significance": "Low, consistent with metabolic acidosis from tissue hypoxia"},
-      {"test_name": "CK", "result": "420 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggests muscle injury from CO toxicity"},
-      {"test_name": "BMP - Glucose", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Mild stress hyperglycemia"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function on replacement"}
+      {
+        "test_name": "Carboxyhemoglobin (COHb)",
+        "result": "32%",
+        "flag": "HIGH",
+        "clinical_significance": "Severely elevated (normal <3% non-smokers); confirms significant CO poisoning. Levels >25% associated with serious toxicity"
+      },
+      {
+        "test_name": "Venous Blood Gas - pH",
+        "result": "7.34",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis from tissue hypoxia"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "5.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from impaired cellular oxygen utilization"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.18 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; CO poisoning can cause myocardial injury even without coronary disease"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "13.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal hemoglobin; CO binds to available hemoglobin reducing O2 carrying capacity"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "10.2 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "4.0 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "19 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Low, consistent with metabolic acidosis from tissue hypoxia"
+      },
+      {
+        "test_name": "CK",
+        "result": "420 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, suggests muscle injury from CO toxicity"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "128 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild stress hyperglycemia"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function on replacement"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage or mass. Bilateral globus pallidus hypodensities (subtle).", "flag": "ABNORMAL", "clinical_significance": "Bilateral globus pallidus lesions are characteristic of CO poisoning; indicates significant CNS exposure"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. ST depression in leads V3-V5. No ST elevation.", "flag": "ABNORMAL", "clinical_significance": "Ischemic changes consistent with CO-induced myocardial injury"},
-      {"test_name": "Chest X-ray", "result": "Clear lungs. No focal consolidation or edema.", "flag": "WNL", "clinical_significance": "Normal; CO poisoning typically has normal CXR"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial hemorrhage or mass. Bilateral globus pallidus hypodensities (subtle).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral globus pallidus lesions are characteristic of CO poisoning; indicates significant CNS exposure"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 108 bpm. ST depression in leads V3-V5. No ST elevation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ischemic changes consistent with CO-induced myocardial injury"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Clear lungs. No focal consolidation or edema.",
+        "flag": "WNL",
+        "clinical_significance": "Normal; CO poisoning typically has normal CXR"
+      }
     ],
-    "key_tests": ["Carboxyhemoglobin level (co-oximetry)", "Venous or arterial blood gas", "Troponin", "ECG", "CT head without contrast"],
-    "acceptable_tests": ["CBC", "BMP", "Lactate", "CK", "Chest X-ray", "Neuropsychiatric testing (delayed)", "Pregnancy test (reproductive-age women)"],
-    "low_yield_tests": ["Standard pulse oximetry (unreliable — cannot distinguish COHb from OxyHb)", "D-dimer", "MRI brain (not acute priority)", "Urine drug screen", "Liver function tests"]
+    "key_tests": [
+      "Carboxyhemoglobin level (co-oximetry)",
+      "Venous or arterial blood gas",
+      "Troponin",
+      "ECG",
+      "CT head without contrast"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "Lactate",
+      "CK",
+      "Chest X-ray",
+      "Neuropsychiatric testing (delayed)",
+      "Pregnancy test (reproductive-age women)"
+    ],
+    "low_yield_tests": [
+      "Standard pulse oximetry (unreliable — cannot distinguish COHb from OxyHb)",
+      "D-dimer",
+      "MRI brain (not acute priority)",
+      "Urine drug screen",
+      "Liver function tests"
+    ]
   },
   "stage5": {
-    "final_clue": "Carboxyhemoglobin of 32% on co-oximetry confirms severe carbon monoxide poisoning from generator exhaust in an enclosed space. The falsely normal SpO2 (99%) is a critical pitfall — standard pulse oximeters cannot distinguish carboxyhemoglobin from oxyhemoglobin. CT showing bilateral globus pallidus hypodensities and elevated troponin indicate end-organ damage requiring consideration of hyperbaric oxygen therapy."
+    "final_clue": "Carboxyhemoglobin of 32% on co-oximetry confirms severe this condition from generator exhaust in an enclosed space. The falsely normal SpO2 (99%) is a critical pitfall — standard pulse oximeters cannot distinguish carboxyhemoglobin from oxyhemoglobin. CT showing bilateral globus pallidus hypodensities and elevated troponin indicate end-organ damage requiring consideration of hyperbaric oxygen therapy."
   },
   "debrief": {
     "classic_presentation": "Headache, nausea, dizziness, and confusion in a patient with exposure to combustion sources (generators, heaters, car exhaust) in enclosed or poorly ventilated spaces. Multiple household members with similar symptoms is a strong clue. Cherry-red skin is a classic but unreliable finding. Pulse oximetry is falsely normal. Severe cases present with syncope, seizures, coma, or cardiac arrest.",
@@ -70,9 +165,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Carbon monoxide poisoning", "Migraine headache", "Viral gastroenteritis", "Meningitis/Encephalitis", "Hypoglycemia", "Drug intoxication", "Acute coronary syndrome"],
-    "after_stage2_more_likely": ["Carbon monoxide poisoning", "Drug intoxication", "Meningitis"],
-    "after_stage2_less_likely": ["Migraine headache", "Viral gastroenteritis", "Hypoglycemia"],
-    "after_labs_top3": ["Carbon monoxide poisoning", "CO poisoning with myocardial injury", "Toxic encephalopathy"]
+    "reasonable_ddx": [
+      "Carbon monoxide poisoning",
+      "Migraine headache",
+      "Viral gastroenteritis",
+      "Meningitis/Encephalitis",
+      "Hypoglycemia",
+      "Drug intoxication",
+      "Acute coronary syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Carbon monoxide poisoning",
+      "Drug intoxication",
+      "Meningitis"
+    ],
+    "after_stage2_less_likely": [
+      "Migraine headache",
+      "Viral gastroenteritis",
+      "Hypoglycemia"
+    ],
+    "after_labs_top3": [
+      "Carbon monoxide poisoning",
+      "CO poisoning with myocardial injury",
+      "Toxic encephalopathy"
+    ]
   }
 }

@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Not elevated, no acute myocardial injury"},
-      {"test_name": "Potassium", "result": "4.5 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out hyperkalemia as cause of conduction abnormality"},
-      {"test_name": "Calcium", "result": "9.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "3.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out hypothyroidism as cause of bradycardia"},
-      {"test_name": "Creatinine", "result": "1.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "BNP", "result": "210 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect bradycardia-related hemodynamic stress"},
-      {"test_name": "Digoxin level", "result": "Not on digoxin", "flag": "WNL", "clinical_significance": "Digoxin toxicity excluded"},
-      {"test_name": "CBC", "result": "WBC 6.8, Hgb 12.5, Plt 205", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Glucose", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, known diabetic"},
-      {"test_name": "Lyme antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Lyme carditis as reversible cause"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.02 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not elevated, no acute myocardial injury"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.5 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out hyperkalemia as cause of conduction abnormality"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "9.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "3.5 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out hypothyroidism as cause of bradycardia"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "BNP",
+        "result": "210 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, may reflect bradycardia-related hemodynamic stress"
+      },
+      {
+        "test_name": "Digoxin level",
+        "result": "Not on digoxin",
+        "flag": "WNL",
+        "clinical_significance": "Digoxin toxicity excluded"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.8, Hgb 12.5, Plt 205",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Glucose",
+        "result": "128 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, known diabetic"
+      },
+      {
+        "test_name": "Lyme antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out Lyme carditis as reversible cause"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-lead ECG", "result": "Complete AV dissociation with atrial rate 82 bpm and ventricular rate 38 bpm. P waves march independently of QRS complexes. Narrow QRS escape rhythm (junctional escape). No relationship between P waves and QRS complexes. Old inferior Q waves in leads II, III, aVF.", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of third-degree (complete) heart block with junctional escape rhythm. Old inferior MI visible."},
-      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 50%, inferior wall akinesis (old infarct), mild mitral regurgitation, no significant valvular disease, no pericardial effusion", "flag": "ABNORMAL", "clinical_significance": "Preserved LV function with old inferior wall infarct scar, likely site of AV nodal damage"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly, clear lung fields", "flag": "ABNORMAL", "clinical_significance": "Mild cardiomegaly, no acute cardiopulmonary pathology"}
+      {
+        "test_name": "12-lead ECG",
+        "result": "Complete AV dissociation with atrial rate 82 bpm and ventricular rate 38 bpm. P waves march independently of QRS complexes. Narrow QRS escape rhythm (junctional escape). No relationship between P waves and QRS complexes. Old inferior Q waves in leads II, III, aVF.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "diagnostic of the suspected condition (complete) heart block with junctional escape rhythm. Old inferior MI visible."
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "LVEF 50%, inferior wall akinesis (old infarct), mild mitral regurgitation, no significant valvular disease, no pericardial effusion",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Preserved LV function with old inferior wall infarct scar, likely site of AV nodal damage"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly, clear lung fields",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cardiomegaly, no acute cardiopulmonary pathology"
+      }
     ],
-    "key_tests": ["12-lead ECG", "Basic metabolic panel", "Troponin", "TSH", "Transthoracic echocardiogram"],
-    "acceptable_tests": ["CBC", "BNP", "Digoxin level", "Lyme antibody", "Magnesium", "Calcium", "Chest X-ray", "Continuous telemetry"],
-    "low_yield_tests": ["CT head", "EEG", "Cardiac catheterization", "Stress test", "Pulmonary function tests"],
+    "key_tests": [
+      "12-lead ECG",
+      "Basic metabolic panel",
+      "Troponin",
+      "TSH",
+      "Transthoracic echocardiogram"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BNP",
+      "Digoxin level",
+      "Lyme antibody",
+      "Magnesium",
+      "Calcium",
+      "Chest X-ray",
+      "Continuous telemetry"
+    ],
+    "low_yield_tests": [
+      "CT head",
+      "EEG",
+      "Cardiac catheterization",
+      "Stress test",
+      "Pulmonary function tests"
+    ],
     "key_tests_rationale": "ECG is diagnostic, showing AV dissociation. BMP identifies electrolyte abnormalities that can cause heart block. Troponin rules out acute MI. TSH screens for hypothyroidism. Echo assesses cardiac structure and function."
   },
   "stage5": {
-    "final_clue": "ECG demonstrates complete AV dissociation with P waves bearing no relationship to QRS complexes, atrial rate 82 bpm and ventricular escape at 38 bpm. Cannon A waves in the JVP and variable S1 intensity confirm the diagnosis of third-degree heart block."
+    "final_clue": "ECG demonstrates complete AV dissociation with P waves bearing no relationship to QRS complexes, atrial rate 82 bpm and ventricular escape at 38 bpm. Cannon A waves in the JVP and variable S1 intensity confirm the diagnosis of this condition heart block."
   },
   "debrief": {
     "classic_presentation": "Complete heart block presents with syncope (Stokes-Adams attacks), presyncope, fatigue, and exercise intolerance. Exam reveals bradycardia, cannon A waves in JVP (atrial contraction against a closed tricuspid valve), and variable S1 intensity. ECG shows AV dissociation with P waves and QRS complexes at independent rates.",
@@ -69,9 +160,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Second-degree AV block (Mobitz II)", "Sick sinus syndrome", "Vasovagal syncope", "Seizure", "Drug-induced bradycardia (beta-blocker)", "Hypothyroidism"],
-    "after_stage2_more_likely": ["Complete heart block", "Drug-induced bradycardia", "Sick sinus syndrome"],
-    "after_stage2_less_likely": ["Vasovagal syncope", "Seizure", "Hypothyroidism"],
-    "after_labs_top3": ["Complete heart block (degenerative/post-MI)", "Drug-exacerbated conduction disease", "Sick sinus syndrome"]
+    "reasonable_ddx": [
+      "Second-degree AV block (Mobitz II)",
+      "Sick sinus syndrome",
+      "Vasovagal syncope",
+      "Seizure",
+      "Drug-induced bradycardia (beta-blocker)",
+      "Hypothyroidism"
+    ],
+    "after_stage2_more_likely": [
+      "Complete heart block",
+      "Drug-induced bradycardia",
+      "Sick sinus syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Vasovagal syncope",
+      "Seizure",
+      "Hypothyroidism"
+    ],
+    "after_labs_top3": [
+      "Complete heart block (degenerative/post-MI)",
+      "Drug-exacerbated conduction disease",
+      "Sick sinus syndrome"
+    ]
   }
 }

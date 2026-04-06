@@ -6,7 +6,7 @@
   "icd_category": "K57.32 — Diverticulitis of large intestine without perforation or abscess",
   "one_liner": "A 62-year-old male presents with progressive left lower quadrant pain, low-grade fever, and constipation over the past 3 days.",
   "stage2": {
-    "hpi_extension": "Patient reports a 3-day history of progressively worsening left lower quadrant abdominal pain. The pain is constant, dull, and rated 7/10. It is not colicky and does not radiate. He has had low-grade fevers and mild chills. He reports decreased appetite and has had no bowel movement for 2 days, which is unusual for him. He denies nausea, vomiting, hematochezia, melena, dysuria, or urinary frequency. He was previously diagnosed with diverticulosis on a screening colonoscopy 3 years ago. He has never had a prior episode of diverticulitis. His diet is low in fiber. He denies recent travel, sick contacts, or antibiotic use.",
+    "hpi_extension": "Patient reports a 3-day history of progressively worsening left lower quadrant abdominal pain. The pain is constant, dull, and rated 7/10. It is not colicky and does not radiate. He has had low-grade fevers and mild chills. He reports decreased appetite and has had no bowel movement for 2 days, which is unusual for him. He denies nausea, vomiting, hematochezia, melena, dysuria, or urinary frequency. He was previously diagnosed with diverticulosis on a screening colonoscopy 3 years ago. He has never had a prior episode of this condition. His diet is low in fiber. He denies recent travel, sick contacts, or antibiotic use.",
     "pmh": "Diverticulosis (diagnosed on colonoscopy 3 years ago), hypertension, hyperlipidemia, type 2 diabetes mellitus",
     "surgical_history": "None",
     "medications": "Metformin 1000 mg BID, atorvastatin 40 mg daily, amlodipine 5 mg daily",
@@ -25,25 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "14.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis supporting an acute inflammatory/infectious process"},
-      {"test_name": "CBC - Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CRP", "result": "12.6 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated, correlates with severity of diverticulitis"},
-      {"test_name": "BMP - Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "BMP - Glucose", "result": "168 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with known diabetes and physiologic stress"},
-      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
-      {"test_name": "Urinalysis", "result": "Clear, no WBCs, no bacteria, no nitrites", "flag": "WNL", "clinical_significance": "Normal, helps exclude urinary tract infection and renal colic"},
-      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of bowel ischemia or sepsis"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "14.2 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis supporting an acute inflammatory/infectious process"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "13.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CRP",
+        "result": "12.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated, correlates with severity of this condition"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "168 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with known diabetes and physiologic stress"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "28 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Clear, no WBCs, no bacteria, no nitrites",
+        "flag": "WNL",
+        "clinical_significance": "Normal, helps exclude urinary tract infection and renal colic"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.2 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of bowel ischemia or sepsis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Segmental wall thickening of the sigmoid colon with pericolonic fat stranding and small amount of free fluid. Multiple diverticula present. No abscess. No free air. No obstruction. No fistula tract identified.", "flag": "ABNORMAL", "clinical_significance": "Classic CT findings of uncomplicated acute sigmoid diverticulitis. Absence of abscess, perforation, or fistula classifies this as uncomplicated (Hinchey stage 0/Ia)."}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Segmental wall thickening of the sigmoid colon with pericolonic fat stranding and small amount of free fluid. Multiple diverticula present. No abscess. No free air. No obstruction. No fistula tract identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic CT findings of uncomplicated acute sigmoid this condition. Absence of abscess, perforation, or fistula classifies this as uncomplicated (Hinchey stage 0/Ia)."
+      }
     ],
-    "key_tests": ["CT abdomen/pelvis with IV contrast", "CBC with differential", "CRP"],
-    "acceptable_tests": ["BMP", "Urinalysis", "Lipase", "Lactate", "Blood cultures (if sepsis suspected)", "Urine culture"],
-    "low_yield_tests": ["Colonoscopy (contraindicated in acute phase due to perforation risk)", "Barium enema (contraindicated acutely)", "Abdominal X-ray (low sensitivity for diverticulitis)", "Abdominal ultrasound (operator-dependent, limited for bowel pathology)"],
+    "key_tests": [
+      "CT abdomen/pelvis with IV contrast",
+      "CBC with differential",
+      "CRP"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "Urinalysis",
+      "Lipase",
+      "Lactate",
+      "Blood cultures (if sepsis suspected)",
+      "Urine culture"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy (contraindicated in acute phase due to perforation risk)",
+      "Barium enema (contraindicated acutely)",
+      "Abdominal X-ray (low sensitivity for diverticulitis)",
+      "Abdominal ultrasound (operator-dependent, limited for bowel pathology)"
+    ],
     "final_clue": "CT abdomen demonstrates sigmoid wall thickening with pericolonic fat stranding and diverticula, without abscess or perforation. This is uncomplicated acute diverticulitis (Hinchey 0/Ia) in a patient with known diverticulosis and classic risk factors."
   },
   "stage5": {
-    "final_clue": "CT abdomen demonstrates sigmoid wall thickening with pericolonic fat stranding and diverticula, without abscess or perforation. This is uncomplicated acute diverticulitis (Hinchey 0/Ia) in a patient with known diverticulosis and classic risk factors."
+    "final_clue": "CT abdomen demonstrates sigmoid wall thickening with pericolonic fat stranding and diverticula, without abscess or perforation. This is uncomplicated this condition (Hinchey 0/Ia) in a patient with known diverticulosis and classic risk factors."
   },
   "debrief": {
     "classic_presentation": "Left lower quadrant pain (the 'left-sided appendicitis'), low-grade fever, and leukocytosis in a patient over 50 with known or suspected diverticulosis. Constipation or change in bowel habits is common. Patients may present with a palpable LLQ mass (phlegmon). Right-sided diverticulitis is more common in Asian populations. Complicated diverticulitis involves abscess (Hinchey I-II), purulent peritonitis (Hinchey III), or fecal peritonitis (Hinchey IV).",
@@ -64,9 +125,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute diverticulitis", "Colon cancer", "Urinary tract infection", "Renal colic", "Ischemic colitis", "Inflammatory bowel disease", "Ovarian pathology (if female)"],
-    "after_stage2_more_likely": ["Acute diverticulitis", "Colon cancer"],
-    "after_stage2_less_likely": ["Urinary tract infection", "Renal colic"],
-    "after_labs_top3": ["Acute diverticulitis", "Colon cancer", "Ischemic colitis"]
+    "reasonable_ddx": [
+      "Acute diverticulitis",
+      "Colon cancer",
+      "Urinary tract infection",
+      "Renal colic",
+      "Ischemic colitis",
+      "Inflammatory bowel disease",
+      "Ovarian pathology (if female)"
+    ],
+    "after_stage2_more_likely": [
+      "Acute diverticulitis",
+      "Colon cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Urinary tract infection",
+      "Renal colic"
+    ],
+    "after_labs_top3": [
+      "Acute diverticulitis",
+      "Colon cancer",
+      "Ischemic colitis"
+    ]
   }
 }

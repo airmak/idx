@@ -25,25 +25,110 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "11,200/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis; can be seen in active TB"},
-      {"test_name": "CBC — Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia of chronic disease consistent with chronic infection"},
-      {"test_name": "CBC — Lymphocyte %", "result": "18%", "flag": "LOW", "clinical_significance": "Relative lymphopenia may be seen in TB, also check HIV status"},
-      {"test_name": "ESR", "result": "68 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; consistent with chronic granulomatous infection"},
-      {"test_name": "CRP", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting active infectious/inflammatory process"},
-      {"test_name": "Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia reflects chronic disease and malnutrition"},
-      {"test_name": "HIV 4th generation Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "HIV negative; important to exclude as TB-HIV coinfection is common"},
-      {"test_name": "Hepatic panel — AST/ALT", "result": "28/32 U/L", "flag": "WNL", "clinical_significance": "Normal baseline liver function — important prior to starting anti-TB medications"},
-      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Sputum AFB smear", "result": "3+ acid-fast bacilli on Ziehl-Neelsen stain", "flag": "ABNORMAL", "clinical_significance": "Strongly positive AFB smear — highly infectious; confirms mycobacterial disease (presumptively TB in this clinical setting)"},
-      {"test_name": "Sputum GeneXpert MTB/RIF", "result": "Mycobacterium tuberculosis detected; rifampin resistance NOT detected", "flag": "ABNORMAL", "clinical_significance": "Rapid molecular confirmation of M. tuberculosis; no rifampin resistance suggests drug-susceptible TB"},
-      {"test_name": "QuantiFERON-TB Gold", "result": "Positive (>10 IU/mL)", "flag": "ABNORMAL", "clinical_significance": "Positive IGRA supports TB infection; however, active TB is confirmed by AFB smear and GeneXpert — IGRA alone cannot distinguish latent from active TB"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "11,200/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis; can be seen in active TB"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "11.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia of chronic disease consistent with chronic infection"
+      },
+      {
+        "test_name": "CBC — Lymphocyte %",
+        "result": "18%",
+        "flag": "LOW",
+        "clinical_significance": "Relative lymphopenia may be seen in TB, also check HIV status"
+      },
+      {
+        "test_name": "ESR",
+        "result": "68 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; consistent with chronic granulomatous infection"
+      },
+      {
+        "test_name": "CRP",
+        "result": "4.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker supporting active infectious/inflammatory process"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "2.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoalbuminemia reflects chronic disease and malnutrition"
+      },
+      {
+        "test_name": "HIV 4th generation Ag/Ab",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "HIV negative; important to exclude as TB-HIV coinfection is common"
+      },
+      {
+        "test_name": "Hepatic panel — AST/ALT",
+        "result": "28/32 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal baseline liver function — important prior to starting anti-TB medications"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Sputum AFB smear",
+        "result": "3+ acid-fast bacilli on Ziehl-Neelsen stain",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Strongly positive AFB smear — highly infectious; confirms mycobacterial disease (presumptively TB in this clinical setting)"
+      },
+      {
+        "test_name": "Sputum GeneXpert MTB/RIF",
+        "result": "Mycobacterium tuberculosis detected; rifampin resistance NOT detected",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rapid molecular confirmation of M. tuberculosis; no rifampin resistance suggests drug-susceptible TB"
+      },
+      {
+        "test_name": "QuantiFERON-TB Gold",
+        "result": "Positive (>10 IU/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive IGRA supports TB infection; however, active TB is confirmed by AFB smear and GeneXpert — IGRA alone cannot distinguish latent from active TB"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and lateral)", "result": "Right upper lobe cavitary lesion (3.5 cm) with surrounding consolidation and tree-in-bud opacities. Ipsilateral hilar lymphadenopathy. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Upper lobe cavitary lesion with tree-in-bud pattern is classic for reactivation pulmonary tuberculosis. Cavitation indicates high organism burden and infectiousness."}
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "Right upper lobe cavitary lesion (3.5 cm) with surrounding consolidation and tree-in-bud opacities. Ipsilateral hilar lymphadenopathy. No pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Upper lobe cavitary lesion with tree-in-bud pattern is classic for reactivation this condition. Cavitation indicates high organism burden and infectiousness."
+      }
     ],
-    "key_tests": ["Sputum AFB smear (x3, collected 8 hours apart)", "Sputum GeneXpert MTB/RIF (rapid molecular test)", "Chest X-ray", "HIV testing", "Sputum mycobacterial culture (gold standard, takes weeks)"],
-    "acceptable_tests": ["CBC with differential", "ESR/CRP", "QuantiFERON-TB Gold or tuberculin skin test", "Hepatic panel (baseline before treatment)", "BMP", "Albumin", "Blood cultures for mycobacteria"],
-    "low_yield_tests": ["CT chest (unless CXR inconclusive)", "D-dimer", "Procalcitonin", "BNP", "PFTs"]
+    "key_tests": [
+      "Sputum AFB smear (x3, collected 8 hours apart)",
+      "Sputum GeneXpert MTB/RIF (rapid molecular test)",
+      "Chest X-ray",
+      "HIV testing",
+      "Sputum mycobacterial culture (gold standard, takes weeks)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "ESR/CRP",
+      "QuantiFERON-TB Gold or tuberculin skin test",
+      "Hepatic panel (baseline before treatment)",
+      "BMP",
+      "Albumin",
+      "Blood cultures for mycobacteria"
+    ],
+    "low_yield_tests": [
+      "CT chest (unless CXR inconclusive)",
+      "D-dimer",
+      "Procalcitonin",
+      "BNP",
+      "PFTs"
+    ]
   },
   "stage5": {
     "final_clue": "Sputum mycobacterial culture (at 3 weeks) grows Mycobacterium tuberculosis, fully susceptible to all first-line agents (isoniazid, rifampin, pyrazinamide, ethambutol). The patient is initiated on RIPE therapy with airborne isolation precautions."
@@ -67,9 +152,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pulmonary tuberculosis", "Lung cancer (cavitary)", "Lung abscess", "Nontuberculous mycobacterial infection", "Fungal pneumonia (histoplasmosis/coccidioidomycosis)", "Sarcoidosis", "Granulomatosis with polyangiitis"],
-    "after_stage2_more_likely": ["Pulmonary tuberculosis", "Nontuberculous mycobacterial infection", "Fungal pneumonia"],
-    "after_stage2_less_likely": ["Lung cancer", "Sarcoidosis", "Granulomatosis with polyangiitis"],
-    "after_labs_top3": ["Pulmonary tuberculosis", "Nontuberculous mycobacterial infection", "Lung abscess"]
+    "reasonable_ddx": [
+      "Pulmonary tuberculosis",
+      "Lung cancer (cavitary)",
+      "Lung abscess",
+      "Nontuberculous mycobacterial infection",
+      "Fungal pneumonia (histoplasmosis/coccidioidomycosis)",
+      "Sarcoidosis",
+      "Granulomatosis with polyangiitis"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary tuberculosis",
+      "Nontuberculous mycobacterial infection",
+      "Fungal pneumonia"
+    ],
+    "after_stage2_less_likely": [
+      "Lung cancer",
+      "Sarcoidosis",
+      "Granulomatosis with polyangiitis"
+    ],
+    "after_labs_top3": [
+      "Pulmonary tuberculosis",
+      "Nontuberculous mycobacterial infection",
+      "Lung abscess"
+    ]
   }
 }

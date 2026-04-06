@@ -25,25 +25,93 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "8,400/uL", "flag": "WNL", "clinical_significance": "Normal white count; argues against bacterial pneumonia"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Differential", "result": "Neutrophils 60%, Lymphocytes 30%, Monocytes 8%, Eosinophils 2%", "flag": "WNL", "clinical_significance": "Normal differential; no left shift to suggest bacterial infection"},
-      {"test_name": "CRP", "result": "1.2 mg/dL", "flag": "WNL", "clinical_significance": "Mildly elevated but not suggestive of bacterial pneumonia (typically >5-10 in bacterial infection)"},
-      {"test_name": "Procalcitonin", "result": "0.06 ng/mL", "flag": "WNL", "clinical_significance": "Normal; strongly argues against bacterial infection and supports withholding antibiotics"},
-      {"test_name": "Influenza A/B rapid antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; though may be falsely negative late in illness, clinical timing not consistent with acute influenza"},
-      {"test_name": "Respiratory viral panel (PCR)", "result": "Positive for rhinovirus", "flag": "ABNORMAL", "clinical_significance": "Confirms viral etiology — rhinovirus is one of the most common causes of acute bronchitis"},
-      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,400/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal white count; argues against bacterial pneumonia"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Differential",
+        "result": "Neutrophils 60%, Lymphocytes 30%, Monocytes 8%, Eosinophils 2%",
+        "flag": "WNL",
+        "clinical_significance": "Normal differential; no left shift to suggest bacterial infection"
+      },
+      {
+        "test_name": "CRP",
+        "result": "1.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated but not suggestive of bacterial pneumonia (typically >5-10 in bacterial infection)"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.06 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; strongly argues against bacterial infection and supports withholding antibiotics"
+      },
+      {
+        "test_name": "Influenza A/B rapid antigen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; though may be falsely negative late in illness, clinical timing not consistent with acute influenza"
+      },
+      {
+        "test_name": "Respiratory viral panel (PCR)",
+        "result": "Positive for rhinovirus",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms viral etiology — rhinovirus is one of the most common causes of this condition"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "141 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA)", "result": "Clear lung fields bilaterally. No infiltrates, consolidation, effusion, or masses. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Normal chest X-ray rules out pneumonia and supports diagnosis of acute bronchitis"}
+      {
+        "test_name": "Chest X-ray (PA)",
+        "result": "Clear lung fields bilaterally. No infiltrates, consolidation, effusion, or masses. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Normal chest X-ray rules out pneumonia and supports diagnosis of this condition"
+      }
     ],
-    "key_tests": ["Clinical diagnosis (no routine testing needed in uncomplicated cases)", "Chest X-ray (if pneumonia suspected)", "Pulse oximetry"],
-    "acceptable_tests": ["CBC", "CRP", "Procalcitonin (to guide antibiotic stewardship)", "Influenza rapid test (during flu season)", "Respiratory viral panel", "BMP"],
-    "low_yield_tests": ["Sputum culture (viral etiology; not indicated)", "CT chest", "Blood cultures", "ABG", "PFTs (during acute illness)", "D-dimer"]
+    "key_tests": [
+      "Clinical diagnosis (no routine testing needed in uncomplicated cases)",
+      "Chest X-ray (if pneumonia suspected)",
+      "Pulse oximetry"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CRP",
+      "Procalcitonin (to guide antibiotic stewardship)",
+      "Influenza rapid test (during flu season)",
+      "Respiratory viral panel",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "Sputum culture (viral etiology; not indicated)",
+      "CT chest",
+      "Blood cultures",
+      "ABG",
+      "PFTs (during acute illness)",
+      "D-dimer"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient is reassured that her symptoms are consistent with acute viral bronchitis, which typically resolves in 1-3 weeks. No antibiotics are prescribed. At 2-week follow-up, her cough has significantly improved with only occasional residual cough, confirming the self-limited nature of the illness."
+    "final_clue": "The patient is reassured that her symptoms are consistent with acute viral this condition, which typically resolves in 1-3 weeks. No antibiotics are prescribed. At 2-week follow-up, her cough has significantly improved with only occasional residual cough, confirming the self-limited nature of the illness."
   },
   "debrief": {
     "classic_presentation": "Previously healthy adult with a cough lasting >5 days following URI symptoms, productive of mucoid/yellowish sputum, with scattered rhonchi on exam, normal vital signs, clear chest X-ray, and normal inflammatory markers.",
@@ -64,9 +132,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute bronchitis", "Community-acquired pneumonia", "Post-nasal drip syndrome", "Asthma exacerbation", "Pertussis", "Influenza", "Acute sinusitis with cough"],
-    "after_stage2_more_likely": ["Acute bronchitis", "Post-nasal drip syndrome"],
-    "after_stage2_less_likely": ["Community-acquired pneumonia", "Asthma exacerbation", "Influenza"],
-    "after_labs_top3": ["Acute bronchitis", "Post-nasal drip syndrome", "Pertussis"]
+    "reasonable_ddx": [
+      "Acute bronchitis",
+      "Community-acquired pneumonia",
+      "Post-nasal drip syndrome",
+      "Asthma exacerbation",
+      "Pertussis",
+      "Influenza",
+      "Acute sinusitis with cough"
+    ],
+    "after_stage2_more_likely": [
+      "Acute bronchitis",
+      "Post-nasal drip syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia",
+      "Asthma exacerbation",
+      "Influenza"
+    ],
+    "after_labs_top3": [
+      "Acute bronchitis",
+      "Post-nasal drip syndrome",
+      "Pertussis"
+    ]
   }
 }

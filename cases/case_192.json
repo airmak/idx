@@ -29,7 +29,7 @@
         "test_name": "Urinalysis",
         "result": "Color yellow, foamy, SG 1.028, protein 4+ (>300 mg/dL), blood negative, no RBCs, no WBCs, no casts, oval fat bodies present, maltese cross pattern under polarized light",
         "flag": "ABNORMAL",
-        "clinical_significance": "Massive proteinuria (4+) with oval fat bodies and lipiduria (maltese cross) is characteristic of nephrotic syndrome; absence of hematuria and casts favors minimal change disease over nephritic processes."
+        "clinical_significance": "Massive proteinuria (4+) with oval fat bodies and lipiduria (maltese cross) is characteristic of this condition; absence of hematuria and casts favors this condition over nephritic processes."
       },
       {
         "test_name": "Urine protein:creatinine ratio",
@@ -41,7 +41,7 @@
         "test_name": "24-hour urine protein",
         "result": "2,850 mg/day (>40 mg/m²/hr)",
         "flag": "HIGH",
-        "clinical_significance": "Nephrotic-range proteinuria (>40 mg/m²/hr or >50 mg/kg/day) confirms the diagnosis of nephrotic syndrome."
+        "clinical_significance": "Nephrotic-range proteinuria (>40 mg/m²/hr or >50 mg/kg/day) confirms the diagnosis of this condition."
       },
       {
         "test_name": "Serum albumin",
@@ -53,25 +53,25 @@
         "test_name": "Total cholesterol",
         "result": "342 mg/dL",
         "flag": "HIGH",
-        "clinical_significance": "Hyperlipidemia is a hallmark of nephrotic syndrome; hepatic lipoprotein synthesis increases in response to decreased oncotic pressure and urinary loss of lipoprotein lipase."
+        "clinical_significance": "Hyperlipidemia is a hallmark of this condition; hepatic lipoprotein synthesis increases in response to decreased oncotic pressure and urinary loss of lipoprotein lipase."
       },
       {
         "test_name": "Triglycerides",
         "result": "288 mg/dL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated triglycerides further confirm the hyperlipidemia of nephrotic syndrome."
+        "clinical_significance": "Elevated triglycerides further confirm the hyperlipidemia of this condition."
       },
       {
         "test_name": "BUN/Creatinine",
         "result": "BUN 22 mg/dL, Cr 0.4 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Mildly elevated BUN with normal creatinine suggests prerenal azotemia from intravascular volume depletion; renal function is preserved, consistent with minimal change disease."
+        "clinical_significance": "Mildly elevated BUN with normal creatinine suggests prerenal azotemia from intravascular volume depletion; renal function is preserved, consistent with the suspected diagnosis."
       },
       {
         "test_name": "BMP (Na, K, Cl, CO2)",
         "result": "Na 130, K 4.8, Cl 98, CO2 24",
         "flag": "LOW",
-        "clinical_significance": "Mild hyponatremia is common in nephrotic syndrome due to dilutional effect and ADH-mediated water retention."
+        "clinical_significance": "Mild hyponatremia is common in this condition due to dilutional effect and ADH-mediated water retention."
       },
       {
         "test_name": "CBC",
@@ -83,7 +83,7 @@
         "test_name": "Complement C3/C4",
         "result": "C3 135 mg/dL, C4 30 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal complement levels strongly favor minimal change disease; low C3 would suggest MPGN, post-streptococcal GN, or lupus nephritis."
+        "clinical_significance": "Normal complement levels strongly favor this condition; low C3 would suggest MPGN, post-streptococcal GN, or lupus nephritis."
       },
       {
         "test_name": "Antistreptolysin O (ASO)",
@@ -103,7 +103,7 @@
         "test_name": "Renal ultrasound",
         "result": "Kidneys are normal in size and echogenicity bilaterally. No hydronephrosis. No renal masses or cysts. Moderate ascites noted. No renal vein thrombosis identified on Doppler evaluation.",
         "flag": "WNL",
-        "clinical_significance": "Normal renal ultrasound is expected in minimal change disease; the study also excludes renal vein thrombosis, a known complication of nephrotic syndrome."
+        "clinical_significance": "Normal renal ultrasound is expected in this condition; the study also excludes renal vein thrombosis, a known complication of this condition."
       },
       {
         "test_name": "Chest X-ray",
@@ -138,7 +138,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The classic tetrad of nephrotic syndrome is confirmed: (1) nephrotic-range proteinuria (urine protein:creatinine 8.5 mg/mg), (2) hypoalbuminemia (albumin 1.6 g/dL), (3) hyperlipidemia (cholesterol 342 mg/dL), and (4) edema. Normal complement, negative ANA, no hematuria, and age 1-10 years are consistent with minimal change disease, the most common cause of nephrotic syndrome in children. A trial of corticosteroids is initiated."
+    "final_clue": "The classic tetrad of this condition is confirmed: (1) nephrotic-range proteinuria (urine protein:creatinine 8.5 mg/mg), (2) hypoalbuminemia (albumin 1.6 g/dL), (3) hyperlipidemia (cholesterol 342 mg/dL), and (4) edema. Normal complement, negative ANA, no hematuria, and age 1-10 years are consistent with the suspected diagnosis, the most common cause of this condition in children. A trial of corticosteroids is initiated."
   },
   "debrief": {
     "classic_presentation": "Pediatric nephrotic syndrome (most commonly minimal change disease) presents in children aged 2-6 years with insidious onset of edema (periorbital edema most notable in the morning, dependent edema later in the day), foamy urine, weight gain, and decreased urine output. The classic diagnostic tetrad is: (1) nephrotic-range proteinuria (>40 mg/m²/hr), (2) hypoalbuminemia (<2.5 g/dL), (3) hyperlipidemia, and (4) edema. Minimal change disease accounts for 80-90% of nephrotic syndrome in children aged 1-10 and is characterized by normal complement, absence of hematuria, and exquisite steroid responsiveness.",

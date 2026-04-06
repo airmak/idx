@@ -25,31 +25,127 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I (serial)", "result": "Peak 8.2 ng/mL (trending up from 2.5)", "flag": "HIGH", "clinical_significance": "Significantly elevated with rising trend, indicating active myocardial necrosis"},
-      {"test_name": "BNP", "result": "620 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicating myocardial dysfunction and volume overload"},
-      {"test_name": "CRP", "result": "12.5 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, significant systemic inflammation"},
-      {"test_name": "ESR", "result": "55 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated, supporting inflammatory process"},
-      {"test_name": "WBC", "result": "12,800/µL with lymphocyte predominance", "flag": "HIGH", "clinical_significance": "Leukocytosis with lymphocyte predominance supports viral etiology"},
-      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "AST", "result": "68 U/L", "flag": "HIGH", "clinical_significance": "Elevated, likely cardiac origin given elevated troponin"},
-      {"test_name": "Respiratory viral panel", "result": "Positive for Coxsackievirus B (enterovirus)", "flag": "ABNORMAL", "clinical_significance": "Coxsackievirus B is the most common viral cause of myocarditis"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "No autoimmune etiology"},
-      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV-related cardiomyopathy"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "Troponin I (serial)",
+        "result": "Peak 8.2 ng/mL (trending up from 2.5)",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated with rising trend, indicating active myocardial necrosis"
+      },
+      {
+        "test_name": "BNP",
+        "result": "620 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating myocardial dysfunction and volume overload"
+      },
+      {
+        "test_name": "CRP",
+        "result": "12.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, significant systemic inflammation"
+      },
+      {
+        "test_name": "ESR",
+        "result": "55 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, supporting inflammatory process"
+      },
+      {
+        "test_name": "WBC",
+        "result": "12,800/µL with lymphocyte predominance",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with lymphocyte predominance supports viral etiology"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.0 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "AST",
+        "result": "68 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, likely cardiac origin given elevated troponin"
+      },
+      {
+        "test_name": "Respiratory viral panel",
+        "result": "Positive for Coxsackievirus B (enterovirus)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Coxsackievirus B is the most common viral cause of myocarditis"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No autoimmune etiology"
+      },
+      {
+        "test_name": "HIV antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out HIV-related cardiomyopathy"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Cardiac MRI", "result": "LVEF 38%. Regional wall motion abnormalities (inferolateral hypokinesis) not conforming to a coronary distribution. Myocardial edema on T2 mapping (inferolateral wall). Subepicardial and mid-wall late gadolinium enhancement in the inferolateral wall. Small pericardial effusion. Meets Lake Louise criteria for myocarditis.", "flag": "ABNORMAL", "clinical_significance": "Lake Louise criteria fulfilled — tissue characterization is diagnostic of myocarditis. Subepicardial/mid-wall LGE pattern distinguishes from MI (subendocardial)."},
-      {"test_name": "Transthoracic Echocardiogram", "result": "LVEF 40%, inferolateral wall hypokinesis, mild global LV dilation, small pericardial effusion, mild mitral regurgitation", "flag": "ABNORMAL", "clinical_significance": "New LV dysfunction with regional wall motion abnormality in a non-coronary distribution"},
-      {"test_name": "12-lead ECG", "result": "Sinus tachycardia. Diffuse ST elevation (concave up). Frequent PVCs. PR depression in leads II, III, aVF. No reciprocal changes.", "flag": "ABNORMAL", "clinical_significance": "ST changes suggest myopericarditis. PVCs indicate myocardial irritability."}
+      {
+        "test_name": "Cardiac MRI",
+        "result": "LVEF 38%. Regional wall motion abnormalities (inferolateral hypokinesis) not conforming to a coronary distribution. Myocardial edema on T2 mapping (inferolateral wall). Subepicardial and mid-wall late gadolinium enhancement in the inferolateral wall. Small pericardial effusion. Meets Lake Louise criteria for myocarditis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Lake Louise criteria fulfilled — tissue characterization is diagnostic of myocarditis. Subepicardial/mid-wall LGE pattern distinguishes from MI (subendocardial)."
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "LVEF 40%, inferolateral wall hypokinesis, mild global LV dilation, small pericardial effusion, mild mitral regurgitation",
+        "flag": "ABNORMAL",
+        "clinical_significance": "New LV dysfunction with regional wall motion abnormality in a non-coronary distribution"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Sinus tachycardia. Diffuse ST elevation (concave up). Frequent PVCs. PR depression in leads II, III, aVF. No reciprocal changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ST changes suggest myopericarditis. PVCs indicate myocardial irritability."
+      }
     ],
-    "key_tests": ["Cardiac MRI (gold standard non-invasive test)", "Troponin (serial)", "Transthoracic echocardiogram", "12-lead ECG", "CRP/ESR"],
-    "acceptable_tests": ["BNP", "CBC", "Basic metabolic panel", "Viral serologies", "ANA", "HIV", "TSH", "Endomyocardial biopsy (gold standard but invasive)", "Coronary angiography (to exclude ACS)"],
-    "low_yield_tests": ["Stress test", "CT coronary angiography (low pre-test probability)", "Cardiac catheterization (unless ruling out ACS)", "Pulmonary function tests"],
+    "key_tests": [
+      "Cardiac MRI (gold standard non-invasive test)",
+      "Troponin (serial)",
+      "Transthoracic echocardiogram",
+      "12-lead ECG",
+      "CRP/ESR"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "CBC",
+      "Basic metabolic panel",
+      "Viral serologies",
+      "ANA",
+      "HIV",
+      "TSH",
+      "Endomyocardial biopsy (gold standard but invasive)",
+      "Coronary angiography (to exclude ACS)"
+    ],
+    "low_yield_tests": [
+      "Stress test",
+      "CT coronary angiography (low pre-test probability)",
+      "Cardiac catheterization (unless ruling out ACS)",
+      "Pulmonary function tests"
+    ],
     "key_tests_rationale": "Cardiac MRI with Lake Louise criteria is the non-invasive gold standard for myocarditis diagnosis. Serial troponin tracks myocardial necrosis. Echo assesses ventricular function. ECG identifies arrhythmias and ST changes. CRP monitors inflammation."
   },
   "stage5": {
-    "final_clue": "Cardiac MRI fulfills Lake Louise criteria with myocardial edema on T2 mapping and subepicardial/mid-wall late gadolinium enhancement in the inferolateral wall — a pattern diagnostic of myocarditis. The temporal association with Coxsackievirus B infection, elevated troponin, and new LV dysfunction confirms acute viral myocarditis."
+    "final_clue": "Cardiac MRI fulfills Lake Louise criteria with myocardial edema on T2 mapping and subepicardial/mid-wall late gadolinium enhancement in the inferolateral wall — a pattern diagnostic of myocarditis. The temporal association with Coxsackievirus B infection, elevated troponin, and new LV dysfunction confirms acute this condition."
   },
   "debrief": {
     "classic_presentation": "Viral myocarditis classically presents in young adults (20-40 years) with chest pain, dyspnea, and arrhythmias days to weeks after a viral prodrome. Troponin is elevated. The presentation can mimic ACS (ST elevation, troponin rise) or new-onset heart failure. Coxsackievirus B is the most common viral cause.",
@@ -71,9 +167,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute MI (STEMI or NSTEMI)", "Acute pericarditis", "Takotsubo cardiomyopathy", "Pulmonary embolism", "Pneumonia", "Dilated cardiomyopathy (new onset)"],
-    "after_stage2_more_likely": ["Myocarditis", "Myopericarditis", "Acute MI"],
-    "after_stage2_less_likely": ["Pulmonary embolism", "Pneumonia", "Takotsubo"],
-    "after_labs_top3": ["Acute viral myocarditis (Coxsackievirus B)", "Myopericarditis", "Acute coronary syndrome"]
+    "reasonable_ddx": [
+      "Acute MI (STEMI or NSTEMI)",
+      "Acute pericarditis",
+      "Takotsubo cardiomyopathy",
+      "Pulmonary embolism",
+      "Pneumonia",
+      "Dilated cardiomyopathy (new onset)"
+    ],
+    "after_stage2_more_likely": [
+      "Myocarditis",
+      "Myopericarditis",
+      "Acute MI"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary embolism",
+      "Pneumonia",
+      "Takotsubo"
+    ],
+    "after_labs_top3": [
+      "Acute viral myocarditis (Coxsackievirus B)",
+      "Myopericarditis",
+      "Acute coronary syndrome"
+    ]
   }
 }

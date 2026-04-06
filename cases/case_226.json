@@ -25,17 +25,62 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 6.5, Hgb 13.8, Hct 41.2, Plt 240", "flag": "WNL", "clinical_significance": "No infection despite skin breakdown; no eosinophilia to suggest parasitic cause of contamination concern"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction contributing to anxiety symptoms"},
-      {"test_name": "CMP", "result": "Na 139, K 4.0, Cl 102, CO2 24, BUN 13, Cr 0.7, Glucose 90, Ca 9.4, AST 18, ALT 16", "flag": "WNL", "clinical_significance": "Normal metabolic panel; hepatic function baseline before SSRI initiation"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out substance-induced obsessive-compulsive symptoms"},
-      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "No systemic inflammation; relevant in context of PANDAS/autoimmune considerations"},
-      {"test_name": "ASO titer", "result": "< 200 IU/mL", "flag": "WNL", "clinical_significance": "Rules out PANDAS (Pediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal infections) in a young patient"},
-      {"test_name": "Vitamin B12", "result": "490 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency contributing to neuropsychiatric symptoms"},
-      {"test_name": "Wound culture (hand)", "result": "Normal skin flora, no pathogenic organisms", "flag": "WNL", "clinical_significance": "No secondary bacterial infection of excoriated hands despite open skin"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.5, Hgb 13.8, Hct 41.2, Plt 240",
+        "flag": "WNL",
+        "clinical_significance": "No infection despite skin breakdown; no eosinophilia to suggest parasitic cause of contamination concern"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out thyroid dysfunction contributing to anxiety symptoms"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 139, K 4.0, Cl 102, CO2 24, BUN 13, Cr 0.7, Glucose 90, Ca 9.4, AST 18, ALT 16",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; hepatic function baseline before SSRI initiation"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out substance-induced obsessive-compulsive symptoms"
+      },
+      {
+        "test_name": "ESR",
+        "result": "8 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "No systemic inflammation; relevant in context of PANDAS/autoimmune considerations"
+      },
+      {
+        "test_name": "ASO titer",
+        "result": "< 200 IU/mL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out PANDAS (Pediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal infections) in a young patient"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "490 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out B12 deficiency contributing to neuropsychiatric symptoms"
+      },
+      {
+        "test_name": "Wound culture (hand)",
+        "result": "Normal skin flora, no pathogenic organisms",
+        "flag": "WNL",
+        "clinical_significance": "No secondary bacterial infection of excoriated hands despite open skin"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Hand X-ray (bilateral)", "result": "No fractures, no osteomyelitis. Soft tissue swelling noted.", "flag": "WNL", "clinical_significance": "Rules out underlying bony pathology; soft tissue changes consistent with chronic dermatitis"}
+      {
+        "test_name": "Hand X-ray (bilateral)",
+        "result": "No fractures, no osteomyelitis. Soft tissue swelling noted.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out underlying bony pathology; soft tissue changes consistent with chronic dermatitis"
+      }
     ],
     "key_tests": [
       "Yale-Brown Obsessive Compulsive Scale (Y-BOCS) — score 28 (severe OCD)",
@@ -61,7 +106,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient has recurrent, persistent, intrusive thoughts (obsessions) about contamination that are ego-dystonic and cause marked distress, leading to repetitive handwashing compulsions performed according to rigid rules. The obsessions and compulsions are time-consuming (4 hours/day), causing significant functional impairment (work, social). Y-BOCS score of 28 confirms severe OCD. Physical examination reveals severe irritant contact dermatitis from compulsive handwashing. All medical workup is unremarkable. This meets DSM-5 criteria for Obsessive-Compulsive Disorder."
+    "final_clue": "The patient has recurrent, persistent, intrusive thoughts (obsessions) about contamination that are ego-dystonic and cause marked distress, leading to repetitive handwashing compulsions performed according to rigid rules. The obsessions and compulsions are time-consuming (4 hours/day), causing significant functional impairment (work, social). Y-BOCS score of 28 confirms severe OCD. Physical examination reveals severe irritant contact dermatitis from compulsive handwashing. All medical workup is unremarkable. This meets DSM-5 criteria for this condition."
   },
   "debrief": {
     "classic_presentation": "A young adult presenting with ego-dystonic, intrusive, unwanted thoughts (obsessions) that cause marked anxiety, leading to repetitive behaviors or mental acts (compulsions) performed to reduce distress. Common themes include contamination/washing, harm/checking, symmetry/ordering, and forbidden thoughts. The obsessions and compulsions are time-consuming (>1 hour/day) and cause significant distress or functional impairment.",

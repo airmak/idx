@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggesting active myocardial inflammation"},
-      {"test_name": "BNP", "result": "280 pg/mL", "flag": "HIGH", "clinical_significance": "Moderately elevated, indicates myocardial stress"},
-      {"test_name": "ACE level", "result": "82 U/L", "flag": "HIGH", "clinical_significance": "Elevated, consistent with active sarcoidosis (but has limited sensitivity/specificity)"},
-      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated, systemic inflammation"},
-      {"test_name": "CRP", "result": "2.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
-      {"test_name": "Calcium", "result": "10.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated — sarcoid granulomas produce 1,25-dihydroxyvitamin D causing hypercalcemia"},
-      {"test_name": "Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CBC", "result": "WBC 5.2, Hgb 12.8, Plt 195", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Lyme antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Lyme carditis as cause of heart block"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.08 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, suggesting active myocardial inflammation"
+      },
+      {
+        "test_name": "BNP",
+        "result": "280 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Moderately elevated, indicates myocardial stress"
+      },
+      {
+        "test_name": "ACE level",
+        "result": "82 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with active sarcoidosis (but has limited sensitivity/specificity)"
+      },
+      {
+        "test_name": "ESR",
+        "result": "38 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, systemic inflammation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "2.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "10.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated — sarcoid granulomas produce 1,25-dihydroxyvitamin D causing hypercalcemia"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 5.2, Hgb 12.8, Plt 195",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.1 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Lyme antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out Lyme carditis as cause of heart block"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Cardiac MRI", "result": "Patchy mid-wall and epicardial late gadolinium enhancement (LGE) in the basal septum and lateral wall. T2 hyperintensity in the septum suggesting active inflammation/edema. Mild LV systolic dysfunction (LVEF 45%). Basal septal thinning.", "flag": "ABNORMAL", "clinical_significance": "LGE pattern and T2 edema are characteristic of cardiac sarcoidosis. Septal involvement explains conduction abnormalities."},
-      {"test_name": "FDG-PET/CT", "result": "Patchy focal FDG uptake in the basal septum and lateral wall of the myocardium consistent with active granulomatous inflammation. Persistent bilateral hilar and mediastinal lymphadenopathy with FDG avidity.", "flag": "ABNORMAL", "clinical_significance": "Active cardiac sarcoidosis with ongoing inflammation — supports need for immunosuppressive therapy"},
-      {"test_name": "12-lead ECG", "result": "Complete heart block with junctional escape at 42 bpm. Fragmented QRS in V1-V3. Q waves in leads III, aVF without prior MI history.", "flag": "ABNORMAL", "clinical_significance": "Complete heart block and pseudo-infarction pattern (Q waves from granulomatous replacement) are classic for cardiac sarcoidosis"}
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Patchy mid-wall and epicardial late gadolinium enhancement (LGE) in the basal septum and lateral wall. T2 hyperintensity in the septum suggesting active inflammation/edema. Mild LV systolic dysfunction (LVEF 45%). Basal septal thinning.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LGE pattern and T2 edema are characteristic of this condition. Septal involvement explains conduction abnormalities."
+      },
+      {
+        "test_name": "FDG-PET/CT",
+        "result": "Patchy focal FDG uptake in the basal septum and lateral wall of the myocardium consistent with active granulomatous inflammation. Persistent bilateral hilar and mediastinal lymphadenopathy with FDG avidity.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active this condition with ongoing inflammation — supports need for immunosuppressive therapy"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Complete heart block with junctional escape at 42 bpm. Fragmented QRS in V1-V3. Q waves in leads III, aVF without prior MI history.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Complete heart block and pseudo-infarction pattern (Q waves from granulomatous replacement) are classic for this condition"
+      }
     ],
-    "key_tests": ["Cardiac MRI with LGE", "FDG-PET/CT (cardiac protocol)", "12-lead ECG", "Troponin", "ACE level"],
-    "acceptable_tests": ["BNP", "Transthoracic echocardiogram", "Holter monitor", "Basic metabolic panel", "Calcium level", "CBC", "ESR/CRP", "Lyme antibody", "Endomyocardial biopsy"],
-    "low_yield_tests": ["Coronary angiography (low pre-test probability for CAD)", "Stress test", "Cardiac catheterization", "Pulmonary function tests"],
+    "key_tests": [
+      "Cardiac MRI with LGE",
+      "FDG-PET/CT (cardiac protocol)",
+      "12-lead ECG",
+      "Troponin",
+      "ACE level"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "Transthoracic echocardiogram",
+      "Holter monitor",
+      "Basic metabolic panel",
+      "Calcium level",
+      "CBC",
+      "ESR/CRP",
+      "Lyme antibody",
+      "Endomyocardial biopsy"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography (low pre-test probability for CAD)",
+      "Stress test",
+      "Cardiac catheterization",
+      "Pulmonary function tests"
+    ],
     "key_tests_rationale": "Cardiac MRI identifies myocardial inflammation (T2 edema) and fibrosis/scarring (LGE). FDG-PET detects active granulomatous inflammation and monitors treatment response. ECG identifies conduction disease. Troponin reflects active myocardial injury. ACE level supports sarcoidosis activity."
   },
   "stage5": {
-    "final_clue": "In a patient with known pulmonary sarcoidosis, cardiac MRI shows patchy mid-wall LGE with T2 edema in the basal septum, FDG-PET shows active myocardial inflammation, and ECG reveals complete heart block. This is cardiac sarcoidosis with active granulomatous infiltration of the conduction system."
+    "final_clue": "In a patient with known pulmonary sarcoidosis, cardiac MRI shows patchy mid-wall LGE with T2 edema in the basal septum, FDG-PET shows active myocardial inflammation, and ECG reveals complete heart block. This is this condition with active granulomatous infiltration of the conduction system."
   },
   "debrief": {
     "classic_presentation": "Cardiac sarcoidosis presents with conduction abnormalities (heart block is the most common manifestation), ventricular arrhythmias, and heart failure. It affects ~5% of sarcoidosis patients clinically, though autopsy studies suggest 25% involvement. AV block in a young patient (<60 years) without other explanation, especially with known sarcoidosis, should raise high suspicion.",
@@ -70,9 +161,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Giant cell myocarditis", "Lyme carditis", "Cardiac amyloidosis", "Idiopathic dilated cardiomyopathy", "Ischemic heart disease", "Chagas disease", "Lymphoma with cardiac involvement"],
-    "after_stage2_more_likely": ["Cardiac sarcoidosis", "Giant cell myocarditis", "Lyme carditis"],
-    "after_stage2_less_likely": ["Ischemic heart disease", "Chagas disease", "Lymphoma"],
-    "after_labs_top3": ["Cardiac sarcoidosis", "Giant cell myocarditis", "Myocarditis with conduction disease"]
+    "reasonable_ddx": [
+      "Giant cell myocarditis",
+      "Lyme carditis",
+      "Cardiac amyloidosis",
+      "Idiopathic dilated cardiomyopathy",
+      "Ischemic heart disease",
+      "Chagas disease",
+      "Lymphoma with cardiac involvement"
+    ],
+    "after_stage2_more_likely": [
+      "Cardiac sarcoidosis",
+      "Giant cell myocarditis",
+      "Lyme carditis"
+    ],
+    "after_stage2_less_likely": [
+      "Ischemic heart disease",
+      "Chagas disease",
+      "Lymphoma"
+    ],
+    "after_labs_top3": [
+      "Cardiac sarcoidosis",
+      "Giant cell myocarditis",
+      "Myocarditis with conduction disease"
+    ]
   }
 }

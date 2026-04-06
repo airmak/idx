@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CK (Creatine Kinase)", "result": "18,500 U/L (markedly elevated, normal <200)", "flag": "HIGH", "clinical_significance": "Severely elevated CK from massive muscle breakdown (rhabdomyolysis) due to sustained rigidity — hallmark of NMS"},
-      {"test_name": "CBC", "result": "WBC 16.8 (elevated), Hgb 15.2, Hct 46.1, Plt 210", "flag": "HIGH", "clinical_significance": "Leukocytosis common in NMS (stress response); NOT typically infectious leukocytosis pattern"},
-      {"test_name": "CMP", "result": "Na 148 (elevated), K 5.8 (elevated), Cl 108, CO2 18 (low), BUN 42 (elevated), Cr 2.8 (elevated), Glucose 185, Ca 7.2 (low), AST 420, ALT 280, Alk Phos 95", "flag": "ABNORMAL", "clinical_significance": "Hypernatremia (dehydration), hyperkalemia (muscle breakdown — cardiac risk), metabolic acidosis, acute kidney injury (Cr 2.8 from rhabdomyolysis), markedly elevated transaminases from muscle injury, hypocalcemia from calcium deposition in damaged muscle"},
-      {"test_name": "Myoglobin (urine)", "result": "Positive (dark brown urine)", "flag": "ABNORMAL", "clinical_significance": "Myoglobinuria from rhabdomyolysis — risk factor for acute tubular necrosis"},
-      {"test_name": "Lactate", "result": "5.8 mmol/L (elevated)", "flag": "HIGH", "clinical_significance": "Elevated lactate from muscle rigidity, dehydration, and tissue hypoperfusion"},
-      {"test_name": "ABG", "result": "pH 7.28, pCO2 32, pO2 72, HCO3 15, Base excess -10", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation — from lactic acidosis and renal failure"},
-      {"test_name": "Coagulation studies", "result": "PT 16.2, INR 1.4, PTT 42, Fibrinogen 180 (low normal), D-dimer 1200 (elevated)", "flag": "ABNORMAL", "clinical_significance": "Mildly deranged coagulation — NMS can progress to DIC in severe cases; requires monitoring"},
-      {"test_name": "Blood cultures (x2)", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Rules out bacteremia/sepsis as cause of fever and altered mental status"},
-      {"test_name": "Urinalysis", "result": "Dark brown color, large blood on dipstick, no RBCs on microscopy, specific gravity 1.035", "flag": "ABNORMAL", "clinical_significance": "Blood-positive dipstick with no RBCs indicates myoglobinuria (myoglobin cross-reacts with hemoglobin on dipstick) — confirms rhabdomyolysis"},
-      {"test_name": "Serum iron", "result": "Low (12 mcg/dL)", "flag": "LOW", "clinical_significance": "Low serum iron is a supportive finding in NMS — highly sensitive marker (though not specific)"}
+      {
+        "test_name": "CK (Creatine Kinase)",
+        "result": "18,500 U/L (markedly elevated, normal <200)",
+        "flag": "HIGH",
+        "clinical_significance": "Severely elevated CK from massive muscle breakdown (rhabdomyolysis) due to sustained rigidity — hallmark of NMS"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 16.8 (elevated), Hgb 15.2, Hct 46.1, Plt 210",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis common in NMS (stress response); NOT typically infectious leukocytosis pattern"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 148 (elevated), K 5.8 (elevated), Cl 108, CO2 18 (low), BUN 42 (elevated), Cr 2.8 (elevated), Glucose 185, Ca 7.2 (low), AST 420, ALT 280, Alk Phos 95",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypernatremia (dehydration), hyperkalemia (muscle breakdown — cardiac risk), metabolic acidosis, acute kidney injury (Cr 2.8 from rhabdomyolysis), markedly elevated transaminases from muscle injury, hypocalcemia from calcium deposition in damaged muscle"
+      },
+      {
+        "test_name": "Myoglobin (urine)",
+        "result": "Positive (dark brown urine)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Myoglobinuria from rhabdomyolysis — risk factor for acute tubular necrosis"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "5.8 mmol/L (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate from muscle rigidity, dehydration, and tissue hypoperfusion"
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.28, pCO2 32, pO2 72, HCO3 15, Base excess -10",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with respiratory compensation — from lactic acidosis and renal failure"
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 16.2, INR 1.4, PTT 42, Fibrinogen 180 (low normal), D-dimer 1200 (elevated)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly deranged coagulation — NMS can progress to DIC in severe cases; requires monitoring"
+      },
+      {
+        "test_name": "Blood cultures (x2)",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Rules out bacteremia/sepsis as cause of fever and altered mental status"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Dark brown color, large blood on dipstick, no RBCs on microscopy, specific gravity 1.035",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Blood-positive dipstick with no RBCs indicates myoglobinuria (myoglobin cross-reacts with hemoglobin on dipstick) — confirms rhabdomyolysis"
+      },
+      {
+        "test_name": "Serum iron",
+        "result": "Low (12 mcg/dL)",
+        "flag": "LOW",
+        "clinical_significance": "Low serum iron is a supportive finding in NMS — highly sensitive marker (though not specific)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No hemorrhage, mass, or hydrocephalus.", "flag": "WNL", "clinical_significance": "Rules out structural brain pathology as cause of altered mental status"},
-      {"test_name": "Chest X-ray", "result": "Bibasilar atelectasis. No consolidation. Heart size normal.", "flag": "ABNORMAL", "clinical_significance": "Atelectasis from shallow respirations due to chest wall rigidity; no aspiration pneumonia currently"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 132 bpm. Peaked T waves in V2-V4. QTc 480 ms.", "flag": "ABNORMAL", "clinical_significance": "Peaked T waves concerning for hyperkalemia (K 5.8); prolonged QTc from electrolyte derangement and antipsychotic effect"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No hemorrhage, mass, or hydrocephalus.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out structural brain pathology as cause of altered mental status"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bibasilar atelectasis. No consolidation. Heart size normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Atelectasis from shallow respirations due to chest wall rigidity; no aspiration pneumonia currently"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 132 bpm. Peaked T waves in V2-V4. QTc 480 ms.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Peaked T waves concerning for hyperkalemia (K 5.8); prolonged QTc from electrolyte derangement and antipsychotic effect"
+      }
     ],
     "key_tests": [
       "CK (Creatine Kinase) — massively elevated at 18,500 U/L, confirming rhabdomyolysis from sustained muscle rigidity",
@@ -67,7 +132,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "This patient presents with the classic tetrad of Neuroleptic Malignant Syndrome (NMS): (1) Hyperthermia (104.2°F), (2) Severe lead-pipe muscle rigidity, (3) Altered mental status (obtundation, confusion), and (4) Autonomic instability (labile blood pressure, tachycardia, diaphoresis). The temporal relationship is clear — symptoms developed within 5 days of haloperidol dose increase. CK of 18,500 U/L confirms massive rhabdomyolysis. Acute kidney injury, hyperkalemia, and metabolic acidosis represent life-threatening complications. The rigidity is 'lead-pipe' (constant resistance throughout ROM) NOT cogwheeling — this distinguishes NMS from simple EPS."
+    "final_clue": "This patient presents with the classic tetrad of this condition (NMS): (1) Hyperthermia (104.2°F), (2) Severe lead-pipe muscle rigidity, (3) Altered mental status (obtundation, confusion), and (4) Autonomic instability (labile blood pressure, tachycardia, diaphoresis). The temporal relationship is clear — symptoms developed within 5 days of haloperidol dose increase. CK of 18,500 U/L confirms massive rhabdomyolysis. Acute kidney injury, hyperkalemia, and metabolic acidosis represent life-threatening complications. The rigidity is 'lead-pipe' (constant resistance throughout ROM) NOT cogwheeling — this distinguishes NMS from simple EPS."
   },
   "debrief": {
     "classic_presentation": "A patient on dopamine-blocking agents (typically first-generation/typical antipsychotics, especially high-potency agents like haloperidol) presenting with the diagnostic tetrad: (1) hyperthermia (often >104°F), (2) severe 'lead-pipe' muscle rigidity, (3) altered mental status, and (4) autonomic instability (labile BP, tachycardia, diaphoresis). Onset is typically within 1-2 weeks of starting or increasing a neuroleptic. CK is markedly elevated (often >1000 U/L, can exceed 100,000).",

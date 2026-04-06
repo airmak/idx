@@ -25,27 +25,105 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urine hCG", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes ectopic pregnancy"},
-      {"test_name": "CBC - WBC", "result": "13.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis — can occur with torsion (pain, stress) but does NOT confirm appendicitis"},
-      {"test_name": "CBC - Hemoglobin", "result": "12.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Urinalysis", "result": "Normal — no WBCs, no RBCs, no bacteria, no nitrites", "flag": "WNL", "clinical_significance": "Excludes UTI/pyelonephritis"},
-      {"test_name": "CRP", "result": "3.2 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, nonspecific inflammation"},
-      {"test_name": "Lactate", "result": "1.8 mmol/L", "flag": "WNL", "clinical_significance": "Normal — lactate is not a reliable marker for ovarian torsion"},
-      {"test_name": "LDH", "result": "290 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, may indicate tissue ischemia"},
-      {"test_name": "BMP - Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Lipase", "result": "32 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"}
+      {
+        "test_name": "Urine hCG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes ectopic pregnancy"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "13.8 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis — can occur with torsion (pain, stress) but does NOT confirm appendicitis"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "12.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Normal — no WBCs, no RBCs, no bacteria, no nitrites",
+        "flag": "WNL",
+        "clinical_significance": "Excludes UTI/pyelonephritis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "3.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, nonspecific inflammation"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.8 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal — lactate is not a reliable marker for this condition"
+      },
+      {
+        "test_name": "LDH",
+        "result": "290 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, may indicate tissue ischemia"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "96 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "32 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Pelvic Ultrasound with Doppler", "result": "Right ovary markedly enlarged (7.1 x 5.8 cm) with multiple peripheral follicles ('string of pearls' appearance from stimulation). Absent arterial and venous Doppler flow to the right ovary. Right ovary is displaced superiorly and medially. Free fluid in the cul-de-sac (small amount). Left ovary enlarged (4.8 cm) with multiple follicles, normal Doppler flow. Uterus normal.", "flag": "ABNORMAL", "clinical_significance": "Enlarged right ovary with absent Doppler flow is highly suspicious for ovarian torsion. However, presence of flow does NOT exclude torsion (dual blood supply may preserve some flow)."},
-      {"test_name": "CT Abdomen/Pelvis with Contrast (obtained prior to ultrasound)", "result": "Enlarged right ovary with surrounding fat stranding. Thickened right ovarian pedicle with 'whirlpool sign.' Small amount of pelvic free fluid. Appendix is normal (6 mm, no inflammation). No other acute pathology.", "flag": "ABNORMAL", "clinical_significance": "Whirlpool sign (twisted pedicle) is specific for torsion. Normal appendix effectively excludes appendicitis."}
+      {
+        "test_name": "Pelvic Ultrasound with Doppler",
+        "result": "Right ovary markedly enlarged (7.1 x 5.8 cm) with multiple peripheral follicles ('string of pearls' appearance from stimulation). Absent arterial and venous Doppler flow to the right ovary. Right ovary is displaced superiorly and medially. Free fluid in the cul-de-sac (small amount). Left ovary enlarged (4.8 cm) with multiple follicles, normal Doppler flow. Uterus normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Enlarged right ovary with absent Doppler flow is highly suspicious for this condition. However, presence of flow does NOT exclude torsion (dual blood supply may preserve some flow)."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with Contrast (obtained prior to ultrasound)",
+        "result": "Enlarged right ovary with surrounding fat stranding. Thickened right ovarian pedicle with 'whirlpool sign.' Small amount of pelvic free fluid. Appendix is normal (6 mm, no inflammation). No other acute pathology.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Whirlpool sign (twisted pedicle) is specific for torsion. Normal appendix effectively excludes appendicitis."
+      }
     ],
-    "key_tests": ["Pelvic ultrasound with Doppler", "Urine hCG", "CBC", "Urinalysis"],
-    "acceptable_tests": ["CT abdomen/pelvis with contrast (if diagnosis uncertain)", "BMP", "CRP", "Lactate", "LDH", "Lipase"],
-    "low_yield_tests": ["MRI pelvis (delays surgery)", "CA-125 (not useful acutely)", "Serum estradiol", "Abdominal X-ray", "Culdocentesis"]
+    "key_tests": [
+      "Pelvic ultrasound with Doppler",
+      "Urine hCG",
+      "CBC",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "CT abdomen/pelvis with contrast (if diagnosis uncertain)",
+      "BMP",
+      "CRP",
+      "Lactate",
+      "LDH",
+      "Lipase"
+    ],
+    "low_yield_tests": [
+      "MRI pelvis (delays surgery)",
+      "CA-125 (not useful acutely)",
+      "Serum estradiol",
+      "Abdominal X-ray",
+      "Culdocentesis"
+    ]
   },
   "stage5": {
-    "final_clue": "Pelvic ultrasound shows a markedly enlarged right ovary (7.1 cm from ovarian stimulation) with absent Doppler flow, and CT demonstrates the whirlpool sign of a twisted pedicle. In a patient undergoing fertility treatment with enlarged ovaries, the sudden onset of severe unilateral pelvic pain is ovarian torsion until proven otherwise. The normal appendix on CT effectively excludes appendicitis. Emergent surgery for ovarian detorsion is needed to salvage the ovary."
+    "final_clue": "Pelvic ultrasound shows a markedly enlarged right ovary (7.1 cm from ovarian stimulation) with absent Doppler flow, and CT demonstrates the whirlpool sign of a twisted pedicle. In a patient undergoing fertility treatment with enlarged ovaries, the sudden onset of severe unilateral pelvic pain is this condition until proven otherwise. The normal appendix on CT effectively excludes appendicitis. Emergent surgery for ovarian detorsion is needed to salvage the ovary."
   },
   "debrief": {
     "classic_presentation": "Sudden-onset severe unilateral lower abdominal/pelvic pain with nausea and vomiting in a reproductive-age woman. Pain may be intermittent initially (torsion-detorsion). Risk factors include ovarian enlargement (stimulation for IVF, cysts >5 cm, dermoid), PCOS, pregnancy, prior torsion, and long utero-ovarian ligament. Right side is more common (60%) due to the sigmoid colon limiting left ovarian mobility.",
@@ -66,9 +144,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Ovarian torsion", "Appendicitis", "Ruptured ovarian cyst", "Ectopic pregnancy", "Ovarian hyperstimulation syndrome", "Pelvic inflammatory disease", "Kidney stone"],
-    "after_stage2_more_likely": ["Ovarian torsion", "Appendicitis", "Ruptured ovarian cyst"],
-    "after_stage2_less_likely": ["Ectopic pregnancy", "Pelvic inflammatory disease", "Kidney stone"],
-    "after_labs_top3": ["Ovarian torsion", "Ruptured ovarian cyst", "Appendicitis"]
+    "reasonable_ddx": [
+      "Ovarian torsion",
+      "Appendicitis",
+      "Ruptured ovarian cyst",
+      "Ectopic pregnancy",
+      "Ovarian hyperstimulation syndrome",
+      "Pelvic inflammatory disease",
+      "Kidney stone"
+    ],
+    "after_stage2_more_likely": [
+      "Ovarian torsion",
+      "Appendicitis",
+      "Ruptured ovarian cyst"
+    ],
+    "after_stage2_less_likely": [
+      "Ectopic pregnancy",
+      "Pelvic inflammatory disease",
+      "Kidney stone"
+    ],
+    "after_labs_top3": [
+      "Ovarian torsion",
+      "Ruptured ovarian cyst",
+      "Appendicitis"
+    ]
   }
 }

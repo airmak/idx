@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 7.2, Hgb 17.2, Hct 52.1, Plt 225", "flag": "ABNORMAL", "clinical_significance": "Polycythemia (elevated Hgb/Hct) — secondary to chronic intermittent hypoxemia during sleep, stimulating erythropoietin production"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 98, CO2 28, BUN 18, Cr 1.1, Glucose 142, Ca 9.4, AST 32, ALT 38, Alk Phos 78, Albumin 3.8", "flag": "ABNORMAL", "clinical_significance": "Elevated CO2 (chronic respiratory compensation), elevated glucose (poor diabetic control worsened by OSA), mildly elevated transaminases (NAFLD likely)"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes — OSA contributes to insulin resistance and worsens glycemic control"},
-      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can contribute to OSA and should be ruled out"},
-      {"test_name": "Lipid panel", "result": "Total cholesterol 235, LDL 148, HDL 36, Triglycerides 255", "flag": "ABNORMAL", "clinical_significance": "Atherogenic dyslipidemia associated with metabolic syndrome and OSA"},
-      {"test_name": "BNP (B-type Natriuretic Peptide)", "result": "180 pg/mL", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated BNP suggesting cardiac strain; OSA causes pulmonary hypertension and right heart strain"},
-      {"test_name": "ABG (Arterial Blood Gas)", "result": "pH 7.38, pCO2 48, pO2 72, HCO3 28", "flag": "ABNORMAL", "clinical_significance": "Compensated respiratory acidosis with mild hypoxemia and CO2 retention — suggesting obesity hypoventilation syndrome component"},
-      {"test_name": "Fasting insulin", "result": "28 mcIU/mL", "flag": "HIGH", "clinical_significance": "Hyperinsulinemia confirming significant insulin resistance, worsened by OSA-induced sympathetic activation"},
-      {"test_name": "Urinalysis", "result": "No proteinuria, no glucosuria", "flag": "WNL", "clinical_significance": "No evidence of diabetic nephropathy despite poorly controlled diabetes"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.2, Hgb 17.2, Hct 52.1, Plt 225",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Polycythemia (elevated Hgb/Hct) — secondary to chronic intermittent hypoxemia during sleep, stimulating erythropoietin production"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 139, K 4.0, Cl 98, CO2 28, BUN 18, Cr 1.1, Glucose 142, Ca 9.4, AST 32, ALT 38, Alk Phos 78, Albumin 3.8",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated CO2 (chronic respiratory compensation), elevated glucose (poor diabetic control worsened by OSA), mildly elevated transaminases (NAFLD likely)"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Poorly controlled diabetes — OSA contributes to insulin resistance and worsens glycemic control"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.5 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can contribute to OSA and should be ruled out"
+      },
+      {
+        "test_name": "Lipid panel",
+        "result": "Total cholesterol 235, LDL 148, HDL 36, Triglycerides 255",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Atherogenic dyslipidemia associated with metabolic syndrome and OSA"
+      },
+      {
+        "test_name": "BNP (B-type Natriuretic Peptide)",
+        "result": "180 pg/mL",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated BNP suggesting cardiac strain; OSA causes pulmonary hypertension and right heart strain"
+      },
+      {
+        "test_name": "ABG (Arterial Blood Gas)",
+        "result": "pH 7.38, pCO2 48, pO2 72, HCO3 28",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Compensated respiratory acidosis with mild hypoxemia and CO2 retention — suggesting obesity hypoventilation syndrome component"
+      },
+      {
+        "test_name": "Fasting insulin",
+        "result": "28 mcIU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperinsulinemia confirming significant insulin resistance, worsened by OSA-induced sympathetic activation"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "No proteinuria, no glucosuria",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of diabetic nephropathy despite poorly controlled diabetes"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Polysomnography (in-lab overnight sleep study)", "result": "Total sleep time 6.2 hours. AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA; >30 = severe). Nadir SpO2: 68%. Time with SpO2 <90%: 32% of total sleep time. Predominantly obstructive events. Oxygen desaturation index: 38. Arousal index: 45/hour. Sleep efficiency: 72%. REM-related worsening (AHI in REM: 62). No significant central apneas.", "flag": "ABNORMAL", "clinical_significance": "Severe obstructive sleep apnea with significant oxygen desaturations — AHI >30 confirms severe OSA; nadir SpO2 of 68% is severely abnormal"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Right axis deviation. No ST-T changes.", "flag": "ABNORMAL", "clinical_significance": "LVH from chronic hypertension. Right axis deviation may suggest early right heart strain from pulmonary hypertension secondary to OSA"},
-      {"test_name": "Echocardiogram", "result": "Mild LVH. LVEF 55%. Mildly elevated pulmonary artery systolic pressure (38 mmHg). Mild right ventricular dilation. No valvular disease.", "flag": "ABNORMAL", "clinical_significance": "Mildly elevated pulmonary pressures and RV dilation consistent with OSA-induced pulmonary hypertension; LVEF preserved"}
+      {
+        "test_name": "Polysomnography (in-lab overnight sleep study)",
+        "result": "Total sleep time 6.2 hours. AHI (Apnea-Hypopnea Index): 42 events/hour (severe OSA; >30 = severe). Nadir SpO2: 68%. Time with SpO2 <90%: 32% of total sleep time. Predominantly obstructive events. Oxygen desaturation index: 38. Arousal index: 45/hour. Sleep efficiency: 72%. REM-related worsening (AHI in REM: 62). No significant central apneas.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe this condition with significant oxygen desaturations — AHI >30 confirms severe OSA; nadir SpO2 of 68% is severely abnormal"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Right axis deviation. No ST-T changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH from chronic hypertension. Right axis deviation may suggest early right heart strain from pulmonary hypertension secondary to OSA"
+      },
+      {
+        "test_name": "Echocardiogram",
+        "result": "Mild LVH. LVEF 55%. Mildly elevated pulmonary artery systolic pressure (38 mmHg). Mild right ventricular dilation. No valvular disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly elevated pulmonary pressures and RV dilation consistent with OSA-induced pulmonary hypertension; LVEF preserved"
+      }
     ],
     "key_tests": [
       "Polysomnography — AHI 42 events/hour confirming severe OSA with significant desaturations (nadir 68%)",
@@ -64,7 +124,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient has severe obstructive sleep apnea confirmed by polysomnography (AHI 42, nadir SpO2 68%) with classic symptoms: excessive daytime somnolence (Epworth 16), loud snoring, witnessed apneas, morning headaches, and nocturia. Multiple comorbidities are either caused or worsened by OSA: refractory hypertension, poorly controlled diabetes, polycythemia, dyslipidemia, and early pulmonary hypertension. Anatomic risk factors include obesity (BMI 38), Mallampati class IV, macroglossia, enlarged tonsils, retrognathia, and neck circumference 18.5 inches."
+    "final_clue": "The patient has severe this condition confirmed by polysomnography (AHI 42, nadir SpO2 68%) with classic symptoms: excessive daytime somnolence (Epworth 16), loud snoring, witnessed apneas, morning headaches, and nocturia. Multiple comorbidities are either caused or worsened by OSA: refractory hypertension, poorly controlled diabetes, polycythemia, dyslipidemia, and early pulmonary hypertension. Anatomic risk factors include obesity (BMI 38), Mallampati class IV, macroglossia, enlarged tonsils, retrognathia, and neck circumference 18.5 inches."
   },
   "debrief": {
     "classic_presentation": "An obese, middle-aged man presenting with the classic triad: (1) excessive daytime sleepiness, (2) loud habitual snoring, and (3) witnessed apneic episodes. Additional features include morning headaches (from nocturnal hypercapnia), nocturia (from increased atrial natriuretic peptide), unrefreshed sleep, and concentration/memory difficulties. Risk factors include male sex, obesity (especially neck circumference >17 inches in men), anatomic airway crowding (Mallampati III-IV, macroglossia, retrognathia, tonsillar hypertrophy), and age >50.",

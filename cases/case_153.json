@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum RPR", "result": "Reactive, titer 1:64", "flag": "ABNORMAL", "clinical_significance": "High-titer RPR indicates active syphilitic disease; prior treatment should have resulted in titer decline"},
-      {"test_name": "Serum FTA-ABS", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Confirmatory treponemal test; remains positive for life once reactive"},
-      {"test_name": "CSF VDRL", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Reactive CSF VDRL is highly specific for neurosyphilis (specificity ~99%); this is the single most important confirmatory test"},
-      {"test_name": "CSF Cell Count", "result": "48 WBC/μL (92% lymphocytes)", "flag": "HIGH", "clinical_significance": "Lymphocytic pleocytosis strongly supports active CNS syphilitic infection"},
-      {"test_name": "CSF Protein", "result": "82 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated CSF protein consistent with CNS inflammation from neurosyphilis"},
-      {"test_name": "CSF Glucose", "result": "52 mg/dL (serum glucose 96 mg/dL)", "flag": "WNL", "clinical_significance": "Normal to mildly low CSF glucose; severe hypoglycorrhachia is atypical for neurosyphilis"},
-      {"test_name": "CSF FTA-ABS", "result": "Reactive", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive but less specific than CSF VDRL; useful to exclude neurosyphilis if negative"},
-      {"test_name": "CD4 Count", "result": "410 cells/μL", "flag": "WNL", "clinical_significance": "Adequate CD4 count; neurosyphilis can occur at any CD4 level in HIV co-infection"},
-      {"test_name": "HIV Viral Load", "result": "<20 copies/mL (undetectable)", "flag": "WNL", "clinical_significance": "Well-suppressed HIV; neurosyphilis is occurring despite viral control"},
-      {"test_name": "CBC", "result": "WBC 6,200/μL, Hgb 13.8 g/dL, Plt 224,000/μL", "flag": "WNL", "clinical_significance": "Normal peripheral blood counts"}
+      {
+        "test_name": "Serum RPR",
+        "result": "Reactive, titer 1:64",
+        "flag": "ABNORMAL",
+        "clinical_significance": "High-titer RPR indicates active syphilitic disease; prior treatment should have resulted in titer decline"
+      },
+      {
+        "test_name": "Serum FTA-ABS",
+        "result": "Reactive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirmatory treponemal test; remains positive for life once reactive"
+      },
+      {
+        "test_name": "CSF VDRL",
+        "result": "Reactive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Reactive CSF VDRL is highly specific for this condition (specificity ~99%); this is the single most important confirmatory test"
+      },
+      {
+        "test_name": "CSF Cell Count",
+        "result": "48 WBC/μL (92% lymphocytes)",
+        "flag": "HIGH",
+        "clinical_significance": "Lymphocytic pleocytosis strongly supports active CNS syphilitic infection"
+      },
+      {
+        "test_name": "CSF Protein",
+        "result": "82 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CSF protein consistent with CNS inflammation from this condition"
+      },
+      {
+        "test_name": "CSF Glucose",
+        "result": "52 mg/dL (serum glucose 96 mg/dL)",
+        "flag": "WNL",
+        "clinical_significance": "Normal to mildly low CSF glucose; severe hypoglycorrhachia is atypical of this condition"
+      },
+      {
+        "test_name": "CSF FTA-ABS",
+        "result": "Reactive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly sensitive but less specific than CSF VDRL; useful to exclude this condition if negative"
+      },
+      {
+        "test_name": "CD4 Count",
+        "result": "410 cells/μL",
+        "flag": "WNL",
+        "clinical_significance": "Adequate CD4 count; this condition can occur at any CD4 level in HIV co-infection"
+      },
+      {
+        "test_name": "HIV Viral Load",
+        "result": "<20 copies/mL (undetectable)",
+        "flag": "WNL",
+        "clinical_significance": "Well-suppressed HIV; this condition is occurring despite viral control"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6,200/μL, Hgb 13.8 g/dL, Plt 224,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal peripheral blood counts"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI Brain with Gadolinium", "result": "Diffuse cortical atrophy disproportionate to age. Bilateral medial temporal lobe volume loss. Mild periventricular and subcortical white matter T2/FLAIR hyperintensities. Leptomeningeal enhancement noted over the frontal and temporal convexities. No mass lesions or acute infarcts.", "flag": "ABNORMAL", "clinical_significance": "Cortical atrophy and leptomeningeal enhancement consistent with chronic meningoencephalitic neurosyphilis (general paresis)"},
-      {"test_name": "MRI Spine (Cervical/Thoracic)", "result": "No cord compression. Mild posterior column signal abnormality at T8-T10.", "flag": "ABNORMAL", "clinical_significance": "Posterior column changes may reflect early tabes dorsalis component"}
+      {
+        "test_name": "MRI Brain with Gadolinium",
+        "result": "Diffuse cortical atrophy disproportionate to age. Bilateral medial temporal lobe volume loss. Mild periventricular and subcortical white matter T2/FLAIR hyperintensities. Leptomeningeal enhancement noted over the frontal and temporal convexities. No mass lesions or acute infarcts.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cortical atrophy and leptomeningeal enhancement consistent with chronic meningoencephalitic this condition (general paresis)"
+      },
+      {
+        "test_name": "MRI Spine (Cervical/Thoracic)",
+        "result": "No cord compression. Mild posterior column signal abnormality at T8-T10.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Posterior column changes may reflect early tabes dorsalis component"
+      }
     ],
     "key_tests": [
       "Serum RPR/VDRL with titer (screening and monitoring)",
@@ -63,7 +123,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "An HIV-positive male with previously treated primary syphilis (lost to serologic follow-up) presenting with progressive dementia, personality changes, ataxic gait, Argyll Robertson pupils, hyperreflexia, and Babinski signs. High serum RPR (1:64), reactive CSF VDRL, CSF lymphocytic pleocytosis, and MRI showing cortical atrophy with leptomeningeal enhancement confirm late neurosyphilis, specifically general paresis of the insane (syphilitic dementia). The combination of Argyll Robertson pupils (accommodate but don't react to light) with progressive dementia is pathognomonic."
+    "final_clue": "An HIV-positive male with previously treated primary syphilis (lost to serologic follow-up) presenting with progressive dementia, personality changes, ataxic gait, Argyll Robertson pupils, hyperreflexia, and Babinski signs. High serum RPR (1:64), reactive CSF VDRL, CSF lymphocytic pleocytosis, and MRI showing cortical atrophy with leptomeningeal enhancement confirm late this condition, specifically general paresis of the insane (syphilitic dementia). The combination of Argyll Robertson pupils (accommodate but don't react to light) with progressive dementia is pathognomonic."
   },
   "debrief": {
     "classic_presentation": "Neurosyphilis has multiple clinical forms: (1) Asymptomatic neurosyphilis (CSF abnormalities without symptoms); (2) Meningeal neurosyphilis (headache, cranial neuropathies); (3) Meningovascular neurosyphilis (stroke-like syndromes in young patients); (4) General paresis (progressive dementia, personality changes, Argyll Robertson pupils — 'the great imitator'); (5) Tabes dorsalis (lightning pains, ataxia, bladder dysfunction, Charcot joints). This case demonstrates general paresis, the most severe parenchymatous form, classically described by the mnemonic PARESIS: Personality, Affect, Reflexes (hyperactive), Eye (Argyll Robertson pupils), Sensorium (delusions/hallucinations), Intellect (decreased), Speech (slurred).",

@@ -6,7 +6,7 @@
   "icd_category": "F41.0 — Panic disorder without agoraphobia",
   "one_liner": "A 32-year-old woman with mitral valve prolapse presents with recurrent episodes of sudden-onset chest tightness, palpitations, diaphoresis, and fear of dying lasting 10-15 minutes.",
   "stage2": {
-    "hpi_extension": "The patient presents to the ED after her third episode this month of sudden onset palpitations, chest tightness, shortness of breath, diaphoresis, trembling, and a feeling of 'impending doom.' Episodes begin abruptly, peak within minutes, and resolve over 15-20 minutes. She describes derealization during attacks ('feeling like things aren't real'). During today's episode, she was convinced she was having a heart attack and called 911. Between episodes, she has developed persistent worry about having another attack and has been avoiding crowded places including the grocery store and her gym. She has started taking alternate routes to avoid highways where she had one episode. She denies any clear trigger for the episodes. No recent caffeine or stimulant changes. She has had intermittent episodes for 6 months but they have intensified over the past month. No history of trauma. Panic Disorder Severity Scale (PDSS) score is 16 (moderately severe).",
+    "hpi_extension": "The patient presents to the ED after her third episode this month of sudden onset palpitations, chest tightness, shortness of breath, diaphoresis, trembling, and a feeling of 'impending doom.' Episodes begin abruptly, peak within minutes, and resolve over 15-20 minutes. She describes derealization during attacks ('feeling like things aren't real'). During today's episode, she was convinced she was having a heart attack and called 911. Between episodes, she has developed persistent worry about having another attack and has been avoiding crowded places including the grocery store and her gym. She has started taking alternate routes to avoid highways where she had one episode. She denies any clear trigger for the episodes. No recent caffeine or stimulant changes. She has had intermittent episodes for 6 months but they have intensified over the past month. No history of trauma. this condition Severity Scale (PDSS) score is 16 (moderately severe).",
     "pmh": "Mitral valve prolapse (diagnosed at age 22, asymptomatic). Irritable bowel syndrome.",
     "surgical_history": "None",
     "medications": "Dicyclomine 10 mg PRN for IBS symptoms",
@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I (serial x2)", "result": "< 0.01 ng/mL (x2, 3 hours apart)", "flag": "WNL", "clinical_significance": "Rules out acute myocardial infarction as cause of chest pain"},
-      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism as cause of palpitations and anxiety"},
-      {"test_name": "CBC", "result": "WBC 7.0, Hgb 13.5, Hct 40.1, Plt 235", "flag": "WNL", "clinical_significance": "Rules out anemia as contributing factor for tachycardia"},
-      {"test_name": "CMP", "result": "Na 140, K 4.1, Cl 103, CO2 22, BUN 12, Cr 0.7, Glucose 92, Ca 9.3", "flag": "WNL", "clinical_significance": "Mildly low CO2 consistent with hyperventilation during episode; otherwise normal"},
-      {"test_name": "Magnesium", "result": "1.9 mg/dL", "flag": "WNL", "clinical_significance": "Rules out hypomagnesemia which can cause palpitations and anxiety"},
-      {"test_name": "D-dimer", "result": "< 250 ng/mL", "flag": "WNL", "clinical_significance": "Rules out pulmonary embolism as cause of acute dyspnea and chest pain"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant-induced panic symptoms"},
-      {"test_name": "BNP", "result": "22 pg/mL", "flag": "WNL", "clinical_significance": "Rules out heart failure as cause of dyspnea"},
-      {"test_name": "Plasma metanephrines", "result": "Normetanephrine 0.4 nmol/L, Metanephrine 0.2 nmol/L", "flag": "WNL", "clinical_significance": "Rules out pheochromocytoma"}
+      {
+        "test_name": "Troponin I (serial x2)",
+        "result": "< 0.01 ng/mL (x2, 3 hours apart)",
+        "flag": "WNL",
+        "clinical_significance": "Rules out acute myocardial infarction as cause of chest pain"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.9 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hyperthyroidism as cause of palpitations and anxiety"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.0, Hgb 13.5, Hct 40.1, Plt 235",
+        "flag": "WNL",
+        "clinical_significance": "Rules out anemia as contributing factor for tachycardia"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 140, K 4.1, Cl 103, CO2 22, BUN 12, Cr 0.7, Glucose 92, Ca 9.3",
+        "flag": "WNL",
+        "clinical_significance": "Mildly low CO2 consistent with hyperventilation during episode; otherwise normal"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hypomagnesemia which can cause palpitations and anxiety"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "< 250 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pulmonary embolism as cause of acute dyspnea and chest pain"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out stimulant-induced panic symptoms"
+      },
+      {
+        "test_name": "BNP",
+        "result": "22 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Rules out heart failure as cause of dyspnea"
+      },
+      {
+        "test_name": "Plasma metanephrines",
+        "result": "Normetanephrine 0.4 nmol/L, Metanephrine 0.2 nmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pheochromocytoma"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG (12-lead)", "result": "Sinus tachycardia at 98 bpm during episode, resolving to 78 bpm. Normal axis. No ST-T wave changes. Normal QTc. No arrhythmia.", "flag": "ABNORMAL", "clinical_significance": "Transient sinus tachycardia consistent with panic episode; no ischemia or arrhythmia"},
-      {"test_name": "Chest X-ray (PA and lateral)", "result": "Heart size normal. Lungs clear. No pneumothorax or pleural effusion.", "flag": "WNL", "clinical_significance": "Rules out pulmonary pathology as cause of dyspnea and chest pain"}
+      {
+        "test_name": "ECG (12-lead)",
+        "result": "Sinus tachycardia at 98 bpm during episode, resolving to 78 bpm. Normal axis. No ST-T wave changes. Normal QTc. No arrhythmia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Transient sinus tachycardia consistent with panic episode; no ischemia or arrhythmia"
+      },
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "Heart size normal. Lungs clear. No pneumothorax or pleural effusion.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pulmonary pathology as cause of dyspnea and chest pain"
+      }
     ],
     "key_tests": [
       "ECG — essential to rule out cardiac arrhythmia and ischemia during chest pain with palpitations",
@@ -65,7 +120,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient experiences recurrent, unexpected panic attacks (abrupt surges of intense fear peaking within minutes) with 4+ DSM-5 panic symptoms: palpitations, diaphoresis, trembling, chest tightness, dyspnea, derealization, and fear of dying. She has persistent worry about additional attacks and maladaptive behavioral changes (avoidance of crowded places and highways). Cardiac workup is completely negative. This meets DSM-5 criteria for Panic Disorder."
+    "final_clue": "The patient experiences recurrent, unexpected panic attacks (abrupt surges of intense fear peaking within minutes) with 4+ DSM-5 panic symptoms: palpitations, diaphoresis, trembling, chest tightness, dyspnea, derealization, and fear of dying. She has persistent worry about additional attacks and maladaptive behavioral changes (avoidance of crowded places and highways). Cardiac workup is completely negative. This meets DSM-5 criteria for this condition."
   },
   "debrief": {
     "classic_presentation": "Recurrent, unexpected panic attacks — abrupt surges of intense fear or discomfort peaking within minutes, with 4+ symptoms (palpitations, sweating, trembling, dyspnea, chest pain, nausea, dizziness, chills/hot flashes, paresthesias, derealization/depersonalization, fear of losing control, fear of dying). At least 1 month of persistent worry about additional attacks or maladaptive behavioral changes (avoidance).",

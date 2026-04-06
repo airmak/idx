@@ -25,23 +25,73 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "13.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis consistent with localized infection/abscess"},
-      {"test_name": "CBC - Hemoglobin", "result": "15.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with acute infection"},
-      {"test_name": "BMP - Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal, excludes diabetes as a predisposing factor"},
-      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with active infection"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "13.4 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis consistent with localized infection/abscess"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "15.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CRP",
+        "result": "6.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with acute infection"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "94 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes diabetes as a predisposing factor"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "ESR",
+        "result": "38 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with active infection"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Ultrasound of Sacrococcygeal Region", "result": "A well-defined hypoechoic fluid collection measuring 3.8 x 2.6 x 2.2 cm within the subcutaneous tissue of the sacrococcygeal region. Internal echoes and debris consistent with abscess. No communication with the spinal canal or presacral space. No foreign body identified.", "flag": "ABNORMAL", "clinical_significance": "Confirms the presence of a subcutaneous abscess in the pilonidal region. Delineates the size and extent for surgical planning."}
+      {
+        "test_name": "Ultrasound of Sacrococcygeal Region",
+        "result": "A well-defined hypoechoic fluid collection measuring 3.8 x 2.6 x 2.2 cm within the subcutaneous tissue of the sacrococcygeal region. Internal echoes and debris consistent with abscess. No communication with the spinal canal or presacral space. No foreign body identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms the presence of a subcutaneous abscess in the pilonidal region. Delineates the size and extent for surgical planning."
+      }
     ],
-    "key_tests": ["Physical examination (inspection and palpation of sacrococcygeal region)", "CBC with differential", "Wound culture (at time of incision and drainage)"],
-    "acceptable_tests": ["CRP/ESR", "BMP", "Blood glucose/HbA1c (to screen for diabetes)", "Ultrasound of the area (if diagnosis unclear)", "MRI (if complex or recurrent disease suspected)"],
-    "low_yield_tests": ["CT abdomen/pelvis (unnecessary for straightforward pilonidal abscess)", "Colonoscopy (no indication)", "Fistulography (not first-line)", "Barium enema (not indicated)"],
+    "key_tests": [
+      "Physical examination (inspection and palpation of sacrococcygeal region)",
+      "CBC with differential",
+      "Wound culture (at time of incision and drainage)"
+    ],
+    "acceptable_tests": [
+      "CRP/ESR",
+      "BMP",
+      "Blood glucose/HbA1c (to screen for diabetes)",
+      "Ultrasound of the area (if diagnosis unclear)",
+      "MRI (if complex or recurrent disease suspected)"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis (unnecessary for straightforward pilonidal abscess)",
+      "Colonoscopy (no indication)",
+      "Fistulography (not first-line)",
+      "Barium enema (not indicated)"
+    ],
     "final_clue": "Clinical examination reveals a classic pilonidal abscess: a fluctuant, erythematous mass in the sacrococcygeal midline with midline pits and purulent drainage. Ultrasound confirms a 3.8 cm subcutaneous abscess. This requires incision and drainage as definitive acute treatment."
   },
   "stage5": {
-    "final_clue": "Clinical examination reveals a classic pilonidal abscess: a fluctuant, erythematous mass in the sacrococcygeal midline with midline pits and purulent drainage. Ultrasound confirms a 3.8 cm subcutaneous abscess. This requires incision and drainage as definitive acute treatment."
+    "final_clue": "Clinical examination reveals a classic this condition: a fluctuant, erythematous mass in the sacrococcygeal midline with midline pits and purulent drainage. Ultrasound confirms a 3.8 cm subcutaneous abscess. This requires incision and drainage as definitive acute treatment."
   },
   "debrief": {
     "classic_presentation": "A young (15-35 years old), hirsute male presents with a painful, fluctuant mass in the sacrococcygeal intergluteal cleft. Midline pits in the natal cleft are pathognomonic. Risk factors include male sex, obesity, sedentary occupation, local trauma, family history, and excessive body hair. Historically called 'Jeep driver's disease' due to high incidence in WWII military personnel who sat for prolonged periods in jeeps.",
@@ -62,9 +112,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pilonidal abscess", "Perianal abscess", "Hidradenitis suppurativa", "Furuncle/carbuncle", "Presacral dermoid cyst", "Sacrococcygeal teratoma"],
-    "after_stage2_more_likely": ["Pilonidal abscess", "Furuncle/carbuncle"],
-    "after_stage2_less_likely": ["Perianal abscess", "Sacrococcygeal teratoma"],
-    "after_labs_top3": ["Pilonidal abscess", "Furuncle/carbuncle", "Hidradenitis suppurativa"]
+    "reasonable_ddx": [
+      "Pilonidal abscess",
+      "Perianal abscess",
+      "Hidradenitis suppurativa",
+      "Furuncle/carbuncle",
+      "Presacral dermoid cyst",
+      "Sacrococcygeal teratoma"
+    ],
+    "after_stage2_more_likely": [
+      "Pilonidal abscess",
+      "Furuncle/carbuncle"
+    ],
+    "after_stage2_less_likely": [
+      "Perianal abscess",
+      "Sacrococcygeal teratoma"
+    ],
+    "after_labs_top3": [
+      "Pilonidal abscess",
+      "Furuncle/carbuncle",
+      "Hidradenitis suppurativa"
+    ]
   }
 }

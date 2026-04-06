@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "AST", "result": "680 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated transaminases (>10x ULN) characteristic of AIH flare"},
-      {"test_name": "ALT", "result": "820 U/L", "flag": "HIGH", "clinical_significance": "Hepatocellular injury pattern; ALT predominance is typical of AIH"},
-      {"test_name": "Total bilirubin", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Significant jaundice indicating moderate-severe hepatocellular dysfunction"},
-      {"test_name": "ALP", "result": "155 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; ALP <2x ULN supports hepatocellular rather than cholestatic pattern"},
-      {"test_name": "Serum IgG", "result": "2,850 mg/dL (normal 700-1600)", "flag": "HIGH", "clinical_significance": "Polyclonal hypergammaglobulinemia is a hallmark of AIH and contributes to the simplified diagnostic score"},
-      {"test_name": "ANA", "result": "Positive, titer 1:320 (homogeneous pattern)", "flag": "ABNORMAL", "clinical_significance": "ANA positivity supports Type 1 AIH (present in ~75% of Type 1 AIH)"},
-      {"test_name": "Anti-smooth muscle antibody (ASMA)", "result": "Positive, titer 1:160", "flag": "ABNORMAL", "clinical_significance": "ASMA is the most characteristic antibody of Type 1 AIH, present in ~70%"},
-      {"test_name": "Anti-LKM1 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative, argues against Type 2 AIH (more common in children)"},
-      {"test_name": "Hepatitis A IgM", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes acute hepatitis A"},
-      {"test_name": "Hepatitis B panel", "result": "HBsAg negative, anti-HBs positive, anti-HBc negative", "flag": "WNL", "clinical_significance": "Immune from vaccination, no HBV infection"},
-      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes hepatitis C"},
-      {"test_name": "PT/INR", "result": "INR 1.5", "flag": "HIGH", "clinical_significance": "Impaired synthetic function from hepatocellular injury"}
+      {
+        "test_name": "AST",
+        "result": "680 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated transaminases (>10x ULN) characteristic of AIH flare"
+      },
+      {
+        "test_name": "ALT",
+        "result": "820 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hepatocellular injury pattern; ALT predominance is typical of AIH"
+      },
+      {
+        "test_name": "Total bilirubin",
+        "result": "8.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significant jaundice indicating moderate-severe hepatocellular dysfunction"
+      },
+      {
+        "test_name": "ALP",
+        "result": "155 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; ALP <2x ULN supports hepatocellular rather than cholestatic pattern"
+      },
+      {
+        "test_name": "Serum IgG",
+        "result": "2,850 mg/dL (normal 700-1600)",
+        "flag": "HIGH",
+        "clinical_significance": "Polyclonal hypergammaglobulinemia is a hallmark of AIH and contributes to the simplified diagnostic score"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Positive, titer 1:320 (homogeneous pattern)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ANA positivity supports Type 1 AIH (present in ~75% of Type 1 AIH)"
+      },
+      {
+        "test_name": "Anti-smooth muscle antibody (ASMA)",
+        "result": "Positive, titer 1:160",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ASMA is the most characteristic antibody of Type 1 AIH, present in ~70%"
+      },
+      {
+        "test_name": "Anti-LKM1 antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative, argues against Type 2 AIH (more common in children)"
+      },
+      {
+        "test_name": "Hepatitis A IgM",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes acute hepatitis A"
+      },
+      {
+        "test_name": "Hepatitis B panel",
+        "result": "HBsAg negative, anti-HBs positive, anti-HBc negative",
+        "flag": "WNL",
+        "clinical_significance": "Immune from vaccination, no HBV infection"
+      },
+      {
+        "test_name": "Hepatitis C antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes hepatitis C"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "INR 1.5",
+        "flag": "HIGH",
+        "clinical_significance": "Impaired synthetic function from hepatocellular injury"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Liver ultrasound with Doppler", "result": "Hepatomegaly (18 cm span) with heterogeneous echotexture. No focal lesions. Patent hepatic and portal veins with normal flow direction. No biliary dilation. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hepatomegaly without cirrhotic morphology or biliary obstruction. Patent vasculature excludes Budd-Chiari."},
-      {"test_name": "Liver biopsy", "result": "Interface hepatitis with dense lymphoplasmacytic infiltrate at the portal-parenchymal interface. Rosette formation of hepatocytes. Emperipolesis present. Moderate portal and periportal fibrosis (Ishak stage 3/6). No biliary injury or granulomas.", "flag": "ABNORMAL", "clinical_significance": "Classic histologic triad of AIH: interface hepatitis, lymphoplasmacytic infiltrate, and hepatocyte rosettes. Emperipolesis is highly suggestive. Fibrosis indicates some chronicity."}
+      {
+        "test_name": "Liver ultrasound with Doppler",
+        "result": "Hepatomegaly (18 cm span) with heterogeneous echotexture. No focal lesions. Patent hepatic and portal veins with normal flow direction. No biliary dilation. No ascites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatomegaly without cirrhotic morphology or biliary obstruction. Patent vasculature excludes Budd-Chiari."
+      },
+      {
+        "test_name": "Liver biopsy",
+        "result": "Interface hepatitis with dense lymphoplasmacytic infiltrate at the portal-parenchymal interface. Rosette formation of hepatocytes. Emperipolesis present. Moderate portal and periportal fibrosis (Ishak stage 3/6). No biliary injury or granulomas.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic histologic triad of AIH: interface hepatitis, lymphoplasmacytic infiltrate, and hepatocyte rosettes. Emperipolesis is highly suggestive. Fibrosis indicates some chronicity."
+      }
     ],
-    "key_tests": ["AST/ALT", "Serum IgG level", "ANA and anti-smooth muscle antibody (ASMA)", "Liver biopsy", "Hepatitis A/B/C serologies"],
-    "acceptable_tests": ["Anti-LKM1 antibody", "Total bilirubin", "ALP", "PT/INR", "Albumin", "Liver ultrasound with Doppler", "Anti-SLA/LP antibody", "Ceruloplasmin"],
-    "low_yield_tests": ["MRCP", "ERCP", "Anti-mitochondrial antibody", "CT abdomen", "Serum ferritin/iron studies (unless hemochromatosis suspected)"],
+    "key_tests": [
+      "AST/ALT",
+      "Serum IgG level",
+      "ANA and anti-smooth muscle antibody (ASMA)",
+      "Liver biopsy",
+      "Hepatitis A/B/C serologies"
+    ],
+    "acceptable_tests": [
+      "Anti-LKM1 antibody",
+      "Total bilirubin",
+      "ALP",
+      "PT/INR",
+      "Albumin",
+      "Liver ultrasound with Doppler",
+      "Anti-SLA/LP antibody",
+      "Ceruloplasmin"
+    ],
+    "low_yield_tests": [
+      "MRCP",
+      "ERCP",
+      "Anti-mitochondrial antibody",
+      "CT abdomen",
+      "Serum ferritin/iron studies (unless hemochromatosis suspected)"
+    ],
     "key_tests_rationale": "AST/ALT reveal the severity of hepatocellular injury. Serum IgG >1.1x ULN is a key diagnostic criterion. ANA and ASMA are the hallmark autoantibodies of Type 1 AIH. Viral serologies must be negative to exclude viral hepatitis. Liver biopsy is the gold standard, demonstrating interface hepatitis and the characteristic lymphoplasmacytic infiltrate, and is required for the revised IAIHG diagnostic scoring system."
   },
   "stage5": {
-    "final_clue": "A young woman with autoimmune comorbidities (Hashimoto thyroiditis, vitiligo) presenting with hepatocellular injury (AST/ALT >10x ULN), marked hypergammaglobulinemia (IgG 2,850), positive ANA (1:320) and ASMA (1:160), negative viral serologies, and liver biopsy showing interface hepatitis with lymphoplasmacytic infiltrate and hepatocyte rosettes confirms Type 1 autoimmune hepatitis. The simplified AIH score totals ≥7 (definite AIH)."
+    "final_clue": "A young woman with autoimmune comorbidities (Hashimoto thyroiditis, vitiligo) presenting with hepatocellular injury (AST/ALT >10x ULN), marked hypergammaglobulinemia (IgG 2,850), positive ANA (1:320) and ASMA (1:160), negative viral serologies, and liver biopsy showing interface hepatitis with lymphoplasmacytic infiltrate and hepatocyte rosettes confirms Type 1 this condition. The simplified AIH score totals ≥7 (definite AIH)."
   },
   "debrief": {
     "classic_presentation": "AIH presents with a spectrum from asymptomatic elevation of transaminases to acute hepatitis with jaundice, or even fulminant hepatic failure. Type 1 (ANA/ASMA-positive) is the most common form and affects women predominantly (4:1 female-to-male ratio). Patients often have other autoimmune conditions. The key features are hepatocellular transaminitis, polyclonal hypergammaglobulinemia (elevated IgG), positive autoantibodies, and interface hepatitis on biopsy. Up to 30% of patients present with cirrhosis at diagnosis.",
@@ -69,9 +160,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Drug-induced liver injury (DILI)", "Wilson disease", "Acute viral hepatitis (A, B, E)", "Primary biliary cholangitis", "Overlap syndrome (AIH-PBC or AIH-PSC)", "Hemochromatosis"],
-    "after_stage2_more_likely": ["Autoimmune hepatitis", "Acute viral hepatitis", "Drug-induced liver injury"],
-    "after_stage2_less_likely": ["Primary biliary cholangitis", "Hemochromatosis", "Wilson disease"],
-    "after_labs_top3": ["Autoimmune hepatitis (Type 1)", "AIH-PBC overlap syndrome", "Drug-induced liver injury with autoimmune features"]
+    "reasonable_ddx": [
+      "Drug-induced liver injury (DILI)",
+      "Wilson disease",
+      "Acute viral hepatitis (A, B, E)",
+      "Primary biliary cholangitis",
+      "Overlap syndrome (AIH-PBC or AIH-PSC)",
+      "Hemochromatosis"
+    ],
+    "after_stage2_more_likely": [
+      "Autoimmune hepatitis",
+      "Acute viral hepatitis",
+      "Drug-induced liver injury"
+    ],
+    "after_stage2_less_likely": [
+      "Primary biliary cholangitis",
+      "Hemochromatosis",
+      "Wilson disease"
+    ],
+    "after_labs_top3": [
+      "Autoimmune hepatitis (Type 1)",
+      "AIH-PBC overlap syndrome",
+      "Drug-induced liver injury with autoimmune features"
+    ]
   }
 }

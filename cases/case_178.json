@@ -25,27 +25,102 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 7.5, Hgb 12.8, Plt 260", "flag": "WNL", "clinical_significance": "Normal; no anemia or leukocytosis"},
-      {"test_name": "CRP", "result": "8 mg/L", "flag": "WNL", "clinical_significance": "Normal to mildly elevated; microscopic colitis typically does not cause markedly elevated inflammatory markers"},
-      {"test_name": "BMP", "result": "Na 136, K 3.4, Cr 0.9, BUN 16", "flag": "WNL", "clinical_significance": "Normal electrolytes despite chronic diarrhea"},
-      {"test_name": "Fecal calprotectin", "result": "120 µg/g", "flag": "HIGH", "clinical_significance": "Mildly elevated (normal <50); can be modestly elevated in microscopic colitis but typically lower than in IBD (UC/Crohn)"},
-      {"test_name": "Stool studies (culture, O&P, C. diff)", "result": "All negative", "flag": "WNL", "clinical_significance": "Excludes infectious colitis"},
-      {"test_name": "tTG-IgA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes celiac disease (important as celiac can coexist with microscopic colitis in ~5%)"},
-      {"test_name": "TSH", "result": "3.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hyperthyroidism excluded as a cause of diarrhea"},
-      {"test_name": "Albumin", "result": "3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal, no significant protein loss"},
-      {"test_name": "ESR", "result": "22 mm/hr", "flag": "WNL", "clinical_significance": "Normal to mildly elevated"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.5, Hgb 12.8, Plt 260",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no anemia or leukocytosis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "8 mg/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal to mildly elevated; this condition typically does not cause markedly elevated inflammatory markers"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 136, K 3.4, Cr 0.9, BUN 16",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes despite chronic diarrhea"
+      },
+      {
+        "test_name": "Fecal calprotectin",
+        "result": "120 µg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated (normal <50); can be modestly elevated in this condition but typically lower than in IBD (UC/Crohn)"
+      },
+      {
+        "test_name": "Stool studies (culture, O&P, C. diff)",
+        "result": "All negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes infectious colitis"
+      },
+      {
+        "test_name": "tTG-IgA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes celiac disease (important as celiac can coexist with this condition in ~5%)"
+      },
+      {
+        "test_name": "TSH",
+        "result": "3.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hyperthyroidism excluded as a cause of diarrhea"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no significant protein loss"
+      },
+      {
+        "test_name": "ESR",
+        "result": "22 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal to mildly elevated"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Colonoscopy", "result": "Mucosa appears completely normal throughout the colon from cecum to rectum. No erythema, ulceration, edema, or vascular pattern loss. Normal terminal ileum. Random biopsies obtained from the right colon (ascending/transverse) and left colon (descending/sigmoid) despite normal appearance.", "flag": "WNL", "clinical_significance": "Normal macroscopic appearance is the hallmark of microscopic colitis — the diagnosis is made ONLY on histology. Biopsies from both right and left colon are essential."},
-      {"test_name": "Colonic biopsies", "result": "Right colon: Thickened subepithelial collagen band measuring 18 µm (normal <7 µm) with surface epithelial damage, increased intraepithelial lymphocytes, and mixed inflammatory infiltrate in the lamina propria. Left colon: Similar but less prominent changes. Findings consistent with collagenous colitis.", "flag": "ABNORMAL", "clinical_significance": "Thickened subepithelial collagen band >10 µm is diagnostic of collagenous colitis (a subtype of microscopic colitis). The other subtype, lymphocytic colitis, has >20 intraepithelial lymphocytes per 100 epithelial cells without collagen thickening."}
+      {
+        "test_name": "Colonoscopy",
+        "result": "Mucosa appears completely normal throughout the colon from cecum to rectum. No erythema, ulceration, edema, or vascular pattern loss. Normal terminal ileum. Random biopsies obtained from the right colon (ascending/transverse) and left colon (descending/sigmoid) despite normal appearance.",
+        "flag": "WNL",
+        "clinical_significance": "Normal macroscopic appearance is the hallmark of this condition — the diagnosis is made ONLY on histology. Biopsies from both right and left colon are essential."
+      },
+      {
+        "test_name": "Colonic biopsies",
+        "result": "Right colon: Thickened subepithelial collagen band measuring 18 µm (normal <7 µm) with surface epithelial damage, increased intraepithelial lymphocytes, and mixed inflammatory infiltrate in the lamina propria. Left colon: Similar but less prominent changes. Findings consistent with collagenous colitis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Thickened subepithelial collagen band >10 µm is diagnostic of collagenous colitis (a subtype of this condition). The other subtype, lymphocytic colitis, has >20 intraepithelial lymphocytes per 100 epithelial cells without collagen thickening."
+      }
     ],
-    "key_tests": ["Colonoscopy with random biopsies from right and left colon", "Stool studies (culture, O&P, C. diff)", "Fecal calprotectin", "tTG-IgA (celiac screen)", "TSH"],
-    "acceptable_tests": ["CBC", "BMP", "CRP/ESR", "Albumin", "LFTs", "Stool osmolar gap", "CT abdomen"],
-    "low_yield_tests": ["Upper endoscopy", "MRCP", "CT colonography", "Barium enema", "Stool fat"],
+    "key_tests": [
+      "Colonoscopy with random biopsies from right and left colon",
+      "Stool studies (culture, O&P, C. diff)",
+      "Fecal calprotectin",
+      "tTG-IgA (celiac screen)",
+      "TSH"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "CRP/ESR",
+      "Albumin",
+      "LFTs",
+      "Stool osmolar gap",
+      "CT abdomen"
+    ],
+    "low_yield_tests": [
+      "Upper endoscopy",
+      "MRCP",
+      "CT colonography",
+      "Barium enema",
+      "Stool fat"
+    ],
     "key_tests_rationale": "Colonoscopy with biopsies is the ONLY way to diagnose microscopic colitis — the mucosa appears normal endoscopically, and histology reveals the characteristic changes. Biopsies must be taken from multiple sites in both the right and left colon (changes can be patchy and more prominent in the right colon). Stool studies exclude infectious mimics. Celiac screening is important due to the ~5% coexistence rate. TSH excludes hyperthyroidism."
   },
   "stage5": {
-    "final_clue": "A middle-aged to elderly woman on medications associated with microscopic colitis (lansoprazole, sertraline, NSAIDs) presenting with chronic, profuse watery diarrhea, a grossly normal colonoscopy, and colonic biopsies showing a thickened subepithelial collagen band (18 µm) with surface epithelial damage confirms collagenous colitis (a subtype of microscopic colitis). The normal-appearing mucosa with abnormal histology is the defining feature."
+    "final_clue": "A middle-aged to elderly woman on medications associated with this condition (lansoprazole, sertraline, NSAIDs) presenting with chronic, profuse watery diarrhea, a grossly normal colonoscopy, and colonic biopsies showing a thickened subepithelial collagen band (18 µm) with surface epithelial damage confirms collagenous colitis (a subtype of this condition). The normal-appearing mucosa with abnormal histology is the defining feature."
   },
   "debrief": {
     "classic_presentation": "Microscopic colitis (MC) presents with chronic, non-bloody, watery diarrhea in middle-aged to elderly patients (peak incidence 60-70 years), with a female predominance. The cardinal feature is a macroscopically normal colonoscopy with diagnostic changes ONLY on histology. Two subtypes exist: collagenous colitis (thickened collagen band >10 µm) and lymphocytic colitis (>20 IELs per 100 epithelial cells). Multiple medications are implicated: PPIs, NSAIDs, SSRIs, and statins. MC is associated with celiac disease and autoimmune disorders.",
@@ -66,9 +141,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Irritable bowel syndrome (diarrhea-predominant)", "Celiac disease", "Bile acid malabsorption", "C. difficile colitis", "Hyperthyroidism", "Medication-induced diarrhea", "Inflammatory bowel disease"],
-    "after_stage2_more_likely": ["Microscopic colitis", "IBS-D", "Medication-induced diarrhea"],
-    "after_stage2_less_likely": ["C. difficile colitis", "Hyperthyroidism", "IBD"],
-    "after_labs_top3": ["Microscopic colitis (collagenous)", "Bile acid malabsorption", "IBS-D"]
+    "reasonable_ddx": [
+      "Irritable bowel syndrome (diarrhea-predominant)",
+      "Celiac disease",
+      "Bile acid malabsorption",
+      "C. difficile colitis",
+      "Hyperthyroidism",
+      "Medication-induced diarrhea",
+      "Inflammatory bowel disease"
+    ],
+    "after_stage2_more_likely": [
+      "Microscopic colitis",
+      "IBS-D",
+      "Medication-induced diarrhea"
+    ],
+    "after_stage2_less_likely": [
+      "C. difficile colitis",
+      "Hyperthyroidism",
+      "IBD"
+    ],
+    "after_labs_top3": [
+      "Microscopic colitis (collagenous)",
+      "Bile acid malabsorption",
+      "IBS-D"
+    ]
   }
 }

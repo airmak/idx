@@ -25,28 +25,114 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "68.5 mIU/L", "flag": "HIGH", "clinical_significance": "Markedly elevated TSH confirms primary hypothyroidism; the pituitary is responding to low thyroid hormone"},
-      {"test_name": "Free T4", "result": "0.3 ng/dL", "flag": "LOW", "clinical_significance": "Low free T4 with elevated TSH confirms overt primary hypothyroidism"},
-      {"test_name": "Free T3", "result": "1.2 pg/mL", "flag": "LOW", "clinical_significance": "Low T3 consistent with hypothyroidism; T3 is less sensitive than T4 for diagnosis"},
-      {"test_name": "Anti-TPO antibodies", "result": "485 IU/mL", "flag": "HIGH", "clinical_significance": "Strongly positive; confirms Hashimoto thyroiditis as the etiology of hypothyroidism"},
-      {"test_name": "Anti-thyroglobulin antibodies", "result": "220 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated, further supporting autoimmune thyroiditis"},
-      {"test_name": "Total cholesterol", "result": "278 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercholesterolemia is a common metabolic consequence of hypothyroidism"},
-      {"test_name": "LDL cholesterol", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL expected in hypothyroidism; often improves with thyroid hormone replacement"},
-      {"test_name": "CBC", "result": "WBC 5,400/μL, Hgb 11.2 g/dL, MCV 92 fL, Plt 180,000/μL", "flag": "LOW", "clinical_significance": "Mild normocytic anemia is common in hypothyroidism"},
-      {"test_name": "Basic metabolic panel", "result": "Na 132 mEq/L, K 4.3 mEq/L, Cr 0.9 mg/dL, glucose 92 mg/dL", "flag": "LOW", "clinical_significance": "Mild hyponatremia can occur in hypothyroidism due to impaired free water excretion"},
-      {"test_name": "CK", "result": "380 U/L", "flag": "HIGH", "clinical_significance": "Elevated CK from hypothyroid myopathy; this is common and reversible with treatment"},
-      {"test_name": "Prolactin", "result": "32 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; TRH stimulates prolactin secretion, explaining the mild elevation in primary hypothyroidism"}
+      {
+        "test_name": "TSH",
+        "result": "68.5 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated TSH confirms primary this condition; the pituitary is responding to low thyroid hormone"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "0.3 ng/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low free T4 with elevated TSH confirms overt primary this condition"
+      },
+      {
+        "test_name": "Free T3",
+        "result": "1.2 pg/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low T3 consistent with the suspected diagnosis; T3 is less sensitive than T4 for diagnosis"
+      },
+      {
+        "test_name": "Anti-TPO antibodies",
+        "result": "485 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Strongly positive; confirms Hashimoto thyroiditis as the etiology of this condition"
+      },
+      {
+        "test_name": "Anti-thyroglobulin antibodies",
+        "result": "220 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, further supporting autoimmune thyroiditis"
+      },
+      {
+        "test_name": "Total cholesterol",
+        "result": "278 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercholesterolemia is a common metabolic consequence of this condition"
+      },
+      {
+        "test_name": "LDL cholesterol",
+        "result": "185 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDL expected in this condition; often improves with thyroid hormone replacement"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 5,400/μL, Hgb 11.2 g/dL, MCV 92 fL, Plt 180,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Mild normocytic anemia is common in this condition"
+      },
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 132 mEq/L, K 4.3 mEq/L, Cr 0.9 mg/dL, glucose 92 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia can occur in this condition due to impaired free water excretion"
+      },
+      {
+        "test_name": "CK",
+        "result": "380 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CK from hypothyroid myopathy; this is common and reversible with treatment"
+      },
+      {
+        "test_name": "Prolactin",
+        "result": "32 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; TRH stimulates prolactin secretion, explaining the mild elevation in primary this condition"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Thyroid ultrasound", "result": "Diffusely enlarged thyroid gland with heterogeneous echotexture and increased vascularity. Multiple small hypoechoic areas throughout both lobes. No discrete nodules. No suspicious lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with Hashimoto thyroiditis — diffuse heterogeneous enlargement is classic"},
-      {"test_name": "ECG", "result": "Sinus bradycardia at 56 bpm. Low voltage QRS complexes. No ST-T wave changes.", "flag": "ABNORMAL", "clinical_significance": "Bradycardia and low voltage are common ECG findings in hypothyroidism"}
+      {
+        "test_name": "Thyroid ultrasound",
+        "result": "Diffusely enlarged thyroid gland with heterogeneous echotexture and increased vascularity. Multiple small hypoechoic areas throughout both lobes. No discrete nodules. No suspicious lymphadenopathy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with Hashimoto thyroiditis — diffuse heterogeneous enlargement is classic"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus bradycardia at 56 bpm. Low voltage QRS complexes. No ST-T wave changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bradycardia and low voltage are common ECG findings in this condition"
+      }
     ],
-    "key_tests": ["TSH", "Free T4", "Anti-TPO antibodies", "CBC", "Basic metabolic panel"],
-    "acceptable_tests": ["Free T3", "Anti-thyroglobulin antibodies", "Lipid panel", "CK", "Thyroid ultrasound", "ECG", "Prolactin", "LFTs"],
-    "low_yield_tests": ["Thyroid uptake and scan (not indicated for hypothyroidism workup)", "CT neck", "Thyroglobulin level", "Serum cortisol (no signs of adrenal insufficiency)", "ANA"]
+    "key_tests": [
+      "TSH",
+      "Free T4",
+      "Anti-TPO antibodies",
+      "CBC",
+      "Basic metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Free T3",
+      "Anti-thyroglobulin antibodies",
+      "Lipid panel",
+      "CK",
+      "Thyroid ultrasound",
+      "ECG",
+      "Prolactin",
+      "LFTs"
+    ],
+    "low_yield_tests": [
+      "Thyroid uptake and scan (not indicated for hypothyroidism workup)",
+      "CT neck",
+      "Thyroglobulin level",
+      "Serum cortisol (no signs of adrenal insufficiency)",
+      "ANA"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient recalls that her mother was diagnosed with Hashimoto thyroiditis and has been on levothyroxine for years. The strong family history of autoimmune thyroid disease, combined with markedly positive anti-TPO antibodies, confirms Hashimoto thyroiditis as the cause of her hypothyroidism."
+    "final_clue": "The patient recalls that her mother was diagnosed with Hashimoto thyroiditis and has been on levothyroxine for years. The strong family history of autoimmune thyroid disease, combined with markedly positive anti-TPO antibodies, confirms Hashimoto thyroiditis as the cause of her this condition."
   },
   "debrief": {
     "classic_presentation": "Hypothyroidism classically presents with insidious onset of fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, and menstrual irregularities. Physical exam findings include bradycardia, periorbital edema, myxedema, delayed relaxation of deep tendon reflexes, macroglossia, and loss of the lateral third of eyebrows. Hashimoto thyroiditis is the most common cause in iodine-sufficient areas and is confirmed by elevated anti-TPO antibodies.",
@@ -59,12 +145,32 @@
       "Hypercholesterolemia, hyponatremia, elevated CK, and mild anemia are all reversible metabolic consequences of hypothyroidism",
       "In elderly patients or those with cardiac disease, start levothyroxine at low doses (12.5-25 mcg/day) and titrate slowly to avoid precipitating angina or arrhythmia"
     ],
-    "sources": ["UpToDate: Clinical manifestations of hypothyroidism", "ATA Guidelines for the Treatment of Hypothyroidism 2014"]
+    "sources": [
+      "UpToDate: Clinical manifestations of hypothyroidism",
+      "ATA Guidelines for the Treatment of Hypothyroidism 2014"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Hypothyroidism", "Major depressive disorder", "Iron deficiency anemia", "Chronic fatigue syndrome", "Obstructive sleep apnea", "Adrenal insufficiency", "Type 2 diabetes mellitus"],
-    "after_stage2_more_likely": ["Hypothyroidism (cold intolerance, constipation, bradycardia, myxedema, delayed DTRs, family history of Hashimoto)"],
-    "after_stage2_less_likely": ["Depression (physical findings like bradycardia, myxedema, and hung-up reflexes point to organic cause)", "Adrenal insufficiency (weight gain rather than weight loss)"],
-    "after_labs_top3": ["Primary hypothyroidism (Hashimoto thyroiditis)", "Central hypothyroidism", "Sick euthyroid syndrome"]
+    "reasonable_ddx": [
+      "Hypothyroidism",
+      "Major depressive disorder",
+      "Iron deficiency anemia",
+      "Chronic fatigue syndrome",
+      "Obstructive sleep apnea",
+      "Adrenal insufficiency",
+      "Type 2 diabetes mellitus"
+    ],
+    "after_stage2_more_likely": [
+      "Hypothyroidism (cold intolerance, constipation, bradycardia, myxedema, delayed DTRs, family history of Hashimoto)"
+    ],
+    "after_stage2_less_likely": [
+      "Depression (physical findings like bradycardia, myxedema, and hung-up reflexes point to organic cause)",
+      "Adrenal insufficiency (weight gain rather than weight loss)"
+    ],
+    "after_labs_top3": [
+      "Primary hypothyroidism (Hashimoto thyroiditis)",
+      "Central hypothyroidism",
+      "Sick euthyroid syndrome"
+    ]
   }
 }

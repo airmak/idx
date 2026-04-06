@@ -25,26 +25,94 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "13.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may indicate bowel compromise or early ischemia"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from dehydration and vomiting"},
-      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, prerenal component from dehydration"},
-      {"test_name": "BMP - Potassium", "result": "3.3 mEq/L", "flag": "LOW", "clinical_significance": "Mild hypokalemia from repeated vomiting"},
-      {"test_name": "Lactate", "result": "2.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, concerning for early bowel ischemia within the hernia"},
-      {"test_name": "BMP - Glucose", "result": "198 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, stress hyperglycemia in known diabetic"},
-      {"test_name": "BMP - Bicarbonate", "result": "22 mEq/L", "flag": "WNL", "clinical_significance": "Low-normal, may reflect early metabolic acidosis"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "13.6 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis, may indicate bowel compromise or early ischemia"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "28 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely from dehydration and vomiting"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, prerenal component from dehydration"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "3.3 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypokalemia from repeated vomiting"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, concerning for early bowel ischemia within the hernia"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "198 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, stress hyperglycemia in known diabetic"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "22 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal, may reflect early metabolic acidosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. Bowel gas seen extending into the right inguinal region. No free air.", "flag": "ABNORMAL", "clinical_significance": "Small bowel obstruction pattern with bowel extending into the hernia sac confirms incarcerated inguinal hernia as the cause of obstruction."},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Right inguinal hernia containing a loop of small bowel with proximal small bowel dilation. The incarcerated bowel loop shows wall thickening and reduced enhancement concerning for early ischemia. No free air. No free fluid. Transition point at the right internal inguinal ring.", "flag": "ABNORMAL", "clinical_significance": "Confirms incarcerated inguinal hernia with signs of early bowel compromise. Surgical emergency requiring urgent exploration."}
+      {
+        "test_name": "Abdominal X-ray (supine and upright)",
+        "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. Bowel gas seen extending into the right inguinal region. No free air.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small bowel obstruction pattern with bowel extending into the hernia sac confirms the suspected diagnosis as the cause of obstruction."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Right inguinal hernia containing a loop of small bowel with proximal small bowel dilation. The incarcerated bowel loop shows wall thickening and reduced enhancement concerning for early ischemia. No free air. No free fluid. Transition point at the right internal inguinal ring.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis with signs of early bowel compromise. Surgical emergency requiring urgent exploration."
+      }
     ],
-    "key_tests": ["Physical examination of the groin", "Abdominal X-ray (supine and upright)", "CBC with differential", "BMP (electrolytes)", "Serum lactate"],
-    "acceptable_tests": ["CT abdomen/pelvis with contrast", "Type and screen", "Coagulation studies", "Urinalysis", "Blood cultures (if septic)"],
-    "low_yield_tests": ["Ultrasound of the groin (diagnosis is clinical)", "Herniography", "MRI abdomen (delays treatment)", "Barium follow-through (contraindicated with obstruction)", "Colonoscopy"],
+    "key_tests": [
+      "Physical examination of the groin",
+      "Abdominal X-ray (supine and upright)",
+      "CBC with differential",
+      "BMP (electrolytes)",
+      "Serum lactate"
+    ],
+    "acceptable_tests": [
+      "CT abdomen/pelvis with contrast",
+      "Type and screen",
+      "Coagulation studies",
+      "Urinalysis",
+      "Blood cultures (if septic)"
+    ],
+    "low_yield_tests": [
+      "Ultrasound of the groin (diagnosis is clinical)",
+      "Herniography",
+      "MRI abdomen (delays treatment)",
+      "Barium follow-through (contraindicated with obstruction)",
+      "Colonoscopy"
+    ],
     "final_clue": "Physical exam reveals a firm, tender, non-reducible right inguinoscrotal mass. Abdominal X-ray and CT confirm small bowel obstruction caused by an incarcerated inguinal hernia with early signs of bowel compromise. This is a surgical emergency requiring urgent operative repair."
   },
   "stage5": {
-    "final_clue": "Physical exam reveals a firm, tender, non-reducible right inguinoscrotal mass. Abdominal X-ray and CT confirm small bowel obstruction caused by an incarcerated inguinal hernia with early signs of bowel compromise. This is a surgical emergency requiring urgent operative repair."
+    "final_clue": "Physical exam reveals a firm, tender, non-reducible right inguinoscrotal mass. Abdominal X-ray and CT confirm small bowel obstruction caused by an this condition with early signs of bowel compromise. This is a surgical emergency requiring urgent operative repair."
   },
   "debrief": {
     "classic_presentation": "A previously reducible groin bulge becomes acutely painful, tense, and irreducible, often after straining or lifting. Symptoms of small bowel obstruction (nausea, vomiting, distension, obstipation) develop as the incarcerated bowel becomes obstructed. If blood supply is compromised, the hernia becomes strangulated, leading to bowel necrosis. Risk factors include male sex, advanced age, chronic cough, constipation, BPH, heavy lifting, and prior reducible hernia left unrepaired.",
@@ -65,9 +133,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Incarcerated inguinal hernia", "Testicular torsion", "Epididymitis", "Inguinal lymphadenopathy", "Femoral hernia", "Small bowel obstruction (adhesive)", "Hydrocele"],
-    "after_stage2_more_likely": ["Incarcerated inguinal hernia", "Femoral hernia"],
-    "after_stage2_less_likely": ["Testicular torsion", "Epididymitis", "Hydrocele"],
-    "after_labs_top3": ["Incarcerated inguinal hernia", "Strangulated inguinal hernia", "Femoral hernia"]
+    "reasonable_ddx": [
+      "Incarcerated inguinal hernia",
+      "Testicular torsion",
+      "Epididymitis",
+      "Inguinal lymphadenopathy",
+      "Femoral hernia",
+      "Small bowel obstruction (adhesive)",
+      "Hydrocele"
+    ],
+    "after_stage2_more_likely": [
+      "Incarcerated inguinal hernia",
+      "Femoral hernia"
+    ],
+    "after_stage2_less_likely": [
+      "Testicular torsion",
+      "Epididymitis",
+      "Hydrocele"
+    ],
+    "after_labs_top3": [
+      "Incarcerated inguinal hernia",
+      "Strangulated inguinal hernia",
+      "Femoral hernia"
+    ]
   }
 }

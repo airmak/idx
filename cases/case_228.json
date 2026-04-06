@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 3.2 (low), Hgb 11.2 (low), Hct 33.8, Plt 145 (low)", "flag": "LOW", "clinical_significance": "Pancytopenia consistent with bone marrow suppression from malnutrition (starvation marrow)"},
-      {"test_name": "CMP", "result": "Na 136, K 3.2 (low), Cl 98, CO2 28, BUN 22, Cr 0.9, Glucose 62 (low), Ca 8.8, AST 45, ALT 52, Albumin 3.2 (low)", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia (risk for arrhythmia), hypoglycemia (depleted glycogen stores), mildly elevated transaminases (starvation hepatitis), low albumin (malnutrition)"},
-      {"test_name": "Magnesium", "result": "1.5 mg/dL (low, normal 1.7-2.2)", "flag": "LOW", "clinical_significance": "Hypomagnesemia from poor intake; increases risk of cardiac arrhythmia"},
-      {"test_name": "Phosphorus", "result": "2.8 mg/dL (low normal)", "flag": "WNL", "clinical_significance": "Borderline low phosphorus; critical to monitor during refeeding due to risk of refeeding syndrome"},
-      {"test_name": "TSH", "result": "1.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal TSH; low T3 syndrome (euthyroid sick syndrome) is common in anorexia but TSH is typically normal"},
-      {"test_name": "Free T3", "result": "1.8 pg/mL (low, normal 2.3-4.2)", "flag": "LOW", "clinical_significance": "Low T3 syndrome from caloric deprivation — body downregulates metabolism; does not indicate primary thyroid disease"},
-      {"test_name": "LH/FSH", "result": "LH 1.2 mIU/mL (low), FSH 2.8 mIU/mL (low)", "flag": "LOW", "clinical_significance": "Hypogonadotropic hypogonadism from hypothalamic suppression due to malnutrition — explains amenorrhea"},
-      {"test_name": "Estradiol", "result": "12 pg/mL (low, premenopausal normal 15-350)", "flag": "LOW", "clinical_significance": "Low estrogen from hypothalamic amenorrhea; increases risk for osteoporosis"},
-      {"test_name": "Prealbumin", "result": "12 mg/dL (low, normal 20-40)", "flag": "LOW", "clinical_significance": "Better marker of acute nutritional status than albumin; confirms significant protein-calorie malnutrition"},
-      {"test_name": "ESR", "result": "4 mm/hr", "flag": "WNL", "clinical_significance": "Low-normal ESR; paradoxically low in anorexia nervosa due to decreased fibrinogen production"},
-      {"test_name": "Urinalysis", "result": "Specific gravity 1.025, no ketones, no protein", "flag": "WNL", "clinical_significance": "Concentrated urine suggesting mild dehydration; no ketosis currently"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 3.2 (low), Hgb 11.2 (low), Hct 33.8, Plt 145 (low)",
+        "flag": "LOW",
+        "clinical_significance": "Pancytopenia consistent with bone marrow suppression from malnutrition (starvation marrow)"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 136, K 3.2 (low), Cl 98, CO2 28, BUN 22, Cr 0.9, Glucose 62 (low), Ca 8.8, AST 45, ALT 52, Albumin 3.2 (low)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypokalemia (risk for arrhythmia), hypoglycemia (depleted glycogen stores), mildly elevated transaminases (starvation hepatitis), low albumin (malnutrition)"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.5 mg/dL (low, normal 1.7-2.2)",
+        "flag": "LOW",
+        "clinical_significance": "Hypomagnesemia from poor intake; increases risk of cardiac arrhythmia"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "2.8 mg/dL (low normal)",
+        "flag": "WNL",
+        "clinical_significance": "Borderline low phosphorus; critical to monitor during refeeding due to risk of refeeding syndrome"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal TSH; low T3 syndrome (euthyroid sick syndrome) is common in anorexia but TSH is typically normal"
+      },
+      {
+        "test_name": "Free T3",
+        "result": "1.8 pg/mL (low, normal 2.3-4.2)",
+        "flag": "LOW",
+        "clinical_significance": "Low T3 syndrome from caloric deprivation — body downregulates metabolism; does not indicate primary thyroid disease"
+      },
+      {
+        "test_name": "LH/FSH",
+        "result": "LH 1.2 mIU/mL (low), FSH 2.8 mIU/mL (low)",
+        "flag": "LOW",
+        "clinical_significance": "Hypogonadotropic hypogonadism from hypothalamic suppression due to malnutrition — explains amenorrhea"
+      },
+      {
+        "test_name": "Estradiol",
+        "result": "12 pg/mL (low, premenopausal normal 15-350)",
+        "flag": "LOW",
+        "clinical_significance": "Low estrogen from hypothalamic amenorrhea; increases risk for osteoporosis"
+      },
+      {
+        "test_name": "Prealbumin",
+        "result": "12 mg/dL (low, normal 20-40)",
+        "flag": "LOW",
+        "clinical_significance": "Better marker of acute nutritional status than albumin; confirms significant protein-calorie malnutrition"
+      },
+      {
+        "test_name": "ESR",
+        "result": "4 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal ESR; paradoxically low in anorexia nervosa due to decreased fibrinogen production"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.025, no ketones, no protein",
+        "flag": "WNL",
+        "clinical_significance": "Concentrated urine suggesting mild dehydration; no ketosis currently"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG (12-lead)", "result": "Sinus bradycardia at 52 bpm. Normal axis. QTc prolonged at 480 ms. Low voltage. ST changes in precordial leads.", "flag": "ABNORMAL", "clinical_significance": "Bradycardia and prolonged QTc are concerning for cardiac arrhythmia risk in malnutrition; electrolyte abnormalities (low K, low Mg) increase this risk"},
-      {"test_name": "DEXA scan (bone density)", "result": "Z-score -2.1 at lumbar spine, -1.8 at femoral neck", "flag": "ABNORMAL", "clinical_significance": "Low bone mineral density (osteopenia approaching osteoporosis) from estrogen deficiency and malnutrition; high fracture risk"}
+      {
+        "test_name": "ECG (12-lead)",
+        "result": "Sinus bradycardia at 52 bpm. Normal axis. QTc prolonged at 480 ms. Low voltage. ST changes in precordial leads.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bradycardia and prolonged QTc are concerning for cardiac arrhythmia risk in malnutrition; electrolyte abnormalities (low K, low Mg) increase this risk"
+      },
+      {
+        "test_name": "DEXA scan (bone density)",
+        "result": "Z-score -2.1 at lumbar spine, -1.8 at femoral neck",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low bone mineral density (osteopenia approaching osteoporosis) from estrogen deficiency and malnutrition; high fracture risk"
+      }
     ],
     "key_tests": [
       "CMP with electrolytes — hypokalemia and hypoglycemia are life-threatening complications",
@@ -67,7 +132,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets DSM-5 criteria for Anorexia Nervosa, restricting type: (A) restriction of energy intake leading to significantly low body weight (BMI 15.8, <85% expected); (B) intense fear of gaining weight; (C) disturbance in body image (believes she is overweight despite cachexia). No binge-purge behaviors (restricting subtype). Laboratory findings confirm medical complications of starvation: pancytopenia, hypokalemia, hypomagnesemia, hypoglycemia, low T3, hypothalamic amenorrhea, and prolonged QTc. DEXA shows significant bone loss."
+    "final_clue": "The patient meets DSM-5 criteria for this condition: (A) restriction of energy intake leading to significantly low body weight (BMI 15.8, <85% expected); (B) intense fear of gaining weight; (C) disturbance in body image (believes she is overweight despite cachexia). No binge-purge behaviors (restricting subtype). Laboratory findings confirm medical complications of starvation: pancytopenia, hypokalemia, hypomagnesemia, hypoglycemia, low T3, hypothalamic amenorrhea, and prolonged QTc. DEXA shows significant bone loss."
   },
   "debrief": {
     "classic_presentation": "An adolescent or young adult female (though males can be affected) with significant weight loss from caloric restriction, intense fear of gaining weight, and body image distortion, often with amenorrhea. May present with medical complications including bradycardia, hypothermia, electrolyte abnormalities, and osteoporosis. Physical signs include lanugo hair, carotenemia, dry skin, and cachexia.",

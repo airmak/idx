@@ -25,25 +25,93 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "8,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
-      {"test_name": "CBC — Hemoglobin", "result": "15.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Glucose", "result": "94 mg/dL", "flag": "WNL", "clinical_significance": "Normal; diabetes excluded as risk factor (DM increases Bell palsy risk)"},
-      {"test_name": "HbA1c", "result": "5.2%", "flag": "WNL", "clinical_significance": "Normal; no diabetes"},
-      {"test_name": "Lyme antibody (ELISA)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; Lyme disease is an important treatable cause of facial palsy, especially in endemic areas"},
-      {"test_name": "ESR", "result": "12 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
-      {"test_name": "RPR/VDRL", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Syphilis excluded as cause of cranial neuropathy"},
-      {"test_name": "HIV screening", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Negative; HIV is a risk factor for facial palsy"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infection"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "15.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "94 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; diabetes excluded as risk factor (DM increases this condition risk)"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.2%",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no diabetes"
+      },
+      {
+        "test_name": "Lyme antibody (ELISA)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; Lyme disease is an important treatable cause of facial palsy, especially in endemic areas"
+      },
+      {
+        "test_name": "ESR",
+        "result": "12 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no systemic inflammatory process"
+      },
+      {
+        "test_name": "RPR/VDRL",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Syphilis excluded as cause of cranial neuropathy"
+      },
+      {
+        "test_name": "HIV screening",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Negative; HIV is a risk factor for facial palsy"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with gadolinium (if obtained)", "result": "Enhancement of the right facial nerve (CN VII) at the geniculate ganglion and labyrinthine segment. No mass lesion, stroke, or demyelinating disease. Normal brain parenchyma.", "flag": "ABNORMAL", "clinical_significance": "Facial nerve enhancement is seen in Bell palsy and represents inflammation/edema of the nerve within the bony facial canal. MRI is not required for diagnosis but helps exclude structural causes."}
+      {
+        "test_name": "MRI brain with gadolinium (if obtained)",
+        "result": "Enhancement of the right facial nerve (CN VII) at the geniculate ganglion and labyrinthine segment. No mass lesion, stroke, or demyelinating disease. Normal brain parenchyma.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Facial nerve enhancement is seen in this condition and represents inflammation/edema of the nerve within the bony facial canal. MRI is not required for diagnosis but helps exclude structural causes."
+      }
     ],
-    "key_tests": ["Clinical diagnosis (detailed neurological exam)", "Lyme serology (in endemic areas)", "Blood glucose or HbA1c"],
-    "acceptable_tests": ["CBC", "ESR/CRP", "RPR/VDRL", "HIV test", "MRI brain with gadolinium (if atypical features or no improvement)", "Electromyography/nerve conduction studies (for prognosis at 2 weeks if no improvement)", "BMP"],
-    "low_yield_tests": ["CT head", "Lumbar puncture (unless Lyme, HIV, or neoplastic meningitis suspected)", "EEG", "Carotid ultrasound", "Chest X-ray"]
+    "key_tests": [
+      "Clinical diagnosis (detailed neurological exam)",
+      "Lyme serology (in endemic areas)",
+      "Blood glucose or HbA1c"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "ESR/CRP",
+      "RPR/VDRL",
+      "HIV test",
+      "MRI brain with gadolinium (if atypical features or no improvement)",
+      "Electromyography/nerve conduction studies (for prognosis at 2 weeks if no improvement)",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "CT head",
+      "Lumbar puncture (unless Lyme, HIV, or neoplastic meningitis suspected)",
+      "EEG",
+      "Carotid ultrasound",
+      "Chest X-ray"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient's history and exam are consistent with Bell palsy: acute unilateral facial nerve palsy involving both the upper and lower face (LMN pattern), with retroauricular pain, hyperacusis, and dysgeusia. Lyme serology is negative. He is started on prednisone 60 mg/day for 7 days with taper, and prescribed artificial tears with nighttime eye patching. At 6-week follow-up, he has recovered ~80% of facial function."
+    "final_clue": "The patient's history and exam are consistent with the suspected diagnosis: acute unilateral facial nerve palsy involving both the upper and lower face (LMN pattern), with retroauricular pain, hyperacusis, and dysgeusia. Lyme serology is negative. He is started on prednisone 60 mg/day for 7 days with taper, and prescribed artificial tears with nighttime eye patching. At 6-week follow-up, he has recovered ~80% of facial function."
   },
   "debrief": {
     "classic_presentation": "Acute-onset unilateral facial weakness involving BOTH the forehead and lower face (LMN pattern), with inability to close the eye (Bell phenomenon), associated with retroauricular pain, hyperacusis, and loss of taste on the anterior two-thirds of the tongue. No other neurological deficits.",
@@ -64,9 +132,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Bell palsy", "Stroke (UMN facial weakness)", "Ramsay Hunt syndrome (herpes zoster oticus)", "Lyme disease", "Acoustic neuroma/vestibular schwannoma", "Parotid tumor", "Sarcoidosis (Heerfordt syndrome)"],
-    "after_stage2_more_likely": ["Bell palsy", "Ramsay Hunt syndrome"],
-    "after_stage2_less_likely": ["Stroke", "Acoustic neuroma", "Parotid tumor"],
-    "after_labs_top3": ["Bell palsy", "Ramsay Hunt syndrome", "Idiopathic facial nerve palsy"]
+    "reasonable_ddx": [
+      "Bell palsy",
+      "Stroke (UMN facial weakness)",
+      "Ramsay Hunt syndrome (herpes zoster oticus)",
+      "Lyme disease",
+      "Acoustic neuroma/vestibular schwannoma",
+      "Parotid tumor",
+      "Sarcoidosis (Heerfordt syndrome)"
+    ],
+    "after_stage2_more_likely": [
+      "Bell palsy",
+      "Ramsay Hunt syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Stroke",
+      "Acoustic neuroma",
+      "Parotid tumor"
+    ],
+    "after_labs_top3": [
+      "Bell palsy",
+      "Ramsay Hunt syndrome",
+      "Idiopathic facial nerve palsy"
+    ]
   }
 }

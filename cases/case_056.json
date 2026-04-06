@@ -25,31 +25,128 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Total Bilirubin", "result": "14.8 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with biliary obstruction"},
-      {"test_name": "Direct Bilirubin", "result": "12.2 mg/dL", "flag": "HIGH", "clinical_significance": "Predominantly conjugated (direct) hyperbilirubinemia confirms obstructive etiology"},
-      {"test_name": "Alkaline Phosphatase", "result": "642 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, cholestatic pattern typical of biliary obstruction"},
-      {"test_name": "GGT", "result": "486 U/L", "flag": "HIGH", "clinical_significance": "Elevated, confirms hepatobiliary origin of elevated ALP"},
-      {"test_name": "ALT", "result": "128 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated, secondary to cholestasis"},
-      {"test_name": "AST", "result": "96 U/L", "flag": "HIGH", "clinical_significance": "Moderately elevated"},
-      {"test_name": "Albumin", "result": "3.0 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic disease, malnutrition, and hepatic synthetic dysfunction"},
-      {"test_name": "PT/INR", "result": "INR 1.4", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from vitamin K malabsorption due to bile salt deficiency from biliary obstruction"},
-      {"test_name": "CA 19-9", "result": "486 U/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (normal <37); CA 19-9 >129 in PSC patients has high sensitivity for cholangiocarcinoma"},
-      {"test_name": "CEA", "result": "8.2 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may be elevated in cholangiocarcinoma but is nonspecific"},
-      {"test_name": "CBC - WBC", "result": "9.8 x10^9/L", "flag": "WNL", "clinical_significance": "Normal white count, no overt cholangitis"},
-      {"test_name": "CBC - Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely anemia of chronic disease"}
+      {
+        "test_name": "Total Bilirubin",
+        "result": "14.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with biliary obstruction"
+      },
+      {
+        "test_name": "Direct Bilirubin",
+        "result": "12.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Predominantly conjugated (direct) hyperbilirubinemia confirms obstructive etiology"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "642 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, cholestatic pattern typical of biliary obstruction"
+      },
+      {
+        "test_name": "GGT",
+        "result": "486 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, confirms hepatobiliary origin of elevated ALP"
+      },
+      {
+        "test_name": "ALT",
+        "result": "128 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Moderately elevated, secondary to cholestasis"
+      },
+      {
+        "test_name": "AST",
+        "result": "96 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Moderately elevated"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.0 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low, reflecting chronic disease, malnutrition, and hepatic synthetic dysfunction"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "INR 1.4",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely from vitamin K malabsorption due to bile salt deficiency from biliary obstruction"
+      },
+      {
+        "test_name": "CA 19-9",
+        "result": "486 U/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (normal <37); CA 19-9 >129 in PSC patients has high sensitivity for this condition"
+      },
+      {
+        "test_name": "CEA",
+        "result": "8.2 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; may be elevated in this condition but is nonspecific"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "9.8 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal white count, no overt cholangitis"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "11.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely anemia of chronic disease"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast (triple phase)", "result": "A 3.2 cm hilar mass at the confluence of the right and left hepatic ducts (Klatskin tumor) causing marked intrahepatic biliary dilation bilaterally. The gallbladder is distended. Main portal vein appears patent. No definite hepatic metastases. No peritoneal carcinomatosis. Mild perihilar lymphadenopathy. No ascites.", "flag": "ABNORMAL", "clinical_significance": "Hilar cholangiocarcinoma (Bismuth-Corlette type IIIA or higher) causing bilateral intrahepatic ductal dilation. Portal vein patency is critical for surgical resectability assessment."},
-      {"test_name": "MRCP (Magnetic Resonance Cholangiopancreatography)", "result": "Complete obstruction at the hepatic duct confluence with bilateral intrahepatic biliary dilation. A 3.4 cm enhancing hilar mass is identified. The right hepatic duct appears involved with extension to the right posterior sectoral duct. Left hepatic duct is dilated to the hilum. No intrahepatic metastases. Main portal vein patent. Right portal vein encased by tumor.", "flag": "ABNORMAL", "clinical_significance": "MRCP confirms hilar cholangiocarcinoma (Bismuth type IIIa) with right portal vein encasement, which has implications for surgical planning and resectability."},
-      {"test_name": "Brush Cytology (via ERCP)", "result": "Atypical cells suspicious for adenocarcinoma. FISH (fluorescence in situ hybridization) positive for polysomy, consistent with malignancy.", "flag": "ABNORMAL", "clinical_significance": "Cytology with FISH positivity significantly increases diagnostic yield for cholangiocarcinoma in the setting of PSC. Confirms malignant biliary stricture."}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast (triple phase)",
+        "result": "A 3.2 cm hilar mass at the confluence of the right and left hepatic ducts (Klatskin tumor) causing marked intrahepatic biliary dilation bilaterally. The gallbladder is distended. Main portal vein appears patent. No definite hepatic metastases. No peritoneal carcinomatosis. Mild perihilar lymphadenopathy. No ascites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hilar this condition (Bismuth-Corlette type IIIA or higher) causing bilateral intrahepatic ductal dilation. Portal vein patency is critical for surgical resectability assessment."
+      },
+      {
+        "test_name": "MRCP (Magnetic Resonance Cholangiopancreatography)",
+        "result": "Complete obstruction at the hepatic duct confluence with bilateral intrahepatic biliary dilation. A 3.4 cm enhancing hilar mass is identified. The right hepatic duct appears involved with extension to the right posterior sectoral duct. Left hepatic duct is dilated to the hilum. No intrahepatic metastases. Main portal vein patent. Right portal vein encased by tumor.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRCP confirms hilar this condition (Bismuth type IIIa) with right portal vein encasement, which has implications for surgical planning and resectability."
+      },
+      {
+        "test_name": "Brush Cytology (via ERCP)",
+        "result": "Atypical cells suspicious for adenocarcinoma. FISH (fluorescence in situ hybridization) positive for polysomy, consistent with malignancy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cytology with FISH positivity significantly increases diagnostic yield for this condition in the setting of PSC. Confirms malignant biliary stricture."
+      }
     ],
-    "key_tests": ["CT abdomen (triple phase)", "MRCP", "Hepatic function panel (bilirubin, ALP, GGT, transaminases)", "CA 19-9", "ERCP with brush cytology and FISH"],
-    "acceptable_tests": ["CBC", "BMP", "Coagulation studies (PT/INR)", "CEA", "Albumin", "Chest CT (staging)", "PET/CT (staging for extrahepatic disease)", "EUS with FNA (for distal lesions)", "Percutaneous transhepatic cholangiography (PTC)"],
-    "low_yield_tests": ["Abdominal ultrasound alone (insufficient for staging)", "Percutaneous biopsy of hilar mass (risk of tumor seeding along needle tract)", "Abdominal X-ray", "Upper GI series", "Colonoscopy (for cholangiocarcinoma evaluation)"],
+    "key_tests": [
+      "CT abdomen (triple phase)",
+      "MRCP",
+      "Hepatic function panel (bilirubin, ALP, GGT, transaminases)",
+      "CA 19-9",
+      "ERCP with brush cytology and FISH"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "Coagulation studies (PT/INR)",
+      "CEA",
+      "Albumin",
+      "Chest CT (staging)",
+      "PET/CT (staging for extrahepatic disease)",
+      "EUS with FNA (for distal lesions)",
+      "Percutaneous transhepatic cholangiography (PTC)"
+    ],
+    "low_yield_tests": [
+      "Abdominal ultrasound alone (insufficient for staging)",
+      "Percutaneous biopsy of hilar mass (risk of tumor seeding along needle tract)",
+      "Abdominal X-ray",
+      "Upper GI series",
+      "Colonoscopy (for cholangiocarcinoma evaluation)"
+    ],
     "final_clue": "CT and MRCP reveal a 3.4 cm hilar mass at the bile duct confluence (Klatskin tumor, Bismuth IIIa) with bilateral intrahepatic dilation and right portal vein encasement. CA 19-9 is markedly elevated at 486 U/mL. Brush cytology with FISH confirms malignancy. In a patient with longstanding primary sclerosing cholangitis, this is cholangiocarcinoma — the most feared complication of PSC."
   },
   "stage5": {
-    "final_clue": "CT and MRCP reveal a 3.4 cm hilar mass at the bile duct confluence (Klatskin tumor, Bismuth IIIa) with bilateral intrahepatic dilation and right portal vein encasement. CA 19-9 is markedly elevated at 486 U/mL. Brush cytology with FISH confirms malignancy. In a patient with longstanding primary sclerosing cholangitis, this is cholangiocarcinoma — the most feared complication of PSC."
+    "final_clue": "CT and MRCP reveal a 3.4 cm hilar mass at the bile duct confluence (Klatskin tumor, Bismuth IIIa) with bilateral intrahepatic dilation and right portal vein encasement. CA 19-9 is markedly elevated at 486 U/mL. Brush cytology with FISH confirms malignancy. In a patient with longstanding primary sclerosing cholangitis, this is this condition — the most feared complication of PSC."
   },
   "debrief": {
     "classic_presentation": "Painless obstructive jaundice with pruritus, weight loss, and acholic stools. A palpable, non-tender gallbladder in the setting of painless jaundice (Courvoisier sign) suggests malignant biliary obstruction rather than gallstone disease. Cholangiocarcinoma is classified by anatomic location: intrahepatic (peripheral), perihilar (Klatskin tumor, 60-70% of cases), and distal extrahepatic. Primary sclerosing cholangitis is the strongest risk factor in Western countries; liver flukes (Opisthorchis, Clonorchis) are the major risk factor in Southeast Asia.",
@@ -72,9 +169,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Cholangiocarcinoma (perihilar)", "Pancreatic head adenocarcinoma", "Benign PSC dominant stricture", "Gallbladder carcinoma", "Hepatocellular carcinoma", "Ampullary carcinoma", "IgG4-related sclerosing cholangitis", "Metastatic disease to the porta hepatis"],
-    "after_stage2_more_likely": ["Cholangiocarcinoma", "Pancreatic head adenocarcinoma", "Gallbladder carcinoma"],
-    "after_stage2_less_likely": ["Benign PSC dominant stricture", "Hepatocellular carcinoma"],
-    "after_labs_top3": ["Cholangiocarcinoma", "Pancreatic head adenocarcinoma", "Gallbladder carcinoma"]
+    "reasonable_ddx": [
+      "Cholangiocarcinoma (perihilar)",
+      "Pancreatic head adenocarcinoma",
+      "Benign PSC dominant stricture",
+      "Gallbladder carcinoma",
+      "Hepatocellular carcinoma",
+      "Ampullary carcinoma",
+      "IgG4-related sclerosing cholangitis",
+      "Metastatic disease to the porta hepatis"
+    ],
+    "after_stage2_more_likely": [
+      "Cholangiocarcinoma",
+      "Pancreatic head adenocarcinoma",
+      "Gallbladder carcinoma"
+    ],
+    "after_stage2_less_likely": [
+      "Benign PSC dominant stricture",
+      "Hepatocellular carcinoma"
+    ],
+    "after_labs_top3": [
+      "Cholangiocarcinoma",
+      "Pancreatic head adenocarcinoma",
+      "Gallbladder carcinoma"
+    ]
   }
 }

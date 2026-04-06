@@ -25,29 +25,116 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 6.8, Hgb 9.8, MCV 82, Plt 280", "flag": "LOW", "clinical_significance": "Normocytic anemia from chronic disease and malabsorption"},
-      {"test_name": "Albumin", "result": "2.2 g/dL", "flag": "LOW", "clinical_significance": "Markedly low from protein malabsorption and chronic illness"},
-      {"test_name": "Iron studies", "result": "Ferritin 15, Iron 28, TIBC 380", "flag": "LOW", "clinical_significance": "Iron deficiency from small bowel malabsorption"},
-      {"test_name": "Vitamin D, 25-hydroxy", "result": "8 ng/mL", "flag": "LOW", "clinical_significance": "Severe deficiency from fat-soluble vitamin malabsorption"},
-      {"test_name": "Folate", "result": "2.8 ng/mL", "flag": "LOW", "clinical_significance": "Low from proximal small bowel malabsorption"},
-      {"test_name": "CRP", "result": "42 mg/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting chronic systemic inflammation"},
-      {"test_name": "ESR", "result": "65 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
-      {"test_name": "RF and anti-CCP", "result": "Both negative", "flag": "WNL", "clinical_significance": "Seronegative arthritis — seronegative migratory arthritis preceding GI symptoms is characteristic of Whipple disease"},
-      {"test_name": "Fecal fat (72-hour)", "result": "18 g/day (normal <7)", "flag": "HIGH", "clinical_significance": "Marked steatorrhea confirming fat malabsorption"},
-      {"test_name": "Whipple PCR (blood)", "result": "Tropheryma whipplei DNA detected by PCR", "flag": "ABNORMAL", "clinical_significance": "Positive PCR supports systemic T. whipplei infection"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.8, Hgb 9.8, MCV 82, Plt 280",
+        "flag": "LOW",
+        "clinical_significance": "Normocytic anemia from chronic disease and malabsorption"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "2.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Markedly low from protein malabsorption and chronic illness"
+      },
+      {
+        "test_name": "Iron studies",
+        "result": "Ferritin 15, Iron 28, TIBC 380",
+        "flag": "LOW",
+        "clinical_significance": "Iron deficiency from small bowel malabsorption"
+      },
+      {
+        "test_name": "Vitamin D, 25-hydroxy",
+        "result": "8 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Severe deficiency from fat-soluble vitamin malabsorption"
+      },
+      {
+        "test_name": "Folate",
+        "result": "2.8 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low from proximal small bowel malabsorption"
+      },
+      {
+        "test_name": "CRP",
+        "result": "42 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, reflecting chronic systemic inflammation"
+      },
+      {
+        "test_name": "ESR",
+        "result": "65 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker"
+      },
+      {
+        "test_name": "RF and anti-CCP",
+        "result": "Both negative",
+        "flag": "WNL",
+        "clinical_significance": "Seronegative arthritis — seronegative migratory arthritis preceding GI symptoms is characteristic of this condition"
+      },
+      {
+        "test_name": "Fecal fat (72-hour)",
+        "result": "18 g/day (normal <7)",
+        "flag": "HIGH",
+        "clinical_significance": "Marked steatorrhea confirming fat malabsorption"
+      },
+      {
+        "test_name": "Whipple PCR (blood)",
+        "result": "Tropheryma whipplei DNA detected by PCR",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive PCR supports systemic T. whipplei infection"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upper endoscopy (EGD) with duodenal biopsies", "result": "Duodenal mucosa shows pale yellow, shaggy mucosa with patchy erythema and thickened folds in D2 and D3. Biopsies obtained from multiple sites.", "flag": "ABNORMAL", "clinical_significance": "The pale yellow, shaggy mucosal appearance of the duodenum is characteristic of Whipple disease and represents lipid-laden macrophages in the lamina propria."},
-      {"test_name": "Duodenal biopsies with PAS stain", "result": "Lamina propria distended with foamy macrophages that stain intensely positive with periodic acid-Schiff (PAS) and are diastase-resistant (PAS-D positive). Villous blunting. No granulomas. PCR confirms Tropheryma whipplei.", "flag": "ABNORMAL", "clinical_significance": "PAS-positive, diastase-resistant macrophages in the duodenal lamina propria are pathognomonic for Whipple disease. T. whipplei PCR on tissue confirms the diagnosis."},
-      {"test_name": "CT abdomen/pelvis", "result": "Diffuse mesenteric and retroperitoneal lymphadenopathy with low-attenuation centers. Thickened small bowel folds in the jejunum. No hepatosplenomegaly.", "flag": "ABNORMAL", "clinical_significance": "Low-attenuation lymphadenopathy reflects lipid-laden macrophages in the nodes, characteristic of Whipple disease."}
+      {
+        "test_name": "Upper endoscopy (EGD) with duodenal biopsies",
+        "result": "Duodenal mucosa shows pale yellow, shaggy mucosa with patchy erythema and thickened folds in D2 and D3. Biopsies obtained from multiple sites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The pale yellow, shaggy mucosal appearance of the duodenum is characteristic of this condition and represents lipid-laden macrophages in the lamina propria."
+      },
+      {
+        "test_name": "Duodenal biopsies with PAS stain",
+        "result": "Lamina propria distended with foamy macrophages that stain intensely positive with periodic acid-Schiff (PAS) and are diastase-resistant (PAS-D positive). Villous blunting. No granulomas. PCR confirms Tropheryma whipplei.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PAS-positive, diastase-resistant macrophages in the duodenal lamina propria are pathognomonic for this condition. T. whipplei PCR on tissue confirms the diagnosis."
+      },
+      {
+        "test_name": "CT abdomen/pelvis",
+        "result": "Diffuse mesenteric and retroperitoneal lymphadenopathy with low-attenuation centers. Thickened small bowel folds in the jejunum. No hepatosplenomegaly.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-attenuation lymphadenopathy reflects lipid-laden macrophages in the nodes, characteristic of this condition."
+      }
     ],
-    "key_tests": ["Upper endoscopy with duodenal biopsies (PAS stain)", "T. whipplei PCR (tissue or blood)", "CBC", "Albumin", "Fecal fat"],
-    "acceptable_tests": ["Iron studies", "Folate/B12", "Vitamin D", "CRP/ESR", "RF and anti-CCP", "CT abdomen", "Brain MRI (if neurologic symptoms)", "Echocardiogram (if murmur/endocarditis concern)"],
-    "low_yield_tests": ["Colonoscopy", "Celiac serologies (tTG-IgA)", "ANA panel", "MRCP", "Stool culture", "C. difficile testing"],
+    "key_tests": [
+      "Upper endoscopy with duodenal biopsies (PAS stain)",
+      "T. whipplei PCR (tissue or blood)",
+      "CBC",
+      "Albumin",
+      "Fecal fat"
+    ],
+    "acceptable_tests": [
+      "Iron studies",
+      "Folate/B12",
+      "Vitamin D",
+      "CRP/ESR",
+      "RF and anti-CCP",
+      "CT abdomen",
+      "Brain MRI (if neurologic symptoms)",
+      "Echocardiogram (if murmur/endocarditis concern)"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy",
+      "Celiac serologies (tTG-IgA)",
+      "ANA panel",
+      "MRCP",
+      "Stool culture",
+      "C. difficile testing"
+    ],
     "key_tests_rationale": "Duodenal biopsy with PAS stain is the gold standard — PAS-positive, diastase-resistant macrophages are pathognomonic. T. whipplei PCR on tissue provides molecular confirmation and can also be tested on blood, CSF, or synovial fluid. CBC and albumin assess the severity of malabsorption. Fecal fat quantifies steatorrhea."
   },
   "stage5": {
-    "final_clue": "A middle-aged male farmer with a triad of chronic diarrhea with malabsorption, migratory seronegative arthritis (preceding GI symptoms by years), and neurologic involvement (cognitive decline, supranuclear ophthalmoplegia), plus diffuse lymphadenopathy, hyperpigmentation, and a new cardiac murmur. Duodenal biopsies showing PAS-positive, diastase-resistant macrophages with PCR confirmation of Tropheryma whipplei establishes the diagnosis of Whipple disease."
+    "final_clue": "A middle-aged male farmer with a triad of chronic diarrhea with malabsorption, migratory seronegative arthritis (preceding GI symptoms by years), and neurologic involvement (cognitive decline, supranuclear ophthalmoplegia), plus diffuse lymphadenopathy, hyperpigmentation, and a new cardiac murmur. Duodenal biopsies showing PAS-positive, diastase-resistant macrophages with PCR confirmation of Tropheryma whipplei establishes the diagnosis of this condition."
   },
   "debrief": {
     "classic_presentation": "Whipple disease is a rare, chronic systemic infection caused by Tropheryma whipplei, a gram-positive actinobacterium. The classic tetrad includes: (1) arthralgias/arthritis (often the earliest symptom, preceding GI symptoms by years), (2) chronic diarrhea with malabsorption, (3) weight loss, and (4) abdominal pain. Systemic features include fever, lymphadenopathy, hyperpigmentation, cardiac involvement (endocarditis, pericarditis), and neurologic manifestations (cognitive decline, supranuclear ophthalmoplegia, oculomasticatory myorhythmia).",
@@ -68,9 +155,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Celiac disease", "Small intestinal bacterial overgrowth", "Crohn disease", "Intestinal lymphoma", "Mycobacterium avium complex (MAC)", "Tropical sprue", "Sarcoidosis"],
-    "after_stage2_more_likely": ["Whipple disease", "Intestinal lymphoma", "Crohn disease"],
-    "after_stage2_less_likely": ["Celiac disease", "SIBO", "Tropical sprue"],
-    "after_labs_top3": ["Whipple disease", "Intestinal lymphoma", "Disseminated MAC"]
+    "reasonable_ddx": [
+      "Celiac disease",
+      "Small intestinal bacterial overgrowth",
+      "Crohn disease",
+      "Intestinal lymphoma",
+      "Mycobacterium avium complex (MAC)",
+      "Tropical sprue",
+      "Sarcoidosis"
+    ],
+    "after_stage2_more_likely": [
+      "Whipple disease",
+      "Intestinal lymphoma",
+      "Crohn disease"
+    ],
+    "after_stage2_less_likely": [
+      "Celiac disease",
+      "SIBO",
+      "Tropical sprue"
+    ],
+    "after_labs_top3": [
+      "Whipple disease",
+      "Intestinal lymphoma",
+      "Disseminated MAC"
+    ]
   }
 }

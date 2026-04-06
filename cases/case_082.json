@@ -25,31 +25,129 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "450 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated from RV strain and dysfunction, prognostic marker in PAH"},
-      {"test_name": "Troponin I", "result": "0.05 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated from RV ischemia due to increased wall stress"},
-      {"test_name": "ANA", "result": "Weakly positive (1:80, speckled)", "flag": "ABNORMAL", "clinical_significance": "Low titer, nonspecific — full connective tissue panel negative, unlikely CTD-associated PAH"},
-      {"test_name": "Anti-Scl-70, anti-centromere", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out scleroderma-associated PAH"},
-      {"test_name": "Anti-dsDNA, anti-Smith", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out SLE-associated PAH"},
-      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV-associated PAH"},
-      {"test_name": "Hepatitis panel", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out portopulmonary hypertension from liver disease"},
-      {"test_name": "TSH", "result": "5.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated — thyroid disease is associated with PAH and should be treated"},
-      {"test_name": "Uric acid", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, associated with severity and poor prognosis in PAH"},
-      {"test_name": "CBC", "result": "WBC 6.5, Hgb 15.8, Plt 195", "flag": "HIGH", "clinical_significance": "Polycythemia from chronic hypoxemia"},
-      {"test_name": "D-dimer", "result": "0.3 µg/mL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "LFTs", "result": "ALT 38, AST 35, Alk Phos 120", "flag": "WNL", "clinical_significance": "Mildly elevated alk phos from hepatic congestion"}
+      {
+        "test_name": "BNP",
+        "result": "450 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from RV strain and dysfunction, prognostic marker in PAH"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.05 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from RV ischemia due to increased wall stress"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Weakly positive (1:80, speckled)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low titer, nonspecific — full connective tissue panel negative, unlikely CTD-associated PAH"
+      },
+      {
+        "test_name": "Anti-Scl-70, anti-centromere",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out scleroderma-associated PAH"
+      },
+      {
+        "test_name": "Anti-dsDNA, anti-Smith",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out SLE-associated PAH"
+      },
+      {
+        "test_name": "HIV antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out HIV-associated PAH"
+      },
+      {
+        "test_name": "Hepatitis panel",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out portopulmonary hypertension from liver disease"
+      },
+      {
+        "test_name": "TSH",
+        "result": "5.8 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated — thyroid disease is associated with PAH and should be treated"
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "8.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, associated with severity and poor prognosis in PAH"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.5, Hgb 15.8, Plt 195",
+        "flag": "HIGH",
+        "clinical_significance": "Polycythemia from chronic hypoxemia"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "0.3 µg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "ALT 38, AST 35, Alk Phos 120",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated alk phos from hepatic congestion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Right heart catheterization", "result": "Mean PAP 52 mmHg (normal <20), PCWP 10 mmHg (normal), PVR 10 Wood units (markedly elevated, normal <3), cardiac index 2.0 L/min/m² (reduced). Positive acute vasoreactivity test (>10 mmHg decrease in mPAP to <40 with inhaled NO).", "flag": "ABNORMAL", "clinical_significance": "Confirms pre-capillary pulmonary hypertension (mPAP ≥20, PCWP ≤15, PVR >2). Positive vasoreactivity allows trial of CCB therapy."},
-      {"test_name": "CT pulmonary angiography", "result": "Dilated main pulmonary artery (35 mm). No filling defects (no PE). Dilated right heart chambers. No parenchymal lung disease.", "flag": "ABNORMAL", "clinical_significance": "Excludes chronic thromboembolic disease (CTEPH). Dilated PA supports pulmonary hypertension."},
-      {"test_name": "Transthoracic Echocardiogram", "result": "Dilated RV with reduced function (TAPSE 14 mm). Flattened interventricular septum (D-shaped LV in systole). Moderate tricuspid regurgitation with estimated RVSP 75 mmHg. Small pericardial effusion. Normal LV size and function.", "flag": "ABNORMAL", "clinical_significance": "Severe RV pressure overload and dysfunction. Pericardial effusion in PAH is a marker of poor prognosis."}
+      {
+        "test_name": "Right heart catheterization",
+        "result": "Mean PAP 52 mmHg (normal <20), PCWP 10 mmHg (normal), PVR 10 Wood units (markedly elevated, normal <3), cardiac index 2.0 L/min/m² (reduced). Positive acute vasoreactivity test (>10 mmHg decrease in mPAP to <40 with inhaled NO).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms pre-capillary pulmonary hypertension (mPAP ≥20, PCWP ≤15, PVR >2). Positive vasoreactivity allows trial of CCB therapy."
+      },
+      {
+        "test_name": "CT pulmonary angiography",
+        "result": "Dilated main pulmonary artery (35 mm). No filling defects (no PE). Dilated right heart chambers. No parenchymal lung disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Excludes chronic thromboembolic disease (CTEPH). Dilated PA supports pulmonary hypertension."
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Dilated RV with reduced function (TAPSE 14 mm). Flattened interventricular septum (D-shaped LV in systole). Moderate tricuspid regurgitation with estimated RVSP 75 mmHg. Small pericardial effusion. Normal LV size and function.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe RV pressure overload and dysfunction. Pericardial effusion in PAH is a marker of poor prognosis."
+      }
     ],
-    "key_tests": ["Right heart catheterization (gold standard)", "Transthoracic echocardiogram", "CT pulmonary angiography", "V/Q scan", "BNP"],
-    "acceptable_tests": ["6-minute walk test", "Pulmonary function tests", "ANA and connective tissue serologies", "HIV test", "Hepatitis panel", "Chest X-ray", "CBC", "LFTs", "TSH", "Overnight oximetry/sleep study"],
-    "low_yield_tests": ["Coronary angiography", "Stress test", "Cardiac MRI (helpful but not essential)", "D-dimer", "Holter monitor"],
+    "key_tests": [
+      "Right heart catheterization (gold standard)",
+      "Transthoracic echocardiogram",
+      "CT pulmonary angiography",
+      "V/Q scan",
+      "BNP"
+    ],
+    "acceptable_tests": [
+      "6-minute walk test",
+      "Pulmonary function tests",
+      "ANA and connective tissue serologies",
+      "HIV test",
+      "Hepatitis panel",
+      "Chest X-ray",
+      "CBC",
+      "LFTs",
+      "TSH",
+      "Overnight oximetry/sleep study"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography",
+      "Stress test",
+      "Cardiac MRI (helpful but not essential)",
+      "D-dimer",
+      "Holter monitor"
+    ],
     "key_tests_rationale": "Right heart catheterization is the gold standard — confirms pre-capillary PH and allows vasoreactivity testing. Echo screens for RV dysfunction and estimates RVSP. CTPA/V-Q scan excludes CTEPH. BNP correlates with prognosis."
   },
   "stage5": {
-    "final_clue": "Right heart catheterization confirms pre-capillary pulmonary hypertension (mPAP 52 mmHg, PCWP 10 mmHg, PVR 10 WU) with a positive vasoreactivity test. After excluding CTD, CTEPH, lung disease, HIV, and liver disease, the diagnosis is idiopathic pulmonary arterial hypertension."
+    "final_clue": "Right heart catheterization confirms pre-capillary pulmonary hypertension (mPAP 52 mmHg, PCWP 10 mmHg, PVR 10 WU) with a positive vasoreactivity test. After excluding CTD, CTEPH, lung disease, HIV, and liver disease, the diagnosis is this condition."
   },
   "debrief": {
     "classic_presentation": "Idiopathic PAH typically presents in young women (20-40 years) with progressive exertional dyspnea, fatigue, exertional syncope, and right heart failure signs. Loud P2, RV heave, and tricuspid regurgitation murmur are classic exam findings. Exertional syncope indicates inability to augment cardiac output and is a high-risk feature.",
@@ -71,9 +169,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Chronic thromboembolic pulmonary hypertension (CTEPH)", "Connective tissue disease-associated PAH (scleroderma)", "Left heart disease (HFpEF)", "Chronic lung disease with PH", "Pulmonary veno-occlusive disease", "Congenital heart disease with Eisenmenger"],
-    "after_stage2_more_likely": ["Idiopathic PAH", "CTD-associated PAH", "CTEPH"],
-    "after_stage2_less_likely": ["Left heart disease", "Chronic lung disease", "Congenital heart disease"],
-    "after_labs_top3": ["Idiopathic pulmonary arterial hypertension", "CTD-associated PAH", "CTEPH"]
+    "reasonable_ddx": [
+      "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+      "Connective tissue disease-associated PAH (scleroderma)",
+      "Left heart disease (HFpEF)",
+      "Chronic lung disease with PH",
+      "Pulmonary veno-occlusive disease",
+      "Congenital heart disease with Eisenmenger"
+    ],
+    "after_stage2_more_likely": [
+      "Idiopathic PAH",
+      "CTD-associated PAH",
+      "CTEPH"
+    ],
+    "after_stage2_less_likely": [
+      "Left heart disease",
+      "Chronic lung disease",
+      "Congenital heart disease"
+    ],
+    "after_labs_top3": [
+      "Idiopathic pulmonary arterial hypertension",
+      "CTD-associated PAH",
+      "CTEPH"
+    ]
   }
 }

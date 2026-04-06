@@ -25,30 +25,122 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,400/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal; metabolic encephalopathy less likely"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hypothyroidism excluded"},
-      {"test_name": "Vitamin B12", "result": "380 pg/mL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Syphilis excluded"},
-      {"test_name": "HIV 1/2 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "HIV dementia excluded"},
-      {"test_name": "CSF — 14-3-3 protein", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Elevated in rapid neuronal destruction; supports CJD diagnosis but is not specific (also elevated in stroke, encephalitis, seizures). Sensitivity ~90% for sCJD."},
-      {"test_name": "CSF — RT-QuIC (Real-Time Quaking-Induced Conversion)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "RT-QuIC is the most specific CSF test for prion disease (specificity 98-100%, sensitivity ~90% for sCJD). A positive result is essentially diagnostic of prion disease."},
-      {"test_name": "CSF — Total tau", "result": "12,400 pg/mL (markedly elevated)", "flag": "HIGH", "clinical_significance": "Markedly elevated tau (>1,150 pg/mL) reflects rapid and massive neuronal loss; supports CJD over other dementias"},
-      {"test_name": "CSF — Routine studies", "result": "WBC 1/uL, protein 42 mg/dL, glucose 62 mg/dL", "flag": "WNL", "clinical_significance": "Normal routine CSF; absence of pleocytosis and normal glucose argue against infectious meningitis/encephalitis"},
-      {"test_name": "Hepatic function panel", "result": "ALT 22 U/L, AST 28 U/L, Albumin 3.6 g/dL", "flag": "WNL", "clinical_significance": "Normal; hepatic encephalopathy excluded"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,400/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infection"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; metabolic encephalopathy less likely"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypothyroidism excluded"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "380 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Syphilis excluded"
+      },
+      {
+        "test_name": "HIV 1/2 antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "HIV dementia excluded"
+      },
+      {
+        "test_name": "CSF — 14-3-3 protein",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated in rapid neuronal destruction; supports CJD diagnosis but is not specific (also elevated in stroke, encephalitis, seizures). Sensitivity ~90% for sCJD."
+      },
+      {
+        "test_name": "CSF — RT-QuIC (Real-Time Quaking-Induced Conversion)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RT-QuIC is the most specific CSF test for prion disease (specificity 98-100%, sensitivity ~90% for sCJD). A positive result is essentially diagnostic of prion disease."
+      },
+      {
+        "test_name": "CSF — Total tau",
+        "result": "12,400 pg/mL (markedly elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated tau (>1,150 pg/mL) reflects rapid and massive neuronal loss; supports CJD over other dementias"
+      },
+      {
+        "test_name": "CSF — Routine studies",
+        "result": "WBC 1/uL, protein 42 mg/dL, glucose 62 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal routine CSF; absence of pleocytosis and normal glucose argue against infectious meningitis/encephalitis"
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "ALT 22 U/L, AST 28 U/L, Albumin 3.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hepatic encephalopathy excluded"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with DWI", "result": "Cortical ribboning: high signal on DWI and FLAIR in the cortex of bilateral parietal, occipital, and frontal lobes (ribbon-like cortical hyperintensity). High DWI signal in the caudate heads and putamina bilaterally. No mass, stroke, or hydrocephalus. Mild generalized atrophy.", "flag": "ABNORMAL", "clinical_significance": "Cortical ribboning on DWI is highly characteristic of CJD (sensitivity ~90%). Caudate and putamen involvement further supports the diagnosis. DWI is the most sensitive MRI sequence for CJD."},
-      {"test_name": "EEG", "result": "Periodic sharp-wave complexes (PSWCs) at 1-2 Hz, generalized, superimposed on diffusely slow background (delta range). Triphasic morphology in some leads.", "flag": "ABNORMAL", "clinical_significance": "Periodic sharp-wave complexes are classic for sporadic CJD (seen in ~60-70% of cases, more common in later stages). Combined with clinical and MRI findings, highly suggestive of CJD."}
+      {
+        "test_name": "MRI brain with DWI",
+        "result": "Cortical ribboning: high signal on DWI and FLAIR in the cortex of bilateral parietal, occipital, and frontal lobes (ribbon-like cortical hyperintensity). High DWI signal in the caudate heads and putamina bilaterally. No mass, stroke, or hydrocephalus. Mild generalized atrophy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cortical ribboning on DWI is highly characteristic of CJD (sensitivity ~90%). Caudate and putamen involvement further supports the diagnosis. DWI is the most sensitive MRI sequence for CJD."
+      },
+      {
+        "test_name": "EEG",
+        "result": "Periodic sharp-wave complexes (PSWCs) at 1-2 Hz, generalized, superimposed on diffusely slow background (delta range). Triphasic morphology in some leads.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Periodic sharp-wave complexes are classic for sporadic CJD (seen in ~60-70% of cases, more common in later stages). Combined with clinical and MRI findings, highly suggestive of CJD."
+      }
     ],
-    "key_tests": ["MRI brain with DWI sequences (cortical ribboning and basal ganglia signal)", "CSF RT-QuIC assay (most specific antemortem test for prion disease)", "CSF 14-3-3 protein and total tau", "EEG (periodic sharp-wave complexes)", "Comprehensive metabolic and infectious dementia workup (to exclude treatable causes)"],
-    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "RPR/VDRL", "HIV testing", "Hepatic function panel", "CSF routine studies", "Paraneoplastic antibody panel", "PRNP gene sequencing (to exclude genetic prion disease)"],
-    "low_yield_tests": ["Brain biopsy (rarely needed if RT-QuIC positive)", "CT head (insensitive compared to MRI-DWI)", "Carotid ultrasound", "Cerebral angiography"],
+    "key_tests": [
+      "MRI brain with DWI sequences (cortical ribboning and basal ganglia signal)",
+      "CSF RT-QuIC assay (most specific antemortem test for prion disease)",
+      "CSF 14-3-3 protein and total tau",
+      "EEG (periodic sharp-wave complexes)",
+      "Comprehensive metabolic and infectious dementia workup (to exclude treatable causes)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "TSH",
+      "Vitamin B12",
+      "RPR/VDRL",
+      "HIV testing",
+      "Hepatic function panel",
+      "CSF routine studies",
+      "Paraneoplastic antibody panel",
+      "PRNP gene sequencing (to exclude genetic prion disease)"
+    ],
+    "low_yield_tests": [
+      "Brain biopsy (rarely needed if RT-QuIC positive)",
+      "CT head (insensitive compared to MRI-DWI)",
+      "Carotid ultrasound",
+      "Cerebral angiography"
+    ],
     "low_yield_tests_note": "Brain biopsy is definitive but rarely needed given RT-QuIC specificity of 98-100%. Post-mortem neuropathology remains the gold standard."
   },
   "stage5": {
-    "final_clue": "The combination of rapidly progressive dementia (weeks to months), myoclonus, cerebellar ataxia, and visual symptoms, with MRI showing cortical ribboning on DWI and basal ganglia signal abnormalities, positive CSF RT-QuIC assay, positive 14-3-3 protein, markedly elevated tau, and periodic sharp-wave complexes on EEG, confirms the diagnosis of probable sporadic Creutzfeldt-Jakob disease per the 2017 CDC diagnostic criteria. PRNP gene sequencing shows no pathogenic mutations, excluding familial prion disease. The patient and family are counseled about the invariably fatal prognosis (median survival 5 months from onset for sCJD). Palliative care is consulted, and the family elects comfort-focused care. The case is reported to the CJD surveillance program, and consent for brain autopsy is discussed for definitive confirmation."
+    "final_clue": "The combination of rapidly progressive dementia (weeks to months), myoclonus, cerebellar ataxia, and visual symptoms, with MRI showing cortical ribboning on DWI and basal ganglia signal abnormalities, positive CSF RT-QuIC assay, positive 14-3-3 protein, markedly elevated tau, and periodic sharp-wave complexes on EEG, confirms the diagnosis of probable sporadic this condition per the 2017 CDC diagnostic criteria. PRNP gene sequencing shows no pathogenic mutations, excluding familial prion disease. The patient and family are counseled about the invariably fatal prognosis (median survival 5 months from onset for sCJD). Palliative care is consulted, and the family elects comfort-focused care. The case is reported to the CJD surveillance program, and consent for brain autopsy is discussed for definitive confirmation."
   },
   "debrief": {
     "classic_presentation": "Middle-aged to older adult (peak age 60-70) with rapidly progressive dementia evolving over weeks to months (not years), accompanied by myoclonus (especially startle myoclonus), cerebellar ataxia, visual disturbances, and behavioral changes, progressing to akinetic mutism. MRI-DWI shows cortical ribboning and/or caudate/putamen hyperintensity. CSF RT-QuIC is positive. EEG shows periodic sharp-wave complexes.",
@@ -69,9 +161,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis (anti-LGI1, anti-CASPR2)", "CNS lymphoma", "Hashimoto encephalopathy", "Rapidly progressive Alzheimer disease", "Paraneoplastic encephalitis", "CNS vasculitis", "Viral encephalitis (HSV)"],
-    "after_stage2_more_likely": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis"],
-    "after_stage2_less_likely": ["Viral encephalitis", "Rapidly progressive Alzheimer disease"],
-    "after_labs_top3": ["Creutzfeldt-Jakob disease", "Autoimmune encephalitis", "Paraneoplastic encephalitis"]
+    "reasonable_ddx": [
+      "Creutzfeldt-Jakob disease",
+      "Autoimmune encephalitis (anti-LGI1, anti-CASPR2)",
+      "CNS lymphoma",
+      "Hashimoto encephalopathy",
+      "Rapidly progressive Alzheimer disease",
+      "Paraneoplastic encephalitis",
+      "CNS vasculitis",
+      "Viral encephalitis (HSV)"
+    ],
+    "after_stage2_more_likely": [
+      "Creutzfeldt-Jakob disease",
+      "Autoimmune encephalitis"
+    ],
+    "after_stage2_less_likely": [
+      "Viral encephalitis",
+      "Rapidly progressive Alzheimer disease"
+    ],
+    "after_labs_top3": [
+      "Creutzfeldt-Jakob disease",
+      "Autoimmune encephalitis",
+      "Paraneoplastic encephalitis"
+    ]
   }
 }

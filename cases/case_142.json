@@ -25,16 +25,56 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "14,800/μL with 82% neutrophils, 2% bands", "flag": "HIGH", "clinical_significance": "Leukocytosis with neutrophilia and left shift consistent with bacterial infection"},
-      {"test_name": "CRP", "result": "86 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting acute bacterial infection"},
-      {"test_name": "Blood Cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Negative blood cultures are expected in uncomplicated cellulitis (positive in <5% of cases)"},
-      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "HbA1c", "result": "8.1%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control increases infection risk and may slow healing"},
-      {"test_name": "Procalcitonin", "result": "0.4 ng/mL", "flag": "WNL", "clinical_significance": "Low procalcitonin argues against bacteremia or deep-seated infection"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "14,800/μL with 82% neutrophils, 2% bands",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with neutrophilia and left shift consistent with bacterial infection"
+      },
+      {
+        "test_name": "CRP",
+        "result": "86 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker supporting acute bacterial infection"
+      },
+      {
+        "test_name": "Blood Cultures",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Negative blood cultures are expected in uncomplicated this condition (positive in <5% of cases)"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "8.1%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimal glycemic control increases infection risk and may slow healing"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.4 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Low procalcitonin argues against bacteremia or deep-seated infection"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Ultrasound of Right Lower Leg", "result": "Diffuse subcutaneous edema and thickening consistent with cellulitis. No drainable abscess identified. No cobblestoning pattern. No gas in soft tissues.", "flag": "ABNORMAL", "clinical_significance": "Confirms cellulitis without abscess; excludes necrotizing fasciitis (no gas)"},
-      {"test_name": "Venous Duplex Ultrasound (Right Leg)", "result": "No evidence of deep vein thrombosis. Chronic venous insufficiency changes noted.", "flag": "WNL", "clinical_significance": "Excludes DVT, which can mimic cellulitis with unilateral leg erythema and swelling"}
+      {
+        "test_name": "Ultrasound of Right Lower Leg",
+        "result": "Diffuse subcutaneous edema and thickening consistent with the suspected diagnosis. No drainable abscess identified. No cobblestoning pattern. No gas in soft tissues.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis without abscess; excludes necrotizing fasciitis (no gas)"
+      },
+      {
+        "test_name": "Venous Duplex Ultrasound (Right Leg)",
+        "result": "No evidence of deep vein thrombosis. Chronic venous insufficiency changes noted.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes DVT, which can mimic this condition with unilateral leg erythema and swelling"
+      }
     ],
     "key_tests": [
       "Clinical diagnosis based on history and physical examination",
@@ -58,7 +98,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A well-demarcated, expanding area of erythema, warmth, edema, and tenderness on the lower leg with systemic signs (fever, leukocytosis), a clear portal of entry (shin abrasion), predisposing factors (tinea pedis, venous insufficiency, obesity, diabetes), no abscess or crepitus, confirms non-purulent cellulitis."
+    "final_clue": "A well-demarcated, expanding area of erythema, warmth, edema, and tenderness on the lower leg with systemic signs (fever, leukocytosis), a clear portal of entry (shin abrasion), predisposing factors (tinea pedis, venous insufficiency, obesity, diabetes), no abscess or crepitus, confirms non-purulent this condition."
   },
   "debrief": {
     "classic_presentation": "An adult with a predisposing skin barrier disruption (tinea pedis, venous insufficiency, lymphedema, or trauma) presenting with acute-onset unilateral lower extremity erythema, warmth, edema, and tenderness, with or without systemic symptoms (fever, chills, leukocytosis). No purulent drainage or abscess.",

@@ -25,29 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "ABG pH", "result": "7.33", "flag": "LOW", "clinical_significance": "Acute-on-chronic respiratory acidosis"},
-      {"test_name": "ABG pCO2", "result": "58 mmHg", "flag": "HIGH", "clinical_significance": "Hypercapnia — elevated above his likely chronic baseline of ~48-50 mmHg, indicating acute ventilatory failure"},
-      {"test_name": "ABG pO2", "result": "52 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia requiring supplemental oxygen"},
-      {"test_name": "ABG HCO3", "result": "30 mEq/L", "flag": "HIGH", "clinical_significance": "Elevated bicarbonate indicates chronic CO2 retention with renal compensation"},
-      {"test_name": "WBC", "result": "14,200/uL", "flag": "HIGH", "clinical_significance": "Leukocytosis suggests infectious trigger of exacerbation"},
-      {"test_name": "Neutrophil %", "result": "82%", "flag": "HIGH", "clinical_significance": "Neutrophilic predominance supports bacterial infection"},
-      {"test_name": "Procalcitonin", "result": "0.35 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; supports bacterial etiology and use of antibiotics"},
-      {"test_name": "BNP", "result": "85 pg/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated; argues against acute CHF as primary cause"},
-      {"test_name": "BMP — Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Sputum culture", "result": "Heavy growth Haemophilus influenzae", "flag": "ABNORMAL", "clinical_significance": "Identifies bacterial pathogen triggering the exacerbation; guides antibiotic choice"}
+      {
+        "test_name": "ABG pH",
+        "result": "7.33",
+        "flag": "LOW",
+        "clinical_significance": "Acute-on-chronic respiratory acidosis"
+      },
+      {
+        "test_name": "ABG pCO2",
+        "result": "58 mmHg",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercapnia — elevated above his likely chronic baseline of ~48-50 mmHg, indicating acute ventilatory failure"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "52 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Hypoxemia requiring supplemental oxygen"
+      },
+      {
+        "test_name": "ABG HCO3",
+        "result": "30 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated bicarbonate indicates chronic CO2 retention with renal compensation"
+      },
+      {
+        "test_name": "WBC",
+        "result": "14,200/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis suggests infectious trigger of exacerbation"
+      },
+      {
+        "test_name": "Neutrophil %",
+        "result": "82%",
+        "flag": "HIGH",
+        "clinical_significance": "Neutrophilic predominance supports bacterial infection"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.35 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; supports bacterial etiology and use of antibiotics"
+      },
+      {
+        "test_name": "BNP",
+        "result": "85 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not significantly elevated; argues against acute CHF as primary cause"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "4.1 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Sputum culture",
+        "result": "Heavy growth Haemophilus influenzae",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Identifies bacterial pathogen triggering the exacerbation; guides antibiotic choice"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and lateral)", "result": "Hyperinflated lungs with flattened diaphragms. Increased AP diameter. No focal consolidation, pneumothorax, or pleural effusion. Chronic changes consistent with emphysema.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with underlying COPD/emphysema without evidence of pneumonia or pneumothorax"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 102 bpm. Right axis deviation. P-pulmonale pattern in lead II. Low voltage in limb leads.", "flag": "ABNORMAL", "clinical_significance": "Right heart strain pattern consistent with chronic cor pulmonale from longstanding COPD"}
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "Hyperinflated lungs with flattened diaphragms. Increased AP diameter. No focal consolidation, pneumothorax, or pleural effusion. Chronic changes consistent with emphysema.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with underlying COPD/emphysema without evidence of pneumonia or pneumothorax"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 102 bpm. Right axis deviation. P-pulmonale pattern in lead II. Low voltage in limb leads.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Right heart strain pattern consistent with chronic cor pulmonale from longstanding COPD"
+      }
     ],
-    "key_tests": ["Arterial blood gas", "Chest X-ray", "Sputum Gram stain and culture", "CBC with differential", "Pulse oximetry"],
-    "acceptable_tests": ["BMP", "Procalcitonin", "BNP or NT-proBNP", "ECG", "Blood cultures", "Influenza/respiratory viral panel", "Lactate"],
-    "low_yield_tests": ["CT chest (unless pneumonia/PE suspected)", "Echocardiogram", "D-dimer", "Pulmonary function tests (during acute exacerbation)", "Bronchoscopy"]
+    "key_tests": [
+      "Arterial blood gas",
+      "Chest X-ray",
+      "Sputum Gram stain and culture",
+      "CBC with differential",
+      "Pulse oximetry"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "Procalcitonin",
+      "BNP or NT-proBNP",
+      "ECG",
+      "Blood cultures",
+      "Influenza/respiratory viral panel",
+      "Lactate"
+    ],
+    "low_yield_tests": [
+      "CT chest (unless pneumonia/PE suspected)",
+      "Echocardiogram",
+      "D-dimer",
+      "Pulmonary function tests (during acute exacerbation)",
+      "Bronchoscopy"
+    ]
   },
   "stage5": {
-    "final_clue": "With controlled supplemental O2 via Venturi mask at 28%, nebulized bronchodilators, IV methylprednisolone, and azithromycin, the patient's ABG improves to pH 7.37, pCO2 50 mmHg, and SpO2 92%. Sputum culture grows H. influenzae sensitive to azithromycin, confirming an infection-triggered COPD exacerbation."
+    "final_clue": "With controlled supplemental O2 via Venturi mask at 28%, nebulized bronchodilators, IV methylprednisolone, and azithromycin, the patient's ABG improves to pH 7.37, pCO2 50 mmHg, and SpO2 92%. Sputum culture grows H. influenzae sensitive to azithromycin, confirming an infection-triggered this condition."
   },
   "debrief": {
     "classic_presentation": "Elderly patient with significant smoking history and known COPD presents with the Anthonisen triad: increased dyspnea, increased sputum volume, and increased sputum purulence, with hypercapnic respiratory failure on ABG.",
@@ -68,9 +158,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["COPD exacerbation", "Community-acquired pneumonia", "Acute heart failure exacerbation", "Pulmonary embolism", "Pneumothorax", "Asthma exacerbation", "Lung cancer with post-obstructive pneumonia"],
-    "after_stage2_more_likely": ["COPD exacerbation", "Community-acquired pneumonia"],
-    "after_stage2_less_likely": ["Acute heart failure exacerbation", "Pneumothorax", "Asthma exacerbation"],
-    "after_labs_top3": ["COPD exacerbation", "Community-acquired pneumonia", "Acute bronchitis"]
+    "reasonable_ddx": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia",
+      "Acute heart failure exacerbation",
+      "Pulmonary embolism",
+      "Pneumothorax",
+      "Asthma exacerbation",
+      "Lung cancer with post-obstructive pneumonia"
+    ],
+    "after_stage2_more_likely": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia"
+    ],
+    "after_stage2_less_likely": [
+      "Acute heart failure exacerbation",
+      "Pneumothorax",
+      "Asthma exacerbation"
+    ],
+    "after_labs_top3": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia",
+      "Acute bronchitis"
+    ]
   }
 }

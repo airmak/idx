@@ -25,30 +25,118 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "22.6 x10^9/L", "flag": "HIGH", "clinical_significance": "Significantly elevated (was 14.2 yesterday and trending down), new spike concerning for new infectious source"},
-      {"test_name": "CBC - Hemoglobin", "result": "9.2 g/dL", "flag": "LOW", "clinical_significance": "Chronic anemia of critical illness"},
-      {"test_name": "Total Bilirubin", "result": "4.2 mg/dL", "flag": "HIGH", "clinical_significance": "New elevation (was 1.8 two days ago), concerning for biliary pathology"},
-      {"test_name": "Direct Bilirubin", "result": "3.4 mg/dL", "flag": "HIGH", "clinical_significance": "Conjugated hyperbilirubinemia, cholestatic pattern"},
-      {"test_name": "Alkaline Phosphatase", "result": "286 U/L", "flag": "HIGH", "clinical_significance": "New elevation, cholestatic pattern supporting biliary etiology"},
-      {"test_name": "ALT", "result": "98 U/L", "flag": "HIGH", "clinical_significance": "Elevated, hepatocellular component"},
-      {"test_name": "AST", "result": "114 U/L", "flag": "HIGH", "clinical_significance": "Elevated"},
-      {"test_name": "Lipase", "result": "46 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
-      {"test_name": "Procalcitonin", "result": "8.4 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated (was trending down to 1.2), suggests new bacterial infection"},
-      {"test_name": "Lactate", "result": "3.6 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated (was normalizing), new source of sepsis"},
-      {"test_name": "BMP - Creatinine", "result": "2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, improving from peak of 4.8 but plateau may reflect new hemodynamic insult"},
-      {"test_name": "Blood Cultures", "result": "Pending (drawn 18 hours ago, no growth at 18 hours)", "flag": "PENDING", "clinical_significance": "Await final result; may be negative in acalculous cholecystitis without bacteremia"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "22.6 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated (was 14.2 yesterday and trending down), new spike concerning for new infectious source"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "9.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Chronic anemia of critical illness"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "4.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "New elevation (was 1.8 two days ago), concerning for biliary pathology"
+      },
+      {
+        "test_name": "Direct Bilirubin",
+        "result": "3.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Conjugated hyperbilirubinemia, cholestatic pattern"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "286 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "New elevation, cholestatic pattern supporting biliary etiology"
+      },
+      {
+        "test_name": "ALT",
+        "result": "98 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, hepatocellular component"
+      },
+      {
+        "test_name": "AST",
+        "result": "114 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "46 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "8.4 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (was trending down to 1.2), suggests new bacterial infection"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.6 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated (was normalizing), new source of sepsis"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "2.1 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, improving from peak of 4.8 but plateau may reflect new hemodynamic insult"
+      },
+      {
+        "test_name": "Blood Cultures",
+        "result": "Pending (drawn 18 hours ago, no growth at 18 hours)",
+        "flag": "PENDING",
+        "clinical_significance": "Await final result; may be negative in this condition without bacteremia"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Right Upper Quadrant Ultrasound (bedside)", "result": "Gallbladder is markedly distended (12 x 5 cm) with diffuse wall thickening (6 mm). Pericholecystic fluid present. Gallbladder lumen contains sludge but NO gallstones. Sonographic Murphy sign is positive (patient grimaces with transducer pressure over the gallbladder). Common bile duct measures 5 mm (normal). No intrahepatic biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient is the classic presentation of acalculous cholecystitis."},
-      {"test_name": "HIDA Scan (hepatobiliary iminodiacetic acid scan)", "result": "Non-visualization of the gallbladder at 4 hours after injection with morphine augmentation. Normal hepatic uptake. Tracer excreted into the small bowel.", "flag": "ABNORMAL", "clinical_significance": "Non-filling of the gallbladder (cystic duct obstruction from inflammation/edema/sludge) confirms acute cholecystitis. HIDA scan has 90-95% sensitivity for acute cholecystitis. Note: iodinated contrast allergy does not preclude HIDA scan (different agent — technetium-labeled IDA compound)."}
+      {
+        "test_name": "Right Upper Quadrant Ultrasound (bedside)",
+        "result": "Gallbladder is markedly distended (12 x 5 cm) with diffuse wall thickening (6 mm). Pericholecystic fluid present. Gallbladder lumen contains sludge but NO gallstones. Sonographic Murphy sign is positive (patient grimaces with transducer pressure over the gallbladder). Common bile duct measures 5 mm (normal). No intrahepatic biliary dilation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient is the classic for this condition."
+      },
+      {
+        "test_name": "HIDA Scan (hepatobiliary iminodiacetic acid scan)",
+        "result": "Non-visualization of the gallbladder at 4 hours after injection with morphine augmentation. Normal hepatic uptake. Tracer excreted into the small bowel.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-filling of the gallbladder (cystic duct obstruction from inflammation/edema/sludge) confirms acute cholecystitis. HIDA scan has 90-95% sensitivity for acute cholecystitis. Note: iodinated contrast allergy does not preclude HIDA scan (different agent — technetium-labeled IDA compound)."
+      }
     ],
-    "key_tests": ["Right upper quadrant ultrasound (bedside)", "CBC with differential (trending)", "Hepatic function panel (bilirubin, ALP, ALT, AST)", "Procalcitonin (trending)", "Serum lactate"],
-    "acceptable_tests": ["HIDA scan (if ultrasound equivocal)", "Blood cultures", "BMP", "Lipase", "CT abdomen (if contrast allergy managed with premedication or non-contrast CT)", "Chest X-ray (rule out other source)"],
-    "low_yield_tests": ["CT with iodinated contrast (patient has contrast allergy — requires premedication protocol)", "ERCP (no ductal obstruction)", "MRCP (no biliary dilation, patient may be too unstable for MRI)", "Abdominal X-ray (insensitive for cholecystitis)"],
+    "key_tests": [
+      "Right upper quadrant ultrasound (bedside)",
+      "CBC with differential (trending)",
+      "Hepatic function panel (bilirubin, ALP, ALT, AST)",
+      "Procalcitonin (trending)",
+      "Serum lactate"
+    ],
+    "acceptable_tests": [
+      "HIDA scan (if ultrasound equivocal)",
+      "Blood cultures",
+      "BMP",
+      "Lipase",
+      "CT abdomen (if contrast allergy managed with premedication or non-contrast CT)",
+      "Chest X-ray (rule out other source)"
+    ],
+    "low_yield_tests": [
+      "CT with iodinated contrast (patient has contrast allergy — requires premedication protocol)",
+      "ERCP (no ductal obstruction)",
+      "MRCP (no biliary dilation, patient may be too unstable for MRI)",
+      "Abdominal X-ray (insensitive for cholecystitis)"
+    ],
     "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is acalculous cholecystitis — a feared complication in critically ill patients that requires urgent intervention."
   },
   "stage5": {
-    "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is acalculous cholecystitis — a feared complication in critically ill patients that requires urgent intervention."
+    "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is this condition — a feared complication in critically ill patients that requires urgent intervention."
   },
   "debrief": {
     "classic_presentation": "New fever, RUQ tenderness, and leukocytosis in a critically ill ICU patient (typically on day 7-14 of ICU stay). Patients are often sedated, intubated, and unable to report symptoms, making the diagnosis challenging. A high index of suspicion is required when an ICU patient develops unexplained sepsis. Risk factors include prolonged ICU stay, total parenteral nutrition (biliary stasis), positive-pressure ventilation, vasopressor use (gallbladder mucosal ischemia), opioid use (sphincter of Oddi spasm), sepsis, major surgery, burns, trauma, and prolonged fasting. Acalculous cholecystitis accounts for 5-10% of all cholecystitis cases but carries mortality rates of 30-50% (much higher than calculous cholecystitis).",
@@ -71,9 +159,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acalculous cholecystitis", "Calculous cholecystitis (stones missed on US)", "Hepatic abscess", "Ventilator-associated pneumonia (recurrent)", "Catheter-related bloodstream infection", "Clostridium difficile colitis", "Surgical site infection/intra-abdominal abscess"],
-    "after_stage2_more_likely": ["Acalculous cholecystitis", "Hepatic abscess"],
-    "after_stage2_less_likely": ["Ventilator-associated pneumonia", "Catheter-related bloodstream infection"],
-    "after_labs_top3": ["Acalculous cholecystitis", "Hepatic abscess", "Calculous cholecystitis"]
+    "reasonable_ddx": [
+      "Acalculous cholecystitis",
+      "Calculous cholecystitis (stones missed on US)",
+      "Hepatic abscess",
+      "Ventilator-associated pneumonia (recurrent)",
+      "Catheter-related bloodstream infection",
+      "Clostridium difficile colitis",
+      "Surgical site infection/intra-abdominal abscess"
+    ],
+    "after_stage2_more_likely": [
+      "Acalculous cholecystitis",
+      "Hepatic abscess"
+    ],
+    "after_stage2_less_likely": [
+      "Ventilator-associated pneumonia",
+      "Catheter-related bloodstream infection"
+    ],
+    "after_labs_top3": [
+      "Acalculous cholecystitis",
+      "Hepatic abscess",
+      "Calculous cholecystitis"
+    ]
   }
 }

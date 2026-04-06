@@ -25,28 +25,110 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "9,800/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "12.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia; may be related to underlying malignancy (anemia of chronic disease)"},
-      {"test_name": "BMP — Sodium", "result": "131 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia — could suggest SIADH from small cell lung cancer"},
-      {"test_name": "BMP — Calcium", "result": "9.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CK (Creatine kinase)", "result": "85 U/L", "flag": "WNL", "clinical_significance": "Normal; argues against inflammatory myopathy"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "VGCC antibodies (P/Q-type)", "result": "Positive (3.2 nmol/L; normal <0.02)", "flag": "ABNORMAL", "clinical_significance": "DIAGNOSTIC: P/Q-type voltage-gated calcium channel antibodies are present in ~90% of LEMS patients and are the pathognomonic serological marker"},
-      {"test_name": "SOX1 antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "SOX1 antibodies are highly associated with small cell lung cancer in LEMS patients (~95% specificity for paraneoplastic LEMS)"},
-      {"test_name": "AChR binding antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; helps distinguish LEMS from myasthenia gravis"},
-      {"test_name": "ESR", "result": "42 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated; nonspecific but consistent with underlying malignancy or inflammation"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,800/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "12.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia; may be related to underlying malignancy (anemia of chronic disease)"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "131 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia — could suggest SIADH from small cell lung cancer"
+      },
+      {
+        "test_name": "BMP — Calcium",
+        "result": "9.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CK (Creatine kinase)",
+        "result": "85 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; argues against inflammatory myopathy"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "VGCC antibodies (P/Q-type)",
+        "result": "Positive (3.2 nmol/L; normal <0.02)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "DIAGNOSTIC: P/Q-type voltage-gated calcium channel antibodies are present in ~90% of LEMS patients and are the pathognomonic serological marker"
+      },
+      {
+        "test_name": "SOX1 antibodies",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "SOX1 antibodies are highly associated with small cell lung cancer in LEMS patients (~95% specificity for paraneoplastic LEMS)"
+      },
+      {
+        "test_name": "AChR binding antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; helps distinguish LEMS from myasthenia gravis"
+      },
+      {
+        "test_name": "ESR",
+        "result": "42 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; nonspecific but consistent with underlying malignancy or inflammation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT chest with contrast", "result": "2.8 cm right hilar mass with mediastinal lymphadenopathy. No pleural effusion. Findings suspicious for primary lung malignancy.", "flag": "ABNORMAL", "clinical_significance": "Hilar mass in a heavy smoker with LEMS is highly concerning for small cell lung cancer (SCLC), which is the associated malignancy in ~50-60% of LEMS cases. SCLC is the most common paraneoplastic cause of LEMS."},
-      {"test_name": "PET-CT", "result": "FDG-avid right hilar mass (SUV max 12.4) with FDG-avid ipsilateral mediastinal lymph nodes. No distant metastases identified.", "flag": "ABNORMAL", "clinical_significance": "Staging suggests limited-stage SCLC. PET-CT is recommended for cancer screening in all LEMS patients."}
+      {
+        "test_name": "CT chest with contrast",
+        "result": "2.8 cm right hilar mass with mediastinal lymphadenopathy. No pleural effusion. Findings suspicious for primary lung malignancy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hilar mass in a heavy smoker with LEMS is highly concerning for small cell lung cancer (SCLC), which is the associated malignancy in ~50-60% of LEMS cases. SCLC is the most common paraneoplastic cause of LEMS."
+      },
+      {
+        "test_name": "PET-CT",
+        "result": "FDG-avid right hilar mass (SUV max 12.4) with FDG-avid ipsilateral mediastinal lymph nodes. No distant metastases identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Staging suggests limited-stage SCLC. PET-CT is recommended for cancer screening in all LEMS patients."
+      }
     ],
-    "key_tests": ["EMG with repetitive nerve stimulation (RNS) — low-frequency (2-3 Hz) and high-frequency (50 Hz) or post-exercise", "P/Q-type VGCC antibodies (serum)", "CT chest (cancer screening for SCLC — mandatory in all LEMS patients)", "CK level (to exclude myopathy)", "AChR antibodies (to exclude myasthenia gravis)"],
-    "acceptable_tests": ["CBC", "BMP", "ESR/CRP", "TSH", "SOX1 antibodies (paraneoplastic marker)", "PET-CT (if malignancy suspected)", "Pulmonary function tests", "Single-fiber EMG", "MRI brain (if CNS involvement suspected)"],
-    "low_yield_tests": ["Lumbar puncture", "Muscle biopsy", "MRI spine", "EEG", "Tensilon (edrophonium) test (may have mild response but less useful than in MG)"],
+    "key_tests": [
+      "EMG with repetitive nerve stimulation (RNS) — low-frequency (2-3 Hz) and high-frequency (50 Hz) or post-exercise",
+      "P/Q-type VGCC antibodies (serum)",
+      "CT chest (cancer screening for SCLC — mandatory in all LEMS patients)",
+      "CK level (to exclude myopathy)",
+      "AChR antibodies (to exclude myasthenia gravis)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "ESR/CRP",
+      "TSH",
+      "SOX1 antibodies (paraneoplastic marker)",
+      "PET-CT (if malignancy suspected)",
+      "Pulmonary function tests",
+      "Single-fiber EMG",
+      "MRI brain (if CNS involvement suspected)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture",
+      "Muscle biopsy",
+      "MRI spine",
+      "EEG",
+      "Tensilon (edrophonium) test (may have mild response but less useful than in MG)"
+    ],
     "low_yield_tests_note": "The incremental (>100%) CMAP response after brief exercise or high-frequency RNS is the electrophysiological hallmark — it distinguishes LEMS from myasthenia gravis."
   },
   "stage5": {
-    "final_clue": "EMG with repetitive nerve stimulation (RNS) shows: Low baseline compound muscle action potential (CMAP) amplitudes. Decremental response at low-frequency (3 Hz) stimulation (15% decrement). After 10 seconds of maximum voluntary contraction, CMAP amplitude increases by >200% (post-exercise facilitation/increment) — this is the electrophysiological hallmark of LEMS. P/Q-type VGCC antibodies are strongly positive, and SOX1 antibodies are positive. CT-guided biopsy of the hilar mass confirms small cell lung cancer (limited stage). The diagnosis is paraneoplastic Lambert-Eaton myasthenic syndrome secondary to SCLC. Treatment of the underlying SCLC (cisplatin-etoposide chemotherapy with concurrent radiation) is initiated, along with 3,4-diaminopyridine (amifampridine) for symptomatic LEMS treatment. His weakness begins to improve within weeks of starting cancer treatment."
+    "final_clue": "EMG with repetitive nerve stimulation (RNS) shows: Low baseline compound muscle action potential (CMAP) amplitudes. Decremental response at low-frequency (3 Hz) stimulation (15% decrement). After 10 seconds of maximum voluntary contraction, CMAP amplitude increases by >200% (post-exercise facilitation/increment) — this is the electrophysiological hallmark of LEMS. P/Q-type VGCC antibodies are strongly positive, and SOX1 antibodies are positive. CT-guided biopsy of the hilar mass confirms small cell lung cancer (limited stage). The diagnosis is paraneoplastic this condition secondary to SCLC. Treatment of the underlying SCLC (cisplatin-etoposide chemotherapy with concurrent radiation) is initiated, along with 3,4-diaminopyridine (amifampridine) for symptomatic LEMS treatment. His weakness begins to improve within weeks of starting cancer treatment."
   },
   "debrief": {
     "classic_presentation": "Middle-aged male smoker with subacute progressive proximal leg weakness (legs > arms), areflexia with post-exercise facilitation (reflexes transiently return after brief exercise), and autonomic dysfunction (dry mouth, constipation, erectile dysfunction, sluggish pupils). Weight loss and smoking history raise concern for paraneoplastic etiology (SCLC). EMG shows low CMAP amplitudes with incremental response (>100%) on high-frequency RNS or post-exercise.",
@@ -67,9 +149,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Lambert-Eaton myasthenic syndrome", "Myasthenia gravis", "Polymyositis/dermatomyositis", "Hypothyroid myopathy", "Chronic inflammatory demyelinating polyneuropathy", "Amyotrophic lateral sclerosis", "Paraneoplastic cerebellar degeneration"],
-    "after_stage2_more_likely": ["Lambert-Eaton myasthenic syndrome", "Polymyositis"],
-    "after_stage2_less_likely": ["Hypothyroid myopathy", "Chronic inflammatory demyelinating polyneuropathy"],
-    "after_labs_top3": ["Lambert-Eaton myasthenic syndrome", "Paraneoplastic syndrome (SCLC)", "Myasthenia gravis"]
+    "reasonable_ddx": [
+      "Lambert-Eaton myasthenic syndrome",
+      "Myasthenia gravis",
+      "Polymyositis/dermatomyositis",
+      "Hypothyroid myopathy",
+      "Chronic inflammatory demyelinating polyneuropathy",
+      "Amyotrophic lateral sclerosis",
+      "Paraneoplastic cerebellar degeneration"
+    ],
+    "after_stage2_more_likely": [
+      "Lambert-Eaton myasthenic syndrome",
+      "Polymyositis"
+    ],
+    "after_stage2_less_likely": [
+      "Hypothyroid myopathy",
+      "Chronic inflammatory demyelinating polyneuropathy"
+    ],
+    "after_labs_top3": [
+      "Lambert-Eaton myasthenic syndrome",
+      "Paraneoplastic syndrome (SCLC)",
+      "Myasthenia gravis"
+    ]
   }
 }

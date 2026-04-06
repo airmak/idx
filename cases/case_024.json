@@ -25,29 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Potassium", "result": "2.9 mEq/L", "flag": "LOW", "clinical_significance": "Persistent hypokalemia despite supplementation; aldosterone promotes renal potassium wasting"},
-      {"test_name": "Sodium", "result": "145 mEq/L", "flag": "HIGH", "clinical_significance": "High-normal sodium; aldosterone promotes sodium retention (though overt hypernatremia is rare due to aldosterone escape)"},
-      {"test_name": "Bicarbonate", "result": "32 mEq/L", "flag": "HIGH", "clinical_significance": "Metabolic alkalosis from aldosterone-mediated renal hydrogen ion excretion (concurrent with potassium wasting)"},
-      {"test_name": "Plasma aldosterone concentration (PAC)", "result": "42 ng/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated aldosterone level (drawn in morning, upright position, after holding interfering medications)"},
-      {"test_name": "Plasma renin activity (PRA)", "result": "0.3 ng/mL/hr", "flag": "LOW", "clinical_significance": "Suppressed renin is the hallmark of primary hyperaldosteronism — aldosterone production is autonomous, not renin-driven"},
-      {"test_name": "Aldosterone-to-renin ratio (ARR)", "result": "140", "flag": "HIGH", "clinical_significance": "ARR > 30 with PAC > 15 ng/dL is a positive screening test for primary hyperaldosteronism"},
-      {"test_name": "24-hour urine potassium", "result": "65 mEq/day", "flag": "HIGH", "clinical_significance": "Renal potassium wasting (>30 mEq/day in setting of hypokalemia) confirms inappropriate kaliuresis, consistent with mineralocorticoid excess"},
-      {"test_name": "Saline infusion confirmatory test", "result": "Post-infusion aldosterone: 18 ng/dL (positive if >10 after 2L NS infusion over 4 hours)", "flag": "HIGH", "clinical_significance": "Failure to suppress aldosterone after saline loading confirms autonomous aldosterone production"},
-      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Fasting glucose", "result": "108 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; hyperaldosteronism impairs insulin secretion via hypokalemia-mediated beta-cell dysfunction"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm, LVH by voltage criteria, prominent U waves, ST depression in V4-V6, flattened T waves", "flag": "ABNORMAL", "clinical_significance": "ECG changes of hypokalemia (U waves, flattened T waves, ST depression) and LVH from chronic hypertension"},
-      {"test_name": "Magnesium", "result": "1.6 mg/dL", "flag": "LOW", "clinical_significance": "Hypomagnesemia often accompanies hyperaldosteronism-mediated renal wasting; refractory hypokalemia will not correct until magnesium is repleted"}
+      {
+        "test_name": "Potassium",
+        "result": "2.9 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Persistent hypokalemia despite supplementation; aldosterone promotes renal potassium wasting"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "145 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "High-normal sodium; aldosterone promotes sodium retention (though overt hypernatremia is rare due to aldosterone escape)"
+      },
+      {
+        "test_name": "Bicarbonate",
+        "result": "32 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Metabolic alkalosis from aldosterone-mediated renal hydrogen ion excretion (concurrent with potassium wasting)"
+      },
+      {
+        "test_name": "Plasma aldosterone concentration (PAC)",
+        "result": "42 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated aldosterone level (drawn in morning, upright position, after holding interfering medications)"
+      },
+      {
+        "test_name": "Plasma renin activity (PRA)",
+        "result": "0.3 ng/mL/hr",
+        "flag": "LOW",
+        "clinical_significance": "Suppressed renin is the hallmark of this condition — aldosterone production is autonomous, not renin-driven"
+      },
+      {
+        "test_name": "Aldosterone-to-renin ratio (ARR)",
+        "result": "140",
+        "flag": "HIGH",
+        "clinical_significance": "ARR > 30 with PAC > 15 ng/dL is a positive screening test for this condition"
+      },
+      {
+        "test_name": "24-hour urine potassium",
+        "result": "65 mEq/day",
+        "flag": "HIGH",
+        "clinical_significance": "Renal potassium wasting (>30 mEq/day in setting of hypokalemia) confirms inappropriate kaliuresis, consistent with mineralocorticoid excess"
+      },
+      {
+        "test_name": "Saline infusion confirmatory test",
+        "result": "Post-infusion aldosterone: 18 ng/dL (positive if >10 after 2L NS infusion over 4 hours)",
+        "flag": "HIGH",
+        "clinical_significance": "Failure to suppress aldosterone after saline loading confirms autonomous aldosterone production"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "108 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; this condition impairs insulin secretion via hypokalemia-mediated beta-cell dysfunction"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm, LVH by voltage criteria, prominent U waves, ST depression in V4-V6, flattened T waves",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ECG changes of hypokalemia (U waves, flattened T waves, ST depression) and LVH from chronic hypertension"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.6 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypomagnesemia often accompanies this condition-mediated renal wasting; refractory hypokalemia will not correct until magnesium is repleted"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT adrenal glands (thin-cut protocol)", "result": "1.8 cm well-defined, low-attenuation (8 HU) nodule in the left adrenal gland consistent with an adrenal adenoma. Right adrenal gland appears normal.", "flag": "ABNORMAL", "clinical_significance": "Unilateral adrenal adenoma may represent an aldosterone-producing adenoma (Conn syndrome), but CT alone cannot confirm lateralization — adrenal vein sampling is needed"},
-      {"test_name": "Adrenal vein sampling", "result": "Left adrenal vein aldosterone/cortisol ratio is 15x higher than the right adrenal vein, with lateralization index >4:1. Confirms left-sided aldosterone hypersecretion.", "flag": "ABNORMAL", "clinical_significance": "Adrenal vein sampling is the gold standard for differentiating unilateral adenoma (surgical candidate) from bilateral hyperplasia (medical management)"}
+      {
+        "test_name": "CT adrenal glands (thin-cut protocol)",
+        "result": "1.8 cm well-defined, low-attenuation (8 HU) nodule in the left adrenal gland consistent with an adrenal adenoma. Right adrenal gland appears normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Unilateral adrenal adenoma may represent an aldosterone-producing adenoma (this condition), but CT alone cannot confirm lateralization — adrenal vein sampling is needed"
+      },
+      {
+        "test_name": "Adrenal vein sampling",
+        "result": "Left adrenal vein aldosterone/cortisol ratio is 15x higher than the right adrenal vein, with lateralization index >4:1. Confirms left-sided aldosterone hypersecretion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Adrenal vein sampling is the gold standard for differentiating unilateral adenoma (surgical candidate) from bilateral hyperplasia (medical management)"
+      }
     ],
-    "key_tests": ["Plasma aldosterone and renin (ARR calculation)", "Serum potassium and basic metabolic panel", "Confirmatory test (saline infusion or oral salt loading)", "CT adrenal glands", "Adrenal vein sampling"],
-    "acceptable_tests": ["24-hour urine potassium", "ECG", "Magnesium", "Echocardiogram (assess LVH and cardiac function)", "Fasting glucose or HbA1c", "24-hour urine aldosterone", "Renal artery duplex ultrasound"],
-    "low_yield_tests": ["MRI adrenals (not superior to thin-cut CT for this purpose)", "Serum cortisol or dexamethasone suppression test (no Cushing features)", "Thyroid function tests", "Plasma catecholamines (no pheochromocytoma features)", "Renal biopsy"]
+    "key_tests": [
+      "Plasma aldosterone and renin (ARR calculation)",
+      "Serum potassium and basic metabolic panel",
+      "Confirmatory test (saline infusion or oral salt loading)",
+      "CT adrenal glands",
+      "Adrenal vein sampling"
+    ],
+    "acceptable_tests": [
+      "24-hour urine potassium",
+      "ECG",
+      "Magnesium",
+      "Echocardiogram (assess LVH and cardiac function)",
+      "Fasting glucose or HbA1c",
+      "24-hour urine aldosterone",
+      "Renal artery duplex ultrasound"
+    ],
+    "low_yield_tests": [
+      "MRI adrenals (not superior to thin-cut CT for this purpose)",
+      "Serum cortisol or dexamethasone suppression test (no Cushing features)",
+      "Thyroid function tests",
+      "Plasma catecholamines (no pheochromocytoma features)",
+      "Renal biopsy"
+    ]
   },
   "stage5": {
-    "final_clue": "Adrenal vein sampling conclusively lateralizes aldosterone hypersecretion to the left adrenal gland, confirming that the 1.8 cm left adrenal adenoma is an aldosterone-producing adenoma (Conn syndrome). The patient is a candidate for laparoscopic left adrenalectomy, which has a cure rate of 50-60% for hypertension and near-100% for hypokalemia."
+    "final_clue": "Adrenal vein sampling conclusively lateralizes aldosterone hypersecretion to the left adrenal gland, confirming that the 1.8 cm left adrenal adenoma is an aldosterone-producing adenoma (this condition). The patient is a candidate for laparoscopic left adrenalectomy, which has a cure rate of 50-60% for hypertension and near-100% for hypokalemia."
   },
   "debrief": {
     "classic_presentation": "Primary hyperaldosteronism classically presents with resistant hypertension (uncontrolled on 3+ medications), spontaneous or diuretic-induced hypokalemia, metabolic alkalosis, and sometimes muscle weakness or cramps. However, many patients have normokalemic primary hyperaldosteronism — hypokalemia is present in only 9-37% of cases. The ARR (aldosterone-to-renin ratio) is the recommended screening test. All patients with resistant hypertension should be screened.",
@@ -60,12 +150,34 @@
       "Adrenal vein sampling is the gold standard for lateralization — CT alone is insufficient because non-functioning incidentalomas are common",
       "Most patients with primary hyperaldosteronism are normokalemic — do NOT use hypokalemia as the sole screening criterion"
     ],
-    "sources": ["UpToDate: Diagnosis of primary aldosteronism", "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism 2016"]
+    "sources": [
+      "UpToDate: Diagnosis of primary aldosteronism",
+      "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism 2016"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Primary hyperaldosteronism (Conn syndrome)", "Essential hypertension with diuretic-induced hypokalemia", "Renovascular hypertension", "Cushing syndrome", "Pheochromocytoma", "Liddle syndrome", "Apparent mineralocorticoid excess", "Licorice ingestion"],
-    "after_stage2_more_likely": ["Primary hyperaldosteronism (resistant HTN, recurrent hypokalemia despite supplementation, metabolic alkalosis, muscle weakness)"],
-    "after_stage2_less_likely": ["Cushing syndrome (no cushingoid features)", "Pheochromocytoma (no paroxysmal symptoms, no classic triad)", "Liddle syndrome (would expect younger presentation)"],
-    "after_labs_top3": ["Primary hyperaldosteronism (Conn syndrome)", "Bilateral adrenal hyperplasia", "Renovascular hypertension"]
+    "reasonable_ddx": [
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Essential hypertension with diuretic-induced hypokalemia",
+      "Renovascular hypertension",
+      "Cushing syndrome",
+      "Pheochromocytoma",
+      "Liddle syndrome",
+      "Apparent mineralocorticoid excess",
+      "Licorice ingestion"
+    ],
+    "after_stage2_more_likely": [
+      "Primary hyperaldosteronism (resistant HTN, recurrent hypokalemia despite supplementation, metabolic alkalosis, muscle weakness)"
+    ],
+    "after_stage2_less_likely": [
+      "Cushing syndrome (no cushingoid features)",
+      "Pheochromocytoma (no paroxysmal symptoms, no classic triad)",
+      "Liddle syndrome (would expect younger presentation)"
+    ],
+    "after_labs_top3": [
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Bilateral adrenal hyperplasia",
+      "Renovascular hypertension"
+    ]
   }
 }

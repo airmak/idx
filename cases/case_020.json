@@ -25,29 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum ferritin", "result": "2,450 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated ferritin strongly suggests iron overload; ferritin >1000 raises concern for organ damage"},
-      {"test_name": "Transferrin saturation", "result": "82%", "flag": "HIGH", "clinical_significance": "Transferrin saturation >45% is the best initial screening test for hemochromatosis; >60% is highly suggestive"},
-      {"test_name": "Serum iron", "result": "245 μg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated serum iron consistent with iron overload"},
-      {"test_name": "TIBC", "result": "300 μg/dL", "flag": "WNL", "clinical_significance": "Normal TIBC with high iron results in markedly elevated transferrin saturation"},
-      {"test_name": "AST", "result": "78 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic iron deposition and liver injury"},
-      {"test_name": "ALT", "result": "92 U/L", "flag": "HIGH", "clinical_significance": "Elevated transaminases with ALT > AST pattern suggests non-cirrhotic liver injury from iron deposition"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Diabetes from iron deposition in pancreatic beta cells — a classic feature of hemochromatosis (bronze diabetes)"},
-      {"test_name": "Testosterone (total)", "result": "125 ng/dL", "flag": "LOW", "clinical_significance": "Hypogonadism from iron deposition in the pituitary (hypogonadotropic hypogonadism)"},
-      {"test_name": "LH", "result": "1.2 mIU/mL", "flag": "LOW", "clinical_significance": "Low LH confirms hypogonadotropic (central) hypogonadism from pituitary iron deposition"},
-      {"test_name": "FSH", "result": "1.5 mIU/mL", "flag": "LOW", "clinical_significance": "Low FSH further supports central hypogonadism"},
-      {"test_name": "HFE gene testing", "result": "Homozygous C282Y mutation", "flag": "ABNORMAL", "clinical_significance": "C282Y homozygosity is the most common genotype in hereditary hemochromatosis; confirms the diagnosis"},
-      {"test_name": "Hepatitis B and C serologies", "result": "HBsAg negative, anti-HCV negative", "flag": "WNL", "clinical_significance": "Rules out viral hepatitis as a cause of elevated liver enzymes"}
+      {
+        "test_name": "Serum ferritin",
+        "result": "2,450 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ferritin strongly suggests iron overload; ferritin >1000 raises concern for organ damage"
+      },
+      {
+        "test_name": "Transferrin saturation",
+        "result": "82%",
+        "flag": "HIGH",
+        "clinical_significance": "Transferrin saturation >45% is the best initial screening test for this condition; >60% is highly suggestive"
+      },
+      {
+        "test_name": "Serum iron",
+        "result": "245 μg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated serum iron consistent with iron overload"
+      },
+      {
+        "test_name": "TIBC",
+        "result": "300 μg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal TIBC with high iron results in markedly elevated transferrin saturation"
+      },
+      {
+        "test_name": "AST",
+        "result": "78 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatic iron deposition and liver injury"
+      },
+      {
+        "test_name": "ALT",
+        "result": "92 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated transaminases with ALT > AST pattern suggests non-cirrhotic liver injury from iron deposition"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Diabetes from iron deposition in pancreatic beta cells — a classic for this condition (bronze diabetes)"
+      },
+      {
+        "test_name": "Testosterone (total)",
+        "result": "125 ng/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypogonadism from iron deposition in the pituitary (hypogonadotropic hypogonadism)"
+      },
+      {
+        "test_name": "LH",
+        "result": "1.2 mIU/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low LH confirms hypogonadotropic (central) hypogonadism from pituitary iron deposition"
+      },
+      {
+        "test_name": "FSH",
+        "result": "1.5 mIU/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low FSH further supports central hypogonadism"
+      },
+      {
+        "test_name": "HFE gene testing",
+        "result": "Homozygous C282Y mutation",
+        "flag": "ABNORMAL",
+        "clinical_significance": "C282Y homozygosity is the most common genotype in hereditary this condition; confirms the diagnosis"
+      },
+      {
+        "test_name": "Hepatitis B and C serologies",
+        "result": "HBsAg negative, anti-HCV negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out viral hepatitis as a cause of elevated liver enzymes"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI liver (T2* weighted)", "result": "Diffusely decreased signal intensity of the liver on T2*-weighted sequences consistent with hepatic iron overload. Liver iron concentration estimated at 280 μmol/g dry weight (markedly elevated). No focal liver lesions. No evidence of cirrhosis.", "flag": "ABNORMAL", "clinical_significance": "MRI is the non-invasive gold standard for quantifying hepatic iron content; confirms significant iron overload"},
-      {"test_name": "X-ray hands", "result": "Hook-like osteophytes at the second and third MCP joints bilaterally. Joint space narrowing with subchondral sclerosis. Chondrocalcinosis of the triangular fibrocartilage of the wrist.", "flag": "ABNORMAL", "clinical_significance": "Hemochromatosis arthropathy classically involves 2nd and 3rd MCP joints with hook-like osteophytes; chondrocalcinosis from associated CPPD disease"}
+      {
+        "test_name": "MRI liver (T2* weighted)",
+        "result": "Diffusely decreased signal intensity of the liver on T2*-weighted sequences consistent with hepatic iron overload. Liver iron concentration estimated at 280 μmol/g dry weight (markedly elevated). No focal liver lesions. No evidence of cirrhosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI is the non-invasive gold standard for quantifying hepatic iron content; confirms significant iron overload"
+      },
+      {
+        "test_name": "X-ray hands",
+        "result": "Hook-like osteophytes at the second and third MCP joints bilaterally. Joint space narrowing with subchondral sclerosis. Chondrocalcinosis of the triangular fibrocartilage of the wrist.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "this condition arthropathy classically involves 2nd and 3rd MCP joints with hook-like osteophytes; chondrocalcinosis from associated CPPD disease"
+      }
     ],
-    "key_tests": ["Transferrin saturation", "Serum ferritin", "HFE gene testing", "Liver function panel", "MRI liver for iron quantification"],
-    "acceptable_tests": ["CBC", "Testosterone and gonadotropins (LH/FSH)", "HbA1c", "Hepatitis B and C serologies", "X-ray hands", "Echocardiogram (screen for cardiomyopathy)", "Cardiac MRI (iron quantification)", "Fasting glucose"],
-    "low_yield_tests": ["Liver biopsy (not needed if genotype confirmed and ferritin < 1000 without liver disease signs)", "Serum ceruloplasmin (Wilson disease unlikely at this age)", "ANA (not autoimmune presentation)", "Alpha-1 antitrypsin level", "Abdominal CT (MRI is superior for iron quantification)"]
+    "key_tests": [
+      "Transferrin saturation",
+      "Serum ferritin",
+      "HFE gene testing",
+      "Liver function panel",
+      "MRI liver for iron quantification"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Testosterone and gonadotropins (LH/FSH)",
+      "HbA1c",
+      "Hepatitis B and C serologies",
+      "X-ray hands",
+      "Echocardiogram (screen for cardiomyopathy)",
+      "Cardiac MRI (iron quantification)",
+      "Fasting glucose"
+    ],
+    "low_yield_tests": [
+      "Liver biopsy (not needed if genotype confirmed and ferritin < 1000 without liver disease signs)",
+      "Serum ceruloplasmin (Wilson disease unlikely at this age)",
+      "ANA (not autoimmune presentation)",
+      "Alpha-1 antitrypsin level",
+      "Abdominal CT (MRI is superior for iron quantification)"
+    ]
   },
   "stage5": {
-    "final_clue": "HFE gene testing confirms C282Y homozygosity, and family screening reveals that the patient's brother is also C282Y homozygous with elevated ferritin — his father's 'alcoholic' cirrhosis was likely undiagnosed hemochromatosis."
+    "final_clue": "HFE gene testing confirms C282Y homozygosity, and family screening reveals that the patient's brother is also C282Y homozygous with elevated ferritin — his father's 'alcoholic' cirrhosis was likely undiagnosed this condition."
   },
   "debrief": {
     "classic_presentation": "Hereditary hemochromatosis classically presents in middle-aged men (women present later due to menses) of Northern European ancestry with the triad of cirrhosis, diabetes mellitus, and skin hyperpigmentation (bronze diabetes). Additional features include arthropathy (especially 2nd/3rd MCP joints), hypogonadism, and cardiomyopathy. However, the classic full triad is late-stage disease — most patients are now detected earlier through abnormal iron studies or family screening.",
@@ -60,12 +151,33 @@
       "Arthropathy is the most common symptom that brings patients to medical attention and often does NOT improve with phlebotomy",
       "Hemochromatosis is associated with an increased risk of hepatocellular carcinoma — screening is essential in patients with cirrhosis"
     ],
-    "sources": ["UpToDate: Clinical manifestations and diagnosis of hereditary hemochromatosis", "AASLD Practice Guidelines on Hemochromatosis 2019"]
+    "sources": [
+      "UpToDate: Clinical manifestations and diagnosis of hereditary hemochromatosis",
+      "AASLD Practice Guidelines on Hemochromatosis 2019"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Hereditary hemochromatosis", "Alcoholic liver disease", "Non-alcoholic fatty liver disease", "Chronic hepatitis B or C", "Wilson disease", "Alpha-1 antitrypsin deficiency", "Secondary iron overload (transfusional)"],
-    "after_stage2_more_likely": ["Hemochromatosis (lean male with diabetes, bronze skin, arthropathy of 2nd/3rd MCPs, hepatomegaly, hypogonadism, Northern European ancestry, family history of liver disease)"],
-    "after_stage2_less_likely": ["Alcoholic liver disease (denies alcohol use)", "NAFLD (lean body habitus)", "Wilson disease (typically presents younger, age < 40)"],
-    "after_labs_top3": ["Hereditary hemochromatosis", "Secondary iron overload", "Alcoholic liver disease with iron deposition"]
+    "reasonable_ddx": [
+      "Hereditary hemochromatosis",
+      "Alcoholic liver disease",
+      "Non-alcoholic fatty liver disease",
+      "Chronic hepatitis B or C",
+      "Wilson disease",
+      "Alpha-1 antitrypsin deficiency",
+      "Secondary iron overload (transfusional)"
+    ],
+    "after_stage2_more_likely": [
+      "Hemochromatosis (lean male with diabetes, bronze skin, arthropathy of 2nd/3rd MCPs, hepatomegaly, hypogonadism, Northern European ancestry, family history of liver disease)"
+    ],
+    "after_stage2_less_likely": [
+      "Alcoholic liver disease (denies alcohol use)",
+      "NAFLD (lean body habitus)",
+      "Wilson disease (typically presents younger, age < 40)"
+    ],
+    "after_labs_top3": [
+      "Hereditary hemochromatosis",
+      "Secondary iron overload",
+      "Alcoholic liver disease with iron deposition"
+    ]
   }
 }

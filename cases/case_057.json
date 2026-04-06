@@ -25,29 +25,115 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "16.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis consistent with mesenteric ischemia and systemic inflammation"},
-      {"test_name": "CBC - Hemoglobin", "result": "15.6 g/dL", "flag": "WNL", "clinical_significance": "Normal to high-normal, may reflect hemoconcentration from third-spacing"},
-      {"test_name": "CBC - Platelets", "result": "142 x10^9/L", "flag": "WNL", "clinical_significance": "Low-normal, may be consumed in the thrombotic process"},
-      {"test_name": "Lactate", "result": "4.2 mmol/L", "flag": "HIGH", "clinical_significance": "Significantly elevated, concerning for intestinal ischemia and tissue hypoperfusion"},
-      {"test_name": "D-dimer", "result": "6.8 mg/L FEU", "flag": "HIGH", "clinical_significance": "Markedly elevated, highly sensitive (though nonspecific) for thrombosis; a normal D-dimer would make MVT unlikely"},
-      {"test_name": "BMP - BUN", "result": "34 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration and possible third-spacing"},
-      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, prerenal component"},
-      {"test_name": "BMP - Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Low, metabolic acidosis consistent with lactic acidosis from bowel ischemia"},
-      {"test_name": "LDH", "result": "342 U/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting tissue ischemia"},
-      {"test_name": "ALT", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal hepatic function"},
-      {"test_name": "Amylase", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, can occur with bowel ischemia (not specific to pancreatitis)"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "16.8 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis consistent with mesenteric ischemia and systemic inflammation"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "15.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal to high-normal, may reflect hemoconcentration from third-spacing"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "142 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal, may be consumed in the thrombotic process"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated, concerning for intestinal ischemia and tissue hypoperfusion"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "6.8 mg/L FEU",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, highly sensitive (though nonspecific) for thrombosis; a normal D-dimer would make MVT unlikely"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "34 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from dehydration and possible third-spacing"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, prerenal component"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "18 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Low, metabolic acidosis consistent with lactic acidosis from bowel ischemia"
+      },
+      {
+        "test_name": "LDH",
+        "result": "342 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, reflecting tissue ischemia"
+      },
+      {
+        "test_name": "ALT",
+        "result": "42 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal hepatic function"
+      },
+      {
+        "test_name": "Amylase",
+        "result": "168 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, can occur with bowel ischemia (not specific to pancreatitis)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast (CT angiography, portal venous phase)", "result": "Extensive thrombosis of the superior mesenteric vein (SMV) extending to the portal vein confluence. Multiple loops of small bowel in the mid-jejunum and proximal ileum show wall thickening, submucosal edema ('target sign'), and mesenteric congestion. Mesenteric fat stranding and small amount of ascites. No pneumatosis intestinalis. No portal venous gas. The superior mesenteric artery is patent.", "flag": "ABNORMAL", "clinical_significance": "Diagnostic of acute mesenteric venous thrombosis with secondary venous congestion and bowel wall edema. Absence of pneumatosis and portal venous gas suggests the bowel has not yet progressed to transmural infarction."},
-      {"test_name": "CT Chest (obtained simultaneously for PE screening)", "result": "No pulmonary embolism. No pleural effusions. Clear lung fields.", "flag": "WNL", "clinical_significance": "Excludes concurrent pulmonary embolism in this patient with prothrombotic state."}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast (CT angiography, portal venous phase)",
+        "result": "Extensive thrombosis of the superior mesenteric vein (SMV) extending to the portal vein confluence. Multiple loops of small bowel in the mid-jejunum and proximal ileum show wall thickening, submucosal edema ('target sign'), and mesenteric congestion. Mesenteric fat stranding and small amount of ascites. No pneumatosis intestinalis. No portal venous gas. The superior mesenteric artery is patent.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diagnostic of acute this condition with secondary venous congestion and bowel wall edema. Absence of pneumatosis and portal venous gas suggests the bowel has not yet progressed to transmural infarction."
+      },
+      {
+        "test_name": "CT Chest (obtained simultaneously for PE screening)",
+        "result": "No pulmonary embolism. No pleural effusions. Clear lung fields.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes concurrent pulmonary embolism in this patient with prothrombotic state."
+      }
     ],
-    "key_tests": ["CT abdomen/pelvis with IV contrast (CTA with arterial and portal venous phases)", "Serum lactate", "D-dimer", "CBC with differential", "BMP with bicarbonate"],
-    "acceptable_tests": ["ABG/VBG", "LDH", "Amylase/lipase", "Coagulation studies (PT/INR, PTT)", "Blood type and screen", "Hepatic function panel", "Thrombophilia workup (factor V Leiden confirmation, protein C/S, antithrombin III — after acute phase)", "CT chest (PE screening)"],
-    "low_yield_tests": ["Abdominal X-ray (late findings only: thumbprinting, pneumatosis)", "Mesenteric angiography (better for arterial occlusion than venous thrombosis)", "Abdominal ultrasound with Doppler (limited by bowel gas and body habitus)", "Colonoscopy (does not evaluate small bowel mesenteric circulation)", "Barium studies (contraindicated if ischemia suspected)"],
+    "key_tests": [
+      "CT abdomen/pelvis with IV contrast (CTA with arterial and portal venous phases)",
+      "Serum lactate",
+      "D-dimer",
+      "CBC with differential",
+      "BMP with bicarbonate"
+    ],
+    "acceptable_tests": [
+      "ABG/VBG",
+      "LDH",
+      "Amylase/lipase",
+      "Coagulation studies (PT/INR, PTT)",
+      "Blood type and screen",
+      "Hepatic function panel",
+      "Thrombophilia workup (factor V Leiden confirmation, protein C/S, antithrombin III — after acute phase)",
+      "CT chest (PE screening)"
+    ],
+    "low_yield_tests": [
+      "Abdominal X-ray (late findings only: thumbprinting, pneumatosis)",
+      "Mesenteric angiography (better for arterial occlusion than venous thrombosis)",
+      "Abdominal ultrasound with Doppler (limited by bowel gas and body habitus)",
+      "Colonoscopy (does not evaluate small bowel mesenteric circulation)",
+      "Barium studies (contraindicated if ischemia suspected)"
+    ],
     "final_clue": "CT angiography reveals extensive superior mesenteric vein thrombosis with secondary small bowel wall edema and mesenteric congestion, without signs of transmural infarction. Lactate is significantly elevated at 4.2 mmol/L. In a patient with factor V Leiden and recent prolonged immobility, this is acute mesenteric venous thrombosis requiring immediate anticoagulation and close surgical monitoring."
   },
   "stage5": {
-    "final_clue": "CT angiography reveals extensive superior mesenteric vein thrombosis with secondary small bowel wall edema and mesenteric congestion, without signs of transmural infarction. Lactate is significantly elevated at 4.2 mmol/L. In a patient with factor V Leiden and recent prolonged immobility, this is acute mesenteric venous thrombosis requiring immediate anticoagulation and close surgical monitoring."
+    "final_clue": "CT angiography reveals extensive superior mesenteric vein thrombosis with secondary small bowel wall edema and mesenteric congestion, without signs of transmural infarction. Lactate is significantly elevated at 4.2 mmol/L. In a patient with factor V Leiden and recent prolonged immobility, this is acute this condition requiring immediate anticoagulation and close surgical monitoring."
   },
   "debrief": {
     "classic_presentation": "Insidious onset of vague, diffuse abdominal pain over days to weeks (in contrast to the abrupt onset in arterial mesenteric ischemia). Pain out of proportion to physical exam findings is a classic feature of all mesenteric ischemia. Nausea, anorexia, diarrhea (often bloody), and abdominal bloating are common. MVT accounts for 5-15% of mesenteric ischemia cases. Risk factors include hypercoagulable states (factor V Leiden, protein C/S deficiency, antithrombin III deficiency, antiphospholipid syndrome), portal hypertension, cirrhosis, malignancy, recent abdominal surgery, pancreatitis, and oral contraceptive use.",
@@ -70,9 +156,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia (SMA embolism/thrombosis)", "Inflammatory bowel disease flare", "Infectious colitis", "Small bowel obstruction", "Acute pancreatitis", "Ischemic colitis (non-occlusive)"],
-    "after_stage2_more_likely": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia", "Inflammatory bowel disease"],
-    "after_stage2_less_likely": ["Small bowel obstruction", "Acute pancreatitis"],
-    "after_labs_top3": ["Mesenteric venous thrombosis", "Acute mesenteric arterial ischemia", "Ischemic colitis"]
+    "reasonable_ddx": [
+      "Mesenteric venous thrombosis",
+      "Acute mesenteric arterial ischemia (SMA embolism/thrombosis)",
+      "Inflammatory bowel disease flare",
+      "Infectious colitis",
+      "Small bowel obstruction",
+      "Acute pancreatitis",
+      "Ischemic colitis (non-occlusive)"
+    ],
+    "after_stage2_more_likely": [
+      "Mesenteric venous thrombosis",
+      "Acute mesenteric arterial ischemia",
+      "Inflammatory bowel disease"
+    ],
+    "after_stage2_less_likely": [
+      "Small bowel obstruction",
+      "Acute pancreatitis"
+    ],
+    "after_labs_top3": [
+      "Mesenteric venous thrombosis",
+      "Acute mesenteric arterial ischemia",
+      "Ischemic colitis"
+    ]
   }
 }

@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no acute myocardial necrosis (expected in stable angina)"},
-      {"test_name": "Total cholesterol", "result": "248 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, suboptimally controlled dyslipidemia"},
-      {"test_name": "LDL cholesterol", "result": "162 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated, needs intensification of statin therapy"},
-      {"test_name": "HDL cholesterol", "result": "36 mg/dL", "flag": "LOW", "clinical_significance": "Low HDL, additional cardiovascular risk factor"},
-      {"test_name": "Triglycerides", "result": "210 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, associated with metabolic syndrome"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control, increases cardiovascular risk"},
-      {"test_name": "Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Fasting glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with uncontrolled diabetes"},
-      {"test_name": "CBC", "result": "WBC 7.8, Hgb 15.2, Plt 198", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BNP", "result": "38 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no heart failure"},
-      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"}
+      {
+        "test_name": "Troponin I",
+        "result": "< 0.01 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no acute myocardial necrosis (expected in stable angina)"
+      },
+      {
+        "test_name": "Total cholesterol",
+        "result": "248 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, suboptimally controlled dyslipidemia"
+      },
+      {
+        "test_name": "LDL cholesterol",
+        "result": "162 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, needs intensification of statin therapy"
+      },
+      {
+        "test_name": "HDL cholesterol",
+        "result": "36 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low HDL, additional cardiovascular risk factor"
+      },
+      {
+        "test_name": "Triglycerides",
+        "result": "210 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, associated with metabolic syndrome"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimal glycemic control, increases cardiovascular risk"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "142 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with uncontrolled diabetes"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.8, Hgb 15.2, Plt 198",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BNP",
+        "result": "38 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no heart failure"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-lead ECG (resting)", "result": "Normal sinus rhythm, LVH by voltage criteria, no ST-T changes at rest", "flag": "ABNORMAL", "clinical_significance": "LVH from chronic hypertension; normal resting ECG does not exclude CAD"},
-      {"test_name": "Exercise stress ECG", "result": "At 6 minutes on Bruce protocol (7 METs), patient developed typical chest pressure with 2 mm horizontal ST depression in leads V4-V6 and lead II. Symptoms and ECG changes resolved within 3 minutes of recovery. No arrhythmias.", "flag": "ABNORMAL", "clinical_significance": "Positive stress test reproducing symptoms with ischemic ECG changes, consistent with obstructive CAD"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly, no pulmonary congestion or effusion", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with hypertensive heart disease"}
+      {
+        "test_name": "12-lead ECG (resting)",
+        "result": "Normal sinus rhythm, LVH by voltage criteria, no ST-T changes at rest",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH from chronic hypertension; normal resting ECG does not exclude CAD"
+      },
+      {
+        "test_name": "Exercise stress ECG",
+        "result": "At 6 minutes on Bruce protocol (7 METs), patient developed typical chest pressure with 2 mm horizontal ST depression in leads V4-V6 and lead II. Symptoms and ECG changes resolved within 3 minutes of recovery. No arrhythmias.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive stress test reproducing symptoms with ischemic ECG changes, consistent with obstructive CAD"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly, no pulmonary congestion or effusion",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly consistent with hypertensive heart disease"
+      }
     ],
-    "key_tests": ["12-lead ECG", "Exercise stress test", "Troponin", "Lipid panel", "Fasting glucose/HbA1c"],
-    "acceptable_tests": ["BNP", "CBC", "Basic metabolic panel", "TSH", "Chest X-ray", "Coronary CT angiography", "Stress echocardiogram", "Nuclear stress test"],
-    "low_yield_tests": ["D-dimer", "CRP", "Cardiac MRI", "Pulmonary function tests", "Serum cortisol"],
+    "key_tests": [
+      "12-lead ECG",
+      "Exercise stress test",
+      "Troponin",
+      "Lipid panel",
+      "Fasting glucose/HbA1c"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "CBC",
+      "Basic metabolic panel",
+      "TSH",
+      "Chest X-ray",
+      "Coronary CT angiography",
+      "Stress echocardiogram",
+      "Nuclear stress test"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "CRP",
+      "Cardiac MRI",
+      "Pulmonary function tests",
+      "Serum cortisol"
+    ],
     "key_tests_rationale": "ECG identifies baseline abnormalities. Stress testing provokes and documents ischemia. Troponin rules out acute injury. Lipid panel and HbA1c quantify cardiovascular risk factors requiring optimization."
   },
   "stage5": {
-    "final_clue": "Exercise stress testing reproduces the patient's typical chest pressure at 6 minutes with 2 mm ST depression in the lateral leads, confirming ischemia. Symptoms and ECG changes resolve with rest. This is classic stable angina pectoris."
+    "final_clue": "Exercise stress testing reproduces the patient's typical chest pressure at 6 minutes with 2 mm ST depression in the lateral leads, confirming ischemia. Symptoms and ECG changes resolve with rest. This is classic this condition."
   },
   "debrief": {
     "classic_presentation": "Stable angina presents as predictable exertional substernal chest pressure/tightness that radiates to the arm or jaw, is provoked by physical exertion or emotional stress, and is relieved within minutes by rest or nitroglycerin. The pattern is consistent and does not occur at rest. Multiple cardiovascular risk factors (smoking, hypertension, diabetes, hyperlipidemia, family history) are typical.",
@@ -70,9 +161,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Unstable angina/ACS", "GERD", "Musculoskeletal chest pain", "Aortic stenosis", "Hypertrophic cardiomyopathy", "Esophageal spasm"],
-    "after_stage2_more_likely": ["Stable angina", "Unstable angina", "Aortic stenosis"],
-    "after_stage2_less_likely": ["GERD", "Musculoskeletal pain", "Esophageal spasm"],
-    "after_labs_top3": ["Stable angina pectoris", "Coronary artery disease", "Metabolic syndrome with CAD"]
+    "reasonable_ddx": [
+      "Unstable angina/ACS",
+      "GERD",
+      "Musculoskeletal chest pain",
+      "Aortic stenosis",
+      "Hypertrophic cardiomyopathy",
+      "Esophageal spasm"
+    ],
+    "after_stage2_more_likely": [
+      "Stable angina",
+      "Unstable angina",
+      "Aortic stenosis"
+    ],
+    "after_stage2_less_likely": [
+      "GERD",
+      "Musculoskeletal pain",
+      "Esophageal spasm"
+    ],
+    "after_labs_top3": [
+      "Stable angina pectoris",
+      "Coronary artery disease",
+      "Metabolic syndrome with CAD"
+    ]
   }
 }

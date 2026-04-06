@@ -25,27 +25,107 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum uric acid", "result": "9.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated uric acid supports gout diagnosis, though levels can be normal during an acute flare"},
-      {"test_name": "Synovial fluid analysis — crystal exam", "result": "Negatively birefringent, needle-shaped crystals under polarized light microscopy", "flag": "ABNORMAL", "clinical_significance": "Monosodium urate crystals are the gold standard for definitive diagnosis of gout"},
-      {"test_name": "Synovial fluid WBC", "result": "48,000/μL with 90% neutrophils", "flag": "HIGH", "clinical_significance": "Inflammatory synovial fluid; high WBC count but below the typical threshold (>50,000) that strongly suggests septic arthritis"},
-      {"test_name": "Synovial fluid Gram stain and culture", "result": "No organisms seen on Gram stain. Culture pending (eventually negative).", "flag": "WNL", "clinical_significance": "Rules out septic arthritis, which must always be considered in an acute monoarthritis"},
-      {"test_name": "WBC", "result": "11,800/μL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis can occur during acute gout flare from systemic inflammation"},
-      {"test_name": "ESR", "result": "52 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with acute gouty arthritis"},
-      {"test_name": "CRP", "result": "6.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker supporting acute inflammatory process"},
-      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; CKD impairs uric acid excretion and is a risk factor for gout"},
-      {"test_name": "BUN", "result": "22 mg/dL", "flag": "WNL", "clinical_significance": "Mildly elevated but within range; consistent with known CKD"},
-      {"test_name": "eGFR", "result": "58 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "Reduced renal function contributes to hyperuricemia; also impacts treatment choices (avoid high-dose NSAIDs)"}
+      {
+        "test_name": "Serum uric acid",
+        "result": "9.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated uric acid supports this condition diagnosis, though levels can be normal during an acute flare"
+      },
+      {
+        "test_name": "Synovial fluid analysis — crystal exam",
+        "result": "Negatively birefringent, needle-shaped crystals under polarized light microscopy",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Monosodium urate crystals are the gold standard for definitive diagnosis of this condition"
+      },
+      {
+        "test_name": "Synovial fluid WBC",
+        "result": "48,000/μL with 90% neutrophils",
+        "flag": "HIGH",
+        "clinical_significance": "Inflammatory synovial fluid; high WBC count but below the typical threshold (>50,000) that strongly suggests septic arthritis"
+      },
+      {
+        "test_name": "Synovial fluid Gram stain and culture",
+        "result": "No organisms seen on Gram stain. Culture pending (eventually negative).",
+        "flag": "WNL",
+        "clinical_significance": "Rules out septic arthritis, which must always be considered in an acute monoarthritis"
+      },
+      {
+        "test_name": "WBC",
+        "result": "11,800/μL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis can occur during this condition flare from systemic inflammation"
+      },
+      {
+        "test_name": "ESR",
+        "result": "52 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with the suspected diagnosisy arthritis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "6.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker supporting acute inflammatory process"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; CKD impairs uric acid excretion and is a risk factor for this condition"
+      },
+      {
+        "test_name": "BUN",
+        "result": "22 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated but within range; consistent with known CKD"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "58 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "Reduced renal function contributes to hyperuricemia; also impacts treatment choices (avoid high-dose NSAIDs)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "X-ray of right foot", "result": "Soft tissue swelling around the first MTP joint. No erosions, no chondrocalcinosis, no fractures. Joint space is preserved.", "flag": "ABNORMAL", "clinical_significance": "Early gout typically shows only soft tissue swelling on plain films; erosions and tophi appear in chronic tophaceous gout"},
-      {"test_name": "Dual-energy CT of right foot", "result": "Monosodium urate crystal deposits identified at the first MTP joint, confirming gout.", "flag": "ABNORMAL", "clinical_significance": "DECT can non-invasively identify urate deposits; useful when arthrocentesis is difficult or inconclusive"}
+      {
+        "test_name": "X-ray of right foot",
+        "result": "Soft tissue swelling around the first MTP joint. No erosions, no chondrocalcinosis, no fractures. Joint space is preserved.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Early this condition typically shows only soft tissue swelling on plain films; erosions and tophi appear in chronic tophaceous this condition"
+      },
+      {
+        "test_name": "Dual-energy CT of right foot",
+        "result": "Monosodium urate crystal deposits identified at the first MTP joint, confirming this condition.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "DECT can non-invasively identify urate deposits; useful when arthrocentesis is difficult or inconclusive"
+      }
     ],
-    "key_tests": ["Arthrocentesis with synovial fluid crystal analysis", "Synovial fluid Gram stain and culture", "Serum uric acid", "Basic metabolic panel (creatinine/eGFR)", "CBC"],
-    "acceptable_tests": ["ESR and CRP", "X-ray of affected joint", "Dual-energy CT", "Liver function tests", "Lipid panel", "HbA1c", "Urinalysis"],
-    "low_yield_tests": ["MRI of the foot (unnecessary for classic presentation)", "ANA (not an autoimmune presentation)", "Rheumatoid factor", "Blood cultures (no systemic signs of sepsis)", "Lyme antibodies"]
+    "key_tests": [
+      "Arthrocentesis with synovial fluid crystal analysis",
+      "Synovial fluid Gram stain and culture",
+      "Serum uric acid",
+      "Basic metabolic panel (creatinine/eGFR)",
+      "CBC"
+    ],
+    "acceptable_tests": [
+      "ESR and CRP",
+      "X-ray of affected joint",
+      "Dual-energy CT",
+      "Liver function tests",
+      "Lipid panel",
+      "HbA1c",
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "MRI of the foot (unnecessary for classic presentation)",
+      "ANA (not an autoimmune presentation)",
+      "Rheumatoid factor",
+      "Blood cultures (no systemic signs of sepsis)",
+      "Lyme antibodies"
+    ]
   },
   "stage5": {
-    "final_clue": "The synovial fluid analysis returns showing strongly negatively birefringent, needle-shaped crystals with intracellular phagocytosis by neutrophils — pathognomonic for monosodium urate gout. Gram stain is negative and cultures are no growth to date."
+    "final_clue": "The synovial fluid analysis returns showing strongly negatively birefringent, needle-shaped crystals with intracellular phagocytosis by neutrophils — pathognomonic for monosodium urate this condition. Gram stain is negative and cultures are no growth to date."
   },
   "debrief": {
     "classic_presentation": "Acute gout classically presents as a sudden onset of excruciating monoarticular pain, most commonly affecting the first MTP joint (podagra). The attack often begins at night and reaches peak intensity within 12-24 hours. The joint is red, swollen, warm, and exquisitely tender. Common triggers include alcohol (especially beer), purine-rich foods, dehydration, and medications that alter uric acid levels (thiazide diuretics, loop diuretics). Risk factors include male sex, obesity, CKD, and family history.",
@@ -58,12 +138,32 @@
       "Septic arthritis must always be excluded in acute monoarthritis — gout and septic arthritis can coexist",
       "Thiazide diuretics are a common iatrogenic cause of hyperuricemia and should be switched when possible in gout patients"
     ],
-    "sources": ["UpToDate: Clinical manifestations and diagnosis of gout", "ACR/Rheumatology Guidelines for Management of Gout 2020"]
+    "sources": [
+      "UpToDate: Clinical manifestations and diagnosis of gout",
+      "ACR/Rheumatology Guidelines for Management of Gout 2020"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute gout", "Septic arthritis", "Pseudogout (CPPD)", "Cellulitis", "Trauma/fracture", "Reactive arthritis", "Rheumatoid arthritis flare"],
-    "after_stage2_more_likely": ["Acute gout (classic podagra, dietary/alcohol trigger, new thiazide, family history, CKD, obesity)"],
-    "after_stage2_less_likely": ["Septic arthritis (no fever, no systemic toxicity, identifiable triggers)", "Trauma/fracture (no history of injury)"],
-    "after_labs_top3": ["Acute gout", "Septic arthritis", "Pseudogout"]
+    "reasonable_ddx": [
+      "Acute gout",
+      "Septic arthritis",
+      "Pseudogout (CPPD)",
+      "Cellulitis",
+      "Trauma/fracture",
+      "Reactive arthritis",
+      "Rheumatoid arthritis flare"
+    ],
+    "after_stage2_more_likely": [
+      "Acute gout (classic podagra, dietary/alcohol trigger, new thiazide, family history, CKD, obesity)"
+    ],
+    "after_stage2_less_likely": [
+      "Septic arthritis (no fever, no systemic toxicity, identifiable triggers)",
+      "Trauma/fracture (no history of injury)"
+    ],
+    "after_labs_top3": [
+      "Acute gout",
+      "Septic arthritis",
+      "Pseudogout"
+    ]
   }
 }

@@ -25,26 +25,117 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "1,240 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; consistent with decompensated heart failure as cause of effusion"},
-      {"test_name": "BMP — Sodium", "result": "134 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia — dilutional, common in decompensated CHF and associated with worse prognosis"},
-      {"test_name": "BMP — Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Upper normal; monitor given renal dysfunction and spironolactone use"},
-      {"test_name": "BMP — Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated above baseline (1.2) — cardiorenal syndrome from poor forward flow"},
-      {"test_name": "BMP — BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN:Cr ratio suggestive of prerenal azotemia from poor cardiac output"},
-      {"test_name": "CBC — WBC", "result": "7,800/uL", "flag": "WNL", "clinical_significance": "Normal; argues against infection"},
-      {"test_name": "CBC — Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia — may contribute to symptoms and exacerbate heart failure"},
-      {"test_name": "Albumin", "result": "3.4 g/dL", "flag": "LOW", "clinical_significance": "Low-normal; contributes to reduced oncotic pressure and fluid accumulation"},
-      {"test_name": "Pleural fluid protein", "result": "1.8 g/dL", "flag": "WNL", "clinical_significance": "Pleural fluid protein/serum protein ratio <0.5 — transudative by Light criteria"},
-      {"test_name": "Pleural fluid LDH", "result": "95 U/L", "flag": "WNL", "clinical_significance": "Pleural fluid LDH/serum LDH ratio <0.6 — transudative by Light criteria"},
-      {"test_name": "Serum LDH", "result": "210 U/L", "flag": "WNL", "clinical_significance": "Normal serum LDH for Light criteria calculation"},
-      {"test_name": "Liver function — AST/ALT", "result": "52/48 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated transaminases from hepatic congestion secondary to right heart failure"}
+      {
+        "test_name": "BNP",
+        "result": "1,240 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; consistent with decompensated heart failure as cause of effusion"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "134 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia — dilutional, common in decompensated CHF and associated with worse prognosis"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "4.8 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Upper normal; monitor given renal dysfunction and spironolactone use"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated above baseline (1.2) — cardiorenal syndrome from poor forward flow"
+      },
+      {
+        "test_name": "BMP — BUN",
+        "result": "38 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BUN:Cr ratio suggestive of prerenal azotemia from poor cardiac output"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,800/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; argues against infection"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "11.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia — may contribute to symptoms and exacerbate heart failure"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low-normal; contributes to reduced oncotic pressure and fluid accumulation"
+      },
+      {
+        "test_name": "Pleural fluid protein",
+        "result": "1.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Pleural fluid protein/serum protein ratio <0.5 — transudative by Light criteria"
+      },
+      {
+        "test_name": "Pleural fluid LDH",
+        "result": "95 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Pleural fluid LDH/serum LDH ratio <0.6 — transudative by Light criteria"
+      },
+      {
+        "test_name": "Serum LDH",
+        "result": "210 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal serum LDH for Light criteria calculation"
+      },
+      {
+        "test_name": "Liver function — AST/ALT",
+        "result": "52/48 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated transaminases from hepatic congestion secondary to right heart failure"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and lateral)", "result": "Bilateral pleural effusions (right > left) with meniscus sign. Bilateral perihilar hazy opacities (pulmonary edema). Cardiomegaly with cardiothoracic ratio >0.5. Cephalization of pulmonary vasculature.", "flag": "ABNORMAL", "clinical_significance": "Classic findings of decompensated heart failure with bilateral transudative pleural effusions"},
-      {"test_name": "Point-of-care ultrasound (POCUS)", "result": "Bilateral anechoic pleural effusions, larger on the right (~800 mL estimated). No septations or loculations. IVC dilated >2.1 cm with <50% inspiratory collapse.", "flag": "ABNORMAL", "clinical_significance": "Confirms bilateral simple effusions and elevated right atrial pressure consistent with volume overload"}
+      {
+        "test_name": "Chest X-ray (PA and lateral)",
+        "result": "Bilateral this conditions (right > left) with meniscus sign. Bilateral perihilar hazy opacities (pulmonary edema). Cardiomegaly with cardiothoracic ratio >0.5. Cephalization of pulmonary vasculature.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic findings of decompensated heart failure with bilateral transudative this conditions"
+      },
+      {
+        "test_name": "Point-of-care ultrasound (POCUS)",
+        "result": "Bilateral anechoic this conditions, larger on the right (~800 mL estimated). No septations or loculations. IVC dilated >2.1 cm with <50% inspiratory collapse.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms bilateral simple effusions and elevated right atrial pressure consistent with volume overload"
+      }
     ],
-    "key_tests": ["Chest X-ray", "BNP or NT-proBNP", "BMP (electrolytes and renal function)", "Thoracentesis with pleural fluid analysis (Light criteria)", "Point-of-care ultrasound"],
-    "acceptable_tests": ["CBC", "Liver function tests", "Albumin", "ECG", "Echocardiogram", "Urinalysis", "Coagulation studies", "Pleural fluid cell count and differential"],
-    "low_yield_tests": ["CT chest with contrast", "D-dimer", "Pleural fluid cytology (in clearly transudative effusion)", "Bronchoscopy", "Sputum culture"]
+    "key_tests": [
+      "Chest X-ray",
+      "BNP or NT-proBNP",
+      "BMP (electrolytes and renal function)",
+      "Thoracentesis with pleural fluid analysis (Light criteria)",
+      "Point-of-care ultrasound"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Liver function tests",
+      "Albumin",
+      "ECG",
+      "Echocardiogram",
+      "Urinalysis",
+      "Coagulation studies",
+      "Pleural fluid cell count and differential"
+    ],
+    "low_yield_tests": [
+      "CT chest with contrast",
+      "D-dimer",
+      "Pleural fluid cytology (in clearly transudative effusion)",
+      "Bronchoscopy",
+      "Sputum culture"
+    ]
   },
   "stage5": {
     "final_clue": "Diagnostic thoracentesis yields straw-colored fluid meeting all transudative criteria by Light criteria (protein ratio 0.38, LDH ratio 0.45). IV furosemide produces 3.5 L urine output over 12 hours with significant symptom improvement and interval decrease in effusion on repeat imaging."
@@ -68,9 +159,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Transudative pleural effusion from CHF", "Pneumonia with parapneumonic effusion", "Nephrotic syndrome", "Hepatic hydrothorax", "Malignant pleural effusion", "Pulmonary embolism with effusion"],
-    "after_stage2_more_likely": ["Transudative pleural effusion from CHF", "Hepatic hydrothorax"],
-    "after_stage2_less_likely": ["Pneumonia with parapneumonic effusion", "Pulmonary embolism"],
-    "after_labs_top3": ["Transudative pleural effusion from CHF", "Nephrotic syndrome", "Hepatic hydrothorax"]
+    "reasonable_ddx": [
+      "Transudative pleural effusion from CHF",
+      "Pneumonia with parapneumonic effusion",
+      "Nephrotic syndrome",
+      "Hepatic hydrothorax",
+      "Malignant pleural effusion",
+      "Pulmonary embolism with effusion"
+    ],
+    "after_stage2_more_likely": [
+      "Transudative pleural effusion from CHF",
+      "Hepatic hydrothorax"
+    ],
+    "after_stage2_less_likely": [
+      "Pneumonia with parapneumonic effusion",
+      "Pulmonary embolism"
+    ],
+    "after_labs_top3": [
+      "Transudative pleural effusion from CHF",
+      "Nephrotic syndrome",
+      "Hepatic hydrothorax"
+    ]
   }
 }

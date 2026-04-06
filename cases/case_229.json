@@ -6,7 +6,7 @@
   "icd_category": "F10.231 — Alcohol dependence with withdrawal delirium",
   "one_liner": "A 52-year-old man with a history of heavy alcohol use presents 72 hours after his last drink with agitation, visual hallucinations of insects, tremor, diaphoresis, tachycardia, and fever.",
   "stage2": {
-    "hpi_extension": "The patient was admitted to the hospital 3 days ago for acute pancreatitis. He reported drinking a fifth of vodka daily for the past 15 years. His last drink was approximately 72 hours prior to current symptom onset. He initially had mild withdrawal symptoms (tremor, anxiety, mild tachycardia) on hospital day 1, which were treated with PRN lorazepam per CIWA protocol. However, over the past 12 hours, he has become increasingly agitated, confused, and disoriented. He is seeing 'bugs crawling on the walls and on his skin' and is trying to brush them off. He does not recognize his wife who is at the bedside. He is diaphoretic with coarse whole-body tremor. Nursing staff report he had a generalized tonic-clonic seizure approximately 6 hours ago lasting 90 seconds. His CIWA-Ar score is 28 (severe withdrawal). He has a history of two prior alcohol withdrawal seizures and one prior episode of delirium tremens requiring ICU admission 3 years ago.",
+    "hpi_extension": "The patient was admitted to the hospital 3 days ago for acute pancreatitis. He reported drinking a fifth of vodka daily for the past 15 years. His last drink was approximately 72 hours prior to current symptom onset. He initially had mild withdrawal symptoms (tremor, anxiety, mild tachycardia) on hospital day 1, which were treated with PRN lorazepam per CIWA protocol. However, over the past 12 hours, he has become increasingly agitated, confused, and disoriented. He is seeing 'bugs crawling on the walls and on his skin' and is trying to brush them off. He does not recognize his wife who is at the bedside. He is diaphoretic with coarse whole-body tremor. Nursing staff report he had a generalized tonic-clonic seizure approximately 6 hours ago lasting 90 seconds. His CIWA-Ar score is 28 (severe withdrawal). He has a history of two prior alcohol withdrawal seizures and one prior episode of this condition requiring ICU admission 3 years ago.",
     "pmh": "Alcohol use disorder (severe). History of alcohol withdrawal seizures (x2). Prior delirium tremens (ICU admission 3 years ago). Alcoholic pancreatitis (recurrent). Hypertension. Gastroesophageal reflux disease.",
     "surgical_history": "None",
     "medications": "Lisinopril 20 mg daily. Omeprazole 20 mg daily. Thiamine 100 mg IV daily (started on admission). Lorazepam per CIWA protocol.",
@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 14.2 (elevated), Hgb 11.8, Hct 35.1, Plt 98 (low), MCV 104 fL (elevated)", "flag": "ABNORMAL", "clinical_significance": "Leukocytosis (stress response/possible infection), macrocytosis (chronic alcohol use — B12/folate deficiency), thrombocytopenia (alcohol-related marrow suppression and splenic sequestration)"},
-      {"test_name": "CMP", "result": "Na 132 (low), K 3.0 (low), Cl 94, CO2 20 (low), BUN 28 (elevated), Cr 1.4 (elevated), Glucose 148 (elevated), Ca 7.8 (low), AST 185 (elevated), ALT 95 (elevated), Alk Phos 142, Albumin 2.8 (low)", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia, hypokalemia, hypocalcemia — electrolyte derangements increase seizure and arrhythmia risk. Elevated AST:ALT ratio >2:1 classic for alcoholic liver disease. Elevated BUN/Cr from dehydration. Hyperglycemia from stress response."},
-      {"test_name": "Magnesium", "result": "1.2 mg/dL (critically low, normal 1.7-2.2)", "flag": "LOW", "clinical_significance": "Severe hypomagnesemia — common in alcoholism, lowers seizure threshold and contributes to arrhythmia risk"},
-      {"test_name": "Phosphorus", "result": "2.0 mg/dL (low)", "flag": "LOW", "clinical_significance": "Hypophosphatemia common in alcoholism and malnutrition"},
-      {"test_name": "Lipase", "result": "380 U/L (elevated, normal <60)", "flag": "HIGH", "clinical_significance": "Elevated lipase consistent with acute-on-chronic pancreatitis (known admission diagnosis)"},
-      {"test_name": "Ammonia", "result": "45 mcmol/L (mildly elevated, normal <35)", "flag": "HIGH", "clinical_significance": "Mildly elevated ammonia from hepatic dysfunction; however, ammonia level does not correlate well with clinical hepatic encephalopathy severity"},
-      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "Confirms no recent alcohol intake — symptoms are from withdrawal, not intoxication"},
-      {"test_name": "Coagulation studies", "result": "PT 16.5 sec (elevated), INR 1.4 (elevated), PTT 38 sec", "flag": "ABNORMAL", "clinical_significance": "Prolonged PT/INR from hepatic synthetic dysfunction and vitamin K deficiency"},
-      {"test_name": "Lactate", "result": "3.2 mmol/L (elevated, normal <2.0)", "flag": "HIGH", "clinical_significance": "Elevated lactate from agitation, dehydration, and possible early sepsis (must rule out infection as cause of fever)"},
-      {"test_name": "Blood cultures (x2)", "result": "Pending (drawn prior to antibiotics)", "flag": "WNL", "clinical_significance": "Essential to rule out sepsis as a cause of altered mental status and fever"},
-      {"test_name": "Urine drug screen", "result": "Positive for benzodiazepines (therapeutic — lorazepam given per CIWA protocol)", "flag": "ABNORMAL", "clinical_significance": "Expected finding given CIWA protocol treatment with lorazepam; no other substances detected"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 14.2 (elevated), Hgb 11.8, Hct 35.1, Plt 98 (low), MCV 104 fL (elevated)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leukocytosis (stress response/possible infection), macrocytosis (chronic alcohol use — B12/folate deficiency), thrombocytopenia (alcohol-related marrow suppression and splenic sequestration)"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 132 (low), K 3.0 (low), Cl 94, CO2 20 (low), BUN 28 (elevated), Cr 1.4 (elevated), Glucose 148 (elevated), Ca 7.8 (low), AST 185 (elevated), ALT 95 (elevated), Alk Phos 142, Albumin 2.8 (low)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia, hypokalemia, hypocalcemia — electrolyte derangements increase seizure and arrhythmia risk. Elevated AST:ALT ratio >2:1 classic for alcoholic liver disease. Elevated BUN/Cr from dehydration. Hyperglycemia from stress response."
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.2 mg/dL (critically low, normal 1.7-2.2)",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypomagnesemia — common in alcoholism, lowers seizure threshold and contributes to arrhythmia risk"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "2.0 mg/dL (low)",
+        "flag": "LOW",
+        "clinical_significance": "Hypophosphatemia common in alcoholism and malnutrition"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "380 U/L (elevated, normal <60)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lipase consistent with acute-on-chronic pancreatitis (known admission diagnosis)"
+      },
+      {
+        "test_name": "Ammonia",
+        "result": "45 mcmol/L (mildly elevated, normal <35)",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated ammonia from hepatic dysfunction; however, ammonia level does not correlate well with clinical hepatic encephalopathy severity"
+      },
+      {
+        "test_name": "Blood alcohol level",
+        "result": "0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Confirms no recent alcohol intake — symptoms are from withdrawal, not intoxication"
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 16.5 sec (elevated), INR 1.4 (elevated), PTT 38 sec",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Prolonged PT/INR from hepatic synthetic dysfunction and vitamin K deficiency"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.2 mmol/L (elevated, normal <2.0)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate from agitation, dehydration, and possible early sepsis (must rule out infection as cause of fever)"
+      },
+      {
+        "test_name": "Blood cultures (x2)",
+        "result": "Pending (drawn prior to antibiotics)",
+        "flag": "WNL",
+        "clinical_significance": "Essential to rule out sepsis as a cause of altered mental status and fever"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Positive for benzodiazepines (therapeutic — lorazepam given per CIWA protocol)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Expected finding given CIWA protocol treatment with lorazepam; no other substances detected"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild diffuse cerebral atrophy.", "flag": "ABNORMAL", "clinical_significance": "Rules out intracranial hemorrhage or structural cause of delirium; cerebral atrophy consistent with chronic alcohol use"},
-      {"test_name": "Chest X-ray", "result": "No acute infiltrate or pneumonia. Heart size upper limit of normal.", "flag": "WNL", "clinical_significance": "Rules out aspiration pneumonia as source of fever"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild diffuse cerebral atrophy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rules out intracranial hemorrhage or structural cause of delirium; cerebral atrophy consistent with chronic alcohol use"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No acute infiltrate or pneumonia. Heart size upper limit of normal.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out aspiration pneumonia as source of fever"
+      }
     ],
     "key_tests": [
       "CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol) — score 28 (severe withdrawal requiring aggressive treatment)",
@@ -67,7 +132,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "This patient with severe alcohol use disorder presents with classic delirium tremens (DT) 72 hours after last drink — the typical timeline for DT onset. He exhibits the hallmark features: delirium (acute confusion with disorientation and inattention), autonomic hyperactivity (fever, tachycardia, hypertension, diaphoresis), visual and tactile hallucinations, agitation, and preceding withdrawal seizure. His severe electrolyte derangements (hypokalemia, hypomagnesemia, hypocalcemia) compound the risk. History of prior DT is the strongest predictor of recurrence. CIWA-Ar score of 28 confirms severe withdrawal."
+    "final_clue": "This patient with severe alcohol use disorder presents with classic this condition (DT) 72 hours after last drink — the typical timeline for DT onset. He exhibits the hallmark features: delirium (acute confusion with disorientation and inattention), autonomic hyperactivity (fever, tachycardia, hypertension, diaphoresis), visual and tactile hallucinations, agitation, and preceding withdrawal seizure. His severe electrolyte derangements (hypokalemia, hypomagnesemia, hypocalcemia) compound the risk. History of prior DT is the strongest predictor of recurrence. CIWA-Ar score of 28 confirms severe withdrawal."
   },
   "debrief": {
     "classic_presentation": "A chronic heavy drinker presenting 48-96 hours after last drink (or significant reduction) with the triad of delirium (fluctuating confusion, disorientation, inattention), autonomic instability (fever, tachycardia, hypertension, diaphoresis), and vivid visual/tactile hallucinations. Often preceded by withdrawal seizures (12-48 hours) and minor withdrawal symptoms (6-24 hours). DT carries 5-15% mortality if untreated.",

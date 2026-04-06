@@ -25,24 +25,103 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "8,200/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infectious process"},
-      {"test_name": "CBC — Hemoglobin", "result": "15.1 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "141 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ABG pH", "result": "7.44", "flag": "WNL", "clinical_significance": "Mild respiratory alkalosis from tachypnea"},
-      {"test_name": "ABG pCO2", "result": "34 mmHg", "flag": "LOW", "clinical_significance": "Slight hypocapnia consistent with hyperventilation"},
-      {"test_name": "ABG pO2", "result": "78 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from collapsed lung tissue not participating in gas exchange"},
-      {"test_name": "Troponin I", "result": "<0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal; rules out myocardial injury"},
-      {"test_name": "D-dimer", "result": "0.3 mcg/mL", "flag": "WNL", "clinical_significance": "Normal; argues against pulmonary embolism"},
-      {"test_name": "Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no tissue hypoperfusion"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infectious process"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "15.1 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "141 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "4.0 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ABG pH",
+        "result": "7.44",
+        "flag": "WNL",
+        "clinical_significance": "Mild respiratory alkalosis from tachypnea"
+      },
+      {
+        "test_name": "ABG pCO2",
+        "result": "34 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Slight hypocapnia consistent with hyperventilation"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "78 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypoxemia from collapsed lung tissue not participating in gas exchange"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "<0.01 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out myocardial injury"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "0.3 mcg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; argues against pulmonary embolism"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.2 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no tissue hypoperfusion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (upright PA)", "result": "Visible visceral pleural line on the right with absence of lung markings peripherally, consistent with a moderate right-sided pneumothorax (~30%). No mediastinal shift. Left lung clear.", "flag": "ABNORMAL", "clinical_significance": "Confirms the diagnosis of right-sided spontaneous pneumothorax. No tension physiology present."},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 108 bpm. No ST changes or axis deviation.", "flag": "WNL", "clinical_significance": "Tachycardia likely reactive; no evidence of right heart strain or ischemia"}
+      {
+        "test_name": "Chest X-ray (upright PA)",
+        "result": "Visible visceral pleural line on the right with absence of lung markings peripherally, consistent with a moderate right-sided pneumothorax (~30%). No mediastinal shift. Left lung clear.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms the diagnosis of right-sided this condition. No tension physiology present."
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 108 bpm. No ST changes or axis deviation.",
+        "flag": "WNL",
+        "clinical_significance": "Tachycardia likely reactive; no evidence of right heart strain or ischemia"
+      }
     ],
-    "key_tests": ["Chest X-ray (upright PA)", "Pulse oximetry", "ABG or VBG", "ECG"],
-    "acceptable_tests": ["CBC", "BMP", "Troponin", "D-dimer", "CT chest (if X-ray equivocal or for sizing)", "Lactate", "Coagulation studies"],
-    "low_yield_tests": ["Sputum culture", "Bronchoscopy", "Echocardiogram", "PFTs", "BNP"]
+    "key_tests": [
+      "Chest X-ray (upright PA)",
+      "Pulse oximetry",
+      "ABG or VBG",
+      "ECG"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "Troponin",
+      "D-dimer",
+      "CT chest (if X-ray equivocal or for sizing)",
+      "Lactate",
+      "Coagulation studies"
+    ],
+    "low_yield_tests": [
+      "Sputum culture",
+      "Bronchoscopy",
+      "Echocardiogram",
+      "PFTs",
+      "BNP"
+    ]
   },
   "stage5": {
     "final_clue": "A chest tube (16 Fr) is placed in the right 4th intercostal space at the anterior axillary line with an immediate rush of air. Follow-up chest X-ray shows full re-expansion of the right lung with resolution of the pneumothorax."
@@ -66,9 +145,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Spontaneous pneumothorax", "Pulmonary embolism", "Pleuritis/pleurisy", "Musculoskeletal chest pain", "Pericarditis", "Acute coronary syndrome"],
-    "after_stage2_more_likely": ["Spontaneous pneumothorax", "Pleuritis/pleurisy"],
-    "after_stage2_less_likely": ["Acute coronary syndrome", "Pericarditis", "Musculoskeletal chest pain"],
-    "after_labs_top3": ["Spontaneous pneumothorax", "Pleuritis/pleurisy", "Pulmonary embolism"]
+    "reasonable_ddx": [
+      "Spontaneous pneumothorax",
+      "Pulmonary embolism",
+      "Pleuritis/pleurisy",
+      "Musculoskeletal chest pain",
+      "Pericarditis",
+      "Acute coronary syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Spontaneous pneumothorax",
+      "Pleuritis/pleurisy"
+    ],
+    "after_stage2_less_likely": [
+      "Acute coronary syndrome",
+      "Pericarditis",
+      "Musculoskeletal chest pain"
+    ],
+    "after_labs_top3": [
+      "Spontaneous pneumothorax",
+      "Pleuritis/pleurisy",
+      "Pulmonary embolism"
+    ]
   }
 }

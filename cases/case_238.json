@@ -21,24 +21,84 @@
       "spo2": "97% on room air",
       "weight_bmi": "240 lbs, BMI 34.5 kg/m²"
     },
-    "physical_exam": "General: Obese young man standing rigidly with right arm extended above head, eyes open and staring, does not acknowledge examiner. Diaphoretic. HEENT: Pupils equal and reactive, eyes open with minimal blinking, dry mucous membranes. Neck: Mild rigidity, no meningismus. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Lungs: Clear to auscultation bilaterally, mildly tachypneic. Abdomen: Soft, non-distended, unable to assess tenderness due to uncooperativeness. Extremities: No edema. Skin: diaphoretic, no rash. Neurological: Waxy flexibility (catalepsy) — limbs remain in examiner-placed positions for sustained periods. Negativism — active resistance to passive movement. No cogwheeling or lead-pipe rigidity. Deep tendon reflexes 2+ symmetric. Babinski negative bilaterally. Mental Status Exam: Appearance — disheveled, diaphoretic. Behavior — immobile, mute (stuporous catatonia) with one witnessed episode of sudden purposeless agitation. Speech — mute, no verbal output. Mood — unable to assess. Affect — flat, absent emotional expression. Thought process — unable to assess. Thought content — unable to assess. Perception — unable to assess, though intermittently appears to visually track movement. Cognition — unable to formally assess, not following commands. Bush-Francis Catatonia Rating Scale: score 28 (severe catatonia) — positive items include immobility, mutism, staring, catalepsy (waxy flexibility), negativism, posturing, autonomic abnormality."
+    "physical_exam": "General: Obese young man standing rigidly with right arm extended above head, eyes open and staring, does not acknowledge examiner. Diaphoretic. HEENT: Pupils equal and reactive, eyes open with minimal blinking, dry mucous membranes. Neck: Mild rigidity, no meningismus. Cardiovascular: Tachycardic, regular rhythm, no murmurs. Lungs: Clear to auscultation bilaterally, mildly tachypneic. Abdomen: Soft, non-distended, unable to assess tenderness due to uncooperativeness. Extremities: No edema. Skin: diaphoretic, no rash. Neurological: Waxy flexibility (catalepsy) — limbs remain in examiner-placed positions for sustained periods. Negativism — active resistance to passive movement. No cogwheeling or lead-pipe rigidity. Deep tendon reflexes 2+ symmetric. Babinski negative bilaterally. Mental Status Exam: Appearance — disheveled, diaphoretic. Behavior — immobile, mute (stuporous this condition) with one witnessed episode of sudden purposeless agitation. Speech — mute, no verbal output. Mood — unable to assess. Affect — flat, absent emotional expression. Thought process — unable to assess. Thought content — unable to assess. Perception — unable to assess, though intermittently appears to visually track movement. Cognition — unable to formally assess, not following commands. Bush-Francis this condition Rating Scale: score 28 (severe this condition) — positive items include immobility, mutism, staring, catalepsy (waxy flexibility), negativism, posturing, autonomic abnormality."
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 14.2, Hgb 14.8, Hct 44.6, Plt 280", "flag": "MILD ABNORMAL", "clinical_significance": "Leukocytosis — may reflect stress response, dehydration, or emerging NMS; not specific"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 149, K 3.4, Cl 112, CO2 20, BUN 38, Cr 1.6, Glucose 245, Ca 9.0, AST 45, ALT 38, Alk Phos 72, Albumin 3.6", "flag": "ABNORMAL", "clinical_significance": "Hypernatremia and elevated BUN/Cr ratio indicating dehydration; hyperglycemia from diabetes and stress response; mild transaminase elevation"},
-      {"test_name": "CPK (Creatine Phosphokinase)", "result": "680 U/L", "flag": "HIGH", "clinical_significance": "Elevated CPK from sustained posturing and immobility; needs monitoring as marked elevation would suggest NMS"},
-      {"test_name": "Urinalysis", "result": "Dark amber, specific gravity 1.035, ketones moderate, no myoglobin", "flag": "ABNORMAL", "clinical_significance": "Concentrated urine with ketones from dehydration and poor oral intake; no myoglobinuria (reassuring against rhabdomyolysis)"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function, ruling out thyroid-related psychiatric presentation"},
-      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out substance-induced catatonia (PCP, stimulants)"},
-      {"test_name": "Clozapine level", "result": "180 ng/mL", "flag": "LOW-THERAPEUTIC", "clinical_significance": "Therapeutic range 350-600 ng/mL; sub-therapeutic level suggests possible non-adherence contributing to catatonic episode"},
-      {"test_name": "Iron studies", "result": "Serum iron 38 mcg/dL, ferritin 22 ng/mL", "flag": "LOW", "clinical_significance": "Low serum iron is associated with catatonia and NMS; may serve as a biomarker for neuroleptic sensitivity"},
-      {"test_name": "Blood cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "No evidence of bacteremia; fever likely related to catatonia itself (autonomic dysfunction)"},
-      {"test_name": "Lactate", "result": "2.4 mmol/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated from dehydration and muscular exertion of sustained posturing"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 14.2, Hgb 14.8, Hct 44.6, Plt 280",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Leukocytosis — may reflect stress response, dehydration, or emerging NMS; not specific"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 149, K 3.4, Cl 112, CO2 20, BUN 38, Cr 1.6, Glucose 245, Ca 9.0, AST 45, ALT 38, Alk Phos 72, Albumin 3.6",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypernatremia and elevated BUN/Cr ratio indicating dehydration; hyperglycemia from diabetes and stress response; mild transaminase elevation"
+      },
+      {
+        "test_name": "CPK (Creatine Phosphokinase)",
+        "result": "680 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CPK from sustained posturing and immobility; needs monitoring as marked elevation would suggest NMS"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Dark amber, specific gravity 1.035, ketones moderate, no myoglobin",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Concentrated urine with ketones from dehydration and poor oral intake; no myoglobinuria (reassuring against rhabdomyolysis)"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function, ruling out thyroid-related psychiatric presentation"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for all substances",
+        "flag": "WNL",
+        "clinical_significance": "Rules out substance-induced this condition (PCP, stimulants)"
+      },
+      {
+        "test_name": "Clozapine level",
+        "result": "180 ng/mL",
+        "flag": "LOW-THERAPEUTIC",
+        "clinical_significance": "Therapeutic range 350-600 ng/mL; sub-therapeutic level suggests possible non-adherence contributing to catatonic episode"
+      },
+      {
+        "test_name": "Iron studies",
+        "result": "Serum iron 38 mcg/dL, ferritin 22 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low serum iron is associated with this condition and NMS; may serve as a biomarker for neuroleptic sensitivity"
+      },
+      {
+        "test_name": "Blood cultures",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of bacteremia; fever likely related to this condition itself (autonomic dysfunction)"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.4 mmol/L",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated from dehydration and muscular exertion of sustained posturing"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.", "flag": "WNL", "clinical_significance": "Rules out structural brain lesion or acute neurological event as cause of presentation"},
-      {"test_name": "Chest X-ray", "result": "Clear lung fields, no infiltrate. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Rules out aspiration pneumonia in a non-mobile patient who is not protecting airway well"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out structural brain lesion or acute neurological event as cause of presentation"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Clear lung fields, no infiltrate. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out aspiration pneumonia in a non-mobile patient who is not protecting airway well"
+      }
     ],
     "key_tests": [
       "Bush-Francis Catatonia Rating Scale — score 28 confirming severe catatonia (catalepsy, mutism, staring, negativism, posturing, autonomic instability)",
@@ -64,7 +124,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient presents with classic catatonic features: mutism, catalepsy (waxy flexibility), staring, negativism, posturing, and autonomic instability (fever, tachycardia, diaphoresis, hypertension), scoring 28 on the Bush-Francis Catatonia Rating Scale. The positive lorazepam challenge (partial improvement with IV benzodiazepine) confirms the diagnosis. The sub-therapeutic clozapine level suggests non-adherence as the likely precipitant in a patient with a prior catatonic episode. CPK is elevated but not in the range typical of NMS, and there is no lead-pipe rigidity."
+    "final_clue": "The patient presents with classic catatonic features: mutism, catalepsy (waxy flexibility), staring, negativism, posturing, and autonomic instability (fever, tachycardia, diaphoresis, hypertension), scoring 28 on the Bush-Francis this condition Rating Scale. The positive lorazepam challenge (partial improvement with IV benzodiazepine) confirms the diagnosis. The sub-therapeutic clozapine level suggests non-adherence as the likely precipitant in a patient with a prior catatonic episode. CPK is elevated but not in the range typical of NMS, and there is no lead-pipe rigidity."
   },
   "debrief": {
     "classic_presentation": "A patient with an underlying psychiatric or medical condition who develops sudden-onset motor abnormalities including immobility/stupor, mutism, staring, catalepsy (waxy flexibility), posturing, negativism, and/or stereotypies. Autonomic instability (fever, tachycardia, blood pressure lability, diaphoresis) indicates malignant catatonia, which is a medical emergency. The condition can also present as excited catatonia with purposeless agitation.",

@@ -25,29 +25,113 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "11.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, may reflect stress response or early bacterial translocation from obstruction"},
-      {"test_name": "CBC - Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely chronic disease"},
-      {"test_name": "BMP - BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration and poor oral intake"},
-      {"test_name": "BMP - Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from volume depletion"},
-      {"test_name": "BMP - Potassium", "result": "2.9 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and furosemide use"},
-      {"test_name": "BMP - Chloride", "result": "90 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting, consistent with hypochloremic metabolic alkalosis"},
-      {"test_name": "BMP - Bicarbonate", "result": "32 mEq/L", "flag": "HIGH", "clinical_significance": "Metabolic alkalosis from vomiting (loss of HCl)"},
-      {"test_name": "Total Bilirubin", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from chronic biliary disease and cholecystobiliary fistula"},
-      {"test_name": "Alkaline Phosphatase", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, chronic biliary disease"},
-      {"test_name": "Lactate", "result": "1.6 mmol/L", "flag": "WNL", "clinical_significance": "Normal, no evidence of bowel ischemia currently"},
-      {"test_name": "Lipase", "result": "34 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "11.8 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis, may reflect stress response or early bacterial translocation from obstruction"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "11.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely chronic disease"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "42 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from dehydration and poor oral intake"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Prerenal azotemia from volume depletion"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "2.9 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from vomiting and furosemide use"
+      },
+      {
+        "test_name": "BMP - Chloride",
+        "result": "90 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypochloremia from vomiting, consistent with hypochloremic metabolic alkalosis"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "32 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Metabolic alkalosis from vomiting (loss of HCl)"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "2.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely from chronic biliary disease and cholecystobiliary fistula"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "168 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, chronic biliary disease"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.6 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of bowel ischemia currently"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "34 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. A round, calcified density (2.8 cm) is seen projected over the right iliac fossa. Air is present within the biliary tree (pneumobilia).", "flag": "ABNORMAL", "clinical_significance": "The combination of small bowel obstruction, pneumobilia, and an ectopic calcified gallstone constitutes the Rigler triad, which is pathognomonic for gallstone ileus."},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Small bowel obstruction with a transition point in the distal ileum where a 2.9 cm calcified gallstone is impacted in the ileal lumen (approximately 60 cm proximal to the ileocecal valve). Pneumobilia with air throughout the intrahepatic and extrahepatic biliary tree. A cholecystobiliary fistula is identified between the gallbladder fundus and the first portion of the duodenum (cholecystoduodenal fistula). The gallbladder is contracted and partially collapsed. No free air. Mild ascites.", "flag": "ABNORMAL", "clinical_significance": "CT confirms all components of gallstone ileus: impacted ectopic gallstone in the distal ileum, pneumobilia, and cholecystoduodenal fistula. The stone entered the bowel via the biliary-enteric fistula that formed during prior cholecystitis episodes."}
+      {
+        "test_name": "Abdominal X-ray (supine and upright)",
+        "result": "Dilated loops of small bowel with multiple air-fluid levels consistent with small bowel obstruction. A round, calcified density (2.8 cm) is seen projected over the right iliac fossa. Air is present within the biliary tree (pneumobilia).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The combination of small bowel obstruction, pneumobilia, and an ectopic calcified gallstone constitutes the Rigler triad, which is pathognomonic for this condition."
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Small bowel obstruction with a transition point in the distal ileum where a 2.9 cm calcified gallstone is impacted in the ileal lumen (approximately 60 cm proximal to the ileocecal valve). Pneumobilia with air throughout the intrahepatic and extrahepatic biliary tree. A cholecystobiliary fistula is identified between the gallbladder fundus and the first portion of the duodenum (cholecystoduodenal fistula). The gallbladder is contracted and partially collapsed. No free air. Mild ascites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms all components of this condition: impacted ectopic gallstone in the distal ileum, pneumobilia, and cholecystoduodenal fistula. The stone entered the bowel via the biliary-enteric fistula that formed during prior cholecystitis episodes."
+      }
     ],
-    "key_tests": ["CT abdomen/pelvis with IV contrast", "Abdominal X-ray (supine and upright)", "CBC with differential", "BMP (electrolytes, renal function)", "Serum lactate"],
-    "acceptable_tests": ["Hepatic function panel", "Coagulation studies (on anticoagulation)", "Type and screen", "Lipase", "Chest X-ray (pre-operative)", "ECG"],
-    "low_yield_tests": ["Abdominal ultrasound alone (may show pneumobilia but poor for bowel obstruction)", "MRCP (not needed if CT is diagnostic)", "ERCP (therapeutic for biliary disease but not for gallstone ileus)", "Barium follow-through (contraindicated with obstruction)", "Upper GI endoscopy"],
+    "key_tests": [
+      "CT abdomen/pelvis with IV contrast",
+      "Abdominal X-ray (supine and upright)",
+      "CBC with differential",
+      "BMP (electrolytes, renal function)",
+      "Serum lactate"
+    ],
+    "acceptable_tests": [
+      "Hepatic function panel",
+      "Coagulation studies (on anticoagulation)",
+      "Type and screen",
+      "Lipase",
+      "Chest X-ray (pre-operative)",
+      "ECG"
+    ],
+    "low_yield_tests": [
+      "Abdominal ultrasound alone (may show pneumobilia but poor for bowel obstruction)",
+      "MRCP (not needed if CT is diagnostic)",
+      "ERCP (therapeutic for biliary disease but not for gallstone ileus)",
+      "Barium follow-through (contraindicated with obstruction)",
+      "Upper GI endoscopy"
+    ],
     "final_clue": "Abdominal X-ray and CT reveal the Rigler triad: small bowel obstruction, pneumobilia, and an ectopic gallstone impacted in the distal ileum. A cholecystoduodenal fistula is the conduit through which the gallstone entered the bowel. This is gallstone ileus, a rare but important cause of mechanical small bowel obstruction in elderly patients, requiring emergent surgical enterolithotomy."
   },
   "stage5": {
-    "final_clue": "Abdominal X-ray and CT reveal the Rigler triad: small bowel obstruction, pneumobilia, and an ectopic gallstone impacted in the distal ileum. A cholecystoduodenal fistula is the conduit through which the gallstone entered the bowel. This is gallstone ileus, a rare but important cause of mechanical small bowel obstruction in elderly patients, requiring emergent surgical enterolithotomy."
+    "final_clue": "Abdominal X-ray and CT reveal the Rigler triad: small bowel obstruction, pneumobilia, and an ectopic gallstone impacted in the distal ileum. A cholecystoduodenal fistula is the conduit through which the gallstone entered the bowel. This is this condition, a rare but important cause of mechanical small bowel obstruction in elderly patients, requiring emergent surgical enterolithotomy."
   },
   "debrief": {
     "classic_presentation": "Elderly female (gallstone ileus accounts for 1-4% of SBO overall but up to 25% in patients >65 years) with known gallstone disease presenting with intermittent ('tumbling') SBO that waxes and wanes as the stone alternately obstructs and passes through the bowel lumen. This intermittent, relapsing pattern of obstruction is characteristic and may persist for days before a definitive obstruction occurs. The Rigler triad (small bowel obstruction + pneumobilia + ectopic gallstone) is present in only 40-50% on plain X-ray but is identified on CT in >80% of cases.",
@@ -70,9 +154,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Gallstone ileus", "Adhesive small bowel obstruction", "Small bowel tumor (obstructing)", "Incarcerated hernia", "Bezoar-related obstruction", "Crohn disease stricture"],
-    "after_stage2_more_likely": ["Gallstone ileus", "Adhesive small bowel obstruction"],
-    "after_stage2_less_likely": ["Incarcerated hernia", "Crohn disease stricture"],
-    "after_labs_top3": ["Gallstone ileus", "Adhesive small bowel obstruction", "Small bowel tumor"]
+    "reasonable_ddx": [
+      "Gallstone ileus",
+      "Adhesive small bowel obstruction",
+      "Small bowel tumor (obstructing)",
+      "Incarcerated hernia",
+      "Bezoar-related obstruction",
+      "Crohn disease stricture"
+    ],
+    "after_stage2_more_likely": [
+      "Gallstone ileus",
+      "Adhesive small bowel obstruction"
+    ],
+    "after_stage2_less_likely": [
+      "Incarcerated hernia",
+      "Crohn disease stricture"
+    ],
+    "after_labs_top3": [
+      "Gallstone ileus",
+      "Adhesive small bowel obstruction",
+      "Small bowel tumor"
+    ]
   }
 }

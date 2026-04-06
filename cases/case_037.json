@@ -25,30 +25,126 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "19.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Significant leukocytosis indicating mediastinal/pleural contamination and inflammation"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Hemoconcentration from dehydration"},
-      {"test_name": "BMP - Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from dehydration and sepsis physiology"},
-      {"test_name": "BMP - BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN:Cr ratio suggests dehydration"},
-      {"test_name": "Lactate", "result": "4.1 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue hypoperfusion and developing sepsis"},
-      {"test_name": "Amylase (pleural fluid)", "result": "1,280 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated salivary amylase in pleural fluid is diagnostic of esophageal rupture"},
-      {"test_name": "Pleural fluid pH", "result": "6.0", "flag": "LOW", "clinical_significance": "Very low pH from gastric contents contamination; characteristic of esophageal perforation"},
-      {"test_name": "CRP", "result": "18.4 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker"},
-      {"test_name": "Lipase", "result": "42 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as cause of pain"},
-      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Normal, excludes acute MI"},
-      {"test_name": "Blood Cultures (x2)", "result": "Pending (later grows mixed flora)", "flag": "ABNORMAL", "clinical_significance": "Polymicrobial bacteremia from mediastinal contamination"},
-      {"test_name": "ABG - pH", "result": "7.32", "flag": "LOW", "clinical_significance": "Metabolic acidosis from sepsis and lactic acid"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "19.2 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significant leukocytosis indicating mediastinal/pleural contamination and inflammation"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Hemoconcentration from dehydration"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from dehydration and sepsis physiology"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "32 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BUN:Cr ratio suggests dehydration"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.1 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from tissue hypoperfusion and developing sepsis"
+      },
+      {
+        "test_name": "Amylase (pleural fluid)",
+        "result": "1,280 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated salivary amylase in pleural fluid is diagnostic of esophageal rupture"
+      },
+      {
+        "test_name": "Pleural fluid pH",
+        "result": "6.0",
+        "flag": "LOW",
+        "clinical_significance": "Very low pH from gastric contents contamination; characteristic of esophageal perforation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "18.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated inflammatory marker"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "42 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis as cause of pain"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.04 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes acute MI"
+      },
+      {
+        "test_name": "Blood Cultures (x2)",
+        "result": "Pending (later grows mixed flora)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Polymicrobial bacteremia from mediastinal contamination"
+      },
+      {
+        "test_name": "ABG - pH",
+        "result": "7.32",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from sepsis and lactic acid"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Chest with IV and Oral Contrast", "result": "Distal esophageal perforation with extraluminal contrast extravasation into the left pleural space. Pneumomediastinum. Left-sided pleural effusion with air-fluid level. Subcutaneous emphysema extending from the mediastinum to the neck and chest wall. No aortic pathology.", "flag": "ABNORMAL", "clinical_significance": "Confirms Boerhaave syndrome with distal esophageal perforation and mediastinal/pleural contamination"},
-      {"test_name": "Chest X-ray", "result": "Left-sided pleural effusion. Pneumomediastinum. Subcutaneous emphysema in the neck soft tissues. Widened mediastinum. No pneumothorax on the right.", "flag": "ABNORMAL", "clinical_significance": "Classic findings; Mackler triad (vomiting, chest pain, subcutaneous emphysema) correlates with imaging findings"},
-      {"test_name": "Esophagram with water-soluble contrast (Gastrografin)", "result": "Extravasation of contrast from the distal esophagus into the left pleural space.", "flag": "ABNORMAL", "clinical_significance": "Confirms location and extent of esophageal perforation"}
+      {
+        "test_name": "CT Chest with IV and Oral Contrast",
+        "result": "Distal esophageal perforation with extraluminal contrast extravasation into the left pleural space. Pneumomediastinum. Left-sided pleural effusion with air-fluid level. Subcutaneous emphysema extending from the mediastinum to the neck and chest wall. No aortic pathology.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis with distal esophageal perforation and mediastinal/pleural contamination"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Left-sided pleural effusion. Pneumomediastinum. Subcutaneous emphysema in the neck soft tissues. Widened mediastinum. No pneumothorax on the right.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic findings; Mackler triad (vomiting, chest pain, subcutaneous emphysema) correlates with imaging findings"
+      },
+      {
+        "test_name": "Esophagram with water-soluble contrast (Gastrografin)",
+        "result": "Extravasation of contrast from the distal esophagus into the left pleural space.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms location and extent of esophageal perforation"
+      }
     ],
-    "key_tests": ["CT chest with IV and oral contrast", "Chest X-ray", "Esophagram (water-soluble contrast)", "CBC", "Blood cultures"],
-    "acceptable_tests": ["BMP", "Lactate", "ABG", "Pleural fluid analysis (amylase, pH)", "Troponin", "CRP/Procalcitonin", "Lipase", "Type and crossmatch"],
-    "low_yield_tests": ["Upper endoscopy (risk of worsening perforation acutely)", "D-dimer", "CT without contrast", "Barium swallow (risk of mediastinitis if barium leaks)", "ECG (low yield for primary diagnosis)"]
+    "key_tests": [
+      "CT chest with IV and oral contrast",
+      "Chest X-ray",
+      "Esophagram (water-soluble contrast)",
+      "CBC",
+      "Blood cultures"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "Lactate",
+      "ABG",
+      "Pleural fluid analysis (amylase, pH)",
+      "Troponin",
+      "CRP/Procalcitonin",
+      "Lipase",
+      "Type and crossmatch"
+    ],
+    "low_yield_tests": [
+      "Upper endoscopy (risk of worsening perforation acutely)",
+      "D-dimer",
+      "CT without contrast",
+      "Barium swallow (risk of mediastinitis if barium leaks)",
+      "ECG (low yield for primary diagnosis)"
+    ]
   },
   "stage5": {
-    "final_clue": "CT with oral contrast demonstrates distal esophageal perforation with contrast extravasation into the left pleural space, pneumomediastinum, and subcutaneous emphysema. The clinical history of forceful vomiting followed by severe chest pain, combined with Mackler triad (vomiting, chest pain, subcutaneous emphysema), confirms Boerhaave syndrome."
+    "final_clue": "CT with oral contrast demonstrates distal esophageal perforation with contrast extravasation into the left pleural space, pneumomediastinum, and subcutaneous emphysema. The clinical history of forceful vomiting followed by severe chest pain, combined with Mackler triad (vomiting, chest pain, subcutaneous emphysema), confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "Sudden severe chest/epigastric pain after forceful vomiting (often alcohol-related binge). Mackler triad: vomiting, lower thoracic chest pain, and subcutaneous emphysema (present in only ~30% of cases). May present with pleural effusion (typically left-sided), Hamman sign (mediastinal crunch), fever, and signs of sepsis. The distal left posterolateral esophagus is the most common site of rupture.",
@@ -69,9 +165,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Boerhaave syndrome", "Acute myocardial infarction", "Aortic dissection", "Perforated peptic ulcer", "Acute pancreatitis", "Mallory-Weiss tear", "Tension pneumothorax", "Mediastinitis"],
-    "after_stage2_more_likely": ["Boerhaave syndrome", "Mallory-Weiss tear", "Aortic dissection"],
-    "after_stage2_less_likely": ["Acute pancreatitis", "Tension pneumothorax"],
-    "after_labs_top3": ["Boerhaave syndrome", "Esophageal perforation with mediastinitis", "Perforated peptic ulcer"]
+    "reasonable_ddx": [
+      "Boerhaave syndrome",
+      "Acute myocardial infarction",
+      "Aortic dissection",
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Mallory-Weiss tear",
+      "Tension pneumothorax",
+      "Mediastinitis"
+    ],
+    "after_stage2_more_likely": [
+      "Boerhaave syndrome",
+      "Mallory-Weiss tear",
+      "Aortic dissection"
+    ],
+    "after_stage2_less_likely": [
+      "Acute pancreatitis",
+      "Tension pneumothorax"
+    ],
+    "after_labs_top3": [
+      "Boerhaave syndrome",
+      "Esophageal perforation with mediastinitis",
+      "Perforated peptic ulcer"
+    ]
   }
 }

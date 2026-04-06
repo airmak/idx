@@ -25,26 +25,100 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "<0.01 mIU/L", "flag": "LOW", "clinical_significance": "Suppressed TSH confirms thyrotoxicosis; expected in hyperthyroid states"},
-      {"test_name": "Free T4", "result": "7.8 ng/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated free T4 (normal 0.8-1.8); severe thyrotoxicosis"},
-      {"test_name": "Free T3", "result": "22.5 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated T3 (normal 2.3-4.2); T3 is the more biologically active form driving the acute symptoms"},
-      {"test_name": "TSH receptor antibodies (TRAb)", "result": "18.5 IU/L", "flag": "HIGH", "clinical_significance": "Positive TSH receptor stimulating antibodies confirm Graves disease as the underlying etiology"},
-      {"test_name": "CBC", "result": "WBC 12,800/μL, Hgb 13.5 g/dL, Plt 165,000/μL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress response; important baseline before PTU (which can cause agranulocytosis)"},
-      {"test_name": "Hepatic function panel", "result": "AST 125 U/L, ALT 98 U/L, Alk phos 165 U/L, total bilirubin 2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated liver enzymes and bilirubin from thyrotoxic hepatopathy; can progress to liver failure in severe thyroid storm"},
-      {"test_name": "Glucose", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia from catecholamine-mediated glycogenolysis and peripheral insulin resistance"},
-      {"test_name": "Calcium", "result": "11.5 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia occurs in thyrotoxicosis due to increased bone resorption from thyroid hormone excess"},
-      {"test_name": "Cortisol (random)", "result": "8 μg/dL", "flag": "LOW", "clinical_significance": "Relatively low cortisol for the degree of physiologic stress; thyroid storm accelerates cortisol metabolism, contributing to relative adrenal insufficiency"}
+      {
+        "test_name": "TSH",
+        "result": "<0.01 mIU/L",
+        "flag": "LOW",
+        "clinical_significance": "Suppressed TSH confirms thyrotoxicosis; expected in hyperthyroid states"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "7.8 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated free T4 (normal 0.8-1.8); severe thyrotoxicosis"
+      },
+      {
+        "test_name": "Free T3",
+        "result": "22.5 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated T3 (normal 2.3-4.2); T3 is the more biologically active form driving the acute symptoms"
+      },
+      {
+        "test_name": "TSH receptor antibodies (TRAb)",
+        "result": "18.5 IU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Positive TSH receptor stimulating antibodies confirm Graves disease as the underlying etiology"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 12,800/μL, Hgb 13.5 g/dL, Plt 165,000/μL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis from stress response; important baseline before PTU (which can cause agranulocytosis)"
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 125 U/L, ALT 98 U/L, Alk phos 165 U/L, total bilirubin 2.1 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated liver enzymes and bilirubin from thyrotoxic hepatopathy; can progress to liver failure in severe this condition"
+      },
+      {
+        "test_name": "Glucose",
+        "result": "185 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperglycemia from catecholamine-mediated glycogenolysis and peripheral insulin resistance"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "11.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalcemia occurs in thyrotoxicosis due to increased bone resorption from thyroid hormone excess"
+      },
+      {
+        "test_name": "Cortisol (random)",
+        "result": "8 μg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Relatively low cortisol for the degree of physiologic stress; this condition accelerates cortisol metabolism, contributing to relative adrenal insufficiency"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG", "result": "Atrial fibrillation with rapid ventricular response at 162 bpm. No ST-segment changes. Short PR interval noted in sinus beats.", "flag": "ABNORMAL", "clinical_significance": "New-onset atrial fibrillation is common in thyrotoxicosis and contributes to hemodynamic instability in thyroid storm"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema. No consolidations or effusions.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly from high-output state; no evidence of heart failure or pneumonia as precipitant"}
+      {
+        "test_name": "ECG",
+        "result": "Atrial fibrillation with rapid ventricular response at 162 bpm. No ST-segment changes. Short PR interval noted in sinus beats.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "New-onset atrial fibrillation is common in thyrotoxicosis and contributes to hemodynamic instability in this condition"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly. No pulmonary edema. No consolidations or effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly from high-output state; no evidence of heart failure or pneumonia as precipitant"
+      }
     ],
-    "key_tests": ["TSH", "Free T4 and Free T3", "CBC (baseline before PTU/methimazole)", "Hepatic function panel", "ECG"],
-    "acceptable_tests": ["TSH receptor antibodies", "Cortisol level", "Basic metabolic panel including calcium", "Blood cultures (febrile patient — rule out infection as precipitant)", "Glucose", "Chest X-ray", "Coagulation studies"],
-    "low_yield_tests": ["Thyroid ultrasound (does not change acute management)", "Radioactive iodine uptake scan (contraindicated during acute thyroid storm)", "CT head (agitation explained by metabolic cause)", "Urine drug screen (no history suggestive)"]
+    "key_tests": [
+      "TSH",
+      "Free T4 and Free T3",
+      "CBC (baseline before PTU/methimazole)",
+      "Hepatic function panel",
+      "ECG"
+    ],
+    "acceptable_tests": [
+      "TSH receptor antibodies",
+      "Cortisol level",
+      "Basic metabolic panel including calcium",
+      "Blood cultures (febrile patient — rule out infection as precipitant)",
+      "Glucose",
+      "Chest X-ray",
+      "Coagulation studies"
+    ],
+    "low_yield_tests": [
+      "Thyroid ultrasound (does not change acute management)",
+      "Radioactive iodine uptake scan (contraindicated during acute thyroid storm)",
+      "CT head (agitation explained by metabolic cause)",
+      "Urine drug screen (no history suggestive)"
+    ]
   },
   "stage5": {
-    "final_clue": "The Burch-Wartofsky Point Scale (BWPS) is calculated: temperature 40.2°C (15 points), heart rate 162 (25 points), atrial fibrillation (10 points), CNS dysfunction with agitation and delirium (20 points), GI dysfunction with diarrhea (10 points), precipitating event (10 points) = 90 points total. A score ≥45 is highly suggestive of thyroid storm. This patient's score of 90 confirms the diagnosis."
+    "final_clue": "The Burch-Wartofsky Point Scale (BWPS) is calculated: temperature 40.2°C (15 points), heart rate 162 (25 points), atrial fibrillation (10 points), CNS dysfunction with agitation and delirium (20 points), GI dysfunction with diarrhea (10 points), precipitating event (10 points) = 90 points total. A score ≥45 is highly suggestive of the suspected diagnosis. This patient's score of 90 confirms the diagnosis."
   },
   "debrief": {
     "classic_presentation": "Thyroid storm is a life-threatening exacerbation of thyrotoxicosis characterized by hyperthermia (>40°C), severe tachycardia (often with atrial fibrillation), altered mental status (agitation, delirium, psychosis, or coma), GI dysfunction (diarrhea, nausea, vomiting, jaundice), and cardiovascular compromise. It typically occurs in patients with undertreated or undiagnosed hyperthyroidism who experience a precipitating event such as infection, surgery, trauma, or medication noncompliance.",
@@ -57,12 +131,34 @@
       "NEVER give aspirin in thyroid storm — it displaces thyroid hormones from binding proteins, increasing free T4 and T3 levels",
       "Burch-Wartofsky Point Scale ≥45 is highly suggestive of thyroid storm — the diagnosis is clinical, NOT based on thyroid hormone levels alone"
     ],
-    "sources": ["UpToDate: Thyroid storm", "ATA Guidelines for Diagnosis and Management of Hyperthyroidism 2016"]
+    "sources": [
+      "UpToDate: Thyroid storm",
+      "ATA Guidelines for Diagnosis and Management of Hyperthyroidism 2016"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Thyroid storm", "Sepsis", "Meningitis or encephalitis", "Sympathomimetic drug intoxication", "Neuroleptic malignant syndrome", "Malignant hyperthermia", "Acute psychotic episode", "Heat stroke"],
-    "after_stage2_more_likely": ["Thyroid storm (known Graves disease with noncompliance, exophthalmos, thyroid bruit, pretibial myxedema, precipitating surgical event)"],
-    "after_stage2_less_likely": ["NMS (not on antipsychotics)", "Malignant hyperthermia (no recent general anesthesia)", "Drug intoxication (no history of substance use, no drug paraphernalia)"],
-    "after_labs_top3": ["Thyroid storm", "Sepsis with delirium", "Sympathomimetic toxicity"]
+    "reasonable_ddx": [
+      "Thyroid storm",
+      "Sepsis",
+      "Meningitis or encephalitis",
+      "Sympathomimetic drug intoxication",
+      "Neuroleptic malignant syndrome",
+      "Malignant hyperthermia",
+      "Acute psychotic episode",
+      "Heat stroke"
+    ],
+    "after_stage2_more_likely": [
+      "Thyroid storm (known Graves disease with noncompliance, exophthalmos, thyroid bruit, pretibial myxedema, precipitating surgical event)"
+    ],
+    "after_stage2_less_likely": [
+      "NMS (not on antipsychotics)",
+      "Malignant hyperthermia (no recent general anesthesia)",
+      "Drug intoxication (no history of substance use, no drug paraphernalia)"
+    ],
+    "after_labs_top3": [
+      "Thyroid storm",
+      "Sepsis with delirium",
+      "Sympathomimetic toxicity"
+    ]
   }
 }

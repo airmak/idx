@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urinalysis", "result": "3+ blood, 3+ protein, >50 RBCs/hpf (many dysmorphic), RBC casts, WBC casts, granular casts", "flag": "ABNORMAL", "clinical_significance": "Active nephritic sediment with RBC casts plus heavy proteinuria = nephritic-nephrotic overlap; classic for proliferative lupus nephritis"},
-      {"test_name": "24-hour Urine Protein", "result": "5.8 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria; combined with nephritic features suggests Class IV (or III/IV) lupus nephritis"},
-      {"test_name": "Serum Creatinine", "result": "1.9 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, indicating impaired renal function from active nephritis"},
-      {"test_name": "Complement C3", "result": "38 mg/dL (normal 80-160)", "flag": "LOW", "clinical_significance": "Severely depressed; complement consumption is a hallmark of active lupus nephritis"},
-      {"test_name": "Complement C4", "result": "6 mg/dL (normal 16-48)", "flag": "LOW", "clinical_significance": "Low C4 supports active lupus with classic complement pathway activation"},
-      {"test_name": "Anti-dsDNA Antibody", "result": "Positive, 240 IU/mL (normal <30)", "flag": "HIGH", "clinical_significance": "Markedly elevated; anti-dsDNA titers correlate with lupus nephritis activity"},
-      {"test_name": "ANA", "result": "Positive, 1:1280 (homogeneous pattern)", "flag": "HIGH", "clinical_significance": "High-titer ANA consistent with active SLE"},
-      {"test_name": "Serum Albumin", "result": "2.4 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from nephrotic-range proteinuria"},
-      {"test_name": "CBC", "result": "Hgb 9.2 g/dL, WBC 3,200/μL, Plt 118,000/μL", "flag": "LOW", "clinical_significance": "Pancytopenia common in active SLE; anemia, leukopenia, and thrombocytopenia"},
-      {"test_name": "ESR", "result": "82 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; active systemic inflammation"},
-      {"test_name": "Anti-Smith Antibody", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Highly specific for SLE (though not sensitive); confirms SLE diagnosis"}
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ blood, 3+ protein, >50 RBCs/hpf (many dysmorphic), RBC casts, WBC casts, granular casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active nephritic sediment with RBC casts plus heavy proteinuria = nephritic-nephrotic overlap; classic for proliferative lupus nephritis"
+      },
+      {
+        "test_name": "24-hour Urine Protein",
+        "result": "5.8 g/day",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic-range proteinuria; combined with nephritic features suggests Class IV (or III/IV) lupus nephritis"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.9 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating impaired renal function from active nephritis"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "38 mg/dL (normal 80-160)",
+        "flag": "LOW",
+        "clinical_significance": "Severely depressed; complement consumption is a hallmark of active lupus nephritis"
+      },
+      {
+        "test_name": "Complement C4",
+        "result": "6 mg/dL (normal 16-48)",
+        "flag": "LOW",
+        "clinical_significance": "Low C4 supports active lupus with classic complement pathway activation"
+      },
+      {
+        "test_name": "Anti-dsDNA Antibody",
+        "result": "Positive, 240 IU/mL (normal <30)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; anti-dsDNA titers correlate with lupus nephritis activity"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Positive, 1:1280 (homogeneous pattern)",
+        "flag": "HIGH",
+        "clinical_significance": "High-titer ANA consistent with active SLE"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "2.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoalbuminemia from nephrotic-range proteinuria"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 9.2 g/dL, WBC 3,200/μL, Plt 118,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Pancytopenia common in active SLE; anemia, leukopenia, and thrombocytopenia"
+      },
+      {
+        "test_name": "ESR",
+        "result": "82 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; active systemic inflammation"
+      },
+      {
+        "test_name": "Anti-Smith Antibody",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly specific for SLE (though not sensitive); confirms SLE diagnosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys mildly enlarged (right 12.8 cm, left 13.0 cm) with increased cortical echogenicity. No hydronephrosis or masses.", "flag": "ABNORMAL", "clinical_significance": "Enlarged echogenic kidneys consistent with active nephritis"},
-      {"test_name": "Renal Biopsy", "result": "Light microscopy: diffuse endocapillary and extracapillary proliferation involving >50% of glomeruli, with wire-loop deposits and cellular crescents in 20% of glomeruli. Immunofluorescence: 'full house' pattern — IgG, IgA, IgM, C3, C4, and C1q deposition. Electron microscopy: subendothelial, subepithelial, and mesangial electron-dense deposits. ISN/RPS Class IV-G (A).", "flag": "ABNORMAL", "clinical_significance": "Class IV diffuse proliferative lupus nephritis is the most severe and common form of lupus nephritis; 'full house' IF pattern is virtually pathognomonic for lupus nephritis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Bilateral kidneys mildly enlarged (right 12.8 cm, left 13.0 cm) with increased cortical echogenicity. No hydronephrosis or masses.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Enlarged echogenic kidneys consistent with active nephritis"
+      },
+      {
+        "test_name": "Renal Biopsy",
+        "result": "Light microscopy: diffuse endocapillary and extracapillary proliferation involving >50% of glomeruli, with wire-loop deposits and cellular crescents in 20% of glomeruli. Immunofluorescence: 'full house' pattern — IgG, IgA, IgM, C3, C4, and C1q deposition. Electron microscopy: subendothelial, subepithelial, and mesangial electron-dense deposits. ISN/RPS Class IV-G (A).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Class IV this condition lupus nephritis is the most severe and common form of lupus nephritis; 'full house' IF pattern is virtually pathognomonic for lupus nephritis"
+      }
     ],
     "key_tests": [
       "Renal biopsy with LM, IF, and EM (ISN/RPS classification)",
@@ -66,7 +131,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Active nephritic-nephrotic syndrome (RBC casts + 5.8 g/day proteinuria), severely depressed C3/C4, elevated anti-dsDNA, and renal biopsy showing diffuse proliferative GN with 'full house' immunofluorescence confirm Class IV diffuse proliferative lupus nephritis."
+    "final_clue": "Active nephritic-nephrotic syndrome (RBC casts + 5.8 g/day proteinuria), severely depressed C3/C4, elevated anti-dsDNA, and renal biopsy showing this condition GN with 'full house' immunofluorescence confirm Class IV this condition lupus nephritis."
   },
   "debrief": {
     "classic_presentation": "A young woman (especially African American or Hispanic) with active SLE (rash, arthritis, cytopenias) presenting with hypertension, edema, hematuria, and proteinuria (nephritic-nephrotic overlap). Labs show elevated anti-dsDNA, low complement, and active urinary sediment. Biopsy shows diffuse proliferative GN with 'full house' IF.",

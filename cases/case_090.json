@@ -25,29 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,600/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection or eosinophilia"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal; polycythemia may develop with chronic hypoxemia"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against autoimmune/connective tissue disease-related ILD"},
-      {"test_name": "RF (Rheumatoid Factor)", "result": "< 10 IU/mL", "flag": "WNL", "clinical_significance": "Negative; helps exclude rheumatoid arthritis-associated ILD"},
-      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; further excludes RA-ILD"},
-      {"test_name": "Anti-Scl-70 (topoisomerase I)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; excludes systemic sclerosis-associated pulmonary fibrosis"},
-      {"test_name": "ESR", "result": "22 mm/hr", "flag": "WNL", "clinical_significance": "Normal; not suggestive of active systemic inflammatory disease"},
-      {"test_name": "KL-6", "result": "1,850 U/mL", "flag": "HIGH", "clinical_significance": "Elevated KL-6 is a biomarker of interstitial lung disease activity and alveolar epithelial injury"},
-      {"test_name": "BNP", "result": "145 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated — may reflect right heart strain from pulmonary hypertension secondary to fibrosis"},
-      {"test_name": "ABG pO2", "result": "72 mmHg", "flag": "LOW", "clinical_significance": "Resting hypoxemia with significant desaturation on exertion"},
-      {"test_name": "Hypersensitivity pneumonitis panel", "result": "Negative for avian, mold, and farmer antigens", "flag": "WNL", "clinical_significance": "Negative; helps exclude chronic hypersensitivity pneumonitis as a mimic of IPF"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,600/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infection or eosinophilia"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; polycythemia may develop with chronic hypoxemia"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; argues against autoimmune/connective tissue disease-related ILD"
+      },
+      {
+        "test_name": "RF (Rheumatoid Factor)",
+        "result": "< 10 IU/mL",
+        "flag": "WNL",
+        "clinical_significance": "Negative; helps exclude rheumatoid arthritis-associated ILD"
+      },
+      {
+        "test_name": "Anti-CCP antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; further excludes RA-ILD"
+      },
+      {
+        "test_name": "Anti-Scl-70 (topoisomerase I)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; excludes systemic sclerosis-associated pulmonary fibrosis"
+      },
+      {
+        "test_name": "ESR",
+        "result": "22 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; not suggestive of active systemic inflammatory disease"
+      },
+      {
+        "test_name": "KL-6",
+        "result": "1,850 U/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated KL-6 is a biomarker of interstitial lung disease activity and alveolar epithelial injury"
+      },
+      {
+        "test_name": "BNP",
+        "result": "145 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated — may reflect right heart strain from pulmonary hypertension secondary to fibrosis"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "72 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Resting hypoxemia with significant desaturation on exertion"
+      },
+      {
+        "test_name": "Hypersensitivity pneumonitis panel",
+        "result": "Negative for avian, mold, and farmer antigens",
+        "flag": "WNL",
+        "clinical_significance": "Negative; helps exclude chronic hypersensitivity pneumonitis as a mimic of IPF"
+      }
     ],
     "imaging_results": [
-      {"test_name": "High-resolution CT (HRCT) chest", "result": "Bilateral, basilar-predominant, subpleural reticular opacities with honeycombing and traction bronchiectasis. Minimal ground-glass opacities. Pattern is consistent with usual interstitial pneumonia (UIP).", "flag": "ABNORMAL", "clinical_significance": "UIP pattern on HRCT in the appropriate clinical context is diagnostic of IPF without requiring surgical lung biopsy"},
-      {"test_name": "Chest X-ray", "result": "Bilateral lower lobe reticular opacities with reduced lung volumes.", "flag": "ABNORMAL", "clinical_significance": "Nonspecific but consistent with interstitial lung disease; HRCT is required for definitive pattern recognition"}
+      {
+        "test_name": "High-resolution CT (HRCT) chest",
+        "result": "Bilateral, basilar-predominant, subpleural reticular opacities with honeycombing and traction bronchiectasis. Minimal ground-glass opacities. Pattern is consistent with usual interstitial pneumonia (UIP).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "UIP pattern on HRCT in the appropriate clinical context is diagnostic of IPF without requiring surgical lung biopsy"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral lower lobe reticular opacities with reduced lung volumes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Nonspecific but consistent with interstitial lung disease; HRCT is required for definitive pattern recognition"
+      }
     ],
-    "key_tests": ["High-resolution CT (HRCT) chest", "Pulmonary function tests (spirometry + DLCO)", "Autoimmune serologies (ANA, RF, anti-CCP, anti-Scl-70)", "6-minute walk test with oximetry", "ABG or pulse oximetry"],
-    "acceptable_tests": ["CBC", "BMP", "BNP", "Hypersensitivity pneumonitis serology panel", "KL-6 or SP-D biomarkers", "ESR/CRP", "Chest X-ray", "Echocardiogram (for pulmonary hypertension assessment)"],
-    "low_yield_tests": ["Sputum culture", "D-dimer", "Bronchoscopy with BAL (for UIP pattern — may be needed for non-UIP patterns)", "PET-CT", "Procalcitonin"]
+    "key_tests": [
+      "High-resolution CT (HRCT) chest",
+      "Pulmonary function tests (spirometry + DLCO)",
+      "Autoimmune serologies (ANA, RF, anti-CCP, anti-Scl-70)",
+      "6-minute walk test with oximetry",
+      "ABG or pulse oximetry"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "BNP",
+      "Hypersensitivity pneumonitis serology panel",
+      "KL-6 or SP-D biomarkers",
+      "ESR/CRP",
+      "Chest X-ray",
+      "Echocardiogram (for pulmonary hypertension assessment)"
+    ],
+    "low_yield_tests": [
+      "Sputum culture",
+      "D-dimer",
+      "Bronchoscopy with BAL (for UIP pattern — may be needed for non-UIP patterns)",
+      "PET-CT",
+      "Procalcitonin"
+    ]
   },
   "stage5": {
-    "final_clue": "Pulmonary function tests show a restrictive pattern: FVC 62% predicted, FEV1/FVC ratio 0.84 (preserved), and DLCO 38% predicted. Combined with the definite UIP pattern on HRCT and negative autoimmune workup, multidisciplinary discussion confirms the diagnosis of idiopathic pulmonary fibrosis."
+    "final_clue": "Pulmonary function tests show a restrictive pattern: FVC 62% predicted, FEV1/FVC ratio 0.84 (preserved), and DLCO 38% predicted. Combined with the definite UIP pattern on HRCT and negative autoimmune workup, multidisciplinary discussion confirms the diagnosis of this condition."
   },
   "debrief": {
     "classic_presentation": "Older male with insidious progressive exertional dyspnea and dry cough, bibasilar velcro-like crackles, digital clubbing, restrictive PFTs with markedly reduced DLCO, and UIP pattern (basilar honeycombing, traction bronchiectasis) on HRCT.",
@@ -68,9 +159,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Connective tissue disease-associated ILD", "Asbestosis", "Nonspecific interstitial pneumonia (NSIP)", "Drug-induced pulmonary fibrosis", "Sarcoidosis"],
-    "after_stage2_more_likely": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Asbestosis"],
-    "after_stage2_less_likely": ["Connective tissue disease-associated ILD", "Drug-induced pulmonary fibrosis", "Sarcoidosis"],
-    "after_labs_top3": ["Idiopathic pulmonary fibrosis", "Chronic hypersensitivity pneumonitis", "Asbestosis"]
+    "reasonable_ddx": [
+      "Idiopathic pulmonary fibrosis",
+      "Chronic hypersensitivity pneumonitis",
+      "Connective tissue disease-associated ILD",
+      "Asbestosis",
+      "Nonspecific interstitial pneumonia (NSIP)",
+      "Drug-induced pulmonary fibrosis",
+      "Sarcoidosis"
+    ],
+    "after_stage2_more_likely": [
+      "Idiopathic pulmonary fibrosis",
+      "Chronic hypersensitivity pneumonitis",
+      "Asbestosis"
+    ],
+    "after_stage2_less_likely": [
+      "Connective tissue disease-associated ILD",
+      "Drug-induced pulmonary fibrosis",
+      "Sarcoidosis"
+    ],
+    "after_labs_top3": [
+      "Idiopathic pulmonary fibrosis",
+      "Chronic hypersensitivity pneumonitis",
+      "Asbestosis"
+    ]
   }
 }

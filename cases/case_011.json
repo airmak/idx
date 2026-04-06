@@ -25,29 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Lipase", "result": "1,250 U/L", "flag": "HIGH", "clinical_significance": "Greater than 3x the upper limit of normal; diagnostic for acute pancreatitis"},
-      {"test_name": "Amylase", "result": "680 U/L", "flag": "HIGH", "clinical_significance": "Elevated but less specific than lipase for pancreatitis"},
-      {"test_name": "WBC", "result": "14,500/μL", "flag": "HIGH", "clinical_significance": "Leukocytosis indicating systemic inflammatory response"},
-      {"test_name": "BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated suggesting dehydration; used in Ranson criteria"},
-      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated likely due to prerenal azotemia from volume depletion"},
-      {"test_name": "Glucose", "result": "185 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperglycemia is a marker of severity in pancreatitis"},
-      {"test_name": "AST", "result": "85 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; can be seen in pancreatitis or chronic alcohol use"},
-      {"test_name": "ALT", "result": "55 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; ALT less than 150 makes gallstone pancreatitis less likely"},
-      {"test_name": "Triglycerides", "result": "380 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated but below 1000; not likely the primary cause of this episode"},
-      {"test_name": "Calcium", "result": "8.2 mg/dL", "flag": "LOW", "clinical_significance": "Mild hypocalcemia; can occur in pancreatitis due to fat saponification"},
-      {"test_name": "LDH", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH is a Ranson criterion at admission"},
-      {"test_name": "Hematocrit", "result": "48%", "flag": "HIGH", "clinical_significance": "Hemoconcentration from third-spacing of fluids"}
+      {
+        "test_name": "Lipase",
+        "result": "1,250 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Greater than 3x the upper limit of normal; diagnostic of the suspected condition"
+      },
+      {
+        "test_name": "Amylase",
+        "result": "680 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated but less specific than lipase for this condition"
+      },
+      {
+        "test_name": "WBC",
+        "result": "14,500/μL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis indicating systemic inflammatory response"
+      },
+      {
+        "test_name": "BUN",
+        "result": "28 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated suggesting dehydration; used in Ranson criteria"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated likely due to prerenal azotemia from volume depletion"
+      },
+      {
+        "test_name": "Glucose",
+        "result": "185 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperglycemia is a marker of severity in this condition"
+      },
+      {
+        "test_name": "AST",
+        "result": "85 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; can be seen in this condition or chronic alcohol use"
+      },
+      {
+        "test_name": "ALT",
+        "result": "55 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; ALT less than 150 makes gallstone this condition less likely"
+      },
+      {
+        "test_name": "Triglycerides",
+        "result": "380 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated but below 1000; not likely the primary cause of this episode"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "8.2 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypocalcemia; can occur in this condition due to fat saponification"
+      },
+      {
+        "test_name": "LDH",
+        "result": "320 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDH is a Ranson criterion at admission"
+      },
+      {
+        "test_name": "Hematocrit",
+        "result": "48%",
+        "flag": "HIGH",
+        "clinical_significance": "Hemoconcentration from third-spacing of fluids"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT abdomen/pelvis with IV contrast", "result": "Diffuse enlargement and edema of the pancreas with peripancreatic fat stranding and small amount of peripancreatic fluid. No pancreatic necrosis identified. No gallstones or biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with acute interstitial edematous pancreatitis without necrosis"},
-      {"test_name": "Right upper quadrant ultrasound", "result": "No gallstones identified. Common bile duct measures 4 mm (normal). Liver shows mildly increased echogenicity.", "flag": "WNL", "clinical_significance": "Rules out gallstone etiology; hepatic steatosis likely from alcohol use"}
+      {
+        "test_name": "CT abdomen/pelvis with IV contrast",
+        "result": "Diffuse enlargement and edema of the pancreas with peripancreatic fat stranding and small amount of peripancreatic fluid. No pancreatic necrosis identified. No gallstones or biliary dilation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with acute interstitial edematous this condition without necrosis"
+      },
+      {
+        "test_name": "Right upper quadrant ultrasound",
+        "result": "No gallstones identified. Common bile duct measures 4 mm (normal). Liver shows mildly increased echogenicity.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out gallstone etiology; hepatic steatosis likely from alcohol use"
+      }
     ],
-    "key_tests": ["Serum lipase", "CT abdomen/pelvis with contrast", "Basic metabolic panel", "CBC with differential", "Right upper quadrant ultrasound"],
-    "acceptable_tests": ["Serum amylase", "Liver function tests (AST, ALT, ALP, bilirubin)", "Triglyceride level", "Lactate", "CRP", "Chest X-ray", "Lipid panel"],
-    "low_yield_tests": ["Cardiac enzymes (troponin)", "Serum iron studies", "Thyroid function tests", "Blood cultures (afebrile presentation)", "CT head"]
+    "key_tests": [
+      "Serum lipase",
+      "CT abdomen/pelvis with contrast",
+      "Basic metabolic panel",
+      "CBC with differential",
+      "Right upper quadrant ultrasound"
+    ],
+    "acceptable_tests": [
+      "Serum amylase",
+      "Liver function tests (AST, ALT, ALP, bilirubin)",
+      "Triglyceride level",
+      "Lactate",
+      "CRP",
+      "Chest X-ray",
+      "Lipid panel"
+    ],
+    "low_yield_tests": [
+      "Cardiac enzymes (troponin)",
+      "Serum iron studies",
+      "Thyroid function tests",
+      "Blood cultures (afebrile presentation)",
+      "CT head"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient mentions that his prior episode of similar pain two years ago also occurred after a weekend of heavy drinking and resolved after he stopped eating for a day — consistent with a prior undiagnosed episode of alcohol-induced pancreatitis."
+    "final_clue": "The patient mentions that his prior episode of similar pain two years ago also occurred after a weekend of heavy drinking and resolved after he stopped eating for a day — consistent with a prior undiagnosed episode of alcohol-induced this condition."
   },
   "debrief": {
     "classic_presentation": "Acute pancreatitis classically presents with sudden onset of severe epigastric pain radiating to the back, often accompanied by nausea and vomiting. The pain is typically worsened by eating and lying supine, and improved by leaning forward. Alcohol and gallstones account for approximately 80% of cases.",
@@ -60,12 +150,32 @@
       "Early aggressive fluid resuscitation with lactated Ringer's is the cornerstone of initial management",
       "Prophylactic antibiotics are NOT recommended; antibiotics should only be used for confirmed infected necrosis"
     ],
-    "sources": ["UpToDate: Clinical manifestations and diagnosis of acute pancreatitis", "ACG Clinical Guideline: Acute Pancreatitis 2024"]
+    "sources": [
+      "UpToDate: Clinical manifestations and diagnosis of acute pancreatitis",
+      "ACG Clinical Guideline: Acute Pancreatitis 2024"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute pancreatitis", "Peptic ulcer disease", "Acute cholecystitis", "Perforated viscus", "Mesenteric ischemia", "Abdominal aortic aneurysm", "Inferior myocardial infarction"],
-    "after_stage2_more_likely": ["Acute pancreatitis (heavy alcohol use, epigastric pain radiating to back, worse with eating, leaning forward for relief)"],
-    "after_stage2_less_likely": ["Acute cholecystitis (pain is epigastric not RUQ, no Murphy sign)", "Inferior MI (no chest pain, age is young, pain clearly abdominal)"],
-    "after_labs_top3": ["Acute pancreatitis", "Peptic ulcer disease with gastritis", "Alcoholic hepatitis"]
+    "reasonable_ddx": [
+      "Acute pancreatitis",
+      "Peptic ulcer disease",
+      "Acute cholecystitis",
+      "Perforated viscus",
+      "Mesenteric ischemia",
+      "Abdominal aortic aneurysm",
+      "Inferior myocardial infarction"
+    ],
+    "after_stage2_more_likely": [
+      "Acute pancreatitis (heavy alcohol use, epigastric pain radiating to back, worse with eating, leaning forward for relief)"
+    ],
+    "after_stage2_less_likely": [
+      "Acute cholecystitis (pain is epigastric not RUQ, no Murphy sign)",
+      "Inferior MI (no chest pain, age is young, pain clearly abdominal)"
+    ],
+    "after_labs_top3": [
+      "Acute pancreatitis",
+      "Peptic ulcer disease with gastritis",
+      "Alcoholic hepatitis"
+    ]
   }
 }

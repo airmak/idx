@@ -25,31 +25,125 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated, no acute MI"},
-      {"test_name": "BNP", "result": "95 pg/mL", "flag": "WNL", "clinical_significance": "Relatively low for degree of dyspnea — BNP is often NOT markedly elevated in tamponade because ventricles are compressed, not stretched"},
-      {"test_name": "Creatinine", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mild elevation suggesting decreased renal perfusion from low cardiac output"},
-      {"test_name": "Lactate", "result": "3.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, indicating tissue hypoperfusion from obstructive shock"},
-      {"test_name": "Hemoglobin", "result": "10.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely from chemotherapy and chronic disease"},
-      {"test_name": "WBC", "result": "3,800/µL", "flag": "LOW", "clinical_significance": "Leukopenia from palbociclib (CDK4/6 inhibitor)"},
-      {"test_name": "Platelet count", "result": "145,000/µL", "flag": "WNL", "clinical_significance": "Low-normal, may reflect bone marrow suppression"},
-      {"test_name": "Sodium", "result": "136 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Potassium", "result": "4.6 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation, relevant for pericardiocentesis planning"},
-      {"test_name": "AST", "result": "48 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely congestive hepatopathy from tamponade"},
-      {"test_name": "Albumin", "result": "3.0 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic illness and malnutrition"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.04 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not significantly elevated, no acute MI"
+      },
+      {
+        "test_name": "BNP",
+        "result": "95 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Relatively low for degree of dyspnea — BNP is often NOT markedly elevated in tamponade because ventricles are compressed, not stretched"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild elevation suggesting decreased renal perfusion from low cardiac output"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating tissue hypoperfusion from obstructive shock"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "10.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely from chemotherapy and chronic disease"
+      },
+      {
+        "test_name": "WBC",
+        "result": "3,800/µL",
+        "flag": "LOW",
+        "clinical_significance": "Leukopenia from palbociclib (CDK4/6 inhibitor)"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "145,000/µL",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal, may reflect bone marrow suppression"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "136 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.6 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "INR",
+        "result": "1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation, relevant for pericardiocentesis planning"
+      },
+      {
+        "test_name": "AST",
+        "result": "48 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely congestive hepatopathy from tamponade"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.0 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low, reflecting chronic illness and malnutrition"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Large circumferential pericardial effusion (>2 cm posteriorly). Right atrial collapse during systole (>1/3 of cardiac cycle). Early diastolic RV collapse. Exaggerated respiratory variation in mitral inflow velocities (>25%). Dilated IVC without respiratory collapse. Swinging heart motion.", "flag": "ABNORMAL", "clinical_significance": "Large pericardial effusion with echocardiographic signs of tamponade physiology — emergent drainage indicated"},
-      {"test_name": "12-lead ECG", "result": "Sinus tachycardia at 118 bpm, low voltage QRS in all leads, electrical alternans (alternating QRS amplitude)", "flag": "ABNORMAL", "clinical_significance": "Low voltage and electrical alternans are classic ECG findings of large pericardial effusion/tamponade"},
-      {"test_name": "Chest X-ray", "result": "Enlarged cardiac silhouette with a 'water-bottle' configuration, clear lung fields", "flag": "ABNORMAL", "clinical_significance": "Water-bottle heart from large effusion; clear lungs help distinguish from CHF"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Large circumferential pericardial effusion (>2 cm posteriorly). Right atrial collapse during systole (>1/3 of cardiac cycle). Early diastolic RV collapse. Exaggerated respiratory variation in mitral inflow velocities (>25%). Dilated IVC without respiratory collapse. Swinging heart motion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Large pericardial effusion with echocardiographic signs of tamponade physiology — emergent drainage indicated"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Sinus tachycardia at 118 bpm, low voltage QRS in all leads, electrical alternans (alternating QRS amplitude)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low voltage and electrical alternans are classic ECG findings of large pericardial effusion/tamponade"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Enlarged cardiac silhouette with a 'water-bottle' configuration, clear lung fields",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Water-bottle heart from large effusion; clear lungs help distinguish from CHF"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram (STAT)", "12-lead ECG", "Basic metabolic panel", "Troponin", "CBC"],
-    "acceptable_tests": ["Chest X-ray", "Lactate", "BNP", "INR/PTT", "Blood cultures", "Pericardial fluid cytology (after drainage)", "CT chest"],
-    "low_yield_tests": ["Stress test", "Cardiac catheterization (delays definitive treatment)", "Pulmonary function tests", "Cardiac MRI (unstable patient)"],
+    "key_tests": [
+      "Transthoracic echocardiogram (STAT)",
+      "12-lead ECG",
+      "Basic metabolic panel",
+      "Troponin",
+      "CBC"
+    ],
+    "acceptable_tests": [
+      "Chest X-ray",
+      "Lactate",
+      "BNP",
+      "INR/PTT",
+      "Blood cultures",
+      "Pericardial fluid cytology (after drainage)",
+      "CT chest"
+    ],
+    "low_yield_tests": [
+      "Stress test",
+      "Cardiac catheterization (delays definitive treatment)",
+      "Pulmonary function tests",
+      "Cardiac MRI (unstable patient)"
+    ],
     "key_tests_rationale": "Echo is the gold standard for diagnosing tamponade and guiding pericardiocentesis. ECG may show low voltage and electrical alternans. BMP assesses renal function. Troponin rules out MI. CBC evaluates for infection and chemotherapy effects."
   },
   "stage5": {
-    "final_clue": "Echocardiography reveals a large pericardial effusion with RA and RV diastolic collapse, exaggerated respiratory variation in mitral inflow, and a non-collapsing IVC. Combined with Beck's triad (hypotension, muffled heart sounds, JVD) and pulsus paradoxus of 18 mmHg, this confirms cardiac tamponade."
+    "final_clue": "Echocardiography reveals a large pericardial effusion with RA and RV diastolic collapse, exaggerated respiratory variation in mitral inflow, and a non-collapsing IVC. Combined with Beck's triad (hypotension, muffled heart sounds, JVD) and pulsus paradoxus of 18 mmHg, this confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "Cardiac tamponade presents with Beck's triad: hypotension, muffled heart sounds, and elevated JVP. Pulsus paradoxus >10 mmHg is a key finding. Patients are tachycardic and dyspneic with clear lungs (unlike CHF). Common causes include malignancy, uremia, infection, post-MI (Dressler), and idiopathic/viral pericarditis.",
@@ -71,9 +165,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Tension pneumothorax", "Massive pulmonary embolism", "Decompensated heart failure", "Constrictive pericarditis", "Superior vena cava syndrome", "Cardiogenic shock (other)"],
-    "after_stage2_more_likely": ["Cardiac tamponade", "Malignant pericardial effusion", "Pericarditis with effusion"],
-    "after_stage2_less_likely": ["Tension pneumothorax", "Decompensated CHF", "Pulmonary embolism"],
-    "after_labs_top3": ["Cardiac tamponade (malignant)", "Obstructive shock from pericardial effusion", "Malignant pericardial disease"]
+    "reasonable_ddx": [
+      "Tension pneumothorax",
+      "Massive pulmonary embolism",
+      "Decompensated heart failure",
+      "Constrictive pericarditis",
+      "Superior vena cava syndrome",
+      "Cardiogenic shock (other)"
+    ],
+    "after_stage2_more_likely": [
+      "Cardiac tamponade",
+      "Malignant pericardial effusion",
+      "Pericarditis with effusion"
+    ],
+    "after_stage2_less_likely": [
+      "Tension pneumothorax",
+      "Decompensated CHF",
+      "Pulmonary embolism"
+    ],
+    "after_labs_top3": [
+      "Cardiac tamponade (malignant)",
+      "Obstructive shock from pericardial effusion",
+      "Malignant pericardial disease"
+    ]
   }
 }

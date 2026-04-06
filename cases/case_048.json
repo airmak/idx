@@ -25,28 +25,111 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "11.2 x10^9/L", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress/dehydration; marked elevation would suggest strangulation"},
-      {"test_name": "CBC - Hemoglobin", "result": "15.2 g/dL", "flag": "HIGH", "clinical_significance": "Hemoconcentration from dehydration and third-spacing"},
-      {"test_name": "BMP - Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and GI losses"},
-      {"test_name": "BMP - Chloride", "result": "92 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting (loss of HCl)"},
-      {"test_name": "BMP - Bicarbonate", "result": "32 mEq/L", "flag": "HIGH", "clinical_significance": "Metabolic alkalosis from vomiting and contraction alkalosis"},
-      {"test_name": "BMP - BUN", "result": "34 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia from dehydration"},
-      {"test_name": "BMP - Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from dehydration"},
-      {"test_name": "Lactate", "result": "1.6 mmol/L", "flag": "WNL", "clinical_significance": "Normal — reassuring against bowel ischemia/strangulation"},
-      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis"},
-      {"test_name": "Urinalysis", "result": "Concentrated, specific gravity 1.030. No WBCs or bacteria.", "flag": "ABNORMAL", "clinical_significance": "Concentrated urine from dehydration"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "11.2 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis from stress/dehydration; marked elevation would suggest strangulation"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "15.2 g/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hemoconcentration from dehydration and third-spacing"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "3.2 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from vomiting and GI losses"
+      },
+      {
+        "test_name": "BMP - Chloride",
+        "result": "92 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypochloremia from vomiting (loss of HCl)"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "32 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Metabolic alkalosis from vomiting and contraction alkalosis"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "34 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Prerenal azotemia from dehydration"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from dehydration"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "1.6 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal — reassuring against bowel ischemia/strangulation"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "28 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Concentrated, specific gravity 1.030. No WBCs or bacteria.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Concentrated urine from dehydration"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal X-ray (supine and upright)", "result": "Multiple dilated loops of small bowel (up to 4.5 cm diameter). Multiple air-fluid levels on upright film with stepladder pattern. Paucity of gas in the colon and rectum. No free air under the diaphragm.", "flag": "ABNORMAL", "clinical_significance": "Classic findings of small bowel obstruction — dilated proximal bowel with decompressed distal bowel"},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Dilated proximal small bowel loops (up to 4.8 cm) with a discrete transition point in the mid-ileum. Adhesive band identified at the transition zone. Decompressed distal ileum and colon. No closed-loop obstruction. No bowel wall thickening or pneumatosis. No free fluid. Normal bowel wall enhancement (no signs of ischemia).", "flag": "ABNORMAL", "clinical_significance": "Confirms complete SBO from adhesive band without signs of strangulation or ischemia — trial of conservative management appropriate"}
+      {
+        "test_name": "Abdominal X-ray (supine and upright)",
+        "result": "Multiple dilated loops of small bowel (up to 4.5 cm diameter). Multiple air-fluid levels on upright film with stepladder pattern. Paucity of gas in the colon and rectum. No free air under the diaphragm.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic findings of this condition — dilated proximal bowel with decompressed distal bowel"
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Dilated proximal small bowel loops (up to 4.8 cm) with a discrete transition point in the mid-ileum. Adhesive band identified at the transition zone. Decompressed distal ileum and colon. No closed-loop obstruction. No bowel wall thickening or pneumatosis. No free fluid. Normal bowel wall enhancement (no signs of ischemia).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms complete SBO from adhesive band without signs of strangulation or ischemia — trial of conservative management appropriate"
+      }
     ],
-    "key_tests": ["CT abdomen/pelvis with IV contrast", "Abdominal X-ray (supine and upright)", "CBC", "BMP (electrolytes)", "Lactate"],
-    "acceptable_tests": ["Lipase", "Urinalysis", "LFTs", "Type and screen", "Chest X-ray (upright — to evaluate for free air)"],
-    "low_yield_tests": ["Abdominal ultrasound", "Barium follow-through (risk of impaction in complete obstruction)", "Colonoscopy", "Upper GI series", "MRI abdomen"]
+    "key_tests": [
+      "CT abdomen/pelvis with IV contrast",
+      "Abdominal X-ray (supine and upright)",
+      "CBC",
+      "BMP (electrolytes)",
+      "Lactate"
+    ],
+    "acceptable_tests": [
+      "Lipase",
+      "Urinalysis",
+      "LFTs",
+      "Type and screen",
+      "Chest X-ray (upright — to evaluate for free air)"
+    ],
+    "low_yield_tests": [
+      "Abdominal ultrasound",
+      "Barium follow-through (risk of impaction in complete obstruction)",
+      "Colonoscopy",
+      "Upper GI series",
+      "MRI abdomen"
+    ]
   },
   "stage5": {
-    "final_clue": "CT abdomen confirms complete small bowel obstruction with a clear transition point in the mid-ileum from an adhesive band, without signs of strangulation (normal lactate, no bowel wall thickening, no pneumatosis, preserved wall enhancement). The patient's history of two prior abdominal surgeries makes adhesions the most likely etiology. Initial conservative management with NGT decompression and IV fluids is appropriate, with close monitoring for signs of strangulation."
+    "final_clue": "CT abdomen confirms complete this condition with a clear transition point in the mid-ileum from an adhesive band, without signs of strangulation (normal lactate, no bowel wall thickening, no pneumatosis, preserved wall enhancement). The patient's history of two prior abdominal surgeries makes adhesions the most likely etiology. Initial conservative management with NGT decompression and IV fluids is appropriate, with close monitoring for signs of strangulation."
   },
   "debrief": {
     "classic_presentation": "Crampy, intermittent abdominal pain, bilious vomiting, abdominal distension, and obstipation (inability to pass gas or stool) in a patient with prior abdominal surgery. Classic exam: distended abdomen, high-pitched/tinkling bowel sounds, and surgical scars. Abdominal X-ray shows dilated small bowel with air-fluid levels and absence of colonic gas.",
@@ -67,9 +150,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Small bowel obstruction (adhesive)", "Large bowel obstruction", "Paralytic ileus", "Acute mesenteric ischemia", "Incarcerated hernia", "Volvulus", "Crohn disease flare"],
-    "after_stage2_more_likely": ["Small bowel obstruction (adhesive)", "Incarcerated hernia"],
-    "after_stage2_less_likely": ["Large bowel obstruction", "Acute mesenteric ischemia"],
-    "after_labs_top3": ["Adhesive small bowel obstruction", "Simple SBO (non-strangulated)", "Partial SBO"]
+    "reasonable_ddx": [
+      "Small bowel obstruction (adhesive)",
+      "Large bowel obstruction",
+      "Paralytic ileus",
+      "Acute mesenteric ischemia",
+      "Incarcerated hernia",
+      "Volvulus",
+      "Crohn disease flare"
+    ],
+    "after_stage2_more_likely": [
+      "Small bowel obstruction (adhesive)",
+      "Incarcerated hernia"
+    ],
+    "after_stage2_less_likely": [
+      "Large bowel obstruction",
+      "Acute mesenteric ischemia"
+    ],
+    "after_labs_top3": [
+      "Adhesive small bowel obstruction",
+      "Simple SBO (non-strangulated)",
+      "Partial SBO"
+    ]
   }
 }

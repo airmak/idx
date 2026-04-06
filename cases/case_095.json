@@ -25,29 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,800/uL", "flag": "WNL", "clinical_significance": "Normal; no leukocytosis"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "LDH", "result": "480 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH is a characteristic finding in PAP and correlates with disease severity"},
-      {"test_name": "Anti-GM-CSF antibodies", "result": "Positive (elevated titer)", "flag": "ABNORMAL", "clinical_significance": "Diagnostic: anti-GM-CSF antibodies are the hallmark of autoimmune PAP and are found in >90% of adult cases"},
-      {"test_name": "CEA", "result": "8.2 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated CEA can be seen in PAP — it is produced by type II pneumocytes and is a nonspecific marker"},
-      {"test_name": "KL-6", "result": "2,400 U/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; KL-6 is a mucin glycoprotein elevated in PAP and other interstitial lung diseases"},
-      {"test_name": "ABG pH", "result": "7.43", "flag": "WNL", "clinical_significance": "Normal pH"},
-      {"test_name": "ABG pO2", "result": "64 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia at rest with significant desaturation on exertion indicates impaired gas exchange"},
-      {"test_name": "ABG pCO2", "result": "36 mmHg", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CRP", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal; not suggestive of acute infection"},
-      {"test_name": "BAL fluid analysis", "result": "Milky, opaque fluid. PAS-positive proteinaceous material with foamy macrophages. No organisms on culture.", "flag": "ABNORMAL", "clinical_significance": "Pathognomonic: milky BAL fluid with PAS-positive lipoproteinaceous material is diagnostic of PAP"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,800/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no leukocytosis"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "LDH",
+        "result": "480 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDH is a characteristic finding in PAP and correlates with disease severity"
+      },
+      {
+        "test_name": "Anti-GM-CSF antibodies",
+        "result": "Positive (elevated titer)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diagnostic: anti-GM-CSF antibodies are the hallmark of autoimmune PAP and are found in >90% of adult cases"
+      },
+      {
+        "test_name": "CEA",
+        "result": "8.2 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CEA can be seen in PAP — it is produced by type II pneumocytes and is a nonspecific marker"
+      },
+      {
+        "test_name": "KL-6",
+        "result": "2,400 U/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; KL-6 is a mucin glycoprotein elevated in PAP and other interstitial lung diseases"
+      },
+      {
+        "test_name": "ABG pH",
+        "result": "7.43",
+        "flag": "WNL",
+        "clinical_significance": "Normal pH"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "64 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Hypoxemia at rest with significant desaturation on exertion indicates impaired gas exchange"
+      },
+      {
+        "test_name": "ABG pCO2",
+        "result": "36 mmHg",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; not suggestive of acute infection"
+      },
+      {
+        "test_name": "BAL fluid analysis",
+        "result": "Milky, opaque fluid. PAS-positive proteinaceous material with foamy macrophages. No organisms on culture.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pathognomonic: milky BAL fluid with PAS-positive lipoproteinaceous material is diagnostic of PAP"
+      }
     ],
     "imaging_results": [
-      {"test_name": "HRCT chest", "result": "Bilateral, patchy ground-glass opacities with superimposed interlobular septal thickening creating a 'crazy-paving' pattern. Geographic distribution with sharp borders between affected and unaffected lung. No honeycombing or traction bronchiectasis.", "flag": "ABNORMAL", "clinical_significance": "Crazy-paving pattern is highly characteristic of PAP, though not pathognomonic (also seen in lipoid pneumonia, PCP, alveolar hemorrhage)"},
-      {"test_name": "Chest X-ray", "result": "Bilateral diffuse alveolar opacities in a 'bat-wing' distribution. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Bilateral alveolar opacities can mimic pulmonary edema, but absence of cardiomegaly and clinical context suggest alternative diagnosis"}
+      {
+        "test_name": "HRCT chest",
+        "result": "Bilateral, patchy ground-glass opacities with superimposed interlobular septal thickening creating a 'crazy-paving' pattern. Geographic distribution with sharp borders between affected and unaffected lung. No honeycombing or traction bronchiectasis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Crazy-paving pattern is highly characteristic of PAP, though not pathognomonic (also seen in lipoid pneumonia, PCP, alveolar hemorrhage)"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral diffuse alveolar opacities in a 'bat-wing' distribution. No pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral alveolar opacities can mimic pulmonary edema, but absence of cardiomegaly and clinical context suggest alternative diagnosis"
+      }
     ],
-    "key_tests": ["HRCT chest", "Anti-GM-CSF antibody titer", "Bronchoalveolar lavage (BAL) with PAS stain", "ABG", "LDH"],
-    "acceptable_tests": ["PFTs (restrictive pattern with reduced DLCO)", "CBC", "KL-6", "CEA", "Chest X-ray", "6-minute walk test", "CRP/ESR"],
-    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture (not diagnostic)", "PET-CT", "Echocardiogram"]
+    "key_tests": [
+      "HRCT chest",
+      "Anti-GM-CSF antibody titer",
+      "Bronchoalveolar lavage (BAL) with PAS stain",
+      "ABG",
+      "LDH"
+    ],
+    "acceptable_tests": [
+      "PFTs (restrictive pattern with reduced DLCO)",
+      "CBC",
+      "KL-6",
+      "CEA",
+      "Chest X-ray",
+      "6-minute walk test",
+      "CRP/ESR"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "BNP",
+      "Sputum culture (not diagnostic)",
+      "PET-CT",
+      "Echocardiogram"
+    ]
   },
   "stage5": {
-    "final_clue": "Bronchoscopy with BAL yields milky, opaque fluid that is strongly PAS-positive on histochemical staining. Anti-GM-CSF antibody titer is markedly elevated. PFTs show a restrictive pattern (FVC 68% predicted) with DLCO 42% predicted. The constellation of crazy-paving on HRCT, milky PAS-positive BAL fluid, and positive anti-GM-CSF antibodies confirms the diagnosis of autoimmune pulmonary alveolar proteinosis."
+    "final_clue": "Bronchoscopy with BAL yields milky, opaque fluid that is strongly PAS-positive on histochemical staining. Anti-GM-CSF antibody titer is markedly elevated. PFTs show a restrictive pattern (FVC 68% predicted) with DLCO 42% predicted. The constellation of crazy-paving on HRCT, milky PAS-positive BAL fluid, and positive anti-GM-CSF antibodies confirms the diagnosis of autoimmune this condition."
   },
   "debrief": {
     "classic_presentation": "Middle-aged adult with insidious progressive dyspnea and dry cough, crazy-paving pattern on HRCT, milky PAS-positive BAL fluid, and elevated anti-GM-CSF antibodies. The CXR may mimic pulmonary edema ('bat-wing' opacities) but without cardiomegaly or clinical CHF.",
@@ -68,9 +158,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pulmonary alveolar proteinosis", "Pneumocystis pneumonia", "Lipoid pneumonia", "Diffuse alveolar hemorrhage", "Pulmonary edema (cardiogenic)", "Hypersensitivity pneumonitis", "Sarcoidosis"],
-    "after_stage2_more_likely": ["Pulmonary alveolar proteinosis", "Hypersensitivity pneumonitis"],
-    "after_stage2_less_likely": ["Pulmonary edema", "Pneumocystis pneumonia", "Diffuse alveolar hemorrhage"],
-    "after_labs_top3": ["Pulmonary alveolar proteinosis", "Lipoid pneumonia", "Hypersensitivity pneumonitis"]
+    "reasonable_ddx": [
+      "Pulmonary alveolar proteinosis",
+      "Pneumocystis pneumonia",
+      "Lipoid pneumonia",
+      "Diffuse alveolar hemorrhage",
+      "Pulmonary edema (cardiogenic)",
+      "Hypersensitivity pneumonitis",
+      "Sarcoidosis"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary alveolar proteinosis",
+      "Hypersensitivity pneumonitis"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary edema",
+      "Pneumocystis pneumonia",
+      "Diffuse alveolar hemorrhage"
+    ],
+    "after_labs_top3": [
+      "Pulmonary alveolar proteinosis",
+      "Lipoid pneumonia",
+      "Hypersensitivity pneumonitis"
+    ]
   }
 }

@@ -6,7 +6,7 @@
   "icd_category": "A69.20 — Lyme disease, unspecified",
   "one_liner": "A 38-year-old female from Connecticut presents with a 12 cm expanding annular rash on her right thigh with central clearing, low-grade fever, and arthralgias 10 days after hiking.",
   "stage2": {
-    "hpi_extension": "The patient went hiking in a wooded area in southeastern Connecticut about 10 days ago. Five days ago, she noticed a small red bump on her right thigh that she initially thought was a bug bite. The area has progressively expanded into a large circular rash with a brighter red border and lighter center. She has associated low-grade fevers (38.2°C), fatigue, diffuse arthralgias (knees, wrists), mild headache, and myalgias. She does not recall a tick attachment but was not using insect repellent. She denies neck stiffness, facial weakness, palpitations, visual changes, or joint swelling. No prior history of Lyme disease.",
+    "hpi_extension": "The patient went hiking in a wooded area in southeastern Connecticut about 10 days ago. Five days ago, she noticed a small red bump on her right thigh that she initially thought was a bug bite. The area has progressively expanded into a large circular rash with a brighter red border and lighter center. She has associated low-grade fevers (38.2°C), fatigue, diffuse arthralgias (knees, wrists), mild headache, and myalgias. She does not recall a tick attachment but was not using insect repellent. She denies neck stiffness, facial weakness, palpitations, visual changes, or joint swelling. No prior history of this condition.",
     "pmh": "Seasonal allergies. Otherwise healthy.",
     "surgical_history": "None.",
     "medications": "Loratadine 10 mg daily PRN allergies.",
@@ -25,16 +25,56 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Lyme ELISA (EIA) Screen", "result": "Positive (OD index 2.4)", "flag": "ABNORMAL", "clinical_significance": "Positive first-tier screening test; requires confirmatory Western blot"},
-      {"test_name": "Lyme Western Blot — IgM", "result": "Positive (3 of 3 bands: 23, 39, 41 kDa)", "flag": "ABNORMAL", "clinical_significance": "Positive IgM Western blot (≥2 of 3 bands) confirms early Lyme disease within first 4 weeks of infection"},
-      {"test_name": "Lyme Western Blot — IgG", "result": "Negative (1 of 10 bands)", "flag": "WNL", "clinical_significance": "IgG typically negative in early localized Lyme; seroconversion occurs later"},
-      {"test_name": "CBC — WBC", "result": "7,800/μL", "flag": "WNL", "clinical_significance": "Normal WBC; Lyme disease typically does not cause significant leukocytosis"},
-      {"test_name": "ESR", "result": "28 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; non-specific inflammatory marker"},
-      {"test_name": "CRP", "result": "14 mg/L", "flag": "HIGH", "clinical_significance": "Mildly elevated inflammatory marker consistent with early infection"},
-      {"test_name": "AST/ALT", "result": "AST 42 U/L, ALT 48 U/L", "flag": "HIGH", "clinical_significance": "Mild transaminitis can occur in early Lyme disease"}
+      {
+        "test_name": "Lyme ELISA (EIA) Screen",
+        "result": "Positive (OD index 2.4)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive first-tier screening test; requires confirmatory Western blot"
+      },
+      {
+        "test_name": "Lyme Western Blot — IgM",
+        "result": "Positive (3 of 3 bands: 23, 39, 41 kDa)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive IgM Western blot (≥2 of 3 bands) confirms early this condition within first 4 weeks of infection"
+      },
+      {
+        "test_name": "Lyme Western Blot — IgG",
+        "result": "Negative (1 of 10 bands)",
+        "flag": "WNL",
+        "clinical_significance": "IgG typically negative in early localized Lyme; seroconversion occurs later"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,800/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal WBC; this condition typically does not cause significant leukocytosis"
+      },
+      {
+        "test_name": "ESR",
+        "result": "28 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; non-specific inflammatory marker"
+      },
+      {
+        "test_name": "CRP",
+        "result": "14 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated inflammatory marker consistent with early infection"
+      },
+      {
+        "test_name": "AST/ALT",
+        "result": "AST 42 U/L, ALT 48 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild transaminitis can occur in early this condition"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG (12-lead)", "result": "Normal sinus rhythm, rate 78 bpm. PR interval 168 ms. No ST-T wave changes. No heart block.", "flag": "WNL", "clinical_significance": "No evidence of Lyme carditis (PR prolongation or heart block); reassuring baseline"}
+      {
+        "test_name": "ECG (12-lead)",
+        "result": "Normal sinus rhythm, rate 78 bpm. PR interval 168 ms. No ST-T wave changes. No heart block.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of Lyme carditis (PR prolongation or heart block); reassuring baseline"
+      }
     ],
     "key_tests": [
       "Clinical recognition of erythema migrans (EM) — diagnosis is clinical; serologic testing is not required to treat",
@@ -57,7 +97,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A classic expanding erythema migrans lesion (12 cm, annular with central clearing) appearing 10 days after tick exposure in a Lyme-endemic area (Connecticut), accompanied by constitutional symptoms (fever, fatigue, arthralgias, myalgias). Positive two-tier Lyme serology (ELISA positive, IgM Western blot positive). Normal ECG excludes early Lyme carditis. This is early localized Lyme disease."
+    "final_clue": "A classic expanding erythema migrans lesion (12 cm, annular with central clearing) appearing 10 days after tick exposure in a Lyme-endemic area (Connecticut), accompanied by constitutional symptoms (fever, fatigue, arthralgias, myalgias). Positive two-tier Lyme serology (ELISA positive, IgM Western blot positive). Normal ECG excludes early Lyme carditis. This is early localized this condition."
   },
   "debrief": {
     "classic_presentation": "An expanding erythema migrans (EM) rash appearing 3-30 days (typically 7-14 days) after a tick bite in an endemic area. The EM lesion is ≥5 cm, annular with central clearing (targetoid or 'bull's-eye' pattern — though uniform erythema is equally common), warm, non-pruritic, and non-tender. Constitutional symptoms (fever, fatigue, arthralgias, myalgias, headache) may accompany the rash. Only ~30% of patients recall a tick bite.",

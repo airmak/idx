@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "9,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Platelets", "result": "218,000/uL", "flag": "WNL", "clinical_significance": "Normal; adequate platelet count (must be >100,000 for thrombolysis)"},
-      {"test_name": "BMP — Glucose", "result": "168 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated glucose; hyperglycemia worsens stroke outcomes — must be excluded as cause of focal deficits and should be corrected"},
-      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "PT/INR", "result": "12.2 sec / INR 1.0", "flag": "WNL", "clinical_significance": "Normal INR; patient stopped apixaban — no contraindication to IV tPA based on anticoagulant effect. Apixaban discontinued >2 days ago."},
-      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal; excludes concurrent MI (afib with stroke can coexist with cardiac events)"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control; diabetes is a major stroke risk factor"},
-      {"test_name": "Lipid panel — LDL", "result": "128 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated LDL despite statin therapy; dose intensification needed for secondary prevention"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "218,000/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; adequate platelet count (must be >100,000 for thrombolysis)"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "168 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated glucose; hyperglycemia worsens stroke outcomes — must be excluded as cause of focal deficits and should be corrected"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "12.2 sec / INR 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal INR; patient stopped apixaban — no contraindication to IV tPA based on anticoagulant effect. Apixaban discontinued >2 days ago."
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.02 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes concurrent MI (afib with stroke can coexist with cardiac events)"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimal glycemic control; diabetes is a major stroke risk factor"
+      },
+      {
+        "test_name": "Lipid panel — LDL",
+        "result": "128 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDL despite statin therapy; dose intensification needed for secondary prevention"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT head without contrast", "result": "No acute hemorrhage. No hyperdense vessel sign. Early subtle loss of grey-white differentiation in the left insular cortex (insular ribbon sign). No midline shift.", "flag": "ABNORMAL", "clinical_significance": "No hemorrhage — patient is a candidate for IV thrombolysis. Early ischemic changes in the left MCA territory (insular ribbon sign) support the clinical diagnosis. ASPECTS score approximately 9/10."},
-      {"test_name": "CT angiography (head and neck)", "result": "Occlusion of the left middle cerebral artery (M1 segment). Left internal carotid artery patent with mild atherosclerotic disease. Right-sided circulation patent. No dissection.", "flag": "ABNORMAL", "clinical_significance": "Left M1 MCA occlusion — likely cardioembolic given atrial fibrillation and recent anticoagulation discontinuation. Large vessel occlusion qualifies for mechanical thrombectomy consideration."},
-      {"test_name": "CT perfusion", "result": "Large area of penumbra (Tmax >6 sec) in the left MCA territory with small ischemic core (CBF <30%). Mismatch ratio >1.8. Core volume approximately 15 mL.", "flag": "ABNORMAL", "clinical_significance": "Significant penumbral tissue (tissue at risk but salvageable) with small ischemic core — favorable perfusion profile supporting both IV tPA and mechanical thrombectomy."}
+      {
+        "test_name": "CT head without contrast",
+        "result": "No acute hemorrhage. No hyperdense vessel sign. Early subtle loss of grey-white differentiation in the left insular cortex (insular ribbon sign). No midline shift.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "No hemorrhage — patient is a candidate for IV thrombolysis. Early ischemic changes in the left this condition (insular ribbon sign) support the clinical diagnosis. ASPECTS score approximately 9/10."
+      },
+      {
+        "test_name": "CT angiography (head and neck)",
+        "result": "Occlusion of the left middle cerebral artery (M1 segment). Left internal carotid artery patent with mild atherosclerotic disease. Right-sided circulation patent. No dissection.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Left M1 MCA occlusion — likely cardioembolic given atrial fibrillation and recent anticoagulation discontinuation. Large vessel occlusion qualifies for mechanical thrombectomy consideration."
+      },
+      {
+        "test_name": "CT perfusion",
+        "result": "Large area of penumbra (Tmax >6 sec) in the left this condition with small ischemic core (CBF <30%). Mismatch ratio >1.8. Core volume approximately 15 mL.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Significant penumbral tissue (tissue at risk but salvageable) with small ischemic core — favorable perfusion profile supporting both IV tPA and mechanical thrombectomy."
+      }
     ],
-    "key_tests": ["Non-contrast CT head (STAT — to exclude hemorrhage before thrombolysis)", "CT angiography (to identify large vessel occlusion for thrombectomy)", "CT perfusion (to assess ischemic core vs. penumbra)", "Blood glucose (STAT — to exclude hypoglycemia as stroke mimic)", "NIH Stroke Scale (NIHSS) assessment"],
-    "acceptable_tests": ["CBC with platelets", "PT/INR, aPTT", "BMP", "Troponin", "ECG/telemetry (to confirm atrial fibrillation)", "Lipid panel", "HbA1c", "Echocardiogram (TTE or TEE for embolic source)"],
-    "low_yield_tests": ["Lumbar puncture (no indication)", "EEG (acutely)", "Carotid ultrasound (CTA already performed)", "Serum drug screen"],
+    "key_tests": [
+      "Non-contrast CT head (STAT — to exclude hemorrhage before thrombolysis)",
+      "CT angiography (to identify large vessel occlusion for thrombectomy)",
+      "CT perfusion (to assess ischemic core vs. penumbra)",
+      "Blood glucose (STAT — to exclude hypoglycemia as stroke mimic)",
+      "NIH Stroke Scale (NIHSS) assessment"
+    ],
+    "acceptable_tests": [
+      "CBC with platelets",
+      "PT/INR, aPTT",
+      "BMP",
+      "Troponin",
+      "ECG/telemetry (to confirm atrial fibrillation)",
+      "Lipid panel",
+      "HbA1c",
+      "Echocardiogram (TTE or TEE for embolic source)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (no indication)",
+      "EEG (acutely)",
+      "Carotid ultrasound (CTA already performed)",
+      "Serum drug screen"
+    ],
     "low_yield_tests_note": "Time is brain — minimize any tests that delay treatment. Only blood glucose and CT head are required before IV tPA."
   },
   "stage5": {
@@ -67,9 +147,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke (intracerebral hemorrhage)", "Transient ischemic attack", "Todd paralysis (postictal)", "Hypoglycemia", "Hemiplegic migraine", "Brain tumor with acute decompensation"],
-    "after_stage2_more_likely": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke"],
-    "after_stage2_less_likely": ["Hypoglycemia", "Todd paralysis", "Hemiplegic migraine"],
-    "after_labs_top3": ["Ischemic stroke (MCA territory)", "Hemorrhagic stroke", "Transient ischemic attack"]
+    "reasonable_ddx": [
+      "Ischemic stroke (MCA territory)",
+      "Hemorrhagic stroke (intracerebral hemorrhage)",
+      "Transient ischemic attack",
+      "Todd paralysis (postictal)",
+      "Hypoglycemia",
+      "Hemiplegic migraine",
+      "Brain tumor with acute decompensation"
+    ],
+    "after_stage2_more_likely": [
+      "Ischemic stroke (MCA territory)",
+      "Hemorrhagic stroke"
+    ],
+    "after_stage2_less_likely": [
+      "Hypoglycemia",
+      "Todd paralysis",
+      "Hemiplegic migraine"
+    ],
+    "after_labs_top3": [
+      "Ischemic stroke (MCA territory)",
+      "Hemorrhagic stroke",
+      "Transient ischemic attack"
+    ]
   }
 }

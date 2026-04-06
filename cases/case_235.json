@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum lithium level", "result": "3.2 mEq/L", "flag": "CRITICAL HIGH", "clinical_significance": "Severely elevated lithium level (therapeutic range 0.6-1.2 mEq/L) confirming lithium toxicity"},
-      {"test_name": "BMP (Basic Metabolic Panel)", "result": "Na 148, K 3.2, Cl 112, CO2 18, BUN 42, Cr 2.8, Glucose 105", "flag": "ABNORMAL", "clinical_significance": "Hypernatremia, hypokalemia, metabolic acidosis, and acute kidney injury — dehydration from vomiting and ACE inhibitor-induced renal impairment contributing to lithium accumulation"},
-      {"test_name": "CBC with differential", "result": "WBC 12.1, Hgb 15.8, Hct 47.2, Plt 210", "flag": "MILD ABNORMAL", "clinical_significance": "Leukocytosis (lithium-induced) and hemoconcentration consistent with dehydration"},
-      {"test_name": "TSH", "result": "6.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated TSH — chronic lithium use can worsen hypothyroidism; levothyroxine may need adjustment"},
-      {"test_name": "Calcium", "result": "11.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia — lithium can cause hyperparathyroidism; may contribute to symptoms"},
-      {"test_name": "Magnesium", "result": "1.6 mg/dL", "flag": "LOW", "clinical_significance": "Hypomagnesemia likely from vomiting and poor oral intake"},
-      {"test_name": "Phosphorus", "result": "2.2 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus consistent with metabolic derangement"},
-      {"test_name": "Urinalysis", "result": "Specific gravity 1.030, no WBC, no bacteria, no casts", "flag": "ABNORMAL", "clinical_significance": "Concentrated urine consistent with dehydration and prerenal azotemia"},
-      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out concomitant substance intoxication"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 94 bpm, flattened T waves, prolonged QTc at 480 ms, no ST changes", "flag": "ABNORMAL", "clinical_significance": "ECG changes consistent with lithium toxicity and electrolyte abnormalities — QTc prolongation requires monitoring"}
+      {
+        "test_name": "Serum lithium level",
+        "result": "3.2 mEq/L",
+        "flag": "CRITICAL HIGH",
+        "clinical_significance": "Severely elevated lithium level (therapeutic range 0.6-1.2 mEq/L) confirming this condition"
+      },
+      {
+        "test_name": "BMP (Basic Metabolic Panel)",
+        "result": "Na 148, K 3.2, Cl 112, CO2 18, BUN 42, Cr 2.8, Glucose 105",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypernatremia, hypokalemia, metabolic acidosis, and acute kidney injury — dehydration from vomiting and ACE inhibitor-induced renal impairment contributing to lithium accumulation"
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 12.1, Hgb 15.8, Hct 47.2, Plt 210",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Leukocytosis (lithium-induced) and hemoconcentration consistent with dehydration"
+      },
+      {
+        "test_name": "TSH",
+        "result": "6.8 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated TSH — chronic lithium use can worsen hypothyroidism; levothyroxine may need adjustment"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "11.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalcemia — lithium can cause hyperparathyroidism; may contribute to symptoms"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.6 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypomagnesemia likely from vomiting and poor oral intake"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "2.2 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low phosphorus consistent with metabolic derangement"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.030, no WBC, no bacteria, no casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Concentrated urine consistent with dehydration and prerenal azotemia"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for all substances",
+        "flag": "WNL",
+        "clinical_significance": "Rules out concomitant substance intoxication"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 94 bpm, flattened T waves, prolonged QTc at 480 ms, no ST changes",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ECG changes consistent with the suspected diagnosis and electrolyte abnormalities — QTc prolongation requires monitoring"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus. Mild generalized cerebral atrophy appropriate for age.", "flag": "WNL", "clinical_significance": "Rules out stroke or structural lesion as cause of acute neurological symptoms"},
-      {"test_name": "Chest X-ray", "result": "Clear lung fields. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "No evidence of aspiration pneumonia despite vomiting"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus. Mild generalized cerebral atrophy appropriate for age.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out stroke or structural lesion as cause of acute neurological symptoms"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Clear lung fields. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of aspiration pneumonia despite vomiting"
+      }
     ],
     "key_tests": [
       "Serum lithium level — 3.2 mEq/L, confirming severe toxicity (>2.5 mEq/L)",
@@ -64,7 +124,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient's serum lithium level is critically elevated at 3.2 mEq/L with acute kidney injury (Cr 2.8), directly precipitated by the recent addition of lisinopril (ACE inhibitor), which reduces GFR and impairs lithium excretion. The clinical triad of neuromuscular excitability (coarse tremor, hyperreflexia), cerebellar dysfunction (ataxia, dysmetria, nystagmus), and altered mental status in a patient on chronic lithium confirms the diagnosis of severe lithium toxicity."
+    "final_clue": "The patient's serum lithium level is critically elevated at 3.2 mEq/L with acute kidney injury (Cr 2.8), directly precipitated by the recent addition of lisinopril (ACE inhibitor), which reduces GFR and impairs lithium excretion. The clinical triad of neuromuscular excitability (coarse tremor, hyperreflexia), cerebellar dysfunction (ataxia, dysmetria, nystagmus), and altered mental status in a patient on chronic lithium confirms the diagnosis of severe this condition."
   },
   "debrief": {
     "classic_presentation": "A patient on chronic lithium therapy presenting with the progression from mild toxicity (fine tremor, GI upset, polyuria) to moderate toxicity (coarse tremor, ataxia, confusion, slurred speech) to severe toxicity (seizures, coma, renal failure). A common precipitant is the addition of a medication that impairs renal lithium clearance (ACE inhibitors, ARBs, NSAIDs, thiazide diuretics) or volume depletion from any cause.",

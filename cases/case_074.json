@@ -25,31 +25,127 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "1,850 pg/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with severe decompensated heart failure"},
-      {"test_name": "Troponin I", "result": "0.06 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, likely from myocardial stretch/wall stress rather than acute ischemia"},
-      {"test_name": "Sodium", "result": "128 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia, poor prognostic marker in HF from neurohormonal activation"},
-      {"test_name": "Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment suggesting cardiorenal syndrome"},
-      {"test_name": "ALT", "result": "85 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic congestion"},
-      {"test_name": "AST", "result": "72 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic congestion"},
-      {"test_name": "Total bilirubin", "result": "2.1 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from hepatic congestion"},
-      {"test_name": "TSH", "result": "2.3 mIU/L", "flag": "WNL", "clinical_significance": "Normal, rules out thyroid disease as cause"},
-      {"test_name": "Iron/TIBC/Ferritin", "result": "Iron 65, TIBC 320, Ferritin 120", "flag": "WNL", "clinical_significance": "Normal iron studies, rules out hemochromatosis"},
-      {"test_name": "HIV antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out HIV cardiomyopathy"},
-      {"test_name": "Uric acid", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, common in HF due to decreased renal clearance"},
-      {"test_name": "Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, rules out anemia as contributing factor"}
+      {
+        "test_name": "BNP",
+        "result": "1,850 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with severe decompensated heart failure"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.06 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, likely from myocardial stretch/wall stress rather than acute ischemia"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "128 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hyponatremia, poor prognostic marker in HF from neurohormonal activation"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild renal impairment suggesting cardiorenal syndrome"
+      },
+      {
+        "test_name": "ALT",
+        "result": "85 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatic congestion"
+      },
+      {
+        "test_name": "AST",
+        "result": "72 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatic congestion"
+      },
+      {
+        "test_name": "Total bilirubin",
+        "result": "2.1 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from hepatic congestion"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.3 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out thyroid disease as cause"
+      },
+      {
+        "test_name": "Iron/TIBC/Ferritin",
+        "result": "Iron 65, TIBC 320, Ferritin 120",
+        "flag": "WNL",
+        "clinical_significance": "Normal iron studies, rules out hemochromatosis"
+      },
+      {
+        "test_name": "HIV antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out HIV cardiomyopathy"
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "8.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, common in HF due to decreased renal clearance"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "13.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out anemia as contributing factor"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Severely dilated LV (LVEDD 7.2 cm), global hypokinesis, LVEF 18%, severe functional mitral regurgitation, moderate tricuspid regurgitation, dilated left atrium, mildly dilated RV with decreased function, elevated RVSP 52 mmHg, no regional wall motion abnormalities to suggest ischemic etiology", "flag": "ABNORMAL", "clinical_significance": "Severe nonischemic dilated cardiomyopathy with biventricular dysfunction"},
-      {"test_name": "Chest X-ray", "result": "Markedly enlarged cardiac silhouette, bilateral pleural effusions, cephalization of pulmonary vasculature, Kerley B lines", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly with pulmonary edema and bilateral effusions"},
-      {"test_name": "12-lead ECG", "result": "Atrial fibrillation with ventricular rate 104 bpm, poor R-wave progression V1-V4, non-specific ST-T wave changes, low voltage in limb leads", "flag": "ABNORMAL", "clinical_significance": "AFib (new), low voltage and poor R-wave progression consistent with dilated cardiomyopathy"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Severely dilated LV (LVEDD 7.2 cm), global hypokinesis, LVEF 18%, severe functional mitral regurgitation, moderate tricuspid regurgitation, dilated left atrium, mildly dilated RV with decreased function, elevated RVSP 52 mmHg, no regional wall motion abnormalities to suggest ischemic etiology",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe nonischemic this condition with biventricular dysfunction"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Markedly enlarged cardiac silhouette, bilateral pleural effusions, cephalization of pulmonary vasculature, Kerley B lines",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly with pulmonary edema and bilateral effusions"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Atrial fibrillation with ventricular rate 104 bpm, poor R-wave progression V1-V4, non-specific ST-T wave changes, low voltage in limb leads",
+        "flag": "ABNORMAL",
+        "clinical_significance": "AFib (new), low voltage and poor R-wave progression consistent with the suspected diagnosis"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram", "BNP", "12-lead ECG", "Basic metabolic panel", "Troponin"],
-    "acceptable_tests": ["CBC", "Liver function tests", "TSH", "Iron studies", "HIV test", "Chest X-ray", "Cardiac MRI (for tissue characterization)", "Coronary angiography (to exclude ischemic cause)"],
-    "low_yield_tests": ["Stress test (EF too low)", "PET scan", "Pulmonary function tests", "Serum cortisol", "ANA"],
+    "key_tests": [
+      "Transthoracic echocardiogram",
+      "BNP",
+      "12-lead ECG",
+      "Basic metabolic panel",
+      "Troponin"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Liver function tests",
+      "TSH",
+      "Iron studies",
+      "HIV test",
+      "Chest X-ray",
+      "Cardiac MRI (for tissue characterization)",
+      "Coronary angiography (to exclude ischemic cause)"
+    ],
+    "low_yield_tests": [
+      "Stress test (EF too low)",
+      "PET scan",
+      "Pulmonary function tests",
+      "Serum cortisol",
+      "ANA"
+    ],
     "key_tests_rationale": "Echo is essential to diagnose DCM and quantify dysfunction. BNP confirms HF severity. ECG identifies rhythm and conduction abnormalities. BMP assesses renal function and electrolytes. Troponin evaluates for ischemia."
   },
   "stage5": {
-    "final_clue": "Echocardiography reveals a severely dilated left ventricle with global hypokinesis and an LVEF of 18%, without regional wall motion abnormalities. Combined with the family history of sudden death and heart transplant, this is most consistent with familial dilated cardiomyopathy."
+    "final_clue": "Echocardiography reveals a severely dilated left ventricle with global hypokinesis and an LVEF of 18%, without regional wall motion abnormalities. Combined with the family history of sudden death and heart transplant, this is most consistent with familial this condition."
   },
   "debrief": {
     "classic_presentation": "Dilated cardiomyopathy presents with progressive heart failure symptoms: dyspnea on exertion, orthopnea, PND, fatigue, and peripheral edema. It typically affects men more than women, ages 20-60. Echo shows a dilated, globally hypokinetic LV. The etiology can be idiopathic (most common), familial/genetic (20-35%), viral/post-myocarditis, alcoholic, or peripartum.",
@@ -71,9 +167,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Ischemic cardiomyopathy", "Myocarditis (viral)", "Alcoholic cardiomyopathy", "Peripartum cardiomyopathy", "Valvular heart disease", "Tachycardia-mediated cardiomyopathy"],
-    "after_stage2_more_likely": ["Dilated cardiomyopathy", "Ischemic cardiomyopathy", "Myocarditis"],
-    "after_stage2_less_likely": ["Alcoholic cardiomyopathy", "Peripartum cardiomyopathy", "Valvular disease"],
-    "after_labs_top3": ["Familial dilated cardiomyopathy", "Post-viral cardiomyopathy", "Idiopathic dilated cardiomyopathy"]
+    "reasonable_ddx": [
+      "Ischemic cardiomyopathy",
+      "Myocarditis (viral)",
+      "Alcoholic cardiomyopathy",
+      "Peripartum cardiomyopathy",
+      "Valvular heart disease",
+      "Tachycardia-mediated cardiomyopathy"
+    ],
+    "after_stage2_more_likely": [
+      "Dilated cardiomyopathy",
+      "Ischemic cardiomyopathy",
+      "Myocarditis"
+    ],
+    "after_stage2_less_likely": [
+      "Alcoholic cardiomyopathy",
+      "Peripartum cardiomyopathy",
+      "Valvular disease"
+    ],
+    "after_labs_top3": [
+      "Familial dilated cardiomyopathy",
+      "Post-viral cardiomyopathy",
+      "Idiopathic dilated cardiomyopathy"
+    ]
   }
 }

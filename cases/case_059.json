@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "28.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Marked leukocytosis with left shift (15% bands), reflecting severe systemic infection"},
-      {"test_name": "CBC - Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Anemia, likely multifactorial (chronic disease, hemodilution, possible hemolysis in group A strep infection)"},
-      {"test_name": "BMP - Creatinine", "result": "2.8 mg/dL", "flag": "HIGH", "clinical_significance": "Acute kidney injury, likely from sepsis-related hypoperfusion (baseline 1.4)"},
-      {"test_name": "BMP - Glucose", "result": "348 mg/dL", "flag": "HIGH", "clinical_significance": "Severe hyperglycemia in septic, poorly controlled diabetic"},
-      {"test_name": "BMP - Sodium", "result": "128 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia; sodium <135 is a component of the LRINEC score"},
-      {"test_name": "CRP", "result": "32.4 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated; CRP >150 mg/L is a component of the LRINEC score"},
-      {"test_name": "Lactate", "result": "6.8 mmol/L", "flag": "HIGH", "clinical_significance": "Significantly elevated, consistent with septic shock and tissue necrosis"},
-      {"test_name": "CK (Creatine Kinase)", "result": "1,248 U/L", "flag": "HIGH", "clinical_significance": "Elevated, reflecting muscle involvement and tissue destruction; may indicate necrotizing process extending to muscle"},
-      {"test_name": "ABG - pH", "result": "7.28", "flag": "LOW", "clinical_significance": "Metabolic acidosis from lactic acidosis and sepsis"},
-      {"test_name": "Coagulation - INR", "result": "1.8", "flag": "HIGH", "clinical_significance": "Coagulopathy consistent with DIC in the setting of severe sepsis"},
-      {"test_name": "Fibrinogen", "result": "128 mg/dL", "flag": "LOW", "clinical_significance": "Low fibrinogen consistent with consumptive coagulopathy (DIC)"},
-      {"test_name": "Blood Cultures", "result": "Pending (Gram-positive cocci in chains on Gram stain at 12 hours)", "flag": "ABNORMAL", "clinical_significance": "Gram-positive cocci in chains suggest group A Streptococcus or other streptococcal species; final culture and sensitivity pending"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "28.4 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Marked leukocytosis with left shift (15% bands), reflecting severe systemic infection"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "10.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia, likely multifactorial (chronic disease, hemodilution, possible hemolysis in group A strep infection)"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "2.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury, likely from sepsis-related hypoperfusion (baseline 1.4)"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "348 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Severe hyperglycemia in septic, poorly controlled diabetic"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "128 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hyponatremia; sodium <135 is a component of the LRINEC score"
+      },
+      {
+        "test_name": "CRP",
+        "result": "32.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; CRP >150 mg/L is a component of the LRINEC score"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "6.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated, consistent with septic shock and tissue necrosis"
+      },
+      {
+        "test_name": "CK (Creatine Kinase)",
+        "result": "1,248 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, reflecting muscle involvement and tissue destruction; may indicate necrotizing process extending to muscle"
+      },
+      {
+        "test_name": "ABG - pH",
+        "result": "7.28",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from lactic acidosis and sepsis"
+      },
+      {
+        "test_name": "Coagulation - INR",
+        "result": "1.8",
+        "flag": "HIGH",
+        "clinical_significance": "Coagulopathy consistent with DIC in the setting of severe sepsis"
+      },
+      {
+        "test_name": "Fibrinogen",
+        "result": "128 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low fibrinogen consistent with consumptive coagulopathy (DIC)"
+      },
+      {
+        "test_name": "Blood Cultures",
+        "result": "Pending (Gram-positive cocci in chains on Gram stain at 12 hours)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gram-positive cocci in chains suggest group A Streptococcus or other streptococcal species; final culture and sensitivity pending"
+      }
     ],
     "imaging_results": [
-      {"test_name": "X-ray Left Lower Extremity", "result": "Soft tissue gas tracking along fascial planes of the anterior and medial compartments of the left leg. No fracture. No osteomyelitis.", "flag": "ABNORMAL", "clinical_significance": "Subcutaneous and fascial gas is highly concerning for necrotizing soft tissue infection. However, gas is only present in 25-50% of cases, so its absence does not exclude the diagnosis."},
-      {"test_name": "CT Left Lower Extremity with IV Contrast", "result": "Extensive fascial thickening and enhancement along the deep fascia of the left leg from mid-tibia to the distal femur. Gas tracking along fascial planes in multiple compartments. Non-enhancing areas of fascia suggesting necrosis. Subcutaneous edema and fluid collections. No abscess.", "flag": "ABNORMAL", "clinical_significance": "CT confirms necrotizing fasciitis with fascial gas, fascial thickening, and non-enhancement suggesting necrosis. Imaging should NOT delay surgical exploration if the clinical suspicion is high."}
+      {
+        "test_name": "X-ray Left Lower Extremity",
+        "result": "Soft tissue gas tracking along fascial planes of the anterior and medial compartments of the left leg. No fracture. No osteomyelitis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subcutaneous and fascial gas is highly concerning for necrotizing soft tissue infection. However, gas is only present in 25-50% of cases, so its absence does not exclude the diagnosis."
+      },
+      {
+        "test_name": "CT Left Lower Extremity with IV Contrast",
+        "result": "Extensive fascial thickening and enhancement along the deep fascia of the left leg from mid-tibia to the distal femur. Gas tracking along fascial planes in multiple compartments. Non-enhancing areas of fascia suggesting necrosis. Subcutaneous edema and fluid collections. No abscess.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms the suspected diagnosis with fascial gas, fascial thickening, and non-enhancement suggesting necrosis. Imaging should NOT delay surgical exploration if the clinical suspicion is high."
+      }
     ],
-    "key_tests": ["Surgical exploration (gold standard for diagnosis and treatment)", "CBC with differential", "BMP (sodium, creatinine, glucose)", "Serum lactate", "Blood cultures", "CRP"],
-    "acceptable_tests": ["CK (creatine kinase)", "Coagulation studies (PT/INR, fibrinogen, D-dimer for DIC)", "ABG/VBG", "X-ray of affected area (for gas)", "CT with contrast (if diagnosis uncertain)", "Wound culture/Gram stain", "Procalcitonin"],
-    "low_yield_tests": ["MRI (too time-consuming in an emergency, delays surgery)", "Wound culture alone without surgical exploration", "Punch biopsy (inadequate sampling)", "Ultrasound of the extremity (low sensitivity for fascial necrosis)", "Bone scan"],
+    "key_tests": [
+      "Surgical exploration (gold standard for diagnosis and treatment)",
+      "CBC with differential",
+      "BMP (sodium, creatinine, glucose)",
+      "Serum lactate",
+      "Blood cultures",
+      "CRP"
+    ],
+    "acceptable_tests": [
+      "CK (creatine kinase)",
+      "Coagulation studies (PT/INR, fibrinogen, D-dimer for DIC)",
+      "ABG/VBG",
+      "X-ray of affected area (for gas)",
+      "CT with contrast (if diagnosis uncertain)",
+      "Wound culture/Gram stain",
+      "Procalcitonin"
+    ],
+    "low_yield_tests": [
+      "MRI (too time-consuming in an emergency, delays surgery)",
+      "Wound culture alone without surgical exploration",
+      "Punch biopsy (inadequate sampling)",
+      "Ultrasound of the extremity (low sensitivity for fascial necrosis)",
+      "Bone scan"
+    ],
     "final_clue": "Clinical findings of rapidly spreading skin discoloration, hemorrhagic bullae, crepitus, pain out of proportion (followed by later diminished sensation from nerve destruction), and septic shock in a diabetic patient with a minor wound are diagnostic of necrotizing fasciitis. Imaging confirms fascial gas and necrosis. The LRINEC score components (WBC >25, Na <135, Cr >1.6, glucose >180, CRP >150, Hgb <13.5) are all present. This is a surgical emergency requiring immediate radical debridement."
   },
   "stage5": {
-    "final_clue": "Clinical findings of rapidly spreading skin discoloration, hemorrhagic bullae, crepitus, pain out of proportion (followed by later diminished sensation from nerve destruction), and septic shock in a diabetic patient with a minor wound are diagnostic of necrotizing fasciitis. Imaging confirms fascial gas and necrosis. The LRINEC score components (WBC >25, Na <135, Cr >1.6, glucose >180, CRP >150, Hgb <13.5) are all present. This is a surgical emergency requiring immediate radical debridement."
+    "final_clue": "Clinical findings of rapidly spreading skin discoloration, hemorrhagic bullae, crepitus, pain out of proportion (followed by later diminished sensation from nerve destruction), and septic shock in a diabetic patient with a minor wound are diagnostic of the suspected condition. Imaging confirms fascial gas and necrosis. The LRINEC score components (WBC >25, Na <135, Cr >1.6, glucose >180, CRP >150, Hgb <13.5) are all present. This is a surgical emergency requiring immediate radical debridement."
   },
   "debrief": {
     "classic_presentation": "Rapidly progressive soft tissue infection with pain out of proportion to visible findings (early) that evolves to skin color changes (erythema to dusky purple), edema, hemorrhagic bullae, crepitus (gas gangrene), and eventually skin anesthesia (cutaneous nerve destruction). Systemic toxicity (sepsis, shock, organ failure) is common. The hallmark clinical feature is pain out of proportion to the skin findings in the early stages, followed by rapid progression. Risk factors include diabetes, immunosuppression, alcoholism, peripheral vascular disease, obesity, recent surgery or trauma, and injection drug use.",
@@ -71,9 +162,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Necrotizing fasciitis", "Cellulitis (severe/complicated)", "Gas gangrene (clostridial myonecrosis)", "Deep vein thrombosis with cellulitis", "Compartment syndrome", "Pyomyositis"],
-    "after_stage2_more_likely": ["Necrotizing fasciitis", "Gas gangrene"],
-    "after_stage2_less_likely": ["Cellulitis", "Deep vein thrombosis", "Compartment syndrome"],
-    "after_labs_top3": ["Necrotizing fasciitis", "Gas gangrene", "Pyomyositis"]
+    "reasonable_ddx": [
+      "Necrotizing fasciitis",
+      "Cellulitis (severe/complicated)",
+      "Gas gangrene (clostridial myonecrosis)",
+      "Deep vein thrombosis with cellulitis",
+      "Compartment syndrome",
+      "Pyomyositis"
+    ],
+    "after_stage2_more_likely": [
+      "Necrotizing fasciitis",
+      "Gas gangrene"
+    ],
+    "after_stage2_less_likely": [
+      "Cellulitis",
+      "Deep vein thrombosis",
+      "Compartment syndrome"
+    ],
+    "after_labs_top3": [
+      "Necrotizing fasciitis",
+      "Gas gangrene",
+      "Pyomyositis"
+    ]
   }
 }

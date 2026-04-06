@@ -25,29 +25,113 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.15 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, consistent with myopericarditis (epicardial inflammation)"},
-      {"test_name": "CRP", "result": "8.5 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker, supports acute pericarditis and guides therapy duration"},
-      {"test_name": "ESR", "result": "42 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated, consistent with systemic inflammation"},
-      {"test_name": "WBC", "result": "11,200/µL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis, consistent with viral/inflammatory process"},
-      {"test_name": "BNP", "result": "45 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no evidence of heart failure"},
-      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "No evidence of autoimmune etiology"},
-      {"test_name": "Blood cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "No evidence of bacterial infection"},
-      {"test_name": "D-dimer", "result": "0.4 µg/mL", "flag": "WNL", "clinical_significance": "Normal, low probability for pulmonary embolism"},
-      {"test_name": "Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.15 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, consistent with myopericarditis (epicardial inflammation)"
+      },
+      {
+        "test_name": "CRP",
+        "result": "8.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker, supports acute pericarditis and guides therapy duration"
+      },
+      {
+        "test_name": "ESR",
+        "result": "42 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with systemic inflammation"
+      },
+      {
+        "test_name": "WBC",
+        "result": "11,200/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis, consistent with viral/inflammatory process"
+      },
+      {
+        "test_name": "BNP",
+        "result": "45 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of heart failure"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of autoimmune etiology"
+      },
+      {
+        "test_name": "Blood cultures",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of bacterial infection"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "0.4 µg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, low probability for pulmonary embolism"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.1 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-lead ECG", "result": "Diffuse ST elevation with upward concavity in leads I, II, III, aVF, V3-V6; PR depression in leads II, III, aVF; PR elevation in aVR; no reciprocal ST depression", "flag": "ABNORMAL", "clinical_significance": "Classic ECG findings of acute pericarditis — diffuse ST elevation with PR depression"},
-      {"test_name": "Transthoracic Echocardiogram", "result": "Normal LV systolic function (LVEF 60%), no wall motion abnormalities, trivial pericardial effusion (< 5 mm), no signs of tamponade", "flag": "ABNORMAL", "clinical_significance": "Small effusion supports pericarditis, no hemodynamic compromise"},
-      {"test_name": "Chest X-ray", "result": "Normal cardiac silhouette, clear lung fields", "flag": "WNL", "clinical_significance": "No cardiomegaly or pulmonary pathology"}
+      {
+        "test_name": "12-lead ECG",
+        "result": "Diffuse ST elevation with upward concavity in leads I, II, III, aVF, V3-V6; PR depression in leads II, III, aVF; PR elevation in aVR; no reciprocal ST depression",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic ECG findings of acute pericarditis — diffuse ST elevation with PR depression"
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Normal LV systolic function (LVEF 60%), no wall motion abnormalities, trivial pericardial effusion (< 5 mm), no signs of tamponade",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small effusion supports pericarditis, no hemodynamic compromise"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Normal cardiac silhouette, clear lung fields",
+        "flag": "WNL",
+        "clinical_significance": "No cardiomegaly or pulmonary pathology"
+      }
     ],
-    "key_tests": ["12-lead ECG", "Troponin", "CRP/ESR", "Transthoracic echocardiogram", "Chest X-ray"],
-    "acceptable_tests": ["CBC", "BNP", "Blood cultures", "ANA", "D-dimer", "Basic metabolic panel", "Viral serologies"],
-    "low_yield_tests": ["Cardiac catheterization", "CT coronary angiography", "Stress test", "Pericardiocentesis (no significant effusion)"],
+    "key_tests": [
+      "12-lead ECG",
+      "Troponin",
+      "CRP/ESR",
+      "Transthoracic echocardiogram",
+      "Chest X-ray"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BNP",
+      "Blood cultures",
+      "ANA",
+      "D-dimer",
+      "Basic metabolic panel",
+      "Viral serologies"
+    ],
+    "low_yield_tests": [
+      "Cardiac catheterization",
+      "CT coronary angiography",
+      "Stress test",
+      "Pericardiocentesis (no significant effusion)"
+    ],
     "key_tests_rationale": "ECG shows characteristic diffuse ST elevation and PR depression. Troponin assesses for myopericardial involvement. CRP guides treatment duration. Echo evaluates for effusion and tamponade. CXR screens for alternative diagnoses."
   },
   "stage5": {
-    "final_clue": "The ECG demonstrates diffuse concave-up ST elevation with PR depression in multiple leads and PR elevation in aVR. Combined with the friction rub, pleuritic chest pain, and recent viral illness, this is classic acute viral pericarditis."
+    "final_clue": "The ECG demonstrates diffuse concave-up ST elevation with PR depression in multiple leads and PR elevation in aVR. Combined with the friction rub, pleuritic chest pain, and recent viral illness, this is classic this condition."
   },
   "debrief": {
     "classic_presentation": "Acute pericarditis presents with sharp, pleuritic chest pain that worsens with lying supine and improves with leaning forward, often radiating to the trapezius ridge. A preceding viral illness is common. Diagnosis requires 2 of 4 criteria: pleuritic chest pain, pericardial friction rub, characteristic ECG changes, or new pericardial effusion.",
@@ -69,9 +153,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute MI (STEMI)", "Pulmonary embolism", "Myocarditis", "Costochondritis", "Pneumothorax", "Aortic dissection"],
-    "after_stage2_more_likely": ["Acute pericarditis", "Myocarditis", "Myopericarditis"],
-    "after_stage2_less_likely": ["Acute MI", "Pulmonary embolism", "Aortic dissection"],
-    "after_labs_top3": ["Acute viral pericarditis", "Myopericarditis", "Idiopathic pericarditis"]
+    "reasonable_ddx": [
+      "Acute MI (STEMI)",
+      "Pulmonary embolism",
+      "Myocarditis",
+      "Costochondritis",
+      "Pneumothorax",
+      "Aortic dissection"
+    ],
+    "after_stage2_more_likely": [
+      "Acute pericarditis",
+      "Myocarditis",
+      "Myopericarditis"
+    ],
+    "after_stage2_less_likely": [
+      "Acute MI",
+      "Pulmonary embolism",
+      "Aortic dissection"
+    ],
+    "after_labs_top3": [
+      "Acute viral pericarditis",
+      "Myopericarditis",
+      "Idiopathic pericarditis"
+    ]
   }
 }

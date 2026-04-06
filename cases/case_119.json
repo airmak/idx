@@ -25,31 +25,128 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "11,200/uL", "flag": "MILDLY HIGH", "clinical_significance": "Mild leukocytosis; may be stress response or related to underlying teratoma"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "132 mEq/L", "flag": "LOW", "clinical_significance": "Mild hyponatremia, possibly from SIADH (can occur in encephalitis)"},
-      {"test_name": "BMP — Glucose", "result": "108 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded as cause of altered mental status"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; substance-induced psychosis excluded"},
-      {"test_name": "CSF — Cell count and protein", "result": "WBC 48/uL (88% lymphocytes), protein 52 mg/dL, glucose 58 mg/dL", "flag": "ABNORMAL", "clinical_significance": "Lymphocytic pleocytosis with mild protein elevation consistent with autoimmune or viral encephalitis. Present in ~80% of anti-NMDAR encephalitis cases."},
-      {"test_name": "CSF — Anti-NMDA receptor antibodies (GluN1)", "result": "Positive (titer 1:320)", "flag": "ABNORMAL", "clinical_significance": "DIAGNOSTIC: Anti-NMDA receptor (GluN1 subunit) antibodies in CSF confirm the diagnosis. CSF testing is more sensitive than serum (serum can be false-negative in 13% of cases)."},
-      {"test_name": "Serum — Anti-NMDA receptor antibodies", "result": "Positive (titer 1:640)", "flag": "ABNORMAL", "clinical_significance": "Positive serum antibody supports diagnosis but CSF is required for confirmation"},
-      {"test_name": "CSF — HSV PCR", "result": "Negative", "flag": "WNL", "clinical_significance": "HSV encephalitis excluded — critical to rule out as it is treatable and can trigger anti-NMDAR encephalitis post-infection"},
-      {"test_name": "CSF — Oligoclonal bands", "result": "Positive (6 unique bands in CSF)", "flag": "ABNORMAL", "clinical_significance": "Intrathecal IgG synthesis consistent with CNS autoimmune process"},
-      {"test_name": "CK (Creatine kinase)", "result": "580 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from prolonged dyskinesias and rigidity; monitor for rhabdomyolysis"},
-      {"test_name": "Prolactin", "result": "Normal", "flag": "WNL", "clinical_significance": "Normal prolactin argues against neuroleptic malignant syndrome (which was in the differential given recent risperidone use)"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "11,200/uL",
+        "flag": "MILDLY HIGH",
+        "clinical_significance": "Mild leukocytosis; may be stress response or related to underlying teratoma"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "132 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild hyponatremia, possibly from SIADH (can occur in encephalitis)"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "108 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypoglycemia excluded as cause of altered mental status"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; substance-induced psychosis excluded"
+      },
+      {
+        "test_name": "CSF — Cell count and protein",
+        "result": "WBC 48/uL (88% lymphocytes), protein 52 mg/dL, glucose 58 mg/dL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Lymphocytic pleocytosis with mild protein elevation consistent with autoimmune or viral encephalitis. Present in ~80% of anti-NMDAR encephalitis cases."
+      },
+      {
+        "test_name": "CSF — Anti-NMDA receptor antibodies (GluN1)",
+        "result": "Positive (titer 1:320)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "DIAGNOSTIC: Anti-NMDA receptor (GluN1 subunit) antibodies in CSF confirm the diagnosis. CSF testing is more sensitive than serum (serum can be false-negative in 13% of cases)."
+      },
+      {
+        "test_name": "Serum — Anti-NMDA receptor antibodies",
+        "result": "Positive (titer 1:640)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive serum antibody supports diagnosis but CSF is required for confirmation"
+      },
+      {
+        "test_name": "CSF — HSV PCR",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "HSV encephalitis excluded — critical to rule out as it is treatable and can trigger anti-NMDAR encephalitis post-infection"
+      },
+      {
+        "test_name": "CSF — Oligoclonal bands",
+        "result": "Positive (6 unique bands in CSF)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Intrathecal IgG synthesis consistent with CNS autoimmune process"
+      },
+      {
+        "test_name": "CK (Creatine kinase)",
+        "result": "580 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from prolonged dyskinesias and rigidity; monitor for rhabdomyolysis"
+      },
+      {
+        "test_name": "Prolactin",
+        "result": "Normal",
+        "flag": "WNL",
+        "clinical_significance": "Normal prolactin argues against neuroleptic malignant syndrome (which was in the differential given recent risperidone use)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain with contrast", "result": "Subtle T2/FLAIR hyperintensity in bilateral medial temporal lobes. No mass, hemorrhage, or enhancement. Normal ventricles.", "flag": "MILDLY ABNORMAL", "clinical_significance": "MRI is normal or shows only subtle abnormalities in ~50% of anti-NMDAR encephalitis cases. The medial temporal FLAIR changes are nonspecific but consistent. A normal MRI does NOT exclude the diagnosis."},
-      {"test_name": "Pelvic ultrasound", "result": "3.5 cm complex mass in the right ovary containing echogenic foci with posterior shadowing (fat and calcification), consistent with a mature cystic teratoma (dermoid cyst).", "flag": "ABNORMAL", "clinical_significance": "Ovarian teratoma is found in ~40-50% of female anti-NMDAR encephalitis patients. Teratomas contain nervous tissue expressing NMDA receptors, which triggers the autoimmune response. Tumor removal is essential for treatment."},
-      {"test_name": "EEG", "result": "Diffuse generalized slowing (delta-theta range) with extreme delta brush pattern (rhythmic delta activity with superimposed fast beta activity).", "flag": "ABNORMAL", "clinical_significance": "Extreme delta brush is a unique EEG pattern found in ~30% of anti-NMDAR encephalitis cases and is considered relatively specific for this condition. Diffuse slowing reflects encephalopathy."}
+      {
+        "test_name": "MRI brain with contrast",
+        "result": "Subtle T2/FLAIR hyperintensity in bilateral medial temporal lobes. No mass, hemorrhage, or enhancement. Normal ventricles.",
+        "flag": "MILDLY ABNORMAL",
+        "clinical_significance": "MRI is normal or shows only subtle abnormalities in ~50% of anti-NMDAR encephalitis cases. The medial temporal FLAIR changes are nonspecific but consistent. A normal MRI does NOT exclude the diagnosis."
+      },
+      {
+        "test_name": "Pelvic ultrasound",
+        "result": "3.5 cm complex mass in the right ovary containing echogenic foci with posterior shadowing (fat and calcification), consistent with a mature cystic teratoma (dermoid cyst).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ovarian teratoma is found in ~40-50% of female anti-NMDAR encephalitis patients. Teratomas contain nervous tissue expressing NMDA receptors, which triggers the autoimmune response. Tumor removal is essential for treatment."
+      },
+      {
+        "test_name": "EEG",
+        "result": "Diffuse generalized slowing (delta-theta range) with extreme delta brush pattern (rhythmic delta activity with superimposed fast beta activity).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Extreme delta brush is a unique EEG pattern found in ~30% of anti-NMDAR encephalitis cases and is considered relatively specific for this condition. Diffuse slowing reflects encephalopathy."
+      }
     ],
-    "key_tests": ["CSF anti-NMDA receptor antibodies (GluN1 subunit) — both serum and CSF", "CSF analysis (cell count, protein, glucose, oligoclonal bands)", "MRI brain with contrast", "EEG (continuous monitoring)", "Pelvic ultrasound or MRI (to screen for ovarian teratoma in females)", "CSF HSV PCR (to exclude HSV encephalitis)"],
-    "acceptable_tests": ["CBC", "BMP", "Urine drug screen", "CK level", "Thyroid function tests", "Comprehensive autoimmune encephalitis antibody panel (LGI1, CASPR2, AMPA, GABA-B)", "CT/MRI abdomen-pelvis", "Serum and CSF paraneoplastic antibody panel", "HIV testing"],
-    "low_yield_tests": ["CT head (insensitive for encephalitis)", "Carotid ultrasound", "Cerebral angiography", "Muscle biopsy"],
+    "key_tests": [
+      "CSF anti-NMDA receptor antibodies (GluN1 subunit) — both serum and CSF",
+      "CSF analysis (cell count, protein, glucose, oligoclonal bands)",
+      "MRI brain with contrast",
+      "EEG (continuous monitoring)",
+      "Pelvic ultrasound or MRI (to screen for ovarian teratoma in females)",
+      "CSF HSV PCR (to exclude HSV encephalitis)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "Urine drug screen",
+      "CK level",
+      "Thyroid function tests",
+      "Comprehensive autoimmune encephalitis antibody panel (LGI1, CASPR2, AMPA, GABA-B)",
+      "CT/MRI abdomen-pelvis",
+      "Serum and CSF paraneoplastic antibody panel",
+      "HIV testing"
+    ],
+    "low_yield_tests": [
+      "CT head (insensitive for encephalitis)",
+      "Carotid ultrasound",
+      "Cerebral angiography",
+      "Muscle biopsy"
+    ],
     "low_yield_tests_note": "A normal MRI does NOT exclude anti-NMDAR encephalitis — MRI is normal in ~50% of cases. CSF antibody testing is the gold standard."
   },
   "stage5": {
-    "final_clue": "CSF anti-NMDA receptor (GluN1) antibodies are positive at high titer, confirming the diagnosis of anti-NMDA receptor encephalitis. Pelvic ultrasound reveals a right ovarian teratoma. The patient undergoes urgent right oophorectomy, and pathology confirms a mature cystic teratoma containing neural tissue. First-line immunotherapy is initiated immediately: IV methylprednisolone 1 g/day x 5 days, IVIg 0.4 g/kg/day x 5 days, and the teratoma is removed within 2 weeks of diagnosis. Due to poor initial response at 2 weeks, second-line therapy with rituximab is started. She requires ICU care for 4 weeks for autonomic instability, central hypoventilation requiring brief intubation, and seizure management. Gradual improvement begins at week 6. By 3 months, she is conversational with residual executive dysfunction and memory difficulties. At 12 months, she has returned to graduate school with mild cognitive deficits."
+    "final_clue": "CSF anti-NMDA receptor (GluN1) antibodies are positive at high titer, confirming the diagnosis of this condition. Pelvic ultrasound reveals a right ovarian teratoma. The patient undergoes urgent right oophorectomy, and pathology confirms a mature cystic teratoma containing neural tissue. First-line immunotherapy is initiated immediately: IV methylprednisolone 1 g/day x 5 days, IVIg 0.4 g/kg/day x 5 days, and the teratoma is removed within 2 weeks of diagnosis. Due to poor initial response at 2 weeks, second-line therapy with rituximab is started. She requires ICU care for 4 weeks for autonomic instability, central hypoventilation requiring brief intubation, and seizure management. Gradual improvement begins at week 6. By 3 months, she is conversational with residual executive dysfunction and memory difficulties. At 12 months, she has returned to graduate school with mild cognitive deficits."
   },
   "debrief": {
     "classic_presentation": "Young woman (teens-20s) with a viral-like prodrome followed by a stereotyped progression: (1) psychiatric symptoms (psychosis, paranoia, agitation — often initially misdiagnosed as primary psychiatric illness), (2) seizures, (3) movement disorder (orofacial dyskinesias, choreoathetosis, catatonia), (4) decreased consciousness, and (5) autonomic instability with central hypoventilation. CSF shows lymphocytic pleocytosis and positive anti-NMDA receptor antibodies. Ovarian teratoma found in ~40-50% of females.",
@@ -71,9 +168,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Anti-NMDA receptor encephalitis", "HSV encephalitis", "Primary psychiatric disorder (first-break psychosis)", "Neuroleptic malignant syndrome", "Substance-induced psychosis", "Autoimmune encephalitis (LGI1, CASPR2)", "CNS lupus", "Viral encephalitis"],
-    "after_stage2_more_likely": ["Anti-NMDA receptor encephalitis", "HSV encephalitis", "Neuroleptic malignant syndrome"],
-    "after_stage2_less_likely": ["Substance-induced psychosis", "Primary psychiatric disorder"],
-    "after_labs_top3": ["Anti-NMDA receptor encephalitis", "HSV encephalitis", "Autoimmune encephalitis (other)"]
+    "reasonable_ddx": [
+      "Anti-NMDA receptor encephalitis",
+      "HSV encephalitis",
+      "Primary psychiatric disorder (first-break psychosis)",
+      "Neuroleptic malignant syndrome",
+      "Substance-induced psychosis",
+      "Autoimmune encephalitis (LGI1, CASPR2)",
+      "CNS lupus",
+      "Viral encephalitis"
+    ],
+    "after_stage2_more_likely": [
+      "Anti-NMDA receptor encephalitis",
+      "HSV encephalitis",
+      "Neuroleptic malignant syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Substance-induced psychosis",
+      "Primary psychiatric disorder"
+    ],
+    "after_labs_top3": [
+      "Anti-NMDA receptor encephalitis",
+      "HSV encephalitis",
+      "Autoimmune encephalitis (other)"
+    ]
   }
 }

@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.2, Hgb 8.4, Hct 26.2, MCV 68 fL, MCH 24 pg, MCHC 30 g/dL, RDW 18.2%, Plt 380", "flag": "ABNORMAL", "clinical_significance": "Microcytic hypochromic anemia with elevated RDW and reactive thrombocytosis — classic pattern for iron deficiency anemia"},
-      {"test_name": "Reticulocyte count", "result": "1.8%", "flag": "LOW-NORMAL", "clinical_significance": "Inappropriately low reticulocyte response for degree of anemia, indicating inadequate marrow response due to iron deficiency"},
-      {"test_name": "Serum iron", "result": "22 mcg/dL", "flag": "LOW", "clinical_significance": "Low serum iron confirming iron deficiency (normal 60-170)"},
-      {"test_name": "Ferritin", "result": "6 ng/mL", "flag": "LOW", "clinical_significance": "Critically low ferritin (normal 12-150) — ferritin <15 is diagnostic of iron deficiency; this is the most sensitive and specific single test"},
-      {"test_name": "TIBC (Total Iron Binding Capacity)", "result": "450 mcg/dL", "flag": "HIGH", "clinical_significance": "Elevated TIBC (normal 250-370) reflecting increased transferrin production in response to iron deficiency"},
-      {"test_name": "Transferrin saturation", "result": "5%", "flag": "LOW", "clinical_significance": "Very low transferrin saturation (normal 20-50%) confirming iron deficiency"},
-      {"test_name": "Peripheral blood smear", "result": "Microcytic, hypochromic red blood cells with anisocytosis and occasional pencil cells (elliptocytes). No target cells.", "flag": "ABNORMAL", "clinical_significance": "Morphology consistent with iron deficiency anemia — pencil cells are characteristic"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 103, CO2 25, BUN 10, Cr 0.7, Glucose 85, Ca 9.2, AST 18, ALT 15, Alk Phos 55, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic function; no renal or liver disease contributing to anemia"},
-      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism as contributing cause of fatigue"},
-      {"test_name": "Pregnancy test (urine hCG)", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out pregnancy as cause of anemia or consideration before treatment"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.2, Hgb 8.4, Hct 26.2, MCV 68 fL, MCH 24 pg, MCHC 30 g/dL, RDW 18.2%, Plt 380",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microcytic hypochromic anemia with elevated RDW and reactive thrombocytosis — classic pattern for this condition"
+      },
+      {
+        "test_name": "Reticulocyte count",
+        "result": "1.8%",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Inappropriately low reticulocyte response for degree of anemia, indicating inadequate marrow response due to iron deficiency"
+      },
+      {
+        "test_name": "Serum iron",
+        "result": "22 mcg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low serum iron confirming iron deficiency (normal 60-170)"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "6 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Critically low ferritin (normal 12-150) — ferritin <15 is diagnostic of iron deficiency; this is the most sensitive and specific single test"
+      },
+      {
+        "test_name": "TIBC (Total Iron Binding Capacity)",
+        "result": "450 mcg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated TIBC (normal 250-370) reflecting increased transferrin production in response to iron deficiency"
+      },
+      {
+        "test_name": "Transferrin saturation",
+        "result": "5%",
+        "flag": "LOW",
+        "clinical_significance": "Very low transferrin saturation (normal 20-50%) confirming iron deficiency"
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Microcytic, hypochromic red blood cells with anisocytosis and occasional pencil cells (elliptocytes). No target cells.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Morphology consistent with the suspected diagnosis — pencil cells are characteristic"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.0, Cl 103, CO2 25, BUN 10, Cr 0.7, Glucose 85, Ca 9.2, AST 18, ALT 15, Alk Phos 55, Albumin 4.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic function; no renal or liver disease contributing to anemia"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.9 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; rules out hypothyroidism as contributing cause of fatigue"
+      },
+      {
+        "test_name": "Pregnancy test (urine hCG)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pregnancy as cause of anemia or consideration before treatment"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Pelvic ultrasound", "result": "Uterus mildly enlarged at 10 cm. Two intramural fibroids, the largest measuring 3.2 cm. Endometrial stripe 8 mm, regular. Bilateral ovaries normal.", "flag": "ABNORMAL", "clinical_significance": "Uterine fibroids identified as the likely cause of menorrhagia and chronic blood loss leading to iron deficiency anemia"}
+      {
+        "test_name": "Pelvic ultrasound",
+        "result": "Uterus mildly enlarged at 10 cm. Two intramural fibroids, the largest measuring 3.2 cm. Endometrial stripe 8 mm, regular. Bilateral ovaries normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Uterine fibroids identified as the likely cause of menorrhagia and chronic blood loss leading to this condition"
+      }
     ],
     "key_tests": [
       "CBC — showing microcytic hypochromic anemia (Hgb 8.4, MCV 68)",
@@ -61,7 +116,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient has classic iron deficiency anemia with microcytic hypochromic anemia (Hgb 8.4, MCV 68), critically low ferritin (6 ng/mL), low serum iron, elevated TIBC, and low transferrin saturation. The cause is chronic blood loss from menorrhagia (heavy periods for 2 years with pad saturation every 2-3 hours). Pelvic ultrasound reveals uterine fibroids as the etiology of heavy bleeding. Contributing factors include vegetarian diet with suboptimal dietary iron intake. Physical exam findings are classic: pallor, glossitis, angular cheilitis, koilonychia, and pica (ice craving)."
+    "final_clue": "The patient has classic this condition with microcytic hypochromic anemia (Hgb 8.4, MCV 68), critically low ferritin (6 ng/mL), low serum iron, elevated TIBC, and low transferrin saturation. The cause is chronic blood loss from menorrhagia (heavy periods for 2 years with pad saturation every 2-3 hours). Pelvic ultrasound reveals uterine fibroids as the etiology of heavy bleeding. Contributing factors include vegetarian diet with suboptimal dietary iron intake. Physical exam findings are classic: pallor, glossitis, angular cheilitis, koilonychia, and pica (ice craving)."
   },
   "debrief": {
     "classic_presentation": "A reproductive-age woman with heavy menstrual bleeding presenting with gradual-onset fatigue, exercise intolerance, pallor, and signs specific to iron deficiency: koilonychia (spoon nails), glossitis (smooth tongue), angular cheilitis, and pica (craving non-food items, especially ice — pagophagia). Labs show microcytic hypochromic anemia with low ferritin, low serum iron, elevated TIBC, and low transferrin saturation.",

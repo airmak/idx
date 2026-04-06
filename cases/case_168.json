@@ -25,28 +25,109 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 4.2, Hgb 10.5, MCV 104, Plt 72", "flag": "LOW", "clinical_significance": "Pancytopenia with macrocytic anemia from folate deficiency/alcohol toxicity; thrombocytopenia from splenic sequestration"},
-      {"test_name": "CMP", "result": "Na 128, K 3.2, Cr 1.3, BUN 22, Glucose 88, Albumin 2.4, Total protein 5.8", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia (dilutional from ascites), hypokalemia, impaired synthetic function (low albumin)"},
-      {"test_name": "LFTs", "result": "AST 98, ALT 52, ALP 145, Total bilirubin 4.8, Direct bilirubin 3.2", "flag": "HIGH", "clinical_significance": "AST:ALT ratio >2:1 is classic for alcoholic liver disease; elevated bilirubin from impaired hepatic conjugation"},
-      {"test_name": "PT/INR", "result": "INR 1.8, PT 22 seconds", "flag": "HIGH", "clinical_significance": "Prolonged from impaired hepatic synthesis of clotting factors"},
-      {"test_name": "Ammonia", "result": "88 µmol/L", "flag": "HIGH", "clinical_significance": "Elevated ammonia consistent with hepatic encephalopathy"},
-      {"test_name": "GGT", "result": "385 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with chronic alcohol use and cholestasis"},
-      {"test_name": "Hepatitis B panel", "result": "HBsAg negative, anti-HBs positive, anti-HBc negative", "flag": "WNL", "clinical_significance": "Immune from vaccination, no active or prior HBV infection"},
-      {"test_name": "Hepatitis C antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "No hepatitis C co-infection"},
-      {"test_name": "Ascitic fluid analysis", "result": "SAAG 1.8, Total protein 1.5, WBC 120 (65% lymphocytes), culture negative", "flag": "ABNORMAL", "clinical_significance": "SAAG >1.1 confirms portal hypertension; low protein ascites typical of cirrhosis; no SBP"},
-      {"test_name": "AFP", "result": "8 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no evidence of hepatocellular carcinoma"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 4.2, Hgb 10.5, MCV 104, Plt 72",
+        "flag": "LOW",
+        "clinical_significance": "Pancytopenia with macrocytic anemia from folate deficiency/alcohol toxicity; thrombocytopenia from splenic sequestration"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 128, K 3.2, Cr 1.3, BUN 22, Glucose 88, Albumin 2.4, Total protein 5.8",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia (dilutional from ascites), hypokalemia, impaired synthetic function (low albumin)"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 98, ALT 52, ALP 145, Total bilirubin 4.8, Direct bilirubin 3.2",
+        "flag": "HIGH",
+        "clinical_significance": "AST:ALT ratio >2:1 is classic for this condition liver disease; elevated bilirubin from impaired hepatic conjugation"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "INR 1.8, PT 22 seconds",
+        "flag": "HIGH",
+        "clinical_significance": "Prolonged from impaired hepatic synthesis of clotting factors"
+      },
+      {
+        "test_name": "Ammonia",
+        "result": "88 µmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ammonia consistent with hepatic encephalopathy"
+      },
+      {
+        "test_name": "GGT",
+        "result": "385 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with chronic alcohol use and cholestasis"
+      },
+      {
+        "test_name": "Hepatitis B panel",
+        "result": "HBsAg negative, anti-HBs positive, anti-HBc negative",
+        "flag": "WNL",
+        "clinical_significance": "Immune from vaccination, no active or prior HBV infection"
+      },
+      {
+        "test_name": "Hepatitis C antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No hepatitis C co-infection"
+      },
+      {
+        "test_name": "Ascitic fluid analysis",
+        "result": "SAAG 1.8, Total protein 1.5, WBC 120 (65% lymphocytes), culture negative",
+        "flag": "ABNORMAL",
+        "clinical_significance": "SAAG >1.1 confirms portal hypertension; low protein ascites typical of this condition; no SBP"
+      },
+      {
+        "test_name": "AFP",
+        "result": "8 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no evidence of hepatocellular carcinoma"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal ultrasound with Doppler", "result": "Liver is small and nodular with coarse heterogeneous echotexture. Large-volume ascites. Splenomegaly (16 cm). Patent portal vein with hepatofugal flow. No focal liver lesions. No biliary dilation.", "flag": "ABNORMAL", "clinical_significance": "Confirms cirrhosis with portal hypertension (hepatofugal flow, splenomegaly, ascites). No HCC on initial screening."},
-      {"test_name": "Chest X-ray", "result": "Right-sided pleural effusion. No infiltrate or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Hepatic hydrothorax from ascitic fluid transudation through diaphragmatic defects."}
+      {
+        "test_name": "Abdominal ultrasound with Doppler",
+        "result": "Liver is small and nodular with coarse heterogeneous echotexture. Large-volume ascites. Splenomegaly (16 cm). Patent portal vein with hepatofugal flow. No focal liver lesions. No biliary dilation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis with portal hypertension (hepatofugal flow, splenomegaly, ascites). No HCC on initial screening."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Right-sided pleural effusion. No infiltrate or cardiomegaly.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatic hydrothorax from ascitic fluid transudation through diaphragmatic defects."
+      }
     ],
-    "key_tests": ["LFTs (AST, ALT, bilirubin)", "CMP (albumin, sodium)", "PT/INR", "CBC with platelet count", "Abdominal ultrasound with Doppler"],
-    "acceptable_tests": ["Hepatitis B and C serologies", "Diagnostic paracentesis with ascitic fluid analysis", "GGT", "Ammonia level", "AFP", "Fibroscan/liver elastography", "Chest X-ray", "BMP"],
-    "low_yield_tests": ["CT coronary angiography", "Colonoscopy", "MRCP", "ANA/anti-smooth muscle antibodies", "Serum ceruloplasmin"],
+    "key_tests": [
+      "LFTs (AST, ALT, bilirubin)",
+      "CMP (albumin, sodium)",
+      "PT/INR",
+      "CBC with platelet count",
+      "Abdominal ultrasound with Doppler"
+    ],
+    "acceptable_tests": [
+      "Hepatitis B and C serologies",
+      "Diagnostic paracentesis with ascitic fluid analysis",
+      "GGT",
+      "Ammonia level",
+      "AFP",
+      "Fibroscan/liver elastography",
+      "Chest X-ray",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "CT coronary angiography",
+      "Colonoscopy",
+      "MRCP",
+      "ANA/anti-smooth muscle antibodies",
+      "Serum ceruloplasmin"
+    ],
     "key_tests_rationale": "LFTs with AST:ALT ratio >2:1 is characteristic of alcoholic liver disease. Albumin and INR assess hepatic synthetic function and determine Child-Pugh/MELD scores. CBC reveals thrombocytopenia from portal hypertension. Ultrasound with Doppler confirms cirrhotic morphology and evaluates portal hemodynamics."
   },
   "stage5": {
-    "final_clue": "A 55-year-old heavy drinker with jaundice, ascites, splenomegaly, hepatic encephalopathy, and AST:ALT >2:1 with impaired synthetic function (low albumin, elevated INR). Ultrasound shows a nodular liver with portal hypertension and hepatofugal flow. SAAG >1.1 confirms portal hypertensive ascites. These findings confirm decompensated alcoholic cirrhosis (Child-Pugh C)."
+    "final_clue": "A 55-year-old heavy drinker with jaundice, ascites, splenomegaly, hepatic encephalopathy, and AST:ALT >2:1 with impaired synthetic function (low albumin, elevated INR). Ultrasound shows a nodular liver with portal hypertension and hepatofugal flow. SAAG >1.1 confirms portal hypertensive ascites. These findings confirm decompensated this condition this condition (Child-Pugh C)."
   },
   "debrief": {
     "classic_presentation": "Alcoholic cirrhosis presents with signs of chronic liver disease (jaundice, spider angiomata, palmar erythema, gynecomastia, caput medusae) and portal hypertension (ascites, splenomegaly, varices). Decompensation is marked by ascites, variceal bleeding, hepatic encephalopathy, or jaundice. The AST:ALT ratio >2:1 is a hallmark of alcohol-related liver injury. Patients often have concurrent nutritional deficiencies.",
@@ -67,9 +148,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Non-alcoholic steatohepatitis (NASH) cirrhosis", "Hepatitis C cirrhosis", "Hepatitis B cirrhosis", "Cardiac cirrhosis", "Hemochromatosis", "Autoimmune hepatitis"],
-    "after_stage2_more_likely": ["Alcoholic cirrhosis", "NASH cirrhosis", "Hepatitis C cirrhosis"],
-    "after_stage2_less_likely": ["Cardiac cirrhosis", "Hemochromatosis", "Autoimmune hepatitis"],
-    "after_labs_top3": ["Alcoholic cirrhosis (decompensated)", "NASH cirrhosis", "Mixed alcoholic and viral cirrhosis"]
+    "reasonable_ddx": [
+      "Non-alcoholic steatohepatitis (NASH) cirrhosis",
+      "Hepatitis C cirrhosis",
+      "Hepatitis B cirrhosis",
+      "Cardiac cirrhosis",
+      "Hemochromatosis",
+      "Autoimmune hepatitis"
+    ],
+    "after_stage2_more_likely": [
+      "Alcoholic cirrhosis",
+      "NASH cirrhosis",
+      "Hepatitis C cirrhosis"
+    ],
+    "after_stage2_less_likely": [
+      "Cardiac cirrhosis",
+      "Hemochromatosis",
+      "Autoimmune hepatitis"
+    ],
+    "after_labs_top3": [
+      "Alcoholic cirrhosis (decompensated)",
+      "NASH cirrhosis",
+      "Mixed alcoholic and viral cirrhosis"
+    ]
   }
 }

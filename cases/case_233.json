@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CK (Creatine Kinase)", "result": "1,200 U/L (elevated, normal <200)", "flag": "HIGH", "clinical_significance": "Elevated from myoclonus and agitation, but MUCH lower than typical NMS (usually >5,000-10,000+); supports serotonin syndrome over NMS"},
-      {"test_name": "CMP", "result": "Na 136, K 4.8, Cl 100, CO2 19 (low), BUN 24, Cr 1.2, Glucose 142, Ca 9.0, AST 85, ALT 62", "flag": "ABNORMAL", "clinical_significance": "Mild metabolic acidosis from myoclonus/agitation. Mildly elevated creatinine from dehydration. Elevated transaminases from muscle injury."},
-      {"test_name": "CBC", "result": "WBC 12.8, Hgb 14.2, Hct 42.8, Plt 230", "flag": "HIGH", "clinical_significance": "Mild leukocytosis from stress response"},
-      {"test_name": "ABG", "result": "pH 7.30, pCO2 28, pO2 85, HCO3 14", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation from sustained myoclonus and lactic acid production"},
-      {"test_name": "Lactate", "result": "4.2 mmol/L (elevated)", "flag": "HIGH", "clinical_significance": "Elevated from sustained muscle activity (myoclonus, agitation)"},
-      {"test_name": "Urine drug screen", "result": "Negative for MDMA, amphetamines, cocaine, PCP. Positive for tramadol (prescribed)", "flag": "ABNORMAL", "clinical_significance": "Rules out MDMA/ecstasy (a potent serotonin releaser) as precipitant; confirms tramadol use (serotonergic opioid contributing to SS)"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid storm as cause of hyperthermia and tachycardia"},
-      {"test_name": "Coagulation studies", "result": "PT 13.5, INR 1.1, PTT 32", "flag": "WNL", "clinical_significance": "No DIC — contrasts with severe NMS which may develop DIC"},
-      {"test_name": "Blood cultures (x2)", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "Rules out sepsis"},
-      {"test_name": "Urinalysis", "result": "Concentrated, trace blood on dipstick, no RBCs", "flag": "ABNORMAL", "clinical_significance": "Trace myoglobinuria from mild rhabdomyolysis"}
+      {
+        "test_name": "CK (Creatine Kinase)",
+        "result": "1,200 U/L (elevated, normal <200)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from myoclonus and agitation, but MUCH lower than typical NMS (usually >5,000-10,000+); supports this condition over NMS"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 136, K 4.8, Cl 100, CO2 19 (low), BUN 24, Cr 1.2, Glucose 142, Ca 9.0, AST 85, ALT 62",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild metabolic acidosis from myoclonus/agitation. Mildly elevated creatinine from dehydration. Elevated transaminases from muscle injury."
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 12.8, Hgb 14.2, Hct 42.8, Plt 230",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis from stress response"
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.30, pCO2 28, pO2 85, HCO3 14",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with respiratory compensation from sustained myoclonus and lactic acid production"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.2 mmol/L (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from sustained muscle activity (myoclonus, agitation)"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for MDMA, amphetamines, cocaine, PCP. Positive for tramadol (prescribed)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rules out MDMA/ecstasy (a potent serotonin releaser) as precipitant; confirms tramadol use (serotonergic opioid contributing to SS)"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out thyroid storm as cause of hyperthermia and tachycardia"
+      },
+      {
+        "test_name": "Coagulation studies",
+        "result": "PT 13.5, INR 1.1, PTT 32",
+        "flag": "WNL",
+        "clinical_significance": "No DIC — contrasts with severe NMS which may develop DIC"
+      },
+      {
+        "test_name": "Blood cultures (x2)",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "Rules out sepsis"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Concentrated, trace blood on dipstick, no RBCs",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Trace myoglobinuria from mild rhabdomyolysis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality.", "flag": "WNL", "clinical_significance": "Rules out intracranial pathology as cause of altered mental status"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 124 bpm. QTc 450 ms. No other abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Tachycardia consistent with serotonergic autonomic activation. Monitor QTc."}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality.",
+        "flag": "WNL",
+        "clinical_significance": "Rules out intracranial pathology as cause of altered mental status"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 124 bpm. QTc 450 ms. No other abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Tachycardia consistent with serotonergic autonomic activation. Monitor QTc."
+      }
     ],
     "key_tests": [
       "Detailed medication reconciliation — the MOST important diagnostic step; identifies the serotonergic polypharmacy (SSRI + MAOI + tramadol)",

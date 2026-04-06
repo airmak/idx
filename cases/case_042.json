@@ -21,34 +21,130 @@
       "spo2": "98% on room air",
       "weight_bmi": "92 kg, BMI 28.8"
     },
-    "physical_exam": "General: Muscular male in significant distress, pacing and unable to find comfortable position. Diaphoretic. HEENT: Unremarkable. Neck: No JVD. No bruits. Cardiovascular: Mildly tachycardic, regular rhythm. S1/S2 present. No murmurs (no aortic regurgitation murmur in Type B). Blood pressures similar in both arms. Pulmonary: Clear to auscultation bilaterally. Abdomen: Significant left flank tenderness. Left costovertebral angle tenderness. Mild left lower quadrant tenderness. No peritoneal signs. A subtle pulsatile quality to deep palpation of the left upper abdomen. Bowel sounds present. Extremities: All pulses palpable but left femoral pulse is slightly diminished compared to right. No edema. Skin: Diaphoretic. No mottling. Neuro: Alert, oriented x4. No focal deficits."
+    "physical_exam": "General: Muscular male in significant distress, pacing and unable to find comfortable position. Diaphoretic. HEENT: Unremarkable. Neck: No JVD. No bruits. Cardiovascular: Mildly tachycardic, regular rhythm. S1/S2 present. No murmurs (no aortic regurgitation murmur in this condition). Blood pressures similar in both arms. Pulmonary: Clear to auscultation bilaterally. Abdomen: Significant left flank tenderness. Left costovertebral angle tenderness. Mild left lower quadrant tenderness. No peritoneal signs. A subtle pulsatile quality to deep palpation of the left upper abdomen. Bowel sounds present. Extremities: All pulses palpable but left femoral pulse is slightly diminished compared to right. No edema. Skin: Diaphoretic. No mottling. Neuro: Alert, oriented x4. No focal deficits."
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urinalysis", "result": "Trace blood (1+ hematuria), no WBCs, no nitrites, no bacteria", "flag": "ABNORMAL", "clinical_significance": "Mild hematuria can occur with both renal colic AND renal malperfusion from aortic dissection — this does NOT confirm nephrolithiasis"},
-      {"test_name": "BMP - Creatinine", "result": "1.6 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; may indicate renal malperfusion from dissection flap compromising renal artery"},
-      {"test_name": "BMP - BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated with creatinine"},
-      {"test_name": "CBC - WBC", "result": "12.4 x10^9/L", "flag": "HIGH", "clinical_significance": "Stress leukocytosis"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal, no hemorrhage currently"},
-      {"test_name": "D-dimer", "result": "6,800 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; D-dimer >500 ng/mL has >95% sensitivity for acute aortic dissection"},
-      {"test_name": "Lactate", "result": "2.6 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect end-organ malperfusion"},
-      {"test_name": "Troponin I", "result": "0.05 ng/mL", "flag": "WNL", "clinical_significance": "Normal (Type B dissection typically does not involve coronary ostia)"},
-      {"test_name": "Urine Drug Screen", "result": "Positive for cocaine metabolites (benzoylecgonine)", "flag": "ABNORMAL", "clinical_significance": "Recent cocaine use is a significant risk factor for aortic dissection"},
-      {"test_name": "LDH", "result": "380 U/L", "flag": "HIGH", "clinical_significance": "Elevated, may reflect end-organ ischemia from malperfusion"},
-      {"test_name": "BMP - Potassium", "result": "4.5 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "PT/INR", "result": "1.0", "flag": "WNL", "clinical_significance": "Normal coagulation"}
+      {
+        "test_name": "Urinalysis",
+        "result": "Trace blood (1+ hematuria), no WBCs, no nitrites, no bacteria",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild hematuria can occur with both renal colic AND renal malperfusion from aortic dissection — this does NOT confirm nephrolithiasis"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.6 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; may indicate renal malperfusion from dissection flap compromising renal artery"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "28 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated with creatinine"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "12.4 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Stress leukocytosis"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no hemorrhage currently"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "6,800 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; D-dimer >500 ng/mL has >95% sensitivity for acute aortic dissection"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.6 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, may reflect end-organ malperfusion"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.05 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal (this condition dissection typically does not involve coronary ostia)"
+      },
+      {
+        "test_name": "Urine Drug Screen",
+        "result": "Positive for cocaine metabolites (benzoylecgonine)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Recent cocaine use is a significant risk factor for aortic dissection"
+      },
+      {
+        "test_name": "LDH",
+        "result": "380 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, may reflect end-organ ischemia from malperfusion"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "4.5 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis without contrast (initially ordered for 'renal colic')", "result": "No renal calculi identified. Left kidney shows diminished cortical enhancement pattern. Incidental note: abnormal caliber of the abdominal aorta with suspicious intimal irregularity — recommend CTA.", "flag": "ABNORMAL", "clinical_significance": "No stone found despite classic presentation; abnormal aortic finding prompts CTA"},
-      {"test_name": "CT Angiography (Chest/Abdomen/Pelvis)", "result": "Intimal flap originating distal to the left subclavian artery extending to the aortic bifurcation. The dissection flap involves the left renal artery ostium with diminished left renal perfusion. True lumen compression in the infrarenal segment. No involvement of the ascending aorta. Left common iliac artery partially involved. No free rupture or contained rupture.", "flag": "ABNORMAL", "clinical_significance": "Stanford Type B aortic dissection with left renal artery malperfusion — this explains the flank pain, hematuria, and elevated creatinine"},
-      {"test_name": "ECG", "result": "Sinus rhythm at 98 bpm. Left ventricular hypertrophy by voltage criteria. No acute ST changes.", "flag": "ABNORMAL", "clinical_significance": "LVH consistent with chronic poorly controlled hypertension"}
+      {
+        "test_name": "CT Abdomen/Pelvis without contrast (initially ordered for 'renal colic')",
+        "result": "No renal calculi identified. Left kidney shows diminished cortical enhancement pattern. Incidental note: abnormal caliber of the abdominal aorta with suspicious intimal irregularity — recommend CTA.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "No stone found despite classic presentation; abnormal aortic finding prompts CTA"
+      },
+      {
+        "test_name": "CT Angiography (Chest/Abdomen/Pelvis)",
+        "result": "Intimal flap originating distal to the left subclavian artery extending to the aortic bifurcation. The dissection flap involves the left renal artery ostium with diminished left renal perfusion. True lumen compression in the infrarenal segment. No involvement of the ascending aorta. Left common iliac artery partially involved. No free rupture or contained rupture.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Stanford this condition aortic dissection with left renal artery malperfusion — this explains the flank pain, hematuria, and elevated creatinine"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus rhythm at 98 bpm. Left ventricular hypertrophy by voltage criteria. No acute ST changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH consistent with chronic poorly controlled hypertension"
+      }
     ],
-    "key_tests": ["CT angiography (chest/abdomen/pelvis)", "BMP (creatinine)", "D-dimer", "ECG", "Bilateral arm blood pressures"],
-    "acceptable_tests": ["CBC", "Urinalysis", "Troponin", "Lactate", "Urine drug screen", "LDH", "Coagulation studies", "Type and crossmatch"],
-    "low_yield_tests": ["CT without contrast (insufficient for aortic evaluation)", "KUB X-ray", "Renal ultrasound only", "Uric acid level", "24-hour urine collection"]
+    "key_tests": [
+      "CT angiography (chest/abdomen/pelvis)",
+      "BMP (creatinine)",
+      "D-dimer",
+      "ECG",
+      "Bilateral arm blood pressures"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Urinalysis",
+      "Troponin",
+      "Lactate",
+      "Urine drug screen",
+      "LDH",
+      "Coagulation studies",
+      "Type and crossmatch"
+    ],
+    "low_yield_tests": [
+      "CT without contrast (insufficient for aortic evaluation)",
+      "KUB X-ray",
+      "Renal ultrasound only",
+      "Uric acid level",
+      "24-hour urine collection"
+    ]
   },
   "stage5": {
-    "final_clue": "Initial CT for suspected renal colic shows no stone but an abnormal aorta. CTA reveals a Type B aortic dissection extending from the left subclavian to the bifurcation with left renal artery malperfusion. The flank pain was from renal ischemia due to dissection, not nephrolithiasis. Cocaine use and uncontrolled hypertension were predisposing factors."
+    "final_clue": "Initial CT for suspected renal colic shows no stone but an abnormal aorta. CTA reveals a this condition aortic dissection extending from the left subclavian to the bifurcation with left renal artery malperfusion. The flank pain was from renal ischemia due to dissection, not nephrolithiasis. Cocaine use and uncontrolled hypertension were predisposing factors."
   },
   "debrief": {
     "classic_presentation": "Type B aortic dissection classically presents with sudden interscapular back pain. However, when the dissection flap involves branch vessels, symptoms may mimic the end-organ being compromised: renal artery involvement mimics renal colic (flank pain, hematuria), mesenteric involvement mimics acute abdomen, and iliac involvement causes leg ischemia. This case demonstrates the dangerous mimic of renal colic.",
@@ -69,9 +165,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Aortic dissection (Type B)", "Nephrolithiasis", "Renal infarction (embolic)", "Musculoskeletal pain", "Ruptured abdominal aortic aneurysm", "Pyelonephritis", "Acute pancreatitis"],
-    "after_stage2_more_likely": ["Nephrolithiasis", "Aortic dissection", "Renal infarction"],
-    "after_stage2_less_likely": ["Pyelonephritis", "Musculoskeletal pain"],
-    "after_labs_top3": ["Aortic dissection (Type B) with renal malperfusion", "Renal infarction", "Nephrolithiasis with AKI"]
+    "reasonable_ddx": [
+      "Aortic dissection (Type B)",
+      "Nephrolithiasis",
+      "Renal infarction (embolic)",
+      "Musculoskeletal pain",
+      "Ruptured abdominal aortic aneurysm",
+      "Pyelonephritis",
+      "Acute pancreatitis"
+    ],
+    "after_stage2_more_likely": [
+      "Nephrolithiasis",
+      "Aortic dissection",
+      "Renal infarction"
+    ],
+    "after_stage2_less_likely": [
+      "Pyelonephritis",
+      "Musculoskeletal pain"
+    ],
+    "after_labs_top3": [
+      "Aortic dissection (Type B) with renal malperfusion",
+      "Renal infarction",
+      "Nephrolithiasis with AKI"
+    ]
   }
 }

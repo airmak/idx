@@ -25,27 +25,126 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Blood cultures (3 sets)", "result": "No growth at 5 days on standard media", "flag": "WNL", "clinical_significance": "Negative cultures in context of clinical endocarditis — defines culture-negative endocarditis. Prior antibiotics or fastidious organisms are likely causes."},
-      {"test_name": "ESR", "result": "78 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with chronic infection/inflammation"},
-      {"test_name": "CRP", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, active inflammatory process"},
-      {"test_name": "WBC", "result": "14,200/µL", "flag": "HIGH", "clinical_significance": "Leukocytosis indicating active infection"},
-      {"test_name": "Hemoglobin", "result": "10.5 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease/infection"},
-      {"test_name": "Rheumatoid factor", "result": "Positive (68 IU/mL)", "flag": "HIGH", "clinical_significance": "Elevated in subacute endocarditis (immune complex formation) — a minor Duke criterion"},
-      {"test_name": "Complement C3/C4", "result": "C3 65 mg/dL, C4 8 mg/dL", "flag": "LOW", "clinical_significance": "Hypocomplementemia from immune complex consumption"},
-      {"test_name": "Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mild renal impairment, possibly from immune complex glomerulonephritis or septic emboli"},
-      {"test_name": "Urinalysis", "result": "Microscopic hematuria (20 RBCs/hpf), 1+ protein", "flag": "ABNORMAL", "clinical_significance": "Glomerulonephritis from immune complex deposition — supports endocarditis"},
-      {"test_name": "Coxiella burnetii serology (Phase I IgG)", "result": "Phase I IgG 1:1024", "flag": "HIGH", "clinical_significance": "Diagnostic of chronic Q fever (Coxiella burnetii) endocarditis — Phase I IgG ≥1:800 is diagnostic"},
-      {"test_name": "Bartonella serology", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out Bartonella endocarditis"},
-      {"test_name": "INR", "result": "2.8", "flag": "HIGH", "clinical_significance": "Therapeutic on warfarin for mechanical valve"}
+      {
+        "test_name": "Blood cultures (3 sets)",
+        "result": "No growth at 5 days on standard media",
+        "flag": "WNL",
+        "clinical_significance": "Negative cultures in context of clinical endocarditis — defines this condition. Prior antibiotics or fastidious organisms are likely causes."
+      },
+      {
+        "test_name": "ESR",
+        "result": "78 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with chronic infection/inflammation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "8.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, active inflammatory process"
+      },
+      {
+        "test_name": "WBC",
+        "result": "14,200/µL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis indicating active infection"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "10.5 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia of chronic disease/infection"
+      },
+      {
+        "test_name": "Rheumatoid factor",
+        "result": "Positive (68 IU/mL)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated in subacute endocarditis (immune complex formation) — a minor Duke criterion"
+      },
+      {
+        "test_name": "Complement C3/C4",
+        "result": "C3 65 mg/dL, C4 8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypocomplementemia from immune complex consumption"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild renal impairment, possibly from immune complex glomerulonephritis or septic emboli"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Microscopic hematuria (20 RBCs/hpf), 1+ protein",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Glomerulonephritis from immune complex deposition — supports endocarditis"
+      },
+      {
+        "test_name": "Coxiella burnetii serology (Phase I IgG)",
+        "result": "Phase I IgG 1:1024",
+        "flag": "HIGH",
+        "clinical_significance": "Diagnostic of chronic Q fever (Coxiella burnetii) endocarditis — Phase I IgG ≥1:800 is diagnostic"
+      },
+      {
+        "test_name": "Bartonella serology",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out Bartonella endocarditis"
+      },
+      {
+        "test_name": "INR",
+        "result": "2.8",
+        "flag": "HIGH",
+        "clinical_significance": "Therapeutic on warfarin for mechanical valve"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transesophageal Echocardiogram (TEE)", "result": "Prosthetic aortic valve with a 12 mm mobile vegetation on the ventricular side. Moderate perivalvular regurgitation (new paravalvular leak). No abscess. Preserved LV function (LVEF 55%).", "flag": "ABNORMAL", "clinical_significance": "Vegetation on prosthetic valve confirms endocarditis. New perivalvular leak suggests progressive infection."},
-      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm, no new conduction abnormalities, no PR prolongation", "flag": "WNL", "clinical_significance": "No evidence of perivalvular abscess extending to conduction system"},
-      {"test_name": "CT abdomen/pelvis", "result": "Splenomegaly (16 cm). Wedge-shaped splenic infarct. No hepatic abscess.", "flag": "ABNORMAL", "clinical_significance": "Splenic infarct from septic embolization, supporting endocarditis diagnosis"}
+      {
+        "test_name": "Transesophageal Echocardiogram (TEE)",
+        "result": "Prosthetic aortic valve with a 12 mm mobile vegetation on the ventricular side. Moderate perivalvular regurgitation (new paravalvular leak). No abscess. Preserved LV function (LVEF 55%).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Vegetation on prosthetic valve confirms endocarditis. New perivalvular leak suggests progressive infection."
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Normal sinus rhythm, no new conduction abnormalities, no PR prolongation",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of perivalvular abscess extending to conduction system"
+      },
+      {
+        "test_name": "CT abdomen/pelvis",
+        "result": "Splenomegaly (16 cm). Wedge-shaped splenic infarct. No hepatic abscess.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Splenic infarct from septic embolization, supporting endocarditis diagnosis"
+      }
     ],
-    "key_tests": ["Blood cultures (multiple sets before antibiotics)", "Transesophageal echocardiogram", "Coxiella burnetii serology", "Bartonella serology", "ESR/CRP"],
-    "acceptable_tests": ["CBC", "Basic metabolic panel", "Urinalysis", "Rheumatoid factor", "Complement levels", "Brucella serology", "Legionella serology", "Fungal cultures", "CT abdomen", "12-lead ECG", "PCR of blood for fastidious organisms"],
-    "low_yield_tests": ["Stress test", "Cardiac catheterization", "Pulmonary function tests", "ANA", "Cardiac MRI"],
+    "key_tests": [
+      "Blood cultures (multiple sets before antibiotics)",
+      "Transesophageal echocardiogram",
+      "Coxiella burnetii serology",
+      "Bartonella serology",
+      "ESR/CRP"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "Basic metabolic panel",
+      "Urinalysis",
+      "Rheumatoid factor",
+      "Complement levels",
+      "Brucella serology",
+      "Legionella serology",
+      "Fungal cultures",
+      "CT abdomen",
+      "12-lead ECG",
+      "PCR of blood for fastidious organisms"
+    ],
+    "low_yield_tests": [
+      "Stress test",
+      "Cardiac catheterization",
+      "Pulmonary function tests",
+      "ANA",
+      "Cardiac MRI"
+    ],
     "key_tests_rationale": "TEE is superior to TTE for prosthetic valve endocarditis (sensitivity >90% vs ~50%). Blood cultures identify the pathogen. Coxiella and Bartonella serologies are essential when cultures are negative — they account for the majority of culture-negative endocarditis. ESR/CRP track inflammation."
   },
   "stage5": {
@@ -71,9 +170,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Standard bacterial endocarditis", "Nonbacterial thrombotic endocarditis (marantic)", "Libman-Sacks endocarditis (SLE)", "Prosthetic valve dysfunction", "Occult malignancy with fever", "Systemic vasculitis"],
-    "after_stage2_more_likely": ["Infective endocarditis (prosthetic valve)", "Culture-negative endocarditis", "Q fever endocarditis"],
-    "after_stage2_less_likely": ["Nonbacterial endocarditis", "Malignancy", "Vasculitis"],
-    "after_labs_top3": ["Coxiella burnetii (Q fever) endocarditis", "Culture-negative prosthetic valve endocarditis", "Bartonella endocarditis"]
+    "reasonable_ddx": [
+      "Standard bacterial endocarditis",
+      "Nonbacterial thrombotic endocarditis (marantic)",
+      "Libman-Sacks endocarditis (SLE)",
+      "Prosthetic valve dysfunction",
+      "Occult malignancy with fever",
+      "Systemic vasculitis"
+    ],
+    "after_stage2_more_likely": [
+      "Infective endocarditis (prosthetic valve)",
+      "Culture-negative endocarditis",
+      "Q fever endocarditis"
+    ],
+    "after_stage2_less_likely": [
+      "Nonbacterial endocarditis",
+      "Malignancy",
+      "Vasculitis"
+    ],
+    "after_labs_top3": [
+      "Coxiella burnetii (Q fever) endocarditis",
+      "Culture-negative prosthetic valve endocarditis",
+      "Bartonella endocarditis"
+    ]
   }
 }

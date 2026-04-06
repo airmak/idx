@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.5, Hgb 13.4, Hct 40.0, Plt 240", "flag": "WNL", "clinical_significance": "Normal; rules out anemia or infection as contributing factor"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.3, AST 18, ALT 16, Alk Phos 55, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no metabolic cause for headaches"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "ESR", "result": "6 mm/hr", "flag": "WNL", "clinical_significance": "Normal; rules out temporal arteritis or systemic inflammatory process"},
-      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal magnesium; low levels can contribute to headaches"},
-      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D level"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.5, Hgb 13.4, Hct 40.0, Plt 240",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out anemia or infection as contributing factor"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.3, AST 18, ALT 16, Alk Phos 55, Albumin 4.2",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; no metabolic cause for headaches"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "ESR",
+        "result": "6 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out temporal arteritis or systemic inflammatory process"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal magnesium; low levels can contribute to headaches"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "28 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Adequate vitamin D level"
+      }
     ],
     "imaging_results": [
-      {"test_name": "No imaging indicated", "result": "N/A", "flag": "N/A", "clinical_significance": "No red flags (no focal neurological deficits, no papilledema, no thunderclap onset, no systemic symptoms) — neuroimaging is not indicated for typical tension-type headache"}
+      {
+        "test_name": "No imaging indicated",
+        "result": "N/A",
+        "flag": "N/A",
+        "clinical_significance": "No red flags (no focal neurological deficits, no papilledema, no thunderclap onset, no systemic symptoms) — neuroimaging is not indicated for typical this condition"
+      }
     ],
     "key_tests": [
       "Comprehensive headache history — establishing ICHD-3 criteria for tension-type headache (bilateral, pressing/tightening, mild-moderate, not aggravated by activity)",
@@ -56,7 +91,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets ICHD-3 criteria for frequent episodic tension-type headache: bilateral location, pressing/tightening (non-pulsating) quality, mild-to-moderate intensity, not aggravated by routine physical activity, without nausea and with no more than one of photophobia or phonophobia (she has neither). Episodes last 4-6 hours and occur 3-4 times per week (1-14 days/month = frequent episodic). Identifiable triggers include stress, poor sleep, prolonged computer use, and pericranial muscle tenderness. Normal neurological exam and no red flag features. Frequent analgesic use (4 times/week) raises concern for potential medication overuse headache if it escalates."
+    "final_clue": "The patient meets ICHD-3 criteria for frequent episodic this condition: bilateral location, pressing/tightening (non-pulsating) quality, mild-to-moderate intensity, not aggravated by routine physical activity, without nausea and with no more than one of photophobia or phonophobia (she has neither). Episodes last 4-6 hours and occur 3-4 times per week (1-14 days/month = frequent episodic). Identifiable triggers include stress, poor sleep, prolonged computer use, and pericranial muscle tenderness. Normal neurological exam and no red flag features. Frequent analgesic use (4 times/week) raises concern for potential medication overuse headache if it escalates."
   },
   "debrief": {
     "classic_presentation": "A patient presenting with bilateral, pressing or tightening ('band-like') headaches of mild-to-moderate intensity that are not worsened by physical activity and occur without significant associated features (no nausea, vomiting, or combination of photophobia and phonophobia). Episodes last 30 minutes to 7 days. Pericranial muscle tenderness is often present. Common triggers include stress, poor sleep, poor posture, and prolonged screen time. TTH is the most common primary headache disorder worldwide.",

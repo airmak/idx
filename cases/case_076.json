@@ -25,31 +25,128 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "BNP", "result": "125 pg/mL", "flag": "HIGH", "clinical_significance": "Only mildly elevated despite significant fluid overload — characteristic of constriction (ventricles cannot stretch)"},
-      {"test_name": "Albumin", "result": "3.2 g/dL", "flag": "LOW", "clinical_significance": "Mildly low, contributing to edema but not low enough to explain the degree of ascites"},
-      {"test_name": "ALT", "result": "52 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation from hepatic congestion"},
-      {"test_name": "AST", "result": "48 U/L", "flag": "HIGH", "clinical_significance": "Mild elevation from hepatic congestion"},
-      {"test_name": "Total bilirubin", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated from congestive hepatopathy"},
-      {"test_name": "Creatinine", "result": "1.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Sodium", "result": "137 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Total protein (ascitic fluid)", "result": "3.5 g/dL", "flag": "HIGH", "clinical_significance": "HIGH protein ascites — characteristic of constriction, NOT cirrhosis"},
-      {"test_name": "SAAG", "result": "1.3 g/dL", "flag": "HIGH", "clinical_significance": "≥1.1, indicating portal hypertension; combined with high protein, suggests cardiac cause"},
-      {"test_name": "CBC", "result": "WBC 6.2, Hgb 13.5, Plt 210", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Normal synthetic function, argues against cirrhosis"}
+      {
+        "test_name": "BNP",
+        "result": "125 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Only mildly elevated despite significant fluid overload — characteristic of constriction (ventricles cannot stretch)"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "3.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mildly low, contributing to edema but not low enough to explain the degree of ascites"
+      },
+      {
+        "test_name": "ALT",
+        "result": "52 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild elevation from hepatic congestion"
+      },
+      {
+        "test_name": "AST",
+        "result": "48 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild elevation from hepatic congestion"
+      },
+      {
+        "test_name": "Total bilirubin",
+        "result": "1.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from congestive hepatopathy"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "137 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Total protein (ascitic fluid)",
+        "result": "3.5 g/dL",
+        "flag": "HIGH",
+        "clinical_significance": "HIGH protein ascites — characteristic of constriction, NOT cirrhosis"
+      },
+      {
+        "test_name": "SAAG",
+        "result": "1.3 g/dL",
+        "flag": "HIGH",
+        "clinical_significance": "≥1.1, indicating portal hypertension; combined with high protein, suggests cardiac cause"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.2, Hgb 13.5, Plt 210",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "INR",
+        "result": "1.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal synthetic function, argues against cirrhosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Normal LVEF (60%), thickened and echogenic pericardium, septal bounce (exaggerated interventricular septal motion with respiration), exaggerated respiratory variation in mitral inflow (>25%), dilated IVC without collapse, bilateral atrial enlargement, normal wall thickness", "flag": "ABNORMAL", "clinical_significance": "Findings consistent with constrictive pericarditis — septal bounce and respiratory variation are hallmarks"},
-      {"test_name": "CT Chest", "result": "Diffusely thickened pericardium (6 mm, normal <2 mm) with extensive pericardial calcification, particularly along the right ventricle. Small bilateral pleural effusions. No pulmonary infiltrates.", "flag": "ABNORMAL", "clinical_significance": "Pericardial thickening and calcification strongly support constrictive pericarditis, consistent with prior TB"},
-      {"test_name": "Cardiac MRI", "result": "Pericardial thickening (5-6 mm) with septal bounce on real-time cine. Late gadolinium enhancement of the pericardium. No myocardial enhancement.", "flag": "ABNORMAL", "clinical_significance": "Confirms pericardial thickening and inflammation; no myocardial fibrosis"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Normal LVEF (60%), thickened and echogenic pericardium, septal bounce (exaggerated interventricular septal motion with respiration), exaggerated respiratory variation in mitral inflow (>25%), dilated IVC without collapse, bilateral atrial enlargement, normal wall thickness",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings consistent with the suspected diagnosis — septal bounce and respiratory variation are hallmarks"
+      },
+      {
+        "test_name": "CT Chest",
+        "result": "Diffusely thickened pericardium (6 mm, normal <2 mm) with extensive pericardial calcification, particularly along the right ventricle. Small bilateral pleural effusions. No pulmonary infiltrates.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pericardial thickening and calcification strongly support this condition, consistent with prior TB"
+      },
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Pericardial thickening (5-6 mm) with septal bounce on real-time cine. Late gadolinium enhancement of the pericardium. No myocardial enhancement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms pericardial thickening and inflammation; no myocardial fibrosis"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram with respiratory variation", "CT chest (for pericardial calcification)", "BNP", "Liver function tests", "Paracentesis with ascitic fluid analysis"],
-    "acceptable_tests": ["Cardiac MRI", "Right heart catheterization", "CBC", "Basic metabolic panel", "TSH", "Chest X-ray (lateral for calcification)", "Cardiac catheterization (equalization of diastolic pressures)", "12-lead ECG"],
-    "low_yield_tests": ["Coronary angiography", "Stress test", "PET scan", "Liver biopsy (already done)", "Pulmonary function tests", "ANA"],
+    "key_tests": [
+      "Transthoracic echocardiogram with respiratory variation",
+      "CT chest (for pericardial calcification)",
+      "BNP",
+      "Liver function tests",
+      "Paracentesis with ascitic fluid analysis"
+    ],
+    "acceptable_tests": [
+      "Cardiac MRI",
+      "Right heart catheterization",
+      "CBC",
+      "Basic metabolic panel",
+      "TSH",
+      "Chest X-ray (lateral for calcification)",
+      "Cardiac catheterization (equalization of diastolic pressures)",
+      "12-lead ECG"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography",
+      "Stress test",
+      "PET scan",
+      "Liver biopsy (already done)",
+      "Pulmonary function tests",
+      "ANA"
+    ],
     "key_tests_rationale": "Echo with respiratory variation demonstrates constrictive physiology (septal bounce, >25% mitral inflow variation). CT/MRI identify pericardial thickening and calcification. BNP is characteristically lower than expected. Ascitic fluid analysis showing high protein with high SAAG suggests cardiac cause."
   },
   "stage5": {
-    "final_clue": "CT reveals extensive pericardial calcification, echocardiography shows septal bounce with exaggerated respiratory variation, and ascitic fluid demonstrates high-protein ascites with SAAG ≥1.1 — all classic for constrictive pericarditis from prior tuberculosis."
+    "final_clue": "CT reveals extensive pericardial calcification, echocardiography shows septal bounce with exaggerated respiratory variation, and ascitic fluid demonstrates high-protein ascites with SAAG ≥1.1 — all classic for this condition from prior tuberculosis."
   },
   "debrief": {
     "classic_presentation": "Constrictive pericarditis mimics right heart failure or cirrhosis with peripheral edema, ascites (often disproportionate to edema), hepatomegaly, and elevated JVP. Key exam findings are Kussmaul sign, pericardial knock (early diastolic sound), and prominent y descent in JVP. Prior TB, cardiac surgery, and radiation are major risk factors.",
@@ -71,9 +168,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Restrictive cardiomyopathy", "Cirrhosis with portal hypertension", "Right heart failure (cor pulmonale)", "Budd-Chiari syndrome", "Nephrotic syndrome", "Chronic liver disease", "Tricuspid regurgitation"],
-    "after_stage2_more_likely": ["Constrictive pericarditis", "Restrictive cardiomyopathy", "Cardiac cirrhosis"],
-    "after_stage2_less_likely": ["Primary cirrhosis", "Nephrotic syndrome", "Budd-Chiari syndrome"],
-    "after_labs_top3": ["Constrictive pericarditis", "Restrictive cardiomyopathy", "Cardiac ascites from constriction"]
+    "reasonable_ddx": [
+      "Restrictive cardiomyopathy",
+      "Cirrhosis with portal hypertension",
+      "Right heart failure (cor pulmonale)",
+      "Budd-Chiari syndrome",
+      "Nephrotic syndrome",
+      "Chronic liver disease",
+      "Tricuspid regurgitation"
+    ],
+    "after_stage2_more_likely": [
+      "Constrictive pericarditis",
+      "Restrictive cardiomyopathy",
+      "Cardiac cirrhosis"
+    ],
+    "after_stage2_less_likely": [
+      "Primary cirrhosis",
+      "Nephrotic syndrome",
+      "Budd-Chiari syndrome"
+    ],
+    "after_labs_top3": [
+      "Constrictive pericarditis",
+      "Restrictive cardiomyopathy",
+      "Cardiac ascites from constriction"
+    ]
   }
 }

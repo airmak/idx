@@ -25,30 +25,121 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.35 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated from sustained VT and CPR, but also may reflect ongoing RV myocardial inflammation/necrosis"},
-      {"test_name": "BNP", "result": "85 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no overt heart failure"},
-      {"test_name": "Potassium", "result": "3.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out hypokalemia as arrhythmia trigger"},
-      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CK", "result": "520 U/L", "flag": "HIGH", "clinical_significance": "Elevated from CPR and intense exercise"},
-      {"test_name": "CBC", "result": "WBC 9.8, Hgb 15.2, Plt 210", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "1.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Lactate", "result": "2.2 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from arrest and resuscitation"},
-      {"test_name": "Toxicology screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit drugs"},
-      {"test_name": "Genetic testing (PKP2)", "result": "Pathogenic variant in plakophilin-2 (PKP2) gene", "flag": "ABNORMAL", "clinical_significance": "PKP2 is the most commonly mutated gene in ARVC, confirming the diagnosis"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.35 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from sustained VT and CPR, but also may reflect ongoing RV myocardial inflammation/necrosis"
+      },
+      {
+        "test_name": "BNP",
+        "result": "85 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no overt heart failure"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "3.8 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out hypokalemia as arrhythmia trigger"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CK",
+        "result": "520 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from CPR and intense exercise"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 9.8, Hgb 15.2, Plt 210",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.5 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from arrest and resuscitation"
+      },
+      {
+        "test_name": "Toxicology screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No illicit drugs"
+      },
+      {
+        "test_name": "Genetic testing (PKP2)",
+        "result": "Pathogenic variant in plakophilin-2 (PKP2) gene",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PKP2 is the most commonly mutated gene in this condition, confirming the diagnosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Cardiac MRI", "result": "Dilated RV (RVEDV index 120 mL/m², normal <110). RV ejection fraction 38% (reduced). RV free wall dyskinesia with focal aneurysm at the RV apex. Fibrofatty infiltration of the RV free wall on T1 mapping. Late gadolinium enhancement in the RV free wall. Normal LV size and function (LVEF 58%).", "flag": "ABNORMAL", "clinical_significance": "Meets major Task Force criterion for ARVC: RV dilation, reduced RVEF, and regional wall motion abnormalities. Fibrofatty replacement is pathognomonic."},
-      {"test_name": "12-lead ECG", "result": "Sinus rhythm. Epsilon wave (small potential after QRS in V1-V3). T-wave inversions in V1-V4. Prolonged S-wave upstroke >55 ms in V1-V3. QRS 118 ms.", "flag": "ABNORMAL", "clinical_significance": "Epsilon waves and precordial T-wave inversions beyond V1 are major and minor Task Force criteria for ARVC, respectively"},
-      {"test_name": "Transthoracic Echocardiogram", "result": "Dilated RV with reduced systolic function. RV free wall akinesia. Normal LV size and function. Mild tricuspid regurgitation.", "flag": "ABNORMAL", "clinical_significance": "RV dilation and dysfunction consistent with ARVC; echo less sensitive than MRI for fibrofatty infiltration"}
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Dilated RV (RVEDV index 120 mL/m², normal <110). RV ejection fraction 38% (reduced). RV free wall dyskinesia with focal aneurysm at the RV apex. Fibrofatty infiltration of the RV free wall on T1 mapping. Late gadolinium enhancement in the RV free wall. Normal LV size and function (LVEF 58%).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Meets major Task Force criterion for this condition: RV dilation, reduced RVEF, and regional wall motion abnormalities. Fibrofatty replacement is pathognomonic."
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Sinus rhythm. Epsilon wave (small potential after QRS in V1-V3). T-wave inversions in V1-V4. Prolonged S-wave upstroke >55 ms in V1-V3. QRS 118 ms.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Epsilon waves and precordial T-wave inversions beyond V1 are major and minor Task Force criteria for this condition, respectively"
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Dilated RV with reduced systolic function. RV free wall akinesia. Normal LV size and function. Mild tricuspid regurgitation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RV dilation and dysfunction consistent with the suspected diagnosis; echo less sensitive than MRI for fibrofatty infiltration"
+      }
     ],
-    "key_tests": ["Cardiac MRI", "12-lead ECG", "Transthoracic echocardiogram", "Genetic testing (desmosomal genes)", "Troponin"],
-    "acceptable_tests": ["Basic metabolic panel", "Holter/event monitor", "Signal-averaged ECG", "Electrophysiology study", "CBC", "CK", "Toxicology screen"],
-    "low_yield_tests": ["Coronary angiography", "CT chest", "Stress test", "BNP", "Pulmonary function tests", "ANA"],
+    "key_tests": [
+      "Cardiac MRI",
+      "12-lead ECG",
+      "Transthoracic echocardiogram",
+      "Genetic testing (desmosomal genes)",
+      "Troponin"
+    ],
+    "acceptable_tests": [
+      "Basic metabolic panel",
+      "Holter/event monitor",
+      "Signal-averaged ECG",
+      "Electrophysiology study",
+      "CBC",
+      "CK",
+      "Toxicology screen"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography",
+      "CT chest",
+      "Stress test",
+      "BNP",
+      "Pulmonary function tests",
+      "ANA"
+    ],
     "key_tests_rationale": "Cardiac MRI is the gold standard for detecting RV structural abnormalities and fibrofatty replacement. ECG shows characteristic epsilon waves and T-wave inversions. Echo provides initial assessment. Genetic testing confirms desmosomal mutation and enables family screening."
   },
   "stage5": {
-    "final_clue": "Cardiac MRI reveals a dilated RV with fibrofatty infiltration and focal aneurysm, ECG shows epsilon waves with precordial T-wave inversions, and the patient had exercise-induced VT with LBBB morphology (indicating RV origin). PKP2 mutation confirms ARVC. Family history of sudden death supports the diagnosis."
+    "final_clue": "Cardiac MRI reveals a dilated RV with fibrofatty infiltration and focal aneurysm, ECG shows epsilon waves with precordial T-wave inversions, and the patient had exercise-induced VT with LBBB morphology (indicating RV origin). PKP2 mutation confirms the suspected diagnosis. Family history of sudden death supports the diagnosis."
   },
   "debrief": {
     "classic_presentation": "ARVC typically presents in young adults (15-40 years, male predominance) with exercise-induced ventricular arrhythmias (VT with LBBB morphology originating from the RV), palpitations, syncope, or sudden cardiac death. It is a leading cause of SCD in young athletes. Progressive RV dilation and dysfunction occur over time, and some patients develop biventricular involvement.",
@@ -70,9 +161,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Idiopathic RV outflow tract VT", "Athlete's heart", "Brugada syndrome", "Cardiac sarcoidosis", "Myocarditis", "Hypertrophic cardiomyopathy", "Long QT syndrome"],
-    "after_stage2_more_likely": ["ARVC", "Idiopathic RVOT VT", "Cardiac sarcoidosis"],
-    "after_stage2_less_likely": ["Athlete's heart", "Brugada syndrome", "Long QT syndrome"],
-    "after_labs_top3": ["ARVC (PKP2-positive)", "Cardiac sarcoidosis with RV involvement", "Idiopathic RVOT VT"]
+    "reasonable_ddx": [
+      "Idiopathic RV outflow tract VT",
+      "Athlete's heart",
+      "Brugada syndrome",
+      "Cardiac sarcoidosis",
+      "Myocarditis",
+      "Hypertrophic cardiomyopathy",
+      "Long QT syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "ARVC",
+      "Idiopathic RVOT VT",
+      "Cardiac sarcoidosis"
+    ],
+    "after_stage2_less_likely": [
+      "Athlete's heart",
+      "Brugada syndrome",
+      "Long QT syndrome"
+    ],
+    "after_labs_top3": [
+      "ARVC (PKP2-positive)",
+      "Cardiac sarcoidosis with RV involvement",
+      "Idiopathic RVOT VT"
+    ]
   }
 }

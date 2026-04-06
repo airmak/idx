@@ -6,7 +6,7 @@
   "icd_category": "B38.0 — Acute pulmonary coccidioidomycosis",
   "one_liner": "A 35-year-old Filipino male from Arizona's Phoenix Valley presents with 3 weeks of cough, fever, arthralgias, diffuse erythema nodosum, and bilateral hilar lymphadenopathy after recent dust storm exposure.",
   "stage2": {
-    "hpi_extension": "The patient lives in the Phoenix metropolitan area and works as a landscape contractor. Approximately 3 weeks ago, during a major dust storm (haboob), he was working outdoors without respiratory protection. Ten days later, he developed a dry cough, fever up to 38.8°C, fatigue, headache, and diffuse arthralgias (knees, ankles, wrists). He has had night sweats and a 3 kg weight loss. One week ago, he noticed tender red nodules on his shins bilaterally that his wife initially thought were bruises. He reports mild dyspnea on exertion and pleuritic right-sided chest pain. No hemoptysis, rash other than the shin nodules, or neurologic symptoms. He has no history of prior coccidioidomycosis.",
+    "hpi_extension": "The patient lives in the Phoenix metropolitan area and works as a landscape contractor. Approximately 3 weeks ago, during a major dust storm (haboob), he was working outdoors without respiratory protection. Ten days later, he developed a dry cough, fever up to 38.8°C, fatigue, headache, and diffuse arthralgias (knees, ankles, wrists). He has had night sweats and a 3 kg weight loss. One week ago, he noticed tender red nodules on his shins bilaterally that his wife initially thought were bruises. He reports mild dyspnea on exertion and pleuritic right-sided chest pain. No hemoptysis, rash other than the shin nodules, or neurologic symptoms. He has no history of prior this condition.",
     "pmh": "No significant past medical history.",
     "surgical_history": "None.",
     "medications": "Ibuprofen 600 mg TID PRN for arthralgias.",
@@ -25,18 +25,68 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Coccidioides Complement Fixation (CF) Antibody", "result": "Titer 1:32", "flag": "ABNORMAL", "clinical_significance": "CF titer ≥1:16 suggests significant disease burden; higher titers correlate with disseminated disease risk; used for monitoring treatment response"},
-      {"test_name": "Coccidioides Immunodiffusion (IDCF/IDTP)", "result": "IgM (tube precipitin) positive, IgG (complement fixation) positive", "flag": "ABNORMAL", "clinical_significance": "Positive IgM indicates acute/early infection; positive IgG supports diagnosis and correlates with disease activity"},
-      {"test_name": "Coccidioides EIA IgM/IgG", "result": "IgM positive, IgG positive", "flag": "ABNORMAL", "clinical_significance": "EIA is a sensitive screening test but has lower specificity; confirmatory IDCF is more reliable"},
-      {"test_name": "CBC — WBC", "result": "11,400/μL with 6% eosinophils (absolute eosinophil count 684/μL)", "flag": "HIGH", "clinical_significance": "Peripheral eosinophilia is common in coccidioidomycosis (present in ~25% of cases) and is actually a favorable prognostic sign"},
-      {"test_name": "ESR", "result": "62 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker consistent with active coccidioidal disease"},
-      {"test_name": "CRP", "result": "48 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CMP — Calcium", "result": "10.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mild hypercalcemia can occur in granulomatous diseases including coccidioidomycosis from 1,25-dihydroxyvitamin D production by macrophages"}
+      {
+        "test_name": "Coccidioides Complement Fixation (CF) Antibody",
+        "result": "Titer 1:32",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CF titer ≥1:16 suggests significant disease burden; higher titers correlate with disseminated disease risk; used for monitoring treatment response"
+      },
+      {
+        "test_name": "Coccidioides Immunodiffusion (IDCF/IDTP)",
+        "result": "IgM (tube precipitin) positive, IgG (complement fixation) positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive IgM indicates acute/early infection; positive IgG supports diagnosis and correlates with disease activity"
+      },
+      {
+        "test_name": "Coccidioides EIA IgM/IgG",
+        "result": "IgM positive, IgG positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "EIA is a sensitive screening test but has lower specificity; confirmatory IDCF is more reliable"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "11,400/μL with 6% eosinophils (absolute eosinophil count 684/μL)",
+        "flag": "HIGH",
+        "clinical_significance": "Peripheral eosinophilia is common in this condition (present in ~25% of cases) and is actually a favorable prognostic sign"
+      },
+      {
+        "test_name": "ESR",
+        "result": "62 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated inflammatory marker consistent with active coccidioidal disease"
+      },
+      {
+        "test_name": "CRP",
+        "result": "48 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CMP — Calcium",
+        "result": "10.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild hypercalcemia can occur in granulomatous diseases including this condition from 1,25-dihydroxyvitamin D production by macrophages"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and Lateral)", "result": "Right lower lobe consolidation with bilateral hilar lymphadenopathy. Small right-sided pleural effusion. No cavitary lesion.", "flag": "ABNORMAL", "clinical_significance": "Community-acquired pneumonia pattern with hilar lymphadenopathy is classic for primary pulmonary coccidioidomycosis"},
-      {"test_name": "CT Chest with Contrast", "result": "Right lower lobe consolidation (5 cm) with surrounding ground-glass opacity. Bilateral hilar and right paratracheal lymphadenopathy (largest node 2.8 cm). Small right pleural effusion. No cavitation.", "flag": "ABNORMAL", "clinical_significance": "Confirms extent of pulmonary coccidioidomycosis; hilar lymphadenopathy helps distinguish from typical bacterial pneumonia"}
+      {
+        "test_name": "Chest X-ray (PA and Lateral)",
+        "result": "Right lower lobe consolidation with bilateral hilar lymphadenopathy. Small right-sided pleural effusion. No cavitary lesion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Community-acquired pneumonia pattern with hilar lymphadenopathy is classic for primary pulmonary this condition"
+      },
+      {
+        "test_name": "CT Chest with Contrast",
+        "result": "Right lower lobe consolidation (5 cm) with surrounding ground-glass opacity. Bilateral hilar and right paratracheal lymphadenopathy (largest node 2.8 cm). Small right pleural effusion. No cavitation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms extent of pulmonary this condition; hilar lymphadenopathy helps distinguish from typical bacterial pneumonia"
+      }
     ],
     "key_tests": [
       "Coccidioides serologies: complement fixation (CF) titer and immunodiffusion (IgM and IgG)",
@@ -61,7 +111,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A Filipino male landscape worker in Arizona presenting with community-acquired pneumonia (consolidation, pleural effusion, bilateral hilar lymphadenopathy) plus the classic triad of Valley fever: cough/fever + erythema nodosum + arthralgias ('desert rheumatism'). Peripheral eosinophilia and positive Coccidioides serologies (CF titer 1:32, positive IgM and IgG) confirm primary pulmonary coccidioidomycosis. The high CF titer and Filipino ethnicity place him at higher risk for dissemination."
+    "final_clue": "A Filipino male landscape worker in Arizona presenting with community-acquired pneumonia (consolidation, pleural effusion, bilateral hilar lymphadenopathy) plus the classic triad of Valley fever: cough/fever + erythema nodosum + arthralgias ('desert rheumatism'). Peripheral eosinophilia and positive Coccidioides serologies (CF titer 1:32, positive IgM and IgG) confirm primary pulmonary this condition. The high CF titer and Filipino ethnicity place him at higher risk for dissemination."
   },
   "debrief": {
     "classic_presentation": "Primary pulmonary coccidioidomycosis ('Valley fever') presents 1-3 weeks after inhalation of arthroconidia in endemic areas (Sonoran Desert — Arizona, Central California, parts of Nevada, New Mexico, West Texas, and northwestern Mexico). Symptoms include cough, fever, fatigue, pleuritic chest pain, and headache. The classic triad of erythema nodosum + arthralgias + fever ('desert rheumatism' or 'valley fever triad') occurs in a minority of cases but is highly suggestive. Chest imaging shows pneumonia (often with hilar lymphadenopathy and pleural effusion). Approximately 60% of infections are asymptomatic; 40% produce a self-limited respiratory illness; <5% disseminate.",

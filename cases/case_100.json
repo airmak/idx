@@ -25,30 +25,127 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Anti-GBM antibodies", "result": "Strongly positive (>200 EU/mL)", "flag": "ABNORMAL", "clinical_significance": "Diagnostic: anti-glomerular basement membrane antibodies directed against the alpha-3 chain of type IV collagen are the hallmark of Goodpasture syndrome"},
-      {"test_name": "BMP — Creatinine", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Markedly elevated; rapidly progressive glomerulonephritis (baseline likely ~1.0)"},
-      {"test_name": "BMP — BUN", "result": "62 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; renal failure"},
-      {"test_name": "BMP — Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from renal failure — cardiac monitoring needed"},
-      {"test_name": "CBC — Hemoglobin", "result": "7.8 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia from pulmonary hemorrhage; likely also dilutional component from fluid overload"},
-      {"test_name": "CBC — WBC", "result": "10,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Urinalysis", "result": "3+ blood, 2+ protein, >50 RBC/HPF, RBC casts present", "flag": "ABNORMAL", "clinical_significance": "Active glomerulonephritis: RBC casts are pathognomonic for glomerular disease"},
-      {"test_name": "Urine protein:creatinine ratio", "result": "3.2 g/g", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria indicating significant glomerular damage"},
-      {"test_name": "ANCA panel", "result": "Negative (both MPO and PR3)", "flag": "WNL", "clinical_significance": "Negative ANCA helps distinguish isolated anti-GBM disease from 'double-positive' disease (anti-GBM + ANCA, seen in ~30% of cases)"},
-      {"test_name": "Complement C3/C4", "result": "C3: 112, C4: 28 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement levels — anti-GBM disease is not complement-mediated (unlike lupus nephritis)"},
-      {"test_name": "ABG pH", "result": "7.32", "flag": "LOW", "clinical_significance": "Metabolic acidosis from renal failure"},
-      {"test_name": "ABG pO2", "result": "58 mmHg", "flag": "LOW", "clinical_significance": "Hypoxemia from diffuse alveolar hemorrhage"}
+      {
+        "test_name": "Anti-GBM antibodies",
+        "result": "Strongly positive (>200 EU/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diagnostic: anti-glomerular basement membrane antibodies directed against the alpha-3 chain of type IV collagen are the hallmark of this condition"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "4.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; rapidly progressive glomerulonephritis (baseline likely ~1.0)"
+      },
+      {
+        "test_name": "BMP — BUN",
+        "result": "62 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; renal failure"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "5.4 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from renal failure — cardiac monitoring needed"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "7.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia from pulmonary hemorrhage; likely also dilutional component from fluid overload"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "10,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ blood, 2+ protein, >50 RBC/HPF, RBC casts present",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active glomerulonephritis: RBC casts are pathognomonic for glomerular disease"
+      },
+      {
+        "test_name": "Urine protein:creatinine ratio",
+        "result": "3.2 g/g",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic-range proteinuria indicating significant glomerular damage"
+      },
+      {
+        "test_name": "ANCA panel",
+        "result": "Negative (both MPO and PR3)",
+        "flag": "WNL",
+        "clinical_significance": "Negative ANCA helps distinguish isolated this condition from 'double-positive' disease (anti-GBM + ANCA, seen in ~30% of cases)"
+      },
+      {
+        "test_name": "Complement C3/C4",
+        "result": "C3: 112, C4: 28 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complement levels — this condition is not complement-mediated (unlike lupus nephritis)"
+      },
+      {
+        "test_name": "ABG pH",
+        "result": "7.32",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from renal failure"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "58 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Hypoxemia from diffuse alveolar hemorrhage"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Bilateral diffuse alveolar infiltrates in a perihilar and basilar distribution. No pleural effusions. Normal cardiac silhouette.", "flag": "ABNORMAL", "clinical_significance": "Bilateral alveolar opacities in the context of hemoptysis represent diffuse alveolar hemorrhage"},
-      {"test_name": "CT chest", "result": "Diffuse bilateral ground-glass opacities and consolidations consistent with alveolar hemorrhage. No masses or cavitation. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Diffuse alveolar hemorrhage pattern; the ground-glass component represents intra-alveolar blood"},
-      {"test_name": "Renal ultrasound", "result": "Normal-sized kidneys bilaterally with increased cortical echogenicity. No hydronephrosis or masses.", "flag": "ABNORMAL", "clinical_significance": "Increased echogenicity suggests intrinsic renal disease (glomerulonephritis); normal size indicates acute rather than chronic process"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral diffuse alveolar infiltrates in a perihilar and basilar distribution. No pleural effusions. Normal cardiac silhouette.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral alveolar opacities in the context of hemoptysis represent diffuse alveolar hemorrhage"
+      },
+      {
+        "test_name": "CT chest",
+        "result": "Diffuse bilateral ground-glass opacities and consolidations consistent with alveolar hemorrhage. No masses or cavitation. No pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diffuse alveolar hemorrhage pattern; the ground-glass component represents intra-alveolar blood"
+      },
+      {
+        "test_name": "Renal ultrasound",
+        "result": "Normal-sized kidneys bilaterally with increased cortical echogenicity. No hydronephrosis or masses.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Increased echogenicity suggests intrinsic renal disease (glomerulonephritis); normal size indicates acute rather than chronic process"
+      }
     ],
-    "key_tests": ["Anti-GBM antibody titer", "BMP (creatinine, BUN, potassium)", "Urinalysis with microscopy (RBC casts)", "Chest X-ray or CT chest", "ANCA panel (MPO and PR3)", "Renal biopsy"],
-    "acceptable_tests": ["CBC", "ABG", "Complement levels (C3, C4)", "ANA", "Blood type and crossmatch", "Coagulation studies", "Renal ultrasound", "Bronchoscopy with BAL (for DAH confirmation)"],
-    "low_yield_tests": ["D-dimer", "Procalcitonin", "Sputum culture", "Echocardiogram", "PFTs (during acute illness)"]
+    "key_tests": [
+      "Anti-GBM antibody titer",
+      "BMP (creatinine, BUN, potassium)",
+      "Urinalysis with microscopy (RBC casts)",
+      "Chest X-ray or CT chest",
+      "ANCA panel (MPO and PR3)",
+      "Renal biopsy"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "ABG",
+      "Complement levels (C3, C4)",
+      "ANA",
+      "Blood type and crossmatch",
+      "Coagulation studies",
+      "Renal ultrasound",
+      "Bronchoscopy with BAL (for DAH confirmation)"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "Procalcitonin",
+      "Sputum culture",
+      "Echocardiogram",
+      "PFTs (during acute illness)"
+    ]
   },
   "stage5": {
-    "final_clue": "Urgent renal biopsy reveals crescentic glomerulonephritis with linear IgG deposition along the glomerular basement membrane on immunofluorescence — pathognomonic for anti-GBM disease. Bronchoscopy with sequential BAL shows progressively bloodier returns confirming diffuse alveolar hemorrhage. The patient is started on plasmapheresis, high-dose corticosteroids, and cyclophosphamide."
+    "final_clue": "Urgent renal biopsy reveals crescentic glomerulonephritis with linear IgG deposition along the glomerular basement membrane on immunofluorescence — pathognomonic for this condition. Bronchoscopy with sequential BAL shows progressively bloodier returns confirming diffuse alveolar hemorrhage. The patient is started on plasmapheresis, high-dose corticosteroids, and cyclophosphamide."
   },
   "debrief": {
     "classic_presentation": "Young male smoker with hydrocarbon exposure presenting with the pulmonary-renal syndrome: hemoptysis with diffuse alveolar hemorrhage AND rapidly progressive glomerulonephritis (rising creatinine, RBC casts), with strongly positive anti-GBM antibodies and linear IgG on renal biopsy.",
@@ -69,9 +166,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Goodpasture syndrome (anti-GBM disease)", "Granulomatosis with polyangiitis (GPA)", "Microscopic polyangiitis (MPA)", "Systemic lupus erythematosus", "IgA vasculitis", "Diffuse alveolar hemorrhage (other causes)", "Rapidly progressive GN (other causes)"],
-    "after_stage2_more_likely": ["Goodpasture syndrome", "Granulomatosis with polyangiitis", "Microscopic polyangiitis"],
-    "after_stage2_less_likely": ["Systemic lupus erythematosus", "IgA vasculitis"],
-    "after_labs_top3": ["Goodpasture syndrome", "Microscopic polyangiitis", "Granulomatosis with polyangiitis"]
+    "reasonable_ddx": [
+      "Goodpasture syndrome (anti-GBM disease)",
+      "Granulomatosis with polyangiitis (GPA)",
+      "Microscopic polyangiitis (MPA)",
+      "Systemic lupus erythematosus",
+      "IgA vasculitis",
+      "Diffuse alveolar hemorrhage (other causes)",
+      "Rapidly progressive GN (other causes)"
+    ],
+    "after_stage2_more_likely": [
+      "Goodpasture syndrome",
+      "Granulomatosis with polyangiitis",
+      "Microscopic polyangiitis"
+    ],
+    "after_stage2_less_likely": [
+      "Systemic lupus erythematosus",
+      "IgA vasculitis"
+    ],
+    "after_labs_top3": [
+      "Goodpasture syndrome",
+      "Microscopic polyangiitis",
+      "Granulomatosis with polyangiitis"
+    ]
   }
 }

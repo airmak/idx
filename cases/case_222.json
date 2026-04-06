@@ -25,18 +25,68 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Rules out hyperthyroidism which can mimic anxiety"},
-      {"test_name": "Free T4", "result": "1.1 ng/dL", "flag": "WNL", "clinical_significance": "Confirms normal thyroid function"},
-      {"test_name": "CBC", "result": "WBC 7.1, Hgb 15.2, Hct 44.8, Plt 230", "flag": "WNL", "clinical_significance": "No anemia or infection contributing to symptoms"},
-      {"test_name": "CMP", "result": "Na 141, K 4.3, Cl 103, CO2 25, BUN 15, Cr 0.9, Glucose 95, Ca 9.6, AST 20, ALT 22", "flag": "WNL", "clinical_significance": "Rules out metabolic derangements and hypoglycemia"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant use or substance-induced anxiety"},
-      {"test_name": "Plasma metanephrines", "result": "Normetanephrine 0.5 nmol/L, Metanephrine 0.3 nmol/L", "flag": "WNL", "clinical_significance": "Rules out pheochromocytoma as cause of episodic anxiety and tachycardia"},
-      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Hypomagnesemia can cause anxiety symptoms"},
-      {"test_name": "Vitamin D, 25-OH", "result": "28 ng/mL", "flag": "WNL", "clinical_significance": "Low vitamin D has been associated with anxiety, level is adequate"},
-      {"test_name": "Urinalysis", "result": "Normal, no protein, no glucose", "flag": "WNL", "clinical_significance": "Baseline renal assessment normal"}
+      {
+        "test_name": "TSH",
+        "result": "1.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hyperthyroidism which can mimic anxiety"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "1.1 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Confirms normal thyroid function"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.1, Hgb 15.2, Hct 44.8, Plt 230",
+        "flag": "WNL",
+        "clinical_significance": "No anemia or infection contributing to symptoms"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 141, K 4.3, Cl 103, CO2 25, BUN 15, Cr 0.9, Glucose 95, Ca 9.6, AST 20, ALT 22",
+        "flag": "WNL",
+        "clinical_significance": "Rules out metabolic derangements and hypoglycemia"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out stimulant use or substance-induced anxiety"
+      },
+      {
+        "test_name": "Plasma metanephrines",
+        "result": "Normetanephrine 0.5 nmol/L, Metanephrine 0.3 nmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Rules out pheochromocytoma as cause of episodic anxiety and tachycardia"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Hypomagnesemia can cause anxiety symptoms"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "28 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Low vitamin D has been associated with anxiety, level is adequate"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Normal, no protein, no glucose",
+        "flag": "WNL",
+        "clinical_significance": "Baseline renal assessment normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG (12-lead)", "result": "Sinus tachycardia at 88 bpm. Normal axis. No ST changes. Normal intervals.", "flag": "ABNORMAL", "clinical_significance": "Mild resting tachycardia likely related to anxiety state; no arrhythmia or structural abnormality suggested"}
+      {
+        "test_name": "ECG (12-lead)",
+        "result": "Sinus tachycardia at 88 bpm. Normal axis. No ST changes. Normal intervals.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild resting tachycardia likely related to anxiety state; no arrhythmia or structural abnormality suggested"
+      }
     ],
     "key_tests": [
       "GAD-7 (Generalized Anxiety Disorder-7) — score 18 (severe anxiety)",
@@ -63,7 +113,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets DSM-5 criteria for Generalized Anxiety Disorder: excessive worry about multiple domains for more than 6 months, difficulty controlling the worry, and 3+ associated symptoms (restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance). All medical workup is negative. GAD-7 score of 18 confirms severe anxiety. High caffeine intake may be an exacerbating factor."
+    "final_clue": "The patient meets DSM-5 criteria for this condition: excessive worry about multiple domains for more than 6 months, difficulty controlling the worry, and 3+ associated symptoms (restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance). All medical workup is negative. GAD-7 score of 18 confirms severe anxiety. High caffeine intake may be an exacerbating factor."
   },
   "debrief": {
     "classic_presentation": "A young adult with persistent, excessive, and difficult-to-control worry about multiple life domains (work, health, finances, everyday matters) for at least 6 months, with associated somatic symptoms including muscle tension, restlessness, fatigue, difficulty concentrating, irritability, and insomnia, causing significant functional impairment.",

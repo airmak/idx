@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Rapid Influenza Molecular Assay (RT-PCR)", "result": "Influenza A detected (H3N2 subtype)", "flag": "ABNORMAL", "clinical_significance": "Confirms influenza A infection; RT-PCR is the gold standard with >95% sensitivity"},
-      {"test_name": "CBC — WBC", "result": "4,200/μL with 65% neutrophils, 28% lymphocytes", "flag": "WNL", "clinical_significance": "Normal to low-normal WBC; leukopenia or relative lymphopenia is common in influenza"},
-      {"test_name": "CRP", "result": "42 mg/L", "flag": "HIGH", "clinical_significance": "Moderate elevation consistent with viral infection; markedly elevated CRP would suggest bacterial superinfection"},
-      {"test_name": "Procalcitonin", "result": "0.15 ng/mL", "flag": "WNL", "clinical_significance": "Low procalcitonin argues against bacterial co-infection"},
-      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "AST/ALT", "result": "AST 45 U/L, ALT 38 U/L", "flag": "WNL", "clinical_significance": "Mildly elevated AST can be seen with influenza; no significant hepatic involvement"}
+      {
+        "test_name": "Rapid Influenza Molecular Assay (RT-PCR)",
+        "result": "Influenza A detected (H3N2 subtype)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis infection; RT-PCR is the gold standard with >95% sensitivity"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "4,200/μL with 65% neutrophils, 28% lymphocytes",
+        "flag": "WNL",
+        "clinical_significance": "Normal to low-normal WBC; leukopenia or relative lymphopenia is common in influenza"
+      },
+      {
+        "test_name": "CRP",
+        "result": "42 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Moderate elevation consistent with viral infection; markedly elevated CRP would suggest bacterial superinfection"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.15 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Low procalcitonin argues against bacterial co-infection"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "AST/ALT",
+        "result": "AST 45 U/L, ALT 38 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Mildly elevated AST can be seen with influenza; no significant hepatic involvement"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray (PA and Lateral)", "result": "Hyperinflated lungs consistent with COPD. No focal consolidation, effusion, or infiltrates. No pneumothorax.", "flag": "WNL", "clinical_significance": "No evidence of pneumonia; findings consistent with underlying COPD only"}
+      {
+        "test_name": "Chest X-ray (PA and Lateral)",
+        "result": "Hyperinflated lungs consistent with COPD. No focal consolidation, effusion, or infiltrates. No pneumothorax.",
+        "flag": "WNL",
+        "clinical_significance": "No evidence of pneumonia; findings consistent with underlying COPD only"
+      }
     ],
     "key_tests": [
       "Rapid influenza molecular assay (RT-PCR) — preferred test for influenza diagnosis",
@@ -56,7 +91,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Classic influenza presentation during flu season: abrupt onset of high fever, severe myalgias, headache, dry cough, and prostration in an unvaccinated patient with a sick household contact. Influenza A (H3N2) confirmed by RT-PCR. Low procalcitonin and clear chest X-ray argue against bacterial superinfection. Underlying COPD with mild hypoxia warrants close monitoring."
+    "final_clue": "Classic influenza presentation during flu season: abrupt onset of high fever, severe myalgias, headache, dry cough, and prostration in an unvaccinated patient with a sick household contact. this condition (H3N2) confirmed by RT-PCR. Low procalcitonin and clear chest X-ray argue against bacterial superinfection. Underlying COPD with mild hypoxia warrants close monitoring."
   },
   "debrief": {
     "classic_presentation": "Abrupt onset of high fever (often >39°C), severe myalgias, headache, malaise, and non-productive cough during influenza season (typically October-April in the Northern Hemisphere). Distinguished from the common cold by sudden onset, systemic symptoms predominating over upper respiratory symptoms, and prostration. Patients often describe being 'hit by a truck.' Conjunctival injection and facial flushing are classic but often overlooked findings.",

@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Sodium", "result": "118 mEq/L", "flag": "LOW", "clinical_significance": "Severe hyponatremia causing neurologic symptoms (confusion, headache, ataxia)"},
-      {"test_name": "Serum Osmolality", "result": "248 mOsm/kg", "flag": "LOW", "clinical_significance": "Hypotonic hyponatremia; confirms true hyponatremia (excludes pseudohyponatremia)"},
-      {"test_name": "Urine Osmolality", "result": "580 mOsm/kg", "flag": "HIGH", "clinical_significance": "Inappropriately concentrated urine (>100 mOsm/kg) despite low serum osmolality — hallmark of SIADH"},
-      {"test_name": "Urine Sodium", "result": "68 mEq/L", "flag": "HIGH", "clinical_significance": "Urine sodium >40 mEq/L in euvolemic hyponatremia supports SIADH"},
-      {"test_name": "Serum Uric Acid", "result": "2.1 mg/dL", "flag": "LOW", "clinical_significance": "Low uric acid supports SIADH (ADH increases urate excretion)"},
-      {"test_name": "Serum BUN", "result": "8 mg/dL", "flag": "LOW", "clinical_significance": "Low BUN consistent with SIADH (dilution and increased urea clearance)"},
-      {"test_name": "Serum Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal; excludes hypothyroidism as a cause of hyponatremia"},
-      {"test_name": "Morning Cortisol", "result": "18 μg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes adrenal insufficiency as a cause of hyponatremia"},
-      {"test_name": "Serum Glucose", "result": "102 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes hyperglycemia-induced pseudohyponatremia"},
-      {"test_name": "Serum Potassium", "result": "4.0 mEq/L", "flag": "WNL", "clinical_significance": "Normal; potassium is typically normal in SIADH (unlike adrenal insufficiency where hyperkalemia may occur)"}
+      {
+        "test_name": "Serum Sodium",
+        "result": "118 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Severe hyponatremia causing neurologic symptoms (confusion, headache, ataxia)"
+      },
+      {
+        "test_name": "Serum Osmolality",
+        "result": "248 mOsm/kg",
+        "flag": "LOW",
+        "clinical_significance": "Hypotonic hyponatremia; confirms true hyponatremia (excludes pseudohyponatremia)"
+      },
+      {
+        "test_name": "Urine Osmolality",
+        "result": "580 mOsm/kg",
+        "flag": "HIGH",
+        "clinical_significance": "Inappropriately concentrated urine (>100 mOsm/kg) despite low serum osmolality — hallmark of this condition"
+      },
+      {
+        "test_name": "Urine Sodium",
+        "result": "68 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Urine sodium >40 mEq/L in euvolemic hyponatremia supports this condition"
+      },
+      {
+        "test_name": "Serum Uric Acid",
+        "result": "2.1 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low uric acid supports this condition (ADH increases urate excretion)"
+      },
+      {
+        "test_name": "Serum BUN",
+        "result": "8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low BUN consistent with the suspected diagnosis (dilution and increased urea clearance)"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes hypothyroidism as a cause of hyponatremia"
+      },
+      {
+        "test_name": "Morning Cortisol",
+        "result": "18 μg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes adrenal insufficiency as a cause of hyponatremia"
+      },
+      {
+        "test_name": "Serum Glucose",
+        "result": "102 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes hyperglycemia-induced pseudohyponatremia"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "4.0 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; potassium is typically normal in this condition (unlike adrenal insufficiency where hyperkalemia may occur)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Right hilar mass with associated right upper lobe opacity consistent with known malignancy. No pleural effusion or cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Confirms known small cell lung cancer — the most common cause of paraneoplastic SIADH"},
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild cerebral edema.", "flag": "ABNORMAL", "clinical_significance": "Mild cerebral edema consistent with hyponatremia; no structural brain lesion causing symptoms"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Right hilar mass with associated right upper lobe opacity consistent with known malignancy. No pleural effusion or cardiomegaly.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms known small cell lung cancer — the most common cause of paraneoplastic this condition"
+      },
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild cerebral edema.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cerebral edema consistent with hyponatremia; no structural brain lesion causing symptoms"
+      }
     ],
     "key_tests": [
       "Serum sodium and serum osmolality",
@@ -64,7 +129,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Euvolemic hypotonic hyponatremia (Na 118, serum osm 248) with inappropriately concentrated urine (urine osm 580) and elevated urine sodium (68 mEq/L), in a patient with small cell lung cancer and normal thyroid and adrenal function, confirms SIADH — most likely paraneoplastic from small cell lung cancer."
+    "final_clue": "Euvolemic hypotonic hyponatremia (Na 118, serum osm 248) with inappropriately concentrated urine (urine osm 580) and elevated urine sodium (68 mEq/L), in a patient with small cell lung cancer and normal thyroid and adrenal function, confirms the suspected diagnosis — most likely paraneoplastic from small cell lung cancer."
   },
   "debrief": {
     "classic_presentation": "A patient with small cell lung cancer (or other SIADH-associated condition) presents with progressive confusion, nausea, headache, and gait instability. Labs reveal severe hypotonic hyponatremia with inappropriately concentrated urine, elevated urine sodium, and clinical euvolemia. TSH and cortisol are normal.",

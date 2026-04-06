@@ -25,23 +25,98 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Small Bowel Biopsy (Duodenal) — PAS Stain", "result": "Diffuse infiltration of the lamina propria with foamy macrophages containing PAS-positive, diastase-resistant inclusions. Villous blunting and dilated lacteals.", "flag": "ABNORMAL", "clinical_significance": "PAS-positive macrophages in the small bowel are the hallmark histopathologic finding of Whipple disease; the PAS-positive material represents intracellular T. whipplei bacteria"},
-      {"test_name": "Tropheryma whipplei PCR (Duodenal Tissue)", "result": "Detected", "flag": "ABNORMAL", "clinical_significance": "Molecular confirmation of T. whipplei infection; PCR has high sensitivity and specificity from tissue samples"},
-      {"test_name": "Tropheryma whipplei PCR (Blood)", "result": "Detected", "flag": "ABNORMAL", "clinical_significance": "Positive blood PCR indicates bacteremia/disseminated disease"},
-      {"test_name": "CBC — Hemoglobin", "result": "9.4 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease with iron deficiency component from malabsorption"},
-      {"test_name": "Iron Studies", "result": "Ferritin 18 ng/mL, TIBC 420 μg/dL, serum iron 28 μg/dL, transferrin saturation 7%", "flag": "LOW", "clinical_significance": "Iron deficiency from malabsorption despite oral iron supplementation"},
-      {"test_name": "Serum Albumin", "result": "2.2 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia from protein-losing enteropathy and malabsorption"},
-      {"test_name": "Vitamin D, 25-OH", "result": "8 ng/mL", "flag": "LOW", "clinical_significance": "Severe vitamin D deficiency from fat malabsorption"},
-      {"test_name": "Folate", "result": "3.2 ng/mL", "flag": "LOW", "clinical_significance": "Low folate from small intestinal malabsorption"},
-      {"test_name": "ESR", "result": "56 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated from chronic inflammation"},
-      {"test_name": "CRP", "result": "38 mg/L", "flag": "HIGH", "clinical_significance": "Chronic inflammatory state"},
-      {"test_name": "RF and Anti-CCP", "result": "Both negative", "flag": "WNL", "clinical_significance": "Confirms seronegative arthritis — arthritis in Whipple disease is seronegative and non-erosive"},
-      {"test_name": "Stool Elastase", "result": "Normal (>500 μg/g)", "flag": "WNL", "clinical_significance": "Excludes exocrine pancreatic insufficiency as cause of malabsorption"}
+      {
+        "test_name": "Small Bowel Biopsy (Duodenal) — PAS Stain",
+        "result": "Diffuse infiltration of the lamina propria with foamy macrophages containing PAS-positive, diastase-resistant inclusions. Villous blunting and dilated lacteals.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PAS-positive macrophages in the small bowel are the hallmark histopathologic finding of this condition; the PAS-positive material represents intracellular T. whipplei bacteria"
+      },
+      {
+        "test_name": "Tropheryma whipplei PCR (Duodenal Tissue)",
+        "result": "Detected",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Molecular confirmation of T. whipplei infection; PCR has high sensitivity and specificity from tissue samples"
+      },
+      {
+        "test_name": "Tropheryma whipplei PCR (Blood)",
+        "result": "Detected",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive blood PCR indicates bacteremia/disseminated disease"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "9.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia of chronic disease with iron deficiency component from malabsorption"
+      },
+      {
+        "test_name": "Iron Studies",
+        "result": "Ferritin 18 ng/mL, TIBC 420 μg/dL, serum iron 28 μg/dL, transferrin saturation 7%",
+        "flag": "LOW",
+        "clinical_significance": "Iron deficiency from malabsorption despite oral iron supplementation"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "2.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypoalbuminemia from protein-losing enteropathy and malabsorption"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "8 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Severe vitamin D deficiency from fat malabsorption"
+      },
+      {
+        "test_name": "Folate",
+        "result": "3.2 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low folate from small intestinal malabsorption"
+      },
+      {
+        "test_name": "ESR",
+        "result": "56 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from chronic inflammation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "38 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Chronic inflammatory state"
+      },
+      {
+        "test_name": "RF and Anti-CCP",
+        "result": "Both negative",
+        "flag": "WNL",
+        "clinical_significance": "Confirms seronegative arthritis — arthritis in this condition is seronegative and non-erosive"
+      },
+      {
+        "test_name": "Stool Elastase",
+        "result": "Normal (>500 μg/g)",
+        "flag": "WNL",
+        "clinical_significance": "Excludes exocrine pancreatic insufficiency as cause of malabsorption"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Diffuse small bowel wall thickening with mucosal enhancement. Prominent mesenteric and retroperitoneal lymphadenopathy (several nodes measuring 1.5-2.5 cm) with low-density centers. Mild ascites. No masses.", "flag": "ABNORMAL", "clinical_significance": "Low-density mesenteric lymphadenopathy is characteristic of Whipple disease (lipid-laden macrophages within nodes); also seen in lymphoma and Mycobacterium avium complex"},
-      {"test_name": "MRI Brain with Gadolinium", "result": "Several small T2-hyperintense lesions in the periventricular white matter and hypothalamus. No ring-enhancing lesions. Mild cerebral atrophy disproportionate to age.", "flag": "ABNORMAL", "clinical_significance": "CNS involvement of Whipple disease; hypothalamic involvement correlates with neurologic manifestations"},
-      {"test_name": "Echocardiogram (Transthoracic)", "result": "Mild aortic valve thickening with trace aortic regurgitation. No vegetations. Normal LV systolic function. No pericardial effusion.", "flag": "ABNORMAL", "clinical_significance": "Aortic valve thickening may represent early Whipple endocarditis; T. whipplei is increasingly recognized as a cause of culture-negative endocarditis"}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Diffuse small bowel wall thickening with mucosal enhancement. Prominent mesenteric and retroperitoneal lymphadenopathy (several nodes measuring 1.5-2.5 cm) with low-density centers. Mild ascites. No masses.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-density mesenteric lymphadenopathy is characteristic of this condition (lipid-laden macrophages within nodes); also seen in lymphoma and Mycobacterium avium complex"
+      },
+      {
+        "test_name": "MRI Brain with Gadolinium",
+        "result": "Several small T2-hyperintense lesions in the periventricular white matter and hypothalamus. No ring-enhancing lesions. Mild cerebral atrophy disproportionate to age.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CNS involvement of this condition; hypothalamic involvement correlates with neurologic manifestations"
+      },
+      {
+        "test_name": "Echocardiogram (Transthoracic)",
+        "result": "Mild aortic valve thickening with trace aortic regurgitation. No vegetations. Normal LV systolic function. No pericardial effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Aortic valve thickening may represent early Whipple endocarditis; T. whipplei is increasingly recognized as a cause of culture-negative endocarditis"
+      }
     ],
     "key_tests": [
       "Upper endoscopy with duodenal biopsy: PAS stain for PAS-positive, diastase-resistant foamy macrophages",
@@ -66,7 +141,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A middle-aged Caucasian male farmer with a 2-year history of seronegative migratory arthritis (preceding GI symptoms), 18 months of chronic diarrhea with severe malabsorption (weight loss, hypoalbuminemia, iron/vitamin D/folate deficiency), and the pathognomonic oculomasticatory myorhythmia. Duodenal biopsy shows PAS-positive foamy macrophages, and T. whipplei PCR is positive in tissue and blood. Low-density mesenteric lymphadenopathy on CT, hypothalamic MRI lesions, and aortic valve thickening complete the picture of disseminated Whipple disease with GI, articular, neurologic, and cardiac involvement."
+    "final_clue": "A middle-aged Caucasian male farmer with a 2-year history of seronegative migratory arthritis (preceding GI symptoms), 18 months of chronic diarrhea with severe malabsorption (weight loss, hypoalbuminemia, iron/vitamin D/folate deficiency), and the pathognomonic oculomasticatory myorhythmia. Duodenal biopsy shows PAS-positive foamy macrophages, and T. whipplei PCR is positive in tissue and blood. Low-density mesenteric lymphadenopathy on CT, hypothalamic MRI lesions, and aortic valve thickening complete the picture of disseminated this condition with GI, articular, neurologic, and cardiac involvement."
   },
   "debrief": {
     "classic_presentation": "Whipple disease classically presents in middle-aged Caucasian males (male:female ratio 8:1) with the classic tetrad: (1) diarrhea with malabsorption and weight loss, (2) migratory non-deforming arthralgias (often precede GI symptoms by years), (3) abdominal pain, and (4) fever/night sweats. Neurologic manifestations (cognitive decline, personality changes, supranuclear ophthalmoplegia) occur in 10-40% of cases. Oculomasticatory myorhythmia (OMM) — rhythmic convergent eye movements synchronous with jaw contractions — is pathognomonic for Whipple disease and is present in 20% of neurologic Whipple cases.",

@@ -25,23 +25,99 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "12-lead ECG", "result": "Absent P waves, irregularly irregular R-R intervals, narrow QRS complexes, ventricular rate 136 bpm, no ST-segment changes", "flag": "ABNORMAL", "clinical_significance": "Diagnostic for atrial fibrillation with rapid ventricular response"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hyperthyroidism as a secondary cause of AF"},
-      {"test_name": "BNP", "result": "285 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, can be seen in AF with rapid ventricular rate; does not necessarily indicate heart failure"},
-      {"test_name": "Troponin I", "result": "0.02 ng/mL", "flag": "WNL", "clinical_significance": "Normal; rules out acute myocardial infarction as a trigger"},
-      {"test_name": "CBC", "result": "WBC 7,200/μL, Hgb 14.1 g/dL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "Normal; rules out anemia as a contributing factor"},
-      {"test_name": "Basic metabolic panel", "result": "Na 140 mEq/L, K 4.1 mEq/L, Cr 1.0 mg/dL, glucose 105 mg/dL", "flag": "WNL", "clinical_significance": "Normal electrolytes; important to check potassium and magnesium before rate control"},
-      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal magnesium; low magnesium can trigger and perpetuate AF"},
-      {"test_name": "PT/INR", "result": "INR 1.0", "flag": "WNL", "clinical_significance": "Baseline coagulation normal; important for anticoagulation planning"},
-      {"test_name": "Hepatic function panel", "result": "AST 28 U/L, ALT 32 U/L, total bilirubin 0.8 mg/dL, albumin 4.0 g/dL", "flag": "WNL", "clinical_significance": "Normal liver function; relevant for drug metabolism of anticoagulants"}
+      {
+        "test_name": "12-lead ECG",
+        "result": "Absent P waves, irregularly irregular R-R intervals, narrow QRS complexes, ventricular rate 136 bpm, no ST-segment changes",
+        "flag": "ABNORMAL",
+        "clinical_significance": "diagnostic of the suspected condition with rapid ventricular response"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; rules out hyperthyroidism as a secondary cause of AF"
+      },
+      {
+        "test_name": "BNP",
+        "result": "285 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, can be seen in AF with rapid ventricular rate; does not necessarily indicate heart failure"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.02 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out acute myocardial infarction as a trigger"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7,200/μL, Hgb 14.1 g/dL, Plt 210,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out anemia as a contributing factor"
+      },
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 140 mEq/L, K 4.1 mEq/L, Cr 1.0 mg/dL, glucose 105 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes; important to check potassium and magnesium before rate control"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal magnesium; low magnesium can trigger and perpetuate AF"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "INR 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Baseline coagulation normal; important for anticoagulation planning"
+      },
+      {
+        "test_name": "Hepatic function panel",
+        "result": "AST 28 U/L, ALT 32 U/L, total bilirubin 0.8 mg/dL, albumin 4.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function; relevant for drug metabolism of anticoagulants"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic echocardiogram", "result": "Left ventricular ejection fraction 50%. Moderate left atrial enlargement (LA diameter 4.6 cm). Mild concentric left ventricular hypertrophy. No significant valvular disease. No intracardiac thrombus visualized (limited assessment).", "flag": "ABNORMAL", "clinical_significance": "Left atrial enlargement is both a risk factor for and consequence of AF; mild LVH from chronic hypertension"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary edema, effusions, or consolidations. No pneumothorax.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with chronic hypertension and atrial enlargement"}
+      {
+        "test_name": "Transthoracic echocardiogram",
+        "result": "Left ventricular ejection fraction 50%. Moderate left atrial enlargement (LA diameter 4.6 cm). Mild concentric left ventricular hypertrophy. No significant valvular disease. No intracardiac thrombus visualized (limited assessment).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Left atrial enlargement is both a risk factor for and consequence of AF; mild LVH from chronic hypertension"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly. No pulmonary edema, effusions, or consolidations. No pneumothorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly consistent with chronic hypertension and atrial enlargement"
+      }
     ],
-    "key_tests": ["12-lead ECG", "Transthoracic echocardiogram", "TSH", "Basic metabolic panel including magnesium", "CBC"],
-    "acceptable_tests": ["BNP or NT-proBNP", "Troponin", "Chest X-ray", "Hepatic function panel", "PT/INR", "HbA1c", "Lipid panel", "Sleep study"],
-    "low_yield_tests": ["CT chest", "Cardiac catheterization (no ischemic symptoms)", "D-dimer", "Blood cultures", "Serum cortisol"]
+    "key_tests": [
+      "12-lead ECG",
+      "Transthoracic echocardiogram",
+      "TSH",
+      "Basic metabolic panel including magnesium",
+      "CBC"
+    ],
+    "acceptable_tests": [
+      "BNP or NT-proBNP",
+      "Troponin",
+      "Chest X-ray",
+      "Hepatic function panel",
+      "PT/INR",
+      "HbA1c",
+      "Lipid panel",
+      "Sleep study"
+    ],
+    "low_yield_tests": [
+      "CT chest",
+      "Cardiac catheterization (no ischemic symptoms)",
+      "D-dimer",
+      "Blood cultures",
+      "Serum cortisol"
+    ]
   },
   "stage5": {
     "final_clue": "Telemetry monitoring confirms persistent irregularly irregular rhythm without any organized atrial activity over 24 hours, and the patient's CHA2DS2-VASc score is calculated at 3 (hypertension, age 65-74, and vascular disease risk from obesity/OSA), necessitating anticoagulation."
@@ -57,12 +133,33 @@
       "CHA2DS2-VASc score guides anticoagulation decisions — most patients with a score ≥ 2 (men) or ≥ 3 (women) require long-term anticoagulation",
       "Obstructive sleep apnea is an independent risk factor for AF and its adequate treatment reduces AF recurrence"
     ],
-    "sources": ["UpToDate: Overview of atrial fibrillation", "AHA/ACC/HRS Guideline for Management of Patients with Atrial Fibrillation 2023"]
+    "sources": [
+      "UpToDate: Overview of atrial fibrillation",
+      "AHA/ACC/HRS Guideline for Management of Patients with Atrial Fibrillation 2023"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Atrial fibrillation", "Atrial flutter", "Supraventricular tachycardia", "Multifocal atrial tachycardia", "Thyrotoxicosis", "Acute coronary syndrome", "Pulmonary embolism", "Decompensated heart failure"],
-    "after_stage2_more_likely": ["Atrial fibrillation (irregularly irregular rhythm, multiple risk factors including HTN, OSA, obesity, age)"],
-    "after_stage2_less_likely": ["Acute coronary syndrome (no chest pain, no ST changes)", "Pulmonary embolism (no pleuritic chest pain, no leg swelling, no recent immobilization)"],
-    "after_labs_top3": ["Atrial fibrillation", "Atrial flutter with variable block", "Tachycardia-mediated cardiomyopathy"]
+    "reasonable_ddx": [
+      "Atrial fibrillation",
+      "Atrial flutter",
+      "Supraventricular tachycardia",
+      "Multifocal atrial tachycardia",
+      "Thyrotoxicosis",
+      "Acute coronary syndrome",
+      "Pulmonary embolism",
+      "Decompensated heart failure"
+    ],
+    "after_stage2_more_likely": [
+      "Atrial fibrillation (irregularly irregular rhythm, multiple risk factors including HTN, OSA, obesity, age)"
+    ],
+    "after_stage2_less_likely": [
+      "Acute coronary syndrome (no chest pain, no ST changes)",
+      "Pulmonary embolism (no pleuritic chest pain, no leg swelling, no recent immobilization)"
+    ],
+    "after_labs_top3": [
+      "Atrial fibrillation",
+      "Atrial flutter with variable block",
+      "Tachycardia-mediated cardiomyopathy"
+    ]
   }
 }

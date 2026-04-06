@@ -25,28 +25,113 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Hemoglobin", "result": "7.8 g/dL", "flag": "LOW", "clinical_significance": "Moderate anemia explaining the patient's symptoms of fatigue and exertional dyspnea"},
-      {"test_name": "Hematocrit", "result": "24%", "flag": "LOW", "clinical_significance": "Consistent with moderate anemia"},
-      {"test_name": "MCV", "result": "68 fL", "flag": "LOW", "clinical_significance": "Microcytic anemia; classic for iron deficiency"},
-      {"test_name": "MCH", "result": "24 pg", "flag": "LOW", "clinical_significance": "Hypochromic red cells consistent with iron deficiency"},
-      {"test_name": "RDW", "result": "18.5%", "flag": "HIGH", "clinical_significance": "Elevated RDW (anisocytosis) is characteristic of iron deficiency anemia, helps distinguish from thalassemia trait"},
-      {"test_name": "Serum iron", "result": "25 μg/dL", "flag": "LOW", "clinical_significance": "Low serum iron confirms iron deficiency"},
-      {"test_name": "Ferritin", "result": "8 ng/mL", "flag": "LOW", "clinical_significance": "Ferritin < 15 ng/mL is highly specific for iron deficiency; this is the single best test"},
-      {"test_name": "TIBC", "result": "450 μg/dL", "flag": "HIGH", "clinical_significance": "Elevated TIBC reflects the body's attempt to increase iron absorption in iron-deficient states"},
-      {"test_name": "Transferrin saturation", "result": "6%", "flag": "LOW", "clinical_significance": "Transferrin saturation < 20% supports iron deficiency"},
-      {"test_name": "Reticulocyte count", "result": "0.8%", "flag": "LOW", "clinical_significance": "Inappropriately low reticulocyte response indicates impaired RBC production due to iron deficiency"},
-      {"test_name": "Platelet count", "result": "420,000/μL", "flag": "HIGH", "clinical_significance": "Reactive thrombocytosis is common in iron deficiency anemia"},
-      {"test_name": "Peripheral blood smear", "result": "Microcytic, hypochromic red cells with pencil cells and target cells; no schistocytes", "flag": "ABNORMAL", "clinical_significance": "Morphology consistent with iron deficiency anemia"}
+      {
+        "test_name": "Hemoglobin",
+        "result": "7.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Moderate anemia explaining the patient's symptoms of fatigue and exertional dyspnea"
+      },
+      {
+        "test_name": "Hematocrit",
+        "result": "24%",
+        "flag": "LOW",
+        "clinical_significance": "Consistent with moderate anemia"
+      },
+      {
+        "test_name": "MCV",
+        "result": "68 fL",
+        "flag": "LOW",
+        "clinical_significance": "Microcytic anemia; classic for iron deficiency"
+      },
+      {
+        "test_name": "MCH",
+        "result": "24 pg",
+        "flag": "LOW",
+        "clinical_significance": "Hypochromic red cells consistent with iron deficiency"
+      },
+      {
+        "test_name": "RDW",
+        "result": "18.5%",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated RDW (anisocytosis) is characteristic of this condition, helps distinguish from thalassemia trait"
+      },
+      {
+        "test_name": "Serum iron",
+        "result": "25 μg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low serum iron confirms iron deficiency"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "8 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Ferritin < 15 ng/mL is highly specific for iron deficiency; this is the single best test"
+      },
+      {
+        "test_name": "TIBC",
+        "result": "450 μg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated TIBC reflects the body's attempt to increase iron absorption in iron-deficient states"
+      },
+      {
+        "test_name": "Transferrin saturation",
+        "result": "6%",
+        "flag": "LOW",
+        "clinical_significance": "Transferrin saturation < 20% supports iron deficiency"
+      },
+      {
+        "test_name": "Reticulocyte count",
+        "result": "0.8%",
+        "flag": "LOW",
+        "clinical_significance": "Inappropriately low reticulocyte response indicates impaired RBC production due to iron deficiency"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "420,000/μL",
+        "flag": "HIGH",
+        "clinical_significance": "Reactive thrombocytosis is common in this condition"
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Microcytic, hypochromic red cells with pencil cells and target cells; no schistocytes",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Morphology consistent with the suspected diagnosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Pelvic ultrasound", "result": "Enlarged uterus measuring 10 x 6 x 5 cm with a 3 cm intramural fibroid in the posterior wall. Endometrial stripe 8 mm. Ovaries appear normal.", "flag": "ABNORMAL", "clinical_significance": "Uterine fibroid likely contributing to menorrhagia and subsequent iron deficiency"}
+      {
+        "test_name": "Pelvic ultrasound",
+        "result": "Enlarged uterus measuring 10 x 6 x 5 cm with a 3 cm intramural fibroid in the posterior wall. Endometrial stripe 8 mm. Ovaries appear normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Uterine fibroid likely contributing to menorrhagia and subsequent iron deficiency"
+      }
     ],
-    "key_tests": ["CBC with differential", "Serum ferritin", "Serum iron, TIBC, and transferrin saturation", "Reticulocyte count", "Peripheral blood smear"],
-    "acceptable_tests": ["Pelvic ultrasound", "Basic metabolic panel", "Stool occult blood test", "Vitamin B12 and folate levels", "Hemoglobin electrophoresis", "LDH and haptoglobin", "Pregnancy test"],
-    "low_yield_tests": ["CT abdomen/pelvis", "Bone marrow biopsy (not needed for straightforward IDA)", "Serum erythropoietin level", "Flow cytometry", "Iron staining of marrow (gold standard but invasive and unnecessary here)"]
+    "key_tests": [
+      "CBC with differential",
+      "Serum ferritin",
+      "Serum iron, TIBC, and transferrin saturation",
+      "Reticulocyte count",
+      "Peripheral blood smear"
+    ],
+    "acceptable_tests": [
+      "Pelvic ultrasound",
+      "Basic metabolic panel",
+      "Stool occult blood test",
+      "Vitamin B12 and folate levels",
+      "Hemoglobin electrophoresis",
+      "LDH and haptoglobin",
+      "Pregnancy test"
+    ],
+    "low_yield_tests": [
+      "CT abdomen/pelvis",
+      "Bone marrow biopsy (not needed for straightforward IDA)",
+      "Serum erythropoietin level",
+      "Flow cytometry",
+      "Iron staining of marrow (gold standard but invasive and unnecessary here)"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient reports that she has been craving and chewing 2-3 cups of ice daily for the past month — a form of pica called pagophagia, which is highly specific for iron deficiency anemia."
+    "final_clue": "The patient reports that she has been craving and chewing 2-3 cups of ice daily for the past month — a form of pica called pagophagia, which is highly specific for this condition."
   },
   "debrief": {
     "classic_presentation": "Iron deficiency anemia typically presents with insidious onset of fatigue, exertional dyspnea, pallor, and sometimes pica (especially pagophagia). Physical exam may reveal conjunctival pallor, glossitis, angular cheilitis, and koilonychia. In premenopausal women, menorrhagia is the most common cause. Labs show microcytic hypochromic anemia with low ferritin, low serum iron, high TIBC, and low transferrin saturation.",
@@ -59,12 +144,32 @@
       "Pagophagia (ice craving) is a form of pica that is highly specific for iron deficiency",
       "Always identify and treat the underlying cause of iron loss — in premenopausal women, menorrhagia is most common; in men and postmenopausal women, GI blood loss must be excluded"
     ],
-    "sources": ["UpToDate: Iron deficiency anemia in adults — Causes, clinical manifestations, and diagnosis", "ASH Guidelines: Iron Deficiency Anemia 2023"]
+    "sources": [
+      "UpToDate: Iron deficiency anemia in adults — Causes, clinical manifestations, and diagnosis",
+      "ASH Guidelines: Iron Deficiency Anemia 2023"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Iron deficiency anemia", "Thalassemia trait", "Anemia of chronic disease", "Sideroblastic anemia", "Lead poisoning", "Vitamin B12 or folate deficiency", "Hypothyroidism"],
-    "after_stage2_more_likely": ["Iron deficiency anemia (menorrhagia, pica, koilonychia, glossitis, angular cheilitis — all classic findings)"],
-    "after_stage2_less_likely": ["Thalassemia trait (usually asymptomatic, no koilonychia or pica)", "Anemia of chronic disease (no chronic illness identified)"],
-    "after_labs_top3": ["Iron deficiency anemia", "Thalassemia trait", "Combined iron deficiency and anemia of chronic disease"]
+    "reasonable_ddx": [
+      "Iron deficiency anemia",
+      "Thalassemia trait",
+      "Anemia of chronic disease",
+      "Sideroblastic anemia",
+      "Lead poisoning",
+      "Vitamin B12 or folate deficiency",
+      "Hypothyroidism"
+    ],
+    "after_stage2_more_likely": [
+      "Iron deficiency anemia (menorrhagia, pica, koilonychia, glossitis, angular cheilitis — all classic findings)"
+    ],
+    "after_stage2_less_likely": [
+      "Thalassemia trait (usually asymptomatic, no koilonychia or pica)",
+      "Anemia of chronic disease (no chronic illness identified)"
+    ],
+    "after_labs_top3": [
+      "Iron deficiency anemia",
+      "Thalassemia trait",
+      "Combined iron deficiency and anemia of chronic disease"
+    ]
   }
 }

@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 12.5, Neutrophils 78%, Hgb 14.2, Hct 42.5, Plt 280", "flag": "MILD ABNORMAL", "clinical_significance": "Mild leukocytosis with neutrophilia consistent with acute bacterial infection"},
-      {"test_name": "CRP", "result": "3.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated CRP supporting bacterial infection; can help differentiate bacterial from viral sinusitis"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 14, Cr 1.0, Glucose 95, Ca 9.4, AST 22, ALT 20, Alk Phos 62, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel"},
-      {"test_name": "Procalcitonin", "result": "0.3 ng/mL", "flag": "BORDERLINE", "clinical_significance": "Low-level elevation suggests localized bacterial infection rather than systemic process"},
-      {"test_name": "Rapid strep test", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out strep pharyngitis as cause of sore throat symptoms"},
-      {"test_name": "Monospot", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out infectious mononucleosis"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 12.5, Neutrophils 78%, Hgb 14.2, Hct 42.5, Plt 280",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Mild leukocytosis with neutrophilia consistent with acute bacterial infection"
+      },
+      {
+        "test_name": "CRP",
+        "result": "3.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CRP supporting bacterial infection; can help differentiate bacterial from viral sinusitis"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 139, K 4.0, Cl 101, CO2 25, BUN 14, Cr 1.0, Glucose 95, Ca 9.4, AST 22, ALT 20, Alk Phos 62, Albumin 4.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "0.3 ng/mL",
+        "flag": "BORDERLINE",
+        "clinical_significance": "Low-level elevation suggests localized bacterial infection rather than systemic process"
+      },
+      {
+        "test_name": "Rapid strep test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out strep pharyngitis as cause of sore throat symptoms"
+      },
+      {
+        "test_name": "Monospot",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out infectious mononucleosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Sinuses (non-contrast)", "result": "Mucosal thickening and partial opacification of bilateral maxillary sinuses (right > left). Air-fluid level in right maxillary sinus. Mild mucosal thickening in right frontal sinus. Ethmoid and sphenoid sinuses clear. No bony erosion. No orbital involvement.", "flag": "ABNORMAL", "clinical_significance": "CT confirms acute sinusitis with air-fluid level in right maxillary sinus; no evidence of complications (no orbital or intracranial extension)"}
+      {
+        "test_name": "CT Sinuses (non-contrast)",
+        "result": "Mucosal thickening and partial opacification of bilateral maxillary sinuses (right > left). Air-fluid level in right maxillary sinus. Mild mucosal thickening in right frontal sinus. Ethmoid and sphenoid sinuses clear. No bony erosion. No orbital involvement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT confirms acute sinusitis with air-fluid level in right maxillary sinus; no evidence of complications (no orbital or intracranial extension)"
+      }
     ],
     "key_tests": [
       "Clinical diagnosis based on IDSA criteria — symptoms >10 days without improvement, double worsening pattern, purulent discharge, facial pain",
@@ -55,7 +90,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets IDSA diagnostic criteria for acute bacterial sinusitis: symptoms persisting >10 days without improvement with a 'double worsening' pattern (initial improvement followed by new deterioration). The clinical triad of purulent nasal discharge, facial pain/pressure, and fever after initial viral URI supports bacterial superinfection. CT sinuses confirm bilateral maxillary sinusitis with air-fluid level. The three most common pathogens are Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis."
+    "final_clue": "The patient meets IDSA diagnostic criteria for this condition: symptoms persisting >10 days without improvement with a 'double worsening' pattern (initial improvement followed by new deterioration). The clinical triad of purulent nasal discharge, facial pain/pressure, and fever after initial viral URI supports bacterial superinfection. CT sinuses confirm bilateral maxillary sinusitis with air-fluid level. The three most common pathogens are Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis."
   },
   "debrief": {
     "classic_presentation": "A patient presenting with nasal congestion, purulent nasal discharge, facial pain/pressure (worse with bending forward), and decreased smell, typically following a viral URI. Three clinical patterns suggest bacterial rather than viral sinusitis (IDSA criteria): (1) persistent symptoms lasting >10 days without improvement, (2) onset with severe symptoms (high fever >39°C and purulent discharge for 3-4 consecutive days), or (3) 'double worsening' — initial improvement followed by new worsening of symptoms. Maxillary tooth pain and diminished sinus transillumination are supportive findings.",

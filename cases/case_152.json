@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "2,100/μL (ANC 800/μL)", "flag": "LOW", "clinical_significance": "Leukopenia with severe neutropenia from bone marrow involvement by Histoplasma"},
-      {"test_name": "CBC — Hemoglobin", "result": "8.4 g/dL", "flag": "LOW", "clinical_significance": "Anemia of chronic disease compounded by bone marrow infiltration"},
-      {"test_name": "CBC — Platelets", "result": "68,000/μL", "flag": "LOW", "clinical_significance": "Thrombocytopenia completing the triad of pancytopenia; characteristic of disseminated histoplasmosis with marrow involvement"},
-      {"test_name": "Histoplasma Urine Antigen", "result": "Positive (12.4 ng/mL)", "flag": "ABNORMAL", "clinical_significance": "Highly sensitive (>95%) for disseminated histoplasmosis; key diagnostic test"},
-      {"test_name": "Histoplasma Serum Antigen", "result": "Positive (8.2 ng/mL)", "flag": "ABNORMAL", "clinical_significance": "Confirms high fungal burden; useful for monitoring treatment response"},
-      {"test_name": "Serum LDH", "result": "842 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated LDH common in disseminated histoplasmosis; can be used as a prognostic marker"},
-      {"test_name": "Serum Ferritin", "result": "4,280 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated ferritin suggests macrophage activation/hemophagocytic syndrome, which can accompany disseminated histoplasmosis"},
-      {"test_name": "AST/ALT", "result": "AST 124 U/L, ALT 96 U/L", "flag": "HIGH", "clinical_significance": "Hepatic involvement from disseminated disease"},
-      {"test_name": "Alkaline Phosphatase", "result": "286 U/L", "flag": "HIGH", "clinical_significance": "Elevated from hepatic granulomatous infiltration"},
-      {"test_name": "CD4 Count", "result": "45 cells/μL", "flag": "LOW", "clinical_significance": "Severely immunocompromised; disseminated histoplasmosis typically occurs at CD4 <150, most commonly <100"},
-      {"test_name": "HIV Viral Load", "result": "320,000 copies/mL", "flag": "HIGH", "clinical_significance": "Uncontrolled viremia from ART non-adherence"},
-      {"test_name": "Blood Culture (Fungal — Lysis Centrifugation)", "result": "Growth of Histoplasma capsulatum at 14 days", "flag": "ABNORMAL", "clinical_significance": "Definitive diagnosis; fungal blood cultures positive in ~50-70% of disseminated disease"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "2,100/μL (ANC 800/μL)",
+        "flag": "LOW",
+        "clinical_significance": "Leukopenia with severe neutropenia from bone marrow involvement by Histoplasma"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "8.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Anemia of chronic disease compounded by bone marrow infiltration"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "68,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Thrombocytopenia completing the triad of pancytopenia; characteristic of this condition with marrow involvement"
+      },
+      {
+        "test_name": "Histoplasma Urine Antigen",
+        "result": "Positive (12.4 ng/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Highly sensitive (>95%) for this condition; key diagnostic test"
+      },
+      {
+        "test_name": "Histoplasma Serum Antigen",
+        "result": "Positive (8.2 ng/mL)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms high fungal burden; useful for monitoring treatment response"
+      },
+      {
+        "test_name": "Serum LDH",
+        "result": "842 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated LDH common in this condition; can be used as a prognostic marker"
+      },
+      {
+        "test_name": "Serum Ferritin",
+        "result": "4,280 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated ferritin suggests macrophage activation/hemophagocytic syndrome, which can accompany this condition"
+      },
+      {
+        "test_name": "AST/ALT",
+        "result": "AST 124 U/L, ALT 96 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hepatic involvement from disseminated disease"
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "result": "286 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hepatic granulomatous infiltration"
+      },
+      {
+        "test_name": "CD4 Count",
+        "result": "45 cells/μL",
+        "flag": "LOW",
+        "clinical_significance": "Severely immunocompromised; this condition typically occurs at CD4 <150, most commonly <100"
+      },
+      {
+        "test_name": "HIV Viral Load",
+        "result": "320,000 copies/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Uncontrolled viremia from ART non-adherence"
+      },
+      {
+        "test_name": "Blood Culture (Fungal — Lysis Centrifugation)",
+        "result": "Growth of Histoplasma capsulatum at 14 days",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Definitive diagnosis; fungal blood cultures positive in ~50-70% of disseminated disease"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Chest", "result": "Diffuse bilateral miliary-pattern micronodules (<3 mm) throughout both lung fields. Mediastinal and bilateral hilar lymphadenopathy. No cavitary lesions. No pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Miliary pattern suggests hematogenous dissemination; differential includes miliary TB, but Histoplasma is more likely given geography and antigen results"},
-      {"test_name": "CT Abdomen/Pelvis", "result": "Hepatomegaly (18 cm) and splenomegaly (16 cm). Diffuse retroperitoneal and mesenteric lymphadenopathy. No abscess. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Hepatosplenomegaly and diffuse lymphadenopathy consistent with disseminated fungal infection"}
+      {
+        "test_name": "CT Chest",
+        "result": "Diffuse bilateral miliary-pattern micronodules (<3 mm) throughout both lung fields. Mediastinal and bilateral hilar lymphadenopathy. No cavitary lesions. No pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Miliary pattern suggests hematogenous dissemination; differential includes miliary TB, but Histoplasma is more likely given geography and antigen results"
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis",
+        "result": "Hepatomegaly (18 cm) and splenomegaly (16 cm). Diffuse retroperitoneal and mesenteric lymphadenopathy. No abscess. No bowel obstruction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hepatosplenomegaly and diffuse lymphadenopathy consistent with disseminated fungal infection"
+      }
     ],
     "key_tests": [
       "Histoplasma urine antigen (sensitivity >95% in disseminated disease)",
@@ -66,7 +136,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "An HIV/AIDS patient (CD4 45) from the Ohio River Valley with occupational exposure to old buildings presenting with 6 weeks of fever, weight loss, pancytopenia, hepatosplenomegaly, miliary lung nodules, oral ulcers, and umbilicated skin papules. Histoplasma urine and serum antigens are strongly positive, and fungal blood cultures grow H. capsulatum. The triad of pancytopenia + hepatosplenomegaly + markedly elevated LDH/ferritin in an AIDS patient from an endemic area is classic for disseminated histoplasmosis."
+    "final_clue": "An HIV/AIDS patient (CD4 45) from the Ohio River Valley with occupational exposure to old buildings presenting with 6 weeks of fever, weight loss, pancytopenia, hepatosplenomegaly, miliary lung nodules, oral ulcers, and umbilicated skin papules. Histoplasma urine and serum antigens are strongly positive, and fungal blood cultures grow H. capsulatum. The triad of pancytopenia + hepatosplenomegaly + markedly elevated LDH/ferritin in an AIDS patient from an endemic area is classic for this condition."
   },
   "debrief": {
     "classic_presentation": "Disseminated histoplasmosis typically occurs in severely immunocompromised patients (HIV with CD4 <150, organ transplant recipients, TNF-alpha inhibitor users) from endemic areas (Ohio and Mississippi River Valleys, Central America). The presentation is subacute over weeks: fever, weight loss, pancytopenia, hepatosplenomegaly, and mucocutaneous lesions (oral ulcers with rolled borders, umbilicated skin papules). Miliary pulmonary infiltrates, markedly elevated LDH and ferritin, and adrenal involvement are classic.",

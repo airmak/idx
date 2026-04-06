@@ -25,15 +25,50 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.4, Hgb 13.8, Hct 41.2, Plt 255", "flag": "WNL", "clinical_significance": "Normal CBC, no anemia or infection"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.4, AST 18, ALT 15, Alk Phos 55, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; adequate nutrition"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out thyroid-related anxiety or mood symptoms"},
-      {"test_name": "Free T4", "result": "1.2 ng/dL", "flag": "WNL", "clinical_significance": "Confirms euthyroid status"},
-      {"test_name": "Urine drug screen", "result": "Negative for all substances", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychiatric symptoms"},
-      {"test_name": "Vitamin D, 25-OH", "result": "22 ng/mL", "flag": "LOW-NORMAL", "clinical_significance": "Borderline low, likely from limited sun exposure due to social avoidance"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.4, Hgb 13.8, Hct 41.2, Plt 255",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC, no anemia or infection"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 12, Cr 0.8, Glucose 88, Ca 9.4, AST 18, ALT 15, Alk Phos 55, Albumin 4.2",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; adequate nutrition"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; rules out thyroid-related anxiety or mood symptoms"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "1.2 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Confirms euthyroid status"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for all substances",
+        "flag": "WNL",
+        "clinical_significance": "Rules out substance-induced psychiatric symptoms"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "22 ng/mL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Borderline low, likely from limited sun exposure due to social avoidance"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Facial CT scan (obtained previously by ENT referral)", "result": "Normal bony and soft tissue anatomy. No septal deviation. Symmetric nasal structures.", "flag": "WNL", "clinical_significance": "Objectively normal nasal anatomy, confirming that perceived defect is not based in reality"}
+      {
+        "test_name": "Facial CT scan (obtained previously by ENT referral)",
+        "result": "Normal bony and soft tissue anatomy. No septal deviation. Symmetric nasal structures.",
+        "flag": "WNL",
+        "clinical_significance": "Objectively normal nasal anatomy, confirming that perceived defect is not based in reality"
+      }
     ],
     "key_tests": [
       "Comprehensive psychiatric interview — revealing preoccupation with perceived defect not observable to others, with repetitive behaviors (mirror checking, comparing) and significant functional impairment",
@@ -57,7 +92,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets DSM-5 criteria for body dysmorphic disorder: (1) preoccupation with perceived defect in physical appearance (nasal asymmetry) that is not observable or appears slight to others, (2) repetitive behaviors in response to appearance concerns (mirror checking 4-5 hours daily, comparing, camouflaging with makeup/mask, seeking reassurance from surgeons), and (3) clinically significant distress and functional impairment (job loss, social withdrawal, dropping out of college). Objective facial CT confirms normal anatomy. The focus on a specific facial feature distinguishes this from eating disorders. Family history of OCD is relevant given the OCD-spectrum classification of BDD."
+    "final_clue": "The patient meets DSM-5 criteria for this condition: (1) preoccupation with perceived defect in physical appearance (nasal asymmetry) that is not observable or appears slight to others, (2) repetitive behaviors in response to appearance concerns (mirror checking 4-5 hours daily, comparing, camouflaging with makeup/mask, seeking reassurance from surgeons), and (3) clinically significant distress and functional impairment (job loss, social withdrawal, dropping out of college). Objective facial CT confirms normal anatomy. The focus on a specific facial feature distinguishes this from eating disorders. Family history of OCD is relevant given the OCD-spectrum classification of BDD."
   },
   "debrief": {
     "classic_presentation": "A young adult (typical onset in adolescence) who is preoccupied with a perceived physical defect — most commonly facial features (nose, skin, hair) — that is not observable or appears slight to others. They engage in repetitive behaviors: mirror checking, excessive grooming, skin picking, reassurance seeking, comparing appearance to others, and camouflaging (makeup, hats, masks). The condition causes significant functional impairment including social avoidance, occupational/academic dysfunction, and cosmetic surgery seeking. Insight is typically poor; many patients have delusional conviction about the defect.",

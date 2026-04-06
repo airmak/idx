@@ -4,7 +4,7 @@
   "specialty": "OB/GYN",
   "diagnosis": "HELLP syndrome",
   "icd_category": "O14.20 – HELLP syndrome, unspecified trimester",
-  "one_liner": "A 30-year-old G1P0 at 35 weeks gestation presents with severe epigastric pain, malaise, and nausea; labs reveal hemolysis (schistocytes, LDH 820), elevated liver enzymes (AST 340), and low platelets (52,000), consistent with HELLP syndrome.",
+  "one_liner": "A 30-year-old G1P0 at 35 weeks gestation presents with severe epigastric pain, malaise, and nausea; labs reveal hemolysis (schistocytes, LDH 820), elevated liver enzymes (AST 340), and low platelets (52,000), consistent with the suspected diagnosis.",
   "stage2": {
     "hpi_extension": "The patient presents to labor and delivery with severe, band-like epigastric and right upper quadrant pain that began approximately 6 hours ago and has been progressively worsening. She describes associated malaise, nausea with two episodes of vomiting, and a feeling of being 'unwell.' She noticed swelling of her face and hands over the past 2 days. Her prenatal blood pressures have been borderline elevated (130-140/85-90) at the last two visits, and she was being monitored closely. She denies headache, visual changes, vaginal bleeding, or contractions. She felt fetal movement earlier today.",
     "pmh": "G1P0 at 35 weeks 2 days. Borderline elevated blood pressures at recent prenatal visits. No prior diagnosis of preeclampsia. No chronic hypertension or renal disease.",
@@ -29,19 +29,19 @@
         "test_name": "Platelets",
         "result": "52 × 10³/µL",
         "flag": "LOW",
-        "clinical_significance": "Severe thrombocytopenia (<100,000) is a defining feature of HELLP syndrome (LP = Low Platelets). Platelet transfusion may be needed before delivery."
+        "clinical_significance": "Severe thrombocytopenia (<100,000) is a defining feature of this condition (LP = Low Platelets). Platelet transfusion may be needed before delivery."
       },
       {
         "test_name": "AST",
         "result": "340 U/L",
         "flag": "HIGH",
-        "clinical_significance": "Markedly elevated AST (≥70 U/L or ≥2× ULN) fulfills the elevated liver enzyme criterion (EL) of HELLP syndrome."
+        "clinical_significance": "Markedly elevated AST (≥70 U/L or ≥2× ULN) fulfills the elevated liver enzyme criterion (EL) of this condition."
       },
       {
         "test_name": "ALT",
         "result": "295 U/L",
         "flag": "HIGH",
-        "clinical_significance": "Significantly elevated ALT corroborates hepatic injury from HELLP syndrome."
+        "clinical_significance": "Significantly elevated ALT corroborates hepatic injury from this condition."
       },
       {
         "test_name": "LDH",
@@ -53,7 +53,7 @@
         "test_name": "Peripheral blood smear",
         "result": "Schistocytes (2-3 per HPF), helmet cells, polychromasia, decreased platelets",
         "flag": "ABNORMAL",
-        "clinical_significance": "Schistocytes confirm microangiopathic hemolytic anemia (MAHA), the hallmark of the hemolysis (H) component of HELLP syndrome."
+        "clinical_significance": "Schistocytes confirm microangiopathic hemolytic anemia (MAHA), the hallmark of the hemolysis (H) component of this condition."
       },
       {
         "test_name": "Total bilirubin / Indirect bilirubin",
@@ -97,13 +97,13 @@
         "test_name": "Right upper quadrant ultrasound",
         "result": "Liver appears heterogeneous with a small subcapsular hypoechoic area (2.5 cm) in the right lobe suggestive of subcapsular hematoma or hepatic infarction. No hepatic rupture. Gallbladder normal. No biliary dilation.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Subcapsular hepatic hematoma is a feared complication of HELLP syndrome that can progress to hepatic rupture; urgent delivery and surgical consultation are warranted."
+        "clinical_significance": "Subcapsular hepatic hematoma is a feared complication of this condition that can progress to hepatic rupture; urgent delivery and surgical consultation are warranted."
       },
       {
         "test_name": "Obstetric ultrasound",
         "result": "Single live intrauterine pregnancy, vertex presentation, EFW 2,350 g (30th percentile). AFI 10 cm. Placenta posterior, no abruption. Normal umbilical artery Doppler.",
         "flag": "WNL",
-        "clinical_significance": "Reassuring fetal status. No evidence of placental abruption, which can complicate HELLP syndrome."
+        "clinical_significance": "Reassuring fetal status. No evidence of placental abruption, which can complicate this condition."
       }
     ],
     "key_tests": [
@@ -135,7 +135,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Despite initiation of magnesium sulfate and antihypertensives, the patient's platelets decline further to 38,000 and fibrinogen drops to 145 mg/dL over 4 hours. The decision is made for emergent cesarean delivery. Postoperatively, platelet counts begin to recover within 48 hours, and liver enzymes trend downward, confirming the expected postpartum resolution of HELLP syndrome."
+    "final_clue": "Despite initiation of magnesium sulfate and antihypertensives, the patient's platelets decline further to 38,000 and fibrinogen drops to 145 mg/dL over 4 hours. The decision is made for emergent cesarean delivery. Postoperatively, platelet counts begin to recover within 48 hours, and liver enzymes trend downward, confirming the expected postpartum resolution of this condition."
   },
   "debrief": {
     "classic_presentation": "HELLP syndrome classically presents in the third trimester (or postpartum in 30%) with epigastric or right upper quadrant pain, malaise, nausea/vomiting, and generalized edema. It is a severe variant of preeclampsia defined by Hemolysis (schistocytes, elevated LDH, low haptoglobin), Elevated Liver enzymes (AST/ALT ≥2× ULN), and Low Platelets (<100,000). Notably, 15% of cases occur without significant hypertension or proteinuria, making it a diagnostic challenge.",

@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 6.2, Hgb 13.5, Hct 40.5, Plt 240", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia, infection, or hematologic disease"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 90, Ca 9.4, AST 20, ALT 18, Alk Phos 58, Albumin 4.2", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no organ dysfunction"},
-      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal ESR — critically important to distinguish fibromyalgia from inflammatory conditions (ESR is ALWAYS normal in fibromyalgia)"},
-      {"test_name": "CRP", "result": "0.3 mg/dL", "flag": "WNL", "clinical_significance": "Normal CRP confirming no systemic inflammation"},
-      {"test_name": "RF (Rheumatoid Factor)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rules out rheumatoid arthritis"},
-      {"test_name": "Anti-CCP antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; further argues against RA"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against SLE and other connective tissue diseases"},
-      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can mimic fibromyalgia"},
-      {"test_name": "Vitamin D, 25-OH", "result": "24 ng/mL", "flag": "LOW-NORMAL", "clinical_significance": "Borderline low vitamin D — deficiency can worsen widespread pain; supplementation recommended"},
-      {"test_name": "CPK", "result": "80 U/L", "flag": "WNL", "clinical_significance": "Normal CPK; rules out inflammatory myopathy (polymyositis)"},
-      {"test_name": "Vitamin B12", "result": "420 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12; deficiency can cause fatigue and neuropathic symptoms"},
-      {"test_name": "HbA1c", "result": "5.3%", "flag": "WNL", "clinical_significance": "Normal; rules out diabetes-related neuropathy"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.2, Hgb 13.5, Hct 40.5, Plt 240",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no anemia, infection, or hematologic disease"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.0, Cl 102, CO2 25, BUN 12, Cr 0.8, Glucose 90, Ca 9.4, AST 20, ALT 18, Alk Phos 58, Albumin 4.2",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; no organ dysfunction"
+      },
+      {
+        "test_name": "ESR",
+        "result": "8 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal ESR — critically important to distinguish this condition from inflammatory conditions (ESR is ALWAYS normal in this condition)"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.3 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CRP confirming no systemic inflammation"
+      },
+      {
+        "test_name": "RF (Rheumatoid Factor)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; rules out rheumatoid arthritis"
+      },
+      {
+        "test_name": "Anti-CCP antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; further argues against RA"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; argues against SLE and other connective tissue diseases"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can mimic this condition"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "24 ng/mL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Borderline low vitamin D — deficiency can worsen widespread pain; supplementation recommended"
+      },
+      {
+        "test_name": "CPK",
+        "result": "80 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal CPK; rules out inflammatory myopathy (polymyositis)"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "420 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal B12; deficiency can cause fatigue and neuropathic symptoms"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.3%",
+        "flag": "WNL",
+        "clinical_significance": "Normal; rules out diabetes-related neuropathy"
+      }
     ],
     "imaging_results": [
-      {"test_name": "X-ray cervical spine", "result": "Mild degenerative changes at C5-C6. No fracture, dislocation, or significant stenosis.", "flag": "MILD ABNORMAL", "clinical_significance": "Minor degenerative changes are age-appropriate and do not explain the widespread pain pattern"}
+      {
+        "test_name": "X-ray cervical spine",
+        "result": "Mild degenerative changes at C5-C6. No fracture, dislocation, or significant stenosis.",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Minor degenerative changes are age-appropriate and do not explain the widespread pain pattern"
+      }
     ],
     "key_tests": [
       "ACR 2016 Revised Fibromyalgia Diagnostic Criteria — Widespread Pain Index (WPI) score 14 (threshold >7) and Symptom Severity Scale (SSS) score 10 (threshold >5 when WPI >7)",
@@ -63,7 +128,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets the 2016 ACR revised criteria for fibromyalgia: (1) widespread pain in at least 4 of 5 body regions (she has all 5: left upper, right upper, left lower, right lower, and axial), (2) symptoms present for at least 3 months, (3) Widespread Pain Index (WPI) >7 and Symptom Severity Scale (SSS) >5, and (4) fibromyalgia is valid regardless of other diagnoses. Normal inflammatory markers (ESR, CRP), negative autoimmune serologies (ANA, RF, anti-CCP), and normal CPK exclude inflammatory and autoimmune conditions. Characteristic comorbidities support the diagnosis: IBS, tension headaches, TMJ disorder, sleep disturbance, cognitive dysfunction, and anxiety."
+    "final_clue": "The patient meets the 2016 ACR revised criteria for this condition: (1) widespread pain in at least 4 of 5 body regions (she has all 5: left upper, right upper, left lower, right lower, and axial), (2) symptoms present for at least 3 months, (3) Widespread Pain Index (WPI) >7 and Symptom Severity Scale (SSS) >5, and (4) this condition is valid regardless of other diagnoses. Normal inflammatory markers (ESR, CRP), negative autoimmune serologies (ANA, RF, anti-CCP), and normal CPK exclude inflammatory and autoimmune conditions. Characteristic comorbidities support the diagnosis: IBS, tension headaches, TMJ disorder, sleep disturbance, cognitive dysfunction, and anxiety."
   },
   "debrief": {
     "classic_presentation": "A middle-aged woman presenting with chronic widespread musculoskeletal pain (>3 months, involving all 4 body quadrants plus axial skeleton), profound fatigue, unrefreshing sleep, and cognitive difficulties ('fibro fog'). Pain is diffuse, migratory, with tender points but NO joint swelling. Commonly associated conditions include IBS, TMJ disorder, tension/migraine headaches, restless leg syndrome, interstitial cystitis, and mood/anxiety disorders. All laboratory studies and imaging are characteristically normal. The condition often begins after a triggering event (physical trauma, infection, emotional stress).",

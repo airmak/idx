@@ -29,13 +29,13 @@
         "test_name": "Total testosterone",
         "result": "68 ng/dL",
         "flag": "HIGH",
-        "clinical_significance": "Mildly elevated total testosterone (normal <45 ng/dL in women) is consistent with PCOS-related hyperandrogenism. Markedly elevated levels (>200 ng/dL) would warrant evaluation for androgen-secreting tumor."
+        "clinical_significance": "Mildly elevated total testosterone (normal <45 ng/dL in women) is consistent with the suspected diagnosis-related hyperandrogenism. Markedly elevated levels (>200 ng/dL) would warrant evaluation for androgen-secreting tumor."
       },
       {
         "test_name": "Free testosterone",
         "result": "8.2 pg/mL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated free testosterone confirms biochemical hyperandrogenism, one of the Rotterdam criteria for PCOS."
+        "clinical_significance": "Elevated free testosterone confirms biochemical hyperandrogenism, one of the Rotterdam criteria for this condition."
       },
       {
         "test_name": "DHEA-S",
@@ -47,19 +47,19 @@
         "test_name": "17-hydroxyprogesterone",
         "result": "120 ng/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal 17-OHP (<200 ng/dL in follicular phase) excludes non-classic congenital adrenal hyperplasia (21-hydroxylase deficiency), an important mimicker of PCOS."
+        "clinical_significance": "Normal 17-OHP (<200 ng/dL in follicular phase) excludes non-classic congenital adrenal hyperplasia (21-hydroxylase deficiency), an important mimicker of this condition."
       },
       {
         "test_name": "LH",
         "result": "14.2 mIU/mL",
         "flag": "HIGH",
-        "clinical_significance": "Elevated LH with a high LH:FSH ratio (>2:1) is characteristic of PCOS, driven by increased GnRH pulse frequency."
+        "clinical_significance": "Elevated LH with a high LH:FSH ratio (>2:1) is characteristic of this condition, driven by increased GnRH pulse frequency."
       },
       {
         "test_name": "FSH",
         "result": "5.8 mIU/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal FSH in the setting of elevated LH creates an LH:FSH ratio of 2.4:1, classic for PCOS."
+        "clinical_significance": "Normal FSH in the setting of elevated LH creates an LH:FSH ratio of 2.4:1, classic for this condition."
       },
       {
         "test_name": "TSH",
@@ -77,13 +77,13 @@
         "test_name": "Fasting glucose and insulin",
         "result": "Glucose 102 mg/dL, Insulin 28 µIU/mL (HOMA-IR 7.0)",
         "flag": "HIGH",
-        "clinical_significance": "Fasting glucose is in the impaired range (100-125) and elevated insulin with HOMA-IR >2.5 confirms significant insulin resistance, present in 50-70% of women with PCOS."
+        "clinical_significance": "Fasting glucose is in the impaired range (100-125) and elevated insulin with HOMA-IR >2.5 confirms significant insulin resistance, present in 50-70% of women with this condition."
       },
       {
         "test_name": "Lipid panel",
         "result": "Total cholesterol 218 mg/dL, LDL 142 mg/dL, HDL 38 mg/dL, Triglycerides 190 mg/dL",
         "flag": "ABNORMAL",
-        "clinical_significance": "Dyslipidemia (high LDL, low HDL, elevated triglycerides) is common in PCOS and contributes to increased cardiovascular risk."
+        "clinical_significance": "Dyslipidemia (high LDL, low HDL, elevated triglycerides) is common in this condition and contributes to increased cardiovascular risk."
       },
       {
         "test_name": "HbA1c",
@@ -123,7 +123,7 @@
     "attending_pimp_questions": null
   },
   "stage5": {
-    "final_clue": "The patient meets all three Rotterdam criteria: oligo-anovulation (irregular cycles every 45-90 days), clinical and biochemical hyperandrogenism (hirsutism, elevated testosterone), and polycystic ovarian morphology on ultrasound — confirming the diagnosis of PCOS after exclusion of other causes."
+    "final_clue": "The patient meets all three Rotterdam criteria: oligo-anovulation (irregular cycles every 45-90 days), clinical and biochemical hyperandrogenism (hirsutism, elevated testosterone), and polycystic ovarian morphology on ultrasound — confirming the diagnosis of this condition after exclusion of other causes."
   },
   "debrief": {
     "classic_presentation": "PCOS classically presents in adolescent or young adult women with oligomenorrhea or amenorrhea, signs of hyperandrogenism (hirsutism, acne, androgenic alopecia), and often obesity with insulin resistance. The diagnosis requires meeting at least 2 of 3 Rotterdam criteria: (1) oligo/anovulation, (2) clinical and/or biochemical hyperandrogenism, and (3) polycystic ovarian morphology on ultrasound — after excluding other etiologies.",

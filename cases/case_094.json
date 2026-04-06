@@ -25,27 +25,123 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "D-dimer", "result": "8,420 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated; highly supportive of acute thromboembolic disease (though D-dimer is nonspecific, the magnitude is concerning)"},
-      {"test_name": "Troponin I", "result": "0.82 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated troponin indicates right ventricular myocardial strain/injury — associated with worse prognosis in PE"},
-      {"test_name": "BNP", "result": "680 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated BNP indicates right ventricular pressure overload and dysfunction"},
-      {"test_name": "ABG pH", "result": "7.48", "flag": "HIGH", "clinical_significance": "Respiratory alkalosis from hyperventilation"},
-      {"test_name": "ABG pCO2", "result": "26 mmHg", "flag": "LOW", "clinical_significance": "Hypocapnia from tachypnea/hyperventilation — classic ABG finding in acute PE"},
-      {"test_name": "ABG pO2", "result": "54 mmHg", "flag": "LOW", "clinical_significance": "Severe hypoxemia from massive V/Q mismatch and intracardiac right-to-left shunting"},
-      {"test_name": "Lactate", "result": "4.8 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated lactate indicates tissue hypoperfusion/shock — poor prognostic marker"},
-      {"test_name": "CBC — WBC", "result": "12,600/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis — stress response"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated — may reflect poor renal perfusion from hemodynamic compromise"},
-      {"test_name": "PT/INR", "result": "11.8 sec / 1.0", "flag": "WNL", "clinical_significance": "Normal baseline coagulation; patient was on enoxaparin, not warfarin"},
-      {"test_name": "BMP — Sodium", "result": "137 mEq/L", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "D-dimer",
+        "result": "8,420 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; highly supportive of acute thromboembolic disease (though D-dimer is nonspecific, the magnitude is concerning)"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.82 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated troponin indicates right ventricular myocardial strain/injury — associated with worse prognosis in PE"
+      },
+      {
+        "test_name": "BNP",
+        "result": "680 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BNP indicates right ventricular pressure overload and dysfunction"
+      },
+      {
+        "test_name": "ABG pH",
+        "result": "7.48",
+        "flag": "HIGH",
+        "clinical_significance": "Respiratory alkalosis from hyperventilation"
+      },
+      {
+        "test_name": "ABG pCO2",
+        "result": "26 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Hypocapnia from tachypnea/hyperventilation — classic ABG finding in acute PE"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "54 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypoxemia from massive V/Q mismatch and intracardiac right-to-left shunting"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.8 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated lactate indicates tissue hypoperfusion/shock — poor prognostic marker"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "12,600/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis — stress response"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated — may reflect poor renal perfusion from hemodynamic compromise"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "11.8 sec / 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal baseline coagulation; patient was on enoxaparin, not warfarin"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "137 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT pulmonary angiography (CTPA)", "result": "Large saddle embolus straddling the main pulmonary artery bifurcation with extension into bilateral lobar and segmental arteries. RV/LV ratio 1.6 (>0.9 is abnormal). Interventricular septum bowing toward the left ventricle. Bilateral segmental and subsegmental filling defects.", "flag": "ABNORMAL", "clinical_significance": "Massive pulmonary embolism with saddle thrombus and right ventricular dilation/strain — meets criteria for massive PE (hemodynamic instability)"},
-      {"test_name": "Bedside echocardiogram", "result": "Severely dilated right ventricle with hypokinesis of the free wall and preserved apical contractility (McConnell sign). Moderate-to-severe tricuspid regurgitation. Estimated RVSP 65 mmHg. Leftward interventricular septal bowing. Normal LV function.", "flag": "ABNORMAL", "clinical_significance": "Confirms acute right heart failure/cor pulmonale from massive PE. McConnell sign is specific for acute PE."},
-      {"test_name": "Bilateral lower extremity duplex ultrasound", "result": "Acute deep vein thrombosis in the right popliteal and femoral veins. Non-compressible segments with echogenic intraluminal thrombus.", "flag": "ABNORMAL", "clinical_significance": "Confirms DVT as the source of pulmonary embolism"}
+      {
+        "test_name": "CT pulmonary angiography (CTPA)",
+        "result": "Large saddle embolus straddling the main pulmonary artery bifurcation with extension into bilateral lobar and segmental arteries. RV/LV ratio 1.6 (>0.9 is abnormal). Interventricular septum bowing toward the left ventricle. Bilateral segmental and subsegmental filling defects.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "this condition with saddle thrombus and right ventricular dilation/strain — meets criteria for massive PE (hemodynamic instability)"
+      },
+      {
+        "test_name": "Bedside echocardiogram",
+        "result": "Severely dilated right ventricle with hypokinesis of the free wall and preserved apical contractility (McConnell sign). Moderate-to-severe tricuspid regurgitation. Estimated RVSP 65 mmHg. Leftward interventricular septal bowing. Normal LV function.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms acute right heart failure/cor pulmonale from massive PE. McConnell sign is specific for acute PE."
+      },
+      {
+        "test_name": "Bilateral lower extremity duplex ultrasound",
+        "result": "Acute deep vein thrombosis in the right popliteal and femoral veins. Non-compressible segments with echogenic intraluminal thrombus.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms DVT as the source of pulmonary embolism"
+      }
     ],
-    "key_tests": ["CT pulmonary angiography (CTPA)", "Troponin I or T", "BNP or NT-proBNP", "Bedside echocardiogram", "ABG"],
-    "acceptable_tests": ["D-dimer", "Lower extremity duplex ultrasound", "CBC", "BMP", "Lactate", "PT/INR/aPTT", "ECG", "Chest X-ray"],
-    "low_yield_tests": ["Sputum culture", "PFTs", "V/Q scan (CTPA preferred in this acute setting)", "Bronchoscopy", "Procalcitonin"]
+    "key_tests": [
+      "CT pulmonary angiography (CTPA)",
+      "Troponin I or T",
+      "BNP or NT-proBNP",
+      "Bedside echocardiogram",
+      "ABG"
+    ],
+    "acceptable_tests": [
+      "D-dimer",
+      "Lower extremity duplex ultrasound",
+      "CBC",
+      "BMP",
+      "Lactate",
+      "PT/INR/aPTT",
+      "ECG",
+      "Chest X-ray"
+    ],
+    "low_yield_tests": [
+      "Sputum culture",
+      "PFTs",
+      "V/Q scan (CTPA preferred in this acute setting)",
+      "Bronchoscopy",
+      "Procalcitonin"
+    ]
   },
   "stage5": {
     "final_clue": "Given hemodynamic instability (systolic BP <90 mmHg) with imaging confirmation of massive PE, the patient receives systemic thrombolysis with alteplase (tPA) 100 mg IV over 2 hours. Within 6 hours, her blood pressure improves to 108/68, heart rate decreases to 96, and SpO2 rises to 94% on 2 L nasal cannula."
@@ -70,9 +166,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Massive pulmonary embolism", "Acute myocardial infarction", "Cardiac tamponade", "Tension pneumothorax", "Aortic dissection", "Cardiogenic shock (other causes)", "Septic shock"],
-    "after_stage2_more_likely": ["Massive pulmonary embolism", "Acute myocardial infarction"],
-    "after_stage2_less_likely": ["Tension pneumothorax", "Aortic dissection", "Septic shock"],
-    "after_labs_top3": ["Massive pulmonary embolism", "Acute myocardial infarction", "Cardiogenic shock"]
+    "reasonable_ddx": [
+      "Massive pulmonary embolism",
+      "Acute myocardial infarction",
+      "Cardiac tamponade",
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Cardiogenic shock (other causes)",
+      "Septic shock"
+    ],
+    "after_stage2_more_likely": [
+      "Massive pulmonary embolism",
+      "Acute myocardial infarction"
+    ],
+    "after_stage2_less_likely": [
+      "Tension pneumothorax",
+      "Aortic dissection",
+      "Septic shock"
+    ],
+    "after_labs_top3": [
+      "Massive pulmonary embolism",
+      "Acute myocardial infarction",
+      "Cardiogenic shock"
+    ]
   }
 }

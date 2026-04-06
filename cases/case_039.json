@@ -25,30 +25,125 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Random Cortisol", "result": "1.2 mcg/dL", "flag": "LOW", "clinical_significance": "Critically low cortisol (<3 mcg/dL in critically ill patient is diagnostic of adrenal insufficiency)"},
-      {"test_name": "ACTH", "result": "8 pg/mL", "flag": "LOW", "clinical_significance": "Low ACTH with low cortisol confirms SECONDARY adrenal insufficiency (HPA axis suppression from chronic steroids)"},
-      {"test_name": "BMP - Sodium", "result": "124 mEq/L", "flag": "LOW", "clinical_significance": "Hyponatremia from cortisol deficiency and impaired free water excretion"},
-      {"test_name": "BMP - Potassium", "result": "5.8 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from cortisol deficiency (though less severe than in primary AI due to intact aldosterone in secondary AI — this case has additional factors)"},
-      {"test_name": "BMP - Glucose", "result": "52 mg/dL", "flag": "LOW", "clinical_significance": "Hypoglycemia from cortisol deficiency and poor oral intake"},
-      {"test_name": "BMP - Bicarbonate", "result": "18 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from hypoperfusion"},
-      {"test_name": "BMP - Creatinine", "result": "1.8 mg/dL", "flag": "HIGH", "clinical_significance": "AKI from dehydration and hypoperfusion"},
-      {"test_name": "BMP - BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia"},
-      {"test_name": "CBC - WBC", "result": "3.8 x10^9/L", "flag": "LOW", "clinical_significance": "Leukopenia; eosinophilia may be present with cortisol deficiency"},
-      {"test_name": "CBC - Eosinophils", "result": "12%", "flag": "HIGH", "clinical_significance": "Relative eosinophilia from cortisol deficiency (cortisol normally suppresses eosinophils)"},
-      {"test_name": "TSH", "result": "6.8 mIU/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; cortisol deficiency can increase TSH"},
-      {"test_name": "Lactate", "result": "4.6 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from tissue hypoperfusion due to refractory hypotension"}
+      {
+        "test_name": "Random Cortisol",
+        "result": "1.2 mcg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Critically low cortisol (<3 mcg/dL in critically ill patient is diagnostic of adrenal insufficiency)"
+      },
+      {
+        "test_name": "ACTH",
+        "result": "8 pg/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low ACTH with low cortisol confirms SECONDARY adrenal insufficiency (HPA axis suppression from chronic steroids)"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "124 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hyponatremia from cortisol deficiency and impaired free water excretion"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "5.8 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from cortisol deficiency (though less severe than in primary AI due to intact aldosterone in secondary AI — this case has additional factors)"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "52 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoglycemia from cortisol deficiency and poor oral intake"
+      },
+      {
+        "test_name": "BMP - Bicarbonate",
+        "result": "18 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis from hypoperfusion"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "AKI from dehydration and hypoperfusion"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "48 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Prerenal azotemia"
+      },
+      {
+        "test_name": "CBC - WBC",
+        "result": "3.8 x10^9/L",
+        "flag": "LOW",
+        "clinical_significance": "Leukopenia; eosinophilia may be present with cortisol deficiency"
+      },
+      {
+        "test_name": "CBC - Eosinophils",
+        "result": "12%",
+        "flag": "HIGH",
+        "clinical_significance": "Relative eosinophilia from cortisol deficiency (cortisol normally suppresses eosinophils)"
+      },
+      {
+        "test_name": "TSH",
+        "result": "6.8 mIU/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; cortisol deficiency can increase TSH"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "4.6 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from tissue hypoperfusion due to refractory hypotension"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "No acute cardiopulmonary process. Small cardiac silhouette.", "flag": "WNL", "clinical_significance": "Small heart may reflect chronic volume depletion; no pneumonia"},
-      {"test_name": "CT Abdomen/Pelvis", "result": "Normal-appearing adrenal glands (no hemorrhage, no masses). No acute intra-abdominal pathology. Diffusely decompressed bowel.", "flag": "WNL", "clinical_significance": "Normal adrenal glands expected in secondary adrenal insufficiency (pathology is at pituitary/HPA level, not adrenal)"},
-      {"test_name": "ECG", "result": "Sinus tachycardia at 124 bpm. Peaked T waves in V2-V4 (hyperkalemia).", "flag": "ABNORMAL", "clinical_significance": "ECG changes from hyperkalemia require monitoring; tachycardia from hypovolemia"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "No acute cardiopulmonary process. Small cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": "Small heart may reflect chronic volume depletion; no pneumonia"
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis",
+        "result": "Normal-appearing adrenal glands (no hemorrhage, no masses). No acute intra-abdominal pathology. Diffusely decompressed bowel.",
+        "flag": "WNL",
+        "clinical_significance": "Normal adrenal glands expected in secondary adrenal insufficiency (pathology is at pituitary/HPA level, not adrenal)"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Sinus tachycardia at 124 bpm. Peaked T waves in V2-V4 (hyperkalemia).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ECG changes from hyperkalemia require monitoring; tachycardia from hypovolemia"
+      }
     ],
-    "key_tests": ["Random cortisol level", "ACTH level", "BMP (sodium, potassium, glucose)", "Point-of-care glucose", "ECG"],
-    "acceptable_tests": ["CBC with differential", "Lactate", "TSH", "Chest X-ray", "CT abdomen/pelvis (to rule out other causes)", "Blood cultures (to exclude sepsis)", "VBG"],
-    "low_yield_tests": ["ACTH stimulation test (do not delay treatment; can be done later)", "Adrenal CT with contrast", "Aldosterone/Renin ratio", "MRI pituitary (not acute)", "DHEA-S"]
+    "key_tests": [
+      "Random cortisol level",
+      "ACTH level",
+      "BMP (sodium, potassium, glucose)",
+      "Point-of-care glucose",
+      "ECG"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Lactate",
+      "TSH",
+      "Chest X-ray",
+      "CT abdomen/pelvis (to rule out other causes)",
+      "Blood cultures (to exclude sepsis)",
+      "VBG"
+    ],
+    "low_yield_tests": [
+      "ACTH stimulation test (do not delay treatment; can be done later)",
+      "Adrenal CT with contrast",
+      "Aldosterone/Renin ratio",
+      "MRI pituitary (not acute)",
+      "DHEA-S"
+    ]
   },
   "stage5": {
-    "final_clue": "Critically low random cortisol (1.2 mcg/dL) with low ACTH in a patient on chronic steroids who abruptly stopped prednisone one week ago. The triad of refractory hypotension, hyponatremia, and hypoglycemia in this context is diagnostic of adrenal crisis from secondary adrenal insufficiency. Immediate IV hydrocortisone is life-saving."
+    "final_clue": "Critically low random cortisol (1.2 mcg/dL) with low ACTH in a patient on chronic steroids who abruptly stopped prednisone one week ago. The triad of refractory hypotension, hyponatremia, and hypoglycemia in this context is diagnostic of the suspected condition from secondary adrenal insufficiency. Immediate IV hydrocortisone is life-saving."
   },
   "debrief": {
     "classic_presentation": "Severe hypotension refractory to IV fluids, with altered mental status, nausea, vomiting, abdominal pain, and dehydration. Labs show hyponatremia, hyperkalemia (more prominent in primary AI), and hypoglycemia. In secondary AI (chronic steroid use), hyperpigmentation is ABSENT (unlike Addison disease). Precipitants include abrupt steroid discontinuation, physiological stress (surgery, infection, trauma), or pituitary pathology.",
@@ -69,9 +164,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Adrenal crisis", "Septic shock", "Acute abdomen (perforated viscus)", "Severe dehydration/hypovolemic shock", "Myxedema coma", "Diabetic ketoacidosis", "Opioid overdose"],
-    "after_stage2_more_likely": ["Adrenal crisis", "Septic shock", "Severe dehydration"],
-    "after_stage2_less_likely": ["Acute abdomen", "Myxedema coma", "Opioid overdose"],
-    "after_labs_top3": ["Adrenal crisis (secondary AI)", "HPA axis suppression with acute adrenal insufficiency", "Septic shock with adrenal insufficiency"]
+    "reasonable_ddx": [
+      "Adrenal crisis",
+      "Septic shock",
+      "Acute abdomen (perforated viscus)",
+      "Severe dehydration/hypovolemic shock",
+      "Myxedema coma",
+      "Diabetic ketoacidosis",
+      "Opioid overdose"
+    ],
+    "after_stage2_more_likely": [
+      "Adrenal crisis",
+      "Septic shock",
+      "Severe dehydration"
+    ],
+    "after_stage2_less_likely": [
+      "Acute abdomen",
+      "Myxedema coma",
+      "Opioid overdose"
+    ],
+    "after_labs_top3": [
+      "Adrenal crisis (secondary AI)",
+      "HPA axis suppression with acute adrenal insufficiency",
+      "Septic shock with adrenal insufficiency"
+    ]
   }
 }

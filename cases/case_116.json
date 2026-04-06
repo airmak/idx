@@ -25,27 +25,105 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "6,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hyponatremia excluded"},
-      {"test_name": "BMP — Glucose", "result": "102 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "3.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal; hypothyroidism excluded as cause of cognitive slowing"},
-      {"test_name": "Vitamin B12", "result": "350 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency excluded"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Neurosyphilis excluded"},
-      {"test_name": "BMP — Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Urinalysis", "result": "Normal, no infection", "flag": "WNL", "clinical_significance": "UTI excluded as cause of incontinence and confusion"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "6,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hyponatremia excluded"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "102 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "3.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypothyroidism excluded as cause of cognitive slowing"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "350 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; B12 deficiency excluded"
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Neurosyphilis excluded"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Normal, no infection",
+        "flag": "WNL",
+        "clinical_significance": "UTI excluded as cause of incontinence and confusion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT head without contrast", "result": "Ventriculomegaly involving all four ventricles (Evans index 0.38) out of proportion to sulcal enlargement. No mass or hemorrhage. Periventricular hypodensities suggesting transependymal CSF flow.", "flag": "ABNORMAL", "clinical_significance": "Evans index >0.3 indicates ventriculomegaly. The disproportionate ventricular enlargement relative to sulcal widening (DESH — disproportionately enlarged subarachnoid space hydrocephalus) supports communicating hydrocephalus rather than ex vacuo ventriculomegaly from atrophy."},
-      {"test_name": "MRI brain", "result": "Ventriculomegaly (Evans index 0.39). Tight high-convexity sulci with effaced medial subarachnoid spaces (DESH pattern). Periventricular T2/FLAIR hyperintensity consistent with transependymal CSF flow. Aqueductal CSF flow void on T2 (patent aqueduct). Callosal angle 62 degrees (acute — consistent with NPH). No obstructing mass.", "flag": "ABNORMAL", "clinical_significance": "MRI confirms communicating hydrocephalus with DESH pattern (dilated ventricles + tight high-convexity + patent aqueduct). Acute callosal angle (<90 degrees) and transependymal flow support NPH. Rules out obstructive hydrocephalus."}
+      {
+        "test_name": "CT head without contrast",
+        "result": "Ventriculomegaly involving all four ventricles (Evans index 0.38) out of proportion to sulcal enlargement. No mass or hemorrhage. Periventricular hypodensities suggesting transependymal CSF flow.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Evans index >0.3 indicates ventriculomegaly. The disproportionate ventricular enlargement relative to sulcal widening (DESH — disproportionately enlarged subarachnoid space hydrocephalus) supports communicating hydrocephalus rather than ex vacuo ventriculomegaly from atrophy."
+      },
+      {
+        "test_name": "MRI brain",
+        "result": "Ventriculomegaly (Evans index 0.39). Tight high-convexity sulci with effaced medial subarachnoid spaces (DESH pattern). Periventricular T2/FLAIR hyperintensity consistent with transependymal CSF flow. Aqueductal CSF flow void on T2 (patent aqueduct). Callosal angle 62 degrees (acute — consistent with NPH). No obstructing mass.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI confirms communicating hydrocephalus with DESH pattern (dilated ventricles + tight high-convexity + patent aqueduct). Acute callosal angle (<90 degrees) and transependymal flow support NPH. Rules out obstructive hydrocephalus."
+      }
     ],
-    "key_tests": ["MRI brain (to assess ventricular size, DESH pattern, callosal angle, exclude obstruction)", "Large-volume lumbar puncture (tap test — 30-50 mL CSF removal with pre/post gait assessment)", "CSF opening pressure measurement", "Neuropsychological testing (especially executive function)", "Gait analysis (timed up-and-go test, gait speed before and after tap test)"],
-    "acceptable_tests": ["CT head", "CBC", "BMP", "TSH", "Vitamin B12", "RPR", "Urinalysis", "Extended lumbar drainage trial (72-hour external drain)", "CSF infusion study (Rout measurement)", "Intracranial pressure monitoring"],
-    "low_yield_tests": ["EEG", "Carotid ultrasound", "MRA", "PET scan", "Serum ammonia"],
+    "key_tests": [
+      "MRI brain (to assess ventricular size, DESH pattern, callosal angle, exclude obstruction)",
+      "Large-volume lumbar puncture (tap test — 30-50 mL CSF removal with pre/post gait assessment)",
+      "CSF opening pressure measurement",
+      "Neuropsychological testing (especially executive function)",
+      "Gait analysis (timed up-and-go test, gait speed before and after tap test)"
+    ],
+    "acceptable_tests": [
+      "CT head",
+      "CBC",
+      "BMP",
+      "TSH",
+      "Vitamin B12",
+      "RPR",
+      "Urinalysis",
+      "Extended lumbar drainage trial (72-hour external drain)",
+      "CSF infusion study (Rout measurement)",
+      "Intracranial pressure monitoring"
+    ],
+    "low_yield_tests": [
+      "EEG",
+      "Carotid ultrasound",
+      "MRA",
+      "PET scan",
+      "Serum ammonia"
+    ],
     "low_yield_tests_note": "The large-volume LP (tap test) is the most important prognostic test — improvement in gait after 30-50 mL CSF removal predicts a favorable shunt response."
   },
   "stage5": {
-    "final_clue": "A large-volume lumbar puncture (tap test) is performed, removing 40 mL of CSF with an opening pressure of 16 cmH2O (within normal range, as expected in NPH). Gait assessment before and 2 hours after the tap test shows significant improvement: timed up-and-go test improves from 28 seconds to 16 seconds, step length increases, and the patient reports his feet feel 'lighter.' His wife notes he is more conversationally engaged the following day. Given the classic triad (gait apraxia > urinary incontinence > cognitive impairment), imaging showing communicating hydrocephalus with DESH pattern, and positive tap test response, the diagnosis of idiopathic normal pressure hydrocephalus is confirmed. He is referred to neurosurgery and undergoes ventriculoperitoneal shunt placement with a programmable valve. At 3-month follow-up, his gait has markedly improved, incontinence has resolved, and MMSE has improved to 27/30."
+    "final_clue": "A large-volume lumbar puncture (tap test) is performed, removing 40 mL of CSF with an opening pressure of 16 cmH2O (within normal range, as expected in NPH). Gait assessment before and 2 hours after the tap test shows significant improvement: timed up-and-go test improves from 28 seconds to 16 seconds, step length increases, and the patient reports his feet feel 'lighter.' His wife notes he is more conversationally engaged the following day. Given the classic triad (gait apraxia > urinary incontinence > cognitive impairment), imaging showing communicating hydrocephalus with DESH pattern, and positive tap test response, the diagnosis of idiopathic this condition is confirmed. He is referred to neurosurgery and undergoes ventriculoperitoneal shunt placement with a programmable valve. At 3-month follow-up, his gait has markedly improved, incontinence has resolved, and MMSE has improved to 27/30."
   },
   "debrief": {
     "classic_presentation": "Elderly patient (>60 years) with the classic Hakim triad: (1) gait disturbance (magnetic, wide-based, shuffling gait with gait ignition failure — the earliest and most responsive symptom), (2) urinary incontinence (urgency progressing to incontinence), and (3) cognitive impairment (subcortical pattern — psychomotor slowing, executive dysfunction, apathy, with relatively preserved memory encoding). Imaging shows communicating hydrocephalus (Evans index >0.3) disproportionate to cortical atrophy. CSF pressure is normal or low-normal.",
@@ -66,9 +144,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Normal pressure hydrocephalus", "Parkinson disease", "Vascular dementia (subcortical)", "Alzheimer disease", "Progressive supranuclear palsy", "Cervical spondylotic myelopathy", "Vitamin B12 deficiency"],
-    "after_stage2_more_likely": ["Normal pressure hydrocephalus", "Vascular dementia"],
-    "after_stage2_less_likely": ["Parkinson disease", "Vitamin B12 deficiency", "Cervical spondylotic myelopathy"],
-    "after_labs_top3": ["Normal pressure hydrocephalus", "Vascular dementia", "Alzheimer disease"]
+    "reasonable_ddx": [
+      "Normal pressure hydrocephalus",
+      "Parkinson disease",
+      "Vascular dementia (subcortical)",
+      "Alzheimer disease",
+      "Progressive supranuclear palsy",
+      "Cervical spondylotic myelopathy",
+      "Vitamin B12 deficiency"
+    ],
+    "after_stage2_more_likely": [
+      "Normal pressure hydrocephalus",
+      "Vascular dementia"
+    ],
+    "after_stage2_less_likely": [
+      "Parkinson disease",
+      "Vitamin B12 deficiency",
+      "Cervical spondylotic myelopathy"
+    ],
+    "after_labs_top3": [
+      "Normal pressure hydrocephalus",
+      "Vascular dementia",
+      "Alzheimer disease"
+    ]
   }
 }

@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "24-hour Urine Protein", "result": "8.2 g/day", "flag": "HIGH", "clinical_significance": "Nephrotic-range proteinuria (>3.5 g/day); membranous nephropathy is the most common cause of primary nephrotic syndrome in white adults"},
-      {"test_name": "Serum Albumin", "result": "1.8 g/dL", "flag": "LOW", "clinical_significance": "Severe hypoalbuminemia from massive urinary losses"},
-      {"test_name": "Total Cholesterol", "result": "362 mg/dL", "flag": "HIGH", "clinical_significance": "Nephrotic hyperlipidemia"},
-      {"test_name": "Serum Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Preserved renal function; typical of early membranous nephropathy"},
-      {"test_name": "Anti-PLA2R Antibody", "result": "Positive, 185 RU/mL (normal <14)", "flag": "HIGH", "clinical_significance": "Anti-phospholipase A2 receptor antibodies are found in ~70% of primary membranous nephropathy and are highly specific; titers correlate with disease activity"},
-      {"test_name": "Complement C3", "result": "110 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement; expected in primary membranous nephropathy"},
-      {"test_name": "Complement C4", "result": "24 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus-associated membranous nephropathy"},
-      {"test_name": "Hepatitis B Surface Antigen", "result": "Negative", "flag": "WNL", "clinical_significance": "No active hepatitis B; resolved infection does not cause secondary membranous nephropathy"},
-      {"test_name": "Hepatitis C Antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes hepatitis C-associated membranous nephropathy"},
-      {"test_name": "Urinalysis", "result": "4+ protein, oval fat bodies, fatty casts, no RBC casts, no dysmorphic RBCs", "flag": "ABNORMAL", "clinical_significance": "Nephrotic sediment without nephritic features; consistent with membranous nephropathy"}
+      {
+        "test_name": "24-hour Urine Protein",
+        "result": "8.2 g/day",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic-range proteinuria (>3.5 g/day); this condition is the most common cause of primary nephrotic syndrome in white adults"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "1.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypoalbuminemia from massive urinary losses"
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "result": "362 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Nephrotic hyperlipidemia"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Preserved renal function; typical of early this condition"
+      },
+      {
+        "test_name": "Anti-PLA2R Antibody",
+        "result": "Positive, 185 RU/mL (normal <14)",
+        "flag": "HIGH",
+        "clinical_significance": "Anti-phospholipase A2 receptor antibodies are found in ~70% of primary this condition and are highly specific; titers correlate with disease activity"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "110 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complement; expected in primary this condition"
+      },
+      {
+        "test_name": "Complement C4",
+        "result": "24 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes lupus-associated this condition"
+      },
+      {
+        "test_name": "Hepatitis B Surface Antigen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No active hepatitis B; resolved infection does not cause secondary this condition"
+      },
+      {
+        "test_name": "Hepatitis C Antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes hepatitis C-associated this condition"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "4+ protein, oval fat bodies, fatty casts, no RBC casts, no dysmorphic RBCs",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Nephrotic sediment without nephritic features; consistent with the suspected diagnosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.6 cm, left 11.3 cm) with normal cortical echogenicity. No hydronephrosis or masses.", "flag": "WNL", "clinical_significance": "Normal kidney size expected in membranous nephropathy with preserved renal function"},
-      {"test_name": "Renal Biopsy", "result": "Light microscopy: diffuse thickening of glomerular basement membranes with 'spike and dome' pattern on silver stain. No mesangial proliferation. Immunofluorescence: granular IgG and C3 deposition along capillary walls. PLA2R staining positive in glomeruli. Electron microscopy: subepithelial electron-dense deposits with effacement of foot processes.", "flag": "ABNORMAL", "clinical_significance": "Classic biopsy findings of primary membranous nephropathy: subepithelial deposits, GBM spikes, and positive PLA2R staining"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Normal-sized kidneys bilaterally (right 11.6 cm, left 11.3 cm) with normal cortical echogenicity. No hydronephrosis or masses.",
+        "flag": "WNL",
+        "clinical_significance": "Normal kidney size expected in this condition with preserved renal function"
+      },
+      {
+        "test_name": "Renal Biopsy",
+        "result": "Light microscopy: diffuse thickening of glomerular basement membranes with 'spike and dome' pattern on silver stain. No mesangial proliferation. Immunofluorescence: granular IgG and C3 deposition along capillary walls. PLA2R staining positive in glomeruli. Electron microscopy: subepithelial electron-dense deposits with effacement of foot processes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic biopsy findings of primary this condition: subepithelial deposits, GBM spikes, and positive PLA2R staining"
+      }
     ],
     "key_tests": [
       "Anti-PLA2R antibody (serum)",
@@ -66,7 +131,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Nephrotic syndrome in a middle-aged adult with positive anti-PLA2R antibodies and biopsy showing subepithelial immune deposits, GBM 'spike and dome' pattern, and granular IgG/C3 along capillary walls confirms primary membranous nephropathy."
+    "final_clue": "Nephrotic syndrome in a middle-aged adult with positive anti-PLA2R antibodies and biopsy showing subepithelial immune deposits, GBM 'spike and dome' pattern, and granular IgG/C3 along capillary walls confirms primary this condition."
   },
   "debrief": {
     "classic_presentation": "A middle-aged to older adult presenting with insidious nephrotic syndrome (edema, foamy urine, hypoalbuminemia, hyperlipidemia) with preserved renal function and bland urinary sediment. Anti-PLA2R antibodies are positive in ~70% of primary cases. Biopsy shows subepithelial deposits with GBM thickening.",

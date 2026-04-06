@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urinalysis", "result": "pH 5.5, 2+ blood, 1+ protein, 20-50 RBCs/hpf (many dysmorphic), RBC casts present, no WBC casts", "flag": "ABNORMAL", "clinical_significance": "Dysmorphic RBCs and RBC casts indicate glomerular origin of hematuria"},
-      {"test_name": "Urine Protein:Creatinine Ratio", "result": "1.2 g/g", "flag": "HIGH", "clinical_significance": "Subnephrotic proteinuria; >1 g/day is an adverse prognostic factor in IgA nephropathy"},
-      {"test_name": "Serum Creatinine", "result": "1.3 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for a 26-year-old male; early renal impairment"},
-      {"test_name": "eGFR", "result": "72 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "Mildly reduced; concerning in a young patient"},
-      {"test_name": "Serum IgA Level", "result": "485 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated in ~50% of IgA nephropathy patients; supportive but not diagnostic"},
-      {"test_name": "Complement C3", "result": "118 mg/dL", "flag": "WNL", "clinical_significance": "Normal complement is expected in IgA nephropathy; helps exclude lupus nephritis and MPGN"},
-      {"test_name": "Complement C4", "result": "28 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus nephritis"},
-      {"test_name": "ANCA (MPO and PR3)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes ANCA-associated vasculitis"},
-      {"test_name": "Anti-GBM Antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes anti-GBM disease"},
-      {"test_name": "ASO Titer", "result": "120 IU/mL", "flag": "WNL", "clinical_significance": "Not elevated; argues against post-streptococcal glomerulonephritis"},
-      {"test_name": "Serum Albumin", "result": "3.8 g/dL", "flag": "WNL", "clinical_significance": "Normal; proteinuria is subnephrotic"}
+      {
+        "test_name": "Urinalysis",
+        "result": "pH 5.5, 2+ blood, 1+ protein, 20-50 RBCs/hpf (many dysmorphic), RBC casts present, no WBC casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dysmorphic RBCs and RBC casts indicate glomerular origin of hematuria"
+      },
+      {
+        "test_name": "Urine Protein:Creatinine Ratio",
+        "result": "1.2 g/g",
+        "flag": "HIGH",
+        "clinical_significance": "Subnephrotic proteinuria; >1 g/day is an adverse prognostic factor in this condition"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.3 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated for a 26-year-old male; early renal impairment"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "72 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "Mildly reduced; concerning in a young patient"
+      },
+      {
+        "test_name": "Serum IgA Level",
+        "result": "485 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated in ~50% of this condition patients; supportive but not diagnostic"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "118 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal complement is expected in this condition; helps exclude lupus nephritis and MPGN"
+      },
+      {
+        "test_name": "Complement C4",
+        "result": "28 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes lupus nephritis"
+      },
+      {
+        "test_name": "ANCA (MPO and PR3)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes ANCA-associated vasculitis"
+      },
+      {
+        "test_name": "Anti-GBM Antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes anti-GBM disease"
+      },
+      {
+        "test_name": "ASO Titer",
+        "result": "120 IU/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not elevated; argues against post-streptococcal glomerulonephritis"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "3.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; proteinuria is subnephrotic"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Normal-sized kidneys bilaterally (right 11.5 cm, left 11.8 cm) with normal cortical echogenicity. No hydronephrosis, cysts, or masses.", "flag": "WNL", "clinical_significance": "Normal renal ultrasound; structural abnormalities excluded"},
-      {"test_name": "Renal Biopsy (Light, IF, EM)", "result": "Light microscopy: mesangial hypercellularity and matrix expansion. Immunofluorescence: dominant mesangial IgA deposits with co-deposition of C3 and lesser IgG. Electron microscopy: electron-dense deposits in the mesangium. Oxford classification: M1 E0 S0 T0 C0.", "flag": "ABNORMAL", "clinical_significance": "Mesangial IgA-dominant deposits are diagnostic of IgA nephropathy; Oxford/MEST-C score guides prognosis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Normal-sized kidneys bilaterally (right 11.5 cm, left 11.8 cm) with normal cortical echogenicity. No hydronephrosis, cysts, or masses.",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal ultrasound; structural abnormalities excluded"
+      },
+      {
+        "test_name": "Renal Biopsy (Light, IF, EM)",
+        "result": "Light microscopy: mesangial hypercellularity and matrix expansion. Immunofluorescence: dominant mesangial IgA deposits with co-deposition of C3 and lesser IgG. Electron microscopy: electron-dense deposits in the mesangium. Oxford classification: M1 E0 S0 T0 C0.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mesangial IgA-dominant deposits are diagnostic of the suspected condition; Oxford/MEST-C score guides prognosis"
+      }
     ],
     "key_tests": [
       "Renal biopsy with light microscopy, immunofluorescence, and electron microscopy",
@@ -65,7 +135,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Synpharyngitic gross hematuria (occurring during rather than after URI), persistent microscopic hematuria with dysmorphic RBCs and RBC casts, subnephrotic proteinuria, and renal biopsy showing mesangial IgA-dominant deposits confirm IgA nephropathy."
+    "final_clue": "Synpharyngitic gross hematuria (occurring during rather than after URI), persistent microscopic hematuria with dysmorphic RBCs and RBC casts, subnephrotic proteinuria, and renal biopsy showing mesangial IgA-dominant deposits confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "A young adult male presenting with episodic gross hematuria that occurs concurrently with (synpharyngitic) upper respiratory infections, persistent microscopic hematuria between episodes, mild proteinuria, and mild hypertension. Biopsy shows mesangial IgA deposits.",

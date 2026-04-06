@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine (current)", "result": "3.1 mg/dL (baseline 1.8, pre-procedure 1.8)", "flag": "HIGH", "clinical_significance": "Rise of >0.5 mg/dL (or >25%) within 48 hours of contrast exposure meets criteria for contrast-induced nephropathy"},
-      {"test_name": "Serum Creatinine (24h post-procedure)", "result": "2.4 mg/dL", "flag": "HIGH", "clinical_significance": "Creatinine rising at 24 hours, consistent with typical CIN timeline (onset 24-48h, peak 3-5 days)"},
-      {"test_name": "BUN", "result": "48 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated with rising creatinine"},
-      {"test_name": "Serum Potassium", "result": "5.2 mEq/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from acute-on-chronic kidney injury"},
-      {"test_name": "Serum Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from worsened renal function"},
-      {"test_name": "Urinalysis", "result": "Specific gravity 1.010, muddy brown granular casts, renal tubular epithelial cells, trace protein, no RBC casts", "flag": "ABNORMAL", "clinical_significance": "Muddy brown granular casts and tubular epithelial cells are characteristic of acute tubular necrosis/injury from contrast nephrotoxicity"},
-      {"test_name": "Fractional Excretion of Sodium", "result": "2.8%", "flag": "HIGH", "clinical_significance": "FENa >2% is consistent with intrinsic renal injury (ATN from contrast); contrasts with prerenal FENa <1%"},
-      {"test_name": "Urine Sodium", "result": "48 mEq/L", "flag": "HIGH", "clinical_significance": "Elevated urine sodium consistent with intrinsic renal injury (impaired tubular reabsorption)"},
-      {"test_name": "CBC", "result": "Hgb 11.8 g/dL, WBC 7,600/μL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "No eosinophilia (argues against allergic interstitial nephritis or cholesterol embolism)"},
-      {"test_name": "Serum Lactate", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no evidence of metformin-associated lactic acidosis"}
+      {
+        "test_name": "Serum Creatinine (current)",
+        "result": "3.1 mg/dL (baseline 1.8, pre-procedure 1.8)",
+        "flag": "HIGH",
+        "clinical_significance": "Rise of >0.5 mg/dL (or >25%) within 48 hours of contrast exposure meets criteria for this condition"
+      },
+      {
+        "test_name": "Serum Creatinine (24h post-procedure)",
+        "result": "2.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Creatinine rising at 24 hours, consistent with typical CIN timeline (onset 24-48h, peak 3-5 days)"
+      },
+      {
+        "test_name": "BUN",
+        "result": "48 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated with rising creatinine"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.2 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from acute-on-chronic kidney injury"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "20 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis from worsened renal function"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Specific gravity 1.010, muddy brown granular casts, renal tubular epithelial cells, trace protein, no RBC casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Muddy brown granular casts and tubular epithelial cells are characteristic of acute tubular necrosis/injury from contrast nephrotoxicity"
+      },
+      {
+        "test_name": "Fractional Excretion of Sodium",
+        "result": "2.8%",
+        "flag": "HIGH",
+        "clinical_significance": "FENa >2% is consistent with intrinsic renal injury (ATN from contrast); contrasts with prerenal FENa <1%"
+      },
+      {
+        "test_name": "Urine Sodium",
+        "result": "48 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated urine sodium consistent with intrinsic renal injury (impaired tubular reabsorption)"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 11.8 g/dL, WBC 7,600/μL, Plt 210,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "No eosinophilia (argues against allergic interstitial nephritis or cholesterol embolism)"
+      },
+      {
+        "test_name": "Serum Lactate",
+        "result": "1.2 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of metformin-associated lactic acidosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Right kidney 10.2 cm, left kidney 10.5 cm. Bilateral mildly increased cortical echogenicity without hydronephrosis. No renal artery thrombosis on Doppler.", "flag": "ABNORMAL", "clinical_significance": "Mildly echogenic kidneys consistent with chronic disease and superimposed acute injury; no obstruction"},
-      {"test_name": "Chest X-ray", "result": "Mild pulmonary vascular congestion. No pleural effusion. Cardiac stent visible.", "flag": "ABNORMAL", "clinical_significance": "Mild volume overload in setting of decreased urine output"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Right kidney 10.2 cm, left kidney 10.5 cm. Bilateral mildly increased cortical echogenicity without hydronephrosis. No renal artery thrombosis on Doppler.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly echogenic kidneys consistent with chronic disease and superimposed acute injury; no obstruction"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild pulmonary vascular congestion. No pleural effusion. Cardiac stent visible.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild volume overload in setting of decreased urine output"
+      }
     ],
     "key_tests": [
       "Serial serum creatinine measurements (baseline, 24h, 48h, 72h post-contrast)",
@@ -63,7 +123,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A creatinine rise from 1.8 to 3.1 mg/dL within 48 hours of iodinated contrast exposure, with muddy brown granular casts on urinalysis, elevated FENa (2.8%), and no evidence of obstruction, in a patient with baseline CKD and diabetes confirms contrast-induced nephropathy (contrast-associated AKI)."
+    "final_clue": "A creatinine rise from 1.8 to 3.1 mg/dL within 48 hours of iodinated contrast exposure, with muddy brown granular casts on urinalysis, elevated FENa (2.8%), and no evidence of obstruction, in a patient with baseline CKD and diabetes confirms the suspected diagnosis (contrast-associated AKI)."
   },
   "debrief": {
     "classic_presentation": "A patient with pre-existing CKD and/or diabetes develops an asymptomatic rise in creatinine 24-48 hours after iodinated contrast exposure, peaking at 3-5 days and usually resolving within 7-14 days. Urinalysis shows muddy brown granular casts consistent with tubular injury. Urine output may be decreased.",

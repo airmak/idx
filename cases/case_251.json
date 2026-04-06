@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 5.8, Hgb 9.2, Hct 28.5, MCV 72 fL, RDW 17.8%, Plt 310", "flag": "ABNORMAL", "clinical_significance": "Microcytic anemia with elevated RDW — persistent iron deficiency despite oral supplementation, suggesting malabsorption"},
-      {"test_name": "Iron studies", "result": "Serum iron 28 mcg/dL, Ferritin 8 ng/mL, TIBC 420 mcg/dL, Transferrin sat 7%", "flag": "ABNORMAL", "clinical_significance": "Iron deficiency pattern persisting despite 6 months of oral iron, strongly suggesting malabsorption in the proximal small bowel"},
-      {"test_name": "tTG-IgA (tissue transglutaminase IgA)", "result": "142 U/mL (normal <20)", "flag": "HIGH", "clinical_significance": "Markedly elevated tTG-IgA — highly sensitive (95%) and specific (95%) for celiac disease; levels >10x ULN strongly correlate with villous atrophy"},
-      {"test_name": "Total serum IgA", "result": "225 mg/dL", "flag": "WNL", "clinical_significance": "Normal IgA level — important to confirm, as IgA deficiency (present in 2-3% of celiac patients) would cause false-negative tTG-IgA"},
-      {"test_name": "Endomysial antibodies (EMA-IgA)", "result": "Positive (1:160)", "flag": "POSITIVE", "clinical_significance": "Positive EMA confirms celiac disease — nearly 100% specific when positive"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 138, K 3.4, Cl 100, CO2 22, BUN 10, Cr 0.6, Glucose 82, Ca 8.2, AST 24, ALT 28, Alk Phos 130, Albumin 3.0", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia, hypocalcemia, low albumin, and elevated alkaline phosphatase — consistent with malabsorption of multiple nutrients"},
-      {"test_name": "Vitamin D, 25-OH", "result": "12 ng/mL", "flag": "LOW", "clinical_significance": "Severely low vitamin D from fat-soluble vitamin malabsorption; contributes to hypocalcemia and osteoporosis risk"},
-      {"test_name": "Folate", "result": "4.2 ng/mL", "flag": "LOW-NORMAL", "clinical_significance": "Borderline low folate — proximal small bowel malabsorption; may contribute to infertility"},
-      {"test_name": "TSH", "result": "5.8 mIU/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated TSH — celiac disease is associated with autoimmune thyroiditis; needs further evaluation"},
-      {"test_name": "DEXA scan (bone density)", "result": "T-score: lumbar spine -2.2, femoral neck -1.8", "flag": "ABNORMAL", "clinical_significance": "Osteopenia/osteoporosis at young age from chronic calcium and vitamin D malabsorption"},
-      {"test_name": "Fecal fat (72-hour collection)", "result": "12 g/day (normal <7 g/day)", "flag": "HIGH", "clinical_significance": "Steatorrhea confirming fat malabsorption"},
-      {"test_name": "HLA typing", "result": "HLA-DQ2 positive", "flag": "POSITIVE", "clinical_significance": "HLA-DQ2 positive — present in >90% of celiac patients; absence of DQ2/DQ8 virtually excludes celiac disease"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 5.8, Hgb 9.2, Hct 28.5, MCV 72 fL, RDW 17.8%, Plt 310",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microcytic anemia with elevated RDW — persistent iron deficiency despite oral supplementation, suggesting malabsorption"
+      },
+      {
+        "test_name": "Iron studies",
+        "result": "Serum iron 28 mcg/dL, Ferritin 8 ng/mL, TIBC 420 mcg/dL, Transferrin sat 7%",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Iron deficiency pattern persisting despite 6 months of oral iron, strongly suggesting malabsorption in the proximal small bowel"
+      },
+      {
+        "test_name": "tTG-IgA (tissue transglutaminase IgA)",
+        "result": "142 U/mL (normal <20)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated tTG-IgA — highly sensitive (95%) and specific (95%) for this condition; levels >10x ULN strongly correlate with villous atrophy"
+      },
+      {
+        "test_name": "Total serum IgA",
+        "result": "225 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal IgA level — important to confirm, as IgA deficiency (present in 2-3% of celiac patients) would cause false-negative tTG-IgA"
+      },
+      {
+        "test_name": "Endomysial antibodies (EMA-IgA)",
+        "result": "Positive (1:160)",
+        "flag": "POSITIVE",
+        "clinical_significance": "Positive EMA confirms the suspected diagnosis — nearly 100% specific when positive"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 138, K 3.4, Cl 100, CO2 22, BUN 10, Cr 0.6, Glucose 82, Ca 8.2, AST 24, ALT 28, Alk Phos 130, Albumin 3.0",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypokalemia, hypocalcemia, low albumin, and elevated alkaline phosphatase — consistent with malabsorption of multiple nutrients"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "12 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Severely low vitamin D from fat-soluble vitamin malabsorption; contributes to hypocalcemia and osteoporosis risk"
+      },
+      {
+        "test_name": "Folate",
+        "result": "4.2 ng/mL",
+        "flag": "LOW-NORMAL",
+        "clinical_significance": "Borderline low folate — proximal small bowel malabsorption; may contribute to infertility"
+      },
+      {
+        "test_name": "TSH",
+        "result": "5.8 mIU/L",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated TSH — this condition is associated with autoimmune thyroiditis; needs further evaluation"
+      },
+      {
+        "test_name": "DEXA scan (bone density)",
+        "result": "T-score: lumbar spine -2.2, femoral neck -1.8",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Osteopenia/osteoporosis at young age from chronic calcium and vitamin D malabsorption"
+      },
+      {
+        "test_name": "Fecal fat (72-hour collection)",
+        "result": "12 g/day (normal <7 g/day)",
+        "flag": "HIGH",
+        "clinical_significance": "Steatorrhea confirming fat malabsorption"
+      },
+      {
+        "test_name": "HLA typing",
+        "result": "HLA-DQ2 positive",
+        "flag": "POSITIVE",
+        "clinical_significance": "HLA-DQ2 positive — present in >90% of celiac patients; absence of DQ2/DQ8 virtually excludes this condition"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upper endoscopy with duodenal biopsies", "result": "Endoscopic findings: scalloping and flattening of duodenal folds with mosaic mucosal pattern. Histology: Marsh 3b — subtotal villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes (>40 per 100 enterocytes).", "flag": "ABNORMAL", "clinical_significance": "Duodenal biopsy is the gold standard — Marsh 3b findings (subtotal villous atrophy) confirm celiac disease diagnosis"}
+      {
+        "test_name": "Upper endoscopy with duodenal biopsies",
+        "result": "Endoscopic findings: scalloping and flattening of duodenal folds with mosaic mucosal pattern. Histology: Marsh 3b — subtotal villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes (>40 per 100 enterocytes).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Duodenal biopsy is the gold standard — Marsh 3b findings (subtotal villous atrophy) confirms the suspected diagnosis diagnosis"
+      }
     ],
     "key_tests": [
       "tTG-IgA — markedly elevated at 142 (>7x ULN), highly sensitive and specific for celiac disease",

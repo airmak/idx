@@ -25,31 +25,126 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Creatinine", "result": "2.4 mg/dL (baseline 1.6)", "flag": "HIGH", "clinical_significance": "Acute worsening from baseline, indicating hypertensive nephrosclerosis and acute kidney injury"},
-      {"test_name": "BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with renal injury"},
-      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, suggesting demand ischemia from severe hypertension"},
-      {"test_name": "BNP", "result": "520 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicating myocardial strain from acute pressure overload"},
-      {"test_name": "Urinalysis", "result": "2+ protein, no RBC casts, no WBCs", "flag": "ABNORMAL", "clinical_significance": "Proteinuria consistent with hypertensive nephropathy"},
-      {"test_name": "Peripheral blood smear", "result": "Occasional schistocytes noted", "flag": "ABNORMAL", "clinical_significance": "Microangiopathic changes from severe hypertension damaging small vessels"},
-      {"test_name": "LDH", "result": "310 U/L", "flag": "HIGH", "clinical_significance": "Elevated, may reflect microangiopathic hemolysis"},
-      {"test_name": "Potassium", "result": "4.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal despite renal impairment"},
-      {"test_name": "Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Hemoglobin", "result": "11.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, possibly from CKD or microangiopathic hemolysis"},
-      {"test_name": "Platelet count", "result": "168,000/µL", "flag": "WNL", "clinical_significance": "Normal, though low-normal may suggest mild consumptive process"},
-      {"test_name": "Glucose", "result": "165 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, poorly controlled diabetes"}
+      {
+        "test_name": "Creatinine",
+        "result": "2.4 mg/dL (baseline 1.6)",
+        "flag": "HIGH",
+        "clinical_significance": "Acute worsening from baseline, indicating hypertensive nephrosclerosis and acute kidney injury"
+      },
+      {
+        "test_name": "BUN",
+        "result": "38 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with renal injury"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.08 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, suggesting demand ischemia from severe hypertension"
+      },
+      {
+        "test_name": "BNP",
+        "result": "520 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating myocardial strain from acute pressure overload"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "2+ protein, no RBC casts, no WBCs",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Proteinuria consistent with hypertensive nephropathy"
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Occasional schistocytes noted",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microangiopathic changes from severe hypertension damaging small vessels"
+      },
+      {
+        "test_name": "LDH",
+        "result": "310 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, may reflect microangiopathic hemolysis"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.8 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal despite renal impairment"
+      },
+      {
+        "test_name": "Sodium",
+        "result": "139 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, possibly from CKD or microangiopathic hemolysis"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "168,000/µL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, though low-normal may suggest mild consumptive process"
+      },
+      {
+        "test_name": "Glucose",
+        "result": "165 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, poorly controlled diabetes"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-lead ECG", "result": "Sinus tachycardia at 102 bpm, LVH with strain pattern (ST depression and T-wave inversions in lateral leads), no acute ST elevation", "flag": "ABNORMAL", "clinical_significance": "LVH with strain pattern from chronic hypertension; no STEMI"},
-      {"test_name": "Chest X-ray", "result": "Cardiomegaly, mild pulmonary vascular congestion, no pleural effusions", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly and early pulmonary edema from acute pressure overload"},
-      {"test_name": "CT head without contrast", "result": "No intracranial hemorrhage, no acute infarct, no mass lesion", "flag": "WNL", "clinical_significance": "Rules out hemorrhagic stroke as cause of headache"}
+      {
+        "test_name": "12-lead ECG",
+        "result": "Sinus tachycardia at 102 bpm, LVH with strain pattern (ST depression and T-wave inversions in lateral leads), no acute ST elevation",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH with strain pattern from chronic hypertension; no STEMI"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Cardiomegaly, mild pulmonary vascular congestion, no pleural effusions",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly and early pulmonary edema from acute pressure overload"
+      },
+      {
+        "test_name": "CT head without contrast",
+        "result": "No intracranial hemorrhage, no acute infarct, no mass lesion",
+        "flag": "WNL",
+        "clinical_significance": "Rules out hemorrhagic stroke as cause of headache"
+      }
     ],
-    "key_tests": ["Basic metabolic panel (creatinine, electrolytes)", "Troponin", "Urinalysis", "12-lead ECG", "CT head"],
-    "acceptable_tests": ["CBC with peripheral smear", "BNP", "Chest X-ray", "LDH", "Fundoscopic exam", "Urine protein-to-creatinine ratio", "Renal ultrasound"],
-    "low_yield_tests": ["Cardiac catheterization", "Lumbar puncture", "Serum cortisol", "Toxicology screen", "Cardiac MRI"],
+    "key_tests": [
+      "Basic metabolic panel (creatinine, electrolytes)",
+      "Troponin",
+      "Urinalysis",
+      "12-lead ECG",
+      "CT head"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "BNP",
+      "Chest X-ray",
+      "LDH",
+      "Fundoscopic exam",
+      "Urine protein-to-creatinine ratio",
+      "Renal ultrasound"
+    ],
+    "low_yield_tests": [
+      "Cardiac catheterization",
+      "Lumbar puncture",
+      "Serum cortisol",
+      "Toxicology screen",
+      "Cardiac MRI"
+    ],
     "key_tests_rationale": "BMP assesses for hypertensive nephrosclerosis and AKI. Troponin evaluates for myocardial injury. Urinalysis detects proteinuria/hematuria. ECG screens for ischemia. CT head rules out stroke in a patient with headache and severely elevated BP."
   },
   "stage5": {
-    "final_clue": "Severely elevated BP at 220/130 mmHg with evidence of acute end-organ damage: hypertensive retinopathy (papilledema, hemorrhages), acute kidney injury (creatinine rise from baseline), troponin elevation, and pulmonary edema. This defines a hypertensive emergency."
+    "final_clue": "Severely elevated BP at 220/130 mmHg with evidence of acute end-organ damage: hypertensive retinopathy (papilledema, hemorrhages), acute kidney injury (creatinine rise from baseline), troponin elevation, and pulmonary edema. This defines a this condition."
   },
   "debrief": {
     "classic_presentation": "Hypertensive emergency is defined by severely elevated BP (usually >180/120 mmHg) with evidence of acute end-organ damage: brain (encephalopathy, stroke), heart (ACS, acute HF, aortic dissection), kidneys (acute renal failure), eyes (papilledema, hemorrhages), or vasculature (microangiopathic hemolytic anemia). Headache, visual changes, chest pain, and dyspnea are common presentations.",
@@ -71,9 +166,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Hemorrhagic stroke", "Subarachnoid hemorrhage", "Acute coronary syndrome", "Pheochromocytoma", "Pre-eclampsia/eclampsia", "Acute aortic dissection", "Thyroid storm"],
-    "after_stage2_more_likely": ["Hypertensive emergency", "Hypertensive encephalopathy", "Acute coronary syndrome"],
-    "after_stage2_less_likely": ["Subarachnoid hemorrhage", "Pheochromocytoma", "Thyroid storm"],
-    "after_labs_top3": ["Hypertensive emergency with end-organ damage", "Malignant hypertension", "Thrombotic microangiopathy from hypertension"]
+    "reasonable_ddx": [
+      "Hemorrhagic stroke",
+      "Subarachnoid hemorrhage",
+      "Acute coronary syndrome",
+      "Pheochromocytoma",
+      "Pre-eclampsia/eclampsia",
+      "Acute aortic dissection",
+      "Thyroid storm"
+    ],
+    "after_stage2_more_likely": [
+      "Hypertensive emergency",
+      "Hypertensive encephalopathy",
+      "Acute coronary syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Subarachnoid hemorrhage",
+      "Pheochromocytoma",
+      "Thyroid storm"
+    ],
+    "after_labs_top3": [
+      "Hypertensive emergency with end-organ damage",
+      "Malignant hypertension",
+      "Thrombotic microangiopathy from hypertension"
+    ]
   }
 }

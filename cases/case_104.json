@@ -25,25 +25,93 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,400/uL", "flag": "WNL", "clinical_significance": "Normal; no evidence of infection"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.2 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Glucose", "result": "92 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded as headache trigger"},
-      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal; excludes temporal arteritis (GCA) as cause of headache"},
-      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammation"},
-      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Magnesium", "result": "1.8 mg/dL", "flag": "LOW", "clinical_significance": "Low-normal; magnesium deficiency can lower migraine threshold and supplementation is recommended for prevention"},
-      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,400/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of infection"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "92 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypoglycemia excluded as headache trigger"
+      },
+      {
+        "test_name": "ESR",
+        "result": "8 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; excludes temporal arteritis (GCA) as cause of headache"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no systemic inflammation"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low-normal; magnesium deficiency can lower migraine threshold and supplementation is recommended for prevention"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT head without contrast", "result": "No acute intracranial abnormality. No mass, hemorrhage, or midline shift. Normal ventricles.", "flag": "WNL", "clinical_significance": "Normal CT; rules out acute hemorrhage, mass lesion, or hydrocephalus as cause of headache"}
+      {
+        "test_name": "CT head without contrast",
+        "result": "No acute intracranial abnormality. No mass, hemorrhage, or midline shift. Normal ventricles.",
+        "flag": "WNL",
+        "clinical_significance": "Normal CT; rules out acute hemorrhage, mass lesion, or hydrocephalus as cause of headache"
+      }
     ],
-    "key_tests": ["Clinical diagnosis based on ICHD-3 criteria", "Neurological examination", "CT head or MRI brain (to rule out secondary causes if atypical features)"],
-    "acceptable_tests": ["CBC", "BMP", "ESR/CRP (if GCA suspected)", "TSH", "Magnesium level", "MRI brain with and without contrast", "MRA (if vascular cause suspected)"],
-    "low_yield_tests": ["Lumbar puncture (unless meningitis or SAH suspected)", "EEG", "Carotid ultrasound", "CT angiography", "Blood cultures"]
+    "key_tests": [
+      "Clinical diagnosis based on ICHD-3 criteria",
+      "Neurological examination",
+      "CT head or MRI brain (to rule out secondary causes if atypical features)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "ESR/CRP (if GCA suspected)",
+      "TSH",
+      "Magnesium level",
+      "MRI brain with and without contrast",
+      "MRA (if vascular cause suspected)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (unless meningitis or SAH suspected)",
+      "EEG",
+      "Carotid ultrasound",
+      "CT angiography",
+      "Blood cultures"
+    ]
   },
   "stage5": {
-    "final_clue": "The patient's headache resolves with a second dose of sumatriptan and IV ketorolac in the ED. Her symptoms meet ICHD-3 criteria for migraine with typical aura: at least 2 episodes of fully reversible visual and sensory symptoms, gradual spread over >5 minutes, each lasting 5-60 minutes, followed by headache within 60 minutes. Given her use of combined OCPs with migraine with aura, she is counseled about her elevated stroke risk and referred for contraceptive change."
+    "final_clue": "The patient's headache resolves with a second dose of sumatriptan and IV ketorolac in the ED. Her symptoms meet ICHD-3 criteria for migraine with typical aura: at least 2 episodes of fully reversible visual and sensory symptoms, gradual spread over >5 minutes, each lasting 5-60 minutes, followed by headache within 60 minutes. Given her use of combined OCPs with this condition, she is counseled about her elevated stroke risk and referred for contraceptive change."
   },
   "debrief": {
     "classic_presentation": "Young woman with recurrent unilateral throbbing headaches preceded by fully reversible visual (scintillating scotoma) and sensory (tingling spreading gradually) aura lasting 5-60 minutes, followed by headache with nausea, photophobia, and phonophobia.",
@@ -64,9 +132,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Migraine with aura", "Transient ischemic attack", "Tension-type headache", "Cluster headache", "Seizure with postictal headache", "Subarachnoid hemorrhage", "Intracranial mass"],
-    "after_stage2_more_likely": ["Migraine with aura", "Tension-type headache"],
-    "after_stage2_less_likely": ["Subarachnoid hemorrhage", "Intracranial mass", "Transient ischemic attack"],
-    "after_labs_top3": ["Migraine with aura", "Tension-type headache", "Transient ischemic attack"]
+    "reasonable_ddx": [
+      "Migraine with aura",
+      "Transient ischemic attack",
+      "Tension-type headache",
+      "Cluster headache",
+      "Seizure with postictal headache",
+      "Subarachnoid hemorrhage",
+      "Intracranial mass"
+    ],
+    "after_stage2_more_likely": [
+      "Migraine with aura",
+      "Tension-type headache"
+    ],
+    "after_stage2_less_likely": [
+      "Subarachnoid hemorrhage",
+      "Intracranial mass",
+      "Transient ischemic attack"
+    ],
+    "after_labs_top3": [
+      "Migraine with aura",
+      "Tension-type headache",
+      "Transient ischemic attack"
+    ]
   }
 }

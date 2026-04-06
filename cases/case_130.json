@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "2.8 mg/dL (was 1.4 mg/dL prior to starting lisinopril)", "flag": "HIGH", "clinical_significance": "Doubling of creatinine after ACE inhibitor initiation is classic for bilateral renal artery stenosis or stenosis of a solitary kidney"},
-      {"test_name": "BUN", "result": "42 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with worsened renal function"},
-      {"test_name": "Serum Potassium", "result": "5.4 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from ACE inhibitor in setting of acutely impaired renal function"},
-      {"test_name": "Serum Sodium", "result": "138 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Plasma Renin Activity", "result": "12.5 ng/mL/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated renin consistent with renovascular hypertension from renal hypoperfusion"},
-      {"test_name": "Plasma Aldosterone", "result": "28 ng/dL", "flag": "HIGH", "clinical_significance": "Elevated secondary to high renin; activation of RAAS from renal ischemia"},
-      {"test_name": "Urinalysis", "result": "Trace protein, no casts, no RBCs", "flag": "WNL", "clinical_significance": "Bland sediment; no evidence of glomerulonephritis"},
-      {"test_name": "CBC", "result": "Hgb 12.8 g/dL, WBC 8,200/μL, Plt 245,000/μL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "HbA1c", "result": "7.2%", "flag": "HIGH", "clinical_significance": "Adequate glycemic control; diabetes is a risk factor for atherosclerotic RAS"},
-      {"test_name": "Lipid Panel — LDL", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "At goal on statin therapy"},
-      {"test_name": "BNP", "result": "680 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with volume overload and flash pulmonary edema"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "2.8 mg/dL (was 1.4 mg/dL prior to starting lisinopril)",
+        "flag": "HIGH",
+        "clinical_significance": "Doubling of creatinine after ACE inhibitor initiation is classic for bilateral this condition or stenosis of a solitary kidney"
+      },
+      {
+        "test_name": "BUN",
+        "result": "42 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with worsened renal function"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.4 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from ACE inhibitor in setting of acutely impaired renal function"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "138 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Plasma Renin Activity",
+        "result": "12.5 ng/mL/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated renin consistent with renovascular hypertension from renal hypoperfusion"
+      },
+      {
+        "test_name": "Plasma Aldosterone",
+        "result": "28 ng/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated secondary to high renin; activation of RAAS from renal ischemia"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Trace protein, no casts, no RBCs",
+        "flag": "WNL",
+        "clinical_significance": "Bland sediment; no evidence of glomerulonephritis"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 12.8 g/dL, WBC 8,200/μL, Plt 245,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Adequate glycemic control; diabetes is a risk factor for atherosclerotic RAS"
+      },
+      {
+        "test_name": "Lipid Panel — LDL",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "At goal on statin therapy"
+      },
+      {
+        "test_name": "BNP",
+        "result": "680 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with volume overload and flash pulmonary edema"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Duplex Renal Ultrasound with Doppler", "result": "Right kidney 9.2 cm, left kidney 11.4 cm. Peak systolic velocity in right renal artery is 380 cm/s (normal <200). Renal-aortic ratio (RAR) 4.2 (>3.5 indicates >60% stenosis). Left renal artery PSV 165 cm/s. Resistive indices elevated bilaterally.", "flag": "ABNORMAL", "clinical_significance": "Hemodynamically significant right renal artery stenosis >60%; size discrepancy (>1.5 cm) between kidneys supports unilateral chronic ischemia"},
-      {"test_name": "CT Angiography of Renal Arteries", "result": "85% atherosclerotic stenosis of the right renal artery at the ostium with post-stenotic dilatation. Left renal artery with 30% stenosis. Diffuse aortic atherosclerosis.", "flag": "ABNORMAL", "clinical_significance": "Confirms severe right-sided atherosclerotic renal artery stenosis; ostial location is classic for atherosclerotic disease"},
-      {"test_name": "Chest X-ray", "result": "Cardiomegaly, bilateral pulmonary vascular congestion with bilateral pleural effusions, consistent with resolving pulmonary edema.", "flag": "ABNORMAL", "clinical_significance": "Flash pulmonary edema is a recognized presentation of bilateral RAS or severe unilateral RAS"}
+      {
+        "test_name": "Duplex Renal Ultrasound with Doppler",
+        "result": "Right kidney 9.2 cm, left kidney 11.4 cm. Peak systolic velocity in right renal artery is 380 cm/s (normal <200). Renal-aortic ratio (RAR) 4.2 (>3.5 indicates >60% stenosis). Left renal artery PSV 165 cm/s. Resistive indices elevated bilaterally.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemodynamically significant right this condition >60%; size discrepancy (>1.5 cm) between kidneys supports unilateral chronic ischemia"
+      },
+      {
+        "test_name": "CT Angiography of Renal Arteries",
+        "result": "85% atherosclerotic stenosis of the right renal artery at the ostium with post-stenotic dilatation. Left renal artery with 30% stenosis. Diffuse aortic atherosclerosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms severe right-sided atherosclerotic this condition; ostial location is classic for atherosclerotic disease"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Cardiomegaly, bilateral pulmonary vascular congestion with bilateral pleural effusions, consistent with resolving pulmonary edema.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Flash pulmonary edema is a recognized presentation of bilateral RAS or severe unilateral RAS"
+      }
     ],
     "key_tests": [
       "Duplex renal ultrasound with Doppler",
@@ -65,7 +135,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Resistant hypertension, flash pulmonary edema, and creatinine doubling after ACE inhibitor initiation, with an abdominal bruit and asymmetric kidney sizes, and CTA showing 85% atherosclerotic right renal artery stenosis confirm hemodynamically significant renal artery stenosis."
+    "final_clue": "Resistant hypertension, flash pulmonary edema, and creatinine doubling after ACE inhibitor initiation, with an abdominal bruit and asymmetric kidney sizes, and CTA showing 85% atherosclerotic right this condition confirm hemodynamically significant this condition."
   },
   "debrief": {
     "classic_presentation": "An older patient with extensive atherosclerotic disease (PAD, CAD) presents with resistant hypertension, flash pulmonary edema, and acute kidney injury after starting an ACE inhibitor. Physical exam reveals an abdominal bruit. Imaging shows significant renal artery stenosis with asymmetric kidney sizes.",

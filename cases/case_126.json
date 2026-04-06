@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urinalysis", "result": "Cloudy, pH 6.5, large leukocyte esterase, positive nitrites, >100 WBCs/hpf, moderate bacteria, 5-10 RBCs/hpf, WBC casts present", "flag": "ABNORMAL", "clinical_significance": "Pyuria with WBC casts localizes infection to the kidney (pyelonephritis); positive nitrites suggest gram-negative bacteria"},
-      {"test_name": "Urine Culture", "result": "Escherichia coli >100,000 CFU/mL; sensitive to ciprofloxacin, ceftriaxone, gentamicin; resistant to ampicillin and trimethoprim-sulfamethoxazole", "flag": "ABNORMAL", "clinical_significance": "Confirms E. coli UTI with antibiotic sensitivities; guides definitive therapy"},
-      {"test_name": "CBC — WBC", "result": "16,200/μL with 88% neutrophils, 4% bands", "flag": "HIGH", "clinical_significance": "Leukocytosis with neutrophilic predominance and left shift indicates bacterial infection"},
-      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; uncomplicated pyelonephritis typically preserves GFR"},
-      {"test_name": "BUN", "result": "14 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Blood Cultures", "result": "No growth at 48 hours", "flag": "WNL", "clinical_significance": "No bacteremia; supports uncomplicated pyelonephritis"},
-      {"test_name": "CRP", "result": "148 mg/L", "flag": "HIGH", "clinical_significance": "Markedly elevated inflammatory marker consistent with upper urinary tract infection"},
-      {"test_name": "Serum Lactate", "result": "1.4 mmol/L", "flag": "WNL", "clinical_significance": "Normal; no evidence of sepsis-related tissue hypoperfusion"},
-      {"test_name": "Procalcitonin", "result": "2.1 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated procalcitonin helps distinguish upper tract infection (pyelonephritis) from lower tract infection (cystitis)"}
+      {
+        "test_name": "Urinalysis",
+        "result": "Cloudy, pH 6.5, large leukocyte esterase, positive nitrites, >100 WBCs/hpf, moderate bacteria, 5-10 RBCs/hpf, WBC casts present",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pyuria with WBC casts localizes infection to the kidney (this condition); positive nitrites suggest gram-negative bacteria"
+      },
+      {
+        "test_name": "Urine Culture",
+        "result": "Escherichia coli >100,000 CFU/mL; sensitive to ciprofloxacin, ceftriaxone, gentamicin; resistant to ampicillin and trimethoprim-sulfamethoxazole",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms E. coli UTI with antibiotic sensitivities; guides definitive therapy"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "16,200/μL with 88% neutrophils, 4% bands",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with neutrophilic predominance and left shift indicates bacterial infection"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; uncomplicated this condition typically preserves GFR"
+      },
+      {
+        "test_name": "BUN",
+        "result": "14 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Blood Cultures",
+        "result": "No growth at 48 hours",
+        "flag": "WNL",
+        "clinical_significance": "No bacteremia; supports uncomplicated this condition"
+      },
+      {
+        "test_name": "CRP",
+        "result": "148 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated inflammatory marker consistent with upper urinary tract infection"
+      },
+      {
+        "test_name": "Serum Lactate",
+        "result": "1.4 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no evidence of sepsis-related tissue hypoperfusion"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "2.1 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated procalcitonin helps distinguish upper tract infection (this condition) from lower tract infection (cystitis)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Right kidney mildly enlarged at 13.2 cm with mild perinephric stranding. No hydronephrosis, abscess, or calculi identified. Left kidney normal.", "flag": "ABNORMAL", "clinical_significance": "Renal enlargement and perinephric stranding consistent with acute pyelonephritis; no obstructing stone or abscess"},
-      {"test_name": "CT Abdomen/Pelvis with Contrast", "result": "Not performed (reserved for complicated cases or failure to improve on antibiotics).", "flag": "WNL", "clinical_significance": "Not indicated in uncomplicated pyelonephritis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Right kidney mildly enlarged at 13.2 cm with mild perinephric stranding. No hydronephrosis, abscess, or calculi identified. Left kidney normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Renal enlargement and perinephric stranding consistent with the suspected diagnosis; no obstructing stone or abscess"
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with Contrast",
+        "result": "Not performed (reserved for complicated cases or failure to improve on antibiotics).",
+        "flag": "WNL",
+        "clinical_significance": "Not indicated in uncomplicated this condition"
+      }
     ],
     "key_tests": [
       "Urinalysis with microscopy",
@@ -62,7 +117,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Fever, right CVA tenderness, pyuria with WBC casts (localizing infection to the kidney), positive nitrites, and E. coli >100,000 CFU/mL on urine culture confirm acute pyelonephritis."
+    "final_clue": "Fever, right CVA tenderness, pyuria with WBC casts (localizing infection to the kidney), positive nitrites, and E. coli >100,000 CFU/mL on urine culture confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "A young woman with recurrent UTIs presents with high fever, chills, flank pain, CVA tenderness, and lower urinary tract symptoms (dysuria, frequency, urgency). UA shows pyuria with WBC casts, and culture grows >100,000 CFU/mL of E. coli.",

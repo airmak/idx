@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Peripheral Blood Smear (Thick and Thin)", "result": "Intraerythrocytic ring forms with multiple rings per RBC. Occasional 'Maltese cross' (tetrad) forms identified. Parasitemia calculated at 12%.", "flag": "ABNORMAL", "clinical_significance": "The Maltese cross (tetrad) is pathognomonic for Babesia and distinguishes it from Plasmodium; high parasitemia (>10%) in asplenic patients indicates severe disease"},
-      {"test_name": "Babesia microti PCR", "result": "Detected — Babesia microti", "flag": "ABNORMAL", "clinical_significance": "Confirmatory molecular diagnosis with species identification; more sensitive than smear at low parasitemia"},
-      {"test_name": "CBC — Hemoglobin", "result": "8.2 g/dL (baseline 14.0)", "flag": "LOW", "clinical_significance": "Severe hemolytic anemia from intraerythrocytic parasitization and immune-mediated destruction"},
-      {"test_name": "CBC — Platelets", "result": "48,000/μL", "flag": "LOW", "clinical_significance": "Thrombocytopenia from splenic sequestration (normally, but asplenic here) and consumptive process; common in babesiosis"},
-      {"test_name": "CBC — WBC", "result": "6,800/μL", "flag": "WNL", "clinical_significance": "WBC usually normal or slightly low in babesiosis; elevated Howell-Jolly bodies noted on smear confirming asplenia"},
-      {"test_name": "Total Bilirubin", "result": "8.4 mg/dL (indirect 6.8 mg/dL)", "flag": "HIGH", "clinical_significance": "Predominantly indirect hyperbilirubinemia from intravascular and extravascular hemolysis"},
-      {"test_name": "LDH", "result": "1,240 U/L", "flag": "HIGH", "clinical_significance": "Markedly elevated LDH from hemolysis"},
-      {"test_name": "Haptoglobin", "result": "<5 mg/dL", "flag": "LOW", "clinical_significance": "Undetectable haptoglobin confirms intravascular hemolysis"},
-      {"test_name": "Reticulocyte Count", "result": "8.2%", "flag": "HIGH", "clinical_significance": "Elevated reticulocyte count reflecting bone marrow response to hemolytic anemia"},
-      {"test_name": "Serum Creatinine", "result": "2.4 mg/dL (baseline 1.1)", "flag": "HIGH", "clinical_significance": "Acute kidney injury from hemoglobinuria, hemodynamic compromise, and direct parasitic endothelial effects"},
-      {"test_name": "Lyme ELISA", "result": "Positive (borderline)", "flag": "ABNORMAL", "clinical_significance": "Co-infection with Borrelia burgdorferi occurs in 10-20% of Babesia cases (same Ixodes tick vector); requires Western blot confirmation"},
-      {"test_name": "Anaplasma phagocytophilum PCR", "result": "Not detected", "flag": "WNL", "clinical_significance": "Excludes anaplasmosis co-infection (also transmitted by Ixodes scapularis)"}
+      {
+        "test_name": "Peripheral Blood Smear (Thick and Thin)",
+        "result": "Intraerythrocytic ring forms with multiple rings per RBC. Occasional 'Maltese cross' (tetrad) forms identified. Parasitemia calculated at 12%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The Maltese cross (tetrad) is pathognomonic for Babesia and distinguishes it from Plasmodium; high parasitemia (>10%) in asplenic patients indicates severe disease"
+      },
+      {
+        "test_name": "Babesia microti PCR",
+        "result": "Detected — Babesia microti",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirmatory molecular diagnosis with species identification; more sensitive than smear at low parasitemia"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "8.2 g/dL (baseline 14.0)",
+        "flag": "LOW",
+        "clinical_significance": "Severe hemolytic anemia from intraerythrocytic parasitization and immune-mediated destruction"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "48,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Thrombocytopenia from splenic sequestration (normally, but asplenic here) and consumptive process; common in this condition"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "6,800/μL",
+        "flag": "WNL",
+        "clinical_significance": "WBC usually normal or slightly low in this condition; elevated Howell-Jolly bodies noted on smear confirming asplenia"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "8.4 mg/dL (indirect 6.8 mg/dL)",
+        "flag": "HIGH",
+        "clinical_significance": "Predominantly indirect hyperbilirubinemia from intravascular and extravascular hemolysis"
+      },
+      {
+        "test_name": "LDH",
+        "result": "1,240 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated LDH from hemolysis"
+      },
+      {
+        "test_name": "Haptoglobin",
+        "result": "<5 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Undetectable haptoglobin confirms intravascular hemolysis"
+      },
+      {
+        "test_name": "Reticulocyte Count",
+        "result": "8.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated reticulocyte count reflecting bone marrow response to hemolytic anemia"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "2.4 mg/dL (baseline 1.1)",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury from hemoglobinuria, hemodynamic compromise, and direct parasitic endothelial effects"
+      },
+      {
+        "test_name": "Lyme ELISA",
+        "result": "Positive (borderline)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Co-infection with Borrelia burgdorferi occurs in 10-20% of Babesia cases (same Ixodes tick vector); requires Western blot confirmation"
+      },
+      {
+        "test_name": "Anaplasma phagocytophilum PCR",
+        "result": "Not detected",
+        "flag": "WNL",
+        "clinical_significance": "Excludes anaplasmosis co-infection (also transmitted by Ixodes scapularis)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Mild bilateral interstitial edema. No focal consolidation. Cardiomegaly.", "flag": "ABNORMAL", "clinical_significance": "Mild pulmonary edema likely from volume overload and hemodynamic stress; ARDS can complicate severe babesiosis"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild bilateral interstitial edema. No focal consolidation. Cardiomegaly.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild pulmonary edema likely from volume overload and hemodynamic stress; ARDS can complicate severe this condition"
+      }
     ],
     "key_tests": [
       "Peripheral blood smear (thick and thin) with parasitemia quantification — look for Maltese cross (tetrad)",
@@ -65,7 +130,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "An asplenic elderly male from a Babesia-endemic area (Nantucket, summer) with high fevers, rigors, severe hemolytic anemia (Hgb 8.2, undetectable haptoglobin, LDH 1240, indirect bilirubin 6.8), thrombocytopenia, AKI, and jaundice. Blood smear shows intraerythrocytic ring forms with the pathognomonic Maltese cross (tetrad) at 12% parasitemia. PCR confirms Babesia microti. The presence of asplenia, parasitemia >10%, hemoglobin <10, and renal insufficiency defines severe babesiosis requiring exchange transfusion."
+    "final_clue": "An asplenic elderly male from a Babesia-endemic area (Nantucket, summer) with high fevers, rigors, severe hemolytic anemia (Hgb 8.2, undetectable haptoglobin, LDH 1240, indirect bilirubin 6.8), thrombocytopenia, AKI, and jaundice. Blood smear shows intraerythrocytic ring forms with the pathognomonic Maltese cross (tetrad) at 12% parasitemia. PCR confirms Babesia microti. The presence of asplenia, parasitemia >10%, hemoglobin <10, and renal insufficiency defines severe this condition requiring exchange transfusion."
   },
   "debrief": {
     "classic_presentation": "A febrile illness in a patient from a Babesia-endemic area (coastal New England — Nantucket, Martha's Vineyard, Long Island, Connecticut, coastal New Jersey) during summer months (May-September). Symptoms include high fever, rigors, drenching sweats, myalgias, headache, and anorexia. Severe disease with hemolytic anemia, jaundice, renal failure, and ARDS occurs in high-risk populations: asplenic patients, the elderly (>50 years), and immunocompromised individuals (HIV, malignancy, anti-TNF therapy). The combination of asplenia + babesiosis is particularly dangerous with mortality rates of 20-40%.",

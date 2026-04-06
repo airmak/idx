@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Bicarbonate", "result": "14 mEq/L", "flag": "LOW", "clinical_significance": "Significant metabolic acidosis; characteristic of distal RTA"},
-      {"test_name": "Serum Potassium", "result": "2.6 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia is a hallmark of Type 1 (distal) RTA; explains muscle weakness and diminished reflexes"},
-      {"test_name": "Serum Chloride", "result": "116 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperchloremia characteristic of non-anion gap metabolic acidosis"},
-      {"test_name": "Anion Gap", "result": "10 mEq/L", "flag": "WNL", "clinical_significance": "Normal anion gap; this is a non-anion gap (hyperchloremic) metabolic acidosis — classic for RTA"},
-      {"test_name": "Urine pH", "result": "6.8", "flag": "HIGH", "clinical_significance": "Inappropriately alkaline urine (pH >5.5) despite systemic acidosis is the defining feature of distal (Type 1) RTA — the distal nephron cannot secrete H+"},
-      {"test_name": "Urine Anion Gap", "result": "+15 mEq/L (Na 45, K 30, Cl 60)", "flag": "ABNORMAL", "clinical_significance": "Positive urine anion gap indicates impaired renal ammonium excretion, confirming renal (not GI) cause of acidosis"},
-      {"test_name": "Serum Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Preserved renal function; GFR is typically maintained in Type 1 RTA until late"},
-      {"test_name": "Serum Calcium", "result": "8.4 mg/dL", "flag": "LOW", "clinical_significance": "Mildly low; chronic acidosis causes bone calcium mobilization contributing to osteoporosis and nephrolithiasis"},
-      {"test_name": "24-hour Urine Calcium", "result": "380 mg/day", "flag": "HIGH", "clinical_significance": "Hypercalciuria from chronic acidosis-driven bone resorption; promotes calcium phosphate stone formation"},
-      {"test_name": "24-hour Urine Citrate", "result": "95 mg/day", "flag": "LOW", "clinical_significance": "Hypocitraturia (normal >320 mg/day); citrate reabsorption increases in acidosis, removing a key inhibitor of stone formation"},
-      {"test_name": "Serum Phosphorus", "result": "2.8 mg/dL", "flag": "LOW", "clinical_significance": "Low phosphorus from renal phosphate wasting in distal RTA"},
-      {"test_name": "ABG", "result": "pH 7.28, pCO2 26, HCO3 13", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with appropriate respiratory compensation (Winter formula: expected pCO2 = 1.5(13)+8 = 27.5, consistent)"}
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "14 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Significant metabolic acidosis; characteristic of this condition"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "2.6 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia is a hallmark of Type 1 (distal) RTA; explains muscle weakness and diminished reflexes"
+      },
+      {
+        "test_name": "Serum Chloride",
+        "result": "116 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperchloremia characteristic of non-anion gap metabolic acidosis"
+      },
+      {
+        "test_name": "Anion Gap",
+        "result": "10 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal anion gap; this is a non-anion gap (hyperchloremic) metabolic acidosis — classic for RTA"
+      },
+      {
+        "test_name": "Urine pH",
+        "result": "6.8",
+        "flag": "HIGH",
+        "clinical_significance": "Inappropriately alkaline urine (pH >5.5) despite systemic acidosis is the defining feature of distal (Type 1) RTA — the distal nephron cannot secrete H+"
+      },
+      {
+        "test_name": "Urine Anion Gap",
+        "result": "+15 mEq/L (Na 45, K 30, Cl 60)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive urine anion gap indicates impaired renal ammonium excretion, confirming renal (not GI) cause of acidosis"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Preserved renal function; GFR is typically maintained in Type 1 RTA until late"
+      },
+      {
+        "test_name": "Serum Calcium",
+        "result": "8.4 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mildly low; chronic acidosis causes bone calcium mobilization contributing to osteoporosis and nephrolithiasis"
+      },
+      {
+        "test_name": "24-hour Urine Calcium",
+        "result": "380 mg/day",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalciuria from chronic acidosis-driven bone resorption; promotes calcium phosphate stone formation"
+      },
+      {
+        "test_name": "24-hour Urine Citrate",
+        "result": "95 mg/day",
+        "flag": "LOW",
+        "clinical_significance": "Hypocitraturia (normal >320 mg/day); citrate reabsorption increases in acidosis, removing a key inhibitor of stone formation"
+      },
+      {
+        "test_name": "Serum Phosphorus",
+        "result": "2.8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low phosphorus from renal phosphate wasting in this condition"
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.28, pCO2 26, HCO3 13",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with appropriate respiratory compensation (Winter formula: expected pCO2 = 1.5(13)+8 = 27.5, consistent)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "KUB Radiograph", "result": "Bilateral medullary nephrocalcinosis. Small radiopaque calculus in the left renal pelvis (4 mm).", "flag": "ABNORMAL", "clinical_significance": "Medullary nephrocalcinosis is a classic complication of distal RTA, caused by chronic alkaline urine with calcium phosphate precipitation in the renal medulla"},
-      {"test_name": "Renal Ultrasound", "result": "Bilateral increased echogenicity of the renal medullary pyramids consistent with nephrocalcinosis. 4 mm non-obstructing left renal calculus. Normal kidney sizes.", "flag": "ABNORMAL", "clinical_significance": "Confirms nephrocalcinosis; non-obstructing stone"}
+      {
+        "test_name": "KUB Radiograph",
+        "result": "Bilateral medullary nephrocalcinosis. Small radiopaque calculus in the left renal pelvis (4 mm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Medullary nephrocalcinosis is a classic complication of this condition, caused by chronic alkaline urine with calcium phosphate precipitation in the renal medulla"
+      },
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Bilateral increased echogenicity of the renal medullary pyramids consistent with nephrocalcinosis. 4 mm non-obstructing left renal calculus. Normal kidney sizes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms nephrocalcinosis; non-obstructing stone"
+      }
     ],
     "key_tests": [
       "Serum electrolytes with anion gap calculation",

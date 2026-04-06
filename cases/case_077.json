@@ -25,30 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "< 0.01 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no myocardial injury"},
-      {"test_name": "Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal, rules out electrolyte-mediated arrhythmia"},
-      {"test_name": "Calcium", "result": "9.5 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "1.9 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Glucose", "result": "92 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CBC", "result": "WBC 7.5, Hgb 15.0, Plt 225", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Toxicology screen", "result": "Negative", "flag": "WNL", "clinical_significance": "No illicit substance exposure"},
-      {"test_name": "BNP", "result": "22 pg/mL", "flag": "WNL", "clinical_significance": "Normal, no heart failure"},
-      {"test_name": "Genetic testing (SCN5A)", "result": "Pathogenic variant identified in SCN5A gene", "flag": "ABNORMAL", "clinical_significance": "Confirms genetic basis of Brugada syndrome — SCN5A encodes the cardiac sodium channel"}
+      {
+        "test_name": "Troponin I",
+        "result": "< 0.01 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no myocardial injury"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.2 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, rules out electrolyte-mediated arrhythmia"
+      },
+      {
+        "test_name": "Calcium",
+        "result": "9.5 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.9 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Glucose",
+        "result": "92 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.5, Hgb 15.0, Plt 225",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Toxicology screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No illicit substance exposure"
+      },
+      {
+        "test_name": "BNP",
+        "result": "22 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no heart failure"
+      },
+      {
+        "test_name": "Genetic testing (SCN5A)",
+        "result": "Pathogenic variant identified in SCN5A gene",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms genetic basis of this condition — SCN5A encodes the cardiac sodium channel"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm. Type 1 Brugada pattern: coved-type ST elevation ≥2 mm in leads V1-V2 with T-wave inversion. Normal QRS duration. Normal QTc.", "flag": "ABNORMAL", "clinical_significance": "Spontaneous Type 1 Brugada ECG pattern — diagnostic in the right clinical context"},
-      {"test_name": "Transthoracic Echocardiogram", "result": "Structurally normal heart. LVEF 60%. No valvular disease. No RVOT abnormalities. Normal wall thickness.", "flag": "WNL", "clinical_significance": "Normal structural heart — Brugada is a channelopathy, not a structural disease"},
-      {"test_name": "Cardiac MRI", "result": "Normal biventricular size and function. No myocardial fibrosis or fatty infiltration. No ARVC features.", "flag": "WNL", "clinical_significance": "Excludes ARVC and other structural causes of sudden death"}
+      {
+        "test_name": "12-lead ECG",
+        "result": "Normal sinus rhythm. Type 1 Brugada pattern: coved-type ST elevation ≥2 mm in leads V1-V2 with T-wave inversion. Normal QRS duration. Normal QTc.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Spontaneous Type 1 Brugada ECG pattern — diagnostic in the right clinical context"
+      },
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Structurally normal heart. LVEF 60%. No valvular disease. No RVOT abnormalities. Normal wall thickness.",
+        "flag": "WNL",
+        "clinical_significance": "Normal structural heart — Brugada is a channelopathy, not a structural disease"
+      },
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Normal biventricular size and function. No myocardial fibrosis or fatty infiltration. No ARVC features.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes ARVC and other structural causes of sudden death"
+      }
     ],
-    "key_tests": ["12-lead ECG (with high leads V1-V2)", "Transthoracic echocardiogram", "Basic metabolic panel", "Troponin", "Genetic testing (SCN5A)"],
-    "acceptable_tests": ["Cardiac MRI", "Holter/event monitor", "Electrophysiology study", "Ajmaline/procainamide provocation test (if ECG non-diagnostic)", "Toxicology screen", "TSH", "CBC"],
-    "low_yield_tests": ["Stress test", "Coronary angiography", "CT chest", "EEG (unless seizure strongly suspected)", "D-dimer"],
+    "key_tests": [
+      "12-lead ECG (with high leads V1-V2)",
+      "Transthoracic echocardiogram",
+      "Basic metabolic panel",
+      "Troponin",
+      "Genetic testing (SCN5A)"
+    ],
+    "acceptable_tests": [
+      "Cardiac MRI",
+      "Holter/event monitor",
+      "Electrophysiology study",
+      "Ajmaline/procainamide provocation test (if ECG non-diagnostic)",
+      "Toxicology screen",
+      "TSH",
+      "CBC"
+    ],
+    "low_yield_tests": [
+      "Stress test",
+      "Coronary angiography",
+      "CT chest",
+      "EEG (unless seizure strongly suspected)",
+      "D-dimer"
+    ],
     "key_tests_rationale": "ECG is the cornerstone of diagnosis showing the Type 1 Brugada pattern. Echo and MRI exclude structural heart disease. Electrolytes rule out metabolic causes. Genetic testing confirms the diagnosis and enables family screening."
   },
   "stage5": {
-    "final_clue": "The ECG reveals a spontaneous Type 1 Brugada pattern (coved ST elevation in V1-V2) in a patient with aborted sudden cardiac death during sleep, a structurally normal heart, and family history of unexplained sudden death in young males of Southeast Asian descent. SCN5A mutation confirms Brugada syndrome."
+    "final_clue": "The ECG reveals a spontaneous Type 1 Brugada pattern (coved ST elevation in V1-V2) in a patient with aborted sudden cardiac death during sleep, a structurally normal heart, and family history of unexplained sudden death in young males of Southeast Asian descent. SCN5A mutation confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "Brugada syndrome presents with syncope or sudden cardiac death, typically occurring at rest or during sleep, in a patient with a structurally normal heart. Mean age of presentation is 40 years with strong male predominance (8:1). It is most prevalent in Southeast Asian populations (known as 'sudden unexplained nocturnal death syndrome' or 'bangungut' in the Philippines). Fever can unmask or worsen the ECG pattern.",
@@ -70,9 +160,30 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Long QT syndrome", "ARVC", "Catecholaminergic polymorphic VT", "Epilepsy", "Vasovagal syncope", "Hypertrophic cardiomyopathy", "Early repolarization syndrome"],
-    "after_stage2_more_likely": ["Brugada syndrome", "Inherited channelopathy", "Long QT syndrome"],
-    "after_stage2_less_likely": ["Epilepsy", "Vasovagal syncope", "ARVC", "HCM"],
-    "after_labs_top3": ["Brugada syndrome", "Long QT syndrome", "Early repolarization syndrome"]
+    "reasonable_ddx": [
+      "Long QT syndrome",
+      "ARVC",
+      "Catecholaminergic polymorphic VT",
+      "Epilepsy",
+      "Vasovagal syncope",
+      "Hypertrophic cardiomyopathy",
+      "Early repolarization syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Brugada syndrome",
+      "Inherited channelopathy",
+      "Long QT syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Epilepsy",
+      "Vasovagal syncope",
+      "ARVC",
+      "HCM"
+    ],
+    "after_labs_top3": [
+      "Brugada syndrome",
+      "Long QT syndrome",
+      "Early repolarization syndrome"
+    ]
   }
 }

@@ -25,18 +25,68 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "12,600/μL with 58% lymphocytes, 22% atypical lymphocytes", "flag": "HIGH", "clinical_significance": "Lymphocytosis with >10% atypical lymphocytes is highly characteristic of EBV mononucleosis"},
-      {"test_name": "Monospot (Heterophile Antibody)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive heterophile antibody confirms infectious mononucleosis"},
-      {"test_name": "EBV VCA IgM", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive VCA IgM indicates acute EBV infection"},
-      {"test_name": "EBV VCA IgG", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "VCA IgG appears early and persists for life; positive in acute and past infection"},
-      {"test_name": "EBV EBNA IgG", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative EBNA antibody supports acute (not past) EBV infection — EBNA appears weeks to months after onset"},
-      {"test_name": "AST/ALT", "result": "AST 128 U/L, ALT 156 U/L", "flag": "HIGH", "clinical_significance": "Mild to moderate transaminitis occurs in ~80% of EBV mononucleosis cases"},
-      {"test_name": "Total Bilirubin", "result": "1.4 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated bilirubin; can occur with EBV hepatitis"},
-      {"test_name": "Rapid Strep (Group A)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes Group A Streptococcus as cause of pharyngitis"},
-      {"test_name": "CBC — Platelets", "result": "118,000/μL", "flag": "LOW", "clinical_significance": "Mild thrombocytopenia seen in 25-50% of mono cases"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "12,600/μL with 58% lymphocytes, 22% atypical lymphocytes",
+        "flag": "HIGH",
+        "clinical_significance": "Lymphocytosis with >10% atypical lymphocytes is highly characteristic of EBV this condition"
+      },
+      {
+        "test_name": "Monospot (Heterophile Antibody)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive heterophile antibody confirms infectious this condition"
+      },
+      {
+        "test_name": "EBV VCA IgM",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive VCA IgM indicates acute EBV infection"
+      },
+      {
+        "test_name": "EBV VCA IgG",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "VCA IgG appears early and persists for life; positive in acute and past infection"
+      },
+      {
+        "test_name": "EBV EBNA IgG",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative EBNA antibody supports acute (not past) EBV infection — EBNA appears weeks to months after onset"
+      },
+      {
+        "test_name": "AST/ALT",
+        "result": "AST 128 U/L, ALT 156 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mild to moderate transaminitis occurs in ~80% of EBV this condition cases"
+      },
+      {
+        "test_name": "Total Bilirubin",
+        "result": "1.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated bilirubin; can occur with EBV hepatitis"
+      },
+      {
+        "test_name": "Rapid Strep (Group A)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes Group A Streptococcus as cause of pharyngitis"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "118,000/μL",
+        "flag": "LOW",
+        "clinical_significance": "Mild thrombocytopenia seen in 25-50% of mono cases"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Abdominal Ultrasound", "result": "Spleen enlarged at 15.2 cm (normal <13 cm). Homogeneous echotexture, no focal lesions. Liver normal in size and appearance.", "flag": "ABNORMAL", "clinical_significance": "Confirms splenomegaly; important for counseling on activity restrictions to prevent splenic rupture"}
+      {
+        "test_name": "Abdominal Ultrasound",
+        "result": "Spleen enlarged at 15.2 cm (normal <13 cm). Homogeneous echotexture, no focal lesions. Liver normal in size and appearance.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms splenomegaly; important for counseling on activity restrictions to prevent splenic rupture"
+      }
     ],
     "key_tests": [
       "Monospot (heterophile antibody test)",
@@ -58,7 +108,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Classic EBV infectious mononucleosis: a young adult with the triad of pharyngitis with tonsillar exudates, posterior cervical lymphadenopathy, and splenomegaly. Supported by >10% atypical lymphocytes, positive monospot, acute EBV serologic profile (VCA IgM positive, EBNA negative), transaminitis, thrombocytopenia, and a maculopapular rash triggered by amoxicillin (classic aminopenicillin rash of mono)."
+    "final_clue": "Classic EBV infectious this condition: a young adult with the triad of pharyngitis with tonsillar exudates, posterior cervical lymphadenopathy, and splenomegaly. Supported by >10% atypical lymphocytes, positive monospot, acute EBV serologic profile (VCA IgM positive, EBNA negative), transaminitis, thrombocytopenia, and a maculopapular rash triggered by amoxicillin (classic aminopenicillin rash of mono)."
   },
   "debrief": {
     "classic_presentation": "A young adult (15-25 years) presenting with the classic triad: exudative pharyngitis, posterior cervical lymphadenopathy, and fatigue/fever lasting 1-4 weeks. Splenomegaly is present in ~50% of cases. Palatal petechiae and periorbital edema are supportive findings. A maculopapular rash occurring after aminopenicillin administration (amoxicillin/ampicillin) is a classic association. Labs show lymphocytosis with >10% atypical lymphocytes and mild transaminitis.",

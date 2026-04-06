@@ -25,23 +25,97 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal on replacement therapy; hypothyroidism is a risk factor for CTS"},
-      {"test_name": "HbA1c", "result": "6.5%", "flag": "WNL", "clinical_significance": "At target; diabetes is a risk factor for CTS and peripheral neuropathy"},
-      {"test_name": "Fasting glucose", "result": "108 mg/dL", "flag": "WNL", "clinical_significance": "Adequately controlled"},
-      {"test_name": "CBC — WBC", "result": "7,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CRP", "result": "0.4 mg/dL", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process (RA excluded clinically)"},
-      {"test_name": "RF", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rheumatoid arthritis excluded as underlying cause of CTS"},
-      {"test_name": "Vitamin B12", "result": "380 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency excluded as cause of peripheral neuropathy"},
-      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"}
+      {
+        "test_name": "TSH",
+        "result": "3.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal on replacement therapy; hypothyroidism is a risk factor for CTS"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.5%",
+        "flag": "WNL",
+        "clinical_significance": "At target; diabetes is a risk factor for CTS and peripheral neuropathy"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "108 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Adequately controlled"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no systemic inflammatory process (RA excluded clinically)"
+      },
+      {
+        "test_name": "RF",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; rheumatoid arthritis excluded as underlying cause of CTS"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "380 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; B12 deficiency excluded as cause of peripheral neuropathy"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Nerve conduction studies (NCS) / Electromyography (EMG)", "result": "Median nerve: prolonged distal sensory latency (4.8 ms, normal <3.5 ms) and prolonged distal motor latency (5.2 ms, normal <4.2 ms) at the wrist. Reduced sensory nerve action potential amplitude. EMG of abductor pollicis brevis shows fibrillation potentials and reduced recruitment. Ulnar nerve studies normal.", "flag": "ABNORMAL", "clinical_significance": "NCS/EMG confirms moderate-to-severe right carpal tunnel syndrome with both demyelinating and axonal changes. Fibrillations indicate denervation of thenar muscles."},
-      {"test_name": "Wrist X-ray (if obtained)", "result": "No fracture, dislocation, or arthritis. Normal carpal bones.", "flag": "WNL", "clinical_significance": "Excludes bony causes of carpal tunnel compression (fracture, arthritis)"}
+      {
+        "test_name": "Nerve conduction studies (NCS) / Electromyography (EMG)",
+        "result": "Median nerve: prolonged distal sensory latency (4.8 ms, normal <3.5 ms) and prolonged distal motor latency (5.2 ms, normal <4.2 ms) at the wrist. Reduced sensory nerve action potential amplitude. EMG of abductor pollicis brevis shows fibrillation potentials and reduced recruitment. Ulnar nerve studies normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "NCS/EMG confirms moderate-to-severe right this condition with both demyelinating and axonal changes. Fibrillations indicate denervation of thenar muscles."
+      },
+      {
+        "test_name": "Wrist X-ray (if obtained)",
+        "result": "No fracture, dislocation, or arthritis. Normal carpal bones.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes bony causes of carpal tunnel compression (fracture, arthritis)"
+      }
     ],
-    "key_tests": ["Nerve conduction studies / electromyography (NCS/EMG)", "Detailed neurological examination (Tinel, Phalen tests)", "TSH", "HbA1c or fasting glucose"],
-    "acceptable_tests": ["CBC", "CRP/ESR", "Rheumatoid factor", "Vitamin B12", "Wrist X-ray", "Ultrasound of carpal tunnel (measures median nerve cross-sectional area)", "BMP"],
-    "low_yield_tests": ["MRI wrist (unless structural mass suspected)", "CT wrist", "Brain MRI", "Cervical spine MRI (unless cervical radiculopathy suspected)", "Lumbar puncture"]
+    "key_tests": [
+      "Nerve conduction studies / electromyography (NCS/EMG)",
+      "Detailed neurological examination (Tinel, Phalen tests)",
+      "TSH",
+      "HbA1c or fasting glucose"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "CRP/ESR",
+      "Rheumatoid factor",
+      "Vitamin B12",
+      "Wrist X-ray",
+      "Ultrasound of carpal tunnel (measures median nerve cross-sectional area)",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "MRI wrist (unless structural mass suspected)",
+      "CT wrist",
+      "Brain MRI",
+      "Cervical spine MRI (unless cervical radiculopathy suspected)",
+      "Lumbar puncture"
+    ]
   },
   "stage5": {
     "final_clue": "NCS/EMG confirms moderate-to-severe right median neuropathy at the wrist with both sensory and motor involvement and early denervation changes. Given the severity (thenar atrophy, fibrillations on EMG), the patient is referred for carpal tunnel release surgery. Post-operatively, her nighttime symptoms resolve within 1 week, and grip strength improves over 3 months."
@@ -65,9 +139,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Carpal tunnel syndrome", "Cervical radiculopathy (C6-C7)", "Ulnar neuropathy at elbow", "Pronator teres syndrome", "Peripheral neuropathy (diabetic)", "Thoracic outlet syndrome", "De Quervain tenosynovitis"],
-    "after_stage2_more_likely": ["Carpal tunnel syndrome", "Pronator teres syndrome"],
-    "after_stage2_less_likely": ["Cervical radiculopathy", "Thoracic outlet syndrome", "De Quervain tenosynovitis"],
-    "after_labs_top3": ["Carpal tunnel syndrome", "Pronator teres syndrome", "Peripheral neuropathy (diabetic)"]
+    "reasonable_ddx": [
+      "Carpal tunnel syndrome",
+      "Cervical radiculopathy (C6-C7)",
+      "Ulnar neuropathy at elbow",
+      "Pronator teres syndrome",
+      "Peripheral neuropathy (diabetic)",
+      "Thoracic outlet syndrome",
+      "De Quervain tenosynovitis"
+    ],
+    "after_stage2_more_likely": [
+      "Carpal tunnel syndrome",
+      "Pronator teres syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Cervical radiculopathy",
+      "Thoracic outlet syndrome",
+      "De Quervain tenosynovitis"
+    ],
+    "after_labs_top3": [
+      "Carpal tunnel syndrome",
+      "Pronator teres syndrome",
+      "Peripheral neuropathy (diabetic)"
+    ]
   }
 }

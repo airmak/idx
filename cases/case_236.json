@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 10.2, Hgb 10.8, Hct 32.4, MCV 108 fL, Plt 98", "flag": "ABNORMAL", "clinical_significance": "Macrocytic anemia (MCV 108) suggestive of folate/B12 deficiency or alcohol effect; thrombocytopenia suggesting liver disease or alcohol marrow suppression"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 131, K 3.0, Cl 94, CO2 20, BUN 8, Cr 0.7, Glucose 68, Ca 7.8, AST 142, ALT 68, Alk Phos 185, Albumin 2.4, Total Bilirubin 2.8", "flag": "ABNORMAL", "clinical_significance": "Hyponatremia, hypokalemia, hypoglycemia, hypocalcemia, elevated AST:ALT ratio (>2:1 classic for alcoholic liver disease), hypoalbuminemia indicating malnutrition and liver disease"},
-      {"test_name": "Magnesium", "result": "1.1 mg/dL", "flag": "LOW", "clinical_significance": "Severe hypomagnesemia — common in alcohol use disorder and contributes to neurological symptoms; must correct before thiamine will be effective"},
-      {"test_name": "Phosphorus", "result": "1.8 mg/dL", "flag": "LOW", "clinical_significance": "Hypophosphatemia from malnutrition and alcohol use"},
-      {"test_name": "Thiamine (Vitamin B1) level", "result": "28 nmol/L", "flag": "LOW", "clinical_significance": "Low thiamine level (normal 70-180 nmol/L) confirming thiamine deficiency — though treatment should not await results"},
-      {"test_name": "Blood alcohol level", "result": "180 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated blood alcohol confirming recent heavy intake; tolerance likely given relative sobriety at this level"},
-      {"test_name": "Lipase", "result": "85 U/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated consistent with chronic pancreatitis history"},
-      {"test_name": "INR/PT", "result": "INR 1.8, PT 21 seconds", "flag": "HIGH", "clinical_significance": "Elevated INR reflecting impaired hepatic synthetic function"},
-      {"test_name": "Ammonia", "result": "45 mcmol/L", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated but not sufficient to explain degree of encephalopathy; hepatic encephalopathy less likely as primary diagnosis"},
-      {"test_name": "Folate", "result": "3.2 ng/mL", "flag": "LOW", "clinical_significance": "Low folate contributing to macrocytic anemia; common in chronic alcohol use with poor nutrition"},
-      {"test_name": "Vitamin B12", "result": "320 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12 level; macrocytosis likely from folate deficiency and direct alcohol toxicity"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 10.2, Hgb 10.8, Hct 32.4, MCV 108 fL, Plt 98",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Macrocytic anemia (MCV 108) suggestive of folate/B12 deficiency or alcohol effect; thrombocytopenia suggesting liver disease or alcohol marrow suppression"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 131, K 3.0, Cl 94, CO2 20, BUN 8, Cr 0.7, Glucose 68, Ca 7.8, AST 142, ALT 68, Alk Phos 185, Albumin 2.4, Total Bilirubin 2.8",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyponatremia, hypokalemia, hypoglycemia, hypocalcemia, elevated AST:ALT ratio (>2:1 classic for alcoholic liver disease), hypoalbuminemia indicating malnutrition and liver disease"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.1 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe hypomagnesemia — common in alcohol use disorder and contributes to neurological symptoms; must correct before thiamine will be effective"
+      },
+      {
+        "test_name": "Phosphorus",
+        "result": "1.8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypophosphatemia from malnutrition and alcohol use"
+      },
+      {
+        "test_name": "Thiamine (Vitamin B1) level",
+        "result": "28 nmol/L",
+        "flag": "LOW",
+        "clinical_significance": "Low thiamine level (normal 70-180 nmol/L) confirming thiamine deficiency — though treatment should not await results"
+      },
+      {
+        "test_name": "Blood alcohol level",
+        "result": "180 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated blood alcohol confirming recent heavy intake; tolerance likely given relative sobriety at this level"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "85 U/L",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated consistent with chronic pancreatitis history"
+      },
+      {
+        "test_name": "INR/PT",
+        "result": "INR 1.8, PT 21 seconds",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated INR reflecting impaired hepatic synthetic function"
+      },
+      {
+        "test_name": "Ammonia",
+        "result": "45 mcmol/L",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated but not sufficient to explain degree of encephalopathy; hepatic encephalopathy less likely as primary diagnosis"
+      },
+      {
+        "test_name": "Folate",
+        "result": "3.2 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low folate contributing to macrocytic anemia; common in chronic alcohol use with poor nutrition"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "320 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal B12 level; macrocytosis likely from folate deficiency and direct alcohol toxicity"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "Mild diffuse cerebral atrophy. No acute hemorrhage, mass, or midline shift.", "flag": "NON-SPECIFIC", "clinical_significance": "Rules out acute intracranial hemorrhage or mass lesion; atrophy consistent with chronic alcohol use"},
-      {"test_name": "MRI Brain with contrast", "result": "Symmetric hyperintensity on FLAIR and T2-weighted sequences in bilateral medial thalami, mammillary bodies, and periaqueductal gray matter. No restricted diffusion to suggest acute infarction.", "flag": "ABNORMAL", "clinical_significance": "Classic MRI findings of Wernicke encephalopathy — symmetric signal abnormality in periventricular regions, mammillary bodies, and medial thalami is highly specific"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "Mild diffuse cerebral atrophy. No acute hemorrhage, mass, or midline shift.",
+        "flag": "NON-SPECIFIC",
+        "clinical_significance": "Rules out acute intracranial hemorrhage or mass lesion; atrophy consistent with chronic alcohol use"
+      },
+      {
+        "test_name": "MRI Brain with contrast",
+        "result": "Symmetric hyperintensity on FLAIR and T2-weighted sequences in bilateral medial thalami, mammillary bodies, and periaqueductal gray matter. No restricted diffusion to suggest acute infarction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic MRI findings of this condition — symmetric signal abnormality in periventricular regions, mammillary bodies, and medial thalami is highly specific"
+      }
     ],
     "key_tests": [
       "MRI Brain — revealing classic symmetric thalamic and mammillary body signal abnormality",
@@ -64,7 +129,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The classic triad of Wernicke encephalopathy is present: encephalopathy (confusion, confabulation, disorientation), oculomotor dysfunction (bilateral CN VI palsy with nystagmus), and gait ataxia. The patient has clear risk factors (chronic alcohol use with prolonged poor nutritional intake), severely low thiamine level, and classic MRI findings (bilateral medial thalamic and mammillary body hyperintensity). The confabulation suggests early Korsakoff syndrome."
+    "final_clue": "The classic triad of this condition is present: encephalopathy (confusion, confabulation, disorientation), oculomotor dysfunction (bilateral CN VI palsy with nystagmus), and gait ataxia. The patient has clear risk factors (chronic alcohol use with prolonged poor nutritional intake), severely low thiamine level, and classic MRI findings (bilateral medial thalamic and mammillary body hyperintensity). The confabulation suggests early Korsakoff syndrome."
   },
   "debrief": {
     "classic_presentation": "An individual with chronic alcohol use disorder or another cause of thiamine deficiency presenting with the classic triad: (1) encephalopathy/confusion, (2) oculomotor dysfunction (nystagmus, lateral rectus palsy, conjugate gaze palsy), and (3) gait ataxia. However, the complete triad is present in only about 16% of cases — a high index of suspicion is critical. Confabulation suggests progression to Wernicke-Korsakoff syndrome.",

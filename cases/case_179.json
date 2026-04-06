@@ -25,27 +25,103 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "24-hour urine 5-HIAA", "result": "85 mg/24 hours (normal <6)", "flag": "HIGH", "clinical_significance": "Markedly elevated 5-HIAA is highly specific for carcinoid syndrome — produced by serotonin metabolism in neuroendocrine tumors"},
-      {"test_name": "Serum chromogranin A", "result": "680 ng/mL (normal <93)", "flag": "HIGH", "clinical_significance": "Elevated general neuroendocrine tumor marker; correlates with tumor burden"},
-      {"test_name": "Serotonin (5-HT) plasma", "result": "1,250 ng/mL (normal <230)", "flag": "HIGH", "clinical_significance": "Markedly elevated serotonin produced by the neuroendocrine tumor"},
-      {"test_name": "CBC", "result": "WBC 6.8, Hgb 11.5, Plt 210", "flag": "WNL", "clinical_significance": "Mild anemia from chronic disease or nutritional deficiency (niacin/tryptophan depletion)"},
-      {"test_name": "BMP", "result": "Na 138, K 3.3, Cr 0.8, Glucose 142", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia from chronic diarrhea; mild hyperglycemia (serotonin can cause glucose intolerance)"},
-      {"test_name": "LFTs", "result": "AST 52, ALT 48, ALP 180, GGT 145, Bilirubin 1.2", "flag": "HIGH", "clinical_significance": "Mildly elevated from hepatic metastases"},
-      {"test_name": "BNP", "result": "320 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated, suggesting right-sided heart failure from carcinoid heart disease"},
-      {"test_name": "Niacin (vitamin B3)", "result": "Low", "flag": "LOW", "clinical_significance": "Tryptophan is shunted to serotonin production, depleting niacin synthesis, causing pellagra-like symptoms"}
+      {
+        "test_name": "24-hour urine 5-HIAA",
+        "result": "85 mg/24 hours (normal <6)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated 5-HIAA is highly specific for this condition — produced by serotonin metabolism in neuroendocrine tumors"
+      },
+      {
+        "test_name": "Serum chromogranin A",
+        "result": "680 ng/mL (normal <93)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated general neuroendocrine tumor marker; correlates with tumor burden"
+      },
+      {
+        "test_name": "Serotonin (5-HT) plasma",
+        "result": "1,250 ng/mL (normal <230)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated serotonin produced by the neuroendocrine tumor"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.8, Hgb 11.5, Plt 210",
+        "flag": "WNL",
+        "clinical_significance": "Mild anemia from chronic disease or nutritional deficiency (niacin/tryptophan depletion)"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138, K 3.3, Cr 0.8, Glucose 142",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypokalemia from chronic diarrhea; mild hyperglycemia (serotonin can cause glucose intolerance)"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 52, ALT 48, ALP 180, GGT 145, Bilirubin 1.2",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from hepatic metastases"
+      },
+      {
+        "test_name": "BNP",
+        "result": "320 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, suggesting right-sided heart failure from carcinoid heart disease"
+      },
+      {
+        "test_name": "Niacin (vitamin B3)",
+        "result": "Low",
+        "flag": "LOW",
+        "clinical_significance": "Tryptophan is shunted to serotonin production, depleting niacin synthesis, causing pellagra-like symptoms"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT abdomen/pelvis with contrast", "result": "Multiple hypervascular hepatic metastases (largest 4.5 cm in the right lobe). A 2.8 cm enhancing mass in the distal ileum with mesenteric desmoplastic reaction and calcification. Mesenteric lymphadenopathy. No bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Primary ileal neuroendocrine tumor with hepatic metastases. The mesenteric desmoplastic reaction is characteristic and can cause mesenteric fibrosis/ischemia. Carcinoid syndrome occurs because hepatic metastases release serotonin directly into systemic circulation, bypassing hepatic first-pass metabolism."},
-      {"test_name": "Somatostatin receptor scintigraphy (Octreoscan) / 68Ga-DOTATATE PET/CT", "result": "Intense uptake in the distal ileal mass, multiple hepatic lesions, and mesenteric lymph nodes. No additional sites of disease identified.", "flag": "ABNORMAL", "clinical_significance": "Somatostatin receptor imaging confirms neuroendocrine tumor with receptor expression — essential for staging and determining eligibility for peptide receptor radionuclide therapy (PRRT)."},
-      {"test_name": "Echocardiogram", "result": "Thickened, retracted tricuspid valve leaflets with moderate-to-severe tricuspid regurgitation. Mild pulmonic stenosis with valve thickening. Right ventricular dilation with reduced systolic function. Normal left-sided valves.", "flag": "ABNORMAL", "clinical_significance": "Carcinoid heart disease: serotonin-mediated fibrotic endocardial plaques preferentially affect the right-sided valves (tricuspid and pulmonic), causing regurgitation and stenosis."}
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "Multiple hypervascular hepatic metastases (largest 4.5 cm in the right lobe). A 2.8 cm enhancing mass in the distal ileum with mesenteric desmoplastic reaction and calcification. Mesenteric lymphadenopathy. No bowel obstruction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Primary ileal neuroendocrine tumor with hepatic metastases. The mesenteric desmoplastic reaction is characteristic and can cause mesenteric fibrosis/ischemia. this condition occurs because hepatic metastases release serotonin directly into systemic circulation, bypassing hepatic first-pass metabolism."
+      },
+      {
+        "test_name": "Somatostatin receptor scintigraphy (Octreoscan) / 68Ga-DOTATATE PET/CT",
+        "result": "Intense uptake in the distal ileal mass, multiple hepatic lesions, and mesenteric lymph nodes. No additional sites of disease identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Somatostatin receptor imaging confirms neuroendocrine tumor with receptor expression — essential for staging and determining eligibility for peptide receptor radionuclide therapy (PRRT)."
+      },
+      {
+        "test_name": "Echocardiogram",
+        "result": "Thickened, retracted tricuspid valve leaflets with moderate-to-severe tricuspid regurgitation. Mild pulmonic stenosis with valve thickening. Right ventricular dilation with reduced systolic function. Normal left-sided valves.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Carcinoid heart disease: serotonin-mediated fibrotic endocardial plaques preferentially affect the right-sided valves (tricuspid and pulmonic), causing regurgitation and stenosis."
+      }
     ],
-    "key_tests": ["24-hour urine 5-HIAA", "Serum chromogranin A", "CT abdomen/pelvis with contrast", "Somatostatin receptor imaging (68Ga-DOTATATE PET/CT)", "Echocardiogram"],
-    "acceptable_tests": ["Plasma serotonin", "BNP/NT-proBNP", "LFTs", "CBC", "BMP", "Liver biopsy (for tissue diagnosis)", "Niacin level", "Serum neuron-specific enolase"],
-    "low_yield_tests": ["Colonoscopy (primary is in the ileum)", "MRCP", "Celiac serologies", "Upper endoscopy", "Stool calprotectin"],
+    "key_tests": [
+      "24-hour urine 5-HIAA",
+      "Serum chromogranin A",
+      "CT abdomen/pelvis with contrast",
+      "Somatostatin receptor imaging (68Ga-DOTATATE PET/CT)",
+      "Echocardiogram"
+    ],
+    "acceptable_tests": [
+      "Plasma serotonin",
+      "BNP/NT-proBNP",
+      "LFTs",
+      "CBC",
+      "BMP",
+      "Liver biopsy (for tissue diagnosis)",
+      "Niacin level",
+      "Serum neuron-specific enolase"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy (primary is in the ileum)",
+      "MRCP",
+      "Celiac serologies",
+      "Upper endoscopy",
+      "Stool calprotectin"
+    ],
     "key_tests_rationale": "24-hour urine 5-HIAA is the most specific biochemical test for carcinoid syndrome (~95% specificity when properly collected). Chromogranin A is a sensitive but less specific marker that correlates with tumor burden. CT localizes the primary tumor and metastases. 68Ga-DOTATATE PET/CT has superior sensitivity for neuroendocrine tumors and determines somatostatin receptor status. Echocardiogram screens for carcinoid heart disease, which develops in 20-50% of carcinoid syndrome patients."
   },
   "stage5": {
-    "final_clue": "A patient with the classic carcinoid syndrome triad (flushing, secretory diarrhea, bronchoconstriction), pellagra-like dermatitis from niacin deficiency, new right-sided cardiac murmur (carcinoid heart disease), markedly elevated 24-hour urine 5-HIAA (85 mg), and imaging showing an ileal primary tumor with hepatic metastases confirms carcinoid syndrome secondary to a metastatic small bowel neuroendocrine tumor (NET). The syndrome manifests ONLY after hepatic metastases allow serotonin to bypass hepatic first-pass metabolism."
+    "final_clue": "A patient with the classic this condition triad (flushing, secretory diarrhea, bronchoconstriction), pellagra-like dermatitis from niacin deficiency, new right-sided cardiac murmur (carcinoid heart disease), markedly elevated 24-hour urine 5-HIAA (85 mg), and imaging showing an ileal primary tumor with hepatic metastases confirms the suspected diagnosis secondary to a metastatic small bowel neuroendocrine tumor (NET). The syndrome manifests ONLY after hepatic metastases allow serotonin to bypass hepatic first-pass metabolism."
   },
   "debrief": {
     "classic_presentation": "Carcinoid syndrome occurs in ~10% of patients with neuroendocrine tumors (NETs), almost exclusively when hepatic metastases are present (allowing serotonin to bypass hepatic metabolism). The classic triad is episodic flushing (most common, 85%), secretory diarrhea (80%), and bronchoconstriction (15%). Carcinoid heart disease (right-sided valvular fibrosis) develops in 20-50%. Pellagra (dermatitis, diarrhea, dementia) results from tryptophan shunting to serotonin synthesis. The most common primary site is the small bowel (ileum).",
@@ -67,9 +143,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Systemic mastocytosis", "Pheochromocytoma", "Medullary thyroid carcinoma", "VIPoma", "Menopause/hot flashes", "Anaphylaxis/allergic reaction", "Panic disorder"],
-    "after_stage2_more_likely": ["Carcinoid syndrome", "Systemic mastocytosis", "Pheochromocytoma"],
-    "after_stage2_less_likely": ["Menopause", "Panic disorder", "Anaphylaxis"],
-    "after_labs_top3": ["Carcinoid syndrome (metastatic ileal NET)", "Systemic mastocytosis", "VIPoma"]
+    "reasonable_ddx": [
+      "Systemic mastocytosis",
+      "Pheochromocytoma",
+      "Medullary thyroid carcinoma",
+      "VIPoma",
+      "Menopause/hot flashes",
+      "Anaphylaxis/allergic reaction",
+      "Panic disorder"
+    ],
+    "after_stage2_more_likely": [
+      "Carcinoid syndrome",
+      "Systemic mastocytosis",
+      "Pheochromocytoma"
+    ],
+    "after_stage2_less_likely": [
+      "Menopause",
+      "Panic disorder",
+      "Anaphylaxis"
+    ],
+    "after_labs_top3": [
+      "Carcinoid syndrome (metastatic ileal NET)",
+      "Systemic mastocytosis",
+      "VIPoma"
+    ]
   }
 }

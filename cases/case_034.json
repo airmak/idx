@@ -25,30 +25,125 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "8.4 x10^9/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.0 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC - Platelets", "result": "210 x10^9/L", "flag": "WNL", "clinical_significance": "Normal, no contraindication to thrombolytics"},
-      {"test_name": "BMP - Glucose", "result": "156 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; must check glucose before tPA (hypoglycemia can mimic stroke)"},
-      {"test_name": "BMP - Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "PT/INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Not anticoagulated; INR <1.7 allows tPA administration"},
-      {"test_name": "PTT", "result": "28 seconds", "flag": "WNL", "clinical_significance": "Normal, no contraindication to thrombolytics"},
-      {"test_name": "Troponin I", "result": "0.03 ng/mL", "flag": "WNL", "clinical_significance": "Normal, no concurrent MI"},
-      {"test_name": "HbA1c", "result": "7.8%", "flag": "HIGH", "clinical_significance": "Suboptimally controlled diabetes, contributes to stroke risk"},
-      {"test_name": "Lipid Panel - LDL", "result": "98 mg/dL", "flag": "WNL", "clinical_significance": "At goal on statin therapy"},
-      {"test_name": "BMP - Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP - Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "8.4 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.0 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "210 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no contraindication to thrombolytics"
+      },
+      {
+        "test_name": "BMP - Glucose",
+        "result": "156 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; must check glucose before tPA (hypoglycemia can mimic stroke)"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "1.1",
+        "flag": "WNL",
+        "clinical_significance": "Not anticoagulated; INR <1.7 allows tPA administration"
+      },
+      {
+        "test_name": "PTT",
+        "result": "28 seconds",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no contraindication to thrombolytics"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.03 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal, no concurrent MI"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "7.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimally controlled diabetes, contributes to stroke risk"
+      },
+      {
+        "test_name": "Lipid Panel - LDL",
+        "result": "98 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "At goal on statin therapy"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "4.1 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast (STAT)", "result": "No acute hemorrhage. No midline shift. No mass lesion. Early hypodense area in the left middle cerebral artery (MCA) territory. Hyperdense left MCA sign present.", "flag": "ABNORMAL", "clinical_significance": "Excludes hemorrhagic stroke; early ischemic changes and hyperdense MCA sign suggest acute left MCA occlusion"},
-      {"test_name": "CT Angiography (Head and Neck)", "result": "Complete occlusion of the left middle cerebral artery M1 segment. Patent carotid arteries bilaterally. Circle of Willis otherwise intact.", "flag": "ABNORMAL", "clinical_significance": "Large vessel occlusion (LVO) of left MCA confirmed; patient is a candidate for mechanical thrombectomy"},
-      {"test_name": "ECG", "result": "Atrial fibrillation with controlled ventricular rate (92 bpm). No acute ST changes.", "flag": "ABNORMAL", "clinical_significance": "AFib is the likely embolic source of stroke"}
+      {
+        "test_name": "CT Head without contrast (STAT)",
+        "result": "No acute hemorrhage. No midline shift. No mass lesion. Early hypodense area in the left middle cerebral artery (MCA) territory. Hyperdense left MCA sign present.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Excludes hemorrhagic stroke; early ischemic changes and hyperdense MCA sign suggest acute left MCA occlusion"
+      },
+      {
+        "test_name": "CT Angiography (Head and Neck)",
+        "result": "Complete occlusion of the left middle cerebral artery M1 segment. Patent carotid arteries bilaterally. Circle of Willis otherwise intact.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Large vessel occlusion (LVO) of left MCA confirmed; patient is a candidate for mechanical thrombectomy"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Atrial fibrillation with controlled ventricular rate (92 bpm). No acute ST changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "AFib is the likely embolic source of stroke"
+      }
     ],
-    "key_tests": ["CT head without contrast (STAT)", "CT angiography (head and neck)", "Point-of-care glucose", "CBC (platelets)", "PT/INR"],
-    "acceptable_tests": ["BMP", "PTT", "Troponin", "ECG", "Lipid panel", "HbA1c", "CT perfusion (if available)"],
-    "low_yield_tests": ["MRI brain (delays acute treatment)", "Lumbar puncture", "EEG", "Carotid duplex (CTA already performed)", "ESR"]
+    "key_tests": [
+      "CT head without contrast (STAT)",
+      "CT angiography (head and neck)",
+      "Point-of-care glucose",
+      "CBC (platelets)",
+      "PT/INR"
+    ],
+    "acceptable_tests": [
+      "BMP",
+      "PTT",
+      "Troponin",
+      "ECG",
+      "Lipid panel",
+      "HbA1c",
+      "CT perfusion (if available)"
+    ],
+    "low_yield_tests": [
+      "MRI brain (delays acute treatment)",
+      "Lumbar puncture",
+      "EEG",
+      "Carotid duplex (CTA already performed)",
+      "ESR"
+    ]
   },
   "stage5": {
-    "final_clue": "Sudden-onset left MCA syndrome (right hemiparesis, global aphasia, right gaze preference) within the tPA window, with CT showing no hemorrhage and CTA confirming left MCA M1 occlusion. This is an acute ischemic stroke from a cardioembolic source (atrial fibrillation), eligible for both IV tPA and mechanical thrombectomy."
+    "final_clue": "Sudden-onset left MCA syndrome (right hemiparesis, global aphasia, right gaze preference) within the tPA window, with CT showing no hemorrhage and CTA confirming left MCA M1 occlusion. This is an this condition from a cardioembolic source (atrial fibrillation), eligible for both IV tPA and mechanical thrombectomy."
   },
   "debrief": {
     "classic_presentation": "Sudden onset of focal neurological deficits corresponding to a vascular territory. Left MCA strokes present with contralateral (right) hemiparesis and hemisensory loss, right homonymous hemianopia, and aphasia (if dominant hemisphere). Key is the abrupt onset and identifiable time of last known well. Atrial fibrillation is the most common cause of cardioembolic stroke.",
@@ -69,9 +164,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Acute ischemic stroke", "Hemorrhagic stroke (ICH)", "Transient ischemic attack", "Hypoglycemia", "Todd paralysis (postictal)", "Complex migraine with aura", "Brain tumor with acute decompensation"],
-    "after_stage2_more_likely": ["Acute ischemic stroke", "Hemorrhagic stroke"],
-    "after_stage2_less_likely": ["Hypoglycemia", "Todd paralysis", "Complex migraine"],
-    "after_labs_top3": ["Acute ischemic stroke (left MCA territory)", "Cardioembolic stroke", "Large vessel occlusion"]
+    "reasonable_ddx": [
+      "Acute ischemic stroke",
+      "Hemorrhagic stroke (ICH)",
+      "Transient ischemic attack",
+      "Hypoglycemia",
+      "Todd paralysis (postictal)",
+      "Complex migraine with aura",
+      "Brain tumor with acute decompensation"
+    ],
+    "after_stage2_more_likely": [
+      "Acute ischemic stroke",
+      "Hemorrhagic stroke"
+    ],
+    "after_stage2_less_likely": [
+      "Hypoglycemia",
+      "Todd paralysis",
+      "Complex migraine"
+    ],
+    "after_labs_top3": [
+      "Acute ischemic stroke (left MCA territory)",
+      "Cardioembolic stroke",
+      "Large vessel occlusion"
+    ]
   }
 }

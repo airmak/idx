@@ -6,7 +6,7 @@
   "icd_category": "K31.84 — Gastroparesis",
   "one_liner": "A 45-year-old female with longstanding poorly controlled type 1 diabetes presents with 6 months of early satiety, postprandial nausea, vomiting of undigested food, and erratic blood glucose levels.",
   "stage2": {
-    "hpi_extension": "The patient describes a 6-month progressive course of early satiety after only a few bites, postprandial nausea, and episodic vomiting of undigested food particles several hours after eating. She reports epigastric bloating and fullness that persists for hours after meals. She has lost 8 kg due to poor oral intake and fears eating. Her blood sugars have become erratic with unpredictable postprandial hypoglycemia and delayed hyperglycemia, despite no changes in insulin regimen. She was hospitalized 2 months ago for diabetic ketoacidosis thought to be triggered by poor nutrition and dehydration. She denies abdominal pain as a dominant symptom, dysphagia, hematemesis, melena, or change in bowel habits.",
+    "hpi_extension": "The patient describes a 6-month progressive course of early satiety after only a few bites, postprandial nausea, and episodic vomiting of undigested food particles several hours after eating. She reports epigastric bloating and fullness that persists for hours after meals. She has lost 8 kg due to poor oral intake and fears eating. Her blood sugars have become erratic with unpredictable postprandial hypoglycemia and delayed hyperglycemia, despite no changes in insulin regimen. She was hospitalized 2 months ago for this condition ketoacidosis thought to be triggered by poor nutrition and dehydration. She denies abdominal pain as a dominant symptom, dysphagia, hematemesis, melena, or change in bowel habits.",
     "pmh": "Type 1 diabetes mellitus (diagnosed at age 12, HbA1c 9.8%), diabetic retinopathy (bilateral, laser-treated), diabetic nephropathy (CKD stage 3), peripheral neuropathy",
     "surgical_history": "Laser photocoagulation for diabetic retinopathy",
     "medications": "Insulin glargine 28 units at bedtime, insulin lispro sliding scale with meals, lisinopril 20 mg daily, gabapentin 300 mg TID",
@@ -25,27 +25,102 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "HbA1c", "result": "9.8%", "flag": "HIGH", "clinical_significance": "Poorly controlled diabetes; chronic hyperglycemia contributes to gastroparesis and autonomic neuropathy"},
-      {"test_name": "BMP", "result": "Na 134, K 3.0, Cr 1.6, BUN 30, Glucose 245", "flag": "ABNORMAL", "clinical_significance": "Hypokalemia from vomiting, CKD stage 3 from diabetic nephropathy, hyperglycemia (which itself worsens gastric emptying)"},
-      {"test_name": "CBC", "result": "WBC 7.2, Hgb 10.8, Plt 230", "flag": "LOW", "clinical_significance": "Mild anemia of chronic kidney disease"},
-      {"test_name": "LFTs", "result": "AST 28, ALT 32, ALP 90, bilirubin 0.8", "flag": "WNL", "clinical_significance": "Normal liver function rules out hepatic causes of nausea/vomiting"},
-      {"test_name": "Lipase", "result": "38 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as a cause of vomiting"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hypothyroidism can mimic gastroparesis"},
-      {"test_name": "Magnesium", "result": "1.5 mg/dL", "flag": "LOW", "clinical_significance": "Low from vomiting and poor oral intake; hypomagnesemia can worsen GI motility"},
-      {"test_name": "Iron studies", "result": "Ferritin 18, Iron 35, TIBC 380", "flag": "LOW", "clinical_significance": "Iron deficiency from poor nutritional intake"}
+      {
+        "test_name": "HbA1c",
+        "result": "9.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Poorly controlled diabetes; chronic hyperglycemia contributes to this condition and autonomic neuropathy"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 134, K 3.0, Cr 1.6, BUN 30, Glucose 245",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypokalemia from vomiting, CKD stage 3 from this condition nephropathy, hyperglycemia (which itself worsens gastric emptying)"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.2, Hgb 10.8, Plt 230",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia of chronic kidney disease"
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 28, ALT 32, ALP 90, bilirubin 0.8",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function rules out hepatic causes of nausea/vomiting"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "38 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis as a cause of vomiting"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hypothyroidism can mimic this condition"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.5 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low from vomiting and poor oral intake; hypomagnesemia can worsen GI motility"
+      },
+      {
+        "test_name": "Iron studies",
+        "result": "Ferritin 18, Iron 35, TIBC 380",
+        "flag": "LOW",
+        "clinical_significance": "Iron deficiency from poor nutritional intake"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Gastric emptying scintigraphy (4-hour solid meal)", "result": "Gastric retention at 1 hour: 82% (normal <90%). Gastric retention at 2 hours: 72% (normal <60%). Gastric retention at 4 hours: 48% (normal <10%). Severely delayed gastric emptying.", "flag": "ABNORMAL", "clinical_significance": "Gold standard test confirms severe gastroparesis. Gastric retention >10% at 4 hours is diagnostic; 48% retention indicates severe disease."},
-      {"test_name": "Upper endoscopy (EGD)", "result": "Retained food in the stomach despite 12-hour fast. Gastric mucosa mildly erythematous without ulcers or masses. No pyloric obstruction. Duodenal mucosa normal. Biopsies negative for H. pylori.", "flag": "ABNORMAL", "clinical_significance": "Retained food after overnight fast supports gastroparesis. EGD importantly excludes mechanical gastric outlet obstruction (GOO) as a cause of symptoms."},
-      {"test_name": "CT abdomen/pelvis", "result": "Distended, food-filled stomach. No small bowel obstruction. No masses in the gastric outlet or duodenum. No pancreatic mass. Bilateral renal cortical thinning.", "flag": "ABNORMAL", "clinical_significance": "Excludes mechanical obstruction and structural causes of delayed emptying."}
+      {
+        "test_name": "Gastric emptying scintigraphy (4-hour solid meal)",
+        "result": "Gastric retention at 1 hour: 82% (normal <90%). Gastric retention at 2 hours: 72% (normal <60%). Gastric retention at 4 hours: 48% (normal <10%). Severely delayed gastric emptying.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gold standard test confirms severe this condition. Gastric retention >10% at 4 hours is diagnostic; 48% retention indicates severe disease."
+      },
+      {
+        "test_name": "Upper endoscopy (EGD)",
+        "result": "Retained food in the stomach despite 12-hour fast. Gastric mucosa mildly erythematous without ulcers or masses. No pyloric obstruction. Duodenal mucosa normal. Biopsies negative for H. pylori.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Retained food after overnight fast supports this condition. EGD importantly excludes mechanical gastric outlet obstruction (GOO) as a cause of symptoms."
+      },
+      {
+        "test_name": "CT abdomen/pelvis",
+        "result": "Distended, food-filled stomach. No small bowel obstruction. No masses in the gastric outlet or duodenum. No pancreatic mass. Bilateral renal cortical thinning.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Excludes mechanical obstruction and structural causes of delayed emptying."
+      }
     ],
-    "key_tests": ["Gastric emptying scintigraphy (4-hour standardized meal)", "Upper endoscopy (EGD)", "BMP", "HbA1c", "TSH"],
-    "acceptable_tests": ["Lipase", "LFTs", "CBC", "CT abdomen", "Wireless motility capsule (SmartPill)", "Gastric emptying breath test (GEBT)", "Small bowel follow-through"],
-    "low_yield_tests": ["Colonoscopy", "MRCP", "Celiac serologies", "Barium swallow (inadequate for quantifying emptying)", "HIDA scan"],
+    "key_tests": [
+      "Gastric emptying scintigraphy (4-hour standardized meal)",
+      "Upper endoscopy (EGD)",
+      "BMP",
+      "HbA1c",
+      "TSH"
+    ],
+    "acceptable_tests": [
+      "Lipase",
+      "LFTs",
+      "CBC",
+      "CT abdomen",
+      "Wireless motility capsule (SmartPill)",
+      "Gastric emptying breath test (GEBT)",
+      "Small bowel follow-through"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy",
+      "MRCP",
+      "Celiac serologies",
+      "Barium swallow (inadequate for quantifying emptying)",
+      "HIDA scan"
+    ],
     "key_tests_rationale": "Gastric emptying scintigraphy is the gold standard for diagnosing gastroparesis — a standardized 4-hour protocol measuring retention of a low-fat egg meal is required (not abbreviated 1-2 hour protocols). EGD is essential to exclude mechanical gastric outlet obstruction before diagnosing gastroparesis. BMP identifies electrolyte derangements from vomiting. HbA1c documents glycemic control (hyperglycemia independently slows gastric emptying). TSH excludes hypothyroidism."
   },
   "stage5": {
-    "final_clue": "A patient with longstanding poorly controlled type 1 diabetes and established microvascular complications (retinopathy, nephropathy, peripheral neuropathy) presenting with the classic triad of early satiety, postprandial nausea/vomiting, and erratic blood sugars. A succession splash, retained food on EGD despite fasting, and gastric emptying scintigraphy showing 48% retention at 4 hours (normal <10%) confirm severe diabetic gastroparesis. Mechanical obstruction has been excluded."
+    "final_clue": "A patient with longstanding poorly controlled type 1 diabetes and established microvascular complications (retinopathy, nephropathy, peripheral neuropathy) presenting with the classic triad of early satiety, postprandial nausea/vomiting, and erratic blood sugars. A succession splash, retained food on EGD despite fasting, and gastric emptying scintigraphy showing 48% retention at 4 hours (normal <10%) confirm severe this condition this condition. Mechanical obstruction has been excluded."
   },
   "debrief": {
     "classic_presentation": "Diabetic gastroparesis presents with the cardinal symptoms of early satiety, postprandial nausea, vomiting of partially digested food hours after eating, epigastric bloating, and erratic glycemic control. It occurs in the setting of longstanding diabetes (typically >10 years) with other microvascular complications. Abdominal pain may be present but is not usually the predominant symptom. A succession splash (splashing sound with abdominal shaking) hours after eating suggests retained gastric contents.",
@@ -66,9 +141,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Gastric outlet obstruction (peptic stricture, malignancy)", "Functional dyspepsia", "Cyclic vomiting syndrome", "Superior mesenteric artery syndrome", "Rumination disorder", "Eating disorder (anorexia/bulimia)"],
-    "after_stage2_more_likely": ["Diabetic gastroparesis", "Gastric outlet obstruction", "Functional dyspepsia"],
-    "after_stage2_less_likely": ["SMA syndrome", "Cyclic vomiting syndrome", "Eating disorder"],
-    "after_labs_top3": ["Diabetic gastroparesis", "Gastric outlet obstruction", "Functional dyspepsia"]
+    "reasonable_ddx": [
+      "Gastric outlet obstruction (peptic stricture, malignancy)",
+      "Functional dyspepsia",
+      "Cyclic vomiting syndrome",
+      "Superior mesenteric artery syndrome",
+      "Rumination disorder",
+      "Eating disorder (anorexia/bulimia)"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic gastroparesis",
+      "Gastric outlet obstruction",
+      "Functional dyspepsia"
+    ],
+    "after_stage2_less_likely": [
+      "SMA syndrome",
+      "Cyclic vomiting syndrome",
+      "Eating disorder"
+    ],
+    "after_labs_top3": [
+      "Diabetic gastroparesis",
+      "Gastric outlet obstruction",
+      "Functional dyspepsia"
+    ]
   }
 }

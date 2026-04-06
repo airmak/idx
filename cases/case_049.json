@@ -25,29 +25,120 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "16.8 x10^9/L", "flag": "HIGH", "clinical_significance": "Leukocytosis from peritonitis and systemic inflammatory response"},
-      {"test_name": "CBC - Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Hemoconcentration from dehydration and third-spacing"},
-      {"test_name": "BMP - Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated from dehydration and hypoperfusion"},
-      {"test_name": "BMP - BUN", "result": "32 mg/dL", "flag": "HIGH", "clinical_significance": "Prerenal azotemia"},
-      {"test_name": "BMP - Potassium", "result": "3.8 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Amylase", "result": "180 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; can occur with perforated ulcer (non-pancreatic source)"},
-      {"test_name": "Lipase", "result": "52 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes acute pancreatitis as cause of elevated amylase"},
-      {"test_name": "Lactate", "result": "3.4 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated from hypoperfusion and peritonitis"},
-      {"test_name": "LFTs - AST/ALT", "result": "AST 38, ALT 32 U/L", "flag": "WNL", "clinical_significance": "Normal hepatic function"},
-      {"test_name": "Type and Crossmatch", "result": "O positive, 2 units crossmatched", "flag": "WNL", "clinical_significance": "Prepared for surgery"},
-      {"test_name": "Procalcitonin", "result": "4.2 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with bacterial peritonitis"},
-      {"test_name": "H. pylori stool antigen", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Active H. pylori infection contributing to ulcer disease"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "16.8 x10^9/L",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis from peritonitis and systemic inflammatory response"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Hemoconcentration from dehydration and third-spacing"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from dehydration and hypoperfusion"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "32 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Prerenal azotemia"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "3.8 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Amylase",
+        "result": "180 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; can occur with perforated ulcer (non-pancreatic source)"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "52 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes acute pancreatitis as cause of elevated amylase"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "3.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated from hypoperfusion and peritonitis"
+      },
+      {
+        "test_name": "LFTs - AST/ALT",
+        "result": "AST 38, ALT 32 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal hepatic function"
+      },
+      {
+        "test_name": "Type and Crossmatch",
+        "result": "O positive, 2 units crossmatched",
+        "flag": "WNL",
+        "clinical_significance": "Prepared for surgery"
+      },
+      {
+        "test_name": "Procalcitonin",
+        "result": "4.2 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with bacterial peritonitis"
+      },
+      {
+        "test_name": "H. pylori stool antigen",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active H. pylori infection contributing to ulcer disease"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upright Chest X-ray", "result": "Free air (pneumoperitoneum) under both hemidiaphragms, more prominent on the right. No pulmonary infiltrates.", "flag": "ABNORMAL", "clinical_significance": "Free air under the diaphragm is the hallmark of perforated hollow viscus — confirms perforation"},
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Pneumoperitoneum with extraluminal air adjacent to the anterior wall of the gastric antrum. Fluid in the anterior peritoneal space. Thickened antral wall at the site of perforation. No abscess. No other organ injury.", "flag": "ABNORMAL", "clinical_significance": "Localizes the perforation to the gastric antrum and characterizes the extent of contamination"}
+      {
+        "test_name": "Upright Chest X-ray",
+        "result": "Free air (pneumoperitoneum) under both hemidiaphragms, more prominent on the right. No pulmonary infiltrates.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Free air under the diaphragm is the hallmark of perforated hollow viscus — confirms perforation"
+      },
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Pneumoperitoneum with extraluminal air adjacent to the anterior wall of the gastric antrum. Fluid in the anterior peritoneal space. Thickened antral wall at the site of perforation. No abscess. No other organ injury.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Localizes the perforation to the gastric antrum and characterizes the extent of contamination"
+      }
     ],
-    "key_tests": ["Upright chest X-ray (or left lateral decubitus)", "CT abdomen/pelvis with contrast", "CBC", "BMP", "Lactate", "Type and crossmatch"],
-    "acceptable_tests": ["Lipase/Amylase", "LFTs", "Procalcitonin", "Blood cultures", "Coagulation studies", "H. pylori testing", "ECG (pre-operative)"],
-    "low_yield_tests": ["Upper GI series with oral contrast (delays surgery)", "Upper endoscopy (contraindicated with suspected perforation)", "Abdominal ultrasound", "Barium swallow (barium peritonitis risk)", "Stool studies"]
+    "key_tests": [
+      "Upright chest X-ray (or left lateral decubitus)",
+      "CT abdomen/pelvis with contrast",
+      "CBC",
+      "BMP",
+      "Lactate",
+      "Type and crossmatch"
+    ],
+    "acceptable_tests": [
+      "Lipase/Amylase",
+      "LFTs",
+      "Procalcitonin",
+      "Blood cultures",
+      "Coagulation studies",
+      "H. pylori testing",
+      "ECG (pre-operative)"
+    ],
+    "low_yield_tests": [
+      "Upper GI series with oral contrast (delays surgery)",
+      "Upper endoscopy (contraindicated with suspected perforation)",
+      "Abdominal ultrasound",
+      "Barium swallow (barium peritonitis risk)",
+      "Stool studies"
+    ]
   },
   "stage5": {
-    "final_clue": "Upright chest X-ray shows free air under the diaphragm. CT localizes the perforation to the gastric antrum. The patient has a rigid abdomen with peritonitis, chronic NSAID use, and a history of peptic ulcer disease with untreated H. pylori. This is a perforated peptic ulcer requiring emergent surgical repair."
+    "final_clue": "Upright chest X-ray shows free air under the diaphragm. CT localizes the perforation to the gastric antrum. The patient has a rigid abdomen with peritonitis, chronic NSAID use, and a history of peptic ulcer disease with untreated H. pylori. This is a this condition requiring emergent surgical repair."
   },
   "debrief": {
     "classic_presentation": "Sudden onset of severe epigastric pain ('thunderclap abdomen') that rapidly becomes diffuse, with rigid/board-like abdomen, absent bowel sounds, and peritonitis. Free air on upright CXR (present in 75-80% of cases). Risk factors: NSAID use (strongest modifiable risk factor), H. pylori infection, smoking, alcohol, prior ulcer history, and corticosteroid use.",
@@ -68,9 +159,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Perforated peptic ulcer", "Acute pancreatitis", "Acute cholecystitis (perforated)", "Acute mesenteric ischemia", "Ruptured AAA", "Perforated appendicitis", "Boerhaave syndrome"],
-    "after_stage2_more_likely": ["Perforated peptic ulcer", "Acute pancreatitis"],
-    "after_stage2_less_likely": ["Ruptured AAA", "Boerhaave syndrome"],
-    "after_labs_top3": ["Perforated peptic ulcer", "Perforated hollow viscus with peritonitis", "Acute pancreatitis"]
+    "reasonable_ddx": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis",
+      "Acute cholecystitis (perforated)",
+      "Acute mesenteric ischemia",
+      "Ruptured AAA",
+      "Perforated appendicitis",
+      "Boerhaave syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Perforated peptic ulcer",
+      "Acute pancreatitis"
+    ],
+    "after_stage2_less_likely": [
+      "Ruptured AAA",
+      "Boerhaave syndrome"
+    ],
+    "after_labs_top3": [
+      "Perforated peptic ulcer",
+      "Perforated hollow viscus with peritonitis",
+      "Acute pancreatitis"
+    ]
   }
 }

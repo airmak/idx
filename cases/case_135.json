@@ -25,22 +25,92 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "6.2 mg/dL (was normal 6 months ago)", "flag": "HIGH", "clinical_significance": "Rapidly progressive glomerulonephritis (RPGN) — creatinine rising from normal to severely elevated in days to weeks"},
-      {"test_name": "BUN", "result": "82 mg/dL", "flag": "HIGH", "clinical_significance": "Severely elevated, consistent with rapidly progressive renal failure"},
-      {"test_name": "Urinalysis", "result": "3+ blood, 2+ protein, >100 RBCs/hpf (many dysmorphic), abundant RBC casts, no WBC casts", "flag": "ABNORMAL", "clinical_significance": "Active nephritic sediment with RBC casts pathognomonic for glomerulonephritis"},
-      {"test_name": "Anti-GBM Antibody (IgG)", "result": "Positive, 128 EU/mL (normal <20)", "flag": "HIGH", "clinical_significance": "Diagnostic of anti-GBM disease; antibodies target the NC1 domain of the alpha-3 chain of type IV collagen"},
-      {"test_name": "ANCA (MPO and PR3)", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes concurrent ANCA-associated vasculitis (dual positivity occurs in ~30% of anti-GBM cases)"},
-      {"test_name": "Hemoglobin", "result": "7.8 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia from pulmonary hemorrhage and blood loss"},
-      {"test_name": "Complement C3", "result": "105 mg/dL", "flag": "WNL", "clinical_significance": "Normal; anti-GBM disease does not consume complement"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Excludes lupus"},
-      {"test_name": "Serum Potassium", "result": "5.8 mEq/L", "flag": "HIGH", "clinical_significance": "Hyperkalemia from oliguric renal failure"},
-      {"test_name": "Serum Bicarbonate", "result": "15 mEq/L", "flag": "LOW", "clinical_significance": "Metabolic acidosis from renal failure"},
-      {"test_name": "ABG", "result": "pH 7.28, pCO2 28, pO2 62, HCO3 14 on room air", "flag": "ABNORMAL", "clinical_significance": "Metabolic acidosis with respiratory compensation; hypoxemia from diffuse alveolar hemorrhage"},
-      {"test_name": "DLCO (Diffusing Capacity)", "result": "Elevated — 142% predicted", "flag": "HIGH", "clinical_significance": "Paradoxically elevated DLCO is a hallmark of diffuse alveolar hemorrhage (carbon monoxide is absorbed by intra-alveolar blood)"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "6.2 mg/dL (was normal 6 months ago)",
+        "flag": "HIGH",
+        "clinical_significance": "Rapidly progressive glomerulonephritis (RPGN) — creatinine rising from normal to severely elevated in days to weeks"
+      },
+      {
+        "test_name": "BUN",
+        "result": "82 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Severely elevated, consistent with rapidly progressive renal failure"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ blood, 2+ protein, >100 RBCs/hpf (many dysmorphic), abundant RBC casts, no WBC casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active nephritic sediment with RBC casts pathognomonic for glomerulonephritis"
+      },
+      {
+        "test_name": "Anti-GBM Antibody (IgG)",
+        "result": "Positive, 128 EU/mL (normal <20)",
+        "flag": "HIGH",
+        "clinical_significance": "diagnostic of the suspected condition; antibodies target the NC1 domain of the alpha-3 chain of type IV collagen"
+      },
+      {
+        "test_name": "ANCA (MPO and PR3)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes concurrent ANCA-associated vasculitis (dual positivity occurs in ~30% of anti-GBM cases)"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "7.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia from pulmonary hemorrhage and blood loss"
+      },
+      {
+        "test_name": "Complement C3",
+        "result": "105 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; this condition does not consume complement"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes lupus"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.8 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperkalemia from oliguric renal failure"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "15 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Metabolic acidosis from renal failure"
+      },
+      {
+        "test_name": "ABG",
+        "result": "pH 7.28, pCO2 28, pO2 62, HCO3 14 on room air",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Metabolic acidosis with respiratory compensation; hypoxemia from diffuse alveolar hemorrhage"
+      },
+      {
+        "test_name": "DLCO (Diffusing Capacity)",
+        "result": "Elevated — 142% predicted",
+        "flag": "HIGH",
+        "clinical_significance": "Paradoxically elevated DLCO is a hallmark of diffuse alveolar hemorrhage (carbon monoxide is absorbed by intra-alveolar blood)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Bilateral diffuse alveolar infiltrates sparing the apices and costophrenic angles, with air bronchograms. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Classic pattern of diffuse alveolar hemorrhage (DAH); bilateral perihilar predominance"},
-      {"test_name": "Renal Biopsy", "result": "Light microscopy: crescentic glomerulonephritis with crescents in 85% of glomeruli. Immunofluorescence: linear IgG staining along the glomerular basement membrane. Electron microscopy: no immune deposits; GBM shows disruption.", "flag": "ABNORMAL", "clinical_significance": "Linear IgG deposition along GBM is pathognomonic for anti-GBM disease; extensive crescent formation indicates severe disease with poor renal prognosis"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral diffuse alveolar infiltrates sparing the apices and costophrenic angles, with air bronchograms. No pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic pattern of diffuse alveolar hemorrhage (DAH); bilateral perihilar predominance"
+      },
+      {
+        "test_name": "Renal Biopsy",
+        "result": "Light microscopy: crescentic glomerulonephritis with crescents in 85% of glomeruli. Immunofluorescence: linear IgG staining along the glomerular basement membrane. Electron microscopy: no immune deposits; GBM shows disruption.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Linear IgG deposition along GBM is pathognomonic for this condition; extensive crescent formation indicates severe disease with poor renal prognosis"
+      }
     ],
     "key_tests": [
       "Anti-GBM antibody (serum)",
@@ -67,7 +137,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The combination of pulmonary hemorrhage (hemoptysis, diffuse alveolar infiltrates, elevated DLCO) and rapidly progressive glomerulonephritis (RPGN with RBC casts), with positive anti-GBM antibodies and linear IgG on renal biopsy, confirms anti-GBM disease (Goodpasture syndrome) — the pulmonary-renal syndrome."
+    "final_clue": "The combination of pulmonary hemorrhage (hemoptysis, diffuse alveolar infiltrates, elevated DLCO) and rapidly progressive glomerulonephritis (RPGN with RBC casts), with positive anti-GBM antibodies and linear IgG on renal biopsy, confirms the suspected diagnosis — the pulmonary-renal syndrome."
   },
   "debrief": {
     "classic_presentation": "A young male smoker presents with the pulmonary-renal syndrome: hemoptysis from diffuse alveolar hemorrhage combined with rapidly progressive glomerulonephritis. Labs show anti-GBM antibodies, and renal biopsy reveals crescentic GN with linear IgG staining on immunofluorescence.",

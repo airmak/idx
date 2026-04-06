@@ -25,19 +25,74 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "1.5 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated for age; early renal impairment in ADPKD"},
-      {"test_name": "eGFR", "result": "58 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "CKD stage 3a; GFR decline begins as cysts progressively destroy renal parenchyma"},
-      {"test_name": "Urinalysis", "result": "Moderate blood (25-50 RBCs/hpf), trace protein, no casts, no WBCs", "flag": "ABNORMAL", "clinical_significance": "Hematuria from cyst rupture or hemorrhage into a cyst is common in ADPKD"},
-      {"test_name": "Urine Albumin:Creatinine Ratio", "result": "85 mg/g", "flag": "HIGH", "clinical_significance": "Mild albuminuria; proteinuria in ADPKD is typically modest compared to glomerular diseases"},
-      {"test_name": "CBC", "result": "Hgb 15.2 g/dL, WBC 7,400/μL, Plt 230,000/μL", "flag": "WNL", "clinical_significance": "Normal; hemoglobin may be relatively preserved in ADPKD due to maintained erythropoietin production"},
-      {"test_name": "Serum Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Serum Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Liver Function Tests", "result": "AST 22, ALT 28, ALP 72, total bilirubin 0.8", "flag": "WNL", "clinical_significance": "Normal; hepatic cysts are common in ADPKD but rarely affect liver function"},
-      {"test_name": "Serum Uric Acid", "result": "7.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; hyperuricemia is common in ADPKD and may contribute to stone formation"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.5 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated for age; early renal impairment in this condition"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "58 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "CKD stage 3a; GFR decline begins as cysts progressively destroy renal parenchyma"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Moderate blood (25-50 RBCs/hpf), trace protein, no casts, no WBCs",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hematuria from cyst rupture or hemorrhage into a cyst is common in this condition"
+      },
+      {
+        "test_name": "Urine Albumin:Creatinine Ratio",
+        "result": "85 mg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Mild albuminuria; proteinuria in this condition is typically modest compared to glomerular diseases"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 15.2 g/dL, WBC 7,400/μL, Plt 230,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hemoglobin may be relatively preserved in this condition due to maintained erythropoietin production"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "139 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "4.3 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Liver Function Tests",
+        "result": "AST 22, ALT 28, ALP 72, total bilirubin 0.8",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hepatic cysts are common in this condition but rarely affect liver function"
+      },
+      {
+        "test_name": "Serum Uric Acid",
+        "result": "7.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; hyperuricemia is common in this condition and may contribute to stone formation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Right kidney 16.8 cm, left kidney 17.2 cm. Bilateral kidneys are markedly enlarged with innumerable cortical and medullary cysts ranging from 0.5-5 cm. No solid masses. Three hepatic cysts noted in the right lobe (largest 2.3 cm).", "flag": "ABNORMAL", "clinical_significance": "Bilateral enlarged kidneys with multiple cysts in a patient with positive family history meets Ravine criteria for ADPKD (≥3 cysts unilateral or bilateral in patient 15-39 years with positive family history)"},
-      {"test_name": "MRI Brain (MRA Circle of Willis)", "result": "No intracranial aneurysm identified. Normal cerebral vasculature.", "flag": "WNL", "clinical_significance": "Screening for intracranial aneurysms is recommended in ADPKD patients with family history of aneurysm/subarachnoid hemorrhage; reassuring result"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Right kidney 16.8 cm, left kidney 17.2 cm. Bilateral kidneys are markedly enlarged with innumerable cortical and medullary cysts ranging from 0.5-5 cm. No solid masses. Three hepatic cysts noted in the right lobe (largest 2.3 cm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral enlarged kidneys with multiple cysts in a patient with positive family history meets Ravine criteria for this condition (≥3 cysts unilateral or bilateral in patient 15-39 years with positive family history)"
+      },
+      {
+        "test_name": "MRI Brain (MRA Circle of Willis)",
+        "result": "No intracranial aneurysm identified. Normal cerebral vasculature.",
+        "flag": "WNL",
+        "clinical_significance": "Screening for intracranial aneurysms is recommended in this condition patients with family history of aneurysm/subarachnoid hemorrhage; reassuring result"
+      }
     ],
     "key_tests": [
       "Renal ultrasound",
@@ -62,7 +117,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "Bilateral massively enlarged kidneys with innumerable cysts on ultrasound, in a 35-year-old with a family history of ESRD from cystic kidney disease (autosomal dominant pattern), early-onset hypertension, hematuria, and hepatic cysts confirms autosomal dominant polycystic kidney disease (ADPKD)."
+    "final_clue": "Bilateral massively enlarged kidneys with innumerable cysts on ultrasound, in a 35-year-old with a family history of ESRD from cystic kidney disease (autosomal dominant pattern), early-onset hypertension, hematuria, and hepatic cysts confirms the suspected diagnosis."
   },
   "debrief": {
     "classic_presentation": "A young adult with a family history of cystic kidney disease and ESRD presenting with bilateral flank pain, hematuria, early-onset hypertension, and palpable flank masses. Ultrasound reveals bilaterally enlarged kidneys with multiple cysts. Hepatic cysts are a common extrarenal manifestation.",

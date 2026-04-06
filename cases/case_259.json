@@ -25,18 +25,68 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 7.0, Hgb 12.8, Hct 38.5, Plt 245", "flag": "WNL", "clinical_significance": "Normal CBC; no anemia or leukocytosis"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 136, K 3.4, Cl 100, CO2 22, BUN 18, Cr 0.8, Glucose 92, Ca 9.2, AST 20, ALT 16, Alk Phos 58, Albumin 3.4", "flag": "MILD ABNORMAL", "clinical_significance": "Mild hypokalemia from diarrhea losses; mildly low albumin may reflect protein loss or poor nutrition"},
-      {"test_name": "ESR", "result": "22 mm/hr", "flag": "MILD HIGH", "clinical_significance": "Mildly elevated ESR — some microscopic colitis patients have mild systemic inflammation"},
-      {"test_name": "CRP", "result": "0.8 mg/dL", "flag": "BORDERLINE", "clinical_significance": "Mildly elevated; inflammatory markers are often normal or only mildly elevated in microscopic colitis (unlike IBD)"},
-      {"test_name": "tTG-IgA", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out celiac disease, which can mimic or coexist with microscopic colitis"},
-      {"test_name": "Total IgA", "result": "210 mg/dL", "flag": "WNL", "clinical_significance": "Normal IgA level, confirming tTG-IgA is reliable"},
-      {"test_name": "TSH", "result": "3.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; hyperthyroidism can cause diarrhea"},
-      {"test_name": "Stool studies", "result": "C. difficile toxin: Negative. Stool culture: Negative. Ova and parasites: Negative. Fecal calprotectin: 85 mcg/g (mildly elevated, normal <50).", "flag": "MILD ABNORMAL", "clinical_significance": "Infectious etiologies ruled out; mildly elevated fecal calprotectin supports mucosal inflammation (but much lower than typical IBD values >200)"},
-      {"test_name": "Fecal occult blood test", "result": "Negative", "flag": "WNL", "clinical_significance": "No occult blood — consistent with microscopic colitis (non-bloody diarrhea, unlike UC/Crohn)"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.0, Hgb 12.8, Hct 38.5, Plt 245",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC; no anemia or leukocytosis"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 136, K 3.4, Cl 100, CO2 22, BUN 18, Cr 0.8, Glucose 92, Ca 9.2, AST 20, ALT 16, Alk Phos 58, Albumin 3.4",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Mild hypokalemia from diarrhea losses; mildly low albumin may reflect protein loss or poor nutrition"
+      },
+      {
+        "test_name": "ESR",
+        "result": "22 mm/hr",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Mildly elevated ESR — some this condition patients have mild systemic inflammation"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.8 mg/dL",
+        "flag": "BORDERLINE",
+        "clinical_significance": "Mildly elevated; inflammatory markers are often normal or only mildly elevated in this condition (unlike IBD)"
+      },
+      {
+        "test_name": "tTG-IgA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Rules out celiac disease, which can mimic or coexist with this condition"
+      },
+      {
+        "test_name": "Total IgA",
+        "result": "210 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal IgA level, confirming tTG-IgA is reliable"
+      },
+      {
+        "test_name": "TSH",
+        "result": "3.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function; hyperthyroidism can cause diarrhea"
+      },
+      {
+        "test_name": "Stool studies",
+        "result": "C. difficile toxin: Negative. Stool culture: Negative. Ova and parasites: Negative. Fecal calprotectin: 85 mcg/g (mildly elevated, normal <50).",
+        "flag": "MILD ABNORMAL",
+        "clinical_significance": "Infectious etiologies ruled out; mildly elevated fecal calprotectin supports mucosal inflammation (but much lower than typical IBD values >200)"
+      },
+      {
+        "test_name": "Fecal occult blood test",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "No occult blood — consistent with the suspected diagnosis (non-bloody diarrhea, unlike UC/Crohn)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Colonoscopy with random biopsies", "result": "Endoscopic findings: Grossly normal mucosa throughout the colon with no erythema, ulceration, or mass. Random biopsies from right, transverse, left colon, and rectum. Pathology: Marked thickening of the subepithelial collagen band (25 micrometers, normal <7) with increased intraepithelial lymphocytes (30 per 100 epithelial cells) and chronic inflammatory infiltrate in the lamina propria. Diagnosis: Collagenous colitis.", "flag": "ABNORMAL", "clinical_significance": "Random biopsies are DIAGNOSTIC — thickened subepithelial collagen band >10 micrometers with lymphocytic inflammation confirms collagenous colitis (a subtype of microscopic colitis). This is why random biopsies must be taken even when the colon appears grossly normal."}
+      {
+        "test_name": "Colonoscopy with random biopsies",
+        "result": "Endoscopic findings: Grossly normal mucosa throughout the colon with no erythema, ulceration, or mass. Random biopsies from right, transverse, left colon, and rectum. Pathology: Marked thickening of the subepithelial collagen band (25 micrometers, normal <7) with increased intraepithelial lymphocytes (30 per 100 epithelial cells) and chronic inflammatory infiltrate in the lamina propria. Diagnosis: Collagenous colitis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Random biopsies are DIAGNOSTIC — thickened subepithelial collagen band >10 micrometers with lymphocytic inflammation confirms collagenous colitis (a subtype of this condition). This is why random biopsies must be taken even when the colon appears grossly normal."
+      }
     ],
     "key_tests": [
       "Colonoscopy with RANDOM biopsies — grossly normal mucosa but histology reveals thickened collagen band (25 mcm) and lymphocytic infiltrate, diagnostic of collagenous colitis",
@@ -59,7 +109,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The diagnosis of microscopic colitis (collagenous subtype) is established by the combination of: (1) chronic watery, non-bloody diarrhea, (2) grossly normal colonoscopy, and (3) diagnostic histology — thickened subepithelial collagen band (25 micrometers, normal <7) with intraepithelial lymphocytosis and chronic lamina propria inflammation. The patient has multiple risk factors: age >50, female sex, autoimmune predisposition (family history of celiac disease, thyroiditis), and use of implicated medications (NSAIDs, PPIs, and SSRIs)."
+    "final_clue": "The diagnosis of this condition is established by the combination of: (1) chronic watery, non-bloody diarrhea, (2) grossly normal colonoscopy, and (3) diagnostic histology — thickened subepithelial collagen band (25 micrometers, normal <7) with intraepithelial lymphocytosis and chronic lamina propria inflammation. The patient has multiple risk factors: age >50, female sex, autoimmune predisposition (family history of celiac disease, thyroiditis), and use of implicated medications (NSAIDs, PPIs, and SSRIs)."
   },
   "debrief": {
     "classic_presentation": "A middle-aged to older woman (median age 60-65, female:male ratio 3:1) presenting with chronic watery, non-bloody diarrhea, often nocturnal, with urgency and fecal incontinence. The colonoscopy appears grossly normal — the diagnosis can ONLY be made by random biopsies. Two subtypes: collagenous colitis (thickened subepithelial collagen band >10 mcm) and lymphocytic colitis (increased intraepithelial lymphocytes >20 per 100 epithelial cells without collagen thickening). Commonly associated medications include NSAIDs, PPIs, SSRIs, acarbose, and ticlopidine.",

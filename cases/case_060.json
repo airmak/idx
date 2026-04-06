@@ -25,29 +25,113 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - Hemoglobin", "result": "7.2 g/dL", "flag": "LOW", "clinical_significance": "Severe anemia in a patient with normal prenatal hemoglobin of 11.8 g/dL, indicating significant acute hemorrhage"},
-      {"test_name": "CBC - Hematocrit", "result": "22%", "flag": "LOW", "clinical_significance": "Critically low, consistent with massive hemorrhage"},
-      {"test_name": "CBC - Platelets", "result": "168 x10^9/L", "flag": "WNL", "clinical_significance": "Normal; helps exclude HELLP syndrome"},
-      {"test_name": "Type and Screen", "result": "Type O positive. Antibody screen negative.", "flag": "WNL", "clinical_significance": "Essential for massive transfusion protocol activation"},
-      {"test_name": "Coagulation - INR", "result": "1.1", "flag": "WNL", "clinical_significance": "Normal coagulation; helps exclude DIC and HELLP syndrome"},
-      {"test_name": "Fibrinogen", "result": "386 mg/dL", "flag": "WNL", "clinical_significance": "Normal (elevated in pregnancy); would be low in DIC or placental abruption with coagulopathy"},
-      {"test_name": "Lactate", "result": "5.4 mmol/L", "flag": "HIGH", "clinical_significance": "Elevated, consistent with hemorrhagic shock and tissue hypoperfusion"},
-      {"test_name": "BMP - Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "AST", "result": "34 U/L", "flag": "WNL", "clinical_significance": "Normal; helps exclude HELLP syndrome"},
-      {"test_name": "LDH", "result": "188 U/L", "flag": "WNL", "clinical_significance": "Normal; argues against hemolysis seen in HELLP syndrome"},
-      {"test_name": "Lipase", "result": "32 U/L", "flag": "WNL", "clinical_significance": "Normal, excludes pancreatitis as cause of LUQ pain"}
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "7.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Severe anemia in a patient with normal prenatal hemoglobin of 11.8 g/dL, indicating significant acute hemorrhage"
+      },
+      {
+        "test_name": "CBC - Hematocrit",
+        "result": "22%",
+        "flag": "LOW",
+        "clinical_significance": "Critically low, consistent with massive hemorrhage"
+      },
+      {
+        "test_name": "CBC - Platelets",
+        "result": "168 x10^9/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; helps exclude HELLP syndrome"
+      },
+      {
+        "test_name": "Type and Screen",
+        "result": "Type O positive. Antibody screen negative.",
+        "flag": "WNL",
+        "clinical_significance": "Essential for massive transfusion protocol activation"
+      },
+      {
+        "test_name": "Coagulation - INR",
+        "result": "1.1",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation; helps exclude DIC and HELLP syndrome"
+      },
+      {
+        "test_name": "Fibrinogen",
+        "result": "386 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal (elevated in pregnancy); would be low in DIC or placental abruption with coagulopathy"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "5.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with hemorrhagic shock and tissue hypoperfusion"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "AST",
+        "result": "34 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; helps exclude HELLP syndrome"
+      },
+      {
+        "test_name": "LDH",
+        "result": "188 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; argues against hemolysis seen in HELLP syndrome"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "32 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal, excludes pancreatitis as cause of LUQ pain"
+      }
     ],
     "imaging_results": [
-      {"test_name": "FAST Exam (Focused Assessment with Sonography for Trauma)", "result": "Large amount of free fluid in the left upper quadrant (perisplenic), Morison pouch, and pelvis. No pericardial effusion. Single live intrauterine pregnancy.", "flag": "ABNORMAL", "clinical_significance": "Large hemoperitoneum confirmed. In a hemodynamically unstable pregnant patient with acute LUQ pain and no history of trauma, this is highly concerning for ruptured splenic artery aneurysm."},
-      {"test_name": "CT Angiogram Abdomen (performed after initial stabilization)", "result": "Active contrast extravasation from a 2.8 cm splenic artery aneurysm located at the mid-body of the splenic artery. Large hemoperitoneum with blood layering in the left paracolic gutter and pelvis. Estimated >1.5 liters of free blood. Spleen appears intact. Gravid uterus with single live intrauterine pregnancy. No evidence of aortic pathology.", "flag": "ABNORMAL", "clinical_significance": "Confirms ruptured splenic artery aneurysm with active hemorrhage. This is the most common visceral artery aneurysm and pregnancy is a major risk factor for rupture."}
+      {
+        "test_name": "FAST Exam (Focused Assessment with Sonography for Trauma)",
+        "result": "Large amount of free fluid in the left upper quadrant (perisplenic), Morison pouch, and pelvis. No pericardial effusion. Single live intrauterine pregnancy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Large hemoperitoneum confirmed. In a hemodynamically unstable pregnant patient with acute LUQ pain and no history of trauma, this is highly concerning for this condition."
+      },
+      {
+        "test_name": "CT Angiogram Abdomen (performed after initial stabilization)",
+        "result": "Active contrast extravasation from a 2.8 cm splenic artery aneurysm located at the mid-body of the splenic artery. Large hemoperitoneum with blood layering in the left paracolic gutter and pelvis. Estimated >1.5 liters of free blood. Spleen appears intact. Gravid uterus with single live intrauterine pregnancy. No evidence of aortic pathology.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "confirms the suspected diagnosis with active hemorrhage. This is the most common visceral artery aneurysm and pregnancy is a major risk factor for rupture."
+      }
     ],
-    "key_tests": ["FAST exam (bedside ultrasound)", "CBC (hemoglobin/hematocrit)", "Type and crossmatch", "Serum lactate", "CT angiogram abdomen (if hemodynamically stabilizable)"],
-    "acceptable_tests": ["Coagulation panel (PT/INR, PTT, fibrinogen)", "BMP", "Hepatic function panel (exclude HELLP)", "LDH and peripheral smear (exclude HELLP)", "Fetal monitoring (continuous CTG)", "Lipase"],
-    "low_yield_tests": ["Abdominal X-ray (delays care, radiation in pregnancy with no diagnostic value)", "MRI (too slow for acute hemorrhage)", "Diagnostic peritoneal lavage (FAST is preferred)", "Upper GI series", "EGD"],
+    "key_tests": [
+      "FAST exam (bedside ultrasound)",
+      "CBC (hemoglobin/hematocrit)",
+      "Type and crossmatch",
+      "Serum lactate",
+      "CT angiogram abdomen (if hemodynamically stabilizable)"
+    ],
+    "acceptable_tests": [
+      "Coagulation panel (PT/INR, PTT, fibrinogen)",
+      "BMP",
+      "Hepatic function panel (exclude HELLP)",
+      "LDH and peripheral smear (exclude HELLP)",
+      "Fetal monitoring (continuous CTG)",
+      "Lipase"
+    ],
+    "low_yield_tests": [
+      "Abdominal X-ray (delays care, radiation in pregnancy with no diagnostic value)",
+      "MRI (too slow for acute hemorrhage)",
+      "Diagnostic peritoneal lavage (FAST is preferred)",
+      "Upper GI series",
+      "EGD"
+    ],
     "final_clue": "FAST exam reveals large hemoperitoneum. CT angiogram confirms a 2.8 cm ruptured splenic artery aneurysm with active extravasation. In a multiparous woman in the third trimester with sudden hemodynamic collapse, this is the classic scenario for splenic artery aneurysm rupture — the most feared complication of the most common visceral artery aneurysm. Emergent surgical intervention and concurrent cesarean delivery are required."
   },
   "stage5": {
-    "final_clue": "FAST exam reveals large hemoperitoneum. CT angiogram confirms a 2.8 cm ruptured splenic artery aneurysm with active extravasation. In a multiparous woman in the third trimester with sudden hemodynamic collapse, this is the classic scenario for splenic artery aneurysm rupture — the most feared complication of the most common visceral artery aneurysm. Emergent surgical intervention and concurrent cesarean delivery are required."
+    "final_clue": "FAST exam reveals large hemoperitoneum. CT angiogram confirms a 2.8 cm this condition with active extravasation. In a multiparous woman in the third trimester with sudden hemodynamic collapse, this is the classic scenario for splenic artery aneurysm rupture — the most feared complication of the most common visceral artery aneurysm. Emergent surgical intervention and concurrent cesarean delivery are required."
   },
   "debrief": {
     "classic_presentation": "Sudden-onset severe LUQ or epigastric pain with hemodynamic instability in a multiparous pregnant woman in the third trimester. The classic 'double rupture' phenomenon occurs when initial hemorrhage is contained within the lesser sac (causing transient stabilization), followed by free rupture into the peritoneal cavity with cardiovascular collapse. Splenic artery aneurysm is the most common visceral artery aneurysm (60% of all visceral aneurysms), with a 4:1 female-to-male ratio. Rupture risk increases in pregnancy (especially third trimester and peripartum) and with aneurysms >2 cm.",
@@ -69,9 +153,30 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Ruptured splenic artery aneurysm", "Placental abruption", "Uterine rupture", "HELLP syndrome", "Splenic rupture", "Ruptured hepatic artery aneurysm", "Acute pancreatitis", "Ruptured splenic cyst"],
-    "after_stage2_more_likely": ["Ruptured splenic artery aneurysm", "Placental abruption", "Splenic rupture"],
-    "after_stage2_less_likely": ["HELLP syndrome", "Uterine rupture", "Acute pancreatitis"],
-    "after_labs_top3": ["Ruptured splenic artery aneurysm", "Splenic rupture", "Ruptured hepatic artery aneurysm"]
+    "reasonable_ddx": [
+      "Ruptured splenic artery aneurysm",
+      "Placental abruption",
+      "Uterine rupture",
+      "HELLP syndrome",
+      "Splenic rupture",
+      "Ruptured hepatic artery aneurysm",
+      "Acute pancreatitis",
+      "Ruptured splenic cyst"
+    ],
+    "after_stage2_more_likely": [
+      "Ruptured splenic artery aneurysm",
+      "Placental abruption",
+      "Splenic rupture"
+    ],
+    "after_stage2_less_likely": [
+      "HELLP syndrome",
+      "Uterine rupture",
+      "Acute pancreatitis"
+    ],
+    "after_labs_top3": [
+      "Ruptured splenic artery aneurysm",
+      "Splenic rupture",
+      "Ruptured hepatic artery aneurysm"
+    ]
   }
 }
