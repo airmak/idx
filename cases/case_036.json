@@ -119,18 +119,18 @@
       }
     ],
     "key_tests": [
-      "CT angiography (chest/abdomen/pelvis)",
-      "ECG",
-      "Chest X-ray",
-      "Type and crossmatch",
-      "Troponin"
+      "CT angiography (pulmonary)",
+      "EKG/ECG",
+      "CXR (PA/Lateral)",
+      "Blood type and screen",
+      "Troponin I/T (serial)"
     ],
     "acceptable_tests": [
       "D-dimer",
-      "CBC",
+      "CBC with differential",
       "BMP",
-      "Coagulation studies",
-      "BNP",
+      "Coagulation panel (PT/INR/PTT)",
+      "BNP/NT-proBNP",
       "Lactate",
       "Bedside transthoracic echocardiography",
       "Point-of-care ultrasound"
@@ -138,9 +138,9 @@
     "low_yield_tests": [
       "Cardiac catheterization (delays surgery and dangerous)",
       "CT without contrast",
-      "Abdominal ultrasound",
-      "Stress test",
-      "Liver function tests"
+      "Ultrasound abdomen",
+      "Cardiac stress test",
+      "LFTs"
     ]
   },
   "stage5": {

@@ -25,22 +25,94 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,000/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.6 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "139 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.6 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Vitamin B12", "result": "420 pg/mL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Neurosyphilis excluded"},
-      {"test_name": "Ceruloplasmin", "result": "30 mg/dL", "flag": "WNL", "clinical_significance": "Normal; Wilson disease excluded"},
-      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,000/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.6 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "139 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.6 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "420 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": "Neurosyphilis excluded"
+      },
+      {
+        "test_name": "Ceruloplasmin",
+        "result": "30 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; Wilson disease excluded"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI brain", "result": "Midbrain atrophy with reduced AP diameter. On sagittal view, concavity of the superior midbrain surface (hummingbird sign/penguin sign). On axial view, reduced midbrain to pons ratio (morning glory sign). Mild frontal cortical atrophy. No mass, hydrocephalus, or vascular lesions.", "flag": "ABNORMAL", "clinical_significance": "The hummingbird sign (selective midbrain atrophy seen on midsagittal MRI) is characteristic of PSP. The midbrain tegmentum atrophy correlates with the vertical gaze palsy (damage to the rostral interstitial nucleus of the MLF and related structures)."},
-      {"test_name": "DaTscan (dopamine transporter SPECT)", "result": "Symmetric reduction in dopamine transporter uptake in both putamina.", "flag": "ABNORMAL", "clinical_significance": "Confirms nigrostriatal dopaminergic degeneration. However, DaTscan cannot distinguish PSP from PD — both show reduced uptake. The symmetric pattern is more suggestive of PSP (PD is typically asymmetric)."}
+      {
+        "test_name": "MRI brain",
+        "result": "Midbrain atrophy with reduced AP diameter. On sagittal view, concavity of the superior midbrain surface (hummingbird sign/penguin sign). On axial view, reduced midbrain to pons ratio (morning glory sign). Mild frontal cortical atrophy. No mass, hydrocephalus, or vascular lesions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The hummingbird sign (selective midbrain atrophy seen on midsagittal MRI) is characteristic of PSP. The midbrain tegmentum atrophy correlates with the vertical gaze palsy (damage to the rostral interstitial nucleus of the MLF and related structures)."
+      },
+      {
+        "test_name": "DaTscan (dopamine transporter SPECT)",
+        "result": "Symmetric reduction in dopamine transporter uptake in both putamina.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms nigrostriatal dopaminergic degeneration. However, DaTscan cannot distinguish PSP from PD — both show reduced uptake. The symmetric pattern is more suggestive of PSP (PD is typically asymmetric)."
+      }
     ],
-    "key_tests": ["Detailed neuro-ophthalmological examination (vertical supranuclear gaze palsy)", "MRI brain (hummingbird sign on sagittal, midbrain atrophy)", "Levodopa challenge test (poor response supports PSP over PD)", "Neuropsychological testing (frontal-subcortical pattern)", "Assessment of fall direction (backward falls characteristic)"],
-    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "RPR", "Ceruloplasmin", "DaTscan (to confirm dopaminergic deficit)", "PET scan (tau PET if available)", "Swallowing evaluation (videofluoroscopy)"],
-    "low_yield_tests": ["Lumbar puncture", "EEG", "EMG/NCS", "Genetic testing (PSP is almost always sporadic)", "Paraneoplastic antibody panel"],
+    "key_tests": [
+      "Detailed neuro-ophthalmological examination (vertical supranuclear gaze palsy)",
+      "MRI brain (w/ or w/o contrast)",
+      "Levodopa challenge test (poor response supports PSP over PD)",
+      "Neuropsychological testing (frontal-subcortical pattern)",
+      "Assessment of fall direction (backward falls characteristic)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BMP",
+      "TSH/Free T4",
+      "B12/Folate",
+      "RPR/VDRL",
+      "CMP",
+      "DaTscan (to confirm dopaminergic deficit)",
+      "PET scan",
+      "Swallowing evaluation (videofluoroscopy)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (CSF analysis)",
+      "Electroencephalogram (EEG)",
+      "EMG/NCS",
+      "Genetic testing (PSP is almost always sporadic)",
+      "Paraneoplastic antibody panel"
+    ],
     "low_yield_tests_note": "PSP is a clinical diagnosis — no definitive biomarker exists. The MDS-PSP diagnostic criteria (2017) rely on clinical features and MRI support."
   },
   "stage5": {
@@ -65,9 +137,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Progressive supranuclear palsy", "Parkinson disease", "Multiple system atrophy", "Corticobasal degeneration", "Normal pressure hydrocephalus", "Vascular parkinsonism", "Dementia with Lewy bodies"],
-    "after_stage2_more_likely": ["Progressive supranuclear palsy", "Corticobasal degeneration"],
-    "after_stage2_less_likely": ["Parkinson disease", "Normal pressure hydrocephalus", "Dementia with Lewy bodies"],
-    "after_labs_top3": ["Progressive supranuclear palsy", "Corticobasal degeneration", "Multiple system atrophy"]
+    "reasonable_ddx": [
+      "Progressive supranuclear palsy",
+      "Parkinson disease",
+      "Multiple system atrophy",
+      "Corticobasal degeneration",
+      "Normal pressure hydrocephalus",
+      "Vascular parkinsonism",
+      "Dementia with Lewy bodies"
+    ],
+    "after_stage2_more_likely": [
+      "Progressive supranuclear palsy",
+      "Corticobasal degeneration"
+    ],
+    "after_stage2_less_likely": [
+      "Parkinson disease",
+      "Normal pressure hydrocephalus",
+      "Dementia with Lewy bodies"
+    ],
+    "after_labs_top3": [
+      "Progressive supranuclear palsy",
+      "Corticobasal degeneration",
+      "Multiple system atrophy"
+    ]
   }
 }

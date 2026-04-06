@@ -25,26 +25,118 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — Hemoglobin", "result": "11.4 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia of chronic disease associated with malignancy"},
-      {"test_name": "CBC — WBC", "result": "9,800/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Platelets", "result": "480,000/uL", "flag": "HIGH", "clinical_significance": "Reactive thrombocytosis — common in mesothelioma and correlates with advanced disease/poor prognosis"},
-      {"test_name": "LDH", "result": "320 U/L", "flag": "HIGH", "clinical_significance": "Elevated LDH may reflect tumor burden"},
-      {"test_name": "Albumin", "result": "2.9 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from malnutrition and chronic disease"},
-      {"test_name": "CRP", "result": "4.2 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated; chronic inflammatory process from malignancy"},
-      {"test_name": "Pleural fluid cytology", "result": "Atypical mesothelial cells present. Suspicious for malignancy. Cannot definitively differentiate reactive from malignant mesothelial cells on cytology alone.", "flag": "ABNORMAL", "clinical_significance": "Pleural fluid cytology has low sensitivity (~30%) for mesothelioma — tissue biopsy is usually required for definitive diagnosis"},
-      {"test_name": "Pleural fluid analysis", "result": "Exudative (protein ratio 0.62, LDH ratio 0.72). Bloody. Glucose 48 mg/dL. pH 7.22.", "flag": "ABNORMAL", "clinical_significance": "Bloody exudative effusion with low glucose and pH suggests malignant effusion — low glucose/pH in mesothelioma indicates advanced disease and poor prognosis"},
-      {"test_name": "Soluble mesothelin-related peptide (SMRP)", "result": "4.8 nmol/L", "flag": "HIGH", "clinical_significance": "Elevated SMRP is a biomarker for mesothelioma with reasonable specificity; useful for diagnosis and monitoring treatment response"},
-      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Hepatic panel", "result": "AST 28, ALT 22, ALP 98 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
-      {"test_name": "Coagulation — PT/INR", "result": "12.2 sec / 1.0", "flag": "WNL", "clinical_significance": "Normal coagulation"}
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "11.4 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia of chronic disease associated with malignancy"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,800/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "480,000/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Reactive thrombocytosis — common in mesothelioma and correlates with advanced disease/poor prognosis"
+      },
+      {
+        "test_name": "LDH",
+        "result": "320 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated LDH may reflect tumor burden"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "2.9 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoalbuminemia from malnutrition and chronic disease"
+      },
+      {
+        "test_name": "CRP",
+        "result": "4.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; chronic inflammatory process from malignancy"
+      },
+      {
+        "test_name": "Pleural fluid cytology",
+        "result": "Atypical mesothelial cells present. Suspicious for malignancy. Cannot definitively differentiate reactive from malignant mesothelial cells on cytology alone.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pleural fluid cytology has low sensitivity (~30%) for mesothelioma — tissue biopsy is usually required for definitive diagnosis"
+      },
+      {
+        "test_name": "Pleural fluid analysis",
+        "result": "Exudative (protein ratio 0.62, LDH ratio 0.72). Bloody. Glucose 48 mg/dL. pH 7.22.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bloody exudative effusion with low glucose and pH suggests malignant effusion — low glucose/pH in mesothelioma indicates advanced disease and poor prognosis"
+      },
+      {
+        "test_name": "Soluble mesothelin-related peptide (SMRP)",
+        "result": "4.8 nmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated SMRP is a biomarker for mesothelioma with reasonable specificity; useful for diagnosis and monitoring treatment response"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Hepatic panel",
+        "result": "AST 28, ALT 22, ALP 98 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function"
+      },
+      {
+        "test_name": "Coagulation — PT/INR",
+        "result": "12.2 sec / 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal coagulation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT chest with contrast", "result": "Large right-sided pleural effusion with circumferential, nodular pleural thickening (rind-like) encasing the right lung. Mediastinal pleural involvement. Bilateral calcified pleural plaques. Volume loss of right hemithorax with ipsilateral mediastinal shift. No contralateral disease. No hepatic metastases.", "flag": "ABNORMAL", "clinical_significance": "Circumferential, nodular pleural thickening with effusion and ipsilateral volume loss is the classic CT presentation of mesothelioma. The pleural plaques confirm prior asbestos exposure. Mediastinal shift toward the affected side (rather than away) indicates encasement/trapped lung."},
-      {"test_name": "PET-CT", "result": "Intensely FDG-avid circumferential right pleural thickening (SUVmax 8.4). FDG-avid right mediastinal lymph nodes. No distant metastatic disease.", "flag": "ABNORMAL", "clinical_significance": "PET-CT confirms metabolically active pleural malignancy and helps with staging; no distant metastases suggests potentially resectable disease (depending on histologic subtype and performance status)"}
+      {
+        "test_name": "CT chest with contrast",
+        "result": "Large right-sided pleural effusion with circumferential, nodular pleural thickening (rind-like) encasing the right lung. Mediastinal pleural involvement. Bilateral calcified pleural plaques. Volume loss of right hemithorax with ipsilateral mediastinal shift. No contralateral disease. No hepatic metastases.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Circumferential, nodular pleural thickening with effusion and ipsilateral volume loss is the classic CT presentation of mesothelioma. The pleural plaques confirm prior asbestos exposure. Mediastinal shift toward the affected side (rather than away) indicates encasement/trapped lung."
+      },
+      {
+        "test_name": "PET-CT",
+        "result": "Intensely FDG-avid circumferential right pleural thickening (SUVmax 8.4). FDG-avid right mediastinal lymph nodes. No distant metastatic disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PET-CT confirms metabolically active pleural malignancy and helps with staging; no distant metastases suggests potentially resectable disease (depending on histologic subtype and performance status)"
+      }
     ],
-    "key_tests": ["CT chest with contrast", "Thoracoscopic (VATS) pleural biopsy", "Pleural fluid analysis with cytology", "PET-CT (for staging)", "Soluble mesothelin-related peptide (SMRP)"],
-    "acceptable_tests": ["CBC", "BMP", "LDH", "Albumin", "CRP", "Hepatic panel", "CT-guided pleural biopsy", "Chest X-ray", "PFTs"],
-    "low_yield_tests": ["Sputum cytology", "D-dimer", "Bronchoscopy (tumor is pleural, not endobronchial)", "ANCA", "ACE level"]
+    "key_tests": [
+      "CT chest (w/ or w/o contrast)",
+      "Thoracoscopic (VATS) pleural biopsy",
+      "Pleural fluid analysis with cytology",
+      "PET-CT (for staging)",
+      "Soluble mesothelin-related peptide (SMRP)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BMP",
+      "LDH",
+      "CMP",
+      "CRP",
+      "LFTs",
+      "CT-guided pleural biopsy",
+      "CXR (PA/Lateral)",
+      "Pulmonary function tests (PFTs)"
+    ],
+    "low_yield_tests": [
+      "Sputum cytology",
+      "D-dimer",
+      "Bronchoscopy",
+      "ANCA",
+      "CRP"
+    ]
   },
   "stage5": {
     "final_clue": "Video-assisted thoracoscopic surgery (VATS) pleural biopsy reveals malignant epithelioid mesothelioma. Immunohistochemistry is positive for calretinin, CK5/6, WT-1, and D2-40, and negative for CEA, TTF-1, and BerEP4, confirming mesothelioma and distinguishing it from adenocarcinoma. BAP1 loss is present. Clinical staging: T3N1M0, Stage IIIA."
@@ -68,9 +160,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Malignant pleural mesothelioma", "Metastatic pleural disease (lung, breast)", "Pleural lymphoma", "Empyema/complicated parapneumonic effusion", "Benign asbestos pleural effusion", "Pleural plaques (benign)"],
-    "after_stage2_more_likely": ["Malignant pleural mesothelioma", "Metastatic pleural disease"],
-    "after_stage2_less_likely": ["Empyema", "Benign asbestos pleural effusion"],
-    "after_labs_top3": ["Malignant pleural mesothelioma", "Metastatic pleural disease", "Pleural lymphoma"]
+    "reasonable_ddx": [
+      "Malignant pleural mesothelioma",
+      "Metastatic pleural disease (lung, breast)",
+      "Pleural lymphoma",
+      "Empyema/complicated parapneumonic effusion",
+      "Benign asbestos pleural effusion",
+      "Pleural plaques (benign)"
+    ],
+    "after_stage2_more_likely": [
+      "Malignant pleural mesothelioma",
+      "Metastatic pleural disease"
+    ],
+    "after_stage2_less_likely": [
+      "Empyema",
+      "Benign asbestos pleural effusion"
+    ],
+    "after_labs_top3": [
+      "Malignant pleural mesothelioma",
+      "Metastatic pleural disease",
+      "Pleural lymphoma"
+    ]
   }
 }

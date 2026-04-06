@@ -119,25 +119,25 @@
       }
     ],
     "key_tests": [
-      "CT head without contrast (STAT)",
-      "CT angiography (head and neck)",
-      "Point-of-care glucose",
-      "CBC (platelets)",
-      "PT/INR"
+      "CT head (w/ or w/o contrast)",
+      "CT angiography (pulmonary)",
+      "BMP",
+      "CBC with differential",
+      "Coagulation panel (PT/INR/PTT)"
     ],
     "acceptable_tests": [
       "BMP",
-      "PTT",
-      "Troponin",
-      "ECG",
-      "Lipid panel",
+      "Coagulation panel (PT/INR/PTT)",
+      "Troponin I/T (serial)",
+      "EKG/ECG",
+      "CMP",
       "HbA1c",
       "CT perfusion (if available)"
     ],
     "low_yield_tests": [
-      "MRI brain (delays acute treatment)",
-      "Lumbar puncture",
-      "EEG",
+      "MRI brain (w/ or w/o contrast)",
+      "Lumbar puncture (CSF analysis)",
+      "Electroencephalogram (EEG)",
       "Carotid duplex (CTA already performed)",
       "ESR"
     ]

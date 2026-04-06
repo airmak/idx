@@ -113,27 +113,27 @@
       }
     ],
     "key_tests": [
-      "CT chest with contrast",
+      "CT chest (w/ or w/o contrast)",
       "PET-CT for staging",
       "Tissue biopsy (CT-guided or bronchoscopic)",
-      "CBC",
-      "CMP including calcium"
+      "CBC with differential",
+      "CMP"
     ],
     "acceptable_tests": [
-      "Chest X-ray",
+      "CXR (PA/Lateral)",
       "Sputum cytology",
       "CEA",
       "LDH",
-      "Brain MRI (for staging)",
+      "MRI brain (w/ or w/o contrast)",
       "Pulmonary function tests (for surgical planning)",
       "Bone scan"
     ],
     "low_yield_tests": [
       "D-dimer",
       "Procalcitonin",
-      "Echocardiogram",
-      "Tuberculin skin test",
-      "ABG (unless symptomatic)"
+      "Echocardiogram (transthoracic)",
+      "Quantiferon-TB Gold",
+      "ABG"
     ]
   },
   "stage5": {

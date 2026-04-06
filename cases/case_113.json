@@ -101,26 +101,26 @@
       }
     ],
     "key_tests": [
-      "Non-contrast CT head (STAT — to exclude hemorrhage before thrombolysis)",
-      "CT angiography (to identify large vessel occlusion for thrombectomy)",
+      "CT head (w/ or w/o contrast)",
+      "CT angiography (pulmonary)",
       "CT perfusion (to assess ischemic core vs. penumbra)",
-      "Blood glucose (STAT — to exclude hypoglycemia as stroke mimic)",
+      "BMP",
       "NIH Stroke Scale (NIHSS) assessment"
     ],
     "acceptable_tests": [
-      "CBC with platelets",
-      "PT/INR, aPTT",
+      "CBC with differential",
+      "Coagulation panel (PT/INR/PTT)",
       "BMP",
-      "Troponin",
+      "Troponin I/T (serial)",
       "ECG/telemetry (to confirm atrial fibrillation)",
-      "Lipid panel",
+      "CMP",
       "HbA1c",
-      "Echocardiogram (TTE or TEE for embolic source)"
+      "Echocardiogram (transthoracic)"
     ],
     "low_yield_tests": [
       "Lumbar puncture (no indication)",
-      "EEG (acutely)",
-      "Carotid ultrasound (CTA already performed)",
+      "Electroencephalogram (EEG)",
+      "Ultrasound carotid Doppler",
       "Serum drug screen"
     ],
     "low_yield_tests_note": "Time is brain — minimize any tests that delay treatment. Only blood glucose and CT head are required before IV tPA."

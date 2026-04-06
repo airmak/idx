@@ -107,27 +107,27 @@
       }
     ],
     "key_tests": [
-      "BNP or NT-proBNP",
-      "Transthoracic echocardiogram",
-      "Chest X-ray",
-      "Basic metabolic panel",
-      "Troponin"
+      "BNP/NT-proBNP",
+      "Echocardiogram (transthoracic)",
+      "CXR (PA/Lateral)",
+      "BMP",
+      "Troponin I/T (serial)"
     ],
     "acceptable_tests": [
-      "CBC",
-      "Liver function tests",
-      "TSH",
+      "CBC with differential",
+      "LFTs",
+      "TSH/Free T4",
       "Urinalysis",
-      "Iron studies",
+      "Ferritin/Iron studies",
       "HbA1c",
-      "Lipid panel",
-      "12-lead ECG"
+      "CMP",
+      "EKG/ECG"
     ],
     "low_yield_tests": [
       "CT coronary angiography",
       "Cardiac MRI",
       "PET scan",
-      "Pulmonary function tests",
+      "Pulmonary function tests (PFTs)",
       "D-dimer"
     ],
     "key_tests_rationale": "BNP confirms clinical suspicion of HF. Echo is essential to determine EF and classify HF type. CXR shows pulmonary congestion. BMP assesses renal function and electrolytes. Troponin rules out acute ischemia."

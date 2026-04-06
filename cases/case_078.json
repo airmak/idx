@@ -115,26 +115,26 @@
     "key_tests": [
       "Cardiac MRI with LGE",
       "FDG-PET/CT (cardiac protocol)",
-      "12-lead ECG",
-      "Troponin",
-      "ACE level"
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "CRP"
     ],
     "acceptable_tests": [
-      "BNP",
-      "Transthoracic echocardiogram",
-      "Holter monitor",
-      "Basic metabolic panel",
-      "Calcium level",
-      "CBC",
+      "BNP/NT-proBNP",
+      "Echocardiogram (transthoracic)",
+      "EKG/ECG",
+      "BMP",
+      "CMP",
+      "CBC with differential",
       "ESR/CRP",
-      "Lyme antibody",
+      "RPR/VDRL",
       "Endomyocardial biopsy"
     ],
     "low_yield_tests": [
       "Coronary angiography (low pre-test probability for CAD)",
-      "Stress test",
+      "Cardiac stress test",
       "Cardiac catheterization",
-      "Pulmonary function tests"
+      "Pulmonary function tests (PFTs)"
     ],
     "key_tests_rationale": "Cardiac MRI identifies myocardial inflammation (T2 edema) and fibrosis/scarring (LGE). FDG-PET detects active granulomatous inflammation and monitors treatment response. ECG identifies conduction disease. Troponin reflects active myocardial injury. ACE level supports sarcoidosis activity."
   },

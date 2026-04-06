@@ -95,25 +95,25 @@
       }
     ],
     "key_tests": [
-      "CBC with platelet count (serial)",
-      "Coagulation panel with fibrinogen (most important single lab)",
-      "Blood type and crossmatch (massive transfusion protocol)",
+      "CBC with differential",
+      "Fibrinogen",
+      "Blood type and screen",
       "Continuous fetal heart rate monitoring",
       "Kleihauer-Betke test (if Rh-negative)"
     ],
     "acceptable_tests": [
-      "ABG with lactate",
-      "BMP (hyperkalemia, acidosis monitoring)",
+      "Lactate",
+      "BMP",
       "D-dimer",
       "Urine drug screen",
       "Bedside ultrasound (limited sensitivity for abruption)",
       "Urine protein (evaluate for superimposed preeclampsia)"
     ],
     "low_yield_tests": [
-      "CT abdomen (delays delivery, abruption is a clinical diagnosis)",
-      "MRI pelvis (too time-consuming in emergency)",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "MRI pelvis",
       "Amniocentesis (contraindicated in abruption)",
-      "Liver function tests (unless HELLP suspected)"
+      "LFTs"
     ],
     "attending_pimp_questions": [
       "Why is fibrinogen the most important lab value in obstetric hemorrhage, and what is the critical threshold?",

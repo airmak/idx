@@ -96,23 +96,23 @@
     ],
     "key_tests": [
       "Clinical recognition (diagnosis of exclusion in correct clinical context)",
-      "ABG (hypoxemia, acidosis)",
-      "Coagulation panel with fibrinogen (DIC confirmation)",
-      "Bedside echocardiogram (acute right heart failure)"
+      "ABG",
+      "Fibrinogen",
+      "Echocardiogram (transthoracic)"
     ],
     "acceptable_tests": [
-      "CBC with platelet count",
-      "Troponin and BNP (myocardial injury)",
+      "CBC with differential",
+      "Troponin I/T (serial)",
       "D-dimer",
-      "Chest X-ray",
-      "TEE (if available)",
+      "CXR (PA/Lateral)",
+      "Echocardiogram (transesophageal)",
       "Thromboelastography (TEG) or rotational thromboelastometry (ROTEM) for real-time coagulation assessment"
     ],
     "low_yield_tests": [
-      "CT pulmonary angiography (too unstable to transport; PE is less likely given timing)",
+      "CT angiography (pulmonary)",
       "Serum tryptase (may help differentiate from anaphylaxis retrospectively but does not change acute management)",
       "Zinc coproporphyrin or sialyl-Tn antigen (experimental, not clinically available)",
-      "V/Q scan (unstable patient, diagnosis is clinical)"
+      "V/Q scan"
     ],
     "attending_pimp_questions": [
       "What is the current understanding of the pathophysiology of AFE — is it truly an 'embolism' or an anaphylactoid reaction?",

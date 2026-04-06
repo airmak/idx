@@ -113,28 +113,28 @@
       }
     ],
     "key_tests": [
-      "HRCT chest",
+      "CT chest (w/ or w/o contrast)",
       "Serum VEGF-D level",
-      "PFTs (spirometry + DLCO + lung volumes)",
-      "CT abdomen/pelvis",
+      "Pulmonary function tests (PFTs)",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
       "Pleural fluid analysis (triglycerides)"
     ],
     "acceptable_tests": [
       "ABG",
-      "Alpha-1 antitrypsin level",
-      "CBC",
+      "CMP",
+      "CBC with differential",
       "BMP",
       "ANA",
-      "TSH",
-      "Chest X-ray",
+      "TSH/Free T4",
+      "CXR (PA/Lateral)",
       "Genetic testing for TSC1/TSC2 mutations"
     ],
     "low_yield_tests": [
       "Sputum culture",
       "D-dimer",
-      "BNP",
+      "BNP/NT-proBNP",
       "Procalcitonin",
-      "Bronchoscopy (BAL not typically diagnostic)"
+      "Bronchoscopy"
     ]
   },
   "stage5": {

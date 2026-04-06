@@ -107,18 +107,18 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Serial troponin",
-      "BNP",
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "BNP/NT-proBNP",
       "Emergent cardiac catheterization (coronary angiography + ventriculography)",
-      "Echocardiogram"
+      "Echocardiogram (transthoracic)"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "BMP",
-      "TSH",
+      "TSH/Free T4",
       "Catecholamine levels",
-      "Chest X-ray",
+      "CXR (PA/Lateral)",
       "Magnesium",
       "Continuous telemetry"
     ],
@@ -127,7 +127,7 @@
       "D-dimer",
       "ESR/CRP",
       "Cardiac MRI (can be done later for confirmation but not acutely)",
-      "Stress test"
+      "Cardiac stress test"
     ]
   },
   "stage5": {

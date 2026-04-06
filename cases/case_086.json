@@ -113,24 +113,23 @@
       }
     ],
     "key_tests": [
-      "Arterial blood gas",
-      "Chest X-ray",
-      "Sputum Gram stain and culture",
-      "CBC with differential",
-      "Pulse oximetry"
+      "ABG",
+      "CXR (PA/Lateral)",
+      "Sputum culture",
+      "CBC with differential"
     ],
     "acceptable_tests": [
       "BMP",
       "Procalcitonin",
-      "BNP or NT-proBNP",
-      "ECG",
-      "Blood cultures",
-      "Influenza/respiratory viral panel",
+      "BNP/NT-proBNP",
+      "EKG/ECG",
+      "Blood cultures x2",
+      "Influenza Ag",
       "Lactate"
     ],
     "low_yield_tests": [
-      "CT chest (unless pneumonia/PE suspected)",
-      "Echocardiogram",
+      "CT chest (w/ or w/o contrast)",
+      "Echocardiogram (transthoracic)",
       "D-dimer",
       "Pulmonary function tests (during acute exacerbation)",
       "Bronchoscopy"

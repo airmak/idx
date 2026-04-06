@@ -107,28 +107,27 @@
       }
     ],
     "key_tests": [
-      "Point-of-care blood glucose",
-      "Venous or arterial blood gas",
+      "BMP",
+      "ABG",
       "Serum ketones (beta-hydroxybutyrate)",
-      "BMP (electrolytes, BUN, creatinine, glucose)",
       "HbA1c"
     ],
     "acceptable_tests": [
       "Urinalysis (glucose, ketones)",
       "CBC with differential",
-      "Phosphate and magnesium levels",
+      "Magnesium",
       "Diabetes autoantibodies (GAD-65, IA-2, ZnT8, insulin antibodies)",
       "C-peptide level",
-      "Lipid panel",
-      "Thyroid function tests (TSH, free T4)",
-      "Celiac screen (tissue transglutaminase IgA)"
+      "CMP",
+      "TSH/Free T4",
+      "Anti-tTG IgA"
     ],
     "low_yield_tests": [
       "Abdominal CT (abdominal pain is from DKA, not surgical)",
-      "Lipase/amylase (unless pancreatitis suspected)",
-      "Blood cultures (afebrile, no infectious signs)",
-      "Lumbar puncture",
-      "Echocardiogram"
+      "Lipase",
+      "Blood cultures x2",
+      "Lumbar puncture (CSF analysis)",
+      "Echocardiogram (transthoracic)"
     ]
   },
   "stage5": {

@@ -107,27 +107,26 @@
       }
     ],
     "key_tests": [
-      "Transthoracic echocardiogram",
-      "12-lead ECG",
-      "BNP",
-      "Basic metabolic panel",
-      "CBC"
+      "Echocardiogram (transthoracic)",
+      "EKG/ECG",
+      "BNP/NT-proBNP",
+      "BMP",
+      "CBC with differential"
     ],
     "acceptable_tests": [
-      "Chest X-ray",
-      "Troponin",
-      "Lipid panel",
-      "TSH",
+      "CXR (PA/Lateral)",
+      "Troponin I/T (serial)",
+      "CMP",
+      "TSH/Free T4",
       "Cardiac catheterization (for coronary assessment pre-operatively)",
-      "CT calcium scoring of aortic valve",
-      "Exercise stress test (only if asymptomatic)"
+      "Cardiac stress test"
     ],
     "low_yield_tests": [
       "Cardiac MRI (echo sufficient)",
       "D-dimer",
-      "Pulmonary function tests",
-      "Carotid ultrasound",
-      "Holter monitor"
+      "Pulmonary function tests (PFTs)",
+      "Ultrasound carotid Doppler",
+      "EKG/ECG"
     ],
     "key_tests_rationale": "Echo is the gold standard for diagnosing and grading AS severity (velocity, gradient, valve area). ECG shows LVH. BNP correlates with prognosis. BMP checks renal function pre-procedure. CBC screens for anemia (Heyde syndrome)."
   },

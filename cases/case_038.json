@@ -120,26 +120,26 @@
     ],
     "key_tests": [
       "Carboxyhemoglobin level (co-oximetry)",
-      "Venous or arterial blood gas",
-      "Troponin",
-      "ECG",
-      "CT head without contrast"
+      "ABG",
+      "Troponin I/T (serial)",
+      "EKG/ECG",
+      "CT head (w/ or w/o contrast)"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "BMP",
       "Lactate",
-      "CK",
-      "Chest X-ray",
+      "CK/CK-MB",
+      "CXR (PA/Lateral)",
       "Neuropsychiatric testing (delayed)",
-      "Pregnancy test (reproductive-age women)"
+      "Beta-hCG (serum)"
     ],
     "low_yield_tests": [
-      "Standard pulse oximetry (unreliable — cannot distinguish COHb from OxyHb)",
+      "ABG",
       "D-dimer",
-      "MRI brain (not acute priority)",
+      "MRI brain (w/ or w/o contrast)",
       "Urine drug screen",
-      "Liver function tests"
+      "LFTs"
     ]
   },
   "stage5": {

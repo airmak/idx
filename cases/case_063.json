@@ -25,25 +25,108 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC - WBC", "result": "3.8 x10^9/L", "flag": "LOW", "clinical_significance": "Mild leukopenia, common in severe malnutrition"},
-      {"test_name": "CBC - Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely nutritional (iron, folate, B12 deficiency in malnutrition)"},
-      {"test_name": "BMP - Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from vomiting and malnutrition"},
-      {"test_name": "BMP - Sodium", "result": "134 mEq/L", "flag": "LOW", "clinical_significance": "Borderline low, from vomiting and poor intake"},
-      {"test_name": "BMP - Chloride", "result": "92 mEq/L", "flag": "LOW", "clinical_significance": "Hypochloremia from vomiting (HCl loss)"},
-      {"test_name": "BMP - BUN", "result": "8 mg/dL", "flag": "WNL", "clinical_significance": "Low-normal, reflecting poor protein intake"},
-      {"test_name": "BMP - Creatinine", "result": "0.5 mg/dL", "flag": "WNL", "clinical_significance": "Low, reflecting decreased muscle mass"},
-      {"test_name": "Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Low, reflecting chronic malnutrition and poor hepatic synthetic function"},
-      {"test_name": "Prealbumin", "result": "8 mg/dL", "flag": "LOW", "clinical_significance": "Significantly low (normal 20-40), sensitive marker of acute nutritional status"},
-      {"test_name": "Phosphate", "result": "2.2 mg/dL", "flag": "LOW", "clinical_significance": "Low, important to monitor during refeeding to prevent refeeding syndrome"},
-      {"test_name": "Magnesium", "result": "1.4 mg/dL", "flag": "LOW", "clinical_significance": "Low, common in malnutrition and vomiting"}
+      {
+        "test_name": "CBC - WBC",
+        "result": "3.8 x10^9/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild leukopenia, common in severe malnutrition"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "10.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely nutritional (iron, folate, B12 deficiency in malnutrition)"
+      },
+      {
+        "test_name": "BMP - Potassium",
+        "result": "3.2 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from vomiting and malnutrition"
+      },
+      {
+        "test_name": "BMP - Sodium",
+        "result": "134 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Borderline low, from vomiting and poor intake"
+      },
+      {
+        "test_name": "BMP - Chloride",
+        "result": "92 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypochloremia from vomiting (HCl loss)"
+      },
+      {
+        "test_name": "BMP - BUN",
+        "result": "8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal, reflecting poor protein intake"
+      },
+      {
+        "test_name": "BMP - Creatinine",
+        "result": "0.5 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Low, reflecting decreased muscle mass"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "2.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low, reflecting chronic malnutrition and poor hepatic synthetic function"
+      },
+      {
+        "test_name": "Prealbumin",
+        "result": "8 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Significantly low (normal 20-40), sensitive marker of acute nutritional status"
+      },
+      {
+        "test_name": "Phosphate",
+        "result": "2.2 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low, important to monitor during refeeding to prevent refeeding syndrome"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "1.4 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low, common in malnutrition and vomiting"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upper GI Series with Small Bowel Follow-Through", "result": "Marked dilation of the first and second portions of the duodenum with abrupt cutoff of barium at the third portion (D3). A vertical, extrinsic compression is seen at D3 consistent with SMA compression. Barium slowly trickles past the obstruction. To-and-fro peristalsis is seen in the dilated duodenum. Symptoms and obstruction improved with the patient in the left lateral decubitus position.", "flag": "ABNORMAL", "clinical_significance": "Classic upper GI series findings of SMA syndrome: duodenal dilation proximal to D3 with extrinsic compression at the SMA crossing point. Positional improvement confirms the diagnosis."},
-      {"test_name": "CT Abdomen with IV Contrast (sagittal and coronal reconstructions)", "result": "Aortomesenteric angle reduced to 12 degrees (normal 28-65 degrees). Aortomesenteric distance reduced to 4 mm (normal 10-28 mm). The third portion of the duodenum is compressed between the SMA and the aorta with proximal duodenal and gastric dilation. Marked reduction in retroperitoneal and mesenteric fat. No other cause of duodenal obstruction identified.", "flag": "ABNORMAL", "clinical_significance": "CT measurements confirm SMA syndrome: aortomesenteric angle <22 degrees and aortomesenteric distance <8 mm are diagnostic. Loss of retroperitoneal fat pad (which normally cushions the duodenum) from extreme weight loss is the underlying mechanism."}
+      {
+        "test_name": "Upper GI Series with Small Bowel Follow-Through",
+        "result": "Marked dilation of the first and second portions of the duodenum with abrupt cutoff of barium at the third portion (D3). A vertical, extrinsic compression is seen at D3 consistent with SMA compression. Barium slowly trickles past the obstruction. To-and-fro peristalsis is seen in the dilated duodenum. Symptoms and obstruction improved with the patient in the left lateral decubitus position.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic upper GI series findings of SMA syndrome: duodenal dilation proximal to D3 with extrinsic compression at the SMA crossing point. Positional improvement confirms the diagnosis."
+      },
+      {
+        "test_name": "CT Abdomen with IV Contrast (sagittal and coronal reconstructions)",
+        "result": "Aortomesenteric angle reduced to 12 degrees (normal 28-65 degrees). Aortomesenteric distance reduced to 4 mm (normal 10-28 mm). The third portion of the duodenum is compressed between the SMA and the aorta with proximal duodenal and gastric dilation. Marked reduction in retroperitoneal and mesenteric fat. No other cause of duodenal obstruction identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT measurements confirm SMA syndrome: aortomesenteric angle <22 degrees and aortomesenteric distance <8 mm are diagnostic. Loss of retroperitoneal fat pad (which normally cushions the duodenum) from extreme weight loss is the underlying mechanism."
+      }
     ],
-    "key_tests": ["CT abdomen with IV contrast (with sagittal/coronal reconstructions for aortomesenteric measurements)", "Upper GI series with small bowel follow-through", "BMP (electrolytes)", "Albumin/prealbumin"],
-    "acceptable_tests": ["CBC", "Phosphate and magnesium (refeeding syndrome risk)", "EGD (to exclude intrinsic duodenal pathology)", "Abdominal X-ray", "CTA (for precise vascular measurements)", "Nutritional labs (iron, B12, folate, zinc)"],
-    "low_yield_tests": ["Colonoscopy (pathology is in the upper GI tract)", "MRCP (for biliary, not duodenal compression)", "Celiac serologies (different mechanism of malnutrition)", "Gastric emptying study (the obstruction is duodenal, not gastroparesis)", "ERCP"],
+    "key_tests": [
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "Upper GI series with small bowel follow-through",
+      "BMP",
+      "CMP"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Magnesium",
+      "Upper endoscopy (EGD)",
+      "KUB (abdomen)",
+      "CTA (for precise vascular measurements)",
+      "Nutritional labs (iron, B12, folate, zinc)"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy",
+      "MRCP",
+      "Celiac serologies (different mechanism of malnutrition)",
+      "Gastric emptying study (the obstruction is duodenal, not gastroparesis)",
+      "ERCP"
+    ],
     "final_clue": "Upper GI series demonstrates duodenal dilation with abrupt extrinsic compression at D3 that improves in the left lateral decubitus position. CT confirms an aortomesenteric angle of 12 degrees (normal 28-65) and aortomesenteric distance of 4 mm (normal 10-28 mm) with loss of the retroperitoneal fat pad. In a severely malnourished patient with BMI 15.2, this is SMA syndrome caused by loss of the mesenteric fat cushion that normally protects the duodenum from aorto-mesenteric compression."
   },
   "stage5": {
@@ -70,9 +153,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Superior mesenteric artery syndrome", "Gastroparesis", "Duodenal web or stenosis", "Annular pancreas", "Chronic mesenteric ischemia", "Functional dyspepsia", "Cyclic vomiting syndrome", "Malrotation with Ladd bands"],
-    "after_stage2_more_likely": ["Superior mesenteric artery syndrome", "Gastroparesis", "Functional dyspepsia"],
-    "after_stage2_less_likely": ["Annular pancreas", "Malrotation with Ladd bands"],
-    "after_labs_top3": ["Superior mesenteric artery syndrome", "Gastroparesis", "Chronic mesenteric ischemia"]
+    "reasonable_ddx": [
+      "Superior mesenteric artery syndrome",
+      "Gastroparesis",
+      "Duodenal web or stenosis",
+      "Annular pancreas",
+      "Chronic mesenteric ischemia",
+      "Functional dyspepsia",
+      "Cyclic vomiting syndrome",
+      "Malrotation with Ladd bands"
+    ],
+    "after_stage2_more_likely": [
+      "Superior mesenteric artery syndrome",
+      "Gastroparesis",
+      "Functional dyspepsia"
+    ],
+    "after_stage2_less_likely": [
+      "Annular pancreas",
+      "Malrotation with Ladd bands"
+    ],
+    "after_labs_top3": [
+      "Superior mesenteric artery syndrome",
+      "Gastroparesis",
+      "Chronic mesenteric ischemia"
+    ]
   }
 }

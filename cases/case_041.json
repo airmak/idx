@@ -119,28 +119,28 @@
       }
     ],
     "key_tests": [
-      "CT head without contrast",
-      "CT angiography (head and neck)",
-      "Point-of-care glucose",
-      "CBC (platelets)",
-      "PT/INR"
+      "CT head (w/ or w/o contrast)",
+      "CT angiography (pulmonary)",
+      "BMP",
+      "CBC with differential",
+      "Coagulation panel (PT/INR/PTT)"
     ],
     "acceptable_tests": [
       "BMP",
-      "PTT",
-      "Troponin",
-      "ECG",
-      "MRI brain with diffusion-weighted imaging (if available without delay)",
-      "Lipid panel",
+      "Coagulation panel (PT/INR/PTT)",
+      "Troponin I/T (serial)",
+      "EKG/ECG",
+      "MRI brain (w/ or w/o contrast)",
+      "CMP",
       "HbA1c",
       "Telemetry monitoring"
     ],
     "low_yield_tests": [
       "Caloric testing",
       "Audiogram",
-      "EEG",
+      "Electroencephalogram (EEG)",
       "Carotid duplex (anterior circulation not involved)",
-      "Lumbar puncture"
+      "Lumbar puncture (CSF analysis)"
     ]
   },
   "stage5": {

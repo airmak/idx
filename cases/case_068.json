@@ -107,26 +107,26 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Troponin",
+      "EKG/ECG",
+      "Troponin I/T (serial)",
       "CRP/ESR",
-      "Transthoracic echocardiogram",
-      "Chest X-ray"
+      "Echocardiogram (transthoracic)",
+      "CXR (PA/Lateral)"
     ],
     "acceptable_tests": [
-      "CBC",
-      "BNP",
-      "Blood cultures",
+      "CBC with differential",
+      "BNP/NT-proBNP",
+      "Blood cultures x2",
       "ANA",
       "D-dimer",
-      "Basic metabolic panel",
-      "Viral serologies"
+      "BMP",
+      "Hepatitis panel"
     ],
     "low_yield_tests": [
       "Cardiac catheterization",
       "CT coronary angiography",
-      "Stress test",
-      "Pericardiocentesis (no significant effusion)"
+      "Cardiac stress test",
+      "Pericardiocentesis"
     ],
     "key_tests_rationale": "ECG shows characteristic diffuse ST elevation and PR depression. Troponin assesses for myopericardial involvement. CRP guides treatment duration. Echo evaluates for effusion and tamponade. CXR screens for alternative diagnoses."
   },

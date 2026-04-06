@@ -113,25 +113,25 @@
       }
     ],
     "key_tests": [
-      "Right upper quadrant ultrasound (bedside)",
-      "CBC with differential (trending)",
-      "Hepatic function panel (bilirubin, ALP, ALT, AST)",
-      "Procalcitonin (trending)",
-      "Serum lactate"
+      "Ultrasound abdomen",
+      "CBC with differential",
+      "LFTs",
+      "Procalcitonin",
+      "Lactate"
     ],
     "acceptable_tests": [
-      "HIDA scan (if ultrasound equivocal)",
-      "Blood cultures",
+      "HIDA scan",
+      "Blood cultures x2",
       "BMP",
       "Lipase",
-      "CT abdomen (if contrast allergy managed with premedication or non-contrast CT)",
-      "Chest X-ray (rule out other source)"
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "CXR (PA/Lateral)"
     ],
     "low_yield_tests": [
       "CT with iodinated contrast (patient has contrast allergy — requires premedication protocol)",
-      "ERCP (no ductal obstruction)",
-      "MRCP (no biliary dilation, patient may be too unstable for MRI)",
-      "Abdominal X-ray (insensitive for cholecystitis)"
+      "ERCP",
+      "MRCP",
+      "KUB (abdomen)"
     ],
     "final_clue": "RUQ ultrasound reveals a distended, thick-walled gallbladder with pericholecystic fluid and sludge but no gallstones in a critically ill ICU patient. HIDA scan shows non-visualization of the gallbladder. Combined with new fever, rising WBC, elevated bilirubin, and RUQ tenderness, this is acalculous cholecystitis — a feared complication in critically ill patients that requires urgent intervention."
   },

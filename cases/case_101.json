@@ -113,28 +113,28 @@
       }
     ],
     "key_tests": [
-      "Chest X-ray",
-      "CT chest",
+      "CXR (PA/Lateral)",
+      "CT chest (w/ or w/o contrast)",
       "Tissue biopsy (lymph node, skin, or transbronchial) with histology",
-      "ACE level",
-      "Serum calcium and 1,25-dihydroxyvitamin D",
-      "QuantiFERON-TB Gold or PPD (to exclude TB)"
+      "CRP",
+      "CMP",
+      "Quantiferon-TB Gold"
     ],
     "acceptable_tests": [
       "CBC with differential",
       "BAL with CD4:CD8 ratio",
-      "Hepatic panel",
+      "LFTs",
       "ESR/CRP",
-      "24-hour urine calcium",
-      "PFTs",
+      "CMP",
+      "Pulmonary function tests (PFTs)",
       "Ophthalmologic exam (slit-lamp)",
       "BMP",
-      "ECG"
+      "EKG/ECG"
     ],
     "low_yield_tests": [
       "D-dimer",
-      "BNP",
-      "Sputum culture (for routine bacteria)",
+      "BNP/NT-proBNP",
+      "Sputum culture",
       "Anti-GBM antibodies",
       "Procalcitonin"
     ]

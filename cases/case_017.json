@@ -113,25 +113,25 @@
       }
     ],
     "key_tests": [
-      "Basic metabolic panel (creatinine, eGFR, potassium, bicarbonate)",
-      "Urine albumin-to-creatinine ratio",
-      "CBC (hemoglobin)",
-      "Calcium, phosphorus, intact PTH",
-      "Renal ultrasound"
+      "BMP",
+      "CMP",
+      "CBC with differential",
+      "Phosphorus",
+      "Ultrasound renal/bladder"
     ],
     "acceptable_tests": [
       "HbA1c",
-      "25-OH Vitamin D",
-      "Lipid panel",
+      "BMP",
+      "CMP",
       "Urinalysis",
-      "Chest X-ray",
-      "Echocardiogram",
-      "Serum iron studies",
+      "CXR (PA/Lateral)",
+      "Echocardiogram (transthoracic)",
+      "Ferritin/Iron studies",
       "Uric acid"
     ],
     "low_yield_tests": [
-      "Renal biopsy (diabetic nephropathy is clinical diagnosis with proteinuria and retinopathy)",
-      "CT abdomen",
+      "Renal biopsy",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
       "Renal artery duplex (no suspicion for RAS)",
       "ANCA or anti-GBM (no features of glomerulonephritis)",
       "Cystoscopy"

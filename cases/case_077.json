@@ -113,26 +113,26 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG (with high leads V1-V2)",
-      "Transthoracic echocardiogram",
-      "Basic metabolic panel",
-      "Troponin",
+      "EKG/ECG",
+      "Echocardiogram (transthoracic)",
+      "BMP",
+      "Troponin I/T (serial)",
       "Genetic testing (SCN5A)"
     ],
     "acceptable_tests": [
       "Cardiac MRI",
-      "Holter/event monitor",
+      "EKG/ECG",
       "Electrophysiology study",
       "Ajmaline/procainamide provocation test (if ECG non-diagnostic)",
       "Toxicology screen",
-      "TSH",
-      "CBC"
+      "TSH/Free T4",
+      "CBC with differential"
     ],
     "low_yield_tests": [
-      "Stress test",
+      "Cardiac stress test",
       "Coronary angiography",
-      "CT chest",
-      "EEG (unless seizure strongly suspected)",
+      "CT chest (w/ or w/o contrast)",
+      "Electroencephalogram (EEG)",
       "D-dimer"
     ],
     "key_tests_rationale": "ECG is the cornerstone of diagnosis showing the Type 1 Brugada pattern. Echo and MRI exclude structural heart disease. Electrolytes rule out metabolic causes. Genetic testing confirms the diagnosis and enables family screening."

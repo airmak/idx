@@ -107,27 +107,27 @@
       }
     ],
     "key_tests": [
-      "Sputum AFB smear (x3, collected 8 hours apart)",
+      "Sputum culture",
       "Sputum GeneXpert MTB/RIF (rapid molecular test)",
-      "Chest X-ray",
-      "HIV testing",
+      "CXR (PA/Lateral)",
+      "HIV Ag/Ab",
       "Sputum mycobacterial culture (gold standard, takes weeks)"
     ],
     "acceptable_tests": [
       "CBC with differential",
       "ESR/CRP",
-      "QuantiFERON-TB Gold or tuberculin skin test",
+      "Quantiferon-TB Gold",
       "Hepatic panel (baseline before treatment)",
       "BMP",
-      "Albumin",
-      "Blood cultures for mycobacteria"
+      "CMP",
+      "Blood cultures x2"
     ],
     "low_yield_tests": [
-      "CT chest (unless CXR inconclusive)",
+      "CT chest (w/ or w/o contrast)",
       "D-dimer",
       "Procalcitonin",
-      "BNP",
-      "PFTs"
+      "BNP/NT-proBNP",
+      "Pulmonary function tests (PFTs)"
     ]
   },
   "stage5": {

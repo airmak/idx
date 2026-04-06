@@ -101,19 +101,17 @@
       }
     ],
     "key_tests": [
-      "Fasting glucose",
+      "BMP",
       "HbA1c",
-      "Basic metabolic panel",
-      "Urine albumin-to-creatinine ratio",
-      "Fasting lipid panel"
+      "CMP"
     ],
     "acceptable_tests": [
       "Urinalysis",
-      "Hepatic function panel",
-      "CBC",
-      "TSH",
+      "LFTs",
+      "CBC with differential",
+      "TSH/Free T4",
       "Diabetic retinal exam",
-      "ECG",
+      "EKG/ECG",
       "Foot exam with monofilament testing"
     ],
     "low_yield_tests": [
@@ -121,7 +119,7 @@
       "Islet cell antibodies (no concern for T1DM)",
       "Serum insulin level",
       "Oral glucose tolerance test (diagnosis already established)",
-      "CT abdomen"
+      "CT abdomen/pelvis (w/ or w/o contrast)"
     ]
   },
   "stage5": {

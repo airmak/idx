@@ -101,21 +101,21 @@
       }
     ],
     "key_tests": [
-      "CBC with peripheral smear",
+      "CBC with differential",
       "Bone marrow aspirate and biopsy with flow cytometry",
       "Cytogenetics and FISH panel",
-      "LDH and uric acid (tumor lysis screening)",
-      "Chest X-ray (to evaluate for mediastinal mass)"
+      "Uric acid",
+      "CXR (PA/Lateral)"
     ],
     "acceptable_tests": [
-      "Coagulation studies (PT/PTT/fibrinogen)",
-      "BMP with calcium and phosphorus",
+      "Coagulation panel (PT/INR/PTT)",
+      "Phosphorus",
       "Reticulocyte count",
       "Blood type and screen",
-      "CRP and blood cultures (febrile)"
+      "Blood cultures x2"
     ],
     "low_yield_tests": [
-      "ANA or rheumatoid factor (delays diagnosis if pursued instead of CBC)",
+      "RF",
       "Bone X-rays (lucencies may be seen but are nonspecific)",
       "Abdominal CT (hepatosplenomegaly already detected on exam)",
       "Throat culture"

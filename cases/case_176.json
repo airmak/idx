@@ -109,8 +109,8 @@
     ],
     "acceptable_tests": [
       "LFTs",
-      "CBC",
-      "PT/INR",
+      "CBC with differential",
+      "Coagulation panel (PT/INR/PTT)",
       "BMP",
       "Hepatic venography",
       "Factor V Leiden",
@@ -120,7 +120,7 @@
       "Liver biopsy"
     ],
     "low_yield_tests": [
-      "Upper endoscopy (unless variceal screening)",
+      "Upper endoscopy (EGD)",
       "MRCP",
       "Colonoscopy",
       "AFP",

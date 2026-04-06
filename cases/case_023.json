@@ -95,19 +95,19 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Transthoracic echocardiogram",
+      "EKG/ECG",
+      "Echocardiogram (transthoracic)",
       "Cardiac MRI with gadolinium",
       "Holter monitor (48-72 hours)",
-      "Troponin"
+      "Troponin I/T (serial)"
     ],
     "acceptable_tests": [
-      "BNP",
-      "Basic metabolic panel",
-      "CBC",
-      "Exercise stress echocardiogram (provoke gradient)",
+      "BNP/NT-proBNP",
+      "BMP",
+      "CBC with differential",
+      "Echocardiogram (transthoracic)",
       "Urine drug screen",
-      "TSH",
+      "TSH/Free T4",
       "Genetic testing for HCM-causing mutations"
     ],
     "low_yield_tests": [
@@ -115,7 +115,7 @@
       "CT coronary angiography",
       "Electrophysiology study (not first-line for risk stratification in HCM)",
       "Head CT (syncope clearly exertional and cardiac)",
-      "EEG"
+      "Electroencephalogram (EEG)"
     ]
   },
   "stage5": {

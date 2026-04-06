@@ -108,26 +108,26 @@
     ],
     "key_tests": [
       "CBC with differential",
-      "Type and crossmatch",
-      "Basic metabolic panel (BUN/creatinine)",
-      "Coagulation studies (INR, PT, PTT)",
-      "EGD (esophagogastroduodenoscopy)"
+      "Blood type and screen",
+      "BMP",
+      "Coagulation panel (PT/INR/PTT)",
+      "Upper endoscopy (EGD)"
     ],
     "acceptable_tests": [
       "Lactate",
-      "Liver function panel",
+      "LFTs",
       "H. pylori testing (stool antigen or biopsy)",
-      "Chest X-ray (upright to rule out perforation)",
-      "Lipase (if pancreatitis considered)",
+      "CXR (PA/Lateral)",
+      "Lipase",
       "Reticulocyte count",
-      "Blood cultures (if infection suspected)"
+      "Blood cultures x2"
     ],
     "low_yield_tests": [
-      "CT abdomen (no indication for imaging before endoscopy in typical UGIB)",
-      "Colonoscopy (melena with hematemesis clearly points to upper source)",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "Colonoscopy",
       "D-dimer",
       "Barium swallow (contraindicated in acute bleed)",
-      "Abdominal ultrasound"
+      "Ultrasound abdomen"
     ]
   },
   "stage5": {

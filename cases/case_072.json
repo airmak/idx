@@ -113,28 +113,28 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Basic metabolic panel",
-      "Troponin",
-      "TSH",
-      "Transthoracic echocardiogram"
+      "EKG/ECG",
+      "BMP",
+      "Troponin I/T (serial)",
+      "TSH/Free T4",
+      "Echocardiogram (transthoracic)"
     ],
     "acceptable_tests": [
-      "CBC",
-      "BNP",
+      "CBC with differential",
+      "BNP/NT-proBNP",
       "Digoxin level",
-      "Lyme antibody",
+      "RPR/VDRL",
       "Magnesium",
-      "Calcium",
-      "Chest X-ray",
+      "CMP",
+      "CXR (PA/Lateral)",
       "Continuous telemetry"
     ],
     "low_yield_tests": [
-      "CT head",
-      "EEG",
+      "CT head (w/ or w/o contrast)",
+      "Electroencephalogram (EEG)",
       "Cardiac catheterization",
-      "Stress test",
-      "Pulmonary function tests"
+      "Cardiac stress test",
+      "Pulmonary function tests (PFTs)"
     ],
     "key_tests_rationale": "ECG is diagnostic, showing AV dissociation. BMP identifies electrolyte abnormalities that can cause heart block. Troponin rules out acute MI. TSH screens for hypothyroidism. Echo assesses cardiac structure and function."
   },

@@ -97,26 +97,26 @@
     "key_tests": [
       "AFP",
       "Triphasic CT or MRI with contrast (LI-RADS)",
-      "LFTs with albumin",
-      "PT/INR",
-      "CBC"
+      "CMP",
+      "Coagulation panel (PT/INR/PTT)",
+      "CBC with differential"
     ],
     "acceptable_tests": [
       "AFP-L3%",
       "DCP (PIVKA-II)",
       "CMP",
       "HCV viral load",
-      "Diagnostic paracentesis",
-      "Chest CT (staging)",
-      "Bone scan (if symptoms)",
-      "Liver biopsy (only if imaging indeterminate)"
+      "Paracentesis",
+      "CT chest (w/ or w/o contrast)",
+      "Bone scan",
+      "Liver biopsy"
     ],
     "low_yield_tests": [
       "Colonoscopy",
       "MRCP",
-      "CA 19-9 (more relevant for cholangiocarcinoma)",
+      "CA 19-9",
       "CEA",
-      "Upper endoscopy (unless variceal screening needed)"
+      "Upper endoscopy (EGD)"
     ],
     "key_tests_rationale": "AFP >400 ng/mL is highly suggestive of HCC. Triphasic CT or contrast-enhanced MRI showing arterial hyperenhancement with washout (LI-RADS 5) is diagnostic for HCC in cirrhotic patients without the need for biopsy. LFTs, albumin, and INR determine Child-Pugh class for treatment allocation. CBC identifies cytopenias from portal hypertension."
   },

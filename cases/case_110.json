@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "8,400/uL", "flag": "WNL", "clinical_significance": "Normal; no leukocytosis"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "137 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Potassium", "result": "4.2 mEq/L", "flag": "WNL", "clinical_significance": "Normal; hypokalemic paralysis excluded"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "CK (Creatine kinase)", "result": "120 U/L", "flag": "WNL", "clinical_significance": "Normal; myopathy/rhabdomyolysis less likely"},
-      {"test_name": "CSF — Protein", "result": "118 mg/dL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated CSF protein with normal cell count = albuminocytologic dissociation, the hallmark CSF finding in GBS"},
-      {"test_name": "CSF — Cell count", "result": "3 WBCs/uL, 0 RBCs", "flag": "WNL", "clinical_significance": "Normal cell count; >50 WBCs should prompt reconsideration of GBS diagnosis (consider HIV, Lyme, CMV polyradiculopathy, carcinomatous meningitis)"},
-      {"test_name": "CSF — Glucose", "result": "64 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Anti-ganglioside antibodies (GM1)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Anti-GM1 antibodies are associated with AIDP and AMAN variants of GBS, often following Campylobacter infection"},
-      {"test_name": "Campylobacter jejuni stool PCR", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Confirms recent Campylobacter infection as the likely antecedent trigger for GBS via molecular mimicry"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "8,400/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no leukocytosis"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "137 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "4.2 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypokalemic paralysis excluded"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "CK (Creatine kinase)",
+        "result": "120 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal; myopathy/rhabdomyolysis less likely"
+      },
+      {
+        "test_name": "CSF — Protein",
+        "result": "118 mg/dL (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CSF protein with normal cell count = albuminocytologic dissociation, the hallmark CSF finding in GBS"
+      },
+      {
+        "test_name": "CSF — Cell count",
+        "result": "3 WBCs/uL, 0 RBCs",
+        "flag": "WNL",
+        "clinical_significance": "Normal cell count; >50 WBCs should prompt reconsideration of GBS diagnosis (consider HIV, Lyme, CMV polyradiculopathy, carcinomatous meningitis)"
+      },
+      {
+        "test_name": "CSF — Glucose",
+        "result": "64 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Anti-ganglioside antibodies (GM1)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Anti-GM1 antibodies are associated with AIDP and AMAN variants of GBS, often following Campylobacter infection"
+      },
+      {
+        "test_name": "Campylobacter jejuni stool PCR",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms recent Campylobacter infection as the likely antecedent trigger for GBS via molecular mimicry"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI spine with contrast (lumbosacral)", "result": "Enhancement and thickening of the cauda equina nerve roots on post-gadolinium T1-weighted images. No cord compression or mass.", "flag": "ABNORMAL", "clinical_significance": "Nerve root enhancement reflects breakdown of the blood-nerve barrier and active inflammation, consistent with GBS. Helps exclude compressive myelopathy."}
+      {
+        "test_name": "MRI spine with contrast (lumbosacral)",
+        "result": "Enhancement and thickening of the cauda equina nerve roots on post-gadolinium T1-weighted images. No cord compression or mass.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Nerve root enhancement reflects breakdown of the blood-nerve barrier and active inflammation, consistent with GBS. Helps exclude compressive myelopathy."
+      }
     ],
-    "key_tests": ["Lumbar puncture (CSF showing albuminocytologic dissociation)", "Nerve conduction studies / Electromyography (NCS/EMG)", "Serial respiratory monitoring (NIF and FVC every 4-6 hours)", "Detailed neurological exam including cranial nerves and respiratory function"],
-    "acceptable_tests": ["CBC", "BMP with potassium, calcium, magnesium", "CK level", "Anti-ganglioside antibodies (GM1, GQ1b, GD1a)", "MRI spine with contrast", "Stool culture or PCR for Campylobacter", "HIV test", "Lyme serology"],
-    "low_yield_tests": ["EEG", "CT head", "Serum protein electrophoresis", "ANA", "Muscle biopsy"],
+    "key_tests": [
+      "CMP",
+      "Nerve conduction study (NCS/EMG)",
+      "Serial respiratory monitoring (NIF and FVC every 4-6 hours)",
+      "Detailed neurological exam including cranial nerves and respiratory function"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "Magnesium",
+      "CK/CK-MB",
+      "Anti-ganglioside antibodies (GM1, GQ1b, GD1a)",
+      "MRI spine (lumbar)",
+      "Stool culture or PCR for Campylobacter",
+      "HIV Ag/Ab",
+      "RPR/VDRL"
+    ],
+    "low_yield_tests": [
+      "Electroencephalogram (EEG)",
+      "CT head (w/ or w/o contrast)",
+      "Serum protein electrophoresis (SPEP)",
+      "ANA",
+      "Muscle biopsy"
+    ],
     "low_yield_tests_note": "EEG and CT head are not relevant for peripheral nervous system pathology."
   },
   "stage5": {
@@ -67,9 +147,29 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Guillain-Barré syndrome", "Transverse myelitis", "Myasthenia gravis", "Hypokalemic periodic paralysis", "Acute inflammatory myopathy (polymyositis)", "Botulism", "Tick paralysis", "Chronic inflammatory demyelinating polyneuropathy (CIDP)"],
-    "after_stage2_more_likely": ["Guillain-Barré syndrome", "Transverse myelitis"],
-    "after_stage2_less_likely": ["Hypokalemic periodic paralysis", "Myasthenia gravis", "Botulism"],
-    "after_labs_top3": ["Guillain-Barré syndrome", "Chronic inflammatory demyelinating polyneuropathy", "Transverse myelitis"]
+    "reasonable_ddx": [
+      "Guillain-Barré syndrome",
+      "Transverse myelitis",
+      "Myasthenia gravis",
+      "Hypokalemic periodic paralysis",
+      "Acute inflammatory myopathy (polymyositis)",
+      "Botulism",
+      "Tick paralysis",
+      "Chronic inflammatory demyelinating polyneuropathy (CIDP)"
+    ],
+    "after_stage2_more_likely": [
+      "Guillain-Barré syndrome",
+      "Transverse myelitis"
+    ],
+    "after_stage2_less_likely": [
+      "Hypokalemic periodic paralysis",
+      "Myasthenia gravis",
+      "Botulism"
+    ],
+    "after_labs_top3": [
+      "Guillain-Barré syndrome",
+      "Chronic inflammatory demyelinating polyneuropathy",
+      "Transverse myelitis"
+    ]
   }
 }

@@ -90,23 +90,23 @@
     ],
     "key_tests": [
       "Clinical diagnosis (no routine testing needed in uncomplicated cases)",
-      "Chest X-ray (if pneumonia suspected)",
-      "Pulse oximetry"
+      "CXR (PA/Lateral)",
+      "ABG"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "CRP",
-      "Procalcitonin (to guide antibiotic stewardship)",
+      "Procalcitonin",
       "Influenza rapid test (during flu season)",
-      "Respiratory viral panel",
+      "Influenza Ag",
       "BMP"
     ],
     "low_yield_tests": [
-      "Sputum culture (viral etiology; not indicated)",
-      "CT chest",
-      "Blood cultures",
+      "Sputum culture",
+      "CT chest (w/ or w/o contrast)",
+      "Blood cultures x2",
       "ABG",
-      "PFTs (during acute illness)",
+      "Pulmonary function tests (PFTs)",
       "D-dimer"
     ]
   },

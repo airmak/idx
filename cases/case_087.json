@@ -101,26 +101,26 @@
       }
     ],
     "key_tests": [
-      "Chest X-ray (upright PA)",
-      "Pulse oximetry",
+      "CXR (PA/Lateral)",
+      "ABG",
       "ABG or VBG",
-      "ECG"
+      "EKG/ECG"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "BMP",
-      "Troponin",
+      "Troponin I/T (serial)",
       "D-dimer",
-      "CT chest (if X-ray equivocal or for sizing)",
+      "CT chest (w/ or w/o contrast)",
       "Lactate",
-      "Coagulation studies"
+      "Coagulation panel (PT/INR/PTT)"
     ],
     "low_yield_tests": [
       "Sputum culture",
       "Bronchoscopy",
-      "Echocardiogram",
-      "PFTs",
-      "BNP"
+      "Echocardiogram (transthoracic)",
+      "Pulmonary function tests (PFTs)",
+      "BNP/NT-proBNP"
     ]
   },
   "stage5": {

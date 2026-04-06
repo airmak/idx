@@ -107,27 +107,26 @@
       }
     ],
     "key_tests": [
-      "Chest X-ray",
-      "CT chest",
-      "ACE level",
-      "Serum calcium",
+      "CXR (PA/Lateral)",
+      "CT chest (w/ or w/o contrast)",
+      "CRP",
+      "CMP",
       "Tissue biopsy (transbronchial or lymph node) with histopathology"
     ],
     "acceptable_tests": [
       "CBC with differential",
-      "Basic metabolic panel",
-      "Liver function panel",
-      "QuantiFERON-TB Gold or PPD",
-      "Pulmonary function tests",
-      "1,25-dihydroxyvitamin D",
-      "24-hour urine calcium",
+      "BMP",
+      "LFTs",
+      "Quantiferon-TB Gold",
+      "Pulmonary function tests (PFTs)",
+      "CMP",
       "Ophthalmologic exam"
     ],
     "low_yield_tests": [
-      "Sputum culture for bacteria",
-      "ANA (low yield without other autoimmune features)",
-      "Serum procalcitonin",
-      "CT head (no neurologic symptoms beyond eye findings)",
+      "Sputum culture",
+      "ANA",
+      "Procalcitonin",
+      "CT head (w/ or w/o contrast)",
       "Bronchial provocation testing"
     ]
   },

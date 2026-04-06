@@ -107,24 +107,23 @@
       }
     ],
     "key_tests": [
-      "Serum creatinine with eGFR calculation",
-      "Urine albumin:creatinine ratio (UACR)",
-      "Basic metabolic panel",
-      "Renal ultrasound"
+      "BMP",
+      "CMP",
+      "Ultrasound renal/bladder"
     ],
     "acceptable_tests": [
-      "Complete blood count",
+      "CBC with differential",
       "HbA1c",
-      "Serum phosphorus and calcium",
-      "Intact PTH level",
-      "25-hydroxyvitamin D level",
-      "Lipid panel",
-      "Serum iron studies",
+      "Phosphorus",
+      "PTH",
+      "BMP",
+      "CMP",
+      "Ferritin/Iron studies",
       "Urinalysis"
     ],
     "low_yield_tests": [
-      "Renal biopsy (diagnosis clear from clinical context of longstanding DM/HTN with retinopathy)",
-      "CT abdomen with contrast (risk of contrast-induced nephropathy)",
+      "Renal biopsy",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
       "ANA/ANCA panel (no features of glomerulonephritis)",
       "Renal artery Doppler (no clinical suspicion for RAS)"
     ]

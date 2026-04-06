@@ -114,26 +114,26 @@
     ],
     "key_tests": [
       "Cardiac MRI",
-      "12-lead ECG",
-      "Transthoracic echocardiogram",
+      "EKG/ECG",
+      "Echocardiogram (transthoracic)",
       "Genetic testing (desmosomal genes)",
-      "Troponin"
+      "Troponin I/T (serial)"
     ],
     "acceptable_tests": [
-      "Basic metabolic panel",
-      "Holter/event monitor",
+      "BMP",
+      "EKG/ECG",
       "Signal-averaged ECG",
       "Electrophysiology study",
-      "CBC",
-      "CK",
+      "CBC with differential",
+      "CK/CK-MB",
       "Toxicology screen"
     ],
     "low_yield_tests": [
       "Coronary angiography",
-      "CT chest",
-      "Stress test",
-      "BNP",
-      "Pulmonary function tests",
+      "CT chest (w/ or w/o contrast)",
+      "Cardiac stress test",
+      "BNP/NT-proBNP",
+      "Pulmonary function tests (PFTs)",
       "ANA"
     ],
     "key_tests_rationale": "Cardiac MRI is the gold standard for detecting RV structural abnormalities and fibrofatty replacement. ECG shows characteristic epsilon waves and T-wave inversions. Echo provides initial assessment. Genetic testing confirms desmosomal mutation and enables family screening."

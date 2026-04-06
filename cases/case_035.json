@@ -113,27 +113,26 @@
       }
     ],
     "key_tests": [
-      "Point-of-care glucose",
-      "BMP (sodium, calcium, magnesium)",
-      "CT head without contrast",
-      "Arterial blood gas",
+      "BMP",
+      "CT head (w/ or w/o contrast)",
+      "ABG",
       "Antiepileptic drug levels"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "CK/Myoglobin (rhabdomyolysis screen)",
       "Lactate",
       "Urine drug screen",
-      "Hepatic function panel",
-      "Chest X-ray",
+      "LFTs",
+      "CXR (PA/Lateral)",
       "Continuous EEG monitoring"
     ],
     "low_yield_tests": [
-      "MRI brain (during acute seizure)",
+      "MRI brain (w/ or w/o contrast)",
       "Lumbar puncture (unless meningitis suspected)",
-      "Thyroid function tests",
-      "Ammonia level (unless hepatic disease suspected)",
-      "CT angiography"
+      "TSH/Free T4",
+      "Ammonia",
+      "CT angiography (pulmonary)"
     ]
   },
   "stage5": {

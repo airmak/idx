@@ -119,24 +119,24 @@
       }
     ],
     "key_tests": [
-      "Basic metabolic panel (creatinine, electrolytes)",
-      "Troponin",
+      "BMP",
+      "Troponin I/T (serial)",
       "Urinalysis",
-      "12-lead ECG",
-      "CT head"
+      "EKG/ECG",
+      "CT head (w/ or w/o contrast)"
     ],
     "acceptable_tests": [
-      "CBC with peripheral smear",
-      "BNP",
-      "Chest X-ray",
+      "CBC with differential",
+      "BNP/NT-proBNP",
+      "CXR (PA/Lateral)",
       "LDH",
       "Fundoscopic exam",
-      "Urine protein-to-creatinine ratio",
-      "Renal ultrasound"
+      "Urine protein/creatinine ratio",
+      "Ultrasound renal/bladder"
     ],
     "low_yield_tests": [
       "Cardiac catheterization",
-      "Lumbar puncture",
+      "Lumbar puncture (CSF analysis)",
       "Serum cortisol",
       "Toxicology screen",
       "Cardiac MRI"

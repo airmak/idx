@@ -120,27 +120,27 @@
     ],
     "key_tests": [
       "Cardiac MRI (gold standard non-invasive test)",
-      "Troponin (serial)",
-      "Transthoracic echocardiogram",
-      "12-lead ECG",
+      "Troponin I/T (serial)",
+      "Echocardiogram (transthoracic)",
+      "EKG/ECG",
       "CRP/ESR"
     ],
     "acceptable_tests": [
-      "BNP",
-      "CBC",
-      "Basic metabolic panel",
-      "Viral serologies",
+      "BNP/NT-proBNP",
+      "CBC with differential",
+      "BMP",
+      "Hepatitis panel",
       "ANA",
-      "HIV",
-      "TSH",
+      "HIV Ag/Ab",
+      "TSH/Free T4",
       "Endomyocardial biopsy (gold standard but invasive)",
       "Coronary angiography (to exclude ACS)"
     ],
     "low_yield_tests": [
-      "Stress test",
+      "Cardiac stress test",
       "CT coronary angiography (low pre-test probability)",
       "Cardiac catheterization (unless ruling out ACS)",
-      "Pulmonary function tests"
+      "Pulmonary function tests (PFTs)"
     ],
     "key_tests_rationale": "Cardiac MRI with Lake Louise criteria is the non-invasive gold standard for myocarditis diagnosis. Serial troponin tracks myocardial necrosis. Echo assesses ventricular function. ECG identifies arrhythmias and ST changes. CRP monitors inflammation."
   },

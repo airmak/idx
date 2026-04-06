@@ -71,23 +71,23 @@
       }
     ],
     "key_tests": [
-      "Chest X-ray (if pneumonia is being considered)",
-      "Pulse oximetry",
+      "CXR (PA/Lateral)",
+      "ABG",
       "Influenza test (during flu season)"
     ],
     "acceptable_tests": [
-      "CBC",
-      "CRP or procalcitonin",
+      "CBC with differential",
+      "Procalcitonin",
       "COVID-19 test",
       "Strep rapid test",
       "Pertussis PCR (if cough >2 weeks with paroxysms)"
     ],
     "low_yield_tests": [
-      "Sputum culture (not useful in acute bronchitis)",
-      "CT chest (excessive for typical bronchitis)",
-      "Blood cultures (patient is not systemically ill)",
+      "Sputum culture",
+      "CT chest (w/ or w/o contrast)",
+      "Blood cultures x2",
       "Pulmonary function tests (not indicated acutely)",
-      "ABG (normal oxygen saturation)"
+      "ABG"
     ]
   },
   "stage5": {

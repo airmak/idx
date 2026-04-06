@@ -25,26 +25,115 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "9,100/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.2 g/dL", "flag": "WNL", "clinical_significance": "Normal; polycythemia excluded"},
-      {"test_name": "CBC — Platelets", "result": "268,000/uL", "flag": "WNL", "clinical_significance": "Normal; thrombocytosis excluded"},
-      {"test_name": "PT/INR", "result": "11.8 sec / INR 1.0", "flag": "WNL", "clinical_significance": "Normal baseline coagulation; establishes pre-anticoagulation baseline"},
-      {"test_name": "D-dimer", "result": "2.8 ug/mL (elevated)", "flag": "HIGH", "clinical_significance": "Elevated D-dimer supports active thrombosis. However, a normal D-dimer does not exclude CVST (sensitivity ~94% but not 100%)."},
-      {"test_name": "BMP — Creatinine", "result": "0.7 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function"},
-      {"test_name": "Pregnancy test (beta-hCG)", "result": "Negative", "flag": "WNL", "clinical_significance": "Pregnancy excluded (important as pregnancy/puerperium is a major risk factor for CVST, and pregnancy status affects anticoagulation management)"},
-      {"test_name": "Factor V Leiden mutation", "result": "Heterozygous positive", "flag": "ABNORMAL", "clinical_significance": "Factor V Leiden (activated protein C resistance) is the most common inherited thrombophilia. Combined with OCP use, it significantly increases CVST risk (synergistic effect — 30-50x increased risk)."},
-      {"test_name": "Protein C activity", "result": "68% (low-normal; interpret with caution during acute thrombosis)", "flag": "BORDERLINE", "clinical_significance": "Borderline low; may be consumed during acute thrombosis. Repeat testing recommended 3 months after acute event, off anticoagulation."},
-      {"test_name": "Antithrombin III", "result": "92%", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Antiphospholipid antibodies (lupus anticoagulant, anticardiolipin, beta-2-GP1)", "result": "Negative", "flag": "WNL", "clinical_significance": "Antiphospholipid syndrome excluded"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,100/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.2 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; polycythemia excluded"
+      },
+      {
+        "test_name": "CBC — Platelets",
+        "result": "268,000/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; thrombocytosis excluded"
+      },
+      {
+        "test_name": "PT/INR",
+        "result": "11.8 sec / INR 1.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal baseline coagulation; establishes pre-anticoagulation baseline"
+      },
+      {
+        "test_name": "D-dimer",
+        "result": "2.8 ug/mL (elevated)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated D-dimer supports active thrombosis. However, a normal D-dimer does not exclude CVST (sensitivity ~94% but not 100%)."
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.7 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function"
+      },
+      {
+        "test_name": "Pregnancy test (beta-hCG)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Pregnancy excluded (important as pregnancy/puerperium is a major risk factor for CVST, and pregnancy status affects anticoagulation management)"
+      },
+      {
+        "test_name": "Factor V Leiden mutation",
+        "result": "Heterozygous positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Factor V Leiden (activated protein C resistance) is the most common inherited thrombophilia. Combined with OCP use, it significantly increases CVST risk (synergistic effect — 30-50x increased risk)."
+      },
+      {
+        "test_name": "Protein C activity",
+        "result": "68% (low-normal; interpret with caution during acute thrombosis)",
+        "flag": "BORDERLINE",
+        "clinical_significance": "Borderline low; may be consumed during acute thrombosis. Repeat testing recommended 3 months after acute event, off anticoagulation."
+      },
+      {
+        "test_name": "Antithrombin III",
+        "result": "92%",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Antiphospholipid antibodies (lupus anticoagulant, anticardiolipin, beta-2-GP1)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Antiphospholipid syndrome excluded"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT head without contrast", "result": "Hyperdense superior sagittal sinus (dense triangle sign). Subtle left parasagittal cortical hypodensity suggesting venous infarction with small petechial hemorrhage. Mild cerebral edema.", "flag": "ABNORMAL", "clinical_significance": "The dense triangle sign (hyperdense thrombus in the SSS on non-contrast CT) is a classic but insensitive finding (~25% sensitivity). The cortical hemorrhagic venous infarct is a complication of CVST."},
-      {"test_name": "CT venography (CTV)", "result": "Filling defect in the superior sagittal sinus extending into the right transverse sinus — consistent with dural venous sinus thrombosis. The 'empty delta sign' is present (contrast enhancement around a central filling defect in the SSS on contrast CT). Left parasagittal venous infarction with petechial hemorrhage.", "flag": "ABNORMAL", "clinical_significance": "CTV confirms extensive superior sagittal sinus thrombosis with extension into the right transverse sinus. The 'empty delta sign' on contrast-enhanced CT is the classic imaging finding. CTV has >95% sensitivity for CVST."},
-      {"test_name": "MRI/MRV brain", "result": "MRI: Left parasagittal venous infarction with hemorrhagic transformation. MRV: Absent flow in the superior sagittal sinus and right transverse sinus, confirming thrombosis. Collateral cortical venous drainage present.", "flag": "ABNORMAL", "clinical_significance": "MRV confirms the extent of venous thrombosis. MRI better characterizes the venous infarct and hemorrhagic component. MRV is the gold standard non-invasive test for CVST."}
+      {
+        "test_name": "CT head without contrast",
+        "result": "Hyperdense superior sagittal sinus (dense triangle sign). Subtle left parasagittal cortical hypodensity suggesting venous infarction with small petechial hemorrhage. Mild cerebral edema.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The dense triangle sign (hyperdense thrombus in the SSS on non-contrast CT) is a classic but insensitive finding (~25% sensitivity). The cortical hemorrhagic venous infarct is a complication of CVST."
+      },
+      {
+        "test_name": "CT venography (CTV)",
+        "result": "Filling defect in the superior sagittal sinus extending into the right transverse sinus — consistent with dural venous sinus thrombosis. The 'empty delta sign' is present (contrast enhancement around a central filling defect in the SSS on contrast CT). Left parasagittal venous infarction with petechial hemorrhage.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CTV confirms extensive superior sagittal sinus thrombosis with extension into the right transverse sinus. The 'empty delta sign' on contrast-enhanced CT is the classic imaging finding. CTV has >95% sensitivity for CVST."
+      },
+      {
+        "test_name": "MRI/MRV brain",
+        "result": "MRI: Left parasagittal venous infarction with hemorrhagic transformation. MRV: Absent flow in the superior sagittal sinus and right transverse sinus, confirming thrombosis. Collateral cortical venous drainage present.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRV confirms the extent of venous thrombosis. MRI better characterizes the venous infarct and hemorrhagic component. MRV is the gold standard non-invasive test for CVST."
+      }
     ],
-    "key_tests": ["CT venography (CTV) or MR venography (MRV) — definitive imaging", "CT head without contrast (initial screening, low sensitivity for CVST itself)", "D-dimer (if negative, reduces probability but does not exclude)", "Fundoscopy (for papilledema)", "Thrombophilia workup (after acute phase)"],
-    "acceptable_tests": ["CBC with differential", "BMP", "PT/INR, aPTT", "Pregnancy test", "D-dimer", "Thrombophilia panel (Factor V Leiden, Prothrombin G20210A, Protein C, Protein S, Antithrombin III, antiphospholipid antibodies)", "Lumbar puncture with opening pressure (after imaging rules out herniation risk)"],
-    "low_yield_tests": ["Carotid ultrasound", "EEG (unless seizure management needed)", "Cerebral angiography (rarely needed — CTV/MRV sufficient)", "ESR/CRP (nonspecific)"],
+    "key_tests": [
+      "CT venography (CTV) or MR venography (MRV) — definitive imaging",
+      "CT head (w/ or w/o contrast)",
+      "D-dimer",
+      "Fundoscopy (for papilledema)",
+      "Thrombophilia workup (after acute phase)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BMP",
+      "Coagulation panel (PT/INR/PTT)",
+      "Beta-hCG (serum)",
+      "D-dimer",
+      "Thrombophilia panel (Factor V Leiden, Prothrombin G20210A, Protein C, Protein S, Antithrombin III, antiphospholipid antibodies)",
+      "Lumbar puncture with opening pressure (after imaging rules out herniation risk)"
+    ],
+    "low_yield_tests": [
+      "Ultrasound carotid Doppler",
+      "Electroencephalogram (EEG)",
+      "Cerebral angiography (rarely needed — CTV/MRV sufficient)",
+      "ESR/CRP (nonspecific)"
+    ],
     "low_yield_tests_note": "Thrombophilia testing during the acute phase may be unreliable (protein C/S consumed, heparin affects antithrombin) — defer definitive testing to 3 months post-event off anticoagulation."
   },
   "stage5": {
@@ -69,9 +158,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension", "Meningitis", "Subarachnoid hemorrhage", "Brain tumor", "Migraine with complications", "Arterial ischemic stroke", "Cerebral abscess"],
-    "after_stage2_more_likely": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension"],
-    "after_stage2_less_likely": ["Meningitis", "Subarachnoid hemorrhage"],
-    "after_labs_top3": ["Cerebral venous sinus thrombosis", "Idiopathic intracranial hypertension", "Brain tumor"]
+    "reasonable_ddx": [
+      "Cerebral venous sinus thrombosis",
+      "Idiopathic intracranial hypertension",
+      "Meningitis",
+      "Subarachnoid hemorrhage",
+      "Brain tumor",
+      "Migraine with complications",
+      "Arterial ischemic stroke",
+      "Cerebral abscess"
+    ],
+    "after_stage2_more_likely": [
+      "Cerebral venous sinus thrombosis",
+      "Idiopathic intracranial hypertension"
+    ],
+    "after_stage2_less_likely": [
+      "Meningitis",
+      "Subarachnoid hemorrhage"
+    ],
+    "after_labs_top3": [
+      "Cerebral venous sinus thrombosis",
+      "Idiopathic intracranial hypertension",
+      "Brain tumor"
+    ]
   }
 }

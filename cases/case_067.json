@@ -107,25 +107,25 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Troponin",
-      "TSH",
-      "Basic metabolic panel",
-      "Transthoracic echocardiogram"
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "TSH/Free T4",
+      "BMP",
+      "Echocardiogram (transthoracic)"
     ],
     "acceptable_tests": [
-      "BNP",
-      "CBC",
-      "Magnesium level",
+      "BNP/NT-proBNP",
+      "CBC with differential",
+      "Magnesium",
       "D-dimer",
-      "Chest X-ray",
-      "Free T4",
-      "Liver function tests"
+      "CXR (PA/Lateral)",
+      "TSH/Free T4",
+      "LFTs"
     ],
     "low_yield_tests": [
       "Cardiac MRI",
-      "CT chest without contrast",
-      "Pulmonary function tests",
+      "CT chest (w/ or w/o contrast)",
+      "Pulmonary function tests (PFTs)",
       "Serum cortisol",
       "ANA"
     ],

@@ -95,27 +95,27 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Transthoracic echocardiogram",
-      "TSH",
-      "Basic metabolic panel including magnesium",
-      "CBC"
+      "EKG/ECG",
+      "Echocardiogram (transthoracic)",
+      "TSH/Free T4",
+      "Magnesium",
+      "CBC with differential"
     ],
     "acceptable_tests": [
-      "BNP or NT-proBNP",
-      "Troponin",
-      "Chest X-ray",
-      "Hepatic function panel",
-      "PT/INR",
+      "BNP/NT-proBNP",
+      "Troponin I/T (serial)",
+      "CXR (PA/Lateral)",
+      "LFTs",
+      "Coagulation panel (PT/INR/PTT)",
       "HbA1c",
-      "Lipid panel",
-      "Sleep study"
+      "CMP",
+      "Polysomnography (sleep study)"
     ],
     "low_yield_tests": [
-      "CT chest",
+      "CT chest (w/ or w/o contrast)",
       "Cardiac catheterization (no ischemic symptoms)",
       "D-dimer",
-      "Blood cultures",
+      "Blood cultures x2",
       "Serum cortisol"
     ]
   },

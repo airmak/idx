@@ -113,25 +113,25 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Troponin I (serial)",
-      "CK-MB",
-      "Bedside echocardiogram",
-      "Chest X-ray"
+      "EKG/ECG",
+      "Troponin I/T (serial)",
+      "CK/CK-MB",
+      "Echocardiogram (transthoracic)",
+      "CXR (PA/Lateral)"
     ],
     "acceptable_tests": [
       "BNP/NT-proBNP",
-      "CBC",
+      "CBC with differential",
       "BMP",
-      "Coagulation studies (PT/INR, PTT)",
-      "Lipid panel",
-      "Magnesium level",
-      "Type and screen"
+      "Coagulation panel (PT/INR/PTT)",
+      "CMP",
+      "Magnesium",
+      "Blood type and screen"
     ],
     "low_yield_tests": [
-      "CT chest without contrast",
+      "CT chest (w/ or w/o contrast)",
       "D-dimer",
-      "Liver function tests",
+      "LFTs",
       "Urinalysis",
       "ESR/CRP"
     ]

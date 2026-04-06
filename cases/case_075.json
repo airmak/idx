@@ -119,25 +119,25 @@
       }
     ],
     "key_tests": [
-      "Transthoracic echocardiogram (STAT)",
-      "12-lead ECG",
-      "Basic metabolic panel",
-      "Troponin",
-      "CBC"
+      "Echocardiogram (transthoracic)",
+      "EKG/ECG",
+      "BMP",
+      "Troponin I/T (serial)",
+      "CBC with differential"
     ],
     "acceptable_tests": [
-      "Chest X-ray",
+      "CXR (PA/Lateral)",
       "Lactate",
-      "BNP",
-      "INR/PTT",
-      "Blood cultures",
+      "BNP/NT-proBNP",
+      "Coagulation panel (PT/INR/PTT)",
+      "Blood cultures x2",
       "Pericardial fluid cytology (after drainage)",
-      "CT chest"
+      "CT chest (w/ or w/o contrast)"
     ],
     "low_yield_tests": [
-      "Stress test",
+      "Cardiac stress test",
       "Cardiac catheterization (delays definitive treatment)",
-      "Pulmonary function tests",
+      "Pulmonary function tests (PFTs)",
       "Cardiac MRI (unstable patient)"
     ],
     "key_tests_rationale": "Echo is the gold standard for diagnosing tamponade and guiding pericardiocentesis. ECG may show low voltage and electrical alternans. BMP assesses renal function. Troponin rules out MI. CBC evaluates for infection and chemotherapy effects."

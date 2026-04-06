@@ -102,23 +102,22 @@
     ],
     "key_tests": [
       "Bedside ultrasound (lung sliding assessment)",
-      "Chest X-ray (after stabilization)",
-      "Arterial blood gas"
+      "CXR (PA/Lateral)",
+      "ABG"
     ],
     "acceptable_tests": [
-      "CBC",
+      "CBC with differential",
       "BMP",
       "Lactate",
-      "Troponin",
-      "ECG",
-      "Point-of-care glucose"
+      "Troponin I/T (serial)",
+      "EKG/ECG"
     ],
     "low_yield_tests": [
-      "CT chest (delays treatment in unstable patient)",
+      "CT chest (w/ or w/o contrast)",
       "D-dimer",
-      "BNP",
+      "BNP/NT-proBNP",
       "Sputum culture",
-      "Pulmonary function tests"
+      "Pulmonary function tests (PFTs)"
     ]
   },
   "stage5": {

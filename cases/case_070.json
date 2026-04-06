@@ -113,27 +113,27 @@
       }
     ],
     "key_tests": [
-      "12-lead ECG",
-      "Exercise stress test",
-      "Troponin",
-      "Lipid panel",
-      "Fasting glucose/HbA1c"
+      "EKG/ECG",
+      "Cardiac stress test",
+      "Troponin I/T (serial)",
+      "CMP",
+      "BMP"
     ],
     "acceptable_tests": [
-      "BNP",
-      "CBC",
-      "Basic metabolic panel",
-      "TSH",
-      "Chest X-ray",
-      "Coronary CT angiography",
-      "Stress echocardiogram",
-      "Nuclear stress test"
+      "BNP/NT-proBNP",
+      "CBC with differential",
+      "BMP",
+      "TSH/Free T4",
+      "CXR (PA/Lateral)",
+      "CT angiography (pulmonary)",
+      "Echocardiogram (transthoracic)",
+      "Cardiac stress test"
     ],
     "low_yield_tests": [
       "D-dimer",
       "CRP",
       "Cardiac MRI",
-      "Pulmonary function tests",
+      "Pulmonary function tests (PFTs)",
       "Serum cortisol"
     ],
     "key_tests_rationale": "ECG identifies baseline abnormalities. Stress testing provokes and documents ischemia. Troponin rules out acute injury. Lipid panel and HbA1c quantify cardiovascular risk factors requiring optimization."
