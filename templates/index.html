@@ -2378,7 +2378,6 @@ async function revealResults(results) {
       <div class="result-info">
         <div class="result-test-name">${esc(r.test_name)}</div>
         <div class="result-value">${esc(r.result)}</div>
-        ${r.clinical_significance ? `<div class="result-significance">${esc(r.clinical_significance)}</div>` : ''}
       </div>`;
     list.appendChild(div);
   }
