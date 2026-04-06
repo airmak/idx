@@ -2,7 +2,7 @@
   "case_id": "case_169",
   "mode": "easy",
   "specialty": "Gastroenterology",
-  "diagnosis": "Acute Pancreatitis (Alcohol-Induced)",
+  "diagnosis": "Pancreatitis (acute)",
   "icd_category": "K85.2 — Alcohol-induced acute pancreatitis",
   "one_liner": "A 42-year-old male with heavy alcohol use presents with sudden-onset severe epigastric pain radiating to the back after a binge drinking episode.",
   "stage2": {
@@ -53,7 +53,7 @@
         "test_name": "LFTs",
         "result": "AST 85, ALT 62, ALP 120, Total bilirubin 1.8",
         "flag": "HIGH",
-        "clinical_significance": "Mildly elevated transaminases from alcohol use; mild bilirubin elevation but ALT <150 makes gallstone etiology unlikely"
+        "clinical_significance": "Mildly elevated transaminases from alcohol use;"
       },
       {
         "test_name": "Triglycerides",

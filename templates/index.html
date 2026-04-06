@@ -567,7 +567,25 @@ a { color: var(--teal); text-decoration: none; }
 .tab-btn.active { color: var(--teal); border-bottom-color: var(--teal); }
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
-.test-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.test-subcat-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 0 4px;
+  margin-top: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+}
+.test-subcat-header::before { content: '▾'; font-size: 0.65rem; transition: transform 0.2s; }
+.test-subcat-header.collapsed::before { transform: rotate(-90deg); }
+.test-subcat-header:first-child { margin-top: 0; }
+.test-grid.collapsed { display: none !important; }
+.test-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
 .test-option {
   padding: 6px 12px;
   background: var(--bg3);
@@ -1357,25 +1375,8 @@ a { color: var(--teal); text-decoration: none; }
       <div class="card-title"><span class="icon">🧪</span> Order Your Workup</div>
       <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:14px">Select 2–5 tests to order.</p>
 
-      <div class="tabs">
-        <button class="tab-btn active" onclick="showTab('basic')">Basic Labs</button>
-        <button class="tab-btn" onclick="showTab('specialized')">Specialized Labs</button>
-        <button class="tab-btn" onclick="showTab('imaging')">Imaging</button>
-        <button class="tab-btn" onclick="showTab('procedures')">Procedures</button>
-      </div>
-
-      <div class="tab-panel active" id="tab-basic">
-        <div class="test-grid" id="tests-basic"></div>
-      </div>
-      <div class="tab-panel" id="tab-specialized">
-        <div class="test-grid" id="tests-specialized"></div>
-      </div>
-      <div class="tab-panel" id="tab-imaging">
-        <div class="test-grid" id="tests-imaging"></div>
-      </div>
-      <div class="tab-panel" id="tab-procedures">
-        <div class="test-grid" id="tests-procedures"></div>
-      </div>
+      <div class="tabs" id="workup-tabs"></div>
+      <div id="workup-panels"></div>
 
       <div style="margin-top:16px">
         <div class="ddx-counter">Ordered: <span id="tests-count">0</span> / 5 tests</div>
@@ -1535,36 +1536,42 @@ const state = {
 };
 
 // Test catalogs
-const BASIC_LABS = [
-  'CBC with differential','BMP','CMP','LFTs','Lipase','Amylase',
-  'Coagulation panel (PT/INR/PTT)','Blood cultures x2','UA with microscopy',
-  'Urine culture','ABG','Lactate','D-dimer','BNP/NT-proBNP',
-  'Troponin I/T (serial)','Beta-hCG'
-];
-const SPECIALIZED_LABS = [
-  'TSH/Free T4','HbA1c','ESR','CRP','ANA','RF','Anti-dsDNA','ANCA',
-  'Ferritin/Iron studies','B12/Folate','LDH','Uric acid','PSA','CEA',
-  'CA-125','AFP','Blood smear','Peripheral flow cytometry','HIV Ag/Ab',
-  'RPR/VDRL','Hepatitis panel','Monospot','Throat culture','Strep Ag',
-  'Influenza Ag','COVID Ag','Clostridium difficile toxin','Stool ova & parasites'
-];
-const IMAGING = [
-  'CXR (PA/Lateral)','CT chest (w/ or w/o contrast)','CT abdomen/pelvis (w/ or w/o contrast)',
-  'CT head (w/ or w/o contrast)','CT angiography (pulmonary/coronary/aortic)',
-  'MRI brain (w/ or w/o contrast)','MRI spine','MRI abdomen',
-  'Ultrasound abdomen/pelvis','Ultrasound thyroid',
-  'Echocardiogram (transthoracic/transesophageal)','EKG/ECG',
-  'Cardiac stress test','PET scan','Bone scan','V/Q scan',
-  'DEXA scan','Mammogram','Skeletal survey','KUB'
-];
-const PROCEDURES = [
-  'Lumbar puncture (CSF analysis)','Thoracentesis','Paracentesis',
-  'Skin biopsy','Bone marrow biopsy','Colonoscopy','Upper endoscopy',
-  'Bronchoscopy','Urodynamics','Arthrocentesis','Pap smear',
-  'Endometrial biopsy','Pulmonary function tests (PFTs)',
-  'Skin prick/patch testing','Electroencephalogram (EEG)',
-  'Nerve conduction study (NCS/EMG)'
-];
+// Subcategorized test catalogs
+const TEST_CATALOG = {
+  'Basic Labs': {
+    'Blood Counts': ['CBC with differential','Blood smear','Reticulocyte count','Peripheral flow cytometry'],
+    'Metabolic Panels': ['BMP','CMP','LFTs','Magnesium','Phosphorus'],
+    'Cardiac Markers': ['Troponin I/T (serial)','BNP/NT-proBNP','CK/CK-MB'],
+    'Coagulation': ['Coagulation panel (PT/INR/PTT)','D-dimer','Fibrinogen','Mixing study'],
+    'Blood Gas & Metabolic': ['ABG','VBG','Lactate','Ammonia'],
+    'Urinalysis': ['UA with microscopy','Urine culture','Urine drug screen','Urine protein/creatinine ratio','Beta-hCG (urine)'],
+    'Other Basic': ['Lipase','Amylase','LDH','Uric acid','Beta-hCG (serum)','Blood type and screen'],
+  },
+  'Specialized Labs': {
+    'Endocrine': ['TSH/Free T4','Free T3','HbA1c','Cortisol (AM)','ACTH','Aldosterone/Renin ratio','PTH','IGF-1','Insulin/C-peptide','24h urine cortisol','Catecholamines/Metanephrines'],
+    'Inflammatory Markers': ['ESR','CRP','Procalcitonin','Ferritin/Iron studies'],
+    'Autoimmune': ['ANA','RF','Anti-dsDNA','ANCA','Anti-CCP','Complement (C3/C4)','Anti-Smith','Anti-SSA/SSB','Anti-Jo-1','Anti-TPO','Anti-tTG IgA'],
+    'Tumor Markers': ['PSA','CEA','CA-125','AFP','CA 19-9','Chromogranin A','5-HIAA (24h urine)'],
+    'Hematology': ['B12/Folate','Haptoglobin','Direct Coombs test','Indirect Coombs test','Serum protein electrophoresis (SPEP)','Serum free light chains'],
+    'Infectious': ['HIV Ag/Ab','RPR/VDRL','Hepatitis panel','Monospot','Throat culture','Strep Ag','Influenza Ag','COVID Ag','Clostridium difficile toxin','Stool ova & parasites','Blood cultures x2','Sputum culture','Wound culture','Malaria smear (thick/thin)','Galactomannan','Beta-D-glucan','Quantiferon-TB Gold'],
+    'Toxicology': ['Serum ethanol','Serum osmolality','Salicylate level','Acetaminophen level','Lithium level','Digoxin level','Drug levels/toxicology panel'],
+  },
+  'Imaging': {
+    'X-Rays': ['CXR (PA/Lateral)','KUB (abdomen)','X-ray cervical spine','X-ray thoracic spine','X-ray lumbar spine','X-ray pelvis','X-ray extremity (specify)','Skeletal survey'],
+    'CT Scans': ['CT head (w/ or w/o contrast)','CT chest (w/ or w/o contrast)','CT abdomen/pelvis (w/ or w/o contrast)','CT neck (w/ contrast)','CT angiography (pulmonary)','CT angiography (coronary)','CT angiography (aortic)','CT angiography (cerebral)','CT sinus','CT spine (specify level)'],
+    'MRI': ['MRI brain (w/ or w/o contrast)','MRI spine (cervical)','MRI spine (thoracic)','MRI spine (lumbar)','MRI abdomen','MRI pelvis','MRI extremity/joint','MRCP','MRA (cerebral)','MRI cardiac'],
+    'Ultrasound': ['Ultrasound abdomen','Ultrasound pelvis (transvaginal)','Ultrasound renal/bladder','Ultrasound thyroid','Ultrasound lower extremity venous Doppler','Ultrasound carotid Doppler','Ultrasound soft tissue','FAST exam','Echocardiogram (transthoracic)','Echocardiogram (transesophageal)','Obstetric ultrasound'],
+    'Nuclear & Other': ['EKG/ECG','Cardiac stress test','PET scan','Bone scan','V/Q scan','DEXA scan','Mammogram','HIDA scan','Thyroid uptake scan'],
+  },
+  'Procedures': {
+    'Fluid Sampling': ['Lumbar puncture (CSF analysis)','Thoracentesis','Paracentesis','Arthrocentesis','Pericardiocentesis'],
+    'Biopsies': ['Skin biopsy','Bone marrow biopsy','Liver biopsy','Renal biopsy','Lymph node biopsy','Endometrial biopsy','Temporal artery biopsy'],
+    'Endoscopy': ['Upper endoscopy (EGD)','Colonoscopy','Bronchoscopy','Cystoscopy','ERCP','Capsule endoscopy'],
+    'Neurophysiology': ['Electroencephalogram (EEG)','Nerve conduction study (NCS/EMG)','Evoked potentials'],
+    'Pulmonary': ['Pulmonary function tests (PFTs)','Methacholine challenge','Polysomnography (sleep study)'],
+    'Other Procedures': ['Pap smear','Skin prick/patch testing','Urodynamics','Tilt table test','Audiometry'],
+  }
+};
 
 // =====================================================
 // INIT
@@ -2214,33 +2221,58 @@ async function proceedToStage3() {
 // STAGE 3
 // =====================================================
 function populateTestPanels() {
-  populateTestGrid('tests-basic', BASIC_LABS);
-  populateTestGrid('tests-specialized', SPECIALIZED_LABS);
-  populateTestGrid('tests-imaging', IMAGING);
-  populateTestGrid('tests-procedures', PROCEDURES);
-}
-
-function populateTestGrid(containerId, tests) {
-  const el = document.getElementById(containerId);
-  if (!el) return;
-  el.innerHTML = '';
-  tests.forEach(test => {
+  const tabsEl = document.getElementById('workup-tabs');
+  const panelsEl = document.getElementById('workup-panels');
+  if (!tabsEl || !panelsEl) return;
+  tabsEl.innerHTML = '';
+  panelsEl.innerHTML = '';
+  const categories = Object.keys(TEST_CATALOG);
+  categories.forEach((cat, idx) => {
+    const tabId = 'wk-' + cat.toLowerCase().replace(/\s+/g,'-');
+    // Tab button
     const btn = document.createElement('button');
-    btn.className = 'test-option';
-    btn.textContent = test;
-    btn.onclick = () => toggleTest(test, btn);
-    btn.dataset.test = test;
-    el.appendChild(btn);
+    btn.className = 'tab-btn' + (idx === 0 ? ' active' : '');
+    btn.textContent = cat;
+    btn.onclick = () => showTab(tabId);
+    btn.dataset.tab = tabId;
+    tabsEl.appendChild(btn);
+    // Panel
+    const panel = document.createElement('div');
+    panel.className = 'tab-panel' + (idx === 0 ? ' active' : '');
+    panel.id = 'tab-' + tabId;
+    const subcats = TEST_CATALOG[cat];
+    for (const [subName, tests] of Object.entries(subcats)) {
+      const subHeader = document.createElement('div');
+      subHeader.className = 'test-subcat-header';
+      subHeader.textContent = subName;
+      subHeader.onclick = () => {
+        const grid = subHeader.nextElementSibling;
+        grid.classList.toggle('collapsed');
+        subHeader.classList.toggle('collapsed');
+      };
+      panel.appendChild(subHeader);
+      const grid = document.createElement('div');
+      grid.className = 'test-grid';
+      tests.forEach(test => {
+        const b = document.createElement('button');
+        b.className = 'test-option';
+        b.textContent = test;
+        b.onclick = () => toggleTest(test, b);
+        b.dataset.test = test;
+        grid.appendChild(b);
+      });
+      panel.appendChild(grid);
+    }
+    panelsEl.appendChild(panel);
   });
 }
 
-function showTab(tabName) {
-  document.querySelectorAll('.tab-btn').forEach((b,i) => {
-    const tabs = ['basic','specialized','imaging','procedures'];
-    b.classList.toggle('active', tabs[i] === tabName);
+function showTab(tabId) {
+  document.querySelectorAll('#workup-tabs .tab-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.tab === tabId);
   });
-  document.querySelectorAll('.tab-panel').forEach(p => {
-    p.classList.toggle('active', p.id === `tab-${tabName}`);
+  document.querySelectorAll('#workup-panels .tab-panel').forEach(p => {
+    p.classList.toggle('active', p.id === 'tab-' + tabId);
   });
 }
 
@@ -2258,6 +2290,10 @@ function showStage3() {
   document.getElementById('tests-count').textContent = '0';
   document.getElementById('submit-tests-btn').disabled = true;
   document.getElementById('results-card').style.display = 'none';
+
+  // Show first tab
+  const firstTab = document.querySelector('#workup-tabs .tab-btn');
+  if (firstTab) showTab(firstTab.dataset.tab);
 }
 
 function toggleTest(test, btn) {

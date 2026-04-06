@@ -2,7 +2,7 @@
   "case_id": "case_066",
   "mode": "easy",
   "specialty": "Cardiology",
-  "diagnosis": "Congestive Heart Failure with Reduced Ejection Fraction (HFrEF)",
+  "diagnosis": "Heart failure (systolic)",
   "icd_category": "I50.2 — Systolic (congestive) heart failure",
   "one_liner": "A 62-year-old male with a history of hypertension and prior MI presents with progressive dyspnea on exertion and bilateral lower extremity edema.",
   "stage2": {
@@ -65,7 +65,7 @@
         "test_name": "Hemoglobin",
         "result": "12.8 g/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out anemia as contributor"
+        "clinical_significance": ""
       },
       {
         "test_name": "ALT",
@@ -83,7 +83,7 @@
         "test_name": "TSH",
         "result": "2.1 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out thyroid disease as cause"
+        "clinical_significance": ""
       },
       {
         "test_name": "HbA1c",

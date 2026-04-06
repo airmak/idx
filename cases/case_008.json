@@ -2,7 +2,7 @@
   "case_id": "case_008",
   "mode": "attending",
   "specialty": "Neurology",
-  "diagnosis": "Myasthenia gravis (anti-MuSK antibody positive, seronegative for AChR)",
+  "diagnosis": "Myasthenia gravis",
   "icd_category": "G70.01 – Myasthenia gravis with (acute) exacerbation",
   "one_liner": "A 28-year-old woman presents with 8 weeks of intermittent binocular diplopia and right eyelid drooping that worsens as the day progresses, along with difficulty swallowing solid foods.",
   "stage2": {
@@ -35,13 +35,13 @@
         "test_name": "BMP",
         "result": "Na 138 mEq/L, K 3.9 mEq/L, Cl 104 mEq/L, HCO3 25 mEq/L, BUN 12 mg/dL, Cr 0.7 mg/dL, Glucose 88 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal metabolic panel; rules out metabolic derangements contributing to fatigue; normal creatinine is baseline before potential nephrotoxic therapy"
+        "clinical_significance": "Normal metabolic panel; normal creatinine is baseline before potential nephrotoxic therapy"
       },
       {
         "test_name": "TSH/Free T4",
         "result": "TSH 1.8 mIU/L (WNL); Free T4 1.0 ng/dL (WNL)",
         "flag": "WNL",
-        "clinical_significance": "Normal thyroid function rules out Graves ophthalmopathy (thyroid eye disease) as the cause of diplopia and ptosis; thyroid eye disease causes proptosis, not ptosis, but can cause restrictive myopathy mimicking diplopia; also screens for autoimmune thyroid disease comorbidity"
+        "clinical_significance": "thyroid eye disease causes proptosis, not ptosis, but can cause restrictive myopathy mimicking diplopia; also screens for autoimmune thyroid disease comorbidity"
       },
       {
         "test_name": "ANA",
@@ -65,7 +65,7 @@
         "test_name": "LDH",
         "result": "182 U/L (WNL)",
         "flag": "WNL",
-        "clinical_significance": "Normal LDH argues against significant muscle necrosis (inflammatory myopathy), hemolysis, or lymphoma; CK would be normal in MG as well (NMJ disorder, not muscle destruction)"
+        "clinical_significance": "CK would be normal in MG as well (NMJ disorder, not muscle destruction)"
       }
     ],
     "imaging_results": [
@@ -85,7 +85,7 @@
         "test_name": "Nerve conduction study (NCS/EMG)",
         "result": "Repetitive nerve stimulation (RNS) at 3 Hz — trapezius and nasalis muscles: decremental response of 12% in trapezius and 18% in nasalis (both >10% — ABNORMAL); Single-fiber EMG (SFEMG): increased jitter (mean consecutive difference 62 microseconds, normal <55 microseconds) in the extensor digitorum communis; no spontaneous activity; no fibrillation potentials; motor nerve conduction velocities and amplitudes normal; sensory nerve conduction normal",
         "flag": "ABNORMAL",
-        "clinical_significance": "A >10% decremental response on repetitive nerve stimulation at 3 Hz confirms a neuromuscular junction (NMJ) transmission defect — the electrophysiologic hallmark of this condition. Single-fiber EMG showing increased jitter is the most sensitive test for MG (95% sensitivity). The normal sensory and motor conduction velocities rule out peripheral neuropathy and Lambert-Eaton (LEMS — which would show facilitation/increment on RNS, not decrement)."
+        "clinical_significance": "A >10% decremental response on repetitive nerve stimulation at 3 Hz confirms a neuromuscular junction (NMJ) transmission defect — the electrophysiologic hallmark of this condition. Single-fiber EMG showing increased jitter is the most sensitive test for MG (95% sensitivity)."
       }
     ],
     "key_tests": [

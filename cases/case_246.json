@@ -2,7 +2,7 @@
   "case_id": "case_246",
   "mode": "easy",
   "specialty": "Family Medicine",
-  "diagnosis": "Major depressive disorder, single episode, moderate",
+  "diagnosis": "Major depressive disorder",
   "icd_category": "F32.1 — Major depressive disorder, single episode, moderate",
   "one_liner": "A 38-year-old man presents with 6 weeks of persistent low mood, insomnia, loss of interest in hobbies, fatigue, and difficulty concentrating at work following a job layoff.",
   "stage2": {
@@ -29,13 +29,13 @@
         "test_name": "CBC with differential",
         "result": "WBC 6.8, Hgb 15.0, Hct 44.8, Plt 248",
         "flag": "WNL",
-        "clinical_significance": "Normal; rules out anemia contributing to fatigue"
+        "clinical_significance": "Normal;"
       },
       {
         "test_name": "TSH",
         "result": "2.4 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Normal thyroid function; rules out hypothyroidism as cause of depressive symptoms"
+        "clinical_significance": "Normal thyroid function;"
       },
       {
         "test_name": "CMP (Comprehensive Metabolic Panel)",
@@ -47,7 +47,7 @@
         "test_name": "Vitamin B12",
         "result": "520 pg/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal B12; rules out deficiency causing fatigue and mood symptoms"
+        "clinical_significance": "Normal B12;"
       },
       {
         "test_name": "Folate",
@@ -65,13 +65,13 @@
         "test_name": "Testosterone (total, AM)",
         "result": "485 ng/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal testosterone; rules out hypogonadism as cause of fatigue and low mood in a male patient"
+        "clinical_significance": "Normal testosterone;"
       },
       {
         "test_name": "HbA1c",
         "result": "5.1%",
         "flag": "WNL",
-        "clinical_significance": "Normal; rules out diabetes contributing to fatigue"
+        "clinical_significance": "Normal;"
       }
     ],
     "imaging_results": [

@@ -2,7 +2,7 @@
   "case_id": "case_047",
   "mode": "easy",
   "specialty": "Surgery",
-  "diagnosis": "Acute Cholecystitis",
+  "diagnosis": "Cholecystitis",
   "icd_category": "K81.0 — Acute cholecystitis",
   "one_liner": "A 44-year-old obese female presents with right upper quadrant pain, fever, and nausea 30 minutes after eating a fatty meal.",
   "stage2": {
@@ -65,13 +65,13 @@
         "test_name": "Alkaline Phosphatase",
         "result": "118 U/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, argues against biliary obstruction"
+        "clinical_significance": ""
       },
       {
         "test_name": "Lipase",
         "result": "38 U/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, excludes gallstone pancreatitis"
+        "clinical_significance": "Normal."
       },
       {
         "test_name": "BMP - Creatinine",
@@ -91,7 +91,7 @@
         "test_name": "Right Upper Quadrant Ultrasound",
         "result": "Multiple gallstones, largest 1.8 cm. Gallbladder wall thickening (5.2 mm, normal <3 mm). Pericholecystic fluid present. Sonographic Murphy sign positive. Common bile duct measures 4 mm (normal). No intrahepatic biliary dilation.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Gallstones with wall thickening, pericholecystic fluid, and sonographic Murphy sign are diagnostic of the suspected condition. Normal CBD argues against choledocholithiasis."
+        "clinical_significance": "Gallstones with wall thickening, pericholecystic fluid, and sonographic Murphy sign are diagnostic of the suspected condition."
       },
       {
         "test_name": "HIDA Scan (hepatobiliary iminodiacetic acid scan)",

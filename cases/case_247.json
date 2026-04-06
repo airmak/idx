@@ -2,7 +2,7 @@
   "case_id": "case_247",
   "mode": "easy",
   "specialty": "Family Medicine",
-  "diagnosis": "Iron deficiency anemia (menstrual blood loss)",
+  "diagnosis": "Iron deficiency anemia",
   "icd_category": "D50.0 — Iron deficiency anemia secondary to blood loss (chronic)",
   "one_liner": "A 29-year-old woman presents with 3 months of progressive fatigue, exercise intolerance, and pallor, with a history of heavy menstrual periods lasting 7-8 days.",
   "stage2": {
@@ -77,13 +77,13 @@
         "test_name": "TSH",
         "result": "1.9 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Normal thyroid function; rules out hypothyroidism as contributing cause of fatigue"
+        "clinical_significance": "Normal thyroid function;"
       },
       {
         "test_name": "Pregnancy test (urine hCG)",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out pregnancy as cause of anemia or consideration before treatment"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [

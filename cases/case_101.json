@@ -2,7 +2,7 @@
   "case_id": "case_101",
   "mode": "attending",
   "specialty": "Pulmonology",
-  "diagnosis": "Pulmonary sarcoidosis",
+  "diagnosis": "Sarcoidosis",
   "icd_category": "D86.0 — Sarcoidosis of lung",
   "one_liner": "A 30-year-old African American woman presents with a persistent dry cough, bilateral hilar lymphadenopathy on chest X-ray, and a painful rash on her shins.",
   "stage2": {
@@ -25,26 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "ACE (angiotensin-converting enzyme)", "result": "98 U/L", "flag": "HIGH", "clinical_significance": "Elevated ACE level — produced by granuloma macrophages; ~60% sensitive for sarcoidosis but not specific (also elevated in other granulomatous diseases)"},
-      {"test_name": "Calcium (serum)", "result": "11.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hypercalcemia — granulomatous macrophages express 1-alpha-hydroxylase, producing excess 1,25-dihydroxyvitamin D leading to increased intestinal calcium absorption"},
-      {"test_name": "1,25-dihydroxyvitamin D (calcitriol)", "result": "82 pg/mL", "flag": "HIGH", "clinical_significance": "Elevated calcitriol from extrarenal production by granuloma macrophages — characteristic of granulomatous disease"},
-      {"test_name": "25-hydroxyvitamin D", "result": "22 ng/mL", "flag": "WNL", "clinical_significance": "Normal substrate level; the elevated calcitriol is from granuloma conversion, not dietary excess"},
-      {"test_name": "CBC — WBC", "result": "5,200/uL", "flag": "WNL", "clinical_significance": "Low-normal; lymphopenia can be seen in sarcoidosis from T-cell sequestration in granulomas"},
-      {"test_name": "CBC — Lymphocyte count", "result": "900/uL", "flag": "LOW", "clinical_significance": "Peripheral lymphopenia — T cells are recruited to granulomas, depleting the peripheral pool"},
-      {"test_name": "ESR", "result": "42 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; active granulomatous inflammation"},
-      {"test_name": "Hepatic panel — ALP", "result": "168 U/L", "flag": "HIGH", "clinical_significance": "Elevated alkaline phosphatase suggests hepatic granulomatous involvement"},
-      {"test_name": "BMP — Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; monitor given hypercalcemia risk of nephrocalcinosis"},
-      {"test_name": "24-hour urine calcium", "result": "420 mg/24hr", "flag": "HIGH", "clinical_significance": "Hypercalciuria — increases risk of nephrolithiasis and nephrocalcinosis"},
-      {"test_name": "QuantiFERON-TB Gold", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative IGRA; important to exclude TB before diagnosing sarcoidosis (both cause granulomas)"},
-      {"test_name": "BAL CD4:CD8 ratio", "result": "6.2", "flag": "HIGH", "clinical_significance": "Elevated CD4:CD8 ratio (>3.5) on BAL is characteristic of sarcoidosis and supports the diagnosis"}
+      {
+        "test_name": "ACE (angiotensin-converting enzyme)",
+        "result": "98 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated ACE level — produced by granuloma macrophages; ~60% sensitive for sarcoidosis but not specific (also elevated in other granulomatous diseases)"
+      },
+      {
+        "test_name": "Calcium (serum)",
+        "result": "11.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalcemia — granulomatous macrophages express 1-alpha-hydroxylase, producing excess 1,25-dihydroxyvitamin D leading to increased intestinal calcium absorption"
+      },
+      {
+        "test_name": "1,25-dihydroxyvitamin D (calcitriol)",
+        "result": "82 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated calcitriol from extrarenal production by granuloma macrophages — characteristic of granulomatous disease"
+      },
+      {
+        "test_name": "25-hydroxyvitamin D",
+        "result": "22 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal substrate level; the elevated calcitriol is from granuloma conversion, not dietary excess"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "5,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Low-normal; lymphopenia can be seen in sarcoidosis from T-cell sequestration in granulomas"
+      },
+      {
+        "test_name": "CBC — Lymphocyte count",
+        "result": "900/uL",
+        "flag": "LOW",
+        "clinical_significance": "Peripheral lymphopenia — T cells are recruited to granulomas, depleting the peripheral pool"
+      },
+      {
+        "test_name": "ESR",
+        "result": "42 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; active granulomatous inflammation"
+      },
+      {
+        "test_name": "Hepatic panel — ALP",
+        "result": "168 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated alkaline phosphatase suggests hepatic granulomatous involvement"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; monitor given hypercalcemia risk of nephrocalcinosis"
+      },
+      {
+        "test_name": "24-hour urine calcium",
+        "result": "420 mg/24hr",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalciuria — increases risk of nephrolithiasis and nephrocalcinosis"
+      },
+      {
+        "test_name": "QuantiFERON-TB Gold",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative IGRA; important to exclude TB before diagnosing sarcoidosis (both cause granulomas)"
+      },
+      {
+        "test_name": "BAL CD4:CD8 ratio",
+        "result": "6.2",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated CD4:CD8 ratio (>3.5) on BAL is characteristic of sarcoidosis and supports the diagnosis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "Bilateral symmetric hilar lymphadenopathy with right paratracheal lymphadenopathy (1-2-3 sign / Garland triad). No parenchymal infiltrates. Stage II sarcoidosis.", "flag": "ABNORMAL", "clinical_significance": "Bilateral hilar lymphadenopathy (BHL) is the hallmark CXR finding of sarcoidosis. The 1-2-3 sign (right paratracheal + bilateral hilar) is classic. Radiographic staging: Stage I = BHL alone, Stage II = BHL + pulmonary infiltrates."},
-      {"test_name": "CT chest", "result": "Bilateral symmetric mediastinal and hilar lymphadenopathy. Scattered perilymphatic micronodules along bronchovascular bundles, interlobular septa, and subpleural regions. No masses or effusions.", "flag": "ABNORMAL", "clinical_significance": "Perilymphatic distribution of nodules (along bronchovascular bundles, septa, and subpleural) is characteristic of sarcoidosis and distinguishes it from random (metastatic) or centrilobular (infection/HP) distributions"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral symmetric hilar lymphadenopathy with right paratracheal lymphadenopathy (1-2-3 sign / Garland triad). No parenchymal infiltrates. Stage II sarcoidosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral hilar lymphadenopathy (BHL) is the hallmark CXR finding of sarcoidosis. The 1-2-3 sign (right paratracheal + bilateral hilar) is classic. Radiographic staging: Stage I = BHL alone, Stage II = BHL + pulmonary infiltrates."
+      },
+      {
+        "test_name": "CT chest",
+        "result": "Bilateral symmetric mediastinal and hilar lymphadenopathy. Scattered perilymphatic micronodules along bronchovascular bundles, interlobular septa, and subpleural regions. No masses or effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Perilymphatic distribution of nodules (along bronchovascular bundles, septa, and subpleural) is characteristic of sarcoidosis and distinguishes it from random (metastatic) or centrilobular (infection/HP) distributions"
+      }
     ],
-    "key_tests": ["Chest X-ray", "CT chest", "Tissue biopsy (lymph node, skin, or transbronchial) with histology", "ACE level", "Serum calcium and 1,25-dihydroxyvitamin D", "QuantiFERON-TB Gold or PPD (to exclude TB)"],
-    "acceptable_tests": ["CBC with differential", "BAL with CD4:CD8 ratio", "Hepatic panel", "ESR/CRP", "24-hour urine calcium", "PFTs", "Ophthalmologic exam (slit-lamp)", "BMP", "ECG"],
-    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture (for routine bacteria)", "Anti-GBM antibodies", "Procalcitonin"]
+    "key_tests": [
+      "Chest X-ray",
+      "CT chest",
+      "Tissue biopsy (lymph node, skin, or transbronchial) with histology",
+      "ACE level",
+      "Serum calcium and 1,25-dihydroxyvitamin D",
+      "QuantiFERON-TB Gold or PPD (to exclude TB)"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BAL with CD4:CD8 ratio",
+      "Hepatic panel",
+      "ESR/CRP",
+      "24-hour urine calcium",
+      "PFTs",
+      "Ophthalmologic exam (slit-lamp)",
+      "BMP",
+      "ECG"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "BNP",
+      "Sputum culture (for routine bacteria)",
+      "Anti-GBM antibodies",
+      "Procalcitonin"
+    ]
   },
   "stage5": {
     "final_clue": "Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of a mediastinal lymph node reveals well-formed non-caseating granulomas without evidence of acid-fast bacilli, fungi, or foreign material on special stains. The combination of non-caseating granulomas on biopsy, BHL on imaging, multisystem involvement (lungs, eyes, skin, liver), elevated ACE, and exclusion of TB and fungal infection confirms the diagnosis of sarcoidosis."
@@ -68,9 +161,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Sarcoidosis", "Lymphoma (mediastinal)", "Pulmonary tuberculosis", "Berylliosis", "Fungal infection (histoplasmosis/coccidioidomycosis)", "Hypersensitivity pneumonitis"],
-    "after_stage2_more_likely": ["Sarcoidosis", "Lymphoma"],
-    "after_stage2_less_likely": ["Pulmonary tuberculosis", "Berylliosis", "Hypersensitivity pneumonitis"],
-    "after_labs_top3": ["Sarcoidosis", "Lymphoma", "Fungal infection"]
+    "reasonable_ddx": [
+      "Sarcoidosis",
+      "Lymphoma (mediastinal)",
+      "Pulmonary tuberculosis",
+      "Berylliosis",
+      "Fungal infection (histoplasmosis/coccidioidomycosis)",
+      "Hypersensitivity pneumonitis"
+    ],
+    "after_stage2_more_likely": [
+      "Sarcoidosis",
+      "Lymphoma"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary tuberculosis",
+      "Berylliosis",
+      "Hypersensitivity pneumonitis"
+    ],
+    "after_labs_top3": [
+      "Sarcoidosis",
+      "Lymphoma",
+      "Fungal infection"
+    ]
   }
 }

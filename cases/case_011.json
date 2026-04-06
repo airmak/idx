@@ -2,7 +2,7 @@
   "case_id": "case_011",
   "mode": "easy",
   "specialty": "Internal Medicine",
-  "diagnosis": "Acute pancreatitis",
+  "diagnosis": "Pancreatitis (acute)",
   "icd_category": "K85 — Acute pancreatitis",
   "one_liner": "A 45-year-old male with a history of heavy alcohol use presents with severe epigastric pain radiating to the back for 12 hours.",
   "stage2": {
@@ -109,7 +109,7 @@
         "test_name": "Right upper quadrant ultrasound",
         "result": "No gallstones identified. Common bile duct measures 4 mm (normal). Liver shows mildly increased echogenicity.",
         "flag": "WNL",
-        "clinical_significance": "Rules out gallstone etiology; hepatic steatosis likely from alcohol use"
+        "clinical_significance": "hepatic steatosis likely from alcohol use"
       }
     ],
     "key_tests": [

@@ -2,7 +2,7 @@
   "case_id": "case_001",
   "mode": "easy",
   "specialty": "Internal Medicine",
-  "diagnosis": "Community-acquired pneumonia (Streptococcus pneumoniae)",
+  "diagnosis": "Community-acquired pneumonia",
   "icd_category": "J18.1 – Lobar pneumonia, unspecified organism",
   "one_liner": "A 67-year-old male with HTN and HLD presents with 3 days of productive cough with rust-colored sputum, high fever, and right-sided pleuritic chest pain.",
   "stage2": {
@@ -109,7 +109,7 @@
         "test_name": "CT chest (w/o contrast)",
         "result": "Lobar consolidation of the right lower lobe with prominent air bronchograms. No cavitation. No pleural effusion. No hilar or mediastinal lymphadenopathy. No pulmonary nodules or masses identified.",
         "flag": "ABNORMAL",
-        "clinical_significance": "CT confirms lobar consolidation without complications; absence of cavitation, effusion, or lymphadenopathy argues against TB, lung abscess, or malignancy."
+        "clinical_significance": "CT confirms lobar consolidation without complications;"
       },
       {
         "test_name": "Lateral decubitus CXR",

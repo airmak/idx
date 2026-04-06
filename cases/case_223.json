@@ -2,7 +2,7 @@
   "case_id": "case_223",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Bipolar I Disorder, current episode manic, severe",
+  "diagnosis": "Bipolar disorder",
   "icd_category": "F31.1 — Bipolar disorder, current episode manic without psychotic features",
   "one_liner": "A 26-year-old man with no significant psychiatric history presents with 1 week of decreased sleep, grandiosity, rapid speech, impulsive spending, and increased goal-directed activity.",
   "stage2": {
@@ -29,7 +29,7 @@
         "test_name": "Urine drug screen",
         "result": "Positive for THC, negative for amphetamines, cocaine, opioids, PCP, benzodiazepines",
         "flag": "ABNORMAL",
-        "clinical_significance": "THC positive likely from prior marijuana use; negative for stimulants rules out substance-induced mania"
+        "clinical_significance": "THC positive likely from prior marijuana use;"
       },
       {
         "test_name": "Blood alcohol level",
@@ -41,7 +41,7 @@
         "test_name": "TSH",
         "result": "2.3 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out hyperthyroidism as cause of manic symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "CBC",
@@ -59,19 +59,19 @@
         "test_name": "Serum cortisol (AM)",
         "result": "16.5 mcg/dL",
         "flag": "WNL",
-        "clinical_significance": "Rules out Cushing syndrome which can cause psychiatric symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "RPR",
         "result": "Non-reactive",
         "flag": "WNL",
-        "clinical_significance": "Rules out neurosyphilis"
+        "clinical_significance": ""
       },
       {
         "test_name": "HIV 1/2 Ag/Ab",
         "result": "Non-reactive",
         "flag": "WNL",
-        "clinical_significance": "Rules out HIV-related neuropsychiatric presentation"
+        "clinical_significance": ""
       },
       {
         "test_name": "BUN/Creatinine",
@@ -91,7 +91,7 @@
         "test_name": "CT Head without contrast",
         "result": "No acute intracranial abnormality. No mass, hemorrhage, or hydrocephalus.",
         "flag": "WNL",
-        "clinical_significance": "Rules out structural brain pathology as cause of acute behavioral change"
+        "clinical_significance": ""
       },
       {
         "test_name": "ECG",

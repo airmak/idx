@@ -2,7 +2,7 @@
   "case_id": "case_127",
   "mode": "easy",
   "specialty": "Nephrology",
-  "diagnosis": "Chronic Kidney Disease Stage 3",
+  "diagnosis": "Chronic kidney disease",
   "icd_category": "N18.3 — Chronic kidney disease, stage 3",
   "one_liner": "A 58-year-old woman with longstanding hypertension and type 2 diabetes presents for routine follow-up and is found to have an elevated creatinine and decreased GFR.",
   "stage2": {
@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Creatinine", "result": "1.8 mg/dL (prior 1.5 mg/dL one year ago)", "flag": "HIGH", "clinical_significance": "Elevated and rising; indicates progressive kidney disease"},
-      {"test_name": "eGFR (CKD-EPI)", "result": "38 mL/min/1.73m²", "flag": "LOW", "clinical_significance": "eGFR 30-44 defines CKD stage 3b; significant loss of kidney function"},
-      {"test_name": "Urine Albumin:Creatinine Ratio (UACR)", "result": "320 mg/g", "flag": "HIGH", "clinical_significance": "Moderately increased albuminuria (A2 category); indicates glomerular damage likely from diabetic nephropathy"},
-      {"test_name": "HbA1c", "result": "8.4%", "flag": "HIGH", "clinical_significance": "Suboptimal glycemic control contributing to progressive diabetic nephropathy"},
-      {"test_name": "Serum Potassium", "result": "5.1 mEq/L", "flag": "HIGH", "clinical_significance": "Mildly elevated; impaired renal potassium excretion in CKD"},
-      {"test_name": "Serum Bicarbonate", "result": "20 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis from reduced acid excretion in CKD"},
-      {"test_name": "Serum Phosphorus", "result": "4.8 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated phosphorus from reduced renal excretion; risk for CKD-mineral bone disease"},
-      {"test_name": "Serum Calcium", "result": "8.6 mg/dL", "flag": "LOW", "clinical_significance": "Mild hypocalcemia from decreased 1,25-dihydroxyvitamin D production by failing kidneys"},
-      {"test_name": "Hemoglobin", "result": "10.8 g/dL", "flag": "LOW", "clinical_significance": "Mild normocytic anemia of CKD from reduced erythropoietin production"},
-      {"test_name": "PTH (intact)", "result": "98 pg/mL", "flag": "HIGH", "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia in CKD"},
-      {"test_name": "Lipid Panel — LDL", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Suboptimally controlled hyperlipidemia; cardiovascular risk increased in CKD"},
-      {"test_name": "Vitamin D, 25-OH", "result": "18 ng/mL", "flag": "LOW", "clinical_significance": "Vitamin D deficiency, common in CKD; contributes to secondary hyperparathyroidism"}
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.8 mg/dL (prior 1.5 mg/dL one year ago)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated and rising; indicates progressive kidney disease"
+      },
+      {
+        "test_name": "eGFR (CKD-EPI)",
+        "result": "38 mL/min/1.73m²",
+        "flag": "LOW",
+        "clinical_significance": "eGFR 30-44 defines CKD stage 3b; significant loss of kidney function"
+      },
+      {
+        "test_name": "Urine Albumin:Creatinine Ratio (UACR)",
+        "result": "320 mg/g",
+        "flag": "HIGH",
+        "clinical_significance": "Moderately increased albuminuria (A2 category); indicates glomerular damage likely from diabetic nephropathy"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "8.4%",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimal glycemic control contributing to progressive diabetic nephropathy"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "5.1 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; impaired renal potassium excretion in CKD"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "20 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis from reduced acid excretion in CKD"
+      },
+      {
+        "test_name": "Serum Phosphorus",
+        "result": "4.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated phosphorus from reduced renal excretion; risk for CKD-mineral bone disease"
+      },
+      {
+        "test_name": "Serum Calcium",
+        "result": "8.6 mg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypocalcemia from decreased 1,25-dihydroxyvitamin D production by failing kidneys"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "10.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild normocytic anemia of CKD from reduced erythropoietin production"
+      },
+      {
+        "test_name": "PTH (intact)",
+        "result": "98 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Secondary hyperparathyroidism from hypocalcemia and hyperphosphatemia in CKD"
+      },
+      {
+        "test_name": "Lipid Panel — LDL",
+        "result": "142 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Suboptimally controlled hyperlipidemia; cardiovascular risk increased in CKD"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "18 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Vitamin D deficiency, common in CKD; contributes to secondary hyperparathyroidism"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Renal Ultrasound", "result": "Bilateral kidneys mildly reduced in size (right 9.8 cm, left 9.5 cm) with increased cortical echogenicity. No hydronephrosis, masses, or stones.", "flag": "ABNORMAL", "clinical_significance": "Small echogenic kidneys suggest chronic parenchymal disease; increased echogenicity correlates with fibrosis"}
+      {
+        "test_name": "Renal Ultrasound",
+        "result": "Bilateral kidneys mildly reduced in size (right 9.8 cm, left 9.5 cm) with increased cortical echogenicity. No hydronephrosis, masses, or stones.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small echogenic kidneys suggest chronic parenchymal disease; increased echogenicity correlates with fibrosis"
+      }
     ],
     "key_tests": [
       "Serum creatinine with eGFR calculation",

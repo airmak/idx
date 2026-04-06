@@ -2,7 +2,7 @@
   "case_id": "case_097",
   "mode": "attending",
   "specialty": "Pulmonology",
-  "diagnosis": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss syndrome)",
+  "diagnosis": "Eosinophilic granulomatosis with polyangiitis (EGPA / Churg-Strauss)",
   "icd_category": "M30.1 — Polyarteritis with lung involvement (Churg-Strauss)",
   "one_liner": "A 45-year-old woman with a history of severe asthma and chronic rhinosinusitis presents with new-onset numbness in her feet, palpable purpura, and peripheral blood eosinophilia.",
   "stage2": {
@@ -25,27 +25,124 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "16,800/uL", "flag": "HIGH", "clinical_significance": "Leukocytosis with marked eosinophilic predominance"},
-      {"test_name": "CBC — Eosinophil count (absolute)", "result": "8,400/uL (50%)", "flag": "HIGH", "clinical_significance": "Marked peripheral eosinophilia (>1,500 is significant; >10% is a diagnostic criterion for EGPA) — hallmark finding"},
-      {"test_name": "CBC — Hemoglobin", "result": "12.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ESR", "result": "82 mm/hr", "flag": "HIGH", "clinical_significance": "Markedly elevated; active systemic inflammation consistent with vasculitis"},
-      {"test_name": "CRP", "result": "6.4 mg/dL", "flag": "HIGH", "clinical_significance": "Significantly elevated; active inflammatory disease"},
-      {"test_name": "p-ANCA (MPO-ANCA)", "result": "Positive, MPO titer 68 U/mL", "flag": "ABNORMAL", "clinical_significance": "Positive MPO-ANCA (p-ANCA pattern) is found in ~40% of EGPA cases and correlates with vasculitic manifestations (neuropathy, purpura, glomerulonephritis)"},
-      {"test_name": "IgE (total)", "result": "680 IU/mL", "flag": "HIGH", "clinical_significance": "Elevated total IgE consistent with atopic/eosinophilic disease"},
-      {"test_name": "BMP — Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function currently; glomerulonephritis is a potential manifestation to monitor"},
-      {"test_name": "Urinalysis", "result": "Trace protein, 5-10 RBC/HPF, no casts", "flag": "ABNORMAL", "clinical_significance": "Microscopic hematuria and proteinuria may indicate early glomerular involvement"},
-      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; cardiac involvement (myocarditis, pericarditis) is the leading cause of death in EGPA — warrants echocardiogram"},
-      {"test_name": "BNP", "result": "220 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; may indicate subclinical myocardial involvement"},
-      {"test_name": "Skin biopsy (purpura)", "result": "Leukocytoclastic vasculitis with eosinophilic infiltration of small vessel walls. Extravascular granulomas present.", "flag": "ABNORMAL", "clinical_significance": "Histopathology confirms eosinophilic small-vessel vasculitis with granulomas — consistent with EGPA"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "16,800/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with marked eosinophilic predominance"
+      },
+      {
+        "test_name": "CBC — Eosinophil count (absolute)",
+        "result": "8,400/uL (50%)",
+        "flag": "HIGH",
+        "clinical_significance": "Marked peripheral eosinophilia (>1,500 is significant; >10% is a diagnostic criterion for EGPA) — hallmark finding"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "12.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ESR",
+        "result": "82 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated; active systemic inflammation consistent with vasculitis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "6.4 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Significantly elevated; active inflammatory disease"
+      },
+      {
+        "test_name": "p-ANCA (MPO-ANCA)",
+        "result": "Positive, MPO titer 68 U/mL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive MPO-ANCA (p-ANCA pattern) is found in ~40% of EGPA cases and correlates with vasculitic manifestations (neuropathy, purpura, glomerulonephritis)"
+      },
+      {
+        "test_name": "IgE (total)",
+        "result": "680 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated total IgE consistent with atopic/eosinophilic disease"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function currently; glomerulonephritis is a potential manifestation to monitor"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Trace protein, 5-10 RBC/HPF, no casts",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microscopic hematuria and proteinuria may indicate early glomerular involvement"
+      },
+      {
+        "test_name": "Troponin I",
+        "result": "0.08 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; cardiac involvement (myocarditis, pericarditis) is the leading cause of death in EGPA — warrants echocardiogram"
+      },
+      {
+        "test_name": "BNP",
+        "result": "220 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; may indicate subclinical myocardial involvement"
+      },
+      {
+        "test_name": "Skin biopsy (purpura)",
+        "result": "Leukocytoclastic vasculitis with eosinophilic infiltration of small vessel walls. Extravascular granulomas present.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Histopathology confirms eosinophilic small-vessel vasculitis with granulomas — consistent with EGPA"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT chest", "result": "Patchy, migratory ground-glass opacities and consolidations predominantly in the periphery bilaterally. No cavitation. Mild bronchial wall thickening. No pleural effusion.", "flag": "ABNORMAL", "clinical_significance": "Peripheral migratory infiltrates are characteristic of EGPA — may be confused with eosinophilic pneumonia"},
-      {"test_name": "CT sinuses", "result": "Pansinusitis with mucosal thickening in all paranasal sinuses. Bilateral nasal polyps. No bony erosion.", "flag": "ABNORMAL", "clinical_significance": "Chronic rhinosinusitis with polyposis is a near-universal finding in EGPA"},
-      {"test_name": "Echocardiogram", "result": "Mildly reduced LVEF 48%. Small pericardial effusion. No valvular abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Subclinical cardiac involvement (myocarditis) — cardiac disease is the leading cause of mortality in EGPA and requires aggressive treatment"}
+      {
+        "test_name": "CT chest",
+        "result": "Patchy, migratory ground-glass opacities and consolidations predominantly in the periphery bilaterally. No cavitation. Mild bronchial wall thickening. No pleural effusion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Peripheral migratory infiltrates are characteristic of EGPA — may be confused with eosinophilic pneumonia"
+      },
+      {
+        "test_name": "CT sinuses",
+        "result": "Pansinusitis with mucosal thickening in all paranasal sinuses. Bilateral nasal polyps. No bony erosion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Chronic rhinosinusitis with polyposis is a near-universal finding in EGPA"
+      },
+      {
+        "test_name": "Echocardiogram",
+        "result": "Mildly reduced LVEF 48%. Small pericardial effusion. No valvular abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subclinical cardiac involvement (myocarditis) — cardiac disease is the leading cause of mortality in EGPA and requires aggressive treatment"
+      }
     ],
-    "key_tests": ["CBC with differential (absolute eosinophil count)", "ANCA panel (MPO and PR3)", "ESR/CRP", "Tissue biopsy (skin, nerve, or lung)", "Echocardiogram", "CT chest"],
-    "acceptable_tests": ["IgE level", "Troponin", "BNP", "BMP with creatinine", "Urinalysis", "CT sinuses", "Nerve conduction studies/EMG", "Cardiac MRI"],
-    "low_yield_tests": ["D-dimer", "Procalcitonin", "Sputum culture", "PFTs (during acute vasculitis)", "Bronchoscopy"]
+    "key_tests": [
+      "CBC with differential (absolute eosinophil count)",
+      "ANCA panel (MPO and PR3)",
+      "ESR/CRP",
+      "Tissue biopsy (skin, nerve, or lung)",
+      "Echocardiogram",
+      "CT chest"
+    ],
+    "acceptable_tests": [
+      "IgE level",
+      "Troponin",
+      "BNP",
+      "BMP with creatinine",
+      "Urinalysis",
+      "CT sinuses",
+      "Nerve conduction studies/EMG",
+      "Cardiac MRI"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "Procalcitonin",
+      "Sputum culture",
+      "PFTs (during acute vasculitis)",
+      "Bronchoscopy"
+    ]
   },
   "stage5": {
     "final_clue": "Nerve conduction studies confirm mononeuritis multiplex involving the right common peroneal and bilateral sural nerves. Combined with severe eosinophilia, ANCA positivity, biopsy-proven eosinophilic vasculitis with granulomas, asthma, sinusitis/polyps, and cardiac involvement, the patient meets ACR criteria and Five-Factor Score criteria for EGPA requiring aggressive immunosuppression."
@@ -69,9 +166,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome", "Chronic eosinophilic pneumonia", "Granulomatosis with polyangiitis (GPA)", "Allergic bronchopulmonary aspergillosis", "Polyarteritis nodosa", "Parasitic infection"],
-    "after_stage2_more_likely": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome"],
-    "after_stage2_less_likely": ["Allergic bronchopulmonary aspergillosis", "Parasitic infection", "Granulomatosis with polyangiitis"],
-    "after_labs_top3": ["Eosinophilic granulomatosis with polyangiitis", "Hypereosinophilic syndrome", "Polyarteritis nodosa"]
+    "reasonable_ddx": [
+      "Eosinophilic granulomatosis with polyangiitis",
+      "Hypereosinophilic syndrome",
+      "Chronic eosinophilic pneumonia",
+      "Granulomatosis with polyangiitis (GPA)",
+      "Allergic bronchopulmonary aspergillosis",
+      "Polyarteritis nodosa",
+      "Parasitic infection"
+    ],
+    "after_stage2_more_likely": [
+      "Eosinophilic granulomatosis with polyangiitis",
+      "Hypereosinophilic syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Allergic bronchopulmonary aspergillosis",
+      "Parasitic infection",
+      "Granulomatosis with polyangiitis"
+    ],
+    "after_labs_top3": [
+      "Eosinophilic granulomatosis with polyangiitis",
+      "Hypereosinophilic syndrome",
+      "Polyarteritis nodosa"
+    ]
   }
 }

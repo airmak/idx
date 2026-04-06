@@ -2,7 +2,7 @@
   "case_id": "case_084",
   "mode": "attending",
   "specialty": "Cardiology",
-  "diagnosis": "Hypertrophic Obstructive Cardiomyopathy with Systolic Anterior Motion (SAM)",
+  "diagnosis": "Hypertrophic cardiomyopathy",
   "icd_category": "I42.1 — Obstructive hypertrophic cardiomyopathy",
   "one_liner": "A 22-year-old male college basketball player presents with exertional syncope and a harsh systolic murmur that increases with Valsalva maneuver.",
   "stage2": {
@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.04 ng/mL", "flag": "WNL", "clinical_significance": "Not significantly elevated, no acute injury"},
-      {"test_name": "BNP", "result": "120 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated, may reflect diastolic dysfunction and increased wall stress"},
-      {"test_name": "Potassium", "result": "4.3 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Creatinine", "result": "1.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC", "result": "WBC 7.0, Hgb 15.5, Plt 230", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "1.8 mIU/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Lactic acid", "result": "1.2 mmol/L", "flag": "WNL", "clinical_significance": "Normal at rest"},
-      {"test_name": "Genetic testing", "result": "Pathogenic variant in MYH7 (beta-myosin heavy chain gene)", "flag": "ABNORMAL", "clinical_significance": "Confirms genetic basis of HCM — MYH7 is one of the two most common HCM genes"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.04 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Not significantly elevated, no acute injury"
+      },
+      {
+        "test_name": "BNP",
+        "result": "120 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated, may reflect diastolic dysfunction and increased wall stress"
+      },
+      {
+        "test_name": "Potassium",
+        "result": "4.3 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "1.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.0, Hgb 15.5, Plt 230",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "1.8 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Lactic acid",
+        "result": "1.2 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal at rest"
+      },
+      {
+        "test_name": "Genetic testing",
+        "result": "Pathogenic variant in MYH7 (beta-myosin heavy chain gene)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms genetic basis of HCM — MYH7 is one of the two most common HCM genes"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic Echocardiogram", "result": "Asymmetric septal hypertrophy with IVS thickness of 24 mm (normal <12 mm). Posterior wall 11 mm. LVEF 70% (hyperdynamic). Systolic anterior motion (SAM) of the mitral valve. Resting LVOT gradient 45 mmHg (increases to 90 mmHg with Valsalva provocation). Moderate mitral regurgitation (posteriorly directed jet from SAM). Small LV cavity. Normal RV.", "flag": "ABNORMAL", "clinical_significance": "Classic HOCM: asymmetric septal hypertrophy >15 mm, SAM of mitral valve causing dynamic LVOT obstruction, and secondary mitral regurgitation"},
-      {"test_name": "Cardiac MRI", "result": "Massive asymmetric septal hypertrophy (24 mm). Patchy mid-wall late gadolinium enhancement at the RV insertion points and within the hypertrophied septum (12% of LV mass). No evidence of other infiltrative disease.", "flag": "ABNORMAL", "clinical_significance": "LGE extent >15% of LV mass is associated with increased risk of sudden cardiac death. Quantifying fibrosis aids risk stratification."},
-      {"test_name": "12-lead ECG", "result": "Sinus rhythm. LVH by voltage criteria. Deep, narrow ('dagger-like') Q waves in lateral leads (I, aVL, V5-V6). T-wave inversions in lateral leads.", "flag": "ABNORMAL", "clinical_significance": "LVH with dagger Q waves (from septal hypertrophy depolarization) and repolarization abnormalities are classic HCM findings"}
+      {
+        "test_name": "Transthoracic Echocardiogram",
+        "result": "Asymmetric septal hypertrophy with IVS thickness of 24 mm (normal <12 mm). Posterior wall 11 mm. LVEF 70% (hyperdynamic). Systolic anterior motion (SAM) of the mitral valve. Resting LVOT gradient 45 mmHg (increases to 90 mmHg with Valsalva provocation). Moderate mitral regurgitation (posteriorly directed jet from SAM). Small LV cavity. Normal RV.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic HOCM: asymmetric septal hypertrophy >15 mm, SAM of mitral valve causing dynamic LVOT obstruction, and secondary mitral regurgitation"
+      },
+      {
+        "test_name": "Cardiac MRI",
+        "result": "Massive asymmetric septal hypertrophy (24 mm). Patchy mid-wall late gadolinium enhancement at the RV insertion points and within the hypertrophied septum (12% of LV mass). No evidence of other infiltrative disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LGE extent >15% of LV mass is associated with increased risk of sudden cardiac death. Quantifying fibrosis aids risk stratification."
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Sinus rhythm. LVH by voltage criteria. Deep, narrow ('dagger-like') Q waves in lateral leads (I, aVL, V5-V6). T-wave inversions in lateral leads.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH with dagger Q waves (from septal hypertrophy depolarization) and repolarization abnormalities are classic HCM findings"
+      }
     ],
-    "key_tests": ["Transthoracic echocardiogram (with Valsalva provocation)", "Cardiac MRI", "12-lead ECG", "Genetic testing (sarcomeric genes)", "Holter monitor (for NSVT)"],
-    "acceptable_tests": ["BNP", "Basic metabolic panel", "Exercise stress echocardiogram", "Signal-averaged ECG", "Troponin", "CBC", "TSH"],
-    "low_yield_tests": ["Coronary angiography", "CT chest", "Pulmonary function tests", "D-dimer", "Cardiac catheterization"],
+    "key_tests": [
+      "Transthoracic echocardiogram (with Valsalva provocation)",
+      "Cardiac MRI",
+      "12-lead ECG",
+      "Genetic testing (sarcomeric genes)",
+      "Holter monitor (for NSVT)"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "Basic metabolic panel",
+      "Exercise stress echocardiogram",
+      "Signal-averaged ECG",
+      "Troponin",
+      "CBC",
+      "TSH"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography",
+      "CT chest",
+      "Pulmonary function tests",
+      "D-dimer",
+      "Cardiac catheterization"
+    ],
     "key_tests_rationale": "Echo with provocation is essential to document dynamic LVOT obstruction and SAM. Cardiac MRI quantifies LGE (fibrosis) for SCD risk stratification. ECG identifies LVH and repolarization abnormalities. Genetic testing confirms the diagnosis and enables family screening. Holter monitor detects NSVT (SCD risk factor)."
   },
   "stage5": {
@@ -68,9 +148,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Athlete's heart (physiologic hypertrophy)", "Aortic stenosis", "Subaortic membrane", "Cardiac amyloidosis", "Fabry disease", "Hypertensive heart disease"],
-    "after_stage2_more_likely": ["Hypertrophic obstructive cardiomyopathy", "Aortic stenosis", "Subaortic membrane"],
-    "after_stage2_less_likely": ["Athlete's heart", "Cardiac amyloidosis", "Hypertensive heart disease"],
-    "after_labs_top3": ["HOCM with SAM (MYH7 mutation)", "Aortic stenosis", "Subaortic membrane"]
+    "reasonable_ddx": [
+      "Athlete's heart (physiologic hypertrophy)",
+      "Aortic stenosis",
+      "Subaortic membrane",
+      "Cardiac amyloidosis",
+      "Fabry disease",
+      "Hypertensive heart disease"
+    ],
+    "after_stage2_more_likely": [
+      "Hypertrophic obstructive cardiomyopathy",
+      "Aortic stenosis",
+      "Subaortic membrane"
+    ],
+    "after_stage2_less_likely": [
+      "Athlete's heart",
+      "Cardiac amyloidosis",
+      "Hypertensive heart disease"
+    ],
+    "after_labs_top3": [
+      "HOCM with SAM (MYH7 mutation)",
+      "Aortic stenosis",
+      "Subaortic membrane"
+    ]
   }
 }

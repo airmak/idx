@@ -25,26 +25,119 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "9,200/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.4 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Eosinophils", "result": "2%", "flag": "WNL", "clinical_significance": "No eosinophilia; helps differentiate from eosinophilic lung diseases"},
-      {"test_name": "BMP — Sodium", "result": "148 mEq/L", "flag": "HIGH", "clinical_significance": "Hypernatremia in setting of polyuria suggests diabetes insipidus — a known extrapulmonary manifestation of LCH from pituitary infiltration"},
-      {"test_name": "Serum osmolality", "result": "305 mOsm/kg", "flag": "HIGH", "clinical_significance": "Elevated; consistent with diabetes insipidus"},
-      {"test_name": "Urine osmolality", "result": "180 mOsm/kg", "flag": "LOW", "clinical_significance": "Inappropriately dilute urine in setting of hypernatremia and elevated serum osmolality — diagnostic of diabetes insipidus"},
-      {"test_name": "ABG pO2", "result": "68 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from cystic lung disease and pneumothorax"},
-      {"test_name": "ESR", "result": "38 mm/hr", "flag": "HIGH", "clinical_significance": "Mildly elevated; nonspecific inflammation"},
-      {"test_name": "LDH", "result": "210 U/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out CTD-related lung disease"},
-      {"test_name": "Alpha-1 antitrypsin", "result": "175 mg/dL", "flag": "WNL", "clinical_significance": "Normal; excludes A1AT deficiency"},
-      {"test_name": "BAL — CD1a+ cells", "result": "8% (>5% is diagnostic threshold)", "flag": "ABNORMAL", "clinical_significance": "CD1a+ Langerhans cells >5% on BAL is highly specific for pulmonary LCH"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,200/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Eosinophils",
+        "result": "2%",
+        "flag": "WNL",
+        "clinical_significance": "No eosinophilia; helps differentiate from eosinophilic lung diseases"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "148 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Hypernatremia in setting of polyuria suggests diabetes insipidus — a known extrapulmonary manifestation of LCH from pituitary infiltration"
+      },
+      {
+        "test_name": "Serum osmolality",
+        "result": "305 mOsm/kg",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; consistent with diabetes insipidus"
+      },
+      {
+        "test_name": "Urine osmolality",
+        "result": "180 mOsm/kg",
+        "flag": "LOW",
+        "clinical_significance": "Inappropriately dilute urine in setting of hypernatremia and elevated serum osmolality — diagnostic of diabetes insipidus"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "68 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypoxemia from cystic lung disease and pneumothorax"
+      },
+      {
+        "test_name": "ESR",
+        "result": "38 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; nonspecific inflammation"
+      },
+      {
+        "test_name": "LDH",
+        "result": "210 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Alpha-1 antitrypsin",
+        "result": "175 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal."
+      },
+      {
+        "test_name": "BAL — CD1a+ cells",
+        "result": "8% (>5% is diagnostic threshold)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CD1a+ Langerhans cells >5% on BAL is highly specific for pulmonary LCH"
+      }
     ],
     "imaging_results": [
-      {"test_name": "HRCT chest", "result": "Bilateral bizarre-shaped, irregular, thick and thin-walled cysts interspersed with centrilobular nodules (some cavitating), predominantly in the upper and middle lung zones with relative sparing of the costophrenic angles and lung bases. Left pneumothorax. No honeycombing.", "flag": "ABNORMAL", "clinical_significance": "The combination of irregular/bizarre cysts with centrilobular nodules in an upper-lobe predominant distribution with costophrenic angle sparing is characteristic of PLCH. The evolution from nodules to cavitating nodules to cysts represents the disease progression."},
-      {"test_name": "Brain MRI", "result": "Loss of normal posterior pituitary bright spot on T1-weighted imaging. Thickened pituitary stalk (4 mm).", "flag": "ABNORMAL", "clinical_significance": "Loss of posterior pituitary bright spot and stalk thickening confirm central diabetes insipidus from LCH infiltration of the pituitary — a classic extrapulmonary manifestation"}
+      {
+        "test_name": "HRCT chest",
+        "result": "Bilateral bizarre-shaped, irregular, thick and thin-walled cysts interspersed with centrilobular nodules (some cavitating), predominantly in the upper and middle lung zones with relative sparing of the costophrenic angles and lung bases. Left pneumothorax. No honeycombing.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The combination of irregular/bizarre cysts with centrilobular nodules in an upper-lobe predominant distribution with costophrenic angle sparing is characteristic of PLCH. The evolution from nodules to cavitating nodules to cysts represents the disease progression."
+      },
+      {
+        "test_name": "Brain MRI",
+        "result": "Loss of normal posterior pituitary bright spot on T1-weighted imaging. Thickened pituitary stalk (4 mm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Loss of posterior pituitary bright spot and stalk thickening confirm central diabetes insipidus from LCH infiltration of the pituitary — a classic extrapulmonary manifestation"
+      }
     ],
-    "key_tests": ["HRCT chest", "Bronchoalveolar lavage (BAL) with CD1a staining", "Surgical lung biopsy (if BAL non-diagnostic)", "PFTs", "Brain MRI (for DI evaluation)"],
-    "acceptable_tests": ["CBC", "BMP", "Serum/urine osmolality", "ABG", "Alpha-1 antitrypsin level", "ANA", "ESR/CRP", "Skeletal survey or bone scan", "Chest X-ray"],
-    "low_yield_tests": ["D-dimer", "BNP", "Sputum culture", "ANCA", "Procalcitonin", "PET-CT (nodules may be PET-avid mimicking malignancy)"]
+    "key_tests": [
+      "HRCT chest",
+      "Bronchoalveolar lavage (BAL) with CD1a staining",
+      "Surgical lung biopsy (if BAL non-diagnostic)",
+      "PFTs",
+      "Brain MRI (for DI evaluation)"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "Serum/urine osmolality",
+      "ABG",
+      "Alpha-1 antitrypsin level",
+      "ANA",
+      "ESR/CRP",
+      "Skeletal survey or bone scan",
+      "Chest X-ray"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "BNP",
+      "Sputum culture",
+      "ANCA",
+      "Procalcitonin",
+      "PET-CT (nodules may be PET-avid mimicking malignancy)"
+    ]
   },
   "stage5": {
     "final_clue": "BAL demonstrates 8% CD1a-positive cells (diagnostic >5%). Surgical lung biopsy confirms stellate-shaped nodular lesions with Langerhans cells staining positive for CD1a and S-100 on immunohistochemistry, with Birbeck granules on electron microscopy. PFTs show a mixed obstructive-restrictive pattern with reduced DLCO (52% predicted). Combined with diabetes insipidus, the diagnosis of multisystem Langerhans cell histiocytosis with pulmonary and pituitary involvement is established."
@@ -68,9 +161,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pulmonary Langerhans cell histiocytosis", "Lymphangioleiomyomatosis", "Emphysema/COPD", "Lymphocytic interstitial pneumonia", "Birt-Hogg-Dube syndrome", "Hypersensitivity pneumonitis"],
-    "after_stage2_more_likely": ["Pulmonary Langerhans cell histiocytosis", "Emphysema/COPD"],
-    "after_stage2_less_likely": ["Lymphangioleiomyomatosis", "Birt-Hogg-Dube syndrome"],
-    "after_labs_top3": ["Pulmonary Langerhans cell histiocytosis", "Lymphocytic interstitial pneumonia", "Emphysema"]
+    "reasonable_ddx": [
+      "Pulmonary Langerhans cell histiocytosis",
+      "Lymphangioleiomyomatosis",
+      "Emphysema/COPD",
+      "Lymphocytic interstitial pneumonia",
+      "Birt-Hogg-Dube syndrome",
+      "Hypersensitivity pneumonitis"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary Langerhans cell histiocytosis",
+      "Emphysema/COPD"
+    ],
+    "after_stage2_less_likely": [
+      "Lymphangioleiomyomatosis",
+      "Birt-Hogg-Dube syndrome"
+    ],
+    "after_labs_top3": [
+      "Pulmonary Langerhans cell histiocytosis",
+      "Lymphocytic interstitial pneumonia",
+      "Emphysema"
+    ]
   }
 }

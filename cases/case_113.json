@@ -2,7 +2,7 @@
   "case_id": "case_113",
   "mode": "easy",
   "specialty": "Neurology",
-  "diagnosis": "Ischemic stroke (MCA territory)",
+  "diagnosis": "Stroke (ischemic)",
   "icd_category": "I63.5 — Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery",
   "one_liner": "A 68-year-old man with atrial fibrillation presents with sudden onset of right-sided face and arm weakness, slurred speech, and right visual field cut, with symptoms beginning 90 minutes ago.",
   "stage2": {
@@ -65,7 +65,7 @@
         "test_name": "Troponin I",
         "result": "0.02 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal; excludes concurrent MI (afib with stroke can coexist with cardiac events)"
+        "clinical_significance": "Normal."
       },
       {
         "test_name": "HbA1c",

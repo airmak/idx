@@ -25,23 +25,98 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Troponin I", "result": "0.08 ng/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated; can be seen after syncope or vigorous exercise in HCM due to demand ischemia from LVH and dynamic outflow obstruction"},
-      {"test_name": "BNP", "result": "180 pg/mL", "flag": "HIGH", "clinical_significance": "Mildly elevated reflecting diastolic dysfunction and elevated filling pressures common in HCM"},
-      {"test_name": "CBC", "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 245,000/μL", "flag": "WNL", "clinical_significance": "Normal; rules out anemia as a contributing cause of syncope"},
-      {"test_name": "Basic metabolic panel", "result": "Na 141, K 4.2, Cr 1.0, glucose 92, Ca 9.5", "flag": "WNL", "clinical_significance": "Normal electrolytes; rules out metabolic causes of syncope or arrhythmia"},
-      {"test_name": "Magnesium", "result": "2.0 mg/dL", "flag": "WNL", "clinical_significance": "Normal; important to check as hypomagnesemia can contribute to arrhythmias"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "12-lead ECG", "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Deep, narrow Q waves in leads I, aVL, V5, and V6 (septal Q waves). T-wave inversions in lateral leads. No delta waves or prolonged QT.", "flag": "ABNORMAL", "clinical_significance": "LVH with deep septal Q waves and repolarization abnormalities are classic ECG findings of HCM; Q waves represent septal hypertrophy, not prior infarction"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant use (cocaine, amphetamines) as a cause of cardiac symptoms"}
+      {
+        "test_name": "Troponin I",
+        "result": "0.08 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; can be seen after syncope or vigorous exercise in HCM due to demand ischemia from LVH and dynamic outflow obstruction"
+      },
+      {
+        "test_name": "BNP",
+        "result": "180 pg/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated reflecting diastolic dysfunction and elevated filling pressures common in HCM"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 245,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal;"
+      },
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 141, K 4.2, Cr 1.0, glucose 92, Ca 9.5",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes;"
+      },
+      {
+        "test_name": "Magnesium",
+        "result": "2.0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; important to check as hypomagnesemia can contribute to arrhythmias"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "12-lead ECG",
+        "result": "Normal sinus rhythm. Left ventricular hypertrophy by voltage criteria. Deep, narrow Q waves in leads I, aVL, V5, and V6 (septal Q waves). T-wave inversions in lateral leads. No delta waves or prolonged QT.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH with deep septal Q waves and repolarization abnormalities are classic ECG findings of HCM; Q waves represent septal hypertrophy, not prior infarction"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": ""
+      }
     ],
     "imaging_results": [
-      {"test_name": "Transthoracic echocardiogram", "result": "Asymmetric septal hypertrophy with interventricular septum measuring 22 mm (normal <12 mm). Septal-to-posterior wall thickness ratio 1.8. Systolic anterior motion (SAM) of the mitral valve with resting LVOT gradient of 45 mmHg, increasing to 95 mmHg with Valsalva. Moderate mitral regurgitation (posteriorly directed jet from SAM). Left atrial enlargement. LVEF 70% (hyperdynamic). Normal RV function.", "flag": "ABNORMAL", "clinical_significance": "Findings diagnostic of obstructive HCM: asymmetric septal hypertrophy, SAM of the mitral valve, and dynamic LVOT obstruction with significant gradient"},
-      {"test_name": "Cardiac MRI with gadolinium", "result": "Asymmetric septal hypertrophy (23 mm) with late gadolinium enhancement (LGE) at the RV insertion points and within the hypertrophied septum, involving approximately 12% of LV mass. No apical aneurysm. Consistent with HCM.", "flag": "ABNORMAL", "clinical_significance": "Late gadolinium enhancement indicates myocardial fibrosis and is an independent risk factor for sudden cardiac death in HCM; extent >15% of LV mass is considered high risk"},
-      {"test_name": "Holter monitor (48-hour)", "result": "Predominantly sinus rhythm. Three episodes of non-sustained ventricular tachycardia (NSVT) — longest run 8 beats at 180 bpm. No sustained VT.", "flag": "ABNORMAL", "clinical_significance": "NSVT is a major risk factor for sudden cardiac death in HCM and is an indication for ICD implantation"}
+      {
+        "test_name": "Transthoracic echocardiogram",
+        "result": "Asymmetric septal hypertrophy with interventricular septum measuring 22 mm (normal <12 mm). Septal-to-posterior wall thickness ratio 1.8. Systolic anterior motion (SAM) of the mitral valve with resting LVOT gradient of 45 mmHg, increasing to 95 mmHg with Valsalva. Moderate mitral regurgitation (posteriorly directed jet from SAM). Left atrial enlargement. LVEF 70% (hyperdynamic). Normal RV function.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Findings diagnostic of obstructive HCM: asymmetric septal hypertrophy, SAM of the mitral valve, and dynamic LVOT obstruction with significant gradient"
+      },
+      {
+        "test_name": "Cardiac MRI with gadolinium",
+        "result": "Asymmetric septal hypertrophy (23 mm) with late gadolinium enhancement (LGE) at the RV insertion points and within the hypertrophied septum, involving approximately 12% of LV mass. No apical aneurysm. Consistent with HCM.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Late gadolinium enhancement indicates myocardial fibrosis and is an independent risk factor for sudden cardiac death in HCM; extent >15% of LV mass is considered high risk"
+      },
+      {
+        "test_name": "Holter monitor (48-hour)",
+        "result": "Predominantly sinus rhythm. Three episodes of non-sustained ventricular tachycardia (NSVT) — longest run 8 beats at 180 bpm. No sustained VT.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "NSVT is a major risk factor for sudden cardiac death in HCM and is an indication for ICD implantation"
+      }
     ],
-    "key_tests": ["12-lead ECG", "Transthoracic echocardiogram", "Cardiac MRI with gadolinium", "Holter monitor (48-72 hours)", "Troponin"],
-    "acceptable_tests": ["BNP", "Basic metabolic panel", "CBC", "Exercise stress echocardiogram (provoke gradient)", "Urine drug screen", "TSH", "Genetic testing for HCM-causing mutations"],
-    "low_yield_tests": ["Coronary angiography (young athlete with low pretest probability for CAD)", "CT coronary angiography", "Electrophysiology study (not first-line for risk stratification in HCM)", "Head CT (syncope clearly exertional and cardiac)", "EEG"]
+    "key_tests": [
+      "12-lead ECG",
+      "Transthoracic echocardiogram",
+      "Cardiac MRI with gadolinium",
+      "Holter monitor (48-72 hours)",
+      "Troponin"
+    ],
+    "acceptable_tests": [
+      "BNP",
+      "Basic metabolic panel",
+      "CBC",
+      "Exercise stress echocardiogram (provoke gradient)",
+      "Urine drug screen",
+      "TSH",
+      "Genetic testing for HCM-causing mutations"
+    ],
+    "low_yield_tests": [
+      "Coronary angiography (young athlete with low pretest probability for CAD)",
+      "CT coronary angiography",
+      "Electrophysiology study (not first-line for risk stratification in HCM)",
+      "Head CT (syncope clearly exertional and cardiac)",
+      "EEG"
+    ]
   },
   "stage5": {
     "final_clue": "SCD risk stratification using the AHA/ACC enhanced model reveals multiple high-risk features: exertional syncope likely due to LVOT obstruction, non-sustained VT on Holter, massive LVH (≥30 mm approaches threshold), late gadolinium enhancement on cardiac MRI (12% LV mass), and a strong family history of sudden cardiac death (cousin at age 19). An ICD is recommended for primary prevention of sudden cardiac death."
@@ -57,12 +132,33 @@
       "Avoid dehydration, nitrates, digoxin, and high-dose diuretics — all decrease preload and worsen outflow obstruction",
       "Late gadolinium enhancement on cardiac MRI is an independent risk factor for SCD and helps guide ICD decisions in borderline cases"
     ],
-    "sources": ["UpToDate: Hypertrophic cardiomyopathy — Clinical manifestations, diagnosis, and evaluation", "AHA/ACC Guideline for the Diagnosis and Treatment of Hypertrophic Cardiomyopathy 2024"]
+    "sources": [
+      "UpToDate: Hypertrophic cardiomyopathy — Clinical manifestations, diagnosis, and evaluation",
+      "AHA/ACC Guideline for the Diagnosis and Treatment of Hypertrophic Cardiomyopathy 2024"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Hypertrophic cardiomyopathy", "Aortic stenosis", "Athlete's heart (physiologic hypertrophy)", "Long QT syndrome", "Arrhythmogenic right ventricular cardiomyopathy", "Wolff-Parkinson-White syndrome", "Brugada syndrome", "Vasovagal syncope"],
-    "after_stage2_more_likely": ["Hypertrophic cardiomyopathy (exertional syncope in young athlete, systolic murmur that increases with Valsalva, family history of sudden cardiac death, bisferiens pulse)"],
-    "after_stage2_less_likely": ["Vasovagal syncope (occurs during intense exercise, not typical prodrome)", "Aortic stenosis (murmur increases with Valsalva — opposite of AS behavior)"],
-    "after_labs_top3": ["Hypertrophic cardiomyopathy", "Athlete's heart with benign arrhythmia", "Arrhythmogenic cardiomyopathy"]
+    "reasonable_ddx": [
+      "Hypertrophic cardiomyopathy",
+      "Aortic stenosis",
+      "Athlete's heart (physiologic hypertrophy)",
+      "Long QT syndrome",
+      "Arrhythmogenic right ventricular cardiomyopathy",
+      "Wolff-Parkinson-White syndrome",
+      "Brugada syndrome",
+      "Vasovagal syncope"
+    ],
+    "after_stage2_more_likely": [
+      "Hypertrophic cardiomyopathy (exertional syncope in young athlete, systolic murmur that increases with Valsalva, family history of sudden cardiac death, bisferiens pulse)"
+    ],
+    "after_stage2_less_likely": [
+      "Vasovagal syncope (occurs during intense exercise, not typical prodrome)",
+      "Aortic stenosis (murmur increases with Valsalva — opposite of AS behavior)"
+    ],
+    "after_labs_top3": [
+      "Hypertrophic cardiomyopathy",
+      "Athlete's heart with benign arrhythmia",
+      "Arrhythmogenic cardiomyopathy"
+    ]
   }
 }

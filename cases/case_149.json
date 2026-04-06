@@ -2,7 +2,7 @@
   "case_id": "case_149",
   "mode": "easy",
   "specialty": "Infectious Disease",
-  "diagnosis": "Clostridioides difficile infection",
+  "diagnosis": "Clostridioides difficile (C. diff) colitis",
   "icd_category": "A04.72 — Enterocolitis due to Clostridioides difficile, not specified as recurrent",
   "one_liner": "A 68-year-old female presents with profuse watery diarrhea, crampy abdominal pain, and low-grade fever 5 days after completing a course of clindamycin for a dental abscess.",
   "stage2": {
@@ -25,17 +25,62 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "C. difficile PCR (Stool NAAT)", "result": "Positive for toxigenic C. difficile (tcdB gene detected)", "flag": "ABNORMAL", "clinical_significance": "Confirms presence of toxigenic C. difficile; in context of compatible symptoms, diagnostic of CDI"},
-      {"test_name": "C. difficile Toxin EIA (A/B)", "result": "Positive for toxin A and B", "flag": "ABNORMAL", "clinical_significance": "Positive toxin assay confirms active toxin production, supporting CDI diagnosis"},
-      {"test_name": "CBC — WBC", "result": "16,400/μL with 80% neutrophils", "flag": "HIGH", "clinical_significance": "Leukocytosis common in CDI; WBC >15,000 is a severity marker"},
-      {"test_name": "Serum Creatinine", "result": "1.4 mg/dL (baseline 0.9)", "flag": "HIGH", "clinical_significance": "Acute kidney injury from dehydration; creatinine >1.5x baseline is a severity criterion"},
-      {"test_name": "Serum Albumin", "result": "2.8 g/dL", "flag": "LOW", "clinical_significance": "Hypoalbuminemia from protein-losing enteropathy and decreased intake; albumin <2.5 is a severity marker"},
-      {"test_name": "BMP — Potassium", "result": "3.2 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from profuse diarrhea"},
-      {"test_name": "Serum Lactate", "result": "1.4 mmol/L", "flag": "WNL", "clinical_significance": "Normal lactate; elevated lactate would suggest fulminant disease"},
-      {"test_name": "CRP", "result": "68 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with colonic inflammation"}
+      {
+        "test_name": "C. difficile PCR (Stool NAAT)",
+        "result": "Positive for toxigenic C. difficile (tcdB gene detected)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms presence of toxigenic C. difficile; in context of compatible symptoms, diagnostic of CDI"
+      },
+      {
+        "test_name": "C. difficile Toxin EIA (A/B)",
+        "result": "Positive for toxin A and B",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive toxin assay confirms active toxin production, supporting CDI diagnosis"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "16,400/μL with 80% neutrophils",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis common in CDI; WBC >15,000 is a severity marker"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.4 mg/dL (baseline 0.9)",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury from dehydration; creatinine >1.5x baseline is a severity criterion"
+      },
+      {
+        "test_name": "Serum Albumin",
+        "result": "2.8 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Hypoalbuminemia from protein-losing enteropathy and decreased intake; albumin <2.5 is a severity marker"
+      },
+      {
+        "test_name": "BMP — Potassium",
+        "result": "3.2 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from profuse diarrhea"
+      },
+      {
+        "test_name": "Serum Lactate",
+        "result": "1.4 mmol/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lactate; elevated lactate would suggest fulminant disease"
+      },
+      {
+        "test_name": "CRP",
+        "result": "68 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with colonic inflammation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Abdomen/Pelvis with IV Contrast", "result": "Diffuse colonic wall thickening (up to 8 mm) involving the entire colon, with pericolonic fat stranding and mild ascites. No pneumatosis, free air, or megacolon. No small bowel obstruction.", "flag": "ABNORMAL", "clinical_significance": "Pancolitis consistent with C. difficile colitis; no evidence of toxic megacolon or perforation"}
+      {
+        "test_name": "CT Abdomen/Pelvis with IV Contrast",
+        "result": "Diffuse colonic wall thickening (up to 8 mm) involving the entire colon, with pericolonic fat stranding and mild ascites. No pneumatosis, free air, or megacolon. No small bowel obstruction.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pancolitis consistent with C. difficile colitis; no evidence of toxic megacolon or perforation"
+      }
     ],
     "key_tests": [
       "Stool testing for C. difficile: NAAT (PCR) and/or toxin EIA (multi-step algorithm preferred)",

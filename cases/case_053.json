@@ -2,7 +2,7 @@
   "case_id": "case_053",
   "mode": "easy",
   "specialty": "Surgery",
-  "diagnosis": "Acute Gallstone Pancreatitis",
+  "diagnosis": "Pancreatitis (acute)",
   "icd_category": "K85.1 — Biliary acute pancreatitis",
   "one_liner": "A 48-year-old obese female presents with severe epigastric pain radiating to the back, nausea, and vomiting 2 hours after eating a large meal.",
   "stage2": {
@@ -89,7 +89,7 @@
         "test_name": "Triglycerides",
         "result": "142 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal, excludes hypertriglyceridemia as the cause of pancreatitis"
+        "clinical_significance": "Normal."
       },
       {
         "test_name": "Lactate",

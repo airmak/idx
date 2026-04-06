@@ -2,7 +2,7 @@
   "case_id": "case_162",
   "mode": "easy",
   "specialty": "Gastroenterology",
-  "diagnosis": "Peptic Ulcer Disease (H. pylori-associated)",
+  "diagnosis": "Peptic ulcer disease",
   "icd_category": "K25.9 — Gastric ulcer, unspecified",
   "one_liner": "A 55-year-old male presents with 6 weeks of gnawing epigastric pain that improves with eating and recurs 2-3 hours after meals.",
   "stage2": {
@@ -25,25 +25,109 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Hemoglobin", "result": "11.2 g/dL", "flag": "LOW", "clinical_significance": "Mild anemia, likely from chronic GI blood loss (melena)"},
-      {"test_name": "MCV", "result": "76 fL", "flag": "LOW", "clinical_significance": "Microcytic anemia consistent with iron deficiency from chronic blood loss"},
-      {"test_name": "Iron", "result": "35 µg/dL", "flag": "LOW", "clinical_significance": "Low serum iron confirming iron deficiency"},
-      {"test_name": "Ferritin", "result": "12 ng/mL", "flag": "LOW", "clinical_significance": "Depleted iron stores"},
-      {"test_name": "H. pylori stool antigen", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Active H. pylori infection — primary etiology of the ulcer"},
-      {"test_name": "BUN", "result": "28 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated BUN/creatinine ratio suggesting upper GI bleeding (blood protein digestion)"},
-      {"test_name": "Creatinine", "result": "0.9 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function — elevated BUN/Cr ratio supports upper GI source"},
-      {"test_name": "Lipase", "result": "28 U/L", "flag": "WNL", "clinical_significance": "Normal, rules out pancreatitis"},
-      {"test_name": "ALT", "result": "30 U/L", "flag": "WNL", "clinical_significance": "Normal liver function"},
-      {"test_name": "Platelet count", "result": "310,000/µL", "flag": "WNL", "clinical_significance": "Reactive thrombocytosis from iron deficiency and chronic bleeding"}
+      {
+        "test_name": "Hemoglobin",
+        "result": "11.2 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Mild anemia, likely from chronic GI blood loss (melena)"
+      },
+      {
+        "test_name": "MCV",
+        "result": "76 fL",
+        "flag": "LOW",
+        "clinical_significance": "Microcytic anemia consistent with iron deficiency from chronic blood loss"
+      },
+      {
+        "test_name": "Iron",
+        "result": "35 µg/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low serum iron confirming iron deficiency"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "12 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Depleted iron stores"
+      },
+      {
+        "test_name": "H. pylori stool antigen",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active H. pylori infection — primary etiology of the ulcer"
+      },
+      {
+        "test_name": "BUN",
+        "result": "28 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated BUN/creatinine ratio suggesting upper GI bleeding (blood protein digestion)"
+      },
+      {
+        "test_name": "Creatinine",
+        "result": "0.9 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function — elevated BUN/Cr ratio supports upper GI source"
+      },
+      {
+        "test_name": "Lipase",
+        "result": "28 U/L",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "ALT",
+        "result": "30 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal liver function"
+      },
+      {
+        "test_name": "Platelet count",
+        "result": "310,000/µL",
+        "flag": "WNL",
+        "clinical_significance": "Reactive thrombocytosis from iron deficiency and chronic bleeding"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Upper Endoscopy (EGD)", "result": "1.5 cm clean-based ulcer on the lesser curvature of the gastric antrum with surrounding erythema. No active bleeding. No raised margins or mass-like features. Duodenal bulb normal. CLO test (rapid urease) positive for H. pylori.", "flag": "ABNORMAL", "clinical_significance": "Gastric ulcer with positive H. pylori — biopsies taken to rule out malignancy"},
-      {"test_name": "Gastric ulcer biopsies", "result": "Chronic active gastritis with H. pylori organisms identified. No intestinal metaplasia, no dysplasia, no malignancy.", "flag": "ABNORMAL", "clinical_significance": "Confirms H. pylori gastritis as the cause. Benign ulcer — no cancer."},
-      {"test_name": "Chest X-ray", "result": "No free air under diaphragm, clear lung fields", "flag": "WNL", "clinical_significance": "No perforation"}
+      {
+        "test_name": "Upper Endoscopy (EGD)",
+        "result": "1.5 cm clean-based ulcer on the lesser curvature of the gastric antrum with surrounding erythema. No active bleeding. No raised margins or mass-like features. Duodenal bulb normal. CLO test (rapid urease) positive for H. pylori.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gastric ulcer with positive H."
+      },
+      {
+        "test_name": "Gastric ulcer biopsies",
+        "result": "Chronic active gastritis with H. pylori organisms identified. No intestinal metaplasia, no dysplasia, no malignancy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms H. pylori gastritis as the cause. Benign ulcer — no cancer."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "No free air under diaphragm, clear lung fields",
+        "flag": "WNL",
+        "clinical_significance": "No perforation"
+      }
     ],
-    "key_tests": ["Upper endoscopy (EGD) with biopsies", "H. pylori testing (stool antigen, CLO test, or urea breath test)", "CBC with iron studies", "BMP", "Fecal occult blood test"],
-    "acceptable_tests": ["Lipase", "LFTs", "Chest X-ray (upright for perforation)", "Type and screen", "Reticulocyte count", "INR"],
-    "low_yield_tests": ["CT abdomen (unless perforation suspected)", "Barium swallow (inferior to EGD)", "Colonoscopy", "Serum gastrin (unless ZES suspected)", "Abdominal ultrasound"],
+    "key_tests": [
+      "Upper endoscopy (EGD) with biopsies",
+      "H. pylori testing (stool antigen, CLO test, or urea breath test)",
+      "CBC with iron studies",
+      "BMP",
+      "Fecal occult blood test"
+    ],
+    "acceptable_tests": [
+      "Lipase",
+      "LFTs",
+      "Chest X-ray (upright for perforation)",
+      "Type and screen",
+      "Reticulocyte count",
+      "INR"
+    ],
+    "low_yield_tests": [
+      "CT abdomen (unless perforation suspected)",
+      "Barium swallow (inferior to EGD)",
+      "Colonoscopy",
+      "Serum gastrin (unless ZES suspected)",
+      "Abdominal ultrasound"
+    ],
     "key_tests_rationale": "EGD allows direct visualization, biopsy to rule out malignancy (essential for all gastric ulcers), and H. pylori testing via CLO test. Stool antigen confirms active infection. CBC identifies anemia from bleeding. BMP checks BUN/Cr ratio (upper GI bleed marker)."
   },
   "stage5": {
@@ -68,9 +152,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Gastric cancer", "GERD", "Functional dyspepsia", "Pancreatitis", "Gastric lymphoma (MALT)", "Zollinger-Ellison syndrome"],
-    "after_stage2_more_likely": ["Peptic ulcer disease", "Gastric cancer", "GERD"],
-    "after_stage2_less_likely": ["Pancreatitis", "Functional dyspepsia", "Zollinger-Ellison syndrome"],
-    "after_labs_top3": ["H. pylori-associated peptic ulcer disease", "Gastric ulcer with chronic GI bleeding", "Gastric cancer"]
+    "reasonable_ddx": [
+      "Gastric cancer",
+      "GERD",
+      "Functional dyspepsia",
+      "Pancreatitis",
+      "Gastric lymphoma (MALT)",
+      "Zollinger-Ellison syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Peptic ulcer disease",
+      "Gastric cancer",
+      "GERD"
+    ],
+    "after_stage2_less_likely": [
+      "Pancreatitis",
+      "Functional dyspepsia",
+      "Zollinger-Ellison syndrome"
+    ],
+    "after_labs_top3": [
+      "H. pylori-associated peptic ulcer disease",
+      "Gastric ulcer with chronic GI bleeding",
+      "Gastric cancer"
+    ]
   }
 }

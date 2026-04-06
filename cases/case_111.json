@@ -2,7 +2,7 @@
   "case_id": "case_111",
   "mode": "easy",
   "specialty": "Neurology",
-  "diagnosis": "Meningitis (bacterial)",
+  "diagnosis": "Bacterial meningitis",
   "icd_category": "G00.9 — Bacterial meningitis, unspecified",
   "one_liner": "A 20-year-old college student presents with severe headache, high fever, neck stiffness, photophobia, and a petechial rash on his trunk and lower extremities developing over 12 hours.",
   "stage2": {
@@ -103,7 +103,7 @@
         "test_name": "CT head without contrast",
         "result": "No mass effect, midline shift, or hydrocephalus. No hemorrhage. Normal ventricles.",
         "flag": "WNL",
-        "clinical_significance": "CT performed before LP to rule out mass lesion/elevated ICP that would contraindicate LP. In this case, normal CT allows safe LP. Note: empiric antibiotics should NEVER be delayed for CT."
+        "clinical_significance": "In this case, normal CT allows safe LP. Note: empiric antibiotics should NEVER be delayed for CT."
       }
     ],
     "key_tests": [

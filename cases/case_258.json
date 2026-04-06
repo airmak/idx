@@ -2,7 +2,7 @@
   "case_id": "case_258",
   "mode": "attending",
   "specialty": "Family Medicine",
-  "diagnosis": "Primary hyperparathyroidism",
+  "diagnosis": "Hyperparathyroidism (primary)",
   "icd_category": "E21.0 — Primary hyperparathyroidism",
   "one_liner": "A 58-year-old postmenopausal woman presents with fatigue, constipation, nephrolithiasis, and osteoporosis, found to have hypercalcemia with elevated PTH.",
   "stage2": {
@@ -53,13 +53,13 @@
         "test_name": "Vitamin D, 25-OH",
         "result": "28 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Adequate vitamin D — rules out vitamin D deficiency as cause of secondary this condition"
+        "clinical_significance": ""
       },
       {
         "test_name": "24-hour urine calcium",
         "result": "420 mg/day",
         "flag": "HIGH",
-        "clinical_significance": "Elevated urinary calcium (normal <250) — rules out familial hypocalciuric hypercalcemia (FHH), which would have LOW urinary calcium; confirms PHPT"
+        "clinical_significance": "confirms PHPT"
       },
       {
         "test_name": "CMP (Comprehensive Metabolic Panel)",
@@ -77,13 +77,13 @@
         "test_name": "PTHrP (PTH-related protein)",
         "result": "<2.0 pmol/L",
         "flag": "WNL",
-        "clinical_significance": "Normal PTHrP rules out humoral hypercalcemia of malignancy"
+        "clinical_significance": ""
       },
       {
         "test_name": "SPEP (Serum Protein Electrophoresis)",
         "result": "No monoclonal protein detected",
         "flag": "WNL",
-        "clinical_significance": "Rules out multiple myeloma as cause of hypercalcemia and bone disease"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [

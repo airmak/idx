@@ -2,7 +2,7 @@
   "case_id": "case_245",
   "mode": "easy",
   "specialty": "Family Medicine",
-  "diagnosis": "Osteoarthritis of the knee",
+  "diagnosis": "Osteoarthritis",
   "icd_category": "M17.11 — Primary osteoarthritis, right knee",
   "one_liner": "A 62-year-old overweight woman presents with 8 months of progressive right knee pain that worsens with activity and improves with rest, with morning stiffness lasting less than 30 minutes.",
   "stage2": {
@@ -35,7 +35,7 @@
         "test_name": "ESR",
         "result": "14 mm/hr",
         "flag": "WNL",
-        "clinical_significance": "Normal ESR; argues against inflammatory arthritis (RA, PMR)"
+        "clinical_significance": "Normal ESR;"
       },
       {
         "test_name": "CRP",
@@ -47,13 +47,13 @@
         "test_name": "Rheumatoid Factor (RF)",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Negative RF argues against rheumatoid arthritis"
+        "clinical_significance": ""
       },
       {
         "test_name": "Uric acid",
         "result": "5.2 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal uric acid; argues against gout"
+        "clinical_significance": "Normal uric acid;"
       },
       {
         "test_name": "CMP (Comprehensive Metabolic Panel)",

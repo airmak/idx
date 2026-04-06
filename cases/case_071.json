@@ -2,7 +2,7 @@
   "case_id": "case_071",
   "mode": "easy",
   "specialty": "Cardiology",
-  "diagnosis": "Hypertensive Crisis (Hypertensive Emergency)",
+  "diagnosis": "Hypertensive emergency",
   "icd_category": "I16.1 — Hypertensive emergency",
   "one_liner": "A 52-year-old female with a history of poorly controlled hypertension presents with severe headache, blurred vision, and a blood pressure of 220/130 mmHg.",
   "stage2": {
@@ -115,7 +115,7 @@
         "test_name": "CT head without contrast",
         "result": "No intracranial hemorrhage, no acute infarct, no mass lesion",
         "flag": "WNL",
-        "clinical_significance": "Rules out hemorrhagic stroke as cause of headache"
+        "clinical_significance": ""
       }
     ],
     "key_tests": [

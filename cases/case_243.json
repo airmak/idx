@@ -35,31 +35,31 @@
         "test_name": "CRP",
         "result": "1.2 mg/dL",
         "flag": "HIGH",
-        "clinical_significance": "Mildly elevated CRP common in viral infections; CRP <5 mg/dL makes bacterial pneumonia unlikely"
+        "clinical_significance": "Mildly elevated CRP common in viral infections;"
       },
       {
         "test_name": "Procalcitonin",
         "result": "0.08 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Procalcitonin <0.25 ng/mL strongly argues against bacterial infection and supports withholding antibiotics"
+        "clinical_significance": ""
       },
       {
         "test_name": "Influenza A/B rapid test",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out influenza as the causative agent; consistent with other viral etiology"
+        "clinical_significance": "consistent with other viral etiology"
       },
       {
         "test_name": "COVID-19 rapid antigen",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out COVID-19 as the cause of persistent cough"
+        "clinical_significance": ""
       },
       {
         "test_name": "Strep rapid antigen test",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out Group A streptococcal pharyngitis"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [
@@ -67,7 +67,7 @@
         "test_name": "Chest X-ray (PA and lateral)",
         "result": "Clear lung fields bilaterally. No infiltrates, consolidation, or effusions. No hilar lymphadenopathy. Normal cardiac silhouette.",
         "flag": "WNL",
-        "clinical_significance": "Normal chest X-ray rules out pneumonia; this condition is a clinical diagnosis that does not show infiltrates on imaging"
+        "clinical_significance": "this condition is a clinical diagnosis that does not show infiltrates on imaging"
       }
     ],
     "key_tests": [

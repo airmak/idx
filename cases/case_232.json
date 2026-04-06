@@ -2,7 +2,7 @@
   "case_id": "case_232",
   "mode": "attending",
   "specialty": "Psychiatry",
-  "diagnosis": "Neuroleptic Malignant Syndrome",
+  "diagnosis": "NMS (neuroleptic malignant syndrome)",
   "icd_category": "G21.0 — Neuroleptic malignant syndrome",
   "one_liner": "A 45-year-old man with schizophrenia presents with acute onset of high fever (104.2°F), severe muscle rigidity ('lead-pipe'), altered mental status, and autonomic instability 5 days after haloperidol was increased.",
   "stage2": {
@@ -71,7 +71,7 @@
         "test_name": "Blood cultures (x2)",
         "result": "No growth at 48 hours",
         "flag": "WNL",
-        "clinical_significance": "Rules out bacteremia/sepsis as cause of fever and altered mental status"
+        "clinical_significance": ""
       },
       {
         "test_name": "Urinalysis",
@@ -91,7 +91,7 @@
         "test_name": "CT Head without contrast",
         "result": "No acute intracranial abnormality. No hemorrhage, mass, or hydrocephalus.",
         "flag": "WNL",
-        "clinical_significance": "Rules out structural brain pathology as cause of altered mental status"
+        "clinical_significance": ""
       },
       {
         "test_name": "Chest X-ray",

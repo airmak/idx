@@ -2,7 +2,7 @@
   "case_id": "case_062",
   "mode": "attending",
   "specialty": "Surgery",
-  "diagnosis": "Intraoperative Pheochromocytoma Crisis",
+  "diagnosis": "Pheochromocytoma",
   "icd_category": "D35.0 — Benign neoplasm of adrenal gland",
   "one_liner": "A 38-year-old female undergoing laparoscopic adrenalectomy for a suspected adrenal incidentaloma develops sudden severe hypertensive crisis (BP 260/140), tachycardia, and ventricular arrhythmias during tumor manipulation.",
   "stage2": {
@@ -25,23 +25,97 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Plasma Metanephrines (pre-operative, resulted post-hoc)", "result": "Normetanephrine 1,842 pg/mL (normal <196), Metanephrine 986 pg/mL (normal <65)", "flag": "HIGH", "clinical_significance": "Markedly elevated (>4x upper limit), diagnostic of catecholamine-secreting tumor. These results were pending at the time of surgery, representing a critical systems failure."},
-      {"test_name": "24-Hour Urine Catecholamines (pre-operative, resulted post-hoc)", "result": "Norepinephrine 486 mcg/24hr (normal <80), Epinephrine 214 mcg/24hr (normal <20), Dopamine 312 mcg/24hr (normal <400)", "flag": "HIGH", "clinical_significance": "Massively elevated urine catecholamines confirming pheochromocytoma"},
-      {"test_name": "Intraoperative ABG", "result": "pH 7.24, pCO2 32, pO2 88, HCO3 14, Lactate 6.2 mmol/L", "flag": "HIGH", "clinical_significance": "Mixed metabolic acidosis with lactic acidosis from catecholamine-induced vasoconstriction and tissue hypoperfusion"},
-      {"test_name": "Intraoperative Glucose", "result": "284 mg/dL", "flag": "HIGH", "clinical_significance": "Catecholamine-induced glycogenolysis and gluconeogenesis; hyperglycemia is expected during pheochromocytoma crisis"},
-      {"test_name": "Troponin I (intraoperative)", "result": "0.82 ng/mL", "flag": "HIGH", "clinical_significance": "Elevated, indicating myocardial injury from catecholamine excess (demand ischemia, catecholamine-induced cardiomyopathy, or direct cardiotoxicity)"},
-      {"test_name": "BMP - Potassium (intraoperative)", "result": "3.0 mEq/L", "flag": "LOW", "clinical_significance": "Hypokalemia from catecholamine-induced intracellular potassium shift; contributes to arrhythmia risk"},
-      {"test_name": "BMP - Calcium", "result": "10.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; should prompt later evaluation for MEN2 syndrome (hyperparathyroidism)"},
-      {"test_name": "CBC - Hemoglobin", "result": "16.2 g/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with chronic catecholamine-induced volume contraction (hemoconcentration)"},
-      {"test_name": "Serum Chromogranin A", "result": "486 ng/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated, consistent with neuroendocrine tumor (pheochromocytoma)"}
+      {
+        "test_name": "Plasma Metanephrines (pre-operative, resulted post-hoc)",
+        "result": "Normetanephrine 1,842 pg/mL (normal <196), Metanephrine 986 pg/mL (normal <65)",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated (>4x upper limit), diagnostic of catecholamine-secreting tumor. These results were pending at the time of surgery, representing a critical systems failure."
+      },
+      {
+        "test_name": "24-Hour Urine Catecholamines (pre-operative, resulted post-hoc)",
+        "result": "Norepinephrine 486 mcg/24hr (normal <80), Epinephrine 214 mcg/24hr (normal <20), Dopamine 312 mcg/24hr (normal <400)",
+        "flag": "HIGH",
+        "clinical_significance": "Massively elevated urine catecholamines confirming pheochromocytoma"
+      },
+      {
+        "test_name": "Intraoperative ABG",
+        "result": "pH 7.24, pCO2 32, pO2 88, HCO3 14, Lactate 6.2 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mixed metabolic acidosis with lactic acidosis from catecholamine-induced vasoconstriction and tissue hypoperfusion"
+      },
+      {
+        "test_name": "Intraoperative Glucose",
+        "result": "284 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Catecholamine-induced glycogenolysis and gluconeogenesis; hyperglycemia is expected during pheochromocytoma crisis"
+      },
+      {
+        "test_name": "Troponin I (intraoperative)",
+        "result": "0.82 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, indicating myocardial injury from catecholamine excess (demand ischemia, catecholamine-induced cardiomyopathy, or direct cardiotoxicity)"
+      },
+      {
+        "test_name": "BMP - Potassium (intraoperative)",
+        "result": "3.0 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Hypokalemia from catecholamine-induced intracellular potassium shift; contributes to arrhythmia risk"
+      },
+      {
+        "test_name": "BMP - Calcium",
+        "result": "10.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; should prompt later evaluation for MEN2 syndrome (hyperparathyroidism)"
+      },
+      {
+        "test_name": "CBC - Hemoglobin",
+        "result": "16.2 g/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with chronic catecholamine-induced volume contraction (hemoconcentration)"
+      },
+      {
+        "test_name": "Serum Chromogranin A",
+        "result": "486 ng/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated, consistent with neuroendocrine tumor (pheochromocytoma)"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Pre-operative CT Abdomen with IV Contrast", "result": "A 4.2 x 3.8 cm well-circumscribed right adrenal mass. Heterogeneous enhancement pattern with areas of central necrosis. Pre-contrast density 38 HU (>10 HU). Absolute contrast washout of 42% at 15 minutes (<60%). No calcifications. No invasion of adjacent structures. Left adrenal normal. No lymphadenopathy.", "flag": "ABNORMAL", "clinical_significance": "The pre-contrast density >10 HU and washout <60% are NOT consistent with a benign adenoma and should have raised suspicion for pheochromocytoma or adrenocortical carcinoma. A lipid-poor adenoma was incorrectly presumed."},
-      {"test_name": "Intraoperative ECG/Telemetry", "result": "Monomorphic ventricular tachycardia at rate 148 bpm. ST-segment depression in lateral leads. Following phentolamine administration, converted to sinus tachycardia at 118 bpm with residual ST depression.", "flag": "ABNORMAL", "clinical_significance": "Catecholamine-induced ventricular arrhythmia with myocardial ischemia. Responded to alpha-blockade, supporting catecholamine excess as the etiology."}
+      {
+        "test_name": "Pre-operative CT Abdomen with IV Contrast",
+        "result": "A 4.2 x 3.8 cm well-circumscribed right adrenal mass. Heterogeneous enhancement pattern with areas of central necrosis. Pre-contrast density 38 HU (>10 HU). Absolute contrast washout of 42% at 15 minutes (<60%). No calcifications. No invasion of adjacent structures. Left adrenal normal. No lymphadenopathy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The pre-contrast density >10 HU and washout <60% are NOT consistent with a benign adenoma and should have raised suspicion for pheochromocytoma or adrenocortical carcinoma. A lipid-poor adenoma was incorrectly presumed."
+      },
+      {
+        "test_name": "Intraoperative ECG/Telemetry",
+        "result": "Monomorphic ventricular tachycardia at rate 148 bpm. ST-segment depression in lateral leads. Following phentolamine administration, converted to sinus tachycardia at 118 bpm with residual ST depression.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Catecholamine-induced ventricular arrhythmia with myocardial ischemia. Responded to alpha-blockade, supporting catecholamine excess as the etiology."
+      }
     ],
-    "key_tests": ["Plasma fractionated metanephrines (should have been obtained pre-operatively)", "24-hour urine fractionated metanephrines and catecholamines", "CT adrenal protocol (pre-contrast HU measurement, washout characteristics)", "Intraoperative ABG with lactate", "Intraoperative troponin"],
-    "acceptable_tests": ["Serum chromogranin A", "BMP (potassium, glucose, calcium)", "Intraoperative glucose monitoring", "ECG/continuous telemetry", "Echocardiogram (post-crisis, evaluate for catecholamine cardiomyopathy)", "MIBG scan (for metastatic disease or extra-adrenal disease)", "Genetic testing (RET, VHL, SDHB/C/D — for hereditary syndromes)"],
-    "low_yield_tests": ["Vanillylmandelic acid (VMA) — older, less sensitive test replaced by metanephrines", "Clonidine suppression test (rarely needed with markedly elevated metanephrines)", "Adrenal biopsy (absolutely contraindicated without prior biochemical workup — can precipitate lethal crisis)", "Random spot urine catecholamines"],
+    "key_tests": [
+      "Plasma fractionated metanephrines (should have been obtained pre-operatively)",
+      "24-hour urine fractionated metanephrines and catecholamines",
+      "CT adrenal protocol (pre-contrast HU measurement, washout characteristics)",
+      "Intraoperative ABG with lactate",
+      "Intraoperative troponin"
+    ],
+    "acceptable_tests": [
+      "Serum chromogranin A",
+      "BMP (potassium, glucose, calcium)",
+      "Intraoperative glucose monitoring",
+      "ECG/continuous telemetry",
+      "Echocardiogram (post-crisis, evaluate for catecholamine cardiomyopathy)",
+      "MIBG scan (for metastatic disease or extra-adrenal disease)",
+      "Genetic testing (RET, VHL, SDHB/C/D — for hereditary syndromes)"
+    ],
+    "low_yield_tests": [
+      "Vanillylmandelic acid (VMA) — older, less sensitive test replaced by metanephrines",
+      "Clonidine suppression test (rarely needed with markedly elevated metanephrines)",
+      "Adrenal biopsy (absolutely contraindicated without prior biochemical workup — can precipitate lethal crisis)",
+      "Random spot urine catecholamines"
+    ],
     "final_clue": "Intraoperative hypertensive crisis with BP 260/140, ventricular tachycardia, and lactic acidosis triggered by adrenal tumor manipulation is classic for undiagnosed pheochromocytoma. Post-hoc plasma metanephrines are massively elevated. The adrenal mass had imaging features (HU >10, low washout) that were inconsistent with a benign adenoma. This case represents a failure to complete the mandatory biochemical workup before adrenalectomy — all adrenal incidentalomas require functional assessment before surgical intervention."
   },
   "stage5": {
@@ -68,9 +142,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Pheochromocytoma (intraoperative crisis)", "Malignant hyperthermia", "Thyroid storm (intraoperative)", "Anaphylaxis", "Light anesthesia/awareness", "Carcinoid crisis", "Adrenocortical carcinoma (hormonally active)"],
-    "after_stage2_more_likely": ["Pheochromocytoma", "Carcinoid crisis"],
-    "after_stage2_less_likely": ["Malignant hyperthermia", "Thyroid storm", "Anaphylaxis"],
-    "after_labs_top3": ["Pheochromocytoma", "Carcinoid crisis", "Adrenocortical carcinoma"]
+    "reasonable_ddx": [
+      "Pheochromocytoma (intraoperative crisis)",
+      "Malignant hyperthermia",
+      "Thyroid storm (intraoperative)",
+      "Anaphylaxis",
+      "Light anesthesia/awareness",
+      "Carcinoid crisis",
+      "Adrenocortical carcinoma (hormonally active)"
+    ],
+    "after_stage2_more_likely": [
+      "Pheochromocytoma",
+      "Carcinoid crisis"
+    ],
+    "after_stage2_less_likely": [
+      "Malignant hyperthermia",
+      "Thyroid storm",
+      "Anaphylaxis"
+    ],
+    "after_labs_top3": [
+      "Pheochromocytoma",
+      "Carcinoid crisis",
+      "Adrenocortical carcinoma"
+    ]
   }
 }

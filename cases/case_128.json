@@ -2,7 +2,7 @@
   "case_id": "case_128",
   "mode": "easy",
   "specialty": "Nephrology",
-  "diagnosis": "Hyperkalemia — Medication-Induced",
+  "diagnosis": "Hyperkalemia",
   "icd_category": "E87.5 — Hyperkalemia",
   "one_liner": "A 65-year-old male with heart failure and CKD stage 3 presents with generalized weakness and palpitations 2 weeks after starting spironolactone.",
   "stage2": {
@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Serum Potassium", "result": "7.2 mEq/L", "flag": "HIGH", "clinical_significance": "Severe hyperkalemia; life-threatening arrhythmia risk; likely from combined ACEi + spironolactone + CKD + KCl salt substitute"},
-      {"test_name": "ECG", "result": "Peaked T waves, prolonged PR interval (240 ms), widened QRS (140 ms), heart rate 54 bpm with irregular rhythm", "flag": "ABNORMAL", "clinical_significance": "Classic ECG changes of hyperkalemia: peaked T waves, prolonged PR, widened QRS — indicates cardiac toxicity requiring emergent treatment"},
-      {"test_name": "Serum Creatinine", "result": "2.1 mg/dL (baseline 1.6)", "flag": "HIGH", "clinical_significance": "Worsened from baseline; CKD + ACEi + spironolactone impair renal potassium excretion"},
-      {"test_name": "BUN", "result": "38 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated, consistent with worsened renal function"},
-      {"test_name": "Serum Sodium", "result": "136 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Serum Bicarbonate", "result": "19 mEq/L", "flag": "LOW", "clinical_significance": "Mild metabolic acidosis; acidosis drives potassium out of cells, worsening hyperkalemia"},
-      {"test_name": "Serum Magnesium", "result": "2.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal; low magnesium can exacerbate cardiac effects of hyperkalemia"},
-      {"test_name": "Serum Glucose", "result": "145 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated; relevant for insulin-glucose treatment of hyperkalemia"},
-      {"test_name": "CBC", "result": "Hgb 11.2 g/dL, WBC 7,800/μL, Plt 210,000/μL", "flag": "WNL", "clinical_significance": "Mild anemia of CKD; no hemolysis to explain pseudohyperkalemia"},
-      {"test_name": "Venous Blood Gas", "result": "pH 7.31, pCO2 34 mmHg, HCO3 18 mEq/L", "flag": "ABNORMAL", "clinical_significance": "Non-anion gap metabolic acidosis; acidosis promotes transcellular potassium shift and worsens hyperkalemia"}
+      {
+        "test_name": "Serum Potassium",
+        "result": "7.2 mEq/L",
+        "flag": "HIGH",
+        "clinical_significance": "Severe hyperkalemia; life-threatening arrhythmia risk; likely from combined ACEi + spironolactone + CKD + KCl salt substitute"
+      },
+      {
+        "test_name": "ECG",
+        "result": "Peaked T waves, prolonged PR interval (240 ms), widened QRS (140 ms), heart rate 54 bpm with irregular rhythm",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic ECG changes of hyperkalemia: peaked T waves, prolonged PR, widened QRS — indicates cardiac toxicity requiring emergent treatment"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "2.1 mg/dL (baseline 1.6)",
+        "flag": "HIGH",
+        "clinical_significance": "Worsened from baseline; CKD + ACEi + spironolactone impair renal potassium excretion"
+      },
+      {
+        "test_name": "BUN",
+        "result": "38 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated, consistent with worsened renal function"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "136 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Serum Bicarbonate",
+        "result": "19 mEq/L",
+        "flag": "LOW",
+        "clinical_significance": "Mild metabolic acidosis; acidosis drives potassium out of cells, worsening hyperkalemia"
+      },
+      {
+        "test_name": "Serum Magnesium",
+        "result": "2.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; low magnesium can exacerbate cardiac effects of hyperkalemia"
+      },
+      {
+        "test_name": "Serum Glucose",
+        "result": "145 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated; relevant for insulin-glucose treatment of hyperkalemia"
+      },
+      {
+        "test_name": "CBC",
+        "result": "Hgb 11.2 g/dL, WBC 7,800/μL, Plt 210,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Mild anemia of CKD; no hemolysis to explain pseudohyperkalemia"
+      },
+      {
+        "test_name": "Venous Blood Gas",
+        "result": "pH 7.31, pCO2 34 mmHg, HCO3 18 mEq/L",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-anion gap metabolic acidosis; acidosis promotes transcellular potassium shift and worsens hyperkalemia"
+      }
     ],
     "imaging_results": [
-      {"test_name": "12-Lead ECG", "result": "Sinus bradycardia at 54 bpm with peaked T waves (most prominent V2-V4), prolonged PR interval (240 ms), widened QRS (140 ms). No ST elevations or depressions.", "flag": "ABNORMAL", "clinical_significance": "ECG changes represent progressive cardiac toxicity from hyperkalemia and demand emergent treatment"},
-      {"test_name": "Chest X-ray", "result": "Cardiomegaly with mild pulmonary vascular congestion. Small bilateral pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Consistent with chronic heart failure; mild congestion"}
+      {
+        "test_name": "12-Lead ECG",
+        "result": "Sinus bradycardia at 54 bpm with peaked T waves (most prominent V2-V4), prolonged PR interval (240 ms), widened QRS (140 ms). No ST elevations or depressions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ECG changes represent progressive cardiac toxicity from hyperkalemia and demand emergent treatment"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Cardiomegaly with mild pulmonary vascular congestion. Small bilateral pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Consistent with chronic heart failure; mild congestion"
+      }
     ],
     "key_tests": [
       "Stat serum potassium level",

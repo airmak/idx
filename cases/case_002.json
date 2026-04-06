@@ -2,7 +2,7 @@
   "case_id": "case_002",
   "mode": "easy",
   "specialty": "Emergency Medicine",
-  "diagnosis": "Pulmonary embolism",
+  "diagnosis": "Pulmonary embolism (PE)",
   "icd_category": "I26.09 – Other pulmonary embolism with acute cor pulmonale",
   "one_liner": "A 34-year-old female on OCP presents 2 days after a 14-hour flight with sudden onset dyspnea, right-sided pleuritic chest pain, and right calf swelling.",
   "stage2": {
@@ -83,7 +83,7 @@
         "test_name": "Beta-hCG",
         "result": "< 5 mIU/mL (negative)",
         "flag": "WNL",
-        "clinical_significance": "Negative pregnancy test rules out ectopic pregnancy and is required before CT with contrast in a woman of childbearing age; it also confirms anticoagulation is not contraindicated in pregnancy."
+        "clinical_significance": "it also confirms anticoagulation is not contraindicated in pregnancy."
       }
     ],
     "imaging_results": [

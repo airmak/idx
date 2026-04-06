@@ -2,7 +2,7 @@
   "case_id": "case_170",
   "mode": "easy",
   "specialty": "Gastroenterology",
-  "diagnosis": "Clostridioides difficile Colitis",
+  "diagnosis": "Clostridioides difficile (C. diff) colitis",
   "icd_category": "A04.7 — Enterocolitis due to Clostridium difficile",
   "one_liner": "A 72-year-old female presents with profuse watery diarrhea, crampy abdominal pain, and low-grade fever 5 days after completing a course of clindamycin for a dental abscess.",
   "stage2": {
@@ -25,23 +25,99 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "C. difficile toxin PCR (NAAT)", "result": "Positive for toxigenic C. difficile (toxin B gene detected)", "flag": "ABNORMAL", "clinical_significance": "Confirms C. difficile infection — PCR is highly sensitive for toxigenic strains"},
-      {"test_name": "C. difficile toxin EIA (A/B)", "result": "Positive for toxin A and B", "flag": "ABNORMAL", "clinical_significance": "Positive toxin EIA with positive NAAT confirms active toxin-producing infection (not just colonization)"},
-      {"test_name": "CBC", "result": "WBC 22.5, Hgb 12.8, Plt 350", "flag": "HIGH", "clinical_significance": "Marked leukocytosis (WBC >15,000 is a severity criterion); leukemoid reaction can occur in fulminant CDI"},
-      {"test_name": "BMP", "result": "Na 132, K 3.0, Cr 1.6 (baseline 0.9), BUN 38, Glucose 165", "flag": "ABNORMAL", "clinical_significance": "Acute kidney injury from dehydration, hypokalemia from diarrheal losses, hyponatremia"},
-      {"test_name": "Lactate", "result": "2.4 mmol/L", "flag": "HIGH", "clinical_significance": "Mildly elevated from hypovolemia; markedly elevated lactate would suggest fulminant disease"},
-      {"test_name": "Albumin", "result": "2.6 g/dL", "flag": "LOW", "clinical_significance": "Low albumin is a marker of severe CDI and poor prognosis"},
-      {"test_name": "CRP", "result": "95 mg/L", "flag": "HIGH", "clinical_significance": "Elevated inflammatory marker consistent with active colitis"},
-      {"test_name": "Stool culture (bacterial)", "result": "No Salmonella, Shigella, Campylobacter, or E. coli O157:H7", "flag": "WNL", "clinical_significance": "Excludes other bacterial enteric pathogens"},
-      {"test_name": "Fecal leukocytes", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Indicates inflammatory diarrhea consistent with CDI colitis"}
+      {
+        "test_name": "C. difficile toxin PCR (NAAT)",
+        "result": "Positive for toxigenic C. difficile (toxin B gene detected)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms C. difficile infection — PCR is highly sensitive for toxigenic strains"
+      },
+      {
+        "test_name": "C. difficile toxin EIA (A/B)",
+        "result": "Positive for toxin A and B",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive toxin EIA with positive NAAT confirms active toxin-producing infection (not just colonization)"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 22.5, Hgb 12.8, Plt 350",
+        "flag": "HIGH",
+        "clinical_significance": "Marked leukocytosis (WBC >15,000 is a severity criterion); leukemoid reaction can occur in fulminant CDI"
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 132, K 3.0, Cr 1.6 (baseline 0.9), BUN 38, Glucose 165",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute kidney injury from dehydration, hypokalemia from diarrheal losses, hyponatremia"
+      },
+      {
+        "test_name": "Lactate",
+        "result": "2.4 mmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated from hypovolemia; markedly elevated lactate would suggest fulminant disease"
+      },
+      {
+        "test_name": "Albumin",
+        "result": "2.6 g/dL",
+        "flag": "LOW",
+        "clinical_significance": "Low albumin is a marker of severe CDI and poor prognosis"
+      },
+      {
+        "test_name": "CRP",
+        "result": "95 mg/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory marker consistent with active colitis"
+      },
+      {
+        "test_name": "Stool culture (bacterial)",
+        "result": "No Salmonella, Shigella, Campylobacter, or E. coli O157:H7",
+        "flag": "WNL",
+        "clinical_significance": "Excludes other bacterial enteric pathogens"
+      },
+      {
+        "test_name": "Fecal leukocytes",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Indicates inflammatory diarrhea consistent with CDI colitis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT abdomen/pelvis with contrast", "result": "Diffuse colonic wall thickening (up to 8 mm) predominantly involving the sigmoid and descending colon with pericolonic fat stranding. Accordion sign present (contrast trapped between thickened haustra). No free air. No megacolon (maximal colonic diameter 5 cm).", "flag": "ABNORMAL", "clinical_significance": "CT findings consistent with C. difficile colitis. No evidence of toxic megacolon or perforation."},
-      {"test_name": "Abdominal X-ray", "result": "Dilated loops of colon without megacolon. No free air under diaphragm. Thumbprinting of colonic wall.", "flag": "ABNORMAL", "clinical_significance": "Thumbprinting suggests mucosal edema; no toxic megacolon (dilation <6 cm)."}
+      {
+        "test_name": "CT abdomen/pelvis with contrast",
+        "result": "Diffuse colonic wall thickening (up to 8 mm) predominantly involving the sigmoid and descending colon with pericolonic fat stranding. Accordion sign present (contrast trapped between thickened haustra). No free air. No megacolon (maximal colonic diameter 5 cm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CT findings consistent with C. difficile colitis. No evidence of toxic megacolon or perforation."
+      },
+      {
+        "test_name": "Abdominal X-ray",
+        "result": "Dilated loops of colon without megacolon. No free air under diaphragm. Thumbprinting of colonic wall.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Thumbprinting suggests mucosal edema; no toxic megacolon (dilation <6 cm)."
+      }
     ],
-    "key_tests": ["C. difficile toxin testing (NAAT +/- toxin EIA)", "CBC with differential", "BMP (creatinine, electrolytes)", "Stool studies for other pathogens", "Lactate"],
-    "acceptable_tests": ["Albumin", "CRP", "Abdominal X-ray", "CT abdomen/pelvis", "Fecal leukocytes", "Blood cultures", "Stool calprotectin", "Lactic acid"],
-    "low_yield_tests": ["Colonoscopy (risk of perforation in acute CDI)", "Upper endoscopy", "Barium enema", "MRCP", "Celiac serologies"],
+    "key_tests": [
+      "C. difficile toxin testing (NAAT +/- toxin EIA)",
+      "CBC with differential",
+      "BMP (creatinine, electrolytes)",
+      "Stool studies for other pathogens",
+      "Lactate"
+    ],
+    "acceptable_tests": [
+      "Albumin",
+      "CRP",
+      "Abdominal X-ray",
+      "CT abdomen/pelvis",
+      "Fecal leukocytes",
+      "Blood cultures",
+      "Stool calprotectin",
+      "Lactic acid"
+    ],
+    "low_yield_tests": [
+      "Colonoscopy (risk of perforation in acute CDI)",
+      "Upper endoscopy",
+      "Barium enema",
+      "MRCP",
+      "Celiac serologies"
+    ],
     "key_tests_rationale": "C. difficile NAAT is the most sensitive test for detecting toxigenic C. difficile. A two-step algorithm (GDH/NAAT followed by toxin EIA) helps distinguish colonization from active disease. CBC identifies leukocytosis (severity marker). BMP detects AKI and electrolyte derangements from diarrheal losses. Lactate elevation suggests severity."
   },
   "stage5": {
@@ -66,9 +142,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Infectious colitis (Salmonella, Shigella, Campylobacter)", "Ischemic colitis", "Ulcerative colitis flare", "Medication-induced diarrhea", "Diverticulitis", "Viral gastroenteritis"],
-    "after_stage2_more_likely": ["C. difficile colitis", "Infectious colitis (bacterial)", "Medication-induced diarrhea"],
-    "after_stage2_less_likely": ["Ischemic colitis", "Ulcerative colitis", "Diverticulitis"],
-    "after_labs_top3": ["C. difficile colitis (severe)", "Bacterial colitis", "Ischemic colitis"]
+    "reasonable_ddx": [
+      "Infectious colitis (Salmonella, Shigella, Campylobacter)",
+      "Ischemic colitis",
+      "Ulcerative colitis flare",
+      "Medication-induced diarrhea",
+      "Diverticulitis",
+      "Viral gastroenteritis"
+    ],
+    "after_stage2_more_likely": [
+      "C. difficile colitis",
+      "Infectious colitis (bacterial)",
+      "Medication-induced diarrhea"
+    ],
+    "after_stage2_less_likely": [
+      "Ischemic colitis",
+      "Ulcerative colitis",
+      "Diverticulitis"
+    ],
+    "after_labs_top3": [
+      "C. difficile colitis (severe)",
+      "Bacterial colitis",
+      "Ischemic colitis"
+    ]
   }
 }

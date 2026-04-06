@@ -2,7 +2,7 @@
   "case_id": "case_102",
   "mode": "attending",
   "specialty": "Pulmonology",
-  "diagnosis": "Allergic bronchopulmonary aspergillosis",
+  "diagnosis": "Aspergillosis",
   "icd_category": "B44.81 — Allergic bronchopulmonary aspergillosis",
   "one_liner": "A 36-year-old man with poorly controlled asthma presents with recurrent episodes of brown mucus plugs, peripheral eosinophilia, and central bronchiectasis on CT.",
   "stage2": {
@@ -25,26 +25,117 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Total IgE", "result": "4,200 IU/mL", "flag": "HIGH", "clinical_significance": "Markedly elevated total IgE (>1,000 IU/mL) is a diagnostic criterion for ABPA and reflects intense allergic response to Aspergillus"},
-      {"test_name": "Aspergillus-specific IgE", "result": "Positive (>0.35 kUA/L, elevated at 12.8 kUA/L)", "flag": "HIGH", "clinical_significance": "Elevated Aspergillus-specific IgE is a diagnostic criterion for ABPA — indicates sensitization to Aspergillus fumigatus"},
-      {"test_name": "Aspergillus-specific IgG (precipitins)", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive precipitating antibodies to Aspergillus support the diagnosis of ABPA"},
-      {"test_name": "CBC — Eosinophil count (absolute)", "result": "2,800/uL (18%)", "flag": "HIGH", "clinical_significance": "Peripheral eosinophilia >500/uL is a diagnostic criterion for ABPA"},
-      {"test_name": "CBC — WBC", "result": "12,400/uL", "flag": "HIGH", "clinical_significance": "Mild leukocytosis with eosinophilic predominance"},
-      {"test_name": "ESR", "result": "48 mm/hr", "flag": "HIGH", "clinical_significance": "Elevated; active inflammatory process"},
-      {"test_name": "Aspergillus galactomannan (serum)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; ABPA is an allergic (not invasive) response to Aspergillus — galactomannan is for invasive aspergillosis"},
-      {"test_name": "Sputum fungal culture", "result": "Growth of Aspergillus fumigatus", "flag": "ABNORMAL", "clinical_significance": "Isolation of Aspergillus from sputum supports the diagnosis but is not required (can be transient colonization)"},
-      {"test_name": "BMP — Glucose", "result": "142 mg/dL", "flag": "HIGH", "clinical_significance": "Elevated fasting glucose — likely steroid-induced diabetes from chronic prednisone use"},
-      {"test_name": "ABG pO2", "result": "72 mmHg", "flag": "LOW", "clinical_significance": "Mild hypoxemia from airway obstruction and mucus plugging"},
-      {"test_name": "HbA1c", "result": "6.8%", "flag": "HIGH", "clinical_significance": "Prediabetes range — steroid-induced glucose intolerance"},
-      {"test_name": "Skin prick test — Aspergillus", "result": "Positive (immediate hypersensitivity reaction)", "flag": "ABNORMAL", "clinical_significance": "Immediate skin reactivity to Aspergillus fumigatus antigen is a diagnostic criterion"}
+      {
+        "test_name": "Total IgE",
+        "result": "4,200 IU/mL",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated total IgE (>1,000 IU/mL) is a diagnostic criterion for ABPA and reflects intense allergic response to Aspergillus"
+      },
+      {
+        "test_name": "Aspergillus-specific IgE",
+        "result": "Positive (>0.35 kUA/L, elevated at 12.8 kUA/L)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated Aspergillus-specific IgE is a diagnostic criterion for ABPA — indicates sensitization to Aspergillus fumigatus"
+      },
+      {
+        "test_name": "Aspergillus-specific IgG (precipitins)",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive precipitating antibodies to Aspergillus support the diagnosis of ABPA"
+      },
+      {
+        "test_name": "CBC — Eosinophil count (absolute)",
+        "result": "2,800/uL (18%)",
+        "flag": "HIGH",
+        "clinical_significance": "Peripheral eosinophilia >500/uL is a diagnostic criterion for ABPA"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "12,400/uL",
+        "flag": "HIGH",
+        "clinical_significance": "Mild leukocytosis with eosinophilic predominance"
+      },
+      {
+        "test_name": "ESR",
+        "result": "48 mm/hr",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated; active inflammatory process"
+      },
+      {
+        "test_name": "Aspergillus galactomannan (serum)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; ABPA is an allergic (not invasive) response to Aspergillus — galactomannan is for invasive aspergillosis"
+      },
+      {
+        "test_name": "Sputum fungal culture",
+        "result": "Growth of Aspergillus fumigatus",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Isolation of Aspergillus from sputum supports the diagnosis but is not required (can be transient colonization)"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "142 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated fasting glucose — likely steroid-induced diabetes from chronic prednisone use"
+      },
+      {
+        "test_name": "ABG pO2",
+        "result": "72 mmHg",
+        "flag": "LOW",
+        "clinical_significance": "Mild hypoxemia from airway obstruction and mucus plugging"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.8%",
+        "flag": "HIGH",
+        "clinical_significance": "Prediabetes range — steroid-induced glucose intolerance"
+      },
+      {
+        "test_name": "Skin prick test — Aspergillus",
+        "result": "Positive (immediate hypersensitivity reaction)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Immediate skin reactivity to Aspergillus fumigatus antigen is a diagnostic criterion"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT chest", "result": "Central bronchiectasis involving segmental and subsegmental bronchi bilaterally (upper lobe predominant). High-attenuation mucus plugging (HAM) in several dilated bronchi. Peribronchial thickening. Patchy ground-glass opacities in right upper lobe. No cavitation.", "flag": "ABNORMAL", "clinical_significance": "Central bronchiectasis (affecting proximal bronchi while sparing distal) with high-attenuation mucus is characteristic of ABPA. HAM (mucus denser than paraspinal muscle on CT) is virtually pathognomonic."},
-      {"test_name": "Chest X-ray", "result": "Bilateral perihilar opacities with 'finger-in-glove' opacities (mucoid impaction) in the right upper lobe. Tramline shadows suggesting bronchiectasis.", "flag": "ABNORMAL", "clinical_significance": "Finger-in-glove opacities represent mucoid impaction of dilated bronchi — classic radiographic finding of ABPA"}
+      {
+        "test_name": "CT chest",
+        "result": "Central bronchiectasis involving segmental and subsegmental bronchi bilaterally (upper lobe predominant). High-attenuation mucus plugging (HAM) in several dilated bronchi. Peribronchial thickening. Patchy ground-glass opacities in right upper lobe. No cavitation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Central bronchiectasis (affecting proximal bronchi while sparing distal) with high-attenuation mucus is characteristic of ABPA. HAM (mucus denser than paraspinal muscle on CT) is virtually pathognomonic."
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Bilateral perihilar opacities with 'finger-in-glove' opacities (mucoid impaction) in the right upper lobe. Tramline shadows suggesting bronchiectasis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Finger-in-glove opacities represent mucoid impaction of dilated bronchi — classic radiographic finding of ABPA"
+      }
     ],
-    "key_tests": ["Total serum IgE level", "Aspergillus-specific IgE", "Aspergillus-specific IgG (precipitins)", "CBC with eosinophil count", "CT chest (for central bronchiectasis and HAM)", "Skin prick test to Aspergillus"],
-    "acceptable_tests": ["Chest X-ray", "Sputum fungal culture", "ABG", "ESR/CRP", "PFTs", "Aspergillus galactomannan (to rule out invasive disease)", "BMP"],
-    "low_yield_tests": ["D-dimer", "BNP", "ANCA", "Anti-GBM antibodies", "Bronchoscopy (unless mucus clearance needed)"]
+    "key_tests": [
+      "Total serum IgE level",
+      "Aspergillus-specific IgE",
+      "Aspergillus-specific IgG (precipitins)",
+      "CBC with eosinophil count",
+      "CT chest (for central bronchiectasis and HAM)",
+      "Skin prick test to Aspergillus"
+    ],
+    "acceptable_tests": [
+      "Chest X-ray",
+      "Sputum fungal culture",
+      "ABG",
+      "ESR/CRP",
+      "PFTs",
+      "Aspergillus galactomannan (to rule out invasive disease)",
+      "BMP"
+    ],
+    "low_yield_tests": [
+      "D-dimer",
+      "BNP",
+      "ANCA",
+      "Anti-GBM antibodies",
+      "Bronchoscopy (unless mucus clearance needed)"
+    ]
   },
   "stage5": {
     "final_clue": "The patient meets the ISHAM (International Society for Human and Animal Mycology) diagnostic criteria for ABPA: (1) predisposing condition (asthma), (2) obligatory criteria (positive Aspergillus skin test/IgE AND elevated total IgE >1,000 IU/mL), (3) supportive criteria (peripheral eosinophilia, positive Aspergillus IgG, central bronchiectasis, HAM on CT). Treatment with oral corticosteroids (prednisone taper) and itraconazole is initiated."
@@ -68,9 +159,27 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Allergic bronchopulmonary aspergillosis", "Eosinophilic granulomatosis with polyangiitis", "Chronic eosinophilic pneumonia", "Severe asthma with fungal sensitization (SAFS)", "Invasive pulmonary aspergillosis", "Parasitic lung infection", "Bronchiectasis (other causes)"],
-    "after_stage2_more_likely": ["Allergic bronchopulmonary aspergillosis", "Severe asthma with fungal sensitization"],
-    "after_stage2_less_likely": ["Invasive pulmonary aspergillosis", "Parasitic lung infection"],
-    "after_labs_top3": ["Allergic bronchopulmonary aspergillosis", "Severe asthma with fungal sensitization", "Chronic eosinophilic pneumonia"]
+    "reasonable_ddx": [
+      "Allergic bronchopulmonary aspergillosis",
+      "Eosinophilic granulomatosis with polyangiitis",
+      "Chronic eosinophilic pneumonia",
+      "Severe asthma with fungal sensitization (SAFS)",
+      "Invasive pulmonary aspergillosis",
+      "Parasitic lung infection",
+      "Bronchiectasis (other causes)"
+    ],
+    "after_stage2_more_likely": [
+      "Allergic bronchopulmonary aspergillosis",
+      "Severe asthma with fungal sensitization"
+    ],
+    "after_stage2_less_likely": [
+      "Invasive pulmonary aspergillosis",
+      "Parasitic lung infection"
+    ],
+    "after_labs_top3": [
+      "Allergic bronchopulmonary aspergillosis",
+      "Severe asthma with fungal sensitization",
+      "Chronic eosinophilic pneumonia"
+    ]
   }
 }

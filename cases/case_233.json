@@ -2,7 +2,7 @@
   "case_id": "case_233",
   "mode": "attending",
   "specialty": "Psychiatry",
-  "diagnosis": "Serotonin Syndrome",
+  "diagnosis": "Serotonin syndrome",
   "icd_category": "G25.79 — Other drug-induced movement disorders (Serotonin syndrome)",
   "one_liner": "A 38-year-old woman on sertraline and tramadol presents with acute onset of agitation, hyperthermia, clonus, hyperreflexia, diaphoresis, and dilated pupils within hours of adding an MAOI for treatment-resistant depression.",
   "stage2": {
@@ -59,13 +59,13 @@
         "test_name": "Urine drug screen",
         "result": "Negative for MDMA, amphetamines, cocaine, PCP. Positive for tramadol (prescribed)",
         "flag": "ABNORMAL",
-        "clinical_significance": "Rules out MDMA/ecstasy (a potent serotonin releaser) as precipitant; confirms tramadol use (serotonergic opioid contributing to SS)"
+        "clinical_significance": "confirms tramadol use (serotonergic opioid contributing to SS)"
       },
       {
         "test_name": "TSH",
         "result": "2.0 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out thyroid storm as cause of hyperthermia and tachycardia"
+        "clinical_significance": ""
       },
       {
         "test_name": "Coagulation studies",
@@ -77,7 +77,7 @@
         "test_name": "Blood cultures (x2)",
         "result": "No growth at 48 hours",
         "flag": "WNL",
-        "clinical_significance": "Rules out sepsis"
+        "clinical_significance": ""
       },
       {
         "test_name": "Urinalysis",
@@ -91,7 +91,7 @@
         "test_name": "CT Head without contrast",
         "result": "No acute intracranial abnormality.",
         "flag": "WNL",
-        "clinical_significance": "Rules out intracranial pathology as cause of altered mental status"
+        "clinical_significance": ""
       },
       {
         "test_name": "ECG",

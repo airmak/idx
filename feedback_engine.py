@@ -209,10 +209,9 @@ Return ONLY valid JSON in this exact format:
             if response_text.startswith("json"):
                 response_text = response_text[4:]
         return json.loads(response_text)
-    except json.JSONDecodeError as e:
-        return {"error": f"Failed to parse feedback response: {str(e)}"}
-    except anthropic.APIError as e:
-        return {"error": f"API error: {str(e)}"}
+    except (json.JSONDecodeError, anthropic.APIError, Exception):
+        # Fall back to rule-based on any API failure
+        return get_stage2_feedback_rulebased(case_data, user_refinements)
 
 
 def get_stage3_feedback(case_data: dict, ordered_tests: list, api_key: str | None = None) -> dict:
@@ -281,7 +280,6 @@ Return ONLY valid JSON in this exact format:
             if response_text.startswith("json"):
                 response_text = response_text[4:]
         return json.loads(response_text)
-    except json.JSONDecodeError as e:
-        return {"error": f"Failed to parse feedback response: {str(e)}"}
-    except anthropic.APIError as e:
-        return {"error": f"API error: {str(e)}"}
+    except (json.JSONDecodeError, anthropic.APIError, Exception):
+        # Fall back to rule-based on any API failure
+        return get_stage3_feedback_rulebased(case_data, ordered_tests)

@@ -2,7 +2,7 @@
   "case_id": "case_177",
   "mode": "attending",
   "specialty": "Gastroenterology",
-  "diagnosis": "Gastroparesis (Diabetic)",
+  "diagnosis": "Gastroparesis",
   "icd_category": "K31.84 — Gastroparesis",
   "one_liner": "A 45-year-old female with longstanding poorly controlled type 1 diabetes presents with 6 months of early satiety, postprandial nausea, vomiting of undigested food, and erratic blood glucose levels.",
   "stage2": {
@@ -47,13 +47,13 @@
         "test_name": "LFTs",
         "result": "AST 28, ALT 32, ALP 90, bilirubin 0.8",
         "flag": "WNL",
-        "clinical_significance": "Normal liver function rules out hepatic causes of nausea/vomiting"
+        "clinical_significance": ""
       },
       {
         "test_name": "Lipase",
         "result": "38 U/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, excludes pancreatitis as a cause of vomiting"
+        "clinical_significance": "Normal."
       },
       {
         "test_name": "TSH",

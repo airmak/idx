@@ -2,7 +2,7 @@
   "case_id": "case_164",
   "mode": "easy",
   "specialty": "Gastroenterology",
-  "diagnosis": "Irritable Bowel Syndrome (IBS-D, Diarrhea-Predominant)",
+  "diagnosis": "Irritable bowel syndrome (IBS)",
   "icd_category": "K58.0 — Irritable bowel syndrome with diarrhea",
   "one_liner": "A 32-year-old female presents with 8 months of recurrent crampy abdominal pain improved with defecation and associated with loose stools, with normal labs and colonoscopy.",
   "stage2": {
@@ -35,7 +35,7 @@
         "test_name": "CRP",
         "result": "0.2 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal, no systemic inflammation — argues against IBD"
+        "clinical_significance": ""
       },
       {
         "test_name": "Fecal calprotectin",
@@ -47,13 +47,13 @@
         "test_name": "TSH",
         "result": "2.2 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out hyperthyroidism as cause of diarrhea"
+        "clinical_significance": ""
       },
       {
         "test_name": "Celiac panel (tTG IgA + total IgA)",
         "result": "tTG IgA 3 U/mL (negative), total IgA 180 mg/dL (normal)",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out celiac disease"
+        "clinical_significance": ""
       },
       {
         "test_name": "Stool studies (culture, O&P, C. diff)",
@@ -85,7 +85,7 @@
         "test_name": "Colonoscopy",
         "result": "Normal mucosa throughout colon and terminal ileum. No ulcers, erythema, or polyps. Random biopsies from right and left colon show normal histology.",
         "flag": "WNL",
-        "clinical_significance": "Normal structural exam with normal biopsies — rules out IBD and microscopic colitis"
+        "clinical_significance": ""
       },
       {
         "test_name": "Abdominal X-ray",

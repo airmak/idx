@@ -2,7 +2,7 @@
   "case_id": "case_250",
   "mode": "easy",
   "specialty": "Family Medicine",
-  "diagnosis": "Acute bacterial sinusitis",
+  "diagnosis": "Sinusitis (bacterial)",
   "icd_category": "J01.90 — Acute sinusitis, unspecified",
   "one_liner": "A 40-year-old man presents with 12 days of worsening nasal congestion, purulent nasal discharge, facial pain/pressure over the maxillary sinuses, and low-grade fever following a viral upper respiratory infection.",
   "stage2": {
@@ -53,13 +53,13 @@
         "test_name": "Rapid strep test",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out strep pharyngitis as cause of sore throat symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "Monospot",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out infectious mononucleosis"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [

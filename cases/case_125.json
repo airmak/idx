@@ -25,20 +25,80 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urinalysis", "result": "pH 5.5, >50 RBCs/hpf, no WBCs, no bacteria, calcium oxalate crystals (envelope-shaped)", "flag": "ABNORMAL", "clinical_significance": "Hematuria with calcium oxalate crystals strongly suggests calcium oxalate nephrolithiasis"},
-      {"test_name": "Serum Creatinine", "result": "1.1 mg/dL", "flag": "WNL", "clinical_significance": "Normal renal function; no evidence of obstructive nephropathy"},
-      {"test_name": "BUN", "result": "18 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Serum Calcium", "result": "10.4 mg/dL", "flag": "WNL", "clinical_significance": "Upper normal; should prompt evaluation for hypercalciuria"},
-      {"test_name": "Serum Uric Acid", "result": "8.2 mg/dL", "flag": "HIGH", "clinical_significance": "Hyperuricemia may contribute to stone formation through heterogeneous nucleation"},
-      {"test_name": "Serum Potassium", "result": "4.1 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "Serum Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — WBC", "result": "9,800/μL", "flag": "WNL", "clinical_significance": "No leukocytosis; argues against superimposed infection"},
-      {"test_name": "Serum Phosphorus", "result": "3.5 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "PTH (Parathyroid Hormone)", "result": "42 pg/mL", "flag": "WNL", "clinical_significance": "Normal; excludes primary hyperparathyroidism as a cause of stones"}
+      {
+        "test_name": "Urinalysis",
+        "result": "pH 5.5, >50 RBCs/hpf, no WBCs, no bacteria, calcium oxalate crystals (envelope-shaped)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hematuria with calcium oxalate crystals strongly suggests calcium oxalate nephrolithiasis"
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "result": "1.1 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; no evidence of obstructive nephropathy"
+      },
+      {
+        "test_name": "BUN",
+        "result": "18 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Serum Calcium",
+        "result": "10.4 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Upper normal; should prompt evaluation for hypercalciuria"
+      },
+      {
+        "test_name": "Serum Uric Acid",
+        "result": "8.2 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Hyperuricemia may contribute to stone formation through heterogeneous nucleation"
+      },
+      {
+        "test_name": "Serum Potassium",
+        "result": "4.1 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "Serum Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — WBC",
+        "result": "9,800/μL",
+        "flag": "WNL",
+        "clinical_significance": "No leukocytosis;"
+      },
+      {
+        "test_name": "Serum Phosphorus",
+        "result": "3.5 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "PTH (Parathyroid Hormone)",
+        "result": "42 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal."
+      }
     ],
     "imaging_results": [
-      {"test_name": "Non-contrast CT Abdomen/Pelvis", "result": "5 mm radiopaque calculus in the left proximal ureter at the ureteropelvic junction with mild left-sided hydronephrosis. No additional stones. No other abnormalities.", "flag": "ABNORMAL", "clinical_significance": "Gold standard imaging confirms obstructing ureteral stone; 5 mm stones have ~70% chance of spontaneous passage"},
-      {"test_name": "KUB X-ray", "result": "Radiopaque density projecting over the left renal area consistent with calcification.", "flag": "ABNORMAL", "clinical_significance": "Calcium oxalate stones are radiopaque on plain film; useful for follow-up monitoring"}
+      {
+        "test_name": "Non-contrast CT Abdomen/Pelvis",
+        "result": "5 mm radiopaque calculus in the left proximal ureter at the ureteropelvic junction with mild left-sided hydronephrosis. No additional stones. No other abnormalities.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gold standard imaging confirms obstructing ureteral stone; 5 mm stones have ~70% chance of spontaneous passage"
+      },
+      {
+        "test_name": "KUB X-ray",
+        "result": "Radiopaque density projecting over the left renal area consistent with calcification.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Calcium oxalate stones are radiopaque on plain film; useful for follow-up monitoring"
+      }
     ],
     "key_tests": [
       "Non-contrast CT abdomen/pelvis (stone protocol)",

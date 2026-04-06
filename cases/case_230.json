@@ -2,7 +2,7 @@
   "case_id": "case_230",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Attention-Deficit/Hyperactivity Disorder, combined presentation, adult",
+  "diagnosis": "ADHD (attention-deficit/hyperactivity disorder)",
   "icd_category": "F90.2 — Attention-deficit hyperactivity disorder, combined type",
   "one_liner": "A 30-year-old man with a childhood history of behavioral problems presents with lifelong difficulty concentrating, impulsivity, restlessness, and chronic underachievement at work despite high intelligence.",
   "stage2": {
@@ -25,17 +25,62 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction which can cause attention and concentration difficulties"},
-      {"test_name": "CBC", "result": "WBC 6.8, Hgb 15.0, Hct 44.5, Plt 245", "flag": "WNL", "clinical_significance": "No anemia contributing to fatigue or poor concentration"},
-      {"test_name": "CMP", "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 15, Cr 1.0, Glucose 95, Ca 9.5, AST 22, ALT 20", "flag": "WNL", "clinical_significance": "Normal metabolic panel; rules out metabolic causes of cognitive complaints"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out stimulant or substance use as cause of symptoms or drug-seeking behavior"},
-      {"test_name": "Vitamin B12", "result": "520 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency contributing to cognitive symptoms"},
-      {"test_name": "Iron studies", "result": "Ferritin 85 ng/mL, Iron 90 mcg/dL, TIBC 320 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out iron deficiency which has been associated with ADHD symptoms and restless legs"},
-      {"test_name": "Lead level", "result": "< 3.5 mcg/dL", "flag": "WNL", "clinical_significance": "Rules out lead toxicity as contributor to attention difficulties (particularly relevant for childhood onset)"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm at 76 bpm. QTc 400 ms. No structural abnormalities.", "flag": "WNL", "clinical_significance": "Baseline cardiac assessment before potential stimulant medication initiation"}
+      {
+        "test_name": "TSH",
+        "result": "2.5 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.8, Hgb 15.0, Hct 44.5, Plt 245",
+        "flag": "WNL",
+        "clinical_significance": "No anemia contributing to fatigue or poor concentration"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 140, K 4.2, Cl 103, CO2 25, BUN 15, Cr 1.0, Glucose 95, Ca 9.5, AST 22, ALT 20",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel;"
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "520 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Iron studies",
+        "result": "Ferritin 85 ng/mL, Iron 90 mcg/dL, TIBC 320 mcg/dL",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Lead level",
+        "result": "< 3.5 mcg/dL",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm at 76 bpm. QTc 400 ms. No structural abnormalities.",
+        "flag": "WNL",
+        "clinical_significance": "Baseline cardiac assessment before potential stimulant medication initiation"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG (12-lead)", "result": "Normal sinus rhythm. Normal intervals and axis. No structural abnormality suggested.", "flag": "WNL", "clinical_significance": "Baseline ECG recommended before stimulant initiation, particularly if cardiac history or family history of sudden death"}
+      {
+        "test_name": "ECG (12-lead)",
+        "result": "Normal sinus rhythm. Normal intervals and axis. No structural abnormality suggested.",
+        "flag": "WNL",
+        "clinical_significance": "Baseline ECG recommended before stimulant initiation, particularly if cardiac history or family history of sudden death"
+      }
     ],
     "key_tests": [
       "Adult ADHD Self-Report Scale (ASRS v1.1) — Part A 5/6 positive (highly suggestive of ADHD)",
@@ -63,7 +108,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "The patient meets DSM-5 criteria for ADHD, combined presentation: ≥5 inattention symptoms (difficulty sustaining attention, does not follow through on tasks, difficulty organizing, loses things, easily distracted, forgetful) AND ≥5 hyperactivity-impulsivity symptoms (fidgets, restless, talks excessively, interrupts, difficulty waiting turn, acts impulsively). Symptoms were present before age 12 (confirmed by collateral from mother and school reports). Symptoms are present in multiple settings (work, home, social). Medical workup rules out thyroid disease, anemia, substance use, and metabolic causes. ASRS screening is strongly positive."
+    "final_clue": "The patient meets DSM-5 criteria for ADHD, combined presentation: ≥5 inattention symptoms (difficulty sustaining attention, does not follow through on tasks, difficulty organizing, loses things, easily distracted, forgetful) AND ≥5 hyperactivity-impulsivity symptoms (fidgets, restless, talks excessively, interrupts, difficulty waiting turn, acts impulsively). Symptoms were present before age 12 (confirmed by collateral from mother and school reports). Symptoms are present in multiple settings (work, home, social). ASRS screening is strongly positive."
   },
   "debrief": {
     "classic_presentation": "An adult with a childhood history of inattention, hyperactivity, and impulsivity presenting with persistent functional impairment in academic/occupational performance, organization, time management, and interpersonal relationships. Adults often present with 'internal restlessness' rather than overt hyperactivity. Common complaints include chronic underachievement, difficulty with executive functioning, impulsive decision-making, and emotional dysregulation.",

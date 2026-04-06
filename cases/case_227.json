@@ -2,7 +2,7 @@
   "case_id": "case_227",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Post-Traumatic Stress Disorder",
+  "diagnosis": "Post-traumatic stress disorder (PTSD)",
   "icd_category": "F43.10 — Post-traumatic stress disorder, unspecified",
   "one_liner": "A 29-year-old male combat veteran presents with 8 months of recurrent nightmares, hypervigilance, emotional numbing, and avoidance of crowded places following deployment to a combat zone.",
   "stage2": {
@@ -25,18 +25,68 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC", "result": "WBC 7.8, Hgb 15.5, Hct 45.2, Plt 252", "flag": "WNL", "clinical_significance": "No anemia or infection"},
-      {"test_name": "CMP", "result": "Na 141, K 4.3, Cl 103, CO2 25, BUN 16, Cr 1.0, Glucose 98, AST 38, ALT 42, Alk Phos 72, Albumin 4.2", "flag": "ABNORMAL", "clinical_significance": "Mildly elevated AST/ALT likely related to nightly alcohol use; no severe hepatic dysfunction"},
-      {"test_name": "GGT", "result": "68 U/L (normal <55)", "flag": "HIGH", "clinical_significance": "Elevated GGT consistent with regular alcohol consumption, supporting concern for alcohol use disorder"},
-      {"test_name": "TSH", "result": "2.2 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction contributing to mood/anxiety symptoms"},
-      {"test_name": "Urine drug screen", "result": "Negative", "flag": "WNL", "clinical_significance": "Rules out illicit substance use"},
-      {"test_name": "Blood alcohol level", "result": "0 mg/dL", "flag": "WNL", "clinical_significance": "Not acutely intoxicated at time of evaluation"},
-      {"test_name": "Vitamin D, 25-OH", "result": "18 ng/mL (low normal is 20-29)", "flag": "LOW", "clinical_significance": "Mild vitamin D deficiency common in patients with reduced outdoor activity and social withdrawal"},
-      {"test_name": "Testosterone, total", "result": "420 ng/dL", "flag": "WNL", "clinical_significance": "Normal testosterone; low testosterone can contribute to fatigue, low mood, and irritability in male veterans"},
-      {"test_name": "TBI biomarkers/neuropsych screening", "result": "MOCA score 26/30 (mild impairment in attention/concentration)", "flag": "ABNORMAL", "clinical_significance": "Mild cognitive deficits may be related to PTSD-related hyperarousal/concentration difficulty or residual mild TBI effects"}
+      {
+        "test_name": "CBC",
+        "result": "WBC 7.8, Hgb 15.5, Hct 45.2, Plt 252",
+        "flag": "WNL",
+        "clinical_significance": "No anemia or infection"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 141, K 4.3, Cl 103, CO2 25, BUN 16, Cr 1.0, Glucose 98, AST 38, ALT 42, Alk Phos 72, Albumin 4.2",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly elevated AST/ALT likely related to nightly alcohol use; no severe hepatic dysfunction"
+      },
+      {
+        "test_name": "GGT",
+        "result": "68 U/L (normal <55)",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated GGT consistent with regular alcohol consumption, supporting concern for alcohol use disorder"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.2 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Blood alcohol level",
+        "result": "0 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Not acutely intoxicated at time of evaluation"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "18 ng/mL (low normal is 20-29)",
+        "flag": "LOW",
+        "clinical_significance": "Mild vitamin D deficiency common in patients with reduced outdoor activity and social withdrawal"
+      },
+      {
+        "test_name": "Testosterone, total",
+        "result": "420 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal testosterone; low testosterone can contribute to fatigue, low mood, and irritability in male veterans"
+      },
+      {
+        "test_name": "TBI biomarkers/neuropsych screening",
+        "result": "MOCA score 26/30 (mild impairment in attention/concentration)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild cognitive deficits may be related to PTSD-related hyperarousal/concentration difficulty or residual mild TBI effects"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT Head without contrast", "result": "No acute intracranial abnormality. No residual evidence of prior traumatic injury. No mass or hemorrhage.", "flag": "WNL", "clinical_significance": "Rules out chronic structural sequelae of prior TBI or other intracranial pathology"}
+      {
+        "test_name": "CT Head without contrast",
+        "result": "No acute intracranial abnormality. No residual evidence of prior traumatic injury. No mass or hemorrhage.",
+        "flag": "WNL",
+        "clinical_significance": ""
+      }
     ],
     "key_tests": [
       "PCL-5 (PTSD Checklist for DSM-5) — score 62 (well above threshold of 31-33 for probable PTSD)",

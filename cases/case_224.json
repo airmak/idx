@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Urine drug screen", "result": "Negative for all substances including THC, amphetamines, PCP, cocaine", "flag": "WNL", "clinical_significance": "Rules out substance-induced psychosis (especially PCP, stimulants, cannabis)"},
-      {"test_name": "CBC", "result": "WBC 6.8, Hgb 14.9, Hct 43.5, Plt 248", "flag": "WNL", "clinical_significance": "No infection or hematologic abnormality; baseline before antipsychotic initiation"},
-      {"test_name": "CMP", "result": "Na 140, K 4.2, Cl 102, CO2 24, BUN 14, Cr 0.9, Glucose 88, Ca 9.5, AST 19, ALT 21, Alk Phos 58", "flag": "WNL", "clinical_significance": "Normal metabolic panel; rules out metabolic encephalopathy; baseline for antipsychotic monitoring"},
-      {"test_name": "TSH", "result": "2.0 mIU/L", "flag": "WNL", "clinical_significance": "Rules out thyroid dysfunction as cause of psychotic symptoms"},
-      {"test_name": "RPR", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out neurosyphilis as cause of psychosis"},
-      {"test_name": "HIV 1/2 Ag/Ab", "result": "Non-reactive", "flag": "WNL", "clinical_significance": "Rules out HIV-associated psychosis"},
-      {"test_name": "Vitamin B12", "result": "510 pg/mL", "flag": "WNL", "clinical_significance": "Rules out B12 deficiency psychosis"},
-      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 168, LDL 98, HDL 52, Triglycerides 90", "flag": "WNL", "clinical_significance": "Baseline metabolic monitoring before atypical antipsychotic initiation"},
-      {"test_name": "Fasting glucose", "result": "88 mg/dL", "flag": "WNL", "clinical_significance": "Baseline before antipsychotic therapy (metabolic syndrome risk)"},
-      {"test_name": "HbA1c", "result": "5.0%", "flag": "WNL", "clinical_significance": "Baseline glycemic control before atypical antipsychotic use"},
-      {"test_name": "Ceruloplasmin", "result": "28 mg/dL", "flag": "WNL", "clinical_significance": "Rules out Wilson disease in young patient with new psychiatric symptoms"}
+      {
+        "test_name": "Urine drug screen",
+        "result": "Negative for all substances including THC, amphetamines, PCP, cocaine",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6.8, Hgb 14.9, Hct 43.5, Plt 248",
+        "flag": "WNL",
+        "clinical_significance": "No infection or hematologic abnormality; baseline before antipsychotic initiation"
+      },
+      {
+        "test_name": "CMP",
+        "result": "Na 140, K 4.2, Cl 102, CO2 24, BUN 14, Cr 0.9, Glucose 88, Ca 9.5, AST 19, ALT 21, Alk Phos 58",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; baseline for antipsychotic monitoring"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.0 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "RPR",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "HIV 1/2 Ag/Ab",
+        "result": "Non-reactive",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "510 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "Fasting lipid panel",
+        "result": "Total cholesterol 168, LDL 98, HDL 52, Triglycerides 90",
+        "flag": "WNL",
+        "clinical_significance": "Baseline metabolic monitoring before atypical antipsychotic initiation"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "88 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Baseline before antipsychotic therapy (metabolic syndrome risk)"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "5.0%",
+        "flag": "WNL",
+        "clinical_significance": "Baseline glycemic control before atypical antipsychotic use"
+      },
+      {
+        "test_name": "Ceruloplasmin",
+        "result": "28 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": ""
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI Brain without contrast", "result": "No acute intracranial abnormality. No mass, demyelination, or structural abnormality. Normal ventricular size.", "flag": "WNL", "clinical_significance": "Rules out brain tumor, demyelinating disease, or structural lesion causing psychosis in first-episode presentation"},
-      {"test_name": "ECG", "result": "Normal sinus rhythm at 76 bpm. QTc 410 ms. No conduction abnormalities.", "flag": "WNL", "clinical_significance": "Baseline QTc important before starting antipsychotics, which can prolong QT interval"}
+      {
+        "test_name": "MRI Brain without contrast",
+        "result": "No acute intracranial abnormality. No mass, demyelination, or structural abnormality. Normal ventricular size.",
+        "flag": "WNL",
+        "clinical_significance": ""
+      },
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm at 76 bpm. QTc 410 ms. No conduction abnormalities.",
+        "flag": "WNL",
+        "clinical_significance": "Baseline QTc important before starting antipsychotics, which can prolong QT interval"
+      }
     ],
     "key_tests": [
       "Urine drug screen — essential to rule out substance-induced psychosis",

@@ -2,7 +2,7 @@
   "case_id": "case_187",
   "mode": "easy",
   "specialty": "Pediatrics",
-  "diagnosis": "Acute appendicitis (pediatric)",
+  "diagnosis": "Appendicitis",
   "icd_category": "K35.80 – Unspecified acute appendicitis without abscess",
   "one_liner": "A 10-year-old female with no significant past medical history presents with 18 hours of periumbilical pain that has migrated to the right lower quadrant, accompanied by nausea, vomiting, and low-grade fever.",
   "stage2": {
@@ -71,13 +71,13 @@
         "test_name": "Urinalysis",
         "result": "Clear, SG 1.025, pH 6.0, 3-5 WBCs/hpf, no bacteria, no nitrites, trace leukocyte esterase",
         "flag": "WNL",
-        "clinical_significance": "Mild pyuria can be seen in this condition due to proximity of an inflamed appendix to the ureter/bladder; the absence of bacteria and nitrites makes UTI unlikely."
+        "clinical_significance": "Mild pyuria can be seen in this condition due to proximity of an inflamed appendix to the ureter/bladder;"
       },
       {
         "test_name": "Urine hCG",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Negative pregnancy test is important to obtain in all female patients of reproductive age presenting with abdominal pain to rule out ectopic pregnancy; this patient is premenarchal."
+        "clinical_significance": "this patient is premenarchal."
       }
     ],
     "imaging_results": [

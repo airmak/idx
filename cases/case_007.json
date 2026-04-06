@@ -2,7 +2,7 @@
   "case_id": "case_007",
   "mode": "attending",
   "specialty": "Pulmonology",
-  "diagnosis": "Hypersensitivity pneumonitis (subacute/chronic)",
+  "diagnosis": "Hypersensitivity pneumonitis",
   "icd_category": "J67.9 – Hypersensitivity pneumonitis due to unspecified organic dust",
   "one_liner": "A 55-year-old male presents with 3 months of progressive exertional dyspnea and dry cough, unresponsive to PPI and anxiolytic therapy.",
   "stage2": {
@@ -35,7 +35,7 @@
         "test_name": "BMP",
         "result": "Na 139 mEq/L, K 4.1 mEq/L, Cl 102 mEq/L, HCO3 24 mEq/L, BUN 16 mg/dL, Cr 0.9 mg/dL, Glucose 96 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal BMP argues against metabolic causes of fatigue and dyspnea; normal creatinine makes renal causes of fluid overload unlikely; baseline values important before potential corticosteroid therapy"
+        "clinical_significance": "baseline values important before potential corticosteroid therapy"
       },
       {
         "test_name": "CRP",
@@ -71,7 +71,7 @@
         "test_name": "BNP/NT-proBNP",
         "result": "BNP 48 pg/mL (WNL — normal <100 pg/mL)",
         "flag": "WNL",
-        "clinical_significance": "Normal BNP makes heart failure (and cardiac pulmonary edema) very unlikely as the cause of dyspnea and bilateral infiltrates on imaging; important to exclude in a hypertensive patient"
+        "clinical_significance": "important to exclude in a hypertensive patient"
       }
     ],
     "imaging_results": [

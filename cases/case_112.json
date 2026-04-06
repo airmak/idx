@@ -25,20 +25,79 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "6,600/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "13.4 g/dL", "flag": "WNL", "clinical_significance": "Normal; anemia excluded as cause of dizziness"},
-      {"test_name": "BMP — Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal; hypoglycemia excluded"},
-      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Vitamin D, 25-hydroxy", "result": "22 ng/mL", "flag": "LOW", "clinical_significance": "Low vitamin D — recent studies associate vitamin D deficiency with increased BPPV recurrence; supplementation may reduce recurrence"},
-      {"test_name": "BMP — Creatinine", "result": "0.8 mg/dL", "flag": "WNL", "clinical_significance": "Normal"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "6,600/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "13.4 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; anemia excluded as cause of dizziness"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "96 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; hypoglycemia excluded"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Vitamin D, 25-hydroxy",
+        "result": "22 ng/mL",
+        "flag": "LOW",
+        "clinical_significance": "Low vitamin D — recent studies associate vitamin D deficiency with increased BPPV recurrence; supplementation may reduce recurrence"
+      },
+      {
+        "test_name": "BMP — Creatinine",
+        "result": "0.8 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      }
     ],
     "imaging_results": [
-      {"test_name": "CT head without contrast", "result": "No acute intracranial abnormality. No mass or hemorrhage. Normal posterior fossa.", "flag": "WNL", "clinical_significance": "Normal; obtained to rule out central cause given patient age, though not typically required for classic BPPV presentation"}
+      {
+        "test_name": "CT head without contrast",
+        "result": "No acute intracranial abnormality. No mass or hemorrhage. Normal posterior fossa.",
+        "flag": "WNL",
+        "clinical_significance": "Normal;"
+      }
     ],
-    "key_tests": ["Dix-Hallpike maneuver (diagnostic gold standard for posterior canal BPPV)", "Supine roll test (for horizontal canal BPPV if Dix-Hallpike negative)", "Complete neurological examination including cranial nerves and cerebellar testing", "HINTS exam (Head Impulse, Nystagmus, Test of Skew — to differentiate peripheral vs. central vertigo)"],
-    "acceptable_tests": ["CBC (to exclude anemia)", "BMP (electrolytes, glucose)", "TSH", "Vitamin D level", "Audiometry (if hearing loss suspected)", "CT head (if central cause suspected)"],
-    "low_yield_tests": ["MRI brain (unless central features present)", "Carotid ultrasound", "EEG", "Echocardiogram", "Holter monitor", "Lumbar puncture"]
+    "key_tests": [
+      "Dix-Hallpike maneuver (diagnostic gold standard for posterior canal BPPV)",
+      "Supine roll test (for horizontal canal BPPV if Dix-Hallpike negative)",
+      "Complete neurological examination including cranial nerves and cerebellar testing",
+      "HINTS exam (Head Impulse, Nystagmus, Test of Skew — to differentiate peripheral vs. central vertigo)"
+    ],
+    "acceptable_tests": [
+      "CBC (to exclude anemia)",
+      "BMP (electrolytes, glucose)",
+      "TSH",
+      "Vitamin D level",
+      "Audiometry (if hearing loss suspected)",
+      "CT head (if central cause suspected)"
+    ],
+    "low_yield_tests": [
+      "MRI brain (unless central features present)",
+      "Carotid ultrasound",
+      "EEG",
+      "Echocardiogram",
+      "Holter monitor",
+      "Lumbar puncture"
+    ]
   },
   "stage5": {
     "final_clue": "The positive right Dix-Hallpike test with characteristic latency, torsional upbeat nystagmus lasting <1 minute, and fatigability confirms right posterior canal BPPV. An Epley maneuver (canalith repositioning procedure) is performed at the bedside for the right posterior canal. After the maneuver, the patient reports significant improvement. She is counseled on post-maneuver precautions and given Brandt-Daroff exercises for home. At 1-week follow-up, her vertigo has resolved and repeat Dix-Hallpike is negative. Vitamin D supplementation is optimized to reduce recurrence risk."
@@ -62,9 +121,26 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Benign paroxysmal positional vertigo", "Meniere disease", "Vestibular neuritis", "Posterior circulation stroke/TIA", "Vestibular migraine", "Orthostatic hypotension"],
-    "after_stage2_more_likely": ["Benign paroxysmal positional vertigo"],
-    "after_stage2_less_likely": ["Meniere disease", "Vestibular neuritis", "Posterior circulation stroke"],
-    "after_labs_top3": ["Benign paroxysmal positional vertigo", "Vestibular migraine", "Meniere disease"]
+    "reasonable_ddx": [
+      "Benign paroxysmal positional vertigo",
+      "Meniere disease",
+      "Vestibular neuritis",
+      "Posterior circulation stroke/TIA",
+      "Vestibular migraine",
+      "Orthostatic hypotension"
+    ],
+    "after_stage2_more_likely": [
+      "Benign paroxysmal positional vertigo"
+    ],
+    "after_stage2_less_likely": [
+      "Meniere disease",
+      "Vestibular neuritis",
+      "Posterior circulation stroke"
+    ],
+    "after_labs_top3": [
+      "Benign paroxysmal positional vertigo",
+      "Vestibular migraine",
+      "Meniere disease"
+    ]
   }
 }

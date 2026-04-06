@@ -2,7 +2,7 @@
   "case_id": "case_221",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Major Depressive Disorder, single episode, severe",
+  "diagnosis": "Major depressive disorder",
   "icd_category": "F32.2 — Major depressive disorder, single episode, severe without psychotic features",
   "one_liner": "A 34-year-old woman with no significant past medical history presents with 3 months of persistent sadness, anhedonia, poor sleep, and a 15-pound weight loss.",
   "stage2": {
@@ -29,13 +29,13 @@
         "test_name": "CBC with differential",
         "result": "WBC 6.2, Hgb 13.1, Hct 39.2, Plt 245",
         "flag": "WNL",
-        "clinical_significance": "Rules out anemia or infection as cause of fatigue"
+        "clinical_significance": ""
       },
       {
         "test_name": "TSH",
         "result": "2.1 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out hypothyroidism which can mimic depression"
+        "clinical_significance": ""
       },
       {
         "test_name": "Free T4",
@@ -47,43 +47,43 @@
         "test_name": "CMP (Comprehensive Metabolic Panel)",
         "result": "Na 140, K 4.1, Cl 102, CO2 24, BUN 14, Cr 0.8, Glucose 92, Ca 9.4, AST 22, ALT 18, Alk Phos 65, Albumin 3.8",
         "flag": "WNL",
-        "clinical_significance": "Rules out electrolyte abnormalities, hepatic, and renal causes of depressive symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "Vitamin B12",
         "result": "485 pg/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out B12 deficiency which can cause neuropsychiatric symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "Folate",
         "result": "12.4 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out folate deficiency"
+        "clinical_significance": ""
       },
       {
         "test_name": "Urine drug screen",
         "result": "Negative for all substances",
         "flag": "WNL",
-        "clinical_significance": "Rules out substance-induced mood disorder"
+        "clinical_significance": ""
       },
       {
         "test_name": "Cortisol (AM)",
         "result": "14.2 mcg/dL",
         "flag": "WNL",
-        "clinical_significance": "Rules out Cushing syndrome or adrenal insufficiency"
+        "clinical_significance": ""
       },
       {
         "test_name": "HbA1c",
         "result": "5.2%",
         "flag": "WNL",
-        "clinical_significance": "Rules out diabetes as contributing factor"
+        "clinical_significance": ""
       },
       {
         "test_name": "RPR",
         "result": "Non-reactive",
         "flag": "WNL",
-        "clinical_significance": "Rules out neurosyphilis as cause of neuropsychiatric symptoms"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [
@@ -91,7 +91,7 @@
         "test_name": "CT Head without contrast",
         "result": "No acute intracranial abnormality. No mass lesion or hydrocephalus.",
         "flag": "WNL",
-        "clinical_significance": "Rules out structural brain lesion as cause of mood symptoms"
+        "clinical_significance": ""
       }
     ],
     "key_tests": [

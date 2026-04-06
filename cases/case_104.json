@@ -2,7 +2,7 @@
   "case_id": "case_104",
   "mode": "easy",
   "specialty": "Neurology",
-  "diagnosis": "Migraine with aura",
+  "diagnosis": "Migraine",
   "icd_category": "G43.109 — Migraine with aura, not intractable, without status migrainosus",
   "one_liner": "A 28-year-old woman presents with a severe unilateral throbbing headache preceded by 20 minutes of visual zigzag lines and tingling in her left hand.",
   "stage2": {
@@ -53,7 +53,7 @@
         "test_name": "ESR",
         "result": "8 mm/hr",
         "flag": "WNL",
-        "clinical_significance": "Normal; excludes temporal arteritis (GCA) as cause of headache"
+        "clinical_significance": "Normal."
       },
       {
         "test_name": "CRP",
@@ -85,7 +85,7 @@
         "test_name": "CT head without contrast",
         "result": "No acute intracranial abnormality. No mass, hemorrhage, or midline shift. Normal ventricles.",
         "flag": "WNL",
-        "clinical_significance": "Normal CT; rules out acute hemorrhage, mass lesion, or hydrocephalus as cause of headache"
+        "clinical_significance": "Normal CT;"
       }
     ],
     "key_tests": [

@@ -2,7 +2,7 @@
   "case_id": "case_085",
   "mode": "easy",
   "specialty": "Pulmonology",
-  "diagnosis": "Asthma exacerbation",
+  "diagnosis": "Asthma",
   "icd_category": "J45.41 — Moderate persistent asthma with acute exacerbation",
   "one_liner": "A 22-year-old woman with a history of childhood asthma presents with acute-onset wheezing and shortness of breath after exposure to a cat.",
   "stage2": {
@@ -65,7 +65,7 @@
         "test_name": "BNP",
         "result": "25 pg/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal; rules out CHF as cause of dyspnea"
+        "clinical_significance": "Normal;"
       },
       {
         "test_name": "CRP",
@@ -97,7 +97,7 @@
         "test_name": "Chest X-ray (PA and lateral)",
         "result": "Hyperinflated lungs bilaterally. No infiltrates, effusions, or pneumothorax. No cardiomegaly.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Hyperinflation consistent with air trapping from bronchoconstriction; absence of consolidation argues against pneumonia"
+        "clinical_significance": "Hyperinflation consistent with air trapping from bronchoconstriction;"
       }
     ],
     "key_tests": [

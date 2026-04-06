@@ -2,7 +2,7 @@
   "case_id": "case_161",
   "mode": "easy",
   "specialty": "Gastroenterology",
-  "diagnosis": "Gastroesophageal Reflux Disease (GERD) with Esophagitis",
+  "diagnosis": "Gastroesophageal reflux disease (GERD)",
   "icd_category": "K21.0 — Gastro-esophageal reflux disease with esophagitis",
   "one_liner": "A 48-year-old obese male presents with 4 months of burning substernal chest pain after meals and nocturnal regurgitation.",
   "stage2": {
@@ -53,7 +53,7 @@
         "test_name": "Lipase",
         "result": "32 U/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out pancreatitis"
+        "clinical_significance": ""
       },
       {
         "test_name": "ALT",
@@ -77,7 +77,7 @@
         "test_name": "Troponin I",
         "result": "< 0.01 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out cardiac cause of chest pain"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [
@@ -91,7 +91,7 @@
         "test_name": "Esophageal biopsy",
         "result": "Squamous epithelium with basal cell hyperplasia, elongated papillae, and intraepithelial eosinophils (<5/hpf). No intestinal metaplasia. No dysplasia.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Histologic changes consistent with reflux esophagitis. Eosinophils <15/hpf rules out eosinophilic esophagitis."
+        "clinical_significance": "Histologic changes consistent with reflux esophagitis."
       }
     ],
     "key_tests": [

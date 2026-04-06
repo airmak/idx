@@ -2,7 +2,7 @@
   "case_id": "case_226",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Obsessive-Compulsive Disorder",
+  "diagnosis": "Obsessive-compulsive disorder (OCD)",
   "icd_category": "F42.2 — Obsessive-compulsive disorder, mixed obsessional thoughts and acts",
   "one_liner": "A 25-year-old woman with a history of eczema presents with 1 year of intrusive thoughts about contamination and repetitive handwashing rituals consuming 4 hours daily.",
   "stage2": {
@@ -35,7 +35,7 @@
         "test_name": "TSH",
         "result": "2.4 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out thyroid dysfunction contributing to anxiety symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "CMP",
@@ -47,7 +47,7 @@
         "test_name": "Urine drug screen",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out substance-induced obsessive-compulsive symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "ESR",
@@ -59,13 +59,13 @@
         "test_name": "ASO titer",
         "result": "< 200 IU/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out PANDAS (Pediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal infections) in a young patient"
+        "clinical_significance": ""
       },
       {
         "test_name": "Vitamin B12",
         "result": "490 pg/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out B12 deficiency contributing to neuropsychiatric symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "Wound culture (hand)",
@@ -79,7 +79,7 @@
         "test_name": "Hand X-ray (bilateral)",
         "result": "No fractures, no osteomyelitis. Soft tissue swelling noted.",
         "flag": "WNL",
-        "clinical_significance": "Rules out underlying bony pathology; soft tissue changes consistent with chronic dermatitis"
+        "clinical_significance": "soft tissue changes consistent with chronic dermatitis"
       }
     ],
     "key_tests": [

@@ -25,24 +25,104 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "Basic metabolic panel", "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 16, Cr 1.0, glucose 108, Ca 9.6", "flag": "WNL", "clinical_significance": "Normal electrolytes and renal function; important baseline before starting antihypertensive therapy"},
-      {"test_name": "eGFR", "result": "88 mL/min/1.73m²", "flag": "WNL", "clinical_significance": "Normal renal function; no evidence of hypertensive nephropathy currently"},
-      {"test_name": "Urinalysis", "result": "No protein, no blood, no glucose, specific gravity 1.018", "flag": "WNL", "clinical_significance": "No proteinuria; rules out early renal damage from hypertension"},
-      {"test_name": "Urine albumin-to-creatinine ratio", "result": "18 mg/g", "flag": "WNL", "clinical_significance": "Normal (<30 mg/g); no microalbuminuria — no early target organ damage to kidneys"},
-      {"test_name": "Fasting lipid panel", "result": "Total cholesterol 242 mg/dL, LDL 162 mg/dL, HDL 38 mg/dL, Triglycerides 210 mg/dL", "flag": "HIGH", "clinical_significance": "Dyslipidemia with elevated LDL, low HDL, and high triglycerides — common comorbidity with hypertension that increases cardiovascular risk"},
-      {"test_name": "HbA1c", "result": "6.2%", "flag": "HIGH", "clinical_significance": "Prediabetes (5.7-6.4%); warrants lifestyle intervention and monitoring"},
-      {"test_name": "Fasting glucose", "result": "112 mg/dL", "flag": "HIGH", "clinical_significance": "Impaired fasting glucose (100-125) consistent with prediabetes"},
-      {"test_name": "TSH", "result": "2.5 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function; rules out hypothyroidism or hyperthyroidism as secondary cause of hypertension"},
-      {"test_name": "CBC", "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 220,000/μL", "flag": "WNL", "clinical_significance": "Normal; polycythemia can cause hypertension but is not present here"},
-      {"test_name": "Uric acid", "result": "7.8 mg/dL", "flag": "HIGH", "clinical_significance": "Mildly elevated uric acid is associated with hypertension and metabolic syndrome; avoid thiazides if gout risk is high"}
+      {
+        "test_name": "Basic metabolic panel",
+        "result": "Na 141, K 4.2, Cl 103, CO2 25, BUN 16, Cr 1.0, glucose 108, Ca 9.6",
+        "flag": "WNL",
+        "clinical_significance": "Normal electrolytes and renal function; important baseline before starting antihypertensive therapy"
+      },
+      {
+        "test_name": "eGFR",
+        "result": "88 mL/min/1.73m²",
+        "flag": "WNL",
+        "clinical_significance": "Normal renal function; no evidence of hypertensive nephropathy currently"
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "No protein, no blood, no glucose, specific gravity 1.018",
+        "flag": "WNL",
+        "clinical_significance": "No proteinuria;"
+      },
+      {
+        "test_name": "Urine albumin-to-creatinine ratio",
+        "result": "18 mg/g",
+        "flag": "WNL",
+        "clinical_significance": "Normal (<30 mg/g); no microalbuminuria — no early target organ damage to kidneys"
+      },
+      {
+        "test_name": "Fasting lipid panel",
+        "result": "Total cholesterol 242 mg/dL, LDL 162 mg/dL, HDL 38 mg/dL, Triglycerides 210 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Dyslipidemia with elevated LDL, low HDL, and high triglycerides — common comorbidity with hypertension that increases cardiovascular risk"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.2%",
+        "flag": "HIGH",
+        "clinical_significance": "Prediabetes (5.7-6.4%); warrants lifestyle intervention and monitoring"
+      },
+      {
+        "test_name": "Fasting glucose",
+        "result": "112 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Impaired fasting glucose (100-125) consistent with prediabetes"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.5 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function;"
+      },
+      {
+        "test_name": "CBC",
+        "result": "WBC 6,800/μL, Hgb 15.2 g/dL, Plt 220,000/μL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; polycythemia can cause hypertension but is not present here"
+      },
+      {
+        "test_name": "Uric acid",
+        "result": "7.8 mg/dL",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated uric acid is associated with hypertension and metabolic syndrome; avoid thiazides if gout risk is high"
+      }
     ],
     "imaging_results": [
-      {"test_name": "ECG", "result": "Normal sinus rhythm. Meets Sokolow-Lyon voltage criteria for left ventricular hypertrophy (S in V1 + R in V5 = 38 mm). Left atrial enlargement. No ST-T wave changes.", "flag": "ABNORMAL", "clinical_significance": "ECG evidence of LVH indicates target organ damage from chronic uncontrolled hypertension; increases cardiovascular risk"},
-      {"test_name": "Chest X-ray", "result": "Mild cardiomegaly. No pulmonary congestion or pleural effusions.", "flag": "ABNORMAL", "clinical_significance": "Cardiomegaly consistent with LVH from chronic hypertension"}
+      {
+        "test_name": "ECG",
+        "result": "Normal sinus rhythm. Meets Sokolow-Lyon voltage criteria for left ventricular hypertrophy (S in V1 + R in V5 = 38 mm). Left atrial enlargement. No ST-T wave changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "ECG evidence of LVH indicates target organ damage from chronic uncontrolled hypertension; increases cardiovascular risk"
+      },
+      {
+        "test_name": "Chest X-ray",
+        "result": "Mild cardiomegaly. No pulmonary congestion or pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cardiomegaly consistent with LVH from chronic hypertension"
+      }
     ],
-    "key_tests": ["Basic metabolic panel", "Urinalysis with urine albumin-to-creatinine ratio", "Fasting lipid panel", "HbA1c or fasting glucose", "ECG"],
-    "acceptable_tests": ["CBC", "TSH", "Uric acid", "Chest X-ray", "Echocardiogram (to confirm LVH)", "Liver function tests", "Ambulatory blood pressure monitoring"],
-    "low_yield_tests": ["Renal artery duplex (no clinical suspicion for renovascular HTN)", "Plasma renin/aldosterone (no clinical features of secondary HTN)", "CT abdomen", "Cortisol level", "Urine drug screen"]
+    "key_tests": [
+      "Basic metabolic panel",
+      "Urinalysis with urine albumin-to-creatinine ratio",
+      "Fasting lipid panel",
+      "HbA1c or fasting glucose",
+      "ECG"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "TSH",
+      "Uric acid",
+      "Chest X-ray",
+      "Echocardiogram (to confirm LVH)",
+      "Liver function tests",
+      "Ambulatory blood pressure monitoring"
+    ],
+    "low_yield_tests": [
+      "Renal artery duplex (no clinical suspicion for renovascular HTN)",
+      "Plasma renin/aldosterone (no clinical features of secondary HTN)",
+      "CT abdomen",
+      "Cortisol level",
+      "Urine drug screen"
+    ]
   },
   "stage5": {
     "final_clue": "Ambulatory blood pressure monitoring over 24 hours confirms sustained hypertension with an average daytime BP of 152/92 mmHg and a blunted nocturnal dipping pattern (average nighttime BP 145/88 mmHg). The non-dipping pattern is associated with increased cardiovascular risk and target organ damage, consistent with the LVH already seen on ECG."
@@ -58,12 +138,31 @@
       "An S4 gallop on cardiac exam suggests LVH with diastolic dysfunction — a sign of longstanding hypertension",
       "Lifestyle modifications alone can lower systolic BP by 10-15 mmHg when combined (DASH diet + exercise + sodium restriction + weight loss + moderation of alcohol)"
     ],
-    "sources": ["UpToDate: Overview of hypertension in adults", "ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults 2017"]
+    "sources": [
+      "UpToDate: Overview of hypertension in adults",
+      "ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults 2017"
+    ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Essential hypertension", "White coat hypertension", "Secondary hypertension (renovascular, primary aldosteronism, pheochromocytoma)", "Obstructive sleep apnea-related hypertension", "Medication/substance-induced hypertension", "Thyroid disease"],
-    "after_stage2_more_likely": ["Essential hypertension (strong family history, obesity, high sodium diet, sedentary lifestyle, borderline BP years ago, age 48, no features of secondary causes)"],
-    "after_stage2_less_likely": ["White coat hypertension (sustained elevation on multiple readings and target organ damage already present)", "Pheochromocytoma (no episodic symptoms, no paroxysms)"],
-    "after_labs_top3": ["Essential hypertension", "Metabolic syndrome with hypertension", "Secondary hypertension (less likely given normal electrolytes and no clinical red flags)"]
+    "reasonable_ddx": [
+      "Essential hypertension",
+      "White coat hypertension",
+      "Secondary hypertension (renovascular, primary aldosteronism, pheochromocytoma)",
+      "Obstructive sleep apnea-related hypertension",
+      "Medication/substance-induced hypertension",
+      "Thyroid disease"
+    ],
+    "after_stage2_more_likely": [
+      "Essential hypertension (strong family history, obesity, high sodium diet, sedentary lifestyle, borderline BP years ago, age 48, no features of secondary causes)"
+    ],
+    "after_stage2_less_likely": [
+      "White coat hypertension (sustained elevation on multiple readings and target organ damage already present)",
+      "Pheochromocytoma (no episodic symptoms, no paroxysms)"
+    ],
+    "after_labs_top3": [
+      "Essential hypertension",
+      "Metabolic syndrome with hypertension",
+      "Secondary hypertension (less likely given normal electrolytes and no clinical red flags)"
+    ]
   }
 }

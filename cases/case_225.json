@@ -2,7 +2,7 @@
   "case_id": "case_225",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Panic Disorder",
+  "diagnosis": "Panic disorder",
   "icd_category": "F41.0 — Panic disorder without agoraphobia",
   "one_liner": "A 32-year-old woman with mitral valve prolapse presents with recurrent episodes of sudden-onset chest tightness, palpitations, diaphoresis, and fear of dying lasting 10-15 minutes.",
   "stage2": {
@@ -29,19 +29,19 @@
         "test_name": "Troponin I (serial x2)",
         "result": "< 0.01 ng/mL (x2, 3 hours apart)",
         "flag": "WNL",
-        "clinical_significance": "Rules out acute myocardial infarction as cause of chest pain"
+        "clinical_significance": ""
       },
       {
         "test_name": "TSH",
         "result": "1.9 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out hyperthyroidism as cause of palpitations and anxiety"
+        "clinical_significance": ""
       },
       {
         "test_name": "CBC",
         "result": "WBC 7.0, Hgb 13.5, Hct 40.1, Plt 235",
         "flag": "WNL",
-        "clinical_significance": "Rules out anemia as contributing factor for tachycardia"
+        "clinical_significance": ""
       },
       {
         "test_name": "CMP",
@@ -53,31 +53,31 @@
         "test_name": "Magnesium",
         "result": "1.9 mg/dL",
         "flag": "WNL",
-        "clinical_significance": "Rules out hypomagnesemia which can cause palpitations and anxiety"
+        "clinical_significance": ""
       },
       {
         "test_name": "D-dimer",
         "result": "< 250 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out pulmonary embolism as cause of acute dyspnea and chest pain"
+        "clinical_significance": ""
       },
       {
         "test_name": "Urine drug screen",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out stimulant-induced panic symptoms"
+        "clinical_significance": ""
       },
       {
         "test_name": "BNP",
         "result": "22 pg/mL",
         "flag": "WNL",
-        "clinical_significance": "Rules out heart failure as cause of dyspnea"
+        "clinical_significance": ""
       },
       {
         "test_name": "Plasma metanephrines",
         "result": "Normetanephrine 0.4 nmol/L, Metanephrine 0.2 nmol/L",
         "flag": "WNL",
-        "clinical_significance": "Rules out pheochromocytoma"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [
@@ -91,7 +91,7 @@
         "test_name": "Chest X-ray (PA and lateral)",
         "result": "Heart size normal. Lungs clear. No pneumothorax or pleural effusion.",
         "flag": "WNL",
-        "clinical_significance": "Rules out pulmonary pathology as cause of dyspnea and chest pain"
+        "clinical_significance": ""
       }
     ],
     "key_tests": [

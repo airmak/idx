@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 5.5, Hgb 13.2, Hct 39.8, Plt 240", "flag": "WNL", "clinical_significance": "Normal; rules out anemia and hematologic disease as cause of fatigue"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 139, K 4.1, Cl 102, CO2 24, BUN 12, Cr 0.7, Glucose 88, Ca 9.4, AST 20, ALT 18, Alk Phos 55, Albumin 4.0", "flag": "WNL", "clinical_significance": "Normal metabolic panel; no organ dysfunction"},
-      {"test_name": "TSH", "result": "2.1 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Free T4", "result": "1.2 ng/dL", "flag": "WNL", "clinical_significance": "Confirms euthyroid status"},
-      {"test_name": "ESR", "result": "8 mm/hr", "flag": "WNL", "clinical_significance": "Normal; no systemic inflammatory process"},
-      {"test_name": "CRP", "result": "0.2 mg/dL", "flag": "WNL", "clinical_significance": "Normal; argues against active autoimmune or inflammatory condition"},
-      {"test_name": "ANA", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; argues against SLE or other connective tissue disease"},
-      {"test_name": "Vitamin B12", "result": "450 pg/mL", "flag": "WNL", "clinical_significance": "Normal B12"},
-      {"test_name": "Vitamin D, 25-OH", "result": "32 ng/mL", "flag": "WNL", "clinical_significance": "Adequate vitamin D"},
-      {"test_name": "Ferritin", "result": "48 ng/mL", "flag": "WNL", "clinical_significance": "Normal iron stores"},
-      {"test_name": "Cortisol (AM)", "result": "14.5 mcg/dL", "flag": "WNL", "clinical_significance": "Normal morning cortisol; rules out adrenal insufficiency"},
-      {"test_name": "Lyme antibody (ELISA)", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; rules out Lyme disease as cause of fatigue and myalgia"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 5.5, Hgb 13.2, Hct 39.8, Plt 240",
+        "flag": "WNL",
+        "clinical_significance": "Normal;"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 139, K 4.1, Cl 102, CO2 24, BUN 12, Cr 0.7, Glucose 88, Ca 9.4, AST 20, ALT 18, Alk Phos 55, Albumin 4.0",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; no organ dysfunction"
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.1 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Free T4",
+        "result": "1.2 ng/dL",
+        "flag": "WNL",
+        "clinical_significance": "Confirms euthyroid status"
+      },
+      {
+        "test_name": "ESR",
+        "result": "8 mm/hr",
+        "flag": "WNL",
+        "clinical_significance": "Normal; no systemic inflammatory process"
+      },
+      {
+        "test_name": "CRP",
+        "result": "0.2 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal;"
+      },
+      {
+        "test_name": "ANA",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative;"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "450 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal B12"
+      },
+      {
+        "test_name": "Vitamin D, 25-OH",
+        "result": "32 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Adequate vitamin D"
+      },
+      {
+        "test_name": "Ferritin",
+        "result": "48 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal iron stores"
+      },
+      {
+        "test_name": "Cortisol (AM)",
+        "result": "14.5 mcg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal morning cortisol;"
+      },
+      {
+        "test_name": "Lyme antibody (ELISA)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative;"
+      }
     ],
     "imaging_results": [
-      {"test_name": "Chest X-ray", "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.", "flag": "WNL", "clinical_significance": "Rules out pulmonary pathology and lymphoma as cause of fatigue"}
+      {
+        "test_name": "Chest X-ray",
+        "result": "No infiltrates, masses, or lymphadenopathy. Normal cardiac silhouette.",
+        "flag": "WNL",
+        "clinical_significance": ""
+      }
     ],
     "key_tests": [
       "Comprehensive medical history — identifying cardinal ME/CFS features: post-exertional malaise, unrefreshing sleep, cognitive impairment, and orthostatic intolerance",

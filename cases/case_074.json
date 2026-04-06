@@ -2,7 +2,7 @@
   "case_id": "case_074",
   "mode": "easy",
   "specialty": "Cardiology",
-  "diagnosis": "Dilated Cardiomyopathy",
+  "diagnosis": "Dilated cardiomyopathy",
   "icd_category": "I42.0 — Dilated cardiomyopathy",
   "one_liner": "A 45-year-old male with no significant cardiac history presents with progressive dyspnea, fatigue, and new-onset bilateral leg edema over the past 2 months.",
   "stage2": {
@@ -71,19 +71,19 @@
         "test_name": "TSH",
         "result": "2.3 mIU/L",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out thyroid disease as cause"
+        "clinical_significance": ""
       },
       {
         "test_name": "Iron/TIBC/Ferritin",
         "result": "Iron 65, TIBC 320, Ferritin 120",
         "flag": "WNL",
-        "clinical_significance": "Normal iron studies, rules out hemochromatosis"
+        "clinical_significance": ""
       },
       {
         "test_name": "HIV antibody",
         "result": "Negative",
         "flag": "WNL",
-        "clinical_significance": "Rules out HIV cardiomyopathy"
+        "clinical_significance": ""
       },
       {
         "test_name": "Uric acid",
@@ -95,7 +95,7 @@
         "test_name": "Hemoglobin",
         "result": "13.2 g/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal, rules out anemia as contributing factor"
+        "clinical_significance": ""
       }
     ],
     "imaging_results": [

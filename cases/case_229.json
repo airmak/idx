@@ -2,7 +2,7 @@
   "case_id": "case_229",
   "mode": "easy",
   "specialty": "Psychiatry",
-  "diagnosis": "Alcohol Withdrawal Delirium (Delirium Tremens)",
+  "diagnosis": "Alcohol withdrawal",
   "icd_category": "F10.231 — Alcohol dependence with withdrawal delirium",
   "one_liner": "A 52-year-old man with a history of heavy alcohol use presents 72 hours after his last drink with agitation, visual hallucinations of insects, tremor, diaphoresis, tachycardia, and fever.",
   "stage2": {
@@ -77,13 +77,13 @@
         "test_name": "Lactate",
         "result": "3.2 mmol/L (elevated, normal <2.0)",
         "flag": "HIGH",
-        "clinical_significance": "Elevated lactate from agitation, dehydration, and possible early sepsis (must rule out infection as cause of fever)"
+        "clinical_significance": ""
       },
       {
         "test_name": "Blood cultures (x2)",
         "result": "Pending (drawn prior to antibiotics)",
         "flag": "WNL",
-        "clinical_significance": "Essential to rule out sepsis as a cause of altered mental status and fever"
+        "clinical_significance": ""
       },
       {
         "test_name": "Urine drug screen",
@@ -97,13 +97,13 @@
         "test_name": "CT Head without contrast",
         "result": "No acute intracranial hemorrhage, mass, or midline shift. Mild diffuse cerebral atrophy.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Rules out intracranial hemorrhage or structural cause of delirium; cerebral atrophy consistent with chronic alcohol use"
+        "clinical_significance": "cerebral atrophy consistent with chronic alcohol use"
       },
       {
         "test_name": "Chest X-ray",
         "result": "No acute infiltrate or pneumonia. Heart size upper limit of normal.",
         "flag": "WNL",
-        "clinical_significance": "Rules out aspiration pneumonia as source of fever"
+        "clinical_significance": ""
       }
     ],
     "key_tests": [

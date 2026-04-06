@@ -2,7 +2,7 @@
   "case_id": "case_256",
   "mode": "attending",
   "specialty": "Family Medicine",
-  "diagnosis": "Vitamin B12 deficiency with peripheral neuropathy",
+  "diagnosis": "Vitamin B12 deficiency",
   "icd_category": "E53.8 — Deficiency of other specified B group vitamins (B12 deficiency neuropathy)",
   "one_liner": "A 68-year-old man on long-term metformin and proton pump inhibitor presents with 8 months of progressive bilateral foot numbness, tingling, and gait unsteadiness, with macrocytic anemia and critically low B12.",
   "stage2": {
@@ -25,21 +25,86 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC with differential", "result": "WBC 4.8, Hgb 10.2, Hct 31.5, MCV 112 fL, MCH 38 pg, RDW 16.8%, Plt 165", "flag": "ABNORMAL", "clinical_significance": "Macrocytic anemia (MCV 112) — classic finding of B12 deficiency; elevated RDW indicates anisocytosis"},
-      {"test_name": "Peripheral blood smear", "result": "Macroovalocytes, hypersegmented neutrophils (6+ lobes), anisocytosis, poikilocytosis", "flag": "ABNORMAL", "clinical_significance": "Hypersegmented neutrophils are pathognomonic for megaloblastic anemia (B12 or folate deficiency)"},
-      {"test_name": "Vitamin B12", "result": "88 pg/mL", "flag": "LOW", "clinical_significance": "Critically low B12 (normal 200-900); confirms severe deficiency as cause of both neuropathy and macrocytic anemia"},
-      {"test_name": "Methylmalonic acid (MMA)", "result": "1,850 nmol/L", "flag": "HIGH", "clinical_significance": "Markedly elevated MMA (normal <370) — most sensitive and specific metabolic marker for B12 deficiency; confirms tissue-level deficiency"},
-      {"test_name": "Homocysteine", "result": "28 mcmol/L", "flag": "HIGH", "clinical_significance": "Elevated homocysteine — elevated in both B12 and folate deficiency; cardiovascular risk factor"},
-      {"test_name": "Folate", "result": "14.8 ng/mL", "flag": "WNL", "clinical_significance": "Normal folate — rules out folate deficiency as cause of megaloblastic anemia; distinguishes from B12 deficiency (MMA is normal in folate deficiency)"},
-      {"test_name": "Anti-intrinsic factor antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive intrinsic factor antibodies are specific for pernicious anemia — autoimmune destruction of parietal cells causing B12 malabsorption"},
-      {"test_name": "Anti-parietal cell antibodies", "result": "Positive", "flag": "ABNORMAL", "clinical_significance": "Positive parietal cell antibodies supporting autoimmune gastritis/pernicious anemia"},
-      {"test_name": "CMP (Comprehensive Metabolic Panel)", "result": "Na 140, K 4.2, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 108, Ca 9.4, AST 22, ALT 18, Alk Phos 55, Albumin 3.8", "flag": "WNL", "clinical_significance": "Normal metabolic panel; renal function normal (renal failure can cause elevated MMA)"},
-      {"test_name": "HbA1c", "result": "6.9%", "flag": "MILD HIGH", "clinical_significance": "Reasonably controlled diabetes — diabetic neuropathy is a competing diagnosis but macrocytic anemia and glossitis point to B12 deficiency"},
-      {"test_name": "TSH", "result": "4.8 mIU/L", "flag": "BORDERLINE HIGH", "clinical_significance": "Borderline TSH — pernicious anemia is associated with autoimmune thyroiditis; warrants monitoring"},
-      {"test_name": "Reticulocyte count", "result": "0.8%", "flag": "LOW", "clinical_significance": "Inappropriately low reticulocyte count for degree of anemia — consistent with megaloblastic ineffective erythropoiesis"}
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 4.8, Hgb 10.2, Hct 31.5, MCV 112 fL, MCH 38 pg, RDW 16.8%, Plt 165",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Macrocytic anemia (MCV 112) — classic finding of B12 deficiency; elevated RDW indicates anisocytosis"
+      },
+      {
+        "test_name": "Peripheral blood smear",
+        "result": "Macroovalocytes, hypersegmented neutrophils (6+ lobes), anisocytosis, poikilocytosis",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypersegmented neutrophils are pathognomonic for megaloblastic anemia (B12 or folate deficiency)"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "88 pg/mL",
+        "flag": "LOW",
+        "clinical_significance": "Critically low B12 (normal 200-900); confirms severe deficiency as cause of both neuropathy and macrocytic anemia"
+      },
+      {
+        "test_name": "Methylmalonic acid (MMA)",
+        "result": "1,850 nmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated MMA (normal <370) — most sensitive and specific metabolic marker for B12 deficiency; confirms tissue-level deficiency"
+      },
+      {
+        "test_name": "Homocysteine",
+        "result": "28 mcmol/L",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated homocysteine — elevated in both B12 and folate deficiency; cardiovascular risk factor"
+      },
+      {
+        "test_name": "Folate",
+        "result": "14.8 ng/mL",
+        "flag": "WNL",
+        "clinical_significance": "distinguishes from B12 deficiency (MMA is normal in folate deficiency)"
+      },
+      {
+        "test_name": "Anti-intrinsic factor antibodies",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive intrinsic factor antibodies are specific for pernicious anemia — autoimmune destruction of parietal cells causing B12 malabsorption"
+      },
+      {
+        "test_name": "Anti-parietal cell antibodies",
+        "result": "Positive",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive parietal cell antibodies supporting autoimmune gastritis/pernicious anemia"
+      },
+      {
+        "test_name": "CMP (Comprehensive Metabolic Panel)",
+        "result": "Na 140, K 4.2, Cl 102, CO2 25, BUN 16, Cr 1.0, Glucose 108, Ca 9.4, AST 22, ALT 18, Alk Phos 55, Albumin 3.8",
+        "flag": "WNL",
+        "clinical_significance": "Normal metabolic panel; renal function normal (renal failure can cause elevated MMA)"
+      },
+      {
+        "test_name": "HbA1c",
+        "result": "6.9%",
+        "flag": "MILD HIGH",
+        "clinical_significance": "Reasonably controlled diabetes — diabetic neuropathy is a competing diagnosis but macrocytic anemia and glossitis point to B12 deficiency"
+      },
+      {
+        "test_name": "TSH",
+        "result": "4.8 mIU/L",
+        "flag": "BORDERLINE HIGH",
+        "clinical_significance": "Borderline TSH — pernicious anemia is associated with autoimmune thyroiditis; warrants monitoring"
+      },
+      {
+        "test_name": "Reticulocyte count",
+        "result": "0.8%",
+        "flag": "LOW",
+        "clinical_significance": "Inappropriately low reticulocyte count for degree of anemia — consistent with megaloblastic ineffective erythropoiesis"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI Cervical and Thoracic Spine", "result": "No spinal cord compression or myelopathy signal. No demyelinating lesions. No stenosis. Normal cord caliber.", "flag": "WNL", "clinical_significance": "Rules out cervical myelopathy, spinal stenosis, and subacute combined degeneration (which may not yet be visible on MRI in early B12 deficiency neuropathy)"}
+      {
+        "test_name": "MRI Cervical and Thoracic Spine",
+        "result": "No spinal cord compression or myelopathy signal. No demyelinating lesions. No stenosis. Normal cord caliber.",
+        "flag": "WNL",
+        "clinical_significance": ""
+      }
     ],
     "key_tests": [
       "Serum B12 — critically low at 88 pg/mL, confirming deficiency",

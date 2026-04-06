@@ -2,7 +2,7 @@
   "case_id": "case_121",
   "mode": "attending",
   "specialty": "Neurology",
-  "diagnosis": "Amyotrophic lateral sclerosis",
+  "diagnosis": "Amyotrophic lateral sclerosis (ALS)",
   "icd_category": "G12.21 — Amyotrophic lateral sclerosis",
   "one_liner": "A 56-year-old man presents with 8 months of progressive painless weakness in his right hand with muscle wasting, fasciculations, and brisk reflexes in the same limb, now spreading to the left hand and right leg.",
   "stage2": {
@@ -25,25 +25,112 @@
   },
   "stage3": {
     "lab_results": [
-      {"test_name": "CBC — WBC", "result": "7,600/uL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CBC — Hemoglobin", "result": "14.8 g/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Sodium", "result": "140 mEq/L", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "BMP — Glucose", "result": "96 mg/dL", "flag": "WNL", "clinical_significance": "Normal"},
-      {"test_name": "CK (Creatine kinase)", "result": "420 U/L", "flag": "HIGH", "clinical_significance": "Mildly elevated CK is common in ALS (from active denervation) — typically <1000 U/L. Very high CK (>5000) suggests myopathy, not ALS."},
-      {"test_name": "TSH", "result": "2.4 mIU/L", "flag": "WNL", "clinical_significance": "Normal thyroid function"},
-      {"test_name": "Vitamin B12", "result": "460 pg/mL", "flag": "WNL", "clinical_significance": "Normal; B12 deficiency myelopathy excluded"},
-      {"test_name": "Serum protein electrophoresis (SPEP)", "result": "No monoclonal band", "flag": "WNL", "clinical_significance": "No paraproteinemia; excludes multifocal motor neuropathy with conduction block associated with anti-GM1 (though SPEP not the primary test for this)"},
-      {"test_name": "Anti-GM1 antibodies", "result": "Negative", "flag": "WNL", "clinical_significance": "Negative; helps exclude multifocal motor neuropathy (a treatable ALS mimic)"},
-      {"test_name": "HIV 1/2 antibody", "result": "Negative", "flag": "WNL", "clinical_significance": "HIV-associated motor neuron disease excluded"},
-      {"test_name": "Lead level", "result": "< 5 ug/dL", "flag": "WNL", "clinical_significance": "Normal; lead neuropathy excluded"}
+      {
+        "test_name": "CBC — WBC",
+        "result": "7,600/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CBC — Hemoglobin",
+        "result": "14.8 g/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Sodium",
+        "result": "140 mEq/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "BMP — Glucose",
+        "result": "96 mg/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal"
+      },
+      {
+        "test_name": "CK (Creatine kinase)",
+        "result": "420 U/L",
+        "flag": "HIGH",
+        "clinical_significance": "Mildly elevated CK is common in ALS (from active denervation) — typically <1000 U/L. Very high CK (>5000) suggests myopathy, not ALS."
+      },
+      {
+        "test_name": "TSH",
+        "result": "2.4 mIU/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal thyroid function"
+      },
+      {
+        "test_name": "Vitamin B12",
+        "result": "460 pg/mL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; B12 deficiency myelopathy excluded"
+      },
+      {
+        "test_name": "Serum protein electrophoresis (SPEP)",
+        "result": "No monoclonal band",
+        "flag": "WNL",
+        "clinical_significance": "No paraproteinemia."
+      },
+      {
+        "test_name": "Anti-GM1 antibodies",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Negative; helps exclude multifocal motor neuropathy (a treatable ALS mimic)"
+      },
+      {
+        "test_name": "HIV 1/2 antibody",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "HIV-associated motor neuron disease excluded"
+      },
+      {
+        "test_name": "Lead level",
+        "result": "< 5 ug/dL",
+        "flag": "WNL",
+        "clinical_significance": "Normal; lead neuropathy excluded"
+      }
     ],
     "imaging_results": [
-      {"test_name": "MRI cervical spine", "result": "Mild degenerative disc disease at C5-C6 and C6-C7 without significant cord compression or myelopathy signal. No syrinx or mass.", "flag": "WNL", "clinical_significance": "Excludes cervical spondylotic myelopathy and structural spinal cord compression as cause of upper and lower motor neuron signs. Mild degenerative changes are incidental and do not explain the widespread findings."},
-      {"test_name": "MRI brain", "result": "Subtle T2 hyperintensity along bilateral corticospinal tracts (precentral gyrus). No mass or other abnormality.", "flag": "MILDLY ABNORMAL", "clinical_significance": "Corticospinal tract signal change can be seen in ALS but is a nonspecific finding. MRI brain is primarily performed to exclude structural lesions."}
+      {
+        "test_name": "MRI cervical spine",
+        "result": "Mild degenerative disc disease at C5-C6 and C6-C7 without significant cord compression or myelopathy signal. No syrinx or mass.",
+        "flag": "WNL",
+        "clinical_significance": "Excludes cervical spondylotic myelopathy and structural spinal cord compression as cause of upper and lower motor neuron signs. Mild degenerative changes are incidental and do not explain the widespread findings."
+      },
+      {
+        "test_name": "MRI brain",
+        "result": "Subtle T2 hyperintensity along bilateral corticospinal tracts (precentral gyrus). No mass or other abnormality.",
+        "flag": "MILDLY ABNORMAL",
+        "clinical_significance": "Corticospinal tract signal change can be seen in ALS but is a nonspecific finding. MRI brain is primarily performed to exclude structural lesions."
+      }
     ],
-    "key_tests": ["EMG/NCS (electromyography and nerve conduction studies) — the most important diagnostic test", "MRI cervical and thoracic spine (to exclude structural mimics)", "MRI brain (to exclude structural upper motor neuron lesions)", "Pulmonary function tests (FVC — baseline respiratory assessment)", "CK level"],
-    "acceptable_tests": ["CBC", "BMP", "TSH", "Vitamin B12", "HIV testing", "SPEP/UPEP", "Anti-GM1 antibodies (to exclude MMN)", "Lead level", "Paraneoplastic antibody panel", "Genetic testing for SOD1 and C9orf72 (if family history or young onset)"],
-    "low_yield_tests": ["Lumbar puncture (rarely needed)", "EEG", "Muscle biopsy (rarely needed if EMG is diagnostic)", "Cerebral angiography"],
+    "key_tests": [
+      "EMG/NCS (electromyography and nerve conduction studies) — the most important diagnostic test",
+      "MRI cervical and thoracic spine (to exclude structural mimics)",
+      "MRI brain (to exclude structural upper motor neuron lesions)",
+      "Pulmonary function tests (FVC — baseline respiratory assessment)",
+      "CK level"
+    ],
+    "acceptable_tests": [
+      "CBC",
+      "BMP",
+      "TSH",
+      "Vitamin B12",
+      "HIV testing",
+      "SPEP/UPEP",
+      "Anti-GM1 antibodies (to exclude MMN)",
+      "Lead level",
+      "Paraneoplastic antibody panel",
+      "Genetic testing for SOD1 and C9orf72 (if family history or young onset)"
+    ],
+    "low_yield_tests": [
+      "Lumbar puncture (rarely needed)",
+      "EEG",
+      "Muscle biopsy (rarely needed if EMG is diagnostic)",
+      "Cerebral angiography"
+    ],
     "low_yield_tests_note": "EMG/NCS is essential — it provides electrodiagnostic evidence of widespread denervation (LMN) in clinically affected and unaffected regions, which is required for diagnosis by the revised El Escorial criteria."
   },
   "stage5": {
@@ -68,9 +155,28 @@
     ]
   },
   "ddx_hints": {
-    "reasonable_ddx": ["Amyotrophic lateral sclerosis", "Cervical spondylotic myelopathy", "Multifocal motor neuropathy", "Kennedy disease (spinal and bulbar muscular atrophy)", "Inclusion body myositis", "Primary lateral sclerosis", "Spinal muscular atrophy (adult-onset)"],
-    "after_stage2_more_likely": ["Amyotrophic lateral sclerosis", "Multifocal motor neuropathy"],
-    "after_stage2_less_likely": ["Cervical spondylotic myelopathy", "Kennedy disease", "Inclusion body myositis"],
-    "after_labs_top3": ["Amyotrophic lateral sclerosis", "Primary lateral sclerosis", "Multifocal motor neuropathy"]
+    "reasonable_ddx": [
+      "Amyotrophic lateral sclerosis",
+      "Cervical spondylotic myelopathy",
+      "Multifocal motor neuropathy",
+      "Kennedy disease (spinal and bulbar muscular atrophy)",
+      "Inclusion body myositis",
+      "Primary lateral sclerosis",
+      "Spinal muscular atrophy (adult-onset)"
+    ],
+    "after_stage2_more_likely": [
+      "Amyotrophic lateral sclerosis",
+      "Multifocal motor neuropathy"
+    ],
+    "after_stage2_less_likely": [
+      "Cervical spondylotic myelopathy",
+      "Kennedy disease",
+      "Inclusion body myositis"
+    ],
+    "after_labs_top3": [
+      "Amyotrophic lateral sclerosis",
+      "Primary lateral sclerosis",
+      "Multifocal motor neuropathy"
+    ]
   }
 }

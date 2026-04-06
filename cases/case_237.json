@@ -2,7 +2,7 @@
   "case_id": "case_237",
   "mode": "attending",
   "specialty": "Psychiatry",
-  "diagnosis": "Factitious disorder imposed on self (Munchausen syndrome)",
+  "diagnosis": "Factitious disorder",
   "icd_category": "F68.10 — Factitious disorder imposed on self, unspecified",
   "one_liner": "A 31-year-old female nurse presents with recurrent episodes of fever, leukocytosis, and polymicrobial bacteremia of unclear source, with extensive negative workup and suspicious hospital behavior.",
   "stage2": {
@@ -77,7 +77,7 @@
         "test_name": "Urinalysis",
         "result": "Clear, no WBC, no bacteria, no casts",
         "flag": "WNL",
-        "clinical_significance": "Rules out urinary source of bacteremia"
+        "clinical_significance": ""
       },
       {
         "test_name": "Lactate",
@@ -97,7 +97,7 @@
         "test_name": "Transthoracic echocardiogram",
         "result": "Normal biventricular function. No valvular vegetations. No intracardiac mass.",
         "flag": "WNL",
-        "clinical_significance": "Rules out endocarditis as source of recurrent bacteremia"
+        "clinical_significance": ""
       }
     ],
     "key_tests": [

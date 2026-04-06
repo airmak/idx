@@ -2,7 +2,7 @@
   "case_id": "case_006",
   "mode": "attending",
   "specialty": "Internal Medicine",
-  "diagnosis": "Addison disease (primary adrenal insufficiency)",
+  "diagnosis": "Addison disease",
   "icd_category": "E27.1 – Primary adrenocortical insufficiency",
   "one_liner": "A 41-year-old woman presents with 4 months of progressive fatigue, unexplained weight loss, nausea, and dizziness that worsens when she stands.",
   "stage2": {
@@ -41,7 +41,7 @@
         "test_name": "TSH/Free T4",
         "result": "TSH 2.1 mIU/L (WNL); Free T4 1.1 ng/dL (WNL)",
         "flag": "WNL",
-        "clinical_significance": "Normal thyroid function rules out hypothyroidism as the primary driver of fatigue and weight changes; however, patient's autoimmune thyroid history (Hashimoto) raises concern for polyglandular autoimmune syndrome type II (Schmidt syndrome), which includes Addison + autoimmune thyroid disease"
+        "clinical_significance": "however, patient's autoimmune thyroid history (Hashimoto) raises concern for polyglandular autoimmune syndrome type II (Schmidt syndrome), which includes Addison + autoimmune thyroid disease"
       },
       {
         "test_name": "LDH",
@@ -71,7 +71,7 @@
         "test_name": "LFTs",
         "result": "AST 28 U/L, ALT 32 U/L, ALP 72 U/L, Total bilirubin 0.8 mg/dL, Albumin 3.6 g/dL",
         "flag": "WNL",
-        "clinical_significance": "Normal liver function tests argue against hepatic malignancy, viral hepatitis, or celiac-related hepatopathy as the cause; reassuring in the context of weight loss workup"
+        "clinical_significance": "reassuring in the context of weight loss workup"
       }
     ],
     "imaging_results": [
@@ -85,7 +85,7 @@
         "test_name": "CXR (PA/Lateral)",
         "result": "No acute cardiopulmonary process; heart size normal; lung fields clear; no mediastinal widening; no pleural effusions",
         "flag": "WNL",
-        "clinical_significance": "Normal chest X-ray makes pulmonary TB, malignancy with pulmonary involvement, and heart failure unlikely contributors; in infectious/granulomatous adrenal insufficiency (TB, fungal), CXR may show primary pulmonary lesions"
+        "clinical_significance": "in infectious/granulomatous adrenal insufficiency (TB, fungal), CXR may show primary pulmonary lesions"
       },
       {
         "test_name": "EKG/ECG",

@@ -2,7 +2,7 @@
   "case_id": "case_087",
   "mode": "easy",
   "specialty": "Pulmonology",
-  "diagnosis": "Spontaneous pneumothorax",
+  "diagnosis": "Pneumothorax",
   "icd_category": "J93.11 — Primary spontaneous pneumothorax",
   "one_liner": "A 19-year-old tall, thin man presents with sudden-onset right-sided chest pain and dyspnea while at rest.",
   "stage2": {
@@ -71,13 +71,13 @@
         "test_name": "Troponin I",
         "result": "<0.01 ng/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal; rules out myocardial injury"
+        "clinical_significance": "Normal;"
       },
       {
         "test_name": "D-dimer",
         "result": "0.3 mcg/mL",
         "flag": "WNL",
-        "clinical_significance": "Normal; argues against pulmonary embolism"
+        "clinical_significance": "Normal;"
       },
       {
         "test_name": "Lactate",
