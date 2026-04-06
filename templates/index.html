@@ -351,19 +351,29 @@ a { color: var(--teal); text-decoration: none; }
 }
 #ddx-input:focus { outline: none; border-color: var(--teal); }
 #ddx-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0; right: 0;
+  position: fixed;
   background: var(--bg2);
   border: 1px solid var(--border);
   border-radius: 8px;
-  max-height: 300px;
+  max-height: 260px;
   overflow-y: auto;
-  z-index: 110;
+  z-index: 9999;
   display: none;
-  box-shadow: 0 8px 32px rgba(80,50,120,0.18);
+  box-shadow: 0 8px 32px rgba(80,50,120,0.22);
 }
 #ddx-dropdown.open { display: block; }
+#escape-dropdown {
+  position: fixed;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 8px 32px rgba(80,50,120,0.22);
+}
+#escape-dropdown.open { display: block; }
 .ddx-group-header {
   padding: 6px 12px;
   font-size: 0.72rem;
@@ -458,19 +468,16 @@ a { color: var(--teal); text-decoration: none; }
 .vindicate-cat-badge.visible { display: inline; }
 .vindicate-cat-arrow { color: var(--text-muted); font-size: 0.7rem; flex-shrink: 0; }
 .vindicate-cat-dropdown {
-  position: absolute;
-  top: calc(100% + 4px);
-  left: 0;
-  width: 240px;
+  position: fixed;
+  width: 260px;
   background: var(--bg2);
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: var(--shadow);
-  z-index: 110;
+  box-shadow: 0 8px 32px rgba(80,50,120,0.22);
+  z-index: 9999;
   display: none;
 }
 .vindicate-cat-dropdown.open { display: block; }
-.vindicate-cat-dropdown.align-right { left: auto; right: 0; }
 .vindicate-cat-filter {
   width: 100%;
   padding: 8px 12px;
@@ -1744,7 +1751,26 @@ function filterDdx() {
   buildDdxDropdown(document.getElementById('ddx-input').value);
   openDdxDropdown();
 }
-function openDdxDropdown() { document.getElementById('ddx-dropdown').classList.add('open'); }
+function openDdxDropdown() {
+  const dd = document.getElementById('ddx-dropdown');
+  const input = document.getElementById('ddx-input');
+  const rect = input.getBoundingClientRect();
+  dd.style.left = rect.left + 'px';
+  dd.style.width = rect.width + 'px';
+  // Check if dropdown would go below viewport
+  const spaceBelow = window.innerHeight - rect.bottom;
+  const spaceAbove = rect.top;
+  if (spaceBelow < 200 && spaceAbove > spaceBelow) {
+    dd.style.top = '';
+    dd.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+    dd.style.maxHeight = Math.min(260, spaceAbove - 20) + 'px';
+  } else {
+    dd.style.bottom = '';
+    dd.style.top = rect.bottom + 'px';
+    dd.style.maxHeight = Math.min(260, spaceBelow - 20) + 'px';
+  }
+  dd.classList.add('open');
+}
 function closeDdxDropdown() { document.getElementById('ddx-dropdown').classList.remove('open'); }
 
 // =====================================================
@@ -1836,7 +1862,7 @@ function buildVindicateGrid() {
     btn.addEventListener('click', (e) => { e.stopPropagation(); _toggleVindicateDropdown(catId, diseases, alignRight); });
 
     const dropdown = document.createElement('div');
-    dropdown.className = 'vindicate-cat-dropdown' + (alignRight ? ' align-right' : '');
+    dropdown.className = 'vindicate-cat-dropdown';
     dropdown.id = catId + '-dropdown';
 
     const filterInput = document.createElement('input');
@@ -1899,6 +1925,33 @@ function _toggleVindicateDropdown(catId, diseases, alignRight) {
   }
 
   const isOpen = dropdown.classList.contains('open');
+
+  if (!isOpen) {
+    // Position the dropdown using fixed positioning
+    const btn = document.getElementById(catId + '-btn');
+    if (btn) {
+      const rect = btn.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - rect.bottom;
+      const spaceAbove = rect.top;
+      const ddHeight = 240;
+
+      if (spaceBelow < ddHeight && spaceAbove > spaceBelow) {
+        dropdown.style.top = '';
+        dropdown.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+      } else {
+        dropdown.style.bottom = '';
+        dropdown.style.top = (rect.bottom + 4) + 'px';
+      }
+
+      // Align left by default, shift left if it would overflow right edge
+      let left = rect.left;
+      if (left + 260 > window.innerWidth) {
+        left = window.innerWidth - 270;
+      }
+      dropdown.style.left = Math.max(4, left) + 'px';
+    }
+  }
+
   dropdown.classList.toggle('open', !isOpen);
   _openVindicateCatId = isOpen ? null : catId;
 
@@ -2400,7 +2453,25 @@ function buildEscapeDropdown(filter) {
 }
 
 function filterEscape() { buildEscapeDropdown(document.getElementById('escape-input').value); }
-function openEscapeDropdown() { document.getElementById('escape-dropdown').classList.add('open'); }
+function openEscapeDropdown() {
+  const dd = document.getElementById('escape-dropdown');
+  const input = document.getElementById('escape-input');
+  const rect = input.getBoundingClientRect();
+  dd.style.left = rect.left + 'px';
+  dd.style.width = rect.width + 'px';
+  const spaceBelow = window.innerHeight - rect.bottom;
+  const spaceAbove = rect.top;
+  if (spaceBelow < 200 && spaceAbove > spaceBelow) {
+    dd.style.top = '';
+    dd.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+    dd.style.maxHeight = Math.min(260, spaceAbove - 20) + 'px';
+  } else {
+    dd.style.bottom = '';
+    dd.style.top = rect.bottom + 'px';
+    dd.style.maxHeight = Math.min(260, spaceBelow - 20) + 'px';
+  }
+  dd.classList.add('open');
+}
 function closeEscapeDropdown() { document.getElementById('escape-dropdown').classList.remove('open'); }
 
 let missedCount = 0;
