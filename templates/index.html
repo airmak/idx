@@ -1072,19 +1072,21 @@ a { color: var(--teal); text-decoration: none; }
    MOBILE RESPONSIVE
 ===================================================== */
 @media(max-width: 768px) {
+  #topbar { padding: 10px 14px; }
   #topnav {
     display: none; position: fixed; top: 0; right: 0;
-    width: 260px; height: 100vh;
+    width: 280px; height: 100vh;
     background: #FAF8FC; border-left: 1px solid var(--border);
     flex-direction: column; padding: 60px 20px 20px;
     gap: 16px; z-index: 200;
     box-shadow: -4px 0 20px rgba(80,50,120,0.15);
+    overflow-y: auto;
   }
   #topnav.mobile-open { display: flex; }
-  #topnav a { font-size: 1rem; padding: 8px 0; }
-  #session-stats-bar { flex-direction: column; gap: 8px; }
+  #topnav a { font-size: 1rem; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  #session-stats-bar { flex-direction: column; gap: 8px; padding: 12px 0; border-bottom: 1px solid var(--border); }
   #mobile-toggle { display: block; z-index: 300; }
-  #auth-area { flex-direction: column; align-items: flex-start; }
+  #auth-area { flex-direction: column; align-items: flex-start; padding-top: 8px; }
   .mobile-close {
     display: block;
     position: absolute; top: 16px; right: 16px;
@@ -1096,28 +1098,72 @@ a { color: var(--teal); text-decoration: none; }
     background: rgba(0,0,0,0.5); z-index: 150;
   }
   .mobile-overlay.active { display: block; }
+  /* Sticky bar: stack on mobile */
+  #sticky-bar { padding: 8px 14px; font-size: 0.75rem; top: 48px; }
+  /* Stage progress: smaller dots */
+  .stage-dot { width: 28px; height: 28px; font-size: 0.65rem; }
+  /* Library: horizontal scroll */
+  .library-table { display: block; overflow-x: auto; white-space: nowrap; }
+  /* DDx chips: wrap properly */
+  .ddx-chips { gap: 6px; }
+  .ddx-chip { font-size: 0.75rem; padding: 4px 10px; }
+  /* Ordered chips */
+  .ordered-chips { gap: 6px; }
+  .ordered-chip { font-size: 0.75rem; }
 }
 @media(max-width: 500px) {
-  .card { padding: 18px; }
-  #pregame-hero h1 { font-size: 2rem; }
-  #pregame-hero p { font-size: 0.9rem; }
-  .btn-lg { padding: 12px 20px; font-size: 0.9rem; }
-  .mode-buttons { flex-direction: column; align-items: center; }
-  .mode-btn { min-width: 100%; }
-  .vindicate-grid { grid-template-columns: repeat(2, 1fr); }
-  #main { padding: 16px 10px 60px; }
-  .score-breakdown { grid-template-columns: repeat(2,1fr); }
+  .card { padding: 16px 14px; }
+  .card-title { font-size: 0.95rem; gap: 8px; }
+  .card-title .icon { width: 30px; height: 30px; font-size: 1rem; }
+  #pregame-hero { padding: 32px 0 24px; }
+  #pregame-hero h1 { font-size: 1.8rem; }
+  #pregame-hero p { font-size: 0.88rem; }
+  .btn-lg { padding: 12px 20px; font-size: 0.9rem; width: 100%; justify-content: center; }
+  .btn { font-size: 0.82rem; padding: 9px 16px; }
+  .mode-buttons { flex-direction: column; align-items: stretch; }
+  .mode-btn { min-width: 100%; padding: 16px 20px; }
+  .vindicate-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .vindicate-cat-btn { padding: 7px 8px; font-size: 0.72rem; }
+  #main { padding: 12px 8px 60px; }
+  .score-breakdown { grid-template-columns: repeat(2,1fr); gap: 6px; }
+  .score-item { padding: 10px 8px; }
   .clinical-grid { grid-template-columns: 1fr; }
-  .vitals-grid { grid-template-columns: repeat(2, 1fr); }
-  .tabs { gap: 2px; }
-  .tab-btn { padding: 6px 8px; font-size: 0.75rem; }
-  .refinement-row { flex-direction: column; align-items: flex-start; gap: 6px; }
-  #auth-modal { margin: 16px; }
-  #settings-modal { margin: 16px; }
-  .result-card { flex-direction: column; gap: 8px; }
+  .vitals-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  /* Tabs: scrollable on mobile */
+  .tabs { gap: 0; overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab-btn { padding: 8px 12px; font-size: 0.75rem; white-space: nowrap; flex-shrink: 0; }
+  /* Test grid */
+  .test-grid { gap: 6px; }
+  .test-option { font-size: 0.75rem; padding: 6px 10px; }
+  .test-subcat-header { font-size: 0.68rem; }
+  /* Refinement */
+  .refinement-row { flex-direction: column; align-items: flex-start; gap: 8px; padding: 10px; }
+  .refinement-name { font-size: 0.82rem; }
+  .refinement-btns { width: 100%; }
+  .ref-btn { flex: 1; text-align: center; padding: 8px 6px; font-size: 0.72rem; }
+  /* Top3 */
+  .top3-option { padding: 10px 12px; }
+  .rank-item { padding: 8px 12px; }
+  /* Modals */
+  #auth-modal { margin: 12px; padding: 20px; }
+  #settings-modal { margin: 12px; padding: 20px; }
+  /* Result cards */
+  .result-card { flex-direction: column; gap: 8px; padding: 10px 12px; }
+  /* Final choice */
+  .final-option { padding: 10px 12px; }
+  /* Specialty select */
+  #specialty-row { flex-direction: column; gap: 8px; }
+  #specialty-select { min-width: 100%; }
+  /* Action row */
+  .action-row { flex-direction: column; gap: 8px; }
+  .action-row .btn { width: 100%; justify-content: center; }
 }
 @media(max-width: 360px) {
   .vindicate-grid { grid-template-columns: 1fr; }
+  #pregame-hero h1 { font-size: 1.5rem; }
+  .card { padding: 14px 10px; }
+  .vitals-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -1768,13 +1814,20 @@ function _positionDropdown(dd, anchorEl) {
     document.body.appendChild(dd);
   }
   const rect = anchorEl.getBoundingClientRect();
-  const spaceBelow = window.innerHeight - rect.bottom;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const spaceBelow = vh - rect.bottom;
   const spaceAbove = rect.top;
-  dd.style.left = rect.left + 'px';
-  dd.style.width = rect.width + 'px';
+  // Width: match anchor but clamp to viewport with padding
+  const ddWidth = Math.min(rect.width, vw - 16);
+  let left = rect.left;
+  if (left + ddWidth > vw - 8) left = vw - ddWidth - 8;
+  if (left < 8) left = 8;
+  dd.style.left = left + 'px';
+  dd.style.width = ddWidth + 'px';
   if (spaceBelow < 220 && spaceAbove > spaceBelow) {
     dd.style.top = '';
-    dd.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+    dd.style.bottom = (vh - rect.top + 4) + 'px';
     dd.style.maxHeight = Math.min(260, spaceAbove - 20) + 'px';
   } else {
     dd.style.bottom = '';
@@ -1973,20 +2026,23 @@ function _toggleVindicateDropdown(catId, diseases, alignRight) {
         document.body.appendChild(dropdown);
       }
       const rect = btn.getBoundingClientRect();
-      const spaceBelow = window.innerHeight - rect.bottom;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const spaceBelow = vh - rect.bottom;
       const spaceAbove = rect.top;
+      const ddWidth = Math.min(280, vw - 16);
 
       if (spaceBelow < 250 && spaceAbove > spaceBelow) {
         dropdown.style.top = '';
-        dropdown.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+        dropdown.style.bottom = (vh - rect.top + 4) + 'px';
       } else {
         dropdown.style.bottom = '';
         dropdown.style.top = (rect.bottom + 4) + 'px';
       }
       let left = rect.left;
-      if (left + 260 > window.innerWidth) left = window.innerWidth - 270;
+      if (left + ddWidth > vw - 8) left = vw - ddWidth - 8;
       dropdown.style.left = Math.max(4, left) + 'px';
-      dropdown.style.width = '260px';
+      dropdown.style.width = ddWidth + 'px';
     }
 
     dropdown.classList.add('open');
