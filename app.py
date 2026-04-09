@@ -393,7 +393,10 @@ def case_counts():
             attending = conn.execute(
                 text("SELECT COUNT(*) FROM cases WHERE mode = 'attending'")
             ).scalar()
-        return jsonify({"easy": easy, "attending": attending})
+            step1 = conn.execute(
+                text("SELECT COUNT(*) FROM cases WHERE mode = 'step1'")
+            ).scalar()
+        return jsonify({"easy": easy, "attending": attending, "step1": step1})
     except SQLAlchemyError as e:
         return jsonify({"error": str(e)}), 500
 

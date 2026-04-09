@@ -232,6 +232,7 @@ a { color: var(--teal); text-decoration: none; }
 }
 .diff-badge.easy { background: rgba(86,232,154,0.18); color: var(--green); border: 1px solid rgba(86,232,154,0.35); }
 .diff-badge.attending { background: rgba(255,207,61,0.18); color: var(--amber); border: 1px solid rgba(255,207,61,0.35); }
+.diff-badge.step1 { background: rgba(124,58,237,0.18); color: #9b6dff; border: 1px solid rgba(124,58,237,0.45); }
 
 /* =====================================================
    BUTTONS
@@ -296,6 +297,7 @@ a { color: var(--teal); text-decoration: none; }
 .mode-btn:hover { border-color: var(--teal); box-shadow: 0 0 24px rgba(0,229,204,0.15); transform: translateY(-2px); }
 .mode-btn.selected { border-color: var(--teal); background: linear-gradient(135deg, rgba(0,229,204,0.15) 0%, rgba(91,168,255,0.08) 100%); color: var(--teal); box-shadow: 0 0 24px rgba(0,229,204,0.25); }
 .mode-btn.attending-btn.selected { border-color: var(--amber); background: linear-gradient(135deg, rgba(255,207,61,0.15) 0%, rgba(255,143,69,0.08) 100%); color: var(--amber); box-shadow: 0 0 24px rgba(255,207,61,0.25); }
+.mode-btn.step1-btn.selected { border-color: #9b6dff; background: linear-gradient(135deg, rgba(124,58,237,0.18) 0%, rgba(91,168,255,0.08) 100%); color: #9b6dff; box-shadow: 0 0 24px rgba(124,58,237,0.28); }
 .mode-btn-sub { font-size: 0.72rem; font-weight: 500; color: var(--text-muted); margin-top: 4px; }
 .mode-btn.selected .mode-btn-sub { color: inherit; opacity: 0.8; }
 #specialty-row { display: flex; gap: 12px; align-items: center; justify-content: center; margin-bottom: 28px; flex-wrap: wrap; }
@@ -1288,6 +1290,10 @@ a { color: var(--teal); text-decoration: none; }
     <p>Master clinical reasoning. Work up cases like an attending. Build the differential, order the workup, lock in your diagnosis.</p>
 
     <div class="mode-buttons">
+      <button class="mode-btn step1-btn" id="mode-step1-btn" onclick="selectMode('step1')">
+        Step 1 Focus
+        <div class="mode-btn-sub">First Aid pearls · Big-picture workup</div>
+      </button>
       <button class="mode-btn selected" id="mode-easy-btn" onclick="selectMode('easy')">
         Easy Mode
         <div class="mode-btn-sub">Textbook-classic presentations</div>
@@ -1621,6 +1627,29 @@ const TEST_CATALOG = {
   }
 };
 
+// Simplified "big-picture" workup catalog used in Step 1 Focus mode.
+// Each entry is a conceptual diagnostic step rather than a specific test —
+// matching how First Aid frames Step 1 disease workups.
+const TEST_CATALOG_STEP1 = {
+  'Step 1 Workup': {
+    'Diagnostic Approach (pick 2–4)': [
+      'CBC with peripheral smear',
+      'Comprehensive metabolic panel',
+      'Urinalysis',
+      'Inflammatory / infection markers',
+      'Hormone / endocrine assay',
+      'Serologic / antibody studies',
+      'Microbiology / Gram stain / cultures',
+      'Imaging study',
+      'EKG / cardiac monitoring',
+      'CSF analysis (lumbar puncture)',
+      'Histopathology / biopsy',
+      'Genetic / molecular testing',
+      'Functional / provocative testing',
+    ]
+  }
+};
+
 // =====================================================
 // INIT
 // =====================================================
@@ -1657,7 +1686,7 @@ async function loadCaseCounts() {
     const r = await fetch('/api/case-counts');
     const data = await r.json();
     document.getElementById('case-counts-display').innerHTML =
-      `<span>${data.easy || 0}</span> Easy cases &nbsp;·&nbsp; <span>${data.attending || 0}</span> Attending cases available`;
+      `<span>${data.step1 || 0}</span> Step 1 cases &nbsp;·&nbsp; <span>${data.easy || 0}</span> Easy cases &nbsp;·&nbsp; <span>${data.attending || 0}</span> Attending cases available`;
   } catch(e) {}
 }
 
@@ -1678,6 +1707,22 @@ function selectMode(mode) {
   state.mode = mode;
   document.getElementById('mode-easy-btn').classList.toggle('selected', mode === 'easy');
   document.getElementById('mode-attending-btn').classList.toggle('selected', mode === 'attending');
+  document.getElementById('mode-step1-btn').classList.toggle('selected', mode === 'step1');
+}
+
+// Helper for setting the difficulty badge consistently across stages
+function applyDiffBadge(badgeEl, mode) {
+  const m = (mode || 'easy').toLowerCase();
+  if (m === 'attending') {
+    badgeEl.textContent = 'Attending';
+    badgeEl.className = 'diff-badge attending';
+  } else if (m === 'step1') {
+    badgeEl.textContent = 'Step 1';
+    badgeEl.className = 'diff-badge step1';
+  } else {
+    badgeEl.textContent = 'Easy';
+    badgeEl.className = 'diff-badge easy';
+  }
 }
 
 // =====================================================
@@ -1749,9 +1794,7 @@ function showStage1(data) {
   s.style.display = 'block';
 
   // Diff badge
-  const badge = document.getElementById('s1-diff-badge');
-  badge.textContent = data.mode === 'attending' ? 'Attending' : 'Easy';
-  badge.className = 'diff-badge ' + (data.mode === 'attending' ? 'attending' : 'easy');
+  applyDiffBadge(document.getElementById('s1-diff-badge'), data.mode);
   document.getElementById('s1-specialty-badge').textContent = data.specialty;
 
   // One-liner
@@ -2149,9 +2192,7 @@ function showStage2(data) {
   s.style.display = 'block';
 
   // Copy diff badge
-  const badge = document.getElementById('s2-diff-badge');
-  badge.textContent = state.mode === 'attending' ? 'Attending' : 'Easy';
-  badge.className = 'diff-badge ' + (state.mode === 'attending' ? 'attending' : 'easy');
+  applyDiffBadge(document.getElementById('s2-diff-badge'), state.mode);
   document.getElementById('s2-specialty-badge').textContent = state.specialty;
 
   document.getElementById('s2-hpi').textContent = data.hpi_extension || '';
@@ -2278,13 +2319,14 @@ async function proceedToStage3() {
 // =====================================================
 // STAGE 3
 // =====================================================
-function populateTestPanels() {
+function populateTestPanels(catalog) {
+  catalog = catalog || TEST_CATALOG;
   const tabsEl = document.getElementById('workup-tabs');
   const panelsEl = document.getElementById('workup-panels');
   if (!tabsEl || !panelsEl) return;
   tabsEl.innerHTML = '';
   panelsEl.innerHTML = '';
-  const categories = Object.keys(TEST_CATALOG);
+  const categories = Object.keys(catalog);
   categories.forEach((cat, idx) => {
     const tabId = 'wk-' + cat.toLowerCase().replace(/\s+/g,'-');
     // Tab button
@@ -2298,7 +2340,7 @@ function populateTestPanels() {
     const panel = document.createElement('div');
     panel.className = 'tab-panel' + (idx === 0 ? ' active' : '');
     panel.id = 'tab-' + tabId;
-    const subcats = TEST_CATALOG[cat];
+    const subcats = catalog[cat];
     for (const [subName, tests] of Object.entries(subcats)) {
       const subHeader = document.createElement('div');
       subHeader.className = 'test-subcat-header';
@@ -2339,6 +2381,28 @@ function showStage3() {
   updateProgress(3);
   document.getElementById('screen-stage3').style.display = 'block';
 
+  // Rebuild the workup catalog appropriate for the current mode.
+  // Step 1 Focus uses a simplified, conceptual catalog of "big-picture"
+  // diagnostic categories rather than specific tests.
+  const isStep1 = state.mode === 'step1';
+  populateTestPanels(isStep1 ? TEST_CATALOG_STEP1 : TEST_CATALOG);
+
+  // Update helper text + counter target for the mode
+  const helperEl = document.querySelector('#screen-stage3 .card-title')
+    && document.querySelector('#screen-stage3 .card-title').parentElement
+    && document.querySelector('#screen-stage3 .card-title').parentElement.querySelector('p');
+  if (helperEl) {
+    helperEl.textContent = isStep1
+      ? 'Pick 2–4 broad diagnostic steps. Focus on the high-yield workup First Aid teaches.'
+      : 'Select 2–5 tests to order.';
+  }
+  const counterEl = document.querySelector('#screen-stage3 .ddx-counter');
+  if (counterEl) {
+    counterEl.innerHTML = isStep1
+      ? 'Ordered: <span id="tests-count">0</span> / 4 steps'
+      : 'Ordered: <span id="tests-count">0</span> / 5 tests';
+  }
+
   // Reset test selections
   state.orderedTests = [];
   document.querySelectorAll('.test-option').forEach(btn => {
@@ -2355,12 +2419,13 @@ function showStage3() {
 }
 
 function toggleTest(test, btn) {
+  const maxTests = state.mode === 'step1' ? 4 : 5;
   if (state.orderedTests.includes(test)) {
     state.orderedTests = state.orderedTests.filter(t => t !== test);
     btn.classList.remove('selected');
   } else {
-    if (state.orderedTests.length >= 5) {
-      showToast('Maximum 5 tests. Remove one first.');
+    if (state.orderedTests.length >= maxTests) {
+      showToast(`Maximum ${maxTests} ${state.mode === 'step1' ? 'steps' : 'tests'}. Remove one first.`);
       return;
     }
     state.orderedTests.push(test);
@@ -2864,7 +2929,7 @@ async function showLibrary() {
       </tr></thead><tbody>`;
 
     cases.forEach(c => {
-      const modeClass = c.mode === 'attending' ? 'attending' : 'easy';
+      const modeClass = c.mode === 'attending' ? 'attending' : (c.mode === 'step1' ? 'step1' : 'easy');
       const played = hasPlayedCase(c.case_uid);
       const seenBadge = currentUser
         ? `<td>${played ? '<span class="seen-badge">Seen</span>' : '<span class="seen-badge new-badge">New</span>'}</td>`

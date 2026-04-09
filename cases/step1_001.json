@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_001",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Multiple sclerosis (MS)",
+  "icd_category": "G35 — Multiple sclerosis",
+  "one_liner": "A 28-year-old woman presents with one week of right leg weakness and tingling. She mentions an episode of painful vision loss in her right eye one year ago that resolved on its own.",
+  "stage2": {
+    "hpi_extension": "Symptoms began acutely 7 days ago. She also reports an electric shock sensation that travels down her spine when she flexes her neck (Lhermitte sign), and her symptoms get markedly worse after a hot shower (Uhthoff phenomenon). One year ago she had a 3-week episode of painful right monocular vision loss that resolved spontaneously. She has had no further follow-up.",
+    "pmh": "Previously healthy",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Maternal aunt with 'a nerve disease'",
+    "social_history": "Office worker living in Minnesota. Non-smoker.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "76 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Neuro: **Right relative afferent pupillary defect (Marcus Gunn pupil)** with **pale right optic disc** on funduscopy. **Right lower extremity weakness (4/5)** with **hyperreflexia at the right patella and Achilles**. **Babinski sign positive on the right**. Sensory: decreased vibration sense in the right lower extremity. Cerebellar testing: normal. Gait: mild right-sided drag."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain (T2/FLAIR with gadolinium): Multiple ovoid hyperintense **periventricular white matter lesions**, including lesions oriented perpendicular to the corpus callosum (**Dawson fingers**). One lesion shows ring enhancement, suggesting active inflammation. A second focus is seen in the cervical spinal cord.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Periventricular white matter lesions with Dawson fingers are the classic MRI finding in MS. Lesions disseminated in space (brain + cord) and time (old non-enhancing + new enhancing) fulfill McDonald criteria."
+      },
+      {
+        "test_name": "CSF analysis (lumbar puncture)",
+        "result": "Opening pressure normal. Cells: 5 lymphocytes/µL. Protein: mildly elevated. Glucose: normal. **Oligoclonal IgG bands present in CSF but absent in serum**. **Elevated IgG index**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Oligoclonal bands restricted to the CSF reflect intrathecal IgG synthesis and are highly suggestive of MS."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Visual evoked potentials: **prolonged P100 latency in the right eye** consistent with prior optic nerve demyelination.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Delayed VEP reveals subclinical demyelination of the optic nerve and supports a prior episode of optic neuritis even after clinical recovery."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)"
+    ],
+    "acceptable_tests": [
+      "Functional / provocative testing"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After IV methylprednisolone, her right leg weakness improves substantially over a week. A repeat MRI six months later shows two new T2 lesions, fulfilling dissemination in time on McDonald criteria."
+  },
+  "debrief": {
+    "classic_presentation": "MS classically presents in young women (15–50 years) of Northern European descent (more common with increasing latitude) with episodic neurologic deficits separated in time and space. Hallmark presentations include optic neuritis (painful monocular vision loss), internuclear ophthalmoplegia (INO) from a medial longitudinal fasciculus lesion, sensory disturbances, motor weakness, Lhermitte sign (electric shock down the spine on neck flexion), and Uhthoff phenomenon (heat-induced symptom worsening due to slowed conduction in demyelinated axons).",
+    "attending_mode_notes": null,
+    "pathophysiology": "MS is an autoimmune T-cell mediated demyelinating disease of the CNS. Autoreactive T cells cross the blood–brain barrier and trigger inflammation that destroys oligodendrocytes and the myelin sheath, leaving axons exposed and slow to conduct. Plaques form preferentially around the ventricles, in the corpus callosum, optic nerves, brainstem, and spinal cord. Over time, axonal loss leads to permanent disability. There is a strong HLA-DR2 association.",
+    "treatment_overview": "Acute exacerbations: high-dose IV corticosteroids (methylprednisolone) shorten attack duration but do not change long-term course. Disease-modifying therapy for relapsing-remitting MS includes IFN-β, glatiramer acetate, natalizumab (anti-α4 integrin; risk of PML from JC virus reactivation), fingolimod (S1P modulator), and dimethyl fumarate. Symptomatic management: baclofen for spasticity, oxybutynin for bladder spasm.",
+    "high_yield_pearls": [
+      "Charcot's neurologic triad of MS = SIN: Scanning speech, Intention tremor, Nystagmus.",
+      "Periventricular plaques on MRI are the most characteristic finding; CSF shows oligoclonal IgG bands and elevated IgG index.",
+      "Marcus Gunn pupil = relative afferent pupillary defect from optic neuritis. Swinging flashlight test: the affected pupil paradoxically dilates when light is swung toward it.",
+      "Bilateral internuclear ophthalmoplegia (INO) in a young woman is MS until proven otherwise — caused by a lesion in the medial longitudinal fasciculus (MLF).",
+      "Natalizumab carries a risk of progressive multifocal leukoencephalopathy (PML) caused by reactivation of JC virus in immunosuppressed patients."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Demyelinating and neurodegenerative diseases — Multiple sclerosis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Cranial nerves — Pupillary control' (Marcus Gunn pupil/RAPD)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Multiple sclerosis (MS)",
+      "Neuromyelitis optica",
+      "Vitamin B12 deficiency",
+      "Stroke (ischemic)",
+      "Spinal cord compression",
+      "Conversion disorder",
+      "Lyme disease"
+    ],
+    "after_stage2_more_likely": [
+      "Multiple sclerosis (MS)",
+      "Neuromyelitis optica"
+    ],
+    "after_stage2_less_likely": [
+      "Vitamin B12 deficiency",
+      "Stroke (ischemic)",
+      "Conversion disorder"
+    ],
+    "after_labs_top3": [
+      "Multiple sclerosis (MS)",
+      "Neuromyelitis optica",
+      "Spinal cord compression"
+    ]
+  }
+}

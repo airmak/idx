@@ -79,8 +79,8 @@ def validate_case(data: dict, filename: str) -> bool:
     if missing:
         print(f"  [SKIP] {filename}: missing required keys: {missing}")
         return False
-    if data.get("mode") not in ("easy", "attending"):
-        print(f"  [SKIP] {filename}: mode must be 'easy' or 'attending', got: {data.get('mode')}")
+    if data.get("mode") not in ("easy", "attending", "step1"):
+        print(f"  [SKIP] {filename}: mode must be 'easy', 'attending', or 'step1', got: {data.get('mode')}")
         return False
     return True
 

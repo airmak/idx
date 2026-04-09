@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_002",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Sickle cell disease (SCD)",
+  "icd_category": "D57.0 — Hb-SS disease with crisis",
+  "one_liner": "A 17-year-old African American male with a known childhood blood disorder presents to the ED with severe diffuse bone pain in his arms, legs, and back that started after a soccer game in the heat.",
+  "stage2": {
+    "hpi_extension": "He describes the pain as 9/10, throbbing, and similar to past episodes that began at age 6. Episodes are usually triggered by dehydration, cold, or exertion. He had his spleen 'stop working' as a child. He reports yellowing of the eyes that comes and goes. No fever today, no cough, no chest pain.",
+    "pmh": "Sickle cell anemia (HbSS), diagnosed at age 1. History of dactylitis as an infant. Functional asplenia. Prior episode of Salmonella osteomyelitis at age 9.",
+    "surgical_history": "Cholecystectomy at age 14 for pigment gallstones",
+    "medications": "Hydroxyurea, folic acid daily, penicillin prophylaxis as a child",
+    "allergies": "NKDA",
+    "family_history": "Both parents carry sickle cell trait. Younger brother has sickle cell disease.",
+    "social_history": "High school student. Lives with parents.",
+    "vitals": {
+      "temp": "37.4°C",
+      "hr": "112 bpm",
+      "bp": "126/74 mmHg",
+      "rr": "20",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: Visibly uncomfortable, curled on the stretcher. HEENT: **Mild scleral icterus**. Cardiovascular: Tachycardic, regular, no murmur. Pulmonary: Clear. Abdomen: Soft, mildly tender to palpation in the left upper quadrant; **spleen not palpable** (autosplenectomy). Musculoskeletal: **Diffuse tenderness over the long bones of both arms and legs**, no overt swelling or erythema. Skin: No rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 7.2 g/dL (low), MCV 88 fL (normal), reticulocytes 12% (high). **Smear: numerous sickled cells, Howell-Jolly bodies, and target cells**. WBC 14 × 10³/µL (mild neutrophilia from stress).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Sickled red cells confirm the hemoglobinopathy. **Howell-Jolly bodies** are nuclear remnants normally cleared by the spleen — their presence indicates functional asplenia (autosplenectomy from repeated splenic infarcts)."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Total bilirubin 3.2 mg/dL (elevated), indirect bilirubin 2.6 mg/dL, **LDH markedly elevated**, **haptoglobin low**. BUN/Cr normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Indirect hyperbilirubinemia, elevated LDH, and low haptoglobin are the classic triad of intravascular and extravascular hemolysis."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**Hemoglobin electrophoresis: HbS ~90%, HbF ~8%, HbA2 ~2%, HbA absent.** Confirms homozygous HbSS disease. (HBB gene point mutation: glutamic acid → valine at position 6 of β-globin.)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Homozygous HbS confirms sickle cell disease. HbF is elevated as a result of hydroxyurea therapy, which protects against sickling."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is treated with IV fluids, opioid analgesia, and supplemental oxygen. Within 36 hours his pain begins to subside. The team continues hydroxyurea, which has reduced his crisis frequency by inducing fetal hemoglobin production."
+  },
+  "debrief": {
+    "classic_presentation": "Sickle cell disease classically presents in patients of African (or Mediterranean, Middle Eastern, Indian) descent with episodic vaso-occlusive 'painful crises' that begin in childhood, often triggered by dehydration, cold, infection, hypoxia, or stress. Patients have chronic hemolytic anemia, scleral icterus, pigment gallstones, dactylitis (hand–foot syndrome) in infants, functional asplenia from splenic autoinfarction, and an increased risk of encapsulated organism infections and Salmonella osteomyelitis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Sickle cell disease is an autosomal recessive disorder caused by a point mutation in the β-globin gene (HBB) — glutamic acid is substituted by valine at position 6. The resulting HbS polymerizes when deoxygenated, distorting red cells into a rigid sickle shape that occludes microvasculature and is destroyed prematurely (extravascular and some intravascular hemolysis). Repeated splenic infarcts produce autosplenectomy, leaving patients functionally asplenic and vulnerable to encapsulated organisms (S. pneumoniae, H. influenzae, N. meningitidis, Salmonella).",
+    "treatment_overview": "Acute crisis: hydration, oxygen, opioid analgesia, treat infection if present. Chronic management: **hydroxyurea** (induces HbF production, reducing sickling frequency), folic acid, vaccinations (pneumococcal, meningococcal, H. influenzae), penicillin prophylaxis until age 5, and transfusions for severe anemia or stroke prevention. Hematopoietic stem cell transplant is curative.",
+    "high_yield_pearls": [
+      "Sickle cell anemia: HBB gene point mutation, glutamic acid (Glu) → valine (Val) at position 6 of β-globin chain. Autosomal recessive.",
+      "Howell-Jolly bodies on smear = functional asplenia. Sickle patients lose splenic function from repeated infarcts ('autosplenectomy').",
+      "Salmonella is the #1 cause of osteomyelitis in sickle cell disease (Staph aureus is #1 in the general population).",
+      "Hydroxyurea is the cornerstone of chronic management — it increases fetal hemoglobin (HbF), which inhibits HbS polymerization.",
+      "Acute chest syndrome (vaso-occlusion in pulmonary vasculature) is the leading cause of death in adults with SCD; presents with fever, cough, chest pain, and a new pulmonary infiltrate."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Hemoglobinopathies — Sickle cell anemia' section.",
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Encapsulated bacteria' (relevance to functional asplenia)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Sickle cell disease (SCD)",
+      "Hereditary spherocytosis",
+      "G6PD deficiency",
+      "Iron deficiency anemia",
+      "Acute lymphoblastic leukemia (ALL)",
+      "Thalassemia (beta)",
+      "Osteomyelitis"
+    ],
+    "after_stage2_more_likely": [
+      "Sickle cell disease (SCD)"
+    ],
+    "after_stage2_less_likely": [
+      "Iron deficiency anemia",
+      "Hereditary spherocytosis",
+      "G6PD deficiency"
+    ],
+    "after_labs_top3": [
+      "Sickle cell disease (SCD)",
+      "Thalassemia (beta)",
+      "Hereditary spherocytosis"
+    ]
+  }
+}

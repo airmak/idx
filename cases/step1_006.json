@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_006",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Pancreatitis (acute)",
+  "icd_category": "K85.10 — Biliary acute pancreatitis without necrosis or infection",
+  "one_liner": "A 48-year-old obese woman presents with sudden, severe epigastric pain that radiates straight through to her back, associated with nausea and vomiting. The pain began 6 hours ago after a large fatty meal.",
+  "stage2": {
+    "hpi_extension": "She describes the pain as constant, 10/10, and worse when she lies flat. She has vomited multiple times. She had two similar but milder episodes after fatty meals over the past month. She drinks no alcohol. Last meal: a heavy fried-food dinner six hours ago.",
+    "pmh": "Obesity (BMI 34), HTN, GERD",
+    "surgical_history": "Cesarean section x2",
+    "medications": "Lisinopril, omeprazole",
+    "allergies": "NKDA",
+    "family_history": "Mother had her gallbladder removed in her 50s",
+    "social_history": "Non-smoker. Denies alcohol use.",
+    "vitals": {
+      "temp": "37.8°C",
+      "hr": "118 bpm",
+      "bp": "104/68 mmHg",
+      "rr": "22",
+      "spo2": "97%"
+    },
+    "physical_exam": "General: Diaphoretic, leaning forward in obvious distress. HEENT: Mildly icteric sclerae. Cardiovascular: Tachycardic, regular. Pulmonary: Decreased breath sounds at the left base. Abdomen: **Severe epigastric tenderness with voluntary guarding**, hypoactive bowel sounds, no rebound. **No Cullen sign or Grey Turner sign** at this time. Murphy sign equivocal. Extremities: No edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Lipase 1,840 U/L (markedly elevated, ~9× upper limit)**. Amylase elevated. **AST 142, ALT 168, alkaline phosphatase 246 (elevated cholestatic pattern)**. Total bilirubin 3.4 mg/dL (elevated, direct predominant). Glucose 168 (mildly high). Calcium 8.1 (low normal).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Lipase elevation >3× the upper limit of normal is the diagnostic hallmark of acute pancreatitis** and is more specific than amylase. The elevated transaminases and conjugated hyperbilirubinemia point to a **biliary** cause (gallstone obstructing the ampulla)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Right upper quadrant ultrasound: cholelithiasis with multiple mobile gallstones, dilated common bile duct (8 mm) suggesting choledocholithiasis. The pancreas appears edematous with peripancreatic fluid stranding.** No gallbladder wall thickening or pericholecystic fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound is the **first-line imaging** in suspected acute pancreatitis to identify a biliary cause (gallstones, dilated bile duct). CT abdomen would also show pancreatic edema/inflammation but is reserved for unclear cases or to assess complications."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "WBC 16.4 × 10³/µL (elevated). CRP markedly elevated. Procalcitonin mildly elevated.",
+        "flag": "HIGH",
+        "clinical_significance": "Inflammatory markers reflect the systemic inflammatory response to acinar injury and are part of severity scoring (Ranson, BISAP)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Inflammatory / infection markers"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing",
+      "Microbiology / Gram stain / cultures"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted, kept NPO, given aggressive IV crystalloid resuscitation and IV analgesia. ERCP the following morning extracts a stone from the common bile duct, and her pain and labs improve. Cholecystectomy is planned during the same admission to prevent recurrence."
+  },
+  "debrief": {
+    "classic_presentation": "Acute pancreatitis classically presents with **sudden, severe, constant epigastric pain that radiates straight through to the back**, often relieved by leaning forward and worsened by lying flat. Nausea and vomiting are nearly universal. Patients with severe (necrotizing or hemorrhagic) pancreatitis may show **Cullen sign** (periumbilical bruising) and **Grey Turner sign** (flank bruising) reflecting retroperitoneal hemorrhage. The two most common causes are **gallstones** (more common in women) and **alcohol use** (more common in men). The classic mnemonic for causes is **GET SMASHED** (Gallstones, Ethanol, Trauma, Steroids, Mumps, Autoimmune, Scorpion sting, Hypercalcemia/Hypertriglyceridemia, ERCP, Drugs).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute pancreatitis begins with inappropriate intra-acinar activation of trypsinogen (normally activated only in the duodenum). Active trypsin then activates other zymogens, producing autodigestion of the pancreas — fat necrosis (due to released lipase saponifying fat with calcium, causing **hypocalcemia**), proteolysis, and hemorrhage. The released enzymes and inflammatory mediators trigger a systemic inflammatory response that can progress to ARDS, shock, AKI, and multi-organ failure. **Gallstones** cause pancreatitis by transiently obstructing the ampulla of Vater, blocking pancreatic outflow.",
+    "treatment_overview": "**Supportive care is the cornerstone**: aggressive IV fluid resuscitation (lactated Ringer's), pain control (opioids), bowel rest (NPO initially, advance as tolerated), antiemetics, and electrolyte correction (especially calcium). For gallstone pancreatitis with cholangitis or persistent obstruction, **ERCP with stone extraction** is performed urgently. **Cholecystectomy is performed during the same hospitalization** in mild gallstone pancreatitis to prevent recurrence. **Antibiotics are NOT routinely indicated** unless there is infected pancreatic necrosis. Severity is assessed with Ranson criteria, BISAP, or APACHE II.",
+    "high_yield_pearls": [
+      "Causes of acute pancreatitis (GET SMASHED): Gallstones, Ethanol, Trauma, Steroids, Mumps/Malignancy, Autoimmune, Scorpion sting, Hypercalcemia/Hypertriglyceridemia, ERCP, Drugs.",
+      "Lipase is more SPECIFIC than amylase for pancreatitis — both rise within hours, but lipase remains elevated longer.",
+      "Hypocalcemia in pancreatitis is from saponification: released pancreatic lipase liberates free fatty acids that bind calcium in 'soap-like' deposits in necrotic peripancreatic fat.",
+      "Cullen sign (periumbilical bruising) and Grey Turner sign (flank bruising) reflect retroperitoneal hemorrhage and indicate severe (hemorrhagic) pancreatitis.",
+      "Complications: pseudocyst (encapsulated fluid collection without an epithelial lining, ≥4 weeks after onset), pancreatic necrosis (sterile or infected), abscess, ARDS, DIC, chronic pancreatitis."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Pancreatic disorders — Acute pancreatitis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Bile and gallstones' section.",
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Cullen and Grey Turner signs' figure."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pancreatitis (acute)",
+      "Cholecystitis",
+      "Peptic ulcer disease",
+      "Perforated Peptic Ulcer",
+      "Mesenteric ischemia",
+      "Aortic dissection",
+      "Myocardial infarction (MI)"
+    ],
+    "after_stage2_more_likely": [
+      "Pancreatitis (acute)",
+      "Cholecystitis"
+    ],
+    "after_stage2_less_likely": [
+      "Myocardial infarction (MI)",
+      "Aortic dissection",
+      "Mesenteric ischemia"
+    ],
+    "after_labs_top3": [
+      "Pancreatitis (acute)",
+      "Cholecystitis",
+      "Perforated Peptic Ulcer"
+    ]
+  }
+}

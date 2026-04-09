@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_004",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Acute lymphoblastic leukemia (ALL)",
+  "icd_category": "C91.0 — Acute lymphoblastic leukemia",
+  "one_liner": "A 4-year-old boy is brought in by his mother for two weeks of fatigue, easy bruising, low-grade fevers, and refusal to walk because of bone pain in his legs.",
+  "stage2": {
+    "hpi_extension": "His mother first noticed bruises on his shins and back without obvious trauma. He has been pale and tired, sleeping more than usual, and complaining that his legs hurt at night. He has had intermittent fevers up to 38.4°C for the last week without an obvious source.",
+    "pmh": "Born at term, healthy until now. Up to date on vaccinations.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Lives with parents and an older sibling. Attends preschool.",
+    "vitals": {
+      "temp": "38.2°C",
+      "hr": "128 bpm",
+      "bp": "94/58 mmHg",
+      "rr": "22",
+      "spo2": "98%"
+    },
+    "physical_exam": "General: Pale, listless boy lying on the exam table. HEENT: **Pale conjunctivae**. Lymph nodes: **Bilateral cervical and inguinal lymphadenopathy** (1–2 cm, mobile, non-tender). Cardiovascular: Tachycardic, soft systolic flow murmur. Abdomen: **Hepatomegaly and splenomegaly** (spleen palpable 3 cm below the costal margin). Skin: **Numerous petechiae over the lower extremities and bruises in various stages of healing**. Musculoskeletal: Diffuse tenderness on palpation of the long bones."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 38 × 10³/µL (markedly elevated). Hgb 6.8 g/dL (low). Platelets 22 × 10³/µL (low). Differential: 70% blasts. **Smear: numerous large mononuclear cells with scant cytoplasm and prominent nucleoli (lymphoblasts)**. Pancytopenia of mature lines.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Pancytopenia of mature cells with circulating lymphoblasts is highly suspicious for acute leukemia. Marrow infiltration crowds out normal hematopoiesis."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "**Bone marrow biopsy and aspirate: hypercellular marrow with >25% lymphoblasts**. Flow cytometry: **TdT positive, CD10 positive, CD19 positive** — consistent with **early pre-B-cell ALL**. Cytogenetics: **t(12;21) translocation present** (TEL-AML1).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "TdT (terminal deoxynucleotidyl transferase) is a DNA polymerase expressed only in immature lymphocytes — its presence confirms a lymphoid (not myeloid) lineage. CD10/CD19 mark early pre-B-cell ALL. **t(12;21) carries an excellent prognosis in childhood ALL**."
+      },
+      {
+        "test_name": "CSF analysis (lumbar puncture)",
+        "result": "Cells: 0 lymphoblasts on cytospin. Protein normal. Glucose normal. Negative for CNS involvement at this time.",
+        "flag": "WNL",
+        "clinical_significance": "ALL has a strong tendency to seed the CNS. LP at diagnosis stages disease and guides intrathecal chemotherapy."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Urinalysis",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on multi-agent induction chemotherapy with intrathecal methotrexate for CNS prophylaxis. His t(12;21) cytogenetics place him in a favorable prognostic group with an expected long-term cure rate of approximately 85%."
+  },
+  "debrief": {
+    "classic_presentation": "ALL is the **most common cancer in children**, with a peak incidence between ages 2 and 5. Children typically present with the consequences of marrow failure (anemia → fatigue, pallor; thrombocytopenia → bruising, petechiae; neutropenia → fevers/infections), bone pain from marrow expansion, lymphadenopathy, and hepatosplenomegaly. ALL has a strong association with **Down syndrome** (15–20× increased risk).",
+    "attending_mode_notes": null,
+    "pathophysiology": "ALL is a malignant clonal proliferation of lymphoid progenitors (lymphoblasts) — most commonly of B-cell lineage (B-ALL) but also T-cell lineage (T-ALL, often presenting as a mediastinal mass in adolescent boys). Lymphoblasts crowd out normal hematopoiesis in the marrow, producing pancytopenia, and infiltrate extramedullary sites (lymph nodes, liver, spleen, CNS, testes). Lymphoblasts are characterized by **TdT positivity** (a marker of immature lymphocytes); B-ALL expresses **CD10 and CD19**; T-ALL expresses CD2–8.",
+    "treatment_overview": "Multi-phase chemotherapy: induction (vincristine, prednisone, asparaginase, anthracycline), consolidation, CNS prophylaxis with **intrathecal methotrexate** (because chemotherapy poorly crosses the blood–brain barrier and CNS is a common sanctuary site), and maintenance with low-dose oral chemotherapy (mercaptopurine, methotrexate). Cure rates exceed 80% in childhood ALL with favorable cytogenetics; adult ALL has worse outcomes. **Tumor lysis syndrome** (hyperuricemia, hyperkalemia, hyperphosphatemia, hypocalcemia, AKI) must be anticipated at the start of treatment — prevent with **IV hydration, allopurinol or rasburicase**.",
+    "high_yield_pearls": [
+      "ALL is the most common childhood cancer; peak age 2–5 years. Strong association with Down syndrome.",
+      "Lymphoblasts are TdT⁺ — TdT is a DNA polymerase expressed only in immature lymphocytes, distinguishing ALL from AML.",
+      "B-ALL: CD10⁺ CD19⁺ CD20⁺. T-ALL: CD2–8 (often presents with a mediastinal mass in adolescent boys).",
+      "Cytogenetics: **t(12;21)** (TEL-AML1) → best prognosis in children. **t(9;22)** (Philadelphia chromosome, BCR-ABL) → worse prognosis but treated with imatinib.",
+      "Tumor lysis syndrome: prevent with hydration + allopurinol/rasburicase. Watch for ↑K⁺, ↑PO₄, ↑uric acid, ↓Ca²⁺ → AKI and arrhythmia."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Leukemias — Acute lymphoblastic leukemia/lymphoma' section.",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Chromosomal translocations' section.",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Tumor lysis syndrome' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute lymphoblastic leukemia (ALL)",
+      "Acute myeloid leukemia (AML)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Neuroblastoma",
+      "Juvenile idiopathic arthritis",
+      "Epstein-Barr virus (EBV) mononucleosis"
+    ],
+    "after_stage2_more_likely": [
+      "Acute lymphoblastic leukemia (ALL)",
+      "Acute myeloid leukemia (AML)"
+    ],
+    "after_stage2_less_likely": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Juvenile idiopathic arthritis",
+      "Epstein-Barr virus (EBV) mononucleosis"
+    ],
+    "after_labs_top3": [
+      "Acute lymphoblastic leukemia (ALL)",
+      "Acute myeloid leukemia (AML)",
+      "Lymphoma (non-Hodgkin / NHL)"
+    ]
+  }
+}
