@@ -153,11 +153,17 @@ a { color: var(--teal); text-decoration: none; }
   color: #0a1220;
 }
 .stage-step.clickable { cursor: pointer; }
+.stage-step.clickable .stage-dot { cursor: pointer; }
+.stage-step.clickable .stage-label { cursor: pointer; }
 .stage-step.clickable:hover .stage-dot {
-  transform: scale(1.08);
-  box-shadow: 0 0 14px rgba(0,229,204,0.45);
+  transform: scale(1.15);
+  box-shadow: 0 0 18px rgba(0,229,204,0.6), 0 0 6px rgba(0,229,204,0.5);
+  filter: brightness(1.15);
 }
-.stage-step.clickable:hover .stage-label { color: var(--text); }
+.stage-step.clickable:hover .stage-label {
+  color: var(--teal);
+  font-weight: 700;
+}
 .stage-label { font-size: 0.65rem; color: var(--text-muted); text-align: center; display: none; }
 @media(min-width: 600px) { .stage-label { display: block; } }
 
@@ -1676,6 +1682,17 @@ document.addEventListener('DOMContentLoaded', () => {
   loadSessionStats();
   populateTestPanels();
   checkAuth();
+  // Belt-and-suspenders: also bind stage-dot navigation via addEventListener
+  // in case the inline onclick attributes ever get stripped (CSP, etc.)
+  for (let i = 1; i <= 6; i++) {
+    const el = document.getElementById(`step-${i}`);
+    if (!el) continue;
+    el.addEventListener('click', function(ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      goToStage(i);
+    });
+  }
 });
 
 async function loadDiseaseLibrary() {
@@ -2999,34 +3016,47 @@ function hideAllScreens() {
 function updateProgress(stage) {
   state.currentStage = stage;
   if (!state.maxStage || stage > state.maxStage) state.maxStage = stage;
+  const max = state.maxStage;
   for (let i = 1; i <= 6; i++) {
     const el = document.getElementById(`step-${i}`);
     if (!el) continue;
     el.classList.remove('active','done','clickable');
-    if (i === stage) el.classList.add('active');
-    else if (i < stage) el.classList.add('done');
-    // Any stage we have already reached (other than the current one) is clickable
-    if (i !== stage && i <= state.maxStage) el.classList.add('clickable');
+    if (i === stage) {
+      el.classList.add('active');
+    } else if (i <= max) {
+      // Any previously visited stage stays "done" — even when navigating
+      // backward, forward stages should still appear completed
+      el.classList.add('done');
+      el.classList.add('clickable');
+    }
   }
 }
 
 // Back/forward navigation between visited stages.
-// Forward navigation is gated through the existing flow buttons; this
-// function only re-renders previously reached stages without losing state.
+// Re-renders any previously reached stage from preserved state without
+// losing user input. Forward navigation continues to use the existing
+// flow buttons (Submit DDx, Proceed, etc.).
 function goToStage(target) {
   if (!state.maxStage || target < 1 || target > 6) return;
   if (target > state.maxStage) return;          // not yet reached
   if (target === state.currentStage) return;    // already here
-  switch (target) {
-    case 1: restoreStage1(); break;
-    case 2: restoreStage2(); break;
-    case 3: restoreStage3(); break;
-    case 4: restoreStage4(); break;
-    case 5: restoreStage5(); break;
-    case 6: restoreStage6(); break;
+  try {
+    switch (target) {
+      case 1: restoreStage1(); break;
+      case 2: restoreStage2(); break;
+      case 3: restoreStage3(); break;
+      case 4: restoreStage4(); break;
+      case 5: restoreStage5(); break;
+      case 6: restoreStage6(); break;
+    }
+    updateProgress(target);
+  } catch (e) {
+    console.error('goToStage failed', target, e);
   }
-  updateProgress(target);
 }
+// Explicitly expose for inline onclick handlers (robustness against
+// any future module/strict-mode wrapper).
+window.goToStage = goToStage;
 
 function restoreStage1() {
   hideAllScreens();
