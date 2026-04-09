@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_026",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Idiopathic pulmonary fibrosis",
+  "icd_category": "J84.112 — Idiopathic pulmonary fibrosis",
+  "one_liner": "A 68-year-old retired construction foreman presents with 14 months of progressive exertional dyspnea and a dry, non-productive cough that has not responded to inhalers or a course of antibiotics.",
+  "stage2": {
+    "hpi_extension": "He initially noticed getting winded walking uphill but now becomes dyspneic walking across a room. His cough is dry and has not improved with guaifenesin or a recent Z-pack. He denies fevers, weight loss, night sweats, hemoptysis, or joint pains. He has no rashes, no Raynaud, and no dysphagia. He quit smoking 10 years ago (30 pack-year history). He denies asbestos exposure, bird keeping, or mold exposure.",
+    "pmh": "Hypertension, GERD, former smoker",
+    "surgical_history": "Cholecystectomy",
+    "medications": "Amlodipine, omeprazole, aspirin",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Former smoker (30 pack-years, quit 10 years ago), retired construction worker, no known asbestos exposure, no pets, no birds, no farming",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "92 bpm",
+      "bp": "134/82 mmHg",
+      "rr": "22",
+      "spo2": "88% on room air (drops to 82% with ambulation)"
+    },
+    "physical_exam": "General: thin elderly man, comfortable at rest. Pulmonary: **fine bibasilar end-inspiratory 'Velcro-like' crackles** that do not clear with cough. No wheezes. Cardiac: regular, no murmurs, loud P2. Extremities: **digital clubbing of fingers and toes**, no cyanosis at rest. Skin: no rash, no sclerodactyly, no calcinosis. No synovitis."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "High-resolution chest CT: **bilateral subpleural and basal predominant reticular opacities** with **honeycombing** and **traction bronchiectasis**. No ground-glass opacities, no nodules, no mediastinal lymphadenopathy. Pattern consistent with **usual interstitial pneumonia (UIP)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subpleural, basal-predominant honeycombing with traction bronchiectasis defines the UIP pattern on HRCT — characteristic of idiopathic pulmonary fibrosis. A UIP pattern in the absence of an identifiable cause is diagnostic of IPF without need for biopsy."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Pulmonary function tests: **restrictive pattern** — **FVC 58% predicted**, **TLC 62% predicted**, **FEV1/FVC 0.84 (preserved/elevated ratio)**. **DLCO markedly reduced to 42% predicted**. 6-minute walk distance reduced with desaturation to 82%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Restrictive physiology (reduced FVC, TLC, normal or elevated FEV1/FVC ratio) with a markedly decreased DLCO is the classic PFT pattern of interstitial lung disease/fibrosis."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "ANA, rheumatoid factor, anti-CCP, anti-Scl-70, anti-Jo-1, anti-Ro/La, ANCA — **all negative**. Hypersensitivity pneumonitis panel (avian, Aspergillus precipitins) negative.",
+        "flag": "WNL",
+        "clinical_significance": "Negative autoimmune and hypersensitivity serologies exclude connective tissue-associated ILD (scleroderma, RA, dermatomyositis) and hypersensitivity pneumonitis, supporting the diagnosis of idiopathic pulmonary fibrosis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Urinalysis",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on pirfenidone (an antifibrotic), referred for supplemental oxygen and pulmonary rehabilitation, and placed on the lung transplant evaluation list given his rapidly progressive course."
+  },
+  "debrief": {
+    "classic_presentation": "Idiopathic pulmonary fibrosis typically presents in **men over 60 years**, often former smokers, with insidious progressive exertional dyspnea and dry cough lasting months to years. Examination reveals **fine bibasilar 'Velcro' crackles** and digital clubbing. PFTs show a restrictive pattern with decreased DLCO. HRCT shows subpleural/basal honeycombing (UIP pattern). Median survival from diagnosis is 3–5 years.",
+    "attending_mode_notes": null,
+    "pathophysiology": "IPF is characterized by repetitive epithelial microinjury triggering abnormal wound healing: **fibroblast proliferation, myofibroblast foci**, excess extracellular matrix deposition, and architectural distortion with honeycomb cysts. The histologic pattern is **usual interstitial pneumonia (UIP)** — patchy, temporally heterogeneous fibrosis with subpleural/paraseptal distribution, fibroblast foci at the advancing edge, and honeycomb change. Unknown triggers; risk factors include smoking, genetic predisposition (telomerase mutations — TERT, TERC), and GERD (microaspiration).",
+    "treatment_overview": "No therapy reverses fibrosis. **Antifibrotic agents** — **pirfenidone** (TGF-β and fibroblast inhibitor) and **nintedanib** (tyrosine kinase inhibitor targeting PDGFR, VEGFR, FGFR) — slow decline in FVC. Supportive care: supplemental O2, pulmonary rehabilitation, influenza/pneumococcal vaccination, treatment of GERD. **Lung transplant** is the only definitive therapy and should be considered early. Avoid corticosteroids (ineffective and harmful in IPF, though used in other ILDs).",
+    "high_yield_pearls": [
+      "Idiopathic pulmonary fibrosis = UIP pattern on HRCT (bilateral subpleural/basal honeycombing + traction bronchiectasis) in the absence of known cause.",
+      "PFT pattern: restrictive (↓FVC, ↓TLC, normal or ↑FEV1/FVC ratio) with markedly decreased DLCO.",
+      "Physical exam hallmarks: **fine bibasilar 'Velcro' crackles** and digital clubbing.",
+      "Pirfenidone and nintedanib slow progression; no treatment reverses fibrosis. Lung transplant is the only definitive therapy.",
+      "Causes of restrictive lung disease: interstitial (IPF, sarcoidosis, pneumoconioses, drug-induced), extraparenchymal (obesity, kyphoscoliosis, neuromuscular disease), ARDS. Drug-induced: bleomycin, amiodarone, methotrexate, busulfan."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Restrictive lung diseases — Idiopathic pulmonary fibrosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Idiopathic pulmonary fibrosis",
+      "Hypersensitivity pneumonitis",
+      "Sarcoidosis",
+      "Scleroderma (systemic sclerosis)",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Heart failure (diastolic)",
+      "Pulmonary Langerhans cell histiocytosis",
+      "Cryptogenic organizing pneumonia"
+    ],
+    "after_stage2_more_likely": [
+      "Idiopathic pulmonary fibrosis",
+      "Hypersensitivity pneumonitis"
+    ],
+    "after_stage2_less_likely": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Heart failure (diastolic)"
+    ],
+    "after_labs_top3": [
+      "Idiopathic pulmonary fibrosis",
+      "Hypersensitivity pneumonitis",
+      "Scleroderma (systemic sclerosis)"
+    ]
+  }
+}

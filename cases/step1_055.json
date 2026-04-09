@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_055",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hereditary spherocytosis",
+  "icd_category": "D58.0 — Hereditary spherocytosis",
+  "one_liner": "A 19-year-old woman of Northern European descent presents with jaundice and fatigue during a viral illness. She reports similar episodes as a child and mentions that her father had his spleen removed for 'a blood problem.'",
+  "stage2": {
+    "hpi_extension": "One week ago she developed a typical upper respiratory illness with fever and malaise. Two days ago she noticed yellowing of her eyes and darker urine, along with worsening fatigue and dyspnea on exertion. She recalls similar episodes in childhood triggered by infections. At age 10, she had **gallstones** requiring cholecystectomy. She denies bleeding, petechiae, or lymphadenopathy. **Her father had his spleen removed in his 30s** for a similar condition.",
+    "pmh": "Cholecystectomy at age 10 for pigmented gallstones.",
+    "surgical_history": "Cholecystectomy.",
+    "medications": "None.",
+    "allergies": "NKDA",
+    "family_history": "**Father had splenectomy for 'hemolytic anemia.'** Paternal aunt with chronic anemia.",
+    "social_history": "College student. Non-smoker, no alcohol.",
+    "vitals": {
+      "temp": "37.6°C",
+      "hr": "108 bpm",
+      "bp": "112/70 mmHg",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: pale, mildly icteric. HEENT: **scleral icterus**, pale conjunctivae. Cardiac: tachycardic, soft systolic flow murmur at the base. Abdomen: **palpable splenomegaly (~4 cm below left costal margin)**, nontender. Skin: mild jaundice; no petechiae or rash. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 8.2 g/dL, **MCV 88 (normocytic)**, **MCHC 37 g/dL (elevated — hyperchromic)**, **reticulocytes 12% (elevated)**. Platelets 320k, WBC 9k. Smear: **spherical red cells lacking central pallor (spherocytes)**, polychromasia (reticulocytes), no schistocytes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemolytic anemia with spherocytes and an elevated MCHC is characteristic of hereditary spherocytosis. MCHC is the most useful red cell index — elevated because the spheres have less surface area and are relatively 'concentrated' with hemoglobin."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Osmotic fragility test (incubated): positive** — red cells lyse at higher-than-normal saline concentrations. **Eosin-5-maleimide (EMA) binding by flow cytometry: decreased**, consistent with membrane protein loss.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive osmotic fragility and reduced EMA binding are confirmatory for hereditary spherocytosis. These tests exploit the reduced membrane surface area of spherocytes, which cannot swell in hypotonic saline."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Direct Coombs (direct antiglobulin) test: negative**. Indirect bilirubin elevated. LDH elevated. Haptoglobin low. Urinalysis shows urobilinogen.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A Coombs-negative hemolytic anemia with spherocytes distinguishes hereditary spherocytosis from autoimmune hemolytic anemia (which would be Coombs-positive). Labs confirm extravascular hemolysis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is managed supportively with folic acid and monitoring; she is referred for consideration of **splenectomy**, which is curative by removing the main site of spherocyte destruction. She is advised to receive **pneumococcal, meningococcal, and Haemophilus influenzae type b vaccinations** prior to splenectomy."
+  },
+  "debrief": {
+    "classic_presentation": "Hereditary spherocytosis (HS) is the most common inherited hemolytic anemia in people of Northern European descent. It classically presents with a triad of **anemia, jaundice, and splenomegaly**, often with a family history of similar illness or splenectomy. Patients develop **pigmented (bilirubin) gallstones** early in life and experience **aplastic crises triggered by parvovirus B19 infection**. Acute hemolytic episodes are often triggered by intercurrent illness.",
+    "attending_mode_notes": null,
+    "pathophysiology": "HS is most often inherited in an autosomal dominant pattern and results from mutations in genes encoding red cell membrane cytoskeletal proteins — most commonly **ankyrin**, followed by **spectrin**, **band 3**, and **protein 4.2**. The resulting vertical-interaction defect causes loss of membrane surface area; red cells lose their biconcave disc shape and become spheres. These rigid spheres cannot traverse splenic cords and are prematurely removed by splenic macrophages (extravascular hemolysis). Because spheres have less surface area relative to volume, they are hyperchromic (elevated MCHC) and more susceptible to lysis in hypotonic saline (positive osmotic fragility).",
+    "treatment_overview": "Mainstays include folic acid supplementation to support increased erythropoiesis and transfusion during severe hemolytic or aplastic crises. **Splenectomy is curative** for anemia (though the genetic defect and spherocytes persist) and is considered for severe or symptomatic cases. Prior to splenectomy, patients must receive vaccination against encapsulated organisms (pneumococcus, meningococcus, H. influenzae type b) because of the lifelong risk of overwhelming post-splenectomy infection (OPSI). Cholecystectomy is often performed for pigment gallstones, sometimes concurrently with splenectomy.",
+    "high_yield_pearls": [
+      "Hereditary spherocytosis = most common inherited hemolytic anemia in Northern Europeans; autosomal dominant; ankyrin/spectrin/band 3/protein 4.2 defects.",
+      "Labs: spherocytes (no central pallor), ELEVATED MCHC, Coombs NEGATIVE, positive osmotic fragility, positive EMA binding flow.",
+      "Complications: pigment gallstones, aplastic crisis from parvovirus B19, splenomegaly.",
+      "Splenectomy is curative (anemia resolves though spherocytes persist). Vaccinate against encapsulated organisms pre-splenectomy.",
+      "Key DDX: autoimmune hemolytic anemia ALSO shows spherocytes but is Coombs POSITIVE — direct antiglobulin test distinguishes them."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Intrinsic hemolytic anemias — Hereditary spherocytosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hereditary spherocytosis",
+      "Autoimmune hemolytic anemia",
+      "G6PD deficiency",
+      "Sickle cell disease (SCD)",
+      "Thalassemia (beta)",
+      "Hepatitis A",
+      "Iron deficiency anemia",
+      "Thrombotic thrombocytopenic purpura (TTP)"
+    ],
+    "after_stage2_more_likely": [
+      "Hereditary spherocytosis",
+      "Autoimmune hemolytic anemia",
+      "G6PD deficiency"
+    ],
+    "after_stage2_less_likely": [
+      "Iron deficiency anemia",
+      "Hepatitis A"
+    ],
+    "after_labs_top3": [
+      "Hereditary spherocytosis",
+      "Autoimmune hemolytic anemia",
+      "G6PD deficiency"
+    ]
+  }
+}

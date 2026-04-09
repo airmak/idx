@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_088",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Epstein-Barr virus (EBV) mononucleosis",
+  "icd_category": "B27.0 — Gammaherpesviral mononucleosis",
+  "one_liner": "A 19-year-old college student presents with 10 days of fever, severe sore throat, and profound fatigue. She notes new tender 'swollen glands' in the back of her neck and has been unable to attend classes.",
+  "stage2": {
+    "hpi_extension": "Her illness started with low-grade fever and fatigue that have progressively worsened. She describes the sore throat as the worst of her life and has difficulty swallowing solids. She was seen at student health 3 days ago, where a rapid strep test was negative, and was started empirically on amoxicillin. Within 24 hours of the first dose she developed a diffuse non-pruritic maculopapular rash on her trunk and arms. She denies cough, rhinorrhea, or exposure to tuberculosis.",
+    "pmh": "Healthy",
+    "surgical_history": "None",
+    "medications": "Amoxicillin (started 3 days ago), oral contraceptive pill",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "College sophomore living in a dorm. Recent 'kissing' with new boyfriend over the last month. Occasional alcohol. No tobacco or illicit drugs.",
+    "vitals": {
+      "temp": "38.6 C",
+      "hr": "96 bpm",
+      "bp": "112/70 mmHg",
+      "rr": "16",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: fatigued-appearing. HEENT: **symmetric tonsillar enlargement with thick grayish-white exudates**, palatal petechiae. Neck: **tender, firm posterior cervical lymphadenopathy bilaterally**, axillary nodes also enlarged. Abdomen: **palpable splenomegaly 3 cm below the left costal margin**, mild tenderness; liver edge palpable 1 cm below costal margin. Skin: **diffuse blanching maculopapular rash on the trunk and upper extremities (post-amoxicillin)**. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Heterophile antibody test (Monospot): POSITIVE**. EBV viral capsid antigen (VCA) IgM: positive. EBV VCA IgG: positive. EBV nuclear antigen (EBNA) IgG: negative. Rapid strep antigen: negative. HIV Ag/Ab combo: negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A positive Monospot with VCA IgM positive and EBNA IgG negative (EBNA appears only months later) confirms acute primary EBV infection. Negative rapid strep and HIV testing exclude common mimics."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 14.2 with **lymphocytic predominance (68% lymphocytes)**. **Peripheral smear: numerous large atypical lymphocytes with abundant basophilic cytoplasm hugging adjacent red cells (Downey cells / reactive lymphocytes)**. Hgb 13.5. Platelets 118 (mildly low).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Lymphocytosis with atypical/reactive lymphocytes (Downey cells) is the hallmark hematologic finding in infectious mononucleosis; these are reactive CD8 T cells responding to EBV-infected B cells."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "AST 102, ALT 118 (mild transaminitis). Alk phos 140. Total bilirubin 1.1. Albumin 4.0. Creatinine 0.8.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild transaminitis is common in EBV mononucleosis and reflects hepatocellular inflammation, usually self-limited."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Her amoxicillin is discontinued; supportive care is advised. She is counseled to avoid contact sports, vigorous exercise, and heavy lifting for at least 4 weeks because of splenomegaly and the risk of splenic rupture. Her symptoms and splenomegaly resolve over the next month."
+  },
+  "debrief": {
+    "classic_presentation": "EBV infectious mononucleosis classically presents in adolescents and young adults with the triad of fever, exudative pharyngitis, and posterior cervical lymphadenopathy, accompanied by profound fatigue, splenomegaly in about half of patients, and often hepatomegaly with mild transaminitis. Administration of amoxicillin or ampicillin (often given for presumed strep pharyngitis) causes a characteristic diffuse morbilliform rash in most patients with acute EBV. Splenic rupture from minor trauma is a feared complication, so contact sports must be avoided for several weeks.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Epstein-Barr virus is a double-stranded DNA gammaherpesvirus transmitted by saliva ('the kissing disease'). EBV infects B lymphocytes via the CD21 (CR2) receptor and oropharyngeal epithelial cells. Infected B cells undergo polyclonal activation; the reactive, Downey-type atypical lymphocytes in the blood are predominantly CD8+ T cells responding to EBV-infected B cells. EBV establishes lifelong latency in memory B cells. Long-term, EBV is associated with several malignancies (Burkitt lymphoma — especially endemic, jaw lesion, t(8;14) c-MYC translocation; nasopharyngeal carcinoma, particularly in East Asia; Hodgkin lymphoma; primary CNS lymphoma in AIDS; post-transplant lymphoproliferative disorder) and with oral hairy leukoplakia in HIV.",
+    "treatment_overview": "Management is supportive: rest, hydration, acetaminophen or NSAIDs for fever and pharyngitis. Corticosteroids are reserved for complications such as impending airway obstruction from tonsillar hypertrophy, severe hemolytic anemia, or severe thrombocytopenia. Antivirals are not routinely indicated. Patients must avoid contact sports and heavy lifting for 3-4 weeks (some guidelines say longer) to reduce the risk of splenic rupture. Avoid empirical amoxicillin or ampicillin because of the classic morbilliform rash reaction. Diagnosis is with a positive heterophile (Monospot) antibody test; a negative Monospot in a classic presentation warrants EBV-specific serology (VCA IgM/IgG, EBNA IgG) and consideration of CMV, acute HIV, and toxoplasmosis.",
+    "high_yield_pearls": [
+      "Classic triad: fever, exudative pharyngitis, posterior cervical lymphadenopathy, plus splenomegaly and atypical lymphocytes.",
+      "EBV enters B cells via CD21 (CR2); reactive 'Downey cell' atypical lymphocytes are CD8+ T cells.",
+      "Amoxicillin or ampicillin given empirically for mono causes a diffuse morbilliform rash in most patients (NOT a true allergy).",
+      "Avoid contact sports for at least 3-4 weeks because of splenic rupture risk.",
+      "EBV is associated with Burkitt lymphoma (endemic form with jaw mass, t(8;14)), nasopharyngeal carcinoma, Hodgkin lymphoma, primary CNS lymphoma in AIDS, and oral hairy leukoplakia."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Herpesviruses — Epstein-Barr virus / Infectious mononucleosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Cytomegalovirus (CMV) disease",
+      "HIV (new diagnosis)",
+      "Influenza A",
+      "Hepatitis A",
+      "Peritonsillar Abscess",
+      "Lymphoma (Hodgkin)"
+    ],
+    "after_stage2_more_likely": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Cytomegalovirus (CMV) disease",
+      "HIV (new diagnosis)"
+    ],
+    "after_stage2_less_likely": [
+      "Influenza A",
+      "Peritonsillar Abscess"
+    ],
+    "after_labs_top3": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Cytomegalovirus (CMV) disease",
+      "HIV (new diagnosis)"
+    ]
+  }
+}

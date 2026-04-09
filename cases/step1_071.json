@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_071",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Ectopic pregnancy",
+  "icd_category": "O00.1 — Tubal pregnancy",
+  "one_liner": "A 27-year-old woman at 7 weeks from her last menstrual period presents to the ED with right-sided pelvic pain and vaginal spotting.",
+  "stage2": {
+    "hpi_extension": "She had a positive home pregnancy test last week. Yesterday she developed **sharp right lower quadrant pain** and scant **dark vaginal bleeding**. The pain has since worsened and she briefly felt lightheaded when walking to the bathroom. She has a history of **pelvic inflammatory disease** from chlamydia 3 years ago and a **prior ectopic pregnancy** on the left side treated with methotrexate.",
+    "pmh": "Chlamydial PID, prior tubal ectopic pregnancy",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Partnered, plans pregnancy. Non-smoker.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "108 bpm",
+      "bp": "102/64 mmHg",
+      "rr": "18",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: anxious, uncomfortable. CV: mildly tachycardic. Abdomen: **right lower quadrant tenderness with mild rebound**, no rigidity. Pelvic: small amount of dark blood in the vaginal vault, **cervical motion tenderness**, closed cervical os. Bimanual exam: **right adnexal tenderness with a palpable fullness**, uterus small and non-tender."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Serum quantitative beta-hCG 2,400 mIU/mL**. Beta-hCG 48 hours earlier was 2,150 (less than the expected 66% rise, **abnormally slow doubling**). Progesterone 4 ng/mL (low, consistent with nonviable pregnancy).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A plateauing or slowly rising beta-hCG, especially above the 'discriminatory zone' of ~1,500-2,000, in the absence of an intrauterine pregnancy on ultrasound, is highly suggestive of ectopic pregnancy."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Transvaginal ultrasound: **empty uterus (no intrauterine gestational sac)** despite a beta-hCG above the discriminatory zone. **Right adnexal extra-ovarian heterogeneous mass with a yolk sac** and a small amount of free fluid in the cul-de-sac.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An adnexal mass separate from the ovary with a yolk sac, plus free pelvic fluid, is diagnostic of a tubal ectopic pregnancy, likely with early rupture/leakage."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 11,200, **Hb 10.8 (baseline 13.0)**, Plt 245,000. Blood type: O Rh-negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hemoglobin drop suggests intra-abdominal bleeding from ruptured ectopic. Rh-negative status mandates RhoGAM administration."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Given signs of rupture and hemodynamic borderline, she is taken to the OR for laparoscopic salpingectomy. Final pathology of the resected right fallopian tube shows chorionic villi, confirming a tubal ectopic pregnancy."
+  },
+  "debrief": {
+    "classic_presentation": "Ectopic pregnancy classically presents in a woman of reproductive age at 6-8 weeks of amenorrhea with the triad of abdominal/pelvic pain, vaginal bleeding, and a positive pregnancy test. Risk factors include prior pelvic inflammatory disease (especially chlamydia), prior ectopic pregnancy, prior tubal surgery, IUD in place, endometriosis, and assisted reproductive technologies. Rupture can cause peritoneal signs, referred shoulder pain (from diaphragmatic irritation), and hypovolemic shock.",
+    "attending_mode_notes": null,
+    "pathophysiology": "More than 95% of ectopic pregnancies implant in the fallopian tube, most commonly in the ampulla. Damage to tubal cilia or tubal architecture from infection, surgery, or endometriosis slows the transport of the embryo and allows implantation before it reaches the endometrial cavity. As the trophoblast invades the thin tubal wall, it erodes blood vessels and can rupture the tube, causing severe intraperitoneal hemorrhage. Beta-hCG typically rises slowly or plateaus because the trophoblast cannot develop normally in this non-supportive environment.",
+    "treatment_overview": "Management depends on hemodynamic stability, beta-hCG level, size, and presence of fetal cardiac activity. Stable patients with low beta-hCG and small unruptured ectopics may be treated medically with intramuscular methotrexate, which inhibits trophoblast proliferation. Unstable patients or those with rupture, large mass, or contraindications to methotrexate require surgery, typically laparoscopic salpingostomy (tube-sparing) or salpingectomy. Rh-negative patients require anti-D immune globulin (RhoGAM).",
+    "high_yield_pearls": [
+      "Risk factors: prior PID (chlamydia), prior ectopic pregnancy, tubal surgery, IUD, endometriosis, smoking, ART.",
+      "Beta-hCG should roughly double every 48 hours in a normal intrauterine pregnancy; slow rise suggests ectopic or miscarriage.",
+      "Discriminatory zone: beta-hCG greater than ~1,500-2,000 mIU/mL with an empty uterus on TVUS is highly suggestive of ectopic.",
+      "Most common implantation site is the ampulla of the fallopian tube.",
+      "Methotrexate for medical management requires stable patient, small size, no cardiac activity, and ability to follow up."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Pregnancy complications — Ectopic pregnancy' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ectopic pregnancy",
+      "Inevitable miscarriage (inevitable abortion)",
+      "Ruptured ovarian cyst (hemorrhagic corpus luteum cyst)",
+      "Ovarian Torsion",
+      "Pelvic inflammatory disease",
+      "Appendicitis",
+      "Urinary tract infection (UTI)",
+      "Molar pregnancy"
+    ],
+    "after_stage2_more_likely": [
+      "Ectopic pregnancy",
+      "Inevitable miscarriage (inevitable abortion)",
+      "Ruptured ovarian cyst (hemorrhagic corpus luteum cyst)"
+    ],
+    "after_stage2_less_likely": [
+      "Urinary tract infection (UTI)",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_labs_top3": [
+      "Ectopic pregnancy",
+      "Inevitable miscarriage (inevitable abortion)",
+      "Molar pregnancy"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_042",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Type 1 diabetes mellitus",
+  "icd_category": "E10.9 — Type 1 diabetes mellitus without complications",
+  "one_liner": "A thin 12-year-old boy is brought in for 3 weeks of polyuria, polydipsia, nocturnal enuresis, and a 10-pound weight loss despite a ravenous appetite.",
+  "stage2": {
+    "hpi_extension": "Over the past month he has been drinking constantly, urinating every 1-2 hours (including 3-4 times at night), and has started wetting the bed again after years of continence. His mother notes he 'eats more than his older brother' yet has lost 10 pounds. He feels fatigued and has blurred vision. No polyphagia-triggering medications, no recent illness, no family history of diabetes.",
+    "pmh": "Previously healthy; up-to-date on vaccinations",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Maternal grandmother with vitiligo; paternal uncle with celiac disease",
+    "social_history": "6th grader. Lives with parents and one sibling. No tobacco/alcohol exposure.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "98 bpm",
+      "bp": "108/66 mmHg",
+      "rr": "16",
+      "spo2": "100% on room air"
+    },
+    "physical_exam": "General: thin, slightly dehydrated, alert and interactive. HEENT: dry mucous membranes. CV/Resp: normal. Abdomen: soft, non-tender. Skin: **no acanthosis nigricans**. Neuro: intact. BMI is at the 25th percentile."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Random glucose 312 mg/dL**, Na 136, K 4.2, HCO3 22, BUN 14, Cr 0.7. Anion gap 12. Normal LFTs.",
+        "flag": "HIGH",
+        "clinical_significance": "Random glucose ≥200 mg/dL with classic hyperglycemic symptoms meets ADA criteria for diabetes mellitus. Normal anion gap and bicarbonate make DKA less likely on presentation."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**HbA1c 10.4%**. **Fasting C-peptide undetectable**. Fasting insulin low.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated HbA1c confirms chronic hyperglycemia. Undetectable C-peptide indicates near-complete loss of endogenous insulin secretion, consistent with autoimmune destruction of pancreatic beta cells in type 1 diabetes (in contrast to preserved/elevated C-peptide in type 2)."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Anti-GAD65 antibodies positive**. **Anti-islet cell antibodies positive**. Anti-insulin antibodies positive. Anti-TPO pending.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive anti-GAD and anti-islet cell antibodies confirm autoimmune (type 1A) diabetes. Autoimmune thyroid disease frequently coexists, so anti-TPO is screened. Type 1 diabetes is associated with HLA-DR3 and HLA-DR4."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Hormone / endocrine assay"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "Urinalysis",
+      "CBC with peripheral smear",
+      "Genetic / molecular testing",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on a basal-bolus insulin regimen (glargine + lispro with meals) and receives diabetes education. Over the next week his polyuria and polydipsia resolve, and his glucose stabilizes."
+  },
+  "debrief": {
+    "classic_presentation": "Type 1 diabetes typically presents in lean children or adolescents with the '3 Ps' — polyuria, polydipsia, polyphagia — plus weight loss, fatigue, and blurred vision. Many patients present in DKA at diagnosis. It has a bimodal peak (~4-6 and 10-14 years) and often coexists with other autoimmune diseases (Hashimoto thyroiditis, celiac disease, vitiligo, Addison disease).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Type 1A diabetes is an autoimmune, T-cell mediated destruction of pancreatic islet beta cells leading to absolute insulin deficiency. Strong association with HLA-DR3 and HLA-DR4 haplotypes. Circulating autoantibodies (anti-GAD65, anti-islet cell, anti-insulin, anti-IA2) are serologic markers. Without insulin, cells cannot take up glucose — the liver shifts to gluconeogenesis and ketogenesis, producing hyperglycemia, osmotic diuresis, and (if untreated) ketoacidosis.",
+    "treatment_overview": "Lifelong exogenous insulin is mandatory. A basal-bolus regimen combines a long-acting insulin (glargine, detemir, degludec) with rapid-acting prandial insulin (lispro, aspart, glulisine). Alternatives include insulin pump therapy. Patients require carbohydrate counting, glucose monitoring (or CGM), and education on sick-day rules and hypoglycemia management. HbA1c goal generally <7% with individualization. Screen regularly for retinopathy, nephropathy, neuropathy, and associated autoimmune disease.",
+    "high_yield_pearls": [
+      "Type 1 DM = autoimmune destruction of beta cells, HLA-DR3 and HLA-DR4 association; type 2 DM has no HLA link.",
+      "Classic triad (First Aid): polyuria, polydipsia, polyphagia — plus weight loss and potential DKA at presentation.",
+      "Anti-GAD65 and anti-islet cell antibodies are the serologic hallmarks; C-peptide is low/undetectable (distinguishes from type 2).",
+      "Type 1 DM frequently clusters with other autoimmune diseases: Hashimoto, celiac, Addison, vitiligo, pernicious anemia.",
+      "Insulin is REQUIRED — oral hypoglycemics do not replace the absolute insulin deficiency of type 1 DM."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes mellitus — Type 1 vs Type 2' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Type 1 diabetes mellitus",
+      "Type 2 diabetes mellitus",
+      "DI (central diabetes insipidus)",
+      "DI (nephrogenic diabetes insipidus)",
+      "Hyperthyroidism",
+      "Urinary tract infection (UTI)",
+      "Diabetic ketoacidosis (DKA)"
+    ],
+    "after_stage2_more_likely": [
+      "Type 1 diabetes mellitus",
+      "Type 2 diabetes mellitus"
+    ],
+    "after_stage2_less_likely": [
+      "DI (central diabetes insipidus)",
+      "Urinary tract infection (UTI)",
+      "Hyperthyroidism"
+    ],
+    "after_labs_top3": [
+      "Type 1 diabetes mellitus",
+      "Type 2 diabetes mellitus",
+      "Diabetic ketoacidosis (DKA)"
+    ]
+  }
+}

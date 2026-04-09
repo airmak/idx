@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_086",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Clostridioides difficile (C. diff) colitis",
+  "icd_category": "A04.7 — Enterocolitis due to Clostridium difficile",
+  "one_liner": "A 68-year-old woman presents with 5 days of profuse watery diarrhea and crampy lower abdominal pain. She finished a 10-day course of clindamycin two weeks ago for a dental abscess.",
+  "stage2": {
+    "hpi_extension": "She is having up to 12 loose, foul-smelling, non-bloody stools per day. She reports diffuse crampy abdominal pain, low-grade fevers, anorexia, and mild nausea. She has been hospitalized once in the past year for community-acquired pneumonia treated with ceftriaxone. She lives alone, eats home-cooked meals, and has had no sick contacts. She is worried because she feels weaker each day.",
+    "pmh": "Hypertension, osteoarthritis, GERD",
+    "surgical_history": "Cholecystectomy 8 years ago",
+    "medications": "Amlodipine, omeprazole, acetaminophen as needed",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Retired schoolteacher. Non-smoker, no alcohol. Recent dental procedure with 10-day course of clindamycin.",
+    "vitals": {
+      "temp": "38.3 C",
+      "hr": "108 bpm",
+      "bp": "104/66 mmHg",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: mildly ill, dry mucous membranes. Abdomen: **mild diffuse tenderness, most prominent in the lower quadrants; hyperactive bowel sounds**, no rebound or guarding, no palpable masses. Rectal exam: loose stool in the vault, no gross blood. Skin: reduced turgor. Cardiac/pulm: unremarkable. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Stool Clostridioides difficile PCR for toxin B gene (tcdB): POSITIVE**. **Stool C. difficile glutamate dehydrogenase (GDH) antigen: POSITIVE**. **Toxin A/B enzyme immunoassay: POSITIVE**. Routine stool culture and ova/parasites: no other pathogens identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A positive GDH antigen with confirmatory toxin EIA (or toxin gene PCR) in a symptomatic patient with recent antibiotic exposure confirms C. difficile infection. Asymptomatic colonization is common, so testing requires clinically significant diarrhea."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "**WBC 18.5 with left shift (marked leukocytosis)**. Hgb 13.1. Platelets 265. Smear: reactive neutrophilia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A WBC >15,000 is a marker of severe C. difficile infection per IDSA criteria and should prompt oral vancomycin or fidaxomicin rather than metronidazole."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 133, K 3.2, Cl 102, HCO3 20, BUN 28, **Cr 1.6 (baseline 0.8)**, glucose 104, albumin 3.1.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypokalemic metabolic acidosis from diarrheal losses with a rising creatinine also meets severe disease criteria (Cr >1.5x baseline)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted, rehydrated, and started on oral vancomycin 125 mg every 6 hours. Her diarrhea and leukocytosis improve over the next 3 days. On discharge she is instructed to discontinue her proton pump inhibitor and avoid unnecessary antibiotics."
+  },
+  "debrief": {
+    "classic_presentation": "Clostridioides difficile infection classically presents with profuse, non-bloody, foul-smelling watery diarrhea and crampy abdominal pain in a patient with recent antibiotic exposure (classic offenders: clindamycin, fluoroquinolones, broad-spectrum cephalosporins, carbapenems). Other risk factors include advanced age, hospitalization, nursing-home residence, and proton pump inhibitor use. Severe disease can progress to pseudomembranous colitis (yellow-white plaques on colonoscopy), toxic megacolon, and bowel perforation. Fever, leukocytosis >15,000, and rising creatinine mark severe disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "C. difficile is a gram-positive, spore-forming, obligate anaerobic rod. Antibiotics disrupt normal colonic flora, allowing ingested spores to germinate and proliferate. Pathogenic strains produce two exotoxins: Toxin A (enterotoxin, causes fluid secretion) and Toxin B (cytotoxin, glycosylates Rho GTPases and disrupts the actin cytoskeleton), which together injure colonocytes and form the fibrinopurulent pseudomembranes seen on endoscopy. The hypervirulent NAP1/BI/027 strain produces more toxin and causes more severe disease.",
+    "treatment_overview": "Stop the offending antibiotic whenever possible. First-line therapy for an initial non-severe or severe episode is oral vancomycin 125 mg four times daily or oral fidaxomicin for 10 days. Metronidazole is no longer preferred for adults except when vancomycin/fidaxomicin are unavailable. Fulminant disease (ileus, megacolon, hypotension) requires high-dose oral vancomycin with IV metronidazole and possible colectomy. For multiply recurrent infection, fecal microbiota transplantation has high cure rates. Contact isolation with soap-and-water hand washing is essential because alcohol-based hand sanitizer does not kill spores.",
+    "high_yield_pearls": [
+      "Classic offenders = Clindamycin, Cephalosporins, Ciprofloxacin/fluoroquinolones ('the 3 C's').",
+      "Pseudomembranous colitis = yellow-white plaques on colonoscopy; toxin B glycosylates Rho GTPases.",
+      "Oral vancomycin or fidaxomicin are first-line; fecal microbiota transplant for multiply recurrent disease.",
+      "Spores are alcohol-resistant — use soap-and-water hand washing and contact precautions.",
+      "Test only symptomatic patients (>=3 unformed stools/24h); positive GDH antigen plus toxin EIA (or toxin gene PCR) is diagnostic."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Clostridia — Clostridium difficile / Pseudomembranous colitis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Clostridioides difficile (C. diff) colitis",
+      "Norovirus gastroenteritis",
+      "Salmonella gastroenteritis",
+      "Ulcerative colitis",
+      "Crohn disease",
+      "Irritable bowel syndrome (IBS)",
+      "Microscopic Colitis"
+    ],
+    "after_stage2_more_likely": [
+      "Clostridioides difficile (C. diff) colitis",
+      "Norovirus gastroenteritis",
+      "Salmonella gastroenteritis"
+    ],
+    "after_stage2_less_likely": [
+      "Irritable bowel syndrome (IBS)",
+      "Microscopic Colitis"
+    ],
+    "after_labs_top3": [
+      "Clostridioides difficile (C. diff) colitis",
+      "Salmonella gastroenteritis",
+      "Ulcerative colitis"
+    ]
+  }
+}

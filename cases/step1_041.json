@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_041",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Diabetic ketoacidosis (DKA)",
+  "icd_category": "E10.10 — Type 1 diabetes mellitus with ketoacidosis without coma",
+  "one_liner": "A 17-year-old girl with newly diagnosed type 1 diabetes presents with 2 days of nausea, vomiting, abdominal pain, and deep labored breathing after missing several insulin doses during a viral illness.",
+  "stage2": {
+    "hpi_extension": "She developed a URI 4 days ago and stopped taking her insulin because she 'wasn't eating.' Over the past 48 hours she has had worsening polyuria, polydipsia, diffuse abdominal pain, and repeated vomiting. Her mother notes she is breathing rapidly and deeply and that her breath smells 'fruity like nail polish remover.' She is drowsy but arousable and oriented only to person.",
+    "pmh": "Type 1 diabetes mellitus diagnosed 3 months ago",
+    "surgical_history": "None",
+    "medications": "Insulin glargine and lispro (missed for 2 days)",
+    "allergies": "NKDA",
+    "family_history": "Mother with Hashimoto thyroiditis",
+    "social_history": "High school student. No tobacco, alcohol, or drugs.",
+    "vitals": {
+      "temp": "37.4°C",
+      "hr": "128 bpm",
+      "bp": "96/58 mmHg",
+      "rr": "30 (deep and labored)",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: ill-appearing, lethargic, **fruity (acetone) breath odor**. HEENT: dry mucous membranes, sunken eyes. CV: tachycardic, regular. Resp: **Kussmaul respirations** — deep, rapid, labored breathing with clear lungs. Abdomen: diffusely tender without rebound or guarding. Skin: poor turgor, cool dry skin. Neuro: drowsy, oriented x1, no focal deficits."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Glucose **480 mg/dL**, Na 130 (corrected ~134), K **5.6**, Cl 96, **HCO3 8**, BUN 32, Cr 1.4. **Anion gap = 26**. ABG: pH **7.18**, pCO2 22, HCO3 8 — **high anion gap metabolic acidosis with respiratory compensation**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperglycemia, high anion gap metabolic acidosis, and partial respiratory compensation (Kussmaul breathing blowing off CO2) are the defining biochemical triad of DKA. Total body potassium is depleted despite normal/high serum K+ due to insulin deficiency and acidosis shifting K+ out of cells."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "**Glucose 4+**, **ketones 3+ (large)**, specific gravity 1.030, no nitrites or leukocyte esterase.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Heavy glycosuria and ketonuria confirm uncontrolled hyperglycemia and ketogenesis. Urine ketone dipsticks detect acetoacetate (not beta-hydroxybutyrate, the dominant DKA ketone), so the actual ketosis is often underestimated."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "Serum **beta-hydroxybutyrate markedly elevated**. HbA1c 11.8%.",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated serum beta-hydroxybutyrate quantitatively confirms ketoacidosis. HbA1c reflects poor chronic glycemic control consistent with recent-onset/uncontrolled type 1 diabetes."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Hormone / endocrine assay"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After IV normal saline, continuous IV regular insulin infusion, and aggressive potassium repletion once K+ drops below 5.2, her anion gap closes and mental status returns to baseline over 12 hours."
+  },
+  "debrief": {
+    "classic_presentation": "DKA classically presents in a young patient with type 1 diabetes — often triggered by infection, missed insulin, or new-onset disease — with polyuria, polydipsia, weight loss, nausea, vomiting, abdominal pain, Kussmaul respirations, and fruity (acetone) breath. Mental status ranges from alert to comatose depending on severity of acidosis and osmolality.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Absolute insulin deficiency combined with counter-regulatory hormone excess (glucagon, cortisol, epinephrine, GH) drives unchecked lipolysis and hepatic ketogenesis. Free fatty acids are converted in the liver to the ketoacids acetoacetate and beta-hydroxybutyrate, producing a high anion gap metabolic acidosis. Hyperglycemia causes osmotic diuresis with profound loss of water, sodium, potassium, and phosphate. Dehydration worsens hyperosmolality and can progress to shock and coma.",
+    "treatment_overview": "First Aid mnemonic — treat DKA with 'IV fluids, IV insulin, and K+.' (1) Aggressive IV normal saline to restore volume. (2) Continuous IV regular insulin infusion to shut off ketogenesis and lower glucose. (3) Replete potassium before serum K+ drops with insulin therapy (hold insulin if K+ < 3.3). (4) Glucose is added to IV fluids once serum glucose reaches ~200 mg/dL to allow continued insulin without hypoglycemia. (5) Treat the underlying trigger (infection, MI). Bicarbonate is reserved for pH < 6.9.",
+    "high_yield_pearls": [
+      "DKA triad (First Aid): hyperglycemia, high anion gap metabolic acidosis, and ketonemia/ketonuria.",
+      "Kussmaul respirations = deep, rapid breathing compensating for metabolic acidosis; 'fruity' breath reflects exhaled acetone.",
+      "Total body potassium is always depleted in DKA even when serum K+ is normal or high; insulin drives K+ intracellularly, so replete K+ early.",
+      "Beta-hydroxybutyrate is the predominant ketone; urine dipstick only detects acetoacetate, so measure serum beta-hydroxybutyrate.",
+      "Cerebral edema is the most feared complication of DKA treatment in children — avoid overly rapid correction of hyperglycemia and hyperosmolality."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes mellitus — Acute manifestations: Diabetic ketoacidosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diabetic ketoacidosis (DKA)",
+      "Hyperosmolar hyperglycemic state (HHS)",
+      "Type 1 diabetes mellitus",
+      "Salicylate toxicity",
+      "Metformin-associated lactic acidosis",
+      "Metabolic acidosis",
+      "Sepsis",
+      "Pancreatitis (acute)"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic ketoacidosis (DKA)",
+      "Hyperosmolar hyperglycemic state (HHS)"
+    ],
+    "after_stage2_less_likely": [
+      "Pancreatitis (acute)",
+      "Sepsis",
+      "Salicylate toxicity"
+    ],
+    "after_labs_top3": [
+      "Diabetic ketoacidosis (DKA)",
+      "Hyperosmolar hyperglycemic state (HHS)",
+      "Metabolic acidosis"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_043",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Cushing syndrome",
+  "icd_category": "E24.9 — Cushing syndrome, unspecified",
+  "one_liner": "A 38-year-old woman presents with 9 months of progressive weight gain centered on her face and trunk, new purple stretch marks on her abdomen, easy bruising, and recently diagnosed hypertension and hyperglycemia.",
+  "stage2": {
+    "hpi_extension": "Her weight has increased 25 pounds despite no change in diet. She has developed a round red face, a prominent posterior cervical fat pad, and wide purple abdominal striae. She notes proximal muscle weakness — she struggles to rise from a chair and climb stairs — and bruises easily. Her menses have become irregular. She denies exogenous steroid use. She has had increased acne and fine facial hair.",
+    "pmh": "New-onset hypertension 4 months ago; new-onset hyperglycemia",
+    "surgical_history": "None",
+    "medications": "Lisinopril (recently started)",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Accountant. No tobacco, occasional wine.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "88 bpm",
+      "bp": "158/96 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: **central (truncal) obesity** with thin extremities. HEENT: **rounded 'moon' facies** with facial plethora. Neck: **dorsocervical fat pad ('buffalo hump')** and supraclavicular fat pads. CV: hypertensive, regular rhythm. Abdomen: obese with **wide purple abdominal striae (>1 cm)**. Skin: **thin, easily bruised**; mild hirsutism; acne. MSK: **proximal muscle weakness** (difficulty rising from chair). Neuro: intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**24-hour urine free cortisol markedly elevated** (4x upper limit). **Late-night salivary cortisol elevated**. **Low-dose (1 mg overnight) dexamethasone suppression test: FAILURE to suppress** morning cortisol below 1.8 µg/dL. Subsequent **high-dose dexamethasone: partial suppression** (consistent with pituitary source).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Three positive screening tests confirm endogenous hypercortisolism (Cushing syndrome). Failure of low-dose dexamethasone to suppress cortisol excludes normal HPA axis feedback. Partial suppression with high-dose dexamethasone suggests Cushing disease (pituitary ACTH-producing adenoma) rather than ectopic ACTH or adrenal source."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**ACTH elevated** (inappropriately, for the high cortisol). Morning cortisol high. DHEA-S mildly elevated.",
+        "flag": "HIGH",
+        "clinical_significance": "ACTH-dependent hypercortisolism. Elevated (rather than suppressed) ACTH rules out adrenal adenoma/carcinoma. Differential is pituitary Cushing disease vs. ectopic ACTH secretion (classically small cell lung cancer)."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Glucose 168 (fasting), **hypokalemia (K 3.2)**, **metabolic alkalosis (HCO3 30)**, Na 143. HbA1c 7.1%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cortisol excess drives gluconeogenesis (hyperglycemia), and at very high levels cortisol saturates 11-beta-hydroxysteroid dehydrogenase type 2 and acts on renal mineralocorticoid receptors, producing hypokalemic metabolic alkalosis and hypertension."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Hormone / endocrine assay"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Pituitary MRI reveals a 7 mm pituitary microadenoma. She undergoes transsphenoidal resection, and her cortisol and clinical stigmata improve over months."
+  },
+  "debrief": {
+    "classic_presentation": "Cushing syndrome = clinical manifestations of chronic glucocorticoid excess. Classic findings include central obesity, moon facies, buffalo hump, supraclavicular fat pads, purple abdominal striae >1 cm, thin skin, easy bruising, proximal muscle weakness, hypertension, glucose intolerance, osteoporosis, amenorrhea, hirsutism, acne, and psychiatric changes. The most common overall cause is iatrogenic glucocorticoid therapy; the most common endogenous cause is Cushing disease (pituitary ACTH adenoma).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic cortisol excess causes catabolic effects (muscle wasting, thin skin, striae, osteoporosis), insulin antagonism (hyperglycemia), protein breakdown, and fat redistribution to the face/trunk/dorsocervical area. At supraphysiologic levels cortisol spills over to the mineralocorticoid receptor, causing Na+ retention, hypertension, and hypokalemic metabolic alkalosis. Causes: (1) exogenous steroids (most common); (2) Cushing disease — pituitary ACTH adenoma (most common endogenous); (3) ectopic ACTH (small cell lung cancer, bronchial carcinoid); (4) adrenal adenoma/carcinoma.",
+    "treatment_overview": "Directed at underlying cause: transsphenoidal pituitary adenoma resection for Cushing disease, adrenalectomy for adrenal tumors, resection of ectopic ACTH source (e.g., lung tumor). Medical therapy (ketoconazole, metyrapone, mifepristone, pasireotide) can lower cortisol pre-op or when surgery is not feasible. Iatrogenic cases require slow steroid taper to avoid adrenal crisis. First Aid workup: screen with 24-hour urine free cortisol, late-night salivary cortisol, and low-dose dexamethasone suppression; localize with ACTH, high-dose dexamethasone suppression, and imaging (pituitary MRI, adrenal CT, chest CT).",
+    "high_yield_pearls": [
+      "Central obesity, moon facies, buffalo hump, purple striae, thin skin, hyperglycemia, HTN, hypokalemic alkalosis = classic Cushing.",
+      "Most common overall cause = exogenous glucocorticoids. Most common endogenous cause = Cushing disease (pituitary ACTH adenoma).",
+      "Low-dose dexamethasone suppression test screens for Cushing; high-dose test distinguishes pituitary (suppresses) from ectopic ACTH (does not suppress) and adrenal sources (ACTH suppressed).",
+      "Ectopic ACTH classically from small cell lung cancer — patients often have severe hypokalemia, metabolic alkalosis, hyperpigmentation, and little time for classic body habitus to develop.",
+      "Cortisol spillover to mineralocorticoid receptors causes hypertension + hypokalemia + metabolic alkalosis."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Cushing syndrome' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cushing syndrome",
+      "Cushing disease (pituitary ACTH excess)",
+      "Type 2 diabetes mellitus",
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Polycystic ovary syndrome (PCOS)",
+      "Hypothyroidism",
+      "Essential hypertension"
+    ],
+    "after_stage2_more_likely": [
+      "Cushing syndrome",
+      "Cushing disease (pituitary ACTH excess)"
+    ],
+    "after_stage2_less_likely": [
+      "Polycystic ovary syndrome (PCOS)",
+      "Hypothyroidism",
+      "Essential hypertension"
+    ],
+    "after_labs_top3": [
+      "Cushing syndrome",
+      "Cushing disease (pituitary ACTH excess)",
+      "Primary hyperaldosteronism (Conn syndrome)"
+    ]
+  }
+}

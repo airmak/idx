@@ -1,0 +1,105 @@
+{
+  "case_id": "step1_020",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+  "icd_category": "J44 — Chronic obstructive pulmonary disease",
+  "one_liner": "A 64-year-old man with a 45 pack-year smoking history presents with 3 years of progressive dyspnea on exertion and a chronic productive cough that is worst in the mornings.",
+  "stage2": {
+    "hpi_extension": "He now gets short of breath walking from his car to the grocery store. He produces about a quarter cup of white sputum daily. He has had three 'chest colds' this winter requiring antibiotics. He denies hemoptysis, chest pain, or night sweats. He smokes 1.5 packs per day since age 18 and has no interest in quitting. He denies occupational exposures and has never had asthma.",
+    "pmh": "Hypertension, hyperlipidemia, two prior COPD exacerbations requiring hospitalization",
+    "surgical_history": "Appendectomy as teenager",
+    "medications": "Lisinopril, atorvastatin, albuterol MDI PRN",
+    "allergies": "NKDA",
+    "family_history": "Father died of lung cancer at 68, no early-onset emphysema",
+    "social_history": "Current smoker (45 pack-years), retired auto mechanic, rare alcohol, no illicit drugs",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "92 bpm",
+      "bp": "142/86 mmHg",
+      "rr": "22",
+      "spo2": "89% on room air"
+    },
+    "physical_exam": "General: thin, cachectic man breathing through **pursed lips**, sitting in tripod position. HEENT: **barrel-shaped chest** with increased AP diameter. Pulmonary: **decreased breath sounds diffusely**, **hyperresonance to percussion**, prolonged expiratory phase with scattered end-expiratory wheezes, **distant heart sounds**. Cardiac: RV heave, loud P2. Extremities: mild lower extremity edema, **early digital clubbing absent**. Skin: nicotine-stained fingers."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Spirometry: **FEV1 48% of predicted**, **FEV1/FVC ratio 0.58 (fixed obstruction)**. Post-bronchodilator FEV1 improves only 4% (**non-reversible**). TLC and RV markedly increased (air trapping). **DLCO decreased** (consistent with emphysema).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Fixed (non-reversible) obstructive pattern with FEV1/FVC < 0.70 is diagnostic of COPD. Decreased DLCO distinguishes emphysema (parenchymal destruction) from chronic bronchitis (normal DLCO)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **hyperinflated lungs with flattened diaphragms**, increased AP diameter, **enlarged retrosternal airspace**, narrow cardiac silhouette. High-resolution CT: **centrilobular emphysema predominantly in the upper lobes** with bullae formation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Upper-lobe centrilobular emphysema is the classic radiographic pattern of smoking-related COPD (vs. panacinar lower-lobe emphysema in alpha-1 antitrypsin deficiency)."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "ABG on room air: **pH 7.36, pCO2 52, pO2 62, HCO3 30** (chronic respiratory acidosis with metabolic compensation). Hematocrit 52% (secondary polycythemia).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Chronic hypercapnia with renal bicarbonate retention is typical of advanced COPD. Secondary polycythemia reflects chronic hypoxemia and EPO drive."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is placed on tiotropium and an ICS/LABA combination, given smoking cessation counseling with varenicline, pneumococcal and influenza vaccines, and home oxygen given resting SpO2 <88%."
+  },
+  "debrief": {
+    "classic_presentation": "COPD presents in older smokers (>40 years, >20 pack-years) with progressive dyspnea, chronic productive cough, and recurrent respiratory infections. The classic phenotypes are the 'pink puffer' (emphysema-predominant: thin, pursed-lip breathing, mild hypoxia, cachexia) and the 'blue bloater' (chronic bronchitis: obese, cyanotic, productive cough ≥3 months/year × 2 years, cor pulmonale). Most patients have features of both.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic cigarette smoke exposure triggers neutrophil and macrophage recruitment, releasing elastase and proteases that overwhelm alpha-1 antitrypsin, destroying alveolar walls (emphysema) and causing goblet cell hyperplasia, mucus hypersecretion, and small-airway fibrosis (chronic bronchitis). Loss of elastic recoil causes air trapping, hyperinflation, and a flattened diaphragm. Centrilobular emphysema (upper lobes) is smoking-related; panacinar emphysema (lower lobes) suggests alpha-1 antitrypsin deficiency. Chronic hypoxia causes pulmonary vasoconstriction → pulmonary hypertension → cor pulmonale.",
+    "treatment_overview": "Smoking cessation is the only intervention proven to slow disease progression. Stepwise pharmacologic therapy: SABA/SAMA (albuterol/ipratropium) for symptoms; add LAMA (tiotropium) and/or LABA (salmeterol); add ICS (fluticasone) for frequent exacerbations or eosinophilic phenotype; roflumilast (PDE4 inhibitor) for severe chronic bronchitis. Home O2 if resting SpO2 ≤88% or PaO2 ≤55 (the only therapy besides smoking cessation that improves mortality). Vaccines: pneumococcal, annual influenza.",
+    "high_yield_pearls": [
+      "COPD diagnosis requires post-bronchodilator FEV1/FVC < 0.70 (fixed, non-reversible obstruction).",
+      "Centrilobular emphysema (upper lobes) = smoking; panacinar emphysema (lower lobes) = alpha-1 antitrypsin deficiency.",
+      "Only three interventions improve mortality in COPD: smoking cessation, home O2 (if SpO2 ≤88%), and lung volume reduction surgery in selected patients.",
+      "Reid index (gland layer thickness / total bronchial wall thickness) > 50% is the histologic hallmark of chronic bronchitis.",
+      "Chronic hypoxic vasoconstriction → pulmonary hypertension → right heart failure (cor pulmonale) with JVD, hepatomegaly, lower extremity edema."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Obstructive lung diseases — Chronic bronchitis and Emphysema' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Asthma",
+      "Heart failure (systolic)",
+      "Alpha-1 antitrypsin deficiency",
+      "Lung cancer (non-small cell / NSCLC)",
+      "Idiopathic pulmonary fibrosis",
+      "Emphysema"
+    ],
+    "after_stage2_more_likely": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Lung cancer (non-small cell / NSCLC)"
+    ],
+    "after_stage2_less_likely": [
+      "Asthma",
+      "Heart failure (systolic)"
+    ],
+    "after_labs_top3": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Alpha-1 antitrypsin deficiency",
+      "Asthma"
+    ]
+  }
+}

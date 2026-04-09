@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_064",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Herpes simplex virus (HSV) encephalitis",
+  "icd_category": "B00.4 — Herpesviral encephalitis",
+  "one_liner": "A 45-year-old previously healthy woman is brought to the ED by her husband for three days of fever, progressive confusion, and a new-onset seizure at home this morning.",
+  "stage2": {
+    "hpi_extension": "Her illness began with low-grade fever and headache. Over the next two days she became **increasingly disoriented with prominent personality and behavioral changes** — speaking strangely, laughing inappropriately, and having difficulty recognizing family members. Her husband reports **brief episodes of bizarre speech and olfactory hallucinations (smelling burning rubber)**. This morning she had a witnessed generalized tonic-clonic seizure lasting 90 seconds. No rash, no recent travel, no tick or mosquito exposures, no immunocompromising conditions. No history of recurrent cold sores, though her husband has occasional labial HSV outbreaks.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Elementary school teacher. Non-smoker.",
+    "vitals": {
+      "temp": "39.2°C",
+      "hr": "110 bpm",
+      "bp": "134/82 mmHg",
+      "rr": "18",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: febrile, lethargic, intermittently agitated. Neuro: **disoriented to time and place, cannot name familiar objects (anomic aphasia), prominent behavioral dyscontrol**. **Mild right-sided pronator drift and subtle right facial asymmetry**. Pupils reactive, EOMs intact. Mild neck stiffness. Reflexes symmetric. No focal sensory deficit. No rash. Post-ictal and intermittently confused with repetitive stereotyped movements of the right arm (possible ongoing focal seizures)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CSF analysis (lumbar puncture)",
+        "result": "Opening pressure mildly elevated. **Lymphocytic pleocytosis: 220 WBC/µL, 95% lymphocytes**. **RBCs 450/µL (reflecting hemorrhagic necrosis — characteristic of HSV)**. **Protein mildly elevated (85 mg/dL)**. **Glucose normal (62 mg/dL, serum 100)**. Bacterial Gram stain and culture negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Lymphocytic pleocytosis with elevated RBCs (reflecting the hemorrhagic necrosis of HSV) and normal glucose distinguishes viral encephalitis from bacterial meningitis. The RBC finding in a non-traumatic tap is a classic clue for HSV encephalitis."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**MRI brain with contrast: T2/FLAIR hyperintensity and edema of the left medial temporal lobe, insular cortex, and inferior frontal lobe, with patchy enhancement and areas of hemorrhagic transformation. Bilateral (but asymmetric) medial temporal involvement is characteristic**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Temporal lobe involvement — particularly medial temporal/limbic predominance with hemorrhage — is the signature of HSV-1 encephalitis and explains the behavioral, memory, and olfactory (uncinate) symptoms."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**CSF HSV PCR: positive for HSV-1 DNA**. HSV-2, VZV, enterovirus, West Nile, and arbovirus panels negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CSF PCR for HSV is >95% sensitive and specific and is the diagnostic gold standard. HSV-1 is the cause of the vast majority of adult HSV encephalitis cases (HSV-2 more often causes neonatal disease and meningitis in adults)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Empiric **IV acyclovir** was started immediately on presentation (before PCR results returned) and she gradually improves over the next 10 days, with residual mild short-term memory impairment attributable to bilateral medial temporal involvement."
+  },
+  "debrief": {
+    "classic_presentation": "HSV encephalitis classically presents with the subacute onset of **fever, headache, altered mental status, personality and behavioral changes, focal neurologic deficits, and seizures** over a few days. **Prominent behavioral and memory disturbances, aphasia, and olfactory hallucinations** reflect the characteristic **temporal lobe (limbic) involvement**. It is the most common cause of sporadic fatal viral encephalitis in the US. Mortality is >70% without treatment but drops to ~20% with prompt acyclovir; survivors often have residual cognitive and memory deficits.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**HSV-1 is the causative organism in nearly all adult cases**; HSV-2 more commonly causes neonatal encephalitis and aseptic meningitis in adults. HSV-1 is thought to reach the temporal lobes via retrograde axonal transport from trigeminal or olfactory nerve branches, with reactivation of latent virus in the trigeminal ganglion being the likely mechanism in most adults. The virus produces a **hemorrhagic necrotizing encephalitis with a strong predilection for the medial temporal and inferior frontal lobes (limbic system)**. Histology shows Cowdry type A eosinophilic intranuclear inclusions, perivascular cuffing, and neuronophagia.",
+    "treatment_overview": "**Empiric IV acyclovir must be started immediately** in any patient with suspected viral encephalitis — do not wait for PCR confirmation. Acyclovir is a nucleoside analog requiring phosphorylation by viral thymidine kinase and then host kinases; the active form inhibits viral DNA polymerase and causes chain termination. Treat for 14-21 days. Supportive care includes seizure control with antiepileptics, management of elevated intracranial pressure, and monitoring for renal toxicity (acyclovir crystal nephropathy — maintain hydration). Steroids may be considered for severe edema but are not routinely required.",
+    "high_yield_pearls": [
+      "HSV encephalitis = the most common cause of sporadic fatal viral encephalitis in the US; HSV-1 predominates in adults.",
+      "Classic features: fever, personality/behavioral change, aphasia, seizures, and olfactory hallucinations from temporal (limbic) involvement.",
+      "CSF: lymphocytic pleocytosis with elevated RBCs (hemorrhagic necrosis), mildly elevated protein, normal glucose. Gold standard: CSF HSV PCR.",
+      "MRI: asymmetric temporal lobe (and inferior frontal) hyperintensity with hemorrhage — a highly suggestive pattern.",
+      "Start IV acyclovir empirically; do NOT wait for PCR. Maintain hydration to prevent acyclovir crystal nephropathy."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'CNS infections — Viral encephalitis, HSV encephalitis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Herpes simplex virus (HSV) encephalitis",
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Encephalitis",
+      "Cryptococcal meningitis",
+      "Tuberculous meningitis",
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Subarachnoid hemorrhage (SAH)"
+    ],
+    "after_stage2_more_likely": [
+      "Herpes simplex virus (HSV) encephalitis",
+      "Encephalitis",
+      "Bacterial meningitis"
+    ],
+    "after_stage2_less_likely": [
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Subarachnoid hemorrhage (SAH)",
+      "Cryptococcal meningitis"
+    ],
+    "after_labs_top3": [
+      "Herpes simplex virus (HSV) encephalitis",
+      "Encephalitis",
+      "Viral meningitis"
+    ]
+  }
+}

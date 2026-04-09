@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_063",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Bacterial meningitis",
+  "icd_category": "G00.1 — Pneumococcal meningitis",
+  "one_liner": "A 72-year-old man is brought to the ED by his family for one day of fever, confusion, severe headache, and a stiff neck. He had a cough for a week prior and a history of a previous ear infection.",
+  "stage2": {
+    "hpi_extension": "Over the past 12 hours he has become increasingly obtunded, with high fevers up to 39.8°C, rigors, and a new severe bifrontal headache. His family reports he 'isn't making sense' and has been photophobic. He had an episode of emesis this morning. One week ago he began an upper respiratory illness with productive cough and right ear pain. No rash, no focal limb weakness, no recent travel, no animal exposures, no sick contacts with meningitis. He has not received the pneumococcal vaccine.",
+    "pmh": "Type 2 diabetes mellitus, COPD, chronic alcohol use, recurrent otitis media and sinusitis, prior splenectomy after trauma 20 years ago",
+    "surgical_history": "Splenectomy (trauma)",
+    "medications": "Metformin, tiotropium, albuterol",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Retired factory worker, lives alone. Daily alcohol use. Former smoker. **Has not received pneumococcal or Hib vaccines**. No meningococcal vaccine.",
+    "vitals": {
+      "temp": "39.8°C",
+      "hr": "122 bpm",
+      "bp": "98/58 mmHg",
+      "rr": "24",
+      "spo2": "92% on room air"
+    },
+    "physical_exam": "General: toxic-appearing, lethargic, oriented only to self. **Marked neck stiffness on passive flexion (nuchal rigidity)**. **Kernig sign (pain on knee extension with hip flexed) and Brudzinski sign (involuntary hip/knee flexion on neck flexion) both positive**. HEENT: right tympanic membrane erythematous and bulging (otitis media). **No petechial or purpuric rash** (in contrast to meningococcemia). Cardiac: tachycardic. Lungs: right basilar crackles. Neuro: no focal weakness; photophobic; Glasgow Coma Scale 12."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CSF analysis (lumbar puncture)",
+        "result": "**Opening pressure elevated (35 cm H2O)**. Appearance: **cloudy/turbid**. **WBC: 2,800/µL with 92% neutrophils (neutrophilic pleocytosis)**. **Glucose: 18 mg/dL (serum glucose 120 — CSF:serum ratio <0.3, markedly low)**. **Protein: 280 mg/dL (markedly elevated)**. Lactate elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "This is a classic bacterial meningitis CSF profile: high opening pressure, neutrophilic pleocytosis, low glucose (from bacterial consumption and impaired glucose transport), and high protein. Contrast with viral meningitis (lymphocytic, normal glucose), TB/fungal (lymphocytic, low glucose, very high protein)."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**CSF Gram stain: numerous gram-positive, lancet-shaped diplococci**. CSF culture and two blood cultures: growing alpha-hemolytic, optochin-sensitive, bile-soluble colonies consistent with **Streptococcus pneumoniae**. Pneumococcal urinary antigen positive.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gram-positive lancet-shaped diplococci on CSF Gram stain in an unvaccinated adult with a respiratory prodrome is pathognomonic for Streptococcus pneumoniae, the most common cause of bacterial meningitis in adults >20 years old. Asplenia, diabetes, alcoholism, and unvaccinated status are major risk factors."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "Urinalysis",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Empiric **ceftriaxone + vancomycin + dexamethasone** is administered immediately after blood cultures are drawn (dexamethasone before or with the first antibiotic dose to reduce neurologic sequelae in pneumococcal meningitis). **Ampicillin is added to cover Listeria monocytogenes given age >50**."
+  },
+  "debrief": {
+    "classic_presentation": "Bacterial meningitis classically presents with the triad of **fever, neck stiffness, and altered mental status** — though all three are present in only ~45% of cases. Additional features include severe headache, photophobia, vomiting, nuchal rigidity with positive Kernig and Brudzinski signs, and seizures. Petechial/purpuric rash suggests Neisseria meningitidis; a preceding otitis, sinusitis, or pneumonia points to Streptococcus pneumoniae. In elderly, immunocompromised, and diabetic patients, the presentation may be more subtle with confusion dominating over classic meningeal signs.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**Streptococcus pneumoniae is the most common cause of community-acquired bacterial meningitis in adults (age >20)** and in the elderly. Organisms colonize the nasopharynx, invade via contiguous spread (otitis, sinusitis, mastoiditis) or hematogenous seeding (pneumonia, endocarditis), cross the blood-brain barrier, and multiply in the subarachnoid space where host defenses are limited. Release of cell wall components (teichoic acid, peptidoglycan) triggers a cytokine storm (TNF, IL-1) causing cerebral edema, increased ICP, vasculitis, and cerebral infarction. **Risk factors for pneumococcal meningitis include asplenia, diabetes, alcoholism, CSF leak, cochlear implants, sickle cell disease, and absence of pneumococcal vaccination**. Age >50 additionally raises the risk of **Listeria monocytogenes**.",
+    "treatment_overview": "Bacterial meningitis is a neurologic emergency. **Do not delay antibiotics for imaging or LP**. Obtain blood cultures and give empiric therapy within minutes. **Empiric regimen in adults >50 or immunocompromised**: **ceftriaxone + vancomycin + ampicillin (for Listeria) + dexamethasone**. Dexamethasone given before or with the first antibiotic dose reduces mortality and neurologic sequelae (particularly hearing loss) in **pneumococcal meningitis**. Narrow therapy once cultures and sensitivities return. Prophylaxis for close contacts of meningococcal and Hib meningitis, not pneumococcal. Prevention: **PCV13 and PPSV23 vaccination**, especially in asplenic and elderly patients.",
+    "high_yield_pearls": [
+      "Most common causes of bacterial meningitis by age: neonates — GBS, E. coli, Listeria; children/young adults — N. meningitidis; adults >20 and elderly — S. pneumoniae; elderly/immunocompromised — add Listeria coverage.",
+      "CSF in bacterial meningitis: high opening pressure, neutrophilic pleocytosis (often >1000), LOW glucose (<40 or CSF:serum <0.4), HIGH protein.",
+      "S. pneumoniae: gram-positive, lancet-shaped diplococci; alpha-hemolytic, optochin-sensitive, bile-soluble, quellung-positive (capsule).",
+      "Empiric adult therapy: ceftriaxone + vancomycin; add ampicillin for Listeria if >50 or immunocompromised; dexamethasone before/with first antibiotic dose for pneumococcal meningitis.",
+      "Asplenic patients are at increased risk from encapsulated organisms (S. pneumoniae, N. meningitidis, H. influenzae) — vaccinate and counsel about febrile illness."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'CNS infections — Bacterial meningitis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Herpes simplex virus (HSV) encephalitis",
+      "Subarachnoid hemorrhage (SAH)",
+      "Tuberculous meningitis",
+      "Cryptococcal meningitis",
+      "Encephalitis",
+      "Sepsis"
+    ],
+    "after_stage2_more_likely": [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Herpes simplex virus (HSV) encephalitis"
+    ],
+    "after_stage2_less_likely": [
+      "Subarachnoid hemorrhage (SAH)",
+      "Tuberculous meningitis",
+      "Cryptococcal meningitis"
+    ],
+    "after_labs_top3": [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Herpes simplex virus (HSV) encephalitis"
+    ]
+  }
+}

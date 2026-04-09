@@ -152,6 +152,12 @@ a { color: var(--teal); text-decoration: none; }
   border-color: var(--green-dim);
   color: #0a1220;
 }
+.stage-step.clickable { cursor: pointer; }
+.stage-step.clickable:hover .stage-dot {
+  transform: scale(1.08);
+  box-shadow: 0 0 14px rgba(0,229,204,0.45);
+}
+.stage-step.clickable:hover .stage-label { color: var(--text); }
 .stage-label { font-size: 0.65rem; color: var(--text-muted); text-align: center; display: none; }
 @media(min-width: 600px) { .stage-label { display: block; } }
 
@@ -1247,27 +1253,27 @@ a { color: var(--teal); text-decoration: none; }
 <!-- STAGE PROGRESS -->
 <div id="stage-progress">
   <div class="progress-bar">
-    <div class="stage-step" id="step-1">
+    <div class="stage-step" id="step-1" onclick="goToStage(1)">
       <div class="stage-dot">1</div>
       <div class="stage-label">DDx</div>
     </div>
-    <div class="stage-step" id="step-2">
+    <div class="stage-step" id="step-2" onclick="goToStage(2)">
       <div class="stage-dot">2</div>
       <div class="stage-label">History</div>
     </div>
-    <div class="stage-step" id="step-3">
+    <div class="stage-step" id="step-3" onclick="goToStage(3)">
       <div class="stage-dot">3</div>
       <div class="stage-label">Workup</div>
     </div>
-    <div class="stage-step" id="step-4">
+    <div class="stage-step" id="step-4" onclick="goToStage(4)">
       <div class="stage-dot">4</div>
       <div class="stage-label">Top 3</div>
     </div>
-    <div class="stage-step" id="step-5">
+    <div class="stage-step" id="step-5" onclick="goToStage(5)">
       <div class="stage-dot">5</div>
       <div class="stage-label">Final Clue</div>
     </div>
-    <div class="stage-step" id="step-6">
+    <div class="stage-step" id="step-6" onclick="goToStage(6)">
       <div class="stage-dot">6</div>
       <div class="stage-label">Reveal</div>
     </div>
@@ -1742,6 +1748,8 @@ async function startCase() {
   state.orderedTests = [];
   state.top3 = [];
   state.finalDiagnosis = null;
+  state.maxStage = 0;
+  state.currentStage = 0;
 
   try {
     const url = `/api/new-case?mode=${state.mode}&specialty=${encodeURIComponent(specialty)}`;
@@ -2975,6 +2983,8 @@ function resetToHome() {
   state.userRefinements = {};
   state.orderedTests = [];
   state.finalDiagnosis = null;
+  state.maxStage = 0;
+  state.currentStage = 0;
   document.getElementById('case-badge').style.display = 'none';
   showPregame();
 }
@@ -2987,13 +2997,109 @@ function hideAllScreens() {
 }
 
 function updateProgress(stage) {
+  state.currentStage = stage;
+  if (!state.maxStage || stage > state.maxStage) state.maxStage = stage;
   for (let i = 1; i <= 6; i++) {
     const el = document.getElementById(`step-${i}`);
     if (!el) continue;
-    el.classList.remove('active','done');
+    el.classList.remove('active','done','clickable');
     if (i === stage) el.classList.add('active');
     else if (i < stage) el.classList.add('done');
+    // Any stage we have already reached (other than the current one) is clickable
+    if (i !== stage && i <= state.maxStage) el.classList.add('clickable');
   }
+}
+
+// Back/forward navigation between visited stages.
+// Forward navigation is gated through the existing flow buttons; this
+// function only re-renders previously reached stages without losing state.
+function goToStage(target) {
+  if (!state.maxStage || target < 1 || target > 6) return;
+  if (target > state.maxStage) return;          // not yet reached
+  if (target === state.currentStage) return;    // already here
+  switch (target) {
+    case 1: restoreStage1(); break;
+    case 2: restoreStage2(); break;
+    case 3: restoreStage3(); break;
+    case 4: restoreStage4(); break;
+    case 5: restoreStage5(); break;
+    case 6: restoreStage6(); break;
+  }
+  updateProgress(target);
+}
+
+function restoreStage1() {
+  hideAllScreens();
+  document.getElementById('screen-stage1').style.display = 'block';
+  // Re-render DDx UI from current state (chips + selectable list)
+  updateDdxChips();
+  buildDdxDropdown(document.getElementById('ddx-input') ? document.getElementById('ddx-input').value || '' : '');
+  buildVindicateGrid();
+}
+
+function restoreStage2() {
+  hideAllScreens();
+  document.getElementById('screen-stage2').style.display = 'block';
+  // The cards' DOM content from the original showStage2 is still in place.
+  // Re-apply previously selected refinement buttons from state.userRefinements.
+  document.querySelectorAll('#refinement-rows .ref-btn').forEach(b => {
+    b.classList.remove('selected-more','selected-same','selected-less');
+  });
+  Object.entries(state.userRefinements || {}).forEach(([diag, choice]) => {
+    const row = document.getElementById(`ref-row-${safeId(diag)}`);
+    if (!row) return;
+    const btns = row.querySelectorAll('.ref-btn');
+    if (choice === 'more_likely' && btns[0]) btns[0].classList.add('selected-more');
+    else if (choice === 'just_as_likely' && btns[1]) btns[1].classList.add('selected-same');
+    else if (choice === 'less_likely' && btns[2]) btns[2].classList.add('selected-less');
+  });
+  checkProceedS3();
+}
+
+function restoreStage3() {
+  hideAllScreens();
+  document.getElementById('screen-stage3').style.display = 'block';
+  // Mark previously ordered tests as selected on the test buttons
+  document.querySelectorAll('.test-option').forEach(btn => {
+    btn.classList.toggle('selected', state.orderedTests.includes(btn.dataset.test));
+  });
+  updateOrderedChips();
+  document.getElementById('tests-count').textContent = state.orderedTests.length;
+  document.getElementById('submit-tests-btn').disabled = state.orderedTests.length < 2;
+  // If results were already revealed, the DOM still shows them — leave the
+  // results card open so the user can review.
+}
+
+function restoreStage4() {
+  hideAllScreens();
+  document.getElementById('screen-stage4').style.display = 'block';
+  // Re-check the checkboxes that correspond to the locked-in top3
+  state.userDdx.forEach(diag => {
+    const cb = document.getElementById(`t3-cb-${safeId(diag)}`);
+    if (cb) cb.checked = state.top3.includes(diag);
+  });
+  if (typeof updateRankDisplay === 'function') updateRankDisplay();
+  document.getElementById('lock-top3-btn').disabled = state.top3.length !== 3;
+}
+
+function restoreStage5() {
+  hideAllScreens();
+  document.getElementById('screen-stage5').style.display = 'block';
+  // Re-select the radio matching the previously chosen final diagnosis (if any)
+  if (state.finalDiagnosis) {
+    document.querySelectorAll('#final-choices input[type=radio]').forEach(r => {
+      const matches = r.value === state.finalDiagnosis;
+      r.checked = matches;
+      const opt = r.closest('.final-option');
+      if (opt) opt.classList.toggle('selected', matches);
+    });
+    document.getElementById('submit-final-btn').disabled = false;
+  }
+}
+
+function restoreStage6() {
+  hideAllScreens();
+  document.getElementById('screen-stage6').style.display = 'block';
 }
 
 // =====================================================

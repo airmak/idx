@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_054",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Lymphoma (non-Hodgkin / NHL)",
+  "icd_category": "C85.90 — Non-Hodgkin lymphoma, unspecified",
+  "one_liner": "An 8-year-old boy from sub-Saharan Africa is brought in with a rapidly enlarging jaw mass that has doubled in size over 2 weeks. He also has generalized abdominal fullness.",
+  "stage2": {
+    "hpi_extension": "Parents report the **jaw mass began 2–3 weeks ago and is growing visibly day by day**. It is now distorting his face. He has also had abdominal distension, decreased appetite, and mild fatigue. No fevers or night sweats. His mother reports he has been generally well apart from malaria as a young child. No lymphadenopathy in the neck, axillae, or groin was noted initially, but the jaw mass is unmistakable.",
+    "pmh": "Malaria as a toddler. Otherwise healthy.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory.",
+    "social_history": "Lives in rural Kenya. Attends primary school. No HIV exposure known.",
+    "vitals": {
+      "temp": "37.4°C",
+      "hr": "110 bpm",
+      "bp": "100/60 mmHg",
+      "rr": "20",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: alert, cachectic. HEENT: **massive, firm, fixed mass of the right mandible** distorting facial anatomy, with loose teeth and intraoral extension. No cervical lymphadenopathy. Lungs: clear. Abdomen: **distended with palpable masses in the right upper and lower quadrants**; hepatomegaly. Skin: no rash. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Excisional biopsy of the jaw mass: sheets of medium-sized, **monotonous lymphoid cells with basophilic cytoplasm, round nuclei, and multiple nucleoli**. Numerous mitoses and tingible-body macrophages creating a **'starry sky' appearance**. Immunohistochemistry: **CD20+, CD10+, BCL6+, BCL2−**, **Ki-67 proliferation index ~100%**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A 'starry sky' B-cell lymphoma with near-100% Ki-67 is diagnostic of Burkitt lymphoma — an aggressive, rapidly proliferating non-Hodgkin lymphoma. The jaw location and African origin point to the endemic form, which is EBV-associated."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "FISH: **t(8;14)(q24;q32) — translocation of c-MYC to the IgH heavy chain locus**. In situ hybridization positive for EBV-encoded small RNA (EBER), consistent with endemic Burkitt lymphoma.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "t(8;14) c-MYC rearrangement is pathognomonic for Burkitt lymphoma and drives its exceptionally high proliferation rate. EBV association points to the endemic (African) form."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**LDH markedly elevated** (>5× upper limit). Uric acid elevated. Potassium mildly elevated, phosphate elevated, calcium low — consistent with spontaneous tumor lysis. Creatinine mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Burkitt lymphoma has the fastest doubling time of any human malignancy and frequently presents with spontaneous tumor lysis syndrome: hyperkalemia, hyperuricemia, hyperphosphatemia, hypocalcemia, and acute kidney injury."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Given the diagnosis of Burkitt lymphoma, aggressive hydration, rasburicase, and dose-adjusted combination chemotherapy (EPOCH-R or similar) are initiated with careful tumor lysis monitoring. Burkitt is highly chemosensitive and often curable in pediatric patients."
+  },
+  "debrief": {
+    "classic_presentation": "Non-Hodgkin lymphomas are a heterogeneous group of B- or T-cell neoplasms that are more common than Hodgkin lymphoma, have a peak incidence later in life (most subtypes), and more often involve **extranodal sites**, with **non-contiguous** and sometimes hematogenous spread. Patients present with painless lymphadenopathy ± B symptoms or with site-specific complaints. The Burkitt subtype presents in three forms: endemic (African children, jaw mass, EBV-associated), sporadic (Western children/young adults, abdominal/ileocecal mass), and immunodeficiency-associated (HIV). Follicular lymphoma is the most common indolent NHL; diffuse large B-cell is the most common aggressive NHL.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Most NHLs are B-cell (85–90%); T-cell lymphomas are less common. Distinctive genetic drivers help differentiate subtypes: **Burkitt lymphoma → t(8;14) c-MYC translocation** (overexpression of c-MYC drives proliferation, explaining the starry-sky histology and near-100% Ki-67); **follicular lymphoma → t(14;18) BCL2 translocation** (anti-apoptosis); **mantle cell → t(11;14) cyclin D1**; **diffuse large B-cell lymphoma → BCL6 rearrangements**. EBV is implicated in endemic Burkitt and in some HIV-associated lymphomas.",
+    "treatment_overview": "Treatment varies by subtype and grade. Aggressive lymphomas (DLBCL, Burkitt) are treated with intensive multi-agent chemotherapy (e.g., R-CHOP for DLBCL; dose-intensive EPOCH-R or CODOX-M/IVAC for Burkitt) and can be curable. Indolent lymphomas (follicular) are treated for symptoms/progression and are generally incurable with conventional therapy but responsive. Rituximab (anti-CD20) is a backbone in most B-cell NHLs. Tumor lysis prophylaxis with hydration, allopurinol, or rasburicase is essential in high-grade disease.",
+    "high_yield_pearls": [
+      "NHL is more common than Hodgkin, more often extranodal, and spreads non-contiguously.",
+      "Burkitt lymphoma: t(8;14) c-MYC, 'starry sky' histology from tingible-body macrophages, Ki-67 ~100%, highest doubling time of any tumor → tumor lysis risk.",
+      "Burkitt forms: endemic (African, jaw, EBV), sporadic (abdominal, Western), immunodeficiency-associated (HIV).",
+      "Follicular lymphoma: t(14;18) BCL2 (anti-apoptotic); indolent, incurable but chemo-responsive.",
+      "Diffuse large B-cell lymphoma is the most common aggressive NHL; treat with R-CHOP."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Lymphomas — Non-Hodgkin lymphoma (Burkitt, follicular, DLBCL)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Lymphoma (Hodgkin)",
+      "Acute lymphoblastic leukemia (ALL)",
+      "Acute myeloid leukemia (AML)",
+      "Osteomyelitis",
+      "Tuberculosis (TB)",
+      "Neuroblastoma",
+      "Wilms tumor (nephroblastoma)"
+    ],
+    "after_stage2_more_likely": [
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Lymphoma (Hodgkin)",
+      "Acute lymphoblastic leukemia (ALL)"
+    ],
+    "after_stage2_less_likely": [
+      "Osteomyelitis",
+      "Tuberculosis (TB)"
+    ],
+    "after_labs_top3": [
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Lymphoma (Hodgkin)",
+      "Acute lymphoblastic leukemia (ALL)"
+    ]
+  }
+}

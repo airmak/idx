@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_047",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hashimoto thyroiditis",
+  "icd_category": "E06.3 — Autoimmune thyroiditis",
+  "one_liner": "A 45-year-old woman presents with 6 months of progressive fatigue, cold intolerance, constipation, dry skin, 8-pound weight gain despite a poor appetite, and a painless goiter.",
+  "stage2": {
+    "hpi_extension": "She feels sluggish, sleeps 10 hours a night but still feels unrested, and wears a sweater in a warm office. Her skin has become dry and her hair is thinning. She has heavy menses (menorrhagia) and mild depression. She noticed a gradual painless enlargement of the front of her neck over months. She denies tremor, palpitations, heat intolerance, or eye symptoms. No neck pain, no recent viral illness.",
+    "pmh": "Vitiligo",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Mother with hypothyroidism; sister with type 1 diabetes",
+    "social_history": "Librarian. No tobacco, no alcohol.",
+    "vitals": {
+      "temp": "36.2°C",
+      "hr": "56 bpm",
+      "bp": "118/76 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: tired-appearing, puffy. HEENT: **periorbital puffiness**, coarse dry skin, thinning eyebrows (lateral third). Neck: **diffusely enlarged, firm, non-tender ('rubbery') goiter** with a bumpy/bosselated surface; no bruit. CV: **bradycardic**, regular. Resp: clear. Abdomen: soft, non-tender. Extremities: **non-pitting edema**. Skin: dry, cool. Neuro: **delayed relaxation phase of deep tendon reflexes** ('hung-up' reflexes)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**TSH markedly elevated (22 mIU/L)**. **Free T4 low (0.6 ng/dL)**. Free T3 low-normal. Prolactin mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated TSH with low free T4 confirms primary hypothyroidism. TRH-driven prolactin elevation is a common incidental finding. In an adult with goiter and hypothyroidism, autoimmune (Hashimoto) thyroiditis is the leading cause in iodine-sufficient regions."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Anti-thyroid peroxidase (anti-TPO) antibodies markedly positive**. **Anti-thyroglobulin antibodies positive**. TSI (thyroid stimulating immunoglobulin) negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive anti-TPO and anti-thyroglobulin antibodies are the serologic hallmark of Hashimoto thyroiditis. Negative TSI excludes Graves disease. Hashimoto is associated with HLA-DR3 and HLA-DR5."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**LDL cholesterol elevated**, **hyponatremia (Na 132)**, mildly elevated creatine kinase. Fasting glucose normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypothyroidism causes hyperlipidemia (decreased LDL receptor expression), mild hyponatremia (reduced free water clearance), and mild CK elevation from myopathy. These peripheral findings support longstanding hypothyroidism."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on levothyroxine. Over 6 weeks her TSH begins to normalize, energy improves, and the goiter shrinks modestly. She is counseled that Hashimoto is a lifelong disease with a small long-term risk of primary thyroid lymphoma."
+  },
+  "debrief": {
+    "classic_presentation": "Hashimoto thyroiditis is the most common cause of hypothyroidism and goiter in iodine-sufficient areas. Middle-aged women present with fatigue, cold intolerance, weight gain, constipation, dry skin, brittle hair, menorrhagia, bradycardia, periorbital puffiness, non-pitting edema, and a painless 'rubbery' diffusely enlarged goiter. Delayed relaxation ('hung-up') of deep tendon reflexes is a classic bedside sign. Associations with other autoimmune diseases (type 1 DM, celiac, vitiligo, Addison, pernicious anemia) are common.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic autoimmune (T-cell and antibody-mediated) destruction of the thyroid gland. Histology shows a dense lymphocytic infiltrate with germinal centers and Hurthle cells (eosinophilic epithelial cells). Serologic hallmarks are anti-thyroid peroxidase (anti-TPO) and anti-thyroglobulin antibodies. Strong HLA-DR3 and HLA-DR5 associations. There is a small but increased lifetime risk of primary thyroid (B-cell, MALT-type) lymphoma.",
+    "treatment_overview": "Lifelong levothyroxine (synthetic T4) replacement, titrated to keep TSH within the normal range. Start low and uptitrate in elderly or cardiac patients to avoid precipitating arrhythmia/ischemia. Monitor TSH approximately every 6-8 weeks until stable. In pregnancy, thyroid hormone requirements rise (~30%) and TSH targets are stricter. Subclinical hypothyroidism (high TSH, normal T4) is often treated if TSH >10 or if symptomatic, pregnant, or anti-TPO positive.",
+    "high_yield_pearls": [
+      "Hashimoto thyroiditis: most common cause of hypothyroidism and goiter in iodine-sufficient countries.",
+      "Serologic hallmark: anti-TPO and anti-thyroglobulin antibodies; HLA-DR3 and HLA-DR5 associations.",
+      "Histology: lymphocytic infiltrate with germinal centers and Hurthle cells (eosinophilic metaplasia).",
+      "Delayed ('hung-up') relaxation of deep tendon reflexes is a classic exam finding in hypothyroidism.",
+      "Increased risk of primary thyroid B-cell lymphoma (MALT) in Hashimoto patients."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Hypothyroidism — Hashimoto thyroiditis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hashimoto thyroiditis",
+      "Hypothyroidism",
+      "Subacute thyroiditis (de Quervain)",
+      "Graves disease",
+      "Myxedema coma",
+      "Iron deficiency anemia",
+      "Major depressive disorder",
+      "Thyroid cancer"
+    ],
+    "after_stage2_more_likely": [
+      "Hashimoto thyroiditis",
+      "Hypothyroidism"
+    ],
+    "after_stage2_less_likely": [
+      "Graves disease",
+      "Major depressive disorder",
+      "Iron deficiency anemia"
+    ],
+    "after_labs_top3": [
+      "Hashimoto thyroiditis",
+      "Hypothyroidism",
+      "Subacute thyroiditis (de Quervain)"
+    ]
+  }
+}

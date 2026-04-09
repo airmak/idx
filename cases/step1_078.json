@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_078",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Tetralogy of Fallot",
+  "icd_category": "Q21.3 — Tetralogy of Fallot",
+  "one_liner": "A 6-month-old boy has sudden episodes of deep cyanosis and irritability while crying or feeding; the mother has noticed he squats during play as a toddler his age who just started crawling.",
+  "stage2": {
+    "hpi_extension": "During the current episode he became **acutely cyanotic (tet spell)** while crying, which improved when his mother held him knees-to-chest. He has had failure to thrive and easy fatigability with feeds. A murmur was noted at birth but follow-up was not completed. He is not yet walking but when older children in the family crouch on the floor during tet spells they report feeling better.",
+    "pmh": "Murmur noted in newborn nursery; no prior surgeries; full-term vaginal delivery",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "No known congenital heart disease; parents healthy",
+    "social_history": "Lives with parents; no daycare; no sick contacts",
+    "vitals": {
+      "temp": "37.0 C",
+      "hr": "164 bpm",
+      "bp": "78/48 mmHg",
+      "rr": "52",
+      "spo2": "78% on room air, rising to 88% with knees to chest"
+    },
+    "physical_exam": "General: small, irritable infant, **centrally cyanotic** with perioral duskiness during spell. HEENT: **cyanotic lips and tongue**. CV: **harsh crescendo-decrescendo systolic ejection murmur at the left upper sternal border (pulmonary stenosis)**; single loud S2; **right ventricular heave**. Lungs: clear. Abdomen: soft. Extremities: **digital clubbing** with cyanotic nail beds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest x-ray: **'boot-shaped' heart (coeur en sabot)** from right ventricular hypertrophy with an uplifted apex; **decreased pulmonary vascular markings**; normal-sized cardiac silhouette. Echocardiogram: **large malalignment VSD, overriding aorta, right ventricular outflow tract/pulmonic stenosis, and right ventricular hypertrophy** — all four components of tetralogy of Fallot.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'boot-shaped' heart on CXR and the echocardiographic quartet of pulmonary stenosis, RVH, overriding aorta, and VSD confirm tetralogy of Fallot. Severity of right ventricular outflow tract obstruction determines the degree of cyanosis."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "EKG: **right axis deviation with right ventricular hypertrophy** (tall R in V1).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RVH with right axis deviation is expected given the chronically pressure-loaded right ventricle in TOF."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hemoglobin 18.2 g/dL (elevated); hematocrit 56%; mild reticulocytosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Secondary polycythemia reflects chronic hypoxemia from right-to-left shunting across the VSD."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "During the tet spell he is placed in knees-to-chest position, given oxygen, morphine, and an IV fluid bolus, with resolution of cyanosis; he is scheduled for elective complete surgical repair (VSD patch closure and right ventricular outflow tract reconstruction)."
+  },
+  "debrief": {
+    "classic_presentation": "Tetralogy of Fallot is the most common cyanotic congenital heart disease presenting beyond the neonatal period. Infants develop cyanotic 'tet spells' during crying, feeding, or agitation, which increase right-to-left shunting across the VSD. Older children classically squat, which increases systemic vascular resistance and decreases right-to-left shunting. Exam shows a harsh systolic ejection murmur at the left upper sternal border (from pulmonic stenosis), a right ventricular heave, and clubbing.",
+    "attending_mode_notes": null,
+    "pathophysiology": "TOF results from anterosuperior displacement of the infundibular septum during embryogenesis, producing the four 'PROVe' features: Pulmonary (right ventricular outflow tract) stenosis, Right ventricular hypertrophy, Overriding aorta, and a malalignment Ventricular septal defect. The degree of right ventricular outflow obstruction determines the magnitude of right-to-left shunting across the VSD and therefore the degree of cyanosis. Maneuvers that raise systemic vascular resistance (squatting, phenylephrine) decrease right-to-left shunt and improve oxygenation.",
+    "treatment_overview": "Acute tet spells: place the infant in knees-to-chest position, provide supplemental oxygen, IV fluids, morphine, and beta blockers (propranolol); phenylephrine can raise SVR. Definitive therapy is complete surgical repair within the first year of life: VSD closure with a patch and relief of right ventricular outflow tract obstruction. Lifelong cardiology follow-up is needed for residual pulmonary regurgitation and arrhythmias.",
+    "high_yield_pearls": [
+      "PROVe: Pulmonary stenosis, Right ventricular hypertrophy, Overriding aorta, VSD — the four features of tetralogy of Fallot.",
+      "'Boot-shaped' heart on chest x-ray is the classic imaging finding.",
+      "Tet spells improve with squatting (or knees-to-chest) because increased SVR decreases right-to-left shunting.",
+      "TOF is the most common cyanotic CHD presenting after the newborn period.",
+      "TOF is associated with 22q11.2 deletion (DiGeorge) syndrome."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Congenital heart diseases — Cyanotic (right-to-left shunts)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Tetralogy of Fallot",
+      "VSD (ventricular septal defect)",
+      "ASD (atrial septal defect)",
+      "PDA (patent ductus arteriosus)",
+      "Coarctation of the aorta",
+      "DiGeorge syndrome (22q11.2 deletion)",
+      "Bronchiolitis (Respiratory Syncytial Virus)"
+    ],
+    "after_stage2_more_likely": [
+      "Tetralogy of Fallot",
+      "DiGeorge syndrome (22q11.2 deletion)"
+    ],
+    "after_stage2_less_likely": [
+      "ASD (atrial septal defect)",
+      "PDA (patent ductus arteriosus)",
+      "Bronchiolitis (Respiratory Syncytial Virus)"
+    ],
+    "after_labs_top3": [
+      "Tetralogy of Fallot",
+      "VSD (ventricular septal defect)",
+      "DiGeorge syndrome (22q11.2 deletion)"
+    ]
+  }
+}

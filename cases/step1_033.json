@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_033",
+  "mode": "step1",
+  "specialty": "Surgery",
+  "diagnosis": "Cholecystitis",
+  "icd_category": "K81.0 — Acute cholecystitis",
+  "one_liner": "A 44-year-old obese woman presents to the ED with 8 hours of steady right upper quadrant pain that began after a fatty dinner. The pain now radiates to her right scapula and is accompanied by nausea, vomiting, and fever.",
+  "stage2": {
+    "hpi_extension": "She has had several prior self-limited episodes of right-sided postprandial pain over the past year ('biliary colic'), but tonight the pain did not go away after 6 hours. It is constant, severe, and radiates to the **right shoulder/scapula**. She vomited bile-stained fluid. She feels feverish and chilled. She has not had jaundice, dark urine, acholic stools, or GI bleeding.",
+    "pmh": "Obesity (BMI 34), type 2 diabetes",
+    "surgical_history": "Cesarean section ×2",
+    "medications": "Metformin",
+    "allergies": "NKDA",
+    "family_history": "Mother had her gallbladder removed in her 40s.",
+    "social_history": "Multiparous (G4P4). Non-smoker. Rare alcohol.",
+    "vitals": {
+      "temp": "38.6°C",
+      "hr": "108 bpm",
+      "bp": "130/78 mmHg",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "Uncomfortable, diaphoretic. Sclera anicteric. Abdomen: **tenderness and voluntary guarding in the right upper quadrant**. **Murphy sign positive** — inspiratory arrest on deep palpation beneath the right costal margin. No palpable gallbladder or mass. No rebound. Bowel sounds present. No CVA tenderness."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 14.6 (x10^9/L) with **left shift**. Hgb and platelets normal.",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with left shift supports an acute inflammatory/infectious process and helps distinguish cholecystitis from uncomplicated biliary colic."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "RUQ ultrasound: **multiple gallstones with posterior acoustic shadowing**, **gallbladder wall thickening (>4 mm)**, **pericholecystic fluid**, and a **sonographic Murphy sign (maximal tenderness over the gallbladder under the probe)**. CBD caliber normal (5 mm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound is the initial imaging test of choice for suspected cholecystitis. Gallstones + wall thickening + pericholecystic fluid + sonographic Murphy sign are diagnostic."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "AST 42, ALT 48 (mildly elevated). Alk phos 110, total bilirubin 1.2 mg/dL (normal). Lipase normal. Glucose 168.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LFTs are typically normal or only mildly elevated in uncomplicated cholecystitis. Marked elevation of alk phos/bilirubin would raise concern for cholangitis or choledocholithiasis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Inflammatory / infection markers"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted, made NPO, given IV fluids and broad-spectrum antibiotics covering gram-negative and anaerobic organisms, and taken for laparoscopic cholecystectomy within 24 hours. Pathology shows acute calculous cholecystitis with mural inflammation, confirming the diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute cholecystitis classically presents in 'the 4 Fs' — Female, Forty, Fat, Fertile — with steady, severe RUQ pain lasting >6 hours after a fatty meal, often radiating to the right shoulder or scapula (referred via the phrenic nerve). Nausea, vomiting, and low-grade fever are typical. Murphy sign (inspiratory arrest with deep RUQ palpation) is the hallmark physical finding. Jaundice is usually absent unless there is concomitant common bile duct obstruction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Over 90% of cases are caused by a gallstone obstructing the cystic duct (calculous cholecystitis). Bile stasis leads to chemical irritation of the gallbladder wall, mucosal injury, secondary bacterial infection (often E. coli, Klebsiella, Enterococcus, Enterobacter), edema, and distention. Untreated, this can progress to gangrene, emphysematous cholecystitis, or perforation. Acalculous cholecystitis (5–10%) occurs in critically ill, burned, or post-op patients from gallbladder stasis and ischemia. Risk factors for stones: female sex, obesity, rapid weight loss, pregnancy, OCPs, Crohn disease, hemolysis.",
+    "treatment_overview": "Admission, NPO, IV fluids, analgesia, and empiric IV antibiotics (e.g., ceftriaxone + metronidazole, or piperacillin-tazobactam) targeting gram-negative and anaerobic enteric flora. Early laparoscopic cholecystectomy (within 24–72 hours) is the definitive treatment. For poor surgical candidates, percutaneous cholecystostomy is an option. HIDA scan (failure of the gallbladder to fill with radiotracer) is the most sensitive test when ultrasound is equivocal.",
+    "high_yield_pearls": [
+      "Cholecystitis = the '4 Fs': Female, Forty, Fat, Fertile. Pain >6 hours after a fatty meal that radiates to the right shoulder/scapula.",
+      "Murphy sign = inspiratory arrest with deep palpation in the RUQ. Sonographic Murphy sign is even more specific.",
+      "First-line imaging is RUQ ultrasound: stones, wall thickening (>4 mm), pericholecystic fluid. HIDA scan is most sensitive if US is equivocal.",
+      "Complications: gangrenous cholecystitis, perforation, emphysematous cholecystitis (diabetics, Clostridium), gallstone ileus (stone erodes into bowel and obstructs at the ileocecal valve).",
+      "Charcot triad = fever + RUQ pain + jaundice suggests ASCENDING CHOLANGITIS, not simple cholecystitis. Add hypotension + mental status = Reynolds pentad."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Biliary tract disease — Cholecystitis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cholecystitis",
+      "Cholangitis",
+      "Peptic ulcer disease",
+      "Pancreatitis (acute)",
+      "Hepatitis A",
+      "Perforated Peptic Ulcer",
+      "Myocardial infarction (MI)",
+      "Community-acquired pneumonia"
+    ],
+    "after_stage2_more_likely": [
+      "Cholecystitis",
+      "Cholangitis",
+      "Pancreatitis (acute)"
+    ],
+    "after_stage2_less_likely": [
+      "Peptic ulcer disease",
+      "Myocardial infarction (MI)"
+    ],
+    "after_labs_top3": [
+      "Cholecystitis",
+      "Cholangitis",
+      "Pancreatitis (acute)"
+    ]
+  }
+}

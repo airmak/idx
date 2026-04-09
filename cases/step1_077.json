@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_077",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Marfan syndrome",
+  "icd_category": "Q87.4 — Marfan syndrome",
+  "one_liner": "A 19-year-old tall, thin college basketball player presents after a syncopal episode during practice; on exam he has an arm span greater than his height and a mid-systolic click.",
+  "stage2": {
+    "hpi_extension": "He has always been taller than his peers and was recruited for his height. He reports mild exertional chest discomfort over the past month and had one brief syncopal episode during a fast break. He wears corrective lenses for severe myopia and had an episode of **painless visual blurring with upward displacement of the lens (ectopia lentis)** evaluated by ophthalmology last year. His father died suddenly at age 40 from 'a tear in his aorta.'",
+    "pmh": "Severe myopia; scoliosis; prior spontaneous pneumothorax at age 16",
+    "surgical_history": "Lens repositioning consult; chest tube for pneumothorax",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "**Father died at 40 of aortic dissection**; paternal uncle also tall with 'heart valve problem'",
+    "social_history": "College student; nonsmoker; no illicit drug use; competitive basketball",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "82 bpm",
+      "bp": "126/58 mmHg (wide pulse pressure)",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: **tall, thin body habitus**; **arm span exceeds height**; **lower segment longer than upper segment**. HEENT: **high-arched palate**, dental crowding, **upward lens subluxation (ectopia lentis)** on slit lamp. Chest: **pectus excavatum**, **thoracic scoliosis**. CV: **mid-systolic click with late systolic murmur at the apex (mitral valve prolapse)**; early diastolic decrescendo murmur at the right upper sternal border suggesting aortic regurgitation. Extremities: **arachnodactyly** with **positive thumb (Steinberg) and wrist (Walker-Murdoch) signs**; joint hypermobility. Skin: striae over shoulders."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **dilated aortic root at the sinuses of Valsalva (4.6 cm, Z-score >2)** with mild aortic regurgitation; **mitral valve prolapse with mild regurgitation**. CT angiography of the chest confirms aortic root dilation without dissection.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Aortic root dilation at the sinuses of Valsalva is the hallmark cardiovascular lesion of Marfan syndrome and the major driver of mortality via dissection or rupture."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**FBN1 gene sequencing: heterozygous pathogenic missense mutation in the fibrillin-1 gene on chromosome 15**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An FBN1 mutation confirms autosomal dominant Marfan syndrome. Defective fibrillin-1 impairs microfibril assembly in the extracellular matrix and releases excess TGF-beta, weakening elastic tissue in the aorta, lens zonules, and skin."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Inflammatory / infection markers"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on a beta blocker (and losartan is added) to reduce aortic wall stress, advised to avoid contact and isometric sports, and scheduled for serial echocardiograms with elective aortic root replacement once the root exceeds 5 cm."
+  },
+  "debrief": {
+    "classic_presentation": "Marfan syndrome classically presents in a tall, thin young person with long limbs (arm span greater than height), arachnodactyly, pectus deformity, scoliosis, high-arched palate, joint hypermobility, upward lens subluxation (ectopia lentis), and cardiovascular findings of mitral valve prolapse and aortic root dilation. A family history of sudden cardiac death or aortic dissection in a young relative is a classic clue.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Marfan is an autosomal dominant connective tissue disorder caused by mutations in the FBN1 gene on chromosome 15, which encodes fibrillin-1, the major structural glycoprotein of extracellular microfibrils. Fibrillin-1 normally sequesters TGF-beta; defective fibrillin leads to excess TGF-beta signaling and progressive weakening of elastic tissue. This produces cystic medial degeneration of the aortic wall (predisposing to dissection), weak lens zonules (upward lens subluxation), and lax ligaments throughout the body.",
+    "treatment_overview": "Beta blockers (and/or angiotensin receptor blockers such as losartan) reduce hemodynamic stress on the aortic wall and slow root dilation. Serial echocardiography monitors aortic root size; prophylactic aortic root replacement is indicated when the root exceeds about 5 cm. Patients are counseled to avoid contact sports and isometric exercise. Annual ophthalmologic and orthopedic surveillance; genetic counseling and screening of first-degree relatives.",
+    "high_yield_pearls": [
+      "FBN1 mutation on chromosome 15 encodes fibrillin-1; inheritance is autosomal dominant.",
+      "Lens subluxation in Marfan is classically upward (contrast: downward/inward in homocystinuria).",
+      "Aortic root dilation and dissection are the leading causes of death — monitor with serial echocardiography.",
+      "Beta blockers (and losartan) slow aortic root dilation by reducing TGF-beta-driven wall stress.",
+      "Classic exam findings: arm span > height, arachnodactyly, positive thumb and wrist signs, pectus deformity, and mitral valve prolapse."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Autosomal dominant diseases — Marfan syndrome' section.",
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Aortic dissection' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Marfan syndrome",
+      "Ehlers-Danlos syndrome (EDS)",
+      "Mitral Valve Prolapse with Regurgitation",
+      "Aortic dissection",
+      "Bicuspid aortic valve",
+      "Hypertrophic cardiomyopathy",
+      "Osteogenesis imperfecta",
+      "Klinefelter syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Marfan syndrome",
+      "Ehlers-Danlos syndrome (EDS)"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic cardiomyopathy",
+      "Osteogenesis imperfecta",
+      "Bicuspid aortic valve"
+    ],
+    "after_labs_top3": [
+      "Marfan syndrome",
+      "Ehlers-Danlos syndrome (EDS)",
+      "Mitral Valve Prolapse with Regurgitation"
+    ]
+  }
+}

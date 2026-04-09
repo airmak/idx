@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_061",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Subarachnoid hemorrhage (SAH)",
+  "icd_category": "I60 — Nontraumatic subarachnoid hemorrhage",
+  "one_liner": "A 48-year-old woman presents to the ED after the sudden onset of 'the worst headache of my life' one hour ago while exercising. She briefly lost consciousness and has vomited twice.",
+  "stage2": {
+    "hpi_extension": "The headache reached **maximal intensity within seconds (thunderclap onset)** and is **occipital and diffuse**. She transiently lost consciousness at onset and awoke confused. She now reports photophobia, neck stiffness, and persistent nausea. She denies trauma, recent illness, or similar prior headaches. No focal weakness, vision changes, or seizure activity. She recalls a smaller severe headache ('sentinel bleed') three days ago that resolved and was attributed to migraine.",
+    "pmh": "Hypertension (poorly controlled), **autosomal dominant polycystic kidney disease (ADPKD) diagnosed in her 30s**",
+    "surgical_history": "None",
+    "medications": "Amlodipine, hydrochlorothiazide",
+    "allergies": "NKDA",
+    "family_history": "Father died of a 'brain bleed' at age 52. Two relatives on dialysis for ADPKD.",
+    "social_history": "**Current smoker (1 pack/day for 25 years)**. Occasional alcohol. No illicit drugs.",
+    "vitals": {
+      "temp": "37.4°C",
+      "hr": "96 bpm",
+      "bp": "198/104 mmHg",
+      "rr": "18",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: uncomfortable, clutching her head, photophobic (lights dimmed). Neuro: **neck stiffness (meningismus) with pain on flexion**. **Kernig and Brudzinski signs positive**. **Funduscopy: subhyaloid/preretinal hemorrhage in the right eye (Terson syndrome)**. Cranial nerves intact, no cranial neuropathy (in particular CN III is intact — would suggest posterior communicating aneurysm compression). Motor and sensory exams non-focal. Reflexes symmetric. GCS 14 (confused but following commands)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Non-contrast CT head: hyperdense blood filling the basal cisterns and sylvian fissures bilaterally, extending into the interhemispheric fissure — pattern classic for aneurysmal subarachnoid hemorrhage**. CT angiography demonstrates **a 7 mm saccular aneurysm at the junction of the anterior communicating artery (berry aneurysm in the circle of Willis)**. No intraparenchymal hemorrhage, no hydrocephalus yet.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-contrast CT within 6 hours of symptom onset is >95% sensitive for SAH. The basal cistern distribution and CTA confirmation of a ruptured berry aneurysm establishes the diagnosis and identifies the culprit lesion for definitive treatment."
+      },
+      {
+        "test_name": "CSF analysis (lumbar puncture)",
+        "result": "(Performed in scenarios where CT is negative but clinical suspicion remains high — not required here.) Expected: **grossly bloody CSF that does not clear between tubes 1 and 4, with xanthochromia (yellow supernatant) from hemoglobin breakdown, detectable 6-12 hours after bleed onset**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Xanthochromia distinguishes true SAH from a traumatic lumbar puncture and is the confirmatory test when CT is negative but clinical suspicion is high."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is taken urgently to interventional neuroradiology for endovascular coiling of the anterior communicating artery aneurysm, and started on **nimodipine** to reduce the risk of delayed cerebral vasospasm."
+  },
+  "debrief": {
+    "classic_presentation": "SAH classically presents with a **thunderclap headache — 'the worst headache of my life' — reaching maximal intensity within seconds**, often precipitated by exertion, straining, or coitus. Accompanying features include vomiting, brief loss of consciousness, neck stiffness (meningismus), photophobia, and altered mental status. A smaller 'sentinel headache' may precede rupture by days to weeks. Focal deficits (e.g., CN III palsy with a posterior communicating artery aneurysm) may be present. Terson syndrome (intraocular hemorrhage) can be seen on funduscopy.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Nontraumatic SAH is most commonly caused by **rupture of a saccular ('berry') aneurysm in the circle of Willis**, most often at the **anterior communicating artery**, followed by the posterior communicating and middle cerebral artery bifurcations. Risk factors include **hypertension, smoking, female sex, ADPKD, Ehlers-Danlos syndrome (type IV, vascular), coarctation of the aorta, and family history**. Blood under arterial pressure extravasates into the subarachnoid space, raising ICP and irritating the meninges. Early rebleeding, delayed cerebral vasospasm (peak days 4-14), hydrocephalus, hyponatremia (SIADH or cerebral salt wasting), and seizures are major complications.",
+    "treatment_overview": "Emergent management: **ABCs, control BP (target SBP ~140-160), reverse anticoagulation, and obtain urgent non-contrast CT**. Definitive treatment is **early securing of the aneurysm by endovascular coiling or surgical clipping within 24-48 hours** to prevent rebleeding. **Nimodipine (dihydropyridine calcium channel blocker)** is given to all SAH patients to reduce morbidity from delayed cerebral vasospasm. Manage hydrocephalus with external ventricular drain. Seizure prophylaxis and close ICU monitoring are routine.",
+    "high_yield_pearls": [
+      "Thunderclap headache = 'worst headache of my life' reaching maximum in seconds → think SAH until proven otherwise.",
+      "Most common cause: ruptured saccular (berry) aneurysm in the circle of Willis; anterior communicating artery is the single most common site.",
+      "Associations: hypertension, smoking, ADPKD, Ehlers-Danlos, coarctation of aorta, family history of SAH.",
+      "Diagnostic workflow: non-contrast CT head FIRST (>95% sensitive within 6 hours); if CT negative and suspicion persists, LP for xanthochromia.",
+      "Nimodipine reduces morbidity from delayed cerebral vasospasm (peak days 4-14); it does NOT prevent vasospasm on imaging but improves outcomes."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Cerebrovascular disease — Intracranial hemorrhage, Saccular (berry) aneurysm' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Subarachnoid hemorrhage (SAH)",
+      "Migraine",
+      "Cluster headache",
+      "Bacterial meningitis",
+      "Hypertensive emergency",
+      "Cerebral venous sinus thrombosis",
+      "Hemorrhagic stroke",
+      "Stroke (ischemic)"
+    ],
+    "after_stage2_more_likely": [
+      "Subarachnoid hemorrhage (SAH)",
+      "Hemorrhagic stroke",
+      "Cerebral venous sinus thrombosis"
+    ],
+    "after_stage2_less_likely": [
+      "Migraine",
+      "Cluster headache",
+      "Bacterial meningitis"
+    ],
+    "after_labs_top3": [
+      "Subarachnoid hemorrhage (SAH)",
+      "Hemorrhagic stroke",
+      "Cerebral venous sinus thrombosis"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_016",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Heart failure (systolic)",
+  "icd_category": "I50.20 — Systolic heart failure",
+  "one_liner": "A 71-year-old man with a history of two prior myocardial infarctions presents with 2 weeks of worsening dyspnea on exertion, orthopnea, and bilateral leg swelling.",
+  "stage2": {
+    "hpi_extension": "He has been sleeping on four pillows and waking with shortness of breath in the middle of the night. He has gained 8 pounds in 2 weeks and now has significant swelling from his feet to his knees. He feels fatigued and has noted abdominal bloating. He has been non-adherent to his low-sodium diet and has been eating canned soup daily.",
+    "pmh": "Coronary artery disease (s/p two MIs), hypertension, type 2 diabetes, hyperlipidemia, prior diagnosis of heart failure (EF 30%)",
+    "surgical_history": "CABG 10 years ago",
+    "medications": "Aspirin, metoprolol succinate, lisinopril, atorvastatin, furosemide",
+    "allergies": "NKDA",
+    "family_history": "Father with heart failure",
+    "social_history": "Former smoker (40 pack-years, quit 5 years ago). No alcohol.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "98 bpm",
+      "bp": "108/68 mmHg",
+      "rr": "24",
+      "spo2": "91% on room air"
+    },
+    "physical_exam": "Dyspneic at rest, sitting upright. Cardiac: **S3 gallop** at the apex. **Laterally displaced PMI**. Soft holosystolic murmur at the apex. **JVD elevated to 12 cm with positive hepatojugular reflux**. Lungs: bibasilar rales extending to mid-lung fields. Abdomen: mild **hepatomegaly with tender liver edge**. Extremities: **3+ pitting edema to the knees** bilaterally; cool."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**BNP 1,450 pg/mL** (normal <100). Troponin mildly elevated at 0.08 (demand ischemia). Na 132.",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated BNP reflects ventricular wall stretch and is a sensitive and specific marker for heart failure. Hyponatremia indicates neurohormonal activation and portends worse prognosis."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **cardiomegaly, cephalization of pulmonary vessels, Kerley B lines, bilateral pleural effusions**, and perihilar 'bat-wing' opacities. Echocardiogram: **dilated LV with global hypokinesis, EF 25%**; moderate functional MR; eccentric LVH.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Imaging confirms decompensated systolic heart failure with a reduced EF (HFrEF) and classic radiographic signs of pulmonary congestion."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia. **Left bundle branch block (QRS 150 ms)**. Old inferior Q waves. Left atrial enlargement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LBBB in the setting of reduced EF is a marker of dyssynchrony and may make the patient a candidate for cardiac resynchronization therapy (CRT)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is admitted for IV diuresis with furosemide; on discharge his guideline-directed medical therapy is optimized with the addition of spironolactone and a switch from lisinopril to sacubitril/valsartan, and he is referred for CRT evaluation."
+  },
+  "debrief": {
+    "classic_presentation": "Systolic heart failure (HFrEF, EF ≤40%) classically presents with exertional dyspnea, orthopnea, paroxysmal nocturnal dyspnea, fatigue, and peripheral edema. Left-sided failure causes pulmonary congestion (crackles, Kerley B lines). Right-sided failure causes systemic venous congestion (JVD, hepatomegaly, peripheral edema). The S3 gallop is a pathognomonic auscultatory finding of volume overload/systolic dysfunction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Reduced contractility (most commonly post-MI ischemic cardiomyopathy) decreases stroke volume, leading to compensatory activation of the **sympathetic nervous system** and **RAAS**. These initially maintain cardiac output but eventually worsen disease through volume overload, afterload increase, and adverse ventricular remodeling. Chronic stretch produces **eccentric hypertrophy** (sarcomeres in series → LV dilation). Heart failure cells (hemosiderin-laden macrophages) appear in pulmonary alveoli from chronic transudate.",
+    "treatment_overview": "Guideline-directed medical therapy for HFrEF improves mortality: **ACE inhibitor or ARB or ARNI (sacubitril/valsartan)**, **beta-blocker (carvedilol, metoprolol succinate, bisoprolol)**, **aldosterone antagonist (spironolactone or eplerenone)**, and **SGLT2 inhibitors**. Diuretics (furosemide) for symptom relief — do not improve mortality. ICD for primary prevention if EF ≤35%; CRT if EF ≤35% + LBBB + QRS ≥150 ms. Digoxin for symptom control. Avoid NSAIDs (worsen fluid retention) and non-dihydropyridine CCBs (negative inotropy).",
+    "high_yield_pearls": [
+      "**S3 gallop** reflects rapid ventricular filling into a stiff, dilated ventricle — highly specific for systolic heart failure in adults.",
+      "**BNP** is released by ventricular stretch; **promotes natriuresis, diuresis, and vasodilation** via cGMP. Elevated in HF, low in obesity.",
+      "Mortality-reducing drugs in HFrEF: **ACEi/ARB/ARNI, β-blockers, aldosterone antagonists, SGLT2 inhibitors**. Diuretics relieve symptoms only.",
+      "**Hemosiderin-laden macrophages ('heart failure cells')** in the lungs reflect chronic left-sided heart failure with pulmonary congestion.",
+      "**Cephalization, Kerley B lines, and perihilar 'bat-wing' opacities** on CXR are classic signs of pulmonary edema from left heart failure."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Heart failure' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Heart failure (systolic)",
+      "Heart failure (diastolic)",
+      "Dilated cardiomyopathy",
+      "Mitral regurgitation",
+      "Myocardial infarction (MI)",
+      "Pulmonary embolism (PE)",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Pericarditis"
+    ],
+    "after_stage2_more_likely": [
+      "Heart failure (systolic)",
+      "Dilated cardiomyopathy",
+      "Mitral regurgitation"
+    ],
+    "after_stage2_less_likely": [
+      "Pulmonary embolism (PE)",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Pericarditis"
+    ],
+    "after_labs_top3": [
+      "Heart failure (systolic)",
+      "Dilated cardiomyopathy",
+      "Heart failure (diastolic)"
+    ]
+  }
+}

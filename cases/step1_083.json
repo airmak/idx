@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_083",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "HIV (new diagnosis)",
+  "icd_category": "B20 — Human immunodeficiency virus (HIV) disease",
+  "one_liner": "A 26-year-old man presents with two weeks of fever, sore throat, muscle aches, and a diffuse rash. He had unprotected receptive anal intercourse with a new partner about 3 weeks ago.",
+  "stage2": {
+    "hpi_extension": "His illness began abruptly with fever to 38.9 C, headache, and severe myalgias. He then noted a sore throat, painful mouth ulcers, and a non-pruritic maculopapular rash involving the trunk and upper extremities. He feels exhausted and has lost 3 kg. He reports new non-tender 'lumps' in the neck and armpits. He has not traveled recently. His symptoms are reminiscent of mononucleosis described by a friend, but a rapid strep test at urgent care was negative.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Graduate student. Men who have sex with men; inconsistent condom use. Denies IV drug use. Occasional alcohol. Never tested for HIV.",
+    "vitals": {
+      "temp": "38.7 C",
+      "hr": "102 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "16",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: ill-appearing but not toxic. HEENT: **exudative pharyngitis without tonsillar hypertrophy**, **shallow oral mucosal ulcers**. Lymph: **diffuse non-tender lymphadenopathy** (cervical, axillary, inguinal). Skin: **diffuse non-pruritic maculopapular rash on trunk and arms**, no palm/sole involvement. Abdomen: mild splenomegaly. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**HIV-1/2 antigen/antibody combination (4th generation) immunoassay: REACTIVE**. Reflex **HIV-1/2 antibody differentiation immunoassay: HIV-1 antibody INDETERMINATE**. **HIV-1 RNA by PCR: 850,000 copies/mL**. CD4 count: 480 cells/uL.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A reactive 4th-generation Ag/Ab test with indeterminate antibody differentiation and very high HIV-1 RNA confirms acute HIV infection in the window period before full seroconversion. CDC algorithm uses HIV RNA to resolve discordant results."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 4.1 (mild lymphopenia, relative atypical lymphocytes). Hgb 13.8. Platelets 128 (mildly low). Smear: scattered **atypical/reactive lymphocytes**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild thrombocytopenia, lymphopenia, and atypical lymphocytes are common in acute retroviral syndrome and mimic EBV/CMV mononucleosis."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "Monospot (heterophile antibody): NEGATIVE. Rapid strep antigen: negative. Blood cultures: no growth.",
+        "flag": "NORMAL",
+        "clinical_significance": "A 'mono-like' illness with a negative Monospot should prompt testing for acute HIV, CMV, and primary toxoplasmosis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Microbiology / Gram stain / cultures"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is linked to HIV care and started on bictegravir/emtricitabine/tenofovir alafenamide; within 3 months his viral load is undetectable and his symptoms have resolved."
+  },
+  "debrief": {
+    "classic_presentation": "Acute (primary) HIV infection, or acute retroviral syndrome, presents 2-4 weeks after high-risk exposure as a mononucleosis-like illness with fever, pharyngitis, generalized lymphadenopathy, myalgias, mucocutaneous ulcers, and a diffuse non-pruritic maculopapular rash. A Monospot-negative 'mono' in a sexually active adult should trigger HIV testing. Untreated, patients enter a long clinical latency followed by opportunistic infections at specific CD4 thresholds (PCP <200, toxoplasmosis and disseminated endemic mycoses <100, MAC and CMV <50).",
+    "attending_mode_notes": null,
+    "pathophysiology": "HIV is an enveloped single-stranded RNA retrovirus (Lentivirus). The envelope glycoprotein gp120 binds CD4 on T-helper cells and uses CCR5 (macrophages/early) or CXCR4 (T cells/late) as coreceptors. Reverse transcriptase produces proviral DNA that integrates into the host genome. In acute infection there is massive viremia, depletion of gut mucosal CD4 T cells, and a brisk CD8 response that partially controls viremia. Progressive CD4 T-cell loss leads to immunodeficiency and AIDS-defining illnesses.",
+    "treatment_overview": "Initial screening is the 4th-generation HIV-1/2 antigen/antibody combination immunoassay (detects p24 antigen earlier than antibody-only tests). Reactive screens are confirmed with an HIV-1/2 antibody differentiation immunoassay; discordant results are resolved with HIV-1 RNA PCR. All patients should start antiretroviral therapy regardless of CD4 count, typically 2 NRTIs (tenofovir + emtricitabine or lamivudine) plus an integrase strand transfer inhibitor (dolutegravir or bictegravir). Opportunistic infection prophylaxis: TMP-SMX for PCP at CD4 <200 and for toxoplasmosis at CD4 <100; azithromycin for MAC at CD4 <50.",
+    "high_yield_pearls": [
+      "Acute retroviral syndrome = Monospot-negative mononucleosis with rash and mucocutaneous ulcers 2-4 weeks after exposure.",
+      "4th-generation Ag/Ab combo test detects p24 antigen and closes the window period earlier than older antibody-only assays.",
+      "CD4 thresholds on First Aid: PCP <200, Toxoplasma encephalitis <100, MAC <50, CMV retinitis <50.",
+      "gp120 binds CD4; CCR5 is the coreceptor for macrophage-tropic strains (homozygous CCR5-Delta32 confers near immunity).",
+      "ART backbone = 2 NRTIs + INSTI (dolutegravir or bictegravir) per current First Aid pharm pearls."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'HIV — Diagnosis, time course, and opportunistic infections' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "HIV (new diagnosis)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Cytomegalovirus (CMV) disease",
+      "Syphilis",
+      "Influenza A",
+      "Hepatitis B",
+      "Lyme disease"
+    ],
+    "after_stage2_more_likely": [
+      "HIV (new diagnosis)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Cytomegalovirus (CMV) disease"
+    ],
+    "after_stage2_less_likely": [
+      "Influenza A",
+      "Lyme disease"
+    ],
+    "after_labs_top3": [
+      "HIV (new diagnosis)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Syphilis"
+    ]
+  }
+}

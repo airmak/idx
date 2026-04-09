@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_032",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Hereditary hemochromatosis",
+  "icd_category": "E83.110 — Hereditary hemochromatosis",
+  "one_liner": "A 52-year-old man of Northern European descent presents with 1 year of fatigue, aching in the knuckles, darkening of his skin, and new-onset diabetes. His primary care physician noticed elevated LFTs on routine screening.",
+  "stage2": {
+    "hpi_extension": "He reports chronic fatigue, decreased libido, and impotence for the past 6 months. He has developed stiffness and pain in the **second and third MCP joints** bilaterally. His wife has noticed his skin is getting progressively **bronze/slate-gray**. He was recently diagnosed with type 2 diabetes mellitus. He denies alcohol abuse (1–2 beers/week). His father died of 'heart failure with a big heart' at 58.",
+    "pmh": "Newly diagnosed diabetes mellitus, hypogonadism",
+    "surgical_history": "None",
+    "medications": "Metformin",
+    "allergies": "NKDA",
+    "family_history": "Father with dilated cardiomyopathy and diabetes; sister with 'iron overload'. Irish/Scottish ancestry.",
+    "social_history": "Accountant. 1–2 beers per week. Never smoker.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "78 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "Skin: **diffuse bronze/slate-gray hyperpigmentation** of sun-exposed and unexposed areas. Eyes: anicteric. Cardiac: PMI displaced laterally, soft S4. Abdomen: **hepatomegaly** 4 cm below the costal margin, firm, nontender. Joints: **tenderness and bony enlargement of the 2nd and 3rd MCPs bilaterally** with decreased range of motion. Testes small and soft (hypogonadism)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Serum ferritin 2,400 ng/mL (markedly HIGH)**. **Transferrin saturation 82% (HIGH, normal <45%)**. Serum iron HIGH, TIBC LOW. AST 78, ALT 92, alk phos and bilirubin normal. Fasting glucose 186 mg/dL, HbA1c 8.2%.",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated transferrin saturation (>45%) and ferritin are the screening hallmark of hereditary hemochromatosis. Transferrin saturation is the earliest and most specific marker."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**HFE gene analysis: homozygous for C282Y mutation**. No H63D mutation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "C282Y homozygosity confirms classic hereditary hemochromatosis. This is the most common form in patients of Northern European descent."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**MRI liver: markedly decreased T2 signal intensity indicating hepatic iron overload**. Mild hepatomegaly, early cirrhotic changes. Pancreas also shows iron deposition.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "MRI is a noninvasive way to quantify tissue iron and has largely replaced liver biopsy for diagnosis when HFE testing and labs are concordant."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on therapeutic phlebotomy weekly until ferritin normalizes, then maintenance phlebotomy every 3–4 months. He is counseled to avoid raw shellfish (risk of Vibrio vulnificus sepsis) and vitamin C supplements. First-degree relatives are screened with HFE testing."
+  },
+  "debrief": {
+    "classic_presentation": "Hereditary hemochromatosis classically presents in middle-aged men with the triad of 'bronze diabetes': skin hyperpigmentation, diabetes mellitus (from pancreatic iron deposition), and hepatomegaly/cirrhosis. Other features include arthropathy (classically 2nd and 3rd MCP joints), restrictive or dilated cardiomyopathy, hypogonadism (pituitary iron deposition -> hypogonadotropic hypogonadism), and hepatocellular carcinoma. Women present later because menstruation delays iron accumulation.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Hereditary hemochromatosis is most commonly an autosomal recessive disorder caused by C282Y (or compound C282Y/H63D) mutations in the HFE gene on chromosome 6. HFE normally regulates hepcidin (the master iron regulator), so loss of HFE leads to inappropriately LOW hepcidin and UNCHECKED intestinal iron absorption via ferroportin. Iron accumulates over decades in the liver, pancreas, heart, pituitary, joints, and skin, causing oxidative organ damage.",
+    "treatment_overview": "First-line therapy is therapeutic phlebotomy (1 unit/week initially) to reduce body iron stores, targeting a ferritin of 50–100 ng/mL. Iron chelators (deferoxamine, deferasirox) are used when phlebotomy is contraindicated. Avoid vitamin C (increases iron absorption), iron-fortified foods, and raw shellfish (Vibrio vulnificus risk from iron-loving bacteria). Screen first-degree relatives. Surveillance for HCC is required once cirrhosis develops.",
+    "high_yield_pearls": [
+      "Classic triad = 'bronze diabetes': skin pigmentation + diabetes + hepatomegaly/cirrhosis. Add cardiomyopathy, arthropathy (2nd/3rd MCPs), and hypogonadism.",
+      "HFE gene, C282Y mutation homozygous = most common genotype (Northern European descent). Autosomal recessive.",
+      "Screening labs: HIGH transferrin saturation (>45%) first, then HIGH ferritin. Confirm with HFE genetic testing or liver MRI.",
+      "Treat with therapeutic phlebotomy. Avoid vitamin C, alcohol, and raw shellfish (Vibrio vulnificus loves iron).",
+      "Risk of hepatocellular carcinoma is markedly increased once cirrhosis develops — requires surveillance."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Hepatic disease — Hereditary hemochromatosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hereditary hemochromatosis",
+      "Wilson disease",
+      "Alpha-1 antitrypsin deficiency",
+      "Non-alcoholic fatty liver disease (NAFLD) / steatohepatitis (NASH)",
+      "Hepatitis C",
+      "Autoimmune hepatitis",
+      "Cirrhosis",
+      "Type 2 diabetes mellitus"
+    ],
+    "after_stage2_more_likely": [
+      "Hereditary hemochromatosis",
+      "Non-alcoholic fatty liver disease (NAFLD) / steatohepatitis (NASH)"
+    ],
+    "after_stage2_less_likely": [
+      "Autoimmune hepatitis",
+      "Wilson disease",
+      "Alpha-1 antitrypsin deficiency"
+    ],
+    "after_labs_top3": [
+      "Hereditary hemochromatosis",
+      "Non-alcoholic fatty liver disease (NAFLD) / steatohepatitis (NASH)",
+      "Hepatitis C"
+    ]
+  }
+}

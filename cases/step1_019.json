@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_019",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Asthma",
+  "icd_category": "J45 — Asthma",
+  "one_liner": "A 19-year-old college student presents to the ED at 2 AM with 6 hours of progressive shortness of breath, chest tightness, and audible wheezing that began after she returned from an evening run in the cold.",
+  "stage2": {
+    "hpi_extension": "She reports similar episodes over the past 2 years, most commonly triggered by cold air, exercise, and her roommate's cat. Symptoms are worse at night and early morning. She has been using her albuterol inhaler every 2 hours without relief. She also has a history of eczema and seasonal allergic rhinitis. She denies fever, chest pain, or leg swelling. Her mother and older brother both have asthma.",
+    "pmh": "Atopic dermatitis, allergic rhinitis, eczema since childhood",
+    "surgical_history": "None",
+    "medications": "Albuterol MDI PRN (uses several times per week)",
+    "allergies": "NKDA; environmental: cats, dust mites",
+    "family_history": "Mother with asthma, brother with asthma, father with allergic rhinitis",
+    "social_history": "Non-smoker, no vaping, occasional alcohol. Lives in dorm with a cat.",
+    "vitals": {
+      "temp": "37.1°C",
+      "hr": "118 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "28",
+      "spo2": "91% on room air"
+    },
+    "physical_exam": "General: anxious young woman, sitting upright, speaking in short phrases. Pulmonary: **diffuse expiratory wheezing bilaterally**, **prolonged expiratory phase**, accessory muscle use with **suprasternal retractions**. **Pulsus paradoxus of 14 mmHg**. Cardiac: tachycardic, regular rhythm, no murmurs. Skin: flexural **eczematous patches** in antecubital fossae. No clubbing or cyanosis."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Spirometry: **FEV1 58% of predicted**, **FEV1/FVC ratio 0.62 (reduced)**. Post-bronchodilator: **FEV1 increases by 18% and 250 mL (reversible obstruction)**. Methacholine challenge (performed when stable): PC20 < 4 mg/mL indicating **bronchial hyperresponsiveness**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Reversible obstructive pattern with significant post-bronchodilator improvement (>12% and >200 mL) is diagnostic of asthma. Methacholine challenge confirms airway hyperreactivity."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 9.8 with mild **peripheral eosinophilia (eosinophils 8%)**. Smear shows occasional **Charcot-Leyden crystals** and **Curschmann spirals** on sputum prep.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Eosinophilia supports a type 2/allergic inflammatory phenotype. Charcot-Leyden crystals (eosinophil breakdown products, galectin-10) and Curschmann spirals (mucus casts of small airways) are classic sputum findings in asthma."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **hyperinflated lungs with flattened diaphragms**, otherwise clear. No infiltrate, effusion, or pneumothorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CXR is usually unremarkable in asthma but helps rule out pneumonia, pneumothorax, or foreign body in an acute exacerbation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After nebulized albuterol/ipratropium and IV methylprednisolone, her wheezing resolves and FEV1 returns to 85% of predicted; she is discharged on an inhaled corticosteroid with a long-acting beta-agonist."
+  },
+  "debrief": {
+    "classic_presentation": "Asthma presents with episodic dyspnea, wheezing, cough (often nocturnal), and chest tightness, typically with onset in childhood and a personal/family history of atopy (eczema, allergic rhinitis — the atopic triad). Symptoms are triggered by allergens, cold air, exercise, viral URIs, and NSAIDs. Severe exacerbations feature accessory muscle use, pulsus paradoxus, and a silent chest (ominous).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Asthma is a chronic inflammatory disorder of the airways characterized by **reversible bronchoconstriction**, mucosal edema, and mucus plugging. Type 2 helper T cells drive IgE-mediated mast cell degranulation (histamine, leukotrienes C4/D4/E4), eosinophil recruitment, and airway smooth muscle hypertrophy. Chronic remodeling leads to subepithelial fibrosis and basement membrane thickening. Classic histologic findings include Curschmann spirals, Charcot-Leyden crystals, and eosinophilic infiltrate.",
+    "treatment_overview": "Stepwise therapy: SABA (albuterol) for rescue; inhaled corticosteroids (ICS, eg fluticasone) as first-line controller; add LABA (salmeterol), LTRA (montelukast), or LAMA (tiotropium); omalizumab (anti-IgE) for refractory allergic asthma; mepolizumab (anti-IL-5) for eosinophilic asthma. Acute exacerbation: oxygen, nebulized SABA + ipratropium, systemic corticosteroids, magnesium sulfate IV for severe cases. Avoid beta-blockers and aspirin in sensitive patients.",
+    "high_yield_pearls": [
+      "Reversible obstruction on PFTs (≥12% and ≥200 mL increase in FEV1 post-bronchodilator) is the hallmark of asthma.",
+      "Curschmann spirals (mucus casts) and Charcot-Leyden crystals (eosinophil galectin-10) are pathognomonic sputum findings.",
+      "Samter triad = aspirin-induced asthma + nasal polyps + chronic rhinosinusitis; due to shunting of arachidonic acid down the leukotriene pathway.",
+      "A 'silent chest' with normalizing pCO2 in a severe asthma attack is an ominous sign of impending respiratory failure.",
+      "Inhaled corticosteroids are the most effective long-term controller — they reduce airway inflammation and remodeling."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Obstructive lung diseases — Asthma' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Asthma",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Eosinophilic granulomatosis with polyangiitis (EGPA / Churg-Strauss)",
+      "Cystic fibrosis (CF)",
+      "Allergic rhinitis",
+      "Anaphylaxis"
+    ],
+    "after_stage2_more_likely": [
+      "Asthma",
+      "Anaphylaxis"
+    ],
+    "after_stage2_less_likely": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Community-acquired pneumonia"
+    ],
+    "after_labs_top3": [
+      "Asthma",
+      "Eosinophilic granulomatosis with polyangiitis (EGPA / Churg-Strauss)",
+      "Cystic fibrosis (CF)"
+    ]
+  }
+}

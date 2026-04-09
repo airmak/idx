@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_030",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Celiac disease",
+  "icd_category": "K90.0 — Celiac disease",
+  "one_liner": "A 32-year-old woman presents with 9 months of bloating, foul-smelling diarrhea, and fatigue. She has an intensely itchy vesicular rash on her elbows and knees and recently developed iron deficiency anemia unresponsive to oral iron.",
+  "stage2": {
+    "hpi_extension": "She describes 3–5 bulky, pale, **foul-smelling, greasy stools that float (steatorrhea)** per day, worse after meals containing bread or pasta. She has lost 10 lb and feels fatigued. She also has a pruritic papulovesicular rash on her elbows, knees, and buttocks (**dermatitis herpetiformis**). Her ferritin is low despite iron supplementation. She has had recurrent aphthous ulcers and two miscarriages.",
+    "pmh": "Iron deficiency anemia, hypothyroidism (Hashimoto), type 1 diabetes",
+    "surgical_history": "None",
+    "medications": "Oral iron, levothyroxine, insulin",
+    "allergies": "NKDA",
+    "family_history": "Sister with type 1 diabetes; mother with 'thyroid problems'.",
+    "social_history": "Graphic designer. Non-smoker. Occasional wine.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "88 bpm",
+      "bp": "112/70 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Thin. Conjunctival pallor. Skin: **symmetric grouped pruritic vesicles on extensor surfaces (dermatitis herpetiformis)** and excoriations. Oral cavity: aphthous ulcer on lower lip. Abdomen: soft, mildly distended, hyperactive bowel sounds, non-tender. Neuro: decreased vibration sense at the great toes bilaterally (possible peripheral neuropathy)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**IgA anti-tissue transglutaminase (anti-tTG) antibody markedly elevated**. **Anti-endomysial IgA positive**. Total IgA normal. Anti-deamidated gliadin peptide (DGP) IgG positive. HLA-DQ2 positive.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "IgA anti-tTG is the first-line screening test for celiac disease with excellent sensitivity and specificity. Anti-endomysial IgA is highly specific. HLA-DQ2/DQ8 is present in essentially all patients with celiac disease."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "EGD with duodenal biopsy: **blunting and atrophy of intestinal villi, crypt hyperplasia, and intraepithelial lymphocytosis** in the distal duodenum (Marsh III lesion).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Villous atrophy with crypt hyperplasia and intraepithelial lymphocytes on duodenal biopsy while on a gluten-containing diet confirms celiac disease."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 10.2 g/dL (LOW), MCV 74 fL (LOW), ferritin 8 ng/mL (LOW). Peripheral smear: microcytic hypochromic red cells.",
+        "flag": "LOW",
+        "clinical_significance": "Iron deficiency anemia unresponsive to oral iron in an adult should prompt workup for celiac disease — it is a classic presenting feature."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She starts a strict gluten-free diet, and within 3 months her diarrhea resolves, the rash clears, and her ferritin normalizes. Her anti-tTG antibody titers decline on repeat testing."
+  },
+  "debrief": {
+    "classic_presentation": "Celiac disease classically presents in children with failure to thrive, diarrhea, and abdominal distension, or in adults with chronic diarrhea, steatorrhea, bloating, fatigue, and iron deficiency anemia unresponsive to oral iron. Dermatitis herpetiformis — intensely pruritic grouped vesicles on extensor surfaces — is pathognomonic. Extraintestinal features include osteoporosis, short stature, infertility, peripheral neuropathy, and aphthous ulcers. Strong association with other autoimmune diseases (type 1 DM, Hashimoto, autoimmune hepatitis).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Celiac disease is an autoimmune enteropathy triggered by dietary gluten (gliadin) in genetically susceptible individuals (HLA-DQ2 in ~95%, HLA-DQ8 in most remainder). Deamidated gliadin peptides bind HLA-DQ2/DQ8 on antigen-presenting cells and activate CD4+ T cells, which drive mucosal injury via IFN-gamma and recruit intraepithelial lymphocytes. The result is villous atrophy and crypt hyperplasia, primarily in the DISTAL DUODENUM and proximal jejunum, causing malabsorption. IgA autoantibodies target tissue transglutaminase (the enzyme that deamidates gliadin).",
+    "treatment_overview": "Lifelong strict gluten-free diet (no wheat, barley, or rye; oats are generally tolerated if uncontaminated) is the cornerstone of treatment and leads to symptomatic and histologic recovery. Nutritional repletion: iron, folate, vitamin D, calcium, B12. Bone density screening for osteoporosis. Dapsone can be used for dermatitis herpetiformis while dietary changes take effect. Refractory celiac disease raises concern for enteropathy-associated T-cell lymphoma (EATL).",
+    "high_yield_pearls": [
+      "Celiac disease = autoimmune reaction to gluten in HLA-DQ2/DQ8-positive patients. Tests: IgA anti-tTG first line (check total IgA to exclude IgA deficiency).",
+      "Biopsy classically shows villous atrophy, crypt hyperplasia, and intraepithelial lymphocytes in the DISTAL DUODENUM.",
+      "Dermatitis herpetiformis = pruritic vesicles on extensor surfaces with IgA deposits at the tips of dermal papillae; pathognomonic for celiac.",
+      "Iron deficiency anemia that fails oral iron -> think celiac (malabsorption at the duodenum where iron is absorbed).",
+      "Associations: type 1 diabetes, Hashimoto thyroiditis, Down syndrome, Turner syndrome. Complication: enteropathy-associated T-cell lymphoma (EATL)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Malabsorption syndromes — Celiac disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Celiac disease",
+      "Crohn disease",
+      "Whipple disease",
+      "Irritable bowel syndrome (IBS)",
+      "Microscopic Colitis",
+      "Iron deficiency anemia",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Autoimmune hepatitis"
+    ],
+    "after_stage2_more_likely": [
+      "Celiac disease",
+      "Crohn disease"
+    ],
+    "after_stage2_less_likely": [
+      "Irritable bowel syndrome (IBS)",
+      "Microscopic Colitis"
+    ],
+    "after_labs_top3": [
+      "Celiac disease",
+      "Whipple disease",
+      "Crohn disease"
+    ]
+  }
+}

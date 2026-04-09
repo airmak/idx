@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_048",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hyperparathyroidism (primary)",
+  "icd_category": "E21.0 — Primary hyperparathyroidism",
+  "one_liner": "A 58-year-old postmenopausal woman is referred after a routine metabolic panel revealed a calcium of 11.8 mg/dL; she reports fatigue, constipation, bone aches, a recent kidney stone, and depressed mood.",
+  "stage2": {
+    "hpi_extension": "Over the past 6 months she has felt increasingly tired, constipated, thirsty, and 'foggy.' She passed a kidney stone 3 months ago that was analyzed as calcium oxalate. She has diffuse bone and joint aches, particularly in her hips and low back, and has felt depressed. No recent immobilization, vitamin D supplementation, granulomatous disease, or lithium use. No family history of MEN.",
+    "pmh": "Nephrolithiasis (calcium oxalate), osteopenia, hypertension",
+    "surgical_history": "None",
+    "medications": "Amlodipine",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory; no endocrine tumors",
+    "social_history": "Retired teacher. Rare alcohol, no tobacco.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "78 bpm",
+      "bp": "144/86 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: mildly fatigued but well-appearing. HEENT: moist mucous membranes. Neck: **no palpable thyroid or parathyroid mass**. CV/Resp: normal. Abdomen: soft, non-tender, hypoactive bowel sounds. MSK: mild diffuse bone tenderness, particularly over the hips. Neuro: intact; mood mildly depressed. No Chvostek or Trousseau sign (patient is hyper-, not hypo-, calcemic)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Calcium 11.8 mg/dL (HIGH)**, **Phosphate 2.2 mg/dL (LOW)**, albumin 4.0, Cr 1.1, chloride 108 (mildly elevated). Alkaline phosphatase mildly elevated. 24-hour urinary calcium elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The classic biochemical signature of primary hyperparathyroidism = HIGH calcium + LOW phosphate. PTH lowers phosphate by inhibiting proximal tubular reabsorption and stimulates bone and renal calcium release. Elevated 24-hour urine calcium excludes familial hypocalciuric hypercalcemia (FHH), an important mimic."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Intact PTH markedly elevated (180 pg/mL)**. 25-OH vitamin D normal. 1,25-OH vitamin D elevated. PTHrP undetectable.",
+        "flag": "HIGH",
+        "clinical_significance": "Hypercalcemia with inappropriately elevated (rather than suppressed) PTH confirms PTH-dependent hypercalcemia — primary hyperparathyroidism. Undetectable PTHrP excludes humoral hypercalcemia of malignancy. The most common cause is a solitary parathyroid adenoma (~85%)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Sestamibi parathyroid scan**: focal uptake consistent with a **right inferior parathyroid adenoma**. Neck ultrasound confirms a 1.5 cm hypoechoic lesion posterior to the right inferior thyroid pole. DEXA: **osteoporosis at the distal radius** (cortical bone).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Sestamibi scan localizes a parathyroid adenoma for minimally invasive parathyroidectomy. Primary hyperparathyroidism preferentially causes cortical bone loss (distal radius), in contrast to postmenopausal osteoporosis, which targets trabecular bone (spine/hip)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She undergoes minimally invasive right inferior parathyroidectomy. Intraoperative PTH drops by >50% within 10 minutes, confirming cure. Her calcium and phosphate normalize within days."
+  },
+  "debrief": {
+    "classic_presentation": "Primary hyperparathyroidism classically presents with the mnemonic 'stones, bones, groans, and psychiatric overtones': nephrolithiasis and nephrocalcinosis (stones), bone pain/osteoporosis/osteitis fibrosa cystica (bones), abdominal pain/constipation/peptic ulcers/pancreatitis (groans), and fatigue/depression/confusion (psychiatric overtones). Most cases are now detected incidentally on routine calcium screening in asymptomatic postmenopausal women.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Most primary hyperparathyroidism (~85%) is caused by a solitary parathyroid adenoma. Other causes: parathyroid hyperplasia (often MEN1 or MEN2A) and, rarely, parathyroid carcinoma. Autonomous PTH secretion raises serum calcium by (1) stimulating osteoclast-mediated bone resorption, (2) increasing renal calcium reabsorption and phosphate wasting, and (3) stimulating 1-alpha-hydroxylase to increase active vitamin D (1,25-OH), which boosts intestinal calcium absorption. Chronic PTH excess causes osteitis fibrosa cystica ('brown tumors,' subperiosteal resorption, salt-and-pepper skull on X-ray) and cortical bone loss.",
+    "treatment_overview": "Definitive treatment = parathyroidectomy (usually minimally invasive, guided by sestamibi scan and intraoperative PTH monitoring). Indications for surgery in asymptomatic patients include age <50, serum Ca >1 mg/dL above upper limit, DEXA T-score ≤-2.5, 24-h urine calcium >400 mg, eGFR <60, or nephrolithiasis/fragility fracture. Medical options (for poor surgical candidates): cinacalcet (calcimimetic that activates the calcium-sensing receptor), bisphosphonates for bone loss, adequate hydration. Always exclude familial hypocalciuric hypercalcemia (FHH) with a 24-hour urinary calcium before surgery.",
+    "high_yield_pearls": [
+      "Primary hyperparathyroidism: HIGH calcium + LOW phosphate + HIGH PTH. 'Stones, bones, groans, psychiatric overtones.'",
+      "Most common cause = solitary parathyroid adenoma (~85%); hyperplasia occurs in MEN1 and MEN2A.",
+      "Osteitis fibrosa cystica: subperiosteal bone resorption (phalanges), 'brown tumors,' 'salt-and-pepper' skull X-ray.",
+      "Always check 24-hour urinary calcium — low urine Ca with hypercalcemia + high PTH suggests familial hypocalciuric hypercalcemia (FHH, CaSR mutation); do NOT operate.",
+      "Cinacalcet = calcimimetic that activates the calcium-sensing receptor and lowers PTH; useful in patients who cannot undergo surgery."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Hyperparathyroidism — Primary' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hyperparathyroidism (primary)",
+      "Hypercalcemia",
+      "Multiple myeloma",
+      "Sarcoidosis",
+      "MEN1",
+      "Paraneoplastic syndrome",
+      "Vitamin D deficiency / rickets / osteomalacia",
+      "Nephrolithiasis — Calcium Oxalate Stone"
+    ],
+    "after_stage2_more_likely": [
+      "Hyperparathyroidism (primary)",
+      "Hypercalcemia"
+    ],
+    "after_stage2_less_likely": [
+      "Multiple myeloma",
+      "Sarcoidosis",
+      "Vitamin D deficiency / rickets / osteomalacia"
+    ],
+    "after_labs_top3": [
+      "Hyperparathyroidism (primary)",
+      "Hypercalcemia",
+      "MEN1"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_037",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Polycystic kidney disease (ADPKD)",
+  "icd_category": "Q61.2 — Polycystic kidney, autosomal dominant",
+  "one_liner": "A 42-year-old man presents with gross hematuria and right flank pain. He mentions that his father died of a 'brain bleed' in his 50s and was on dialysis.",
+  "stage2": {
+    "hpi_extension": "He has had intermittent **bilateral flank discomfort** for years but two days ago noticed **bright red urine** and a dull ache in the right flank. He has also had recent headaches and has been told at prior visits that his blood pressure runs high. He has no dysuria or fevers. He has **never had his kidneys imaged**.",
+    "pmh": "Hypertension diagnosed at age 35, recurrent headaches",
+    "surgical_history": "None",
+    "medications": "Lisinopril",
+    "allergies": "NKDA",
+    "family_history": "**Father died of subarachnoid hemorrhage at age 54** while on hemodialysis for kidney failure. Paternal uncle on dialysis. Paternal grandmother died of 'kidney disease.'",
+    "social_history": "Accountant. Non-smoker. Occasional alcohol.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "78 bpm",
+      "bp": "168/102 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing. CV: regular, **mid-systolic click consistent with mitral valve prolapse**. Lungs: clear. Abdomen: **bilateral palpable flank masses (large, irregular kidneys)**, mild right-sided tenderness. No rebound or guarding. Extremities: no edema. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ blood, 1+ protein, no leukocyte esterase, no nitrites. Microscopy: numerous RBCs, no casts, no crystals.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Gross hematuria without infection in a patient with enlarged palpable kidneys and a strong family history points to a cystic or structural process."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Abdominal ultrasound: **bilaterally enlarged kidneys with innumerable cortical and medullary cysts of varying sizes**. Several hepatic cysts are also visualized. Subsequent MR angiography of the brain shows a **4 mm unruptured saccular aneurysm at the anterior communicating artery**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Multiple bilateral renal cysts with hepatic cysts and a cerebral berry aneurysm in a patient with an autosomal dominant family history confirms ADPKD."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 140, K 4.4, Cl 104, HCO3 24, BUN 22, **creatinine 1.4**, estimated GFR 58 mL/min/1.73 m2. LFTs normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild chronic kidney disease consistent with early ADPKD. Progression to ESRD typically occurs in the 4th-6th decade."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on tolvaptan to slow cyst progression, referred to neurosurgery for aneurysm monitoring, and his blood pressure target is tightened. Genetic testing confirms a pathogenic PKD1 mutation on chromosome 16."
+  },
+  "debrief": {
+    "classic_presentation": "ADPKD typically manifests in the third to fifth decades with hypertension, flank pain, hematuria, recurrent UTIs, kidney stones, and progressive CKD. Patients often have palpably enlarged kidneys. A positive family history is usually present because of autosomal dominant inheritance. Extrarenal manifestations include hepatic cysts, mitral valve prolapse, colonic diverticula, and, most importantly, cerebral berry aneurysms that can rupture and cause subarachnoid hemorrhage.",
+    "attending_mode_notes": null,
+    "pathophysiology": "ADPKD is caused by mutations in PKD1 (chromosome 16, ~85%) encoding polycystin-1, or PKD2 (chromosome 4, ~15%) encoding polycystin-2. These proteins localize to the primary cilium of tubular epithelial cells and regulate intracellular calcium signaling. Loss of function leads to increased cell proliferation and fluid secretion, generating progressively enlarging cysts that compress and destroy surrounding parenchyma. PKD1 mutations cause earlier and more severe disease than PKD2.",
+    "treatment_overview": "Blood pressure control, ideally with an ACE inhibitor or ARB, is the cornerstone of management and slows progression. Tolvaptan, a vasopressin V2 receptor antagonist, slows cyst growth and eGFR decline in selected patients. High fluid intake and avoidance of nephrotoxins are recommended. Screen for intracranial aneurysms in patients with a family history of SAH. End-stage renal disease is managed with dialysis or transplantation. Treat cyst infection or hemorrhage as needed.",
+    "high_yield_pearls": [
+      "ADPKD is autosomal dominant; PKD1 on chromosome 16 (more common, more severe) and PKD2 on chromosome 4.",
+      "Extrarenal: hepatic cysts, cerebral berry aneurysms (SAH risk), mitral valve prolapse, colonic diverticula.",
+      "Autosomal recessive (ARPKD) presents in infancy with Potter sequence and hepatic fibrosis and is a different disease.",
+      "Tolvaptan (V2 antagonist) slows cyst growth; strict BP control with ACEi/ARB is essential.",
+      "Berry aneurysms in ADPKD classically rupture and cause a thunderclap headache from subarachnoid hemorrhage."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Renal cystic disorders — Autosomal dominant polycystic kidney disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Polycystic kidney disease (ADPKD)",
+      "Renal cell carcinoma",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Pyelonephritis",
+      "Immunoglobulin A (IgA) nephropathy",
+      "Bladder cancer",
+      "Von Hippel-Lindau disease (VHL)",
+      "Tuberous sclerosis complex (TSC)"
+    ],
+    "after_stage2_more_likely": [
+      "Polycystic kidney disease (ADPKD)",
+      "Renal cell carcinoma"
+    ],
+    "after_stage2_less_likely": [
+      "Pyelonephritis",
+      "Bladder cancer",
+      "Immunoglobulin A (IgA) nephropathy"
+    ],
+    "after_labs_top3": [
+      "Polycystic kidney disease (ADPKD)",
+      "Tuberous sclerosis complex (TSC)",
+      "Von Hippel-Lindau disease (VHL)"
+    ]
+  }
+}

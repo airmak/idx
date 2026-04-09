@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_075",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Cystic fibrosis (CF)",
+  "icd_category": "E84 — Cystic fibrosis",
+  "one_liner": "A 3-year-old boy is brought in for chronic cough, bulky foul-smelling stools, and poor weight gain despite a voracious appetite.",
+  "stage2": {
+    "hpi_extension": "His mother reports **recurrent sinopulmonary infections** since infancy, including two hospitalizations for pneumonia with sputum cultures growing **Pseudomonas aeruginosa** and Staphylococcus aureus. He has a chronic productive cough and wheezing. Stools are described as **bulky, greasy, and foul-smelling (steatorrhea)**. He is below the 3rd percentile for weight. As a newborn he had **delayed passage of meconium** requiring brief hospitalization for meconium ileus.",
+    "pmh": "Meconium ileus at birth; recurrent pneumonia; chronic rhinosinusitis; nasal polyps",
+    "surgical_history": "None",
+    "medications": "Albuterol nebulizer PRN",
+    "allergies": "NKDA",
+    "family_history": "Healthy parents (non-consanguineous); maternal cousin died in late adolescence of 'lung disease'",
+    "social_history": "Lives with parents in suburban home; attends daycare; no tobacco exposure",
+    "vitals": {
+      "temp": "37.6 C",
+      "hr": "118 bpm",
+      "bp": "94/58 mmHg",
+      "rr": "28",
+      "spo2": "93% on room air"
+    },
+    "physical_exam": "General: thin, small-for-age child. HEENT: **nasal polyps** visible on anterior rhinoscopy. Chest: **diffuse coarse crackles and expiratory wheezing bilaterally**; mild intercostal retractions; **increased AP diameter (barrel chest)**. Extremities: **digital clubbing**. Abdomen: mildly distended, soft, nontender."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Sweat chloride test (pilocarpine iontophoresis): 82 mEq/L** (normal <30; CF >60) on two separate occasions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Sweat chloride greater than 60 mEq/L on repeat testing is diagnostic of cystic fibrosis. Defective CFTR channel prevents chloride reabsorption from sweat, leaving sweat abnormally salty."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**CFTR gene analysis: homozygous delta-F508 (Phe508del) mutation on chromosome 7**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "delta-F508 is the most common CFTR mutation and causes misfolding/degradation of the CFTR chloride channel before reaching the apical membrane. Confirms autosomal recessive cystic fibrosis."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest x-ray: **hyperinflation, bronchial wall thickening ('tram tracks'), and early cylindrical bronchiectasis most prominent in the upper lobes**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Upper-lobe predominant bronchiectasis with hyperinflation is a classic CF imaging pattern reflecting chronic mucus plugging and recurrent infection."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on pancreatic enzyme replacement, fat-soluble vitamin (ADEK) supplementation, dornase alfa, hypertonic saline nebulizers, and the CFTR corrector/potentiator lumacaftor-ivacaftor, with steady weight gain and fewer exacerbations."
+  },
+  "debrief": {
+    "classic_presentation": "Cystic fibrosis classically presents in an infant or young child with recurrent sinopulmonary infections (especially Pseudomonas aeruginosa and Staphylococcus aureus), chronic cough, nasal polyps, steatorrhea from pancreatic insufficiency, failure to thrive despite a good appetite, and a history of meconium ileus at birth. Adolescent and adult males often present with infertility due to congenital bilateral absence of the vas deferens.",
+    "attending_mode_notes": null,
+    "pathophysiology": "CF is an autosomal recessive disorder caused by mutations in the CFTR gene on chromosome 7, most commonly a three-base-pair deletion (delta-F508) that leads to misfolding and premature degradation of the CFTR chloride channel. Defective chloride (and bicarbonate) secretion at epithelial surfaces results in thick, dehydrated secretions. In the lungs this causes impaired mucociliary clearance and chronic infection; in the pancreas, obstructed ducts destroy exocrine tissue; in sweat glands, failure to reabsorb chloride produces salty sweat. Chronic inflammation ultimately leads to bronchiectasis and respiratory failure.",
+    "treatment_overview": "Chronic airway clearance with chest physiotherapy, inhaled hypertonic saline, and dornase alfa (recombinant DNase) to reduce sputum viscosity. Inhaled tobramycin and azithromycin for chronic Pseudomonas. Pancreatic enzyme replacement and fat-soluble vitamin (ADEK) supplementation for pancreatic insufficiency. CFTR modulators (ivacaftor potentiator; lumacaftor/tezacaftor correctors; elexacaftor) target specific mutation classes including delta-F508. Lung transplantation for end-stage disease.",
+    "high_yield_pearls": [
+      "Sweat chloride greater than 60 mEq/L on pilocarpine iontophoresis is diagnostic of CF.",
+      "delta-F508 (Phe508del) is the most common CFTR mutation; the gene is on chromosome 7 and inheritance is autosomal recessive.",
+      "CF is the most common cause of bronchiectasis in children in the US; chronic Pseudomonas aeruginosa colonization is characteristic.",
+      "Pancreatic insufficiency produces steatorrhea and fat-soluble vitamin (A, D, E, K) deficiency; treat with pancreatic enzymes.",
+      "Males with CF are nearly always infertile due to congenital bilateral absence of the vas deferens."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Cystic fibrosis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Autosomal recessive diseases — CFTR' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cystic fibrosis (CF)",
+      "Primary immunodeficiency (CVID)",
+      "Celiac disease",
+      "Asthma",
+      "Community-acquired pneumonia",
+      "Alpha-1 antitrypsin deficiency",
+      "Hirschsprung disease",
+      "Tuberculosis (TB)"
+    ],
+    "after_stage2_more_likely": [
+      "Cystic fibrosis (CF)",
+      "Primary immunodeficiency (CVID)"
+    ],
+    "after_stage2_less_likely": [
+      "Asthma",
+      "Celiac disease",
+      "Tuberculosis (TB)"
+    ],
+    "after_labs_top3": [
+      "Cystic fibrosis (CF)",
+      "Primary immunodeficiency (CVID)",
+      "Alpha-1 antitrypsin deficiency"
+    ]
+  }
+}

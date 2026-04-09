@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_017",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Myocarditis",
+  "icd_category": "I40.9 — Acute myocarditis, unspecified",
+  "one_liner": "A 24-year-old previously healthy man presents with progressive dyspnea, fatigue, and palpitations 2 weeks after a flu-like illness with fever, myalgias, and diarrhea.",
+  "stage2": {
+    "hpi_extension": "Two weeks ago he had 5 days of fever, muscle aches, sore throat, and watery diarrhea that resolved on its own. Over the past 5 days he has developed exertional dyspnea, fatigue, and occasional palpitations. Yesterday he had a syncopal episode while walking to the bathroom. He denies chest pain radiating to the arm or jaw, no cough, and no tobacco or drug use.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Graduate student. Non-smoker, occasional alcohol, no IV drugs. Recently returned from a camping trip.",
+    "vitals": {
+      "temp": "37.6°C",
+      "hr": "118 bpm",
+      "bp": "98/62 mmHg",
+      "rr": "22",
+      "spo2": "94% on room air"
+    },
+    "physical_exam": "Young man appearing mildly ill and fatigued. Cardiac: **tachycardic with S3 gallop**; soft holosystolic murmur at the apex. **JVD present**. Lungs: bibasilar crackles. Abdomen: mild hepatomegaly. Extremities: trace pitting edema; cool extremities with delayed capillary refill. No rash. **Tachycardia out of proportion to fever**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Troponin I elevated at 2.1 ng/mL** (no coronary risk factors). **CK-MB elevated**. ESR 60, CRP 8.5 (elevated). **BNP 980 pg/mL**. Viral PCR panel pending.",
+        "flag": "HIGH",
+        "clinical_significance": "Troponin elevation without CAD risk factors in a young patient after a viral illness suggests myocarditis. BNP reflects acute systolic dysfunction."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **globally hypokinetic LV with EF 30%**, mild LV dilation, no valvular disease, small pericardial effusion. Cardiac MRI with gadolinium: **patchy mid-wall and epicardial late gadolinium enhancement** with **myocardial edema on T2-weighted imaging** — findings consistent with acute myocarditis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Global hypokinesis with mid-wall/epicardial LGE (non-coronary distribution) on cardiac MRI is the imaging gold standard for myocarditis and distinguishes it from ischemic cardiomyopathy."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia. **Diffuse low-voltage QRS complexes**. Nonspecific ST-T changes. Occasional PVCs. No Q waves.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low voltage and nonspecific ST-T changes are typical of myocarditis; frank ST elevations may also occur but usually in a non-coronary distribution."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Viral PCR returns positive for Coxsackievirus B; endomyocardial biopsy (done for refractory arrhythmias) shows a lymphocytic infiltrate with myocyte necrosis."
+  },
+  "debrief": {
+    "classic_presentation": "Myocarditis classically presents in a young, previously healthy patient with new heart failure symptoms, chest pain, arrhythmias, or sudden cardiac death, typically preceded by a viral prodrome (flu-like illness, gastroenteritis) 1–2 weeks earlier. Exam shows tachycardia out of proportion to fever, S3 gallop, and signs of systolic heart failure. It is a major cause of sudden cardiac death in young adults.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Myocarditis is inflammation of the myocardium, most often due to viral infection with **Coxsackievirus B (most common in developed countries)**, adenovirus, parvovirus B19, HHV-6, and others. In South America, **Trypanosoma cruzi (Chagas disease)** is the classic cause. Direct viral injury and post-infectious T-cell mediated immune response cause myocyte necrosis. Histology: **lymphocytic infiltrate with myocyte necrosis** on endomyocardial biopsy (Dallas criteria). Can progress to dilated cardiomyopathy.",
+    "treatment_overview": "Management is **supportive**: guideline-directed heart failure therapy (ACE inhibitors, beta-blockers, diuretics), arrhythmia management, and restriction from strenuous exercise for 3–6 months. Mechanical circulatory support (ECMO, LVAD) or transplant for fulminant disease. **Avoid NSAIDs** (may worsen myocardial inflammation). Immunosuppression is reserved for specific types (giant cell myocarditis, eosinophilic myocarditis, autoimmune). Most cases resolve within weeks to months.",
+    "high_yield_pearls": [
+      "**Coxsackievirus B** is the most common cause of viral myocarditis in developed countries; in South America think **Chagas disease (T. cruzi)** which causes megacolon, megaesophagus, and dilated cardiomyopathy.",
+      "Histology: **lymphocytic infiltrate with myocyte necrosis** on endomyocardial biopsy (Dallas criteria).",
+      "Myocarditis is a major cause of **sudden cardiac death in young athletes** — restrict from exercise for 3–6 months.",
+      "Look for **tachycardia out of proportion to fever** and a **viral prodrome 1–2 weeks earlier** in a young patient with new heart failure symptoms.",
+      "Cardiac MRI shows **patchy mid-wall/epicardial late gadolinium enhancement** in a non-coronary distribution, distinguishing myocarditis from ischemic injury."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Cardiomyopathies — Myocarditis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Myocarditis",
+      "Dilated cardiomyopathy",
+      "Heart failure (systolic)",
+      "Pericarditis",
+      "Myocardial infarction (MI)",
+      "Takotsubo cardiomyopathy",
+      "Hypertrophic cardiomyopathy",
+      "Infective endocarditis"
+    ],
+    "after_stage2_more_likely": [
+      "Myocarditis",
+      "Pericarditis",
+      "Dilated cardiomyopathy"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic cardiomyopathy",
+      "Myocardial infarction (MI)",
+      "Takotsubo cardiomyopathy"
+    ],
+    "after_labs_top3": [
+      "Myocarditis",
+      "Dilated cardiomyopathy",
+      "Pericarditis"
+    ]
+  }
+}

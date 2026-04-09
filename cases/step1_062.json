@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_062",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Stroke (ischemic)",
+  "icd_category": "I63 — Cerebral infarction",
+  "one_liner": "A 72-year-old right-handed man is brought to the ED after his wife found him on the kitchen floor 90 minutes ago, unable to move his right side and unable to speak.",
+  "stage2": {
+    "hpi_extension": "He was last seen normal 90 minutes ago when his wife left to walk the dog. On return she found him slumped over, with right facial droop, inability to move his right arm and leg, and garbled speech. Symptoms were **maximal at onset and non-progressive**. No headache, vomiting, seizure, or preceding trauma. He has had two episodes in the past month of transient right arm weakness lasting ~10 minutes that resolved spontaneously (TIAs). No recent surgery, GI bleed, or anticoagulation.",
+    "pmh": "**Atrial fibrillation (not on anticoagulation — refused)**, hypertension, type 2 diabetes, hyperlipidemia",
+    "surgical_history": "CABG 8 years ago",
+    "medications": "Metoprolol, lisinopril, metformin, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Father had a stroke at age 70",
+    "social_history": "Former smoker (quit 10 years ago, 40 pack-years). Occasional alcohol.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "102 bpm, irregularly irregular",
+      "bp": "186/98 mmHg",
+      "rr": "16",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: alert but non-verbal, appears frightened. Cardiac: **irregularly irregular rhythm, no murmurs**. Neuro: **dense right hemiparesis — face and arm > leg**. **Right central facial droop with sparing of the forehead (UMN pattern)**. **Global/expressive aphasia: unable to follow commands reliably, no meaningful speech output**. **Right homonymous hemianopia on confrontation visual field testing**. **Right-sided hyperreflexia with an upgoing Babinski**. **Gaze preference to the left (cortical eye deviation toward the lesion)**. NIHSS ~18."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Non-contrast CT head: no intracranial hemorrhage. Subtle loss of gray-white differentiation in the left insular cortex and lentiform nucleus with effacement of the left sylvian fissure — early ischemic changes in the left MCA territory**. CT angiography: **proximal occlusion of the left middle cerebral artery (M1 segment)**. CT perfusion: large ischemic penumbra with small core.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Absence of hemorrhage on NCCT allows administration of IV tPA. Proximal MCA occlusion on CTA with a favorable penumbra on CTP identifies the patient as a candidate for mechanical thrombectomy."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "**Atrial fibrillation with rapid ventricular response at 102 bpm**. No ST elevation. Troponin pending.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Atrial fibrillation is the most common cardioembolic source of ischemic stroke. Left atrial stasis permits thrombus formation in the left atrial appendage that embolizes to cerebral vessels."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He receives IV alteplase within the 4.5-hour window and undergoes mechanical thrombectomy with successful recanalization of the left MCA. Anticoagulation with warfarin is initiated for secondary prevention of cardioembolic stroke from atrial fibrillation."
+  },
+  "debrief": {
+    "classic_presentation": "Ischemic stroke classically presents with the **sudden onset of focal neurologic deficits** referable to a vascular territory. **Middle cerebral artery (MCA) strokes are the most common** and cause **contralateral face and arm weakness greater than leg**, contralateral hemisensory loss, homonymous hemianopia, gaze preference toward the lesion, and — if the dominant (usually left) hemisphere is involved — **aphasia** (Broca, Wernicke, or global). Anterior cerebral artery strokes cause leg > arm weakness; posterior cerebral artery strokes cause isolated homonymous hemianopia; basilar strokes cause locked-in syndrome or crossed signs; lacunar strokes cause pure motor, pure sensory, or ataxic-hemiparesis syndromes.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Ischemic stroke results from **sudden interruption of arterial blood flow to a region of brain**, causing an ischemic core of irreversible damage surrounded by a potentially salvageable penumbra. Mechanisms include **cardioembolism (most often from atrial fibrillation), large-artery atherosclerosis (carotid plaque, intracranial stenosis), small vessel (lacunar) disease from lipohyalinosis in chronic hypertension/diabetes**, and less commonly hypercoagulable states or arterial dissection. In the penumbra, neurons are electrically silent but viable; reperfusion within a therapeutic window can rescue them. Pathologically, **red neurons (eosinophilic cytoplasm, pyknotic nuclei)** appear at 12-24 hours, liquefactive necrosis peaks at 1-2 weeks, and a fluid-filled cavity with reactive gliosis remains chronically.",
+    "treatment_overview": "Acute stroke is a time-critical emergency: **'time is brain'**. **IV alteplase (tPA) within 4.5 hours of last-known-normal** improves outcomes if there are no contraindications (recent surgery, active bleeding, recent stroke, BP >185/110 uncontrolled, current anticoagulation with elevated INR). **Mechanical thrombectomy within 6 hours (up to 24 hours with favorable imaging) for large-vessel occlusion** is standard of care. Permissive hypertension (up to 220/120 if no tPA given). Secondary prevention depends on mechanism: **anticoagulation for atrial fibrillation**, antiplatelet + statin for atherosclerotic, BP and glucose control for lacunar, and carotid endarterectomy for symptomatic carotid stenosis >70%.",
+    "high_yield_pearls": [
+      "MCA stroke: contralateral face/arm > leg weakness, contralateral sensory loss, homonymous hemianopia, gaze toward lesion, aphasia (if dominant hemisphere).",
+      "ACA stroke: contralateral leg > arm weakness/sensory loss. PCA stroke: contralateral homonymous hemianopia with macular sparing.",
+      "IV tPA within 4.5 hours of last-known-normal for eligible patients; mechanical thrombectomy within 6-24 hours for large-vessel occlusion.",
+      "Atrial fibrillation is the most common source of cardioembolic stroke — long-term anticoagulation for secondary prevention.",
+      "Histology: red neurons at 12-24 h, neutrophils at 24-72 h, macrophages 3-5 d, reactive gliosis and vascular proliferation 1-2 wk, fluid-filled cyst chronically."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Cerebrovascular disease — Ischemic brain disease/stroke' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Transient ischemic attack (TIA)",
+      "Subarachnoid hemorrhage (SAH)",
+      "Hypoglycemia",
+      "Epilepsy",
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Multiple sclerosis (MS)"
+    ],
+    "after_stage2_more_likely": [
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Transient ischemic attack (TIA)"
+    ],
+    "after_stage2_less_likely": [
+      "Hypoglycemia",
+      "Epilepsy",
+      "Multiple sclerosis (MS)"
+    ],
+    "after_labs_top3": [
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Transient ischemic attack (TIA)"
+    ]
+  }
+}

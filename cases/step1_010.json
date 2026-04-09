@@ -1,0 +1,99 @@
+{
+  "case_id": "step1_010",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Aortic stenosis",
+  "icd_category": "I35.0 — Nonrheumatic aortic (valve) stenosis",
+  "one_liner": "A 74-year-old man presents with a 4-month history of exertional dyspnea, a near-syncopal episode while climbing stairs, and squeezing substernal chest pain with activity that resolves with rest.",
+  "stage2": {
+    "hpi_extension": "Over the past year he has noticed progressive fatigue. Two weeks ago he briefly lost consciousness while carrying groceries up a flight of stairs. His chest pain is exertional, squeezing, and resolves with 2–3 minutes of rest. He has no history of rheumatic fever. He denies palpitations or orthopnea but reports that his exercise tolerance has dropped dramatically in the last month.",
+    "pmh": "Hypertension, hyperlipidemia",
+    "surgical_history": "Inguinal hernia repair at age 60",
+    "medications": "Amlodipine, rosuvastatin",
+    "allergies": "NKDA",
+    "family_history": "Mother died of heart failure at age 82",
+    "social_history": "Former smoker (quit 20 years ago). Retired accountant. No alcohol.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "72 bpm",
+      "bp": "128/84 mmHg",
+      "rr": "16",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "Well-appearing elderly man. Cardiac: **harsh crescendo-decrescendo systolic ejection murmur at the right 2nd intercostal space, radiating to the carotids**. The murmur is loudest at end-expiration. **Pulsus parvus et tardus** (weak and delayed carotid upstrokes). **Soft and delayed S2** with paradoxical splitting. **S4 gallop** present. Lungs clear. No peripheral edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **calcified, thickened, poorly mobile tricuspid aortic valve** with restricted leaflet opening. **Peak aortic jet velocity 4.5 m/s**, mean gradient 52 mmHg, **aortic valve area 0.7 cm²**. Concentric left ventricular hypertrophy; EF 60%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Valve area <1.0 cm² with mean gradient >40 mmHg and peak velocity >4 m/s defines severe aortic stenosis. Concentric LVH reflects compensation against chronic pressure overload."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus rhythm at 72. **Left ventricular hypertrophy by voltage criteria** (S in V1 + R in V5 >35 mm). Left axis deviation. Strain pattern with T-wave inversions in the lateral leads.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "LVH on EKG reflects the adaptive hypertrophic response of the left ventricle to chronic pressure overload from outflow obstruction."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is referred for surgical aortic valve replacement; with onset of symptoms (angina, syncope, dyspnea) untreated severe AS has a median survival of <3 years."
+  },
+  "debrief": {
+    "classic_presentation": "Aortic stenosis classically presents in the elderly with the symptomatic triad of **SAD**: Syncope (exertional), Angina, and Dyspnea (from heart failure). The hallmark exam finding is a harsh crescendo-decrescendo systolic ejection murmur at the right upper sternal border radiating to the carotids, accompanied by pulsus parvus et tardus and a soft/delayed S2. Once symptomatic, prognosis is poor without valve replacement.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In patients >70, AS is most commonly caused by age-related calcific degeneration of a normal tricuspid valve. In patients <70, a congenital bicuspid aortic valve is the most common cause, with rheumatic heart disease being a classic but now rarer etiology. Chronic pressure overload induces **concentric LVH** (sarcomeres added in parallel), which initially maintains cardiac output but eventually leads to diastolic dysfunction, subendocardial ischemia, and exertional syncope (fixed cardiac output cannot match peripheral vasodilation).",
+    "treatment_overview": "Definitive treatment is **aortic valve replacement (AVR)** — either surgical (SAVR) or transcatheter (TAVR) — indicated for all symptomatic patients with severe AS and for asymptomatic patients with LVEF <50%. Medical therapy is supportive only. **Avoid nitrates and aggressive afterload reduction** (e.g., ACE inhibitors in severe AS) because they drop preload across a fixed obstruction and can cause syncope.",
+    "high_yield_pearls": [
+      "**Symptomatic severe AS has a median survival of 2 years (heart failure), 3 years (syncope), and 5 years (angina)** without valve replacement.",
+      "**Pulsus parvus et tardus** = weak, delayed carotid upstroke — a reliable physical finding of severe AS.",
+      "A **bicuspid aortic valve** is the most common cause of AS in patients <70 years and accelerates calcific degeneration; it is also associated with aortic coarctation and aortic dissection.",
+      "The murmur of AS is **louder with squatting** (increased preload) and **softer with Valsalva** (decreased preload) — the opposite of HCM.",
+      "Concentric LVH develops because ventricular wall stress (Laplace: stress = P·r/2h) is normalized by adding sarcomeres in parallel to increase wall thickness (h)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Valvular heart disease — Aortic stenosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Aortic stenosis",
+      "Hypertrophic cardiomyopathy",
+      "Mitral regurgitation",
+      "Stable angina",
+      "Heart failure (systolic)",
+      "Bicuspid aortic valve",
+      "Myocardial infarction (MI)"
+    ],
+    "after_stage2_more_likely": [
+      "Aortic stenosis",
+      "Hypertrophic cardiomyopathy"
+    ],
+    "after_stage2_less_likely": [
+      "Mitral regurgitation",
+      "Myocardial infarction (MI)"
+    ],
+    "after_labs_top3": [
+      "Aortic stenosis",
+      "Bicuspid aortic valve",
+      "Hypertrophic cardiomyopathy"
+    ]
+  }
+}

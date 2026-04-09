@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_039",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Acute Kidney Injury — Prerenal",
+  "icd_category": "N17.9 — Acute kidney failure, unspecified",
+  "one_liner": "A 76-year-old woman is brought in from a nursing home after 3 days of vomiting and diarrhea with markedly decreased urine output.",
+  "stage2": {
+    "hpi_extension": "She has had **watery, non-bloody diarrhea and poor oral intake** for three days following a gastroenteritis outbreak at her facility. Nursing staff note she has not used the bathroom to urinate in nearly 24 hours. She is on **lisinopril** and **furosemide** for heart failure, which have been continued. She appears weak and lethargic but denies pain.",
+    "pmh": "Heart failure with preserved EF, hypertension, osteoarthritis",
+    "surgical_history": "Total knee replacement 5 years ago",
+    "medications": "Lisinopril, furosemide, metoprolol, acetaminophen",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Lives in a skilled nursing facility. Widowed.",
+    "vitals": {
+      "temp": "36.6 C",
+      "hr": "112 bpm",
+      "bp": "88/54 mmHg (baseline 135/80)",
+      "rr": "18",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: elderly woman, frail, appears dehydrated. HEENT: **dry mucous membranes, sunken eyes**. CV: tachycardic, regular rhythm, no murmurs, **flat jugular veins**. Lungs: clear. Abdomen: soft, non-tender, hyperactive bowel sounds. Extremities: **cool peripheries with delayed capillary refill, poor skin turgor**. Neuro: lethargic but oriented."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 148, K 3.2, Cl 112, HCO3 20, **BUN 72, creatinine 2.8 (baseline 0.9)**, **BUN/Cr ratio 26**, glucose 98, albumin 3.6. Calculated osmolality elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "BUN/Cr ratio greater than 20 is classic for prerenal azotemia because of enhanced urea reabsorption under low tubular flow and high ADH."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Concentrated yellow urine, specific gravity 1.028, 1+ protein, no blood, no leukocyte esterase, no nitrites. **Microscopy: bland sediment, occasional hyaline casts, no muddy brown casts, no WBCs or RBC casts.**",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A bland urine sediment with hyaline casts and no muddy brown casts argues against intrinsic tubular injury and supports prerenal etiology."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Urine sodium 12 mEq/L, urine creatinine 120 mg/dL. **Fractional excretion of sodium (FENa) = 0.4%** (less than 1%). Urine osmolality 520 mOsm/kg (concentrated).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "FENa less than 1% with concentrated urine confirms prerenal physiology with intact tubular sodium-avid function and preserved concentrating ability."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Functional / provocative testing"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Imaging study",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Her lisinopril and furosemide are held, and she is given 2 liters of normal saline; within 24 hours her creatinine falls back toward 1.0 and her urine output normalizes, confirming reversible prerenal AKI."
+  },
+  "debrief": {
+    "classic_presentation": "Prerenal AKI classically presents with oliguria and a rising creatinine in the setting of volume depletion (vomiting, diarrhea, hemorrhage, burns), true hypotension (sepsis, cardiogenic shock), effective arterial underfilling (heart failure, cirrhosis), or medications that disrupt glomerular autoregulation (ACE inhibitors, ARBs, NSAIDs). Physical exam shows dry mucous membranes, tachycardia, orthostatic hypotension, and poor skin turgor. Response to volume resuscitation is rapid and diagnostic.",
+    "attending_mode_notes": null,
+    "pathophysiology": "In prerenal AKI, decreased renal perfusion leads to reduced glomerular filtration, but the tubules remain structurally intact. The kidney responds by avidly reabsorbing sodium and water under the drive of aldosterone, ADH, and tubuloglomerular feedback, producing concentrated low-sodium urine. ACE inhibitors block efferent arteriolar constriction by angiotensin II and NSAIDs block afferent arteriolar vasodilation by prostaglandins, both of which can tip a vulnerable patient into AKI. Prolonged hypoperfusion can progress to ischemic acute tubular necrosis.",
+    "treatment_overview": "Management centers on restoring renal perfusion: isotonic crystalloid resuscitation for hypovolemia, optimization of cardiac output in cardiorenal syndrome, and treatment of sepsis with fluids and antibiotics. Stop offending nephrotoxins including ACE inhibitors, ARBs, NSAIDs, and diuretics as clinically appropriate. Monitor urine output, electrolytes, and creatinine. Reversal within 24-72 hours of volume repletion supports the diagnosis.",
+    "high_yield_pearls": [
+      "Classic labs of prerenal AKI: BUN/Cr greater than 20, FENa less than 1%, urine osmolality greater than 500, urine Na less than 20.",
+      "Bland urine sediment (with hyaline casts) distinguishes prerenal from intrinsic AKI.",
+      "Muddy brown (granular) casts suggest acute tubular necrosis, not prerenal AKI.",
+      "ACEi/ARBs and NSAIDs disrupt glomerular autoregulation and can precipitate prerenal AKI in vulnerable patients.",
+      "Prolonged prerenal hypoperfusion can progress to ischemic ATN, which does not reverse rapidly with fluids."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Acute kidney injury — Prerenal azotemia' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute Kidney Injury — Prerenal",
+      "Medication-induced acute kidney injury",
+      "Interstitial nephritis",
+      "Hepatorenal syndrome",
+      "Contrast-induced nephropathy",
+      "Rhabdomyolysis",
+      "Pyelonephritis",
+      "Chronic kidney disease"
+    ],
+    "after_stage2_more_likely": [
+      "Acute Kidney Injury — Prerenal",
+      "Medication-induced acute kidney injury"
+    ],
+    "after_stage2_less_likely": [
+      "Interstitial nephritis",
+      "Rhabdomyolysis",
+      "Pyelonephritis"
+    ],
+    "after_labs_top3": [
+      "Acute Kidney Injury — Prerenal",
+      "Medication-induced acute kidney injury",
+      "Hepatorenal syndrome"
+    ]
+  }
+}

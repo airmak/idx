@@ -1,0 +1,100 @@
+{
+  "case_id": "step1_082",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Hirschsprung disease",
+  "icd_category": "Q43.1 — Hirschsprung disease",
+  "one_liner": "A full-term newborn boy has not passed meconium in the first 48 hours of life and has progressive abdominal distention and bilious emesis.",
+  "stage2": {
+    "hpi_extension": "He was born at 39 weeks to a healthy mother. By 48 hours of life he **has still not passed meconium** and his abdomen is increasingly distended. He has had two episodes of **bilious emesis** and is feeding poorly. He has characteristic facies of Down syndrome and his newborn karyotype is pending. On digital rectal exam, as the finger is withdrawn, there is an **explosive release of gas and meconium ('squirt sign')**.",
+    "pmh": "Full-term vaginal delivery; otherwise unremarkable birth history",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Maternal cousin with 'colon problem' in infancy requiring surgery",
+    "social_history": "Lives with parents; first child",
+    "vitals": {
+      "temp": "37.1 C",
+      "hr": "158 bpm",
+      "bp": "68/42 mmHg",
+      "rr": "52",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: fussy newborn. HEENT: **flat facial profile, upslanting palpebral fissures, epicanthal folds** suggestive of Down syndrome. Abdomen: **markedly distended, tympanitic, with visible bowel loops**; soft, mildly tender; no palpable mass. Rectal: tight, empty rectal vault; on withdrawal of the examining finger, **explosive expulsion of gas and meconium (positive 'squirt sign')**. Extremities: single palmar crease bilaterally."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Abdominal x-ray: **dilated loops of proximal bowel with a paucity of distal rectal gas**. **Contrast enema: narrowed (aganglionic) distal rectum with a characteristic 'transition zone' to dilated proximal colon** (reversed rectosigmoid index).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A distal narrow segment with an abrupt transition to dilated proximal colon on contrast enema is the classic radiographic finding in Hirschsprung disease. The narrow segment is the aganglionic portion that cannot relax."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "**Rectal suction biopsy: absence of ganglion cells in the submucosal (Meissner) and myenteric (Auerbach) plexuses** with **hypertrophied nerve fibers** and **increased acetylcholinesterase staining**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rectal suction biopsy demonstrating absent ganglion cells is the gold standard for diagnosis of Hirschsprung disease. Increased acetylcholinesterase staining reflects cholinergic hyperinnervation in the aganglionic segment."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel",
+      "CSF analysis (lumbar puncture)",
+      "Serologic / antibody studies",
+      "Hormone / endocrine assay"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is taken to the OR for a pull-through procedure (Soave or Swenson) to resect the aganglionic rectosigmoid and anastomose normally innervated proximal bowel to the anal canal; karyotype later confirms trisomy 21."
+  },
+  "debrief": {
+    "classic_presentation": "Hirschsprung disease classically presents in a full-term newborn with failure to pass meconium in the first 48 hours of life, abdominal distention, and bilious emesis. Digital rectal exam reveals a tight, empty rectal vault followed by explosive expulsion of gas and stool ('squirt sign'). Less severe cases may present later in infancy or childhood with chronic constipation. A strong association exists with Down syndrome. The most dreaded complication is Hirschsprung-associated enterocolitis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Hirschsprung disease is caused by failure of neural crest cell migration to the distal colon during embryogenesis (often related to RET proto-oncogene mutations), leaving the distal bowel without ganglion cells of the submucosal (Meissner) and myenteric (Auerbach) plexuses. The aganglionic segment cannot relax and remains tonically contracted, producing a functional obstruction. Proximal bowel dilates massively above the non-relaxing distal segment. The rectum is always involved; the aganglionic segment extends variably proximally.",
+    "treatment_overview": "Initial management includes bowel decompression (nasogastric tube, rectal irrigations) and IV fluids. Definitive treatment is surgical resection of the aganglionic segment with a pull-through procedure (Swenson, Duhamel, or Soave) anastomosing ganglionated bowel to the anus. Hirschsprung-associated enterocolitis is the leading cause of morbidity and mortality and presents with fever, abdominal distention, and explosive diarrhea; it is treated with broad-spectrum antibiotics, IV fluids, and rectal decompression.",
+    "high_yield_pearls": [
+      "Failure to pass meconium within 48 hours of life is the classic presentation.",
+      "Rectal suction biopsy showing absent ganglion cells (Auerbach and Meissner plexuses) is the gold standard for diagnosis.",
+      "Contrast enema shows a narrow aganglionic distal segment with a transition zone to dilated proximal colon.",
+      "Strong association with Down syndrome; RET proto-oncogene mutations are implicated.",
+      "Hirschsprung-associated enterocolitis is the most dangerous complication and is a surgical emergency."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Congenital GI disorders — Hirschsprung disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hirschsprung disease",
+      "Cystic fibrosis (CF)",
+      "Hypertrophic pyloric stenosis",
+      "Intussusception (ileocolic)",
+      "Small Bowel Obstruction",
+      "Down syndrome (trisomy 21)",
+      "Hypothyroidism"
+    ],
+    "after_stage2_more_likely": [
+      "Hirschsprung disease",
+      "Down syndrome (trisomy 21)"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic pyloric stenosis",
+      "Intussusception (ileocolic)",
+      "Hypothyroidism"
+    ],
+    "after_labs_top3": [
+      "Hirschsprung disease",
+      "Cystic fibrosis (CF)",
+      "Small Bowel Obstruction"
+    ]
+  }
+}

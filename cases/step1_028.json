@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_028",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Crohn disease",
+  "icd_category": "K50 — Crohn disease (regional enteritis)",
+  "one_liner": "A 22-year-old woman presents with 4 months of crampy right lower quadrant pain, chronic non-bloody diarrhea, and a 12-lb unintentional weight loss. She also reports painful red nodules on her shins and occasional eye redness.",
+  "stage2": {
+    "hpi_extension": "She has had intermittent crampy RLQ pain and 4–6 loose, non-bloody stools per day for 4 months. She has felt fatigued, lost 12 pounds, and has low-grade fevers. She also describes tender red subcutaneous nodules over her shins (**erythema nodosum**), episodes of painful red eyes (**episcleritis**), and a painful perianal lesion that has been draining pus. No recent travel or antibiotic exposure.",
+    "pmh": "Iron deficiency anemia",
+    "surgical_history": "None",
+    "medications": "Oral iron",
+    "allergies": "NKDA",
+    "family_history": "Maternal uncle with 'inflammatory bowel disease'. Ashkenazi Jewish descent.",
+    "social_history": "Graduate student. Smokes half a pack per day. Social alcohol.",
+    "vitals": {
+      "temp": "37.8°C",
+      "hr": "94 bpm",
+      "bp": "110/68 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Thin young woman. Skin: **tender erythematous nodules on both anterior shins (erythema nodosum)**. Eyes: mild conjunctival injection. Oral cavity: small aphthous ulcer. Abdomen: **tenderness in the right lower quadrant with a vague palpable mass**, no peritoneal signs. Perianal exam: **perianal skin tag and a draining fistula opening**. Digital rectal exam: no gross blood."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "ESR 62 mm/hr (HIGH), CRP 48 mg/L (HIGH). **Fecal calprotectin markedly elevated**. Stool studies (C. diff, ova/parasites, cultures) negative.",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated inflammatory markers and fecal calprotectin indicate active intestinal inflammation and exclude infectious mimics."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT enterography: **segmental wall thickening and mucosal enhancement of the terminal ileum with surrounding mesenteric fat stranding ('creeping fat')** and a narrowed luminal caliber ('string sign'). Skip areas noted in proximal small bowel. Small fistulous tract toward the cecum.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Terminal ileitis with skip lesions, creeping fat, and the string sign are hallmark radiographic features of Crohn disease and distinguish it from ulcerative colitis."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Ileocolonoscopy with biopsy: **cobblestoning of the terminal ileal mucosa with linear (aphthous) ulcers and skip lesions**; the rectum is spared. Histology: **transmural lymphoid aggregates and non-caseating granulomas**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Transmural inflammation with non-caseating granulomas and skip lesions involving the terminal ileum is diagnostic of Crohn disease."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Inflammatory / infection markers",
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on oral budesonide for induction and azathioprine for maintenance. She is counseled to stop smoking, which worsens Crohn disease (in contrast to ulcerative colitis, where smoking is paradoxically protective)."
+  },
+  "debrief": {
+    "classic_presentation": "Crohn disease classically presents in a young adult (bimodal peak: 15–35 and 55–70) with chronic crampy abdominal pain, non-bloody diarrhea, weight loss, and fatigue. The terminal ileum is the most commonly involved segment (RLQ pain). Extraintestinal manifestations include erythema nodosum, pyoderma gangrenosum, episcleritis/uveitis, migratory polyarthritis, and ankylosing spondylitis. Perianal fistulas and aphthous oral ulcers are classic.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Crohn disease is a chronic transmural inflammatory disorder of the GI tract that can involve any segment from mouth to anus in a discontinuous ('skip lesion') pattern, most often the terminal ileum. Transmural inflammation predisposes to strictures, fistulas, and abscesses. Histology shows non-caseating granulomas in ~50% of cases. Th1/Th17-mediated immune dysregulation in genetically susceptible hosts (NOD2/CARD15 association). Increased risk with smoking and family history; more common in Ashkenazi Jewish populations.",
+    "treatment_overview": "Induction of remission: corticosteroids (prednisone or ileal-release budesonide for ileal disease). Maintenance: immunomodulators (azathioprine, 6-mercaptopurine, methotrexate) and biologics (anti-TNF agents: infliximab, adalimumab). Mesalamine (5-ASA) is of limited benefit in Crohn compared with UC. Surgery is reserved for complications (strictures, fistulas, abscesses) and is NOT curative — disease recurs at the anastomosis. Smoking cessation is essential. Monitor for B12 deficiency in terminal ileum disease.",
+    "high_yield_pearls": [
+      "Crohn = transmural, skip lesions, cobblestoning, creeping fat, non-caseating granulomas, terminal ileum — 'anywhere from mouth to anus'.",
+      "Think Crohn when a young adult has RLQ pain + non-bloody diarrhea + perianal disease or fistulas.",
+      "Smoking WORSENS Crohn disease but is PROTECTIVE in ulcerative colitis — classic USMLE distinction.",
+      "Terminal ileal disease -> malabsorption of bile acids (leads to steatorrhea) and vitamin B12 -> megaloblastic anemia.",
+      "Extraintestinal: erythema nodosum, pyoderma gangrenosum, episcleritis, migratory arthritis, ankylosing spondylitis (HLA-B27). Kidney stones (calcium oxalate) from fat malabsorption."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Inflammatory bowel diseases — Crohn disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Crohn disease",
+      "Ulcerative colitis",
+      "Appendicitis",
+      "Celiac disease",
+      "Irritable bowel syndrome (IBS)",
+      "Clostridioides difficile (C. diff) colitis",
+      "Tuberculosis (TB)",
+      "Microscopic Colitis"
+    ],
+    "after_stage2_more_likely": [
+      "Crohn disease",
+      "Ulcerative colitis"
+    ],
+    "after_stage2_less_likely": [
+      "Irritable bowel syndrome (IBS)",
+      "Clostridioides difficile (C. diff) colitis",
+      "Celiac disease"
+    ],
+    "after_labs_top3": [
+      "Crohn disease",
+      "Ulcerative colitis",
+      "Tuberculosis (TB)"
+    ]
+  }
+}

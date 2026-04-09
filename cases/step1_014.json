@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_014",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Hypertensive emergency",
+  "icd_category": "I16.1 — Hypertensive emergency",
+  "one_liner": "A 54-year-old man presents with a severe headache, blurry vision, and confusion; his blood pressure on arrival is 232/138 mmHg.",
+  "stage2": {
+    "hpi_extension": "The headache began this morning and has progressively worsened over 6 hours. He is confused, nauseated, and has vomited twice. His wife reports that he ran out of his blood pressure medications 3 weeks ago. He also reports blurry vision and an episode of chest tightness. He denies focal weakness or speech problems.",
+    "pmh": "Chronic hypertension, type 2 diabetes, chronic kidney disease (baseline Cr 1.6)",
+    "surgical_history": "None",
+    "medications": "Was previously on amlodipine, hydrochlorothiazide, and lisinopril — all ran out",
+    "allergies": "NKDA",
+    "family_history": "Father with stroke; mother with hypertension",
+    "social_history": "Smokes half a pack per day. Occasional alcohol.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "92 bpm",
+      "bp": "232/138 mmHg",
+      "rr": "20",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "Confused, oriented only to person. Funduscopic exam: **papilledema, flame hemorrhages, and cotton-wool spots (grade IV hypertensive retinopathy)**. Cardiac: **S4 gallop**; forceful apical impulse. Lungs: bibasilar crackles. Neuro: mild asterixis, no focal deficits. Extremities: no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "**Hematuria with red cell casts**, mild proteinuria (2+), and a few granular casts.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Red cell casts and proteinuria indicate acute hypertensive nephrosclerosis with glomerular injury — evidence of end-organ damage defining hypertensive emergency."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Creatinine 2.6 mg/dL (baseline 1.6)**, BUN 42, K 4.8, Na 138, CO2 20. LDH elevated; **schistocytes noted on smear** suggesting microangiopathic hemolysis.",
+        "flag": "HIGH",
+        "clinical_significance": "Acute kidney injury with microangiopathic hemolytic anemia (schistocytes, elevated LDH) from malignant hypertension causing fibrinoid necrosis of arterioles."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Non-contrast CT head: no acute hemorrhage or mass effect. Mild **posterior white matter edema** consistent with PRES (posterior reversible encephalopathy syndrome).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "PRES is a vasogenic edema pattern seen in hypertensive encephalopathy — reversible with blood pressure control and excludes hemorrhagic stroke as the cause of confusion."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Comprehensive metabolic panel",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "IV nicardipine is initiated with a goal to lower MAP by no more than 25% in the first hour to avoid hypoperfusion; his mental status improves over the next 12 hours."
+  },
+  "debrief": {
+    "classic_presentation": "Hypertensive emergency is defined as **severe hypertension (typically SBP >180 or DBP >120 mmHg) WITH acute end-organ damage**. Target organ injury includes hypertensive encephalopathy (headache, confusion, seizure), acute kidney injury, microangiopathic hemolytic anemia, papilledema with flame hemorrhages, pulmonary edema, MI, or aortic dissection. Without end-organ damage, severe BP elevation is termed 'hypertensive urgency' and is managed with gradual oral BP control.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Extreme blood pressure elevation overwhelms normal vascular autoregulation, causing **fibrinoid necrosis of arterioles** and endothelial injury. In the kidney, **onion-skinning (hyperplastic arteriolosclerosis)** of afferent arterioles produces acute nephrosclerosis with AKI. In the brain, failure of autoregulation leads to vasogenic edema (PRES). Mechanical red cell shearing across damaged endothelium produces microangiopathic hemolytic anemia with schistocytes.",
+    "treatment_overview": "Lower mean arterial pressure by **no more than 25% in the first hour**, then toward 160/100 over the next 2–6 hours — too-rapid reduction causes cerebral/renal hypoperfusion. Preferred IV agents: **nicardipine, clevidipine, labetalol, or nitroprusside**. Use **fenoldopam** when renal protection is desired. For aortic dissection, use **esmolol or labetalol first** (HR control) before a vasodilator. Identify and treat the precipitant (medication non-adherence, renovascular disease, pheochromocytoma, cocaine).",
+    "high_yield_pearls": [
+      "**Hypertensive emergency = severe BP + end-organ damage** (brain, heart, kidney, eyes). Without organ damage it is 'urgency' and managed outpatient.",
+      "**Fibrinoid necrosis and 'onion-skinning' (hyperplastic arteriolosclerosis)** of renal arterioles are the histologic hallmarks of malignant hypertension.",
+      "**Grade IV hypertensive retinopathy** = papilledema + flame hemorrhages + cotton-wool spots + AV nicking.",
+      "Lower MAP by **no more than 25% in the first hour** to preserve cerebral and renal perfusion.",
+      "**Avoid clonidine withdrawal** and beta-blocker withdrawal — both cause rebound catecholamine surge with severe HTN."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Hypertension — Hypertensive emergency' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hypertensive emergency",
+      "Hemorrhagic stroke",
+      "Stroke (ischemic)",
+      "Subarachnoid hemorrhage (SAH)",
+      "Pheochromocytoma",
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Renal artery stenosis",
+      "Thrombotic thrombocytopenic purpura (TTP)"
+    ],
+    "after_stage2_more_likely": [
+      "Hypertensive emergency",
+      "Hemorrhagic stroke",
+      "Pheochromocytoma"
+    ],
+    "after_stage2_less_likely": [
+      "Stroke (ischemic)",
+      "Subarachnoid hemorrhage (SAH)",
+      "Renal artery stenosis"
+    ],
+    "after_labs_top3": [
+      "Hypertensive emergency",
+      "Pheochromocytoma",
+      "Thrombotic thrombocytopenic purpura (TTP)"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_034",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Hepatitis B",
+  "icd_category": "B16 — Acute hepatitis B",
+  "one_liner": "A 29-year-old man presents with 2 weeks of fatigue, anorexia, nausea, right upper quadrant discomfort, and dark urine. He recently noticed yellowing of his sclera and developed a serum sickness–like rash and joint pains.",
+  "stage2": {
+    "hpi_extension": "He reports a 2-week prodrome of malaise, fatigue, nausea, low-grade fever, and RUQ discomfort, followed by **dark (tea-colored) urine, acholic stools, and scleral icterus**. He also has migratory arthralgias and a transient urticarial rash (**'serum sickness–like syndrome'**). He had unprotected sex with new partners 3 months ago and occasionally shares tattoo equipment. He denies IV drug use but has had multiple sexual partners.",
+    "pmh": "Healthy",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Bartender. Smokes occasionally. Drinks 3–4 beers on weekends. Multiple recent sexual partners. Unvaccinated against hepatitis B.",
+    "vitals": {
+      "temp": "37.7°C",
+      "hr": "88 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "**Scleral icterus and jaundice**. Skin: faint urticarial wheals on the trunk. Abdomen: **mild tender hepatomegaly in the right upper quadrant**; no splenomegaly, ascites, or stigmata of chronic liver disease. Neuro: alert, no asterixis. Joints: mild tenderness of bilateral wrists and MCPs without effusion."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**AST 1,850 U/L and ALT 2,240 U/L (markedly HIGH, ALT > AST)**. Total bilirubin 8.4 mg/dL (HIGH, direct predominant). Alk phos mildly elevated. INR 1.3. Albumin 3.8 g/dL.",
+        "flag": "HIGH",
+        "clinical_significance": "Dramatic transaminase elevation (>1,000) with ALT > AST and hyperbilirubinemia is classic for acute viral hepatitis. INR and albumin assess synthetic liver function."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**HBsAg POSITIVE**. **HBeAg POSITIVE** (high infectivity). **IgM anti-HBc POSITIVE**. Anti-HBs negative. Anti-HBe negative. HBV DNA by PCR: >100,000,000 IU/mL. Anti-HCV negative. IgM anti-HAV negative. HIV negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "HBsAg + IgM anti-HBc positive defines ACUTE hepatitis B. HBeAg reflects active viral replication and high infectivity. IgM anti-HBc is the only serologic marker during the 'window period' when HBsAg has cleared and anti-HBs has not yet appeared."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Liver biopsy (not typically needed acutely): hepatocellular swelling (ballooning degeneration), spotty necrosis, lymphocytic infiltration, and characteristic **'ground-glass' hepatocytes** (HBsAg-filled smooth endoplasmic reticulum) on later specimens if disease becomes chronic.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ground-glass hepatocytes are pathognomonic for hepatitis B infection and reflect accumulation of HBsAg within the hepatocyte ER."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is managed supportively as an outpatient. Over 8 weeks his transaminases normalize, HBsAg clears, and he develops anti-HBs and anti-HBc IgG — indicating resolved acute hepatitis B with immunity. His sexual partners are offered HBIG + hepatitis B vaccination for post-exposure prophylaxis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute hepatitis B classically presents after a 1–6 month incubation with a prodrome of constitutional symptoms (fatigue, anorexia, nausea, low-grade fever, RUQ pain), followed by an icteric phase with jaundice, dark urine, acholic stools, and tender hepatomegaly. A serum sickness–like syndrome (fever, urticaria, migratory arthralgias) may precede symptoms due to immune complex deposition. Most adults (>95%) clear acute infection; ~5% progress to chronic infection. Neonatal vertical transmission is the opposite — ~90% become chronic carriers.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Hepatitis B virus is a partially double-stranded, enveloped DNA virus (Hepadnavirus) that uses reverse transcriptase to replicate. Transmission is parenteral, sexual, and perinatal. HBV is not directly cytopathic; rather, cytotoxic T lymphocytes targeting HBV antigens on hepatocytes cause liver injury. Serologic markers: HBsAg = current infection (acute or chronic); anti-HBs = immunity (vaccination or resolution); HBeAg = active replication/high infectivity; IgM anti-HBc = acute infection (only marker in 'window period'); IgG anti-HBc = past exposure. Chronic infection predisposes to cirrhosis and hepatocellular carcinoma (HBV integrates into host DNA and can cause HCC even WITHOUT cirrhosis).",
+    "treatment_overview": "Acute hepatitis B in adults is usually self-limited and treated supportively. Chronic hepatitis B is treated with nucleoside/nucleotide reverse transcriptase inhibitors (entecavir, tenofovir) or pegylated interferon-alpha. Post-exposure prophylaxis: HBIG + hepatitis B vaccine. Universal vaccination (recombinant HBsAg) is the mainstay of prevention. Pregnant HBsAg-positive women should receive antiviral therapy in the third trimester and their infants receive HBIG + vaccine at birth to prevent vertical transmission.",
+    "high_yield_pearls": [
+      "HBV is the ONLY DNA hepatitis virus — partially double-stranded, enveloped Hepadnavirus; replicates via reverse transcriptase.",
+      "Serology: HBsAg + IgM anti-HBc = acute. Anti-HBs only = vaccinated. Anti-HBs + anti-HBc IgG = resolved/immune. HBsAg >6 months = chronic.",
+      "Window period: HBsAg has cleared but anti-HBs not yet detectable — diagnose with IgM anti-HBc.",
+      "HBeAg = 'e' for envelope; indicates high infectivity and active replication. HBV DNA PCR quantifies viral load.",
+      "Extrahepatic manifestations: polyarteritis nodosa (PAN), membranous nephropathy, serum sickness–like syndrome. Chronic HBV can cause HCC even WITHOUT cirrhosis (integrates into host DNA)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Hepatitis viruses — Hepatitis B virus' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hepatitis B",
+      "Hepatitis A",
+      "Hepatitis C",
+      "Autoimmune hepatitis",
+      "Drug-induced hepatitis",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Wilson disease",
+      "Acetaminophen toxicity"
+    ],
+    "after_stage2_more_likely": [
+      "Hepatitis B",
+      "Hepatitis A",
+      "Hepatitis C"
+    ],
+    "after_stage2_less_likely": [
+      "Autoimmune hepatitis",
+      "Wilson disease",
+      "Acetaminophen toxicity"
+    ],
+    "after_labs_top3": [
+      "Hepatitis B",
+      "Hepatitis A",
+      "Hepatitis C"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_050",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Chronic myeloid leukemia (CML)",
+  "icd_category": "C92.1 — Chronic myeloid leukemia, BCR/ABL-positive",
+  "one_liner": "A 48-year-old man presents with several months of fatigue, early satiety, and a sensation of fullness in the left upper quadrant. A CBC checked by his primary care physician showed a markedly elevated white blood cell count.",
+  "stage2": {
+    "hpi_extension": "Over the past 4 months, he has noticed progressive fatigue, unintentional 10-lb weight loss, and drenching night sweats about twice a week. He describes **left-sided abdominal fullness and early satiety** — he can only eat a few bites before feeling full. He denies fevers, easy bruising, or bleeding. No recent infections. He has no lymphadenopathy symptoms.",
+    "pmh": "Unremarkable.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory.",
+    "social_history": "Accountant. Non-smoker, social alcohol use. No occupational exposures.",
+    "vitals": {
+      "temp": "37.2°C",
+      "hr": "88 bpm",
+      "bp": "126/78 mmHg",
+      "rr": "16",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: thin, non-toxic. HEENT: no oral lesions, no gum hypertrophy. Lymph nodes: no cervical, axillary, or inguinal lymphadenopathy. Abdomen: **massive splenomegaly extending to the left iliac fossa**, non-tender. No hepatomegaly. Skin: no petechiae or bruising. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 195,000/µL, Hgb 11.0 g/dL, platelets 650,000/µL. Differential: granulocytes at **all stages of maturation** (myelocytes, metamyelocytes, bands, neutrophils), **basophilia and eosinophilia**, <5% blasts. **Leukocyte alkaline phosphatase (LAP) score: very low**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Marked leukocytosis with the entire granulocyte maturation spectrum, basophilia, and low LAP score is the classic picture of CML. Low LAP distinguishes CML from a leukemoid reaction (which has high LAP)."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "Cytogenetics: **t(9;22)(q34;q11) — Philadelphia chromosome**. FISH and RT-PCR confirm the **BCR-ABL1 fusion gene**. Quantitative PCR shows high BCR-ABL transcript burden.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The Philadelphia chromosome (BCR-ABL fusion) is diagnostic of CML and is present in virtually all cases. BCR-ABL encodes a constitutively active tyrosine kinase, the target of imatinib."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Bone marrow biopsy: hypercellular marrow with **markedly increased myeloid:erythroid ratio**, full granulocytic maturation, and increased megakaryocytes. Blast count <5% (chronic phase). No significant fibrosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypercellular marrow with myeloid hyperplasia and <10% blasts confirms chronic phase CML. Blasts ≥20% would indicate blast crisis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Serologic / antibody studies",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on imatinib (a BCR-ABL tyrosine kinase inhibitor). His WBC normalizes within weeks and his spleen regresses. Quantitative BCR-ABL transcript levels fall dramatically, indicating a molecular response."
+  },
+  "debrief": {
+    "classic_presentation": "CML typically presents in middle-aged adults (median age ~65 but commonly 45–55) with insidious fatigue, weight loss, night sweats, and marked splenomegaly producing left upper quadrant fullness and early satiety. Many cases are detected incidentally on CBC showing extreme leukocytosis. Without treatment, CML progresses through chronic phase (years) to accelerated phase and finally blast crisis (AML or ALL-like picture, often fatal).",
+    "attending_mode_notes": null,
+    "pathophysiology": "CML is a myeloproliferative neoplasm driven by the **Philadelphia chromosome t(9;22)(q34;q11)**, which fuses BCR on chromosome 22 to ABL1 on chromosome 9. The resulting BCR-ABL fusion protein is a constitutively active tyrosine kinase that drives unregulated granulocyte proliferation. The entire myeloid lineage expands, with maturation largely preserved in the chronic phase, resulting in leukocytosis with all stages of granulocyte development, basophilia, and splenomegaly. The low leukocyte alkaline phosphatase (LAP) distinguishes CML from reactive leukemoid reactions.",
+    "treatment_overview": "First-line therapy is imatinib, a small-molecule BCR-ABL tyrosine kinase inhibitor, which has transformed CML from a fatal disease into a chronic condition with near-normal life expectancy. Second-generation TKIs (dasatinib, nilotinib) may be used upfront or after imatinib failure. Allogeneic stem cell transplant is reserved for TKI failure or blast crisis. Treatment response is monitored by quantitative BCR-ABL PCR.",
+    "high_yield_pearls": [
+      "Philadelphia chromosome t(9;22) BCR-ABL fusion is pathognomonic for CML (present in ~95% of cases).",
+      "CML smear: leukocytosis with ALL stages of granulocyte maturation, basophilia, and LOW leukocyte alkaline phosphatase (LAP).",
+      "Low LAP in CML vs HIGH LAP in leukemoid reaction — use this to distinguish.",
+      "Imatinib targets the BCR-ABL tyrosine kinase and is first-line therapy.",
+      "Blast crisis = ≥20% blasts, behaves like acute leukemia and signals end-stage CML."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Leukemias — Chronic myelogenous leukemia (CML)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Chronic myeloid leukemia (CML)",
+      "Acute myeloid leukemia (AML)",
+      "Chronic lymphocytic leukemia (CLL)",
+      "Lymphoma (Hodgkin)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Tuberculosis (TB)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Anemia of chronic disease"
+    ],
+    "after_stage2_more_likely": [
+      "Chronic myeloid leukemia (CML)",
+      "Chronic lymphocytic leukemia (CLL)",
+      "Lymphoma (non-Hodgkin / NHL)"
+    ],
+    "after_stage2_less_likely": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Tuberculosis (TB)"
+    ],
+    "after_labs_top3": [
+      "Chronic myeloid leukemia (CML)",
+      "Acute myeloid leukemia (AML)",
+      "Chronic lymphocytic leukemia (CLL)"
+    ]
+  }
+}

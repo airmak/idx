@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_053",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Lymphoma (Hodgkin)",
+  "icd_category": "C81.90 — Hodgkin lymphoma, unspecified",
+  "one_liner": "A 24-year-old previously healthy man presents with 6 weeks of a painless enlarging neck mass and drenching night sweats. He has lost 15 pounds without trying.",
+  "stage2": {
+    "hpi_extension": "The neck mass was first noticed about 6 weeks ago and has progressively enlarged. It is nontender and firm. He reports **drenching night sweats requiring sheet changes**, **unintentional 15-lb weight loss** (>10% of body weight), and recurrent low-grade fevers (Pel-Ebstein pattern noted on his home thermometer). He also reports generalized **pruritus** and curiously describes **pain in the enlarged cervical nodes after drinking alcohol**. No cough, dyspnea, or dysphagia.",
+    "pmh": "Healthy.",
+    "surgical_history": "None.",
+    "medications": "None.",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory.",
+    "social_history": "Graduate student. Non-smoker, occasional beer. No IVDU.",
+    "vitals": {
+      "temp": "38.0°C",
+      "hr": "94 bpm",
+      "bp": "120/74 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: thin young man. HEENT: **firm, rubbery, nontender 4 cm left supraclavicular lymph node**; additional enlarged left cervical nodes. Lungs: clear. Cardiac: regular. Abdomen: soft, no hepatosplenomegaly. No axillary or inguinal lymphadenopathy. Skin: excoriations from scratching; no rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 11.2k with mild eosinophilia, Hgb 12.8 g/dL, platelets 280k. ESR markedly elevated. LDH mildly elevated. No circulating abnormal cells.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Eosinophilia and elevated ESR/LDH are common in Hodgkin lymphoma. LDH and ESR are used for prognostic scoring."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Excisional biopsy of the cervical lymph node: effacement of nodal architecture with a polymorphous reactive infiltrate (lymphocytes, eosinophils, plasma cells, histiocytes) and scattered **large binucleate cells with mirror-image nuclei and prominent eosinophilic inclusion-like nucleoli — classic 'owl-eye' Reed-Sternberg cells**. Immunohistochemistry: Reed-Sternberg cells are **CD15+ and CD30+**, CD20−, CD45−. Nodular sclerosing subtype features broad collagen bands.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CD15+ CD30+ Reed-Sternberg cells in an appropriate inflammatory background are pathognomonic for classical Hodgkin lymphoma. Nodular sclerosing is the most common subtype, especially in young adults."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "PET/CT for staging: FDG-avid left cervical, supraclavicular, and mediastinal lymphadenopathy with a large anterior mediastinal mass. No subdiaphragmatic disease. No splenic or hepatic involvement.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Disease limited to nodal groups above the diaphragm demonstrates the characteristic **contiguous spread** of Hodgkin lymphoma and defines early-stage disease. Presence of B symptoms upstages the patient."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is diagnosed with nodular sclerosing classical Hodgkin lymphoma, stage IIB, and initiated on ABVD chemotherapy (doxorubicin, bleomycin, vinblastine, dacarbazine) with excellent anticipated cure rate."
+  },
+  "debrief": {
+    "classic_presentation": "Hodgkin lymphoma has a **bimodal age distribution**, with peaks in young adults (~20s) and adults >55. Classic presentation: a young patient with **painless, non-tender, rubbery cervical or supraclavicular lymphadenopathy**; **B symptoms** (fever >38°C, drenching night sweats, unintentional weight loss >10% in 6 months); **pruritus**; and the rare but pathognomonic finding of **lymph node pain after alcohol ingestion**. Pel-Ebstein (cyclic) fever is a classic teaching buzzword. Nodular sclerosing is the most common subtype, especially in young women.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Hodgkin lymphoma is a B-cell neoplasm defined by the presence of **Reed-Sternberg (RS) cells** — large binucleate (or multinucleate) cells with prominent eosinophilic nucleoli giving an 'owl eye' appearance. RS cells are **CD15+ and CD30+** but CD20− and CD45−, distinguishing them from most other B-cell lymphomas. Despite being the malignant cells, RS cells make up a minority of the tumor; most of the mass is a reactive inflammatory infiltrate recruited by cytokines. EBV is associated with some subtypes (especially mixed cellularity). Disease spreads in a **predictable contiguous manner** from one nodal group to adjacent ones.",
+    "treatment_overview": "Early-stage favorable disease is treated with a short course of ABVD chemotherapy (doxorubicin, bleomycin, vinblastine, dacarbazine) ± involved-site radiation. Advanced disease receives full ABVD or dose-escalated regimens. Hodgkin lymphoma is highly curable — overall cure rates exceed 80–90% for early-stage disease. Late complications of therapy include secondary malignancies (breast cancer, AML), cardiomyopathy (doxorubicin), and pulmonary fibrosis (bleomycin).",
+    "high_yield_pearls": [
+      "Hodgkin lymphoma = Reed-Sternberg cells (CD15+ CD30+, 'owl eyes'), bimodal age, contiguous spread, and usually curable.",
+      "B symptoms = fever >38°C, drenching night sweats, unintentional weight loss >10% in 6 months (upstages disease).",
+      "Nodular sclerosing is the most common subtype; lymphocyte-rich has the best prognosis; lymphocyte-depleted has the worst.",
+      "Classic buzzwords: pruritus, Pel-Ebstein fevers, lymph node pain after alcohol intake.",
+      "Hodgkin vs non-Hodgkin: Hodgkin is contiguous nodal spread and B-symptom heavy; NHL is more common, more extranodal, and less orderly."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Lymphomas — Hodgkin lymphoma' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lymphoma (Hodgkin)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Chronic lymphocytic leukemia (CLL)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Tuberculosis (TB)",
+      "Sarcoidosis",
+      "HIV/AIDS",
+      "Acute myeloid leukemia (AML)"
+    ],
+    "after_stage2_more_likely": [
+      "Lymphoma (Hodgkin)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Tuberculosis (TB)"
+    ],
+    "after_stage2_less_likely": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Sarcoidosis"
+    ],
+    "after_labs_top3": [
+      "Lymphoma (Hodgkin)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Tuberculosis (TB)"
+    ]
+  }
+}

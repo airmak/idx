@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_084",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Lyme disease",
+  "icd_category": "A69.20 — Lyme disease, unspecified",
+  "one_liner": "A 34-year-old woman presents in late July with a week of fatigue, low-grade fever, and an expanding red rash on her right thigh. She returned 10 days ago from a hiking trip in rural Connecticut.",
+  "stage2": {
+    "hpi_extension": "Five days after her trip she developed malaise, headache, neck stiffness, and arthralgias in her knees and elbows. She noticed a small red spot on her right posterior thigh that has enlarged over the last week and is now a hand-sized lesion with a clearing center. She does not recall a tick bite but hiked in tall grass and brush. No photosensitivity, oral ulcers, or chest pain. She denies visual changes or focal weakness.",
+    "pmh": "Healthy",
+    "surgical_history": "None",
+    "medications": "Oral contraceptive pill",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Architect in Boston; enjoys hiking in New England summers. No pets. Non-smoker, rare alcohol.",
+    "vitals": {
+      "temp": "38.1 C",
+      "hr": "88 bpm",
+      "bp": "116/72 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing, mildly fatigued. Skin: **12-cm annular erythematous plaque with central clearing (erythema migrans / target lesion) on the right posterior thigh**, warm but not tender. HEENT: no meningismus. Lymph: small tender right inguinal node. Cardiac: regular rate, no murmur. MSK: mild bilateral knee arthralgia without effusion. Neuro: cranial nerves intact, no facial droop, nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Borrelia burgdorferi ELISA: POSITIVE**. Reflex **Western blot: IgM positive (3 of 3 bands), IgG indeterminate**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Two-tier testing (ELISA followed by confirmatory Western blot) is the CDC-recommended approach. A positive IgM with early IgG in a patient with erythema migrans confirms early localized Lyme disease, though in the presence of a classic EM rash in an endemic area, serology is not strictly required to begin treatment."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 6.2 (normal differential). Hgb 13.6. Platelets 210. **No intraerythrocytic ring forms or Maltese cross.**",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal smear argues against coinfection with Babesia microti, which shares the Ixodes scapularis vector and can cause hemolytic anemia with parasitized RBCs."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "ESR 28 (mildly elevated). CRP 1.8 mg/dL (mildly elevated). LFTs: mild transaminitis (AST 52, ALT 60).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Modest inflammatory marker elevation and mild hepatitis can accompany early disseminated Lyme disease."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Inflammatory / infection markers"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is treated with oral doxycycline for 14 days. The rash fades within a week and her arthralgias resolve without progression to cardiac or neurologic involvement."
+  },
+  "debrief": {
+    "classic_presentation": "Lyme disease classically presents in summer in a patient from the northeastern or upper-midwestern United States after outdoor exposure. Stage 1 (early localized) features erythema migrans, an expanding annular erythema with central clearing ('bull's-eye' or target lesion), plus flu-like symptoms. Stage 2 (early disseminated) includes multiple EM lesions, migratory arthritis of large joints, AV nodal block (often transient high-grade block), facial nerve palsy (can be bilateral), and lymphocytic meningitis. Stage 3 (late) causes chronic monoarthritis (especially knee), encephalopathy, and polyneuropathy.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Borrelia burgdorferi is a microaerophilic spirochete transmitted by the Ixodes scapularis tick (deer tick) in the northeast/upper-midwest and I. pacificus on the West Coast. The tick's life cycle involves the white-footed mouse (natural reservoir) as larvae/nymphs and the white-tailed deer as adults; nymphs cause most human infections because they are small and easily missed. After inoculation, spirochetes spread locally in the skin (erythema migrans) and then hematogenously, evading immunity through antigenic variation of outer surface proteins.",
+    "treatment_overview": "Early localized or early disseminated Lyme disease without carditis or neurologic involvement is treated with oral doxycycline for 10-21 days (adults and children >=8 years; doxycycline also covers the common coinfection Anaplasma). Amoxicillin or cefuroxime is substituted in pregnant women and young children. High-grade AV block, meningitis, or late neurologic disease is treated with IV ceftriaxone. Lyme arthritis responds to oral doxycycline. A single 200-mg dose of doxycycline can be used for post-exposure prophylaxis after a confirmed Ixodes nymph bite of >=36 hours in an endemic area.",
+    "high_yield_pearls": [
+      "Erythema migrans = pathognomonic bull's-eye rash of early Lyme disease; treat without waiting for serology.",
+      "Classic triad/mnemonic 'BAKE a key Lyme pie': Bell palsy, Arthritis, Kardia (AV block), Erythema migrans.",
+      "Vector = Ixodes scapularis; reservoir = white-footed mouse; Ixodes also transmits Babesia microti and Anaplasma.",
+      "Doxycycline is first-line (covers Anaplasma coinfection); use amoxicillin in pregnancy and children <8.",
+      "Lyme carditis most commonly causes transient high-grade AV block that resolves with antibiotics."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Spirochetes — Borrelia burgdorferi / Lyme disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lyme disease",
+      "Rocky Mountain spotted fever (RMSF)",
+      "Babesiosis",
+      "Syphilis",
+      "Cellulitis",
+      "Systemic lupus erythematosus (SLE)",
+      "Viral meningitis",
+      "Epstein-Barr virus (EBV) mononucleosis"
+    ],
+    "after_stage2_more_likely": [
+      "Lyme disease",
+      "Rocky Mountain spotted fever (RMSF)",
+      "Cellulitis"
+    ],
+    "after_stage2_less_likely": [
+      "Systemic lupus erythematosus (SLE)",
+      "Viral meningitis"
+    ],
+    "after_labs_top3": [
+      "Lyme disease",
+      "Babesiosis",
+      "Rocky Mountain spotted fever (RMSF)"
+    ]
+  }
+}

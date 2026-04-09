@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_035",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Diabetic nephropathy",
+  "icd_category": "E11.22 — Type 2 diabetes mellitus with diabetic chronic kidney disease",
+  "one_liner": "A 58-year-old man with a 15-year history of poorly controlled type 2 diabetes mellitus presents for routine follow-up with worsening lower extremity edema and frothy urine.",
+  "stage2": {
+    "hpi_extension": "He has noted **foamy urine** for several months and progressive bilateral leg swelling. His home blood pressures have been running 150s/90s. Last A1c was 9.8%. He also reports **numbness and tingling in both feet** and has had several episodes of blurry vision. He has never been on an ACE inhibitor.",
+    "pmh": "Type 2 diabetes mellitus x 15 years, hypertension, hyperlipidemia, non-proliferative diabetic retinopathy",
+    "surgical_history": "None",
+    "medications": "Metformin, glipizide, atorvastatin, amlodipine",
+    "allergies": "NKDA",
+    "family_history": "Father with T2DM on dialysis",
+    "social_history": "Former smoker (quit 5 years ago, 20 pack-years). No alcohol.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "82 bpm",
+      "bp": "156/94 mmHg",
+      "rr": "16",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: overweight, BMI 32. HEENT: funduscopy with **dot-and-blot hemorrhages and hard exudates** consistent with diabetic retinopathy. CV: regular, no murmurs. Lungs: clear. Abdomen: soft, obese. Extremities: **2+ bilateral pitting edema to the knees**. Neuro: **decreased monofilament sensation and reduced vibration sense in a stocking distribution**, absent ankle reflexes."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ protein, no blood, no casts, no leukocyte esterase. **Spot urine albumin-to-creatinine ratio 1,850 mg/g** (macroalbuminuria). 24-hour urine protein 4.2 g/day.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Nephrotic-range proteinuria in a long-standing diabetic with concurrent retinopathy strongly supports diabetic nephropathy without requiring biopsy."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 138, K 4.8, Cl 104, HCO3 22, BUN 38, **creatinine 2.1 (baseline 1.0 two years ago)**, glucose 234, albumin 3.0, HbA1c 9.8%. Estimated GFR 36 mL/min/1.73 m2.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Progressive CKD with hypoalbuminemia and uncontrolled hyperglycemia; eGFR now in CKD stage 3b."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "(Not performed — clinical diagnosis.) If biopsied, classic findings would be **mesangial expansion, glomerular basement membrane thickening, and nodular glomerulosclerosis (Kimmelstiel-Wilson nodules)** with hyalinization of the afferent and efferent arterioles.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Kimmelstiel-Wilson nodules are the pathognomonic histologic finding of diabetic nephropathy. Biopsy is usually unnecessary when the clinical picture fits."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on an ACE inhibitor and tighter glycemic control, and over the next 6 months his albuminuria improves and the rate of eGFR decline slows."
+  },
+  "debrief": {
+    "classic_presentation": "Diabetic nephropathy classically develops in patients with long-standing (typically more than 10 years) diabetes, progressing silently from glomerular hyperfiltration to microalbuminuria (30-300 mg/g), then to overt proteinuria, and eventually to declining GFR. It is almost always accompanied by diabetic retinopathy, which is a useful clinical clue pointing away from other glomerular diseases.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic hyperglycemia drives non-enzymatic glycation of glomerular basement membrane proteins and activation of the renin-angiotensin system, causing efferent arteriolar constriction and intraglomerular hypertension. This leads to glomerular hyperfiltration, mesangial matrix expansion, and thickening of the glomerular basement membrane. Nodular glomerulosclerosis (Kimmelstiel-Wilson nodules) is the pathognomonic lesion. Afferent and efferent arteriolar hyaline arteriolosclerosis is also characteristic.",
+    "treatment_overview": "Cornerstones are strict glycemic control (HbA1c less than ~7%) and aggressive blood pressure control, ideally with an ACE inhibitor or angiotensin receptor blocker, which reduce intraglomerular pressure and slow progression even in normotensive diabetics with proteinuria. SGLT2 inhibitors have become first-line for both glycemic control and renoprotection. Dietary sodium and protein moderation, statin therapy, and smoking cessation are adjuncts. Progression to ESRD requires dialysis or transplantation.",
+    "high_yield_pearls": [
+      "Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) are the classic histologic hallmark of diabetic nephropathy.",
+      "Microalbuminuria (30-300 mg/g) is the earliest clinical marker; all diabetics should be screened annually.",
+      "ACE inhibitors and ARBs reduce intraglomerular pressure by dilating the efferent arteriole and slow progression of diabetic nephropathy.",
+      "Diabetic nephropathy and diabetic retinopathy almost always coexist; absence of retinopathy should prompt consideration of an alternative cause of proteinuria.",
+      "SGLT2 inhibitors now have strong evidence for renoprotection in diabetic CKD independent of glycemic effects."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Glomerular disease — Diabetic glomerulonephropathy' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diabetic nephropathy",
+      "Nephrotic syndrome (minimal change disease)",
+      "Membranous nephropathy",
+      "Immunoglobulin A (IgA) nephropathy",
+      "Lupus nephritis",
+      "Amyloidosis",
+      "Hypertensive emergency",
+      "Chronic kidney disease"
+    ],
+    "after_stage2_more_likely": [
+      "Diabetic nephropathy",
+      "Chronic kidney disease"
+    ],
+    "after_stage2_less_likely": [
+      "Nephrotic syndrome (minimal change disease)",
+      "Immunoglobulin A (IgA) nephropathy",
+      "Lupus nephritis"
+    ],
+    "after_labs_top3": [
+      "Diabetic nephropathy",
+      "Membranous nephropathy",
+      "Chronic kidney disease"
+    ]
+  }
+}

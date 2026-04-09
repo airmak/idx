@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_074",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Endometriosis (stage III, moderate)",
+  "icd_category": "N80.9 — Endometriosis, unspecified",
+  "one_liner": "A 29-year-old nulliparous woman presents with a 5-year history of progressively worsening pelvic pain that peaks with her menstrual periods, along with inability to conceive.",
+  "stage2": {
+    "hpi_extension": "Her pain is **crampy, deep, and worse during menstruation (dysmenorrhea)** and has progressed despite NSAIDs. She also reports **deep pain with intercourse (dyspareunia)** and **pain with bowel movements, especially during her periods (dyschezia)**. She and her husband have been trying to conceive for 18 months without success. Periods are regular but heavy. No fever or urinary symptoms.",
+    "pmh": "Chronic pelvic pain, primary infertility",
+    "surgical_history": "None",
+    "medications": "Ibuprofen as needed",
+    "allergies": "NKDA",
+    "family_history": "Mother had 'bad periods' and a hysterectomy at 45",
+    "social_history": "Non-smoker, social alcohol. Married.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "72 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing. Abdomen: soft, mild suprapubic tenderness, no masses. Pelvic: normal external genitalia, **tender nodularity along the uterosacral ligaments**, **fixed retroverted uterus with decreased mobility**, tender **left adnexal fullness**. Speculum: no cervical discharge. No cervical motion tenderness beyond baseline."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transvaginal ultrasound: **left ovarian cyst (4.2 cm) with homogeneous low-level internal echoes ('ground glass') consistent with an endometrioma (chocolate cyst)**. Right ovary normal. Uterus anatomically normal, no fibroids. Small amount of cul-de-sac free fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ovarian endometriomas on ultrasound, together with the clinical triad of dysmenorrhea, dyspareunia, and infertility, are highly suggestive of endometriosis."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Diagnostic laparoscopy: **powder-burn lesions on the pelvic peritoneum, bluish implants on the uterosacral ligaments, a left ovarian chocolate cyst, and filmy adhesions involving the left tube and ovary**. Biopsy of implants: **endometrial glands and stroma with hemosiderin-laden macrophages**, confirming endometriosis. Staging: revised ASRM stage III (moderate).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Direct visualization at laparoscopy with biopsy confirming ectopic endometrial glands and stroma is the gold standard for diagnosing endometriosis."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "Beta-hCG negative. CA-125 mildly elevated (nonspecific). FSH, LH, TSH, prolactin normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CA-125 may be mildly elevated in endometriosis but is nonspecific and not used for diagnosis. Normal pituitary and thyroid hormones exclude other causes of infertility."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "Hormone / endocrine assay"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "At the same laparoscopy, her implants are resected and the endometrioma excised; she is started on continuous combined oral contraceptives for suppression, with a plan to pursue assisted reproduction if conception does not occur in the next 6-12 months."
+  },
+  "debrief": {
+    "classic_presentation": "Endometriosis classically presents in women in their 20s and 30s with the triad of cyclic pelvic pain, dysmenorrhea, and dyspareunia, often accompanied by infertility, dyschezia (cyclic painful defecation), and heavy or irregular menses. Physical exam may reveal uterosacral nodularity, a fixed retroverted uterus, and tender adnexal masses. Symptoms characteristically begin or worsen with menses because ectopic endometrial tissue responds to cyclical hormonal changes.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Endometriosis is defined by the presence of functional endometrial glands and stroma outside the uterine cavity, most commonly on the ovaries, pelvic peritoneum, uterosacral ligaments, cul-de-sac, and rectovaginal septum. Sampson's theory of retrograde menstruation is the classical mechanism, in which menstrual endometrium refluxes through the fallopian tubes and implants on pelvic surfaces. Cyclic bleeding of these implants causes inflammation, fibrosis, adhesions, and the formation of chocolate cysts (endometriomas) on the ovaries. Chronic inflammation and distorted anatomy impair fertility.",
+    "treatment_overview": "Medical management includes NSAIDs for pain, combined oral contraceptives (continuous or cyclic), progestins, GnRH agonists (leuprolide) or antagonists, and aromatase inhibitors, all aimed at suppressing endometrial tissue activity. Definitive diagnosis and surgical treatment is by laparoscopy with excision or ablation of implants and excision of endometriomas. For infertility, surgical treatment of disease and assisted reproductive technologies (IVF) can improve outcomes. Definitive therapy for refractory disease in women who have completed childbearing is hysterectomy with bilateral salpingo-oophorectomy.",
+    "high_yield_pearls": [
+      "Classic triad: dysmenorrhea, dyspareunia, and infertility, often with dyschezia.",
+      "Chocolate cysts (endometriomas) on the ovaries and powder-burn lesions on the peritoneum are classic findings.",
+      "Laparoscopy with biopsy is the gold standard for definitive diagnosis.",
+      "Treatment includes NSAIDs, combined OCPs, progestins, and GnRH agonists (leuprolide); surgery for refractory disease or infertility.",
+      "Sampson's theory of retrograde menstruation is the most widely cited pathogenic mechanism."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Uterine/ovarian disorders — Endometriosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Endometriosis (stage III, moderate)",
+      "Pelvic inflammatory disease",
+      "Ovarian Torsion",
+      "Ruptured ovarian cyst (hemorrhagic corpus luteum cyst)",
+      "Irritable bowel syndrome (IBS)",
+      "Ectopic pregnancy",
+      "Ovarian cancer",
+      "Urinary tract infection (UTI)"
+    ],
+    "after_stage2_more_likely": [
+      "Endometriosis (stage III, moderate)",
+      "Ovarian cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Urinary tract infection (UTI)",
+      "Irritable bowel syndrome (IBS)",
+      "Pelvic inflammatory disease"
+    ],
+    "after_labs_top3": [
+      "Endometriosis (stage III, moderate)",
+      "Ovarian cancer",
+      "Pelvic inflammatory disease"
+    ]
+  }
+}

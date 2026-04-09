@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_051",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Chronic lymphocytic leukemia (CLL)",
+  "icd_category": "C91.1 — Chronic lymphocytic leukemia of B-cell type",
+  "one_liner": "A 72-year-old man is referred for evaluation of an incidentally discovered lymphocytosis on routine preoperative labs. He feels generally well but has noticed new painless lumps in his neck and armpits.",
+  "stage2": {
+    "hpi_extension": "He was seen for a preoperative clearance for knee arthroplasty when his CBC showed a WBC of 58,000/µL with 85% lymphocytes. On directed questioning, he admits to mild fatigue over the past 6 months and has noticed **painless, slowly enlarging lymph nodes** in his neck and axillae. No fevers, night sweats, or weight loss. No recurrent infections. No bruising or bleeding.",
+    "pmh": "Osteoarthritis of the knees, hypertension.",
+    "surgical_history": "Appendectomy as a child.",
+    "medications": "Amlodipine, acetaminophen.",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory.",
+    "social_history": "Retired attorney. Non-smoker, occasional wine.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "78 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: well-appearing elderly man in no distress. HEENT: no pallor, no oral lesions. Lymph nodes: **bilateral nontender, rubbery cervical and axillary lymphadenopathy (~2 cm)**; inguinal nodes palpable. Abdomen: soft, mild splenomegaly palpable 3 cm below left costal margin, no hepatomegaly. Skin: no petechiae or rash. Neuro: nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 58,000/µL, Hgb 12.6 g/dL, platelets 168,000/µL. Differential: 85% small mature-appearing lymphocytes. Smear: **numerous smudge cells (fragile lymphocytes crushed during slide preparation)** and a monotonous population of small mature lymphocytes with clumped chromatin.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Absolute lymphocytosis of small mature lymphocytes with smudge (parachute) cells on smear is the classic morphologic finding in CLL."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "Flow cytometry of peripheral blood: clonal B-cell population co-expressing **CD5, CD19, CD20 (dim), and CD23**. Kappa light chain restriction. Direct Coombs test: negative at this time. Serum immunoglobulins: low IgG (hypogammaglobulinemia).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The CD5+ CD19+ CD23+ immunophenotype is diagnostic of CLL. Hypogammaglobulinemia explains predisposition to infection. Autoimmune hemolytic anemia (warm IgG) is a common complication."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Electrolytes, creatinine, LFTs all within normal limits. LDH mildly elevated. Uric acid mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild LDH/uric acid elevations reflect increased cell turnover. Watch for tumor lysis syndrome if cytotoxic therapy is initiated."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Because he is asymptomatic with stable counts, the oncologist elects a 'watch and wait' strategy with regular follow-up. Treatment is reserved for disease progression, bulky disease, or cytopenias from marrow infiltration."
+  },
+  "debrief": {
+    "classic_presentation": "CLL is the most common adult leukemia in the Western world. It classically presents in elderly patients (median age ~70) as an incidental lymphocytosis on routine CBC, with painless lymphadenopathy, fatigue, and mild splenomegaly. Many patients are asymptomatic at diagnosis. Complications include autoimmune hemolytic anemia (warm IgG), hypogammaglobulinemia with recurrent infections, and transformation to diffuse large B-cell lymphoma (Richter transformation).",
+    "attending_mode_notes": null,
+    "pathophysiology": "CLL is a clonal proliferation of mature-appearing but functionally defective B lymphocytes. The malignant cells co-express the pan-B markers CD19, CD20 (dim), and CD23 along with CD5 — an otherwise T-cell antigen — which is the immunophenotypic hallmark. These B cells crowd normal marrow, causing cytopenias in advanced disease, and dysregulate immunity, producing hypogammaglobulinemia and autoimmune cytopenias. CLL is essentially the same disease as small lymphocytic lymphoma (SLL) but defined by blood involvement.",
+    "treatment_overview": "Early asymptomatic CLL is managed with observation ('watch and wait') because treatment does not prolong survival. Indications for therapy include progressive cytopenias, bulky or symptomatic lymphadenopathy, and constitutional symptoms. Modern regimens include BTK inhibitors (ibrutinib), BCL-2 inhibitors (venetoclax), and anti-CD20 antibodies (obinutuzumab, rituximab). Historically, fludarabine/cyclophosphamide/rituximab (FCR) was used.",
+    "high_yield_pearls": [
+      "CLL = most common adult leukemia in the Western world; elderly patient with incidental lymphocytosis.",
+      "Peripheral smear: smudge cells (fragile B cells crushed during slide prep).",
+      "Immunophenotype: CD5+ CD19+ CD20(dim)+ CD23+ — CD5 is key (otherwise a T-cell marker).",
+      "Complications: autoimmune hemolytic anemia (warm IgG), hypogammaglobulinemia → infections, Richter transformation to diffuse large B-cell lymphoma.",
+      "CLL and SLL are the same disease — CLL has blood involvement, SLL does not."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Leukemias — Chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Chronic lymphocytic leukemia (CLL)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Lymphoma (Hodgkin)",
+      "Chronic myeloid leukemia (CML)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Tuberculosis (TB)",
+      "Multiple myeloma",
+      "Autoimmune hemolytic anemia"
+    ],
+    "after_stage2_more_likely": [
+      "Chronic lymphocytic leukemia (CLL)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Lymphoma (Hodgkin)"
+    ],
+    "after_stage2_less_likely": [
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Tuberculosis (TB)"
+    ],
+    "after_labs_top3": [
+      "Chronic lymphocytic leukemia (CLL)",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Chronic myeloid leukemia (CML)"
+    ]
+  }
+}

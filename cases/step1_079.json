@@ -1,0 +1,100 @@
+{
+  "case_id": "step1_079",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Bronchiolitis (Respiratory Syncytial Virus)",
+  "icd_category": "J21 — Acute bronchiolitis",
+  "one_liner": "A 7-month-old previously healthy infant presents in January with 3 days of runny nose and cough that has progressed to wheezing, tachypnea, and poor feeding.",
+  "stage2": {
+    "hpi_extension": "The baby started with **clear rhinorrhea and low-grade fever** three days ago. Over the last 24 hours she has developed **progressive cough, wheezing, and difficulty feeding**. Her 3-year-old brother has had a cold for a week. She is making fewer wet diapers and her mother reports that she pauses to breathe between sucks at the bottle. She was born full-term without complications.",
+    "pmh": "Full-term delivery; routine immunizations up to date; no prior hospitalizations",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Older brother with current URI; no family history of asthma or atopy",
+    "social_history": "Lives at home with parents and sibling; not in daycare; no smokers in household",
+    "vitals": {
+      "temp": "38.1 C",
+      "hr": "168 bpm",
+      "bp": "86/52 mmHg",
+      "rr": "62",
+      "spo2": "89% on room air"
+    },
+    "physical_exam": "General: alert but **tachypneic infant with increased work of breathing**. HEENT: copious **clear nasal secretions**; mucous membranes tacky. Chest: **subcostal and intercostal retractions**, **nasal flaring**, **diffuse expiratory wheezing and fine inspiratory crackles bilaterally**, prolonged expiratory phase. CV: tachycardic, regular, no murmur. Abdomen: soft, nondistended. Skin: capillary refill 2-3 seconds."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Respiratory viral PCR panel from nasopharyngeal swab: positive for respiratory syncytial virus (RSV)**. Negative for influenza, parainfluenza, adenovirus.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RSV is the most common cause of bronchiolitis in infants less than 2 years old, with peak incidence in winter months. PCR confirms the viral etiology."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest x-ray: **hyperinflation with flattened diaphragms**, peribronchial cuffing, and patchy atelectasis; no focal consolidation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperinflation and peribronchial cuffing are typical for bronchiolitis. The absence of a lobar consolidation argues against bacterial pneumonia."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel",
+      "Inflammatory / infection markers",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted for supportive care with humidified oxygen, nasal suctioning, and IV hydration. Her symptoms peak on day 5 and then gradually improve over the following week; her mother is counseled that palivizumab prophylaxis is reserved for high-risk infants (premature, chronic lung disease, congenital heart disease)."
+  },
+  "debrief": {
+    "classic_presentation": "Bronchiolitis is the most common lower respiratory tract infection in infants under 2 years old, with peak incidence in winter months. It typically begins with a 1-3 day URI prodrome (rhinorrhea, low-grade fever, cough) followed by progressive lower respiratory signs: tachypnea, wheezing, crackles, retractions, nasal flaring, and feeding difficulty. The severity peaks around day 3-5 and then gradually improves over 1-2 weeks.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Respiratory syncytial virus (RSV) is the most common cause (other agents include human metapneumovirus, parainfluenza, rhinovirus, and adenovirus). The virus infects the ciliated epithelium of the bronchiolar mucosa, producing necrosis, sloughed epithelial debris, edema, and mucus plugging of small airways. Because infant airways are small, even mild luminal narrowing produces dramatic increases in airway resistance, air trapping, hyperinflation, ventilation-perfusion mismatch, and hypoxemia.",
+    "treatment_overview": "Treatment is supportive: nasal suctioning, humidified oxygen to maintain saturations above 90%, and IV fluids or nasogastric feeds for infants who cannot feed safely. Routine use of bronchodilators, corticosteroids, antibiotics, and ribavirin is not recommended. High-flow nasal cannula or CPAP for respiratory failure. Palivizumab (anti-RSV monoclonal antibody) prophylaxis is given to high-risk infants (premature, chronic lung disease, hemodynamically significant congenital heart disease) during RSV season.",
+    "high_yield_pearls": [
+      "RSV is the most common cause of bronchiolitis in infants less than 2 years old and peaks in winter.",
+      "Classic course: URI prodrome followed by wheezing, retractions, and tachypnea; symptoms peak around day 3-5.",
+      "Treatment is supportive (oxygen, suctioning, hydration); bronchodilators and steroids are not routinely recommended.",
+      "Palivizumab is a monoclonal anti-RSV antibody given monthly for prophylaxis in high-risk infants.",
+      "RSV bronchiolitis in infancy is associated with an increased risk of subsequent childhood wheezing/asthma."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Negative-stranded RNA viruses — RSV/Paramyxoviruses' section.",
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Pediatric respiratory infections' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Bronchiolitis (Respiratory Syncytial Virus)",
+      "Community-acquired pneumonia",
+      "Asthma",
+      "Croup (viral laryngotracheobronchitis)",
+      "Pertussis",
+      "Cystic fibrosis (CF)",
+      "Influenza A"
+    ],
+    "after_stage2_more_likely": [
+      "Bronchiolitis (Respiratory Syncytial Virus)",
+      "Community-acquired pneumonia"
+    ],
+    "after_stage2_less_likely": [
+      "Croup (viral laryngotracheobronchitis)",
+      "Asthma",
+      "Cystic fibrosis (CF)"
+    ],
+    "after_labs_top3": [
+      "Bronchiolitis (Respiratory Syncytial Virus)",
+      "Community-acquired pneumonia",
+      "Influenza A"
+    ]
+  }
+}

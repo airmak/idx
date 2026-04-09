@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_046",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Syndrome of inappropriate ADH secretion (SIADH)",
+  "icd_category": "E22.2 — Syndrome of inappropriate secretion of antidiuretic hormone",
+  "one_liner": "A 66-year-old man with a 50-pack-year smoking history presents with 2 weeks of progressive headache, nausea, lethargy, and confusion, and is found to have a serum sodium of 118 mEq/L on routine labs.",
+  "stage2": {
+    "hpi_extension": "He has noticed a persistent cough and 10-pound weight loss over 2 months. Over the past 2 weeks he has developed worsening headaches, mild confusion, nausea, and unsteady gait, and had a witnessed generalized tonic-clonic seizure this morning. He denies vomiting, diarrhea, diuretic use, or recent polydipsia. No orthostatic symptoms, no edema.",
+    "pmh": "COPD, hypertension",
+    "surgical_history": "None",
+    "medications": "Tiotropium, albuterol, amlodipine",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "**50 pack-year smoker, still smoking**. Retired machinist.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "82 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "16",
+      "spo2": "95% on room air"
+    },
+    "physical_exam": "General: thin, mildly confused, oriented x2. HEENT: moist mucous membranes (**euvolemic**). Neck: no JVD. CV: regular; normal S1/S2. Resp: distant breath sounds bilaterally with a focal area of decreased breath sounds at the right apex. Abdomen: soft, non-tender. **Extremities: no peripheral edema**. Neuro: slowed but non-focal; postictal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Na 118 mEq/L (severe hyponatremia)**, K 4.0, Cl 86, HCO3 24, BUN 8, Cr 0.7, glucose 92. **Serum osmolality 248 mOsm/kg (low)**. Uric acid 2.8 (low).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "True hypotonic hyponatremia with low serum osmolality. Low BUN and low uric acid suggest a dilutional state with appropriate RAAS suppression, characteristic of SIADH rather than hypovolemia."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "**Urine osmolality 480 mOsm/kg (inappropriately concentrated)**. **Urine sodium 62 mEq/L (>20)**. Specific gravity 1.018. No protein, no blood.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "With serum osmolality low (<275), a urine osm >100 mOsm/kg is inappropriately concentrated — ADH should be suppressed. A urine Na >20 with euvolemia rules out hypovolemic hyponatremia and is classic for SIADH."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT chest: **right upper lobe spiculated mass (4 cm)** with mediastinal lymphadenopathy; **centrally located, concerning for small cell lung cancer (SCLC)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "In an elderly heavy smoker, SIADH is a well-known paraneoplastic syndrome of small cell lung carcinoma — the tumor ectopically secretes ADH. This identifies the likely underlying cause."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Imaging study",
+      "Hormone / endocrine assay"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "With cautious hypertonic saline for symptomatic hyponatremia followed by fluid restriction, his sodium corrects slowly to 128 over 24 hours. Bronchoscopic biopsy confirms small cell lung cancer."
+  },
+  "debrief": {
+    "classic_presentation": "SIADH produces EUVOLEMIC hypotonic hyponatremia with inappropriately concentrated urine. Patients often have a normal exam without edema or dehydration. Symptoms depend on the rate and severity of sodium drop: mild → malaise, headache, nausea; severe → confusion, seizures, coma, cerebral herniation. Classic Step 1 triggers: small cell lung cancer (ectopic ADH), CNS disease (stroke, tumor, hemorrhage), pulmonary disease (pneumonia), and drugs (SSRIs, carbamazepine, cyclophosphamide, desmopressin, ecstasy).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Excessive or inappropriate ADH release causes the kidney (via V2 receptors) to insert aquaporin-2 channels and retain free water. Water retention dilutes serum sodium and osmolality, while urine remains concentrated. Retained water expands plasma volume and suppresses aldosterone and stimulates ANP, promoting renal sodium excretion — 'renal escape' keeps the patient nearly euvolemic but worsens hyponatremia. Low BUN and low uric acid are characteristic biochemical features.",
+    "treatment_overview": "Treat the underlying cause. Asymptomatic/mild: fluid restriction (often <800 mL/day) is first-line, optionally salt tablets and loop diuretics. Moderate/chronic: ADH receptor antagonists ('vaptans' — conivaptan, tolvaptan) or demeclocycline (induces nephrogenic DI). Severe symptomatic hyponatremia (seizures, coma): cautious 3% hypertonic saline. CRITICAL: do not correct serum Na by more than ~8-10 mEq/L/day to avoid osmotic demyelination syndrome (central pontine myelinolysis).",
+    "high_yield_pearls": [
+      "SIADH = EUVOLEMIC hypotonic hyponatremia with inappropriately concentrated urine (urine osm >100) and urine Na >20.",
+      "Classic causes: small cell lung cancer (ectopic ADH), CNS disease, pulmonary disease, drugs (SSRIs, carbamazepine, cyclophosphamide).",
+      "BUN and uric acid are LOW in SIADH (dilution + increased urinary clearance).",
+      "Treat with fluid restriction ± salt tablets ± loop diuretic; vaptans (tolvaptan/conivaptan) or demeclocycline for refractory cases.",
+      "Overly rapid correction of chronic hyponatremia causes osmotic demyelination syndrome (central pontine myelinolysis) — 'from low to high, your pons will die.' Max 8-10 mEq/L/24 h."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Syndrome of inappropriate antidiuretic hormone secretion (SIADH)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Syndrome of inappropriate ADH secretion (SIADH)",
+      "Lung cancer (small cell / SCLC)",
+      "Addison disease",
+      "Hypothyroidism",
+      "Hyponatremia",
+      "Paraneoplastic syndrome",
+      "Heart failure (systolic)",
+      "Cirrhosis"
+    ],
+    "after_stage2_more_likely": [
+      "Syndrome of inappropriate ADH secretion (SIADH)",
+      "Lung cancer (small cell / SCLC)"
+    ],
+    "after_stage2_less_likely": [
+      "Heart failure (systolic)",
+      "Cirrhosis",
+      "Addison disease"
+    ],
+    "after_labs_top3": [
+      "Syndrome of inappropriate ADH secretion (SIADH)",
+      "Lung cancer (small cell / SCLC)",
+      "Paraneoplastic syndrome"
+    ]
+  }
+}

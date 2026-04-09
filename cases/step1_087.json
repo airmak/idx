@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_087",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Influenza A",
+  "icd_category": "J10.1 — Influenza due to other identified influenza virus with other respiratory manifestations",
+  "one_liner": "A 34-year-old otherwise healthy teacher presents in January with 2 days of sudden-onset fever, chills, myalgias, headache, and dry cough. Several students in her class have been home sick with similar symptoms.",
+  "stage2": {
+    "hpi_extension": "Her symptoms began abruptly the morning after school ended Friday: within a few hours she developed shaking chills, a temperature of 39.4 C, severe muscle aches, retro-orbital headache, and a dry nonproductive cough. She has mild sore throat and nasal congestion but no ear pain, rash, or diarrhea. She has not received this season's influenza vaccine. No sick contacts at home but multiple students in her classroom have been febrile this week.",
+    "pmh": "Healthy",
+    "surgical_history": "None",
+    "medications": "Multivitamin",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Elementary school teacher. Non-smoker. No travel. Declined influenza vaccine this year.",
+    "vitals": {
+      "temp": "39.2 C",
+      "hr": "110 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "20",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: ill-appearing, flushed, prominent myalgias on exam. HEENT: mildly injected oropharynx without exudate, clear rhinorrhea, no sinus tenderness, tympanic membranes normal. Neck: small tender cervical nodes, no meningismus. Lungs: **clear to auscultation bilaterally, no focal crackles or wheezing**. Cardiac: tachycardic, regular. Skin: warm, no rash. Neuro: alert, nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Nasopharyngeal swab rapid influenza PCR: POSITIVE for Influenza A; negative for Influenza B and RSV**. Rapid antigen for influenza A: positive. Respiratory viral panel otherwise negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Rapid molecular (PCR) testing is the most sensitive point-of-care test for influenza. During outbreaks, a clinical diagnosis plus a positive rapid antigen is sufficient to start neuraminidase inhibitor therapy if within 48 hours of symptom onset."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 3.8 (**lymphopenia** with relative neutrophil predominance). Hgb 13.9. Platelets 172 (mildly low). Smear: normal RBC morphology.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild leukopenia with lymphopenia and mild thrombocytopenia are typical of acute viral illnesses such as influenza."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **no focal consolidation, pleural effusion, or infiltrate**.",
+        "flag": "NORMAL",
+        "clinical_significance": "A normal chest radiograph helps exclude bacterial pneumonia and the complication of post-influenza Staphylococcus aureus pneumonia, which would typically show rapidly progressive consolidation or cavitation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on oral oseltamivir 75 mg twice daily for 5 days within 36 hours of symptom onset. Her fever breaks in 48 hours and she returns to work after a week. She receives the inactivated influenza vaccine the following October."
+  },
+  "debrief": {
+    "classic_presentation": "Seasonal influenza classically presents during winter months with the abrupt onset of high fever, chills, severe myalgias, headache, fatigue, and dry cough. Nasal congestion and sore throat are often modest compared with the prominent systemic symptoms. Children can have GI symptoms. Most patients recover within a week. The most feared complication is post-influenza bacterial pneumonia, classically caused by Staphylococcus aureus (including MRSA) or Streptococcus pneumoniae, presenting as a second fever spike with new focal consolidation and sometimes cavitation. Reye syndrome (hepatic steatosis and encephalopathy) can occur if aspirin is given to children with influenza.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Influenza viruses are enveloped, segmented, negative-sense, single-stranded RNA viruses of the family Orthomyxoviridae. The segmented genome allows reassortment when two strains coinfect a host, causing antigenic shift (major change, pandemic potential — e.g., H1N1). Point mutations in hemagglutinin and neuraminidase produce antigenic drift (minor change, seasonal epidemics). Hemagglutinin binds sialic acid on respiratory epithelium to mediate entry, while neuraminidase cleaves sialic acid to release new virions. Influenza A infects humans and animals (birds, pigs); influenza B infects only humans.",
+    "treatment_overview": "Most healthy adults need only supportive care (rest, fluids, acetaminophen). Neuraminidase inhibitors (oseltamivir oral, zanamivir inhaled, peramivir IV) shorten illness by about one day if started within 48 hours of symptom onset and are recommended for hospitalized or high-risk patients (pregnancy, age >=65, immunosuppression, chronic lung/heart/metabolic disease) regardless of duration. Prevention is with the annual inactivated influenza vaccine (intramuscular; contains antigens against circulating H/N strains) or live attenuated intranasal vaccine (avoided in pregnancy and immunosuppression). Aspirin is contraindicated in children with influenza or varicella due to risk of Reye syndrome.",
+    "high_yield_pearls": [
+      "Antigenic drift = point mutations causing seasonal epidemics; antigenic shift = genome segment reassortment causing pandemics.",
+      "Hemagglutinin binds sialic acid; neuraminidase cleaves sialic acid for viral release (target of oseltamivir/zanamivir).",
+      "Post-influenza bacterial pneumonia classically caused by Staphylococcus aureus or Streptococcus pneumoniae.",
+      "Start neuraminidase inhibitor within 48 hours of symptom onset for maximal benefit.",
+      "Do not give aspirin to children with influenza due to risk of Reye syndrome (hepatic steatosis and encephalopathy)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Orthomyxoviruses — Influenza viruses' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Influenza A",
+      "COVID-19",
+      "Community-acquired pneumonia",
+      "Acute bronchitis",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "HIV (new diagnosis)",
+      "Sinusitis (bacterial)",
+      "Pertussis"
+    ],
+    "after_stage2_more_likely": [
+      "Influenza A",
+      "COVID-19",
+      "Acute bronchitis"
+    ],
+    "after_stage2_less_likely": [
+      "Sinusitis (bacterial)",
+      "Pertussis"
+    ],
+    "after_labs_top3": [
+      "Influenza A",
+      "COVID-19",
+      "Community-acquired pneumonia"
+    ]
+  }
+}

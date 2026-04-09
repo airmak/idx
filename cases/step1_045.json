@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_045",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Pheochromocytoma",
+  "icd_category": "D35.0 — Benign neoplasm of adrenal gland",
+  "one_liner": "A 42-year-old man presents with episodic spells of pounding headache, drenching sweats, palpitations, and feelings of impending doom lasting 10-20 minutes, and is found to have refractory hypertension (180/110) on arrival.",
+  "stage2": {
+    "hpi_extension": "Over the past 4 months he has had roughly 2-3 spells per week — sudden throbbing headache, palpitations, diaphoresis, chest pressure, tremor, pallor, and a feeling that 'something bad is about to happen.' Each episode lasts 10-20 minutes and ends with fatigue. He has lost 12 pounds despite a good appetite. His primary care doctor started him on three antihypertensives with little effect. He has a family history of medullary thyroid cancer in his father.",
+    "pmh": "Hypertension (refractory)",
+    "surgical_history": "None",
+    "medications": "Amlodipine, lisinopril, hydrochlorothiazide",
+    "allergies": "NKDA",
+    "family_history": "**Father with medullary thyroid carcinoma and parathyroid adenoma (MEN2A)**",
+    "social_history": "Engineer. Rare alcohol; no tobacco, no cocaine or stimulants.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "118 bpm",
+      "bp": "182/112 mmHg",
+      "rr": "18",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: thin, anxious, **diaphoretic**, pale. HEENT: pupils dilated. CV: tachycardic, regular, no murmurs. Abdomen: soft; no bruits, no palpable masses. Skin: **cool and clammy**, fine tremor of outstretched hands. Neuro: intact. No neurocutaneous stigmata (no café-au-lait, no neurofibromas)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Plasma free metanephrines markedly elevated**. **24-hour urine metanephrines and normetanephrines markedly elevated**. VMA elevated. Plasma chromogranin A elevated.",
+        "flag": "HIGH",
+        "clinical_significance": "Elevated fractionated metanephrines (plasma or 24-hour urine) are the most sensitive and specific screening tests for pheochromocytoma. Measuring metanephrines (rather than catecholamines themselves) avoids false negatives from the episodic nature of hormone release."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT abdomen with contrast: **4.5 cm right adrenal mass** with heterogeneous enhancement and **high unenhanced attenuation (>20 HU)**; cystic/necrotic regions. MIBG scintigraphy shows focal uptake at the right adrenal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An adrenal mass with high Hounsfield units and MIBG avidity localizes the catecholamine-secreting tumor to the right adrenal medulla, confirming pheochromocytoma."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Glucose 148 (mild hyperglycemia), otherwise normal electrolytes; calcium mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Catecholamine excess suppresses insulin secretion and stimulates glycogenolysis/lipolysis, producing mild hyperglycemia. Mild hypercalcemia in the context of a family history of medullary thyroid cancer raises concern for coexistent primary hyperparathyroidism in MEN2A."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Functional / provocative testing",
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on phenoxybenzamine (alpha blocker) first, then a beta blocker is added several days later before laparoscopic adrenalectomy. RET proto-oncogene testing confirms MEN2A."
+  },
+  "debrief": {
+    "classic_presentation": "Pheochromocytoma classically presents with the episodic '5 P's': Pressure (HTN), Pain (headache), Perspiration, Palpitations, and Pallor. Spells last minutes to an hour and may be triggered by stress, exercise, anesthesia, or abdominal palpation. Patients often have orthostasis between episodes from chronic catecholamine-induced volume contraction. Hypertension is frequently episodic but may be sustained. Think pheo when a young person has refractory HTN, spells, or MEN-family history.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pheochromocytomas arise from chromaffin cells of the adrenal medulla and secrete catecholamines (epinephrine, norepinephrine, dopamine) episodically. Extra-adrenal chromaffin tumors are called paragangliomas. First Aid 'rule of 10s': 10% malignant, 10% bilateral, 10% extra-adrenal, 10% calcify, 10% in children, 10% familial. Associated syndromes: MEN2A (medullary thyroid carcinoma + primary hyperparathyroidism + pheo; RET), MEN2B (medullary thyroid carcinoma + mucosal neuromas + marfanoid habitus + pheo; RET), von Hippel-Lindau (cerebellar hemangioblastomas, RCC, pheo; VHL), neurofibromatosis type 1 (NF1).",
+    "treatment_overview": "Preoperative alpha-adrenergic blockade is the cornerstone — phenoxybenzamine (non-selective irreversible alpha blocker) is started first to prevent hypertensive crisis. A beta blocker may be added AFTER adequate alpha blockade to control reflex tachycardia. NEVER start a beta blocker first — unopposed alpha-mediated vasoconstriction can precipitate hypertensive crisis. Definitive treatment is surgical resection, usually laparoscopic adrenalectomy. Genetic testing (RET, VHL, NF1, SDHB/C/D) is recommended given high rate of familial cases.",
+    "high_yield_pearls": [
+      "Pheochromocytoma '5 P's': Pressure (HTN), Pain (headache), Perspiration, Palpitations, Pallor — episodic.",
+      "Rule of 10s: 10% malignant, 10% bilateral, 10% extra-adrenal, 10% calcify, 10% children, 10% familial.",
+      "Screening = plasma or 24-hour urinary fractionated metanephrines (sensitive/specific).",
+      "Treat with ALPHA blockade first (phenoxybenzamine) → THEN beta blockade → then surgery. Beta blockade first causes hypertensive crisis from unopposed alpha.",
+      "Associations: MEN2A, MEN2B (RET), von Hippel-Lindau (VHL), Neurofibromatosis type 1 (NF1)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Pheochromocytoma' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Essential hypertension",
+      "Panic disorder",
+      "Carcinoid Syndrome",
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "MEN2A",
+      "Generalized anxiety disorder"
+    ],
+    "after_stage2_more_likely": [
+      "Pheochromocytoma",
+      "MEN2A"
+    ],
+    "after_stage2_less_likely": [
+      "Panic disorder",
+      "Generalized anxiety disorder",
+      "Essential hypertension"
+    ],
+    "after_labs_top3": [
+      "Pheochromocytoma",
+      "MEN2A",
+      "Primary hyperaldosteronism (Conn syndrome)"
+    ]
+  }
+}

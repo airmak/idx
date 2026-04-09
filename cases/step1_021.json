@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_021",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pulmonary embolism (PE)",
+  "icd_category": "I26 — Pulmonary embolism",
+  "one_liner": "A 52-year-old woman presents to the ED with sudden-onset pleuritic chest pain and shortness of breath that started 3 hours ago while she was unpacking after a 14-hour transatlantic flight.",
+  "stage2": {
+    "hpi_extension": "The pain is sharp, worse with deep inspiration, localized to the right chest, and associated with tachypnea and a single episode of hemoptysis. She also reports right calf pain and swelling that started 2 days ago but she attributed to 'cramping from the flight.' She is on combined oral contraceptives and had a knee arthroscopy 3 weeks ago. She denies fever, chills, cough, or prior episodes.",
+    "pmh": "Obesity (BMI 32), hypertension, recent right knee arthroscopy 3 weeks ago",
+    "surgical_history": "Right knee arthroscopy 3 weeks ago, C-section × 2",
+    "medications": "Combined oral contraceptive pill, lisinopril, ibuprofen PRN",
+    "allergies": "NKDA",
+    "family_history": "Mother with DVT after hip replacement, maternal uncle with recurrent 'blood clots'",
+    "social_history": "Non-smoker, occasional wine. Just returned from a 14-hour flight from Europe.",
+    "vitals": {
+      "temp": "37.5°C",
+      "hr": "118 bpm",
+      "bp": "104/68 mmHg",
+      "rr": "26",
+      "spo2": "90% on room air"
+    },
+    "physical_exam": "General: anxious, diaphoretic, in moderate distress. Pulmonary: tachypneic, lungs clear to auscultation bilaterally with no wheezes; **right-sided pleural friction rub** at the base. Cardiac: **tachycardia with a loud P2**, no murmurs. Extremities: **right calf swollen (3 cm larger than left), tender, warm, with a positive Homans sign**. No cyanosis. JVD mildly elevated."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "CT pulmonary angiogram: **filling defect in the right lower lobe segmental pulmonary artery** with a **wedge-shaped peripheral infarct (Hampton hump)**. Lower-extremity Doppler: **non-compressible right popliteal vein with echogenic intraluminal thrombus** consistent with DVT. CXR on arrival showed a subtle **Westermark sign (oligemia)** and elevated right hemidiaphragm.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CTPA is the gold standard for diagnosing PE. A segmental filling defect confirms the diagnosis. Hampton hump (peripheral wedge-shaped opacity) and Westermark sign (regional oligemia) are classic but insensitive CXR findings."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia at 118 bpm, **S1Q3T3 pattern** with T-wave inversions in V1–V4 (right heart strain). No ST elevation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "S1Q3T3 is the classic but uncommon (~20%) EKG finding in PE reflecting acute right ventricular strain. Sinus tachycardia is the most common finding."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "**D-dimer markedly elevated at 4,800 ng/mL** (normal <500). Troponin I mildly elevated (0.08 ng/mL). BNP elevated.",
+        "flag": "HIGH",
+        "clinical_significance": "D-dimer has high sensitivity but low specificity for PE — it rules out PE in low-probability patients but requires imaging confirmation in high-probability patients. Elevated troponin and BNP indicate RV strain and are prognostic markers."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Inflammatory / infection markers"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Urinalysis",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on IV heparin with transition to apixaban, and a factor V Leiden mutation is identified on subsequent hypercoagulability workup, explaining her personal and family history of venous thromboembolism."
+  },
+  "debrief": {
+    "classic_presentation": "PE classically presents with sudden-onset dyspnea, pleuritic chest pain, tachycardia, tachypnea, and hypoxemia. The triad of dyspnea + chest pain + hemoptysis is seen in <20% of cases. Virchow triad (stasis + hypercoagulability + endothelial damage) identifies risk — immobilization, recent surgery, OCP use, pregnancy, malignancy, and inherited thrombophilias. Massive PE can present with obstructive shock and sudden death.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Most PEs arise from DVTs in the deep veins of the lower extremities (iliac, femoral, popliteal). The clot embolizes through the right heart and lodges in the pulmonary arterial tree. This causes dead-space ventilation (V/Q mismatch), pulmonary hypertension, acute right ventricular strain, and hypoxemia. Saddle emboli straddle the bifurcation of the main pulmonary artery and cause obstructive shock. Lung infarction is uncommon (dual blood supply from bronchial arteries) but classically causes a wedge-shaped Hampton hump on imaging.",
+    "treatment_overview": "Anticoagulation is the mainstay: initial parenteral therapy (LMWH, UFH, or fondaparinux) bridging to warfarin, or DOACs (apixaban, rivaroxaban) as monotherapy. Duration ≥3 months; indefinite for unprovoked PE or persistent risk factor. Massive PE with hemodynamic instability: systemic thrombolysis with tPA, catheter-directed therapy, or surgical embolectomy. IVC filter if anticoagulation contraindicated. Workup for inherited thrombophilia (factor V Leiden, prothrombin 20210, protein C/S or antithrombin deficiency) in young or recurrent cases.",
+    "high_yield_pearls": [
+      "Wells score stratifies PE pre-test probability; D-dimer rules out PE only in low-probability patients (<500 ng/mL excludes).",
+      "Classic EKG finding (but insensitive): S1Q3T3 — deep S in I, Q and inverted T in III. Sinus tachycardia is the most common finding.",
+      "Hampton hump (wedge-shaped peripheral infarct) and Westermark sign (regional oligemia) are classic CXR findings but seen in minority of cases.",
+      "Factor V Leiden is the most common inherited thrombophilia — a mutation in factor V makes it resistant to cleavage by activated protein C.",
+      "Fat emboli (after long bone fracture) present with the triad of hypoxemia, neurologic changes, and petechial rash 24–72 hours post-trauma."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Pulmonary thromboembolism' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pulmonary embolism (PE)",
+      "Myocardial infarction (MI)",
+      "Pneumothorax",
+      "Community-acquired pneumonia",
+      "Pericarditis",
+      "Aortic dissection",
+      "Heart failure (systolic)",
+      "Deep vein thrombosis (DVT)"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary embolism (PE)",
+      "Deep vein thrombosis (DVT)"
+    ],
+    "after_stage2_less_likely": [
+      "Pericarditis",
+      "Community-acquired pneumonia"
+    ],
+    "after_labs_top3": [
+      "Pulmonary embolism (PE)",
+      "Deep vein thrombosis (DVT)",
+      "Factor V Leiden"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_085",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Syphilis",
+  "icd_category": "A51.3 — Secondary syphilis of skin and mucous membranes",
+  "one_liner": "A 29-year-old man presents with a two-week history of a non-pruritic rash on his trunk, palms, and soles, along with low-grade fevers, sore throat, and malaise. Six weeks ago he noticed a painless ulcer on his penis that healed on its own.",
+  "stage2": {
+    "hpi_extension": "About six weeks ago he had a single, firm, painless, cleanly demarcated ulcer on the glans penis that resolved without treatment in about 3 weeks. He thought nothing of it. Two weeks ago he developed diffuse malaise, headache, sore throat, and a non-itchy, symmetric maculopapular rash on his chest that now involves his palms and soles. He also reports patchy hair loss and 'warts' in his groin folds. He denies genital pain, dysuria, or visual changes.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA (no penicillin allergy)",
+    "family_history": "Noncontributory",
+    "social_history": "Sexually active with men and women, multiple partners over the last year, inconsistent condom use. No IV drug use. Denies previous STI testing.",
+    "vitals": {
+      "temp": "37.9 C",
+      "hr": "88 bpm",
+      "bp": "120/76 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Skin: **diffuse symmetric non-pruritic maculopapular rash on the trunk, extensor surfaces, and classically the palms and soles**. Moist flat wart-like plaques in the inguinal folds (**condyloma lata**). Scalp: patchy, moth-eaten alopecia. HEENT: mild pharyngeal erythema; no oral ulcers. Lymph: **diffuse non-tender lymphadenopathy** including epitrochlear nodes. GU: no active genital ulcer; faint healed scar on the glans. Neuro: nonfocal; pupils equal and reactive."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**RPR: reactive, titer 1:128**. **Treponemal test (FTA-ABS): POSITIVE**. HIV Ag/Ab combination immunoassay: negative. Hepatitis B and C screens: negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A high-titer nontreponemal test (RPR) confirmed by a treponemal test (FTA-ABS) is diagnostic of active syphilis. The high titer and classic skin findings localize the stage to secondary syphilis."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Dark-field microscopy of moist condyloma lata scraping: motile spirochetes visualized**. Gonorrhea/chlamydia NAAT: negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Treponema pallidum cannot be cultured on standard media; dark-field microscopy of exudate from a chancre or condyloma lata can directly visualize the organism."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 8.4 (mild lymphocytosis). Hgb 14.2. Platelets 240.",
+        "flag": "NORMAL",
+        "clinical_significance": "Mildly reactive lymphocytosis is common in secondary syphilis but is nonspecific."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He receives a single dose of IM benzathine penicillin G. A few hours later he develops fever, chills, myalgias, and transient worsening of his rash (Jarisch-Herxheimer reaction). His symptoms resolve over the next 24 hours and his RPR titer falls fourfold at 6 months."
+  },
+  "debrief": {
+    "classic_presentation": "Syphilis, caused by the spirochete Treponema pallidum, progresses through well-defined stages. Primary syphilis: a single painless, indurated chancre at the site of inoculation 3-6 weeks after exposure, with non-tender regional lymphadenopathy. Secondary syphilis (6 weeks to 6 months later): disseminated disease with a diffuse symmetric maculopapular rash that classically involves the palms and soles, condyloma lata (moist wart-like plaques in skin folds), patchy 'moth-eaten' alopecia, mucous patches, fever, and generalized lymphadenopathy. Tertiary syphilis (years later): gummas, cardiovascular syphilis with ascending aortic aneurysm from vasa vasorum endarteritis, and neurosyphilis (tabes dorsalis, general paresis, Argyll Robertson 'prostitute's' pupils that accommodate but do not react).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Treponema pallidum is a thin spirochete that cannot be grown on artificial media and is too narrow to be seen on standard light microscopy or Gram stain; it is visualized by dark-field microscopy or direct fluorescent antibody. Infection occurs via sexual contact or transplacentally. The organism disseminates hematogenously and lymphatically soon after inoculation. Vasa vasorum endarteritis underlies gummas and cardiovascular syphilis, while direct invasion of the CNS and dorsal columns explains neurosyphilis findings.",
+    "treatment_overview": "First-line treatment for primary, secondary, and early latent syphilis is a single IM dose of benzathine penicillin G 2.4 million units. Late latent and tertiary (non-neuro) syphilis receive weekly benzathine penicillin for 3 weeks. Neurosyphilis requires IV aqueous penicillin G for 10-14 days. Penicillin-allergic nonpregnant patients can receive doxycycline; pregnant patients must be desensitized and given penicillin. Screening is with a nontreponemal test (RPR or VDRL), which can have false positives (SLE, antiphospholipid syndrome, pregnancy, viral illness); confirm with a treponemal test (FTA-ABS or TP-PA). Jarisch-Herxheimer reaction (fever, chills, myalgias, transient rash flare within hours) follows antibiotic-induced spirochete lysis.",
+    "high_yield_pearls": [
+      "Secondary syphilis = copper-colored maculopapular rash on palms and soles, condyloma lata, patchy alopecia, generalized lymphadenopathy.",
+      "VDRL/RPR are nontreponemal tests used for screening and to follow treatment response; confirm with FTA-ABS or TP-PA.",
+      "False-positive VDRL: Viral infection, Drugs, Rheumatic fever / Rheumatoid arthritis, Lupus and Leprosy (mnemonic 'VDRL').",
+      "Argyll Robertson pupil of tertiary neurosyphilis accommodates but does not react to light ('prostitute's pupil').",
+      "Treat with penicillin G; expect a Jarisch-Herxheimer reaction after the first dose; desensitize pregnant penicillin-allergic patients."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Spirochetes — Treponema pallidum / Syphilis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Syphilis",
+      "HIV (new diagnosis)",
+      "Rocky Mountain spotted fever (RMSF)",
+      "Epstein-Barr virus (EBV) mononucleosis",
+      "Hepatitis B",
+      "Systemic lupus erythematosus (SLE)",
+      "Lyme disease",
+      "Psoriasis"
+    ],
+    "after_stage2_more_likely": [
+      "Syphilis",
+      "HIV (new diagnosis)",
+      "Rocky Mountain spotted fever (RMSF)"
+    ],
+    "after_stage2_less_likely": [
+      "Lyme disease",
+      "Psoriasis"
+    ],
+    "after_labs_top3": [
+      "Syphilis",
+      "HIV (new diagnosis)",
+      "Epstein-Barr virus (EBV) mononucleosis"
+    ]
+  }
+}

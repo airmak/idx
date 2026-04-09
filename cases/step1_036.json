@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_036",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Nephrotic syndrome (minimal change disease)",
+  "icd_category": "N04.0 — Nephrotic syndrome with minor glomerular abnormality",
+  "one_liner": "A 5-year-old boy is brought in by his mother for 1 week of progressive periorbital swelling and puffy ankles. He recently recovered from an upper respiratory infection.",
+  "stage2": {
+    "hpi_extension": "His mother first noticed **puffy eyes in the morning** that worsened throughout the day and now involves the abdomen and legs. She has also noticed that his **urine looks foamy**. He had a cold two weeks ago that resolved without treatment. No hematuria, no rash, no joint pain, no fever. His appetite and activity are slightly decreased.",
+    "pmh": "Healthy, meets milestones, fully immunized",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Attends kindergarten. Lives with parents and older sister.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "98 bpm",
+      "bp": "100/62 mmHg",
+      "rr": "22",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: tired-appearing child with noticeable facial swelling. HEENT: **marked periorbital edema**. CV: regular, no murmurs. Lungs: clear. Abdomen: **mildly distended with shifting dullness suggestive of ascites**. Extremities: **2+ pitting edema to the mid-shins bilaterally**. Skin: no rash, no purpura. Genitourinary: mild scrotal edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "**4+ protein**, no blood, no casts, specific gravity 1.025. **Spot urine protein-to-creatinine ratio 8.5** (normal less than 0.2). 24-hour urine protein 5.2 g/day. Microscopy: **oval fat bodies and fatty casts (Maltese crosses under polarized light)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Massive proteinuria with lipiduria defines nephrotic syndrome. In a child of this age, minimal change disease is by far the most likely cause."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 134, K 4.2, Cl 100, HCO3 23, BUN 14, creatinine 0.4, **total protein 4.6, albumin 1.8**, total cholesterol 385, triglycerides 280, AST/ALT normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic nephrotic tetrad: massive proteinuria, hypoalbuminemia, edema, and hyperlipidemia. Renal function is preserved, typical of minimal change disease."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "(Biopsy usually deferred in pediatric nephrotic syndrome pending response to empiric steroids.) Expected findings: **normal glomeruli on light microscopy, no immune complex deposits on immunofluorescence, and diffuse effacement of podocyte foot processes on electron microscopy**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Effacement of podocyte foot processes on EM with otherwise normal light microscopy is pathognomonic of minimal change disease."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures",
+      "Imaging study",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on empiric prednisone and within 2 weeks his proteinuria resolves and his edema fades, confirming the diagnosis of steroid-responsive minimal change disease."
+  },
+  "debrief": {
+    "classic_presentation": "Minimal change disease is the most common cause of nephrotic syndrome in children (peak age 2-6 years), often following a recent viral upper respiratory infection or immunization. Children present with periorbital and dependent edema, foamy urine, and sometimes ascites, with preserved renal function and selective albuminuria. Blood pressure and GFR are typically normal.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Minimal change disease is thought to be mediated by a circulating T-cell derived cytokine that damages the glomerular visceral epithelial cells (podocytes). This leads to loss of the negatively charged heparan sulfate in the glomerular basement membrane and effacement of the podocyte foot processes, producing a size- and charge-selective defect that preferentially leaks albumin. Light microscopy and immunofluorescence are normal; only electron microscopy shows the foot process effacement.",
+    "treatment_overview": "First-line therapy is oral corticosteroids (prednisone), which induce remission in more than 90% of pediatric cases. Biopsy is usually reserved for atypical features or steroid-resistant disease. Frequent relapsers or steroid-dependent patients may require cyclophosphamide, calcineurin inhibitors, or rituximab. Supportive care includes salt restriction, diuretics for edema, statins if needed, and venous thromboembolism prophylaxis in severe cases because nephrotic syndrome is a hypercoagulable state from urinary loss of antithrombin III.",
+    "high_yield_pearls": [
+      "Minimal change disease is the most common cause of nephrotic syndrome in children and is steroid-responsive.",
+      "Classic EM finding: diffuse effacement (fusion) of podocyte foot processes. LM and IF are normal.",
+      "Selective albuminuria reflects loss of the charge barrier (negatively charged heparan sulfate) in the GBM.",
+      "Nephrotic syndrome is hypercoagulable due to urinary loss of antithrombin III; watch for renal vein thrombosis.",
+      "In adults, think about NSAID or lymphoma (especially Hodgkin) as secondary causes of minimal change disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Nephrotic syndrome — Minimal change disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Nephrotic syndrome (minimal change disease)",
+      "Membranous nephropathy",
+      "Immunoglobulin A (IgA) nephropathy",
+      "IgA vasculitis (Henoch-Schönlein purpura)",
+      "Lupus nephritis",
+      "Diabetic nephropathy",
+      "Amyloidosis",
+      "Heart failure (systolic)"
+    ],
+    "after_stage2_more_likely": [
+      "Nephrotic syndrome (minimal change disease)",
+      "IgA vasculitis (Henoch-Schönlein purpura)"
+    ],
+    "after_stage2_less_likely": [
+      "Diabetic nephropathy",
+      "Heart failure (systolic)",
+      "Lupus nephritis"
+    ],
+    "after_labs_top3": [
+      "Nephrotic syndrome (minimal change disease)",
+      "Membranous nephropathy",
+      "Immunoglobulin A (IgA) nephropathy"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_038",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Pyelonephritis",
+  "icd_category": "N10 — Acute pyelonephritis",
+  "one_liner": "A 24-year-old sexually active woman presents with 2 days of fever, right-sided flank pain, and painful urination.",
+  "stage2": {
+    "hpi_extension": "She reports **dysuria, urinary frequency, and urgency** that began 4 days ago, initially thinking it was a routine UTI. Over the past 48 hours she developed **shaking chills, fevers to 39.2 C, nausea, vomiting, and a severe aching pain in the right flank**. She is unable to keep down fluids. She denies vaginal discharge.",
+    "pmh": "One prior uncomplicated UTI two years ago",
+    "surgical_history": "None",
+    "medications": "Oral contraceptive pill",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Sexually active with one male partner. Uses condoms intermittently.",
+    "vitals": {
+      "temp": "39.2 C",
+      "hr": "118 bpm",
+      "bp": "104/66 mmHg",
+      "rr": "20",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: ill-appearing, flushed, mildly diaphoretic. HEENT: dry mucous membranes. CV: tachycardic, regular. Lungs: clear. Abdomen: soft, mild suprapubic tenderness, **marked right costovertebral angle (CVA) tenderness**. Pelvic: no cervical motion tenderness or discharge. Extremities: warm, well-perfused."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "Cloudy urine. **Large leukocyte esterase, positive nitrites**, 3+ blood, 2+ protein. Microscopy: **too-numerous-to-count WBCs, bacteria, and WBC casts**. No eosinophils.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "WBC casts are pathognomonic for renal parenchymal inflammation and distinguish pyelonephritis from simple lower UTI (cystitis)."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "Urine Gram stain: **gram-negative rods**. Urine culture (pending at time of admission, later grows >100,000 CFU/mL **E. coli**, pan-sensitive except ampicillin). Blood cultures: 1 of 2 bottles positive for E. coli.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "E. coli is the most common cause of pyelonephritis. Bacteremia indicates a more severe, complicated course requiring IV antibiotics."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 17,800 with **left shift (18% bands)**, Hb 13.4, Plt 210,000.",
+        "flag": "HIGH",
+        "clinical_significance": "Leukocytosis with bandemia reflects the systemic inflammatory response to upper tract infection."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted and given IV ceftriaxone plus fluids; her fevers and flank pain resolve within 48 hours, and she is discharged on oral ciprofloxacin to complete a 7-day course."
+  },
+  "debrief": {
+    "classic_presentation": "Acute pyelonephritis classically presents in sexually active young women with the triad of fever, flank pain, and costovertebral angle tenderness, often accompanied by dysuria, frequency, nausea, and vomiting. Unlike simple cystitis, it produces systemic symptoms and WBC casts in the urine. Risk factors include prior UTI, sexual intercourse, spermicide use, pregnancy, diabetes, vesicoureteral reflux, and urinary obstruction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Most cases are ascending infections from the urethra to the bladder and then up the ureters to the renal pelvis and parenchyma. E. coli (uropathogenic strains with P fimbriae) is the most common pathogen, followed by Klebsiella, Proteus, Enterococcus, and Staphylococcus saprophyticus. Bacterial adhesion and virulence factors allow colonization of the upper tract. Neutrophilic inflammation of the tubulointerstitium produces the characteristic WBC casts. Complications include perinephric abscess, papillary necrosis (especially in diabetics and sickle cell disease), and urosepsis.",
+    "treatment_overview": "Uncomplicated outpatient pyelonephritis: oral fluoroquinolone (ciprofloxacin) for 7 days. Inpatient or complicated: IV ceftriaxone, piperacillin-tazobactam, or a fluoroquinolone, then step down based on culture sensitivities. Obtain imaging (renal ultrasound or CT) if there is no improvement in 48-72 hours to evaluate for abscess or obstruction. In pregnancy, always admit and treat IV. Recurrent or complicated cases should be evaluated for underlying structural abnormalities.",
+    "high_yield_pearls": [
+      "WBC casts in urine are the classic finding that distinguishes pyelonephritis from simple cystitis.",
+      "E. coli is the most common cause; look for P fimbriae as a key virulence factor.",
+      "Flank pain plus CVA tenderness plus fever is the classic triad.",
+      "Chronic pyelonephritis leads to coarse asymmetric corticomedullary scarring and blunted calyces, often from vesicoureteral reflux in children.",
+      "In diabetics and sickle cell patients, watch for papillary necrosis as a complication."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Tubulointerstitial disease — Pyelonephritis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pyelonephritis",
+      "Urinary tract infection (UTI)",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Pelvic inflammatory disease",
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Ruptured ovarian cyst (hemorrhagic corpus luteum cyst)",
+      "Interstitial nephritis"
+    ],
+    "after_stage2_more_likely": [
+      "Pyelonephritis",
+      "Nephrolithiasis — Calcium Oxalate Stone"
+    ],
+    "after_stage2_less_likely": [
+      "Urinary tract infection (UTI)",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "after_labs_top3": [
+      "Pyelonephritis",
+      "Urinary tract infection (UTI)",
+      "Nephrolithiasis — Calcium Oxalate Stone"
+    ]
+  }
+}

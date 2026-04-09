@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_015",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Mitral regurgitation",
+  "icd_category": "I34.0 — Nonrheumatic mitral (valve) insufficiency",
+  "one_liner": "A 66-year-old woman presents with 4 months of progressive exertional dyspnea, orthopnea, and fatigue; she denies chest pain or syncope.",
+  "stage2": {
+    "hpi_extension": "She now struggles to walk one block without stopping, sleeps on three pillows, and wakes at night gasping for air (paroxysmal nocturnal dyspnea). She had a small inferior MI 3 years ago that was treated with a stent. She denies palpitations or fever. No rheumatic fever or IV drug use.",
+    "pmh": "Coronary artery disease (s/p PCI 3 years ago), hypertension, hyperlipidemia",
+    "surgical_history": "PCI to RCA",
+    "medications": "Aspirin, metoprolol, atorvastatin, lisinopril",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Non-smoker. Retired teacher. Rare alcohol.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "88 bpm",
+      "bp": "118/70 mmHg",
+      "rr": "20",
+      "spo2": "93% on room air"
+    },
+    "physical_exam": "Comfortable at rest but dyspneic with walking. Cardiac: **holosystolic (pansystolic) blowing murmur at the apex radiating to the left axilla**. **Soft S1**. **Laterally displaced apical impulse**. S3 gallop present. **Murmur increases with handgrip** (increased afterload). Lungs: bibasilar crackles. Extremities: trace pitting edema bilaterally. JVD to 8 cm."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **severe mitral regurgitation** with an eccentric posteriorly-directed jet from **posterior leaflet restriction (ischemic/tethered)**. **Dilated left atrium (5.2 cm) and left ventricle**. EF 40% with inferior wall hypokinesis. Pulmonary artery systolic pressure 48 mmHg.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe MR with LA and LV dilation and reduced EF indicates chronic regurgitant volume overload and ischemic MR from prior inferior MI with papillary muscle dysfunction."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**BNP 820 pg/mL** (normal <100). Troponin negative.",
+        "flag": "HIGH",
+        "clinical_significance": "BNP is released by ventricular myocytes in response to wall stretch from volume or pressure overload — elevated in heart failure from severe MR."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus rhythm with occasional PACs. **Left atrial enlargement** (P mitrale: broad, notched P waves in lead II). Q waves in inferior leads from prior MI.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "P mitrale reflects chronic left atrial enlargement from regurgitant volume. Inferior Q waves confirm prior infarction as the ischemic substrate for papillary muscle dysfunction."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on afterload reduction with an ACE inhibitor and diuretic, and referred to cardiothoracic surgery for mitral valve repair before further left ventricular decompensation."
+  },
+  "debrief": {
+    "classic_presentation": "Chronic MR presents insidiously with fatigue, exertional dyspnea, orthopnea, and eventual heart failure symptoms. The hallmark murmur is a **holosystolic blowing murmur at the apex that radiates to the axilla**, best heard in left lateral decubitus position. Acute MR (e.g., from papillary muscle rupture post-MI) presents dramatically with flash pulmonary edema and cardiogenic shock.",
+    "attending_mode_notes": null,
+    "pathophysiology": "MR causes a regurgitant volume jet from LV to LA during systole, reducing forward stroke volume and causing LA volume/pressure overload. Chronic MR leads to **eccentric LV hypertrophy** (sarcomeres added in series) and LV/LA dilation to accommodate the regurgitant volume — eventually progressing to systolic dysfunction and pulmonary hypertension. Common etiologies include **mitral valve prolapse** (most common in developed countries), **ischemic papillary muscle dysfunction or rupture** (post-MI), rheumatic disease, infective endocarditis, and LV dilation (functional MR).",
+    "treatment_overview": "Chronic MR: **afterload reduction** with ACE inhibitors, ARBs, or vasodilators decreases regurgitant fraction. Beta-blockers and diuretics for heart failure symptoms. **Definitive therapy is mitral valve repair (preferred) or replacement** — indicated for symptomatic severe MR or asymptomatic patients with LVEF 30–60% or LV end-systolic diameter ≥40 mm. Acute severe MR (papillary muscle rupture) requires emergent surgery.",
+    "high_yield_pearls": [
+      "**Holosystolic blowing murmur at the apex radiating to the axilla** = mitral regurgitation. Loudest at the apex in left lateral decubitus.",
+      "Murmur **increases with handgrip** (↑afterload → ↑regurgitant fraction) — useful to distinguish MR from HCM (which decreases with handgrip).",
+      "**Mitral valve prolapse** is the most common cause of MR in developed countries; classically presents with a **mid-systolic click** that may be followed by a late systolic murmur.",
+      "**Papillary muscle rupture** typically occurs 3–5 days post-MI; the posteromedial papillary muscle is most vulnerable because it has a single blood supply (PDA).",
+      "Chronic volume overload causes **eccentric LVH** (sarcomeres in series) → dilated LV, contrasted with the concentric LVH (sarcomeres in parallel) of pressure overload."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Valvular heart disease — Mitral regurgitation' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Mitral regurgitation",
+      "Mitral Valve Prolapse with Regurgitation",
+      "Mitral stenosis",
+      "Aortic stenosis",
+      "Tricuspid regurgitation",
+      "Heart failure (systolic)",
+      "Dilated cardiomyopathy",
+      "Infective endocarditis"
+    ],
+    "after_stage2_more_likely": [
+      "Mitral regurgitation",
+      "Heart failure (systolic)",
+      "Mitral Valve Prolapse with Regurgitation"
+    ],
+    "after_stage2_less_likely": [
+      "Aortic stenosis",
+      "Mitral stenosis",
+      "Tricuspid regurgitation"
+    ],
+    "after_labs_top3": [
+      "Mitral regurgitation",
+      "Heart failure (systolic)",
+      "Mitral Valve Prolapse with Regurgitation"
+    ]
+  }
+}

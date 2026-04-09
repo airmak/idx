@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_072",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Preeclampsia",
+  "icd_category": "O14.1 — Severe pre-eclampsia",
+  "one_liner": "A 32-year-old primigravida at 34 weeks gestation presents with a severe headache, blurry vision, and right upper quadrant pain.",
+  "stage2": {
+    "hpi_extension": "Her pregnancy has been uncomplicated until today. She describes a **throbbing frontal headache** for 12 hours unrelieved by acetaminophen, with **blurry vision and 'seeing spots.'** She also reports **right upper quadrant pain** and new swelling of her hands and face. Baseline blood pressures were normal early in pregnancy. She denies contractions or vaginal bleeding; fetal movement is present.",
+    "pmh": "G1P0, no pre-pregnancy hypertension or diabetes",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins with iron",
+    "allergies": "NKDA",
+    "family_history": "Mother had preeclampsia in both pregnancies",
+    "social_history": "Non-smoker, no alcohol. Married.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "96 bpm",
+      "bp": "172/112 mmHg (repeat 168/108)",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: uncomfortable, holding her head. HEENT: funduscopy with **arteriolar narrowing, no papilledema**. CV: regular, no murmurs. Lungs: clear. Abdomen: gravid fundus consistent with 34 weeks, **right upper quadrant tenderness**, fetal heart tones reassuring at 140s. Extremities: **3+ pretibial edema with facial puffiness**, **4+ brisk deep tendon reflexes with ankle clonus**. Neuro: alert, nonfocal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "**3+ protein** on dipstick. **Urine protein-to-creatinine ratio 1.8** (significant proteinuria). No blood, no leukocyte esterase, no casts.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "New-onset proteinuria after 20 weeks gestation with new-onset hypertension is diagnostic of preeclampsia."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 138, K 4.0, creatinine **1.3 (baseline 0.7)**, **AST 142, ALT 168**, **LDH 620**, uric acid elevated, total bilirubin 1.5.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Transaminitis plus rising creatinine and elevated LDH/uric acid indicate severe features of preeclampsia with end-organ involvement, approaching HELLP syndrome."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 9,800, Hb 11.8, **platelets 88,000 (falling from 220,000 at last visit)**. Smear: **schistocytes present, consistent with microangiopathic hemolysis**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Thrombocytopenia and schistocytes with elevated LFTs meet criteria for HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets), a severe manifestation of preeclampsia."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted, started on IV magnesium sulfate for seizure prophylaxis and IV labetalol for blood pressure control, and delivered by urgent cesarean; her blood pressure and labs normalize over the following week."
+  },
+  "debrief": {
+    "classic_presentation": "Preeclampsia is defined as new-onset hypertension (BP greater than or equal to 140/90 on two occasions) plus new-onset proteinuria or other end-organ dysfunction after 20 weeks gestation in a previously normotensive woman. Severe features include BP greater than or equal to 160/110, thrombocytopenia, doubling of creatinine, transaminitis with RUQ pain, pulmonary edema, and new cerebral or visual symptoms. Seizures convert the diagnosis to eclampsia. HELLP syndrome is a severe variant with hemolysis, elevated liver enzymes, and low platelets.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Preeclampsia is thought to arise from abnormal placentation with impaired trophoblastic remodeling of maternal spiral arteries, producing a poorly perfused placenta. This releases antiangiogenic factors (sFlt-1 and soluble endoglin) that antagonize VEGF and PlGF, leading to diffuse maternal endothelial dysfunction. The result is vasoconstriction, capillary leak, activation of coagulation, and end-organ ischemia affecting the brain (headache, seizures), liver (RUQ pain, transaminitis, capsular stretch), kidneys (proteinuria, rising creatinine), and placenta (IUGR, abruption).",
+    "treatment_overview": "The only definitive treatment for preeclampsia is delivery of the placenta. Severe features or term (greater than or equal to 37 weeks) mandate delivery; mild preeclampsia before term can be managed expectantly with close monitoring and antenatal corticosteroids. All patients with severe features receive IV magnesium sulfate for seizure prophylaxis (magnesium toxicity is reversed with IV calcium gluconate). Blood pressure is controlled with IV labetalol, hydralazine, or oral nifedipine to keep BP below 160/110. Avoid ACE inhibitors and ARBs in pregnancy.",
+    "high_yield_pearls": [
+      "Preeclampsia: new HTN plus proteinuria (or end-organ dysfunction) after 20 weeks.",
+      "Severe features include BP greater than 160/110, severe headache, visual changes, RUQ pain, elevated LFTs, thrombocytopenia, rising creatinine, or pulmonary edema.",
+      "HELLP = Hemolysis, Elevated LFTs, Low Platelets — a severe variant.",
+      "IV magnesium sulfate is used to prevent and treat eclamptic seizures; calcium gluconate reverses magnesium toxicity.",
+      "Definitive treatment is delivery; antihypertensives of choice are labetalol, hydralazine, and nifedipine."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Pregnancy complications — Preeclampsia / Eclampsia / HELLP' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Preeclampsia",
+      "Eclampsia",
+      "HELLP syndrome",
+      "Gestational diabetes",
+      "Essential hypertension",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Acute Kidney Injury — Prerenal",
+      "Hyperemesis gravidarum"
+    ],
+    "after_stage2_more_likely": [
+      "Preeclampsia",
+      "HELLP syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Gestational diabetes",
+      "Hyperemesis gravidarum",
+      "Essential hypertension"
+    ],
+    "after_labs_top3": [
+      "Preeclampsia",
+      "HELLP syndrome",
+      "Thrombotic thrombocytopenic purpura (TTP)"
+    ]
+  }
+}

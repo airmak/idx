@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_024",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Lung cancer (small cell / SCLC)",
+  "icd_category": "C34 — Malignant neoplasm of bronchus and lung",
+  "one_liner": "A 66-year-old man with a 60 pack-year smoking history presents with 6 weeks of worsening cough, hemoptysis, 18-lb weight loss, and new-onset proximal muscle weakness that improves after repeated handshakes.",
+  "stage2": {
+    "hpi_extension": "He reports difficulty rising from chairs and climbing stairs for the past month. His wife has noticed dry mouth, constipation, and ptosis. On further questioning, he admits to increased thirst, nocturia, and cognitive slowing. He has a chronic smoker's cough that has become much more productive and bloody over the last 6 weeks. He denies chest pain. He has not seen a physician in over a decade.",
+    "pmh": "Untreated hypertension, COPD by history",
+    "surgical_history": "None",
+    "medications": "None (non-compliant)",
+    "allergies": "NKDA",
+    "family_history": "Father died of lung cancer at 72",
+    "social_history": "60 pack-year smoking history (2 packs/day since age 16), occasional alcohol, retired shipyard worker with possible asbestos exposure",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "94 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "18",
+      "spo2": "94% on room air"
+    },
+    "physical_exam": "General: cachectic elderly man with temporal wasting. HEENT: **ptosis bilaterally**, dry mucous membranes. Neck: supraclavicular lymphadenopathy. Pulmonary: scattered wheezes, decreased breath sounds at the right apex. Cardiac: regular. Extremities: **proximal muscle weakness (3/5 hip flexors and shoulder abductors) that improves transiently with repeated contraction (incremental response)**. **Reflexes absent at baseline but appear after brief exercise**. Skin: nicotine stains, no cyanosis."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest CT: **large central hilar mass in the right mainstem bronchus** with bulky mediastinal lymphadenopathy and narrowing of the airway. No peripheral nodule. PET/CT: hypermetabolic activity in primary mass, mediastinal nodes, **liver**, and **multiple vertebral bodies** (widespread metastatic disease).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Small cell lung cancer classically presents as a rapidly growing, bulky, **central** mass with early hematogenous metastases. The centrally located, perihilar distribution distinguishes it from adenocarcinoma (peripheral)."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Bronchoscopic biopsy of the mass: **sheets of small round blue cells with scant cytoplasm, hyperchromatic nuclei, and nuclear molding (salt-and-pepper chromatin)**. High mitotic rate. **Immunostains positive for chromogranin, synaptophysin, and neuron-specific enolase (NSE)**, confirming neuroendocrine origin.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Kulchitsky (neuroendocrine) cell origin defines small cell lung cancer. Positive chromogranin/synaptophysin and neuroendocrine markers confirm the diagnosis."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Hyponatremia (Na 122 mEq/L)** with low serum osmolality and inappropriately concentrated urine (SIADH). Calcium normal. Morning cortisol elevated with loss of diurnal variation, ACTH elevated (**ectopic Cushing syndrome**).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "SCLC is the classic cause of paraneoplastic SIADH (ectopic ADH) and ectopic ACTH production (Cushing syndrome). Lambert-Eaton myasthenic syndrome (antibodies against presynaptic voltage-gated calcium channels) is another classic SCLC paraneoplastic syndrome."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Serum antibodies against **voltage-gated calcium channels (anti-VGCC)** return positive, confirming Lambert-Eaton myasthenic syndrome as a paraneoplastic manifestation; he begins cisplatin/etoposide chemotherapy with thoracic radiation."
+  },
+  "debrief": {
+    "classic_presentation": "Small cell lung cancer presents almost exclusively in heavy smokers (>30 pack-years), typically as a rapidly enlarging central/hilar mass with early hematogenous metastases (brain, liver, bone, adrenals). Hallmark paraneoplastic syndromes include SIADH, ectopic Cushing syndrome (ACTH), and Lambert-Eaton myasthenic syndrome. Patients often present with advanced (extensive-stage) disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "SCLC arises from **neuroendocrine (Kulchitsky) cells** of the bronchial epithelium, typically in central airways. Histologically, it consists of sheets of small round blue cells with scant cytoplasm, nuclear molding, and 'salt-and-pepper' chromatin. Strongly associated with cigarette smoking. Genetic hallmarks include loss-of-function mutations in TP53 and RB1. Neuroendocrine markers (chromogranin, synaptophysin, NSE) are positive. Paraneoplastic syndromes result from ectopic hormone secretion (ADH → SIADH; ACTH → Cushing) or autoantibodies against tumor antigens cross-reacting with neural tissue (VGCC → LEMS; anti-Hu → encephalomyelitis).",
+    "treatment_overview": "SCLC is staged as limited (confined to one hemithorax within a single radiation port) or extensive. It is highly responsive to initial chemotherapy but relapses are common. **Cisplatin + etoposide** is standard first-line chemotherapy; limited-stage adds concurrent thoracic radiation and prophylactic cranial irradiation (PCI) given high risk of brain metastases. Surgery is rarely indicated because of early metastatic spread. Overall prognosis is poor (median survival 12–18 months for limited, 6–12 for extensive).",
+    "high_yield_pearls": [
+      "SCLC is **central**, nearly always in smokers, and the classic cause of SIADH, ectopic Cushing syndrome (ACTH), and Lambert-Eaton myasthenic syndrome.",
+      "Histology: small round blue cells with neuroendocrine markers (chromogranin, synaptophysin, NSE); Kulchitsky cell origin.",
+      "LEMS: antibodies vs presynaptic P/Q-type voltage-gated calcium channels cause proximal muscle weakness that **improves** with repeated use (incremental EMG response) — opposite of myasthenia gravis.",
+      "SCLC is treated with chemotherapy (cisplatin + etoposide) and radiation; surgery is rarely indicated because of early metastasis.",
+      "Other lung cancers: squamous = central, cavitating, PTHrP → hypercalcemia; adenocarcinoma = peripheral, most common in non-smokers, hypertrophic osteoarthropathy; large cell = peripheral, poorly differentiated."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Lung cancer — Small cell carcinoma' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lung cancer (small cell / SCLC)",
+      "Lung cancer (non-small cell / NSCLC)",
+      "Tuberculosis (TB)",
+      "Lambert-Eaton myasthenic syndrome (LEMS)",
+      "Myasthenia gravis",
+      "Syndrome of inappropriate ADH secretion (SIADH)",
+      "Paraneoplastic syndrome",
+      "Metastatic brain disease"
+    ],
+    "after_stage2_more_likely": [
+      "Lung cancer (small cell / SCLC)",
+      "Lambert-Eaton myasthenic syndrome (LEMS)"
+    ],
+    "after_stage2_less_likely": [
+      "Tuberculosis (TB)",
+      "Myasthenia gravis"
+    ],
+    "after_labs_top3": [
+      "Lung cancer (small cell / SCLC)",
+      "Lambert-Eaton myasthenic syndrome (LEMS)",
+      "Syndrome of inappropriate ADH secretion (SIADH)"
+    ]
+  }
+}

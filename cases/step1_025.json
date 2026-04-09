@@ -1,0 +1,99 @@
+{
+  "case_id": "step1_025",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pneumothorax",
+  "icd_category": "J93 — Pneumothorax",
+  "one_liner": "A tall, thin 21-year-old college basketball player presents with sudden-onset sharp right-sided chest pain and dyspnea that began while he was sitting in class.",
+  "stage2": {
+    "hpi_extension": "The pain is sharp, pleuritic, localized to the right chest, and radiates to the right shoulder. He denies trauma, cough, fever, or recent illness. He has had a similar but milder episode 1 year ago that resolved on its own. He is 6'5\" and 160 lbs. He denies IV drug use, smoking, or illicit drugs. No family history of connective tissue disease or aortic disease.",
+    "pmh": "Healthy, no prior hospitalizations",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Non-smoker, college student, competitive basketball player",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "110 bpm",
+      "bp": "124/76 mmHg",
+      "rr": "24",
+      "spo2": "92% on room air"
+    },
+    "physical_exam": "General: tall, thin young man in moderate distress. HEENT: no arachnodactyly, no lens dislocation. Neck: trachea midline. Pulmonary: **decreased breath sounds over the right hemithorax**, **hyperresonance to percussion on the right**, **decreased tactile fremitus on the right**. Cardiac: tachycardic, regular rhythm, no murmurs. Abdomen: soft. Extremities: no clubbing or cyanosis. No pectus excavatum."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Upright PA chest X-ray: **visible visceral pleural line with absent lung markings peripherally on the right**, lung edge displaced ~3 cm from the chest wall. **No tracheal deviation, no mediastinal shift** (primary spontaneous pneumothorax, not tension). Chest CT: small **apical subpleural bleb** on the right upper lobe, confirmed rupture site.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Visualization of the visceral pleural line with absent peripheral lung markings is diagnostic of pneumothorax. Apical subpleural blebs are the typical source of primary spontaneous pneumothorax in tall, thin young men."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia at 110 bpm with **diminished R-wave amplitude in right precordial leads**. No ST changes. No S1Q3T3.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "EKG may show low voltage or axis shift in pneumothorax; obtained primarily to exclude ischemia as a cause of chest pain."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A small-bore chest tube is placed in the right pleural space with immediate re-expansion of the lung; he is counseled that the risk of recurrence is ~30% and that video-assisted thoracoscopic (VATS) bleb resection with pleurodesis may be offered if it recurs."
+  },
+  "debrief": {
+    "classic_presentation": "Primary spontaneous pneumothorax classically affects **tall, thin young men** (often smokers) due to rupture of apical subpleural blebs. Presents with sudden-onset pleuritic chest pain and dyspnea, decreased breath sounds and hyperresonance over the affected hemithorax. Secondary spontaneous pneumothorax occurs in patients with underlying lung disease (COPD, cystic fibrosis, LAM, Langerhans histiocytosis). **Tension pneumothorax** is a life-threatening form with **tracheal deviation AWAY from the affected side**, hypotension, distended neck veins, and requires immediate needle decompression.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pneumothorax is accumulation of air in the pleural space, collapsing the lung. Primary spontaneous PTX results from rupture of apical **subpleural blebs** — small air-filled cysts at the lung apex where transpulmonary pressure is highest. Risk factors: male sex, tall/thin habitus, smoking, Marfan syndrome, family history. Secondary PTX occurs with underlying parenchymal disease. In **tension pneumothorax**, a one-way valve effect traps air under positive pressure, causing mediastinal shift, compression of the contralateral lung, decreased venous return (IVC kinking), and obstructive shock.",
+    "treatment_overview": "Small (<2 cm, asymptomatic) primary PTX: observation ± high-flow O2 (accelerates reabsorption). Larger or symptomatic: needle aspiration or chest tube placement with underwater seal. Tension PTX: **immediate large-bore needle decompression** at the 2nd intercostal space midclavicular line (or 4th–5th ICS anterior axillary line per newer guidelines), followed by chest tube. Recurrent or persistent air leak: VATS bleb resection + mechanical/chemical pleurodesis (talc).",
+    "high_yield_pearls": [
+      "Classic primary spontaneous pneumothorax patient: tall, thin young male smoker with rupture of an apical subpleural bleb.",
+      "Tension pneumothorax: tracheal deviation AWAY from the affected side, distended neck veins, hypotension — DO NOT wait for imaging, needle decompress immediately.",
+      "Exam findings of pneumothorax: decreased breath sounds, hyperresonance, decreased tactile fremitus on the affected side.",
+      "Secondary spontaneous pneumothorax: COPD (most common), cystic fibrosis, lymphangioleiomyomatosis (young women), pulmonary Langerhans cell histiocytosis (smokers).",
+      "Marfan syndrome (tall, thin, long extremities, aortic root dilation, lens dislocation) increases risk due to connective tissue weakness."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Pleural diseases — Pneumothorax' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pneumothorax",
+      "Tension pneumothorax",
+      "Pulmonary embolism (PE)",
+      "Myocardial infarction (MI)",
+      "Pericarditis",
+      "Marfan syndrome",
+      "Community-acquired pneumonia",
+      "Aortic dissection"
+    ],
+    "after_stage2_more_likely": [
+      "Pneumothorax",
+      "Marfan syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia",
+      "Myocardial infarction (MI)"
+    ],
+    "after_labs_top3": [
+      "Pneumothorax",
+      "Tension pneumothorax",
+      "Pulmonary embolism (PE)"
+    ]
+  }
+}

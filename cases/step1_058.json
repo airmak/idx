@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_058",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Alzheimer dementia",
+  "icd_category": "G30 — Alzheimer disease",
+  "one_liner": "A 74-year-old woman is brought to clinic by her daughter for three years of progressive memory loss. She recently got lost driving home from the grocery store she has visited for 30 years.",
+  "stage2": {
+    "hpi_extension": "Her daughter reports the memory problems began insidiously, with the patient repeating the same questions and misplacing objects. Over the last year she has developed word-finding difficulty, difficulty managing her finances, and episodes of getting lost in familiar places. She has become withdrawn and occasionally accuses family members of stealing from her. There is no history of stepwise decline, focal weakness, visual hallucinations, REM sleep behavior, or urinary incontinence with gait apraxia. Symptoms are gradually progressive without fluctuation.",
+    "pmh": "Hypertension, hyperlipidemia",
+    "surgical_history": "Cholecystectomy",
+    "medications": "Amlodipine, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Mother had dementia in her late 70s. No Down syndrome in family.",
+    "social_history": "Retired schoolteacher. Lives with daughter. Non-smoker, no alcohol.",
+    "vitals": {
+      "temp": "36.7°C",
+      "hr": "74 bpm",
+      "bp": "128/76 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: well-groomed, pleasant but anxious. Neuro: cranial nerves intact, no focal motor or sensory deficits, no tremor or rigidity, reflexes symmetric, gait normal. **MMSE 18/30** with major losses in orientation, short-term recall (0/3 at 5 minutes), and serial 7s. **Clock-drawing test abnormal with disorganized numbers and incorrect hands**. **Impaired recall not improved by cueing (amnestic pattern)**. No parkinsonism, no myoclonus, no primitive reflexes."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium, calcium, glucose, renal and hepatic function all within normal limits. TSH normal. Vitamin B12 normal. RPR non-reactive.",
+        "flag": "WNL",
+        "clinical_significance": "Screening labs exclude reversible causes of cognitive impairment (hypothyroidism, B12 deficiency, neurosyphilis, electrolyte disturbance), which is a required step before attributing dementia to a neurodegenerative cause."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain: **diffuse cortical atrophy most pronounced in the medial temporal lobes and hippocampi**, with associated ex vacuo ventricular enlargement. No infarcts, no significant white matter disease, no subdural collection, no normal pressure hydrocephalus pattern. FDG-PET (when performed): temporoparietal hypometabolism.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hippocampal and temporoparietal atrophy is the characteristic structural signature of Alzheimer disease and supports the clinical diagnosis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "CSF analysis (lumbar puncture)"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "Histopathology / biopsy",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "CSF biomarkers (sent for confirmation) show **decreased Aβ42 with elevated total tau and phospho-tau**, a pattern characteristic of Alzheimer pathology."
+  },
+  "debrief": {
+    "classic_presentation": "Alzheimer dementia is the most common cause of dementia in the elderly. It classically presents with gradual, progressive decline in episodic memory (the amnestic phenotype), followed by language impairment (anomia), visuospatial dysfunction, and executive dysfunction. Behavioral symptoms (paranoia, agitation, sundowning) and functional decline ensue. Unlike vascular dementia, progression is smooth rather than stepwise; unlike DLB, there are no early visual hallucinations or parkinsonism; unlike FTD, personality and language are preserved early.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Alzheimer disease is characterized by two pathologic hallmarks: **extracellular β-amyloid plaques** derived from cleavage of amyloid precursor protein (APP) by β- and γ-secretase, and **intracellular neurofibrillary tangles composed of hyperphosphorylated tau**. Neuronal loss preferentially affects the hippocampus and association cortex, with early degeneration of the cholinergic nucleus basalis of Meynert (rationale for cholinesterase inhibitor therapy). Risk factors: advancing age, **APOE ε4 allele** (increases risk), **APOE ε2 (protective)**, Down syndrome (APP gene on chromosome 21 — early-onset AD). Autosomal dominant early-onset forms involve APP, presenilin-1, and presenilin-2 mutations.",
+    "treatment_overview": "No disease-modifying therapy is proven. Symptomatic treatment for mild-to-moderate disease uses **acetylcholinesterase inhibitors (donepezil, rivastigmine, galantamine)** to boost synaptic acetylcholine. For moderate-to-severe disease, **memantine (NMDA receptor antagonist)** is added to reduce glutamate excitotoxicity. Behavioral symptoms are managed with environmental interventions; antipsychotics carry a black-box warning for increased mortality in elderly dementia patients. Treat vascular risk factors; ensure safety (driving, wandering, medication management).",
+    "high_yield_pearls": [
+      "Two pathologic hallmarks: extracellular β-amyloid (Aβ) plaques and intracellular neurofibrillary tangles of hyperphosphorylated tau.",
+      "APOE ε4 increases risk (especially homozygotes); APOE ε2 is protective. Early-onset familial forms: APP, PSEN1, PSEN2 mutations.",
+      "Down syndrome (trisomy 21) patients develop early-onset Alzheimer disease because APP is on chromosome 21.",
+      "MRI shows hippocampal and temporoparietal cortical atrophy; CSF shows decreased Aβ42 with elevated tau.",
+      "Treatment: cholinesterase inhibitors (donepezil) for mild-to-moderate; add memantine (NMDA antagonist) for moderate-to-severe disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Dementia — Alzheimer disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Alzheimer dementia",
+      "Vascular dementia",
+      "Lewy body dementia",
+      "Frontotemporal dementia (FTD)",
+      "Normal pressure hydrocephalus (NPH)",
+      "Vitamin B12 deficiency",
+      "Hypothyroidism",
+      "Creutzfeldt-Jakob disease (CJD)"
+    ],
+    "after_stage2_more_likely": [
+      "Alzheimer dementia",
+      "Vascular dementia",
+      "Frontotemporal dementia (FTD)"
+    ],
+    "after_stage2_less_likely": [
+      "Normal pressure hydrocephalus (NPH)",
+      "Creutzfeldt-Jakob disease (CJD)",
+      "Lewy body dementia"
+    ],
+    "after_labs_top3": [
+      "Alzheimer dementia",
+      "Vascular dementia",
+      "Lewy body dementia"
+    ]
+  }
+}

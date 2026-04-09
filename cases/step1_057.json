@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_057",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Parkinson disease",
+  "icd_category": "G20 — Parkinson disease",
+  "one_liner": "A 68-year-old man is brought in by his wife for progressive tremor and slowness of movement over the past 18 months. She notes his handwriting has gotten smaller and he has difficulty getting out of chairs.",
+  "stage2": {
+    "hpi_extension": "He first noticed a subtle tremor in his right hand, present at rest but disappearing when he reaches for objects. His wife reports he has become increasingly expressionless and shuffles when walking, occasionally freezing when passing through doorways. He has lost his arm swing on the right and his voice has become soft and monotone. He denies falls early in the disease. He reports constipation, loss of smell, and REM sleep behavior disorder predating the motor symptoms by several years.",
+    "pmh": "Hypertension",
+    "surgical_history": "Inguinal hernia repair",
+    "medications": "Lisinopril",
+    "allergies": "NKDA",
+    "family_history": "Father had 'shaking palsy' in his 70s",
+    "social_history": "Retired accountant. Non-smoker. No exposure to MPTP or pesticides.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "72 bpm",
+      "bp": "132/78 mmHg (140/86 supine, 118/70 standing)",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: **masked facies (hypomimia)**, decreased blink rate, seborrheic skin. Neuro: **resting 'pill-rolling' tremor of the right hand (4-6 Hz)** that disappears with voluntary movement. **Cogwheel rigidity** at the right wrist and elbow. **Bradykinesia** demonstrated by slow, decrementing finger-tapping. **Micrographia** on writing sample. Gait: **stooped posture, shuffling gait with festination, decreased right arm swing**. Postural reflexes: **retropulsion on pull test**. Cognition intact. No cerebellar signs."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain without contrast: age-appropriate atrophy, no structural lesion, no vascular disease pattern to suggest vascular parkinsonism, and no midbrain atrophy ('hummingbird sign') to suggest progressive supranuclear palsy. DaTscan (dopamine transporter SPECT): **asymmetric reduction in striatal dopamine transporter uptake, most prominent in the left putamen**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Reduced nigrostriatal dopaminergic terminals on DaTscan confirms a presynaptic dopaminergic deficit consistent with idiopathic Parkinson disease and excludes essential tremor and drug-induced parkinsonism."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Levodopa challenge**: administration of carbidopa/levodopa produces marked improvement in tremor, rigidity, and bradykinesia within 60 minutes (UPDRS motor score improves by >30%).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A robust response to levodopa is a strong clinical confirmation of idiopathic Parkinson disease. Parkinson-plus syndromes (PSP, MSA, CBD) characteristically respond poorly."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Serologic / antibody studies",
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient is started on carbidopa/levodopa with near-complete resolution of his resting tremor, rigidity, and bradykinesia over two weeks, solidifying the diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "Parkinson disease classically presents in older adults (mean age 60) with the asymmetric onset of the TRAP tetrad: Tremor (resting, pill-rolling, 4-6 Hz), Rigidity (cogwheel), Akinesia/bradykinesia, and Postural instability (late). Non-motor prodromal symptoms (hyposmia, constipation, REM sleep behavior disorder, depression) often precede motor signs by years. Masked facies, micrographia, hypophonia, and a shuffling festinating gait are hallmark features.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Parkinson disease is caused by degeneration of **dopaminergic neurons in the substantia nigra pars compacta**, depleting dopamine input to the striatum and disinhibiting the indirect pathway (leading to hypokinesia). The pathologic hallmark is **Lewy bodies — intracytoplasmic eosinophilic inclusions composed of aggregated α-synuclein**. Most cases are sporadic; rare familial forms involve mutations in SNCA, LRRK2, and parkin. MPTP (a meperidine analog byproduct) produces a phenocopy by selectively destroying nigral neurons.",
+    "treatment_overview": "**Levodopa (with carbidopa to block peripheral decarboxylation)** is the most effective symptomatic therapy but chronic use produces motor fluctuations and dyskinesias. Dopamine agonists (pramipexole, ropinirole) delay levodopa start in younger patients. MAO-B inhibitors (selegiline, rasagiline) and COMT inhibitors (entacapone) prolong levodopa effect. Amantadine reduces dyskinesias. Anticholinergics (benztropine, trihexyphenidyl) help tremor but cause confusion in elderly. Deep brain stimulation of the subthalamic nucleus is reserved for advanced disease with motor fluctuations.",
+    "high_yield_pearls": [
+      "TRAP: Tremor (resting, pill-rolling), Rigidity (cogwheel), Akinesia/bradykinesia, Postural instability.",
+      "Pathology: loss of dopaminergic neurons in the substantia nigra pars compacta with Lewy bodies (α-synuclein aggregates).",
+      "Early/prominent falls, vertical gaze palsy, or dementia point to Parkinson-plus syndromes (PSP, LBD, MSA), not idiopathic PD.",
+      "Resting tremor distinguishes PD from essential tremor (action/postural tremor improved by alcohol, family history).",
+      "MPTP, a byproduct of illicit meperidine synthesis, causes irreversible parkinsonism by selective destruction of substantia nigra neurons."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Neurodegenerative disorders — Parkinson disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Parkinson disease",
+      "Essential tremor",
+      "Lewy body dementia",
+      "Progressive supranuclear palsy",
+      "Alzheimer dementia",
+      "Normal pressure hydrocephalus (NPH)",
+      "Huntington disease",
+      "Wilson disease"
+    ],
+    "after_stage2_more_likely": [
+      "Parkinson disease",
+      "Lewy body dementia",
+      "Progressive supranuclear palsy"
+    ],
+    "after_stage2_less_likely": [
+      "Essential tremor",
+      "Alzheimer dementia",
+      "Huntington disease"
+    ],
+    "after_labs_top3": [
+      "Parkinson disease",
+      "Lewy body dementia",
+      "Progressive supranuclear palsy"
+    ]
+  }
+}
