@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_186",
+  "mode": "step1",
+  "specialty": "Psychiatry",
+  "diagnosis": "Major depressive disorder",
+  "icd_category": "F32.9 — Major depressive disorder, single episode, unspecified",
+  "one_liner": "A 34-year-old woman presents to her primary care physician with six weeks of persistent sadness, loss of interest in activities she used to enjoy, and difficulty functioning at work.",
+  "stage2": {
+    "hpi_extension": "For the last 6 weeks she has felt **persistently down, tearful, and hopeless most of the day, nearly every day**. She has lost interest in hobbies and spending time with her children. She reports **initial insomnia and early morning awakening**, a 4 kg unintentional weight loss with poor appetite, low energy, **excessive guilt** about being a 'bad mother,' poor concentration at her accounting job, and psychomotor slowing. She denies frank suicidal plans but admits she 'sometimes wouldn't mind not waking up.' No hallucinations, delusions, or manic episodes. No prior psychiatric hospitalizations.",
+    "pmh": "Previously healthy. No thyroid disease.",
+    "surgical_history": "Cesarean delivery",
+    "medications": "Oral contraceptive pill",
+    "allergies": "NKDA",
+    "family_history": "**Mother with depression and suicide attempt; maternal aunt on SSRI**",
+    "social_history": "Married with two children. Accountant. Drinks 1-2 glasses of wine weekly. No tobacco or illicit drug use.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "72 bpm",
+      "bp": "118/74 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: tearful, avoids eye contact, **psychomotor slowing with long response latency**. Affect: constricted and sad. Speech: slow with decreased volume. Thought process: linear. Thought content: self-deprecating; denies active suicidal intent or plan; no homicidal ideation; no hallucinations or delusions. Insight and judgment: intact. Neuro exam: non-focal. Thyroid: non-enlarged. No tremor."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**TSH within normal limits**. Free T4 normal. Cortisol morning level normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Rules out hypothyroidism and adrenal disease as organic causes mimicking depression — essential workup before committing to a primary mood disorder."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium, potassium, calcium, glucose, liver enzymes, and renal function all within normal limits. Vitamin B12 and folate within normal limits.",
+        "flag": "NORMAL",
+        "clinical_significance": "Excludes electrolyte disturbances, hepatic/renal dysfunction, and B12 deficiency, which can all present with depressive symptoms and cognitive slowing."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "**Urine toxicology screen negative** for opioids, cocaine, amphetamines, benzodiazepines, THC, and PCP. Standard urinalysis unremarkable.",
+        "flag": "NORMAL",
+        "clinical_significance": "Rules out substance-induced mood disorder, which must be excluded before diagnosing primary major depressive disorder."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is diagnosed with a single episode of major depressive disorder, moderate severity without psychotic features. She is started on **sertraline** with a safety plan, and referred for **cognitive-behavioral therapy (CBT)**. At 6-week follow-up she reports meaningful improvement in mood, sleep, and energy. She will continue the SSRI for at least 6-12 months after symptom remission to reduce relapse risk."
+  },
+  "debrief": {
+    "classic_presentation": "MDD requires **≥2 weeks of depressed mood and/or anhedonia** plus **≥4 additional symptoms of SIG E CAPS**: **S**leep disturbance (insomnia or hypersomnia), **I**nterest loss (anhedonia), **G**uilt or worthlessness, **E**nergy loss (fatigue), **C**oncentration difficulty, **A**ppetite/weight changes, **P**sychomotor agitation or retardation, and **S**uicidal ideation. Symptoms cause clinically significant distress or impairment and are not attributable to substances or another medical condition. **Atypical** depression features mood reactivity, hyperphagia, hypersomnia, leaden paralysis, and rejection sensitivity. **Melancholic** depression features anhedonia, early morning awakening, and psychomotor changes. **Peripartum** depression occurs during or after pregnancy. **Seasonal** pattern is tied to shorter daylight.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The leading neurobiological model invokes deficits in monoamine neurotransmission — especially **serotonin**, **norepinephrine**, and **dopamine** — in limbic and prefrontal circuits, supported by the efficacy of medications that increase synaptic monoamines. Structural and functional imaging implicate decreased hippocampal and prefrontal volume and altered amygdala activity. Stress-induced **HPA axis dysregulation** with elevated cortisol, diminished BDNF and neurogenesis, and genetic susceptibility (heritability ~35-40%) all contribute. Always exclude contributing medical causes (hypothyroidism, vitamin deficiencies, substance use, medication effects such as interferon or corticosteroids).",
+    "treatment_overview": "First-line: **SSRIs** (fluoxetine, sertraline, citalopram, escitalopram) plus evidence-based psychotherapy such as **cognitive-behavioral therapy (CBT)** or **interpersonal therapy (IPT)**. Second-line: **SNRIs** (venlafaxine, duloxetine), **bupropion** (avoid in seizure disorders and eating disorders), **mirtazapine** (useful if insomnia/poor appetite). TCAs and MAOIs are effective but carry toxicity. **ECT** is highly effective for severe, refractory, psychotic, catatonic, or pregnancy-complicated depression and for acute suicidality. Continue antidepressant therapy for at least 6-12 months after remission for a first episode; longer for recurrent disease.",
+    "high_yield_pearls": [
+      "Mnemonic **SIG E CAPS** covers the DSM-5 depressive symptoms; ≥5 total (including mood or anhedonia) for ≥2 weeks = MDD.",
+      "**Always rule out organic mimics**: check **TSH**, B12, CMP, and substance use before committing to primary MDD.",
+      "**SSRIs are first-line**. Give 4-6 weeks at therapeutic dose before judging response.",
+      "**ECT** is the most effective treatment for severe MDD — indicated in catatonia, active suicidality, pregnancy, and psychotic depression.",
+      "Warn patients that **suicide risk may paradoxically increase** early in SSRI treatment as psychomotor retardation lifts before mood does — monitor closely."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Psychiatry chapter, 'Mood disorders — Major depressive disorder' section.",
+      "First Aid for the USMLE Step 1 (2017) — Psychiatry chapter, 'Psychiatric pharmacology — Antidepressants (SSRIs, SNRIs, atypicals)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Major depressive disorder",
+      "Bipolar disorder",
+      "Hypothyroidism",
+      "Generalized anxiety disorder",
+      "Alcohol use disorder",
+      "Post-traumatic stress disorder (PTSD)",
+      "Vitamin B12 deficiency"
+    ],
+    "after_stage2_more_likely": [
+      "Major depressive disorder",
+      "Hypothyroidism",
+      "Generalized anxiety disorder"
+    ],
+    "after_stage2_less_likely": [
+      "Bipolar disorder",
+      "Alcohol use disorder"
+    ],
+    "after_labs_top3": [
+      "Major depressive disorder",
+      "Generalized anxiety disorder",
+      "Bipolar disorder"
+    ]
+  }
+}

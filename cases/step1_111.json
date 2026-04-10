@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_111",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Emphysema",
+  "icd_category": "J43.9 — Emphysema, unspecified",
+  "one_liner": "A 66-year-old thin man with a 50-pack-year smoking history presents with 3 years of progressive exertional dyspnea and a minimal chronic cough, found to have a barrel-shaped chest and hyperinflated lungs on exam.",
+  "stage2": {
+    "hpi_extension": "His dyspnea has slowly progressed over years; he now becomes breathless climbing one flight of stairs. He has a mild morning cough that is minimally productive and no history of wheezing episodes. He purses his lips while breathing to feel more comfortable. He denies fevers, chills, hemoptysis, orthopnea, or chest pain. He has lost 10 pounds over the past year without trying. He has never been formally diagnosed with a lung disease.",
+    "pmh": "Hypertension",
+    "surgical_history": "None",
+    "medications": "Amlodipine",
+    "allergies": "NKDA",
+    "family_history": "Father died of \"lung trouble\" at 62 (unclear diagnosis)",
+    "social_history": "50 pack-year current smoker. No occupational dust exposure. Social alcohol.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "96 bpm",
+      "bp": "132/80 mmHg",
+      "rr": "22",
+      "spo2": "92% on room air"
+    },
+    "physical_exam": "General: thin, cachectic man (\"**pink puffer**\"), **pursed-lip breathing**, leaning forward on his elbows (tripod position). HEENT: no cyanosis. Neck: use of **sternocleidomastoid and scalene accessory muscles**. Chest: **increased anteroposterior diameter (barrel chest)**. Lungs: **hyperresonance to percussion**, **distant/decreased breath sounds** diffusely, **prolonged expiratory phase**, minimal wheezing. Cardiac: **distant heart sounds**, no murmurs. Extremities: no clubbing, no cyanosis, no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **hyperinflated lungs with flattened diaphragms**, **increased retrosternal airspace** on the lateral view, narrow vertical heart silhouette, and decreased peripheral vascular markings with bullous changes most prominent in the upper lobes. High-resolution CT: **centrilobular emphysema** concentrated in the upper lobes with scattered bullae.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperinflation with upper-lobe-predominant centrilobular emphysema is the radiographic signature of smoking-related emphysema."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Spirometry pre- and post-bronchodilator: **FEV1/FVC = 0.58 (obstructive, not reversible)**, FEV1 48% predicted, FVC 82% predicted, TLC 128% predicted (hyperinflation), **RV 180% predicted (air trapping)**, **DLCO 42% predicted (markedly decreased)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A fixed obstructive pattern with hyperinflation, air trapping, and a markedly decreased DLCO reflects loss of alveolar surface area from emphysematous destruction."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "ABG on room air: pH 7.41, PaCO2 42 mmHg, PaO2 68 mmHg, HCO3 26 mEq/L. BMP and liver panel within normal limits. **Alpha-1 antitrypsin level: 115 mg/dL (normal)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild hypoxemia without hypercapnia is typical of the \"pink puffer\" phenotype. A normal alpha-1 antitrypsin level excludes AAT deficiency as the cause in this older smoker."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Counseled on smoking cessation and started on a long-acting muscarinic antagonist (tiotropium) and pulmonary rehabilitation, his 6-minute walk distance improves and he experiences less dyspnea with daily activities."
+  },
+  "debrief": {
+    "classic_presentation": "Emphysema is part of the COPD spectrum and classically presents in an older long-term smoker with progressive exertional dyspnea and a minimal or absent cough. The classic \"pink puffer\" is thin, uses pursed-lip breathing to maintain airway patency, and maintains relatively normal oxygenation until late disease. Physical findings include a barrel-shaped chest, hyperresonance, distant breath sounds, prolonged expiration, and accessory muscle use. In young non-smokers or with basilar/panacinar distribution, consider alpha-1 antitrypsin deficiency.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Emphysema is defined by permanent enlargement of airspaces distal to the terminal bronchioles with destruction of alveolar walls and loss of elastic recoil. Cigarette smoke recruits neutrophils and macrophages that release elastase and proteases, overwhelming antiproteases (including alpha-1 antitrypsin). Smoking also produces centrilobular emphysema concentrated in the upper lobes. Alpha-1 antitrypsin deficiency (PiZZ) causes panacinar, basilar-predominant emphysema, often presenting in young non-smokers and frequently with coexisting liver disease. Loss of elastic recoil causes dynamic airway collapse during expiration, air trapping, and reduced DLCO.",
+    "treatment_overview": "Smoking cessation is the only intervention proven to slow disease progression. Symptomatic therapy includes inhaled short- and long-acting bronchodilators (beta-2 agonists and muscarinic antagonists), inhaled corticosteroids in frequent exacerbators, pulmonary rehabilitation, and vaccination (influenza, pneumococcal). Long-term oxygen therapy improves survival in patients with resting PaO2 <= 55 mmHg or SpO2 <= 88%. Lung volume reduction surgery and lung transplantation are options in selected patients with severe disease. Alpha-1 antitrypsin deficiency can be treated with IV AAT augmentation.",
+    "high_yield_pearls": [
+      "Emphysema = permanent dilation of airspaces distal to the terminal bronchiole with alveolar wall destruction and loss of elastic recoil.",
+      "Smoking causes centrilobular (upper-lobe-predominant) emphysema; alpha-1 antitrypsin deficiency causes panacinar (basilar-predominant) emphysema.",
+      "Classic \"pink puffer\": thin, dyspneic, pursed-lip breathing, relatively preserved oxygenation.",
+      "PFTs show fixed obstruction (FEV1/FVC < 0.7), hyperinflation (increased TLC/RV), and decreased DLCO.",
+      "Long-term oxygen therapy and smoking cessation are the only interventions proven to improve survival in COPD."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Obstructive lung diseases — Emphysema' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Emphysema",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Alpha-1 antitrypsin deficiency",
+      "Asthma",
+      "Heart failure (systolic)",
+      "Idiopathic pulmonary fibrosis",
+      "Lung cancer (non-small cell / NSCLC)",
+      "Pulmonary hypertension"
+    ],
+    "after_stage2_more_likely": [
+      "Emphysema",
+      "Chronic obstructive pulmonary disease (COPD)"
+    ],
+    "after_stage2_less_likely": [
+      "Asthma",
+      "Heart failure (systolic)",
+      "Idiopathic pulmonary fibrosis"
+    ],
+    "after_labs_top3": [
+      "Emphysema",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Alpha-1 antitrypsin deficiency"
+    ]
+  }
+}

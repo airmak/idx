@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_171",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Endometrial cancer",
+  "icd_category": "C54.1 — Malignant neoplasm of endometrium",
+  "one_liner": "A 62-year-old obese postmenopausal woman presents with two months of intermittent vaginal bleeding. She went through menopause at age 54.",
+  "stage2": {
+    "hpi_extension": "She describes light spotting to frank red bleeding that has occurred several times in the last two months. She denies trauma, intercourse, discharge, or pain. She has had **no menstrual periods for 8 years**. She has never been pregnant. She denies weight loss, early satiety, or abdominal pain. She takes no hormone replacement therapy but was on **tamoxifen** for several years in her 40s for ductal carcinoma in situ. Her mother and maternal aunt both had **colon cancer in their 50s**.",
+    "pmh": "Obesity (BMI 38), type 2 diabetes, hypertension, **PCOS with lifelong oligomenorrhea**, DCIS of the left breast status post lumpectomy and tamoxifen.",
+    "surgical_history": "Lumpectomy",
+    "medications": "Metformin, lisinopril, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Mother: colon cancer age 52. Maternal aunt: colon cancer age 55. Maternal grandmother: 'uterine cancer'. Suggestive of **Lynch syndrome (HNPCC)**.",
+    "social_history": "Never smoker, rare alcohol. Retired teacher. Nulligravida.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "82 bpm",
+      "bp": "142/88 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: obese postmenopausal female, comfortable. Abdomen: obese, soft, non-tender, no masses palpated. Pelvic: external genitalia atrophic. Sterile speculum: cervix parous-appearing, no lesions; **small amount of old blood at the cervical os**. Bimanual: **uterus slightly enlarged but mobile**, no adnexal masses. Rectovaginal: no masses, stool guaiac negative. No inguinal lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Transvaginal ultrasound: endometrial stripe measures 14 mm** (abnormal; postmenopausal threshold <=4 mm). Heterogeneous echogenicity within the endometrial cavity. Both ovaries atrophic and unremarkable. No free fluid.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A **thickened endometrial stripe (>4 mm) in a postmenopausal woman with bleeding** is highly suspicious for endometrial hyperplasia or carcinoma and mandates tissue sampling."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "**Office endometrial biopsy (Pipelle)**: fragments of **endometrioid adenocarcinoma, FIGO grade 1**, with complex glandular crowding, back-to-back glands with little intervening stroma, and mild cytologic atypia. Immunohistochemistry: **strongly ER/PR positive; loss of MLH1 and PMS2 expression** (mismatch repair deficient).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms **endometrioid adenocarcinoma (Type I, estrogen-dependent)**. Loss of MLH1/PMS2 on IHC warrants reflex testing for **Lynch syndrome (HNPCC)** given her family history — Lynch patients carry a lifetime endometrial cancer risk approaching that of colon cancer."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**MLH1 promoter methylation testing: unmethylated**. Germline panel: pathogenic **MLH1 mutation confirmed — Lynch syndrome (HNPCC)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Germline MLH1 mutation confirms Lynch syndrome; first-degree relatives should be offered genetic counseling and surveillance colonoscopy."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She undergoes **total abdominal hysterectomy with bilateral salpingo-oophorectomy and pelvic lymph node sampling (surgical staging)**. Final pathology: **stage IA grade 1 endometrioid adenocarcinoma** confined to the inner half of the myometrium, nodes negative. She requires no adjuvant therapy. Her two brothers and her daughter are referred for Lynch syndrome genetic counseling and colonoscopic surveillance."
+  },
+  "debrief": {
+    "classic_presentation": "**Postmenopausal bleeding is endometrial cancer until proven otherwise.** It is the most common gynecologic malignancy in the United States. Classic risk factors reflect **unopposed estrogen exposure**: obesity (peripheral aromatization of androstenedione to estrone in adipose tissue), nulliparity, early menarche, late menopause, **chronic anovulation (PCOS)**, **tamoxifen** (estrogen agonist on endometrium), estrogen-only HRT, and granulosa cell tumors. **Lynch syndrome (HNPCC)** is a key genetic cause.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**Type I (endometrioid adenocarcinoma, ~80%)** arises from **estrogen-driven endometrial hyperplasia** through a sequence of simple → complex → atypical hyperplasia → carcinoma. Type I tumors are typically low-grade, ER/PR-positive, and carry a favorable prognosis; common mutations include **PTEN, KRAS, PIK3CA, and mismatch repair genes (MLH1, MSH2 — Lynch)**. **Type II (serous, clear cell, carcinosarcoma, ~10–20%)** is **estrogen-independent**, arises in atrophic endometrium of older, thinner women, and is **aggressive** with **TP53** and HER2 mutations; papillary serous carcinoma behaves like high-grade ovarian cancer.",
+    "treatment_overview": "Evaluation: any postmenopausal bleeding warrants transvaginal ultrasound (endometrial stripe >4 mm abnormal) and **endometrial biopsy** for tissue diagnosis (office Pipelle, or D&C/hysteroscopy if sampling is inadequate). Treatment is **surgical staging with total hysterectomy plus bilateral salpingo-oophorectomy** and lymph node assessment. Adjuvant vaginal brachytherapy, pelvic radiation, or chemotherapy is added based on stage, grade, and histology. Progestin therapy can be used in young women with low-grade disease wishing to preserve fertility. Screen first-degree relatives for Lynch syndrome if MMR-deficient.",
+    "high_yield_pearls": [
+      "**Postmenopausal bleeding = endometrial cancer until proven otherwise.** Work-up: transvaginal US + **endometrial biopsy**.",
+      "Risk factors reflect **unopposed estrogen**: obesity, PCOS/anovulation, nulliparity, late menopause, **tamoxifen**, estrogen-only HRT, and granulosa cell tumor.",
+      "**Type I endometrioid adenocarcinoma** (most common) is estrogen-driven, low-grade, and ER/PR positive; **Type II serous/clear cell** is estrogen-independent, TP53-mutated, and aggressive.",
+      "**Lynch syndrome (HNPCC)** dramatically raises risk of **endometrial and colorectal cancer** — loss of MLH1/PMS2 or MSH2/MSH6 on IHC should prompt germline testing.",
+      "Treatment is **surgical staging (TAH/BSO + lymph node assessment)**; progestins can preserve fertility in highly selected young patients with low-grade disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Gynecologic tumors — Endometrial carcinoma' section.",
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Endometrial hyperplasia and unopposed estrogen' and 'Lynch syndrome (HNPCC)'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Endometrial cancer",
+      "Cervical cancer",
+      "Ovarian cancer",
+      "Polycystic ovary syndrome (PCOS)",
+      "Asherman syndrome (intrauterine adhesions)",
+      "Molar pregnancy",
+      "Breast cancer"
+    ],
+    "after_stage2_more_likely": [
+      "Endometrial cancer",
+      "Cervical cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Ovarian cancer",
+      "Molar pregnancy",
+      "Asherman syndrome (intrauterine adhesions)"
+    ],
+    "after_labs_top3": [
+      "Endometrial cancer",
+      "Cervical cancer",
+      "Ovarian cancer"
+    ]
+  }
+}

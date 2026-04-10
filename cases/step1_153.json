@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_153",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Brain tumor (glioblastoma multiforme / GBM)",
+  "icd_category": "C71 — Malignant neoplasm of brain (glioblastoma multiforme)",
+  "one_liner": "A 62-year-old man presents with 6 weeks of progressively worsening morning headaches, new-onset left-sided weakness, confusion, and a generalized tonic-clonic seizure today.",
+  "stage2": {
+    "hpi_extension": "For the past 6 weeks he has had a **dull, progressive headache that is worst on waking in the morning** and improves through the day, sometimes with nausea and one episode of vomiting. His wife has noticed that over the same period he has become **uncharacteristically apathetic and forgetful**, has had **word-finding difficulty**, and has been **dragging his left foot**. This morning he had a **witnessed generalized tonic-clonic seizure** at breakfast and was brought in by EMS. He has never had seizures before. No fever, no recent head trauma, no known malignancy, no travel, no immunosuppression.",
+    "pmh": "Hypertension, hyperlipidemia",
+    "surgical_history": "Inguinal hernia repair at age 45",
+    "medications": "Amlodipine, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Father with colon cancer at age 70; no known brain tumors",
+    "social_history": "Retired engineer. Former smoker (quit 15 years ago, 20 pack-years). Social alcohol.",
+    "vitals": {
+      "temp": "37.1°C",
+      "hr": "88 bpm",
+      "bp": "158/92 mmHg",
+      "rr": "16",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "Postictal, somnolent but arousable. Oriented to self only. **Mild expressive aphasia**. Funduscopy: **bilateral papilledema with blurred disc margins**. Cranial nerves otherwise intact. **Left hemiparesis (3/5 in the left arm and leg)** with increased tone and **hyperreflexia on the left**; **positive Babinski on the left**. Sensation decreased to light touch on the left. No meningismus. Cardiovascular and pulmonary exams unremarkable. No lymphadenopathy, no breast or skin lesions."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain with and without gadolinium: **large heterogeneous ring-enhancing mass centered in the right frontal lobe, crossing the corpus callosum to involve the left frontal lobe ('butterfly' pattern)**, with **central necrosis, surrounding vasogenic edema, and mass effect with midline shift**. No other lesions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A **ring-enhancing lesion crossing the corpus callosum ('butterfly glioma')** with central necrosis in an older adult is highly characteristic of **glioblastoma multiforme (WHO grade IV astrocytoma)**. Differential includes primary CNS lymphoma, brain abscess, and metastasis, but the imaging pattern and clinical context are classic for GBM."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Stereotactic needle biopsy: highly cellular astrocytic tumor with marked pleomorphism, brisk mitotic activity, **pseudopalisading necrosis**, and **microvascular (endothelial/glomeruloid) proliferation**. **GFAP positive**. MGMT promoter hypermethylated. IDH wild-type. **Diagnosis: glioblastoma multiforme, WHO grade IV**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The histologic combination of **pseudopalisading necrosis plus microvascular proliferation** in a **GFAP-positive** astrocytic tumor is diagnostic of GBM (WHO grade IV). MGMT promoter methylation predicts better response to temozolomide."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 137, glucose 108, creatinine 1.0, LFTs normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Excludes metabolic precipitants for the seizure and establishes baseline prior to chemoradiation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on **dexamethasone** for peritumoral edema and **levetiracetam** for seizure prophylaxis. He undergoes **maximal safe surgical resection followed by concurrent external-beam radiation and temozolomide (Stupp protocol)**. Despite treatment, his median expected survival is ~14 months."
+  },
+  "debrief": {
+    "classic_presentation": "**Glioblastoma multiforme (GBM)** is the most common **primary malignant brain tumor in adults**, typically presenting between ages **45 and 70**. Classic clinical features reflect a rapidly growing supratentorial mass: **progressive headaches (classically worse on waking in the morning, improved as the day progresses)**, **nausea and vomiting**, **focal neurologic deficits** (hemiparesis, aphasia), **personality/behavioral change**, **new-onset seizures**, and signs of increased intracranial pressure (**papilledema**). On MRI, GBM is a **heterogeneous ring-enhancing mass with central necrosis and surrounding edema**, and it notoriously **crosses the corpus callosum** to involve both hemispheres, producing the classic **'butterfly glioma'** appearance.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GBM is a **WHO grade IV astrocytoma**, arising from astrocytes or glial precursor cells. It is highly infiltrative and rapidly proliferative. Molecular subtypes include **IDH wild-type** (primary/de novo GBM, the most common in older adults) and **IDH-mutant** (secondary GBM, arising from a lower-grade astrocytoma). Histopathology is characterized by **pseudopalisading necrosis** (tumor cells arranged around areas of necrosis), **microvascular (endothelial/glomeruloid) proliferation**, and marked nuclear pleomorphism. Immunohistochemistry: **GFAP positive**, reflecting astrocytic origin. **MGMT promoter methylation** silences the DNA repair enzyme O6-methylguanine-DNA methyltransferase and predicts better response to alkylating chemotherapy (temozolomide).",
+    "treatment_overview": "Standard of care is the **Stupp protocol**: **maximal safe surgical resection**, followed by **concurrent external-beam radiotherapy and temozolomide** (oral alkylating agent), followed by adjuvant temozolomide. **Dexamethasone** is used to reduce peritumoral vasogenic edema and relieve mass effect. **Antiepileptics** are given for seizures. Tumor-treating fields (TTFields) may be added. Despite aggressive multimodal therapy, prognosis is dismal — **median survival is approximately 14-15 months**, and 5-year survival is under 10%. Primary CNS lymphoma is an important differential, especially in immunosuppressed patients, and should be excluded before steroid use because steroids can cause tumor regression and obscure the biopsy.",
+    "high_yield_pearls": [
+      "GBM = most common primary malignant brain tumor in adults; WHO grade IV astrocytoma; GFAP positive.",
+      "Classic MRI: heterogeneous ring-enhancing mass with central necrosis crossing the corpus callosum ('butterfly glioma').",
+      "Histology: pseudopalisading necrosis + microvascular (endothelial/glomeruloid) proliferation are diagnostic.",
+      "Standard therapy: maximal safe resection + radiation + temozolomide (Stupp protocol); median survival ~14 months.",
+      "Red flags for brain tumor include morning headache that improves through the day, new seizure in an adult, focal deficits, and papilledema."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Adult primary brain tumors — Glioblastoma multiforme' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Metastatic brain disease",
+      "Primary CNS lymphoma",
+      "Meningioma",
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Herpes simplex virus (HSV) encephalitis",
+      "Subdural hematoma (SDH)"
+    ],
+    "after_stage2_more_likely": [
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Metastatic brain disease"
+    ],
+    "after_stage2_less_likely": [
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Herpes simplex virus (HSV) encephalitis"
+    ],
+    "after_labs_top3": [
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Primary CNS lymphoma",
+      "Metastatic brain disease"
+    ]
+  }
+}

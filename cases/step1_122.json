@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_122",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Primary sclerosing cholangitis (PSC)",
+  "icd_category": "K83.0 - Cholangitis (including primary sclerosing cholangitis)",
+  "one_liner": "A 38-year-old man with a 6-year history of ulcerative colitis presents with 3 months of fatigue, generalized itching, intermittent right upper quadrant discomfort, and yellowing of his skin and eyes.",
+  "stage2": {
+    "hpi_extension": "His pruritus is diffuse and worst at night. He reports mild RUQ discomfort without fevers or chills. Over the last month his urine has become dark and his stools lighter. His ulcerative colitis has been well controlled on mesalamine with only rare mild flares. He denies weight loss, melena, or hematemesis. He has never injected drugs, received a transfusion, or traveled internationally.",
+    "pmh": "Ulcerative colitis (diagnosed age 32, pancolitis, well controlled)",
+    "surgical_history": "None",
+    "medications": "Mesalamine",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Software engineer. Nonsmoker. 1-2 beers per week. Married.",
+    "vitals": {
+      "temp": "37.0C",
+      "hr": "76 bpm",
+      "bp": "124/80 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-nourished man with **scleral icterus and mild jaundice**. Skin: diffuse excoriations. No xanthelasmas. Abdomen: soft, mildly tender in the RUQ. **Hepatomegaly palpated 2 cm below the right costal margin**, firm. Spleen tip palpable. No ascites. Rectal exam: brown stool, guaiac negative. No peripheral edema or stigmata of chronic liver disease."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Alkaline phosphatase 720 U/L**, GGT 510, total bilirubin 4.1 mg/dL (direct 3.2), AST 85, ALT 92, albumin 3.8 g/dL, INR 1.1.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A cholestatic pattern (disproportionate alkaline phosphatase and GGT elevation with mild transaminitis) in a young man with ulcerative colitis strongly suggests primary sclerosing cholangitis."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**p-ANCA positive (atypical/perinuclear)**. ANA weakly positive. **Anti-mitochondrial antibody (AMA): NEGATIVE**. IgG4 normal. Viral hepatitis panel negative. **CA 19-9** mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A **positive p-ANCA with negative AMA** in a young man with inflammatory bowel disease and a cholestatic liver panel is highly suggestive of **primary sclerosing cholangitis**. A negative AMA helps distinguish PSC from PBC. Mild CA 19-9 elevation raises concern for, but is not specific for, cholangiocarcinoma (a feared complication)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Magnetic resonance cholangiopancreatography (MRCP): **multifocal strictures and saccular dilations of both intrahepatic and extrahepatic bile ducts, producing a classic 'beaded' appearance ('beads on a string')**. No dominant mass or extrinsic compression. Mild intrahepatic biliary dilation. Gallbladder normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The **'beaded' or 'beads on a string' appearance** of the biliary tree on MRCP is the classic imaging finding of primary sclerosing cholangitis. MRCP is the noninvasive imaging test of choice and has largely replaced diagnostic ERCP."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies",
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Liver biopsy shows **concentric 'onion-skin' periductal fibrosis around bile ducts**, confirming the diagnosis. He is enrolled in a surveillance program with annual MRCP and CA 19-9 monitoring (due to elevated risk of **cholangiocarcinoma**) and is referred to a transplant center, as liver transplantation is the only definitive therapy for advanced PSC."
+  },
+  "debrief": {
+    "classic_presentation": "Primary sclerosing cholangitis (PSC) classically presents in a **young-to-middle-aged man (male:female ~2:1)** with **inflammatory bowel disease, particularly ulcerative colitis (~80% of PSC patients have IBD)**. Symptoms include fatigue, pruritus, jaundice, and intermittent right upper quadrant pain. Patients may present with recurrent episodes of ascending cholangitis. Labs show a cholestatic pattern (elevated alkaline phosphatase and GGT). The key imaging finding on MRCP is the classic **'beads on a string' appearance** from multifocal intra- and extrahepatic biliary strictures alternating with dilated segments.",
+    "attending_mode_notes": null,
+    "pathophysiology": "PSC is a chronic idiopathic cholestatic liver disease characterized by **inflammation and concentric fibrosis of medium and large intrahepatic and extrahepatic bile ducts**, leading to multifocal biliary strictures, cholestasis, biliary cirrhosis, and end-stage liver disease. The histopathologic hallmark is **periductal 'onion-skin' fibrosis**. The pathogenesis is thought to be immune-mediated, with strong association to HLA-B8, HLA-DR3, and **ulcerative colitis**. **p-ANCA** is often positive but not specific. PSC markedly increases risk for **cholangiocarcinoma** (~10-15% lifetime), **gallbladder cancer**, and **colorectal cancer** (in PSC-UC patients).",
+    "treatment_overview": "**There is no effective medical therapy that alters disease progression.** Ursodeoxycholic acid may improve liver biochemistry but does not improve survival and is not universally recommended. Management focuses on: ERCP with balloon dilation/stenting of dominant strictures; antibiotics for cholangitis; vitamin A/D/E/K replacement; surveillance for cholangiocarcinoma (annual MRCP + CA 19-9), gallbladder cancer (annual ultrasound), and colorectal cancer (**annual colonoscopy** in PSC-UC patients due to extremely high risk). **Liver transplantation** is the only definitive treatment for advanced PSC.",
+    "high_yield_pearls": [
+      "PSC = young-to-middle-aged man + **ulcerative colitis (~80%)** + cholestatic labs + **'beads on a string' on MRCP**.",
+      "**p-ANCA positive**, AMA negative (helps distinguish from PBC).",
+      "Histology: **concentric 'onion-skin' periductal fibrosis** of bile ducts.",
+      "Markedly increased risk of **cholangiocarcinoma** (10-15% lifetime) and **colorectal cancer** in PSC-UC patients - require aggressive surveillance with annual MRCP, CA 19-9, and colonoscopy.",
+      "No effective medical therapy; **liver transplantation** is the only definitive treatment; PSC can recur in the transplanted liver."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Primary sclerosing cholangitis' section.",
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Inflammatory bowel disease - Ulcerative colitis' (extraintestinal manifestations)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Primary sclerosing cholangitis (PSC)",
+      "Primary biliary cholangitis (PBC)",
+      "Cholangiocarcinoma",
+      "Autoimmune hepatitis",
+      "Cholangitis",
+      "Hepatitis B",
+      "Drug-induced hepatitis"
+    ],
+    "after_stage2_more_likely": [
+      "Primary sclerosing cholangitis (PSC)",
+      "Cholangiocarcinoma"
+    ],
+    "after_stage2_less_likely": [
+      "Primary biliary cholangitis (PBC)",
+      "Hepatitis B",
+      "Drug-induced hepatitis"
+    ],
+    "after_labs_top3": [
+      "Primary sclerosing cholangitis (PSC)",
+      "Cholangiocarcinoma",
+      "Primary biliary cholangitis (PBC)"
+    ]
+  }
+}

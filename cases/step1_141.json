@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_141",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Idiopathic thrombocytopenic purpura (ITP)",
+  "icd_category": "D69.3 -- Immune thrombocytopenic purpura",
+  "one_liner": "A 34-year-old woman presents with new-onset petechiae on her legs, spontaneous gum bleeding while brushing her teeth, and easy bruising that appeared over the past week.",
+  "stage2": {
+    "hpi_extension": "Over the past 5-7 days she has developed a crop of **pinpoint red spots on her lower legs** and **several unexplained bruises** on her arms. She noticed bleeding when brushing her teeth yesterday and had a brief epistaxis this morning. She denies fever, weight loss, recent new medications, heparin exposure, vaccines, recent travel, or tick bites. She has not had any bloody diarrhea. She feels well and has no confusion or neurologic symptoms. No heavy menses yet but her next period is due.",
+    "pmh": "Previously healthy",
+    "surgical_history": "None",
+    "medications": "None. No over-the-counter NSAIDs, no herbal supplements, no quinine, no recent antibiotics",
+    "allergies": "NKDA",
+    "family_history": "No bleeding disorders; mother with Hashimoto thyroiditis",
+    "social_history": "Accountant, non-smoker, social alcohol only, no IV drug use",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "78 bpm",
+      "bp": "118/70 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing, alert, non-toxic. Skin: **diffuse petechiae over the bilateral lower extremities**, **scattered ecchymoses on the forearms**, **wet purpura (hemorrhagic blisters) on the buccal mucosa**. HEENT: no lymphadenopathy, no oral ulcers. Cardiovascular: normal. Abdomen: soft, non-tender, **NO splenomegaly, NO hepatomegaly**. Neuro: normal mental status, no focal deficits. No joint swelling."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "**Platelets: 12,000/uL (markedly low, isolated)**. Hgb 13.8 g/dL (normal), WBC 7.2 (normal differential). Smear: **isolated thrombocytopenia with scattered large immature platelets**, **NO schistocytes**, no blasts, no atypical lymphocytes, normal red cell morphology.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Isolated thrombocytopenia with large immature platelets on smear and otherwise normal red and white cell lines is classic for ITP. The absence of schistocytes rules out the microangiopathic hemolytic anemias (TTP, HUS, DIC). Normal RBC and WBC lines argue against bone marrow failure and leukemia."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Creatinine 0.8 mg/dL (normal), electrolytes normal, LDH normal, indirect bilirubin normal, coagulation studies (PT/PTT/fibrinogen) normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal creatinine argues against HUS. Normal LDH and bilirubin argue against hemolysis. Normal PT/PTT/fibrinogen rules out DIC. This isolates the problem to platelets."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "HIV negative, HCV negative. ANA negative. **Anti-platelet antibodies can be detected but are neither sensitive nor specific and are not required for the diagnosis.** H. pylori negative. Antiphospholipid antibodies negative.",
+        "flag": "NORMAL",
+        "clinical_significance": "Ruling out secondary causes of immune thrombocytopenia (HIV, HCV, SLE, antiphospholipid syndrome, H. pylori) is important. ITP remains a diagnosis of exclusion in the setting of isolated thrombocytopenia."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A bone marrow biopsy (done only because she did not respond initially) shows **increased megakaryocytes with normal maturation**, confirming peripheral destruction rather than marrow failure. She responds to a course of IVIG and oral corticosteroids with a rapid rise in platelet count."
+  },
+  "debrief": {
+    "classic_presentation": "ITP has two classic presentations. Acute ITP occurs in children 1-2 weeks after a viral infection or vaccination, is usually self-limited, and resolves spontaneously in most cases. Chronic ITP occurs in adults, more commonly in women, and has a more indolent course. Patients develop mucocutaneous bleeding: petechiae, purpura, gum bleeding, epistaxis, menorrhagia, and in severe cases intracranial hemorrhage. Physical exam is otherwise unremarkable -- importantly there is NO splenomegaly, no lymphadenopathy, and no constitutional symptoms.",
+    "attending_mode_notes": null,
+    "pathophysiology": "ITP is caused by autoantibodies (typically IgG) directed against platelet surface glycoproteins, most commonly GPIIb/IIIa. Antibody-coated platelets are cleared by splenic macrophages via Fc receptor-mediated phagocytosis. The bone marrow compensates with increased megakaryopoiesis, but the rate of destruction outpaces production. Secondary ITP can be triggered by HIV, HCV, SLE, antiphospholipid syndrome, lymphoproliferative disease, or drugs; primary ITP has no identified cause.",
+    "treatment_overview": "First-line therapy: corticosteroids (prednisone), which reduce antibody production and splenic clearance. IVIG provides a rapid rise in platelet count by saturating macrophage Fc receptors and is used when rapid response is needed (active bleeding, surgery). Anti-D immunoglobulin can be used in Rh-positive non-splenectomized patients. Refractory or chronic ITP: splenectomy (removes the site of destruction and antibody production), rituximab (anti-CD20), or thrombopoietin receptor agonists (romiplostim, eltrombopag). Avoid platelet transfusion except for life-threatening bleeding -- transfused platelets are rapidly destroyed.",
+    "high_yield_pearls": [
+      "ITP = ISOLATED thrombocytopenia (normal Hgb, normal WBC) with mucocutaneous bleeding and no splenomegaly.",
+      "Anti-GPIIb/IIIa antibodies coat platelets, which are then cleared by splenic macrophages.",
+      "Bone marrow shows INCREASED megakaryocytes -- reflecting attempted compensation for peripheral destruction.",
+      "Acute ITP: child post-viral, self-limited. Chronic ITP: adult women, associated with HIV, HCV, SLE.",
+      "First-line treatment: corticosteroids. Rapid response needed: IVIG or anti-D. Refractory: splenectomy, rituximab, TPO-receptor agonists (romiplostim, eltrombopag)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) -- Hematology and Oncology chapter, 'Platelet disorders -- Immune thrombocytopenia (ITP)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Hemolytic uremic syndrome (HUS)",
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Drug-induced thrombocytopenia",
+      "Acute myeloid leukemia (AML)",
+      "Systemic lupus erythematosus (SLE)",
+      "HIV/AIDS"
+    ],
+    "after_stage2_more_likely": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Drug-induced thrombocytopenia"
+    ],
+    "after_stage2_less_likely": [
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Hemolytic uremic syndrome (HUS)",
+      "Heparin-induced thrombocytopenia (HIT)"
+    ],
+    "after_labs_top3": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Drug-induced thrombocytopenia",
+      "Systemic lupus erythematosus (SLE)"
+    ]
+  }
+}

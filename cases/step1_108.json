@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_108",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Obstructive sleep apnea",
+  "icd_category": "G47.33 — Obstructive sleep apnea (adult) (pediatric)",
+  "one_liner": "A 48-year-old obese man is brought in by his wife for evaluation of **loud snoring with witnessed pauses in breathing**, excessive daytime sleepiness, and morning headaches.",
+  "stage2": {
+    "hpi_extension": "His wife reports he snores loudly every night and frequently stops breathing for 10-20 seconds before **gasping and choking awake**. He falls asleep during meetings and has recently dozed off while driving. He wakes most mornings with a dull **frontal headache** and dry mouth, feels unrefreshed, and needs several cups of coffee to get going. His Epworth Sleepiness Scale score is 16/24. He has gained 20 pounds in the past 2 years.",
+    "pmh": "Hypertension (poorly controlled on 3 agents), hyperlipidemia, type 2 diabetes",
+    "surgical_history": "Tonsillectomy as a child",
+    "medications": "Lisinopril, amlodipine, hydrochlorothiazide, metformin, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Father with HTN and coronary artery disease",
+    "social_history": "Truck driver. Never-smoker. Drinks 2 beers most evenings. Sedentary lifestyle.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "84 bpm",
+      "bp": "156/94 mmHg",
+      "rr": "16",
+      "spo2": "95% on room air"
+    },
+    "physical_exam": "General: **obese (BMI 38)**, **thick neck (collar size 18 inches)**. HEENT: **crowded oropharynx with Mallampati class IV airway**, large tongue, **low-hanging soft palate**, no tonsillar enlargement. Neck: no thyromegaly. Lungs: clear to auscultation bilaterally. Cardiac: regular, loud P2, no murmurs. Extremities: mild pedal edema. Neuro: normal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "In-laboratory polysomnography: **apnea-hypopnea index (AHI) = 42 events/hour** (severe), with predominantly **obstructive apneas** (chest and abdominal effort maintained without airflow). **Oxygen desaturation nadir 78%**, arousal index 48/hour. REM sleep markedly fragmented.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "AHI >= 30 defines severe obstructive sleep apnea. Obstructive (rather than central) events confirm upper airway collapse as the mechanism."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hb 17.6 g/dL, Hct 53% (mildly elevated), WBC 7,200/uL, platelets 245,000/uL.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Secondary erythrocytosis reflects chronic nocturnal hypoxemia stimulating erythropoietin, a recognized complication of untreated OSA."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "12-lead ECG: normal sinus rhythm, **right axis deviation**, **right atrial enlargement (P pulmonale)**. No ischemic changes. Holter monitor: intermittent **nocturnal sinus bradycardia and brief bursts of atrial fibrillation**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Right heart strain and nocturnal arrhythmias are well-described complications of severe OSA with pulmonary hypertension and autonomic dysregulation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Serologic / antibody studies",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Auto-titrating CPAP set to 10 cm H2O eliminates obstructive events on repeat study. At follow-up 3 months later, his daytime sleepiness has resolved, morning headaches are gone, and his blood pressure has improved allowing reduction of one antihypertensive."
+  },
+  "debrief": {
+    "classic_presentation": "Obstructive sleep apnea is characterized by repetitive upper airway collapse during sleep. The classic patient is a middle-aged overweight man with loud habitual snoring, witnessed apneas with gasping arousals, non-restorative sleep, excessive daytime sleepiness, and morning headaches (from nocturnal CO2 retention). Risk factors include obesity, large neck circumference, male sex, craniofacial abnormalities, tonsillar hypertrophy, and a crowded oropharynx (high Mallampati score). Complications include systemic hypertension, pulmonary hypertension, atrial fibrillation, stroke, and motor vehicle accidents from sleepiness.",
+    "attending_mode_notes": null,
+    "pathophysiology": "During sleep, reduced pharyngeal muscle tone allows collapse of the upper airway at the level of the soft palate and base of tongue. Obesity and a crowded oropharynx narrow the airway and increase collapsibility. Airway closure causes apnea or hypopnea, leading to oxygen desaturation and rising CO2, which triggers a sympathetic surge and arousal that reopens the airway. Repeated cycles cause fragmented sleep, intermittent hypoxemia, sympathetic overdrive, and pulmonary vasoconstriction that over time produces systemic HTN, pulmonary HTN, right heart strain (cor pulmonale), and secondary erythrocytosis.",
+    "treatment_overview": "First-line therapy is continuous positive airway pressure (CPAP), which pneumatically splints the airway open. Weight loss is critical and often curative in obese patients. Behavioral measures include sleeping lateral rather than supine and avoiding alcohol and sedatives at bedtime. Oral appliances that advance the mandible are second-line for mild-moderate disease or CPAP-intolerant patients. Surgical options (uvulopalatopharyngoplasty, hypoglossal nerve stimulation, tonsillectomy in appropriate candidates) are reserved for refractory cases.",
+    "high_yield_pearls": [
+      "Diagnosis is made by polysomnography showing AHI >= 5 with symptoms, or AHI >= 15 regardless of symptoms.",
+      "OSA is a major cause of resistant hypertension and independently increases risk of atrial fibrillation and stroke.",
+      "Chronic nocturnal hypoxemia causes pulmonary vasoconstriction, pulmonary hypertension, and right heart failure (cor pulmonale).",
+      "Secondary erythrocytosis results from chronic hypoxia driving erythropoietin production.",
+      "CPAP is first-line; weight loss is disease-modifying in obese patients."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Sleep apnea — Obstructive sleep apnea' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Obstructive sleep apnea",
+      "Hypothyroidism",
+      "Narcolepsy",
+      "Major depressive disorder",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Heart failure (diastolic)",
+      "Chronic fatigue syndrome (myalgic encephalomyelitis/chronic fatigue syndrome)",
+      "Pulmonary hypertension"
+    ],
+    "after_stage2_more_likely": [
+      "Obstructive sleep apnea",
+      "Hypothyroidism"
+    ],
+    "after_stage2_less_likely": [
+      "Major depressive disorder",
+      "Narcolepsy",
+      "Chronic fatigue syndrome (myalgic encephalomyelitis/chronic fatigue syndrome)"
+    ],
+    "after_labs_top3": [
+      "Obstructive sleep apnea",
+      "Pulmonary hypertension",
+      "Hypothyroidism"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_154",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Ankylosing spondylitis",
+  "icd_category": "M45  -  Ankylosing spondylitis",
+  "one_liner": "A 24-year-old man presents with 9 months of progressive low back pain and stiffness that is worst in the morning and improves when he plays soccer.",
+  "stage2": {
+    "hpi_extension": "The pain is insidious, centered over the **sacroiliac joints and lumbar spine**, and has been slowly worsening over many months. **Morning stiffness lasts more than one hour** and significantly improves with activity but **worsens with prolonged rest**. He has been woken from sleep in the second half of the night by the back pain. Over the past 3 months he has also noticed that taking a deep breath feels restricted. Two months ago he had a painful red right eye with photophobia that resolved over a week.",
+    "pmh": "Episode of anterior uveitis 2 months ago, otherwise healthy",
+    "surgical_history": "None",
+    "medications": "Occasional ibuprofen for back pain (helpful)",
+    "allergies": "NKDA",
+    "family_history": "Father has chronic back problems and an unspecified 'spine disease'",
+    "social_history": "Graduate student. Plays recreational soccer. Non-smoker. No IV drug use.",
+    "vitals": {
+      "temp": "37.1degC",
+      "hr": "72 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing young man standing with mildly stooped posture. MSK: **tenderness over bilateral sacroiliac joints**; **positive FABER (Patrick) test bilaterally**. **Decreased lumbar forward flexion on Schober test** (<5 cm increase). **Reduced chest expansion** (<2.5 cm at the 4th intercostal space). Hips with reduced internal rotation. Eyes: mild residual conjunctival injection on the right. Cardiac: soft **early diastolic murmur at the left sternal border** suggestive of aortic regurgitation. Lungs clear. Skin: no rash, no psoriatic plaques, no nail changes."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "**ESR 52 mm/hr** (elevated), **CRP 28 mg/L** (elevated). CBC with mild normocytic anemia of chronic disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated inflammatory markers support an active systemic inflammatory arthropathy and help distinguish inflammatory back pain from mechanical back pain."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "AP pelvis X-ray: **bilateral symmetric sacroiliitis** with joint space narrowing, erosions, and sclerosis. Lumbar spine X-ray: **squaring of vertebral bodies with bridging syndesmophytes** producing a **'bamboo spine'** appearance. No compression fractures.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral sacroiliitis is the radiographic hallmark of ankylosing spondylitis; bamboo spine reflects syndesmophyte-mediated vertebral fusion."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**HLA-B27 positive**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "HLA-B27 is strongly associated with ankylosing spondylitis and the broader seronegative spondyloarthropathies; it supports the diagnosis in the right clinical context."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Inflammatory / infection markers"
+    ],
+    "acceptable_tests": [
+      "Genetic / molecular testing",
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "NSAIDs are started with symptomatic improvement. Because of persistent disease activity and limited range of motion, a TNF-alpha inhibitor (etanercept) is initiated, producing substantial relief of back stiffness and normalization of CRP at 3 months."
+  },
+  "debrief": {
+    "classic_presentation": "Ankylosing spondylitis classically presents in young men (15-40 years) with insidious onset of **chronic inflammatory low back pain and morning stiffness lasting more than one hour** that **improves with exercise and worsens with rest**. Progressive spinal fusion leads to loss of lumbar lordosis, thoracic kyphosis, and decreased chest expansion. Extra-articular manifestations include **anterior uveitis** (most common), **aortic regurgitation**, **apical pulmonary fibrosis**, and cauda equina syndrome from dural ectasia.",
+    "attending_mode_notes": null,
+    "pathophysiology": "AS is a seronegative spondyloarthropathy strongly linked to **HLA-B27** (>90% of patients). Enthesitis  -  inflammation at sites where tendons and ligaments insert into bone  -  is the core lesion. Chronic inflammation at the sacroiliac joints and vertebral corners leads to reactive new bone formation, producing **syndesmophytes** that bridge adjacent vertebrae and culminate in the radiographic **bamboo spine**. The disease is 'seronegative' because rheumatoid factor and anti-CCP are negative.",
+    "treatment_overview": "First-line therapy is **NSAIDs** (indomethacin, naproxen), which provide symptomatic relief and may slow radiographic progression. Physical therapy and postural exercises are essential to preserve spinal mobility. For persistent active disease despite NSAIDs, **TNF-alpha inhibitors** (etanercept, infliximab, adalimumab) are highly effective. IL-17 inhibitors (secukinumab) are an alternative. Conventional DMARDs like methotrexate and sulfasalazine are useful primarily for peripheral joint disease but not for axial disease.",
+    "high_yield_pearls": [
+      "Inflammatory back pain: insidious onset before age 40, morning stiffness >1 hour, improves with exercise, worsens with rest, pain at night.",
+      "Bilateral symmetric sacroiliitis on pelvic X-ray is the earliest and most characteristic radiographic finding.",
+      "HLA-B27 is positive in >90% of ankylosing spondylitis patients; the B27 family of spondyloarthropathies is remembered as PAIR: Psoriatic, Ankylosing spondylitis, IBD-associated, Reactive arthritis.",
+      "Extra-articular features: anterior uveitis (most common), aortic regurgitation, apical pulmonary fibrosis, restrictive lung disease from decreased chest expansion.",
+      "Bamboo spine increases fracture risk even with minor trauma; any AS patient with new back pain after a fall needs urgent imaging for cervical spine fracture."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Seronegative spondyloarthropathies  -  Ankylosing spondylitis' section.",
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'HLA-B27 (PAIR) associations'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Ankylosing spondylitis",
+      "Reactive arthritis (ReA)",
+      "Psoriatic arthritis",
+      "Rheumatoid arthritis",
+      "Osteoarthritis",
+      "Gout",
+      "Fibromyalgia",
+      "Osteomyelitis"
+    ],
+    "after_stage2_more_likely": [
+      "Ankylosing spondylitis",
+      "Reactive arthritis (ReA)"
+    ],
+    "after_stage2_less_likely": [
+      "Osteoarthritis",
+      "Fibromyalgia",
+      "Gout"
+    ],
+    "after_labs_top3": [
+      "Ankylosing spondylitis",
+      "Psoriatic arthritis",
+      "Reactive arthritis (ReA)"
+    ]
+  }
+}

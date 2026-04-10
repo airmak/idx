@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_103",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Transient ischemic attack (TIA)",
+  "icd_category": "G45.9 — Transient cerebral ischemic attack, unspecified",
+  "one_liner": "A 72-year-old man presents to the ED after an episode of right-sided weakness and slurred speech that began abruptly, lasted about 25 minutes, and resolved completely.",
+  "stage2": {
+    "hpi_extension": "While eating breakfast, his right arm suddenly became weak and he dropped his fork. His wife noticed his speech was slurred and he could not name the objects in front of him. The symptoms resolved fully within 25 minutes, and by the time of ED arrival his exam was normal. He reports a similar briefer episode two weeks ago that lasted less than five minutes, which he ignored. He denies headache, loss of consciousness, trauma, or seizure activity. He has a long history of **untreated atherosclerotic risk factors**.",
+    "pmh": "Hypertension, hyperlipidemia, type 2 diabetes, 50 pack-year smoking history",
+    "surgical_history": "None",
+    "medications": "Hydrochlorothiazide (poor adherence)",
+    "allergies": "NKDA",
+    "family_history": "Brother with myocardial infarction at 65",
+    "social_history": "Current smoker, 1 ppd x 50 years. Occasional alcohol. Retired postal worker.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "74 bpm",
+      "bp": "168/92 mmHg",
+      "rr": "14",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: well-appearing older man, now asymptomatic. HEENT: **left carotid bruit** on auscultation. Cardiovascular: regular rhythm, no murmurs. Lungs clear. Neuro: mental status, cranial nerves II-XII, strength (5/5 throughout), sensation, coordination, and gait all **intact on current exam**. No dysarthria, no aphasia, no visual field deficit, no facial droop. Reflexes 2+ and symmetric. No Babinski. NIH Stroke Scale = 0."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**MRI brain with diffusion-weighted imaging**: **no acute infarct**, no hemorrhage, and only mild chronic small-vessel ischemic changes. **Carotid duplex ultrasound**: **70-80% stenosis of the left internal carotid artery** with elevated peak systolic velocity; right ICA <50% stenosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "By current definition, a TIA is a transient episode of neurologic dysfunction caused by focal ischemia without evidence of acute infarction on imaging. High-grade ipsilateral carotid stenosis (>70%) is a strong indication for carotid endarterectomy in symptomatic patients."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Normal sinus rhythm. No acute ischemic changes. Ambulatory cardiac monitoring ordered to evaluate for paroxysmal atrial fibrillation.",
+        "flag": "NORMAL",
+        "clinical_significance": "EKG and prolonged monitoring are essential to exclude atrial fibrillation, the most common cardioembolic source of TIA and ischemic stroke."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Glucose 182 mg/dL, HbA1c 8.4% (from sent labs), LDL 162 mg/dL, creatinine 1.0, electrolytes normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Poorly controlled diabetes and hyperlipidemia are modifiable vascular risk factors driving atherosclerosis and stroke risk; they must be aggressively treated for secondary prevention."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on aspirin and a high-intensity statin, blood pressure and glucose are optimized, he is counseled to stop smoking, and vascular surgery is consulted for **left carotid endarterectomy** given his symptomatic >70% stenosis."
+  },
+  "debrief": {
+    "classic_presentation": "TIA classically presents with the abrupt onset of a focal neurologic deficit (unilateral weakness, numbness, dysarthria, aphasia, or **amaurosis fugax** — transient monocular blindness from retinal artery ischemia) that **resolves completely**, typically within minutes to an hour. By modern tissue-based definition, the absence of acute infarct on MRI distinguishes TIA from ischemic stroke. TIAs are a warning sign: the risk of stroke is highest in the first 48 hours and may exceed 10% at 90 days, motivating prompt evaluation and treatment.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Transient ischemia most often arises from **atherosclerotic plaque** at the carotid bifurcation (artery-to-artery embolism, the most common cause in older patients with vascular risk factors) or from **cardioembolism**, classically due to atrial fibrillation with left atrial appendage thrombus. Less common mechanisms include small-vessel lipohyalinosis (lacunar), vasculitis, hypercoagulable states, and carotid/vertebral artery dissection in younger patients. Ischemia that resolves before cell death occurs produces transient symptoms without infarction. The **ABCD2 score** (Age, Blood pressure, Clinical features, Duration, Diabetes) estimates short-term stroke risk after TIA and guides disposition.",
+    "treatment_overview": "All TIA patients receive **antiplatelet therapy** (aspirin monotherapy, or short-course dual antiplatelet therapy with aspirin plus clopidogrel for 21-90 days in high-risk patients) and a **high-intensity statin** regardless of LDL. Modifiable vascular risk factors are addressed aggressively: blood pressure lowering, diabetes control, smoking cessation, and weight loss. Patients with atrial fibrillation receive **anticoagulation** (warfarin or a DOAC) rather than antiplatelets. **Carotid endarterectomy** is indicated for symptomatic ipsilateral carotid stenosis of 70-99% (and for selected 50-69% lesions) and should be performed within 2 weeks of the event when possible. Carotid stenting is an alternative in selected patients.",
+    "high_yield_pearls": [
+      "TIA = transient focal neurologic deficit without acute infarct on MRI; modern definition is tissue-based, not time-based.",
+      "Stroke risk after TIA is highest in the first 48 hours — urgent workup is mandatory.",
+      "ABCD2 score stratifies short-term stroke risk: Age >60, BP >140/90, Clinical (unilateral weakness/speech), Duration, Diabetes.",
+      "Symptomatic carotid stenosis >70% is an indication for carotid endarterectomy.",
+      "Amaurosis fugax ('curtain descending over the eye') is classic for an embolus to the ophthalmic artery from ipsilateral carotid disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Stroke — Transient ischemic attack' section.",
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Cerebral vascular supply — Ischemic stroke' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Transient ischemic attack (TIA)",
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke",
+      "Migraine",
+      "Epilepsy",
+      "Hypoglycemia",
+      "Bell palsy",
+      "Subclavian steal syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Transient ischemic attack (TIA)",
+      "Stroke (ischemic)",
+      "Subclavian steal syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Migraine",
+      "Bell palsy"
+    ],
+    "after_labs_top3": [
+      "Transient ischemic attack (TIA)",
+      "Stroke (ischemic)",
+      "Hemorrhagic stroke"
+    ]
+  }
+}

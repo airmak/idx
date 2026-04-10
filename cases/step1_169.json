@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_169",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Gestational diabetes",
+  "icd_category": "O24.4 — Gestational diabetes mellitus",
+  "one_liner": "A 31-year-old G2P1 woman at 26 weeks gestation presents to her prenatal visit for routine screening. She is asymptomatic but notes that her previous baby was born weighing 10 lb 2 oz.",
+  "stage2": {
+    "hpi_extension": "She has had an uncomplicated pregnancy so far with normal first-trimester labs. She denies polyuria, polydipsia, weight loss, or visual changes. Her prior pregnancy two years ago resulted in a **macrosomic infant (4,600 g / 10 lb 2 oz)** delivered by cesarean after shoulder dystocia; she was not formally screened for diabetes postpartum. Her mother has type 2 diabetes. She is here for her **24–28 week glucose screening**.",
+    "pmh": "G2P1001. Obesity (pre-pregnancy BMI 33).",
+    "surgical_history": "Cesarean section two years ago for shoulder dystocia.",
+    "medications": "Prenatal vitamins with iron",
+    "allergies": "NKDA",
+    "family_history": "Mother with type 2 diabetes on metformin. Father with hypertension.",
+    "social_history": "Non-smoker, no alcohol since conception. Sedentary job. Hispanic ethnicity.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "84 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing gravid female. Weight gain 18 lb so far (above target for BMI). Abdomen: gravid, fundal height 29 cm at 26 weeks (**size greater than dates**, concerning for macrosomia or polyhydramnios). Fetal heart tones 148 bpm. Extremities: mild dependent edema. No **acanthosis nigricans** noted at the nape. No signs of infection."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**50-g oral glucose challenge test (non-fasting): 1-hour plasma glucose = 168 mg/dL (abnormal, >140)**. Confirmatory **3-hour 100-g oral glucose tolerance test (fasting)**: fasting 98 (normal <95), 1-hour 198 (abnormal, >180), 2-hour 170 (abnormal, >155), 3-hour 148 (abnormal, >140). **Two or more values elevated = diagnostic of gestational diabetes (Carpenter-Coustan criteria)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Standard two-step screening: universal 50-g GCT at **24–28 weeks**, followed by diagnostic 3-hour 100-g OGTT if the 1-hour is elevated. Two or more abnormal values on the OGTT establish the diagnosis of **gestational diabetes mellitus (GDM)**."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 138, K 4.1, Cr 0.6, **fasting glucose 98 mg/dL**, **HbA1c 5.9%**. Liver function normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "HbA1c in the 'high-normal'/prediabetic range. Elevated fasting glucose and mildly elevated A1c help distinguish new-onset GDM from **pre-existing (overt) type 2 diabetes** that was unrecognized before pregnancy (A1c >=6.5% at first visit suggests overt DM)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Obstetric ultrasound: single live intrauterine fetus, **estimated fetal weight at the 92nd percentile** for gestational age, **polyhydramnios** (AFI 26 cm). Placenta fundal, no previa. Umbilical artery Dopplers normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Macrosomia (large for gestational age)** and **polyhydramnios** are classic fetal signs of maternal hyperglycemia (fetal hyperinsulinemia drives anabolism and osmotic diuresis)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on a diabetic diet and carbohydrate counting with home glucose monitoring. Despite dietary compliance, her fasting values remain above 95 mg/dL, so **insulin** is initiated (the preferred pharmacotherapy in pregnancy). At delivery her infant develops transient **neonatal hypoglycemia** from fetal hyperinsulinemia and is fed early. A **75-g 2-hour OGTT at 6–12 weeks postpartum** is scheduled to screen for persistent type 2 diabetes."
+  },
+  "debrief": {
+    "classic_presentation": "Gestational diabetes is glucose intolerance first recognized in pregnancy, typically in the second or third trimester. Most patients are **asymptomatic** and identified by universal screening. Risk factors include **obesity, age >25, family history of diabetes, history of GDM or macrosomia, PCOS, and higher-risk ethnic backgrounds** (Hispanic, African American, Native American, South/East Asian, Pacific Islander). Clues include a prior macrosomic infant, size-greater-than-dates uterus, and polyhydramnios.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Placental hormones (human placental lactogen, estrogen, progesterone, cortisol) create a state of progressive **insulin resistance** through pregnancy to shunt glucose to the fetus. Most women compensate with increased pancreatic insulin secretion; those with limited beta-cell reserve develop hyperglycemia. Maternal glucose freely crosses the placenta; maternal insulin does not. The fetus responds with **hyperinsulinemia**, which drives macrosomia (insulin is an anabolic growth factor) and, after delivery, a sudden cessation of maternal glucose supply leads to **neonatal hypoglycemia**. Fetal hyperinsulinemia also delays surfactant production (increased risk of neonatal respiratory distress) and contributes to polycythemia and hyperbilirubinemia.",
+    "treatment_overview": "Step 1: **medical nutrition therapy** (complex carbs, portion control) and moderate exercise; home glucose monitoring targeting fasting <95 and 1-hour postprandial <140. Step 2: pharmacotherapy if targets are not met — **insulin is first-line** (does not cross placenta). Metformin and glyburide are alternatives but cross the placenta. Deliver by 39–40 weeks if well controlled; earlier for vascular or glycemic complications. Estimate fetal weight near term; offer cesarean for estimated fetal weight >=4,500 g to reduce shoulder dystocia and **brachial plexus (Erb-Duchenne) injury**. Rescreen with a **75-g 2-hour OGTT at 6–12 weeks postpartum** — 50% lifetime risk of type 2 diabetes.",
+    "high_yield_pearls": [
+      "**Universal screening at 24–28 weeks** with the 50-g 1-hour glucose challenge; confirm with a 3-hour 100-g OGTT (two-step) or use a one-step 75-g 2-hour OGTT.",
+      "Fetal complications: **macrosomia, shoulder dystocia, brachial plexus injury, neonatal hypoglycemia, polycythemia, hyperbilirubinemia, respiratory distress, and polyhydramnios**. Unlike pregestational DM, GDM does **not** cause congenital anomalies because hyperglycemia begins after organogenesis.",
+      "**Insulin is the preferred pharmacologic therapy** in GDM because it does not cross the placenta; metformin and glyburide are alternatives.",
+      "Neonatal hypoglycemia after delivery is driven by **persistent fetal hyperinsulinemia** once the maternal glucose supply ends — feed early, monitor glucose.",
+      "Rescreen all GDM patients with a **75-g 2-hour OGTT at 6–12 weeks postpartum**; these women carry roughly a 50% lifetime risk of developing type 2 diabetes."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Pregnancy complications — Gestational diabetes' section.",
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes mellitus — types and complications' (for GDM/T2DM overlap)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Gestational diabetes",
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus",
+      "Polycystic ovary syndrome (PCOS)",
+      "Preeclampsia",
+      "Hyperemesis gravidarum",
+      "Cushing syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Gestational diabetes",
+      "Type 2 diabetes mellitus"
+    ],
+    "after_stage2_less_likely": [
+      "Type 1 diabetes mellitus",
+      "Hyperemesis gravidarum",
+      "Cushing syndrome"
+    ],
+    "after_labs_top3": [
+      "Gestational diabetes",
+      "Type 2 diabetes mellitus",
+      "Polycystic ovary syndrome (PCOS)"
+    ]
+  }
+}

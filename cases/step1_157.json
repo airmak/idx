@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_157",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Scleroderma (systemic sclerosis)",
+  "icd_category": "M34  -  Systemic sclerosis (scleroderma)",
+  "one_liner": "A 48-year-old woman presents with 2 years of progressive skin tightening over her fingers and face, episodes of her fingers turning white and blue in the cold, and worsening heartburn.",
+  "stage2": {
+    "hpi_extension": "Over 2 years she has noted **thickening and tightening of the skin over her fingers, hands, and face**, so that her face appears shiny with loss of wrinkles and her mouth feels small. Her **fingers turn white, then blue, then red** with cold exposure or emotional stress (**triphasic Raynaud phenomenon**)  -  this started about 4 years ago and was her first symptom. She has **severe heartburn** that wakes her at night and a sensation that food 'gets stuck' in her chest. She notes several small red spots on her face and lips and a few firm nodules on her fingertips. She denies fever, rash, muscle weakness, hemoptysis, or hematuria.",
+    "pmh": "GERD, Raynaud phenomenon",
+    "surgical_history": "None",
+    "medications": "Omeprazole, amlodipine (for Raynaud)",
+    "allergies": "NKDA",
+    "family_history": "No known rheumatologic disease",
+    "social_history": "Elementary school teacher. Non-smoker. Rare alcohol.",
+    "vitals": {
+      "temp": "36.9degC",
+      "hr": "80 bpm",
+      "bp": "138/86 mmHg",
+      "rr": "14",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: shiny, taut facial skin with **perioral furrowing and decreased oral aperture (microstomia)**. Skin: **sclerodactyly** with tight, shiny skin over the fingers; **digital pitting scars** at the fingertips; small firm **subcutaneous calcinosis nodules** over the PIPs; multiple small **telangiectasias** on the face, lips, and palms. MSK: flexion contractures at several PIP joints. No rash of the knuckles or eyelids. Muscle strength 5/5 throughout. Cardiac: regular, no murmurs. Lungs: fine **bibasilar inspiratory crackles** ('Velcro rales'). Abdomen: soft, non-tender."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**ANA positive, 1:640, centromere pattern**. **Anti-centromere antibody positive**. Anti-Scl-70 (anti-topoisomerase I) negative. Anti-RNA polymerase III negative. Anti-Jo-1 negative. Rheumatoid factor negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A positive anti-centromere antibody is highly specific for **limited cutaneous systemic sclerosis (CREST syndrome)**, consistent with this patient's skin-distal-to-elbow distribution and prominent Raynaud, calcinosis, esophageal, sclerodactyly, and telangiectasia features."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "High-resolution chest CT: mild bibasilar reticular changes without definite honeycombing; hand X-rays show **subcutaneous calcinosis** and acral soft-tissue resorption of the distal phalanges.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Early interstitial lung disease and calcinosis are well-recognized scleroderma complications; pulmonary involvement is the leading cause of mortality and warrants monitoring."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Creatinine 0.9 mg/dL (normal), urea nitrogen normal, liver enzymes normal, electrolytes normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal renal function helps exclude **scleroderma renal crisis**, which presents with abrupt severe hypertension, acute kidney injury, and microangiopathic hemolysis and is treated urgently with ACE inhibitors."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Functional / provocative testing"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is continued on a calcium channel blocker for Raynaud, a PPI is up-titrated for severe reflux, and she is screened annually with pulmonary function tests and echocardiogram for interstitial lung disease and pulmonary arterial hypertension. Mycophenolate mofetil is added when PFTs show declining DLCO."
+  },
+  "debrief": {
+    "classic_presentation": "Systemic sclerosis typically affects **women aged 30-50**. The **limited cutaneous** form (formerly CREST) features skin thickening distal to the elbows and knees and on the face, and the mnemonic **CREST** summarizes the classic features: **Calcinosis, Raynaud phenomenon, Esophageal dysmotility, Sclerodactyly, Telangiectasias**. Pulmonary arterial hypertension is the dominant late complication. The **diffuse cutaneous** form shows rapid widespread skin involvement, early internal organ disease  -  interstitial lung disease, **scleroderma renal crisis**, and cardiac involvement  -  and a worse prognosis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Scleroderma is an autoimmune connective tissue disease characterized by **endothelial injury, immune dysregulation, and excessive collagen deposition** (fibrosis) in skin and internal organs. Small-vessel vasculopathy produces Raynaud phenomenon and pulmonary arterial hypertension. Autoantibodies help classify disease: **anti-centromere antibody** correlates with the **limited** form and PAH risk; **anti-Scl-70 (anti-topoisomerase I)** correlates with the **diffuse** form and interstitial lung disease; **anti-RNA polymerase III** correlates with diffuse disease and **scleroderma renal crisis**.",
+    "treatment_overview": "Treatment is organ-directed. **Raynaud**: calcium channel blockers (nifedipine, amlodipine), avoidance of cold and tobacco. **GERD/dysmotility**: PPIs, prokinetics. **Interstitial lung disease**: mycophenolate mofetil, cyclophosphamide, nintedanib. **Pulmonary arterial hypertension**: endothelin receptor antagonists, PDE5 inhibitors, prostacyclins. **Scleroderma renal crisis**: **urgent ACE inhibitors (captopril)**  -  mainstay, lifesaving. Methotrexate and immunosuppressants can be used for skin and early inflammatory disease.",
+    "high_yield_pearls": [
+      "Limited scleroderma (CREST) = Calcinosis, Raynaud, Esophageal dysmotility, Sclerodactyly, Telangiectasias  -  associated with anti-centromere antibody.",
+      "Diffuse scleroderma involves skin proximal to elbows/knees and trunk, with early visceral disease  -  associated with anti-Scl-70 (anti-topoisomerase I).",
+      "Scleroderma renal crisis presents with malignant hypertension and AKI; treat with ACE inhibitors (captopril) even if creatinine is rising  -  withholding ACEi is a common wrong answer.",
+      "Anti-RNA polymerase III antibodies correlate with diffuse disease and particularly with scleroderma renal crisis.",
+      "Pulmonary complications (interstitial lung disease and pulmonary arterial hypertension) are the leading cause of death in scleroderma; screen annually with PFTs and echo."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Scleroderma (systemic sclerosis)' section.",
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Autoantibody associations in rheumatology'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Scleroderma (systemic sclerosis)",
+      "Mixed connective tissue disease (MCTD)",
+      "Systemic lupus erythematosus (SLE)",
+      "Dermatomyositis",
+      "Rheumatoid arthritis",
+      "Undifferentiated connective tissue disease",
+      "Sjögren syndrome",
+      "Eosinophilic granulomatosis with polyangiitis (EGPA / Churg-Strauss)"
+    ],
+    "after_stage2_more_likely": [
+      "Scleroderma (systemic sclerosis)",
+      "Mixed connective tissue disease (MCTD)"
+    ],
+    "after_stage2_less_likely": [
+      "Rheumatoid arthritis",
+      "Dermatomyositis",
+      "Sjögren syndrome"
+    ],
+    "after_labs_top3": [
+      "Scleroderma (systemic sclerosis)",
+      "Mixed connective tissue disease (MCTD)",
+      "Systemic lupus erythematosus (SLE)"
+    ]
+  }
+}

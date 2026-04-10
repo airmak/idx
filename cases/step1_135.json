@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_135",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Carcinoid Syndrome",
+  "icd_category": "E34.0 — Carcinoid syndrome",
+  "one_liner": "A 58-year-old man presents with 6 months of recurrent episodes of facial flushing, watery diarrhea, and wheezing triggered by meals and alcohol.",
+  "stage2": {
+    "hpi_extension": "He describes sudden episodes of **bright red flushing of the face, neck, and upper chest** lasting 10-30 minutes, often triggered by meals, red wine, or stress. Between episodes he has **frequent watery, non-bloody diarrhea** (5-8 times daily) and has lost 15 pounds. He also reports **intermittent wheezing and shortness of breath** not previously diagnosed as asthma. Recently he noted **lower extremity swelling** and increasing fatigue.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "Loperamide as needed",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Construction foreman, married. Non-smoker, drinks red wine with dinner.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "88 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "16",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: thin man, mildly flushed. HEENT: diffuse erythema of face and neck during interview. Cardiovascular: **holosystolic murmur at the left lower sternal border that increases with inspiration (tricuspid regurgitation)** and a **soft systolic ejection murmur of pulmonic stenosis**; elevated JVP with prominent V waves. Lungs: scattered **expiratory wheezes**. Abdomen: **hepatomegaly**, non-tender. Extremities: **2+ lower extremity pitting edema**. Skin: **telangiectasias over the cheeks**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**24-hour urinary 5-hydroxyindoleacetic acid (5-HIAA) markedly elevated** at 78 mg/24 hr (normal <9). Serum chromogranin A also elevated. Serum serotonin elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Elevated 24-hour urinary 5-HIAA** is the gold-standard biochemical test for carcinoid syndrome. 5-HIAA is the major breakdown product of serotonin secreted by the tumor."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**CT abdomen/pelvis with contrast**: a 2.2 cm enhancing mass in the **terminal ileum** with mesenteric lymphadenopathy and **multiple bilobar hepatic metastases**. Octreotide scan (somatostatin receptor scintigraphy) shows tracer avidity at all sites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A **small-bowel primary with liver metastases** is the classic anatomic substrate for carcinoid syndrome. Symptoms occur only once hepatic metastases bypass first-pass hepatic inactivation of serotonin."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 137, potassium 3.6, bicarbonate 20, creatinine 0.9. **Low albumin 2.8 g/dL**. LFTs: mildly elevated alkaline phosphatase and AST.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypoalbuminemia reflects chronic diarrhea and malnutrition; elevated alkaline phosphatase suggests hepatic metastatic infiltration."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on **octreotide (long-acting somatostatin analog)**, with dramatic reduction in flushing and diarrhea. He undergoes surgical debulking of the hepatic metastases, and echocardiography confirms **carcinoid heart disease** (thickened tricuspid and pulmonic valves)."
+  },
+  "debrief": {
+    "classic_presentation": "Carcinoid syndrome classically presents with **episodic cutaneous flushing, secretory diarrhea, bronchospasm/wheezing, and right-sided cardiac valvular lesions (tricuspid regurgitation and pulmonic stenosis)**. Flushing is often triggered by alcohol, spicy food, or emotional stress. Symptoms arise because serotonin and other vasoactive substances released by the tumor reach the systemic circulation. This only occurs when the tumor has **metastasized to the liver** (bypassing hepatic first-pass metabolism of serotonin) or originates outside the portal circulation (e.g., bronchial carcinoid). Long-standing exposure causes **fibrous plaques on right-sided heart valves** due to serotonin-induced fibroblast proliferation.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Carcinoid tumors are **neuroendocrine tumors** derived from enterochromaffin cells, most commonly arising in the **ileum, appendix, and bronchus**. They secrete **serotonin (5-HT)** along with histamine, bradykinin, and tachykinins. Under normal conditions, serotonin draining from a gut primary is metabolized by hepatic monoamine oxidase to 5-HIAA, preventing systemic effects. Once **liver metastases** develop, serotonin bypasses the liver and enters the systemic circulation, producing carcinoid syndrome. Chronic serotonin exposure induces **fibrotic changes on right-sided valves (TR and PS)**; the left side is spared because pulmonary MAO inactivates serotonin before it reaches the left heart. Tryptophan is diverted to serotonin synthesis and can cause **niacin (B3) deficiency / pellagra-like syndrome** (dermatitis, diarrhea, dementia).",
+    "treatment_overview": "**Octreotide or lanreotide (somatostatin analogs)** control symptoms by inhibiting tumor hormone release and are first-line for symptomatic carcinoid syndrome. Surgical resection of the primary tumor and hepatic debulking (resection, ablation, or hepatic artery embolization) are used for disease control. **Telotristat** (tryptophan hydroxylase inhibitor) can be added for refractory diarrhea. Avoid serotoninergic triggers and treat heart disease supportively; valve replacement may be required.",
+    "high_yield_pearls": [
+      "Classic tetrad of carcinoid syndrome: **flushing, diarrhea, wheezing/bronchospasm, right-sided heart valve lesions (TR and PS)**.",
+      "**Urinary 5-HIAA** (serotonin metabolite) is the best screening test.",
+      "Carcinoid syndrome requires **liver metastases** of an intestinal carcinoid — otherwise the liver metabolizes serotonin first-pass. Bronchial carcinoids can bypass the liver and cause symptoms without metastasis.",
+      "Carcinoid heart disease spares the left side because **pulmonary MAO inactivates serotonin** before the left heart.",
+      "Treatment = **octreotide** (somatostatin analog) for symptom control + surgical resection/debulking."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Carcinoid syndrome' section.",
+      "First Aid for the USMLE Step 1 (2017) — Gastrointestinal chapter, 'Serotonin syndrome / enterochromaffin cells' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Carcinoid Syndrome",
+      "Carcinoid tumor",
+      "Pheochromocytoma",
+      "Hyperthyroidism",
+      "Irritable bowel syndrome (IBS)",
+      "Glucagonoma",
+      "Zollinger-Ellison Syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Carcinoid Syndrome",
+      "Carcinoid tumor"
+    ],
+    "after_stage2_less_likely": [
+      "Irritable bowel syndrome (IBS)",
+      "Hyperthyroidism",
+      "Pheochromocytoma"
+    ],
+    "after_labs_top3": [
+      "Carcinoid Syndrome",
+      "Carcinoid tumor",
+      "Pheochromocytoma"
+    ]
+  }
+}

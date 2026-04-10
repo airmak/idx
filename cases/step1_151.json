@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_151",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Amyotrophic lateral sclerosis (ALS)",
+  "icd_category": "G12.21 — Amyotrophic lateral sclerosis",
+  "one_liner": "A 58-year-old man presents with 8 months of progressive weakness and wasting of his right hand, frequent muscle twitches, and more recently slurred speech and difficulty swallowing.",
+  "stage2": {
+    "hpi_extension": "He first noticed **weakness and cramping in his right hand** about 8 months ago, which made it hard to button his shirts and open jars. Over time he developed **visible muscle twitches (fasciculations)** in his right forearm, shoulder, and tongue, and his right hand has become noticeably **thinner (atrophic)**, especially between the thumb and index finger. In the last 2 months he has developed **slurred speech, drooling, and choking on thin liquids**. He denies any **sensory symptoms, pain, bowel or bladder dysfunction, or cognitive change**. He has fallen twice from tripping on his right foot.",
+    "pmh": "Hypertension",
+    "surgical_history": "Appendectomy at age 20",
+    "medications": "Hydrochlorothiazide",
+    "allergies": "NKDA",
+    "family_history": "No known neurologic disease; paternal grandfather died 'of a muscle disease' in his 60s",
+    "social_history": "Retired electrician. Former smoker (quit 10 years ago). Social alcohol.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "78 bpm",
+      "bp": "136/82 mmHg",
+      "rr": "16",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "Mental status normal. **Tongue: atrophy and coarse fasciculations**, dysarthric speech. Motor: **marked wasting of the right first dorsal interosseous and thenar eminence**, 3/5 strength in right intrinsic hand muscles, 4/5 in right biceps and triceps, 4+/5 in right hip flexion; visible fasciculations over right arm and both thighs. **Tone increased (spastic) in the right lower extremity**. Reflexes: **3+ at the right biceps, triceps, patella, and Achilles; positive Babinski on the right; brisk jaw jerk**. **Sensation is completely intact** to light touch, pinprick, vibration, and proprioception in all distributions. Bowel and bladder function preserved."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Nerve conduction study / EMG**: nerve conduction velocities and sensory responses **normal**. EMG shows **widespread fibrillations, positive sharp waves, fasciculations, and large-amplitude long-duration motor unit potentials with reduced recruitment** in muscles of **three or more spinal regions (cervical, thoracic, lumbosacral, bulbar)**, consistent with **active and chronic denervation with reinnervation**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Widespread active and chronic denervation with preserved sensory nerve conduction in multiple body regions is the electrodiagnostic hallmark of ALS and is required to meet El Escorial / Awaji diagnostic criteria."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "MRI of the brain and cervical spine: **no structural lesion**, no cord compression, no demyelinating plaques. Mild nonspecific T2 hyperintensity along the corticospinal tracts.",
+        "flag": "NORMAL",
+        "clinical_significance": "Imaging is obtained to exclude mimics such as cervical spondylotic myelopathy, multiple sclerosis, and structural lesions of the brainstem or cord."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 140, glucose 96, creatinine 0.9, calcium 9.5, TSH 2.1. CK mildly elevated at 450 U/L. B12 normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal metabolic and thyroid studies and normal B12 help exclude metabolic/nutritional mimics. Mild CK elevation is common in ALS from denervation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient is started on **riluzole** (glutamate antagonist) and referred to a multidisciplinary ALS clinic for speech therapy, nutrition, PT/OT, and early discussion of **non-invasive ventilation**. He is counseled about the progressive nature of the disease and typical 3-5 year survival."
+  },
+  "debrief": {
+    "classic_presentation": "ALS classically presents in **middle-aged to older adults (50-60 years)** with **progressive, asymmetric, painless weakness** and a distinctive combination of **upper motor neuron (UMN)** and **lower motor neuron (LMN)** signs in the **same limb or body region**, with **no sensory deficits, no bowel/bladder dysfunction, and typically no cognitive impairment**. **LMN signs**: weakness, atrophy, fasciculations, hyporeflexia. **UMN signs**: spasticity, hyperreflexia, pathologic reflexes (Babinski, Hoffmann), pseudobulbar affect, and brisk jaw jerk. **Bulbar-onset** disease (dysarthria, dysphagia, tongue atrophy and fasciculations) carries the **worst prognosis**. Median survival is 3-5 years; death is usually from **respiratory failure** (diaphragmatic weakness).",
+    "attending_mode_notes": null,
+    "pathophysiology": "ALS is a neurodegenerative disease of **both upper motor neurons (Betz cells and corticospinal tracts)** and **lower motor neurons (anterior horn cells of the spinal cord and brainstem motor nuclei)**. Most cases are sporadic; ~10% are familial, most famously due to mutations in **superoxide dismutase 1 (SOD1)** (gain-of-function/oxidative injury), C9orf72 (hexanucleotide repeat, also causes FTD), TDP-43, and FUS. Mechanisms include **glutamate excitotoxicity**, oxidative stress, mitochondrial dysfunction, and protein aggregation. Sensory pathways and autonomic function are spared — a key distinguishing feature.",
+    "treatment_overview": "No curative therapy exists. **Riluzole** — a **glutamate release inhibitor** — prolongs survival by approximately 3 months. **Edaravone** (free-radical scavenger) slows functional decline in selected patients. Supportive care is central: multidisciplinary ALS clinic, **non-invasive ventilation (NIV/BiPAP)** for respiratory insufficiency (improves survival and quality of life), **PEG tube** for nutrition when dysphagia compromises caloric intake, speech therapy and communication devices, and early advance-care planning. Baclofen or tizanidine for spasticity; dextromethorphan/quinidine for pseudobulbar affect.",
+    "high_yield_pearls": [
+      "ALS = mixed UMN + LMN signs, NO sensory deficits, and NO bowel/bladder involvement.",
+      "LMN signs (atrophy, fasciculations, weakness) + UMN signs (hyperreflexia, spasticity, Babinski) in the same limb is the hallmark.",
+      "Anterior horn cell degeneration underlies the LMN signs; lateral corticospinal tract degeneration underlies the UMN signs.",
+      "Familial ALS is most classically associated with superoxide dismutase 1 (SOD1) mutations (zinc/copper-dependent).",
+      "Riluzole (glutamate antagonist) is the only disease-modifying drug that prolongs survival; death is usually from respiratory failure."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Spinal cord and related lesions — ALS' section.",
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Degenerative diseases — Amyotrophic lateral sclerosis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Amyotrophic lateral sclerosis (ALS)",
+      "Multiple sclerosis (MS)",
+      "Myasthenia gravis",
+      "Lambert-Eaton myasthenic syndrome (LEMS)",
+      "Guillain-Barré syndrome",
+      "Spinal cord compression",
+      "Charcot-Marie-Tooth disease (CMT)",
+      "Vitamin B12 deficiency"
+    ],
+    "after_stage2_more_likely": [
+      "Amyotrophic lateral sclerosis (ALS)",
+      "Spinal cord compression"
+    ],
+    "after_stage2_less_likely": [
+      "Myasthenia gravis",
+      "Lambert-Eaton myasthenic syndrome (LEMS)",
+      "Guillain-Barré syndrome"
+    ],
+    "after_labs_top3": [
+      "Amyotrophic lateral sclerosis (ALS)",
+      "Spinal cord compression",
+      "Multiple sclerosis (MS)"
+    ]
+  }
+}

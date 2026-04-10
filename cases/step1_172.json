@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_172",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Cervical cancer",
+  "icd_category": "C53 — Malignant neoplasm of cervix uteri",
+  "one_liner": "A 42-year-old woman presents with three months of **postcoital vaginal bleeding** and a foul-smelling watery discharge. She has not had a Pap smear in over a decade.",
+  "stage2": {
+    "hpi_extension": "She reports bright red bleeding after intercourse on multiple occasions and intermittent spotting between periods. She also notes a persistent **malodorous watery vaginal discharge** and occasional lower pelvic pain. She became sexually active at age 15, has had **more than 10 lifetime partners**, and has not used condoms consistently. She has not been evaluated by a gynecologist in **over 12 years**. She has never received the HPV vaccine. She smokes 1 pack per day.",
+    "pmh": "HIV diagnosed 5 years ago, poorly compliant with antiretrovirals. Recurrent Chlamydia in her 20s.",
+    "surgical_history": "None",
+    "medications": "TDF/FTC/efavirenz (inconsistent)",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "**Current 1 pack/day smoker (20 pack-years)**. Occasional alcohol. Multiple sexual partners.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "88 bpm",
+      "bp": "128/80 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: thin but well-appearing. Abdomen: soft, non-tender, no masses. **Pelvic speculum: a fungating, friable, exophytic mass approximately 4 cm is seen replacing the anterior lip of the cervix**, bleeding easily with contact. Foul-smelling watery discharge present. Bimanual: **parametrial induration on the right**; uterus mobile; no adnexal mass. Rectovaginal: nodularity palpable in the right uterosacral ligament. No inguinal lymphadenopathy palpated."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "**Colposcopy-directed punch biopsy of the cervical mass**: **invasive squamous cell carcinoma**, moderately differentiated, with keratin pearls and stromal invasion to a depth of >5 mm. **Immunohistochemistry: p16 diffusely positive (surrogate for high-risk HPV)**. Cotest performed: **HPV 16 positive**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diagnostic of **invasive cervical squamous cell carcinoma**, the most common histology. Diffuse p16 staining and HPV-16 confirm a high-risk HPV-driven malignancy."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Pelvic MRI with contrast**: 4.2 cm cervical mass extending into the right parametrium and anterior vaginal fornix. No bladder or rectal invasion. Multiple enlarged right external iliac lymph nodes up to 1.8 cm. **PET/CT**: FDG-avid cervical mass with pelvic nodal uptake; no distant metastases.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Parametrial extension upgrades stage to at least **FIGO IIB**, indicating the tumor has spread beyond the cervix but not to the pelvic sidewall. PET/CT guides nodal and distant staging."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 138, K 4.2, **Cr 1.8** (baseline 0.7), BUN 26, LFTs normal. Renal ultrasound shows **mild right hydronephrosis** from parametrial involvement compressing the ureter.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Hydronephrosis from ureteral obstruction** is a classic cervical cancer complication and automatically makes the tumor at least stage IIIB (FIGO). Uremia is the most common cause of death in advanced cervical cancer."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Gynecologic oncology diagnoses her with **locally advanced cervical squamous cell carcinoma (stage IIIB)** and begins definitive **chemoradiation with concurrent cisplatin** plus brachytherapy. Her mother and teenage daughters are counseled about **HPV vaccination (Gardasil 9 covers HPV 6, 11, 16, 18 and 5 other high-risk types)** and routine Pap/HPV cotesting."
+  },
+  "debrief": {
+    "classic_presentation": "Cervical cancer classically presents with **postcoital bleeding**, intermenstrual or postmenopausal bleeding, a malodorous watery or bloody discharge, and pelvic pain in a middle-aged woman with inadequate screening. Advanced disease causes hydronephrosis, back/flank pain, and lower extremity edema from pelvic sidewall invasion. Risk factors: **persistent high-risk HPV infection (especially HPV 16 and 18), early sexual debut, multiple partners, other STIs, smoking, immunosuppression (HIV, transplant), and in-utero DES exposure** (classic clear cell adenocarcinoma of the vagina/cervix).",
+    "attending_mode_notes": null,
+    "pathophysiology": "Nearly all cervical cancers are driven by **persistent infection with high-risk HPV**, most commonly **HPV 16 and 18**. The viral oncoproteins **E6** (which binds and degrades **p53**) and **E7** (which binds and inactivates **Rb**, releasing E2F) disable cell-cycle checkpoints and allow unchecked proliferation. Transformation begins at the **squamocolumnar junction (transformation zone)** and progresses through **cervical intraepithelial neoplasia (CIN 1 → 2 → 3/carcinoma in situ) → invasive squamous cell carcinoma** (~80% of cases). Adenocarcinoma arises from endocervical glandular cells (~15%) and is also HPV-driven but harder to detect on Pap. Smoking, HIV, and other immunosuppressive states accelerate progression.",
+    "treatment_overview": "Prevention: **HPV vaccination (Gardasil 9)** starting ages 9–12 covers the major high-risk types. Screening: **Pap smear every 3 years starting at age 21**, and Pap + HPV cotesting every 5 years from ages 30–65. Abnormal Pap → **colposcopy with biopsy** ± endocervical curettage. Early-stage disease (IA1): cone biopsy or simple hysterectomy. Stages IA2–IIA: **radical hysterectomy with pelvic lymphadenectomy**. Stages IIB–IVA: **definitive concurrent chemoradiation with cisplatin plus brachytherapy**. Metastatic/recurrent: systemic chemotherapy ± bevacizumab; immunotherapy in select patients.",
+    "high_yield_pearls": [
+      "**High-risk HPV (especially HPV 16 and 18)** causes essentially all cervical cancers. **E6 inactivates p53**; **E7 inactivates Rb**.",
+      "**Postcoital bleeding** in a woman with poor screening is cervical cancer until proven otherwise.",
+      "Screening: **Pap smear every 3 years from age 21**; Pap + HPV cotesting every 5 years from 30–65. Abnormal → **colposcopy with biopsy**.",
+      "Transformation occurs at the **squamocolumnar junction/transformation zone**, progressing through CIN 1 → 2 → 3 → invasive cancer. Most cases are **squamous cell carcinoma**.",
+      "Advanced cervical cancer causes **ureteral obstruction with hydronephrosis and post-obstructive uremia** — the most common cause of death. Prevention: **HPV vaccine (Gardasil)**."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Gynecologic tumors — Cervical cancer' section.",
+      "First Aid for the USMLE Step 1 (2017) — Microbiology, 'Human papillomavirus (HPV) — E6/E7 oncoproteins and p53/Rb'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cervical cancer",
+      "Endometrial cancer",
+      "Chlamydia",
+      "Gonorrhea",
+      "Pelvic inflammatory disease",
+      "HIV/AIDS",
+      "Ectopic pregnancy"
+    ],
+    "after_stage2_more_likely": [
+      "Cervical cancer",
+      "Endometrial cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Chlamydia",
+      "Pelvic inflammatory disease",
+      "Ectopic pregnancy"
+    ],
+    "after_labs_top3": [
+      "Cervical cancer",
+      "Endometrial cancer",
+      "Pelvic inflammatory disease"
+    ]
+  }
+}

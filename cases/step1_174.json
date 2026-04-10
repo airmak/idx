@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_174",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Tay-Sachs disease",
+  "icd_category": "E75.02 — Tay-Sachs disease",
+  "one_liner": "A 6-month-old **Ashkenazi Jewish** infant is brought in for loss of previously acquired motor milestones and an **exaggerated startle response** to sounds.",
+  "stage2": {
+    "hpi_extension": "The baby sat without support at 4 months and babbled but over the last two months has become **floppy, lost the ability to sit**, no longer tracks faces, and is increasingly **irritable**. Parents note a **dramatic startle to loud noises** (hyperacusis) and two brief generalized tonic-clonic seizures this week. Feeding has become difficult due to poor head control. No fevers, no vomiting, no infections.",
+    "pmh": "Uncomplicated pregnancy and term delivery. Normal newborn screen.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Both parents are **Ashkenazi Jewish**. A maternal cousin died in early childhood of an unknown neurologic disease. Parents declined preconception carrier screening.",
+    "social_history": "Lives with both parents; no tobacco, no toxins in the home.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "130 bpm",
+      "bp": "84/50 mmHg",
+      "rr": "28",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: alert but **hypotonic** infant with poor head control. HEENT: **cherry-red spot on the macula bilaterally** on funduscopy. Neuro: **hyperreflexia** at the patellae, sustained clonus, **exaggerated startle to clap**. Abdomen: **no hepatosplenomegaly** (important negative). Skin: no rash, no dysmorphic features."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**Beta-hexosaminidase A (Hex A) enzyme activity markedly decreased** in serum leukocytes. **HEXA gene sequencing** confirms two pathogenic variants (compound heterozygote), consistent with the common Ashkenazi Jewish founder mutation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Deficient Hex A confirms **Tay-Sachs disease**. GM2 ganglioside accumulates in neuronal lysosomes, causing progressive neurodegeneration. Carrier screening in Ashkenazi Jewish couples can prevent affected pregnancies."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain: diffuse **cerebral and cerebellar atrophy** with symmetric **T2 hyperintensity of the basal ganglia and thalami**. No hydrocephalus. No focal mass lesion.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral thalamic and basal ganglia signal changes with cortical atrophy are characteristic of GM2 gangliosidosis and help distinguish lysosomal storage disorders from infectious encephalitis."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Electron microscopy of rectal/conjunctival biopsy: neurons distended with **whorled membranous cytoplasmic bodies** (onion-skin lysosomal inclusions).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Lamellar cytoplasmic inclusions reflect accumulated GM2 ganglioside within lysosomes and are pathognomonic for Tay-Sachs disease."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Genetic / molecular testing",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "EKG / cardiac monitoring",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The family is counseled that there is **no disease-modifying therapy**. Supportive care is provided for feeding, seizures, and respiratory complications. Genetic counseling is arranged for future pregnancies, with discussion of prenatal Hex A enzyme testing and preimplantation genetic diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "Tay-Sachs disease is an autosomal recessive lysosomal storage disease that classically presents in infants of **Ashkenazi Jewish** descent between 3 and 6 months of age with **loss of motor milestones, hypotonia, an exaggerated startle response to sound, and a cherry-red spot on the macula**. Crucially there is **no hepatosplenomegaly**, which distinguishes Tay-Sachs from other sphingolipidoses such as Niemann-Pick and Gaucher disease. Affected children progress to blindness, seizures, and death by age 3 to 5.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Tay-Sachs is caused by autosomal recessive mutations in the **HEXA** gene on chromosome 15, which encodes the alpha subunit of **beta-hexosaminidase A**. Deficient Hex A leads to accumulation of **GM2 ganglioside** in neuronal lysosomes, particularly in the CNS and retina, producing neuronal swelling, dysfunction, and death. The characteristic cherry-red macula reflects preservation of the red foveal choroid surrounded by pale, lipid-laden retinal ganglion cells.",
+    "treatment_overview": "There is **no effective disease-modifying treatment**. Management is supportive: anticonvulsants for seizures, gastrostomy for feeding, and respiratory care. Prevention is based on **preconception carrier screening in Ashkenazi Jewish populations** and prenatal testing; preimplantation genetic diagnosis is an option for at-risk couples.",
+    "high_yield_pearls": [
+      "Tay-Sachs = **hexosaminidase A deficiency** leading to GM2 ganglioside accumulation; Tay-SaX = TAy-SaX (no organomegaly).",
+      "**Cherry-red spot on the macula** occurs in Tay-Sachs, Niemann-Pick, and central retinal artery occlusion — use the presence or absence of hepatosplenomegaly to differentiate.",
+      "Tay-Sachs has **no hepatosplenomegaly**; Niemann-Pick and Gaucher do.",
+      "Classic buzzwords: Ashkenazi Jewish infant, **exaggerated startle**, hyperreflexia, progressive neurodegeneration.",
+      "Electron microscopy shows **onion-skin / whorled lysosomal inclusions** of undegraded GM2 ganglioside."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Lysosomal storage diseases — Sphingolipidoses' section.",
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Autosomal recessive disorders' (Tay-Sachs disease, HEXA)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Tay-Sachs disease",
+      "Niemann-Pick disease",
+      "Gaucher disease",
+      "Mucopolysaccharidoses (MPS)",
+      "Maple syrup urine disease (MSUD)",
+      "Phenylketonuria (PKU)",
+      "Bacterial meningitis"
+    ],
+    "after_stage2_more_likely": [
+      "Tay-Sachs disease",
+      "Niemann-Pick disease"
+    ],
+    "after_stage2_less_likely": [
+      "Bacterial meningitis",
+      "Maple syrup urine disease (MSUD)",
+      "Phenylketonuria (PKU)"
+    ],
+    "after_labs_top3": [
+      "Tay-Sachs disease",
+      "Niemann-Pick disease",
+      "Gaucher disease"
+    ]
+  }
+}

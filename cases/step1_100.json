@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_100",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Atrial flutter",
+  "icd_category": "I48.3 — Typical atrial flutter",
+  "one_liner": "A 68-year-old man with COPD presents to the ED with palpitations and lightheadedness that began two hours ago. His heart rate is persistently 150 bpm and regular.",
+  "stage2": {
+    "hpi_extension": "He reports sudden-onset 'racing heart', mild shortness of breath, and a fluttering sensation in his chest. He denies syncope, chest pain, fever, or recent alcohol binge. He is a long-standing smoker with chronic hypoxemia on home oxygen, and his most recent echocardiogram showed mild right atrial enlargement from cor pulmonale. He takes no antiarrhythmics and denies illicit drug use.",
+    "pmh": "COPD (GOLD stage 3), hypertension, obesity",
+    "surgical_history": "Right knee arthroplasty",
+    "medications": "Tiotropium, albuterol, amlodipine, chronic home O2",
+    "allergies": "NKDA",
+    "family_history": "Brother with atrial fibrillation",
+    "social_history": "60 pack-year smoker, still smoking. Rare alcohol. Retired warehouse worker.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "150 bpm",
+      "bp": "122/78 mmHg",
+      "rr": "20",
+      "spo2": "93% on 2 L nasal cannula"
+    },
+    "physical_exam": "General: alert, mildly anxious. HEENT: unremarkable. Neck: JVP mildly elevated. Cardiovascular: **rapid, regular rhythm** without appreciable murmurs or gallops; no S3. **Flutter waves palpable in the jugular venous pulsations**. Lungs: prolonged expiratory phase with diffuse wheezes (baseline). Abdomen: soft. Extremities: mild chronic stasis changes, no acute edema. Neuro: non-focal."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Narrow-complex tachycardia at a ventricular rate of ~150 bpm with a **regular rhythm**. **Sawtooth flutter waves are best seen in the inferior leads (II, III, aVF)** at an atrial rate near 300 bpm with **2:1 AV conduction**. No identifiable P waves. After carotid sinus massage and adenosine, AV block transiently unmasks additional flutter waves, confirming the diagnosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Classic typical (counterclockwise) atrial flutter. The macro-reentrant circuit travels around the tricuspid annulus in the right atrium through the cavotricuspid isthmus. Ventricular rate of ~150 with a regular narrow-complex tachycardia should always raise suspicion for 2:1 flutter."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 139, potassium 3.9, magnesium 1.9, calcium 9.3, TSH normal. Renal and hepatic function within normal limits.",
+        "flag": "NORMAL",
+        "clinical_significance": "Electrolytes and thyroid function are important reversible triggers for atrial arrhythmias and should be assessed before initiating rate/rhythm control."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Transthoracic echocardiogram**: mildly dilated right atrium and right ventricle, LVEF 60%, no left atrial thrombus visualized on limited views; **transesophageal echo** later excludes left atrial appendage thrombus.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Right atrial enlargement from chronic lung disease is a known substrate for atrial flutter. TEE to exclude thrombus is required before cardioversion when the arrhythmia has been present >48 hours or duration is unknown."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "EKG / cardiac monitoring",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After rate control with a beta-blocker and initiation of anticoagulation, he undergoes synchronized DC cardioversion restoring sinus rhythm, and is later referred for cavotricuspid isthmus catheter ablation."
+  },
+  "debrief": {
+    "classic_presentation": "Atrial flutter classically presents with palpitations, lightheadedness, dyspnea, or fatigue, often with a regular ventricular rate near 150 bpm (reflecting 2:1 AV conduction of an atrial rate of ~300 bpm). The hallmark EKG finding is **sawtooth flutter waves** most prominently in the inferior leads (II, III, aVF). It is frequently associated with structural heart disease, COPD, obstructive sleep apnea, hyperthyroidism, alcohol binge, and post-cardiac surgery.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Typical (type I) atrial flutter is a macro-reentrant arrhythmia circling the tricuspid annulus in the right atrium, usually in a counterclockwise direction, with an obligate passage through the **cavotricuspid isthmus**. The organized atrial activity produces a regular atrial rate of approximately 250-350 bpm (classically 300), and the AV node imposes fixed or variable block (2:1, 3:1, 4:1) to generate the ventricular response. Atypical flutter originates from circuits in the left atrium or around scar tissue. Chronic atrial enlargement from COPD, mitral valve disease, or heart failure provides the anatomic substrate. Like atrial fibrillation, atrial flutter predisposes to left atrial appendage thrombus formation and systemic embolism.",
+    "treatment_overview": "Unstable patients (hypotension, heart failure, ischemia) receive immediate **synchronized DC cardioversion** (as little as 50 J can be effective). Stable patients can be rate-controlled with **beta-blockers** or non-dihydropyridine calcium channel blockers (diltiazem, verapamil). Rhythm control with cardioversion requires anticoagulation for >3 weeks prior or TEE exclusion of LA thrombus if arrhythmia has been present longer than 48 hours. Long-term stroke prevention is guided by the **CHA2DS2-VASc** score. Definitive therapy is **radiofrequency catheter ablation of the cavotricuspid isthmus**, which is highly effective and curative for typical flutter.",
+    "high_yield_pearls": [
+      "Atrial flutter = atrial rate ~300 bpm with 2:1 block producing a ventricular rate ~150 bpm.",
+      "Sawtooth flutter waves are best seen in leads II, III, and aVF.",
+      "Vagal maneuvers or adenosine transiently increase AV block and unmask flutter waves (they do not terminate flutter).",
+      "Typical flutter is curable with radiofrequency ablation of the cavotricuspid isthmus.",
+      "Stroke risk in atrial flutter is comparable to atrial fibrillation; anticoagulation is based on CHA2DS2-VASc."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Atrial flutter' section.",
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'ECG tracings — Atrial flutter and fibrillation' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Atrial flutter",
+      "Atrial fibrillation",
+      "Supraventricular tachycardia (SVT)",
+      "Ventricular tachycardia",
+      "Hyperthyroidism",
+      "Pulmonary embolism (PE)",
+      "COPD exacerbation",
+      "Myocardial infarction (MI)"
+    ],
+    "after_stage2_more_likely": [
+      "Atrial flutter",
+      "Atrial fibrillation",
+      "Supraventricular tachycardia (SVT)"
+    ],
+    "after_stage2_less_likely": [
+      "Myocardial infarction (MI)",
+      "Pulmonary embolism (PE)"
+    ],
+    "after_labs_top3": [
+      "Atrial flutter",
+      "Atrial fibrillation",
+      "Supraventricular tachycardia (SVT)"
+    ]
+  }
+}

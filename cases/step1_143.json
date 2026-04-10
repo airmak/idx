@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_143",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Heparin-induced thrombocytopenia (HIT)",
+  "icd_category": "D75.82 -- Heparin induced thrombocytopenia (HIT)",
+  "one_liner": "A 68-year-old man 7 days after a coronary artery bypass graft develops a sudden drop in platelet count and a painful, cold, pulseless left leg.",
+  "stage2": {
+    "hpi_extension": "He underwent CABG 7 days ago and has been on **prophylactic unfractionated heparin** since surgery. This morning the nursing team noted that his platelets fell from 240,000 on admission to **62,000/uL** today. He now reports sudden severe pain in the left leg with associated numbness over the past 2 hours. He denies fever, bleeding, chest pain, or shortness of breath. He has had no mucocutaneous or surgical site bleeding. This is his first known heparin exposure.",
+    "pmh": "Coronary artery disease, hypertension, hyperlipidemia, type 2 diabetes",
+    "surgical_history": "Coronary artery bypass grafting (CABG) 7 days ago",
+    "medications": "Unfractionated heparin subQ prophylaxis, aspirin, metoprolol, atorvastatin, lisinopril, insulin",
+    "allergies": "NKDA",
+    "family_history": "Father with MI at 70",
+    "social_history": "Former smoker (quit 5 years ago), retired plumber, no alcohol",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "102 bpm",
+      "bp": "148/86 mmHg",
+      "rr": "18",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: uncomfortable due to left leg pain. Cardiovascular: regular with healed sternotomy incision, no murmurs. Lungs: clear. Abdomen: benign. **Left lower extremity: cool, pale, mottled, with absent dorsalis pedis and posterior tibial pulses, severe calf tenderness**. **Right lower extremity warm with intact pulses.** Skin: **NO petechiae, NO purpura, NO mucosal bleeding, NO bleeding at the surgical site**. Sternotomy well-healed with no erythema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "**Platelets 62,000/uL (down from 240,000 on admission -- >50% drop)**. Hgb 10.8 g/dL, WBC 9.4. Smear: **thrombocytopenia without schistocytes, normal RBC morphology, no blasts**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A drop of >50% from baseline occurring 5-10 days after starting heparin, with thrombocytopenia in the absence of schistocytes or bleeding, should prompt a 4Ts score calculation and immediate suspicion of HIT."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Anti-PF4/heparin IgG antibodies (PF4-ELISA): STRONGLY POSITIVE**. Confirmatory **serotonin release assay (SRA): POSITIVE**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "IgG antibodies against platelet factor 4 (PF4)-heparin complexes bind to platelet Fc-gamma receptor IIa, activating platelets and causing their aggregation and consumption. A positive serotonin release assay is the confirmatory functional test and is highly specific for HIT."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT angiography of the left lower extremity: **acute arterial thrombus in the left popliteal artery with abrupt cutoff and absent distal runoff**, consistent with acute limb ischemia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Despite the thrombocytopenia, the dominant clinical problem in HIT is paradoxical thrombosis -- arterial and venous. Arterial thrombosis in a previously normal vessel 1 week after heparin exposure is classic for HIT with thrombosis (HITT)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "All heparin (including heparin flushes and low-molecular-weight heparin) is immediately discontinued, and he is started on argatroban, a direct thrombin inhibitor, for anticoagulation. Warfarin is deliberately AVOIDED in the acute phase because it can precipitate warfarin-induced skin necrosis and venous limb gangrene before his protein C rebounds."
+  },
+  "debrief": {
+    "classic_presentation": "Classic HIT develops 5-10 days after initial heparin exposure (or within hours if the patient has been previously exposed and has circulating antibodies). It presents as a fall in platelet count of 50% or more, paradoxically accompanied by THROMBOSIS rather than bleeding. Thrombosis can be venous (DVT, PE) or arterial (limb ischemia, stroke, MI). The 4Ts score stratifies pre-test probability: Thrombocytopenia (degree), Timing of fall, Thrombosis, and absence of oTher explanations.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Heparin binds platelet factor 4 (PF4) released from activated platelets, forming heparin-PF4 complexes. In susceptible patients, IgG antibodies develop against these complexes. The IgG-heparin-PF4 immune complex binds platelet Fc-gamma receptor IIa, causing platelet activation, aggregation, and the release of more PF4 -- driving a prothrombotic cycle. Activated platelets are cleared, producing thrombocytopenia, but before they are cleared they generate thrombin and fuel microvascular and large vessel thrombosis. Unfractionated heparin is more antigenic than LMWH, but both can cause HIT.",
+    "treatment_overview": "Management is urgent: STOP all heparin IMMEDIATELY (including flushes, heparin-coated catheters, and LMWH -- cross-reactivity is high). The patient must still be anticoagulated (they are prothrombotic, not at bleeding risk), so start a non-heparin alternative -- most commonly a direct thrombin inhibitor such as argatroban or bivalirudin, or fondaparinux. DO NOT start warfarin alone in the acute phase: warfarin rapidly depletes protein C (short half-life) before it fully depletes factors II, VII, IX, and X, creating a transient hypercoagulable state that can cause warfarin-induced skin necrosis and venous limb gangrene. Warfarin may be bridged in later when platelets have recovered.",
+    "high_yield_pearls": [
+      "HIT timing: platelet drop of >50% starting 5-10 days after heparin exposure (sooner if re-exposed).",
+      "HIT is PARADOXICALLY PROTHROMBOTIC -- patients clot, they do not bleed. Thromboses can be arterial or venous.",
+      "Mechanism: IgG against heparin-PF4 complexes cross-links platelet Fc-gamma-RIIa receptors, activating platelets.",
+      "4Ts score: Thrombocytopenia, Timing, Thrombosis, absence of oTher explanations -- guides pretest probability.",
+      "Treatment: STOP all heparin (including LMWH and flushes) and anticoagulate with a direct thrombin inhibitor (argatroban, bivalirudin) or fondaparinux. NEVER start warfarin alone in acute HIT -- risk of warfarin-induced skin necrosis and venous limb gangrene."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) -- Hematology and Oncology chapter, 'Anticoagulants -- Heparin / Heparin-induced thrombocytopenia' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Drug-induced thrombocytopenia",
+      "Sepsis",
+      "Deep vein thrombosis (DVT)",
+      "Limb ischemia (acute)",
+      "Post-procedural bleeding"
+    ],
+    "after_stage2_more_likely": [
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Limb ischemia (acute)"
+    ],
+    "after_stage2_less_likely": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Post-procedural bleeding"
+    ],
+    "after_labs_top3": [
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Limb ischemia (acute)",
+      "Drug-induced thrombocytopenia"
+    ]
+  }
+}

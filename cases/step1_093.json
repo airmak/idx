@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_093",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Dilated cardiomyopathy",
+  "icd_category": "I42.0 — Dilated cardiomyopathy",
+  "one_liner": "A 48-year-old man with a long history of heavy alcohol use presents with 2 months of worsening dyspnea on exertion, orthopnea, and bilateral leg swelling.",
+  "stage2": {
+    "hpi_extension": "He reports progressive exertional dyspnea, 3-pillow orthopnea, and PND. He has gained 10 pounds in the last month and his legs are markedly swollen. He drinks 8-10 beers daily for the past 20 years. No recent viral illness, no chest pain. No family history of cardiomyopathy or sudden cardiac death. No anthracycline chemotherapy or cocaine use.",
+    "pmh": "Alcohol use disorder, untreated. No known cardiac history.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "No known heart disease",
+    "social_history": "Construction worker. Heavy daily alcohol. Smokes occasionally.",
+    "vitals": {
+      "temp": "36.7 C",
+      "hr": "104 bpm",
+      "bp": "102/68 mmHg",
+      "rr": "22",
+      "spo2": "91% on room air"
+    },
+    "physical_exam": "General: tachypneic, in mild respiratory distress when supine. Neck: **JVD to the angle of the jaw** at 45 degrees. Cardiac: **laterally displaced diffuse PMI to the anterior axillary line**, regular tachycardia, **S3 gallop at the apex**, soft holosystolic murmur at the apex (**functional mitral regurgitation**). Pulmonary: **bibasilar crackles**. Abdomen: mild tender hepatomegaly. Extremities: **3+ bilateral pitting edema to the knees**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **severely dilated left ventricle with eccentric hypertrophy**. **LV ejection fraction 22%** with global hypokinesis. **Functional mitral regurgitation** from annular dilation. Mildly dilated right ventricle with reduced function. No significant pericardial effusion. Chest x-ray: **cardiomegaly** with cardiothoracic ratio >0.5, bilateral pulmonary vascular congestion, small bilateral pleural effusions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Dilated ventricles with global hypokinesis and severely reduced EF is the defining finding of dilated cardiomyopathy."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "**BNP 1820 pg/mL** (markedly elevated). Troponin: mildly elevated at 0.08 (demand). CRP normal.",
+        "flag": "HIGH",
+        "clinical_significance": "Markedly elevated BNP reflects severe LV wall stress. Mildly elevated troponin can occur in chronic heart failure without acute MI."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 132 (LOW), K 3.6, BUN 34, Cr 1.4, **AST 88, ALT 42 (AST:ALT ratio >2)**, GGT elevated. Albumin 3.2.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "AST-predominant transaminitis and elevated GGT point to alcohol use. Hyponatremia and elevated BUN/Cr reflect cardiorenal physiology in advanced heart failure."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Inflammatory / infection markers",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring"
+    ],
+    "low_yield_tests": [
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "With alcohol cessation and guideline-directed medical therapy (ACE inhibitor, beta-blocker, spironolactone, and a loop diuretic), his ejection fraction partially recovers over 6 months."
+  },
+  "debrief": {
+    "classic_presentation": "Dilated cardiomyopathy classically presents as biventricular systolic heart failure with exertional dyspnea, orthopnea, edema, and an **S3 gallop**. Physical exam reveals a **displaced, diffuse PMI** and often a functional mitral regurgitation murmur. Common etiologies include **alcohol abuse, peripartum, viral myocarditis (Coxsackie B), cocaine, doxorubicin, Chagas disease, thyroid disease, wet beriberi (thiamine deficiency), and hemochromatosis**. It is the most common cardiomyopathy overall.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Myocyte injury from toxins, viruses, or genetic mutations leads to ventricular dilation and **eccentric hypertrophy (sarcomeres added in series)** with thinned walls and reduced contractility. Systolic ejection fraction falls, LV end-diastolic volume rises, and the mitral annulus dilates, producing functional MR. Neurohormonal activation (RAAS, sympathetic) initially compensates but ultimately accelerates remodeling and worsens failure. Chronic stretch predisposes to arrhythmias and sudden cardiac death.",
+    "treatment_overview": "Reverse the underlying cause (alcohol cessation, thiamine for beriberi, iron chelation for hemochromatosis). **Guideline-directed medical therapy (GDMT)** for HFrEF includes **ACE inhibitors/ARBs or ARNI**, **evidence-based beta-blockers (carvedilol, metoprolol succinate, bisoprolol)**, **mineralocorticoid receptor antagonists (spironolactone)**, and SGLT2 inhibitors; diuretics for symptom control. ICDs are indicated for primary prevention of sudden cardiac death when EF remains <=35% despite optimized therapy. CRT for wide LBBB.",
+    "high_yield_pearls": [
+      "Dilated cardiomyopathy = systolic dysfunction, eccentric hypertrophy, S3 gallop, most common cardiomyopathy.",
+      "Causes mnemonic ABCCCD: Alcohol, Beriberi, Coxsackie B, Cocaine, Chagas, Doxorubicin (also peripartum).",
+      "Eccentric hypertrophy (sarcomeres in series) from volume overload, versus concentric (sarcomeres in parallel) from pressure overload.",
+      "HFrEF GDMT reduces mortality: ACEi/ARNI + beta-blocker + MRA + SGLT2 inhibitor.",
+      "Peripartum cardiomyopathy occurs in the last month of pregnancy through 5 months postpartum; may recur in subsequent pregnancies."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Cardiomyopathies — Dilated cardiomyopathy' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Dilated cardiomyopathy",
+      "Heart failure (systolic)",
+      "Heart failure (diastolic)",
+      "Restrictive cardiomyopathy",
+      "Hypertrophic cardiomyopathy",
+      "Myocarditis",
+      "Takotsubo cardiomyopathy",
+      "Cirrhosis"
+    ],
+    "after_stage2_more_likely": [
+      "Dilated cardiomyopathy",
+      "Heart failure (systolic)",
+      "Myocarditis"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic cardiomyopathy",
+      "Restrictive cardiomyopathy",
+      "Takotsubo cardiomyopathy"
+    ],
+    "after_labs_top3": [
+      "Dilated cardiomyopathy",
+      "Heart failure (systolic)",
+      "Myocarditis"
+    ]
+  }
+}

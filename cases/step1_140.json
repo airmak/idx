@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_140",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Folate deficiency",
+  "icd_category": "D52.0 -- Dietary folate deficiency anemia",
+  "one_liner": "A 52-year-old man with chronic alcohol use disorder presents with several weeks of fatigue, dyspnea on exertion, and a painful red tongue, but no neurologic complaints.",
+  "stage2": {
+    "hpi_extension": "He reports drinking a pint of vodka daily for the past 10 years and eats poorly, subsisting mostly on beer, crackers, and occasional fast food with **no green leafy vegetables**. He denies numbness, tingling, weakness, unsteady gait, or position sense problems. He has had no GI bleeding, melena, or weight loss, but has had loose stools. His tongue is sore. He has not used any supplements.",
+    "pmh": "Alcohol use disorder, chronic hepatitis from alcohol, hypertension",
+    "surgical_history": "None",
+    "medications": "No prescription medications, no PPI, no metformin, no methotrexate, no phenytoin, no trimethoprim",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Drinks approximately 1 pint vodka daily for 10 years, smokes 1 pack per day, unemployed, poor diet",
+    "vitals": {
+      "temp": "37.0 C",
+      "hr": "96 bpm",
+      "bp": "134/82 mmHg",
+      "rr": "16",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: thin, disheveled, mildly jaundiced, **pale conjunctivae**. HEENT: **smooth, red, beefy tongue (atrophic glossitis)**, angular cheilitis. Cardiovascular: tachycardic with a soft flow murmur. Abdomen: mild tender hepatomegaly, no splenomegaly. Extremities: no petechiae, no purpura. **Neuro: normal vibration and proprioception in the lower extremities. Normal Romberg. Normal reflexes, toes downgoing. No ataxia and no spasticity.**"
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 8.8 g/dL (low), **MCV 112 fL (macrocytic)**, WBC 3.9, platelets 118. Reticulocyte count low. Smear: **oval macrocytes** and **hypersegmented neutrophils** identical in appearance to B12 deficiency. Mildly elevated indirect bilirubin and LDH from ineffective erythropoiesis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Macrocytic megaloblastic anemia with hypersegmented neutrophils. The smear alone cannot distinguish folate deficiency from B12 deficiency; laboratory confirmation is required."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Serum folate: LOW (1.8 ng/mL)**. RBC folate low. **Serum vitamin B12: NORMAL (420 pg/mL)**. **Homocysteine: ELEVATED**. **Methylmalonic acid: NORMAL**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The critical distinction from B12 deficiency: homocysteine is elevated (because the methionine synthase reaction is impaired) but methylmalonic acid is NORMAL (because folate is not required for the methylmalonyl-CoA mutase reaction). This pattern is diagnostic of isolated folate deficiency."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "AST 98 U/L (elevated), ALT 52 U/L, AST:ALT ratio >2, GGT elevated, albumin 3.0 g/dL (low), total bilirubin 1.8 mg/dL, INR 1.2.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Alcoholic liver injury pattern (AST:ALT >2 with elevated GGT) supports the history of chronic alcohol use, which contributes to both poor dietary folate intake and impaired folate absorption."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Hormone / endocrine assay"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After confirming a normal B12 level, he is started on oral folate 1 mg daily along with alcohol counseling and thiamine supplementation. His hemoglobin normalizes over 2 months and his glossitis resolves."
+  },
+  "debrief": {
+    "classic_presentation": "Folate deficiency presents as a macrocytic megaloblastic anemia with glossitis that is indistinguishable hematologically from B12 deficiency. The key clinical distinction is the ABSENCE of neurologic findings -- no subacute combined degeneration, no loss of position or vibration sense, no Babinski sign. Classic at-risk groups include alcoholics, the malnourished, pregnant women (increased demand), patients on drugs that interfere with folate metabolism (methotrexate inhibits dihydrofolate reductase, trimethoprim, phenytoin, sulfasalazine), and patients with malabsorption such as celiac disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Folate is absorbed in the jejunum as monoglutamates. Intracellularly it is converted to tetrahydrofolate, which donates one-carbon units for purine and thymidylate synthesis. Deficient folate impairs DNA synthesis, producing nuclear-cytoplasmic asynchrony in hematopoietic precursors (megaloblastic changes). Folate is also required, along with B12, to convert homocysteine to methionine -- hence homocysteine rises in folate deficiency. However, folate is NOT required for the methylmalonyl-CoA mutase reaction, so MMA remains normal, distinguishing folate from B12 deficiency. Body stores of folate last only a few months (in contrast to years for B12), so deficiency develops quickly.",
+    "treatment_overview": "Oral folic acid supplementation corrects the deficiency over weeks. Critically, always check or rule out B12 deficiency before giving folate for a megaloblastic anemia -- giving folate alone to a B12-deficient patient can correct the anemia but fails to prevent and may worsen subacute combined degeneration by diverting methyl groups. Methotrexate toxicity is reversed with folinic acid (leucovorin), which bypasses the dihydrofolate reductase block. Pregnant women should receive folate to prevent neural tube defects.",
+    "high_yield_pearls": [
+      "Folate deficiency = macrocytic megaloblastic anemia WITHOUT neurologic symptoms (key distinction from B12).",
+      "Folate deficiency: HIGH homocysteine, NORMAL methylmalonic acid. B12 deficiency: both elevated.",
+      "Folate stores last only a few months (B12 stores last years) -- folate deficiency develops quickly in the malnourished or alcoholic patient.",
+      "Drug-induced folate deficiency: methotrexate, trimethoprim (both inhibit dihydrofolate reductase), phenytoin, sulfasalazine.",
+      "Always check B12 before treating with folate alone -- folate corrects the anemia but can unmask or worsen subacute combined degeneration in B12-deficient patients."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) -- Hematology and Oncology chapter, 'Macrocytic anemias / Megaloblastic anemia -- Folate deficiency' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Folate deficiency",
+      "Vitamin B12 deficiency",
+      "Alcohol use disorder",
+      "Anemia of chronic disease",
+      "Iron deficiency anemia",
+      "Cirrhosis",
+      "Hypothyroidism",
+      "Autoimmune hemolytic anemia"
+    ],
+    "after_stage2_more_likely": [
+      "Folate deficiency",
+      "Vitamin B12 deficiency",
+      "Alcohol use disorder"
+    ],
+    "after_stage2_less_likely": [
+      "Iron deficiency anemia",
+      "Anemia of chronic disease",
+      "Hypothyroidism"
+    ],
+    "after_labs_top3": [
+      "Folate deficiency",
+      "Vitamin B12 deficiency",
+      "Alcohol use disorder"
+    ]
+  }
+}

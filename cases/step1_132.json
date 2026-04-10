@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_132",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "DI (central diabetes insipidus)",
+  "icd_category": "E23.2 — Diabetes insipidus",
+  "one_liner": "A 32-year-old man presents with 3 weeks of intense thirst and urinating 'every hour, day and night.' Symptoms began shortly after a motor vehicle accident in which he sustained a head injury.",
+  "stage2": {
+    "hpi_extension": "He describes producing **huge volumes of dilute, clear urine** — estimated 7-8 liters per day — and drinking ice water continuously to keep up. He wakes 4-5 times per night to urinate. He craves cold water in particular. He denies polyphagia, weight loss, or weight gain. Three weeks ago he was in a motor vehicle collision with loss of consciousness; head CT showed a small **basilar skull fracture** but no intracranial hemorrhage. He was discharged after observation.",
+    "pmh": "None",
+    "surgical_history": "None",
+    "medications": "Acetaminophen as needed",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Graduate student. Non-smoker, rare alcohol, no drugs.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "96 bpm",
+      "bp": "118/72 mmHg (supine); 102/64 mmHg (standing)",
+      "rr": "16",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: alert, appears thirsty and is holding a water bottle. HEENT: **dry mucous membranes**. Cardiovascular: mild tachycardia, no murmur. Abdomen: soft, non-tender. Neuro: cranial nerves intact, strength and sensation normal, no focal deficits. Visual fields grossly intact. Skin: decreased skin turgor."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Sodium 149 mEq/L (elevated)**, potassium 4.1, chloride 110, bicarbonate 24, **BUN 22, creatinine 0.9**. Glucose 92. **Serum osmolality 302 mOsm/kg (elevated)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Hypernatremia with elevated serum osmolality** in the setting of massive urine output reflects free water loss. Normal glucose excludes hyperglycemic diuresis."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "**Urine specific gravity 1.002**. **Urine osmolality 95 mOsm/kg (inappropriately low)**. Glucose negative, ketones negative, protein negative. 24-hour urine volume 7.2 L.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An **inappropriately dilute urine** (osmolality <300 mOsm/kg) in the face of serum hyperosmolality is pathognomonic for **diabetes insipidus**. The distinction between central and nephrogenic DI requires a desmopressin trial."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Water deprivation test**: after 4 hours, serum osmolality rises to 308 while **urine osmolality remains 105 mOsm/kg**. After administration of **desmopressin (DDAVP)**, **urine osmolality rises >50% to 420 mOsm/kg**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Failure to concentrate urine with water deprivation confirms DI. A **robust (>50%) rise in urine osmolality after DDAVP** localizes the defect to **central DI** (ADH deficiency). Nephrogenic DI would show little or no response to DDAVP."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Urinalysis",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Inflammatory / infection markers",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "MRI of the pituitary shows **loss of the normal T1 'bright spot'** of the posterior pituitary, consistent with post-traumatic injury to the hypothalamic-pituitary axis. He is started on **intranasal desmopressin** with prompt resolution of polyuria and normalization of serum sodium."
+  },
+  "debrief": {
+    "classic_presentation": "Central diabetes insipidus presents with **polyuria (often >3 L/day), polydipsia, and nocturia**. Patients characteristically **crave ice-cold water**. Serum sodium is normal or mildly elevated because most patients can match their fluid losses if given free access to water — but **restricted water access rapidly produces hypernatremia** and volume depletion. Precipitating causes include **head trauma, pituitary/hypothalamic surgery, craniopharyngioma or other suprasellar masses, infiltrative disease (sarcoid, Langerhans cell histiocytosis), and idiopathic autoimmune disease**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "DI results from an inability to concentrate urine. **Central DI** is caused by **ADH (arginine vasopressin) deficiency** from damage to the hypothalamic supraoptic/paraventricular nuclei or posterior pituitary. **Nephrogenic DI** is caused by renal resistance to ADH (drugs such as lithium/demeclocycline, hypercalcemia, hypokalemia, hereditary V2 receptor or aquaporin-2 mutations). Without ADH action at the V2 receptor of the collecting duct, aquaporin-2 channels are not inserted, free water reabsorption fails, and dilute urine is produced.",
+    "treatment_overview": "**Central DI**: **intranasal or oral desmopressin (DDAVP)**, a synthetic V2-selective ADH analog, restores urinary concentration. Adequate free water intake is essential. **Nephrogenic DI**: remove offending drugs, correct electrolytes, use **thiazide diuretics (paradoxical antidiuretic effect)**, a low-salt/low-protein diet, and sometimes amiloride (for lithium-induced nephrogenic DI).",
+    "high_yield_pearls": [
+      "**Water deprivation test** is the gold standard: in DI, urine fails to concentrate despite rising serum osmolality. DDAVP then distinguishes central (responds) from nephrogenic (no response).",
+      "Central DI causes: **trauma, pituitary surgery, tumors (craniopharyngioma), histiocytosis X, granulomatous disease, autoimmune/idiopathic**.",
+      "Nephrogenic DI causes: **lithium, demeclocycline, hypercalcemia, hypokalemia, hereditary V2 receptor mutations**.",
+      "On pituitary MRI, central DI classically shows **loss of the posterior pituitary 'bright spot'** on T1-weighted imaging.",
+      "DI vs SIADH: in DI the problem is too little ADH effect (dilute urine, rising sodium); in SIADH it is too much ADH (concentrated urine, falling sodium)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes insipidus' section.",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'ADH — Vasopressin/V2 receptor' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "DI (central diabetes insipidus)",
+      "DI (nephrogenic diabetes insipidus)",
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus",
+      "Syndrome of inappropriate ADH secretion (SIADH)",
+      "Hypercalcemia",
+      "Hypokalemia"
+    ],
+    "after_stage2_more_likely": [
+      "DI (central diabetes insipidus)",
+      "DI (nephrogenic diabetes insipidus)"
+    ],
+    "after_stage2_less_likely": [
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus",
+      "Syndrome of inappropriate ADH secretion (SIADH)"
+    ],
+    "after_labs_top3": [
+      "DI (central diabetes insipidus)",
+      "DI (nephrogenic diabetes insipidus)",
+      "Hypernatremia"
+    ]
+  }
+}

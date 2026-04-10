@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_098",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Cardiac tamponade",
+  "icd_category": "I31.4 — Cardiac tamponade",
+  "one_liner": "A 54-year-old man with metastatic lung cancer is brought to the ED with progressive dyspnea and lightheadedness. He appears anxious, tachycardic, and hypotensive.",
+  "stage2": {
+    "hpi_extension": "Over the last week he has noted worsening shortness of breath, fatigue, and dizziness on standing. Today he nearly passed out while walking to the bathroom. He denies chest pain or cough. He completed radiation to a right hilar mass six weeks ago and has missed his last oncology follow-up. He also reports mild right-sided pleuritic chest discomfort.",
+    "pmh": "Non-small cell lung cancer (stage IV), hypertension",
+    "surgical_history": "None",
+    "medications": "Lisinopril, ondansetron as needed",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "40 pack-year smoker, quit at diagnosis. No alcohol.",
+    "vitals": {
+      "temp": "37.1 C",
+      "hr": "124 bpm",
+      "bp": "86/64 mmHg",
+      "rr": "24",
+      "spo2": "93% on room air"
+    },
+    "physical_exam": "General: diaphoretic, anxious, leaning forward. HEENT: **elevated jugular venous pressure to the angle of the jaw** with a blunted y descent. Cardiovascular: **distant, muffled heart sounds**, regular tachycardia, no appreciable murmur. **Pulsus paradoxus of 18 mmHg** (inspiratory drop in systolic BP). Lungs: clear bilaterally, no rales. Abdomen: soft, non-tender. Extremities: cool, 1+ pulses, capillary refill 3 seconds. Neuro: alert but anxious."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Bedside transthoracic echocardiogram**: **large circumferential pericardial effusion** with **diastolic collapse of the right ventricle and right atrium**, plethoric inferior vena cava without respiratory variation, and exaggerated respirophasic variation in mitral inflow.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Echocardiographic findings of RA/RV diastolic collapse with a plethoric IVC are hallmark signs of tamponade physiology and indicate impaired ventricular filling."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia at 124. **Low QRS voltage** throughout. **Electrical alternans** (beat-to-beat variation in QRS amplitude) is present in the precordial leads. No acute ischemic changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low voltage plus electrical alternans reflects the swinging motion of the heart within a large pericardial effusion and is highly specific for tamponade physiology."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 138, potassium 4.0, BUN 28, creatinine 1.3 (mildly up from baseline), lactate 2.8. Troponin mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute kidney injury and elevated lactate reflect end-organ hypoperfusion from obstructive shock. Mildly elevated troponin can occur from decreased coronary perfusion."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay",
+      "Urinalysis",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "**Emergent pericardiocentesis** drains 700 mL of serosanguinous fluid with immediate normalization of blood pressure and resolution of pulsus paradoxus; cytology of the fluid is positive for malignant cells."
+  },
+  "debrief": {
+    "classic_presentation": "Cardiac tamponade classically presents with **Beck's triad**: hypotension, muffled heart sounds, and jugular venous distension. **Pulsus paradoxus** (a fall in systolic BP greater than 10 mmHg during inspiration) is a key physical finding. Causes include malignancy (most common non-traumatic cause, classically lung and breast cancer), uremic or viral pericarditis, post-MI (Dressler syndrome or ventricular free wall rupture), aortic dissection with hemopericardium, trauma, and procedural complications. Rapid accumulation of even a small volume causes tamponade, whereas slow accumulation can be tolerated.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Fluid accumulates in the pericardial space and raises intrapericardial pressure above cardiac chamber filling pressures, impairing diastolic filling of the thin-walled right atrium and right ventricle. Reduced preload causes reduced stroke volume and cardiac output, producing **obstructive shock**. During inspiration, increased venous return to the right ventricle bows the interventricular septum into the left ventricle (ventricular interdependence), reducing LV filling and causing the exaggerated inspiratory drop in systolic pressure that manifests as **pulsus paradoxus**. The pericardium is a stiff fibrous sac, so acute accumulation of 150-200 mL can precipitate tamponade, while chronic effusions may reach 1-2 L before causing compromise.",
+    "treatment_overview": "Emergent **pericardiocentesis**, ideally echocardiography-guided with subxiphoid approach, is definitive. IV fluids can temporize by boosting preload while preparing for drainage. Avoid positive-pressure ventilation when possible as it decreases venous return. A pericardial drain may be left in place for recurrent effusions; a pericardial window (subxiphoid or thoracoscopic) is considered for recurrent or loculated effusions, particularly from malignancy. Definitive management also addresses the underlying cause (e.g., chemotherapy for malignant effusion, dialysis for uremic effusion).",
+    "high_yield_pearls": [
+      "Beck's triad: hypotension + muffled heart sounds + JVD.",
+      "Pulsus paradoxus >10 mmHg and equalization of diastolic pressures across cardiac chambers.",
+      "EKG findings: low-voltage QRS and electrical alternans.",
+      "Echocardiographic hallmarks: diastolic RA/RV collapse and plethoric IVC.",
+      "Kussmaul sign (paradoxical rise in JVP with inspiration) is characteristic of constrictive pericarditis, not tamponade."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Cardiac tamponade' section.",
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Pericardial disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cardiac tamponade",
+      "Pericarditis",
+      "Pulmonary embolism (PE)",
+      "Tension pneumothorax",
+      "Cardiogenic shock",
+      "ST-elevation MI (STEMI)",
+      "Aortic dissection",
+      "Restrictive cardiomyopathy"
+    ],
+    "after_stage2_more_likely": [
+      "Cardiac tamponade",
+      "Pulmonary embolism (PE)",
+      "Pericarditis"
+    ],
+    "after_stage2_less_likely": [
+      "ST-elevation MI (STEMI)",
+      "Aortic dissection"
+    ],
+    "after_labs_top3": [
+      "Cardiac tamponade",
+      "Pericarditis",
+      "Restrictive cardiomyopathy"
+    ]
+  }
+}

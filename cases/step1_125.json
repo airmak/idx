@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_125",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Bladder cancer",
+  "icd_category": "C67 — Malignant neoplasm of bladder",
+  "one_liner": "A 68-year-old man with a long smoking history presents with two episodes of painless gross hematuria over the past month. He denies dysuria, fever, or flank pain.",
+  "stage2": {
+    "hpi_extension": "He reports seeing frankly red urine on two occasions, each lasting most of the day, with a few small clots. Between episodes, his urine looks normal. He has no urinary frequency, urgency, dysuria, or back pain. He denies recent trauma, exercise, or anticoagulant use. He had a mild irritative urinary syndrome a few weeks ago that was treated empirically as a UTI; urine culture was negative.",
+    "pmh": "Hypertension, hyperlipidemia, former high-grade B-cell lymphoma (complete remission 12 years ago)",
+    "surgical_history": "Inguinal hernia repair",
+    "medications": "Amlodipine, atorvastatin",
+    "allergies": "Penicillin (rash)",
+    "family_history": "Father with colon cancer at age 75",
+    "social_history": "**Retired textile dye worker**, 50-pack-year smoking history (quit 5 years ago). Occasional alcohol. Lives with wife.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "78 bpm",
+      "bp": "142/84 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: well-appearing, no distress. Abdomen: soft, non-tender, no palpable masses. No CVA tenderness. Genitourinary: normal external genitalia, no scrotal masses. Digital rectal exam: prostate smooth, mildly enlarged, non-tender. No lymphadenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "Blood 3+, **>100 RBCs/hpf**. No RBC casts. No dysmorphic RBCs. Protein negative. Leukocyte esterase negative. Nitrites negative. **Cytology: atypical urothelial cells with high nuclear-to-cytoplasmic ratio, suspicious for malignancy**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Painless gross hematuria with non-dysmorphic RBCs and no casts** in an older smoker points to a urologic (non-glomerular) source. Positive cytology strongly suggests urothelial carcinoma."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT urography: **3 cm irregular sessile mass along the right lateral bladder wall with contrast enhancement**. No upper tract lesions. No hydronephrosis. No pelvic lymphadenopathy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A bladder wall mass on CT urography in a smoker with hematuria is classic for **transitional (urothelial) cell carcinoma of the bladder**."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy",
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "**Cystoscopy with biopsy** reveals a papillary lesion on the right lateral bladder wall; pathology confirms **high-grade non-muscle-invasive urothelial (transitional cell) carcinoma**. He undergoes **transurethral resection of bladder tumor (TURBT)** followed by **intravesical BCG** therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Bladder cancer classically presents in **older patients (typically men >60) with painless gross hematuria** — this is the most common presenting symptom. Irritative voiding symptoms (frequency, urgency, dysuria) may also occur, especially with carcinoma in situ, and are sometimes misattributed to UTI. Key risk factors include **cigarette smoking (the single largest risk factor)**, occupational exposure to **aromatic amines / aniline dyes (rubber, textile, leather, printing industries)**, **cyclophosphamide** (via acrolein metabolite), **phenacetin**, and **Schistosoma haematobium** (which causes squamous cell carcinoma, especially in Egypt/Middle East).",
+    "attending_mode_notes": null,
+    "pathophysiology": "The urothelium lines the urinary tract from renal pelvis to proximal urethra, so urothelial carcinoma is a field-change disease with high multifocality and recurrence. **Transitional (urothelial) cell carcinoma accounts for >90% of bladder cancers in the United States**. Tumors are classified as non-muscle-invasive (Ta, T1, CIS — 70-80%) or muscle-invasive (≥T2). Carcinogens excreted in urine concentrate against the bladder mucosa, explaining the link with smoking and occupational chemical exposures. Chronic inflammation from schistosomiasis or chronic catheterization predisposes to squamous cell carcinoma.",
+    "treatment_overview": "**Cystoscopy with biopsy is the diagnostic gold standard**. Non-muscle-invasive disease: **TURBT plus intravesical therapy** — **BCG** (Bacillus Calmette-Guérin) is first-line for high-grade disease and works by stimulating a local immune response against tumor cells; mitomycin C is an alternative. Muscle-invasive disease: **radical cystectomy with pelvic lymph node dissection**, often with neoadjuvant cisplatin-based chemotherapy. Metastatic disease: cisplatin-based chemotherapy and checkpoint inhibitors. Lifelong surveillance cystoscopy is required because of the high recurrence rate.",
+    "high_yield_pearls": [
+      "**Painless gross hematuria in an older smoker = bladder cancer until proven otherwise.** Cystoscopy with biopsy is the gold standard for diagnosis.",
+      "**Smoking is the single strongest risk factor**; other risks include **aniline dyes, cyclophosphamide (acrolein), phenacetin, and Schistosoma haematobium**.",
+      "**Transitional cell (urothelial) carcinoma** accounts for >90% of US bladder cancers. Schistosomiasis is associated with **squamous cell carcinoma**.",
+      "Field-change disease: urothelial carcinomas are often **multifocal and recurrent**, mandating lifelong cystoscopic surveillance.",
+      "Non-muscle-invasive disease is treated with **TURBT plus intravesical BCG**; muscle-invasive disease requires radical cystectomy."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Urinary incontinence / Transitional cell carcinoma' section (bladder cancer, urothelial carcinoma).",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Hematuria' and associated risk factors (aniline dyes, cyclophosphamide, schistosomiasis)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Bladder cancer",
+      "Renal cell carcinoma",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Urinary tract infection (UTI)",
+      "Benign prostatic hyperplasia",
+      "Prostate cancer",
+      "Immunoglobulin A (IgA) nephropathy"
+    ],
+    "after_stage2_more_likely": [
+      "Bladder cancer",
+      "Renal cell carcinoma"
+    ],
+    "after_stage2_less_likely": [
+      "Urinary tract infection (UTI)",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Benign prostatic hyperplasia"
+    ],
+    "after_labs_top3": [
+      "Bladder cancer",
+      "Renal cell carcinoma",
+      "Prostate cancer"
+    ]
+  }
+}

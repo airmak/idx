@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_105",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Lung cancer (non-small cell / NSCLC)",
+  "icd_category": "C34.9 — Malignant neoplasm of bronchus or lung, unspecified",
+  "one_liner": "A 64-year-old woman with a 30-pack-year smoking history presents with 2 months of progressive cough, unintentional 15-pound weight loss, and a new episode of hemoptysis.",
+  "stage2": {
+    "hpi_extension": "She reports a persistent dry cough that has recently produced small amounts of blood-tinged sputum. She has lost 15 pounds over 2 months without trying and complains of fatigue, anorexia, and dull right-sided chest pain. She denies fever or night sweats but notes a dull ache in her right shoulder. On review, she also describes polyuria and constipation. There is no prior history of lung disease or TB exposure.",
+    "pmh": "Hypertension, hyperlipidemia",
+    "surgical_history": "Appendectomy at age 22",
+    "medications": "Amlodipine, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Sister with breast cancer",
+    "social_history": "30 pack-year smoker, quit 1 year ago. Retired accountant. Social alcohol use.",
+    "vitals": {
+      "temp": "37.1 C",
+      "hr": "92 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "18",
+      "spo2": "94% on room air"
+    },
+    "physical_exam": "General: cachectic, mild temporal wasting. HEENT: no lymphadenopathy appreciated in the cervical chain, but a **firm left supraclavicular node (Virchow's) is palpable**. Lungs: **decreased breath sounds in the right upper lung field** with **dullness to percussion** and a **localized wheeze** not cleared with coughing. Cardiac: regular, no murmurs. Extremities: **clubbing of the fingers**, no edema. Skin: no rashes."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest CT with contrast: **3.8 cm spiculated mass in the right upper lobe** abutting the pleura, with ipsilateral **mediastinal and right hilar lymphadenopathy**. Small **right-sided pleural effusion**. No distant metastases seen on this study, but adrenal and brain imaging recommended for staging.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A peripheral spiculated mass with hilar/mediastinal adenopathy is highly suspicious for primary lung cancer, most commonly adenocarcinoma when peripheral."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 136, K 3.8, Cl 100, HCO3 26, BUN 14, creatinine 0.8, **calcium 12.6 mg/dL (elevated)**, albumin 3.6, AST 28, ALT 24, alkaline phosphatase 148.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypercalcemia in a patient with a lung mass suggests paraneoplastic PTHrP secretion (classically squamous cell carcinoma) or bony metastases."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "CT-guided percutaneous needle biopsy of the right upper lobe mass: **adenocarcinoma** with glandular differentiation and positive staining for **TTF-1** and **napsin A**. Molecular testing reveals an **EGFR exon 19 deletion**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "TTF-1 and napsin A confirm primary lung adenocarcinoma (not metastasis). EGFR mutation identifies a targetable driver and guides first-line therapy with an EGFR tyrosine kinase inhibitor."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Staging PET-CT shows FDG-avid disease in the right upper lobe mass, ipsilateral mediastinal nodes, and a single right adrenal lesion, consistent with stage IV (M1b) adenocarcinoma. Given the EGFR exon 19 deletion, she is started on osimertinib."
+  },
+  "debrief": {
+    "classic_presentation": "Non-small cell lung cancer accounts for about 85% of lung cancers. Adenocarcinoma is the most common subtype overall and the most common type in non-smokers and women; it typically arises peripherally. Squamous cell carcinoma is classically central, cavitates, and is associated with heavy smoking and PTHrP-mediated hypercalcemia. Classic presenting features include chronic cough, hemoptysis, weight loss, chest pain, clubbing, and paraneoplastic syndromes. Virchow's node (left supraclavicular) and clubbing are high-yield physical findings.",
+    "attending_mode_notes": null,
+    "pathophysiology": "NSCLC arises from respiratory epithelial cells through stepwise accumulation of driver mutations (EGFR, KRAS, ALK, ROS1, BRAF). Adenocarcinoma shows glandular differentiation and is TTF-1/napsin-A positive. Squamous cell carcinoma shows keratin pearls and intercellular bridges. Large cell carcinoma is poorly differentiated. Paraneoplastic syndromes in NSCLC include PTHrP-mediated hypercalcemia (squamous), hypertrophic osteoarthropathy (adenocarcinoma), and Pancoast syndrome from apical tumors (Horner syndrome, shoulder pain, arm weakness via brachial plexus invasion).",
+    "treatment_overview": "Treatment depends on stage and molecular profile. Early-stage (I-II) disease is treated with surgical lobectomy and mediastinal lymph node dissection, sometimes followed by adjuvant chemotherapy. Locally advanced (III) disease often receives concurrent chemoradiation. Metastatic (IV) NSCLC is treated with targeted therapy when a driver mutation is present: osimertinib for EGFR, alectinib for ALK, crizotinib for ROS1. Tumors with high PD-L1 expression respond to immune checkpoint inhibitors (pembrolizumab). Otherwise, platinum-doublet chemotherapy is standard.",
+    "high_yield_pearls": [
+      "Adenocarcinoma is the most common lung cancer overall and the most common in non-smokers; it arises peripherally.",
+      "Squamous cell carcinoma is central, cavitates, and classically causes PTHrP-mediated hypercalcemia.",
+      "EGFR and ALK mutations are most common in adenocarcinomas of non-smokers and are targetable with TKIs.",
+      "Pancoast tumor (superior sulcus) can cause Horner syndrome, shoulder pain, and SVC syndrome from apical invasion.",
+      "Virchow's node (left supraclavicular) and clubbing are classic physical findings suggesting intrathoracic malignancy."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Lung cancer' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Lung cancer (non-small cell / NSCLC)",
+      "Lung cancer (small cell / SCLC)",
+      "Tuberculosis (TB)",
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Sarcoidosis",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Histoplasmosis"
+    ],
+    "after_stage2_more_likely": [
+      "Lung cancer (non-small cell / NSCLC)",
+      "Lung cancer (small cell / SCLC)",
+      "Tuberculosis (TB)"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Sarcoidosis"
+    ],
+    "after_labs_top3": [
+      "Lung cancer (non-small cell / NSCLC)",
+      "Lung cancer (small cell / SCLC)",
+      "Tuberculosis (TB)"
+    ]
+  }
+}

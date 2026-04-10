@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_104",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "COPD exacerbation",
+  "icd_category": "J44.1 — COPD with (acute) exacerbation",
+  "one_liner": "A 68-year-old man with a 45-pack-year smoking history presents with 3 days of worsening dyspnea and cough productive of increasingly thick, yellow-green sputum.",
+  "stage2": {
+    "hpi_extension": "He has baseline exertional dyspnea but now becomes breathless walking from his bedroom to the kitchen. He reports increased sputum volume and a change from clear to **purulent yellow-green sputum** over the past 3 days. He has used his albuterol inhaler every 2 hours with only partial relief. He denies chest pain, hemoptysis, fever, or leg swelling. He has had two similar exacerbations in the past year, one requiring hospitalization.",
+    "pmh": "Chronic obstructive pulmonary disease (GOLD stage III), hypertension, osteoarthritis",
+    "surgical_history": "Bilateral cataract surgery",
+    "medications": "Tiotropium inhaler daily, albuterol inhaler PRN, lisinopril",
+    "allergies": "NKDA",
+    "family_history": "Father died of lung cancer at 70",
+    "social_history": "Current smoker, 45 pack-years. Retired construction worker. Lives alone.",
+    "vitals": {
+      "temp": "37.4 C",
+      "hr": "112 bpm",
+      "bp": "148/86 mmHg",
+      "rr": "28",
+      "spo2": "86% on room air"
+    },
+    "physical_exam": "General: **tripod positioning**, **pursed-lip breathing**, speaking in short 3-word sentences. Lungs: **diffuse expiratory wheezing**, **prolonged expiratory phase**, **decreased breath sounds bilaterally**, scattered rhonchi. Cardiac: tachycardic, regular, distant heart sounds. Extremities: no edema, mild cyanosis of the fingertips, **tar-stained fingers**. Neuro: awake and alert but mildly anxious, using **accessory muscles of respiration**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **hyperinflated lungs with flattened diaphragms**, increased retrosternal airspace, and elongated cardiac silhouette. No focal consolidation, no pleural effusion, no pneumothorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperinflation confirms underlying COPD and excludes pneumonia, pneumothorax, and pulmonary edema as alternate causes of acute decompensation."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Arterial blood gas on room air: **pH 7.31, PaCO2 62 mmHg, PaO2 54 mmHg, HCO3 30 mEq/L**. BMP: Na 138, K 4.2, Cl 98, HCO3 30, BUN 18, creatinine 0.9, glucose 128.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute on chronic respiratory acidosis with compensatory metabolic alkalosis (elevated HCO3) and hypoxemia is the hallmark of a COPD exacerbation with CO2 retention."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 12,800/uL with 78% neutrophils, Hb 16.8 g/dL, Hct 51%, platelets 260,000/uL.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Neutrophilia supports a bacterial trigger (often H. influenzae, S. pneumoniae, or M. catarrhalis). Secondary polycythemia reflects chronic hypoxemia."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After controlled oxygen to a target SpO2 of 88-92%, nebulized albuterol and ipratropium, IV methylprednisolone, and empiric azithromycin, his work of breathing improves and repeat ABG shows PaCO2 trending down to 52 mmHg over 12 hours."
+  },
+  "debrief": {
+    "classic_presentation": "A COPD exacerbation is classically defined by the Anthonisen criteria: increased dyspnea, increased sputum volume, and increased sputum purulence. Patients are typically older long-term smokers with baseline chronic bronchitis and/or emphysema who present with worsening work of breathing, tripod positioning, pursed-lip breathing, and accessory muscle use. Infection (most often viral or bacterial with H. influenzae, S. pneumoniae, or M. catarrhalis) triggers about 70-80% of exacerbations.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Baseline COPD is characterized by fixed airflow obstruction from chronic bronchitis (mucus hypersecretion, goblet cell hyperplasia) and emphysema (destruction of alveolar septa and loss of elastic recoil). During exacerbation, airway inflammation worsens, mucus plugs form, and dynamic hyperinflation increases, driving up the work of breathing. V/Q mismatch worsens, leading to hypoxemia, and alveolar hypoventilation produces acute-on-chronic respiratory acidosis with CO2 retention.",
+    "treatment_overview": "Treat with controlled supplemental oxygen titrated to SpO2 88-92% (to avoid blunting hypoxic respiratory drive and worsening CO2 retention), short-acting bronchodilators (albuterol plus ipratropium via nebulizer), systemic corticosteroids (oral prednisone or IV methylprednisolone for 5 days), and antibiotics when purulent sputum is present (azithromycin, doxycycline, or amoxicillin-clavulanate). Noninvasive positive-pressure ventilation (BiPAP) is first-line for persistent hypercapnic respiratory failure and reduces the need for intubation and mortality.",
+    "high_yield_pearls": [
+      "Anthonisen criteria for COPD exacerbation: increased dyspnea, increased sputum volume, and increased sputum purulence.",
+      "Oxygen in COPD should be titrated to SpO2 88-92% to avoid blunting the hypoxic drive and worsening hypercapnia.",
+      "Most common bacterial triggers: Haemophilus influenzae, Streptococcus pneumoniae, and Moraxella catarrhalis.",
+      "BiPAP (NIPPV) is first-line for hypercapnic respiratory failure in COPD and decreases intubation and mortality.",
+      "Chronic hypoxemia drives secondary polycythemia and, over time, pulmonary hypertension and cor pulmonale."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Obstructive lung diseases — Chronic bronchitis and emphysema (COPD)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia",
+      "Heart failure (systolic)",
+      "Pulmonary embolism (PE)",
+      "Asthma",
+      "Pneumothorax",
+      "Lung cancer (non-small cell / NSCLC)",
+      "Emphysema"
+    ],
+    "after_stage2_more_likely": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia"
+    ],
+    "after_stage2_less_likely": [
+      "Pneumothorax",
+      "Pulmonary embolism (PE)",
+      "Asthma"
+    ],
+    "after_labs_top3": [
+      "COPD exacerbation",
+      "Community-acquired pneumonia",
+      "Heart failure (systolic)"
+    ]
+  }
+}

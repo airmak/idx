@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_149",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Status Epilepticus",
+  "icd_category": "G41 — Status epilepticus",
+  "one_liner": "A 34-year-old man with known epilepsy is brought to the ED actively seizing. He has had continuous generalized tonic-clonic activity for 8 minutes with no return to baseline.",
+  "stage2": {
+    "hpi_extension": "Per EMS, the patient's wife found him unresponsive with rhythmic jerking of all four extremities on the kitchen floor 15 minutes ago. Seizure activity has **not stopped**, and he has not regained consciousness. He has a 10-year history of epilepsy on valproate but admits to **missing his last several doses** while traveling. No fever, no recent head trauma, no illicit drug use. In the ED he has continuous **generalized tonic-clonic movements**, frothing at the mouth, and is cyanotic around the lips.",
+    "pmh": "Epilepsy (generalized tonic-clonic, diagnosed age 24)",
+    "surgical_history": "None",
+    "medications": "Valproate (self-reported nonadherence for ~4 days)",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Accountant. Rare alcohol. No tobacco or illicit drugs.",
+    "vitals": {
+      "temp": "38.2°C",
+      "hr": "132 bpm",
+      "bp": "168/98 mmHg",
+      "rr": "26 (labored)",
+      "spo2": "86% on room air"
+    },
+    "physical_exam": "**Continuous generalized tonic-clonic seizure activity**, tongue bitten laterally, oral secretions, perioral cyanosis. Pupils equal and reactive. No focal asymmetry of movements. No meningismus detectable during the seizure. Skin without rash. No obvious head injury. Oxygen saturation improves to 94% with a non-rebreather."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 138, potassium 3.8, **glucose 88**, calcium 8.9, magnesium 2.0, creatinine 1.1. **Anion gap metabolic acidosis (lactate 6.2 mmol/L)**. **Valproate level subtherapeutic (24 mcg/mL, target 50-100)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Subtherapeutic AED level confirms nonadherence as the likely precipitant. Normal glucose and electrolytes rule out metabolic triggers. Lactic acidosis is common during prolonged seizure activity and usually resolves after seizure termination."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Non-contrast CT head (obtained after seizure control): **no acute hemorrhage, mass effect, or midline shift**. Ventricles normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "CT head excludes intracranial hemorrhage and mass lesion as a precipitant, important in any first presentation of status epilepticus."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "Continuous **EEG** monitoring in the ICU after benzodiazepine and fosphenytoin loading: initial frequent generalized spike-and-wave discharges, transitioning to burst suppression on propofol infusion. No nonconvulsive status seen after weaning.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Continuous EEG confirms termination of electrographic seizures and rules out **nonconvulsive status epilepticus**, which can persist even after clinical movements stop."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Imaging study",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "ABCs are secured; he receives **IV lorazepam 4 mg x 2 doses**, then is loaded with **IV fosphenytoin**. Seizures persist, so he is intubated and started on a **propofol infusion** with continuous EEG. Seizures terminate, and his valproate is resumed with adherence counseling."
+  },
+  "debrief": {
+    "classic_presentation": "**Status epilepticus** is defined operationally as a seizure lasting **>=5 minutes** or **two or more seizures without return to baseline consciousness between them**. Classically it presents as **continuous generalized tonic-clonic activity** in a patient with known epilepsy who has missed AED doses, but it may also be precipitated by stroke, meningitis/encephalitis, head trauma, hypoglycemia, hyponatremia, drug withdrawal (alcohol, benzodiazepines), or drug toxicity. It is a **medical emergency**: prolonged seizures cause neuronal excitotoxic injury, hyperthermia, rhabdomyolysis, lactic acidosis, and can be fatal. **Nonconvulsive status** presents as persistent altered mental status without obvious motor activity and is diagnosed by EEG.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Sustained seizure activity reflects failure of normal inhibitory (GABAergic) termination mechanisms combined with ongoing glutamatergic excitation. After ~30 minutes, **GABA-A receptors are internalized** and glutamate/NMDA receptors are upregulated, which makes benzodiazepines progressively less effective — hence the urgency of early treatment. Prolonged seizures drive calcium influx, excitotoxic neuronal injury, and ultimately permanent damage, particularly in the hippocampus and cerebellum. Systemic complications include hyperthermia, acidosis, rhabdomyolysis, and cardiovascular collapse.",
+    "treatment_overview": "Treat simultaneously with ABCs and seizure termination. **Step 1 (0-5 min)**: airway/oxygen, IV access, fingerstick glucose; give **thiamine + dextrose** if hypoglycemic or alcohol use. **Step 2 (5-20 min)**: **IV benzodiazepine — lorazepam (first-line)**, diazepam, or IM midazolam if no IV. **Step 3 (20-40 min)**: load with **IV fosphenytoin, valproate, or levetiracetam**. **Step 4 (refractory status, >40 min)**: intubate and start **continuous infusion of propofol, midazolam, or pentobarbital** with continuous EEG guided to burst suppression. Search for and treat the precipitant (infection, stroke, AED nonadherence, toxic ingestion).",
+    "high_yield_pearls": [
+      "Status epilepticus = seizure >=5 minutes or recurrent seizures without return to baseline — treat NOW, do not wait.",
+      "First-line drug = IV benzodiazepine (lorazepam 0.1 mg/kg). IM midazolam if no IV.",
+      "Second-line loading agent = IV fosphenytoin, valproate, or levetiracetam.",
+      "Refractory status epilepticus requires intubation and continuous IV anesthetic infusion (propofol, midazolam, pentobarbital) titrated to burst suppression on EEG.",
+      "Always check glucose and give thiamine + dextrose; always look for the precipitant — most common adult cause is AED nonadherence."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Seizures — Status epilepticus' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Status Epilepticus",
+      "Epilepsy",
+      "Hypoglycemia",
+      "Alcohol withdrawal",
+      "Hemorrhagic stroke",
+      "Bacterial meningitis",
+      "Herpes simplex virus (HSV) encephalitis",
+      "Hyponatremia"
+    ],
+    "after_stage2_more_likely": [
+      "Status Epilepticus",
+      "Epilepsy"
+    ],
+    "after_stage2_less_likely": [
+      "Alcohol withdrawal",
+      "Bacterial meningitis",
+      "Hyponatremia"
+    ],
+    "after_labs_top3": [
+      "Status Epilepticus",
+      "Epilepsy",
+      "Hypoglycemia"
+    ]
+  }
+}

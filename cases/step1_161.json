@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_161",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Melanoma",
+  "icd_category": "C43 — Malignant melanoma of skin",
+  "one_liner": "A 58-year-old fair-skinned man presents with a changing dark mole on his upper back that his wife noticed has grown and darkened over the past 4 months.",
+  "stage2": {
+    "hpi_extension": "The lesion has been present for years as a small, uniformly tan macule, but over the past several months it has enlarged, developed irregular edges, and taken on areas of dark brown, black, and even a reddish-blue hue. It occasionally itches and bled once after being scratched. He denies pain. He is a recreational sailor and reports multiple blistering sunburns in his youth.",
+    "pmh": "Hypertension. Dysplastic nevi excised twice in his 40s.",
+    "surgical_history": "Two prior shave excisions of benign-appearing nevi.",
+    "medications": "Lisinopril",
+    "allergies": "NKDA",
+    "family_history": "Father died of 'skin cancer that spread everywhere' at age 62.",
+    "social_history": "Retired construction foreman in Florida. Rarely wore sunscreen. Non-smoker; social alcohol.",
+    "vitals": {
+      "temp": "36.8C",
+      "hr": "74 bpm",
+      "bp": "132/80 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Skin: Fitzpatrick type II, multiple solar lentigines and scattered nevi. On the left upper back is an **8 mm pigmented lesion** with **asymmetry**, **irregular and notched borders**, **variegated color (tan, dark brown, black, and blue-red)**, and a slightly raised central area. No ulceration. No palpable left axillary or cervical lymphadenopathy. Remainder of exam unremarkable."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Full-thickness excisional biopsy shows atypical melanocytes with prominent nucleoli arranged in nests and as single cells at the dermoepidermal junction with **pagetoid upward scatter** into the epidermis. Invasion into the papillary dermis is present. **Breslow depth 1.4 mm**, no ulceration, mitotic rate 2/mm^2. S-100, HMB-45, and Melan-A positive.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Histology confirms invasive cutaneous melanoma. **Breslow thickness is the single most important prognostic factor** and determines need for sentinel lymph node biopsy and margin width."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "Tumor molecular profiling: **BRAF V600E mutation detected**. NRAS and c-KIT wild type.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A BRAF V600E mutation is present in roughly half of cutaneous melanomas and permits targeted therapy with **BRAF inhibitors (vemurafenib, dabrafenib)**, often combined with MEK inhibitors."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "PET/CT for staging shows no evidence of regional or distant metastatic disease. Left axillary sentinel lymph node mapping planned.",
+        "flag": "NORMAL",
+        "clinical_significance": "Absence of distant disease supports localized (stage II) melanoma; **sentinel lymph node biopsy** will refine nodal staging."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel",
+      "Urinalysis",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Wide local excision with 2 cm margins and sentinel lymph node biopsy show one micrometastasis in the left axilla. He is started on adjuvant **pembrolizumab (PD-1 inhibitor)** and counseled on routine dermatologic surveillance and sun protection."
+  },
+  "debrief": {
+    "classic_presentation": "Melanoma classically occurs in fair-skinned adults with a history of intense UV exposure and presents as a new or changing pigmented lesion. The **ABCDE criteria** help distinguish melanoma from benign nevi: **A**symmetry, **B**order irregularity, **C**olor variation, **D**iameter greater than 6 mm, and **E**volution over time. Risk factors include fair skin, blistering sunburns, multiple or dysplastic nevi, personal or family history of melanoma, and immunosuppression.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Melanoma arises from malignant transformation of melanocytes, most often at the dermoepidermal junction. UV radiation induces DNA damage and drives activating mutations in the **MAPK pathway**, most commonly **BRAF V600E**, as well as NRAS and c-KIT. Tumor cells show pagetoid upward scatter and eventually invade the dermis. Metastasis first occurs via lymphatics to regional nodes, followed by hematogenous spread to lung, liver, brain, and bone.",
+    "treatment_overview": "Definitive treatment is **wide local excision** with margins based on Breslow depth. **Sentinel lymph node biopsy** is indicated for tumors >=0.8 mm or with high-risk features. Adjuvant therapy for node-positive or high-risk disease includes **PD-1 inhibitors (nivolumab, pembrolizumab)** and, for BRAF-mutant disease, **BRAF + MEK inhibitors (vemurafenib/dabrafenib + trametinib)**. CTLA-4 blockade (ipilimumab) is used for advanced disease. Prevention focuses on sun protection and full-skin surveillance.",
+    "high_yield_pearls": [
+      "**ABCDE**: Asymmetry, Border irregularity, Color variation, Diameter >6 mm, Evolution — screen any changing pigmented lesion.",
+      "**Breslow depth** (tumor thickness in mm) is the single most important prognostic factor in cutaneous melanoma.",
+      "Excisional (full-thickness) biopsy — not shave biopsy — is the preferred diagnostic procedure so depth can be measured accurately.",
+      "**BRAF V600E mutation** is present in ~50% of cutaneous melanomas and is targeted by **vemurafenib** and **dabrafenib**.",
+      "Advanced/metastatic melanoma responds to immune checkpoint inhibitors: **PD-1 (nivolumab, pembrolizumab)** and **CTLA-4 (ipilimumab)**."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Musculoskeletal, Skin, and Connective Tissue chapter, 'Skin cancer — Melanoma' section.",
+      "First Aid for the USMLE Step 1 (2017) — Musculoskeletal, Skin, and Connective Tissue chapter, 'Pigmented skin disorders' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Melanoma",
+      "Atopic dermatitis",
+      "Contact dermatitis",
+      "Lichen planus",
+      "Psoriasis",
+      "Vitiligo",
+      "Alopecia areata"
+    ],
+    "after_stage2_more_likely": [
+      "Melanoma",
+      "Lichen planus"
+    ],
+    "after_stage2_less_likely": [
+      "Atopic dermatitis",
+      "Contact dermatitis",
+      "Vitiligo"
+    ],
+    "after_labs_top3": [
+      "Melanoma",
+      "Lichen planus",
+      "Psoriasis"
+    ]
+  }
+}

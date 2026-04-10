@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_175",
+  "mode": "step1",
+  "specialty": "Pediatrics",
+  "diagnosis": "Gaucher disease",
+  "icd_category": "E75.22 — Gaucher disease",
+  "one_liner": "A 7-year-old **Ashkenazi Jewish** boy is evaluated for **chronic bone pain**, easy bruising, and abdominal fullness, and is found to have **massive hepatosplenomegaly**.",
+  "stage2": {
+    "hpi_extension": "Over the past year, the boy has had deep **aching pain in the right thigh** that occasionally prevents him from walking (so-called bone crises). Parents note he tires easily, has frequent nosebleeds, and has developed bruising on his shins. He has fallen off the growth curve. No fevers. No travel. No recent infections.",
+    "pmh": "Full-term, normal development. No prior transfusions.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Both parents are **Ashkenazi Jewish**. A paternal uncle had a splenectomy for 'a blood problem' as a young adult.",
+    "social_history": "Lives with parents and one older sibling. Attends school; participation in sports limited by bone pain.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "96 bpm",
+      "bp": "100/62 mmHg",
+      "rr": "18",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: pale, thin school-aged boy. Abdomen: **massive splenomegaly extending to the pelvis, hepatomegaly 4 cm below costal margin**, nontender. Skin: scattered **ecchymoses** on the lower extremities. Musculoskeletal: tender over the **distal femur bilaterally**, decreased range of motion at the right hip. Neuro: intact (type 1 Gaucher spares the CNS)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**Beta-glucocerebrosidase (glucosylceramidase) enzyme activity in leukocytes is markedly decreased**. **GBA gene sequencing** reveals homozygosity for the N370S mutation, characteristic of Ashkenazi Jewish type 1 Gaucher disease.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Deficient glucocerebrosidase confirms **Gaucher disease**, the most common lysosomal storage disorder. Accumulated glucocerebroside is stored within tissue macrophages in spleen, liver, and bone marrow."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Bone marrow biopsy: numerous large lipid-laden macrophages with **wrinkled 'crinkled tissue paper' cytoplasm** (**Gaucher cells**). Displacement of normal hematopoietic elements.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "'Crinkled paper' Gaucher cells in the marrow are the pathognomonic histologic finding and explain pancytopenia from marrow infiltration."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hemoglobin 9.2 g/dL, platelets 78,000/µL, WBC 3.9 x 10^3/µL. Smear: normocytic anemia, no schistocytes, occasional teardrop cells.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Pancytopenia** reflects marrow infiltration by Gaucher cells and splenic sequestration from massive splenomegaly."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Genetic / molecular testing",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "The patient is started on **enzyme replacement therapy with imiglucerase** (recombinant glucocerebrosidase). Over the following year his spleen size decreases, hemoglobin and platelet counts normalize, and bone pain improves. Genetic counseling is provided for the family."
+  },
+  "debrief": {
+    "classic_presentation": "Gaucher disease is the **most common lysosomal storage disease** and classically affects individuals of **Ashkenazi Jewish** descent. Type 1 (non-neuronopathic, adult) is the most common form and presents with **hepatosplenomegaly, pancytopenia, bone pain, avascular necrosis of the femur, and pathologic fractures**. Type 2 is acute neuronopathic and fatal in infancy. Type 3 has slowly progressive CNS involvement.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Gaucher is an autosomal recessive disorder caused by mutations in the **GBA gene** encoding **beta-glucocerebrosidase (glucosylceramidase)**. Deficiency leads to accumulation of **glucocerebroside** within tissue macrophages, producing characteristic **Gaucher cells** with a **'crinkled tissue paper' cytoplasm**. Macrophage infiltration of the marrow, liver, and spleen produces cytopenias, organomegaly, and bone disease (including avascular necrosis of the femoral head).",
+    "treatment_overview": "**Enzyme replacement therapy with recombinant glucocerebrosidase (imiglucerase)** reverses visceral and hematologic manifestations in type 1 disease. **Substrate reduction therapy** (miglustat, eliglustat) is an alternative. Bone pain and avascular necrosis are managed symptomatically. CNS disease in types 2 and 3 is not corrected by enzyme replacement.",
+    "high_yield_pearls": [
+      "**Gaucher = glucocerebrosidase deficiency**; most common lysosomal storage disease; AR; Ashkenazi Jewish.",
+      "Classic triad: **hepatosplenomegaly + pancytopenia + bone pain** (think aseptic necrosis of the femur).",
+      "**Gaucher cells** on marrow biopsy look like 'crinkled tissue paper' macrophages.",
+      "Type 1 is non-neuronopathic and treatable with **enzyme replacement therapy (imiglucerase)**.",
+      "Unlike Tay-Sachs and Niemann-Pick, the cherry-red macula is absent in Gaucher — think organomegaly and bone disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Lysosomal storage diseases — Sphingolipidoses' section.",
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Gaucher disease' (glucocerebrosidase, GBA gene)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Gaucher disease",
+      "Niemann-Pick disease",
+      "Tay-Sachs disease",
+      "Mucopolysaccharidoses (MPS)",
+      "Acute lymphoblastic leukemia (ALL)",
+      "Hereditary spherocytosis",
+      "Sickle cell disease (SCD)"
+    ],
+    "after_stage2_more_likely": [
+      "Gaucher disease",
+      "Niemann-Pick disease"
+    ],
+    "after_stage2_less_likely": [
+      "Tay-Sachs disease",
+      "Hereditary spherocytosis",
+      "Sickle cell disease (SCD)"
+    ],
+    "after_labs_top3": [
+      "Gaucher disease",
+      "Niemann-Pick disease",
+      "Acute lymphoblastic leukemia (ALL)"
+    ]
+  }
+}

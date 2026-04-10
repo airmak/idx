@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_158",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Dermatomyositis",
+  "icd_category": "M33  -  Dermatopolymyositis",
+  "one_liner": "A 52-year-old woman presents with 3 months of progressive difficulty rising from a chair and combing her hair, along with a purplish rash over her eyelids and red papules on her knuckles.",
+  "stage2": {
+    "hpi_extension": "Over the past 3 months she has developed **symmetric proximal muscle weakness**  -  she struggles to **stand up from a seated position without pushing with her arms**, climb stairs, and **lift her arms above her head** to wash or brush her hair. The weakness is painless but progressive. At about the same time she noticed a **purplish discoloration of her upper eyelids** that her husband mentioned, and **reddish scaly bumps over the knuckles of both hands**. She has also developed cracked, darkened skin on the lateral aspects of her fingers and a rash across her upper back and shoulders that is worse after sun exposure. She reports mild dysphagia to solids. She denies distal weakness, sensory changes, or joint pains.",
+    "pmh": "Hypertension; last mammogram 2 years ago, last colonoscopy never",
+    "surgical_history": "None",
+    "medications": "Hydrochlorothiazide",
+    "allergies": "NKDA",
+    "family_history": "Sister with breast cancer at 55",
+    "social_history": "Librarian. Non-smoker. No alcohol. No recent travel.",
+    "vitals": {
+      "temp": "37.0degC",
+      "hr": "78 bpm",
+      "bp": "134/82 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "Skin: **violaceous (heliotrope) discoloration of the upper eyelids with periorbital edema**. **Erythematous papules over the MCP and PIP joints (Gottron papules)**. **Erythematous rash across the upper back and shoulders ('shawl sign')** and across the upper chest ('V-sign'). **Cracked, hyperkeratotic, darkened skin on the radial and palmar surfaces of the fingers ('mechanic's hands')**. Nailfold capillary dilation. MSK: **symmetric proximal muscle weakness**  -  shoulder abduction 3/5, hip flexion 3/5; distal strength 5/5. Reflexes preserved. Sensation intact. No joint swelling."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Creatine kinase (CK) 4,850 U/L** (markedly elevated). **Aldolase elevated**. AST and ALT mildly elevated (muscle origin). Creatinine normal. Electrolytes normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Markedly elevated CK and aldolase with transaminases of muscle origin confirm active skeletal muscle injury, as seen in inflammatory myopathies such as dermatomyositis and polymyositis."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**ANA positive, 1:320**. **Anti-Jo-1 (anti-histidyl-tRNA synthetase) antibody positive**. Anti-Mi-2 positive. Anti-Scl-70 negative. Anti-centromere negative. RF negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Anti-Jo-1 is an anti-synthetase antibody associated with the anti-synthetase syndrome  -  myositis, mechanic's hands, Raynaud, interstitial lung disease, and arthritis  -  and supports the diagnosis of dermatomyositis."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Left deltoid muscle biopsy: **perimysial inflammatory infiltrate with perifascicular atrophy**. Immunohistochemistry: CD4+ T cells and B cells in perimysial and perivascular distribution; deposition of membrane attack complex on capillary walls.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Perimysial inflammation with perifascicular atrophy and complement-mediated microangiopathy are characteristic histologic findings of **dermatomyositis**, distinguishing it from polymyositis (endomysial, CD8+ mediated)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Functional / provocative testing"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "High-dose oral prednisone is started with gradual improvement in strength and CK. Methotrexate is added as a steroid-sparing agent. Because of the strong paraneoplastic association, age-appropriate cancer screening is pursued and reveals an early-stage ovarian carcinoma on pelvic imaging."
+  },
+  "debrief": {
+    "classic_presentation": "Dermatomyositis presents in adults (peak 40-60, female predominance) and children as **symmetric proximal muscle weakness**  -  difficulty rising from a chair, climbing stairs, and lifting arms overhead  -  combined with characteristic skin findings. Pathognomonic cutaneous features include the **heliotrope rash** (violaceous eyelid discoloration with edema), **Gottron papules** (erythematous papules over MCPs and PIPs), the **shawl sign** (rash over the upper back and shoulders), the **V-sign** (upper chest), and **mechanic's hands**. Dysphagia, interstitial lung disease, and Raynaud may occur.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Dermatomyositis is an autoimmune inflammatory myopathy driven by **humoral immunity and complement-mediated microangiopathy**. Deposition of the membrane attack complex on endomysial capillaries produces capillary dropout and ischemic injury, leading to the characteristic **perifascicular atrophy** seen on muscle biopsy with a **perimysial inflammatory infiltrate** (CD4+ T cells and B cells). There is a strong **paraneoplastic association**  -  especially with ovarian, lung, gastric, colorectal, and non-Hodgkin lymphoma  -  and adults require age-appropriate cancer screening.",
+    "treatment_overview": "First-line therapy is **high-dose corticosteroids** (prednisone 1 mg/kg/day) followed by slow taper. Steroid-sparing agents include **methotrexate**, azathioprine, or mycophenolate. Severe or refractory disease is treated with **IVIG** or rituximab. Topical sunscreens and hydroxychloroquine help cutaneous disease. **Age-appropriate malignancy screening** is essential at diagnosis given the strong paraneoplastic association.",
+    "high_yield_pearls": [
+      "Proximal muscle weakness (difficulty rising from a chair, combing hair) + heliotrope rash + Gottron papules = dermatomyositis.",
+      "Elevated CK and aldolase reflect active muscle injury; anti-Jo-1 (anti-histidyl-tRNA synthetase) defines the anti-synthetase syndrome with mechanic's hands and ILD.",
+      "Muscle biopsy in DM: perimysial inflammation with perifascicular atrophy (humoral, complement-mediated). In polymyositis: endomysial inflammation with CD8+ T cells invading non-necrotic fibers (cell-mediated).",
+      "Dermatomyositis carries a strong paraneoplastic association  -  ovarian, lung, gastric, colorectal cancers, and non-Hodgkin lymphoma. Always screen for occult malignancy.",
+      "Treatment: high-dose steroids first; methotrexate/azathioprine as steroid-sparing; IVIG for refractory disease."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Polymyositis / Dermatomyositis' section.",
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Paraneoplastic syndromes  -  Dermatomyositis'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Dermatomyositis",
+      "Polymyositis",
+      "Systemic lupus erythematosus (SLE)",
+      "Scleroderma (systemic sclerosis)",
+      "Hypothyroidism",
+      "Statin-induced myopathy",
+      "Mixed connective tissue disease (MCTD)",
+      "Paraneoplastic syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Dermatomyositis",
+      "Polymyositis"
+    ],
+    "after_stage2_less_likely": [
+      "Hypothyroidism",
+      "Statin-induced myopathy",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_labs_top3": [
+      "Dermatomyositis",
+      "Polymyositis",
+      "Mixed connective tissue disease (MCTD)"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_146",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Migraine",
+  "icd_category": "G43 — Migraine",
+  "one_liner": "A 26-year-old woman presents with a 10-hour history of severe right-sided throbbing headache, nausea, and intolerance of bright light and loud sound.",
+  "stage2": {
+    "hpi_extension": "She describes a **unilateral right-sided pulsating headache** that began gradually and has worsened over the past several hours. She has had similar episodes every 1-2 months for the past 3 years, each lasting anywhere from 6 to 48 hours. About 20 minutes before the pain started, she saw **shimmering zig-zag lines in her right visual field (scintillating scotoma)** that slowly faded. She is now lying in a dark, quiet room because **bright light and loud sound make it worse (photophobia and phonophobia)**. She has vomited twice. Attacks are often triggered by **stress, menstruation, sleep deprivation, red wine, and aged cheese**.",
+    "pmh": "Occasional episodes of motion sickness",
+    "surgical_history": "None",
+    "medications": "Combined oral contraceptive pill, ibuprofen as needed (minimal relief)",
+    "allergies": "NKDA",
+    "family_history": "Mother and older sister both have **recurrent disabling headaches**",
+    "social_history": "Graduate student. No tobacco, occasional wine. Sleeps 5-6 hours nightly during exams.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "82 bpm",
+      "bp": "124/76 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Appears uncomfortable, lying with eyes closed and a pillow over her head. Neuro: cranial nerves II-XII intact, no focal weakness, normal sensation, reflexes symmetric, no cerebellar or meningeal signs. Funduscopy normal (no papilledema). Neck supple. No scalp or temporal artery tenderness."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain with and without contrast: **no acute infarct, hemorrhage, mass, or vascular malformation**. No evidence of hydrocephalus or midline shift. Normal study.",
+        "flag": "NORMAL",
+        "clinical_significance": "Imaging is typically normal in migraine. It is performed mainly to rule out secondary causes (e.g., tumor, hemorrhage, vascular malformation) when headaches are new, severe, or have red-flag features."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 140, potassium 4.1, glucose 92, creatinine 0.7, LFTs normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal labs argue against metabolic or toxic causes of headache."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is given IV metoclopramide and a **subcutaneous sumatriptan (5-HT1B/1D agonist)**, and within 45 minutes her pain and nausea resolve. A propranolol prophylaxis plan is started after a discussion of trigger avoidance and sleep hygiene."
+  },
+  "debrief": {
+    "classic_presentation": "Migraine classically presents in young to middle-aged women as episodic **unilateral pulsating/throbbing headaches** lasting 4 to 72 hours, accompanied by **nausea, vomiting, photophobia, and phonophobia**. About one third of patients experience a preceding **aura** — most commonly visual (scintillating scotomas, zig-zag lines, fortification spectra), and less commonly sensory or language disturbance — from cortical spreading depression. Triggers include **stress, menstruation, certain foods (red wine, aged cheese, chocolate), sleep deprivation, and oral contraceptives**. POUND mnemonic: Pulsatile, One-day duration (4-72 h), Unilateral, Nausea, Disabling.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Migraine is a primary neurovascular headache driven by activation of the **trigeminovascular system**. Release of vasoactive neuropeptides — most importantly **calcitonin gene-related peptide (CGRP)**, substance P, and neurokinin A — causes neurogenic inflammation and sensitization of trigeminal afferents around meningeal vessels. The aura corresponds to a wave of **cortical spreading depression** (slowly propagating neuronal depolarization followed by suppression). Serotonergic pathways are also involved, which is why 5-HT1B/1D agonists (triptans) abort attacks.",
+    "treatment_overview": "Acute (abortive) therapy: NSAIDs and acetaminophen for mild attacks; **triptans (sumatriptan)** — 5-HT1B/1D receptor agonists that cause intracranial vasoconstriction and block CGRP release — for moderate-severe attacks; antiemetics such as metoclopramide or prochlorperazine; ergotamine/DHE as alternatives. Triptans and ergots are **contraindicated in coronary artery disease, uncontrolled hypertension, and Prinzmetal angina** because of vasoconstriction. Prophylaxis (if more than 4 headaches/month or debilitating): **beta-blockers (propranolol, metoprolol)**, topiramate, valproate, TCAs (amitriptyline), and **CGRP antagonists (erenumab)**. Lifestyle: regular sleep, trigger avoidance, hydration.",
+    "high_yield_pearls": [
+      "POUND criteria for migraine: Pulsatile, One-day duration, Unilateral, Nausea, Disabling.",
+      "Aura = cortical spreading depression. Most auras are visual (scintillating scotomas) and last <60 minutes before the headache.",
+      "CGRP release in the trigeminovascular system drives migraine pain — targeted by erenumab (anti-CGRP monoclonal antibody).",
+      "Triptans (sumatriptan) are 5-HT1B/1D agonists; avoid in CAD, uncontrolled HTN, and Prinzmetal angina due to vasoconstriction.",
+      "Migraine with aura plus combined OCP plus smoking substantially raises ischemic stroke risk — switch to progestin-only contraception."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Headaches — Migraine' section.",
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Migraine drugs — Triptans' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Migraine",
+      "Tension headache",
+      "Cluster headache",
+      "Subarachnoid hemorrhage (SAH)",
+      "Idiopathic intracranial hypertension",
+      "Trigeminal neuralgia",
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Sinusitis (bacterial)"
+    ],
+    "after_stage2_more_likely": [
+      "Migraine",
+      "Cluster headache"
+    ],
+    "after_stage2_less_likely": [
+      "Subarachnoid hemorrhage (SAH)",
+      "Sinusitis (bacterial)",
+      "Tension headache"
+    ],
+    "after_labs_top3": [
+      "Migraine",
+      "Tension headache",
+      "Cluster headache"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_102",
+  "mode": "step1",
+  "specialty": "Neurology",
+  "diagnosis": "Hemorrhagic stroke",
+  "icd_category": "I61 — Nontraumatic intracerebral hemorrhage",
+  "one_liner": "A 68-year-old man with poorly controlled hypertension is brought to the ED after collapsing at home with sudden severe headache and left-sided weakness.",
+  "stage2": {
+    "hpi_extension": "His wife reports that he was arguing when he suddenly clutched his head, complained of 'the worst headache of my life', and collapsed. He vomited once on the floor. On arrival he is drowsy but arousable, with dense left hemiparesis and a gaze preference to the right. He has been off his antihypertensive medications for two weeks because he 'felt fine'. No trauma. No anticoagulants. No recent fever.",
+    "pmh": "Hypertension (chronic, poorly controlled), type 2 diabetes, hyperlipidemia",
+    "surgical_history": "None",
+    "medications": "(non-adherent) amlodipine, lisinopril, atorvastatin, metformin",
+    "allergies": "NKDA",
+    "family_history": "Father died of 'a stroke' at age 72",
+    "social_history": "30 pack-year smoker, drinks 3 beers nightly. Retired mechanic.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "88 bpm",
+      "bp": "218/124 mmHg",
+      "rr": "18",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: obese, somnolent, responds to voice. HEENT: pupils 3 mm, sluggishly reactive; **right gaze deviation** (looking toward the lesion). Neuro: **dense left hemiparesis involving face, arm, and leg**, left-sided hyperreflexia, **left Babinski**, decreased sensation on the left. **Dysarthria**. GCS 11. Cardiovascular: regular rate, S4 gallop, no murmur. Lungs: clear. Extremities: no peripheral edema. Skin: no petechiae."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Non-contrast CT of the head**: **hyperdense acute hematoma (~4 cm) centered in the right putamen/basal ganglia** with surrounding edema, mass effect on the right lateral ventricle, and early midline shift of 4 mm. **Intraventricular extension** into the occipital horn. No subarachnoid blood. CT angiography shows no vascular malformation or aneurysm.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-contrast CT is the first-line imaging in suspected stroke; acute hemorrhage appears hyperdense. Basal ganglia location is characteristic of hypertensive intracerebral hemorrhage from ruptured Charcot-Bouchard microaneurysms of the lenticulostriate arteries."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 140, potassium 4.1, glucose 198, BUN 22, creatinine 1.1, LFTs normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hyperglycemia is associated with worse outcomes after ICH. Electrolytes are important for management of cerebral edema."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hemoglobin 14.2, WBC 10,100, **platelets 238,000, INR 1.0, aPTT 29 seconds**. Peripheral smear unremarkable.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal platelet count and coagulation parameters rule out a primary bleeding diathesis and anticoagulant-related hemorrhage, supporting a hypertensive etiology."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Blood pressure is carefully lowered with IV nicardipine to a systolic target of 140-160 mmHg, neurosurgery is consulted, and he is admitted to the neuro-ICU with reversal precautions; repeat CT at 6 hours shows stable hematoma."
+  },
+  "debrief": {
+    "classic_presentation": "Hemorrhagic stroke classically presents with **sudden severe headache** (often described as 'the worst headache of my life'), focal neurologic deficit, vomiting, and **progressive decrease in level of consciousness**, contrasting with ischemic stroke where headache and early depressed consciousness are less common. Hypertensive intracerebral hemorrhage most often occurs in the **basal ganglia (putamen), thalamus, cerebellum, and pons** — sites supplied by small penetrating arteries prone to **Charcot-Bouchard microaneurysms** from chronic hypertension. Lobar hemorrhages in the elderly suggest cerebral amyloid angiopathy.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Chronic hypertension causes lipohyalinosis and formation of **Charcot-Bouchard microaneurysms** in small penetrating arteries, particularly the lenticulostriate branches of the middle cerebral artery supplying the basal ganglia. Rupture produces an expanding intraparenchymal hematoma that mechanically disrupts tissue, elevates intracranial pressure, and can herniate supratentorial contents. Surrounding edema develops over hours to days. Other etiologies include cerebral amyloid angiopathy (elderly, lobar hemorrhages — amyloid-beta deposition in small vessel walls), arteriovenous malformations (young patients), anticoagulant or antiplatelet use, bleeding diatheses, hemorrhagic transformation of ischemic stroke, and cocaine/methamphetamine-induced vasoconstriction.",
+    "treatment_overview": "Management centers on **blood pressure control** with IV antihypertensives such as **nicardipine or labetalol**, aiming for a systolic BP around 140-160 mmHg. **Reversal of anticoagulation** when relevant: vitamin K plus 4-factor PCC for warfarin, idarucizumab for dabigatran, andexanet alfa for factor Xa inhibitors, and platelets or DDAVP for antiplatelet-related bleeding. ICP management includes head-of-bed elevation, mannitol or hypertonic saline, and avoidance of hyperthermia/hyperglycemia. **Neurosurgical consultation** is obtained for cerebellar hemorrhages >3 cm (high risk of brainstem compression and hydrocephalus — often warrant evacuation), large lobar hemorrhages in deteriorating patients, and obstructive hydrocephalus (external ventricular drain). Seizure precautions and DVT prophylaxis with mechanical devices are standard.",
+    "high_yield_pearls": [
+      "Hypertensive intracerebral hemorrhage sites: putamen > thalamus > pons > cerebellum.",
+      "Charcot-Bouchard microaneurysms of lenticulostriate arteries are the classic rupture source.",
+      "Sudden severe headache + focal deficit + decreased LOC favors hemorrhagic over ischemic stroke.",
+      "Cerebral amyloid angiopathy causes recurrent lobar hemorrhages in elderly patients and is associated with amyloid-beta deposition.",
+      "Cerebellar hemorrhages >3 cm typically require surgical evacuation to prevent brainstem compression."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Intracranial hemorrhage — Intracerebral (hypertensive) hemorrhage' section.",
+      "First Aid for the USMLE Step 1 (2017) — Neurology and Special Senses chapter, 'Stroke' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hemorrhagic stroke",
+      "Stroke (ischemic)",
+      "Subarachnoid hemorrhage (SAH)",
+      "Subdural hematoma (SDH)",
+      "Epidural hematoma (EDH)",
+      "Hypertensive emergency",
+      "Brain tumor (glioblastoma multiforme / GBM)",
+      "Bacterial meningitis"
+    ],
+    "after_stage2_more_likely": [
+      "Hemorrhagic stroke",
+      "Subarachnoid hemorrhage (SAH)",
+      "Stroke (ischemic)"
+    ],
+    "after_stage2_less_likely": [
+      "Subdural hematoma (SDH)",
+      "Bacterial meningitis"
+    ],
+    "after_labs_top3": [
+      "Hemorrhagic stroke",
+      "Stroke (ischemic)",
+      "Subarachnoid hemorrhage (SAH)"
+    ]
+  }
+}

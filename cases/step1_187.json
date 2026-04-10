@@ -1,0 +1,106 @@
+{
+  "case_id": "step1_187",
+  "mode": "step1",
+  "specialty": "Psychiatry",
+  "diagnosis": "Schizophrenia, first episode",
+  "icd_category": "F20.9 — Schizophrenia, unspecified",
+  "one_liner": "A 21-year-old male college student is brought to the emergency department by his parents after eight months of progressively bizarre behavior, including claims that the CIA is monitoring him through his laptop.",
+  "stage2": {
+    "hpi_extension": "Over the past 8 months he has withdrawn from friends and stopped attending classes. His parents report **flat affect and impoverished speech**. He insists the CIA has planted cameras in his dorm and that his thoughts are being broadcast to other students. He reports **hearing two male voices commenting on his actions throughout the day**, sometimes telling him he is worthless. He appears to respond to internal stimuli. He denies substance use, suicidal ideation, or homicidal intent, though he has become increasingly suspicious of family members. Prior to this year he was a high-achieving student with no psychiatric history.",
+    "pmh": "Healthy. Full-term vaginal delivery. Normal developmental milestones.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "**Paternal uncle with schizophrenia**; maternal grandmother with 'nervous breakdown'",
+    "social_history": "Undergraduate student, previously a top student. Lives in dorm. Denies alcohol or drug use. Non-smoker.",
+    "vitals": {
+      "temp": "36.9°C",
+      "hr": "88 bpm",
+      "bp": "122/78 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: disheveled, poor hygiene, guarded. Affect: **flat and restricted**. Speech: decreased spontaneous output with occasional tangentiality and loose associations. Thought content: **persecutory and referential delusions** about the CIA, **thought broadcasting**; acknowledges **auditory hallucinations of a running commentary**. No suicidal or homicidal ideation voiced. Cognition: oriented, distractible, poor insight. Neuro: no focal deficits, no abnormal movements."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "**Urine drug screen negative** for amphetamines, cocaine, cannabinoids, PCP, opioids, and benzodiazepines. Standard urinalysis unremarkable.",
+        "flag": "NORMAL",
+        "clinical_significance": "Excludes substance-induced psychotic disorder (especially stimulants, cannabis, PCP, and hallucinogens), which is mandatory before diagnosing primary schizophrenia."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Electrolytes, glucose, liver enzymes, renal function, calcium, and ammonia all within normal limits. Baseline lipid panel and HbA1c obtained for future antipsychotic monitoring.",
+        "flag": "NORMAL",
+        "clinical_significance": "Rules out metabolic encephalopathy or organic delirium and establishes baseline values before starting second-generation antipsychotics, which can cause weight gain, dyslipidemia, and hyperglycemia."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "MRI brain without contrast: no mass, hemorrhage, demyelination, or structural lesion. (Research imaging in schizophrenia classically shows enlarged lateral ventricles and decreased gray matter volume, but clinical MRI is performed primarily to rule out organic causes in a first psychotic episode.)",
+        "flag": "NORMAL",
+        "clinical_significance": "Structural neuroimaging is recommended in a first psychotic episode to exclude tumor, autoimmune encephalitis, demyelination, or other structural lesions presenting with psychosis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Hormone / endocrine assay"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is admitted for stabilization and started on **risperidone**, a second-generation antipsychotic. Within 2 weeks his hallucinations and delusional intensity begin to lessen. He is connected with intensive outpatient care including case management and family psychoeducation. Baseline weight, fasting glucose, and lipids are documented, with a plan to monitor metabolic parameters given his new SGA therapy."
+  },
+  "debrief": {
+    "classic_presentation": "Schizophrenia typically has onset in **men 18-25 years** and **women 25-35 years**. DSM-5 requires **≥2 of the following for at least 1 month** (with continuous signs/symptoms for **≥6 months**): **delusions**, **hallucinations** (usually auditory), **disorganized speech**, **grossly disorganized or catatonic behavior**, or **negative symptoms** (flat affect, alogia, avolition, anhedonia, asociality). At least one symptom must be delusions, hallucinations, or disorganized speech. Symptoms cause significant functional decline. **Brief psychotic disorder** = <1 month; **schizophreniform disorder** = 1-6 months; **schizophrenia** = ≥6 months. Must exclude schizoaffective disorder, mood disorder with psychotic features, substance-induced psychosis, and medical causes.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The leading model centers on **dopamine dysregulation**: **hyperactivity of the mesolimbic dopamine pathway** drives positive symptoms (delusions, hallucinations), while **hypoactivity of the mesocortical pathway** contributes to negative and cognitive symptoms. Glutamatergic (NMDA hypofunction) and serotonergic systems are also implicated. Structural findings include enlarged lateral ventricles, reduced cortical gray matter, and decreased hippocampal volume. Risk is highly heritable (~80%) with polygenic contributions; **obstetric complications, advanced paternal age, urban birth, winter birth, cannabis use in adolescence, and childhood trauma** are environmental risk factors.",
+    "treatment_overview": "**Second-generation (atypical) antipsychotics** are first-line for a first episode: **risperidone, olanzapine, quetiapine, aripiprazole, ziprasidone**. They have less extrapyramidal side effects than first-generation agents but carry significant **metabolic side effects** (weight gain, dyslipidemia, diabetes) — baseline and periodic weight, glucose, and lipids are required. **Clozapine** is reserved for **treatment-resistant schizophrenia** (failure of ≥2 antipsychotics) and for reducing suicidality; it requires **ANC monitoring for agranulocytosis** and carries risks of seizures, myocarditis, and metabolic syndrome. **Psychosocial interventions** (case management, family psychoeducation, supported employment, CBT) substantially improve functioning.",
+    "high_yield_pearls": [
+      "DSM-5 schizophrenia: **≥2 of delusions, hallucinations, disorganized speech, disorganized/catatonic behavior, or negative symptoms** for ≥6 months of continuous illness.",
+      "**Mesolimbic hyperdopaminergia** drives positive symptoms; **mesocortical hypodopaminergia** contributes to negative symptoms.",
+      "**First-episode psychosis workup** must rule out substance use (urine tox), metabolic/endocrine causes, and structural brain disease (MRI).",
+      "**Clozapine** is uniquely effective for refractory schizophrenia but requires **weekly/biweekly ANC monitoring** for **agranulocytosis** and carries risk of myocarditis and seizures.",
+      "Second-generation antipsychotics cause **metabolic syndrome** — monitor weight, glucose, and lipids; **olanzapine and clozapine** are the worst offenders."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Psychiatry chapter, 'Psychotic disorders — Schizophrenia' section.",
+      "First Aid for the USMLE Step 1 (2017) — Psychiatry chapter, 'Psychiatric pharmacology — Antipsychotics (typical and atypical)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Schizophrenia, first episode",
+      "Schizoaffective disorder",
+      "Bipolar disorder",
+      "Delusional disorder",
+      "Major depressive disorder",
+      "Brain tumor (glioblastoma multiforme / GBM)"
+    ],
+    "after_stage2_more_likely": [
+      "Schizophrenia, first episode",
+      "Schizoaffective disorder",
+      "Delusional disorder"
+    ],
+    "after_stage2_less_likely": [
+      "Major depressive disorder",
+      "Bipolar disorder"
+    ],
+    "after_labs_top3": [
+      "Schizophrenia, first episode",
+      "Schizoaffective disorder",
+      "Delusional disorder"
+    ]
+  }
+}

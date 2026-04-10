@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_109",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Pneumocystis pneumonia (PCP)",
+  "icd_category": "B59 — Pneumocystosis",
+  "one_liner": "A 34-year-old man with untreated HIV presents with 3 weeks of progressive dyspnea on exertion, a nonproductive cough, and low-grade fevers, now with hypoxia disproportionate to his chest X-ray findings.",
+  "stage2": {
+    "hpi_extension": "His symptoms have progressed gradually over 3 weeks from mild fatigue and occasional dry cough to significant dyspnea climbing a single flight of stairs. He describes drenching night sweats and has lost 12 pounds. He was diagnosed with HIV 4 years ago but has not been on antiretroviral therapy for the past 2 years. He denies chest pain, hemoptysis, or sick contacts. **His oxygen saturation drops from 93% at rest to 82% after walking 50 feet**.",
+    "pmh": "HIV (not on ART, last CD4 unknown), oral thrush 6 months ago",
+    "surgical_history": "None",
+    "medications": "None currently (discontinued ART 2 years ago)",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Lives alone. Former IV drug use (abstinent 5 years). Never-smoker.",
+    "vitals": {
+      "temp": "38.1 C",
+      "hr": "108 bpm",
+      "bp": "118/72 mmHg",
+      "rr": "26",
+      "spo2": "88% on room air at rest"
+    },
+    "physical_exam": "General: thin, chronically ill-appearing. HEENT: **oral thrush (white plaques on tongue and buccal mucosa)**, cervical lymphadenopathy. Lungs: **clear to auscultation bilaterally despite marked hypoxemia** (a classic mismatch), no crackles or wheezes. Cardiac: tachycardic, regular. Skin: no rashes or Kaposi lesions. Extremities: no clubbing, no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **diffuse bilateral symmetric interstitial (ground-glass) infiltrates** in a perihilar distribution, sparing the apices and costophrenic angles. No pleural effusion, no cavitation, no adenopathy. High-resolution CT: diffuse bilateral ground-glass opacities with scattered cystic changes.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Diffuse bilateral ground-glass opacities in an AIDS patient with hypoxia disproportionate to a relatively unimpressive CXR are classic for Pneumocystis pneumonia."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**LDH 685 U/L (markedly elevated)**. Na 134, K 4.0, creatinine 0.9, AST 42, ALT 38, albumin 3.0. ABG on room air: pH 7.46, PaCO2 32 mmHg, PaO2 56 mmHg. **A-a gradient = 52 mmHg (markedly elevated)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated LDH is nonspecific but classic for PCP. A widened A-a gradient quantifies the severity of gas exchange impairment and, along with PaO2, determines whether adjunctive steroids are indicated."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "Induced sputum and bronchoalveolar lavage with **methenamine silver (Gomori) stain** showing **disc/cup-shaped cysts consistent with Pneumocystis jirovecii**. Direct fluorescent antibody positive. Serum **beta-D-glucan markedly elevated**. CD4 count: **42 cells/uL**. HIV viral load 480,000 copies/mL.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Visualization of Pneumocystis cysts on silver stain of BAL is the diagnostic gold standard. CD4 < 200 places the patient at high risk for PCP and other AIDS-defining infections."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Because PaO2 is <70 mmHg and the A-a gradient is >35, adjunctive prednisone is added to TMP-SMX. He improves clinically over 5 days and is later restarted on antiretroviral therapy along with long-term PCP prophylaxis."
+  },
+  "debrief": {
+    "classic_presentation": "Pneumocystis jirovecii pneumonia is the most common AIDS-defining opportunistic infection in patients with CD4 < 200 cells/uL. Classic presentation is a subacute (weeks) progression of fever, nonproductive cough, and exertional dyspnea. The physical exam is often remarkably unimpressive given the degree of hypoxemia, and oxygen saturation falls precipitously with ambulation. Chest imaging shows diffuse bilateral perihilar interstitial (ground-glass) infiltrates, and LDH and beta-D-glucan are typically elevated.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pneumocystis jirovecii is a ubiquitous fungus (previously classified as a protozoan) that causes disease in hosts with impaired cell-mediated immunity, most notably those with AIDS (CD4 < 200), organ transplant recipients, and patients on high-dose corticosteroids. The organism proliferates in the alveolar space, producing a foamy eosinophilic exudate and impairing gas exchange without prominent leukocyte infiltration. Silver stains (Gomori methenamine silver) reveal the characteristic disc or cup-shaped cysts.",
+    "treatment_overview": "First-line therapy is trimethoprim-sulfamethoxazole (TMP-SMX) for 21 days. Adjunctive corticosteroids are indicated when PaO2 < 70 mmHg on room air or the A-a gradient >= 35 mmHg, as steroids reduce mortality by blunting the inflammatory response triggered by organism killing. Alternatives for sulfa-allergic patients include pentamidine, atovaquone, or clindamycin plus primaquine. Primary prophylaxis with TMP-SMX is indicated for any HIV patient with CD4 < 200, history of oral thrush, or prior PCP.",
+    "high_yield_pearls": [
+      "PCP occurs in HIV patients with CD4 < 200 cells/uL; prophylaxis with TMP-SMX is indicated at that threshold.",
+      "Classic presentation: subacute dry cough, fever, and hypoxia disproportionate to relatively mild chest X-ray findings.",
+      "Diagnosis: silver-stained (GMS) BAL or induced sputum showing disc/cup-shaped cysts; beta-D-glucan and LDH are elevated.",
+      "Treatment is TMP-SMX; add steroids if PaO2 < 70 or A-a gradient >= 35 mmHg.",
+      "Pneumocystis jirovecii was reclassified from a protozoan to a fungus but lacks ergosterol, so it is not susceptible to azoles."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Mycology — Pneumocystis jirovecii (pneumonia)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pneumocystis pneumonia (PCP)",
+      "Tuberculosis (TB)",
+      "Community-acquired pneumonia",
+      "Cytomegalovirus (CMV) disease",
+      "HIV/AIDS",
+      "Histoplasmosis",
+      "Coccidioidomycosis",
+      "Cryptococcal meningitis"
+    ],
+    "after_stage2_more_likely": [
+      "Pneumocystis pneumonia (PCP)",
+      "Tuberculosis (TB)",
+      "HIV/AIDS"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia",
+      "Cytomegalovirus (CMV) disease",
+      "Histoplasmosis"
+    ],
+    "after_labs_top3": [
+      "Pneumocystis pneumonia (PCP)",
+      "Tuberculosis (TB)",
+      "Cytomegalovirus (CMV) disease"
+    ]
+  }
+}

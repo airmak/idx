@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_144",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Thalassemia (alpha)",
+  "icd_category": "D56.0 -- Alpha thalassemia",
+  "one_liner": "A 24-year-old woman of Vietnamese descent is referred for evaluation of a mild microcytic anemia noted on routine pre-natal screening. She feels well.",
+  "stage2": {
+    "hpi_extension": "She feels completely well and denies fatigue, dyspnea, or exercise intolerance. A prior CBC 3 years ago also showed a microcytic anemia. She previously received a 6-month trial of oral iron supplementation by her primary care doctor without any improvement in her hemoglobin or MCV. She denies menorrhagia, GI symptoms, and has a normal balanced diet with red meat. She has no personal or family history of jaundice, gallstones, or transfusions, and her siblings reportedly have similar mild microcytic blood counts.",
+    "pmh": "Mild microcytic anemia, otherwise healthy. Currently 10 weeks pregnant.",
+    "surgical_history": "None",
+    "medications": "Prenatal vitamins, previously iron supplementation (without benefit)",
+    "allergies": "NKDA",
+    "family_history": "Both parents from Vietnam; father with 'mild anemia'; paternal grandfather with 'thin blood'; no known hydrops fetalis in siblings; one older brother with mild microcytosis",
+    "social_history": "Graduate student, non-smoker, no alcohol (pregnant), normal diet",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "78 bpm",
+      "bp": "112/68 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing, well-nourished, comfortable. HEENT: no scleral icterus, no glossitis. Cardiovascular: normal S1/S2, no murmur. Lungs: clear. Abdomen: soft, non-tender, **no hepatomegaly or splenomegaly**, gravid uterus consistent with dates. Skin: no pallor, no jaundice, no frontal bossing or chipmunk facies. Extremities: normal. Neuro: intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 10.8 g/dL (mildly low), **MCV 68 fL (low, microcytic)**, MCH low, **RDW normal**, **RBC count elevated**, WBC and platelets normal. Smear: **microcytic, hypochromic red cells with target cells and mild anisopoikilocytosis**, no schistocytes, no basophilic stippling.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microcytic anemia with normal RDW, elevated RBC count, and target cells is characteristic of thalassemia trait. The Mentzer index (MCV/RBC) will be <13. In iron deficiency anemia, the RDW is usually elevated and the RBC count is decreased."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "**Serum iron: NORMAL. TIBC: NORMAL. Ferritin: NORMAL (60 ng/mL). Transferrin saturation: NORMAL.** Lead level: normal.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal iron studies rule out iron deficiency anemia and anemia of chronic disease as causes of her microcytosis. This is a critical step: a microcytic anemia with NORMAL iron studies points toward thalassemia, sideroblastic anemia, or lead poisoning."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "**Hemoglobin electrophoresis: NORMAL (normal HbA, normal HbA2, normal HbF).** **Alpha-globin gene analysis: 2 of 4 alpha-globin genes deleted (alpha-thalassemia trait, minor)**, trans (one from each chromosome).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Alpha-thalassemia trait has a NORMAL hemoglobin electrophoresis because HbA2 and HbF still require only the unaffected alpha chains. This contrasts with beta-thalassemia, in which HbA2 is elevated. Definitive diagnosis requires genetic testing to count the number of deleted alpha-globin genes."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "Inflammatory / infection markers"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Imaging study",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Because her husband is also of Southeast Asian descent, prenatal genetic counseling is obtained to assess the risk of Bart hemoglobin (hydrops fetalis) in their offspring. He is tested and found to carry one deletion, placing future children at low but non-zero risk for HbH disease."
+  },
+  "debrief": {
+    "classic_presentation": "Alpha-thalassemia is most common in patients of Southeast Asian, African, and Mediterranean descent. It presents as a microcytic anemia ranging from silent carrier state to hydrops fetalis depending on how many of the four alpha-globin genes are deleted. Patients with 1 deletion (silent carrier) are asymptomatic with normal CBC. Patients with 2 deletions (alpha-thalassemia trait/minor) have a mild microcytic anemia with a normal hemoglobin electrophoresis -- often discovered incidentally or during prenatal screening. Patients with 3 deletions (HbH disease) develop moderate-to-severe hemolytic anemia with splenomegaly. Four gene deletions results in Bart hemoglobin (hydrops fetalis), which is incompatible with postnatal life.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Alpha-globin is encoded by 4 genes on chromosome 16 (two on each chromosome). Alpha-thalassemia is most commonly caused by GENE DELETIONS (in contrast to beta-thalassemia, which usually results from point mutations). With 2 deletions, patients are asymptomatic carriers. With 3 deletions, excess beta chains in adults form unstable tetramers (beta-4, HbH) that precipitate and cause hemolysis with splenomegaly. With all 4 deletions, excess gamma chains in the fetus form gamma-4 tetramers (Bart hemoglobin), which bind oxygen too tightly to release it to tissues, causing severe in utero hypoxia, high-output heart failure, and hydrops fetalis. Because HbA2 and HbF depend only on beta-family chains pairing with alpha, electrophoresis is NORMAL in alpha-thalassemia minor.",
+    "treatment_overview": "Alpha-thalassemia minor (trait) requires no treatment beyond genetic counseling -- it is important NOT to treat empirically with iron, which is ineffective and can cause iron overload. HbH disease may need transfusion support, folate supplementation, and sometimes splenectomy for severe hemolysis. Bart hemoglobin (4-gene deletion) is almost always fatal in utero. Genetic counseling is essential for at-risk couples, particularly those of Southeast Asian ancestry. Chronic transfusions in severe disease mandate iron chelation (deferoxamine, deferasirox).",
+    "high_yield_pearls": [
+      "Alpha-thalassemia severity is set by the number of deleted alpha-globin genes: 1 = silent carrier; 2 = trait/minor; 3 = HbH disease (beta-4 tetramers, hemolysis, splenomegaly); 4 = Bart hemoglobin (gamma-4) with hydrops fetalis.",
+      "Alpha-thalassemia is most common in Southeast Asian and African populations; caused by gene DELETIONS (beta-thalassemia is usually point mutations).",
+      "Alpha-thalassemia trait: microcytic anemia with NORMAL iron studies and a NORMAL hemoglobin electrophoresis -- a key distinction from beta-thalassemia, in which HbA2 is elevated.",
+      "Clues to trait vs iron deficiency: normal RDW, elevated RBC count, Mentzer index <13, lack of response to iron trial.",
+      "Do not treat alpha-thalassemia with iron -- it is ineffective and risks iron overload. Definitive diagnosis requires genetic testing."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) -- Hematology and Oncology chapter, 'Microcytic anemias / Thalassemias -- Alpha-thalassemia' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Thalassemia (alpha)",
+      "Thalassemia (beta)",
+      "Iron deficiency anemia",
+      "Anemia of chronic disease",
+      "Lead poisoning",
+      "Sickle cell disease (SCD)",
+      "Hereditary spherocytosis",
+      "G6PD deficiency"
+    ],
+    "after_stage2_more_likely": [
+      "Thalassemia (alpha)",
+      "Thalassemia (beta)",
+      "Iron deficiency anemia"
+    ],
+    "after_stage2_less_likely": [
+      "Anemia of chronic disease",
+      "Sickle cell disease (SCD)",
+      "Hereditary spherocytosis"
+    ],
+    "after_labs_top3": [
+      "Thalassemia (alpha)",
+      "Thalassemia (beta)",
+      "Iron deficiency anemia"
+    ]
+  }
+}

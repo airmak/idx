@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_121",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Primary biliary cholangitis (PBC)",
+  "icd_category": "K74.3 - Primary biliary cholangitis",
+  "one_liner": "A 52-year-old woman presents with 8 months of progressive fatigue and intractable itching, especially at night.",
+  "stage2": {
+    "hpi_extension": "Her pruritus began on the palms and soles and now involves her entire body. It is worse at night and disrupts her sleep. She also reports fatigue out of proportion to activity, dry eyes, and dry mouth. More recently she has noticed yellowing of her eyes and dark urine. She denies abdominal pain, fever, or weight loss. No history of IV drug use, blood transfusions, or risky sexual behavior. No new medications or herbal supplements.",
+    "pmh": "Hashimoto thyroiditis on levothyroxine, sicca symptoms, osteoporosis",
+    "surgical_history": "Tubal ligation",
+    "medications": "Levothyroxine, calcium, vitamin D",
+    "allergies": "NKDA",
+    "family_history": "Mother with rheumatoid arthritis. Sister with systemic lupus erythematosus.",
+    "social_history": "Librarian. Nonsmoker. Rare alcohol use. Married, monogamous.",
+    "vitals": {
+      "temp": "36.9C",
+      "hr": "74 bpm",
+      "bp": "122/76 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing woman with **mild scleral icterus**. Skin: **diffuse hyperpigmentation, excoriations from scratching**, and **yellow xanthelasmas on the medial eyelids**. Dry mucous membranes. Abdomen: soft; **firm, nontender hepatomegaly** 3 cm below the right costal margin. Mild splenomegaly. No ascites. Extremities: no edema. Joints: no active synovitis."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Alkaline phosphatase 580 U/L (markedly elevated)**, GGT 410 U/L, total bilirubin 2.8 mg/dL (direct 1.9), AST 68, ALT 74, albumin 3.9 g/dL, INR 1.1. **Total cholesterol 340 mg/dL**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Disproportionate elevation of **alkaline phosphatase and GGT** with relatively mild transaminitis defines a **cholestatic pattern**. Hypercholesterolemia is characteristic of chronic cholestasis and explains the xanthelasmas."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Anti-mitochondrial antibody (AMA): positive, titer 1:640**. ANA positive (1:160, nucleolar pattern). IgM elevated. Anti-smooth muscle antibody negative. Viral hepatitis panel (HAV, HBV, HCV) negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Anti-mitochondrial antibody** (especially anti-M2 subtype) is present in >95% of PBC patients and is the hallmark serologic finding. Along with a cholestatic liver panel in a middle-aged woman, this is essentially diagnostic of PBC."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Liver biopsy (performed for staging): **lymphocytic infiltration with granulomatous destruction of small and medium-sized intralobular (interlobular) bile ducts**. Portal tract expansion with bile ductular proliferation. Mild periportal fibrosis. No significant steatosis or nodular regeneration.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Granulomatous destruction of small intralobular bile ducts (florid duct lesion)** is pathognomonic for primary biliary cholangitis. Biopsy is not always required for diagnosis but helps with staging and prognosis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Histopathology / biopsy",
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on **ursodeoxycholic acid (UDCA)** at 13-15 mg/kg/day. At 1-year follow-up her alkaline phosphatase has decreased by 50% and her pruritus has improved with cholestyramine. She is screened annually for osteoporosis and fat-soluble vitamin deficiencies."
+  },
+  "debrief": {
+    "classic_presentation": "Primary biliary cholangitis (formerly 'primary biliary cirrhosis') classically presents in a **middle-aged woman (female:male ~9:1)** with insidious onset of **fatigue, pruritus, jaundice**, and signs of chronic cholestasis including **xanthelasma, xanthomas, skin hyperpigmentation**, and eventually cirrhosis. Many patients are diagnosed incidentally when an elevated alkaline phosphatase is noted on routine labs. PBC is strongly associated with other autoimmune conditions, especially **Sjogren syndrome, Hashimoto thyroiditis, CREST/scleroderma, and celiac disease**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "PBC is a chronic autoimmune disease characterized by **T-cell mediated granulomatous destruction of small intralobular (interlobular) bile ducts**, leading to intrahepatic cholestasis, fibrosis, and eventually cirrhosis. The hallmark autoantibody is **anti-mitochondrial antibody (AMA)**, directed against the E2 component of the pyruvate dehydrogenase complex on the inner mitochondrial membrane. There is a strong female predominance and association with HLA-DR8. Cholestasis causes retention of bile salts (pruritus), cholesterol (xanthomas), and bilirubin (jaundice), plus fat-soluble vitamin malabsorption (A, D, E, K) and osteoporosis.",
+    "treatment_overview": "**Ursodeoxycholic acid (UDCA)** is first-line therapy; it improves cholestasis, slows progression, and delays the need for liver transplant. Obeticholic acid (FXR agonist) is second-line for inadequate UDCA response. Symptomatic care: **cholestyramine** (bile acid sequestrant) for pruritus; replacement of fat-soluble vitamins (A, D, E, K); screening and treatment for osteoporosis; screening for HCC and varices once cirrhotic. **Liver transplantation** is the only definitive cure and is reserved for end-stage disease. PBC can recur in the transplanted liver.",
+    "high_yield_pearls": [
+      "PBC = middle-aged woman + fatigue + pruritus + elevated alkaline phosphatase + **anti-mitochondrial antibody (AMA)**.",
+      "Classic biopsy finding: **lymphocytic infiltration with granulomatous destruction of small intralobular bile ducts (florid duct lesion)**.",
+      "Strong association with other autoimmune diseases - especially **Sjogren, Hashimoto, CREST/scleroderma, and celiac disease**.",
+      "First-line treatment is **ursodeoxycholic acid (UDCA)**; cholestyramine for pruritus; fat-soluble vitamin replacement; liver transplant is definitive.",
+      "Distinguish PBC from PSC: **PBC affects small intrahepatic ducts** (AMA+, women, no association with IBD); **PSC affects medium/large intra- and extrahepatic ducts** (p-ANCA+, men, associated with ulcerative colitis, risk of cholangiocarcinoma)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Primary biliary cirrhosis / primary biliary cholangitis' section.",
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Jaundice and cholestasis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Primary biliary cholangitis (PBC)",
+      "Primary sclerosing cholangitis (PSC)",
+      "Autoimmune hepatitis",
+      "Drug-induced hepatitis",
+      "Hepatitis C",
+      "Cholangiocarcinoma",
+      "Hashimoto thyroiditis"
+    ],
+    "after_stage2_more_likely": [
+      "Primary biliary cholangitis (PBC)",
+      "Autoimmune hepatitis"
+    ],
+    "after_stage2_less_likely": [
+      "Drug-induced hepatitis",
+      "Hepatitis C",
+      "Cholangiocarcinoma"
+    ],
+    "after_labs_top3": [
+      "Primary biliary cholangitis (PBC)",
+      "Primary sclerosing cholangitis (PSC)",
+      "Autoimmune hepatitis"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_112",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Gastroesophageal reflux disease (GERD)",
+  "icd_category": "K21 - Gastro-esophageal reflux disease",
+  "one_liner": "A 46-year-old obese man presents with 6 months of burning retrosternal chest pain that is worse after meals and when lying down, along with a sour taste in his mouth at night.",
+  "stage2": {
+    "hpi_extension": "He describes a burning sensation that rises from his epigastrium to his throat, typically 30-60 minutes after eating and especially after spicy foods, coffee, chocolate, and red wine. He frequently wakes at night coughing with a **sour regurgitant fluid** in his mouth. Symptoms improve when he sleeps propped up on pillows and with over-the-counter antacids. He denies dysphagia, odynophagia, hematemesis, melena, or weight loss. A two-week trial of **omeprazole** provided significant relief.",
+    "pmh": "Obesity (BMI 34), hypertension",
+    "surgical_history": "None",
+    "medications": "Lisinopril, occasional over-the-counter calcium carbonate, recently started omeprazole",
+    "allergies": "NKDA",
+    "family_history": "Father with hypertension; no GI malignancies",
+    "social_history": "Drinks 3-4 beers nightly, smokes half a pack of cigarettes daily for 20 years, sedentary office job",
+    "vitals": {
+      "temp": "36.9 deg C",
+      "hr": "78 bpm",
+      "bp": "138/86 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: obese middle-aged man in no acute distress. HEENT: mild **dental enamel erosion** on posterior surfaces, **erythematous posterior oropharynx**. Neck: supple, no lymphadenopathy. Lungs: clear to auscultation. Cardiovascular: regular rate and rhythm, no murmurs. Abdomen: soft, obese, **mild epigastric tenderness** without rebound or guarding, no hepatosplenomegaly, bowel sounds normal. Rectal: guaiac negative."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 7.2, Hgb 14.8 g/dL, Hct 44%, Platelets 240. No evidence of iron deficiency anemia.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal CBC argues against chronic GI blood loss from erosive esophagitis, ulcer, or malignancy and is reassuring in an uncomplicated GERD presentation."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Empiric PPI trial** (omeprazole 20 mg daily x 2 weeks) produced marked symptomatic improvement. Subsequent **24-hour ambulatory esophageal pH monitoring** (off PPI) showed abnormally increased distal esophageal acid exposure with **pH < 4 for 8.2% of the recording time** and a positive symptom-reflux correlation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Response to empiric PPI is the most cost-effective initial diagnostic test for typical GERD. Ambulatory pH monitoring is the gold standard and confirms pathologic acid reflux."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Upper endoscopy (performed for persistent symptoms) revealed **Los Angeles grade B erosive esophagitis** at the gastroesophageal junction. Biopsies showed basal zone hyperplasia and elongated papillae with scattered intraepithelial eosinophils; **no intestinal metaplasia (no Barrett esophagus)** identified.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "EGD with biopsy is indicated if alarm symptoms are present or if symptoms fail medical therapy, to assess for erosive esophagitis, Barrett esophagus, strictures, or adenocarcinoma."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Functional / provocative testing",
+      "Histopathology / biopsy"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After initiation of daily PPI, weight loss counseling, smoking cessation, and elevation of the head of the bed, his symptoms resolve completely within four weeks."
+  },
+  "debrief": {
+    "classic_presentation": "GERD classically presents with postprandial retrosternal burning (heartburn), sour or bitter regurgitation, and symptoms worsened by lying supine, bending over, or eating large meals. Atypical manifestations include chronic cough, hoarseness, laryngitis, dental erosions, and non-cardiac chest pain. Obesity, pregnancy, hiatal hernia, smoking, alcohol, caffeine, chocolate, and fatty foods are classic risk factors.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GERD is caused by inappropriate transient relaxation of the lower esophageal sphincter (LES) or decreased LES tone, allowing gastric contents to reflux into the esophagus. Exposure of the squamous mucosa to acid and pepsin produces inflammation and erosion. Chronic reflux can drive metaplastic transformation of the distal esophageal squamous epithelium into specialized columnar epithelium with goblet cells - **Barrett esophagus**, a premalignant lesion for esophageal adenocarcinoma. Hiatal hernia, obesity, and scleroderma promote reflux by compromising the antireflux barrier.",
+    "treatment_overview": "First-line therapy is lifestyle modification: weight loss, elevating the head of the bed, avoiding late meals, and avoiding trigger foods, alcohol, and tobacco. Pharmacologic therapy is a stepwise approach from antacids and H2 blockers (famotidine) to proton pump inhibitors (omeprazole), which are the most effective agents for erosive disease. Endoscopy is warranted for alarm symptoms (dysphagia, odynophagia, weight loss, GI bleeding, anemia) or persistent symptoms despite therapy. Refractory cases or large hiatal hernias may require Nissen fundoplication.",
+    "high_yield_pearls": [
+      "Classic symptoms: postprandial heartburn, sour regurgitation, worse supine, and relief with PPIs.",
+      "Barrett esophagus = intestinal metaplasia (columnar with goblet cells) of the distal esophagus; it is a precursor to esophageal adenocarcinoma.",
+      "Alarm features (dysphagia, odynophagia, weight loss, anemia, hematemesis, melena, age > 50 with new symptoms) mandate EGD to rule out malignancy.",
+      "PPIs irreversibly block the H+/K+ ATPase in parietal cells and are the most effective medical therapy for GERD.",
+      "Long-term PPI use is associated with hypomagnesemia, vitamin B12 deficiency, C. difficile infection, osteoporotic fractures, and community-acquired pneumonia."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Gastroesophageal reflux disease (GERD) and Barrett esophagus' section.",
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'GI pharmacology - Proton pump inhibitors' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "Eosinophilic esophagitis",
+      "Candidal esophagitis",
+      "Esophageal cancer",
+      "Stable angina",
+      "Functional dyspepsia",
+      "Gastroparesis"
+    ],
+    "after_stage2_more_likely": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "Functional dyspepsia"
+    ],
+    "after_stage2_less_likely": [
+      "Stable angina",
+      "Candidal esophagitis",
+      "Esophageal cancer"
+    ],
+    "after_labs_top3": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "Eosinophilic esophagitis"
+    ]
+  }
+}

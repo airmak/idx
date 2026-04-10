@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_168",
+  "mode": "step1",
+  "specialty": "OB/GYN",
+  "diagnosis": "Placental abruption (moderate-severe, concealed component)",
+  "icd_category": "O45 — Premature separation of placenta (abruptio placentae)",
+  "one_liner": "A 32-year-old G2P1 woman at 33 weeks gestation with chronic hypertension presents with the sudden onset of severe, constant abdominal pain and a small amount of dark vaginal bleeding.",
+  "stage2": {
+    "hpi_extension": "Pain began abruptly one hour ago and has been constant and severe ever since, localized to the uterus and lower back. She notes only a small amount of **dark red vaginal bleeding** on her underwear — much less than she would expect from how much pain she is in. She feels the baby moving less than usual. She denies trauma, intercourse, or fall. She admits to **occasional cocaine use** and last used two days ago.",
+    "pmh": "Chronic hypertension, poorly controlled. One prior spontaneous vaginal delivery.",
+    "surgical_history": "None",
+    "medications": "Labetalol 200 mg BID (inconsistent compliance), prenatal vitamins",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Smokes 1 pack per day. Occasional cocaine use. No alcohol.",
+    "vitals": {
+      "temp": "37.0°C",
+      "hr": "122 bpm",
+      "bp": "168/104 mmHg",
+      "rr": "22",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: distressed, writhing in pain. Abdomen: gravid uterus is **firm, rigid, and exquisitely tender** to palpation (\"board-like\"), with **frequent hypertonic contractions** that do not relax between peaks. Fundal height consistent with 33 weeks. Sterile speculum: small amount of **dark blood** in the vault, cervix closed. Fetal heart tones: **category III tracing with recurrent late decelerations** and minimal variability, baseline 160 bpm. Extremities: no edema beyond baseline."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 9.2 g/dL (baseline 12.1), Hct 27%, **platelets 78,000** (baseline 230). WBC 14.2. Smear: **schistocytes present**.",
+        "flag": "CRITICAL",
+        "clinical_significance": "Dropping hemoglobin out of proportion to visible external bleeding supports a **concealed retroplacental hematoma**. Thrombocytopenia with schistocytes suggests developing **DIC** from release of placental tissue factor/thromboplastin into the maternal circulation."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Na 137, K 4.2, **Cr 1.3** (baseline 0.7), BUN 22, LFTs mildly elevated. **Fibrinogen 140 mg/dL (low for pregnancy; normal pregnancy >400)**, PT/PTT prolonged, **D-dimer markedly elevated**. Urine toxicology: **positive for cocaine**.",
+        "flag": "CRITICAL",
+        "clinical_significance": "Consumptive coagulopathy (low fibrinogen, prolonged PT/PTT, elevated D-dimer) confirms **DIC**. Cocaine is a major risk factor for abruption via vasoconstriction. Rising creatinine reflects hypovolemia and possible acute kidney injury."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Bedside ultrasound: placenta fundal-posterior, **NOT covering the cervical os** (excludes previa). A small heterogeneous retroplacental collection is suggested but not definitive. Fetal heart rate 110 with decelerations on monitor strip.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Ultrasound is **INSENSITIVE** for placental abruption (misses 50%+); a negative scan does NOT rule it out. Its main role is to **exclude placenta previa**, which changes management. Abruption remains a **clinical diagnosis**."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Hormone / endocrine assay"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is taken to the operating room for **emergent cesarean delivery**. Intraoperatively, a large **retroplacental clot (Couvelaire uterus with blood tracking into the myometrium)** is seen behind a prematurely separated placenta. The neonate is depressed with Apgars 3/6 and is admitted to the NICU. Massive transfusion protocol with packed red cells, FFP, cryoprecipitate, and platelets is initiated for ongoing DIC."
+  },
+  "debrief": {
+    "classic_presentation": "Placental abruption presents with **sudden painful dark vaginal bleeding**, a **rigid/tender hypertonic uterus**, and often a non-reassuring fetal heart tracing in a woman with risk factors such as **hypertension/preeclampsia, cocaine use, smoking, trauma, prior abruption, and advanced maternal age**. Up to 20% of abruptions are **concealed**, with little or no external bleeding but a rapidly expanding retroplacental hematoma — the visible bleeding underestimates true blood loss.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Abruption is premature separation of a normally implanted placenta from the uterine wall before delivery. Rupture of maternal spiral arteries creates a retroplacental hematoma that shears additional placental tissue free. Because the placenta is rich in **tissue factor (thromboplastin)**, entry of placental material into the maternal circulation activates the extrinsic coagulation cascade and can precipitate **disseminated intravascular coagulation (DIC)** with consumption of platelets and fibrinogen — the most common obstetric cause of DIC.",
+    "treatment_overview": "Abruption is a **clinical diagnosis** — ultrasound is insensitive and is mainly used to exclude previa. Management: ABCs, two large-bore IVs, continuous fetal and maternal monitoring, blood products (including cryoprecipitate for fibrinogen <200), and correction of coagulopathy. **Emergent cesarean delivery** is indicated for any maternal or fetal compromise; vaginal delivery can be attempted only in a stable patient with a reassuring strip and imminent delivery or fetal demise. Watch for postpartum hemorrhage from uterine atony and progressive DIC.",
+    "high_yield_pearls": [
+      "**Painful** dark vaginal bleeding with a **rigid/tender uterus** = abruption. **Painless** bright red bleeding with a soft uterus = previa.",
+      "Visible bleeding may be **small or absent in concealed abruption** — the hemorrhage hides behind the placenta. Monitor hemoglobin and hemodynamics, not just pad counts.",
+      "**Abruption is the most common obstetric cause of DIC** via release of placental tissue factor/thromboplastin; check fibrinogen (classically low) and platelets.",
+      "Top risk factors: **hypertension/preeclampsia, cocaine, trauma, smoking, prior abruption, and PPROM**. Cocaine causes placental vasoconstriction.",
+      "Ultrasound is **insensitive** for abruption and is used mainly to rule out previa. Diagnosis is clinical."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Pregnancy complications — Placental abruption (abruptio placentae)' section.",
+      "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Third-trimester bleeding' comparison table and DIC in obstetrics."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Placental abruption (moderate-severe, concealed component)",
+      "Placenta previa (complete)",
+      "Uterine rupture (prior classical cesarean scar)",
+      "Preeclampsia",
+      "HELLP syndrome",
+      "Eclampsia",
+      "Pyelonephritis"
+    ],
+    "after_stage2_more_likely": [
+      "Placental abruption (moderate-severe, concealed component)",
+      "Uterine rupture (prior classical cesarean scar)"
+    ],
+    "after_stage2_less_likely": [
+      "Placenta previa (complete)",
+      "Pyelonephritis",
+      "Eclampsia"
+    ],
+    "after_labs_top3": [
+      "Placental abruption (moderate-severe, concealed component)",
+      "HELLP syndrome",
+      "Uterine rupture (prior classical cesarean scar)"
+    ]
+  }
+}

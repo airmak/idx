@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_117",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Variceal bleeding",
+  "icd_category": "I85.01 - Esophageal varices with bleeding",
+  "one_liner": "A 59-year-old man with known alcoholic cirrhosis is brought to the emergency department after vomiting a large volume of bright red blood at home and passing a black tarry stool.",
+  "stage2": {
+    "hpi_extension": "He suddenly had a sensation of fullness in his throat followed by **several episodes of large-volume bright red hematemesis** - approximately a full bowl. He then felt lightheaded and nearly syncopal. En route to the ED he had a **melenic bowel movement**. He denies abdominal pain, chest pain, or prior similar episodes. He has a known history of alcoholic cirrhosis diagnosed 2 years ago with documented **grade II esophageal varices** on prior endoscopy, but has been non-compliant with **propranolol**. He continues to drink heavily.",
+    "pmh": "Alcoholic cirrhosis (Child-Pugh B), esophageal varices, ascites, prior hepatic encephalopathy, hypertension",
+    "surgical_history": "None",
+    "medications": "Propranolol (non-compliant), spironolactone, furosemide, lactulose",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Continues to drink 1 pint of vodka daily, smokes 1 pack per day, lives alone",
+    "vitals": {
+      "temp": "36.6 deg C",
+      "hr": "124 bpm",
+      "bp": "84/52 mmHg",
+      "rr": "22",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: **pale, diaphoretic, ill-appearing man** with dried blood around the mouth. HEENT: **scleral icterus**, dried hematemesis on clothing and chin. Cardiovascular: **tachycardic**, regular rhythm, no murmurs, **delayed capillary refill**. Lungs: clear. Abdomen: **distended with ascites**, shifting dullness, **splenomegaly**, caput medusae, nontender. Extremities: cool, 1+ pitting edema, palmar erythema, spider angiomata on the chest. Neurologic: sleepy but arousable, **asterixis present**. Rectal: **melena on digital rectal exam**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "**Hgb 7.2 g/dL (down from baseline 11.5)**, Hct 22%, Platelets 68,000, WBC 9.5. Smear shows normocytic anemia with target cells.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Acute drop in hemoglobin indicates significant blood loss. Baseline thrombocytopenia from hypersplenism compounds the bleeding risk."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**BUN 58 mg/dL (elevated)**, creatinine 1.4 mg/dL, **BUN:Cr ratio 41** (elevated - consistent with upper GI bleed), AST 120, ALT 52 (AST:ALT > 2), total bilirubin 4.2, **albumin 2.6, INR 1.8**, lactate 3.2, sodium 130.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated BUN out of proportion to creatinine reflects absorption of digested blood (the 'GI protein meal'), confirming an upper GI source. Elevated INR and low albumin reflect underlying hepatic synthetic dysfunction."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "**Emergent EGD** after resuscitation: **large tortuous esophageal varices** in the distal esophagus with **active spurting bleeding** from a varix with an overlying red wale sign. **Endoscopic variceal band ligation** was performed with hemostasis achieved.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Upper endoscopy is both diagnostic and therapeutic. Endoscopic variceal band ligation is first-line therapy for active variceal hemorrhage; red wale signs and large varices are predictors of bleeding risk."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He receives **aggressive fluid resuscitation, packed red blood cell transfusion, IV octreotide, and prophylactic ceftriaxone**, and after successful band ligation is discharged on **propranolol with a plan for repeat banding sessions** until variceal obliteration."
+  },
+  "debrief": {
+    "classic_presentation": "Variceal bleeding presents as **hematemesis (often brisk and large-volume), melena, and hemodynamic instability** in a patient with known or previously undiagnosed cirrhosis and portal hypertension. Physical findings of chronic liver disease - jaundice, ascites, splenomegaly, caput medusae, palmar erythema, spider angiomata - point to the underlying substrate. Mortality of the first variceal bleed approaches 15-20%, and rebleeding rates are high without prophylaxis.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**Portal hypertension** from cirrhosis raises pressure in the portal venous system, driving blood through porto-systemic collaterals. **Esophageal varices** form at the gastroesophageal junction where the left gastric (coronary) vein anastomoses with esophageal veins that drain into the azygos system. As varices enlarge (especially when the hepatic venous pressure gradient exceeds 12 mmHg), the thin wall ruptures. Classic porto-systemic shunts include: **esophageal varices** (left gastric to azygos), **caput medusae** (paraumbilical to superficial epigastric via a recanalized umbilical vein), and **anorectal varices** (superior rectal to middle/inferior rectal). Note that internal hemorrhoids are NOT varices.",
+    "treatment_overview": "**Resuscitation first**: two large-bore IVs, crystalloid, type and cross, and packed RBC transfusion targeting hemoglobin of 7-8 g/dL (over-transfusion can paradoxically raise portal pressure and worsen bleeding). **Octreotide** (a somatostatin analog) causes splanchnic vasoconstriction and reduces portal inflow. **Prophylactic ceftriaxone** reduces the risk of spontaneous bacterial peritonitis and mortality. **Urgent EGD within 12 hours** enables **endoscopic variceal band ligation** (first-line) or sclerotherapy. Refractory bleeding is managed with balloon tamponade (Sengstaken-Blakemore tube) as a temporizing measure and definitively with **transjugular intrahepatic portosystemic shunt (TIPS)**. **Secondary prophylaxis** after a first bleed uses a **non-selective beta-blocker** (propranolol or nadolol, which blocks beta-1 to reduce cardiac output and beta-2 to allow unopposed splanchnic vasoconstriction) plus serial band ligation.",
+    "high_yield_pearls": [
+      "Triad: hematemesis + melena + hypotension in a cirrhotic = variceal bleed until proven otherwise.",
+      "Acute management: resuscitate, transfuse (target Hgb 7-8), IV octreotide, ceftriaxone prophylaxis, urgent EGD with band ligation. TIPS if refractory.",
+      "Secondary prophylaxis: non-selective beta-blocker (propranolol/nadolol) reduces portal pressure via beta-1 (decreased CO) and beta-2 (unopposed splanchnic vasoconstriction) blockade, plus repeat band ligation.",
+      "Porto-systemic anastomoses: left gastric-azygos (esophageal varices), paraumbilical-epigastric (caput medusae), superior rectal-middle/inferior rectal (anorectal varices). Internal hemorrhoids are NOT varices.",
+      "Elevated BUN:creatinine ratio in a patient with GI bleeding reflects absorption of digested blood ('protein meal') and indicates an upper GI source."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Portal hypertension - Esophageal varices' section.",
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Cirrhosis and porto-systemic shunts' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Variceal bleeding",
+      "Upper GI bleed (peptic ulcer)",
+      "Peptic ulcer disease",
+      "Boerhaave Syndrome",
+      "Gastric cancer",
+      "Esophageal cancer",
+      "Mesenteric ischemia",
+      "Cirrhosis"
+    ],
+    "after_stage2_more_likely": [
+      "Variceal bleeding",
+      "Upper GI bleed (peptic ulcer)",
+      "Cirrhosis"
+    ],
+    "after_stage2_less_likely": [
+      "Boerhaave Syndrome",
+      "Mesenteric ischemia",
+      "Esophageal cancer"
+    ],
+    "after_labs_top3": [
+      "Variceal bleeding",
+      "Upper GI bleed (peptic ulcer)",
+      "Peptic ulcer disease"
+    ]
+  }
+}

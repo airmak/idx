@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_127",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Renal artery stenosis",
+  "icd_category": "I70.1 — Atherosclerosis of renal artery",
+  "one_liner": "A 28-year-old woman is referred for evaluation of new-onset severe hypertension. Her blood pressure remains above 170/100 mmHg despite three antihypertensive medications.",
+  "stage2": {
+    "hpi_extension": "She was well until six months ago when she was found to have BP 172/108 at a routine visit. She has been started on hydrochlorothiazide, amlodipine, and most recently lisinopril. Despite compliance, her BP remains elevated. Over the past week, since starting lisinopril, she has noted fatigue and was told at a recheck that her **creatinine jumped from 0.8 to 1.7**. She has headaches and occasional flushing but no palpitations or weight loss. She reports no family history of hypertension.",
+    "pmh": "None. No diabetes, no prior kidney disease.",
+    "surgical_history": "None",
+    "medications": "Hydrochlorothiazide, amlodipine, lisinopril (started 1 week ago)",
+    "allergies": "NKDA",
+    "family_history": "No hypertension. Mother alive and well.",
+    "social_history": "Graphic designer. Non-smoker, rare alcohol. Exercises regularly.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "84 bpm",
+      "bp": "178/104 mmHg (right arm), 176/102 (left arm)",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing young woman. HEENT: no thyromegaly, no proptosis. Cardiovascular: regular rate and rhythm, no S3/S4, no murmurs. Lungs: clear. **Abdomen: soft, non-tender, with a high-pitched systolic-diastolic bruit heard in the epigastrium/left flank**. Extremities: no edema. Neuro: non-focal. Skin: no café-au-lait spots, no neurofibromas."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 141, potassium 3.2 (**hypokalemia**), chloride 104, **bicarbonate 30 (mildly elevated)**. BUN 34, **creatinine 1.7 (up from 0.8 baseline)**. Glucose 92.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Acute rise in creatinine after starting an ACE inhibitor** strongly suggests renal artery stenosis (ACEi blocks angiotensin II-mediated efferent arteriolar constriction that was maintaining GFR in a hypoperfused kidney). **Hypokalemia with metabolic alkalosis** reflects secondary hyperaldosteronism from activation of the RAAS."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Plasma renin activity: markedly elevated**. **Plasma aldosterone: elevated**. **Aldosterone-to-renin ratio: low (both high, renin disproportionately so)**. Metanephrines/normetanephrines: normal. TSH normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**High renin with high aldosterone (secondary hyperaldosteronism)** distinguishes renal artery stenosis from primary hyperaldosteronism (Conn syndrome, where renin is suppressed). Normal metanephrines exclude pheochromocytoma."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Renal duplex ultrasound**: elevated peak systolic velocity >200 cm/s in the mid-to-distal right renal artery; right kidney 8.6 cm, left kidney 11.2 cm (**asymmetry >1.5 cm**). **CT angiography of the renal arteries**: **alternating areas of stenosis and dilation in the mid/distal right renal artery giving a 'string of beads' appearance**; no atherosclerotic plaque.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**'String of beads' appearance in a young woman is pathognomonic for fibromuscular dysplasia**, the most common cause of renal artery stenosis in young women. FMD classically involves the **mid-to-distal** renal artery (atherosclerosis involves the ostium)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Hormone / endocrine assay",
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Lisinopril is discontinued and her creatinine returns to 0.9 within a week. She undergoes **percutaneous transluminal renal angioplasty** of the right renal artery with resolution of the stenosis. Over the next month her BP normalizes on a single agent."
+  },
+  "debrief": {
+    "classic_presentation": "Renal artery stenosis should be suspected in two classic presentations: (1) a **young woman with new-onset severe hypertension** — most commonly due to **fibromuscular dysplasia**, which shows a **'string of beads' appearance** on angiography in the mid-to-distal renal artery; and (2) an **older patient with atherosclerotic disease** whose previously controlled hypertension worsens abruptly or who develops **flash pulmonary edema**. Hallmarks include an **abdominal/flank bruit** (systolic-diastolic), **asymmetric kidney sizes** on imaging, and an **acute rise in creatinine after starting an ACE inhibitor or ARB**, which is especially dramatic in **bilateral renal artery stenosis**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Stenosis of the renal artery reduces perfusion pressure to the affected kidney. The juxtaglomerular apparatus responds by releasing **renin**, which converts angiotensinogen to angiotensin I; ACE then forms angiotensin II, driving **systemic vasoconstriction and aldosterone release**, producing **hypertension with secondary hyperaldosteronism (hypokalemia, metabolic alkalosis)**. Within the affected kidney, angiotensin II preferentially constricts the **efferent arteriole**, maintaining glomerular filtration pressure. **ACE inhibitors block this compensation**, causing an abrupt drop in GFR and rising creatinine — the hallmark clue. In FMD, medial fibroplasia creates alternating rings of stenosis and dilation (string of beads). Atherosclerotic RAS typically involves the **ostium/proximal** renal artery in patients with generalized atherosclerosis.",
+    "treatment_overview": "**Fibromuscular dysplasia: percutaneous transluminal angioplasty** (usually without stenting) is first-line and often curative. **Atherosclerotic renal artery stenosis**: medical management with **ACE inhibitors or ARBs (with careful monitoring)**, statins, antiplatelets, and aggressive risk factor control; revascularization with stenting is reserved for refractory hypertension, progressive renal dysfunction, or recurrent flash pulmonary edema (large trials, e.g., CORAL, showed no routine benefit of stenting over medical therapy). **Bilateral renal artery stenosis is a contraindication to ACE inhibitors/ARBs**.",
+    "high_yield_pearls": [
+      "**Young woman + severe resistant hypertension + 'string of beads' on angiography = fibromuscular dysplasia**, the most common cause of RAS in young women.",
+      "**Abdominal/flank bruit** and **asymmetric kidneys** are classic physical/imaging clues; FMD hits the **mid-distal** renal artery, atherosclerosis hits the **ostium**.",
+      "**Acute rise in creatinine after starting an ACE inhibitor or ARB** is a classic clue — angiotensin II was maintaining GFR by constricting the efferent arteriole.",
+      "**Bilateral renal artery stenosis is a contraindication to ACEi/ARBs** because GFR is efferent-arteriole dependent in both kidneys.",
+      "Lab pattern: **high renin, high aldosterone (secondary hyperaldosteronism)** with hypokalemia and metabolic alkalosis — contrast with Conn syndrome (low renin)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Renovascular hypertension / Renal artery stenosis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'ACE inhibitors' (contraindication in bilateral RAS)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Renal artery stenosis",
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Pheochromocytoma",
+      "Essential hypertension",
+      "Coarctation of the aorta",
+      "Cushing syndrome",
+      "Hyperthyroidism"
+    ],
+    "after_stage2_more_likely": [
+      "Renal artery stenosis",
+      "Primary hyperaldosteronism (Conn syndrome)"
+    ],
+    "after_stage2_less_likely": [
+      "Essential hypertension",
+      "Hyperthyroidism",
+      "Cushing syndrome"
+    ],
+    "after_labs_top3": [
+      "Renal artery stenosis",
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Pheochromocytoma"
+    ]
+  }
+}

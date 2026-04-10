@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_090",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Mitral stenosis",
+  "icd_category": "I05.0 — Rheumatic mitral stenosis",
+  "one_liner": "A 38-year-old woman who recently immigrated from India presents with 6 months of progressive exertional dyspnea and one episode of blood-streaked sputum yesterday.",
+  "stage2": {
+    "hpi_extension": "She now becomes short of breath walking across her apartment. She reports palpitations and orthopnea. Yesterday she coughed up a small amount of frank blood (hemoptysis). As a child in rural India she had several episodes of 'throat infection' followed by painful swollen joints and fever, and spent several weeks in bed. She takes no medications and has no prior cardiac workup.",
+    "pmh": "Recurrent childhood streptococcal pharyngitis with presumed rheumatic fever. Two uncomplicated term pregnancies.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Immigrated from rural India 2 years ago. Never smoker. No alcohol.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "104 bpm, irregularly irregular",
+      "bp": "112/70 mmHg",
+      "rr": "22",
+      "spo2": "93% on room air"
+    },
+    "physical_exam": "General: thin woman with **malar flush**. Cardiac: **irregularly irregular rhythm**, **loud S1**, **opening snap after S2**, followed by a **low-pitched mid-to-late diastolic rumble best heard at the apex in the left lateral decubitus position**. **Loud P2**. Pulmonary: fine bibasilar crackles. Abdomen: benign. Extremities: trace pedal edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "**Atrial fibrillation** with rapid ventricular response (~105 bpm). When in sinus on old tracings: **broad notched P wave in lead II (P mitrale)** consistent with **left atrial enlargement**. Right axis deviation.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Left atrial enlargement from chronic pressure overload is the hallmark EKG finding in mitral stenosis. LA dilation is a substrate for atrial fibrillation."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **thickened, calcified mitral valve leaflets with commissural fusion and a 'hockey-stick' anterior leaflet**. **Mitral valve area 1.2 cm^2** (normal 4-6). Mean transmitral gradient 11 mmHg. **Severely enlarged left atrium** with spontaneous echo contrast ('smoke'). Normal LV size and EF. Elevated estimated pulmonary artery systolic pressure (58 mmHg). Chest x-ray: straightening of the left heart border, double density at the right heart border, cephalization of pulmonary vessels.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Commissural fusion with a hockey-stick anterior leaflet and a valve area <1.5 cm^2 confirms severe rheumatic mitral stenosis. Marked LA enlargement and secondary pulmonary hypertension explain hemoptysis and dyspnea."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Comprehensive metabolic panel",
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is anticoagulated for atrial fibrillation and undergoes percutaneous balloon mitral valvuloplasty, with symptomatic improvement."
+  },
+  "debrief": {
+    "classic_presentation": "Mitral stenosis classically affects young-to-middle-aged adults with a history of rheumatic fever, often presenting decades after the initial illness. Patients develop dyspnea, orthopnea, atrial fibrillation, and hemoptysis. The murmur is a **low-pitched diastolic rumble with an opening snap and loud S1**, heard best at the apex in the left lateral decubitus position. Malar flush and signs of pulmonary hypertension are common in advanced disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Rheumatic mitral stenosis results from autoimmune damage following Group A streptococcal pharyngitis, with antibodies against streptococcal M protein cross-reacting with cardiac tissue (molecular mimicry). Chronic valvulitis leads to leaflet thickening, commissural fusion, and chordal shortening. Obstruction of LV filling raises left atrial pressure, which passively elevates pulmonary venous and arterial pressures. Chronic LA dilation predisposes to atrial fibrillation and mural thrombi with embolic stroke.",
+    "treatment_overview": "Rate control with beta-blockers, anticoagulation for atrial fibrillation (warfarin is preferred in rheumatic MS), and diuretics for congestion. Definitive therapy is **percutaneous balloon mitral valvuloplasty** for pliable, non-calcified valves with favorable anatomy; otherwise surgical valve replacement. Primary prevention involves prompt antibiotic treatment of streptococcal pharyngitis with penicillin.",
+    "high_yield_pearls": [
+      "Opening snap + mid-diastolic rumble at the apex = mitral stenosis; earlier snap = more severe stenosis.",
+      "Almost all mitral stenosis in adults is due to prior rheumatic fever (JONES criteria).",
+      "Left atrial enlargement on EKG (P mitrale) predisposes to atrial fibrillation and embolic stroke.",
+      "Hemoptysis in MS is from rupture of bronchial venules under elevated left atrial pressure.",
+      "Pregnancy unmasks mitral stenosis because increased plasma volume and heart rate worsen the transmitral gradient."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Heart murmurs — Mitral stenosis / Rheumatic heart disease' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Mitral stenosis",
+      "Mitral regurgitation",
+      "Aortic stenosis",
+      "Atrial fibrillation",
+      "Pulmonary hypertension",
+      "Heart failure (systolic)",
+      "Hypertrophic cardiomyopathy",
+      "Tuberculosis (TB)"
+    ],
+    "after_stage2_more_likely": [
+      "Mitral stenosis",
+      "Mitral regurgitation",
+      "Atrial fibrillation"
+    ],
+    "after_stage2_less_likely": [
+      "Hypertrophic cardiomyopathy",
+      "Tuberculosis (TB)",
+      "Heart failure (systolic)"
+    ],
+    "after_labs_top3": [
+      "Mitral stenosis",
+      "Atrial fibrillation",
+      "Pulmonary hypertension"
+    ]
+  }
+}

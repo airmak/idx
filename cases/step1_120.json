@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_120",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Diverticulitis",
+  "icd_category": "K57 - Diverticular disease of intestine",
+  "one_liner": "A 64-year-old woman presents to the emergency department with 3 days of progressively worsening left lower quadrant abdominal pain, low-grade fever, and constipation.",
+  "stage2": {
+    "hpi_extension": "The pain started as vague cramping and has become constant and sharp, localized to the left lower quadrant. She has had subjective fevers, chills, nausea without vomiting, and no bowel movement in 2 days. No hematochezia, melena, or urinary symptoms. She has had similar but milder episodes of LLQ pain twice in the past 2 years, which resolved on their own. Her diet is low in fiber - mostly processed foods and red meat.",
+    "pmh": "Hypertension, hyperlipidemia, osteoarthritis, chronic constipation",
+    "surgical_history": "Cholecystectomy 10 years ago",
+    "medications": "Amlodipine, atorvastatin, acetaminophen PRN",
+    "allergies": "Sulfa (rash)",
+    "family_history": "Mother with colon polyps. No family history of inflammatory bowel disease or colon cancer.",
+    "social_history": "Retired teacher. Never smoker. Occasional wine. Sedentary.",
+    "vitals": {
+      "temp": "38.4C",
+      "hr": "104 bpm",
+      "bp": "138/82 mmHg",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: uncomfortable appearing, lying still on the gurney. Abdomen: **tenderness with voluntary guarding and rebound in the left lower quadrant**. A **tender, ill-defined mass is palpable in the LLQ**. Bowel sounds hypoactive. No flank tenderness. Rectal exam: tender on the left side, no gross blood, stool brown, guaiac negative. No peritoneal signs outside the LLQ."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 16,400/uL with **82% neutrophils and left shift** (bands 9%). Hemoglobin 13.1, platelets 310,000.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Neutrophilic leukocytosis with left shift reflects acute bacterial inflammation/infection, consistent with acute diverticulitis."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "CRP 142 mg/L (markedly elevated). Lactate 1.4 mmol/L (normal). Procalcitonin mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated CRP supports active inflammation. A normal lactate argues against bowel ischemia or perforation with peritonitis at this time."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT abdomen/pelvis with IV contrast: **Numerous diverticula in the sigmoid colon with focal wall thickening, pericolic fat stranding, and a small (2 cm) contained pericolic fluid collection**. No free air or large abscess. No evidence of obstruction. Hinchey Stage Ib (pericolic abscess <4 cm).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Pericolic fat stranding with sigmoid diverticula and bowel wall thickening** is the classic imaging finding of acute sigmoid diverticulitis - the so-called \"left-sided appendicitis.\" A small contained abscess can usually be managed with antibiotics alone."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Inflammatory / infection markers",
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing",
+      "Functional / provocative testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is admitted, placed on bowel rest and IV fluids, and started on **ciprofloxacin plus metronidazole** for gram-negative and anaerobic coverage. Her pain and fever resolve within 48 hours, and she is discharged on oral antibiotics. Outpatient **colonoscopy is scheduled in 6 weeks** (after inflammation subsides) to exclude an underlying malignancy and confirm the diagnosis."
+  },
+  "debrief": {
+    "classic_presentation": "Acute diverticulitis classically presents in an older adult (>50) with **left lower quadrant pain ('left-sided appendicitis'), low-grade fever, leukocytosis, and change in bowel habits** (constipation or diarrhea). Nausea, anorexia, and urinary frequency (from bladder irritation) may occur. A tender LLQ mass may be palpable. It represents inflammation of colonic diverticula, which are most common in the sigmoid colon in Western populations. Contrast this with right-sided appendicitis in younger patients.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**Diverticula** are acquired false diverticula (mucosa + submucosa only, herniating through the muscularis propria) that form at sites of vasa recta penetration, where the bowel wall is weakest. **High intraluminal pressure from a low-fiber diet** drives their formation, which is why they are predominantly seen in Western populations in the **sigmoid colon**. Diverticulitis occurs when a diverticulum becomes obstructed (by stool or undigested food), leading to microperforation, pericolic inflammation, and sometimes abscess, fistula, or free perforation with peritonitis. **Painless hematochezia** (not diverticulitis) is the presentation of diverticular bleeding.",
+    "treatment_overview": "**Uncomplicated diverticulitis**: bowel rest, clear liquids, and oral antibiotics covering gram-negatives and anaerobes - **ciprofloxacin + metronidazole** or amoxicillin-clavulanate. Admit for IV antibiotics if unable to tolerate PO, systemic toxicity, or comorbidities. **Complicated disease** (large abscess, perforation, obstruction, fistula): CT-guided drainage for abscess; surgery (sigmoid colectomy, sometimes Hartmann procedure) for free perforation with peritonitis or failed medical management. Colonoscopy 6-8 weeks after resolution to exclude malignancy. Long-term: high-fiber diet.",
+    "high_yield_pearls": [
+      "Diverticulitis = '**left-sided appendicitis**' - LLQ pain, fever, leukocytosis in an older adult with a sigmoid colon source.",
+      "Colonic diverticula are **false (pseudo)diverticula** - mucosa and submucosa only, herniating through the muscularis at sites of vasa recta penetration.",
+      "**Diverticul-OSIS** = asymptomatic or causes painless hematochezia (most common cause of acute lower GI bleeding in older adults). **Diverticul-ITIS** = pain, fever, and leukocytosis.",
+      "**Do NOT perform colonoscopy during an acute attack** due to risk of perforation - wait 6-8 weeks after resolution, then scope to exclude colon cancer.",
+      "Complications: abscess (drain), perforation (surgery), obstruction, and fistulas - most commonly **colovesical fistula**, presenting with pneumaturia and fecaluria."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Diverticular disease - Diverticulosis and diverticulitis' section.",
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'GI bleeding' section (diverticulosis as cause of lower GI bleed)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Diverticulitis",
+      "Colon cancer",
+      "Ulcerative colitis",
+      "Crohn disease",
+      "Mesenteric ischemia",
+      "Pyelonephritis",
+      "Ovarian cancer"
+    ],
+    "after_stage2_more_likely": [
+      "Diverticulitis",
+      "Colon cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Pyelonephritis",
+      "Ovarian cancer",
+      "Crohn disease"
+    ],
+    "after_labs_top3": [
+      "Diverticulitis",
+      "Colon cancer",
+      "Crohn disease"
+    ]
+  }
+}

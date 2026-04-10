@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_107",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Acute respiratory distress syndrome (ARDS)",
+  "icd_category": "J80 — Acute respiratory distress syndrome",
+  "one_liner": "A 58-year-old man admitted 3 days ago with severe gram-negative urosepsis develops acute worsening hypoxemia and bilateral pulmonary infiltrates despite aggressive fluid resuscitation and broad-spectrum antibiotics.",
+  "stage2": {
+    "hpi_extension": "The patient was admitted with fever, hypotension, and E. coli bacteremia from a complicated UTI. Despite source control and antibiotics, he becomes increasingly tachypneic and hypoxic over 12 hours. He now requires escalating oxygen on a non-rebreather with SpO2 of 86%. He has no prior cardiac disease, no chest pain, and no signs of volume overload on examination. His urine output has improved with resuscitation.",
+    "pmh": "Hypertension, type 2 diabetes, benign prostatic hyperplasia",
+    "surgical_history": "Inguinal hernia repair",
+    "medications": "Lisinopril, metformin, tamsulosin. Currently on piperacillin-tazobactam and norepinephrine.",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Former smoker (quit 10 years ago, 20 pack-years). No alcohol or illicit drug use.",
+    "vitals": {
+      "temp": "38.4 C",
+      "hr": "118 bpm",
+      "bp": "102/64 mmHg (on norepinephrine)",
+      "rr": "34",
+      "spo2": "86% on 100% non-rebreather"
+    },
+    "physical_exam": "General: ill-appearing, **labored respirations with accessory muscle use**. Lungs: **diffuse bilateral crackles** throughout all lung fields. Cardiac: tachycardic, regular, **no S3 gallop, no jugular venous distension**. Abdomen: soft, nontender. Extremities: warm, well perfused, **no peripheral edema**. Skin: no rashes, no petechiae."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Portable chest X-ray: **new bilateral diffuse alveolar infiltrates** sparing the costophrenic angles. Normal-sized cardiac silhouette, no pleural effusions, no Kerley B lines, no vascular redistribution.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral diffuse infiltrates with a normal heart size and no signs of volume overload support non-cardiogenic pulmonary edema (ARDS) rather than congestive heart failure."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "ABG on 100% FiO2: **pH 7.28, PaCO2 48 mmHg, PaO2 58 mmHg, HCO3 20 mEq/L**. **PaO2/FiO2 ratio = 58 (severe ARDS)**. Lactate 3.8 mmol/L. BMP: Na 140, K 4.4, creatinine 1.4 (baseline 1.0).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A PaO2/FiO2 ratio below 100 on PEEP >= 5 cm H2O meets Berlin criteria for severe ARDS. The elevated lactate and mixed acidosis reflect ongoing septic shock."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Bedside transthoracic echo: **left ventricular ejection fraction 60%**, no wall motion abnormalities, no significant valvular disease. **IVC small and collapsible**, consistent with normal/low left atrial pressure.",
+        "flag": "NORMAL",
+        "clinical_significance": "Preserved LV function and absence of volume overload exclude cardiogenic pulmonary edema and confirm the non-cardiogenic nature of the edema (ARDS)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is intubated and placed on lung-protective mechanical ventilation (tidal volume 6 mL/kg ideal body weight, plateau pressure <30 cm H2O), with higher PEEP and prone positioning for 16 hours, resulting in improvement of his PaO2/FiO2 ratio over the next 48 hours."
+  },
+  "debrief": {
+    "classic_presentation": "ARDS classically occurs within 1 week of a known insult, most commonly sepsis, pneumonia, aspiration, trauma, or pancreatitis. Patients develop acute hypoxemic respiratory failure with bilateral infiltrates that are not explained by cardiac failure or volume overload. The Berlin definition requires: (1) onset within 1 week of an insult, (2) bilateral opacities on imaging, (3) respiratory failure not fully explained by cardiac failure or fluid overload, and (4) PaO2/FiO2 <= 300 on PEEP >= 5 (mild 201-300, moderate 101-200, severe <= 100).",
+    "attending_mode_notes": null,
+    "pathophysiology": "ARDS results from diffuse alveolar damage: activated neutrophils and cytokines injure the alveolar-capillary membrane, increasing permeability and flooding the alveoli with protein-rich exudate. The exudative phase (first week) features hyaline membrane formation (fibrin plus cellular debris) lining alveoli. This is followed by a proliferative phase and possibly a fibrotic phase. Surfactant is inactivated, causing diffuse atelectasis, decreased lung compliance, intrapulmonary shunting, and refractory hypoxemia.",
+    "treatment_overview": "Management is supportive and centered on lung-protective ventilation: low tidal volume (6 mL/kg of ideal body weight), plateau pressure < 30 cm H2O, and permissive hypercapnia. Higher PEEP recruits collapsed alveoli. Prone positioning for 12-16 hours per day improves oxygenation and mortality in moderate-severe ARDS. Conservative fluid management reduces ventilator days. Neuromuscular blockade and ECMO are reserved for refractory cases. Treat the underlying cause (sepsis, aspiration, etc).",
+    "high_yield_pearls": [
+      "Berlin criteria: bilateral infiltrates, onset within 1 week, not explained by cardiac failure, PaO2/FiO2 <= 300 on PEEP >= 5.",
+      "ARDS is non-cardiogenic pulmonary edema; echo and lack of volume overload distinguish it from CHF.",
+      "Pathology: diffuse alveolar damage with hyaline membranes; surfactant inactivation causes decreased compliance and shunting.",
+      "Low tidal volume ventilation (6 mL/kg IBW) and prone positioning reduce mortality.",
+      "Most common triggers: sepsis, pneumonia, aspiration, trauma, pancreatitis, and massive transfusion."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Acute respiratory distress syndrome (ARDS)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute respiratory distress syndrome (ARDS)",
+      "Heart failure (systolic)",
+      "Community-acquired pneumonia",
+      "Hospital-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Transfusion-related acute lung injury (TRALI)",
+      "Aspiration pneumonia",
+      "Sepsis"
+    ],
+    "after_stage2_more_likely": [
+      "Acute respiratory distress syndrome (ARDS)",
+      "Hospital-acquired pneumonia",
+      "Sepsis"
+    ],
+    "after_stage2_less_likely": [
+      "Heart failure (systolic)",
+      "Pulmonary embolism (PE)",
+      "Transfusion-related acute lung injury (TRALI)"
+    ],
+    "after_labs_top3": [
+      "Acute respiratory distress syndrome (ARDS)",
+      "Hospital-acquired pneumonia",
+      "Heart failure (systolic)"
+    ]
+  }
+}

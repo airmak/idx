@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_184",
+  "mode": "step1",
+  "specialty": "Infectious Disease",
+  "diagnosis": "Cytomegalovirus (CMV) disease",
+  "icd_category": "B25.9 — Cytomegaloviral disease, unspecified",
+  "one_liner": "A 41-year-old man with advanced HIV presents with two weeks of painless blurry vision and floaters in the right eye, along with new odynophagia and bloody diarrhea.",
+  "stage2": {
+    "hpi_extension": "He describes a **curtain of dark spots** floating across the right visual field and loss of peripheral vision over 10 days. He also reports burning retrosternal pain with swallowing, several watery-bloody bowel movements daily, and mild lower abdominal cramping. No eye pain, headache, photophobia, fevers, or cough. He has not taken antiretrovirals in 2 years and missed his last clinic visit.",
+    "pmh": "HIV/AIDS diagnosed 9 years ago, prior PCP pneumonia, oral thrush",
+    "surgical_history": "None",
+    "medications": "None (non-adherent with ART)",
+    "allergies": "Sulfa (rash)",
+    "family_history": "Non-contributory",
+    "social_history": "Lives alone. Former IV drug use, now in recovery. Non-smoker.",
+    "vitals": {
+      "temp": "37.4°C",
+      "hr": "98 bpm",
+      "bp": "116/72 mmHg",
+      "rr": "16",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: cachectic. HEENT: oral thrush. **Funduscopy of the right eye shows fluffy yellow-white retinal exudates with scattered hemorrhages along the vessels — the classic 'pizza pie' appearance**. Visual acuity 20/200 OD, 20/25 OS. Abdomen: diffuse tenderness, no peritoneal signs; stool guaiac positive. No lymphadenopathy. Skin: no rash."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**HIV viral load >800,000 copies/mL**; **CD4 count 22 cells/microL**. **CMV PCR in plasma markedly elevated (quantitative viral load high)**. CMV IgG positive (prior exposure).",
+        "flag": "CRITICAL",
+        "clinical_significance": "CD4 <50 is the classic risk threshold for end-organ CMV disease in HIV. A high plasma CMV viral load supports reactivation and systemic disease."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Colonoscopy with biopsy of colonic ulcers: **large cells with enlarged nuclei and prominent eosinophilic intranuclear inclusions with a clear halo ('owl's eye' inclusions)** and basophilic cytoplasmic inclusions. CMV immunohistochemistry strongly positive.",
+        "flag": "CRITICAL",
+        "clinical_significance": "'Owl's eye' intranuclear inclusions are pathognomonic for CMV. Tissue biopsy is the gold standard for diagnosing CMV end-organ disease (colitis, esophagitis)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT abdomen/pelvis: segmental colonic wall thickening with pericolonic stranding. No perforation or abscess. Upper endoscopy reveals large linear esophageal ulcers consistent with CMV esophagitis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "CMV colitis and esophagitis are characteristic end-organ manifestations in patients with very low CD4 counts."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "low_yield_tests": [
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "Genetic / molecular testing",
+      "CSF analysis (lumbar puncture)"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is admitted and started on **IV ganciclovir**, with transition to **oral valganciclovir** for maintenance. Ophthalmology confirms CMV retinitis and performs an intravitreal ganciclovir injection for immediate local control. ART is re-initiated after a short delay, with counseling about **immune recovery uveitis** as a potential complication of immune reconstitution."
+  },
+  "debrief": {
+    "classic_presentation": "CMV disease in the immunocompromised host takes several classic forms: **CMV retinitis** (painless floaters and progressive visual loss with 'pizza pie' retinal hemorrhages and exudates in HIV with CD4 <50), **CMV colitis** (bloody diarrhea, abdominal pain, ulcers on colonoscopy), **CMV esophagitis** (odynophagia with large linear ulcers), and **CMV pneumonitis** (especially in stem cell and solid organ transplant recipients). **Congenital CMV** is the **most common congenital infection**, causing sensorineural hearing loss, periventricular calcifications, microcephaly, chorioretinitis, and hepatosplenomegaly ('blueberry muffin' rash). Primary CMV infection in immunocompetent hosts causes a heterophile-negative mononucleosis-like illness.",
+    "attending_mode_notes": null,
+    "pathophysiology": "**Cytomegalovirus** is a double-stranded DNA herpesvirus (HHV-5) transmitted via bodily fluids, transplacentally, via transplantation, and via transfusion of non-leukoreduced blood. After primary infection, the virus establishes latency in mononuclear cells and can reactivate with immunosuppression. Infected cells show characteristic cytomegaly with **intranuclear 'owl's eye' inclusions** surrounded by a clear halo plus cytoplasmic inclusions. Disease reflects lytic replication in end organs and the host cell-mediated immune response against infected tissues.",
+    "treatment_overview": "**Ganciclovir** IV is first-line for severe/end-organ disease; **valganciclovir** is the oral prodrug for less severe or maintenance therapy. **Foscarnet** is used for ganciclovir-resistant strains or when bone marrow suppression limits ganciclovir (think: foscarnet causes nephrotoxicity and electrolyte disturbances; ganciclovir causes neutropenia). **Cidofovir** is an alternative. For CMV retinitis, intravitreal ganciclovir injections or implants may be used. Restoration of immunity (ART in HIV, reduction of immunosuppression in transplant) is essential; watch for immune recovery uveitis.",
+    "high_yield_pearls": [
+      "**Owl's eye intranuclear inclusions** on histology = CMV.",
+      "CMV retinitis: **pizza pie fundus** (hemorrhages + exudates along vessels) in HIV with CD4 <50 — painless visual loss.",
+      "CMV is the **most common congenital infection**; classic triad includes **periventricular calcifications, sensorineural hearing loss, and chorioretinitis**.",
+      "Ganciclovir causes **neutropenia**; foscarnet causes **nephrotoxicity and electrolyte wasting** (low Ca/Mg/K/PO4).",
+      "CMV causes a **heterophile-negative** mononucleosis syndrome that resembles EBV but lacks the atypical lymphocytes of classic mono."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Herpesviruses — Cytomegalovirus' section.",
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'HIV-positive adults — common disease by CD4 count' table and 'Antiviral therapy — ganciclovir/foscarnet' subsection."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Cytomegalovirus (CMV) disease",
+      "HIV/AIDS",
+      "Candidal esophagitis",
+      "Herpes simplex virus (HSV) encephalitis",
+      "Clostridioides difficile (C. diff) colitis",
+      "Lymphoma (non-Hodgkin / NHL)",
+      "Toxic shock syndrome"
+    ],
+    "after_stage2_more_likely": [
+      "Cytomegalovirus (CMV) disease",
+      "HIV/AIDS",
+      "Candidal esophagitis"
+    ],
+    "after_stage2_less_likely": [
+      "Clostridioides difficile (C. diff) colitis",
+      "Toxic shock syndrome"
+    ],
+    "after_labs_top3": [
+      "Cytomegalovirus (CMV) disease",
+      "HIV/AIDS",
+      "Candidal esophagitis"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_101",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Mitral Valve Prolapse with Regurgitation",
+  "icd_category": "I34.1 — Nonrheumatic mitral (valve) prolapse",
+  "one_liner": "A 23-year-old tall, slender woman presents to her primary care physician for palpitations and occasional atypical chest discomfort. She is otherwise healthy and active.",
+  "stage2": {
+    "hpi_extension": "She describes brief, fluttering palpitations at rest and sharp, non-exertional left chest pain lasting a few seconds. She occasionally feels lightheaded on standing quickly. She denies true syncope, exertional symptoms, or shortness of breath. She has noted longer arm span than her siblings and has long, thin fingers. Her mother was told she has 'a click-murmur' on exam.",
+    "pmh": "Anxiety (mild)",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Mother with mitral valve prolapse; no sudden death",
+    "social_history": "Graduate student. Non-smoker, occasional alcohol, runs recreationally.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "78 bpm",
+      "bp": "110/66 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: tall, slender woman with **arm span exceeding height**, **long fingers (arachnodactyly)**, and a high-arched palate. Cardiovascular: regular rhythm. On auscultation at the apex in the left lateral decubitus position, a **midsystolic click followed by a late systolic murmur** is heard. **With Valsalva (decreased preload) the click moves earlier and the murmur lengthens**; squatting (increased preload) causes the click to move later and the murmur to shorten. No S3 or S4. Lungs clear. Musculoskeletal: hyperextensible joints. No pectus deformity. Neuro: intact."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Transthoracic echocardiogram**: **billowing of the posterior mitral leaflet more than 2 mm above the mitral annular plane in the parasternal long-axis view** with **mild to moderate mitral regurgitation** on color Doppler. Left atrium is mildly enlarged. LV systolic function is normal (EF 65%). Aortic root is at the upper limit of normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leaflet displacement >2 mm above the mitral annulus on the parasternal long-axis view is diagnostic of mitral valve prolapse. Myxomatous degeneration of the leaflets and chordae is the most common cause of chronic MR in developed countries."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus rhythm with normal axis and intervals. Rare isolated PVCs on 48-hour Holter monitor without sustained arrhythmias. No ST-T changes.",
+        "flag": "NORMAL",
+        "clinical_significance": "Baseline EKG is often normal in MVP; ambulatory monitoring may detect benign ectopy that correlates with the patient's palpitations."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Genetic / molecular testing"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is reassured about the benign nature of her condition, advised on symptom management, and scheduled for serial echocardiography to monitor the degree of regurgitation over time."
+  },
+  "debrief": {
+    "classic_presentation": "Mitral valve prolapse classically presents in a young, slender woman with atypical chest pain, palpitations, lightheadedness, or anxiety, but most patients are asymptomatic. The pathognomonic finding on auscultation is a **midsystolic click followed by a late systolic murmur** at the apex. Dynamic maneuvers that **decrease left ventricular preload** (standing, Valsalva) cause the click to move **earlier** in systole and the murmur to lengthen, because a smaller LV cavity allows the prolapsing leaflet to buckle sooner. Maneuvers that increase preload (squatting, passive leg raise) delay the click and shorten the murmur. Associations include connective tissue disorders such as Marfan syndrome and Ehlers-Danlos syndrome.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Primary MVP results from **myxomatous degeneration** of the mitral valve leaflets with accumulation of proteoglycans in the spongiosa layer and fragmentation of the fibrosa, producing thickened, redundant leaflets and elongated chordae tendineae. During systole, the leaflets billow into the left atrium, and if leaflet coaptation is compromised, blood regurgitates from the LV into the LA. Rupture of the elongated chordae can cause acute severe mitral regurgitation. Connective tissue disorders (Marfan from fibrillin-1 mutation, Ehlers-Danlos from collagen defects) predispose due to weakening of valve connective tissue. Complications include progressive mitral regurgitation, atrial fibrillation, infective endocarditis (rare), and, very rarely, sudden cardiac death.",
+    "treatment_overview": "Asymptomatic patients with mild regurgitation receive **reassurance** and routine follow-up with periodic echocardiography. Symptomatic patients with palpitations or atypical chest pain may benefit from **beta-blockers**. Severe mitral regurgitation with symptoms or evidence of LV dysfunction (EF <60% or LV end-systolic diameter >40 mm) warrants **surgical repair** (preferred) or replacement. Endocarditis prophylaxis for dental procedures is no longer routinely recommended for isolated MVP. Affected patients with features suggestive of Marfan syndrome should undergo evaluation including aortic root imaging and genetic counseling.",
+    "high_yield_pearls": [
+      "Midsystolic click followed by late systolic murmur at the apex = MVP.",
+      "Valsalva and standing (decreased preload) move the click earlier and lengthen the murmur; squatting (increased preload) does the opposite.",
+      "Most common cause of chronic mitral regurgitation in developed countries.",
+      "Associations: Marfan syndrome, Ehlers-Danlos syndrome, polycystic kidney disease, osteogenesis imperfecta.",
+      "Histology shows myxomatous degeneration of the leaflets with proteoglycan accumulation."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Heart murmurs — Mitral valve prolapse' section.",
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Auscultation of the heart — Dynamic maneuvers' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Mitral Valve Prolapse with Regurgitation",
+      "Mitral regurgitation",
+      "Hypertrophic cardiomyopathy",
+      "Marfan syndrome",
+      "Ehlers-Danlos syndrome (EDS)",
+      "Generalized anxiety disorder",
+      "Panic disorder",
+      "Supraventricular tachycardia (SVT)"
+    ],
+    "after_stage2_more_likely": [
+      "Mitral Valve Prolapse with Regurgitation",
+      "Marfan syndrome",
+      "Mitral regurgitation"
+    ],
+    "after_stage2_less_likely": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ],
+    "after_labs_top3": [
+      "Mitral Valve Prolapse with Regurgitation",
+      "Mitral regurgitation",
+      "Marfan syndrome"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_110",
+  "mode": "step1",
+  "specialty": "Pulmonology",
+  "diagnosis": "Pleural effusion (transudative/CHF)",
+  "icd_category": "J90 — Pleural effusion, not elsewhere classified",
+  "one_liner": "A 72-year-old woman with long-standing heart failure presents with 2 weeks of progressive dyspnea on exertion, orthopnea, and a dry cough, found to have a right-sided pleural effusion on chest X-ray.",
+  "stage2": {
+    "hpi_extension": "She has had slowly worsening shortness of breath over 2 weeks, now breathless with minimal activity. She sleeps propped up on 3 pillows and wakes at night gasping for air (**paroxysmal nocturnal dyspnea**). She denies fever, chills, hemoptysis, or pleuritic chest pain. She admits to dietary indiscretion at a recent family gathering (large salty meals) and has gained 6 pounds in 10 days. Her home furosemide dose has been unchanged.",
+    "pmh": "Chronic systolic heart failure (EF 30%), hypertension, atrial fibrillation, prior anterior MI, type 2 diabetes",
+    "surgical_history": "Coronary artery bypass grafting 8 years ago",
+    "medications": "Furosemide, carvedilol, lisinopril, apixaban, metformin, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Father with MI, mother with HTN",
+    "social_history": "Former smoker (quit 15 years ago). No alcohol. Lives with daughter.",
+    "vitals": {
+      "temp": "36.9 C",
+      "hr": "96 bpm (irregularly irregular)",
+      "bp": "142/84 mmHg",
+      "rr": "22",
+      "spo2": "92% on room air"
+    },
+    "physical_exam": "General: mildly distressed, sitting upright. HEENT: **JVD elevated to 10 cm**. Lungs: **dullness to percussion at the right base**, **decreased breath sounds over the right lower lung field**, and **decreased tactile fremitus** in that area. Bibasilar crackles higher up. Cardiac: irregularly irregular, **S3 gallop**, soft mitral regurgitation murmur. Abdomen: mild hepatomegaly. Extremities: **bilateral 2+ pitting edema** to the mid-shins."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Chest X-ray: **moderate right pleural effusion** with blunting of the costophrenic angle and a meniscus sign, small left effusion, **cardiomegaly**, **Kerley B lines**, and cephalization of pulmonary vessels. Bedside ultrasound confirms free-flowing anechoic fluid in the right hemithorax.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Bilateral (right greater than left) effusions with cardiomegaly and pulmonary vascular congestion strongly suggest a cardiogenic transudative effusion."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Diagnostic thoracentesis**: straw-colored fluid. **Pleural protein 1.8 g/dL**, pleural LDH 95 U/L. Serum protein 6.8 g/dL, serum LDH 210 U/L. **Pleural/serum protein = 0.26** (< 0.5), **pleural/serum LDH = 0.45** (< 0.6), **pleural LDH 95** (< 2/3 of serum upper limit of normal). **BNP 1,850 pg/mL**, creatinine 1.2.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "All three Light's criteria point to a transudate, consistent with CHF. Markedly elevated BNP confirms decompensated heart failure as the driver."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "12-lead ECG: **atrial fibrillation** with controlled ventricular response, **Q waves in V1-V4** consistent with old anterior MI, no acute ST changes. Transthoracic echo: LVEF 28%, dilated LV, severe anteroseptal hypokinesis, moderate mitral regurgitation, elevated estimated PA pressures.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severely reduced EF confirms decompensated systolic heart failure as the underlying etiology of the transudative effusion."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "EKG / cardiac monitoring",
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies",
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "IV furosemide diuresis removes 4 L of fluid over 48 hours with resolution of her dyspnea, improvement of her effusion on repeat chest X-ray, and a 5-pound weight loss, confirming the effusion is CHF-driven."
+  },
+  "debrief": {
+    "classic_presentation": "Transudative pleural effusions arise from increased hydrostatic or decreased oncotic pressure without pleural inflammation, most commonly due to congestive heart failure, cirrhosis, and nephrotic syndrome. CHF classically produces bilateral effusions (right greater than left) in a patient with exertional dyspnea, orthopnea, PND, JVD, an S3 gallop, and peripheral edema. Physical findings over an effusion include dullness to percussion, decreased breath sounds, and decreased tactile fremitus.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Normally there is a small amount of pleural fluid balanced by parietal pleural filtration and lymphatic absorption. In CHF, elevated left atrial and pulmonary venous pressures raise pulmonary capillary hydrostatic pressure, increasing fluid filtration into the interstitium and pleural space, overwhelming lymphatic drainage. The resulting fluid is protein-poor (transudate) because the capillary membrane is intact. Light's criteria distinguish exudates (increased permeability from pleural inflammation) from transudates: an exudate satisfies any one of pleural/serum protein > 0.5, pleural/serum LDH > 0.6, or pleural LDH > 2/3 of serum upper limit of normal.",
+    "treatment_overview": "Treat the underlying cause. For CHF, optimize diuresis with loop diuretics, control blood pressure, and optimize guideline-directed medical therapy (beta-blocker, ACEI/ARB/ARNI, mineralocorticoid antagonist). Therapeutic thoracentesis can relieve significant dyspnea but is not needed for small effusions that will resolve with diuresis. Recurrent refractory effusions from end-stage CHF may require repeated drainage or indwelling pleural catheters.",
+    "high_yield_pearls": [
+      "Light's criteria (exudate): pleural/serum protein > 0.5, pleural/serum LDH > 0.6, or pleural LDH > 2/3 ULN of serum.",
+      "CHF is the most common cause of transudative effusions; classically bilateral, right greater than left.",
+      "Physical exam over an effusion: dullness to percussion, decreased breath sounds, decreased tactile fremitus.",
+      "BNP > 1500 pg/mL in pleural fluid or serum strongly supports a CHF etiology.",
+      "Treat transudates by addressing the underlying disease (diuresis for CHF); thoracentesis is for symptom relief or diagnosis."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Respiratory chapter, 'Pleural effusions' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pleural effusion (transudative/CHF)",
+      "Heart failure (systolic)",
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Cirrhosis",
+      "Nephrotic syndrome (minimal change disease)",
+      "Tuberculosis (TB)",
+      "Malignant pleural mesothelioma"
+    ],
+    "after_stage2_more_likely": [
+      "Pleural effusion (transudative/CHF)",
+      "Heart failure (systolic)"
+    ],
+    "after_stage2_less_likely": [
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Tuberculosis (TB)"
+    ],
+    "after_labs_top3": [
+      "Pleural effusion (transudative/CHF)",
+      "Heart failure (systolic)",
+      "Cirrhosis"
+    ]
+  }
+}

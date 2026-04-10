@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_113",
+  "mode": "step1",
+  "specialty": "Gastroenterology",
+  "diagnosis": "Peptic ulcer disease",
+  "icd_category": "K27 - Peptic ulcer, site unspecified",
+  "one_liner": "A 52-year-old man presents with 3 months of recurrent gnawing epigastric pain that classically occurs 2-3 hours after meals and awakens him at night, and is relieved by eating or drinking milk.",
+  "stage2": {
+    "hpi_extension": "The burning epigastric pain is described as 'gnawing' and 'hunger-like,' typically beginning **2-3 hours after meals** and often **waking him from sleep around 2 AM**. The pain is **relieved by eating food or drinking a glass of milk**, only to recur a few hours later. He denies hematemesis but reports one episode of **dark, tarry stools** last week. He has been taking **ibuprofen 600 mg three to four times daily** for chronic low back pain for the past year. He has lost 3 pounds unintentionally.",
+    "pmh": "Chronic lumbar back pain, osteoarthritis, mild gastroesophageal reflux",
+    "surgical_history": "Appendectomy age 18",
+    "medications": "Ibuprofen 600 mg QID, acetaminophen PRN, occasional antacids",
+    "allergies": "NKDA",
+    "family_history": "No family history of GI cancers",
+    "social_history": "Drinks 2 glasses of wine per week, non-smoker, immigrant from Mexico 10 years ago",
+    "vitals": {
+      "temp": "36.8 deg C",
+      "hr": "88 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing but mildly diaphoretic. HEENT: pale conjunctivae. Lungs: clear. Cardiovascular: regular rhythm, no murmurs. Abdomen: soft, **epigastric tenderness to deep palpation** without rebound, guarding, or peritoneal signs. No hepatosplenomegaly. Bowel sounds normoactive. Rectal: **heme-positive dark stool** on digital rectal exam, no palpable masses."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "WBC 8.1, **Hgb 10.4 g/dL (low)**, Hct 32%, MCV 76 fL (low), Platelets 320. Smear shows **microcytic, hypochromic red cells** with anisocytosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microcytic hypochromic anemia is consistent with chronic GI blood loss from a bleeding peptic ulcer, producing iron deficiency anemia."
+      },
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Helicobacter pylori stool antigen: POSITIVE**. **Urea breath test: POSITIVE** (elevated labeled CO2 after ingestion of urea).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Positive H. pylori stool antigen and urea breath test confirm active infection. H. pylori urease hydrolyzes urea to ammonia and CO2, the basis of the breath test."
+      },
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "EGD revealed a **clean-based 1.2 cm ulcer in the duodenal bulb (anterior wall)**. Antral biopsies showed chronic active gastritis with **curved gram-negative rods in the mucus layer** and lymphoid aggregates. No dysplasia or malignancy.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "EGD with biopsy confirms a duodenal ulcer and H. pylori gastritis. Gastric ulcers require biopsy to exclude malignancy, while duodenal ulcers are almost always benign."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "After **triple therapy with a PPI, clarithromycin, and amoxicillin** for 14 days and discontinuation of ibuprofen, his symptoms resolve completely and a follow-up urea breath test 6 weeks later is negative, confirming H. pylori eradication."
+  },
+  "debrief": {
+    "classic_presentation": "Peptic ulcer disease presents with gnawing or burning epigastric pain. **Duodenal ulcer** pain classically occurs 2-5 hours after meals (when acid is unbuffered), is **relieved by food**, and can awaken patients at night. **Gastric ulcer** pain is classically **worsened by food** and is more often associated with weight loss. Complications include upper GI bleeding (hematemesis, melena), perforation (acute abdomen, free air under the diaphragm), and gastric outlet obstruction.",
+    "attending_mode_notes": null,
+    "pathophysiology": "The two dominant causes are **H. pylori infection** (most common, accounting for 70-90% of duodenal ulcers and 60-70% of gastric ulcers) and **NSAID use**. H. pylori is a gram-negative curved rod that produces urease, colonizes the gastric mucus layer, incites chronic inflammation, and disrupts the mucosal barrier. NSAIDs inhibit cyclooxygenase and reduce protective prostaglandins (which normally stimulate mucus and bicarbonate secretion and mucosal blood flow). Less common causes include Zollinger-Ellison syndrome (gastrinoma), stress (Curling ulcer in burns, Cushing ulcer with head injury), and smoking.",
+    "treatment_overview": "Stop NSAIDs and initiate acid suppression with a PPI. For H. pylori-positive disease, first-line **triple therapy** consists of a PPI + clarithromycin + amoxicillin for 14 days (substitute metronidazole if penicillin allergic). Quadruple therapy (PPI + bismuth + tetracycline + metronidazole) is used in areas with high clarithromycin resistance. Eradication should be confirmed 4-6 weeks after therapy with urea breath test or stool antigen. Gastric ulcers mandate biopsy and repeat endoscopy to document healing and exclude gastric cancer. Surgery is reserved for complications (bleeding, perforation, obstruction).",
+    "high_yield_pearls": [
+      "Duodenal ulcer pain = relieved by food, gastric ulcer pain = worsened by food. Duodenal ulcers are almost always benign; gastric ulcers require biopsy to exclude malignancy.",
+      "H. pylori is the most common cause of peptic ulcer disease; NSAIDs are second. Diagnose with urea breath test or stool antigen.",
+      "H. pylori is a gram-negative, urease-producing, curved rod that increases risk of gastric adenocarcinoma and MALT lymphoma.",
+      "Triple therapy = PPI + clarithromycin + amoxicillin (or metronidazole if penicillin allergic) for 14 days.",
+      "Perforated duodenal ulcer classically shows free air under the diaphragm on upright chest x-ray; refractory or multiple ulcers (especially in the jejunum) should raise suspicion for Zollinger-Ellison syndrome."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Peptic ulcer disease' section.",
+      "First Aid for the USMLE Step 1 (2017) - Microbiology chapter, 'Helicobacter pylori' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Peptic ulcer disease",
+      "Gastroesophageal reflux disease (GERD)",
+      "Functional dyspepsia",
+      "Gastric cancer",
+      "Zollinger-Ellison Syndrome",
+      "Pancreatitis (chronic)",
+      "Cholecystitis",
+      "Upper GI bleed (peptic ulcer)"
+    ],
+    "after_stage2_more_likely": [
+      "Peptic ulcer disease",
+      "Upper GI bleed (peptic ulcer)",
+      "Gastric cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Functional dyspepsia",
+      "Cholecystitis",
+      "Pancreatitis (chronic)"
+    ],
+    "after_labs_top3": [
+      "Peptic ulcer disease",
+      "Gastric cancer",
+      "Zollinger-Ellison Syndrome"
+    ]
+  }
+}

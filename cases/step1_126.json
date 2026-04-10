@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_126",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Nephrolithiasis — Calcium Oxalate Stone",
+  "icd_category": "N20.0 — Calculus of kidney",
+  "one_liner": "A 38-year-old man presents to the ED with sudden-onset severe right flank pain radiating to the groin, accompanied by nausea, vomiting, and gross hematuria.",
+  "stage2": {
+    "hpi_extension": "The pain began abruptly three hours ago while he was at work on a construction site. It comes in waves and is now 10/10 in severity. He describes it as 'the worst pain of my life' and **cannot find a comfortable position — he is writhing on the stretcher**. The pain radiates from the right flank around to the ipsilateral groin and testicle. He has vomited twice. He reports that his urine looked 'pink' when he last voided. No fever, dysuria, or prior episodes. He admits to drinking very little water at work in the summer heat.",
+    "pmh": "Gout (one prior attack), hypertension",
+    "surgical_history": "None",
+    "medications": "Hydrochlorothiazide (started 3 months ago), occasional ibuprofen",
+    "allergies": "NKDA",
+    "family_history": "Father and brother have had kidney stones",
+    "social_history": "Construction worker in Arizona. Non-smoker, occasional beer. Diet high in spinach, nuts, and red meat.",
+    "vitals": {
+      "temp": "37.1°C",
+      "hr": "112 bpm",
+      "bp": "158/94 mmHg",
+      "rr": "22",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: **restless, writhing in pain, unable to lie still** (in contrast to peritonitis, where patients are motionless). Abdomen: soft, no rebound, no guarding, mild right-sided tenderness without peritoneal signs. **Right costovertebral angle tenderness**. No palpable masses. Genitourinary: normal external genitalia, no testicular tenderness. Extremities: no edema."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "Blood 3+, **>50 RBCs/hpf**. pH 5.5. Leukocyte esterase negative, nitrites negative. **Envelope-shaped (dumbbell / octahedral) crystals** seen on microscopy. No casts.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hematuria without infection plus **envelope-shaped crystals** strongly supports **calcium oxalate nephrolithiasis**. Absence of pyuria argues against superimposed UTI or pyelonephritis."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "BUN 22, creatinine 1.2 mg/dL (slightly elevated from baseline 0.9). Sodium 140, potassium 3.5, chloride 103, bicarbonate 25. **Calcium 10.4 (high-normal)**. Uric acid 7.8 (mildly elevated).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mildly elevated creatinine suggests acute kidney injury from ureteral obstruction. **HCTZ can cause hypercalcemia and hyperuricemia** and predisposes to calcium-based and uric acid stones (though thiazides lower urinary calcium long-term)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Non-contrast CT abdomen/pelvis**: **6 mm radiopaque calculus in the right proximal ureter at the level of the L3 vertebra with moderate right hydronephrosis and hydroureter**. Kidneys otherwise unremarkable. No perinephric stranding.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Non-contrast CT is the gold standard for nephrolithiasis**. A radiopaque 6 mm stone with hydronephrosis confirms obstructing ureteral calculus — most likely calcium oxalate given density and envelope crystals on UA."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Serologic / antibody studies",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He receives IV fluids, ketorolac, and **tamsulosin** (medical expulsive therapy). Over 48 hours, he passes a small dark-brown stone, which he brings in for analysis. Stone composition analysis: **100% calcium oxalate monohydrate**. 24-hour urine collection later shows hypercalciuria, hyperoxaluria, and hypocitraturia."
+  },
+  "debrief": {
+    "classic_presentation": "Nephrolithiasis classically presents with **acute, severe, colicky flank pain that radiates around to the ipsilateral groin or testicle/labium**, often with nausea, vomiting, and hematuria. Patients are characteristically **restless and unable to find a comfortable position** (unlike peritonitis, where patients lie still). **Calcium oxalate stones account for ~80% of all kidney stones** and are the most common type overall. Crystals appear as **envelope-shaped (dumbbell, octahedral)** on urinalysis and are **radiopaque on KUB/CT**. Risk factors include low fluid intake, hypercalciuria, hyperoxaluria, hypocitraturia, ethylene glycol ingestion, Crohn disease (enteric hyperoxaluria), and vitamin C excess.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Stones form when urinary solutes exceed their solubility product and crystals nucleate, aggregate, and grow. **Calcium oxalate** is the most common stone type. Hypercalciuria (idiopathic, primary hyperparathyroidism), **hyperoxaluria** (dietary — spinach, rhubarb, nuts, chocolate, vitamin C, or enteric from fat malabsorption in Crohn disease/short gut), **hypocitraturia** (citrate inhibits stone formation), and dehydration all promote stone formation. Other stone types: **calcium phosphate** (forms in alkaline urine; RTA type 1), **uric acid** (acidic urine, radiolucent, gout), **struvite / magnesium ammonium phosphate** (urease-producing bacteria — Proteus, Klebsiella; form staghorn calculi), and **cystine** (autosomal recessive cystinuria, hexagonal crystals). Stones >5 mm are unlikely to pass spontaneously.",
+    "treatment_overview": "Acute management: **aggressive hydration, NSAIDs (ketorolac) or opioids for pain, and antiemetics**. **Medical expulsive therapy with alpha-blockers (tamsulosin)** relaxes ureteral smooth muscle and facilitates stone passage. Stones <5 mm typically pass spontaneously. **Shock-wave lithotripsy** for stones 5-20 mm in the kidney or upper ureter. **Ureteroscopy with laser lithotripsy** for distal or larger stones. Percutaneous nephrolithotomy for very large (>2 cm) or staghorn stones. Prevention: increase fluid intake (>2 L/day), dietary modification (reduce sodium and oxalate, maintain normal calcium), **thiazide diuretics (reduce urinary calcium)**, and potassium citrate (raises urine citrate and pH).",
+    "high_yield_pearls": [
+      "**Calcium oxalate** is the **most common kidney stone (~80%)**; crystals appear **envelope- or dumbbell-shaped** and stones are **radiopaque**.",
+      "Classic history: **severe colicky flank pain radiating to the groin, hematuria, and a patient who can't lie still** (contrast with peritonitis).",
+      "**Non-contrast CT abdomen/pelvis is the gold standard** for diagnosing nephrolithiasis — sensitive for all stone types including radiolucent uric acid stones.",
+      "Stone types by urine pH: **calcium phosphate and struvite** form in **alkaline** urine; **uric acid and cystine** form in **acidic** urine.",
+      "Treatment: hydration + NSAIDs + **tamsulosin** for expulsion; stones >5 mm often need lithotripsy. Prevention: hydration, **thiazide** (lowers urinary Ca), and **potassium citrate**."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Kidney stones / Nephrolithiasis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Diuretics — Thiazides' (hypocalciuric effect and stone prevention)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Pyelonephritis",
+      "Renal cell carcinoma",
+      "Aortic aneurysm",
+      "Appendicitis",
+      "Urinary tract infection (UTI)",
+      "Mesenteric ischemia"
+    ],
+    "after_stage2_more_likely": [
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Pyelonephritis"
+    ],
+    "after_stage2_less_likely": [
+      "Appendicitis",
+      "Aortic aneurysm",
+      "Mesenteric ischemia"
+    ],
+    "after_labs_top3": [
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Pyelonephritis",
+      "Renal cell carcinoma"
+    ]
+  }
+}

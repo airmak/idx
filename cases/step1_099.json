@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_099",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Infective endocarditis",
+  "icd_category": "I33.0 — Acute and subacute infective endocarditis",
+  "one_liner": "A 32-year-old man with a history of intravenous heroin use presents with one week of fevers, chills, and pleuritic chest pain. He is febrile to 39.1 C.",
+  "stage2": {
+    "hpi_extension": "He reports drenching night sweats, malaise, and a cough occasionally productive of blood-tinged sputum. He injected heroin into his antecubital veins three weeks ago and admits to using non-sterile water. He denies dental procedures but has poor dentition. On review, he has noted painful red nodules on his fingertips and painless spots on his palms.",
+    "pmh": "Opioid use disorder, hepatitis C (untreated)",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory",
+    "social_history": "Unstable housing. Heroin IV use daily for 2 years. Smokes 1 ppd. No alcohol.",
+    "vitals": {
+      "temp": "39.1 C",
+      "hr": "118 bpm",
+      "bp": "104/62 mmHg",
+      "rr": "22",
+      "spo2": "92% on room air"
+    },
+    "physical_exam": "General: ill-appearing, diaphoretic. HEENT: poor dentition, no oral thrush. **Fundoscopy: Roth spots** (retinal hemorrhages with pale centers). Cardiovascular: tachycardic, **new holosystolic murmur at the left lower sternal border that increases with inspiration (Carvallo sign)** consistent with tricuspid regurgitation. Lungs: scattered crackles at both bases. Extremities: **Janeway lesions (painless erythematous macules on the palms and soles)**, **Osler nodes (tender violaceous nodules on the finger pads)**, and **splinter hemorrhages beneath the fingernails**. Multiple track marks over the antecubital fossae."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Microbiology / Gram stain / cultures",
+        "result": "**Three sets of blood cultures drawn from separate sites all grow Staphylococcus aureus** within 12 hours; isolate is methicillin-sensitive (MSSA).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Persistently positive blood cultures with a typical organism fulfill a major Duke criterion. S. aureus is the most common cause of acute endocarditis, especially in IV drug users, and typically affects the tricuspid valve."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**Transesophageal echocardiogram (TEE)**: **mobile 1.2 cm vegetation on the tricuspid valve** with moderate to severe tricuspid regurgitation. No perivalvular abscess. **Chest CT**: multiple peripheral wedge-shaped cavitary pulmonary nodules consistent with **septic pulmonary emboli**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Oscillating intracardiac mass on a valve is a major Duke criterion. Septic pulmonary emboli are a classic complication of right-sided endocarditis in IV drug users."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "WBC 18,200 with left shift, CRP 160 mg/L, ESR 82 mm/hr, procalcitonin elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Leukocytosis with elevated inflammatory markers supports an active infectious process but is nonspecific."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Microbiology / Gram stain / cultures",
+      "Imaging study"
+    ],
+    "acceptable_tests": [
+      "Inflammatory / infection markers"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Genetic / molecular testing",
+      "Hormone / endocrine assay",
+      "Histopathology / biopsy",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on empiric IV vancomycin plus ceftriaxone, narrowed to nafcillin once MSSA is confirmed; he completes a 6-week course with clearance of blood cultures and resolution of fever."
+  },
+  "debrief": {
+    "classic_presentation": "Infective endocarditis presents with fever, new or worsening murmur, and peripheral embolic or immunologic phenomena. Peripheral signs (listed as Duke minor criteria) include **Janeway lesions** (painless palmar macules, septic microemboli), **Osler nodes** (painful, tender finger pad nodules from immune complex deposition — 'Osler = Ouch'), **Roth spots** (retinal hemorrhages with pale centers), and **splinter hemorrhages** under the nails. Acute endocarditis in IV drug users most often affects the tricuspid valve and is caused by S. aureus, producing septic pulmonary emboli. Subacute endocarditis (S. viridans after dental work or in the setting of diseased native valves, S. bovis/gallolyticus in patients with colon cancer, Enterococcus after GU procedures) presents more indolently.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Valve damage or turbulent flow exposes subendothelial collagen, leading to platelet-fibrin deposition and nonbacterial thrombotic endocarditis. Transient bacteremia seeds these sterile thrombi, producing infected vegetations composed of platelets, fibrin, microorganisms, and inflammatory cells. Vegetations cause valvular destruction (regurgitation, perforation, or abscess) and embolize systemically (left-sided) or to the lungs (right-sided). Immune complex deposition accounts for glomerulonephritis and Osler nodes. **Duke criteria** integrate major findings (typical organism in blood culture, echocardiographic evidence of endocardial involvement) and minor findings (fever, predisposing cardiac condition or IV drug use, vascular phenomena, immunologic phenomena, suggestive microbiologic data) to establish the diagnosis.",
+    "treatment_overview": "Empiric therapy covers S. aureus and streptococci with IV **vancomycin plus ceftriaxone**. Therapy is narrowed once culture and sensitivity data return — MSSA is treated with **nafcillin or oxacillin**, MRSA with vancomycin, viridans streptococci with penicillin or ceftriaxone (with or without gentamicin), and enterococci with ampicillin plus gentamicin. Typical duration is 4-6 weeks. Indications for surgery include heart failure from valvular dysfunction, perivalvular abscess, prosthetic valve involvement, fungal endocarditis, persistent bacteremia despite antibiotics, and large (>10 mm) mobile vegetations with systemic emboli. Prophylaxis before high-risk dental procedures is given to patients with prosthetic valves, prior endocarditis, unrepaired cyanotic congenital heart disease, and cardiac transplant recipients with valvulopathy.",
+    "high_yield_pearls": [
+      "FROM JANE: Fever, Roth spots, Osler nodes, Murmur, Janeway lesions, Anemia, Nail-bed (splinter) hemorrhages, Emboli.",
+      "S. aureus = most common acute endocarditis, especially IV drug users (tricuspid valve).",
+      "S. viridans = subacute endocarditis after dental procedures on previously damaged valves.",
+      "S. bovis (now gallolyticus) endocarditis mandates colonoscopy to evaluate for colorectal cancer.",
+      "Culture-negative causes include HACEK organisms (Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella), Coxiella, and Bartonella."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Bacterial endocarditis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Microbiology chapter, 'Staphylococcus aureus' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Infective endocarditis",
+      "Culture-negative endocarditis",
+      "Sepsis",
+      "Community-acquired pneumonia",
+      "Pulmonary embolism (PE)",
+      "Myocarditis",
+      "Rheumatoid arthritis",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_stage2_more_likely": [
+      "Infective endocarditis",
+      "Sepsis",
+      "Culture-negative endocarditis"
+    ],
+    "after_stage2_less_likely": [
+      "Rheumatoid arthritis",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_labs_top3": [
+      "Infective endocarditis",
+      "Sepsis",
+      "Culture-negative endocarditis"
+    ]
+  }
+}

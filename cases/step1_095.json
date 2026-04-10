@@ -1,0 +1,102 @@
+{
+  "case_id": "step1_095",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Aortic aneurysm",
+  "icd_category": "I71.4 — Abdominal aortic aneurysm, without rupture",
+  "one_liner": "A 72-year-old man with a 50 pack-year smoking history presents to his primary care physician for a routine visit; he reports vague lower abdominal fullness, and his physician feels a pulsatile mass on abdominal exam.",
+  "stage2": {
+    "hpi_extension": "He describes several months of mild lower abdominal and back discomfort but denies acute pain, syncope, or leg weakness. He has not previously been screened for abdominal aortic aneurysm. He has known hypertension and hyperlipidemia. No hematochezia or urinary symptoms. No history of connective tissue disease, tertiary syphilis, or trauma.",
+    "pmh": "Hypertension, hyperlipidemia, peripheral artery disease, chronic obstructive pulmonary disease.",
+    "surgical_history": "Right inguinal hernia repair",
+    "medications": "Amlodipine, atorvastatin, aspirin, tiotropium",
+    "allergies": "NKDA",
+    "family_history": "Father died of a 'burst blood vessel in the belly' at age 70.",
+    "social_history": "Retired welder. **50 pack-year smoker**, still smokes half a pack daily.",
+    "vitals": {
+      "temp": "36.7 C",
+      "hr": "82 bpm",
+      "bp": "152/88 mmHg",
+      "rr": "16",
+      "spo2": "95% on room air"
+    },
+    "physical_exam": "General: thin, barrel-chested older man, hemodynamically stable. Cardiac: regular rate and rhythm, no murmurs. Pulmonary: decreased breath sounds bilaterally with prolonged expiratory phase. Abdomen: **palpable pulsatile mass in the epigastrium/periumbilical area, approximately 5-6 cm in width**, mild tenderness. **Audible abdominal bruit**. Vascular: **diminished femoral and dorsalis pedis pulses bilaterally**. No flank ecchymosis."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Abdominal ultrasound (screening): fusiform infrarenal abdominal aorta measuring 5.8 cm in maximal transverse diameter** with mural thrombus. CT angiography of the abdomen and pelvis: **5.8 cm infrarenal abdominal aortic aneurysm** extending from just below the renal arteries to the aortic bifurcation; no contrast extravasation, no retroperitoneal hematoma. Extensive atherosclerotic calcification.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An infrarenal aortic diameter >=5.5 cm in a man meets the threshold for elective surgical repair due to high risk of rupture."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 13.1, Hct 39, WBC 7.8, Plt 240. No acute anemia; smear unremarkable.",
+        "flag": "WNL",
+        "clinical_significance": "Stable hemoglobin argues against active rupture or retroperitoneal bleed at this time."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "CBC with peripheral smear"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Because the aneurysm exceeds 5.5 cm, he is referred for elective endovascular aneurysm repair (EVAR); smoking cessation counseling and aggressive blood pressure and lipid control are initiated."
+  },
+  "debrief": {
+    "classic_presentation": "Abdominal aortic aneurysm (AAA) classically occurs in **older male smokers** (**men >=65 with any smoking history should be screened once with abdominal ultrasound**). Most AAAs are asymptomatic and are discovered either on screening or as an incidental **pulsatile periumbilical mass**. The dreaded complication is rupture, which presents as the classic triad of **hypotension, severe abdominal/flank/back pain, and a pulsatile abdominal mass** and is a surgical emergency.",
+    "attending_mode_notes": null,
+    "pathophysiology": "AAA is an atherosclerotic, degenerative disease in which chronic inflammation, matrix metalloproteinase activity, and elastin/collagen breakdown weaken the aortic media, leading to progressive dilation. Risk factors include **advanced age, male sex, smoking (strongest modifiable risk factor), hypertension, hyperlipidemia, family history, and Caucasian ethnicity**. The infrarenal aorta is most commonly involved because it has relatively fewer vasa vasorum. Other aneurysm etiologies include **tertiary syphilis** (ascending aorta), **cystic medial degeneration (Marfan, Ehlers-Danlos)**, and mycotic (infected) aneurysms.",
+    "treatment_overview": "**Repair is indicated for AAA >=5.5 cm, rapid expansion (>0.5 cm in 6 months), or symptomatic aneurysms**. Options are open surgical repair or endovascular aneurysm repair (EVAR). Smaller aneurysms are surveilled with serial ultrasound, with aggressive risk factor modification: **smoking cessation**, blood pressure control (beta-blockers can reduce expansion rate), and statin therapy. Ruptured AAA is a surgical emergency: permissive hypotension and emergent repair.",
+    "high_yield_pearls": [
+      "Screen men age 65-75 who have ever smoked with a one-time abdominal ultrasound for AAA.",
+      "Repair AAA at >=5.5 cm, if growing >0.5 cm in 6 months, or if symptomatic.",
+      "Ruptured AAA triad: hypotension + abdominal/back pain + pulsatile mass = surgical emergency.",
+      "Smoking is the strongest modifiable risk factor for AAA; atherosclerosis affects mostly the infrarenal aorta.",
+      "Tertiary syphilis causes ascending aortic aneurysms due to vasa vasorum endarteritis ('tree-barking' of the intima)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Aortic aneurysm' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Aortic aneurysm",
+      "Aortic dissection",
+      "Peripheral artery disease",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Mesenteric ischemia",
+      "Pancreatitis (acute)",
+      "Diverticulitis",
+      "Renal cell carcinoma"
+    ],
+    "after_stage2_more_likely": [
+      "Aortic aneurysm",
+      "Aortic dissection",
+      "Peripheral artery disease"
+    ],
+    "after_stage2_less_likely": [
+      "Diverticulitis",
+      "Pancreatitis (acute)",
+      "Nephrolithiasis — Calcium Oxalate Stone"
+    ],
+    "after_labs_top3": [
+      "Aortic aneurysm",
+      "Aortic dissection",
+      "Peripheral artery disease"
+    ]
+  }
+}

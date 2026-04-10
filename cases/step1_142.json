@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_142",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Thrombotic thrombocytopenic purpura (TTP)",
+  "icd_category": "M31.1 -- Thrombotic microangiopathy (TTP)",
+  "one_liner": "A 38-year-old woman presents to the ED with fever, confusion, scleral icterus, and a petechial rash that appeared over the past three days.",
+  "stage2": {
+    "hpi_extension": "She has been increasingly confused over the past 48 hours with fluctuating mental status, a severe headache, and a brief episode of right arm weakness that resolved. Her family reports she has looked yellow and has developed a dark urine color. She has a new petechial rash on her lower legs and bruising on her arms. She denies diarrhea, tick bites, recent heparin use, pregnancy, HIV risk factors, or new drugs. She reports a low-grade fever for 2 days.",
+    "pmh": "Previously healthy",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "Teacher, non-smoker, no illicit drug use, no recent travel",
+    "vitals": {
+      "temp": "38.4 C",
+      "hr": "112 bpm",
+      "bp": "138/88 mmHg",
+      "rr": "18",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: ill-appearing, intermittently confused, **scleral icterus**. Skin: **diffuse petechiae on the lower extremities**, scattered ecchymoses, **pallor**. HEENT: no lymphadenopathy. Cardiovascular: tachycardic, regular. Lungs: clear. Abdomen: soft, mildly tender, **no splenomegaly or hepatomegaly**. Neuro: **fluctuating mental status (drowsy then agitated)**, **mild right-sided weakness** on last exam, no meningismus. Residual urine darkly tea-colored."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hgb 7.8 g/dL (low), **platelets 18,000/uL (markedly low)**, WBC 9.8. **Reticulocyte count elevated**. Smear: **numerous schistocytes (fragmented red cells, helmet cells)**, polychromasia, nucleated RBCs, thrombocytopenia.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Microangiopathic hemolytic anemia (schistocytes) plus severe thrombocytopenia is the hallmark of a thrombotic microangiopathy. In an adult with neurologic symptoms, TTP is the leading diagnosis until proven otherwise."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**LDH markedly elevated (1,250 U/L)**, **indirect bilirubin elevated**, haptoglobin undetectable. Creatinine mildly elevated at 1.4 mg/dL. **PT, PTT, fibrinogen, and D-dimer all normal** (distinguishing from DIC). Urinalysis: hemoglobinuria.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Elevated LDH, elevated indirect bilirubin, and undetectable haptoglobin confirm intravascular hemolysis. NORMAL coagulation parameters (PT/PTT/fibrinogen/D-dimer) are critical in distinguishing TTP from DIC, in which they are all deranged."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**ADAMTS13 activity: <5% (severely decreased)**. ADAMTS13 inhibitor (autoantibody): POSITIVE.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severely decreased ADAMTS13 activity (<10%) from an autoantibody inhibitor is diagnostic of acquired TTP. Without ADAMTS13, ultra-large von Willebrand factor multimers are not cleaved and anchor microthrombi in the microvasculature of the brain, kidneys, and other organs."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "CBC with peripheral smear",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Genetic / molecular testing",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Emergent plasmapheresis is initiated along with corticosteroids. Platelet transfusion is deliberately AVOIDED because it can worsen microthrombus formation. Within 48 hours her platelets begin to rise, her LDH falls, and her mental status clears."
+  },
+  "debrief": {
+    "classic_presentation": "TTP classically presents with the pentad: thrombocytopenia, microangiopathic hemolytic anemia, neurologic symptoms (waxing and waning confusion, focal deficits, seizures), renal dysfunction, and fever. In practice, only a minority of patients present with all five features; the combination of thrombocytopenia and MAHA without another explanation is sufficient to suspect TTP and begin treatment. It most commonly affects adult women and may be triggered by pregnancy, HIV, certain drugs (ticlopidine, clopidogrel, cyclosporine), or autoimmune disease.",
+    "attending_mode_notes": null,
+    "pathophysiology": "TTP is caused by a deficiency of ADAMTS13 (a disintegrin and metalloproteinase with a thrombospondin type 1 motif, member 13), the plasma protease that cleaves ultra-large von Willebrand factor multimers into smaller, less thrombogenic forms. Most adult cases are acquired from an autoantibody inhibitor of ADAMTS13; a rare hereditary form (Upshaw-Schulman syndrome) exists. Without ADAMTS13, uncleaved vWF multimers bind platelets and form disseminated platelet microthrombi, especially in the brain and kidney microvasculature. Mechanical shearing of erythrocytes through these thrombi produces the schistocytes of microangiopathic hemolytic anemia.",
+    "treatment_overview": "TTP is a medical emergency with >90% mortality if untreated. EMERGENT plasmapheresis (plasma exchange) both removes the ADAMTS13 inhibitor and replaces functional ADAMTS13 -- it is lifesaving. Corticosteroids are added to suppress antibody production, and rituximab is often used for refractory or relapsing disease. Caplacizumab (anti-vWF nanobody) is now available. CRITICAL: platelet transfusions should be AVOIDED because they can fuel further microthrombus formation and worsen end-organ injury. Red cell transfusion is acceptable for anemia.",
+    "high_yield_pearls": [
+      "TTP pentad: thrombocytopenia, microangiopathic hemolytic anemia (schistocytes), neurologic symptoms, renal failure, fever -- full pentad is uncommon; MAHA + thrombocytopenia is enough to act on.",
+      "ADAMTS13 deficiency (usually from an autoantibody inhibitor) prevents cleavage of ultra-large vWF multimers, which then anchor platelet microthrombi.",
+      "Coagulation studies (PT, PTT, fibrinogen, D-dimer) are NORMAL in TTP -- this distinguishes it from DIC, where they are all deranged.",
+      "Emergent plasmapheresis is lifesaving. AVOID platelet transfusions -- they fuel microthrombus formation.",
+      "TTP vs HUS: TTP has more prominent neurologic symptoms and low ADAMTS13; HUS has more prominent AKI, follows bloody diarrhea, and has NORMAL ADAMTS13."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) -- Hematology and Oncology chapter, 'Platelet disorders / Thrombotic microangiopathies -- Thrombotic thrombocytopenic purpura (TTP)' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Hemolytic uremic syndrome (HUS)",
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Autoimmune hemolytic anemia",
+      "Systemic lupus erythematosus (SLE)",
+      "Bacterial meningitis",
+      "Drug-induced thrombocytopenia"
+    ],
+    "after_stage2_more_likely": [
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Hemolytic uremic syndrome (HUS)"
+    ],
+    "after_stage2_less_likely": [
+      "Idiopathic thrombocytopenic purpura (ITP)",
+      "Heparin-induced thrombocytopenia (HIT)",
+      "Bacterial meningitis"
+    ],
+    "after_labs_top3": [
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Hemolytic uremic syndrome (HUS)",
+      "Autoimmune hemolytic anemia"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_134",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Primary hyperaldosteronism (Conn syndrome)",
+  "icd_category": "E26.0 — Primary hyperaldosteronism",
+  "one_liner": "A 44-year-old woman is referred to endocrinology for evaluation of hypertension that remains uncontrolled despite three antihypertensive medications.",
+  "stage2": {
+    "hpi_extension": "Her blood pressure has been persistently **160-180/100-110 mmHg** despite adherent use of lisinopril, amlodipine, and hydrochlorothiazide. She reports **muscle weakness and cramps** in her legs, **fatigue**, and **polyuria with nocturia**. She denies palpitations, headaches, or diaphoresis. She is otherwise asymptomatic. Routine labs from her primary care doctor showed **low potassium** requiring oral replacement.",
+    "pmh": "Hypertension (diagnosed at age 38)",
+    "surgical_history": "None",
+    "medications": "Lisinopril 40 mg daily, amlodipine 10 mg daily, hydrochlorothiazide 25 mg daily, potassium chloride 20 mEq twice daily",
+    "allergies": "NKDA",
+    "family_history": "Father with hypertension; no known endocrine tumors",
+    "social_history": "Attorney, married. Non-smoker, rare alcohol.",
+    "vitals": {
+      "temp": "36.7°C",
+      "hr": "76 bpm",
+      "bp": "172/104 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: well-appearing woman in no distress. HEENT: unremarkable; no thyromegaly. Cardiovascular: regular rate and rhythm, S4 gallop, no murmurs. Abdomen: soft, non-tender, no abdominal bruits. Extremities: mild lower extremity weakness; no edema. Neuro: intact. Skin: no striae, no hyperpigmentation."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Sodium 144, potassium 2.9 (low)**, chloride 101, **bicarbonate 32 (elevated)**, BUN 14, creatinine 0.8, glucose 96. **Metabolic alkalosis** present.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The triad of **hypertension + hypokalemia + metabolic alkalosis** is classic for mineralocorticoid excess, especially primary hyperaldosteronism."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**Plasma aldosterone 38 ng/dL (elevated)**. **Plasma renin activity 0.2 ng/mL/hr (suppressed)**. **Aldosterone-to-renin ratio (ARR) 190 (markedly elevated, >20)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An **elevated aldosterone with suppressed renin and ARR >20** is diagnostic of **primary hyperaldosteronism**. In secondary hyperaldosteronism (e.g., renal artery stenosis) renin would also be elevated."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**CT of the adrenal glands**: a **1.6 cm well-circumscribed, hypodense nodule in the left adrenal gland** consistent with an adenoma. Right adrenal gland appears normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A unilateral adrenal adenoma (Conn adenoma) is a surgically curable cause of primary hyperaldosteronism. Bilateral adrenal hyperplasia would require medical therapy."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Comprehensive metabolic panel"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy"
+    ]
+  },
+  "stage5": {
+    "final_clue": "**Adrenal venous sampling** confirms unilateral aldosterone hypersecretion from the left adrenal. She undergoes **laparoscopic left adrenalectomy** with resolution of hypokalemia and blood pressure improvement to 128/80 on a single agent."
+  },
+  "debrief": {
+    "classic_presentation": "Primary hyperaldosteronism typically presents as **resistant hypertension** (often in young or middle-aged adults requiring >=3 agents) with **unprovoked or diuretic-induced hypokalemia, metabolic alkalosis, and muscle weakness**. Polyuria and nocturia reflect hypokalemia-induced nephrogenic DI. Many patients are normokalemic, so hyperaldosteronism should be screened for in any patient with resistant hypertension, hypertension with spontaneous hypokalemia, hypertension before age 40, or an adrenal incidentaloma. Causes include a **unilateral adrenal adenoma (Conn syndrome)** or **bilateral adrenal hyperplasia**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Autonomous aldosterone secretion from the zona glomerulosa of the adrenal cortex acts on the principal cells of the cortical collecting duct to **increase sodium (and water) reabsorption** via ENaC and the Na/K ATPase, promoting **potassium and hydrogen ion excretion**. The result is **volume-mediated hypertension, hypokalemia, and metabolic alkalosis**. Chronic sodium retention triggers pressure natriuresis ('aldosterone escape'), so overt edema is uncommon. Feedback suppression of **renin** is characteristic and distinguishes primary hyperaldosteronism from secondary causes (renal artery stenosis, renin-secreting tumor, diuretic use).",
+    "treatment_overview": "**Unilateral adrenal adenoma**: **laparoscopic adrenalectomy** is curative in most cases. **Bilateral adrenal hyperplasia**: medical therapy with **spironolactone** or **eplerenone** (mineralocorticoid receptor antagonists); spironolactone can cause gynecomastia and antiandrogen effects. Adrenal venous sampling is the gold standard for lateralizing aldosterone production before surgery, since adrenal CT can miss small adenomas or detect nonfunctioning nodules.",
+    "high_yield_pearls": [
+      "Think primary hyperaldosteronism in any patient with **resistant hypertension + spontaneous hypokalemia + metabolic alkalosis**.",
+      "Screening test: **plasma aldosterone/renin ratio (ARR)**. Primary = high aldosterone, **suppressed renin**, ARR >20.",
+      "Distinguish from secondary hyperaldosteronism (renal artery stenosis, diuretics, CHF, cirrhosis) where **both renin and aldosterone are elevated**.",
+      "Unilateral adenoma (Conn) = surgery; bilateral hyperplasia = **spironolactone/eplerenone**.",
+      "Aldosterone acts on ENaC/Na-K-ATPase in the principal cells of the cortical collecting duct — it promotes Na+ retention and K+/H+ excretion."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Hyperaldosteronism (Primary and secondary)' section.",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Aldosterone — Collecting tubule physiology' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Essential hypertension",
+      "Renal artery stenosis",
+      "Pheochromocytoma",
+      "Cushing syndrome",
+      "Hypokalemia",
+      "Metabolic alkalosis"
+    ],
+    "after_stage2_more_likely": [
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Renal artery stenosis"
+    ],
+    "after_stage2_less_likely": [
+      "Essential hypertension",
+      "Pheochromocytoma",
+      "Cushing syndrome"
+    ],
+    "after_labs_top3": [
+      "Primary hyperaldosteronism (Conn syndrome)",
+      "Renal artery stenosis",
+      "Cushing syndrome"
+    ]
+  }
+}

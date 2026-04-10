@@ -1,0 +1,108 @@
+{
+  "case_id": "step1_096",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Deep vein thrombosis (DVT)",
+  "icd_category": "I82 — Other venous embolism and thrombosis",
+  "one_liner": "A 62-year-old man presents with three days of painful left calf swelling. He returned last week from a 14-hour transoceanic flight and has been mostly sedentary since.",
+  "stage2": {
+    "hpi_extension": "He describes a dull ache in the left calf that worsens with walking and when dorsiflexing his foot. The leg feels tight and warm. He denies chest pain, shortness of breath, or hemoptysis. He had no trauma. He recently completed a long-haul flight and spent the following days resting at home. He has not had recent surgery, but he was diagnosed with prostate cancer two months ago and is awaiting treatment.",
+    "pmh": "Hypertension, newly diagnosed prostate adenocarcinoma",
+    "surgical_history": "Inguinal hernia repair (remote)",
+    "medications": "Amlodipine",
+    "allergies": "NKDA",
+    "family_history": "Father had a 'blood clot in the lung' in his 60s",
+    "social_history": "Retired accountant. 20 pack-year smoking history, quit 5 years ago. Minimal alcohol.",
+    "vitals": {
+      "temp": "37.2 C",
+      "hr": "92 bpm",
+      "bp": "138/84 mmHg",
+      "rr": "16",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: well-appearing, in mild discomfort. Cardiopulmonary: regular rhythm, lungs clear. Extremities: **left calf is warm, erythematous, and visibly swollen** compared to the right. **Left calf circumference 3.5 cm greater than right** measured 10 cm below the tibial tuberosity. **Tenderness along the deep venous system** in the posterior calf. **Homan sign positive** (pain on passive dorsiflexion of the foot). Palpable dorsalis pedis and posterior tibial pulses bilaterally. No superficial varicosities. Right leg is unremarkable."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "**Compression ultrasound of the left lower extremity**: **non-compressible left popliteal and femoral veins** with echogenic intraluminal material and absence of Doppler flow. Findings consistent with acute proximal deep vein thrombosis.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Compression ultrasound is the first-line imaging test for DVT. Loss of vein compressibility is the most reliable sonographic sign of intraluminal thrombus."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "**D-dimer markedly elevated at 3,200 ng/mL** (normal <500). CRP mildly elevated.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "D-dimer is a fibrin degradation product sensitive but not specific for thrombosis. In a patient with a high Wells score, imaging is required regardless, but elevation supports ongoing fibrinolysis of a clot."
+      },
+      {
+        "test_name": "CBC with peripheral smear",
+        "result": "Hemoglobin 13.8 g/dL, WBC 7.9, platelets 242,000. Smear unremarkable.",
+        "flag": "NORMAL",
+        "clinical_significance": "Normal CBC helps exclude alternative causes of limb swelling such as HIT-associated thrombosis or a myeloproliferative disorder, and provides a baseline before initiating anticoagulation."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Inflammatory / infection markers"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Hormone / endocrine assay",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "Microbiology / Gram stain / cultures",
+      "Urinalysis"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on low-molecular-weight heparin with transition to a direct oral anticoagulant; repeat ultrasound at three months shows partial recanalization and symptoms have resolved."
+  },
+  "debrief": {
+    "classic_presentation": "DVT classically presents with unilateral calf pain, swelling, warmth, and erythema in a patient with one or more components of Virchow's triad: venous stasis (immobilization, long-haul travel, post-op), hypercoagulability (malignancy, OCPs, pregnancy, inherited thrombophilia), or endothelial injury (trauma, surgery). Homan sign (calf pain with dorsiflexion) is classic but insensitive. Proximal (iliofemoral/popliteal) DVTs carry the highest risk of embolization to the lungs.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Thrombus formation in a deep vein is driven by Virchow's triad: stasis, endothelial injury, and hypercoagulability. Stasis in venous sinusoids of the soleal muscles allows activated clotting factors to accumulate and generate fibrin. Malignancy produces a prothrombotic state via tissue factor release (Trousseau syndrome). Inherited thrombophilias such as Factor V Leiden (resistance to activated protein C), prothrombin gene mutation, and deficiencies of protein C, protein S, or antithrombin III also predispose. Clots can propagate proximally and embolize to the pulmonary arteries, causing PE.",
+    "treatment_overview": "Risk stratification with the Wells criteria guides the workup: low pretest probability plus negative D-dimer rules out DVT; otherwise compression ultrasound is performed. Treatment is anticoagulation, typically low-molecular-weight heparin (enoxaparin) as a bridge to warfarin (INR 2-3), or a direct oral anticoagulant such as rivaroxaban or apixaban. Duration is at least 3 months, longer if malignancy-associated or unprovoked. IVC filter is reserved for patients with contraindications to anticoagulation. Provoked DVT from a transient risk factor (flight, surgery) typically warrants 3 months of therapy.",
+    "high_yield_pearls": [
+      "Virchow's triad: stasis, endothelial injury, hypercoagulability.",
+      "Wells score plus D-dimer risk-stratifies patients; compression ultrasound is the diagnostic test of choice.",
+      "Trousseau syndrome = migratory superficial thrombophlebitis associated with visceral malignancy (classically pancreatic cancer).",
+      "Factor V Leiden is the most common inherited thrombophilia; the mutation renders factor V resistant to cleavage by activated protein C.",
+      "Proximal (iliac/femoral/popliteal) DVT carries a much higher PE risk than isolated calf vein DVT."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Deep venous thrombosis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Thrombosis syndromes / hypercoagulable states' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Deep vein thrombosis (DVT)",
+      "Cellulitis",
+      "Pulmonary embolism (PE)",
+      "Peripheral artery disease",
+      "May-Thurner syndrome",
+      "Factor V Leiden",
+      "Compartment syndrome",
+      "Osteomyelitis"
+    ],
+    "after_stage2_more_likely": [
+      "Deep vein thrombosis (DVT)",
+      "May-Thurner syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Peripheral artery disease",
+      "Osteomyelitis",
+      "Compartment syndrome"
+    ],
+    "after_labs_top3": [
+      "Deep vein thrombosis (DVT)",
+      "May-Thurner syndrome",
+      "Cellulitis"
+    ]
+  }
+}

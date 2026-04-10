@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_131",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Hypothyroidism",
+  "icd_category": "E03 — Hypothyroidism, unspecified",
+  "one_liner": "A 47-year-old woman presents with several months of progressive fatigue, cold intolerance, weight gain despite a reduced appetite, and constipation.",
+  "stage2": {
+    "hpi_extension": "Over the past 6 months she has gained about 12 pounds and feels **cold all the time** even when others are warm. She reports **constipation** (bowel movements every 3-4 days), **dry skin, hair thinning**, and a **hoarse voice**. She says her thinking is 'slow' and she has trouble concentrating at work. Menstrual periods have become heavier and more prolonged. She denies chest pain, palpitations, or heat intolerance.",
+    "pmh": "Vitiligo diagnosed 3 years ago",
+    "surgical_history": "Cesarean section x2",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Mother with **Hashimoto thyroiditis**, sister with type 1 diabetes",
+    "social_history": "Elementary school teacher, married, two children. Non-smoker. Rare alcohol.",
+    "vitals": {
+      "temp": "36.2°C",
+      "hr": "54 bpm",
+      "bp": "112/78 mmHg",
+      "rr": "12",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "General: mildly overweight woman appearing fatigued. HEENT: puffy face, **periorbital edema**, dry coarse hair, **lateral thinning of the eyebrows (Queen Anne sign)**. Neck: diffuse, firm, **non-tender goiter**. Cardiovascular: **bradycardia**, regular, no murmur. Skin: **dry, cool, coarse**. Neuro: speech slightly slow; **delayed relaxation phase of deep tendon reflexes ('hung up reflexes')** at the ankles."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**TSH 24.8 mIU/L** (markedly elevated). **Free T4 0.5 ng/dL** (low). Total T3 low-normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Elevated TSH with low free T4** confirms **primary hypothyroidism**. In secondary/central hypothyroidism, TSH would be low or inappropriately normal with low T4."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**Anti-thyroid peroxidase (anti-TPO) antibodies markedly elevated**. Anti-thyroglobulin antibodies also positive.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "High-titer anti-TPO antibodies confirm **Hashimoto thyroiditis** as the etiology — the most common cause of hypothyroidism in iodine-replete regions."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 132, potassium 4.0, creatinine 0.9. **LDL cholesterol 178 mg/dL (elevated)**. **Creatine kinase mildly elevated**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Hypothyroidism classically causes **hyponatremia, hypercholesterolemia, and elevated CK** (reflecting a myopathic component). These abnormalities typically reverse with levothyroxine."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Serologic / antibody studies"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "She is started on weight-based **levothyroxine**. At 6-week follow-up her TSH has begun to normalize, her energy has improved, and she has lost 4 pounds. The dose is titrated to achieve a TSH in the normal range."
+  },
+  "debrief": {
+    "classic_presentation": "Hypothyroidism classically presents in a middle-aged woman with **fatigue, cold intolerance, weight gain, constipation, dry skin, hair thinning, hoarseness, menorrhagia, and cognitive slowing**. Exam shows **bradycardia, diastolic hypertension, periorbital edema, non-pitting edema (myxedema), a diffuse firm goiter, and delayed-relaxation ('hung-up') reflexes**. Severe untreated hypothyroidism can progress to **myxedema coma**, with hypothermia, hypoventilation, hyponatremia, and altered mental status. Congenital hypothyroidism causes **cretinism** (short stature, intellectual disability, coarse facies, macroglossia, umbilical hernia).",
+    "attending_mode_notes": null,
+    "pathophysiology": "The most common cause of hypothyroidism in iodine-sufficient regions is **Hashimoto (chronic lymphocytic) thyroiditis**, an autoimmune T-cell-mediated destruction of thyroid follicular cells associated with **anti-TPO and anti-thyroglobulin antibodies** and HLA-DR3/DR5. Histology shows a **lymphoid infiltrate with germinal centers** and **Hürthle cells**. Other causes include iodine deficiency (worldwide #1), postpartum thyroiditis, subacute (de Quervain) thyroiditis (transient), drugs (lithium, amiodarone), thyroid surgery, and radioiodine therapy. Loss of thyroid hormone decreases basal metabolic rate and beta-adrenergic signaling.",
+    "treatment_overview": "**Levothyroxine (synthetic T4)** is first-line, with dose titrated by TSH every 6-8 weeks. Elderly patients and those with CAD should be started at low doses to avoid precipitating ischemia. Myxedema coma requires IV levothyroxine, IV hydrocortisone (until adrenal insufficiency is excluded), passive rewarming, and ICU supportive care.",
+    "high_yield_pearls": [
+      "Primary hypothyroidism = **high TSH, low free T4**; Hashimoto is the #1 cause in the US and is associated with **anti-TPO antibodies**.",
+      "Classic exam findings: **bradycardia, hypothermia, delayed 'hung up' reflexes, periorbital/pretibial myxedema**, and **lateral eyebrow thinning**.",
+      "Labs in hypothyroidism: **hyponatremia, hypercholesterolemia (high LDL), elevated CK**, and macrocytic anemia.",
+      "Hashimoto thyroiditis increases the risk of **thyroid lymphoma (especially B-cell non-Hodgkin)**, not papillary cancer.",
+      "Congenital hypothyroidism = **cretinism**; screen all newborns. Features: pot-belly, pale, puffy face, protruding umbilicus, protuberant tongue, poor brain development."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Hypothyroidism and hyperthyroidism' section.",
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Hashimoto thyroiditis / Cretinism' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Hypothyroidism",
+      "Hashimoto thyroiditis",
+      "Subacute thyroiditis (de Quervain)",
+      "Major depressive disorder",
+      "Anemia of chronic disease",
+      "Chronic fatigue syndrome (myalgic encephalomyelitis/chronic fatigue syndrome)",
+      "Addison disease"
+    ],
+    "after_stage2_more_likely": [
+      "Hypothyroidism",
+      "Hashimoto thyroiditis"
+    ],
+    "after_stage2_less_likely": [
+      "Major depressive disorder",
+      "Anemia of chronic disease",
+      "Chronic fatigue syndrome (myalgic encephalomyelitis/chronic fatigue syndrome)"
+    ],
+    "after_labs_top3": [
+      "Hypothyroidism",
+      "Hashimoto thyroiditis",
+      "Subacute thyroiditis (de Quervain)"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_159",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "GPA (granulomatosis with polyangiitis)",
+  "icd_category": "M31.3  -  Wegener granulomatosis",
+  "one_liner": "A 52-year-old man presents with 3 months of chronic sinusitis, persistent epistaxis, and new hemoptysis, and on review is noted to have dark cola-colored urine for the past week.",
+  "stage2": {
+    "hpi_extension": "For 3 months he has had **persistent sinus pain, purulent nasal drainage, and recurrent epistaxis** that has not responded to multiple courses of antibiotics and decongestants. Over the past month he has developed a **chronic cough productive of blood-tinged sputum** and two episodes of **frank hemoptysis**. He reports 6 kg of unintentional weight loss, low-grade fevers, fatigue, and migratory joint pains. In the last week his urine has become **dark and cola-colored** and his ankles are mildly swollen. He also notes a persistent 'stuffy' right ear.",
+    "pmh": "'Recurrent sinus infections' for the past year",
+    "surgical_history": "None",
+    "medications": "Intermittent antibiotics and nasal saline",
+    "allergies": "NKDA",
+    "family_history": "Non-contributory",
+    "social_history": "High-school teacher. Non-smoker. No occupational dust exposure.",
+    "vitals": {
+      "temp": "38.1degC",
+      "hr": "96 bpm",
+      "bp": "156/94 mmHg",
+      "rr": "18",
+      "spo2": "94% on room air"
+    },
+    "physical_exam": "HEENT: **crusting and ulceration of the nasal mucosa**, early **'saddle-nose' deformity** with loss of nasal bridge support, sinus tenderness, serous right otitis media. Lungs: scattered bilateral crackles. Cardiac: regular, no rubs. Abdomen: soft. Extremities: mild bilateral ankle edema, palpable purpura on both lower legs. Neuro: decreased sensation and weakness of the right foot consistent with a foot drop (**mononeuritis multiplex**)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "**c-ANCA (cytoplasmic pattern) positive**. **Anti-proteinase 3 (anti-PR3) antibody positive** at high titer. p-ANCA/anti-MPO negative. ANA negative. Anti-GBM negative. Complement levels normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "c-ANCA/anti-PR3 is highly sensitive and specific for **granulomatosis with polyangiitis (GPA, formerly Wegener)** and fits the classic upper airway + lower airway + renal triad."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "3+ blood, 2+ protein, **dysmorphic red blood cells and red blood cell casts** on microscopy. Creatinine 2.4 mg/dL (rising from a baseline of 1.0).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RBC casts and dysmorphic RBCs indicate **glomerulonephritis**; the rapidly rising creatinine is consistent with **rapidly progressive (crescentic) glomerulonephritis (RPGN)**."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "Chest CT: **multiple bilateral nodular opacities with cavitation** in both lungs. Sinus CT: mucosal thickening and bony erosion of the nasal septum.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Cavitary pulmonary nodules in combination with destructive sinus disease and RPGN constitute the **upper airway, lower airway, and renal triad** of granulomatosis with polyangiitis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Serologic / antibody studies",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Imaging study",
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Hormone / endocrine assay",
+      "EKG / cardiac monitoring",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Kidney biopsy shows **pauci-immune necrotizing crescentic glomerulonephritis**. He is started on **induction therapy with IV methylprednisolone pulses plus cyclophosphamide** (rituximab is an alternative), with rapid improvement in renal function and pulmonary infiltrates. Maintenance therapy with azathioprine is planned after induction."
+  },
+  "debrief": {
+    "classic_presentation": "Granulomatosis with polyangiitis (GPA; formerly Wegener granulomatosis) is an ANCA-associated small-to-medium vessel vasculitis that classically presents with the **triad of upper airway + lower airway + renal** involvement. Upper airway: chronic sinusitis, nasal crusting and ulceration, **saddle-nose deformity**, otitis. Lower airway: cough, **hemoptysis**, **cavitary pulmonary nodules**. Renal: **rapidly progressive (crescentic) glomerulonephritis** with hematuria, RBC casts, and rising creatinine. Constitutional symptoms (fever, weight loss), arthralgias, skin purpura, and **mononeuritis multiplex** are common.",
+    "attending_mode_notes": null,
+    "pathophysiology": "GPA is a **necrotizing granulomatous vasculitis** of small and medium vessels, mediated by **anti-neutrophil cytoplasmic antibodies** directed against **proteinase 3 (c-ANCA/anti-PR3)**. Histopathology shows **necrotizing granulomatous inflammation of the respiratory tract** and **pauci-immune necrotizing crescentic glomerulonephritis** in the kidney (few or no immune deposits on immunofluorescence). This distinguishes GPA from immune-complex glomerulonephritides such as lupus nephritis and IgA nephropathy.",
+    "treatment_overview": "Induction therapy for severe/organ-threatening disease uses **corticosteroids (IV methylprednisolone pulses then oral prednisone) plus cyclophosphamide or rituximab**. Plasmapheresis may be added for severe alveolar hemorrhage or rapidly progressive GN. After remission, **maintenance therapy** transitions to **azathioprine, methotrexate, or rituximab** to minimize cyclophosphamide toxicity. **Trimethoprim-sulfamethoxazole prophylaxis** is important while on heavy immunosuppression to prevent Pneumocystis pneumonia.",
+    "high_yield_pearls": [
+      "Triad = Upper airway (sinusitis, saddle-nose) + Lower airway (cavitary nodules, hemoptysis) + Renal (RPGN with RBC casts).",
+      "c-ANCA / anti-PR3 positive is highly specific for GPA; p-ANCA / anti-MPO is more often seen in microscopic polyangiitis and EGPA.",
+      "Renal biopsy: pauci-immune necrotizing crescentic glomerulonephritis (no/few immune deposits)  -  distinguishes ANCA vasculitis from immune-complex disease.",
+      "Lung biopsy / tissue: necrotizing granulomatous inflammation with giant cells  -  contrast with the non-granulomatous necrotizing vasculitis of microscopic polyangiitis.",
+      "Induction: steroids + cyclophosphamide or rituximab; maintenance: azathioprine, methotrexate, or rituximab; add TMP-SMX for PCP prophylaxis."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'Vasculitides  -  Granulomatosis with polyangiitis (Wegener)' section.",
+      "First Aid for the USMLE Step 1 (2017)  -  Musculoskeletal, Skin, and Connective Tissue chapter, 'ANCA associations in small-vessel vasculitis'."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "GPA (granulomatosis with polyangiitis)",
+      "MPA (microscopic polyangiitis)",
+      "Eosinophilic granulomatosis with polyangiitis (EGPA / Churg-Strauss)",
+      "Anti-GBM disease (Goodpasture syndrome)",
+      "PAN (polyarteritis nodosa)",
+      "Systemic lupus erythematosus (SLE)",
+      "Tuberculosis (TB)",
+      "Immunoglobulin A (IgA) nephropathy"
+    ],
+    "after_stage2_more_likely": [
+      "GPA (granulomatosis with polyangiitis)",
+      "Anti-GBM disease (Goodpasture syndrome)"
+    ],
+    "after_stage2_less_likely": [
+      "PAN (polyarteritis nodosa)",
+      "Tuberculosis (TB)",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_labs_top3": [
+      "GPA (granulomatosis with polyangiitis)",
+      "MPA (microscopic polyangiitis)",
+      "Anti-GBM disease (Goodpasture syndrome)"
+    ]
+  }
+}

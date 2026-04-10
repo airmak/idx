@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_162",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Psoriasis",
+  "icd_category": "L40 — Psoriasis",
+  "one_liner": "A 34-year-old man presents with a 6-month history of itchy, scaly red plaques on his elbows, knees, and scalp that flared after he scraped his forearm on a garden fence.",
+  "stage2": {
+    "hpi_extension": "He first noticed small scaly patches on his elbows about two years ago but they have enlarged and spread. New lesions appeared in a linear streak along a recent scratch on his left forearm. He also describes morning stiffness and a dull ache in his right DIP joints. His fingernails have become pitted and discolored. He denies fevers, weight loss, or mucosal lesions.",
+    "pmh": "Previously healthy. Occasional GERD.",
+    "surgical_history": "None",
+    "medications": "Occasional OTC ibuprofen",
+    "allergies": "NKDA",
+    "family_history": "Father has 'bad dandruff and scaly elbows'; paternal uncle with arthritis.",
+    "social_history": "Landscaper. Smokes half a pack/day. Drinks 3-4 beers on weekends. Reports stress from work.",
+    "vitals": {
+      "temp": "36.9C",
+      "hr": "72 bpm",
+      "bp": "124/78 mmHg",
+      "rr": "14",
+      "spo2": "99% on room air"
+    },
+    "physical_exam": "Skin: Multiple **well-demarcated salmon-pink plaques with overlying thick silvery scale** symmetrically distributed on the extensor surfaces of both elbows and knees, and within the scalp at the hairline. Gentle removal of scale produces **pinpoint bleeding (Auspitz sign)**. A **linear plaque follows a recent scratch on the left forearm (Koebner phenomenon)**. Nails: **pitting**, yellow-brown **oil spots**, and distal **onycholysis** of several fingernails. Joints: mild tenderness and swelling of the right 2nd and 3rd distal interphalangeal joints without deformity."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Histopathology / biopsy",
+        "result": "Punch biopsy of an elbow plaque shows **marked acanthosis with elongated rete ridges**, **parakeratosis** (retained nuclei in the stratum corneum), thinning of the granular layer, and **neutrophilic microabscesses within the stratum corneum (Munro microabscesses)**. Dilated dermal capillaries are noted in the papillae.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Histology is classic for psoriasis. Parakeratosis and Munro microabscesses reflect the accelerated keratinocyte turnover and neutrophilic infiltration characteristic of the disease."
+      },
+      {
+        "test_name": "Inflammatory / infection markers",
+        "result": "ESR mildly elevated at 32 mm/hr. CRP mildly elevated. Uric acid normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Low-grade systemic inflammation is common in extensive psoriasis and in psoriatic arthritis; it also screens for alternative inflammatory arthropathies such as gout."
+      },
+      {
+        "test_name": "Serologic / antibody studies",
+        "result": "Rheumatoid factor negative. Anti-CCP antibodies negative. ANA negative. HIV negative.",
+        "flag": "NORMAL",
+        "clinical_significance": "Negative RF and anti-CCP argue against rheumatoid arthritis and support a **seronegative spondyloarthropathy** pattern consistent with psoriatic arthritis."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Histopathology / biopsy",
+      "Inflammatory / infection markers"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "CBC with peripheral smear",
+      "Comprehensive metabolic panel",
+      "Urinalysis",
+      "Microbiology / Gram stain / cultures",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on **topical high-potency corticosteroids plus a vitamin D analog (calcipotriene)** with improvement in his plaques. Because of joint involvement, methotrexate is added. He is counseled that approximately 20% of patients with psoriasis develop **psoriatic arthritis**."
+  },
+  "debrief": {
+    "classic_presentation": "Psoriasis is a chronic, relapsing, immune-mediated skin disease that typically presents with **well-demarcated salmon-pink plaques covered by silvery scale** on extensor surfaces (elbows, knees), the scalp, and the lumbosacral region. Classic signs include the **Auspitz sign** (pinpoint bleeding when scale is removed), the **Koebner phenomenon** (new plaques at sites of skin trauma), and **nail pitting with oil spots and onycholysis**. Approximately 20% of patients develop **psoriatic arthritis**, which often targets the DIP joints.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Psoriasis is driven by a dysregulated adaptive immune response in which **Th1 and Th17 T cells** release cytokines (**TNF-alpha, IL-17, IL-22, IL-23**) that stimulate keratinocyte hyperproliferation and turn over the epidermis in days instead of weeks. Histology shows **acanthosis, parakeratosis, loss of the granular layer, and Munro microabscesses** (neutrophils in the stratum corneum). There is a strong HLA-C (HLA-Cw6) association. Triggers include trauma (Koebner), infection (especially streptococcal, which triggers guttate psoriasis), stress, beta-blockers, lithium, and alcohol.",
+    "treatment_overview": "Limited disease: **topical corticosteroids, vitamin D analogs (calcipotriene), tazarotene, tar, and calcineurin inhibitors**. Moderate-to-severe disease: **phototherapy (narrow-band UVB, PUVA)**, methotrexate, cyclosporine, acitretin, and **biologics targeting TNF-alpha (etanercept, infliximab, adalimumab), IL-17 (secukinumab, ixekizumab), and IL-12/23 (ustekinumab)**. Psoriatic arthritis responds to methotrexate and anti-TNF or anti-IL-17 biologics.",
+    "high_yield_pearls": [
+      "**Auspitz sign** (pinpoint bleeding after scale removal) and the **Koebner phenomenon** (lesions at sites of skin trauma) are classic for psoriasis.",
+      "Histology: **acanthosis, parakeratosis, Munro microabscesses** (neutrophils in stratum corneum), and loss of the granular layer.",
+      "Nail findings: **pitting, oil spots, and onycholysis** — highly associated with psoriatic arthritis.",
+      "About **20% of patients with psoriasis develop psoriatic arthritis**, which classically involves the DIP joints and can produce a 'pencil-in-cup' deformity.",
+      "Psoriasis is driven by **Th17 / IL-17 / IL-23** signaling — the rationale for biologics like secukinumab and ustekinumab."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Musculoskeletal, Skin, and Connective Tissue chapter, 'Common skin disorders — Psoriasis' section.",
+      "First Aid for the USMLE Step 1 (2017) — Musculoskeletal, Skin, and Connective Tissue chapter, 'Seronegative spondyloarthropathies — Psoriatic arthritis' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Psoriasis",
+      "Atopic dermatitis",
+      "Contact dermatitis",
+      "Lichen planus",
+      "Psoriatic arthritis",
+      "Rheumatoid arthritis",
+      "Reactive arthritis (ReA)"
+    ],
+    "after_stage2_more_likely": [
+      "Psoriasis",
+      "Psoriatic arthritis"
+    ],
+    "after_stage2_less_likely": [
+      "Atopic dermatitis",
+      "Contact dermatitis",
+      "Rheumatoid arthritis"
+    ],
+    "after_labs_top3": [
+      "Psoriasis",
+      "Psoriatic arthritis",
+      "Lichen planus"
+    ]
+  }
+}

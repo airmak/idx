@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_124",
+  "mode": "step1",
+  "specialty": "Nephrology",
+  "diagnosis": "Renal cell carcinoma",
+  "icd_category": "C64 — Malignant neoplasm of kidney, except renal pelvis",
+  "one_liner": "A 62-year-old man with a 40-pack-year smoking history presents with three months of intermittent painless gross hematuria, dull right flank pain, and a 15-pound unintentional weight loss.",
+  "stage2": {
+    "hpi_extension": "He describes 'tea-colored' urine on and off for about three months, which he initially ignored. Over the past month, he has noted a persistent dull ache in the right flank and early satiety. He has felt increasingly fatigued and has drenching night sweats. His wife noted a lump on the right side of his abdomen last week. He also reports a new scrotal heaviness on the left side that does not decompress when he lies down.",
+    "pmh": "Hypertension, hypercholesterolemia",
+    "surgical_history": "Appendectomy at age 14",
+    "medications": "Lisinopril, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "Father died of 'lung trouble' at 70. No known kidney disease.",
+    "social_history": "Works as a boilermaker. 40-pack-year smoker, still smoking. Drinks 2 beers nightly.",
+    "vitals": {
+      "temp": "37.2°C",
+      "hr": "92 bpm",
+      "bp": "168/96 mmHg",
+      "rr": "16",
+      "spo2": "97% on room air"
+    },
+    "physical_exam": "General: thin, pale man appearing older than stated age. Abdomen: **palpable firm mass in the right flank** that does not cross midline; mild tenderness to deep palpation. Genitourinary: **non-reducible left-sided varicocele that does not empty in the supine position**. Skin: no rashes. Extremities: no edema. Lymph nodes: no cervical or supraclavicular adenopathy."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "**Gross hematuria** with >100 RBCs/hpf. No RBC casts. No dysmorphic RBCs. Protein trace. No pyuria, no nitrites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Non-glomerular hematuria in an older smoker is highly concerning for urologic malignancy (renal or bladder) and mandates imaging and cystoscopy."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Creatinine 1.1 mg/dL (normal). **Calcium 11.6 mg/dL (elevated)**. Albumin normal. LFTs mildly elevated (alk phos 180, ALT 55). Glucose normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Hypercalcemia in the absence of bone metastases suggests paraneoplastic PTHrP secretion**, a classic finding in renal cell carcinoma. Elevated alk phos raises concern for liver or bone involvement (Stauffer syndrome is a nonmetastatic paraneoplastic hepatic dysfunction)."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "CT abdomen/pelvis with IV contrast: **5.8 cm heterogeneously enhancing solid mass arising from the upper pole of the right kidney**, with **tumor thrombus extending into the right renal vein and IVC**. Several enlarged retroperitoneal lymph nodes. No bony lesions.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "An enhancing solid renal mass with renal vein/IVC invasion is diagnostic of **renal cell carcinoma** until proven otherwise. IVC tumor thrombus is a hallmark of RCC's propensity for venous extension."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Urinalysis"
+    ],
+    "acceptable_tests": [
+      "Comprehensive metabolic panel",
+      "CBC with peripheral smear",
+      "Histopathology / biopsy"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "EKG / cardiac monitoring",
+      "Hormone / endocrine assay",
+      "Microbiology / Gram stain / cultures",
+      "Serologic / antibody studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "CBC reveals hemoglobin of 18.2 g/dL (**polycythemia**). He undergoes radical right nephrectomy with IVC thrombectomy. Pathology: **clear cell renal cell carcinoma** arising from proximal tubular epithelium, Fuhrman grade 3, with renal vein invasion."
+  },
+  "debrief": {
+    "classic_presentation": "Renal cell carcinoma classically presents in men 50-70 years old, often smokers, with the **classic triad of hematuria, flank pain, and a palpable flank mass** — though this complete triad is seen in only about 10% of patients and usually indicates advanced disease. Constitutional symptoms (weight loss, fever, night sweats) are common. A **left-sided varicocele that does not decompress in the supine position** suggests obstruction of the left gonadal vein where it drains into the left renal vein by tumor thrombus. Paraneoplastic syndromes are a hallmark: **EPO → polycythemia, PTHrP → hypercalcemia, renin → hypertension, and ACTH → Cushing syndrome**. Stauffer syndrome is nonmetastatic hepatic dysfunction that resolves with tumor resection.",
+    "attending_mode_notes": null,
+    "pathophysiology": "RCC arises from the **proximal convoluted tubule epithelium**. The most common histologic subtype is **clear cell carcinoma**, driven by inactivation of the **VHL tumor suppressor gene** on chromosome 3p, which leads to constitutive stabilization of HIF and overproduction of VEGF, PDGF, and EPO. RCC is a tumor of fat-laden epithelial cells that spreads hematogenously, characteristically **invading the renal vein and ascending the IVC** to the right atrium. Common metastatic sites are lung ('cannonball' metastases) and bone. Risk factors: smoking, obesity, hypertension, acquired cystic disease on dialysis, and **Von Hippel-Lindau disease** (bilateral RCCs, pheochromocytoma, retinal/cerebellar hemangioblastomas).",
+    "treatment_overview": "Localized disease: **partial or radical nephrectomy** is curative. Locally advanced disease with IVC thrombus: radical nephrectomy with thrombectomy. Metastatic disease: RCC is classically chemotherapy- and radiation-resistant. **Targeted therapies (sunitinib, sorafenib, pazopanib — VEGF tyrosine kinase inhibitors)** and mTOR inhibitors (temsirolimus, everolimus) are used, as are checkpoint inhibitors (nivolumab, pembrolizumab). High-dose IL-2 was historically used in select fit patients.",
+    "high_yield_pearls": [
+      "Classic triad of RCC = **hematuria + flank pain + flank mass**; present in only ~10% and usually indicates advanced disease.",
+      "**Clear cell** is the most common subtype, arising from proximal tubular epithelium; associated with **VHL gene** loss on chromosome 3p.",
+      "**Left-sided varicocele** that fails to decompress when lying down suggests left renal vein obstruction by tumor thrombus.",
+      "Paraneoplastic syndromes: **EPO (polycythemia), PTHrP (hypercalcemia), renin (HTN), ACTH (Cushing)**. Stauffer syndrome = reversible hepatic dysfunction without liver metastases.",
+      "RCC invades the **renal vein and IVC** and classically metastasizes to **lung ('cannonball' mets) and bone**; it is chemo- and radiation-resistant, so resection is key."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Renal cell carcinoma' section.",
+      "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Renal cyst disorders — Von Hippel-Lindau disease' (association with clear cell RCC)."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Polycystic kidney disease (ADPKD)",
+      "Pyelonephritis",
+      "Immunoglobulin A (IgA) nephropathy",
+      "Wilms tumor (nephroblastoma)"
+    ],
+    "after_stage2_more_likely": [
+      "Renal cell carcinoma",
+      "Bladder cancer"
+    ],
+    "after_stage2_less_likely": [
+      "Pyelonephritis",
+      "Nephrolithiasis — Calcium Oxalate Stone",
+      "Immunoglobulin A (IgA) nephropathy"
+    ],
+    "after_labs_top3": [
+      "Renal cell carcinoma",
+      "Bladder cancer",
+      "Polycystic kidney disease (ADPKD)"
+    ]
+  }
+}

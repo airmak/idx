@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_130",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Type 2 diabetes mellitus",
+  "icd_category": "E11 — Type 2 diabetes mellitus",
+  "one_liner": "A 54-year-old obese man presents to his primary care physician for a routine checkup. He reports increased thirst, frequent urination at night, and blurry vision over the past several months.",
+  "stage2": {
+    "hpi_extension": "For the past 4-5 months he has noticed **polyuria, polydipsia, and nocturia** (waking up 2-3 times nightly to urinate). He has also developed **blurry vision** that fluctuates during the day. He has gained about 15 pounds over the last 2 years and admits to a sedentary lifestyle with frequent fast food meals. He denies fevers, abdominal pain, nausea, or vomiting. He has not seen a physician in 5 years.",
+    "pmh": "Hypertension, hyperlipidemia, obesity",
+    "surgical_history": "Appendectomy in childhood",
+    "medications": "Lisinopril, atorvastatin",
+    "allergies": "NKDA",
+    "family_history": "**Both parents with type 2 diabetes**; mother on insulin. Older brother with diabetes and a below-knee amputation.",
+    "social_history": "Works as a long-haul truck driver. Drinks 2-3 sodas per day. Non-smoker. Occasional beer on weekends.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "84 bpm",
+      "bp": "148/92 mmHg",
+      "rr": "14",
+      "spo2": "98% on room air"
+    },
+    "physical_exam": "General: **obese middle-aged man** (BMI 34). HEENT: fundoscopy shows a few microaneurysms. Neck: **velvety hyperpigmentation in the posterior neck (acanthosis nigricans)**. Cardiovascular: regular rate and rhythm, no murmurs. Abdomen: large, soft, non-tender, central adiposity. Extremities: mildly decreased vibration sense at the great toes bilaterally; dorsalis pedis pulses intact; no ulcers."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "**Fasting plasma glucose 212 mg/dL** (repeated on a second day: 198 mg/dL). Sodium 138, potassium 4.2, bicarbonate 24, creatinine 1.1, BUN 16. ALT/AST within normal limits.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Fasting plasma glucose >=126 mg/dL on two separate occasions** meets diagnostic criteria for diabetes mellitus. The absence of ketoacidosis and a normal anion gap argue against DKA."
+      },
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**HbA1c 8.4%**. Fasting C-peptide elevated. Anti-GAD and anti-islet antibodies negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**HbA1c >=6.5%** confirms diabetes. An **elevated C-peptide** indicates endogenous insulin production (insulin resistance rather than deficiency), and negative autoantibodies argue against type 1 diabetes."
+      },
+      {
+        "test_name": "Urinalysis",
+        "result": "Glucose 3+, ketones negative, protein trace, nitrites negative, leukocyte esterase negative. **Microalbuminuria** detected on spot albumin/creatinine ratio.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Glucosuria occurs once plasma glucose exceeds the renal threshold (~180 mg/dL). Microalbuminuria is the earliest sign of **diabetic nephropathy** and warrants ACE inhibitor therapy."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Comprehensive metabolic panel",
+      "Hormone / endocrine assay"
+    ],
+    "acceptable_tests": [
+      "Urinalysis"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He is started on **metformin** and counseled on diet and exercise. At 3-month follow-up, his HbA1c has improved to 7.2% and he has lost 8 pounds. An SGLT2 inhibitor is added for additional glycemic and cardiovascular benefit."
+  },
+  "debrief": {
+    "classic_presentation": "Type 2 diabetes classically presents in middle-aged to older, **obese** adults with a strong family history. Patients may be asymptomatic and diagnosed on screening, or present with the classic triad of **polyuria, polydipsia, and polyphagia** along with **blurry vision** (from osmotic swelling of the lens), fatigue, and recurrent infections. **Acanthosis nigricans** and skin tags are cutaneous markers of insulin resistance. Unlike type 1 DM, DKA is uncommon at presentation; patients instead may develop **hyperosmolar hyperglycemic state (HHS)**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Type 2 DM is driven by **peripheral insulin resistance** (skeletal muscle, liver, adipose tissue) combined with **relative insulin deficiency** from progressive beta-cell dysfunction. There is no autoimmune destruction of islet cells. Hepatic gluconeogenesis is unsuppressed, fatty acid flux is increased, and inflammatory cytokines from visceral adipose tissue worsen insulin signaling. Strong genetic/heritability component (stronger than type 1). Chronic hyperglycemia drives microvascular complications (retinopathy, nephropathy, neuropathy) and macrovascular disease (CAD, stroke, PAD) through advanced glycation end-products and oxidative stress.",
+    "treatment_overview": "**Lifestyle modification (weight loss, diet, exercise)** is first-line. **Metformin** is the first-line pharmacologic agent — it decreases hepatic gluconeogenesis, has no hypoglycemia risk, and promotes modest weight loss. Add-on agents: **GLP-1 receptor agonists** (weight loss, CV benefit), **SGLT2 inhibitors** (CV and renal benefit), DPP-4 inhibitors, sulfonylureas, thiazolidinediones, and finally insulin. Target HbA1c is typically <7%. Screen annually for retinopathy, nephropathy (urine albumin/creatinine), and diabetic foot exam.",
+    "high_yield_pearls": [
+      "Diagnostic criteria (any one): **HbA1c >=6.5%**, fasting glucose >=126 mg/dL, random glucose >=200 with symptoms, or 2-hour OGTT >=200 mg/dL — confirmed on a second occasion.",
+      "**Metformin** is first-line; its main adverse effect is GI upset and the rare but feared **lactic acidosis** (avoid if GFR <30).",
+      "Type 2 DM is strongly associated with **obesity and acanthosis nigricans**; unlike type 1, C-peptide is elevated or normal and autoantibodies are absent.",
+      "Microvascular complications (retinopathy, nephropathy, neuropathy) correlate with glycemic control; macrovascular disease (MI, stroke) is the leading cause of death.",
+      "**HHS** (glucose >600, high osmolality, minimal ketones, altered mental status) is the hyperglycemic crisis typical of type 2 DM, versus DKA in type 1 DM."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes mellitus' section.",
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Diabetes drugs — Metformin' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus",
+      "Diabetic ketoacidosis (DKA)",
+      "Hyperosmolar hyperglycemic state (HHS)",
+      "Cushing syndrome",
+      "Hyperthyroidism",
+      "DI (central diabetes insipidus)"
+    ],
+    "after_stage2_more_likely": [
+      "Type 2 diabetes mellitus",
+      "Cushing syndrome"
+    ],
+    "after_stage2_less_likely": [
+      "Type 1 diabetes mellitus",
+      "DI (central diabetes insipidus)",
+      "Hyperthyroidism"
+    ],
+    "after_labs_top3": [
+      "Type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus",
+      "Cushing syndrome"
+    ]
+  }
+}

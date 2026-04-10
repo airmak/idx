@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_092",
+  "mode": "step1",
+  "specialty": "Cardiology",
+  "diagnosis": "Pulmonary hypertension",
+  "icd_category": "I27.0 — Primary pulmonary hypertension",
+  "one_liner": "A 32-year-old woman presents with 9 months of progressive dyspnea on exertion, fatigue, and one episode of exertional syncope while climbing stairs at work.",
+  "stage2": {
+    "hpi_extension": "She describes progressive breathlessness that now limits her to half a block of walking. She has noted lower extremity swelling and one syncopal episode during exertion. She denies chest pain, fever, cough, or hemoptysis. No history of VTE, connective tissue disease, HIV, or anorexigen use. No family history of heart or lung disease. She has no risk factors for left heart disease.",
+    "pmh": "Previously healthy. No oral contraceptive use.",
+    "surgical_history": "None",
+    "medications": "None",
+    "allergies": "NKDA",
+    "family_history": "Noncontributory; no known heritable PAH",
+    "social_history": "Non-smoker. No illicit drugs. Works as a graphic designer.",
+    "vitals": {
+      "temp": "36.8 C",
+      "hr": "102 bpm",
+      "bp": "106/72 mmHg",
+      "rr": "22",
+      "spo2": "90% on room air"
+    },
+    "physical_exam": "General: thin woman, mildly tachypneic. Neck: **elevated JVP with prominent a waves**. Cardiac: **left parasternal (RV) heave**, **loud and palpable P2**, **right-sided S4**, a holosystolic murmur at the left lower sternal border that increases with inspiration (**tricuspid regurgitation, Carvallo sign**). Pulmonary: clear to auscultation. Abdomen: **pulsatile hepatomegaly**. Extremities: **2+ bilateral pitting pedal edema**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Imaging study",
+        "result": "Transthoracic echocardiogram: **dilated and hypertrophied right ventricle with reduced systolic function (TAPSE 14 mm)**. Flattening of the interventricular septum in systole (**D-shaped LV**). **Estimated pulmonary artery systolic pressure 72 mmHg**. Normal LV size and EF. No left-sided valvular disease. Chest x-ray: enlarged central pulmonary arteries with peripheral pruning, enlarged right heart border.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RV dilation/hypertrophy with elevated estimated PASP and no left heart disease strongly suggests pre-capillary pulmonary hypertension."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Right heart catheterization**: **mean pulmonary artery pressure 38 mmHg** (normal <20), **pulmonary capillary wedge pressure 9 mmHg** (normal), **pulmonary vascular resistance 8 Wood units** (elevated). Positive response to inhaled nitric oxide vasodilator challenge.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "mPAP >=25 mmHg with normal wedge pressure defines **pre-capillary pulmonary arterial hypertension (PAH)**, WHO Group 1. A positive vasoreactive response predicts benefit from calcium channel blockers."
+      },
+      {
+        "test_name": "EKG / cardiac monitoring",
+        "result": "Sinus tachycardia. **Right axis deviation**, **right ventricular hypertrophy with strain pattern (T-wave inversions V1-V4)**, **right atrial enlargement (P pulmonale)**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "RVH, right axis deviation, and P pulmonale reflect chronic pressure overload of the right heart from pulmonary hypertension."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Imaging study",
+      "Functional / provocative testing",
+      "EKG / cardiac monitoring"
+    ],
+    "acceptable_tests": [
+      "Serologic / antibody studies"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Urinalysis",
+      "Genetic / molecular testing"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A BMPR2 mutation workup is negative; she is started on an endothelin receptor antagonist and a PDE5 inhibitor, with improvement in her 6-minute walk distance."
+  },
+  "debrief": {
+    "classic_presentation": "Pulmonary hypertension classically presents in young women with insidious, progressive dyspnea on exertion, fatigue, exertional syncope, and signs of right heart failure (JVD, peripheral edema, hepatomegaly). Exam reveals **loud P2, RV heave, right-sided S4, tricuspid regurgitation murmur, and elevated JVP**. Idiopathic pulmonary arterial hypertension (iPAH) is 2-3x more common in women, typically diagnosed in the 30s-40s.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Pulmonary arterial hypertension is defined hemodynamically as mean pulmonary artery pressure (mPAP) >=25 mmHg with pulmonary capillary wedge pressure <=15 mmHg (pre-capillary). Pulmonary arteriolar smooth muscle hyperplasia, intimal fibrosis, and plexiform lesions cause progressive narrowing and elevated pulmonary vascular resistance. The right ventricle hypertrophies and eventually dilates and fails (cor pulmonale). Idiopathic PAH is associated with inactivating mutations in **BMPR2**.",
+    "treatment_overview": "Therapy targets the three dysregulated vascular pathways: **endothelin receptor antagonists (bosentan, ambrisentan)** for the endothelin pathway, **PDE5 inhibitors (sildenafil, tadalafil)** to enhance the NO/cGMP pathway, and **prostacyclin analogs (epoprostenol, treprostinil, iloprost)** for the prostacyclin pathway. Calcium channel blockers are reserved for the minority of patients with a positive vasoreactive response. Supportive care includes diuretics, supplemental O2, and anticoagulation in select patients. Lung transplantation is an option for refractory disease.",
+    "high_yield_pearls": [
+      "PAH is defined by mPAP >=25 mmHg on right heart catheterization with normal wedge pressure (pre-capillary).",
+      "Idiopathic PAH is most common in young women and is associated with BMPR2 mutations.",
+      "Classic exam: loud P2, RV heave, JVD, tricuspid regurgitation murmur, peripheral edema.",
+      "Three drug classes for PAH target three pathways: endothelin (bosentan), NO/cGMP (sildenafil), prostacyclin (epoprostenol).",
+      "WHO groups: 1 = PAH, 2 = left heart disease, 3 = lung disease/hypoxia, 4 = chronic thromboembolic, 5 = multifactorial."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Pulmonary hypertension' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Pulmonary hypertension",
+      "Pulmonary embolism (PE)",
+      "Heart failure (systolic)",
+      "Heart failure (diastolic)",
+      "Mitral stenosis",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Idiopathic pulmonary fibrosis",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_stage2_more_likely": [
+      "Pulmonary hypertension",
+      "Pulmonary embolism (PE)",
+      "Mitral stenosis"
+    ],
+    "after_stage2_less_likely": [
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Heart failure (diastolic)",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_labs_top3": [
+      "Pulmonary hypertension",
+      "Pulmonary embolism (PE)",
+      "Idiopathic pulmonary fibrosis"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "step1_133",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Acromegaly",
+  "icd_category": "E22.0 — Acromegaly and pituitary gigantism",
+  "one_liner": "A 46-year-old man presents to his primary care physician because his wedding ring no longer fits and his shoe size has gone up three sizes over the last few years.",
+  "stage2": {
+    "hpi_extension": "Over the past 4-5 years he has noticed **enlargement of his hands, feet, and jaw**. His coworkers have commented that his facial features look 'coarser' compared to photos from a decade ago. He reports **deep headaches**, **excessive sweating**, snoring that now meets criteria for **obstructive sleep apnea**, and **tingling in both hands** consistent with carpal tunnel syndrome. He has also noticed his voice has deepened. He has had difficulty reading street signs on his peripheral vision while driving.",
+    "pmh": "Hypertension, new diagnosis of type 2 diabetes last year",
+    "surgical_history": "None",
+    "medications": "Lisinopril, metformin",
+    "allergies": "NKDA",
+    "family_history": "No known endocrine disorders",
+    "social_history": "Accountant, married. Non-smoker, occasional wine.",
+    "vitals": {
+      "temp": "36.8°C",
+      "hr": "80 bpm",
+      "bp": "152/94 mmHg",
+      "rr": "14",
+      "spo2": "96% on room air"
+    },
+    "physical_exam": "General: well-built man with **coarse facial features**. HEENT: **frontal bossing, enlarged nose and lips, prognathism** with an increased inter-dental space, **macroglossia**. Eyes: **bitemporal hemianopsia** on confrontation visual field testing. Neck: no goiter. Hands: **large, thick, 'spade-like' hands** with doughy soft tissue; positive Tinel sign bilaterally at the wrists. Cardiovascular: S4 gallop, no murmur. Skin: **diaphoretic, oily, with skin tags**."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Hormone / endocrine assay",
+        "result": "**IGF-1 (somatomedin C) markedly elevated** (4x upper limit of normal). Random GH elevated. Prolactin mildly elevated. TSH, free T4, ACTH within normal limits.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "**Elevated IGF-1** is the best screening test for acromegaly because it reflects integrated GH exposure and avoids the pulsatile variability of random GH levels."
+      },
+      {
+        "test_name": "Functional / provocative testing",
+        "result": "**Oral glucose tolerance test (OGTT)**: after 75 g oral glucose load, **GH fails to suppress below 1 ng/mL**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Normally a glucose load suppresses GH. **Failure to suppress GH on OGTT** is the gold-standard confirmatory test for acromegaly."
+      },
+      {
+        "test_name": "Imaging study",
+        "result": "**MRI of the sella with gadolinium**: a **1.4 cm enhancing pituitary macroadenoma** is seen, with upward extension and **compression of the optic chiasm**.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "A pituitary macroadenoma compressing the optic chiasm accounts for both the hormonal excess and the bitemporal hemianopsia. MRI localizes the tumor for transsphenoidal resection."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Hormone / endocrine assay",
+      "Functional / provocative testing"
+    ],
+    "acceptable_tests": [
+      "Imaging study"
+    ],
+    "low_yield_tests": [
+      "CSF analysis (lumbar puncture)",
+      "Microbiology / Gram stain / cultures",
+      "Histopathology / biopsy",
+      "Urinalysis",
+      "EKG / cardiac monitoring"
+    ]
+  },
+  "stage5": {
+    "final_clue": "He undergoes **transsphenoidal resection** of the pituitary adenoma with improvement in headaches and visual fields. Postoperative IGF-1 remains mildly elevated, and he is started on **octreotide** (somatostatin analog) to normalize GH secretion."
+  },
+  "debrief": {
+    "classic_presentation": "Acromegaly presents insidiously over years in adults with **coarsening of facial features, enlargement of the hands and feet (increasing ring/shoe size), frontal bossing, prognathism (jaw protrusion), widened inter-dental spaces, macroglossia, and a deepening voice**. Associated features include **hypertension, insulin resistance/diabetes, cardiomyopathy, obstructive sleep apnea, carpal tunnel syndrome, skin tags, and arthralgias**. Optic chiasm compression from a pituitary macroadenoma causes **bitemporal hemianopsia**. In children, before closure of the epiphyseal plates, GH excess causes **gigantism**.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acromegaly is almost always caused by a **benign GH-secreting pituitary adenoma** arising from somatotrophs of the anterior pituitary. Excess GH stimulates hepatic production of **IGF-1 (somatomedin C)**, which mediates most of the anabolic and growth-promoting effects on bone, soft tissue, and viscera. GH itself also directly antagonizes insulin action, producing hyperglycemia. Cardiovascular complications (cardiomyopathy, hypertension) and an increased risk of **colonic polyps and colorectal cancer** make untreated acromegaly a source of significant mortality.",
+    "treatment_overview": "**Transsphenoidal surgical resection** of the pituitary adenoma is first-line therapy. Adjunctive medical therapies include **octreotide/lanreotide (somatostatin analogs)**, **cabergoline (dopamine agonist)**, and **pegvisomant (a GH receptor antagonist)**. Stereotactic radiotherapy is reserved for residual or recurrent disease. Remission is assessed by normalization of IGF-1 and suppression of GH on OGTT.",
+    "high_yield_pearls": [
+      "Best initial test = **serum IGF-1**; confirmatory test = **failure of GH to suppress after oral glucose load (OGTT)**.",
+      "Acromegaly in adults = coarse features, enlarging hands/feet, prognathism, macroglossia; in children (before epiphyseal closure) = **gigantism**.",
+      "Pituitary macroadenomas can compress the optic chiasm and cause **bitemporal hemianopsia**.",
+      "Increased risk of **colorectal polyps and colon cancer** — screening colonoscopy is recommended.",
+      "Treatment ladder: **transsphenoidal surgery → octreotide/pegvisomant → radiotherapy**."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Acromegaly' section.",
+      "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Growth hormone / Somatostatin analogs' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acromegaly",
+      "Pituitary adenoma",
+      "Cushing disease (pituitary ACTH excess)",
+      "Hypothyroidism",
+      "Carpal tunnel syndrome",
+      "Paget disease of bone",
+      "Obstructive sleep apnea"
+    ],
+    "after_stage2_more_likely": [
+      "Acromegaly",
+      "Pituitary adenoma"
+    ],
+    "after_stage2_less_likely": [
+      "Hypothyroidism",
+      "Carpal tunnel syndrome",
+      "Obstructive sleep apnea"
+    ],
+    "after_labs_top3": [
+      "Acromegaly",
+      "Pituitary adenoma",
+      "Paget disease of bone"
+    ]
+  }
+}
