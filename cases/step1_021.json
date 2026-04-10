@@ -20,25 +20,25 @@
       "rr": "26",
       "spo2": "90% on room air"
     },
-    "physical_exam": "General: anxious, diaphoretic, in moderate distress. Pulmonary: tachypneic, lungs clear to auscultation bilaterally with no wheezes; **right-sided pleural friction rub** at the base. Cardiac: **tachycardia with a loud P2**, no murmurs. Extremities: **right calf swollen (3 cm larger than left), tender, warm, with a positive Homans sign**. No cyanosis. JVD mildly elevated."
+    "physical_exam": "General: anxious, diaphoretic, in moderate distress. Pulmonary: tachypneic, lungs clear to auscultation bilaterally with no wheezes; right-sided pleural friction rub at the base. Cardiac: tachycardia with a loud P2, no murmurs. Extremities: right calf swollen (3 cm larger than left), tender, warm, with a positive Homans sign. No cyanosis. JVD mildly elevated."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "CT pulmonary angiogram: **filling defect in the right lower lobe segmental pulmonary artery** with a **wedge-shaped peripheral infarct (Hampton hump)**. Lower-extremity Doppler: **non-compressible right popliteal vein with echogenic intraluminal thrombus** consistent with DVT. CXR on arrival showed a subtle **Westermark sign (oligemia)** and elevated right hemidiaphragm.",
+        "result": "CT pulmonary angiogram: filling defect in the right lower lobe segmental pulmonary artery with a wedge-shaped peripheral infarct (Hampton hump). Lower-extremity Doppler: non-compressible right popliteal vein with echogenic intraluminal thrombus consistent with DVT. CXR on arrival showed a subtle Westermark sign (oligemia) and elevated right hemidiaphragm.",
         "flag": "ABNORMAL",
         "clinical_significance": "CTPA is the gold standard for diagnosing PE. A segmental filling defect confirms the diagnosis. Hampton hump (peripheral wedge-shaped opacity) and Westermark sign (regional oligemia) are classic but insensitive CXR findings."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus tachycardia at 118 bpm, **S1Q3T3 pattern** with T-wave inversions in V1–V4 (right heart strain). No ST elevation.",
+        "result": "Sinus tachycardia at 118 bpm, S1Q3T3 pattern with T-wave inversions in V1–V4 (right heart strain). No ST elevation.",
         "flag": "ABNORMAL",
         "clinical_significance": "S1Q3T3 is the classic but uncommon (~20%) EKG finding in PE reflecting acute right ventricular strain. Sinus tachycardia is the most common finding."
       },
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**D-dimer markedly elevated at 4,800 ng/mL** (normal <500). Troponin I mildly elevated (0.08 ng/mL). BNP elevated.",
+        "result": "D-dimer markedly elevated at 4,800 ng/mL (normal <500). Troponin I mildly elevated (0.08 ng/mL). BNP elevated.",
         "flag": "HIGH",
         "clinical_significance": "D-dimer has high sensitivity but low specificity for PE — it rules out PE in low-probability patients but requires imaging confirmation in high-probability patients. Elevated troponin and BNP indicate RV strain and are prognostic markers."
       }

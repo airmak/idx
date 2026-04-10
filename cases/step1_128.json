@@ -7,7 +7,7 @@
   "one_liner": "A 34-year-old woman with Sjögren syndrome presents with generalized fatigue, muscle weakness, and an episode of kidney stones. Labs show a non-anion gap metabolic acidosis with hypokalemia.",
   "stage2": {
     "hpi_extension": "She has had progressive fatigue and proximal muscle weakness over the last two months, with difficulty rising from a chair and lifting her arms to brush her hair. Last week she had acute left flank pain and passed a small 'white' kidney stone. She has longstanding dry eyes and dry mouth. She denies diarrhea, fistulas, or vomiting. No recent antibiotics. She has noted paresthesias in her fingers.",
-    "pmh": "**Sjögren syndrome** (diagnosed 2 years ago), prior kidney stones (one previous episode last year)",
+    "pmh": "Sjögren syndrome (diagnosed 2 years ago), prior kidney stones (one previous episode last year)",
     "surgical_history": "None",
     "medications": "Artificial tears, pilocarpine drops, hydroxychloroquine",
     "allergies": "NKDA",
@@ -20,27 +20,27 @@
       "rr": "22",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: tired-appearing, thin. HEENT: **dry mucous membranes, dry eyes**, enlarged parotid glands bilaterally. Cardiovascular: regular, no murmurs. Lungs: clear. Abdomen: soft, non-tender. Musculoskeletal: **symmetric proximal muscle weakness 4/5 in shoulders and hips**, normal distal strength. Neuro: DTRs 1+ diffusely, no focal deficits."
+    "physical_exam": "General: tired-appearing, thin. HEENT: dry mucous membranes, dry eyes, enlarged parotid glands bilaterally. Cardiovascular: regular, no murmurs. Lungs: clear. Abdomen: soft, non-tender. Musculoskeletal: symmetric proximal muscle weakness 4/5 in shoulders and hips, normal distal strength. Neuro: DTRs 1+ diffusely, no focal deficits."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Sodium 140, **potassium 2.7 (low)**, chloride 116 (high), **bicarbonate 15 (low)**. BUN 12, creatinine 0.9. **Anion gap = 140 - (116 + 15) = 9 (normal/non-anion gap)**. Calcium 9.6. Glucose 92.",
+        "result": "Sodium 140, potassium 2.7 (low), chloride 116 (high), bicarbonate 15 (low). BUN 12, creatinine 0.9. Anion gap = 140 - (116 + 15) = 9 (normal/non-anion gap). Calcium 9.6. Glucose 92.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Non-anion gap (hyperchloremic) metabolic acidosis with hypokalemia** narrows the differential to GI bicarbonate loss (diarrhea), renal tubular acidosis, or Addison disease. Absence of diarrhea and normal cortisol point toward RTA."
+        "clinical_significance": "Non-anion gap (hyperchloremic) metabolic acidosis with hypokalemia narrows the differential to GI bicarbonate loss (diarrhea), renal tubular acidosis, or Addison disease. Absence of diarrhea and normal cortisol point toward RTA."
       },
       {
         "test_name": "Urinalysis",
-        "result": "**Urine pH 6.8 (inappropriately alkaline given systemic acidosis)**. Specific gravity 1.012. Protein trace. Blood 1+. **Glucose negative, no aminoaciduria**. Calcium phosphate crystals present. No casts.",
+        "result": "Urine pH 6.8 (inappropriately alkaline given systemic acidosis). Specific gravity 1.012. Protein trace. Blood 1+. Glucose negative, no aminoaciduria. Calcium phosphate crystals present. No casts.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Urine pH >5.5 in the setting of systemic metabolic acidosis is diagnostic of distal (type 1) RTA** — the α-intercalated cells cannot secrete H+, so urine cannot be acidified below 5.5. Absence of glucosuria/aminoaciduria argues against proximal (type 2) RTA/Fanconi syndrome."
+        "clinical_significance": "Urine pH >5.5 in the setting of systemic metabolic acidosis is diagnostic of distal (type 1) RTA — the α-intercalated cells cannot secrete H+, so urine cannot be acidified below 5.5. Absence of glucosuria/aminoaciduria argues against proximal (type 2) RTA/Fanconi syndrome."
       },
       {
         "test_name": "Imaging study",
-        "result": "Non-contrast CT abdomen/pelvis: **bilateral nephrocalcinosis with multiple small calcium phosphate stones** in the collecting systems. No obstruction. Kidneys normal in size.",
+        "result": "Non-contrast CT abdomen/pelvis: bilateral nephrocalcinosis with multiple small calcium phosphate stones in the collecting systems. No obstruction. Kidneys normal in size.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Nephrocalcinosis and calcium phosphate stones** are classic for distal (type 1) RTA: alkaline urine plus hypercalciuria (from buffering bone acid load) and hypocitraturia promote calcium phosphate precipitation."
+        "clinical_significance": "Nephrocalcinosis and calcium phosphate stones are classic for distal (type 1) RTA: alkaline urine plus hypercalciuria (from buffering bone acid load) and hypocitraturia promote calcium phosphate precipitation."
       }
     ],
     "imaging_results": [],
@@ -61,19 +61,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "She is started on **oral sodium bicarbonate and potassium citrate replacement**. Within 48 hours her potassium normalizes, her muscle weakness resolves, and over weeks her bicarbonate returns to normal. Anti-SSA/SSB antibodies are positive, consistent with her known Sjögren syndrome as the cause of her distal RTA."
+    "final_clue": "She is started on oral sodium bicarbonate and potassium citrate replacement. Within 48 hours her potassium normalizes, her muscle weakness resolves, and over weeks her bicarbonate returns to normal. Anti-SSA/SSB antibodies are positive, consistent with her known Sjögren syndrome as the cause of her distal RTA."
   },
   "debrief": {
-    "classic_presentation": "**Distal (type 1) renal tubular acidosis** classically presents with a **non-anion gap (hyperchloremic) metabolic acidosis, hypokalemia, inappropriately alkaline urine (pH >5.5), nephrocalcinosis, and calcium phosphate kidney stones**. Patients develop muscle weakness from hypokalemia and bone pain/osteomalacia from chronic acidosis leaching calcium phosphate from bone. **Sjögren syndrome** is a classic autoimmune association; other causes include **amphotericin B, lithium, ifosfamide, SLE, and rheumatoid arthritis**, as well as inherited defects in the α-intercalated cell.",
+    "classic_presentation": "Distal (type 1) renal tubular acidosis classically presents with a non-anion gap (hyperchloremic) metabolic acidosis, hypokalemia, inappropriately alkaline urine (pH >5.5), nephrocalcinosis, and calcium phosphate kidney stones. Patients develop muscle weakness from hypokalemia and bone pain/osteomalacia from chronic acidosis leaching calcium phosphate from bone. Sjögren syndrome is a classic autoimmune association; other causes include amphotericin B, lithium, ifosfamide, SLE, and rheumatoid arthritis, as well as inherited defects in the α-intercalated cell.",
     "attending_mode_notes": null,
-    "pathophysiology": "Type 1 (distal) RTA results from a defect in **H+ secretion by α-intercalated cells of the cortical collecting duct**, typically due to a dysfunctional H+-ATPase or HCO3-/Cl- exchanger. Without the ability to pump H+ into the tubular lumen, the patient cannot acidify urine below pH 5.5 despite systemic acidosis. **Chronic acidosis mobilizes calcium from bone** (leading to osteomalacia/rickets) and **increases urinary calcium excretion**; alkaline urine plus hypocitraturia (citrate is reabsorbed in acidosis) promotes **calcium phosphate stone formation and nephrocalcinosis**. **Hypokalemia arises because aldosterone activity and decreased H+ secretion shift the balance toward K+ secretion**. Contrast with: **type 2 (proximal) RTA** — defect in HCO3- reabsorption in the proximal tubule, urine pH initially <5.5, associated with **Fanconi syndrome** (glucosuria, aminoaciduria, phosphaturia); **type 4 RTA** — hypoaldosteronism, **hyperkalemia**, mild acidosis, diabetes mellitus being the most common cause.",
-    "treatment_overview": "**Oral alkali replacement with sodium bicarbonate or potassium citrate** corrects the acidosis and reduces stone formation. **Potassium supplementation** is required because alkali therapy can worsen hypokalemia by driving K+ intracellularly. Treatment of the underlying cause (discontinuing offending drug, managing autoimmune disease) is essential. Long-term therapy prevents nephrocalcinosis, kidney stones, and metabolic bone disease.",
+    "pathophysiology": "Type 1 (distal) RTA results from a defect in H+ secretion by α-intercalated cells of the cortical collecting duct, typically due to a dysfunctional H+-ATPase or HCO3-/Cl- exchanger. Without the ability to pump H+ into the tubular lumen, the patient cannot acidify urine below pH 5.5 despite systemic acidosis. Chronic acidosis mobilizes calcium from bone (leading to osteomalacia/rickets) and increases urinary calcium excretion; alkaline urine plus hypocitraturia (citrate is reabsorbed in acidosis) promotes calcium phosphate stone formation and nephrocalcinosis. Hypokalemia arises because aldosterone activity and decreased H+ secretion shift the balance toward K+ secretion. Contrast with: type 2 (proximal) RTA — defect in HCO3- reabsorption in the proximal tubule, urine pH initially <5.5, associated with Fanconi syndrome (glucosuria, aminoaciduria, phosphaturia); type 4 RTA — hypoaldosteronism, hyperkalemia, mild acidosis, diabetes mellitus being the most common cause.",
+    "treatment_overview": "Oral alkali replacement with sodium bicarbonate or potassium citrate corrects the acidosis and reduces stone formation. Potassium supplementation is required because alkali therapy can worsen hypokalemia by driving K+ intracellularly. Treatment of the underlying cause (discontinuing offending drug, managing autoimmune disease) is essential. Long-term therapy prevents nephrocalcinosis, kidney stones, and metabolic bone disease.",
     "high_yield_pearls": [
-      "**Type 1 (distal) RTA: non-anion gap metabolic acidosis + hypokalemia + urine pH >5.5 + calcium phosphate stones/nephrocalcinosis**.",
-      "Defect = **α-intercalated cell** inability to secrete H+. Causes: **amphotericin B, lithium, Sjögren syndrome, SLE, rheumatoid arthritis**, inherited.",
-      "Type 2 (proximal) RTA: defective HCO3- reabsorption, often part of **Fanconi syndrome** (glucosuria, aminoaciduria); urine pH initially <5.5. Causes include **multiple myeloma, tenofovir, acetazolamide, Wilson disease**.",
-      "**Type 4 RTA: hypoaldosteronism with hyperkalemia** and mild non-anion gap acidosis; most common cause is **diabetic hyporeninemic hypoaldosteronism**.",
-      "Treat distal RTA with **oral bicarbonate (or potassium citrate) plus potassium replacement**; correcting acidosis and K+ prevents stones and bone disease."
+      "Type 1 (distal) RTA: non-anion gap metabolic acidosis + hypokalemia + urine pH >5.5 + calcium phosphate stones/nephrocalcinosis.",
+      "Defect = α-intercalated cell inability to secrete H+. Causes: amphotericin B, lithium, Sjögren syndrome, SLE, rheumatoid arthritis, inherited.",
+      "Type 2 (proximal) RTA: defective HCO3- reabsorption, often part of Fanconi syndrome (glucosuria, aminoaciduria); urine pH initially <5.5. Causes include multiple myeloma, tenofovir, acetazolamide, Wilson disease.",
+      "Type 4 RTA: hypoaldosteronism with hyperkalemia and mild non-anion gap acidosis; most common cause is diabetic hyporeninemic hypoaldosteronism.",
+      "Treat distal RTA with oral bicarbonate (or potassium citrate) plus potassium replacement; correcting acidosis and K+ prevents stones and bone disease."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Renal chapter, 'Renal tubular acidosis' section (types 1, 2, and 4).",

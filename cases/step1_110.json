@@ -6,7 +6,7 @@
   "icd_category": "J90 — Pleural effusion, not elsewhere classified",
   "one_liner": "A 72-year-old woman with long-standing heart failure presents with 2 weeks of progressive dyspnea on exertion, orthopnea, and a dry cough, found to have a right-sided pleural effusion on chest X-ray.",
   "stage2": {
-    "hpi_extension": "She has had slowly worsening shortness of breath over 2 weeks, now breathless with minimal activity. She sleeps propped up on 3 pillows and wakes at night gasping for air (**paroxysmal nocturnal dyspnea**). She denies fever, chills, hemoptysis, or pleuritic chest pain. She admits to dietary indiscretion at a recent family gathering (large salty meals) and has gained 6 pounds in 10 days. Her home furosemide dose has been unchanged.",
+    "hpi_extension": "She has had slowly worsening shortness of breath over 2 weeks, now breathless with minimal activity. She sleeps propped up on 3 pillows and wakes at night gasping for air (paroxysmal nocturnal dyspnea). She denies fever, chills, hemoptysis, or pleuritic chest pain. She admits to dietary indiscretion at a recent family gathering (large salty meals) and has gained 6 pounds in 10 days. Her home furosemide dose has been unchanged.",
     "pmh": "Chronic systolic heart failure (EF 30%), hypertension, atrial fibrillation, prior anterior MI, type 2 diabetes",
     "surgical_history": "Coronary artery bypass grafting 8 years ago",
     "medications": "Furosemide, carvedilol, lisinopril, apixaban, metformin, atorvastatin",
@@ -20,25 +20,25 @@
       "rr": "22",
       "spo2": "92% on room air"
     },
-    "physical_exam": "General: mildly distressed, sitting upright. HEENT: **JVD elevated to 10 cm**. Lungs: **dullness to percussion at the right base**, **decreased breath sounds over the right lower lung field**, and **decreased tactile fremitus** in that area. Bibasilar crackles higher up. Cardiac: irregularly irregular, **S3 gallop**, soft mitral regurgitation murmur. Abdomen: mild hepatomegaly. Extremities: **bilateral 2+ pitting edema** to the mid-shins."
+    "physical_exam": "General: mildly distressed, sitting upright. HEENT: JVD elevated to 10 cm. Lungs: dullness to percussion at the right base, decreased breath sounds over the right lower lung field, and decreased tactile fremitus in that area. Bibasilar crackles higher up. Cardiac: irregularly irregular, S3 gallop, soft mitral regurgitation murmur. Abdomen: mild hepatomegaly. Extremities: bilateral 2+ pitting edema to the mid-shins."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Chest X-ray: **moderate right pleural effusion** with blunting of the costophrenic angle and a meniscus sign, small left effusion, **cardiomegaly**, **Kerley B lines**, and cephalization of pulmonary vessels. Bedside ultrasound confirms free-flowing anechoic fluid in the right hemithorax.",
+        "result": "Chest X-ray: moderate right pleural effusion with blunting of the costophrenic angle and a meniscus sign, small left effusion, cardiomegaly, Kerley B lines, and cephalization of pulmonary vessels. Bedside ultrasound confirms free-flowing anechoic fluid in the right hemithorax.",
         "flag": "ABNORMAL",
         "clinical_significance": "Bilateral (right greater than left) effusions with cardiomegaly and pulmonary vascular congestion strongly suggest a cardiogenic transudative effusion."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Diagnostic thoracentesis**: straw-colored fluid. **Pleural protein 1.8 g/dL**, pleural LDH 95 U/L. Serum protein 6.8 g/dL, serum LDH 210 U/L. **Pleural/serum protein = 0.26** (< 0.5), **pleural/serum LDH = 0.45** (< 0.6), **pleural LDH 95** (< 2/3 of serum upper limit of normal). **BNP 1,850 pg/mL**, creatinine 1.2.",
+        "result": "Diagnostic thoracentesis: straw-colored fluid. Pleural protein 1.8 g/dL, pleural LDH 95 U/L. Serum protein 6.8 g/dL, serum LDH 210 U/L. Pleural/serum protein = 0.26 (< 0.5), pleural/serum LDH = 0.45 (< 0.6), pleural LDH 95 (< 2/3 of serum upper limit of normal). BNP 1,850 pg/mL, creatinine 1.2.",
         "flag": "ABNORMAL",
         "clinical_significance": "All three Light's criteria point to a transudate, consistent with CHF. Markedly elevated BNP confirms decompensated heart failure as the driver."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "12-lead ECG: **atrial fibrillation** with controlled ventricular response, **Q waves in V1-V4** consistent with old anterior MI, no acute ST changes. Transthoracic echo: LVEF 28%, dilated LV, severe anteroseptal hypokinesis, moderate mitral regurgitation, elevated estimated PA pressures.",
+        "result": "12-lead ECG: atrial fibrillation with controlled ventricular response, Q waves in V1-V4 consistent with old anterior MI, no acute ST changes. Transthoracic echo: LVEF 28%, dilated LV, severe anteroseptal hypokinesis, moderate mitral regurgitation, elevated estimated PA pressures.",
         "flag": "ABNORMAL",
         "clinical_significance": "Severely reduced EF confirms decompensated systolic heart failure as the underlying etiology of the transudative effusion."
       }

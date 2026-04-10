@@ -6,7 +6,7 @@
   "icd_category": "L40.5  -  Arthropathic psoriasis",
   "one_liner": "A 42-year-old man with a 10-year history of plaque psoriasis presents with 4 months of pain and swelling in the distal joints of his right hand and a sausage-like swelling of his left second toe.",
   "stage2": {
-    "hpi_extension": "He reports progressive pain, swelling, and morning stiffness lasting about 45 minutes in the **distal interphalangeal (DIP) joints** of the right 2nd, 3rd, and 4th fingers. Over the last month he has also developed a painfully swollen left second toe that is red and tender along its entire length. He has had **silvery scaly plaques** on his elbows, knees, and scalp for years, followed by his dermatologist. He denies back pain but mentions occasional left heel pain that is worst when taking his first steps in the morning.",
+    "hpi_extension": "He reports progressive pain, swelling, and morning stiffness lasting about 45 minutes in the distal interphalangeal (DIP) joints of the right 2nd, 3rd, and 4th fingers. Over the last month he has also developed a painfully swollen left second toe that is red and tender along its entire length. He has had silvery scaly plaques on his elbows, knees, and scalp for years, followed by his dermatologist. He denies back pain but mentions occasional left heel pain that is worst when taking his first steps in the morning.",
     "pmh": "Plaque psoriasis (10 years), hypertension",
     "surgical_history": "None",
     "medications": "Topical calcipotriene and triamcinolone for psoriasis; lisinopril",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "Skin: **silvery scaly plaques** on the extensor surfaces of the elbows and knees and on the scalp. **Nail pitting and onycholysis** (separation of the nail plate from the nail bed) on several fingernails. MSK: **swollen, tender DIP joints** of the right 2nd, 3rd, and 4th fingers with warmth. **Dactylitis ('sausage digit') of the left 2nd toe** with diffuse swelling. **Tenderness at the left Achilles insertion (enthesitis)**. Spine and SI joints non-tender. No MCP or wrist synovitis. No rheumatoid nodules."
+    "physical_exam": "Skin: silvery scaly plaques on the extensor surfaces of the elbows and knees and on the scalp. Nail pitting and onycholysis (separation of the nail plate from the nail bed) on several fingernails. MSK: swollen, tender DIP joints of the right 2nd, 3rd, and 4th fingers with warmth. Dactylitis ('sausage digit') of the left 2nd toe with diffuse swelling. Tenderness at the left Achilles insertion (enthesitis). Spine and SI joints non-tender. No MCP or wrist synovitis. No rheumatoid nodules."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Rheumatoid factor negative**, **anti-CCP negative**, ANA negative. Uric acid normal.",
+        "result": "Rheumatoid factor negative, anti-CCP negative, ANA negative. Uric acid normal.",
         "flag": "NORMAL",
         "clinical_significance": "Seronegativity distinguishes psoriatic arthritis from rheumatoid arthritis in a patient with an inflammatory hand arthropathy."
       },
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**ESR 38 mm/hr** (mildly elevated), **CRP 16 mg/L** (elevated).",
+        "result": "ESR 38 mm/hr (mildly elevated), CRP 16 mg/L (elevated).",
         "flag": "ABNORMAL",
         "clinical_significance": "Mildly elevated inflammatory markers support active inflammatory arthropathy; levels are often less impressive than in rheumatoid arthritis."
       },
       {
         "test_name": "Imaging study",
-        "result": "Hand and foot X-rays: **erosive changes at the DIP joints with adjacent bone proliferation**; classic **'pencil-in-cup' deformity** at the right 3rd DIP. Soft-tissue swelling along the left 2nd toe consistent with dactylitis. No periarticular osteopenia.",
+        "result": "Hand and foot X-rays: erosive changes at the DIP joints with adjacent bone proliferation; classic 'pencil-in-cup' deformity at the right 3rd DIP. Soft-tissue swelling along the left 2nd toe consistent with dactylitis. No periarticular osteopenia.",
         "flag": "ABNORMAL",
         "clinical_significance": "The pencil-in-cup deformity, erosions with new bone formation, and absence of periarticular osteopenia are highly characteristic of psoriatic arthritis and contrast with the marginal erosions of rheumatoid arthritis."
       }
@@ -64,10 +64,10 @@
     "final_clue": "NSAIDs produce partial relief. Given DIP involvement, dactylitis, and radiographic erosions, methotrexate is initiated. When symptoms persist at 3 months, an anti-TNF agent (adalimumab) is added with rapid improvement of joints, skin plaques, and nail disease."
   },
   "debrief": {
-    "classic_presentation": "Psoriatic arthritis occurs in roughly 10-30% of patients with cutaneous psoriasis and classically presents as an **asymmetric oligoarthritis** with prominent **distal interphalangeal (DIP) joint involvement**, **dactylitis ('sausage digits')**, **enthesitis** (especially Achilles and plantar fascia), and **nail changes** (pitting, onycholysis). Five clinical patterns are recognized: asymmetric oligoarthritis, symmetric polyarthritis (RA-like), DIP-predominant, arthritis mutilans (most destructive), and spondylitis-predominant. In most patients, skin disease precedes joint disease.",
+    "classic_presentation": "Psoriatic arthritis occurs in roughly 10-30% of patients with cutaneous psoriasis and classically presents as an asymmetric oligoarthritis with prominent distal interphalangeal (DIP) joint involvement, dactylitis ('sausage digits'), enthesitis (especially Achilles and plantar fascia), and nail changes (pitting, onycholysis). Five clinical patterns are recognized: asymmetric oligoarthritis, symmetric polyarthritis (RA-like), DIP-predominant, arthritis mutilans (most destructive), and spondylitis-predominant. In most patients, skin disease precedes joint disease.",
     "attending_mode_notes": null,
-    "pathophysiology": "Psoriatic arthritis is a seronegative spondyloarthropathy in the **PAIR** family with variable HLA-B27 association (more common in the spondylitis-predominant form). TNF-alpha, IL-17, and IL-23 drive synovial and entheseal inflammation, producing the characteristic combination of **erosion and new bone formation**. Unlike rheumatoid arthritis, there is no RF or anti-CCP, and radiographs show erosions without periarticular osteopenia, plus fluffy periostitis and the pathognomonic **'pencil-in-cup' deformity**.",
-    "treatment_overview": "Mild peripheral disease is treated with **NSAIDs** and intra-articular steroids. Moderate-severe disease requires DMARDs  -  **methotrexate** is first-line and treats both skin and joint manifestations. **TNF-alpha inhibitors** (etanercept, adalimumab, infliximab) are highly effective and indicated for persistent or erosive disease. IL-17 inhibitors (secukinumab, ixekizumab) and IL-12/23 inhibitors (ustekinumab) are alternatives, particularly when skin disease is prominent.",
+    "pathophysiology": "Psoriatic arthritis is a seronegative spondyloarthropathy in the PAIR family with variable HLA-B27 association (more common in the spondylitis-predominant form). TNF-alpha, IL-17, and IL-23 drive synovial and entheseal inflammation, producing the characteristic combination of erosion and new bone formation. Unlike rheumatoid arthritis, there is no RF or anti-CCP, and radiographs show erosions without periarticular osteopenia, plus fluffy periostitis and the pathognomonic 'pencil-in-cup' deformity.",
+    "treatment_overview": "Mild peripheral disease is treated with NSAIDs and intra-articular steroids. Moderate-severe disease requires DMARDs  -  methotrexate is first-line and treats both skin and joint manifestations. TNF-alpha inhibitors (etanercept, adalimumab, infliximab) are highly effective and indicated for persistent or erosive disease. IL-17 inhibitors (secukinumab, ixekizumab) and IL-12/23 inhibitors (ustekinumab) are alternatives, particularly when skin disease is prominent.",
     "high_yield_pearls": [
       "Asymmetric oligoarthritis with DIP involvement in a patient with psoriasis = psoriatic arthritis until proven otherwise.",
       "Dactylitis ('sausage digit') is diffuse inflammation of an entire finger or toe, reflecting combined synovitis and tenosynovitis.",

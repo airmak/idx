@@ -6,7 +6,7 @@
   "icd_category": "B02.9 — Zoster without complications",
   "one_liner": "A 68-year-old woman presents with a three-day history of burning pain followed by a painful blistering rash on the right side of her trunk that does not cross the midline.",
   "stage2": {
-    "hpi_extension": "Four days ago she developed a deep burning, tingling, and itching sensation across her right lower back and flank. Over the next 48 hours a band of red macules appeared that quickly became **grouped clear vesicles on an erythematous base**, some now crusting. The rash is strictly unilateral and stops sharply at the midline. Pain is severe and interferes with sleep. She denies fevers, headache, eye pain, or facial weakness. Had chickenpox as a child.",
+    "hpi_extension": "Four days ago she developed a deep burning, tingling, and itching sensation across her right lower back and flank. Over the next 48 hours a band of red macules appeared that quickly became grouped clear vesicles on an erythematous base, some now crusting. The rash is strictly unilateral and stops sharply at the midline. Pain is severe and interferes with sleep. She denies fevers, headache, eye pain, or facial weakness. Had chickenpox as a child.",
     "pmh": "Hypertension, type 2 diabetes mellitus, breast cancer in remission (completed chemotherapy 1 year ago)",
     "surgical_history": "Right lumpectomy",
     "medications": "Lisinopril, metformin",
@@ -20,19 +20,19 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: uncomfortable from pain. Skin: **grouped vesicles and papules on an erythematous base in a band-like distribution along the right T10 dermatome**, sparing the midline. Some lesions are crusted, others fresh. Marked allodynia on gentle touch. No lesions on face, eyes, or mucous membranes. Neuro: no focal deficits. No facial palsy or ear vesicles. No nose-tip (**Hutchinson sign**) lesions."
+    "physical_exam": "General: uncomfortable from pain. Skin: grouped vesicles and papules on an erythematous base in a band-like distribution along the right T10 dermatome, sparing the midline. Some lesions are crusted, others fresh. Marked allodynia on gentle touch. No lesions on face, eyes, or mucous membranes. Neuro: no focal deficits. No facial palsy or ear vesicles. No nose-tip (Hutchinson sign) lesions."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**PCR of vesicle fluid positive for varicella-zoster virus (VZV) DNA**. HSV-1 and HSV-2 PCR negative.",
+        "result": "PCR of vesicle fluid positive for varicella-zoster virus (VZV) DNA. HSV-1 and HSV-2 PCR negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "VZV PCR from a fresh vesicle is the most sensitive and specific confirmatory test and rapidly distinguishes zoster from HSV and other vesicular dermatoses."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "**Tzanck smear from the base of a fresh vesicle: multinucleated giant cells with intranuclear inclusions (Cowdry type A)**. Does not differentiate VZV from HSV.",
+        "result": "Tzanck smear from the base of a fresh vesicle: multinucleated giant cells with intranuclear inclusions (Cowdry type A). Does not differentiate VZV from HSV.",
         "flag": "ABNORMAL",
         "clinical_significance": "The Tzanck smear is a classic bedside test for herpesvirus infection but is nonspecific between HSV and VZV; PCR is required for confirmation."
       }
@@ -54,18 +54,18 @@
     ]
   },
   "stage5": {
-    "final_clue": "She is started on **oral valacyclovir** within 72 hours of rash onset, along with gabapentin for neuropathic pain. The rash crusts over within a week, but she returns one month later complaining of persistent burning pain in the same dermatome — consistent with **postherpetic neuralgia**, the most common complication of zoster in older adults."
+    "final_clue": "She is started on oral valacyclovir within 72 hours of rash onset, along with gabapentin for neuropathic pain. The rash crusts over within a week, but she returns one month later complaining of persistent burning pain in the same dermatome — consistent with postherpetic neuralgia, the most common complication of zoster in older adults."
   },
   "debrief": {
-    "classic_presentation": "Herpes zoster presents as a **unilateral painful vesicular rash in a dermatomal distribution that does not cross the midline**. A prodrome of burning, tingling, or itching along the dermatome typically precedes the rash by days. Most often affects a single thoracic dermatome. Key patient groups: **older adults (>50), immunocompromised** (HIV, chemotherapy, transplant, chronic steroids), and anyone with waning VZV-specific T-cell immunity. Special syndromes include **zoster ophthalmicus** (CN V1, risk signaled by **Hutchinson sign** — vesicles on the tip of the nose), **Ramsay Hunt syndrome** (CN VII involvement with facial palsy, ear vesicles, and taste/hearing changes), and disseminated zoster in the immunocompromised.",
+    "classic_presentation": "Herpes zoster presents as a unilateral painful vesicular rash in a dermatomal distribution that does not cross the midline. A prodrome of burning, tingling, or itching along the dermatome typically precedes the rash by days. Most often affects a single thoracic dermatome. Key patient groups: older adults (>50), immunocompromised (HIV, chemotherapy, transplant, chronic steroids), and anyone with waning VZV-specific T-cell immunity. Special syndromes include zoster ophthalmicus (CN V1, risk signaled by Hutchinson sign — vesicles on the tip of the nose), Ramsay Hunt syndrome (CN VII involvement with facial palsy, ear vesicles, and taste/hearing changes), and disseminated zoster in the immunocompromised.",
     "attending_mode_notes": null,
-    "pathophysiology": "**Varicella-zoster virus (VZV, HHV-3)** is a double-stranded DNA herpesvirus. Primary infection (varicella/chickenpox) causes a diffuse generalized vesicular rash. The virus then establishes latency in sensory dorsal root ganglia and cranial nerve ganglia. With age or immunosuppression, declining VZV-specific cell-mediated immunity permits **reactivation**: the virus replicates in the ganglion, travels down the sensory nerve to the skin, and produces the characteristic dermatomal vesicular eruption. Inflammation in the ganglion accounts for the severe neuropathic pain and for long-term postherpetic neuralgia.",
-    "treatment_overview": "**Antivirals** (valacyclovir, famciclovir, acyclovir) started **within 72 hours** of rash onset reduce severity and duration and lower the risk of postherpetic neuralgia; start even after 72 hours if new vesicles are still forming or in immunocompromised or ophthalmic disease. Analgesia: acetaminophen, NSAIDs, **gabapentin or pregabalin** for neuropathic pain, tricyclic antidepressants, topical lidocaine or capsaicin. **Prevention**: **recombinant zoster vaccine (Shingrix)** for adults ≥50 years is highly effective at preventing zoster and postherpetic neuralgia.",
+    "pathophysiology": "Varicella-zoster virus (VZV, HHV-3) is a double-stranded DNA herpesvirus. Primary infection (varicella/chickenpox) causes a diffuse generalized vesicular rash. The virus then establishes latency in sensory dorsal root ganglia and cranial nerve ganglia. With age or immunosuppression, declining VZV-specific cell-mediated immunity permits reactivation: the virus replicates in the ganglion, travels down the sensory nerve to the skin, and produces the characteristic dermatomal vesicular eruption. Inflammation in the ganglion accounts for the severe neuropathic pain and for long-term postherpetic neuralgia.",
+    "treatment_overview": "Antivirals (valacyclovir, famciclovir, acyclovir) started within 72 hours of rash onset reduce severity and duration and lower the risk of postherpetic neuralgia; start even after 72 hours if new vesicles are still forming or in immunocompromised or ophthalmic disease. Analgesia: acetaminophen, NSAIDs, gabapentin or pregabalin for neuropathic pain, tricyclic antidepressants, topical lidocaine or capsaicin. Prevention: recombinant zoster vaccine (Shingrix) for adults ≥50 years is highly effective at preventing zoster and postherpetic neuralgia.",
     "high_yield_pearls": [
-      "Painful **dermatomal vesicular rash that stops at the midline** = shingles until proven otherwise.",
-      "**Postherpetic neuralgia** is the most common complication — pain persisting >90 days after rash onset, especially in older adults.",
-      "**Hutchinson sign** (vesicles on the tip of the nose) signals nasociliary branch involvement and impending **zoster ophthalmicus** — urgent ophthalmology referral.",
-      "**Ramsay Hunt syndrome** = VZV reactivation in the geniculate ganglion: facial paralysis plus ear vesicles, hyperacusis, and loss of taste on the anterior 2/3 of the tongue.",
+      "Painful dermatomal vesicular rash that stops at the midline = shingles until proven otherwise.",
+      "Postherpetic neuralgia is the most common complication — pain persisting >90 days after rash onset, especially in older adults.",
+      "Hutchinson sign (vesicles on the tip of the nose) signals nasociliary branch involvement and impending zoster ophthalmicus — urgent ophthalmology referral.",
+      "Ramsay Hunt syndrome = VZV reactivation in the geniculate ganglion: facial paralysis plus ear vesicles, hyperacusis, and loss of taste on the anterior 2/3 of the tongue.",
       "Tzanck smear shows multinucleated giant cells and is positive for both HSV and VZV; VZV-specific PCR is the confirmatory test."
     ],
     "sources": [

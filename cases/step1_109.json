@@ -6,7 +6,7 @@
   "icd_category": "B59 — Pneumocystosis",
   "one_liner": "A 34-year-old man with untreated HIV presents with 3 weeks of progressive dyspnea on exertion, a nonproductive cough, and low-grade fevers, now with hypoxia disproportionate to his chest X-ray findings.",
   "stage2": {
-    "hpi_extension": "His symptoms have progressed gradually over 3 weeks from mild fatigue and occasional dry cough to significant dyspnea climbing a single flight of stairs. He describes drenching night sweats and has lost 12 pounds. He was diagnosed with HIV 4 years ago but has not been on antiretroviral therapy for the past 2 years. He denies chest pain, hemoptysis, or sick contacts. **His oxygen saturation drops from 93% at rest to 82% after walking 50 feet**.",
+    "hpi_extension": "His symptoms have progressed gradually over 3 weeks from mild fatigue and occasional dry cough to significant dyspnea climbing a single flight of stairs. He describes drenching night sweats and has lost 12 pounds. He was diagnosed with HIV 4 years ago but has not been on antiretroviral therapy for the past 2 years. He denies chest pain, hemoptysis, or sick contacts. His oxygen saturation drops from 93% at rest to 82% after walking 50 feet.",
     "pmh": "HIV (not on ART, last CD4 unknown), oral thrush 6 months ago",
     "surgical_history": "None",
     "medications": "None currently (discontinued ART 2 years ago)",
@@ -20,25 +20,25 @@
       "rr": "26",
       "spo2": "88% on room air at rest"
     },
-    "physical_exam": "General: thin, chronically ill-appearing. HEENT: **oral thrush (white plaques on tongue and buccal mucosa)**, cervical lymphadenopathy. Lungs: **clear to auscultation bilaterally despite marked hypoxemia** (a classic mismatch), no crackles or wheezes. Cardiac: tachycardic, regular. Skin: no rashes or Kaposi lesions. Extremities: no clubbing, no edema."
+    "physical_exam": "General: thin, chronically ill-appearing. HEENT: oral thrush (white plaques on tongue and buccal mucosa), cervical lymphadenopathy. Lungs: clear to auscultation bilaterally despite marked hypoxemia (a classic mismatch), no crackles or wheezes. Cardiac: tachycardic, regular. Skin: no rashes or Kaposi lesions. Extremities: no clubbing, no edema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Chest X-ray: **diffuse bilateral symmetric interstitial (ground-glass) infiltrates** in a perihilar distribution, sparing the apices and costophrenic angles. No pleural effusion, no cavitation, no adenopathy. High-resolution CT: diffuse bilateral ground-glass opacities with scattered cystic changes.",
+        "result": "Chest X-ray: diffuse bilateral symmetric interstitial (ground-glass) infiltrates in a perihilar distribution, sparing the apices and costophrenic angles. No pleural effusion, no cavitation, no adenopathy. High-resolution CT: diffuse bilateral ground-glass opacities with scattered cystic changes.",
         "flag": "ABNORMAL",
         "clinical_significance": "Diffuse bilateral ground-glass opacities in an AIDS patient with hypoxia disproportionate to a relatively unimpressive CXR are classic for Pneumocystis pneumonia."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**LDH 685 U/L (markedly elevated)**. Na 134, K 4.0, creatinine 0.9, AST 42, ALT 38, albumin 3.0. ABG on room air: pH 7.46, PaCO2 32 mmHg, PaO2 56 mmHg. **A-a gradient = 52 mmHg (markedly elevated)**.",
+        "result": "LDH 685 U/L (markedly elevated). Na 134, K 4.0, creatinine 0.9, AST 42, ALT 38, albumin 3.0. ABG on room air: pH 7.46, PaCO2 32 mmHg, PaO2 56 mmHg. A-a gradient = 52 mmHg (markedly elevated).",
         "flag": "ABNORMAL",
         "clinical_significance": "Elevated LDH is nonspecific but classic for PCP. A widened A-a gradient quantifies the severity of gas exchange impairment and, along with PaO2, determines whether adjunctive steroids are indicated."
       },
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "Induced sputum and bronchoalveolar lavage with **methenamine silver (Gomori) stain** showing **disc/cup-shaped cysts consistent with Pneumocystis jirovecii**. Direct fluorescent antibody positive. Serum **beta-D-glucan markedly elevated**. CD4 count: **42 cells/uL**. HIV viral load 480,000 copies/mL.",
+        "result": "Induced sputum and bronchoalveolar lavage with methenamine silver (Gomori) stain showing disc/cup-shaped cysts consistent with Pneumocystis jirovecii. Direct fluorescent antibody positive. Serum beta-D-glucan markedly elevated. CD4 count: 42 cells/uL. HIV viral load 480,000 copies/mL.",
         "flag": "ABNORMAL",
         "clinical_significance": "Visualization of Pneumocystis cysts on silver stain of BAL is the diagnostic gold standard. CD4 < 200 places the patient at high risk for PCP and other AIDS-defining infections."
       }

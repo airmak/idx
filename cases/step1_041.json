@@ -20,25 +20,25 @@
       "rr": "30 (deep and labored)",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: ill-appearing, lethargic, **fruity (acetone) breath odor**. HEENT: dry mucous membranes, sunken eyes. CV: tachycardic, regular. Resp: **Kussmaul respirations** — deep, rapid, labored breathing with clear lungs. Abdomen: diffusely tender without rebound or guarding. Skin: poor turgor, cool dry skin. Neuro: drowsy, oriented x1, no focal deficits."
+    "physical_exam": "General: ill-appearing, lethargic, fruity (acetone) breath odor. HEENT: dry mucous membranes, sunken eyes. CV: tachycardic, regular. Resp: Kussmaul respirations — deep, rapid, labored breathing with clear lungs. Abdomen: diffusely tender without rebound or guarding. Skin: poor turgor, cool dry skin. Neuro: drowsy, oriented x1, no focal deficits."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Glucose **480 mg/dL**, Na 130 (corrected ~134), K **5.6**, Cl 96, **HCO3 8**, BUN 32, Cr 1.4. **Anion gap = 26**. ABG: pH **7.18**, pCO2 22, HCO3 8 — **high anion gap metabolic acidosis with respiratory compensation**.",
+        "result": "Glucose 480 mg/dL, Na 130 (corrected ~134), K 5.6, Cl 96, HCO3 8, BUN 32, Cr 1.4. Anion gap = 26. ABG: pH 7.18, pCO2 22, HCO3 8 — high anion gap metabolic acidosis with respiratory compensation.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hyperglycemia, high anion gap metabolic acidosis, and partial respiratory compensation (Kussmaul breathing blowing off CO2) are the defining biochemical triad of DKA. Total body potassium is depleted despite normal/high serum K+ due to insulin deficiency and acidosis shifting K+ out of cells."
       },
       {
         "test_name": "Urinalysis",
-        "result": "**Glucose 4+**, **ketones 3+ (large)**, specific gravity 1.030, no nitrites or leukocyte esterase.",
+        "result": "Glucose 4+, ketones 3+ (large), specific gravity 1.030, no nitrites or leukocyte esterase.",
         "flag": "ABNORMAL",
         "clinical_significance": "Heavy glycosuria and ketonuria confirm uncontrolled hyperglycemia and ketogenesis. Urine ketone dipsticks detect acetoacetate (not beta-hydroxybutyrate, the dominant DKA ketone), so the actual ketosis is often underestimated."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "Serum **beta-hydroxybutyrate markedly elevated**. HbA1c 11.8%.",
+        "result": "Serum beta-hydroxybutyrate markedly elevated. HbA1c 11.8%.",
         "flag": "HIGH",
         "clinical_significance": "Elevated serum beta-hydroxybutyrate quantitatively confirms ketoacidosis. HbA1c reflects poor chronic glycemic control consistent with recent-onset/uncontrolled type 1 diabetes."
       }

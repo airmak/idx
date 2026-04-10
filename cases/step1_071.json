@@ -6,7 +6,7 @@
   "icd_category": "O00.1 — Tubal pregnancy",
   "one_liner": "A 27-year-old woman at 7 weeks from her last menstrual period presents to the ED with right-sided pelvic pain and vaginal spotting.",
   "stage2": {
-    "hpi_extension": "She had a positive home pregnancy test last week. Yesterday she developed **sharp right lower quadrant pain** and scant **dark vaginal bleeding**. The pain has since worsened and she briefly felt lightheaded when walking to the bathroom. She has a history of **pelvic inflammatory disease** from chlamydia 3 years ago and a **prior ectopic pregnancy** on the left side treated with methotrexate.",
+    "hpi_extension": "She had a positive home pregnancy test last week. Yesterday she developed sharp right lower quadrant pain and scant dark vaginal bleeding. The pain has since worsened and she briefly felt lightheaded when walking to the bathroom. She has a history of pelvic inflammatory disease from chlamydia 3 years ago and a prior ectopic pregnancy on the left side treated with methotrexate.",
     "pmh": "Chlamydial PID, prior tubal ectopic pregnancy",
     "surgical_history": "None",
     "medications": "Prenatal vitamins",
@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: anxious, uncomfortable. CV: mildly tachycardic. Abdomen: **right lower quadrant tenderness with mild rebound**, no rigidity. Pelvic: small amount of dark blood in the vaginal vault, **cervical motion tenderness**, closed cervical os. Bimanual exam: **right adnexal tenderness with a palpable fullness**, uterus small and non-tender."
+    "physical_exam": "General: anxious, uncomfortable. CV: mildly tachycardic. Abdomen: right lower quadrant tenderness with mild rebound, no rigidity. Pelvic: small amount of dark blood in the vaginal vault, cervical motion tenderness, closed cervical os. Bimanual exam: right adnexal tenderness with a palpable fullness, uterus small and non-tender."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**Serum quantitative beta-hCG 2,400 mIU/mL**. Beta-hCG 48 hours earlier was 2,150 (less than the expected 66% rise, **abnormally slow doubling**). Progesterone 4 ng/mL (low, consistent with nonviable pregnancy).",
+        "result": "Serum quantitative beta-hCG 2,400 mIU/mL. Beta-hCG 48 hours earlier was 2,150 (less than the expected 66% rise, abnormally slow doubling). Progesterone 4 ng/mL (low, consistent with nonviable pregnancy).",
         "flag": "ABNORMAL",
         "clinical_significance": "A plateauing or slowly rising beta-hCG, especially above the 'discriminatory zone' of ~1,500-2,000, in the absence of an intrauterine pregnancy on ultrasound, is highly suggestive of ectopic pregnancy."
       },
       {
         "test_name": "Imaging study",
-        "result": "Transvaginal ultrasound: **empty uterus (no intrauterine gestational sac)** despite a beta-hCG above the discriminatory zone. **Right adnexal extra-ovarian heterogeneous mass with a yolk sac** and a small amount of free fluid in the cul-de-sac.",
+        "result": "Transvaginal ultrasound: empty uterus (no intrauterine gestational sac) despite a beta-hCG above the discriminatory zone. Right adnexal extra-ovarian heterogeneous mass with a yolk sac and a small amount of free fluid in the cul-de-sac.",
         "flag": "ABNORMAL",
         "clinical_significance": "An adnexal mass separate from the ovary with a yolk sac, plus free pelvic fluid, is diagnostic of a tubal ectopic pregnancy, likely with early rupture/leakage."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 11,200, **Hb 10.8 (baseline 13.0)**, Plt 245,000. Blood type: O Rh-negative.",
+        "result": "WBC 11,200, Hb 10.8 (baseline 13.0), Plt 245,000. Blood type: O Rh-negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hemoglobin drop suggests intra-abdominal bleeding from ruptured ectopic. Rh-negative status mandates RhoGAM administration."
       }

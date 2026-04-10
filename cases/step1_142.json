@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: ill-appearing, intermittently confused, **scleral icterus**. Skin: **diffuse petechiae on the lower extremities**, scattered ecchymoses, **pallor**. HEENT: no lymphadenopathy. Cardiovascular: tachycardic, regular. Lungs: clear. Abdomen: soft, mildly tender, **no splenomegaly or hepatomegaly**. Neuro: **fluctuating mental status (drowsy then agitated)**, **mild right-sided weakness** on last exam, no meningismus. Residual urine darkly tea-colored."
+    "physical_exam": "General: ill-appearing, intermittently confused, scleral icterus. Skin: diffuse petechiae on the lower extremities, scattered ecchymoses, pallor. HEENT: no lymphadenopathy. Cardiovascular: tachycardic, regular. Lungs: clear. Abdomen: soft, mildly tender, no splenomegaly or hepatomegaly. Neuro: fluctuating mental status (drowsy then agitated), mild right-sided weakness on last exam, no meningismus. Residual urine darkly tea-colored."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 7.8 g/dL (low), **platelets 18,000/uL (markedly low)**, WBC 9.8. **Reticulocyte count elevated**. Smear: **numerous schistocytes (fragmented red cells, helmet cells)**, polychromasia, nucleated RBCs, thrombocytopenia.",
+        "result": "Hgb 7.8 g/dL (low), platelets 18,000/uL (markedly low), WBC 9.8. Reticulocyte count elevated. Smear: numerous schistocytes (fragmented red cells, helmet cells), polychromasia, nucleated RBCs, thrombocytopenia.",
         "flag": "ABNORMAL",
         "clinical_significance": "Microangiopathic hemolytic anemia (schistocytes) plus severe thrombocytopenia is the hallmark of a thrombotic microangiopathy. In an adult with neurologic symptoms, TTP is the leading diagnosis until proven otherwise."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**LDH markedly elevated (1,250 U/L)**, **indirect bilirubin elevated**, haptoglobin undetectable. Creatinine mildly elevated at 1.4 mg/dL. **PT, PTT, fibrinogen, and D-dimer all normal** (distinguishing from DIC). Urinalysis: hemoglobinuria.",
+        "result": "LDH markedly elevated (1,250 U/L), indirect bilirubin elevated, haptoglobin undetectable. Creatinine mildly elevated at 1.4 mg/dL. PT, PTT, fibrinogen, and D-dimer all normal (distinguishing from DIC). Urinalysis: hemoglobinuria.",
         "flag": "ABNORMAL",
         "clinical_significance": "Elevated LDH, elevated indirect bilirubin, and undetectable haptoglobin confirm intravascular hemolysis. NORMAL coagulation parameters (PT/PTT/fibrinogen/D-dimer) are critical in distinguishing TTP from DIC, in which they are all deranged."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**ADAMTS13 activity: <5% (severely decreased)**. ADAMTS13 inhibitor (autoantibody): POSITIVE.",
+        "result": "ADAMTS13 activity: <5% (severely decreased). ADAMTS13 inhibitor (autoantibody): POSITIVE.",
         "flag": "ABNORMAL",
         "clinical_significance": "Severely decreased ADAMTS13 activity (<10%) from an autoantibody inhibitor is diagnostic of acquired TTP. Without ADAMTS13, ultra-large von Willebrand factor multimers are not cleaved and anchor microthrombi in the microvasculature of the brain, kidneys, and other organs."
       }

@@ -20,19 +20,19 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: **pale conjunctivae**, tired-appearing. HEENT: no glossitis, no angular cheilitis. Cardiovascular: tachycardic, **soft systolic flow murmur at the left upper sternal border**. Lungs: clear. Abdomen: soft, non-tender, **no splenomegaly or hepatomegaly**. Extremities: **symmetric MCP and PIP synovitis with ulnar deviation** of the fingers, no petechiae or purpura. Neuro: grossly intact, no position sense deficit."
+    "physical_exam": "General: pale conjunctivae, tired-appearing. HEENT: no glossitis, no angular cheilitis. Cardiovascular: tachycardic, soft systolic flow murmur at the left upper sternal border. Lungs: clear. Abdomen: soft, non-tender, no splenomegaly or hepatomegaly. Extremities: symmetric MCP and PIP synovitis with ulnar deviation of the fingers, no petechiae or purpura. Neuro: grossly intact, no position sense deficit."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 9.2 g/dL (low), MCV 82 fL (low-normal/normocytic), RDW normal, WBC 8.1, platelets 295. **Reticulocyte count low/inappropriately normal**. Smear: **normocytic, normochromic red cells** with rare mild hypochromia; no schistocytes, no hypersegmented neutrophils, no blasts.",
+        "result": "Hgb 9.2 g/dL (low), MCV 82 fL (low-normal/normocytic), RDW normal, WBC 8.1, platelets 295. Reticulocyte count low/inappropriately normal. Smear: normocytic, normochromic red cells with rare mild hypochromia; no schistocytes, no hypersegmented neutrophils, no blasts.",
         "flag": "ABNORMAL",
         "clinical_significance": "Mild normocytic (sometimes mildly microcytic) anemia with an inadequate reticulocyte response is the classic picture of anemia of chronic disease. The absence of schistocytes and hypersegmented neutrophils argues against hemolysis and megaloblastic anemia."
       },
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "ESR 78 mm/hr (high), CRP 42 mg/L (high). **Serum iron LOW, TIBC LOW, transferrin saturation low-normal, serum ferritin HIGH (420 ng/mL)**. Soluble transferrin receptor normal.",
+        "result": "ESR 78 mm/hr (high), CRP 42 mg/L (high). Serum iron LOW, TIBC LOW, transferrin saturation low-normal, serum ferritin HIGH (420 ng/mL). Soluble transferrin receptor normal.",
         "flag": "ABNORMAL",
         "clinical_significance": "The combination of LOW iron, LOW TIBC, and HIGH ferritin is the diagnostic pattern of anemia of chronic disease and is the mirror image of iron deficiency anemia (where ferritin is low and TIBC is high). Ferritin is an acute-phase reactant, and elevated IL-6 drives hepcidin, which blocks ferroportin and traps iron in macrophages."
       },

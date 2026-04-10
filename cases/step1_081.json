@@ -6,7 +6,7 @@
   "icd_category": "M30.3 — Mucocutaneous lymph node syndrome (Kawasaki)",
   "one_liner": "A 3-year-old boy of Japanese descent is brought in with 6 days of high fever, a rash, red eyes, and a 'strawberry' tongue unresponsive to antipyretics and antibiotics.",
   "stage2": {
-    "hpi_extension": "He has had a **high fever (up to 40 C) for 6 days** that has not responded to acetaminophen, ibuprofen, or a recent course of amoxicillin prescribed for presumed otitis media. His mother reports **bilateral red eyes without discharge**, a **polymorphous truncal rash**, **cracked red lips and a strawberry tongue**, **swollen red hands and feet**, and a **single enlarged tender lymph node on the right side of the neck**. He is extremely irritable.",
+    "hpi_extension": "He has had a high fever (up to 40 C) for 6 days that has not responded to acetaminophen, ibuprofen, or a recent course of amoxicillin prescribed for presumed otitis media. His mother reports bilateral red eyes without discharge, a polymorphous truncal rash, cracked red lips and a strawberry tongue, swollen red hands and feet, and a single enlarged tender lymph node on the right side of the neck. He is extremely irritable.",
     "pmh": "Healthy; immunizations up to date",
     "surgical_history": "None",
     "medications": "Acetaminophen, ibuprofen, amoxicillin (started 3 days ago with no improvement)",
@@ -20,19 +20,19 @@
       "rr": "26",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: irritable, flushed child. HEENT: **bilateral nonexudative bulbar conjunctival injection with limbal sparing**; **cracked, fissured, bright red lips**; **strawberry tongue**. Neck: **unilateral anterior cervical lymphadenopathy (~1.8 cm)**. Skin: **polymorphous erythematous truncal rash**; **edema and erythema of the palms and soles**; early periungual desquamation beginning. CV: tachycardic, no murmur; **hyperdynamic precordium**. Abdomen: mild hepatomegaly."
+    "physical_exam": "General: irritable, flushed child. HEENT: bilateral nonexudative bulbar conjunctival injection with limbal sparing; cracked, fissured, bright red lips; strawberry tongue. Neck: unilateral anterior cervical lymphadenopathy (~1.8 cm). Skin: polymorphous erythematous truncal rash; edema and erythema of the palms and soles; early periungual desquamation beginning. CV: tachycardic, no murmur; hyperdynamic precordium. Abdomen: mild hepatomegaly."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**ESR 78 mm/hr (markedly elevated)**; **CRP 14 mg/dL**; platelets: 620,000/microL (**thrombocytosis**); WBC 18,500 with left shift; mild normocytic anemia; **sterile pyuria on UA**; ALT mildly elevated.",
+        "result": "ESR 78 mm/hr (markedly elevated); CRP 14 mg/dL; platelets: 620,000/microL (thrombocytosis); WBC 18,500 with left shift; mild normocytic anemia; sterile pyuria on UA; ALT mildly elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "Markedly elevated acute-phase reactants, thrombocytosis (especially in the second week), and sterile pyuria support the clinical diagnosis of Kawasaki disease, a medium-vessel vasculitis."
       },
       {
         "test_name": "Imaging study",
-        "result": "**2D echocardiogram: mild dilation of the right coronary artery (Z-score 2.3)**; no aneurysm yet; normal ventricular function.",
+        "result": "2D echocardiogram: mild dilation of the right coronary artery (Z-score 2.3); no aneurysm yet; normal ventricular function.",
         "flag": "ABNORMAL",
         "clinical_significance": "Coronary artery involvement is the feared complication of Kawasaki disease; echocardiography is the screening test of choice and should be performed at diagnosis and again in convalescence."
       }
@@ -55,7 +55,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "He is started on **high-dose IVIG (2 g/kg) plus high-dose aspirin**, with rapid defervescence within 24 hours. Over the next two weeks he develops desquamation of the fingertips and toes, and is maintained on low-dose aspirin with serial echocardiograms to monitor for coronary aneurysms."
+    "final_clue": "He is started on high-dose IVIG (2 g/kg) plus high-dose aspirin, with rapid defervescence within 24 hours. Over the next two weeks he develops desquamation of the fingertips and toes, and is maintained on low-dose aspirin with serial echocardiograms to monitor for coronary aneurysms."
   },
   "debrief": {
     "classic_presentation": "Kawasaki disease classically affects children under 5 years old (especially those of Japanese or East Asian descent). Diagnosis is clinical and requires fever lasting 5 or more days plus at least 4 of 5 principal features (mnemonic 'CRASH and BURN'): Conjunctivitis (bilateral, nonexudative, with limbal sparing), Rash (polymorphous), Adenopathy (cervical, often unilateral and >1.5 cm), Strawberry tongue / cracked lips / oral changes, Hand/foot erythema or edema with later desquamation, plus Burn (fever >5 days). The child is classically extremely irritable.",

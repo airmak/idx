@@ -6,12 +6,12 @@
   "icd_category": "C50 — Malignant neoplasm of breast",
   "one_liner": "A 58-year-old postmenopausal woman presents after feeling a firm, painless lump in her right breast while showering. She has not had a mammogram in 4 years.",
   "stage2": {
-    "hpi_extension": "She noticed the mass about six weeks ago and thinks it has grown slightly. It is non-tender and does not change with her (now absent) cycles. She denies nipple discharge but notes a **new inward pulling of her right nipple** over the past month and a small patch of **thickened, dimpled skin overlying the mass**. No fevers or weight loss. Menarche at age 11; menopause at age 54; **nulliparous**. She took combined estrogen-progestin hormone replacement therapy for 8 years for hot flashes. Her sister was diagnosed with premenopausal breast cancer at age 44, and a maternal aunt had ovarian cancer.",
+    "hpi_extension": "She noticed the mass about six weeks ago and thinks it has grown slightly. It is non-tender and does not change with her (now absent) cycles. She denies nipple discharge but notes a new inward pulling of her right nipple over the past month and a small patch of thickened, dimpled skin overlying the mass. No fevers or weight loss. Menarche at age 11; menopause at age 54; nulliparous. She took combined estrogen-progestin hormone replacement therapy for 8 years for hot flashes. Her sister was diagnosed with premenopausal breast cancer at age 44, and a maternal aunt had ovarian cancer.",
     "pmh": "Hypertension. Nulliparous. Menarche age 11, menopause age 54. HRT x8 years.",
     "surgical_history": "None",
     "medications": "Amlodipine",
     "allergies": "NKDA",
-    "family_history": "Sister: breast cancer at 44 (premenopausal). Maternal aunt: ovarian cancer at 52. Ashkenazi Jewish ancestry. Pattern concerning for **BRCA1/BRCA2 germline mutation**.",
+    "family_history": "Sister: breast cancer at 44 (premenopausal). Maternal aunt: ovarian cancer at 52. Ashkenazi Jewish ancestry. Pattern concerning for BRCA1/BRCA2 germline mutation.",
     "social_history": "Non-smoker, social alcohol. Office manager.",
     "vitals": {
       "temp": "36.8°C",
@@ -20,27 +20,27 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "Breast exam: **Right upper outer quadrant: a hard, irregular, 3 cm fixed mass tethered to underlying tissue**. Overlying skin shows **peau d'orange (dimpling) and retraction**. **Right nipple inversion** noted. No spontaneous nipple discharge. **Right axillary lymphadenopathy: 2 cm firm, fixed node palpable**. Left breast and axilla normal. No supraclavicular lymphadenopathy. No hepatomegaly or bone tenderness."
+    "physical_exam": "Breast exam: Right upper outer quadrant: a hard, irregular, 3 cm fixed mass tethered to underlying tissue. Overlying skin shows peau d'orange (dimpling) and retraction. Right nipple inversion noted. No spontaneous nipple discharge. Right axillary lymphadenopathy: 2 cm firm, fixed node palpable. Left breast and axilla normal. No supraclavicular lymphadenopathy. No hepatomegaly or bone tenderness."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "**Diagnostic mammogram and targeted breast ultrasound**: **Spiculated 3.2 cm mass with pleomorphic microcalcifications** in the right upper outer quadrant (BI-RADS 5, highly suggestive of malignancy). **Skin thickening** overlies the mass. Ultrasound shows a hypoechoic irregular mass with posterior acoustic shadowing and an enlarged right axillary node with loss of fatty hilum.",
+        "result": "Diagnostic mammogram and targeted breast ultrasound: Spiculated 3.2 cm mass with pleomorphic microcalcifications in the right upper outer quadrant (BI-RADS 5, highly suggestive of malignancy). Skin thickening overlies the mass. Ultrasound shows a hypoechoic irregular mass with posterior acoustic shadowing and an enlarged right axillary node with loss of fatty hilum.",
         "flag": "ABNORMAL",
-        "clinical_significance": "A **spiculated mass with pleomorphic microcalcifications** is the classic mammographic appearance of invasive breast cancer. BI-RADS 5 mandates tissue sampling."
+        "clinical_significance": "A spiculated mass with pleomorphic microcalcifications is the classic mammographic appearance of invasive breast cancer. BI-RADS 5 mandates tissue sampling."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "**Ultrasound-guided core needle biopsy of the right breast mass**: **invasive ductal carcinoma, Nottingham grade 2**, with desmoplastic stroma and lymphovascular invasion. **Receptor studies: ER positive 95%, PR positive 70%, HER2 (3+ by IHC, confirmed amplified by FISH)**. Ki-67 proliferation index 25%. Axillary **core biopsy confirms metastatic carcinoma** in the sampled node.",
+        "result": "Ultrasound-guided core needle biopsy of the right breast mass: invasive ductal carcinoma, Nottingham grade 2, with desmoplastic stroma and lymphovascular invasion. Receptor studies: ER positive 95%, PR positive 70%, HER2 (3+ by IHC, confirmed amplified by FISH). Ki-67 proliferation index 25%. Axillary core biopsy confirms metastatic carcinoma in the sampled node.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Confirms **invasive ductal carcinoma (most common type of breast cancer, ~75%)**. **ER/PR positivity** supports endocrine therapy; **HER2 amplification** identifies a target for anti-HER2 therapy (trastuzumab)."
+        "clinical_significance": "Confirms invasive ductal carcinoma (most common type of breast cancer, ~75%). ER/PR positivity supports endocrine therapy; HER2 amplification identifies a target for anti-HER2 therapy (trastuzumab)."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "Referral to genetic counseling. **Germline BRCA1 pathogenic variant (founder Ashkenazi Jewish mutation) identified**. Tumor markers: CEA and CA 15-3 mildly elevated; no distant metastases on staging CT and bone scan.",
+        "result": "Referral to genetic counseling. Germline BRCA1 pathogenic variant (founder Ashkenazi Jewish mutation) identified. Tumor markers: CEA and CA 15-3 mildly elevated; no distant metastases on staging CT and bone scan.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**BRCA1** mutation confers a lifetime breast cancer risk ~60–70% and ovarian cancer risk ~40%. Impacts surgical planning (consider contralateral prophylactic mastectomy and risk-reducing BSO), eligibility for **PARP inhibitors**, and cascade testing of first-degree relatives."
+        "clinical_significance": "BRCA1 mutation confers a lifetime breast cancer risk ~60–70% and ovarian cancer risk ~40%. Impacts surgical planning (consider contralateral prophylactic mastectomy and risk-reducing BSO), eligibility for PARP inhibitors, and cascade testing of first-degree relatives."
       }
     ],
     "imaging_results": [],
@@ -60,19 +60,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "She undergoes **right modified radical mastectomy with sentinel lymph node biopsy (positive) and axillary dissection**. Final pathology: stage IIB, 3.2 cm invasive ductal carcinoma, 2/12 nodes positive, ER/PR+/HER2+. She is treated with **adjuvant chemotherapy plus trastuzumab** for her HER2+ disease, followed by **5–10 years of an aromatase inhibitor (anastrozole)** for ER/PR positivity, and postmastectomy radiation. Her sister and daughters are referred for **BRCA1 testing**."
+    "final_clue": "She undergoes right modified radical mastectomy with sentinel lymph node biopsy (positive) and axillary dissection. Final pathology: stage IIB, 3.2 cm invasive ductal carcinoma, 2/12 nodes positive, ER/PR+/HER2+. She is treated with adjuvant chemotherapy plus trastuzumab for her HER2+ disease, followed by 5–10 years of an aromatase inhibitor (anastrozole) for ER/PR positivity, and postmastectomy radiation. Her sister and daughters are referred for BRCA1 testing."
   },
   "debrief": {
-    "classic_presentation": "Breast cancer classically presents as a **painless, hard, irregular, fixed breast mass**, most commonly in the **upper outer quadrant** (where the most breast tissue resides). Additional findings include **skin dimpling (peau d'orange)**, **nipple retraction or inversion**, **bloody unilateral nipple discharge**, **axillary lymphadenopathy**, and in advanced disease bone pain, pathologic fracture, or pleural effusion. Major risk factors: **female sex, increasing age, BRCA1/BRCA2 mutations**, strong family history, early menarche, late menopause, **nulliparity or late first pregnancy** (less lifetime progesterone/lactation protection), obesity in postmenopausal women, postmenopausal combined estrogen-progestin HRT, alcohol, and prior chest radiation.",
+    "classic_presentation": "Breast cancer classically presents as a painless, hard, irregular, fixed breast mass, most commonly in the upper outer quadrant (where the most breast tissue resides). Additional findings include skin dimpling (peau d'orange), nipple retraction or inversion, bloody unilateral nipple discharge, axillary lymphadenopathy, and in advanced disease bone pain, pathologic fracture, or pleural effusion. Major risk factors: female sex, increasing age, BRCA1/BRCA2 mutations, strong family history, early menarche, late menopause, nulliparity or late first pregnancy (less lifetime progesterone/lactation protection), obesity in postmenopausal women, postmenopausal combined estrogen-progestin HRT, alcohol, and prior chest radiation.",
     "attending_mode_notes": null,
-    "pathophysiology": "Most invasive breast cancers arise from the **terminal duct lobular unit** and are classified as **ductal (~75%) or lobular (~15%)**. **Invasive ductal carcinoma** typically forms a hard, fibrotic, spiculated mass with a desmoplastic stromal reaction; **invasive lobular carcinoma** grows in single-file strands (E-cadherin loss) and is often more diffuse and bilateral. Molecular subtyping by **ER, PR, and HER2** status drives prognosis and therapy: **luminal A (ER+/PR+/HER2−, low grade)** is best; **HER2-enriched** overexpresses HER2; **triple-negative (ER−/PR−/HER2−)** is aggressive and common in **BRCA1** carriers. **BRCA1/2** are tumor suppressors involved in homologous recombination DNA repair — loss of function creates a homologous recombination deficiency that is targetable with **PARP inhibitors** (synthetic lethality).",
-    "treatment_overview": "Screening: **biennial mammography ages 50–74** (USPSTF) or starting at 40 (ACS); high-risk women (BRCA, strong family history, prior chest RT) get earlier and supplemental MRI screening. Diagnosis: any suspicious mass → diagnostic mammogram + ultrasound → **core needle biopsy** for histology plus **ER, PR, and HER2** status. Surgery: **breast-conserving surgery (lumpectomy) with whole-breast radiation** gives equivalent survival to mastectomy for early disease; mastectomy is needed for multicentric or large tumors. Sentinel node biopsy first; axillary dissection if positive. Systemic therapy by subtype: **ER/PR+ → tamoxifen (premenopausal) or aromatase inhibitor (postmenopausal)**; **HER2+ → trastuzumab (+ pertuzumab)**; **triple-negative → cytotoxic chemotherapy** (anthracycline/taxane) ± immunotherapy; **BRCA-associated → PARP inhibitors** (olaparib).",
+    "pathophysiology": "Most invasive breast cancers arise from the terminal duct lobular unit and are classified as ductal (~75%) or lobular (~15%). Invasive ductal carcinoma typically forms a hard, fibrotic, spiculated mass with a desmoplastic stromal reaction; invasive lobular carcinoma grows in single-file strands (E-cadherin loss) and is often more diffuse and bilateral. Molecular subtyping by ER, PR, and HER2 status drives prognosis and therapy: luminal A (ER+/PR+/HER2−, low grade) is best; HER2-enriched overexpresses HER2; triple-negative (ER−/PR−/HER2−) is aggressive and common in BRCA1 carriers. BRCA1/2 are tumor suppressors involved in homologous recombination DNA repair — loss of function creates a homologous recombination deficiency that is targetable with PARP inhibitors (synthetic lethality).",
+    "treatment_overview": "Screening: biennial mammography ages 50–74 (USPSTF) or starting at 40 (ACS); high-risk women (BRCA, strong family history, prior chest RT) get earlier and supplemental MRI screening. Diagnosis: any suspicious mass → diagnostic mammogram + ultrasound → core needle biopsy for histology plus ER, PR, and HER2 status. Surgery: breast-conserving surgery (lumpectomy) with whole-breast radiation gives equivalent survival to mastectomy for early disease; mastectomy is needed for multicentric or large tumors. Sentinel node biopsy first; axillary dissection if positive. Systemic therapy by subtype: ER/PR+ → tamoxifen (premenopausal) or aromatase inhibitor (postmenopausal); HER2+ → trastuzumab (+ pertuzumab); triple-negative → cytotoxic chemotherapy (anthracycline/taxane) ± immunotherapy; BRCA-associated → PARP inhibitors (olaparib).",
     "high_yield_pearls": [
-      "Classic presentation: **painless, hard, fixed, irregular breast mass** in the **upper outer quadrant**, with skin dimpling (**peau d'orange**), nipple retraction, or axillary lymphadenopathy.",
-      "Most common histology: **invasive ductal carcinoma (~75%)**. **Invasive lobular carcinoma** grows in **single file** due to **E-cadherin loss** and is often bilateral.",
-      "Every biopsy gets **ER, PR, and HER2** testing. **ER/PR+** → tamoxifen (premenopausal) or aromatase inhibitor (postmenopausal); **HER2+** → **trastuzumab**; **triple-negative** → chemotherapy ± immunotherapy.",
-      "**BRCA1 and BRCA2** are tumor suppressors in homologous recombination DNA repair. **BRCA1** carriers trend toward triple-negative tumors; consider risk-reducing mastectomy and bilateral salpingo-oophorectomy. **PARP inhibitors** exploit synthetic lethality in BRCA-mutant tumors.",
-      "**Nulliparity, early menarche, late menopause, late first pregnancy, obesity, and HRT** all increase risk via lifetime estrogen exposure. **Breastfeeding and early pregnancy** are protective."
+      "Classic presentation: painless, hard, fixed, irregular breast mass in the upper outer quadrant, with skin dimpling (peau d'orange), nipple retraction, or axillary lymphadenopathy.",
+      "Most common histology: invasive ductal carcinoma (~75%). Invasive lobular carcinoma grows in single file due to E-cadherin loss and is often bilateral.",
+      "Every biopsy gets ER, PR, and HER2 testing. ER/PR+ → tamoxifen (premenopausal) or aromatase inhibitor (postmenopausal); HER2+ → trastuzumab; triple-negative → chemotherapy ± immunotherapy.",
+      "BRCA1 and BRCA2 are tumor suppressors in homologous recombination DNA repair. BRCA1 carriers trend toward triple-negative tumors; consider risk-reducing mastectomy and bilateral salpingo-oophorectomy. PARP inhibitors exploit synthetic lethality in BRCA-mutant tumors.",
+      "Nulliparity, early menarche, late menopause, late first pregnancy, obesity, and HRT all increase risk via lifetime estrogen exposure. Breastfeeding and early pregnancy are protective."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Breast pathology — Invasive breast carcinoma' section.",

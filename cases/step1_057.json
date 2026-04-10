@@ -20,19 +20,19 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: **masked facies (hypomimia)**, decreased blink rate, seborrheic skin. Neuro: **resting 'pill-rolling' tremor of the right hand (4-6 Hz)** that disappears with voluntary movement. **Cogwheel rigidity** at the right wrist and elbow. **Bradykinesia** demonstrated by slow, decrementing finger-tapping. **Micrographia** on writing sample. Gait: **stooped posture, shuffling gait with festination, decreased right arm swing**. Postural reflexes: **retropulsion on pull test**. Cognition intact. No cerebellar signs."
+    "physical_exam": "General: masked facies (hypomimia), decreased blink rate, seborrheic skin. Neuro: resting 'pill-rolling' tremor of the right hand (4-6 Hz) that disappears with voluntary movement. Cogwheel rigidity at the right wrist and elbow. Bradykinesia demonstrated by slow, decrementing finger-tapping. Micrographia on writing sample. Gait: stooped posture, shuffling gait with festination, decreased right arm swing. Postural reflexes: retropulsion on pull test. Cognition intact. No cerebellar signs."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "MRI brain without contrast: age-appropriate atrophy, no structural lesion, no vascular disease pattern to suggest vascular parkinsonism, and no midbrain atrophy ('hummingbird sign') to suggest progressive supranuclear palsy. DaTscan (dopamine transporter SPECT): **asymmetric reduction in striatal dopamine transporter uptake, most prominent in the left putamen**.",
+        "result": "MRI brain without contrast: age-appropriate atrophy, no structural lesion, no vascular disease pattern to suggest vascular parkinsonism, and no midbrain atrophy ('hummingbird sign') to suggest progressive supranuclear palsy. DaTscan (dopamine transporter SPECT): asymmetric reduction in striatal dopamine transporter uptake, most prominent in the left putamen.",
         "flag": "ABNORMAL",
         "clinical_significance": "Reduced nigrostriatal dopaminergic terminals on DaTscan confirms a presynaptic dopaminergic deficit consistent with idiopathic Parkinson disease and excludes essential tremor and drug-induced parkinsonism."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**Levodopa challenge**: administration of carbidopa/levodopa produces marked improvement in tremor, rigidity, and bradykinesia within 60 minutes (UPDRS motor score improves by >30%).",
+        "result": "Levodopa challenge: administration of carbidopa/levodopa produces marked improvement in tremor, rigidity, and bradykinesia within 60 minutes (UPDRS motor score improves by >30%).",
         "flag": "ABNORMAL",
         "clinical_significance": "A robust response to levodopa is a strong clinical confirmation of idiopathic Parkinson disease. Parkinson-plus syndromes (PSP, MSA, CBD) characteristically respond poorly."
       }
@@ -59,8 +59,8 @@
   "debrief": {
     "classic_presentation": "Parkinson disease classically presents in older adults (mean age 60) with the asymmetric onset of the TRAP tetrad: Tremor (resting, pill-rolling, 4-6 Hz), Rigidity (cogwheel), Akinesia/bradykinesia, and Postural instability (late). Non-motor prodromal symptoms (hyposmia, constipation, REM sleep behavior disorder, depression) often precede motor signs by years. Masked facies, micrographia, hypophonia, and a shuffling festinating gait are hallmark features.",
     "attending_mode_notes": null,
-    "pathophysiology": "Parkinson disease is caused by degeneration of **dopaminergic neurons in the substantia nigra pars compacta**, depleting dopamine input to the striatum and disinhibiting the indirect pathway (leading to hypokinesia). The pathologic hallmark is **Lewy bodies — intracytoplasmic eosinophilic inclusions composed of aggregated α-synuclein**. Most cases are sporadic; rare familial forms involve mutations in SNCA, LRRK2, and parkin. MPTP (a meperidine analog byproduct) produces a phenocopy by selectively destroying nigral neurons.",
-    "treatment_overview": "**Levodopa (with carbidopa to block peripheral decarboxylation)** is the most effective symptomatic therapy but chronic use produces motor fluctuations and dyskinesias. Dopamine agonists (pramipexole, ropinirole) delay levodopa start in younger patients. MAO-B inhibitors (selegiline, rasagiline) and COMT inhibitors (entacapone) prolong levodopa effect. Amantadine reduces dyskinesias. Anticholinergics (benztropine, trihexyphenidyl) help tremor but cause confusion in elderly. Deep brain stimulation of the subthalamic nucleus is reserved for advanced disease with motor fluctuations.",
+    "pathophysiology": "Parkinson disease is caused by degeneration of dopaminergic neurons in the substantia nigra pars compacta, depleting dopamine input to the striatum and disinhibiting the indirect pathway (leading to hypokinesia). The pathologic hallmark is Lewy bodies — intracytoplasmic eosinophilic inclusions composed of aggregated α-synuclein. Most cases are sporadic; rare familial forms involve mutations in SNCA, LRRK2, and parkin. MPTP (a meperidine analog byproduct) produces a phenocopy by selectively destroying nigral neurons.",
+    "treatment_overview": "Levodopa (with carbidopa to block peripheral decarboxylation) is the most effective symptomatic therapy but chronic use produces motor fluctuations and dyskinesias. Dopamine agonists (pramipexole, ropinirole) delay levodopa start in younger patients. MAO-B inhibitors (selegiline, rasagiline) and COMT inhibitors (entacapone) prolong levodopa effect. Amantadine reduces dyskinesias. Anticholinergics (benztropine, trihexyphenidyl) help tremor but cause confusion in elderly. Deep brain stimulation of the subthalamic nucleus is reserved for advanced disease with motor fluctuations.",
     "high_yield_pearls": [
       "TRAP: Tremor (resting, pill-rolling), Rigidity (cogwheel), Akinesia/bradykinesia, Postural instability.",
       "Pathology: loss of dopaminergic neurons in the substantia nigra pars compacta with Lewy bodies (α-synuclein aggregates).",

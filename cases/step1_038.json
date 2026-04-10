@@ -6,7 +6,7 @@
   "icd_category": "N10 — Acute pyelonephritis",
   "one_liner": "A 24-year-old sexually active woman presents with 2 days of fever, right-sided flank pain, and painful urination.",
   "stage2": {
-    "hpi_extension": "She reports **dysuria, urinary frequency, and urgency** that began 4 days ago, initially thinking it was a routine UTI. Over the past 48 hours she developed **shaking chills, fevers to 39.2 C, nausea, vomiting, and a severe aching pain in the right flank**. She is unable to keep down fluids. She denies vaginal discharge.",
+    "hpi_extension": "She reports dysuria, urinary frequency, and urgency that began 4 days ago, initially thinking it was a routine UTI. Over the past 48 hours she developed shaking chills, fevers to 39.2 C, nausea, vomiting, and a severe aching pain in the right flank. She is unable to keep down fluids. She denies vaginal discharge.",
     "pmh": "One prior uncomplicated UTI two years ago",
     "surgical_history": "None",
     "medications": "Oral contraceptive pill",
@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: ill-appearing, flushed, mildly diaphoretic. HEENT: dry mucous membranes. CV: tachycardic, regular. Lungs: clear. Abdomen: soft, mild suprapubic tenderness, **marked right costovertebral angle (CVA) tenderness**. Pelvic: no cervical motion tenderness or discharge. Extremities: warm, well-perfused."
+    "physical_exam": "General: ill-appearing, flushed, mildly diaphoretic. HEENT: dry mucous membranes. CV: tachycardic, regular. Lungs: clear. Abdomen: soft, mild suprapubic tenderness, marked right costovertebral angle (CVA) tenderness. Pelvic: no cervical motion tenderness or discharge. Extremities: warm, well-perfused."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Urinalysis",
-        "result": "Cloudy urine. **Large leukocyte esterase, positive nitrites**, 3+ blood, 2+ protein. Microscopy: **too-numerous-to-count WBCs, bacteria, and WBC casts**. No eosinophils.",
+        "result": "Cloudy urine. Large leukocyte esterase, positive nitrites, 3+ blood, 2+ protein. Microscopy: too-numerous-to-count WBCs, bacteria, and WBC casts. No eosinophils.",
         "flag": "ABNORMAL",
         "clinical_significance": "WBC casts are pathognomonic for renal parenchymal inflammation and distinguish pyelonephritis from simple lower UTI (cystitis)."
       },
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "Urine Gram stain: **gram-negative rods**. Urine culture (pending at time of admission, later grows >100,000 CFU/mL **E. coli**, pan-sensitive except ampicillin). Blood cultures: 1 of 2 bottles positive for E. coli.",
+        "result": "Urine Gram stain: gram-negative rods. Urine culture (pending at time of admission, later grows >100,000 CFU/mL E. coli, pan-sensitive except ampicillin). Blood cultures: 1 of 2 bottles positive for E. coli.",
         "flag": "ABNORMAL",
         "clinical_significance": "E. coli is the most common cause of pyelonephritis. Bacteremia indicates a more severe, complicated course requiring IV antibiotics."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 17,800 with **left shift (18% bands)**, Hb 13.4, Plt 210,000.",
+        "result": "WBC 17,800 with left shift (18% bands), Hb 13.4, Plt 210,000.",
         "flag": "HIGH",
         "clinical_significance": "Leukocytosis with bandemia reflects the systemic inflammatory response to upper tract infection."
       }

@@ -6,7 +6,7 @@
   "icd_category": "B16 — Acute hepatitis B",
   "one_liner": "A 29-year-old man presents with 2 weeks of fatigue, anorexia, nausea, right upper quadrant discomfort, and dark urine. He recently noticed yellowing of his sclera and developed a serum sickness–like rash and joint pains.",
   "stage2": {
-    "hpi_extension": "He reports a 2-week prodrome of malaise, fatigue, nausea, low-grade fever, and RUQ discomfort, followed by **dark (tea-colored) urine, acholic stools, and scleral icterus**. He also has migratory arthralgias and a transient urticarial rash (**'serum sickness–like syndrome'**). He had unprotected sex with new partners 3 months ago and occasionally shares tattoo equipment. He denies IV drug use but has had multiple sexual partners.",
+    "hpi_extension": "He reports a 2-week prodrome of malaise, fatigue, nausea, low-grade fever, and RUQ discomfort, followed by dark (tea-colored) urine, acholic stools, and scleral icterus. He also has migratory arthralgias and a transient urticarial rash ('serum sickness–like syndrome'). He had unprotected sex with new partners 3 months ago and occasionally shares tattoo equipment. He denies IV drug use but has had multiple sexual partners.",
     "pmh": "Healthy",
     "surgical_history": "None",
     "medications": "None",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "**Scleral icterus and jaundice**. Skin: faint urticarial wheals on the trunk. Abdomen: **mild tender hepatomegaly in the right upper quadrant**; no splenomegaly, ascites, or stigmata of chronic liver disease. Neuro: alert, no asterixis. Joints: mild tenderness of bilateral wrists and MCPs without effusion."
+    "physical_exam": "Scleral icterus and jaundice. Skin: faint urticarial wheals on the trunk. Abdomen: mild tender hepatomegaly in the right upper quadrant; no splenomegaly, ascites, or stigmata of chronic liver disease. Neuro: alert, no asterixis. Joints: mild tenderness of bilateral wrists and MCPs without effusion."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**AST 1,850 U/L and ALT 2,240 U/L (markedly HIGH, ALT > AST)**. Total bilirubin 8.4 mg/dL (HIGH, direct predominant). Alk phos mildly elevated. INR 1.3. Albumin 3.8 g/dL.",
+        "result": "AST 1,850 U/L and ALT 2,240 U/L (markedly HIGH, ALT > AST). Total bilirubin 8.4 mg/dL (HIGH, direct predominant). Alk phos mildly elevated. INR 1.3. Albumin 3.8 g/dL.",
         "flag": "HIGH",
         "clinical_significance": "Dramatic transaminase elevation (>1,000) with ALT > AST and hyperbilirubinemia is classic for acute viral hepatitis. INR and albumin assess synthetic liver function."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**HBsAg POSITIVE**. **HBeAg POSITIVE** (high infectivity). **IgM anti-HBc POSITIVE**. Anti-HBs negative. Anti-HBe negative. HBV DNA by PCR: >100,000,000 IU/mL. Anti-HCV negative. IgM anti-HAV negative. HIV negative.",
+        "result": "HBsAg POSITIVE. HBeAg POSITIVE (high infectivity). IgM anti-HBc POSITIVE. Anti-HBs negative. Anti-HBe negative. HBV DNA by PCR: >100,000,000 IU/mL. Anti-HCV negative. IgM anti-HAV negative. HIV negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "HBsAg + IgM anti-HBc positive defines ACUTE hepatitis B. HBeAg reflects active viral replication and high infectivity. IgM anti-HBc is the only serologic marker during the 'window period' when HBsAg has cleared and anti-HBs has not yet appeared."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Liver biopsy (not typically needed acutely): hepatocellular swelling (ballooning degeneration), spotty necrosis, lymphocytic infiltration, and characteristic **'ground-glass' hepatocytes** (HBsAg-filled smooth endoplasmic reticulum) on later specimens if disease becomes chronic.",
+        "result": "Liver biopsy (not typically needed acutely): hepatocellular swelling (ballooning degeneration), spotty necrosis, lymphocytic infiltration, and characteristic 'ground-glass' hepatocytes (HBsAg-filled smooth endoplasmic reticulum) on later specimens if disease becomes chronic.",
         "flag": "ABNORMAL",
         "clinical_significance": "Ground-glass hepatocytes are pathognomonic for hepatitis B infection and reflect accumulation of HBsAg within the hepatocyte ER."
       }

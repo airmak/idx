@@ -6,13 +6,13 @@
   "icd_category": "J67.9 — Hypersensitivity pneumonitis due to unspecified organic dust",
   "one_liner": "A 52-year-old dairy farmer presents with 4 months of recurrent episodes of cough, dyspnea, fever, and malaise that start 4-8 hours after baling moldy hay and resolve when he is away from the barn.",
   "stage2": {
-    "hpi_extension": "Each episode begins with flu-like symptoms (**fevers, chills, myalgias**), a dry cough, and shortness of breath within 4-8 hours of entering his hay loft. Symptoms resolve over 1-2 days if he avoids the barn, and his wife has noticed his cough and breathing are markedly better when they travel out of town. In the past month, he has also developed more persistent dyspnea on exertion and a 7-pound weight loss. He denies sick contacts, hemoptysis, or chest pain.",
+    "hpi_extension": "Each episode begins with flu-like symptoms (fevers, chills, myalgias), a dry cough, and shortness of breath within 4-8 hours of entering his hay loft. Symptoms resolve over 1-2 days if he avoids the barn, and his wife has noticed his cough and breathing are markedly better when they travel out of town. In the past month, he has also developed more persistent dyspnea on exertion and a 7-pound weight loss. He denies sick contacts, hemoptysis, or chest pain.",
     "pmh": "Previously healthy",
     "surgical_history": "None",
     "medications": "Occasional ibuprofen",
     "allergies": "NKDA",
     "family_history": "Non-contributory",
-    "social_history": "Lifelong dairy farmer, handles **moldy hay** daily. Never-smoker. No pet birds. No recent travel.",
+    "social_history": "Lifelong dairy farmer, handles moldy hay daily. Never-smoker. No pet birds. No recent travel.",
     "vitals": {
       "temp": "38.2 C",
       "hr": "98 bpm",
@@ -20,25 +20,25 @@
       "rr": "22",
       "spo2": "91% on room air"
     },
-    "physical_exam": "General: mildly diaphoretic, appears fatigued. Lungs: **bibasilar inspiratory crackles (fine Velcro rales)**, no wheezes, no rhonchi. Cardiac: regular rate and rhythm, normal S1/S2. Extremities: no clubbing, no edema, no cyanosis. Skin: no rashes. HEENT: clear oropharynx, no lymphadenopathy."
+    "physical_exam": "General: mildly diaphoretic, appears fatigued. Lungs: bibasilar inspiratory crackles (fine Velcro rales), no wheezes, no rhonchi. Cardiac: regular rate and rhythm, normal S1/S2. Extremities: no clubbing, no edema, no cyanosis. Skin: no rashes. HEENT: clear oropharynx, no lymphadenopathy."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "High-resolution CT chest: **diffuse bilateral ground-glass opacities** with scattered **centrilobular nodules** and **mosaic attenuation with air trapping on expiratory imaging**, most prominent in the upper and mid lung zones. No honeycombing, no pleural effusion, no mass.",
+        "result": "High-resolution CT chest: diffuse bilateral ground-glass opacities with scattered centrilobular nodules and mosaic attenuation with air trapping on expiratory imaging, most prominent in the upper and mid lung zones. No honeycombing, no pleural effusion, no mass.",
         "flag": "ABNORMAL",
         "clinical_significance": "Ground-glass opacities, centrilobular nodules, and mosaic air trapping in the upper lobes of a farmer with recurrent post-exposure symptoms are classic for subacute hypersensitivity pneumonitis."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "Serum **IgG precipitins positive against Saccharopolyspora rectivirgula (thermophilic actinomycetes, farmer's lung antigen)**. ANA negative, RF negative, ANCA negative.",
+        "result": "Serum IgG precipitins positive against Saccharopolyspora rectivirgula (thermophilic actinomycetes, farmer's lung antigen). ANA negative, RF negative, ANCA negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Positive precipitins confirm prior exposure and sensitization to the offending antigen and support the diagnosis of farmer's lung in the right clinical context."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "Pulmonary function tests: **restrictive pattern** with FEV1/FVC 0.82, FVC 62% predicted, TLC 68% predicted, and **decreased DLCO (54% predicted)**.",
+        "result": "Pulmonary function tests: restrictive pattern with FEV1/FVC 0.82, FVC 62% predicted, TLC 68% predicted, and decreased DLCO (54% predicted).",
         "flag": "ABNORMAL",
         "clinical_significance": "Restrictive physiology with reduced diffusion capacity is characteristic of interstitial lung disease from hypersensitivity pneumonitis."
       }

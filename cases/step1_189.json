@@ -1,0 +1,109 @@
+{
+  "case_id": "step1_189",
+  "mode": "step1",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Acute intermittent porphyria (AIP)",
+  "icd_category": "E80.21 — Acute intermittent (hepatic) porphyria",
+  "one_liner": "A 28-year-old woman presents with three days of severe diffuse abdominal pain, vomiting, and bizarre new psychiatric symptoms. Her urine has turned dark red after sitting in the bathroom light.",
+  "stage2": {
+    "hpi_extension": "She describes severe poorly-localized colicky abdominal pain that began two days after she was started on phenobarbital for new-onset seizures. Examination of the abdomen is unremarkable despite the pain. She also reports paresthesias in both feet, anxiety, and a vivid hallucination overnight. Her urine was noted to have turned a port-wine color when left standing in sunlight on the windowsill. She is taking oral contraceptives and has been on a strict low-calorie diet for the past two weeks.",
+    "pmh": "New-onset seizures (started 1 week ago)",
+    "surgical_history": "None",
+    "medications": "Phenobarbital (new), oral contraceptive pill",
+    "allergies": "NKDA",
+    "family_history": "Maternal aunt with episodes of unexplained abdominal pain and 'a nerve disease'",
+    "social_history": "Graduate student. Non-smoker. Occasional alcohol.",
+    "vitals": {
+      "temp": "37.2°C",
+      "hr": "118 bpm",
+      "bp": "162/96 mmHg",
+      "rr": "20",
+      "spo2": "98%"
+    },
+    "physical_exam": "General: Anxious, distressed young woman. HEENT: Unremarkable. Cardiovascular: Tachycardic, regular. Pulmonary: Clear. Abdomen: Soft, non-tender, non-distended despite the patient's complaints of severe pain — a classic 'pain out of proportion to exam' picture. Bowel sounds normal. No rebound or guarding. Neurologic: Symmetric distal weakness in lower extremities (4/5), decreased pinprick sensation in stocking distribution, hyporeflexia. Skin: No rash, no photosensitive lesions, no blisters."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "Urinalysis",
+        "result": "Color: pale yellow on collection but turns port-wine red after standing in sunlight. Markedly elevated urine porphobilinogen (PBG) and delta-aminolevulinic acid (ALA) on quantitative testing. No hematuria, no protein, no nitrites.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Markedly elevated urine PBG and ALA during an acute attack are diagnostic of acute intermittent porphyria. The port-wine discoloration on standing is caused by oxidation of PBG to porphobilin in light."
+      },
+      {
+        "test_name": "Comprehensive metabolic panel",
+        "result": "Sodium 124 mEq/L (markedly low), potassium 4.0, glucose 78. BUN/Cr normal. LFTs mildly elevated (AST 62, ALT 78). Lipase normal.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "SIADH-like hyponatremia is a common finding in AIP from inappropriate ADH secretion. Mild hepatic enzyme elevation reflects the predominantly hepatic site of porphyrin synthesis."
+      },
+      {
+        "test_name": "Genetic / molecular testing",
+        "result": "Heterozygous mutation in HMBS gene (porphobilinogen deaminase / hydroxymethylbilane synthase). Erythrocyte PBG deaminase activity reduced by 50%.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Confirms the diagnosis of acute intermittent porphyria and identifies the autosomal dominant defect in heme synthesis. Useful for family screening."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "Urinalysis",
+      "Comprehensive metabolic panel",
+      "Genetic / molecular testing"
+    ],
+    "acceptable_tests": [
+      "CBC with peripheral smear"
+    ],
+    "low_yield_tests": [
+      "Imaging study",
+      "Microbiology / Gram stain / cultures",
+      "CSF analysis (lumbar puncture)",
+      "Histopathology / biopsy",
+      "EKG / cardiac monitoring",
+      "Inflammatory / infection markers"
+    ]
+  },
+  "stage5": {
+    "final_clue": "Phenobarbital is discontinued and the patient is started on IV hemin and a high-carbohydrate (dextrose) infusion. Her pain, neurologic symptoms, and hyponatremia improve over 48 hours."
+  },
+  "debrief": {
+    "classic_presentation": "Acute intermittent porphyria classically presents in young women (15–40 years) with the 5 P's: Painful abdomen (severe poorly-localized colicky abdominal pain with a soft, non-tender abdomen), Polyneuropathy (motor predominant), Psychological disturbances (anxiety, depression, hallucinations), Pink/Port-wine urine (urine darkens on standing due to oxidation of PBG), and Precipitated by drugs (CYP450 inducers — barbiturates, rifampin, phenytoin, griseofulvin, OCPs), starvation, alcohol, infection, and the menstrual cycle. There are NO photosensitive skin lesions in AIP (key distinction from the cutaneous porphyrias).",
+    "attending_mode_notes": null,
+    "pathophysiology": "AIP is an autosomal dominant disorder caused by partial deficiency (~50%) of porphobilinogen deaminase (PBG deaminase, also called hydroxymethylbilane synthase, HMBS) — the third enzyme in the heme biosynthesis pathway. When ALA synthase is upregulated (by drugs that induce CYP450, low glucose/calories, or stress hormones), the heme pathway runs faster than the deficient PBG deaminase can handle, causing accumulation of the upstream substrates ALA and PBG. These neurotoxic precursors are responsible for the abdominal pain, autonomic dysfunction, and neurologic/psychiatric features. Importantly, no porphyrins accumulate in the skin in AIP, so there is no photosensitivity.",
+    "treatment_overview": "Acute attack: stop all precipitating drugs, give IV dextrose (high-carbohydrate loading suppresses ALA synthase via heme negative feedback) for mild attacks, and IV hemin (heme arginate) for moderate-to-severe attacks. Hemin directly downregulates ALA synthase by negative feedback, halting the production of toxic precursors. Pain control with safe analgesics (opioids, acetaminophen) — avoid barbiturates and many other CYP450 inducers. Treat hyponatremia with fluid restriction (SIADH pattern). Long-term: avoid known precipitants (use a 'safe drug list'), manage menstrual triggers with GnRH agonists if needed, and screen first-degree relatives.",
+    "high_yield_pearls": [
+      "AIP = the 5 P's: Painful abdomen, Polyneuropathy, Psychological disturbances, Pink/Port-wine urine on standing, Precipitated by drugs (CYP450 inducers).",
+      "Enzyme defect: porphobilinogen deaminase (PBG deaminase / hydroxymethylbilane synthase, HMBS), the third enzyme in the heme biosynthesis pathway. Autosomal dominant.",
+      "Accumulated substrates: delta-ALA and porphobilinogen (PBG) — both elevated in urine during an attack, and PBG turns urine port-wine red on standing in light.",
+      "Treatment: stop the offending drug, IV hemin (downregulates ALA synthase by negative feedback) and IV glucose/dextrose (also suppresses ALA synthase).",
+      "AIP has NO skin findings — that distinguishes it from the cutaneous porphyrias (porphyria cutanea tarda, the most common one)."
+    ],
+    "sources": [
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Heme synthesis, porphyrias, and lead poisoning' section.",
+      "First Aid for the USMLE Step 1 (2017) — Biochemistry chapter, 'Heme synthesis pathway' figure."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute intermittent porphyria (AIP)",
+      "Lead poisoning",
+      "Guillain-Barré syndrome",
+      "Pancreatitis (acute)",
+      "Appendicitis",
+      "Mesenteric ischemia",
+      "Schizophrenia, first episode"
+    ],
+    "after_stage2_more_likely": [
+      "Acute intermittent porphyria (AIP)",
+      "Lead poisoning"
+    ],
+    "after_stage2_less_likely": [
+      "Appendicitis",
+      "Pancreatitis (acute)",
+      "Mesenteric ischemia"
+    ],
+    "after_labs_top3": [
+      "Acute intermittent porphyria (AIP)",
+      "Lead poisoning",
+      "Guillain-Barré syndrome"
+    ]
+  }
+}

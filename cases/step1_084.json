@@ -20,19 +20,19 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: well-appearing, mildly fatigued. Skin: **12-cm annular erythematous plaque with central clearing (erythema migrans / target lesion) on the right posterior thigh**, warm but not tender. HEENT: no meningismus. Lymph: small tender right inguinal node. Cardiac: regular rate, no murmur. MSK: mild bilateral knee arthralgia without effusion. Neuro: cranial nerves intact, no facial droop, nonfocal."
+    "physical_exam": "General: well-appearing, mildly fatigued. Skin: 12-cm annular erythematous plaque with central clearing (erythema migrans / target lesion) on the right posterior thigh, warm but not tender. HEENT: no meningismus. Lymph: small tender right inguinal node. Cardiac: regular rate, no murmur. MSK: mild bilateral knee arthralgia without effusion. Neuro: cranial nerves intact, no facial droop, nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Borrelia burgdorferi ELISA: POSITIVE**. Reflex **Western blot: IgM positive (3 of 3 bands), IgG indeterminate**.",
+        "result": "Borrelia burgdorferi ELISA: POSITIVE. Reflex Western blot: IgM positive (3 of 3 bands), IgG indeterminate.",
         "flag": "ABNORMAL",
         "clinical_significance": "Two-tier testing (ELISA followed by confirmatory Western blot) is the CDC-recommended approach. A positive IgM with early IgG in a patient with erythema migrans confirms early localized Lyme disease, though in the presence of a classic EM rash in an endemic area, serology is not strictly required to begin treatment."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 6.2 (normal differential). Hgb 13.6. Platelets 210. **No intraerythrocytic ring forms or Maltese cross.**",
+        "result": "WBC 6.2 (normal differential). Hgb 13.6. Platelets 210. No intraerythrocytic ring forms or Maltese cross.",
         "flag": "NORMAL",
         "clinical_significance": "Normal smear argues against coinfection with Babesia microti, which shares the Ixodes scapularis vector and can cause hemolytic anemia with parasitized RBCs."
       },

@@ -6,7 +6,7 @@
   "icd_category": "K81.0 — Acute cholecystitis",
   "one_liner": "A 44-year-old obese woman presents to the ED with 8 hours of steady right upper quadrant pain that began after a fatty dinner. The pain now radiates to her right scapula and is accompanied by nausea, vomiting, and fever.",
   "stage2": {
-    "hpi_extension": "She has had several prior self-limited episodes of right-sided postprandial pain over the past year ('biliary colic'), but tonight the pain did not go away after 6 hours. It is constant, severe, and radiates to the **right shoulder/scapula**. She vomited bile-stained fluid. She feels feverish and chilled. She has not had jaundice, dark urine, acholic stools, or GI bleeding.",
+    "hpi_extension": "She has had several prior self-limited episodes of right-sided postprandial pain over the past year ('biliary colic'), but tonight the pain did not go away after 6 hours. It is constant, severe, and radiates to the right shoulder/scapula. She vomited bile-stained fluid. She feels feverish and chilled. She has not had jaundice, dark urine, acholic stools, or GI bleeding.",
     "pmh": "Obesity (BMI 34), type 2 diabetes",
     "surgical_history": "Cesarean section ×2",
     "medications": "Metformin",
@@ -20,19 +20,19 @@
       "rr": "18",
       "spo2": "98% on room air"
     },
-    "physical_exam": "Uncomfortable, diaphoretic. Sclera anicteric. Abdomen: **tenderness and voluntary guarding in the right upper quadrant**. **Murphy sign positive** — inspiratory arrest on deep palpation beneath the right costal margin. No palpable gallbladder or mass. No rebound. Bowel sounds present. No CVA tenderness."
+    "physical_exam": "Uncomfortable, diaphoretic. Sclera anicteric. Abdomen: tenderness and voluntary guarding in the right upper quadrant. Murphy sign positive — inspiratory arrest on deep palpation beneath the right costal margin. No palpable gallbladder or mass. No rebound. Bowel sounds present. No CVA tenderness."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 14.6 (x10^9/L) with **left shift**. Hgb and platelets normal.",
+        "result": "WBC 14.6 (x10^9/L) with left shift. Hgb and platelets normal.",
         "flag": "HIGH",
         "clinical_significance": "Leukocytosis with left shift supports an acute inflammatory/infectious process and helps distinguish cholecystitis from uncomplicated biliary colic."
       },
       {
         "test_name": "Imaging study",
-        "result": "RUQ ultrasound: **multiple gallstones with posterior acoustic shadowing**, **gallbladder wall thickening (>4 mm)**, **pericholecystic fluid**, and a **sonographic Murphy sign (maximal tenderness over the gallbladder under the probe)**. CBD caliber normal (5 mm).",
+        "result": "RUQ ultrasound: multiple gallstones with posterior acoustic shadowing, gallbladder wall thickening (>4 mm), pericholecystic fluid, and a sonographic Murphy sign (maximal tenderness over the gallbladder under the probe). CBD caliber normal (5 mm).",
         "flag": "ABNORMAL",
         "clinical_significance": "Ultrasound is the initial imaging test of choice for suspected cholecystitis. Gallstones + wall thickening + pericholecystic fluid + sonographic Murphy sign are diagnostic."
       },

@@ -20,25 +20,25 @@
       "rr": "22",
       "spo2": "94% on room air"
     },
-    "physical_exam": "Anxious, diaphoretic man clutching his chest. Cardiac: **S4 gallop** present; no murmurs or rubs. Lungs: bibasilar crackles. Extremities: cool and clammy; no edema. Neuro: intact. **Levine sign** (clenched fist over the sternum) observed while describing his pain."
+    "physical_exam": "Anxious, diaphoretic man clutching his chest. Cardiac: S4 gallop present; no murmurs or rubs. Lungs: bibasilar crackles. Extremities: cool and clammy; no edema. Neuro: intact. Levine sign (clenched fist over the sternum) observed while describing his pain."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus tachycardia at 104. **ST-segment elevations of 3 mm in leads II, III, and aVF** with reciprocal ST depressions in I and aVL. **Hyperacute T waves** in the inferior leads. No Q waves yet.",
+        "result": "Sinus tachycardia at 104. ST-segment elevations of 3 mm in leads II, III, and aVF with reciprocal ST depressions in I and aVL. Hyperacute T waves in the inferior leads. No Q waves yet.",
         "flag": "ABNORMAL",
         "clinical_significance": "ST elevations in II, III, aVF localize the infarct to the inferior wall, typically supplied by the right coronary artery (RCA). Reciprocal changes support a true transmural injury pattern."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Troponin I elevated at 4.8 ng/mL** (normal <0.04). CK-MB elevated. BNP mildly elevated.",
+        "result": "Troponin I elevated at 4.8 ng/mL (normal <0.04). CK-MB elevated. BNP mildly elevated.",
         "flag": "HIGH",
         "clinical_significance": "Troponin I is the most sensitive and specific marker of myocardial necrosis, rising 2–4 hours after infarction, peaking at 24 hours, and remaining elevated for 7–10 days."
       },
       {
         "test_name": "Imaging study",
-        "result": "Bedside transthoracic echocardiogram: **regional wall motion abnormality in the inferior wall** with an ejection fraction of 45%. No pericardial effusion.",
+        "result": "Bedside transthoracic echocardiogram: regional wall motion abnormality in the inferior wall with an ejection fraction of 45%. No pericardial effusion.",
         "flag": "ABNORMAL",
         "clinical_significance": "A new regional wall motion abnormality in the territory of ST elevation confirms acute ischemic injury and helps assess ventricular function before revascularization."
       }
@@ -68,11 +68,11 @@
     "pathophysiology": "Atherosclerotic plaque rupture exposes the lipid core and tissue factor, triggering platelet aggregation and thrombus formation that occludes a coronary artery. Complete transmural occlusion causes a STEMI with ST elevations; partial occlusion causes NSTEMI. Ischemia begins subendocardially (most vulnerable) and progresses transmurally. Necrosis is irreversible after ~20–40 minutes. The LAD supplies the anterior wall (V1–V4), RCA the inferior wall (II, III, aVF), and LCX the lateral wall (I, aVL, V5, V6).",
     "treatment_overview": "Initial management with MONA-BASH: Morphine, Oxygen (if hypoxic), Nitroglycerin, Aspirin (chewed), Beta-blocker, ACE inhibitor, Statin, Heparin. STEMI requires emergent reperfusion with PCI within 90 minutes of first medical contact (gold standard) or fibrinolytics (tPA) if PCI unavailable within 120 minutes. Add a P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel). Avoid nitrates in inferior MI with RV involvement (preload-dependent).",
     "high_yield_pearls": [
-      "**Troponin I** is the gold standard cardiac biomarker: rises at 2–4 hours, peaks at 24 hours, stays elevated for 7–10 days. CK-MB is useful for detecting **re-infarction** because it normalizes in 48 hours.",
-      "**Inferior MI = RCA** (II, III, aVF). **Anterior MI = LAD** (V1–V4). **Lateral = LCX** (I, aVL, V5, V6). Posterior MI shows ST depression in V1–V2 (mirror image).",
-      "Post-MI complications by timeline: **0–24 hr** arrhythmia/cardiogenic shock; **1–3 days** fibrinous pericarditis; **3–14 days** free wall rupture, papillary muscle rupture, interventricular septum rupture; **2 weeks–months** ventricular aneurysm and **Dressler syndrome** (autoimmune pericarditis).",
-      "**Coagulative necrosis** with contraction bands and neutrophils dominates at 1–3 days; granulation tissue at 1–2 weeks; collagenous scar by 2 months.",
-      "**Aspirin irreversibly inhibits COX-1**, blocking platelet thromboxane A2 synthesis for the life of the platelet (~10 days) — always given at first contact for suspected ACS."
+      "Troponin I is the gold standard cardiac biomarker: rises at 2–4 hours, peaks at 24 hours, stays elevated for 7–10 days. CK-MB is useful for detecting re-infarction because it normalizes in 48 hours.",
+      "Inferior MI = RCA (II, III, aVF). Anterior MI = LAD (V1–V4). Lateral = LCX (I, aVL, V5, V6). Posterior MI shows ST depression in V1–V2 (mirror image).",
+      "Post-MI complications by timeline: 0–24 hr arrhythmia/cardiogenic shock; 1–3 days fibrinous pericarditis; 3–14 days free wall rupture, papillary muscle rupture, interventricular septum rupture; 2 weeks–months ventricular aneurysm and Dressler syndrome (autoimmune pericarditis).",
+      "Coagulative necrosis with contraction bands and neutrophils dominates at 1–3 days; granulation tissue at 1–2 weeks; collagenous scar by 2 months.",
+      "Aspirin irreversibly inhibits COX-1, blocking platelet thromboxane A2 synthesis for the life of the platelet (~10 days) — always given at first contact for suspected ACS."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Ischemic heart disease — Myocardial infarction' section."

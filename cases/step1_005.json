@@ -20,27 +20,27 @@
       "rr": "16",
       "spo2": "98%"
     },
-    "physical_exam": "General: Pale-appearing man. HEENT: **Pale conjunctivae**, **glossitis (smooth, depapillated, erythematous tongue)**, **angular cheilosis**. Cardiovascular: Tachycardic, soft systolic flow murmur at the left sternal border. Pulmonary: Clear. Abdomen: Soft, non-tender. No hepatosplenomegaly. **Rectal examination: brown stool, guaiac positive.** Extremities: **Koilonychia (spoon-shaped concave nails)**."
+    "physical_exam": "General: Pale-appearing man. HEENT: Pale conjunctivae, glossitis (smooth, depapillated, erythematous tongue), angular cheilosis. Cardiovascular: Tachycardic, soft systolic flow murmur at the left sternal border. Pulmonary: Clear. Abdomen: Soft, non-tender. No hepatosplenomegaly. Rectal examination: brown stool, guaiac positive. Extremities: Koilonychia (spoon-shaped concave nails)."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 7.6 g/dL (low), Hct 24%, **MCV 68 fL (low — microcytic)**, **MCHC low (hypochromic)**, **RDW elevated**. Platelets mildly elevated. WBC normal. **Smear: small, pale red cells with central pallor occupying more than 1/3 of the cell**.",
+        "result": "Hgb 7.6 g/dL (low), Hct 24%, MCV 68 fL (low — microcytic), MCHC low (hypochromic), RDW elevated. Platelets mildly elevated. WBC normal. Smear: small, pale red cells with central pallor occupying more than 1/3 of the cell.",
         "flag": "ABNORMAL",
         "clinical_significance": "Microcytic hypochromic anemia with elevated RDW is classic for iron deficiency. Anisocytosis (high RDW) often appears earlier than the drop in MCV."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**Ferritin 6 ng/mL (markedly low)**. Serum iron low. **TIBC (transferrin) elevated**. **Transferrin saturation low (~5%)**.",
+        "result": "Ferritin 6 ng/mL (markedly low). Serum iron low. TIBC (transferrin) elevated. Transferrin saturation low (~5%).",
         "flag": "ABNORMAL",
-        "clinical_significance": "Low ferritin is the **most specific** test for iron deficiency. Combined with low serum iron, low transferrin saturation, and high TIBC, the iron studies confirm iron-deficiency anemia (NOT anemia of chronic disease, which has high ferritin and low TIBC)."
+        "clinical_significance": "Low ferritin is the most specific test for iron deficiency. Combined with low serum iron, low transferrin saturation, and high TIBC, the iron studies confirm iron-deficiency anemia (NOT anemia of chronic disease, which has high ferritin and low TIBC)."
       },
       {
         "test_name": "Imaging study",
-        "result": "**Colonoscopy: a 4 cm fungating mass at the cecum, biopsied. Pathology pending.** Several scattered diverticula in the sigmoid colon, otherwise unremarkable.",
+        "result": "Colonoscopy: a 4 cm fungating mass at the cecum, biopsied. Pathology pending. Several scattered diverticula in the sigmoid colon, otherwise unremarkable.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Iron deficiency anemia in an older man (or postmenopausal woman) is colon cancer until proven otherwise.** A right-sided cecal tumor is the textbook source of slow occult blood loss producing IDA in this age group."
+        "clinical_significance": "Iron deficiency anemia in an older man (or postmenopausal woman) is colon cancer until proven otherwise. A right-sided cecal tumor is the textbook source of slow occult blood loss producing IDA in this age group."
       }
     ],
     "imaging_results": [],
@@ -61,16 +61,16 @@
     ]
   },
   "stage5": {
-    "final_clue": "Cecal mass biopsy returns as **invasive adenocarcinoma**. He is started on oral iron and referred to colorectal surgery for definitive resection of the right-sided colon cancer."
+    "final_clue": "Cecal mass biopsy returns as invasive adenocarcinoma. He is started on oral iron and referred to colorectal surgery for definitive resection of the right-sided colon cancer."
   },
   "debrief": {
-    "classic_presentation": "Iron deficiency anemia is the **most common cause of anemia worldwide**. Patients present with the symptoms of anemia (fatigue, dyspnea on exertion, pallor, palpitations, headache) and the unique findings of iron deficiency: **pica (especially pagophagia, the craving for ice)**, **koilonychia (spoon nails)**, **angular cheilosis**, and **glossitis**. In children and menstruating women, it is most often nutritional or menstrual. **In adult men and postmenopausal women, IDA is GI blood loss until proven otherwise — colon cancer must be excluded with colonoscopy.**",
+    "classic_presentation": "Iron deficiency anemia is the most common cause of anemia worldwide. Patients present with the symptoms of anemia (fatigue, dyspnea on exertion, pallor, palpitations, headache) and the unique findings of iron deficiency: pica (especially pagophagia, the craving for ice), koilonychia (spoon nails), angular cheilosis, and glossitis. In children and menstruating women, it is most often nutritional or menstrual. In adult men and postmenopausal women, IDA is GI blood loss until proven otherwise — colon cancer must be excluded with colonoscopy.",
     "attending_mode_notes": null,
     "pathophysiology": "Iron is required as the central cofactor of the heme group. When iron stores are inadequate, hemoglobin synthesis fails and red cells become small (microcytic) and pale (hypochromic). The progression of laboratory findings is: (1) ferritin (storage iron) falls first; (2) serum iron falls and TIBC (transferrin) rises as the body upregulates iron uptake; (3) RDW rises as the marrow makes a heterogeneous mix of normal and small cells; (4) MCV finally falls below the normal range. Causes: chronic blood loss (GI, menstrual), inadequate intake, malabsorption (celiac disease), pregnancy.",
-    "treatment_overview": "**Treat the underlying cause** (most important). **Oral iron replacement** with ferrous sulfate is first-line; absorption is improved when taken on an empty stomach with vitamin C. Common side effects: constipation, dark stools, nausea. Reticulocytosis appears within ~1 week, and hemoglobin should rise by ~1 g/dL per week. IV iron (iron sucrose, ferric gluconate) is reserved for malabsorption, intolerance, or chronic kidney disease. Transfuse only if symptomatic at very low Hgb.",
+    "treatment_overview": "Treat the underlying cause (most important). Oral iron replacement with ferrous sulfate is first-line; absorption is improved when taken on an empty stomach with vitamin C. Common side effects: constipation, dark stools, nausea. Reticulocytosis appears within ~1 week, and hemoglobin should rise by ~1 g/dL per week. IV iron (iron sucrose, ferric gluconate) is reserved for malabsorption, intolerance, or chronic kidney disease. Transfuse only if symptomatic at very low Hgb.",
     "high_yield_pearls": [
-      "Iron studies in IDA: **↓ ferritin, ↓ serum iron, ↑ TIBC (transferrin), ↓ transferrin saturation.** Anemia of chronic disease shows the OPPOSITE iron and TIBC pattern (↑ ferritin, ↓ TIBC).",
-      "Plummer-Vinson syndrome = triad of **iron deficiency anemia + esophageal web + atrophic glossitis**. Risk factor for esophageal squamous cell carcinoma.",
+      "Iron studies in IDA: ↓ ferritin, ↓ serum iron, ↑ TIBC (transferrin), ↓ transferrin saturation. Anemia of chronic disease shows the OPPOSITE iron and TIBC pattern (↑ ferritin, ↓ TIBC).",
+      "Plummer-Vinson syndrome = triad of iron deficiency anemia + esophageal web + atrophic glossitis. Risk factor for esophageal squamous cell carcinoma.",
       "Pica (pagophagia = ice craving) is highly specific for iron deficiency.",
       "IDA in an older adult man (or postmenopausal woman) → colonoscopy to exclude colon cancer. Right-sided (cecal) tumors classically cause occult bleeding and IDA without obstruction.",
       "Reticulocyte count is LOW in untreated IDA (the marrow lacks iron to respond) but becomes elevated within a week of starting oral iron — a useful marker that therapy is working."

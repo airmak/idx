@@ -6,12 +6,12 @@
   "icd_category": "E70.0 — Classical phenylketonuria",
   "one_liner": "A 10-month-old boy born at home without newborn screening is brought in for developmental delay; his mother notes unusually fair skin and a 'mousy, musty' body odor.",
   "stage2": {
-    "hpi_extension": "The parents are recent immigrants and the baby was **born at home and never had newborn screening**. They report he is not sitting unsupported, has no babbling, and has had **two episodes of generalized seizures** over the past month. On close questioning, his mother mentions a peculiar **'musty' or 'mousy' body odor** and has noted that he is **fairer-skinned and has lighter hair** than either parent or his older sibling. He has also developed a scaly eczematous rash.",
+    "hpi_extension": "The parents are recent immigrants and the baby was born at home and never had newborn screening. They report he is not sitting unsupported, has no babbling, and has had two episodes of generalized seizures over the past month. On close questioning, his mother mentions a peculiar 'musty' or 'mousy' body odor and has noted that he is fairer-skinned and has lighter hair than either parent or his older sibling. He has also developed a scaly eczematous rash.",
     "pmh": "Home birth; no newborn screening; no prior hospitalizations",
     "surgical_history": "None",
     "medications": "None",
     "allergies": "NKDA",
-    "family_history": "Parents are **first cousins** (consanguineous); one paternal uncle reportedly had intellectual disability and died young",
+    "family_history": "Parents are first cousins (consanguineous); one paternal uncle reportedly had intellectual disability and died young",
     "social_history": "Lives with parents and 3-year-old sister (healthy); breast and formula fed; no aspartame exposure",
     "vitals": {
       "temp": "37.0 C",
@@ -20,25 +20,25 @@
       "rr": "24",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: small, developmentally delayed infant. HEENT: **very fair skin, blond hair, and blue eyes** (lighter than parents); **distinctive musty body odor**. Skin: **eczematous rash** on the cheeks and extensor surfaces. Neuro: **global developmental delay**, mild hypertonia, hyperreflexia; **microcephaly**. Cardiovascular and abdominal exams are unremarkable."
+    "physical_exam": "General: small, developmentally delayed infant. HEENT: very fair skin, blond hair, and blue eyes (lighter than parents); distinctive musty body odor. Skin: eczematous rash on the cheeks and extensor surfaces. Neuro: global developmental delay, mild hypertonia, hyperreflexia; microcephaly. Cardiovascular and abdominal exams are unremarkable."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Serum phenylalanine: 24 mg/dL (normal <2; classical PKU >20)**. Tyrosine: low. Ammonia: normal. Glucose, electrolytes, liver enzymes: normal.",
+        "result": "Serum phenylalanine: 24 mg/dL (normal <2; classical PKU >20). Tyrosine: low. Ammonia: normal. Glucose, electrolytes, liver enzymes: normal.",
         "flag": "ABNORMAL",
         "clinical_significance": "Markedly elevated phenylalanine with low tyrosine is diagnostic of phenylketonuria. Accumulated phenylalanine is neurotoxic and causes progressive intellectual disability; low tyrosine leads to decreased melanin (fair skin/hair) and decreased catecholamines."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**PAH gene sequencing: homozygous pathogenic mutation in phenylalanine hydroxylase**. BH4 (tetrahydrobiopterin) cofactor levels normal.",
+        "result": "PAH gene sequencing: homozygous pathogenic mutation in phenylalanine hydroxylase. BH4 (tetrahydrobiopterin) cofactor levels normal.",
         "flag": "ABNORMAL",
         "clinical_significance": "Loss-of-function mutations in PAH confirm classical (autosomal recessive) phenylketonuria. Normal BH4 excludes less common cofactor-deficient variants."
       },
       {
         "test_name": "Urinalysis",
-        "result": "Urine organic acids: **elevated phenylpyruvate, phenylacetate, and phenyllactate** (the phenylketones responsible for the musty odor).",
+        "result": "Urine organic acids: elevated phenylpyruvate, phenylacetate, and phenyllactate (the phenylketones responsible for the musty odor).",
         "flag": "ABNORMAL",
         "clinical_significance": "Accumulated phenylalanine is shunted to phenylketones excreted in the urine, producing the characteristic musty/mousy odor and giving the disease its name."
       }

@@ -6,7 +6,7 @@
   "icd_category": "M10.9 — Gout, unspecified",
   "one_liner": "A 55-year-old man is awakened at 3 AM by excruciating pain, swelling, and redness at the base of his right great toe. He cannot tolerate the weight of a bedsheet on the joint.",
   "stage2": {
-    "hpi_extension": "The pain began abruptly and reached maximum intensity within 6 hours. He had attended a barbeque the previous evening and consumed **several beers and a large steak**. He has had two similar but less severe episodes in the past year that resolved spontaneously over several days. He denies recent trauma, fevers, or rash. He has not taken any new medications other than a recently increased dose of **hydrochlorothiazide** for hypertension.",
+    "hpi_extension": "The pain began abruptly and reached maximum intensity within 6 hours. He had attended a barbeque the previous evening and consumed several beers and a large steak. He has had two similar but less severe episodes in the past year that resolved spontaneously over several days. He denies recent trauma, fevers, or rash. He has not taken any new medications other than a recently increased dose of hydrochlorothiazide for hypertension.",
     "pmh": "Hypertension, obesity (BMI 34), hyperlipidemia",
     "surgical_history": "None",
     "medications": "Hydrochlorothiazide (recently increased), atorvastatin, aspirin",
@@ -20,13 +20,13 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: in obvious distress from foot pain. Right foot: **first metatarsophalangeal (MTP) joint exquisitely tender, warm, erythematous, and swollen** (podagra). Passive movement elicits severe pain. Several small, firm, non-tender **nodules over the olecranon and helix of the ear** consistent with **tophi**. No breaks in the skin. The remaining joints are unremarkable. No lymphangitic streaking."
+    "physical_exam": "General: in obvious distress from foot pain. Right foot: first metatarsophalangeal (MTP) joint exquisitely tender, warm, erythematous, and swollen (podagra). Passive movement elicits severe pain. Several small, firm, non-tender nodules over the olecranon and helix of the ear consistent with tophi. No breaks in the skin. The remaining joints are unremarkable. No lymphangitic streaking."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "Arthrocentesis of the right first MTP joint: cloudy yellow fluid, WBC 35,000/uL (neutrophil predominant). Gram stain negative. Polarized light microscopy: **needle-shaped, negatively birefringent crystals** (yellow when parallel to the axis of the red compensator, blue when perpendicular).",
+        "result": "Arthrocentesis of the right first MTP joint: cloudy yellow fluid, WBC 35,000/uL (neutrophil predominant). Gram stain negative. Polarized light microscopy: needle-shaped, negatively birefringent crystals (yellow when parallel to the axis of the red compensator, blue when perpendicular).",
         "flag": "ABNORMAL",
         "clinical_significance": "Synovial fluid crystal analysis is the gold standard. Negatively birefringent needle-shaped monosodium urate crystals are pathognomonic for gout. Gram stain and culture rule out septic arthritis, which can coexist."
       },
@@ -63,10 +63,10 @@
     "final_clue": "He is treated with indomethacin and colchicine with rapid relief over 48 hours. Two weeks later, after the flare has resolved, he is started on allopurinol for chronic prevention, and his thiazide is switched to losartan."
   },
   "debrief": {
-    "classic_presentation": "Acute gout classically presents as sudden, severe monoarticular arthritis in a middle-aged or older man (postmenopausal in women), often awakening the patient at night. **Podagra** (1st MTP joint) is the most common location. Triggers include purine-rich foods (red meat, seafood), beer and liquor, dehydration, diuretics, and surgery. Chronic tophaceous gout produces firm subcutaneous nodules (tophi) on the ears, olecranon bursa, and Achilles tendon.",
+    "classic_presentation": "Acute gout classically presents as sudden, severe monoarticular arthritis in a middle-aged or older man (postmenopausal in women), often awakening the patient at night. Podagra (1st MTP joint) is the most common location. Triggers include purine-rich foods (red meat, seafood), beer and liquor, dehydration, diuretics, and surgery. Chronic tophaceous gout produces firm subcutaneous nodules (tophi) on the ears, olecranon bursa, and Achilles tendon.",
     "attending_mode_notes": null,
-    "pathophysiology": "Gout results from precipitation of **monosodium urate crystals** in joints and soft tissue in the setting of hyperuricemia. Hyperuricemia most commonly arises from **underexcretion** of uric acid (90% of cases; worsened by thiazides, loop diuretics, alcohol, and renal insufficiency) or from overproduction (Lesch-Nyhan syndrome, HGPRT deficiency, tumor lysis, myeloproliferative disease). Crystals activate the NLRP3 inflammasome, driving IL-1 beta release and a neutrophilic inflammatory response.",
-    "treatment_overview": "Acute attacks are treated with **NSAIDs (indomethacin)**, **colchicine**, or oral/intra-articular glucocorticoids. Do NOT start urate-lowering therapy during an acute flare but do not stop it if already on it. Chronic prevention uses **allopurinol** (xanthine oxidase inhibitor) or febuxostat; uricosurics such as probenecid can be used if the patient is an under-excretor with normal renal function. Pegloticase is reserved for refractory tophaceous gout. Lifestyle changes: weight loss, limit alcohol and purine-rich foods.",
+    "pathophysiology": "Gout results from precipitation of monosodium urate crystals in joints and soft tissue in the setting of hyperuricemia. Hyperuricemia most commonly arises from underexcretion of uric acid (90% of cases; worsened by thiazides, loop diuretics, alcohol, and renal insufficiency) or from overproduction (Lesch-Nyhan syndrome, HGPRT deficiency, tumor lysis, myeloproliferative disease). Crystals activate the NLRP3 inflammasome, driving IL-1 beta release and a neutrophilic inflammatory response.",
+    "treatment_overview": "Acute attacks are treated with NSAIDs (indomethacin), colchicine, or oral/intra-articular glucocorticoids. Do NOT start urate-lowering therapy during an acute flare but do not stop it if already on it. Chronic prevention uses allopurinol (xanthine oxidase inhibitor) or febuxostat; uricosurics such as probenecid can be used if the patient is an under-excretor with normal renal function. Pegloticase is reserved for refractory tophaceous gout. Lifestyle changes: weight loss, limit alcohol and purine-rich foods.",
     "high_yield_pearls": [
       "Gout crystals = needle-shaped, negatively birefringent, yellow under parallel polarized light (mnemonic: 'parallel yellow, perpendicular blue').",
       "Pseudogout (CPPD) crystals = rhomboid-shaped, positively birefringent, blue when parallel to the red compensator axis.",

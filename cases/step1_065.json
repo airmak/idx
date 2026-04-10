@@ -6,7 +6,7 @@
   "icd_category": "M06.9 — Rheumatoid arthritis, unspecified",
   "one_liner": "A 45-year-old woman presents with 4 months of progressive symmetric pain and swelling in the small joints of both hands, worst in the morning. She reports stiffness lasting nearly two hours after waking.",
   "stage2": {
-    "hpi_extension": "Symptoms began insidiously and now involve the MCP and PIP joints of both hands and both wrists. She describes **morning stiffness lasting about 90 minutes** that improves with activity. She also notes fatigue, a low-grade fever, and an unintentional 4-kg weight loss. Over the last month she has struggled to open jars and button her shirts. She denies rash, Raynaud phenomenon, oral ulcers, or low back pain.",
+    "hpi_extension": "Symptoms began insidiously and now involve the MCP and PIP joints of both hands and both wrists. She describes morning stiffness lasting about 90 minutes that improves with activity. She also notes fatigue, a low-grade fever, and an unintentional 4-kg weight loss. Over the last month she has struggled to open jars and button her shirts. She denies rash, Raynaud phenomenon, oral ulcers, or low back pain.",
     "pmh": "Hypothyroidism",
     "surgical_history": "None",
     "medications": "Levothyroxine",
@@ -20,13 +20,13 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: fatigued-appearing. Hands: **symmetric swelling and tenderness of the MCP and PIP joints bilaterally** with sparing of the DIP joints. **Warm, boggy synovitis** is palpated at the wrists. Early **ulnar deviation at the MCPs** and a subtle **swan-neck deformity** of the left ring finger. A firm, non-tender **subcutaneous nodule** is present over the right olecranon. Grip strength reduced bilaterally. No rash. Lungs clear. Heart regular."
+    "physical_exam": "General: fatigued-appearing. Hands: symmetric swelling and tenderness of the MCP and PIP joints bilaterally with sparing of the DIP joints. Warm, boggy synovitis is palpated at the wrists. Early ulnar deviation at the MCPs and a subtle swan-neck deformity of the left ring finger. A firm, non-tender subcutaneous nodule is present over the right olecranon. Grip strength reduced bilaterally. No rash. Lungs clear. Heart regular."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Rheumatoid factor (RF) positive** at high titer. **Anti-cyclic citrullinated peptide (anti-CCP) antibodies strongly positive**. ANA negative.",
+        "result": "Rheumatoid factor (RF) positive at high titer. Anti-cyclic citrullinated peptide (anti-CCP) antibodies strongly positive. ANA negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Anti-CCP is more specific than RF for rheumatoid arthritis and predicts erosive disease. Together with symmetric small-joint synovitis, these serologies are diagnostic."
       },
@@ -38,7 +38,7 @@
       },
       {
         "test_name": "Imaging study",
-        "result": "Plain radiographs of the hands: **periarticular osteopenia**, **marginal bony erosions at the MCP and PIP joints**, and symmetric **joint space narrowing**. No osteophytes.",
+        "result": "Plain radiographs of the hands: periarticular osteopenia, marginal bony erosions at the MCP and PIP joints, and symmetric joint space narrowing. No osteophytes.",
         "flag": "ABNORMAL",
         "clinical_significance": "Marginal erosions with periarticular osteopenia and symmetric MCP/PIP involvement (sparing DIPs) is the classic radiographic pattern of rheumatoid arthritis and distinguishes it from osteoarthritis."
       }
@@ -65,8 +65,8 @@
   "debrief": {
     "classic_presentation": "Rheumatoid arthritis typically presents in women (3:1) aged 30-50 with insidious onset of symmetric polyarthritis affecting the MCPs, PIPs, and wrists with sparing of the DIPs. Morning stiffness lasting more than one hour that improves with activity is a hallmark. Extra-articular features include rheumatoid nodules, interstitial lung disease, pericarditis, scleritis, and Felty syndrome (RA + splenomegaly + neutropenia).",
     "attending_mode_notes": null,
-    "pathophysiology": "RA is a chronic systemic autoimmune disease driven by autoreactive T cells and B cells producing autoantibodies against citrullinated self-proteins. There is a strong association with **HLA-DR4**. Synovial inflammation leads to a hypertrophic, vascularized **pannus** that invades and erodes cartilage and subchondral bone. Cytokines such as TNF-alpha, IL-1, and IL-6 drive joint destruction and systemic inflammation. Smoking is a major environmental risk factor.",
-    "treatment_overview": "Early initiation of disease-modifying antirheumatic drugs (DMARDs) is essential to prevent joint destruction. **Methotrexate** is first-line. Low-dose glucocorticoids bridge the gap until DMARDs take effect. Biologic DMARDs include TNF-alpha inhibitors (etanercept, infliximab, adalimumab), IL-6 inhibitors (tocilizumab), anti-CD20 (rituximab), and JAK inhibitors (tofacitinib). NSAIDs are used for symptom control.",
+    "pathophysiology": "RA is a chronic systemic autoimmune disease driven by autoreactive T cells and B cells producing autoantibodies against citrullinated self-proteins. There is a strong association with HLA-DR4. Synovial inflammation leads to a hypertrophic, vascularized pannus that invades and erodes cartilage and subchondral bone. Cytokines such as TNF-alpha, IL-1, and IL-6 drive joint destruction and systemic inflammation. Smoking is a major environmental risk factor.",
+    "treatment_overview": "Early initiation of disease-modifying antirheumatic drugs (DMARDs) is essential to prevent joint destruction. Methotrexate is first-line. Low-dose glucocorticoids bridge the gap until DMARDs take effect. Biologic DMARDs include TNF-alpha inhibitors (etanercept, infliximab, adalimumab), IL-6 inhibitors (tocilizumab), anti-CD20 (rituximab), and JAK inhibitors (tofacitinib). NSAIDs are used for symptom control.",
     "high_yield_pearls": [
       "Anti-CCP antibodies are more specific than rheumatoid factor and predict aggressive erosive disease.",
       "RA spares the DIP joints (which are involved in osteoarthritis and psoriatic arthritis).",

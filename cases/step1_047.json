@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: tired-appearing, puffy. HEENT: **periorbital puffiness**, coarse dry skin, thinning eyebrows (lateral third). Neck: **diffusely enlarged, firm, non-tender ('rubbery') goiter** with a bumpy/bosselated surface; no bruit. CV: **bradycardic**, regular. Resp: clear. Abdomen: soft, non-tender. Extremities: **non-pitting edema**. Skin: dry, cool. Neuro: **delayed relaxation phase of deep tendon reflexes** ('hung-up' reflexes)."
+    "physical_exam": "General: tired-appearing, puffy. HEENT: periorbital puffiness, coarse dry skin, thinning eyebrows (lateral third). Neck: diffusely enlarged, firm, non-tender ('rubbery') goiter with a bumpy/bosselated surface; no bruit. CV: bradycardic, regular. Resp: clear. Abdomen: soft, non-tender. Extremities: non-pitting edema. Skin: dry, cool. Neuro: delayed relaxation phase of deep tendon reflexes ('hung-up' reflexes)."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**TSH markedly elevated (22 mIU/L)**. **Free T4 low (0.6 ng/dL)**. Free T3 low-normal. Prolactin mildly elevated.",
+        "result": "TSH markedly elevated (22 mIU/L). Free T4 low (0.6 ng/dL). Free T3 low-normal. Prolactin mildly elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "Elevated TSH with low free T4 confirms primary hypothyroidism. TRH-driven prolactin elevation is a common incidental finding. In an adult with goiter and hypothyroidism, autoimmune (Hashimoto) thyroiditis is the leading cause in iodine-sufficient regions."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Anti-thyroid peroxidase (anti-TPO) antibodies markedly positive**. **Anti-thyroglobulin antibodies positive**. TSI (thyroid stimulating immunoglobulin) negative.",
+        "result": "Anti-thyroid peroxidase (anti-TPO) antibodies markedly positive. Anti-thyroglobulin antibodies positive. TSI (thyroid stimulating immunoglobulin) negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Positive anti-TPO and anti-thyroglobulin antibodies are the serologic hallmark of Hashimoto thyroiditis. Negative TSI excludes Graves disease. Hashimoto is associated with HLA-DR3 and HLA-DR5."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**LDL cholesterol elevated**, **hyponatremia (Na 132)**, mildly elevated creatine kinase. Fasting glucose normal.",
+        "result": "LDL cholesterol elevated, hyponatremia (Na 132), mildly elevated creatine kinase. Fasting glucose normal.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hypothyroidism causes hyperlipidemia (decreased LDL receptor expression), mild hyponatremia (reduced free water clearance), and mild CK elevation from myopathy. These peripheral findings support longstanding hypothyroidism."
       }

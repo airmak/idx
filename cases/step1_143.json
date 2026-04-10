@@ -6,7 +6,7 @@
   "icd_category": "D75.82 -- Heparin induced thrombocytopenia (HIT)",
   "one_liner": "A 68-year-old man 7 days after a coronary artery bypass graft develops a sudden drop in platelet count and a painful, cold, pulseless left leg.",
   "stage2": {
-    "hpi_extension": "He underwent CABG 7 days ago and has been on **prophylactic unfractionated heparin** since surgery. This morning the nursing team noted that his platelets fell from 240,000 on admission to **62,000/uL** today. He now reports sudden severe pain in the left leg with associated numbness over the past 2 hours. He denies fever, bleeding, chest pain, or shortness of breath. He has had no mucocutaneous or surgical site bleeding. This is his first known heparin exposure.",
+    "hpi_extension": "He underwent CABG 7 days ago and has been on prophylactic unfractionated heparin since surgery. This morning the nursing team noted that his platelets fell from 240,000 on admission to 62,000/uL today. He now reports sudden severe pain in the left leg with associated numbness over the past 2 hours. He denies fever, bleeding, chest pain, or shortness of breath. He has had no mucocutaneous or surgical site bleeding. This is his first known heparin exposure.",
     "pmh": "Coronary artery disease, hypertension, hyperlipidemia, type 2 diabetes",
     "surgical_history": "Coronary artery bypass grafting (CABG) 7 days ago",
     "medications": "Unfractionated heparin subQ prophylaxis, aspirin, metoprolol, atorvastatin, lisinopril, insulin",
@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "96% on room air"
     },
-    "physical_exam": "General: uncomfortable due to left leg pain. Cardiovascular: regular with healed sternotomy incision, no murmurs. Lungs: clear. Abdomen: benign. **Left lower extremity: cool, pale, mottled, with absent dorsalis pedis and posterior tibial pulses, severe calf tenderness**. **Right lower extremity warm with intact pulses.** Skin: **NO petechiae, NO purpura, NO mucosal bleeding, NO bleeding at the surgical site**. Sternotomy well-healed with no erythema."
+    "physical_exam": "General: uncomfortable due to left leg pain. Cardiovascular: regular with healed sternotomy incision, no murmurs. Lungs: clear. Abdomen: benign. Left lower extremity: cool, pale, mottled, with absent dorsalis pedis and posterior tibial pulses, severe calf tenderness. Right lower extremity warm with intact pulses. Skin: NO petechiae, NO purpura, NO mucosal bleeding, NO bleeding at the surgical site. Sternotomy well-healed with no erythema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "**Platelets 62,000/uL (down from 240,000 on admission -- >50% drop)**. Hgb 10.8 g/dL, WBC 9.4. Smear: **thrombocytopenia without schistocytes, normal RBC morphology, no blasts**.",
+        "result": "Platelets 62,000/uL (down from 240,000 on admission -- >50% drop). Hgb 10.8 g/dL, WBC 9.4. Smear: thrombocytopenia without schistocytes, normal RBC morphology, no blasts.",
         "flag": "ABNORMAL",
         "clinical_significance": "A drop of >50% from baseline occurring 5-10 days after starting heparin, with thrombocytopenia in the absence of schistocytes or bleeding, should prompt a 4Ts score calculation and immediate suspicion of HIT."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Anti-PF4/heparin IgG antibodies (PF4-ELISA): STRONGLY POSITIVE**. Confirmatory **serotonin release assay (SRA): POSITIVE**.",
+        "result": "Anti-PF4/heparin IgG antibodies (PF4-ELISA): STRONGLY POSITIVE. Confirmatory serotonin release assay (SRA): POSITIVE.",
         "flag": "ABNORMAL",
         "clinical_significance": "IgG antibodies against platelet factor 4 (PF4)-heparin complexes bind to platelet Fc-gamma receptor IIa, activating platelets and causing their aggregation and consumption. A positive serotonin release assay is the confirmatory functional test and is highly specific for HIT."
       },
       {
         "test_name": "Imaging study",
-        "result": "CT angiography of the left lower extremity: **acute arterial thrombus in the left popliteal artery with abrupt cutoff and absent distal runoff**, consistent with acute limb ischemia.",
+        "result": "CT angiography of the left lower extremity: acute arterial thrombus in the left popliteal artery with abrupt cutoff and absent distal runoff, consistent with acute limb ischemia.",
         "flag": "ABNORMAL",
         "clinical_significance": "Despite the thrombocytopenia, the dominant clinical problem in HIT is paradoxical thrombosis -- arterial and venous. Arterial thrombosis in a previously normal vessel 1 week after heparin exposure is classic for HIT with thrombosis (HITT)."
       }

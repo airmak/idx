@@ -6,7 +6,7 @@
   "icd_category": "C90.00 — Multiple myeloma, not having achieved remission",
   "one_liner": "A 68-year-old woman presents with 2 months of worsening low back pain, profound fatigue, and recurrent sinus infections. Recent lab work showed anemia and a creatinine of 2.3 mg/dL.",
   "stage2": {
-    "hpi_extension": "Her back pain is constant, worse with movement, and partially relieved by rest. She reports a 12-lb weight loss and new episodes of confusion attributed to 'dehydration' by her PCP. She has had **three sinus infections in the past 4 months** requiring antibiotics. No fevers or night sweats. She denies focal neurologic deficits or bowel/bladder dysfunction. She feels thirsty and urinates frequently.",
+    "hpi_extension": "Her back pain is constant, worse with movement, and partially relieved by rest. She reports a 12-lb weight loss and new episodes of confusion attributed to 'dehydration' by her PCP. She has had three sinus infections in the past 4 months requiring antibiotics. No fevers or night sweats. She denies focal neurologic deficits or bowel/bladder dysfunction. She feels thirsty and urinates frequently.",
     "pmh": "Hypertension, osteoarthritis.",
     "surgical_history": "Cholecystectomy.",
     "medications": "Lisinopril, acetaminophen.",
@@ -20,27 +20,27 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: pale, thin, appears older than stated age. HEENT: pale conjunctivae. MSK: **point tenderness over the L2-L3 vertebral bodies**; limited lumbar range of motion; no midline step-off. Neuro: strength 5/5, sensation intact, reflexes symmetric, no saddle anesthesia. Cardiac/pulmonary: unremarkable. Abdomen: soft, no hepatosplenomegaly. Skin: no petechiae."
+    "physical_exam": "General: pale, thin, appears older than stated age. HEENT: pale conjunctivae. MSK: point tenderness over the L2-L3 vertebral bodies; limited lumbar range of motion; no midline step-off. Neuro: strength 5/5, sensation intact, reflexes symmetric, no saddle anesthesia. Cardiac/pulmonary: unremarkable. Abdomen: soft, no hepatosplenomegaly. Skin: no petechiae."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 5.2k, Hgb 8.4 g/dL (normocytic), platelets 140k. Smear: **stacks of RBCs resembling coins — rouleaux formation**. ESR markedly elevated (>100 mm/hr).",
+        "result": "WBC 5.2k, Hgb 8.4 g/dL (normocytic), platelets 140k. Smear: stacks of RBCs resembling coins — rouleaux formation. ESR markedly elevated (>100 mm/hr).",
         "flag": "ABNORMAL",
         "clinical_significance": "Normocytic anemia with rouleaux and a markedly elevated ESR reflects high serum paraprotein, classic for multiple myeloma."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Serum protein electrophoresis (SPEP): tall narrow M-spike in the gamma region**. Immunofixation: monoclonal **IgG kappa**. Quantitative IgG markedly elevated; IgA and IgM suppressed. Serum free light chains: kappa elevated, abnormal κ/λ ratio. β2-microglobulin elevated.",
+        "result": "Serum protein electrophoresis (SPEP): tall narrow M-spike in the gamma region. Immunofixation: monoclonal IgG kappa. Quantitative IgG markedly elevated; IgA and IgM suppressed. Serum free light chains: kappa elevated, abnormal κ/λ ratio. β2-microglobulin elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "Monoclonal IgG kappa paraprotein (M-spike) with suppression of other immunoglobulins is diagnostic of multiple myeloma. β2-microglobulin is a staging marker."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Calcium 12.6 mg/dL (elevated)**, **creatinine 2.3 mg/dL (elevated)**, BUN 42. Albumin 3.0, total protein 10.2 (large gap reflecting globulins). **Urine protein electrophoresis: Bence Jones proteinuria** (monoclonal kappa light chains). Urinalysis dipstick is only mildly positive for protein (dipstick detects albumin, not light chains).",
+        "result": "Calcium 12.6 mg/dL (elevated), creatinine 2.3 mg/dL (elevated), BUN 42. Albumin 3.0, total protein 10.2 (large gap reflecting globulins). Urine protein electrophoresis: Bence Jones proteinuria (monoclonal kappa light chains). Urinalysis dipstick is only mildly positive for protein (dipstick detects albumin, not light chains).",
         "flag": "ABNORMAL",
-        "clinical_significance": "Meets **CRAB criteria**: hyperCalcemia, Renal failure (light chain cast nephropathy), Anemia, and — with imaging — Bone lesions. Bence Jones proteinuria is the classic urinary finding."
+        "clinical_significance": "Meets CRAB criteria: hyperCalcemia, Renal failure (light chain cast nephropathy), Anemia, and — with imaging — Bone lesions. Bence Jones proteinuria is the classic urinary finding."
       }
     ],
     "imaging_results": [],
@@ -60,10 +60,10 @@
     ]
   },
   "stage5": {
-    "final_clue": "Skeletal survey shows **multiple well-circumscribed 'punched-out' lytic lesions in the skull and lumbar vertebrae**. Bone marrow biopsy reveals >30% clonal plasma cells with eccentric nuclei and perinuclear hof, confirming multiple myeloma."
+    "final_clue": "Skeletal survey shows multiple well-circumscribed 'punched-out' lytic lesions in the skull and lumbar vertebrae. Bone marrow biopsy reveals >30% clonal plasma cells with eccentric nuclei and perinuclear hof, confirming multiple myeloma."
   },
   "debrief": {
-    "classic_presentation": "Multiple myeloma is a plasma cell neoplasm of older adults (median age ~65) presenting with the **CRAB criteria**: hyperCalcemia (causing confusion, constipation, polyuria), Renal failure (light chain cast nephropathy), Anemia (marrow infiltration), and Bone pain / lytic lesions (especially skull, spine, pelvis). Other features include recurrent infections (from functional hypogammaglobulinemia despite elevated total IgG), hyperviscosity, and pathologic fractures. A rouleaux smear and markedly elevated ESR are classic.",
+    "classic_presentation": "Multiple myeloma is a plasma cell neoplasm of older adults (median age ~65) presenting with the CRAB criteria: hyperCalcemia (causing confusion, constipation, polyuria), Renal failure (light chain cast nephropathy), Anemia (marrow infiltration), and Bone pain / lytic lesions (especially skull, spine, pelvis). Other features include recurrent infections (from functional hypogammaglobulinemia despite elevated total IgG), hyperviscosity, and pathologic fractures. A rouleaux smear and markedly elevated ESR are classic.",
     "attending_mode_notes": null,
     "pathophysiology": "Multiple myeloma is a monoclonal proliferation of malignant plasma cells in the bone marrow that secrete a single abnormal immunoglobulin (monoclonal gammopathy, 'M-spike'; most often IgG, next IgA). Malignant plasma cells activate osteoclasts via RANKL, producing osteolytic (not osteoblastic) lesions — alkaline phosphatase is usually normal. Free light chains (Bence Jones protein) filter into urine and precipitate in tubules, causing cast nephropathy. Hypercalcemia arises from bone destruction. Functional immunoparesis causes susceptibility to encapsulated bacterial infections.",
     "treatment_overview": "First-line therapy typically combines a proteasome inhibitor (bortezomib), an immunomodulatory drug (lenalidomide), and dexamethasone (VRd). Eligible patients proceed to autologous hematopoietic stem cell transplant. Supportive care: bisphosphonates or denosumab for bone disease, hydration and avoidance of nephrotoxins for renal protection, vaccination and prophylactic antibiotics for infection prevention, and radiation for focal bone pain.",

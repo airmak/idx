@@ -6,7 +6,7 @@
   "icd_category": "G61.0 — Guillain-Barré syndrome",
   "one_liner": "A 40-year-old previously healthy man presents with four days of progressive bilateral lower extremity weakness that began in his feet and is now ascending to his thighs. Two weeks ago he had a self-limited diarrheal illness.",
   "stage2": {
-    "hpi_extension": "Weakness began as difficulty climbing stairs, then progressed to trouble standing from a chair, and this morning he fell trying to walk. He reports **paresthesias in the feet and hands** but no clear sensory level. **He now complains of shortness of breath**. No bowel or bladder dysfunction. Two weeks prior he had 3 days of bloody diarrhea after a picnic that resolved without treatment. **No fevers, no headache, no back pain, no focal cranial symptoms initially, though today he notices bilateral facial weakness**.",
+    "hpi_extension": "Weakness began as difficulty climbing stairs, then progressed to trouble standing from a chair, and this morning he fell trying to walk. He reports paresthesias in the feet and hands but no clear sensory level. He now complains of shortness of breath. No bowel or bladder dysfunction. Two weeks prior he had 3 days of bloody diarrhea after a picnic that resolved without treatment. No fevers, no headache, no back pain, no focal cranial symptoms initially, though today he notices bilateral facial weakness.",
     "pmh": "None",
     "surgical_history": "None",
     "medications": "None",
@@ -20,19 +20,19 @@
       "rr": "22",
       "spo2": "95% on room air"
     },
-    "physical_exam": "General: anxious, tachypneic. Neuro: **symmetric flaccid weakness, 2/5 in lower extremities and 4/5 in upper extremities (ascending pattern)**. **Areflexia throughout** — no patellar, Achilles, biceps, or brachioradialis reflexes. **Bilateral facial weakness (peripheral pattern, bilateral CN VII involvement)**. Sensation grossly intact with mild stocking-glove paresthesias. **Vital capacity at bedside: 1.2 L (reduced — normal ~3-4 L)**. Negative inspiratory force diminished. **Autonomic instability with labile BP and tachycardia**. No meningismus, no back tenderness."
+    "physical_exam": "General: anxious, tachypneic. Neuro: symmetric flaccid weakness, 2/5 in lower extremities and 4/5 in upper extremities (ascending pattern). Areflexia throughout — no patellar, Achilles, biceps, or brachioradialis reflexes. Bilateral facial weakness (peripheral pattern, bilateral CN VII involvement). Sensation grossly intact with mild stocking-glove paresthesias. Vital capacity at bedside: 1.2 L (reduced — normal ~3-4 L). Negative inspiratory force diminished. Autonomic instability with labile BP and tachycardia. No meningismus, no back tenderness."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CSF analysis (lumbar puncture)",
-        "result": "Opening pressure normal. Cells: 2 WBC/µL. **Protein: 180 mg/dL (markedly elevated)**. Glucose: normal. Gram stain and cultures negative. **Albuminocytologic dissociation (elevated protein with normal cell count)**.",
+        "result": "Opening pressure normal. Cells: 2 WBC/µL. Protein: 180 mg/dL (markedly elevated). Glucose: normal. Gram stain and cultures negative. Albuminocytologic dissociation (elevated protein with normal cell count).",
         "flag": "ABNORMAL",
         "clinical_significance": "Albuminocytologic dissociation is the classic CSF finding in GBS. The elevated protein reflects breakdown of the blood-nerve barrier at inflamed nerve roots; the absence of pleocytosis distinguishes it from infectious meningitis or HIV-related GBS."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**Nerve conduction studies: prolonged distal latencies, slowed conduction velocities, prolonged or absent F waves, and conduction block — consistent with an acquired demyelinating polyneuropathy (AIDP pattern)**. Needle EMG shows decreased recruitment without acute denervation early on.",
+        "result": "Nerve conduction studies: prolonged distal latencies, slowed conduction velocities, prolonged or absent F waves, and conduction block — consistent with an acquired demyelinating polyneuropathy (AIDP pattern). Needle EMG shows decreased recruitment without acute denervation early on.",
         "flag": "ABNORMAL",
         "clinical_significance": "NCS/EMG findings of demyelination with prolonged F waves (reflecting proximal/root involvement) confirm acute inflammatory demyelinating polyradiculoneuropathy, the most common form of Guillain-Barré syndrome."
       }
@@ -54,13 +54,13 @@
     ]
   },
   "stage5": {
-    "final_clue": "Stool studies from his preceding illness return positive for **Campylobacter jejuni**. He is admitted to the ICU for respiratory monitoring and started on IVIG with gradual improvement over the next two weeks."
+    "final_clue": "Stool studies from his preceding illness return positive for Campylobacter jejuni. He is admitted to the ICU for respiratory monitoring and started on IVIG with gradual improvement over the next two weeks."
   },
   "debrief": {
-    "classic_presentation": "Guillain-Barré syndrome classically presents with **acute, symmetric, ascending flaccid paralysis with areflexia** developing 1-3 weeks after an antecedent infection (classically Campylobacter jejuni gastroenteritis, also CMV, EBV, Mycoplasma, Zika, or a recent URI). Motor symptoms dominate but mild paresthesias are common. Bilateral facial weakness and autonomic instability (labile BP, arrhythmias) are frequent. **Respiratory failure requiring intubation occurs in ~30%** and is the leading cause of death. The Miller Fisher variant presents with ophthalmoplegia, ataxia, and areflexia.",
+    "classic_presentation": "Guillain-Barré syndrome classically presents with acute, symmetric, ascending flaccid paralysis with areflexia developing 1-3 weeks after an antecedent infection (classically Campylobacter jejuni gastroenteritis, also CMV, EBV, Mycoplasma, Zika, or a recent URI). Motor symptoms dominate but mild paresthesias are common. Bilateral facial weakness and autonomic instability (labile BP, arrhythmias) are frequent. Respiratory failure requiring intubation occurs in ~30% and is the leading cause of death. The Miller Fisher variant presents with ophthalmoplegia, ataxia, and areflexia.",
     "attending_mode_notes": null,
-    "pathophysiology": "GBS is an autoimmune polyradiculoneuropathy caused by **molecular mimicry**: antibodies generated against surface epitopes of an infecting organism (e.g., the lipooligosaccharide of Campylobacter jejuni) cross-react with ganglioside epitopes on peripheral nerve myelin and axons. In the most common Western form (acute inflammatory demyelinating polyradiculoneuropathy, AIDP), macrophage-mediated segmental demyelination occurs at the nerve roots and peripheral nerves, slowing or blocking conduction. Axonal variants (AMAN, AMSAN) are more common in Asia and after C. jejuni infection.",
-    "treatment_overview": "Management is primarily supportive: **ICU admission with frequent vital capacity measurement; intubate for VC <15-20 mL/kg or NIF worsening**. Treat autonomic instability cautiously. Disease-modifying therapy: **IVIG or plasmapheresis** shortens recovery time and reduces residual disability; they are equally effective but not combined. **Steroids are NOT beneficial** in GBS (important contrast to CIDP and MS). DVT prophylaxis, pain control, and physical therapy are essential. Prognosis is generally good — ~80% regain full or near-full function within a year.",
+    "pathophysiology": "GBS is an autoimmune polyradiculoneuropathy caused by molecular mimicry: antibodies generated against surface epitopes of an infecting organism (e.g., the lipooligosaccharide of Campylobacter jejuni) cross-react with ganglioside epitopes on peripheral nerve myelin and axons. In the most common Western form (acute inflammatory demyelinating polyradiculoneuropathy, AIDP), macrophage-mediated segmental demyelination occurs at the nerve roots and peripheral nerves, slowing or blocking conduction. Axonal variants (AMAN, AMSAN) are more common in Asia and after C. jejuni infection.",
+    "treatment_overview": "Management is primarily supportive: ICU admission with frequent vital capacity measurement; intubate for VC <15-20 mL/kg or NIF worsening. Treat autonomic instability cautiously. Disease-modifying therapy: IVIG or plasmapheresis shortens recovery time and reduces residual disability; they are equally effective but not combined. Steroids are NOT beneficial in GBS (important contrast to CIDP and MS). DVT prophylaxis, pain control, and physical therapy are essential. Prognosis is generally good — ~80% regain full or near-full function within a year.",
     "high_yield_pearls": [
       "GBS = ascending symmetric flaccid paralysis + areflexia, classically 1-3 weeks after Campylobacter jejuni gastroenteritis.",
       "CSF: albuminocytologic dissociation (elevated protein with normal/near-normal WBC count). Pleocytosis should prompt consideration of HIV or Lyme.",

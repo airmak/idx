@@ -6,7 +6,7 @@
   "icd_category": "K50 — Crohn disease (regional enteritis)",
   "one_liner": "A 22-year-old woman presents with 4 months of crampy right lower quadrant pain, chronic non-bloody diarrhea, and a 12-lb unintentional weight loss. She also reports painful red nodules on her shins and occasional eye redness.",
   "stage2": {
-    "hpi_extension": "She has had intermittent crampy RLQ pain and 4–6 loose, non-bloody stools per day for 4 months. She has felt fatigued, lost 12 pounds, and has low-grade fevers. She also describes tender red subcutaneous nodules over her shins (**erythema nodosum**), episodes of painful red eyes (**episcleritis**), and a painful perianal lesion that has been draining pus. No recent travel or antibiotic exposure.",
+    "hpi_extension": "She has had intermittent crampy RLQ pain and 4–6 loose, non-bloody stools per day for 4 months. She has felt fatigued, lost 12 pounds, and has low-grade fevers. She also describes tender red subcutaneous nodules over her shins (erythema nodosum), episodes of painful red eyes (episcleritis), and a painful perianal lesion that has been draining pus. No recent travel or antibiotic exposure.",
     "pmh": "Iron deficiency anemia",
     "surgical_history": "None",
     "medications": "Oral iron",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "Thin young woman. Skin: **tender erythematous nodules on both anterior shins (erythema nodosum)**. Eyes: mild conjunctival injection. Oral cavity: small aphthous ulcer. Abdomen: **tenderness in the right lower quadrant with a vague palpable mass**, no peritoneal signs. Perianal exam: **perianal skin tag and a draining fistula opening**. Digital rectal exam: no gross blood."
+    "physical_exam": "Thin young woman. Skin: tender erythematous nodules on both anterior shins (erythema nodosum). Eyes: mild conjunctival injection. Oral cavity: small aphthous ulcer. Abdomen: tenderness in the right lower quadrant with a vague palpable mass, no peritoneal signs. Perianal exam: perianal skin tag and a draining fistula opening. Digital rectal exam: no gross blood."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "ESR 62 mm/hr (HIGH), CRP 48 mg/L (HIGH). **Fecal calprotectin markedly elevated**. Stool studies (C. diff, ova/parasites, cultures) negative.",
+        "result": "ESR 62 mm/hr (HIGH), CRP 48 mg/L (HIGH). Fecal calprotectin markedly elevated. Stool studies (C. diff, ova/parasites, cultures) negative.",
         "flag": "HIGH",
         "clinical_significance": "Elevated inflammatory markers and fecal calprotectin indicate active intestinal inflammation and exclude infectious mimics."
       },
       {
         "test_name": "Imaging study",
-        "result": "CT enterography: **segmental wall thickening and mucosal enhancement of the terminal ileum with surrounding mesenteric fat stranding ('creeping fat')** and a narrowed luminal caliber ('string sign'). Skip areas noted in proximal small bowel. Small fistulous tract toward the cecum.",
+        "result": "CT enterography: segmental wall thickening and mucosal enhancement of the terminal ileum with surrounding mesenteric fat stranding ('creeping fat') and a narrowed luminal caliber ('string sign'). Skip areas noted in proximal small bowel. Small fistulous tract toward the cecum.",
         "flag": "ABNORMAL",
         "clinical_significance": "Terminal ileitis with skip lesions, creeping fat, and the string sign are hallmark radiographic features of Crohn disease and distinguish it from ulcerative colitis."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Ileocolonoscopy with biopsy: **cobblestoning of the terminal ileal mucosa with linear (aphthous) ulcers and skip lesions**; the rectum is spared. Histology: **transmural lymphoid aggregates and non-caseating granulomas**.",
+        "result": "Ileocolonoscopy with biopsy: cobblestoning of the terminal ileal mucosa with linear (aphthous) ulcers and skip lesions; the rectum is spared. Histology: transmural lymphoid aggregates and non-caseating granulomas.",
         "flag": "ABNORMAL",
         "clinical_significance": "Transmural inflammation with non-caseating granulomas and skip lesions involving the terminal ileum is diagnostic of Crohn disease."
       }

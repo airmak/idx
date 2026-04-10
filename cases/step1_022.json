@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "95% on room air"
     },
-    "physical_exam": "General: thin, mildly ill-appearing man. HEENT: oral mucosa normal, no thrush. Neck: no lymphadenopathy. Pulmonary: **post-tussive rales and bronchial breath sounds over the right upper lobe**, with dullness to percussion. Cardiac: regular, no murmurs. Abdomen: soft, non-tender, no hepatosplenomegaly. Skin: no rashes; **BCG vaccination scar on left deltoid**."
+    "physical_exam": "General: thin, mildly ill-appearing man. HEENT: oral mucosa normal, no thrush. Neck: no lymphadenopathy. Pulmonary: post-tussive rales and bronchial breath sounds over the right upper lobe, with dullness to percussion. Cardiac: regular, no murmurs. Abdomen: soft, non-tender, no hepatosplenomegaly. Skin: no rashes; BCG vaccination scar on left deltoid."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Chest X-ray: **cavitary lesion in the right upper lobe apex** with surrounding consolidation and hilar lymphadenopathy. **No calcified Ghon complex** (suggesting reactivation rather than primary TB). High-resolution CT confirms cavitation and **tree-in-bud opacities** indicating endobronchial spread.",
+        "result": "Chest X-ray: cavitary lesion in the right upper lobe apex with surrounding consolidation and hilar lymphadenopathy. No calcified Ghon complex (suggesting reactivation rather than primary TB). High-resolution CT confirms cavitation and tree-in-bud opacities indicating endobronchial spread.",
         "flag": "ABNORMAL",
         "clinical_significance": "Apical cavitation with tree-in-bud nodules is the classic imaging pattern of reactivation TB. Primary TB typically shows a Ghon complex (calcified peripheral granuloma + ipsilateral hilar lymph node)."
       },
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "Sputum **acid-fast bacilli (AFB) smear positive on all 3 samples** (Ziehl-Neelsen stain). Sputum **NAAT (nucleic acid amplification) positive for Mycobacterium tuberculosis**. Culture on Löwenstein-Jensen medium pending — typically takes 3–6 weeks to grow.",
+        "result": "Sputum acid-fast bacilli (AFB) smear positive on all 3 samples (Ziehl-Neelsen stain). Sputum NAAT (nucleic acid amplification) positive for Mycobacterium tuberculosis. Culture on Löwenstein-Jensen medium pending — typically takes 3–6 weeks to grow.",
         "flag": "ABNORMAL",
         "clinical_significance": "AFB smear and NAAT confirm pulmonary TB. Culture on Löwenstein-Jensen is gold standard but slow; NAAT allows rapid confirmation and early initiation of treatment with drug susceptibility data."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**Interferon-gamma release assay (IGRA / QuantiFERON-TB Gold) positive**. Tuberculin skin test (PPD) 18 mm induration at 48 hours (**positive**).",
+        "result": "Interferon-gamma release assay (IGRA / QuantiFERON-TB Gold) positive. Tuberculin skin test (PPD) 18 mm induration at 48 hours (positive).",
         "flag": "ABNORMAL",
         "clinical_significance": "IGRA detects interferon-gamma released by T cells exposed to TB-specific antigens and is preferred over PPD in BCG-vaccinated patients because it does not cross-react. Together with positive NAAT, confirms active TB infection."
       }
@@ -66,8 +66,8 @@
   "debrief": {
     "classic_presentation": "TB classically presents with chronic cough (>3 weeks), hemoptysis, drenching night sweats, fevers, weight loss, and fatigue ('consumption'). Risk factors include immigration from endemic areas (India, Sub-Saharan Africa, SE Asia), HIV infection, homelessness, incarceration, and healthcare work. Primary TB is often asymptomatic; reactivation TB (post-primary) affects the upper lobes where oxygen tension is highest.",
     "attending_mode_notes": null,
-    "pathophysiology": "Mycobacterium tuberculosis is an **acid-fast, aerobic bacillus** with a waxy mycolic-acid-rich cell wall. Inhaled droplets reach alveoli where they are phagocytosed by macrophages but resist killing due to sulfatides and cord factor (trehalose dimycolate). Th1 cells activate macrophages via IFN-γ, forming **caseating granulomas with Langhans giant cells and central caseous necrosis**. Primary TB localizes to the lower lobes (Ghon focus) plus hilar nodes (Ghon complex). Reactivation occurs in the upper-lobe apices due to high oxygen tension. Miliary TB = hematogenous dissemination with millet-seed nodules throughout organs.",
-    "treatment_overview": "Active TB: **RIPE therapy** — Rifampin (orange body fluids, CYP450 inducer), Isoniazid (peripheral neuropathy — give with B6/pyridoxine; hepatotoxic), Pyrazinamide (hepatotoxic, hyperuricemia), Ethambutol (optic neuritis, red-green color blindness). 2 months of RIPE, then 4 months of RI. Latent TB (positive PPD/IGRA, normal CXR, asymptomatic): isoniazid × 9 months, or rifampin × 4 months. Directly observed therapy (DOT) improves adherence.",
+    "pathophysiology": "Mycobacterium tuberculosis is an acid-fast, aerobic bacillus with a waxy mycolic-acid-rich cell wall. Inhaled droplets reach alveoli where they are phagocytosed by macrophages but resist killing due to sulfatides and cord factor (trehalose dimycolate). Th1 cells activate macrophages via IFN-γ, forming caseating granulomas with Langhans giant cells and central caseous necrosis. Primary TB localizes to the lower lobes (Ghon focus) plus hilar nodes (Ghon complex). Reactivation occurs in the upper-lobe apices due to high oxygen tension. Miliary TB = hematogenous dissemination with millet-seed nodules throughout organs.",
+    "treatment_overview": "Active TB: RIPE therapy — Rifampin (orange body fluids, CYP450 inducer), Isoniazid (peripheral neuropathy — give with B6/pyridoxine; hepatotoxic), Pyrazinamide (hepatotoxic, hyperuricemia), Ethambutol (optic neuritis, red-green color blindness). 2 months of RIPE, then 4 months of RI. Latent TB (positive PPD/IGRA, normal CXR, asymptomatic): isoniazid × 9 months, or rifampin × 4 months. Directly observed therapy (DOT) improves adherence.",
     "high_yield_pearls": [
       "Ghon complex = Ghon focus (calcified lower-lobe granuloma) + ipsilateral hilar lymph node calcification. Ranke complex = fibrosed/calcified Ghon complex after healing.",
       "Reactivation TB favors the upper lobe apices (highest O2 tension) — cavitary lesions are classic.",

@@ -6,7 +6,7 @@
   "icd_category": "D69.3 -- Immune thrombocytopenic purpura",
   "one_liner": "A 34-year-old woman presents with new-onset petechiae on her legs, spontaneous gum bleeding while brushing her teeth, and easy bruising that appeared over the past week.",
   "stage2": {
-    "hpi_extension": "Over the past 5-7 days she has developed a crop of **pinpoint red spots on her lower legs** and **several unexplained bruises** on her arms. She noticed bleeding when brushing her teeth yesterday and had a brief epistaxis this morning. She denies fever, weight loss, recent new medications, heparin exposure, vaccines, recent travel, or tick bites. She has not had any bloody diarrhea. She feels well and has no confusion or neurologic symptoms. No heavy menses yet but her next period is due.",
+    "hpi_extension": "Over the past 5-7 days she has developed a crop of pinpoint red spots on her lower legs and several unexplained bruises on her arms. She noticed bleeding when brushing her teeth yesterday and had a brief epistaxis this morning. She denies fever, weight loss, recent new medications, heparin exposure, vaccines, recent travel, or tick bites. She has not had any bloody diarrhea. She feels well and has no confusion or neurologic symptoms. No heavy menses yet but her next period is due.",
     "pmh": "Previously healthy",
     "surgical_history": "None",
     "medications": "None. No over-the-counter NSAIDs, no herbal supplements, no quinine, no recent antibiotics",
@@ -20,13 +20,13 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: well-appearing, alert, non-toxic. Skin: **diffuse petechiae over the bilateral lower extremities**, **scattered ecchymoses on the forearms**, **wet purpura (hemorrhagic blisters) on the buccal mucosa**. HEENT: no lymphadenopathy, no oral ulcers. Cardiovascular: normal. Abdomen: soft, non-tender, **NO splenomegaly, NO hepatomegaly**. Neuro: normal mental status, no focal deficits. No joint swelling."
+    "physical_exam": "General: well-appearing, alert, non-toxic. Skin: diffuse petechiae over the bilateral lower extremities, scattered ecchymoses on the forearms, wet purpura (hemorrhagic blisters) on the buccal mucosa. HEENT: no lymphadenopathy, no oral ulcers. Cardiovascular: normal. Abdomen: soft, non-tender, NO splenomegaly, NO hepatomegaly. Neuro: normal mental status, no focal deficits. No joint swelling."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "**Platelets: 12,000/uL (markedly low, isolated)**. Hgb 13.8 g/dL (normal), WBC 7.2 (normal differential). Smear: **isolated thrombocytopenia with scattered large immature platelets**, **NO schistocytes**, no blasts, no atypical lymphocytes, normal red cell morphology.",
+        "result": "Platelets: 12,000/uL (markedly low, isolated). Hgb 13.8 g/dL (normal), WBC 7.2 (normal differential). Smear: isolated thrombocytopenia with scattered large immature platelets, NO schistocytes, no blasts, no atypical lymphocytes, normal red cell morphology.",
         "flag": "ABNORMAL",
         "clinical_significance": "Isolated thrombocytopenia with large immature platelets on smear and otherwise normal red and white cell lines is classic for ITP. The absence of schistocytes rules out the microangiopathic hemolytic anemias (TTP, HUS, DIC). Normal RBC and WBC lines argue against bone marrow failure and leukemia."
       },
@@ -38,7 +38,7 @@
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "HIV negative, HCV negative. ANA negative. **Anti-platelet antibodies can be detected but are neither sensitive nor specific and are not required for the diagnosis.** H. pylori negative. Antiphospholipid antibodies negative.",
+        "result": "HIV negative, HCV negative. ANA negative. Anti-platelet antibodies can be detected but are neither sensitive nor specific and are not required for the diagnosis. H. pylori negative. Antiphospholipid antibodies negative.",
         "flag": "NORMAL",
         "clinical_significance": "Ruling out secondary causes of immune thrombocytopenia (HIV, HCV, SLE, antiphospholipid syndrome, H. pylori) is important. ITP remains a diagnosis of exclusion in the setting of isolated thrombocytopenia."
       }
@@ -60,7 +60,7 @@
     ]
   },
   "stage5": {
-    "final_clue": "A bone marrow biopsy (done only because she did not respond initially) shows **increased megakaryocytes with normal maturation**, confirming peripheral destruction rather than marrow failure. She responds to a course of IVIG and oral corticosteroids with a rapid rise in platelet count."
+    "final_clue": "A bone marrow biopsy (done only because she did not respond initially) shows increased megakaryocytes with normal maturation, confirming peripheral destruction rather than marrow failure. She responds to a course of IVIG and oral corticosteroids with a rapid rise in platelet count."
   },
   "debrief": {
     "classic_presentation": "ITP has two classic presentations. Acute ITP occurs in children 1-2 weeks after a viral infection or vaccination, is usually self-limited, and resolves spontaneously in most cases. Chronic ITP occurs in adults, more commonly in women, and has a more indolent course. Patients develop mucocutaneous bleeding: petechiae, purpura, gum bleeding, epistaxis, menorrhagia, and in severe cases intracranial hemorrhage. Physical exam is otherwise unremarkable -- importantly there is NO splenomegaly, no lymphadenopathy, and no constitutional symptoms.",

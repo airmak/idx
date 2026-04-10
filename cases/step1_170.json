@@ -6,7 +6,7 @@
   "icd_category": "O15 — Eclampsia",
   "one_liner": "A 24-year-old G1P0 woman at 34 weeks gestation is brought to the emergency department by her husband after a witnessed generalized tonic-clonic seizure at home.",
   "stage2": {
-    "hpi_extension": "Over the past three days she has had a worsening **severe frontal headache** and intermittent **blurry vision with flashing scotomata**. This morning she developed **right upper quadrant pain** and vomited twice. She then dropped to the floor with generalized tonic-clonic movements lasting about 90 seconds, followed by confusion. On the way to the ED she had a **second seizure**. Prenatal care has been limited; her last BP check at 28 weeks was 138/88.",
+    "hpi_extension": "Over the past three days she has had a worsening severe frontal headache and intermittent blurry vision with flashing scotomata. This morning she developed right upper quadrant pain and vomited twice. She then dropped to the floor with generalized tonic-clonic movements lasting about 90 seconds, followed by confusion. On the way to the ED she had a second seizure. Prenatal care has been limited; her last BP check at 28 weeks was 138/88.",
     "pmh": "Previously healthy. Nulliparous.",
     "surgical_history": "None",
     "medications": "Prenatal vitamins (intermittently taken)",
@@ -20,27 +20,27 @@
       "rr": "18",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: post-ictal, drowsy but arousable, moving all four extremities. HEENT: no papilledema, no tongue laceration. Cardiopulmonary: normal. Abdomen: gravid, fundal height 33 cm, **right upper quadrant tenderness**. Fetal heart tones 155 bpm, variable. Extremities: **3+ pitting edema to the thighs and hands**. Neuro: **4+ brisk patellar and biceps reflexes with ankle clonus**. Sterile speculum: cervix closed, no bleeding, no rupture of membranes."
+    "physical_exam": "General: post-ictal, drowsy but arousable, moving all four extremities. HEENT: no papilledema, no tongue laceration. Cardiopulmonary: normal. Abdomen: gravid, fundal height 33 cm, right upper quadrant tenderness. Fetal heart tones 155 bpm, variable. Extremities: 3+ pitting edema to the thighs and hands. Neuro: 4+ brisk patellar and biceps reflexes with ankle clonus. Sterile speculum: cervix closed, no bleeding, no rupture of membranes."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Urinalysis",
-        "result": "**Protein 4+ on dipstick**; **urine protein/creatinine ratio 1.2** (normal <0.3). No casts, no bacteria, no blood. Specific gravity 1.020.",
+        "result": "Protein 4+ on dipstick; urine protein/creatinine ratio 1.2 (normal <0.3). No casts, no bacteria, no blood. Specific gravity 1.020.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Heavy proteinuria in a pregnant woman >20 weeks with new hypertension establishes **preeclampsia**; with a new-onset seizure, the diagnosis is **eclampsia**."
+        "clinical_significance": "Heavy proteinuria in a pregnant woman >20 weeks with new hypertension establishes preeclampsia; with a new-onset seizure, the diagnosis is eclampsia."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Na 138, K 3.9, **Cr 1.2** (baseline ~0.6), BUN 20, **AST 135 / ALT 160** (elevated), bilirubin 1.4, **uric acid 7.8** (elevated for pregnancy). **Platelets 110,000** (low). LDH 320. Fibrinogen, PT/PTT normal. **Magnesium level pre-treatment 1.8 mg/dL**.",
+        "result": "Na 138, K 3.9, Cr 1.2 (baseline ~0.6), BUN 20, AST 135 / ALT 160 (elevated), bilirubin 1.4, uric acid 7.8 (elevated for pregnancy). Platelets 110,000 (low). LDH 320. Fibrinogen, PT/PTT normal. Magnesium level pre-treatment 1.8 mg/dL.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Rising creatinine, elevated transaminases, and thrombocytopenia meet criteria for **preeclampsia with severe features**; in a seizing patient this is **eclampsia**. Features overlap with evolving HELLP syndrome (must check hemolysis markers)."
+        "clinical_significance": "Rising creatinine, elevated transaminases, and thrombocytopenia meet criteria for preeclampsia with severe features; in a seizing patient this is eclampsia. Features overlap with evolving HELLP syndrome (must check hemolysis markers)."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 10.8, Hct 32%, **platelets 108,000** (low), WBC 12.4. **Smear shows occasional schistocytes**, suggestive of microangiopathic hemolysis.",
+        "result": "Hgb 10.8, Hct 32%, platelets 108,000 (low), WBC 12.4. Smear shows occasional schistocytes, suggestive of microangiopathic hemolysis.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Microangiopathic hemolytic anemia with thrombocytopenia raises concern for evolving **HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets)** — a severe variant of preeclampsia."
+        "clinical_significance": "Microangiopathic hemolytic anemia with thrombocytopenia raises concern for evolving HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets) — a severe variant of preeclampsia."
       }
     ],
     "imaging_results": [],
@@ -60,19 +60,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "**IV magnesium sulfate** (4–6 g loading dose, then 2 g/hour infusion) is started for seizure control and prophylaxis, along with **IV labetalol** for blood pressure. Deep tendon reflexes and respiratory rate are monitored for magnesium toxicity; **calcium gluconate** is kept at the bedside as the antidote. The only definitive treatment is **delivery**, so she is taken for urgent cesarean section after betamethasone. Postpartum she is monitored on magnesium for 24 hours."
+    "final_clue": "IV magnesium sulfate (4–6 g loading dose, then 2 g/hour infusion) is started for seizure control and prophylaxis, along with IV labetalol for blood pressure. Deep tendon reflexes and respiratory rate are monitored for magnesium toxicity; calcium gluconate is kept at the bedside as the antidote. The only definitive treatment is delivery, so she is taken for urgent cesarean section after betamethasone. Postpartum she is monitored on magnesium for 24 hours."
   },
   "debrief": {
-    "classic_presentation": "Eclampsia = **preeclampsia + new-onset generalized tonic-clonic seizure** (not attributable to another cause). Preeclampsia is defined after 20 weeks gestation as new-onset hypertension (BP >=140/90) plus either proteinuria or end-organ dysfunction. Severe features include BP >=160/110, platelets <100k, Cr >1.1 or doubled, transaminases >2x normal, pulmonary edema, and cerebral/visual symptoms (severe headache, scotomata, RUQ pain, hyperreflexia with clonus). A seizure in a pregnant patient after 20 weeks is eclampsia until proven otherwise.",
+    "classic_presentation": "Eclampsia = preeclampsia + new-onset generalized tonic-clonic seizure (not attributable to another cause). Preeclampsia is defined after 20 weeks gestation as new-onset hypertension (BP >=140/90) plus either proteinuria or end-organ dysfunction. Severe features include BP >=160/110, platelets <100k, Cr >1.1 or doubled, transaminases >2x normal, pulmonary edema, and cerebral/visual symptoms (severe headache, scotomata, RUQ pain, hyperreflexia with clonus). A seizure in a pregnant patient after 20 weeks is eclampsia until proven otherwise.",
     "attending_mode_notes": null,
-    "pathophysiology": "Preeclampsia arises from abnormal **remodeling of the maternal spiral arteries** by extravillous trophoblasts, resulting in a shallow, high-resistance placental circulation and placental ischemia. Ischemic placenta releases **anti-angiogenic factors (sFlt-1, soluble endoglin)** that bind VEGF and PlGF, causing widespread maternal endothelial dysfunction, vasoconstriction, and increased vascular permeability. The result is hypertension, proteinuria (glomerular endotheliosis), edema, hepatic dysfunction (periportal hemorrhage), thrombocytopenia, and cerebral vasospasm/edema. Seizures reflect a form of **posterior reversible encephalopathy syndrome (PRES)** from cerebral hyperperfusion and edema in the occipital lobes.",
-    "treatment_overview": "**Magnesium sulfate** is both first-line treatment and prophylaxis for eclamptic seizures (more effective than phenytoin or benzodiazepines). Monitor for **magnesium toxicity: loss of deep tendon reflexes (~10 mg/dL), respiratory depression (~15), cardiac arrest (~25)** — antidote is **IV calcium gluconate**. Control BP with IV labetalol, hydralazine, or nifedipine (goal <160/110). **The definitive treatment is delivery**, regardless of gestational age, once the mother is stabilized. Give antenatal corticosteroids if <34 weeks only if delivery can be safely delayed. Continue magnesium for 24 hours postpartum.",
+    "pathophysiology": "Preeclampsia arises from abnormal remodeling of the maternal spiral arteries by extravillous trophoblasts, resulting in a shallow, high-resistance placental circulation and placental ischemia. Ischemic placenta releases anti-angiogenic factors (sFlt-1, soluble endoglin) that bind VEGF and PlGF, causing widespread maternal endothelial dysfunction, vasoconstriction, and increased vascular permeability. The result is hypertension, proteinuria (glomerular endotheliosis), edema, hepatic dysfunction (periportal hemorrhage), thrombocytopenia, and cerebral vasospasm/edema. Seizures reflect a form of posterior reversible encephalopathy syndrome (PRES) from cerebral hyperperfusion and edema in the occipital lobes.",
+    "treatment_overview": "Magnesium sulfate is both first-line treatment and prophylaxis for eclamptic seizures (more effective than phenytoin or benzodiazepines). Monitor for magnesium toxicity: loss of deep tendon reflexes (~10 mg/dL), respiratory depression (~15), cardiac arrest (~25) — antidote is IV calcium gluconate. Control BP with IV labetalol, hydralazine, or nifedipine (goal <160/110). The definitive treatment is delivery, regardless of gestational age, once the mother is stabilized. Give antenatal corticosteroids if <34 weeks only if delivery can be safely delayed. Continue magnesium for 24 hours postpartum.",
     "high_yield_pearls": [
-      "Any seizure in a pregnant woman after 20 weeks is **eclampsia until proven otherwise** — start **magnesium sulfate** immediately.",
-      "Magnesium sulfate is the agent of choice for seizure prophylaxis/treatment in preeclampsia/eclampsia. **Calcium gluconate is the antidote** for magnesium toxicity; first sign of toxicity is **loss of deep tendon reflexes**.",
-      "**Delivery is the only definitive cure**, regardless of gestational age. Stabilize the mother first (ABCs, seize control, BP), then deliver.",
+      "Any seizure in a pregnant woman after 20 weeks is eclampsia until proven otherwise — start magnesium sulfate immediately.",
+      "Magnesium sulfate is the agent of choice for seizure prophylaxis/treatment in preeclampsia/eclampsia. Calcium gluconate is the antidote for magnesium toxicity; first sign of toxicity is loss of deep tendon reflexes.",
+      "Delivery is the only definitive cure, regardless of gestational age. Stabilize the mother first (ABCs, seize control, BP), then deliver.",
       "Preeclampsia with severe features: BP >=160/110, platelets <100k, Cr >1.1, transaminases >2x normal, pulmonary edema, severe headache/visual changes, or RUQ pain.",
-      "HELLP syndrome (**Hemolysis, Elevated Liver enzymes, Low Platelets**) is a severe variant — look for schistocytes, LDH elevation, and RUQ pain; treat like severe preeclampsia with prompt delivery."
+      "HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets) is a severe variant — look for schistocytes, LDH elevation, and RUQ pain; treat like severe preeclampsia with prompt delivery."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Reproductive chapter, 'Pregnancy complications — Preeclampsia / Eclampsia / HELLP' section.",

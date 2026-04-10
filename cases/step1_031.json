@@ -6,7 +6,7 @@
   "icd_category": "E83.01 — Wilson disease",
   "one_liner": "A 19-year-old college student is brought in by his parents for worsening tremor, slurred speech, and declining school performance over the past 6 months. He has also had fatigue and intermittent jaundice.",
   "stage2": {
-    "hpi_extension": "His family has noticed a coarse, **'wing-beating' tremor**, progressive clumsiness, drooling, and personality changes with new depression and impulsivity. His grades have plummeted. He developed scleral icterus twice in the past year. He denies alcohol use, IV drugs, or acetaminophen. His older brother died at age 24 of 'liver failure'.",
+    "hpi_extension": "His family has noticed a coarse, 'wing-beating' tremor, progressive clumsiness, drooling, and personality changes with new depression and impulsivity. His grades have plummeted. He developed scleral icterus twice in the past year. He denies alcohol use, IV drugs, or acetaminophen. His older brother died at age 24 of 'liver failure'.",
     "pmh": "None",
     "surgical_history": "None",
     "medications": "None",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "Jaundiced. Eyes: **golden-brown rings around the corneal limbus on slit-lamp examination (Kayser-Fleischer rings)**. Neuro: **resting and intention tremor, dysarthria, drooling, and mask-like facies (parkinsonism)**; mild dystonic posturing of the left hand. Psych: flat affect, depressed mood. Abdomen: soft, liver edge palpable 2 cm below the costal margin, nontender. Spider angiomata on the upper chest."
+    "physical_exam": "Jaundiced. Eyes: golden-brown rings around the corneal limbus on slit-lamp examination (Kayser-Fleischer rings). Neuro: resting and intention tremor, dysarthria, drooling, and mask-like facies (parkinsonism); mild dystonic posturing of the left hand. Psych: flat affect, depressed mood. Abdomen: soft, liver edge palpable 2 cm below the costal margin, nontender. Spider angiomata on the upper chest."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Serum ceruloplasmin 8 mg/dL (LOW, normal 20–35)**. **24-hour urinary copper markedly elevated (>200 µg/24h)**. Serum free (non-ceruloplasmin-bound) copper elevated. Total serum copper low.",
+        "result": "Serum ceruloplasmin 8 mg/dL (LOW, normal 20–35). 24-hour urinary copper markedly elevated (>200 µg/24h). Serum free (non-ceruloplasmin-bound) copper elevated. Total serum copper low.",
         "flag": "LOW",
         "clinical_significance": "Low ceruloplasmin with elevated urinary copper excretion is the classic biochemical signature of Wilson disease. Ceruloplasmin is an acute phase reactant, so borderline values do not exclude the diagnosis."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "AST 145, ALT 98, total bilirubin 3.2 mg/dL, alk phos 38 U/L (LOW — characteristically LOW in Wilson). Albumin 3.0 g/dL, INR 1.6. Hemoglobin 10.5 with haptoglobin low (**Coombs-negative hemolytic anemia**).",
+        "result": "AST 145, ALT 98, total bilirubin 3.2 mg/dL, alk phos 38 U/L (LOW — characteristically LOW in Wilson). Albumin 3.0 g/dL, INR 1.6. Hemoglobin 10.5 with haptoglobin low (Coombs-negative hemolytic anemia).",
         "flag": "ABNORMAL",
         "clinical_significance": "The combination of a transaminitis with an inappropriately LOW alkaline phosphatase and Coombs-negative hemolytic anemia is classic for Wilson disease. Free copper causes hepatocyte injury and RBC hemolysis."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Liver biopsy: steatosis, periportal inflammation, and early fibrosis. **Hepatic copper content markedly elevated (>250 µg/g dry weight)**. Rhodanine stain positive.",
+        "result": "Liver biopsy: steatosis, periportal inflammation, and early fibrosis. Hepatic copper content markedly elevated (>250 µg/g dry weight). Rhodanine stain positive.",
         "flag": "ABNORMAL",
         "clinical_significance": "Elevated hepatic copper on quantitative biopsy is the gold-standard confirmatory test when serum studies are equivocal."
       }

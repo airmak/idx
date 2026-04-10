@@ -6,7 +6,7 @@
   "icd_category": "E83.110 — Hereditary hemochromatosis",
   "one_liner": "A 52-year-old man of Northern European descent presents with 1 year of fatigue, aching in the knuckles, darkening of his skin, and new-onset diabetes. His primary care physician noticed elevated LFTs on routine screening.",
   "stage2": {
-    "hpi_extension": "He reports chronic fatigue, decreased libido, and impotence for the past 6 months. He has developed stiffness and pain in the **second and third MCP joints** bilaterally. His wife has noticed his skin is getting progressively **bronze/slate-gray**. He was recently diagnosed with type 2 diabetes mellitus. He denies alcohol abuse (1–2 beers/week). His father died of 'heart failure with a big heart' at 58.",
+    "hpi_extension": "He reports chronic fatigue, decreased libido, and impotence for the past 6 months. He has developed stiffness and pain in the second and third MCP joints bilaterally. His wife has noticed his skin is getting progressively bronze/slate-gray. He was recently diagnosed with type 2 diabetes mellitus. He denies alcohol abuse (1–2 beers/week). His father died of 'heart failure with a big heart' at 58.",
     "pmh": "Newly diagnosed diabetes mellitus, hypogonadism",
     "surgical_history": "None",
     "medications": "Metformin",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "Skin: **diffuse bronze/slate-gray hyperpigmentation** of sun-exposed and unexposed areas. Eyes: anicteric. Cardiac: PMI displaced laterally, soft S4. Abdomen: **hepatomegaly** 4 cm below the costal margin, firm, nontender. Joints: **tenderness and bony enlargement of the 2nd and 3rd MCPs bilaterally** with decreased range of motion. Testes small and soft (hypogonadism)."
+    "physical_exam": "Skin: diffuse bronze/slate-gray hyperpigmentation of sun-exposed and unexposed areas. Eyes: anicteric. Cardiac: PMI displaced laterally, soft S4. Abdomen: hepatomegaly 4 cm below the costal margin, firm, nontender. Joints: tenderness and bony enlargement of the 2nd and 3rd MCPs bilaterally with decreased range of motion. Testes small and soft (hypogonadism)."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Serum ferritin 2,400 ng/mL (markedly HIGH)**. **Transferrin saturation 82% (HIGH, normal <45%)**. Serum iron HIGH, TIBC LOW. AST 78, ALT 92, alk phos and bilirubin normal. Fasting glucose 186 mg/dL, HbA1c 8.2%.",
+        "result": "Serum ferritin 2,400 ng/mL (markedly HIGH). Transferrin saturation 82% (HIGH, normal <45%). Serum iron HIGH, TIBC LOW. AST 78, ALT 92, alk phos and bilirubin normal. Fasting glucose 186 mg/dL, HbA1c 8.2%.",
         "flag": "HIGH",
         "clinical_significance": "Markedly elevated transferrin saturation (>45%) and ferritin are the screening hallmark of hereditary hemochromatosis. Transferrin saturation is the earliest and most specific marker."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**HFE gene analysis: homozygous for C282Y mutation**. No H63D mutation.",
+        "result": "HFE gene analysis: homozygous for C282Y mutation. No H63D mutation.",
         "flag": "ABNORMAL",
         "clinical_significance": "C282Y homozygosity confirms classic hereditary hemochromatosis. This is the most common form in patients of Northern European descent."
       },
       {
         "test_name": "Imaging study",
-        "result": "**MRI liver: markedly decreased T2 signal intensity indicating hepatic iron overload**. Mild hepatomegaly, early cirrhotic changes. Pancreas also shows iron deposition.",
+        "result": "MRI liver: markedly decreased T2 signal intensity indicating hepatic iron overload. Mild hepatomegaly, early cirrhotic changes. Pancreas also shows iron deposition.",
         "flag": "ABNORMAL",
         "clinical_significance": "MRI is a noninvasive way to quantify tissue iron and has largely replaced liver biopsy for diagnosis when HFE testing and labs are concordant."
       }

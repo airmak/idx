@@ -1,0 +1,148 @@
+{
+  "case_id": "case_261",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Acute intermittent porphyria (AIP)",
+  "icd_category": "E80.21 — Acute intermittent (hepatic) porphyria",
+  "one_liner": "A 32-year-old woman presents to the ED with three days of severe diffuse colicky abdominal pain, vomiting, and acute confusion. Her family noted that her urine in the toilet has turned reddish-brown.",
+  "stage2": {
+    "hpi_extension": "She describes excruciating diffuse abdominal pain that began two days after she was started on phenobarbital for new-onset seizures. The pain is severe, poorly localized, and not relieved by position or food. She has vomited multiple times. Over the last day she has become confused and anxious, with her family describing 'odd behavior' and one episode of visual hallucinations. She also reports tingling in both feet and weakness climbing stairs. The family states her urine in the toilet bowl has turned reddish-brown. She has been on a strict 1000-calorie diet for two weeks and her menstrual period started yesterday. She reports no fever, no diarrhea, no hematemesis, no melena, and no recent travel.",
+    "pmh": "New-onset seizures one week ago (started on phenobarbital). One prior episode of unexplained severe abdominal pain at age 24 that resolved with supportive care; no diagnosis was made at that time. Migraines.",
+    "surgical_history": "Tonsillectomy in childhood",
+    "medications": "Phenobarbital 60 mg twice daily (started 5 days ago); combined oral contraceptive pill; sumatriptan as needed for migraines; ibuprofen as needed",
+    "allergies": "No known drug allergies",
+    "family_history": "Maternal aunt with episodes of unexplained abdominal pain throughout her life and 'a nerve disease.' Mother with depression. No family history of inflammatory bowel disease, lead exposure, or known porphyrias.",
+    "social_history": "Graduate student in chemistry. Non-smoker. Drinks alcohol socially (1–2 drinks per week). On a strict 1000-calorie weight-loss diet for the past 2 weeks. No recreational drug use.",
+    "vitals": {
+      "temp": "37.3°C (99.1°F)",
+      "hr": "122 bpm, sinus tachycardia",
+      "bp": "168/98 mmHg (markedly elevated from baseline)",
+      "rr": "20 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 22 kg/m² (down from BMI 24 two weeks ago)"
+    },
+    "physical_exam": "General: Anxious, distressed young woman, restless on the stretcher. HEENT: Pupils equal and reactive, no icterus. Cardiovascular: Tachycardic, regular rhythm, no murmur. Pulmonary: Clear bilaterally. Abdomen: Soft, non-distended, non-tender to palpation despite the patient describing 10/10 pain — a striking pain-out-of-proportion-to-exam picture. Bowel sounds normal. No rebound or guarding. No organomegaly. Neurologic: Alert, oriented to person and place but not date; mild confusion. Symmetric distal weakness in lower extremities (4/5 hip flexion, 4/5 ankle dorsiflexion). Decreased pinprick sensation in stocking distribution to mid-shin. Hyporeflexia at the patellae and Achilles bilaterally. Skin: Warm, no rash, no blisters, no photosensitive lesions, no jaundice."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "BMP",
+        "result": "Na 122 mEq/L (markedly low), K 3.8, Cl 88, HCO3 22, BUN 14, Cr 0.8, Glucose 84",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Severe hyponatremia (Na 122) is common in acute intermittent porphyria, typically reflecting an SIADH-like syndrome from neurotoxic injury to the supraoptic and paraventricular nuclei of the hypothalamus."
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 9.2 k/uL with normal differential, Hgb 13.6 g/dL, Hct 40%, Platelets 232 k/uL",
+        "flag": "WNL",
+        "clinical_significance": "Normal CBC argues against an acute infectious process or hemolysis. Specifically, basophilic stippling would be expected in lead poisoning, which is the major DDx for acute hepatic porphyria."
+      },
+      {
+        "test_name": "LFTs",
+        "result": "AST 64, ALT 78 (mildly elevated), alk phos 92, total bilirubin 1.0, albumin 4.0",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild transaminitis is common in acute porphyria attacks, reflecting the predominantly hepatic site of porphyrin synthesis. Marked LFT elevation should prompt consideration of acute viral hepatitis or drug-induced liver injury."
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "Color: pale yellow on collection, but turns port-wine red after 30 minutes standing in ambient sunlight on the bedside table. Specific gravity 1.012. No blood, no protein, no nitrites, no leukocyte esterase. Microscopy unremarkable.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The classic 'urine that darkens on standing' is caused by oxidation of colorless porphobilinogen to red porphobilin and uroporphyrin under light exposure — a bedside clue to acute intermittent porphyria."
+      },
+      {
+        "test_name": "Lipase",
+        "result": "32 U/L",
+        "flag": "WNL",
+        "clinical_significance": "Normal lipase makes acute pancreatitis very unlikely as the cause of the abdominal pain."
+      },
+      {
+        "test_name": "CT abdomen/pelvis (w/ or w/o contrast)",
+        "result": "No acute intra-abdominal process identified. No bowel obstruction, perforation, free air, free fluid, or appendicitis. No mass. No mesenteric ischemia. Liver, spleen, kidneys, pancreas, and gallbladder are unremarkable.",
+        "flag": "WNL",
+        "clinical_significance": "A completely normal CT abdomen/pelvis in a patient with severe abdominal pain is itself a clue: it should redirect the workup toward metabolic, neurologic, and toxic causes such as porphyria, lead poisoning, or DKA."
+      },
+      {
+        "test_name": "Beta-hCG (serum)",
+        "result": "Negative",
+        "flag": "WNL",
+        "clinical_significance": "Excludes pregnancy and ectopic pregnancy in a woman of reproductive age presenting with abdominal pain."
+      },
+      {
+        "test_name": "EKG/ECG",
+        "result": "Sinus tachycardia at 122. No ST or T wave changes. Normal axis and intervals.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Sinus tachycardia and the elevated blood pressure both reflect the autonomic dysfunction characteristic of an acute porphyria attack."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "BMP",
+      "UA with microscopy",
+      "CBC with differential",
+      "CT abdomen/pelvis (w/ or w/o contrast)",
+      "LFTs"
+    ],
+    "acceptable_tests": [
+      "Beta-hCG (serum)",
+      "Lipase",
+      "EKG/ECG",
+      "Urine drug screen",
+      "Serum ethanol"
+    ],
+    "low_yield_tests": [
+      "TSH/Free T4",
+      "Mammogram",
+      "PSA",
+      "ANA",
+      "Ferritin/Iron studies"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A spot urine porphobilinogen (PBG) is sent and returns markedly elevated. Phenobarbital is discontinued, IV dextrose and IV hemin are started, and her pain, hyponatremia, and neurologic symptoms improve dramatically over 48 hours."
+  },
+  "debrief": {
+    "classic_presentation": "Acute intermittent porphyria classically presents in young women aged 15–40 with the 5 P's: Painful abdomen (severe diffuse colicky pain with a soft non-tender abdomen — a striking pain-out-of-proportion picture), Polyneuropathy (motor predominant, ascending), Psychological disturbances (anxiety, agitation, hallucinations, psychosis), Pink/Port-wine urine (urine darkens on standing in light due to oxidation of porphobilinogen), and Precipitated by drugs (CYP450 inducers — barbiturates, rifampin, phenytoin, griseofulvin, sulfa drugs, oral contraceptives), starvation/low-calorie diets, alcohol, infection, and the menstrual cycle. There are NO photosensitive skin lesions in AIP — that is the key distinction from the cutaneous porphyrias such as porphyria cutanea tarda.",
+    "attending_mode_notes": null,
+    "pathophysiology": "Acute intermittent porphyria is an autosomal dominant disorder caused by partial deficiency (~50%) of porphobilinogen deaminase (PBG deaminase, also called hydroxymethylbilane synthase, HMBS) — the third enzyme in the heme biosynthesis pathway. When ALA synthase (the rate-limiting first enzyme) is upregulated by drugs that induce CYP450, low glucose/calories, alcohol, or stress hormones, the heme pathway runs faster than the deficient PBG deaminase can handle, leading to accumulation of the upstream substrates delta-aminolevulinic acid (ALA) and porphobilinogen (PBG). These neurotoxic precursors are responsible for the abdominal pain, autonomic dysfunction, and neuropsychiatric features. Importantly, no porphyrins downstream of PBG deaminase accumulate, so there are no photosensitive skin findings in AIP.",
+    "treatment_overview": "Acute attack management: stop all precipitating drugs immediately. Give IV dextrose (10% dextrose infusion) for mild attacks — high-carbohydrate loading suppresses hepatic ALA synthase via heme negative feedback. Give IV hemin (heme arginate or hematin) 3–4 mg/kg daily for 4 days for moderate-to-severe attacks — hemin directly downregulates ALA synthase by negative feedback, halting the production of toxic precursors and shortening the attack. Pain control with safe analgesics (opioids, acetaminophen) — avoid barbiturates and any CYP450 inducer. Treat hyponatremia with fluid restriction (it has the SIADH pattern). Treat seizures with safe AEDs (gabapentin, levetiracetam) — never barbiturates, phenytoin, valproate, or carbamazepine, all of which trigger attacks. Long-term management: maintain a list of safe vs unsafe medications, avoid known triggers (alcohol, fasting, smoking), manage menstrual triggers with GnRH agonists if needed, and screen first-degree relatives by erythrocyte PBG deaminase activity or genetic testing.",
+    "high_yield_pearls": [
+      "AIP = the 5 P's: Painful abdomen (with a soft non-tender belly), Polyneuropathy, Psychological disturbances, Pink/Port-wine urine on standing, Precipitated by drugs (CYP450 inducers), starvation, alcohol, hormones.",
+      "Enzyme defect: porphobilinogen deaminase (PBG deaminase / hydroxymethylbilane synthase, HMBS) — the third enzyme in heme synthesis. Autosomal dominant inheritance with low penetrance.",
+      "Diagnostic test: spot urine PBG and ALA during an acute attack are markedly elevated. The bedside clue is urine that turns red/port-wine on standing in light.",
+      "Treatment: stop the offending drug, give IV dextrose for mild attacks and IV hemin for severe attacks (both downregulate ALA synthase by negative feedback). Use only safe analgesics and AEDs.",
+      "Lead poisoning is the major mimic — it inhibits ALA dehydratase and ferrochelatase, causing similar abdominal pain and neuropathy with elevated urine ALA but NORMAL urine PBG, plus basophilic stippling and a microcytic anemia."
+    ],
+    "sources": [
+      "UpToDate: Acute intermittent porphyria — Pathogenesis, clinical features, and diagnosis — https://www.uptodate.com/contents/search?search=Acute+intermittent+porphyria+Pathogenesis+clinical+features+and+diagnosis",
+      "UpToDate: Acute intermittent porphyria — Management — https://www.uptodate.com/contents/search?search=Acute+intermittent+porphyria+Management",
+      "Guideline: American Porphyria Foundation Drug Database for Acute Porphyrias — https://porphyriafoundation.org/drugdatabase/",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Heme synthesis, porphyrias, and lead poisoning' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Acute intermittent porphyria (AIP)",
+      "Lead poisoning",
+      "Guillain-Barré syndrome",
+      "Pancreatitis (acute)",
+      "Appendicitis",
+      "Mesenteric ischemia",
+      "Diabetic ketoacidosis (DKA)",
+      "Schizophrenia, first episode"
+    ],
+    "after_stage2_more_likely": [
+      "Acute intermittent porphyria (AIP) — drug trigger (phenobarbital), low-calorie diet, hormonal trigger (menses), pain out of proportion, hyponatremia, neuropathy, port-wine urine",
+      "Lead poisoning — abdominal pain plus neuropathy is the classic mimic; need exposure history and a lead level to exclude"
+    ],
+    "after_stage2_less_likely": [
+      "Appendicitis — soft non-tender abdomen with normal CT essentially rules it out",
+      "Pancreatitis (acute) — normal lipase rules it out",
+      "Mesenteric ischemia — normal CT and no risk factors"
+    ],
+    "after_labs_top3": [
+      "Acute intermittent porphyria (AIP)",
+      "Lead poisoning",
+      "Guillain-Barré syndrome"
+    ]
+  }
+}

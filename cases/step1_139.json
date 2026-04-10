@@ -6,7 +6,7 @@
   "icd_category": "D51.0 -- Vitamin B12 deficiency anemia due to intrinsic factor deficiency",
   "one_liner": "A 68-year-old woman presents with 6 months of progressive fatigue, a sore red tongue, and new tingling in her feet with unsteady gait.",
   "stage2": {
-    "hpi_extension": "Her fatigue has been accompanied by symmetric **paresthesias in the toes and fingers** that have progressed proximally, as well as difficulty walking in the dark because she cannot feel her feet well. She has mild memory fogginess. Her tongue has become **smooth, red, and painful**, making spicy foods intolerable. She denies overt GI bleeding, weight loss, or diarrhea. She has not taken any multivitamins. She has type 1 diabetes and autoimmune hypothyroidism.",
+    "hpi_extension": "Her fatigue has been accompanied by symmetric paresthesias in the toes and fingers that have progressed proximally, as well as difficulty walking in the dark because she cannot feel her feet well. She has mild memory fogginess. Her tongue has become smooth, red, and painful, making spicy foods intolerable. She denies overt GI bleeding, weight loss, or diarrhea. She has not taken any multivitamins. She has type 1 diabetes and autoimmune hypothyroidism.",
     "pmh": "Type 1 diabetes mellitus, Hashimoto hypothyroidism, vitiligo",
     "surgical_history": "None",
     "medications": "Insulin glargine and lispro, levothyroxine",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: pale, icteric sclerae (mild). HEENT: **smooth, beefy-red tongue (atrophic glossitis)**, angular cheilitis. Cardiovascular: regular with soft flow murmur. Abdomen: soft, no hepatosplenomegaly. Neuro: **decreased vibration and proprioception in the lower extremities bilaterally (dorsal column involvement)**, **positive Romberg sign**, **mild spasticity and hyperreflexia at the knees with upgoing toes (lateral corticospinal tract involvement)**, wide-based ataxic gait. Mental status: slow recall. No cranial nerve deficits."
+    "physical_exam": "General: pale, icteric sclerae (mild). HEENT: smooth, beefy-red tongue (atrophic glossitis), angular cheilitis. Cardiovascular: regular with soft flow murmur. Abdomen: soft, no hepatosplenomegaly. Neuro: decreased vibration and proprioception in the lower extremities bilaterally (dorsal column involvement), positive Romberg sign, mild spasticity and hyperreflexia at the knees with upgoing toes (lateral corticospinal tract involvement), wide-based ataxic gait. Mental status: slow recall. No cranial nerve deficits."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 9.1 g/dL (low), **MCV 118 fL (markedly elevated, macrocytic)**, WBC 4.2, platelets 130. Reticulocyte count low. Smear: **oval macrocytes**, **hypersegmented neutrophils with 6+ lobes**, anisopoikilocytosis. LDH elevated, indirect bilirubin mildly elevated (ineffective erythropoiesis).",
+        "result": "Hgb 9.1 g/dL (low), MCV 118 fL (markedly elevated, macrocytic), WBC 4.2, platelets 130. Reticulocyte count low. Smear: oval macrocytes, hypersegmented neutrophils with 6+ lobes, anisopoikilocytosis. LDH elevated, indirect bilirubin mildly elevated (ineffective erythropoiesis).",
         "flag": "ABNORMAL",
         "clinical_significance": "Macrocytic megaloblastic anemia with hypersegmented neutrophils is the pathognomonic smear finding of B12 (or folate) deficiency. Mild intramedullary hemolysis from ineffective erythropoiesis explains the elevated LDH and indirect bilirubin."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**Serum vitamin B12: 98 pg/mL (markedly low)**. Serum folate: normal. **Methylmalonic acid: markedly ELEVATED**. **Homocysteine: markedly ELEVATED**.",
+        "result": "Serum vitamin B12: 98 pg/mL (markedly low). Serum folate: normal. Methylmalonic acid: markedly ELEVATED. Homocysteine: markedly ELEVATED.",
         "flag": "ABNORMAL",
         "clinical_significance": "Elevated methylmalonic acid AND homocysteine confirm B12 deficiency and distinguish it from folate deficiency (in which only homocysteine rises). Both reflect the two B12-dependent reactions: methylmalonyl-CoA to succinyl-CoA (requires B12) and homocysteine to methionine (requires B12 and folate)."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Anti-intrinsic factor antibodies: POSITIVE**. Anti-parietal cell antibodies: positive. Schilling test not performed.",
+        "result": "Anti-intrinsic factor antibodies: POSITIVE. Anti-parietal cell antibodies: positive. Schilling test not performed.",
         "flag": "ABNORMAL",
         "clinical_significance": "Anti-intrinsic factor antibodies confirm pernicious anemia, the autoimmune form of B12 deficiency. Autoantibodies destroy gastric parietal cells, eliminating intrinsic factor and preventing ileal B12 absorption."
       }

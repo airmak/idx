@@ -6,7 +6,7 @@
   "icd_category": "N17.9 — Acute kidney failure, unspecified",
   "one_liner": "A 76-year-old woman is brought in from a nursing home after 3 days of vomiting and diarrhea with markedly decreased urine output.",
   "stage2": {
-    "hpi_extension": "She has had **watery, non-bloody diarrhea and poor oral intake** for three days following a gastroenteritis outbreak at her facility. Nursing staff note she has not used the bathroom to urinate in nearly 24 hours. She is on **lisinopril** and **furosemide** for heart failure, which have been continued. She appears weak and lethargic but denies pain.",
+    "hpi_extension": "She has had watery, non-bloody diarrhea and poor oral intake for three days following a gastroenteritis outbreak at her facility. Nursing staff note she has not used the bathroom to urinate in nearly 24 hours. She is on lisinopril and furosemide for heart failure, which have been continued. She appears weak and lethargic but denies pain.",
     "pmh": "Heart failure with preserved EF, hypertension, osteoarthritis",
     "surgical_history": "Total knee replacement 5 years ago",
     "medications": "Lisinopril, furosemide, metoprolol, acetaminophen",
@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: elderly woman, frail, appears dehydrated. HEENT: **dry mucous membranes, sunken eyes**. CV: tachycardic, regular rhythm, no murmurs, **flat jugular veins**. Lungs: clear. Abdomen: soft, non-tender, hyperactive bowel sounds. Extremities: **cool peripheries with delayed capillary refill, poor skin turgor**. Neuro: lethargic but oriented."
+    "physical_exam": "General: elderly woman, frail, appears dehydrated. HEENT: dry mucous membranes, sunken eyes. CV: tachycardic, regular rhythm, no murmurs, flat jugular veins. Lungs: clear. Abdomen: soft, non-tender, hyperactive bowel sounds. Extremities: cool peripheries with delayed capillary refill, poor skin turgor. Neuro: lethargic but oriented."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Na 148, K 3.2, Cl 112, HCO3 20, **BUN 72, creatinine 2.8 (baseline 0.9)**, **BUN/Cr ratio 26**, glucose 98, albumin 3.6. Calculated osmolality elevated.",
+        "result": "Na 148, K 3.2, Cl 112, HCO3 20, BUN 72, creatinine 2.8 (baseline 0.9), BUN/Cr ratio 26, glucose 98, albumin 3.6. Calculated osmolality elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "BUN/Cr ratio greater than 20 is classic for prerenal azotemia because of enhanced urea reabsorption under low tubular flow and high ADH."
       },
       {
         "test_name": "Urinalysis",
-        "result": "Concentrated yellow urine, specific gravity 1.028, 1+ protein, no blood, no leukocyte esterase, no nitrites. **Microscopy: bland sediment, occasional hyaline casts, no muddy brown casts, no WBCs or RBC casts.**",
+        "result": "Concentrated yellow urine, specific gravity 1.028, 1+ protein, no blood, no leukocyte esterase, no nitrites. Microscopy: bland sediment, occasional hyaline casts, no muddy brown casts, no WBCs or RBC casts.",
         "flag": "ABNORMAL",
         "clinical_significance": "A bland urine sediment with hyaline casts and no muddy brown casts argues against intrinsic tubular injury and supports prerenal etiology."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "Urine sodium 12 mEq/L, urine creatinine 120 mg/dL. **Fractional excretion of sodium (FENa) = 0.4%** (less than 1%). Urine osmolality 520 mOsm/kg (concentrated).",
+        "result": "Urine sodium 12 mEq/L, urine creatinine 120 mg/dL. Fractional excretion of sodium (FENa) = 0.4% (less than 1%). Urine osmolality 520 mOsm/kg (concentrated).",
         "flag": "ABNORMAL",
         "clinical_significance": "FENa less than 1% with concentrated urine confirms prerenal physiology with intact tubular sodium-avid function and preserved concentrating ability."
       }

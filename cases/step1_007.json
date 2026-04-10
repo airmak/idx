@@ -20,27 +20,27 @@
       "rr": "14",
       "spo2": "99%"
     },
-    "physical_exam": "General: Well-appearing young man, mild URI symptoms. HEENT: Posterior pharyngeal erythema without exudate. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear. Abdomen: Soft, no costovertebral angle tenderness. Skin: **No rash, no purpura on the buttocks or lower extremities** (which would suggest IgA vasculitis). Extremities: No edema."
+    "physical_exam": "General: Well-appearing young man, mild URI symptoms. HEENT: Posterior pharyngeal erythema without exudate. Neck: No lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear. Abdomen: Soft, no costovertebral angle tenderness. Skin: No rash, no purpura on the buttocks or lower extremities (which would suggest IgA vasculitis). Extremities: No edema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Urinalysis",
-        "result": "**Color: cola-colored. Blood 3+. Protein 1+. Specific gravity 1.020. Microscopy: numerous dysmorphic RBCs and RBC casts.** No leukocyte esterase or nitrites.",
+        "result": "Color: cola-colored. Blood 3+. Protein 1+. Specific gravity 1.020. Microscopy: numerous dysmorphic RBCs and RBC casts. No leukocyte esterase or nitrites.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Dysmorphic RBCs and RBC casts are pathognomonic for glomerular bleeding** (a 'nephritic' pattern), distinguishing this from urologic bleeding (smooth RBCs without casts)."
+        "clinical_significance": "Dysmorphic RBCs and RBC casts are pathognomonic for glomerular bleeding (a 'nephritic' pattern), distinguishing this from urologic bleeding (smooth RBCs without casts)."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "**Renal biopsy: Light microscopy: mesangial proliferation. Immunofluorescence: granular mesangial IgA deposits. Electron microscopy: mesangial electron-dense deposits.**",
+        "result": "Renal biopsy: Light microscopy: mesangial proliferation. Immunofluorescence: granular mesangial IgA deposits. Electron microscopy: mesangial electron-dense deposits.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Mesangial IgA deposits on immunofluorescence are diagnostic of IgA nephropathy.** The mesangial pattern of light microscopy and electron-dense deposits are confirmatory."
+        "clinical_significance": "Mesangial IgA deposits on immunofluorescence are diagnostic of IgA nephropathy. The mesangial pattern of light microscopy and electron-dense deposits are confirmatory."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Complement C3 and C4: NORMAL.** ANA negative. ANCA negative. ASO titer not elevated. Anti-GBM negative.",
+        "result": "Complement C3 and C4: NORMAL. ANA negative. ANCA negative. ASO titer not elevated. Anti-GBM negative.",
         "flag": "WNL",
-        "clinical_significance": "**Normal complement is a critical distinguishing feature of IgA nephropathy.** Post-streptococcal glomerulonephritis (the main DDx) shows a LOW C3. Lupus nephritis would show low C3 AND low C4. ANCA vasculitis and anti-GBM are also excluded."
+        "clinical_significance": "Normal complement is a critical distinguishing feature of IgA nephropathy. Post-streptococcal glomerulonephritis (the main DDx) shows a LOW C3. Lupus nephritis would show low C3 AND low C4. ANCA vasculitis and anti-GBM are also excluded."
       }
     ],
     "imaging_results": [],
@@ -65,12 +65,12 @@
     "final_clue": "His gross hematuria resolves within 48 hours as his URI resolves. The team explains that he has IgA nephropathy and starts him on an ACE inhibitor for renal protection given the mild proteinuria. He is counseled that future episodes of hematuria with viral illnesses are likely."
   },
   "debrief": {
-    "classic_presentation": "IgA nephropathy (Berger disease) is the **most common primary glomerulonephritis worldwide**. It classically presents in **young men** with episodes of **gross hematuria 1–2 days after an upper respiratory infection or GI illness ('synpharyngitic hematuria')**. Asymptomatic microscopic hematuria with mild proteinuria between episodes is common. Importantly, this is **DIFFERENT from post-streptococcal glomerulonephritis**, which appears **1–2 weeks after** a streptococcal infection (not 1–2 days) and has **low complement (C3)**. IgA nephropathy is closely related to **IgA vasculitis (Henoch-Schönlein purpura)**, which adds palpable purpura, abdominal pain, and arthralgias to the same renal pathology.",
+    "classic_presentation": "IgA nephropathy (Berger disease) is the most common primary glomerulonephritis worldwide. It classically presents in young men with episodes of gross hematuria 1–2 days after an upper respiratory infection or GI illness ('synpharyngitic hematuria'). Asymptomatic microscopic hematuria with mild proteinuria between episodes is common. Importantly, this is DIFFERENT from post-streptococcal glomerulonephritis, which appears 1–2 weeks after a streptococcal infection (not 1–2 days) and has low complement (C3). IgA nephropathy is closely related to IgA vasculitis (Henoch-Schönlein purpura), which adds palpable purpura, abdominal pain, and arthralgias to the same renal pathology.",
     "attending_mode_notes": null,
-    "pathophysiology": "IgA nephropathy is caused by deposition of **abnormally galactosylated IgA1** in the **mesangium** of glomeruli. These IgA-immune complexes activate the alternative complement pathway locally (without depleting circulating C3, hence normal serum complement) and trigger mesangial proliferation. The result is a nephritic syndrome — hematuria, mild proteinuria, RBC casts, and occasionally hypertension and renal insufficiency. The course is variable: many patients have benign disease, but ~20–40% slowly progress to ESRD over decades.",
-    "treatment_overview": "Mostly supportive. **ACE inhibitors or ARBs** are first-line for blood pressure control and to reduce proteinuria (renoprotective). Fish oil may have a small benefit. Corticosteroids are reserved for patients with persistent significant proteinuria or rapidly progressive disease. There is no curative therapy, and progression to ESRD eventually requires dialysis or renal transplant — though IgA nephropathy can recur in the transplanted kidney.",
+    "pathophysiology": "IgA nephropathy is caused by deposition of abnormally galactosylated IgA1 in the mesangium of glomeruli. These IgA-immune complexes activate the alternative complement pathway locally (without depleting circulating C3, hence normal serum complement) and trigger mesangial proliferation. The result is a nephritic syndrome — hematuria, mild proteinuria, RBC casts, and occasionally hypertension and renal insufficiency. The course is variable: many patients have benign disease, but ~20–40% slowly progress to ESRD over decades.",
+    "treatment_overview": "Mostly supportive. ACE inhibitors or ARBs are first-line for blood pressure control and to reduce proteinuria (renoprotective). Fish oil may have a small benefit. Corticosteroids are reserved for patients with persistent significant proteinuria or rapidly progressive disease. There is no curative therapy, and progression to ESRD eventually requires dialysis or renal transplant — though IgA nephropathy can recur in the transplanted kidney.",
     "high_yield_pearls": [
-      "**IgA nephropathy: hematuria 1–2 DAYS after URI ('synpharyngitic') with NORMAL complement.** PSGN: 1–2 WEEKS after infection with LOW C3.",
+      "IgA nephropathy: hematuria 1–2 DAYS after URI ('synpharyngitic') with NORMAL complement. PSGN: 1–2 WEEKS after infection with LOW C3.",
       "Mesangial IgA deposits on immunofluorescence are pathognomonic.",
       "Most common primary glomerulonephritis worldwide; especially common in Asians.",
       "IgA nephropathy and IgA vasculitis (Henoch-Schönlein purpura) share the same renal pathology — HSP is the systemic form (palpable purpura on buttocks/legs, abdominal pain, arthritis, GN).",

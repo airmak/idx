@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: well-appearing, well-nourished, comfortable. HEENT: no scleral icterus, no glossitis. Cardiovascular: normal S1/S2, no murmur. Lungs: clear. Abdomen: soft, non-tender, **no hepatomegaly or splenomegaly**, gravid uterus consistent with dates. Skin: no pallor, no jaundice, no frontal bossing or chipmunk facies. Extremities: normal. Neuro: intact."
+    "physical_exam": "General: well-appearing, well-nourished, comfortable. HEENT: no scleral icterus, no glossitis. Cardiovascular: normal S1/S2, no murmur. Lungs: clear. Abdomen: soft, non-tender, no hepatomegaly or splenomegaly, gravid uterus consistent with dates. Skin: no pallor, no jaundice, no frontal bossing or chipmunk facies. Extremities: normal. Neuro: intact."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 10.8 g/dL (mildly low), **MCV 68 fL (low, microcytic)**, MCH low, **RDW normal**, **RBC count elevated**, WBC and platelets normal. Smear: **microcytic, hypochromic red cells with target cells and mild anisopoikilocytosis**, no schistocytes, no basophilic stippling.",
+        "result": "Hgb 10.8 g/dL (mildly low), MCV 68 fL (low, microcytic), MCH low, RDW normal, RBC count elevated, WBC and platelets normal. Smear: microcytic, hypochromic red cells with target cells and mild anisopoikilocytosis, no schistocytes, no basophilic stippling.",
         "flag": "ABNORMAL",
         "clinical_significance": "Microcytic anemia with normal RDW, elevated RBC count, and target cells is characteristic of thalassemia trait. The Mentzer index (MCV/RBC) will be <13. In iron deficiency anemia, the RDW is usually elevated and the RBC count is decreased."
       },
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**Serum iron: NORMAL. TIBC: NORMAL. Ferritin: NORMAL (60 ng/mL). Transferrin saturation: NORMAL.** Lead level: normal.",
+        "result": "Serum iron: NORMAL. TIBC: NORMAL. Ferritin: NORMAL (60 ng/mL). Transferrin saturation: NORMAL. Lead level: normal.",
         "flag": "NORMAL",
         "clinical_significance": "Normal iron studies rule out iron deficiency anemia and anemia of chronic disease as causes of her microcytosis. This is a critical step: a microcytic anemia with NORMAL iron studies points toward thalassemia, sideroblastic anemia, or lead poisoning."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**Hemoglobin electrophoresis: NORMAL (normal HbA, normal HbA2, normal HbF).** **Alpha-globin gene analysis: 2 of 4 alpha-globin genes deleted (alpha-thalassemia trait, minor)**, trans (one from each chromosome).",
+        "result": "Hemoglobin electrophoresis: NORMAL (normal HbA, normal HbA2, normal HbF). Alpha-globin gene analysis: 2 of 4 alpha-globin genes deleted (alpha-thalassemia trait, minor), trans (one from each chromosome).",
         "flag": "ABNORMAL",
         "clinical_significance": "Alpha-thalassemia trait has a NORMAL hemoglobin electrophoresis because HbA2 and HbF still require only the unaffected alpha chains. This contrasts with beta-thalassemia, in which HbA2 is elevated. Definitive diagnosis requires genetic testing to count the number of deleted alpha-globin genes."
       }

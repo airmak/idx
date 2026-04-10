@@ -6,7 +6,7 @@
   "icd_category": "E24.0 — Pituitary-dependent Cushing disease",
   "one_liner": "A 38-year-old woman presents with a year of progressive weight gain, easy bruising, and new stretch marks on her abdomen.",
   "stage2": {
-    "hpi_extension": "Over the past 12 months she has noticed **rounding of her face, a 'hump' on the upper back, central weight gain**, and **purple stretch marks** on her abdomen and thighs. She reports **proximal muscle weakness** — difficulty climbing stairs and rising from a chair. She bruises easily after minor bumps. She has developed **hypertension** and was recently diagnosed with **type 2 diabetes**. Her periods have become irregular. She denies exogenous steroid use of any kind.",
+    "hpi_extension": "Over the past 12 months she has noticed rounding of her face, a 'hump' on the upper back, central weight gain, and purple stretch marks on her abdomen and thighs. She reports proximal muscle weakness — difficulty climbing stairs and rising from a chair. She bruises easily after minor bumps. She has developed hypertension and was recently diagnosed with type 2 diabetes. Her periods have become irregular. She denies exogenous steroid use of any kind.",
     "pmh": "Recently diagnosed type 2 diabetes, hypertension",
     "surgical_history": "None",
     "medications": "Metformin, lisinopril — no glucocorticoids",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: **round 'moon facies'** with facial plethora. HEENT: **dorsocervical fat pad ('buffalo hump')**. Chest: supraclavicular fat pads. Abdomen: **central obesity with wide purple striae** on the flanks and lower abdomen. Extremities: **thin arms and legs with proximal muscle wasting**; unable to rise from a squat without arm support. Skin: **multiple ecchymoses** on forearms and shins, **hirsutism** on upper lip and chin, acne."
+    "physical_exam": "General: round 'moon facies' with facial plethora. HEENT: dorsocervical fat pad ('buffalo hump'). Chest: supraclavicular fat pads. Abdomen: central obesity with wide purple striae on the flanks and lower abdomen. Extremities: thin arms and legs with proximal muscle wasting; unable to rise from a squat without arm support. Skin: multiple ecchymoses on forearms and shins, hirsutism on upper lip and chin, acne."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Functional / provocative testing",
-        "result": "**24-hour urinary free cortisol markedly elevated** (4x upper limit of normal). **Late-night salivary cortisol elevated**. **Overnight low-dose (1 mg) dexamethasone suppression test: failure to suppress** morning cortisol (>5 mcg/dL). **High-dose (8 mg) dexamethasone suppression test: cortisol suppresses >50%** from baseline.",
+        "result": "24-hour urinary free cortisol markedly elevated (4x upper limit of normal). Late-night salivary cortisol elevated. Overnight low-dose (1 mg) dexamethasone suppression test: failure to suppress morning cortisol (>5 mcg/dL). High-dose (8 mg) dexamethasone suppression test: cortisol suppresses >50% from baseline.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Three abnormal screening tests confirm **hypercortisolism**. **Suppression with high-dose but not low-dose dexamethasone** localizes the source to the pituitary (**Cushing disease**) rather than an ectopic ACTH-secreting tumor or adrenal source."
+        "clinical_significance": "Three abnormal screening tests confirm hypercortisolism. Suppression with high-dose but not low-dose dexamethasone localizes the source to the pituitary (Cushing disease) rather than an ectopic ACTH-secreting tumor or adrenal source."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**ACTH elevated** at 110 pg/mL (normal <50). Morning cortisol elevated. DHEA-S mildly elevated.",
+        "result": "ACTH elevated at 110 pg/mL (normal <50). Morning cortisol elevated. DHEA-S mildly elevated.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Elevated ACTH** indicates an **ACTH-dependent** cause of Cushing syndrome. Adrenal Cushing syndrome would have suppressed ACTH."
+        "clinical_significance": "Elevated ACTH indicates an ACTH-dependent cause of Cushing syndrome. Adrenal Cushing syndrome would have suppressed ACTH."
       },
       {
         "test_name": "Imaging study",
-        "result": "**MRI of the sella with gadolinium**: an 8 mm hypoenhancing **pituitary microadenoma** in the right side of the anterior pituitary. Bilateral inferior petrosal sinus sampling confirms a central-to-peripheral ACTH gradient.",
+        "result": "MRI of the sella with gadolinium: an 8 mm hypoenhancing pituitary microadenoma in the right side of the anterior pituitary. Bilateral inferior petrosal sinus sampling confirms a central-to-peripheral ACTH gradient.",
         "flag": "ABNORMAL",
         "clinical_significance": "Imaging localizes an ACTH-secreting pituitary adenoma. Petrosal sinus sampling is the gold standard when imaging is equivocal and confirms the pituitary source."
       }
@@ -60,19 +60,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "She undergoes **transsphenoidal resection** of the pituitary microadenoma. Postoperative morning cortisol is low, requiring temporary hydrocortisone replacement while the remaining corticotrophs recover. Within 6 months her weight, glycemic control, and blood pressure have markedly improved."
+    "final_clue": "She undergoes transsphenoidal resection of the pituitary microadenoma. Postoperative morning cortisol is low, requiring temporary hydrocortisone replacement while the remaining corticotrophs recover. Within 6 months her weight, glycemic control, and blood pressure have markedly improved."
   },
   "debrief": {
-    "classic_presentation": "Cushing disease classically presents with **central obesity, moon facies, dorsocervical fat pad (buffalo hump), supraclavicular fat pads, purple abdominal striae, proximal muscle weakness, easy bruising, thin skin, hirsutism, acne, menstrual irregularity, hypertension, hyperglycemia/diabetes, and osteoporosis**. Psychiatric symptoms (depression, insomnia, mania, psychosis) are common. It affects women more than men, typically in the 30s-40s.",
+    "classic_presentation": "Cushing disease classically presents with central obesity, moon facies, dorsocervical fat pad (buffalo hump), supraclavicular fat pads, purple abdominal striae, proximal muscle weakness, easy bruising, thin skin, hirsutism, acne, menstrual irregularity, hypertension, hyperglycemia/diabetes, and osteoporosis. Psychiatric symptoms (depression, insomnia, mania, psychosis) are common. It affects women more than men, typically in the 30s-40s.",
     "attending_mode_notes": null,
-    "pathophysiology": "**Cushing disease** specifically refers to an **ACTH-secreting pituitary adenoma** that drives bilateral adrenal hyperplasia and cortisol excess. It is the most common endogenous cause of Cushing syndrome. Other causes of endogenous Cushing syndrome include **adrenal cortisol-secreting tumors** (ACTH suppressed) and **ectopic ACTH production** (classically from **small cell lung cancer**, also bronchial carcinoids and medullary thyroid cancer). Exogenous glucocorticoids are by far the most common cause of Cushing syndrome overall. Chronic cortisol excess produces catabolism of protein (muscle wasting, thin skin, striae, bruising), hepatic gluconeogenesis (hyperglycemia), mineralocorticoid receptor activation (hypertension, hypokalemia), and immunosuppression.",
-    "treatment_overview": "**Transsphenoidal surgical resection** of the pituitary adenoma is first-line and curative in most cases. Residual or recurrent disease may require repeat surgery, stereotactic radiation, bilateral adrenalectomy, or medical therapy (**ketoconazole, metyrapone, mitotane** — cortisol synthesis inhibitors; **pasireotide** — somatostatin analog; **mifepristone** — glucocorticoid receptor antagonist). Beware **Nelson syndrome** (hyperpigmentation and aggressive pituitary tumor growth) after bilateral adrenalectomy.",
+    "pathophysiology": "Cushing disease specifically refers to an ACTH-secreting pituitary adenoma that drives bilateral adrenal hyperplasia and cortisol excess. It is the most common endogenous cause of Cushing syndrome. Other causes of endogenous Cushing syndrome include adrenal cortisol-secreting tumors (ACTH suppressed) and ectopic ACTH production (classically from small cell lung cancer, also bronchial carcinoids and medullary thyroid cancer). Exogenous glucocorticoids are by far the most common cause of Cushing syndrome overall. Chronic cortisol excess produces catabolism of protein (muscle wasting, thin skin, striae, bruising), hepatic gluconeogenesis (hyperglycemia), mineralocorticoid receptor activation (hypertension, hypokalemia), and immunosuppression.",
+    "treatment_overview": "Transsphenoidal surgical resection of the pituitary adenoma is first-line and curative in most cases. Residual or recurrent disease may require repeat surgery, stereotactic radiation, bilateral adrenalectomy, or medical therapy (ketoconazole, metyrapone, mitotane — cortisol synthesis inhibitors; pasireotide — somatostatin analog; mifepristone — glucocorticoid receptor antagonist). Beware Nelson syndrome (hyperpigmentation and aggressive pituitary tumor growth) after bilateral adrenalectomy.",
     "high_yield_pearls": [
-      "**Cushing syndrome** = any cause of cortisol excess. **Cushing disease** = specifically a pituitary ACTH-secreting adenoma.",
-      "Screening tests for hypercortisolism: **24-hour urine free cortisol, late-night salivary cortisol, and overnight low-dose (1 mg) dexamethasone suppression test**.",
-      "Localization: **elevated ACTH + cortisol suppresses with high-dose dex = Cushing disease**; **elevated ACTH + no suppression = ectopic ACTH (e.g., small cell lung cancer)**; **suppressed ACTH + elevated cortisol = adrenal source**.",
-      "Most common cause of Cushing syndrome overall = **exogenous glucocorticoids**. Most common endogenous cause = **Cushing disease**.",
-      "Treatment of Cushing disease = **transsphenoidal resection**. Watch for postoperative adrenal insufficiency and, after bilateral adrenalectomy, **Nelson syndrome**."
+      "Cushing syndrome = any cause of cortisol excess. Cushing disease = specifically a pituitary ACTH-secreting adenoma.",
+      "Screening tests for hypercortisolism: 24-hour urine free cortisol, late-night salivary cortisol, and overnight low-dose (1 mg) dexamethasone suppression test.",
+      "Localization: elevated ACTH + cortisol suppresses with high-dose dex = Cushing disease; elevated ACTH + no suppression = ectopic ACTH (e.g., small cell lung cancer); suppressed ACTH + elevated cortisol = adrenal source.",
+      "Most common cause of Cushing syndrome overall = exogenous glucocorticoids. Most common endogenous cause = Cushing disease.",
+      "Treatment of Cushing disease = transsphenoidal resection. Watch for postoperative adrenal insufficiency and, after bilateral adrenalectomy, Nelson syndrome."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Endocrine chapter, 'Cushing syndrome / Cushing disease' section.",

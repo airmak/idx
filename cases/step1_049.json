@@ -6,7 +6,7 @@
   "icd_category": "C92.0 — Acute myeloblastic leukemia",
   "one_liner": "A 62-year-old man presents with 3 weeks of progressive fatigue, easy bruising, and gum bleeding after brushing his teeth. He has also noted low-grade fevers and shortness of breath climbing stairs.",
   "stage2": {
-    "hpi_extension": "Symptoms began insidiously about 3 weeks ago with fatigue, pallor, and dyspnea on exertion. He now notices **spontaneous gingival bleeding** and scattered bruises on both arms after minor bumps. He has had intermittent fevers to 38.3°C without localizing source. No night sweats or weight loss. He denies headache, vision changes, or focal neurologic deficits but reports mild bone pain in his sternum.",
+    "hpi_extension": "Symptoms began insidiously about 3 weeks ago with fatigue, pallor, and dyspnea on exertion. He now notices spontaneous gingival bleeding and scattered bruises on both arms after minor bumps. He has had intermittent fevers to 38.3°C without localizing source. No night sweats or weight loss. He denies headache, vision changes, or focal neurologic deficits but reports mild bone pain in his sternum.",
     "pmh": "Hypertension. Prior chemotherapy (etoposide) for testicular cancer 7 years ago.",
     "surgical_history": "Right orchiectomy 7 years ago.",
     "medications": "Lisinopril.",
@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "96% on room air"
     },
-    "physical_exam": "General: pale, ill-appearing but alert. HEENT: **gingival hyperplasia with oozing at gumline**, conjunctival pallor. Skin: **scattered petechiae on lower extremities** and **ecchymoses on bilateral forearms**. Lymph nodes: no significant lymphadenopathy. Abdomen: soft, mild splenomegaly, no hepatomegaly. Sternal tenderness to palpation. Neuro: nonfocal."
+    "physical_exam": "General: pale, ill-appearing but alert. HEENT: gingival hyperplasia with oozing at gumline, conjunctival pallor. Skin: scattered petechiae on lower extremities and ecchymoses on bilateral forearms. Lymph nodes: no significant lymphadenopathy. Abdomen: soft, mild splenomegaly, no hepatomegaly. Sternal tenderness to palpation. Neuro: nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 42,000/µL (markedly elevated), Hgb 7.2 g/dL, platelets 24,000/µL. Differential: 68% blasts. Smear: large immature cells with high N:C ratio, prominent nucleoli, and **needle-shaped azurophilic cytoplasmic inclusions (Auer rods)**. Rare myeloblasts contain bundles of Auer rods (faggot cells).",
+        "result": "WBC 42,000/µL (markedly elevated), Hgb 7.2 g/dL, platelets 24,000/µL. Differential: 68% blasts. Smear: large immature cells with high N:C ratio, prominent nucleoli, and needle-shaped azurophilic cytoplasmic inclusions (Auer rods). Rare myeloblasts contain bundles of Auer rods (faggot cells).",
         "flag": "ABNORMAL",
         "clinical_significance": "Pancytopenia with circulating blasts and Auer rods is diagnostic of AML. Faggot cells (bundled Auer rods) are highly suggestive of acute promyelocytic leukemia (APL, AML-M3)."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Bone marrow biopsy: hypercellular marrow with **>20% myeloblasts** replacing normal hematopoietic elements. Blasts are **myeloperoxidase (MPO)+**, CD13+, CD33+. Flow cytometry confirms myeloid lineage. Extensive Auer rods present.",
+        "result": "Bone marrow biopsy: hypercellular marrow with >20% myeloblasts replacing normal hematopoietic elements. Blasts are myeloperoxidase (MPO)+, CD13+, CD33+. Flow cytometry confirms myeloid lineage. Extensive Auer rods present.",
         "flag": "ABNORMAL",
         "clinical_significance": "≥20% blasts in bone marrow meets WHO criteria for AML. MPO positivity and Auer rods confirm myeloid lineage and distinguish AML from ALL."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "Cytogenetics: **t(15;17)(q22;q12) — PML-RARα fusion** identified by FISH and RT-PCR. Coagulation studies: PT prolonged, aPTT prolonged, fibrinogen low, D-dimer markedly elevated, consistent with DIC.",
+        "result": "Cytogenetics: t(15;17)(q22;q12) — PML-RARα fusion identified by FISH and RT-PCR. Coagulation studies: PT prolonged, aPTT prolonged, fibrinogen low, D-dimer markedly elevated, consistent with DIC.",
         "flag": "ABNORMAL",
         "clinical_significance": "t(15;17) PML-RARα fusion is diagnostic of acute promyelocytic leukemia (APL, M3), which is frequently complicated by DIC. APL is treated with all-trans retinoic acid (ATRA) and is now highly curable."
       }

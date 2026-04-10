@@ -6,7 +6,7 @@
   "icd_category": "J21 — Acute bronchiolitis",
   "one_liner": "A 7-month-old previously healthy infant presents in January with 3 days of runny nose and cough that has progressed to wheezing, tachypnea, and poor feeding.",
   "stage2": {
-    "hpi_extension": "The baby started with **clear rhinorrhea and low-grade fever** three days ago. Over the last 24 hours she has developed **progressive cough, wheezing, and difficulty feeding**. Her 3-year-old brother has had a cold for a week. She is making fewer wet diapers and her mother reports that she pauses to breathe between sucks at the bottle. She was born full-term without complications.",
+    "hpi_extension": "The baby started with clear rhinorrhea and low-grade fever three days ago. Over the last 24 hours she has developed progressive cough, wheezing, and difficulty feeding. Her 3-year-old brother has had a cold for a week. She is making fewer wet diapers and her mother reports that she pauses to breathe between sucks at the bottle. She was born full-term without complications.",
     "pmh": "Full-term delivery; routine immunizations up to date; no prior hospitalizations",
     "surgical_history": "None",
     "medications": "None",
@@ -20,19 +20,19 @@
       "rr": "62",
       "spo2": "89% on room air"
     },
-    "physical_exam": "General: alert but **tachypneic infant with increased work of breathing**. HEENT: copious **clear nasal secretions**; mucous membranes tacky. Chest: **subcostal and intercostal retractions**, **nasal flaring**, **diffuse expiratory wheezing and fine inspiratory crackles bilaterally**, prolonged expiratory phase. CV: tachycardic, regular, no murmur. Abdomen: soft, nondistended. Skin: capillary refill 2-3 seconds."
+    "physical_exam": "General: alert but tachypneic infant with increased work of breathing. HEENT: copious clear nasal secretions; mucous membranes tacky. Chest: subcostal and intercostal retractions, nasal flaring, diffuse expiratory wheezing and fine inspiratory crackles bilaterally, prolonged expiratory phase. CV: tachycardic, regular, no murmur. Abdomen: soft, nondistended. Skin: capillary refill 2-3 seconds."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "**Respiratory viral PCR panel from nasopharyngeal swab: positive for respiratory syncytial virus (RSV)**. Negative for influenza, parainfluenza, adenovirus.",
+        "result": "Respiratory viral PCR panel from nasopharyngeal swab: positive for respiratory syncytial virus (RSV). Negative for influenza, parainfluenza, adenovirus.",
         "flag": "ABNORMAL",
         "clinical_significance": "RSV is the most common cause of bronchiolitis in infants less than 2 years old, with peak incidence in winter months. PCR confirms the viral etiology."
       },
       {
         "test_name": "Imaging study",
-        "result": "Chest x-ray: **hyperinflation with flattened diaphragms**, peribronchial cuffing, and patchy atelectasis; no focal consolidation.",
+        "result": "Chest x-ray: hyperinflation with flattened diaphragms, peribronchial cuffing, and patchy atelectasis; no focal consolidation.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hyperinflation and peribronchial cuffing are typical for bronchiolitis. The absence of a lobar consolidation argues against bacterial pneumonia."
       }

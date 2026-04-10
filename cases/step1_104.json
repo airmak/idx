@@ -6,7 +6,7 @@
   "icd_category": "J44.1 — COPD with (acute) exacerbation",
   "one_liner": "A 68-year-old man with a 45-pack-year smoking history presents with 3 days of worsening dyspnea and cough productive of increasingly thick, yellow-green sputum.",
   "stage2": {
-    "hpi_extension": "He has baseline exertional dyspnea but now becomes breathless walking from his bedroom to the kitchen. He reports increased sputum volume and a change from clear to **purulent yellow-green sputum** over the past 3 days. He has used his albuterol inhaler every 2 hours with only partial relief. He denies chest pain, hemoptysis, fever, or leg swelling. He has had two similar exacerbations in the past year, one requiring hospitalization.",
+    "hpi_extension": "He has baseline exertional dyspnea but now becomes breathless walking from his bedroom to the kitchen. He reports increased sputum volume and a change from clear to purulent yellow-green sputum over the past 3 days. He has used his albuterol inhaler every 2 hours with only partial relief. He denies chest pain, hemoptysis, fever, or leg swelling. He has had two similar exacerbations in the past year, one requiring hospitalization.",
     "pmh": "Chronic obstructive pulmonary disease (GOLD stage III), hypertension, osteoarthritis",
     "surgical_history": "Bilateral cataract surgery",
     "medications": "Tiotropium inhaler daily, albuterol inhaler PRN, lisinopril",
@@ -20,19 +20,19 @@
       "rr": "28",
       "spo2": "86% on room air"
     },
-    "physical_exam": "General: **tripod positioning**, **pursed-lip breathing**, speaking in short 3-word sentences. Lungs: **diffuse expiratory wheezing**, **prolonged expiratory phase**, **decreased breath sounds bilaterally**, scattered rhonchi. Cardiac: tachycardic, regular, distant heart sounds. Extremities: no edema, mild cyanosis of the fingertips, **tar-stained fingers**. Neuro: awake and alert but mildly anxious, using **accessory muscles of respiration**."
+    "physical_exam": "General: tripod positioning, pursed-lip breathing, speaking in short 3-word sentences. Lungs: diffuse expiratory wheezing, prolonged expiratory phase, decreased breath sounds bilaterally, scattered rhonchi. Cardiac: tachycardic, regular, distant heart sounds. Extremities: no edema, mild cyanosis of the fingertips, tar-stained fingers. Neuro: awake and alert but mildly anxious, using accessory muscles of respiration."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Chest X-ray: **hyperinflated lungs with flattened diaphragms**, increased retrosternal airspace, and elongated cardiac silhouette. No focal consolidation, no pleural effusion, no pneumothorax.",
+        "result": "Chest X-ray: hyperinflated lungs with flattened diaphragms, increased retrosternal airspace, and elongated cardiac silhouette. No focal consolidation, no pleural effusion, no pneumothorax.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hyperinflation confirms underlying COPD and excludes pneumonia, pneumothorax, and pulmonary edema as alternate causes of acute decompensation."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Arterial blood gas on room air: **pH 7.31, PaCO2 62 mmHg, PaO2 54 mmHg, HCO3 30 mEq/L**. BMP: Na 138, K 4.2, Cl 98, HCO3 30, BUN 18, creatinine 0.9, glucose 128.",
+        "result": "Arterial blood gas on room air: pH 7.31, PaCO2 62 mmHg, PaO2 54 mmHg, HCO3 30 mEq/L. BMP: Na 138, K 4.2, Cl 98, HCO3 30, BUN 18, creatinine 0.9, glucose 128.",
         "flag": "ABNORMAL",
         "clinical_significance": "Acute on chronic respiratory acidosis with compensatory metabolic alkalosis (elevated HCO3) and hypoxemia is the hallmark of a COPD exacerbation with CO2 retention."
       },

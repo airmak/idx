@@ -4,14 +4,14 @@
   "specialty": "Gastroenterology",
   "diagnosis": "Colon cancer",
   "icd_category": "C18 - Malignant neoplasm of colon",
-  "one_liner": "A 65-year-old man presents with 4 months of progressive constipation, **pencil-thin stools**, and intermittent bright red blood per rectum, along with worsening crampy lower abdominal pain over the past week.",
+  "one_liner": "A 65-year-old man presents with 4 months of progressive constipation, pencil-thin stools, and intermittent bright red blood per rectum, along with worsening crampy lower abdominal pain over the past week.",
   "stage2": {
-    "hpi_extension": "He describes a gradual change in his bowel habits - previously regular, now passing **narrow, ribbon-like stools** every 2-3 days with significant straining. He reports streaks of bright red blood on the stool and toilet paper. Over the past week, his crampy lower abdominal pain has become more severe with bloating and decreased flatus, and he vomited once this morning. He has also lost about 10 pounds without trying. No prior colonoscopy - he has deferred screening. No fevers or night sweats.",
+    "hpi_extension": "He describes a gradual change in his bowel habits - previously regular, now passing narrow, ribbon-like stools every 2-3 days with significant straining. He reports streaks of bright red blood on the stool and toilet paper. Over the past week, his crampy lower abdominal pain has become more severe with bloating and decreased flatus, and he vomited once this morning. He has also lost about 10 pounds without trying. No prior colonoscopy - he has deferred screening. No fevers or night sweats.",
     "pmh": "Type 2 diabetes, essential hypertension, BPH",
     "surgical_history": "Inguinal hernia repair 15 years ago",
     "medications": "Metformin, lisinopril, tamsulosin",
     "allergies": "NKDA",
-    "family_history": "**Father diagnosed with colon cancer at age 58.** Paternal uncle with endometrial cancer. No known familial polyposis syndromes.",
+    "family_history": "Father diagnosed with colon cancer at age 58. Paternal uncle with endometrial cancer. No known familial polyposis syndromes.",
     "social_history": "Retired factory worker. 30-pack-year smoking history (quit 5 years ago). Drinks 2-3 beers on weekends. Diet low in fiber and high in red and processed meats. Sedentary.",
     "vitals": {
       "temp": "37.1C",
@@ -20,7 +20,7 @@
       "rr": "18",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: thin, mildly uncomfortable man. Abdomen: **distended with high-pitched tinkling bowel sounds**. Mild diffuse tenderness, worst in the left lower quadrant, without peritoneal signs. **No palpable masses** on abdominal exam. Rectal exam: **empty vault with bright red blood on the examining finger**; no palpable mass within reach. No hepatomegaly. No peripheral lymphadenopathy."
+    "physical_exam": "General: thin, mildly uncomfortable man. Abdomen: distended with high-pitched tinkling bowel sounds. Mild diffuse tenderness, worst in the left lower quadrant, without peritoneal signs. No palpable masses on abdominal exam. Rectal exam: empty vault with bright red blood on the examining finger; no palpable mass within reach. No hepatomegaly. No peripheral lymphadenopathy."
   },
   "stage3": {
     "lab_results": [
@@ -32,15 +32,15 @@
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Carcinoembryonic antigen (CEA): 48 ng/mL** (reference <3). CA 19-9 mildly elevated. AFP normal.",
+        "result": "Carcinoembryonic antigen (CEA): 48 ng/mL (reference <3). CA 19-9 mildly elevated. AFP normal.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**CEA** is elevated in colorectal cancer and is used to monitor for recurrence and treatment response - NOT as a screening test. A markedly elevated CEA in this clinical context strongly supports colorectal malignancy."
+        "clinical_significance": "CEA is elevated in colorectal cancer and is used to monitor for recurrence and treatment response - NOT as a screening test. A markedly elevated CEA in this clinical context strongly supports colorectal malignancy."
       },
       {
         "test_name": "Imaging study",
-        "result": "CT abdomen/pelvis with contrast: **concentric ('apple-core') narrowing of the sigmoid colon** with focal wall thickening and proximal colonic distention to 8 cm, consistent with a partially obstructing sigmoid mass. **Two hypodense lesions in the right hepatic lobe** concerning for metastases. No free air. Regional pericolonic lymphadenopathy.",
+        "result": "CT abdomen/pelvis with contrast: concentric ('apple-core') narrowing of the sigmoid colon with focal wall thickening and proximal colonic distention to 8 cm, consistent with a partially obstructing sigmoid mass. Two hypodense lesions in the right hepatic lobe concerning for metastases. No free air. Regional pericolonic lymphadenopathy.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**'Apple-core' lesion** - a circumferential annular constricting mass - is the classic imaging appearance of an advanced left-sided colon cancer, often presenting with obstruction. Liver metastases indicate stage IV disease."
+        "clinical_significance": "'Apple-core' lesion - a circumferential annular constricting mass - is the classic imaging appearance of an advanced left-sided colon cancer, often presenting with obstruction. Liver metastases indicate stage IV disease."
       }
     ],
     "imaging_results": [],
@@ -61,19 +61,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "Colonoscopy reveals a near-obstructing, friable, circumferential mass at 30 cm in the sigmoid colon. Biopsies confirm **moderately differentiated invasive adenocarcinoma**. Staging identifies hepatic metastases (stage IV). He undergoes palliative sigmoid resection to relieve obstruction and is started on systemic chemotherapy with **FOLFOX** (5-FU, leucovorin, oxaliplatin) plus bevacizumab."
+    "final_clue": "Colonoscopy reveals a near-obstructing, friable, circumferential mass at 30 cm in the sigmoid colon. Biopsies confirm moderately differentiated invasive adenocarcinoma. Staging identifies hepatic metastases (stage IV). He undergoes palliative sigmoid resection to relieve obstruction and is started on systemic chemotherapy with FOLFOX (5-FU, leucovorin, oxaliplatin) plus bevacizumab."
   },
   "debrief": {
-    "classic_presentation": "**Left-sided (descending/sigmoid) colon cancer** classically presents with signs of **obstruction** and overt bleeding: **change in stool caliber ('pencil-thin' or ribbon-like stools), constipation, hematochezia, crampy abdominal pain, and eventually bowel obstruction** (annular 'apple-core' lesions on imaging). In contrast, **right-sided (cecum/ascending) cancers** are exophytic and present later with **iron deficiency anemia and occult bleeding** because the cecum is wide and stool is liquid. Screening begins at age 45-50 with colonoscopy (gold standard) or stool-based tests.",
+    "classic_presentation": "Left-sided (descending/sigmoid) colon cancer classically presents with signs of obstruction and overt bleeding: change in stool caliber ('pencil-thin' or ribbon-like stools), constipation, hematochezia, crampy abdominal pain, and eventually bowel obstruction (annular 'apple-core' lesions on imaging). In contrast, right-sided (cecum/ascending) cancers are exophytic and present later with iron deficiency anemia and occult bleeding because the cecum is wide and stool is liquid. Screening begins at age 45-50 with colonoscopy (gold standard) or stool-based tests.",
     "attending_mode_notes": null,
-    "pathophysiology": "Most colorectal cancers are **adenocarcinomas** that arise from adenomatous polyps via the classic **adenoma-to-carcinoma sequence**: normal epithelium to adenoma (loss of **APC** - chromosomal instability) to adenoma with dysplasia (**KRAS** activation) to carcinoma (loss of **DCC/SMAD4** on chromosome 18q and **TP53**). Villous and larger (>1 cm) polyps have higher malignant potential. A separate microsatellite instability (MSI) pathway from DNA mismatch repair defects is seen in **Lynch syndrome (HNPCC)**. Risk factors: age, family history, **FAP** and **HNPCC**, inflammatory bowel disease, low-fiber/high-red-meat diet, smoking, obesity, and Streptococcus bovis bacteremia.",
-    "treatment_overview": "**Localized disease**: surgical resection of the involved colonic segment with regional lymphadenectomy (sigmoid colectomy for sigmoid tumors); adjuvant chemotherapy with **FOLFOX** for stage III (node-positive) disease. **Metastatic disease**: systemic chemotherapy (FOLFOX or FOLFIRI) +/- biologic agents (**bevacizumab** for anti-VEGF; **cetuximab/panitumumab** for anti-EGFR, only in KRAS wild-type tumors); resection of isolated liver metastases can be curative in select patients. **CEA** is monitored for recurrence post-treatment. Screening (colonoscopy every 10 years starting at age 45-50 in average-risk adults) and polypectomy prevent progression.",
+    "pathophysiology": "Most colorectal cancers are adenocarcinomas that arise from adenomatous polyps via the classic adenoma-to-carcinoma sequence: normal epithelium to adenoma (loss of APC - chromosomal instability) to adenoma with dysplasia (KRAS activation) to carcinoma (loss of DCC/SMAD4 on chromosome 18q and TP53). Villous and larger (>1 cm) polyps have higher malignant potential. A separate microsatellite instability (MSI) pathway from DNA mismatch repair defects is seen in Lynch syndrome (HNPCC). Risk factors: age, family history, FAP and HNPCC, inflammatory bowel disease, low-fiber/high-red-meat diet, smoking, obesity, and Streptococcus bovis bacteremia.",
+    "treatment_overview": "Localized disease: surgical resection of the involved colonic segment with regional lymphadenectomy (sigmoid colectomy for sigmoid tumors); adjuvant chemotherapy with FOLFOX for stage III (node-positive) disease. Metastatic disease: systemic chemotherapy (FOLFOX or FOLFIRI) +/- biologic agents (bevacizumab for anti-VEGF; cetuximab/panitumumab for anti-EGFR, only in KRAS wild-type tumors); resection of isolated liver metastases can be curative in select patients. CEA is monitored for recurrence post-treatment. Screening (colonoscopy every 10 years starting at age 45-50 in average-risk adults) and polypectomy prevent progression.",
     "high_yield_pearls": [
-      "**Left-sided colon cancer**: obstruction, change in stool caliber, hematochezia, 'apple-core' lesion. **Right-sided (cecal) cancer**: iron deficiency anemia, occult bleeding, fatigue.",
-      "Classic molecular sequence: normal -> adenoma -> carcinoma driven by **APC -> KRAS -> DCC/SMAD4 -> TP53** (the 'adenoma-carcinoma sequence').",
-      "**CEA** is used to monitor colorectal cancer for recurrence, NOT for screening.",
-      "**Familial adenomatous polyposis (FAP)** = APC mutation; 100% progression to colon cancer if untreated -> prophylactic colectomy. **Lynch syndrome (HNPCC)** = DNA mismatch repair defect; autosomal dominant; also increases endometrial, ovarian, gastric, and small bowel cancer risk.",
-      "**Streptococcus bovis (S. gallolyticus) bacteremia or endocarditis** in an adult should prompt evaluation for underlying colon cancer."
+      "Left-sided colon cancer: obstruction, change in stool caliber, hematochezia, 'apple-core' lesion. Right-sided (cecal) cancer: iron deficiency anemia, occult bleeding, fatigue.",
+      "Classic molecular sequence: normal -> adenoma -> carcinoma driven by APC -> KRAS -> DCC/SMAD4 -> TP53 (the 'adenoma-carcinoma sequence').",
+      "CEA is used to monitor colorectal cancer for recurrence, NOT for screening.",
+      "Familial adenomatous polyposis (FAP) = APC mutation; 100% progression to colon cancer if untreated -> prophylactic colectomy. Lynch syndrome (HNPCC) = DNA mismatch repair defect; autosomal dominant; also increases endometrial, ovarian, gastric, and small bowel cancer risk.",
+      "Streptococcus bovis (S. gallolyticus) bacteremia or endocarditis in an adult should prompt evaluation for underlying colon cancer."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Colorectal cancer' section.",

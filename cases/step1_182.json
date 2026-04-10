@@ -20,19 +20,19 @@
       "rr": "18",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: thin, ill-appearing, mildly somnolent but arousable. HEENT: **oral thrush** on the tongue and palate. Neuro: oriented to self only, **mild nuchal rigidity**, no focal motor deficits, cranial nerves intact, no papilledema seen on funduscopy. Skin: no rash or umbilicated papules. Lungs clear. No hepatosplenomegaly."
+    "physical_exam": "General: thin, ill-appearing, mildly somnolent but arousable. HEENT: oral thrush on the tongue and palate. Neuro: oriented to self only, mild nuchal rigidity, no focal motor deficits, cranial nerves intact, no papilledema seen on funduscopy. Skin: no rash or umbilicated papules. Lungs clear. No hepatosplenomegaly."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CSF analysis (lumbar puncture)",
-        "result": "**Opening pressure markedly elevated at 38 cm H2O**. WBC 45 (lymphocyte predominant), protein elevated, glucose low. **India ink stain shows encapsulated budding yeast**. **Cryptococcal antigen (CrAg) positive in CSF with titer 1:1024**. Culture growing Cryptococcus neoformans.",
+        "result": "Opening pressure markedly elevated at 38 cm H2O. WBC 45 (lymphocyte predominant), protein elevated, glucose low. India ink stain shows encapsulated budding yeast. Cryptococcal antigen (CrAg) positive in CSF with titer 1:1024. Culture growing Cryptococcus neoformans.",
         "flag": "CRITICAL",
         "clinical_significance": "Elevated opening pressure with lymphocytic pleocytosis, low glucose, and positive India ink/CrAg is diagnostic of cryptococcal meningitis. Management of ICP with serial LPs is essential to reduce mortality."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "HIV viral load >500,000 copies/mL. **CD4 count 38 cells/microL**. Serum cryptococcal antigen positive at 1:512.",
+        "result": "HIV viral load >500,000 copies/mL. CD4 count 38 cells/microL. Serum cryptococcal antigen positive at 1:512.",
         "flag": "CRITICAL",
         "clinical_significance": "Severely advanced HIV with CD4 <100 is the classic host risk factor for cryptococcal meningitis. Serum CrAg often precedes clinical CNS disease."
       },
@@ -60,18 +60,18 @@
     ]
   },
   "stage5": {
-    "final_clue": "He is started on **induction therapy with IV amphotericin B plus flucytosine for 2 weeks**, followed by high-dose fluconazole consolidation. Daily therapeutic lumbar punctures are performed to manage persistently elevated intracranial pressure. Mental status improves over the following week, and ART is restarted carefully to avoid immune reconstitution inflammatory syndrome (IRIS)."
+    "final_clue": "He is started on induction therapy with IV amphotericin B plus flucytosine for 2 weeks, followed by high-dose fluconazole consolidation. Daily therapeutic lumbar punctures are performed to manage persistently elevated intracranial pressure. Mental status improves over the following week, and ART is restarted carefully to avoid immune reconstitution inflammatory syndrome (IRIS)."
   },
   "debrief": {
-    "classic_presentation": "Cryptococcal meningitis classically presents as a subacute to chronic meningoencephalitis in a patient with **HIV and CD4 count <100 cells/microL**, solid organ transplant, or chronic corticosteroid use. Symptoms evolve over weeks with headache, fever, malaise, nausea, and progressive mental status changes. Neck stiffness and photophobia are often mild or absent because the inflammatory response is blunted. Elevated intracranial pressure is a key driver of morbidity and mortality.",
+    "classic_presentation": "Cryptococcal meningitis classically presents as a subacute to chronic meningoencephalitis in a patient with HIV and CD4 count <100 cells/microL, solid organ transplant, or chronic corticosteroid use. Symptoms evolve over weeks with headache, fever, malaise, nausea, and progressive mental status changes. Neck stiffness and photophobia are often mild or absent because the inflammatory response is blunted. Elevated intracranial pressure is a key driver of morbidity and mortality.",
     "attending_mode_notes": null,
-    "pathophysiology": "**Cryptococcus neoformans** is an encapsulated yeast acquired by inhalation from soil contaminated with **pigeon droppings** (C. gattii is found on eucalyptus trees and can infect immunocompetent hosts). The thick polysaccharide capsule is antiphagocytic and is the basis for the India ink halo and the latex agglutination/EIA cryptococcal antigen (CrAg) test. After pulmonary inoculation, the organism disseminates hematogenously to the CNS, where it seeds the meninges and Virchow-Robin spaces, producing a smoldering basilar meningoencephalitis.",
-    "treatment_overview": "**Induction: amphotericin B (liposomal) plus flucytosine for at least 2 weeks**. **Consolidation: high-dose fluconazole for 8 weeks**. **Maintenance: low-dose fluconazole until CD4 >100 for >3 months on ART**. Aggressive ICP management with serial therapeutic LPs (or lumbar drain/VP shunt) reduces mortality. ART initiation is typically delayed ~2-5 weeks after antifungal therapy starts to reduce IRIS risk.",
+    "pathophysiology": "Cryptococcus neoformans is an encapsulated yeast acquired by inhalation from soil contaminated with pigeon droppings (C. gattii is found on eucalyptus trees and can infect immunocompetent hosts). The thick polysaccharide capsule is antiphagocytic and is the basis for the India ink halo and the latex agglutination/EIA cryptococcal antigen (CrAg) test. After pulmonary inoculation, the organism disseminates hematogenously to the CNS, where it seeds the meninges and Virchow-Robin spaces, producing a smoldering basilar meningoencephalitis.",
+    "treatment_overview": "Induction: amphotericin B (liposomal) plus flucytosine for at least 2 weeks. Consolidation: high-dose fluconazole for 8 weeks. Maintenance: low-dose fluconazole until CD4 >100 for >3 months on ART. Aggressive ICP management with serial therapeutic LPs (or lumbar drain/VP shunt) reduces mortality. ART initiation is typically delayed ~2-5 weeks after antifungal therapy starts to reduce IRIS risk.",
     "high_yield_pearls": [
-      "Cryptococcus = encapsulated budding yeast; **India ink stain** shows a clear halo around the yeast cell due to the polysaccharide capsule.",
-      "**Cryptococcal antigen (CrAg)** in serum or CSF is highly sensitive and specific and is the preferred rapid diagnostic test.",
-      "High **opening pressure** on LP is the rule, not the exception — manage with serial LPs to reduce mortality.",
-      "Mucicarmine and methenamine silver stains highlight the capsule on tissue sections; **soap bubble lesions** may be seen in the basal ganglia.",
+      "Cryptococcus = encapsulated budding yeast; India ink stain shows a clear halo around the yeast cell due to the polysaccharide capsule.",
+      "Cryptococcal antigen (CrAg) in serum or CSF is highly sensitive and specific and is the preferred rapid diagnostic test.",
+      "High opening pressure on LP is the rule, not the exception — manage with serial LPs to reduce mortality.",
+      "Mucicarmine and methenamine silver stains highlight the capsule on tissue sections; soap bubble lesions may be seen in the basal ganglia.",
       "Think cryptococcal meningitis in any HIV patient with CD4 <100 and a subacute headache, even without meningismus."
     ],
     "sources": [

@@ -6,12 +6,12 @@
   "icd_category": "D55.0 — Anemia due to G6PD deficiency",
   "one_liner": "A 22-year-old African American man develops dark brown urine, fatigue, and scleral icterus 3 days after being started on trimethoprim-sulfamethoxazole for a urinary tract infection.",
   "stage2": {
-    "hpi_extension": "He was diagnosed with a UTI 3 days ago and started on TMP-SMX. Since yesterday he has noted **tea-colored urine**, progressive fatigue, dyspnea on exertion, and yellowing of his eyes. He denies flank pain, abdominal pain, or bleeding. He reports a similar, milder episode as a child after eating **fava beans** during a trip to the Mediterranean. A maternal uncle reportedly had 'a problem with certain medications.'",
+    "hpi_extension": "He was diagnosed with a UTI 3 days ago and started on TMP-SMX. Since yesterday he has noted tea-colored urine, progressive fatigue, dyspnea on exertion, and yellowing of his eyes. He denies flank pain, abdominal pain, or bleeding. He reports a similar, milder episode as a child after eating fava beans during a trip to the Mediterranean. A maternal uncle reportedly had 'a problem with certain medications.'",
     "pmh": "Occasional UTIs.",
     "surgical_history": "None.",
     "medications": "TMP-SMX (started 3 days ago).",
     "allergies": "NKDA",
-    "family_history": "**Maternal uncle with 'drug reaction' causing dark urine**; maternal grandmother's brother had similar history.",
+    "family_history": "Maternal uncle with 'drug reaction' causing dark urine; maternal grandmother's brother had similar history.",
     "social_history": "Graduate student. Non-smoker, occasional alcohol. No recreational drugs.",
     "vitals": {
       "temp": "37.4°C",
@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: pale, mildly icteric, tachycardic. HEENT: **scleral icterus**, pale conjunctivae. Cardiac: tachycardic, regular rhythm, soft flow murmur. Abdomen: soft, non-tender, no significant hepatosplenomegaly. Skin: mild jaundice, no rash or petechiae. Neuro: nonfocal."
+    "physical_exam": "General: pale, mildly icteric, tachycardic. HEENT: scleral icterus, pale conjunctivae. Cardiac: tachycardic, regular rhythm, soft flow murmur. Abdomen: soft, non-tender, no significant hepatosplenomegaly. Skin: mild jaundice, no rash or petechiae. Neuro: nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 8.8 g/dL, MCV 92, reticulocytes 6% (elevated). Platelets 250k, WBC 9k. Smear: **bite cells** (RBCs with a semicircular 'bite' taken out by splenic macrophages removing Heinz bodies) and **blister cells**. **Heinz bodies** visible on supravital (crystal violet) staining — denatured hemoglobin inclusions attached to the inner RBC membrane.",
+        "result": "Hgb 8.8 g/dL, MCV 92, reticulocytes 6% (elevated). Platelets 250k, WBC 9k. Smear: bite cells (RBCs with a semicircular 'bite' taken out by splenic macrophages removing Heinz bodies) and blister cells. Heinz bodies visible on supravital (crystal violet) staining — denatured hemoglobin inclusions attached to the inner RBC membrane.",
         "flag": "ABNORMAL",
         "clinical_significance": "Bite cells and Heinz bodies are pathognomonic for oxidative hemolysis, most commonly due to G6PD deficiency. Heinz bodies require a special stain (crystal violet) because they are not visible on routine Wright-Giemsa."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**G6PD enzyme activity assay: low** (but may be falsely normal during the acute hemolytic episode because younger RBCs with higher G6PD activity predominate — recommend retesting 2–3 months later).",
+        "result": "G6PD enzyme activity assay: low (but may be falsely normal during the acute hemolytic episode because younger RBCs with higher G6PD activity predominate — recommend retesting 2–3 months later).",
         "flag": "ABNORMAL",
         "clinical_significance": "Quantitative G6PD enzyme activity is the gold standard diagnostic test. During active hemolysis, results can be falsely normal because the oldest (most deficient) cells have already been destroyed — repeat testing after recovery."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Indirect bilirubin elevated. LDH elevated. Haptoglobin undetectable. Urinalysis: **strongly positive for blood on dipstick but few RBCs on microscopy — hemoglobinuria**, reflecting intravascular hemolysis.",
+        "result": "Indirect bilirubin elevated. LDH elevated. Haptoglobin undetectable. Urinalysis: strongly positive for blood on dipstick but few RBCs on microscopy — hemoglobinuria, reflecting intravascular hemolysis.",
         "flag": "ABNORMAL",
         "clinical_significance": "Intravascular hemolysis pattern: low haptoglobin, hemoglobinuria (tea-colored urine), elevated LDH and indirect bilirubin. This combination together with bite cells/Heinz bodies is classic for G6PD deficiency triggered by an oxidative stressor."
       }
@@ -63,14 +63,14 @@
     "final_clue": "TMP-SMX is discontinued and he is managed supportively with hydration and transfusion. He is counseled on the long list of oxidative triggers to avoid (sulfa drugs, dapsone, primaquine, nitrofurantoin, fava beans, moth balls/naphthalene) and warned that infections can also precipitate hemolysis."
   },
   "debrief": {
-    "classic_presentation": "G6PD deficiency is an **X-linked recessive** disorder, so it predominantly affects males. It is the most common enzyme deficiency in the world, with high prevalence in people of **African, Mediterranean, Middle Eastern, and Southeast Asian ancestry**. Patients are generally asymptomatic at baseline and develop **episodic intravascular hemolysis** (back pain, fatigue, jaundice, dark/tea-colored urine from hemoglobinuria) within 1–3 days of exposure to an oxidative stressor: **fava beans, sulfa drugs (TMP-SMX), dapsone, primaquine, nitrofurantoin, methylene blue, naphthalene (moth balls), and infections**. The Mediterranean variant is more severe than the African A− variant.",
+    "classic_presentation": "G6PD deficiency is an X-linked recessive disorder, so it predominantly affects males. It is the most common enzyme deficiency in the world, with high prevalence in people of African, Mediterranean, Middle Eastern, and Southeast Asian ancestry. Patients are generally asymptomatic at baseline and develop episodic intravascular hemolysis (back pain, fatigue, jaundice, dark/tea-colored urine from hemoglobinuria) within 1–3 days of exposure to an oxidative stressor: fava beans, sulfa drugs (TMP-SMX), dapsone, primaquine, nitrofurantoin, methylene blue, naphthalene (moth balls), and infections. The Mediterranean variant is more severe than the African A− variant.",
     "attending_mode_notes": null,
-    "pathophysiology": "Glucose-6-phosphate dehydrogenase is the rate-limiting enzyme in the hexose monophosphate (pentose phosphate) shunt, producing NADPH. NADPH is essential to regenerate reduced glutathione, which protects red cells from oxidative damage. Without G6PD, oxidative stress denatures hemoglobin, which precipitates as **Heinz bodies** within red cells. Splenic macrophages nibble out these inclusions, producing **bite cells**. The resulting intravascular and extravascular hemolysis manifests as anemia, jaundice, and hemoglobinuria. The deficiency also confers **resistance to Plasmodium falciparum malaria**, explaining its high prevalence in malaria-endemic regions.",
-    "treatment_overview": "There is no cure. Management is centered on **avoiding oxidative triggers** (fava beans, sulfa drugs, dapsone, primaquine, nitrofurantoin, methylene blue, naphthalene). Patients should receive a wallet card listing agents to avoid. Acute hemolytic episodes are managed supportively with hydration, oxygen, transfusion if severe, and treatment of the precipitating trigger (e.g., antibiotics for infection, discontinuation of the offending drug). Folate supplementation may help chronic cases. Testing should be delayed 2–3 months after an acute episode to avoid false-normal results.",
+    "pathophysiology": "Glucose-6-phosphate dehydrogenase is the rate-limiting enzyme in the hexose monophosphate (pentose phosphate) shunt, producing NADPH. NADPH is essential to regenerate reduced glutathione, which protects red cells from oxidative damage. Without G6PD, oxidative stress denatures hemoglobin, which precipitates as Heinz bodies within red cells. Splenic macrophages nibble out these inclusions, producing bite cells. The resulting intravascular and extravascular hemolysis manifests as anemia, jaundice, and hemoglobinuria. The deficiency also confers resistance to Plasmodium falciparum malaria, explaining its high prevalence in malaria-endemic regions.",
+    "treatment_overview": "There is no cure. Management is centered on avoiding oxidative triggers (fava beans, sulfa drugs, dapsone, primaquine, nitrofurantoin, methylene blue, naphthalene). Patients should receive a wallet card listing agents to avoid. Acute hemolytic episodes are managed supportively with hydration, oxygen, transfusion if severe, and treatment of the precipitating trigger (e.g., antibiotics for infection, discontinuation of the offending drug). Folate supplementation may help chronic cases. Testing should be delayed 2–3 months after an acute episode to avoid false-normal results.",
     "high_yield_pearls": [
       "G6PD deficiency is X-linked recessive and the most common human enzyme deficiency; high prevalence in African, Mediterranean, and Middle Eastern populations.",
       "Oxidative triggers: fava beans, sulfa drugs (TMP-SMX), dapsone, primaquine, nitrofurantoin, methylene blue, naphthalene, and infections.",
-      "Classic smear: **bite cells + Heinz bodies** (Heinz bodies need supravital crystal violet staining).",
+      "Classic smear: bite cells + Heinz bodies (Heinz bodies need supravital crystal violet staining).",
       "Hemolysis pattern is intravascular: hemoglobinuria (tea-colored urine), low haptoglobin, elevated LDH and indirect bilirubin.",
       "G6PD enzyme assay may be falsely normal during acute hemolysis because the most deficient (older) RBCs are already destroyed — retest 2–3 months later."
     ],

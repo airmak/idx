@@ -1,0 +1,143 @@
+{
+  "case_id": "case_264",
+  "mode": "attending",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Porphyria cutanea tarda (PCT)",
+  "icd_category": "E80.1 — Porphyria cutanea tarda",
+  "one_liner": "A 48-year-old HIV-positive man presents to dermatology for evaluation of recurrent blisters on his hands that he has been treating for two years as 'work-related contact dermatitis,' with worsening since starting tenofovir-emtricitabine pre-exposure prophylaxis a year ago.",
+  "stage2": {
+    "hpi_extension": "He works as a landscaper and was diagnosed with 'irritant contact dermatitis from sap and herbicides' two years ago by an urgent care provider. He has been treating the lesions with topical hydrocortisone with minimal improvement; the blisters keep coming back and now he has small white milia and atrophic scars over the dorsa of both hands. He started tenofovir-emtricitabine for HIV pre-exposure prophylaxis 14 months ago and feels his skin has been worse since. He also takes a high-dose oral testosterone supplement from a 'wellness clinic' (3 months) for fatigue. He drinks 4–5 cocktails on weekends and is a heavy social smoker. He denies abdominal pain, neurologic symptoms, anxiety, or hallucinations. The blisters are painless but the skin tears at any pressure. His urine has been 'a little dark' for several months but he attributes this to dehydration. There is no history of liver disease that he knows of, but his last labs were over 5 years ago.",
+    "pmh": "HIV-negative (on PrEP, last test 1 month ago); presumed irritant contact dermatitis (treating for 2 years); intermittent low back pain; no known liver disease",
+    "surgical_history": "Tonsillectomy as a child",
+    "medications": "Tenofovir disoproxil fumarate / emtricitabine (Truvada) 1 tablet daily for HIV PrEP (started 14 months ago); oral testosterone undecanoate 80 mg twice daily from a non-licensed wellness clinic (started 3 months ago); topical hydrocortisone 2.5% cream as needed for hand blisters",
+    "allergies": "No known drug allergies",
+    "family_history": "Father with cirrhosis of unknown cause (died age 62). No known family history of porphyria, hemochromatosis, or autoimmune blistering disease.",
+    "social_history": "Landscaper with significant outdoor sun exposure, frequent contact with herbicides and sap. Drinks 4–5 cocktails on weekends. Smokes 1 pack per day for 25 years. Sexually active with multiple male partners (currently on PrEP).",
+    "vitals": {
+      "temp": "36.8°C (98.2°F)",
+      "hr": "78 bpm",
+      "bp": "128/78 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "99% on room air",
+      "weight_bmi": "BMI 26 kg/m²"
+    },
+    "physical_exam": "General: Well-appearing weather-tanned middle-aged man in no acute distress. Skin: Multiple tense vesicles and bullae over the dorsa of both hands, the dorsal forearms, and the ear helices in a strikingly photodistributed pattern. Several healed atrophic scars and tiny white milia from prior lesions. Skin fragility — gentle rubbing of the dorsal hand causes superficial sloughing. Hyperpigmentation of all sun-exposed areas. New onset hypertrichosis with dark hair growth over the temples and malar cheeks (notably without androgenic distribution despite the testosterone supplementation). Sclerodermoid woody thickening of the dorsal hand skin. HEENT: Sclerae anicteric. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear. Abdomen: Soft, mildly tender in the right upper quadrant, hepatomegaly with a firm liver edge palpable 3 cm below the right costal margin. No splenomegaly, no ascites, no spider angiomata. Neurologic: No focal deficits. The flexural surfaces of the wrists and the palms are spared (a key clue to a photodistributed dermatosis rather than an irritant contact dermatitis from solvents and sap, which would affect the palms most)."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "LFTs",
+        "result": "AST 96 U/L (high), ALT 124 U/L (high), alk phos 168 U/L (mildly elevated), GGT 244 U/L (high), total bilirubin 1.4 mg/dL, albumin 3.9 g/dL, INR 1.0",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mixed hepatocellular and cholestatic injury with very high GGT — concerning for fatty liver disease, alcohol-related injury, or chronic viral hepatitis. PCT is strongly associated with chronic liver disease and the LFT pattern alone justifies a hepatitis workup."
+      },
+      {
+        "test_name": "Hepatitis panel",
+        "result": "HCV antibody POSITIVE; HCV RNA 1.8 million IU/mL; genotype 1a. HBsAg negative; anti-HBs positive (vaccinated). HAV IgG positive (immune).",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Newly diagnosed chronic hepatitis C — never previously screened despite the patient being a candidate (PrEP user, sexually active with multiple partners). Hepatitis C is a major trigger for porphyria cutanea tarda; treating the HCV with direct-acting antivirals will frequently induce remission of the porphyria."
+      },
+      {
+        "test_name": "Ferritin/Iron studies",
+        "result": "Ferritin 1820 ng/mL (markedly elevated), serum iron 224 mcg/dL, TIBC 252 mcg/dL, transferrin saturation 89% (markedly elevated)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Profound iron overload — even higher than typical PCT. Marked transferrin saturation >55% in a man of European ancestry should prompt HFE genetic testing for hereditary hemochromatosis as a coexisting trigger."
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "Color: dark amber/tea-colored. Specific gravity 1.020, pH 6.0. No protein, no glucose, no nitrites. Microscopy unremarkable. Under a Wood's lamp, the urine fluoresces a striking coral-pink/red.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Coral-pink fluorescence under Wood's lamp from accumulated uroporphyrins is the bedside diagnostic clue for porphyria cutanea tarda."
+      },
+      {
+        "test_name": "Skin biopsy",
+        "result": "Subepidermal bulla with a 'festooned' base in which the dermal papillae project upward into the cavity. PAS-positive material in the walls of upper-dermal vessels. Direct immunofluorescence: IgG and complement deposition at the dermal-epidermal junction and around vessels.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'festooned' subepidermal bulla and PAS-positive perivascular deposits are the classic histologic findings of PCT and effectively rule out the empirically treated 'contact dermatitis.' Direct immunofluorescence helps distinguish from autoimmune subepidermal bullous diseases such as bullous pemphigoid (linear IgG and C3 along the BMZ, not the perivascular pattern of PCT)."
+      },
+      {
+        "test_name": "HIV Ag/Ab",
+        "result": "Negative (4th-generation Ag/Ab combination)",
+        "flag": "WNL",
+        "clinical_significance": "Confirms successful HIV prevention on PrEP; eliminates HIV as the trigger of the porphyria, leaving HCV, alcohol, smoking, estrogen-like effects of high-dose testosterone aromatized to estradiol, and iron overload as contributors."
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 7.2 k/uL with normal differential, Hgb 14.6 g/dL, Hct 43%, MCV 100 fL (mildly elevated), Platelets 198 k/uL. No basophilic stippling.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild macrocytosis from heavy alcohol use. Absence of basophilic stippling argues against lead poisoning."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "LFTs",
+      "Hepatitis panel",
+      "Ferritin/Iron studies",
+      "UA with microscopy",
+      "Skin biopsy"
+    ],
+    "acceptable_tests": [
+      "HIV Ag/Ab",
+      "CBC with differential",
+      "BMP",
+      "Coagulation panel (PT/INR/PTT)"
+    ],
+    "low_yield_tests": [
+      "TSH/Free T4",
+      "ANA",
+      "Lipase",
+      "PSA",
+      "Ferritin/Iron studies (repeat)",
+      "EKG/ECG"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A quantitative 24-hour urine porphyrin profile returns markedly elevated uroporphyrin and 7-carboxyporphyrin with normal porphobilinogen, confirming porphyria cutanea tarda. HFE genotyping returns C282Y/H63D compound heterozygous, identifying iron-overload-driven PCT. Therapeutic phlebotomy is started, alcohol cessation is counseled, the testosterone supplement is stopped, sun protection is reinforced, and he is referred for hepatitis C treatment with sofosbuvir/ledipasvir. His skin lesions slowly improve over several months."
+  },
+  "debrief": {
+    "classic_presentation": "Porphyria cutanea tarda is the most common porphyria. It presents in middle-aged adults with photosensitive skin findings — painless tense vesicles and bullae on the dorsa of the hands and other sun-exposed areas, with skin fragility, scarring, milia, hyperpigmentation, and hypertrichosis (especially of the temples and cheeks). Tea-colored urine that fluoresces coral-pink under Wood's lamp is characteristic. Major triggers include alcohol, hepatitis C, HIV, estrogens (and high-dose testosterone, which aromatizes to estradiol), smoking, and iron overload (HFE mutations or hemochromatosis). Unlike the acute hepatic porphyrias, there are NO neurologic, psychiatric, or abdominal symptoms in PCT.",
+    "attending_mode_notes": "This case was designed to test recognition of PCT obscured by misleading features and anchoring biases. Key misleading elements: (1) The patient was anchored on a 'contact dermatitis from herbicides and sap' diagnosis from an urgent care visit two years ago — but contact dermatitis would primarily affect the palmar surfaces from grasping plants and tools, NOT the photodistributed dorsa of the hands, ear helices, and forearms. (2) The strict photodistribution (dorsal surfaces, sparing the palms) is the cardinal clue but had been overlooked for two years. (3) Hypertrichosis on the temples and cheeks — distinct from a beard distribution that would be expected from his testosterone supplementation — should have raised suspicion. (4) Multiple coexisting triggers were stacked in this patient: chronic untreated HCV (not previously screened despite PrEP eligibility), alcohol, smoking, oral testosterone (which aromatizes to estradiol — a porphyrinogenic estrogen), and HFE mutations causing iron overload. (5) Tenofovir/emtricitabine is NOT a known PCT trigger, but the temporal correlation between starting PrEP and 'worsening dermatitis' creates a red herring — the underlying driver is the previously undiagnosed chronic HCV that was acquired before PrEP. (6) PrEP eligibility should have triggered screening for HCV (per CDC guidelines, baseline and periodic HCV testing in high-risk PrEP users) — this had been missed. The critical teaching: photodistributed bullae of the dorsal hands are PCT until proven otherwise, even when an irritant exposure is plausible; always screen for HFE mutations and hepatitis C in any new diagnosis of PCT.",
+    "pathophysiology": "PCT is caused by reduced activity of uroporphyrinogen decarboxylase (UROD), the fifth enzyme in the heme biosynthesis pathway. Most cases are sporadic (Type I, ~80%) due to acquired hepatic UROD inhibition; Type II (~20%) is autosomal dominant with a UROD gene mutation. Type III is familial without a UROD mutation. Iron overload, alcohol, hepatitis C, HIV, and estrogens (and high-dose testosterone, which aromatizes to estradiol) all inhibit hepatic UROD activity. The accumulated uroporphyrinogen and 7-carboxyporphyrinogen deposit in the skin and react with sunlight (UV in the 400 nm Soret band) to generate reactive oxygen species that damage the dermal-epidermal junction, producing the characteristic photodistributed blisters, fragility, and scarring. Unlike erythropoietic porphyrias, the photosensitivity is painless and delayed — patients describe blistering rather than burning.",
+    "treatment_overview": "Cornerstones: avoid all triggers (alcohol, estrogens, testosterone supplementation, smoking, sun exposure), strict sun protection (clothing, broad-spectrum sunscreen — chemical sunscreens that block UVA work better than UVB-only blockers because the porphyrin Soret band is in the visible/UVA range). Therapeutic phlebotomy is first-line to reduce hepatic iron stores; serial phlebotomies every 1–2 weeks until ferritin reaches the lower limit of normal. Low-dose hydroxychloroquine 100 mg twice weekly (or chloroquine) is an effective alternative that complexes with hepatic porphyrins and promotes their urinary excretion (high-dose chloroquine can cause acute hepatocellular damage in PCT patients — use the low-dose regimen). Treat underlying hepatitis C with direct-acting antivirals — this often induces remission. Screen for HFE mutations and HCV in all patients with PCT. Do NOT use phlebotomy in patients with anemia or severe hepatic impairment; use hydroxychloroquine instead.",
+    "high_yield_pearls": [
+      "PCT is the MOST COMMON porphyria. Adults with photosensitive blisters on the dorsal hands and ears, hyperpigmentation, hypertrichosis, sclerodermoid skin, and tea-colored urine.",
+      "Photodistribution (dorsa of hands, ears, V of chest) is the cardinal clue; the palms are spared. This distinguishes PCT from contact dermatitis, which would affect the palms.",
+      "Enzyme defect: uroporphyrinogen decarboxylase (UROD), the fifth enzyme in heme biosynthesis. Type I (~80%) sporadic, Type II (~20%) autosomal dominant.",
+      "Triggers: alcohol, hepatitis C, HIV, estrogens (and high-dose testosterone via aromatization), smoking, iron overload (HFE mutations, hemochromatosis). Always screen newly diagnosed PCT for HFE mutations and hepatitis C.",
+      "Treatment: phlebotomy is first-line (reduces iron); avoid triggers; LOW-dose hydroxychloroquine is the alternative (high-dose can cause acute hepatocellular damage in PCT). Treating underlying HCV with DAAs often induces remission."
+    ],
+    "sources": [
+      "UpToDate: Porphyria cutanea tarda and hepatoerythropoietic porphyria — Pathogenesis, clinical manifestations, and diagnosis — https://www.uptodate.com/contents/search?search=Porphyria+cutanea+tarda+pathogenesis+clinical+manifestations+and+diagnosis",
+      "UpToDate: Porphyria cutanea tarda and hepatoerythropoietic porphyria — Management — https://www.uptodate.com/contents/search?search=Porphyria+cutanea+tarda+management",
+      "CDC: HCV testing recommendations for HIV pre-exposure prophylaxis (PrEP) users — https://www.cdc.gov/hivnexus/hcp/prep/",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Porphyrias' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Porphyria cutanea tarda (PCT)",
+      "Pemphigus vulgaris",
+      "Bullous pemphigoid",
+      "Hereditary hemochromatosis",
+      "Hepatitis C",
+      "Acute intermittent porphyria (AIP)",
+      "Drug-induced photosensitivity",
+      "Allergic contact dermatitis"
+    ],
+    "after_stage2_more_likely": [
+      "Porphyria cutanea tarda (PCT) — photodistributed bullae sparing the palms, hypertrichosis, hyperpigmentation, multiple coexisting triggers (alcohol, testosterone supplementation, smoking, occult HCV, possible HFE mutations)",
+      "Hereditary hemochromatosis — likely coexisting iron-overload trigger of the PCT given Northern European ancestry and very high transferrin saturation",
+      "Hepatitis C — major trigger of PCT and a probable previously-undiagnosed infection given his risk profile"
+    ],
+    "after_stage2_less_likely": [
+      "Allergic contact dermatitis — would affect the palms (where the patient handles plants and tools), not the dorsa, and would not produce hypertrichosis or sclerodermoid changes",
+      "Bullous pemphigoid — usually elderly with tense bullae but lacks photodistribution and the urine findings",
+      "Acute intermittent porphyria (AIP) — has no skin findings; presents with abdominal pain and neuropsychiatric symptoms"
+    ],
+    "after_labs_top3": [
+      "Porphyria cutanea tarda (PCT) — confirmed by urine porphyrin profile",
+      "Hereditary hemochromatosis — coexisting trigger by HFE genotyping",
+      "Hepatitis C — major contributing trigger"
+    ]
+  }
+}

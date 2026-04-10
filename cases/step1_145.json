@@ -6,7 +6,7 @@
   "icd_category": "D59.3 -- Hemolytic-uremic syndrome",
   "one_liner": "A 4-year-old boy is brought to the emergency department with 5 days of bloody diarrhea, followed by decreased urine output and pallor today.",
   "stage2": {
-    "hpi_extension": "Five days ago he began having watery diarrhea that progressed to **grossly bloody stools** over the following days along with crampy abdominal pain. The diarrhea has now mostly stopped, but over the past 24 hours he has become pale, lethargic, and has produced very little urine. His mother notes puffiness around his eyes. He attended a family barbecue about a week before symptoms began, where he ate a **hamburger that may have been undercooked**. Two other children at the gathering also had diarrhea. He has had no true neurologic symptoms and no fever in the past 48 hours.",
+    "hpi_extension": "Five days ago he began having watery diarrhea that progressed to grossly bloody stools over the following days along with crampy abdominal pain. The diarrhea has now mostly stopped, but over the past 24 hours he has become pale, lethargic, and has produced very little urine. His mother notes puffiness around his eyes. He attended a family barbecue about a week before symptoms began, where he ate a hamburger that may have been undercooked. Two other children at the gathering also had diarrhea. He has had no true neurologic symptoms and no fever in the past 48 hours.",
     "pmh": "Born at term, previously healthy, vaccinations up to date",
     "surgical_history": "None",
     "medications": "No antibiotics (mother specifically did not give any). No NSAIDs.",
@@ -20,25 +20,25 @@
       "rr": "24",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: tired, pale 4-year-old boy. HEENT: **pale conjunctivae**, **periorbital edema**. Cardiovascular: tachycardic, regular, no murmur. Lungs: clear. Abdomen: soft, mildly diffusely tender, no rebound, bowel sounds present, **no hepatosplenomegaly**. Skin: **scattered petechiae on lower legs, no purpura**, no rash. Extremities: mild bilateral ankle edema. Neuro: sleepy but arousable, **no focal deficits, no seizures**, non-toxic."
+    "physical_exam": "General: tired, pale 4-year-old boy. HEENT: pale conjunctivae, periorbital edema. Cardiovascular: tachycardic, regular, no murmur. Lungs: clear. Abdomen: soft, mildly diffusely tender, no rebound, bowel sounds present, no hepatosplenomegaly. Skin: scattered petechiae on lower legs, no purpura, no rash. Extremities: mild bilateral ankle edema. Neuro: sleepy but arousable, no focal deficits, no seizures, non-toxic."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 7.2 g/dL (low), **platelets 42,000/uL (low)**, WBC 14.5 (mildly elevated with left shift). Reticulocyte count elevated. Smear: **numerous schistocytes (fragmented RBCs and helmet cells)**, polychromasia, thrombocytopenia. No blasts.",
+        "result": "Hgb 7.2 g/dL (low), platelets 42,000/uL (low), WBC 14.5 (mildly elevated with left shift). Reticulocyte count elevated. Smear: numerous schistocytes (fragmented RBCs and helmet cells), polychromasia, thrombocytopenia. No blasts.",
         "flag": "ABNORMAL",
         "clinical_significance": "Microangiopathic hemolytic anemia plus thrombocytopenia is the hallmark of a thrombotic microangiopathy. In a child following bloody diarrhea, HUS is the leading diagnosis."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Creatinine 2.4 mg/dL (markedly elevated for a 4-year-old)**, BUN 58 mg/dL, K+ 5.8 mmol/L (high), bicarbonate low. **LDH markedly elevated**, indirect bilirubin elevated, haptoglobin undetectable. **PT, PTT, and fibrinogen NORMAL** (ruling out DIC). Urinalysis: proteinuria and hematuria with red cell casts.",
+        "result": "Creatinine 2.4 mg/dL (markedly elevated for a 4-year-old), BUN 58 mg/dL, K+ 5.8 mmol/L (high), bicarbonate low. LDH markedly elevated, indirect bilirubin elevated, haptoglobin undetectable. PT, PTT, and fibrinogen NORMAL (ruling out DIC). Urinalysis: proteinuria and hematuria with red cell casts.",
         "flag": "ABNORMAL",
         "clinical_significance": "Acute kidney injury plus laboratory evidence of intravascular hemolysis (elevated LDH, elevated indirect bilirubin, undetectable haptoglobin) completes the HUS triad. Normal coagulation parameters distinguish HUS from DIC, and the renal predominance and age distinguish it from TTP."
       },
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "**Stool culture: positive for Shiga-toxin-producing Escherichia coli O157:H7**. Shiga toxin assay on stool: positive. Stool ova and parasites negative. C. difficile negative.",
+        "result": "Stool culture: positive for Shiga-toxin-producing Escherichia coli O157:H7. Shiga toxin assay on stool: positive. Stool ova and parasites negative. C. difficile negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Confirms typical (diarrhea-associated, D+) HUS caused by Shiga-toxin-producing E. coli O157:H7, classically acquired from undercooked ground beef. Shiga toxin binds to Gb3 receptors on glomerular endothelium, damaging the microvasculature and initiating the thrombotic microangiopathy."
       }

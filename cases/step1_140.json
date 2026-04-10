@@ -6,7 +6,7 @@
   "icd_category": "D52.0 -- Dietary folate deficiency anemia",
   "one_liner": "A 52-year-old man with chronic alcohol use disorder presents with several weeks of fatigue, dyspnea on exertion, and a painful red tongue, but no neurologic complaints.",
   "stage2": {
-    "hpi_extension": "He reports drinking a pint of vodka daily for the past 10 years and eats poorly, subsisting mostly on beer, crackers, and occasional fast food with **no green leafy vegetables**. He denies numbness, tingling, weakness, unsteady gait, or position sense problems. He has had no GI bleeding, melena, or weight loss, but has had loose stools. His tongue is sore. He has not used any supplements.",
+    "hpi_extension": "He reports drinking a pint of vodka daily for the past 10 years and eats poorly, subsisting mostly on beer, crackers, and occasional fast food with no green leafy vegetables. He denies numbness, tingling, weakness, unsteady gait, or position sense problems. He has had no GI bleeding, melena, or weight loss, but has had loose stools. His tongue is sore. He has not used any supplements.",
     "pmh": "Alcohol use disorder, chronic hepatitis from alcohol, hypertension",
     "surgical_history": "None",
     "medications": "No prescription medications, no PPI, no metformin, no methotrexate, no phenytoin, no trimethoprim",
@@ -20,19 +20,19 @@
       "rr": "16",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: thin, disheveled, mildly jaundiced, **pale conjunctivae**. HEENT: **smooth, red, beefy tongue (atrophic glossitis)**, angular cheilitis. Cardiovascular: tachycardic with a soft flow murmur. Abdomen: mild tender hepatomegaly, no splenomegaly. Extremities: no petechiae, no purpura. **Neuro: normal vibration and proprioception in the lower extremities. Normal Romberg. Normal reflexes, toes downgoing. No ataxia and no spasticity.**"
+    "physical_exam": "General: thin, disheveled, mildly jaundiced, pale conjunctivae. HEENT: smooth, red, beefy tongue (atrophic glossitis), angular cheilitis. Cardiovascular: tachycardic with a soft flow murmur. Abdomen: mild tender hepatomegaly, no splenomegaly. Extremities: no petechiae, no purpura. Neuro: normal vibration and proprioception in the lower extremities. Normal Romberg. Normal reflexes, toes downgoing. No ataxia and no spasticity."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "Hgb 8.8 g/dL (low), **MCV 112 fL (macrocytic)**, WBC 3.9, platelets 118. Reticulocyte count low. Smear: **oval macrocytes** and **hypersegmented neutrophils** identical in appearance to B12 deficiency. Mildly elevated indirect bilirubin and LDH from ineffective erythropoiesis.",
+        "result": "Hgb 8.8 g/dL (low), MCV 112 fL (macrocytic), WBC 3.9, platelets 118. Reticulocyte count low. Smear: oval macrocytes and hypersegmented neutrophils identical in appearance to B12 deficiency. Mildly elevated indirect bilirubin and LDH from ineffective erythropoiesis.",
         "flag": "ABNORMAL",
         "clinical_significance": "Macrocytic megaloblastic anemia with hypersegmented neutrophils. The smear alone cannot distinguish folate deficiency from B12 deficiency; laboratory confirmation is required."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**Serum folate: LOW (1.8 ng/mL)**. RBC folate low. **Serum vitamin B12: NORMAL (420 pg/mL)**. **Homocysteine: ELEVATED**. **Methylmalonic acid: NORMAL**.",
+        "result": "Serum folate: LOW (1.8 ng/mL). RBC folate low. Serum vitamin B12: NORMAL (420 pg/mL). Homocysteine: ELEVATED. Methylmalonic acid: NORMAL.",
         "flag": "ABNORMAL",
         "clinical_significance": "The critical distinction from B12 deficiency: homocysteine is elevated (because the methionine synthase reaction is impaired) but methylmalonic acid is NORMAL (because folate is not required for the methylmalonyl-CoA mutase reaction). This pattern is diagnostic of isolated folate deficiency."
       },

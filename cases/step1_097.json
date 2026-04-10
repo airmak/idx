@@ -11,7 +11,7 @@
     "surgical_history": "None",
     "medications": "None",
     "allergies": "NKDA",
-    "family_history": "**Maternal uncle with sudden cardiac death at age 22**; unexplained drowning of a cousin at age 14",
+    "family_history": "Maternal uncle with sudden cardiac death at age 22; unexplained drowning of a cousin at age 14",
     "social_history": "High school student and competitive swimmer. No tobacco, alcohol, or illicit drugs.",
     "vitals": {
       "temp": "36.8 C",
@@ -20,13 +20,13 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: alert, well-appearing teenager. HEENT: normal; **hearing grossly intact**. Cardiovascular: regular rate and rhythm, no murmurs, no gallops. Lungs clear. Neuro: non-focal; no residual post-ictal confusion. Extremities: no edema. Tongue not bitten."
+    "physical_exam": "General: alert, well-appearing teenager. HEENT: normal; hearing grossly intact. Cardiovascular: regular rate and rhythm, no murmurs, no gallops. Lungs clear. Neuro: non-focal; no residual post-ictal confusion. Extremities: no edema. Tongue not bitten."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus rhythm at 64 bpm. **QTc 510 ms (prolonged)** with **broad, notched T waves** in precordial leads. No delta wave, no Brugada pattern. Telemetry captures a brief run of polymorphic ventricular tachycardia with twisting of the QRS axis around the baseline (**torsades de pointes**) that self-terminated.",
+        "result": "Sinus rhythm at 64 bpm. QTc 510 ms (prolonged) with broad, notched T waves in precordial leads. No delta wave, no Brugada pattern. Telemetry captures a brief run of polymorphic ventricular tachycardia with twisting of the QRS axis around the baseline (torsades de pointes) that self-terminated.",
         "flag": "ABNORMAL",
         "clinical_significance": "A QTc exceeding 450 ms in males or 460 ms in females is prolonged; QTc >500 ms markedly increases the risk of torsades de pointes and sudden cardiac death. Documented torsades confirms the arrhythmic substrate."
       },
@@ -38,7 +38,7 @@
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**Pathogenic variant identified in KCNQ1** (potassium channel IKs subunit), consistent with **LQT1** (Romano-Ward syndrome, autosomal dominant).",
+        "result": "Pathogenic variant identified in KCNQ1 (potassium channel IKs subunit), consistent with LQT1 (Romano-Ward syndrome, autosomal dominant).",
         "flag": "ABNORMAL",
         "clinical_significance": "KCNQ1 loss-of-function mutations cause LQT1, the most common congenital form. LQT1 events are classically triggered by exercise and especially by swimming, matching this patient's presentation."
       }
@@ -66,7 +66,7 @@
     "classic_presentation": "LQTS classically presents as syncope, seizures, or sudden cardiac death in a young, otherwise healthy person, often triggered by exertion, emotional stress, or auditory stimuli. A family history of sudden death or unexplained drowning is a major clue. Congenital forms include Romano-Ward (autosomal dominant, no deafness) and Jervell-Lange-Nielsen (autosomal recessive, associated with sensorineural deafness). Acquired forms are triggered by medications (many antiarrhythmics, macrolides, fluoroquinolones, antipsychotics) or electrolyte derangements.",
     "attending_mode_notes": null,
     "pathophysiology": "LQTS is caused by dysfunction of cardiac ion channels that control repolarization. LQT1 and LQT2 involve loss of function in potassium channels (KCNQ1 encoding IKs and KCNH2/hERG encoding IKr), while LQT3 involves gain-of-function mutations in the SCN5A sodium channel. Delayed repolarization prolongs the action potential and predisposes to early afterdepolarizations, which can trigger torsades de pointes, a polymorphic ventricular tachycardia. Torsades can degenerate into ventricular fibrillation and cause sudden cardiac death. LQT1 events are often exercise/swimming-triggered, LQT2 events are classically triggered by loud noises, and LQT3 events occur at rest or during sleep.",
-    "treatment_overview": "First-line therapy is **beta-blockers** (nadolol or propranolol) to blunt sympathetic triggers. Lifestyle modification includes avoiding competitive sports (especially swimming in LQT1), strenuous emotion, and QT-prolonging drugs. Acute torsades is treated with **IV magnesium sulfate**; overdrive pacing or isoproterenol can shorten QT in refractory cases. Patients with recurrent syncope despite beta-blockade, documented cardiac arrest, or very high-risk genotypes receive an implantable cardioverter-defibrillator (ICD). Family screening is essential.",
+    "treatment_overview": "First-line therapy is beta-blockers (nadolol or propranolol) to blunt sympathetic triggers. Lifestyle modification includes avoiding competitive sports (especially swimming in LQT1), strenuous emotion, and QT-prolonging drugs. Acute torsades is treated with IV magnesium sulfate; overdrive pacing or isoproterenol can shorten QT in refractory cases. Patients with recurrent syncope despite beta-blockade, documented cardiac arrest, or very high-risk genotypes receive an implantable cardioverter-defibrillator (ICD). Family screening is essential.",
     "high_yield_pearls": [
       "Romano-Ward = autosomal dominant, no deafness; Jervell-Lange-Nielsen = autosomal recessive with sensorineural deafness.",
       "LQT1 (KCNQ1/IKs) triggers = exercise and swimming; LQT2 (hERG/IKr) = sudden loud noises; LQT3 (SCN5A) = rest/sleep.",

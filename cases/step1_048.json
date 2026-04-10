@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: mildly fatigued but well-appearing. HEENT: moist mucous membranes. Neck: **no palpable thyroid or parathyroid mass**. CV/Resp: normal. Abdomen: soft, non-tender, hypoactive bowel sounds. MSK: mild diffuse bone tenderness, particularly over the hips. Neuro: intact; mood mildly depressed. No Chvostek or Trousseau sign (patient is hyper-, not hypo-, calcemic)."
+    "physical_exam": "General: mildly fatigued but well-appearing. HEENT: moist mucous membranes. Neck: no palpable thyroid or parathyroid mass. CV/Resp: normal. Abdomen: soft, non-tender, hypoactive bowel sounds. MSK: mild diffuse bone tenderness, particularly over the hips. Neuro: intact; mood mildly depressed. No Chvostek or Trousseau sign (patient is hyper-, not hypo-, calcemic)."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Calcium 11.8 mg/dL (HIGH)**, **Phosphate 2.2 mg/dL (LOW)**, albumin 4.0, Cr 1.1, chloride 108 (mildly elevated). Alkaline phosphatase mildly elevated. 24-hour urinary calcium elevated.",
+        "result": "Calcium 11.8 mg/dL (HIGH), Phosphate 2.2 mg/dL (LOW), albumin 4.0, Cr 1.1, chloride 108 (mildly elevated). Alkaline phosphatase mildly elevated. 24-hour urinary calcium elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "The classic biochemical signature of primary hyperparathyroidism = HIGH calcium + LOW phosphate. PTH lowers phosphate by inhibiting proximal tubular reabsorption and stimulates bone and renal calcium release. Elevated 24-hour urine calcium excludes familial hypocalciuric hypercalcemia (FHH), an important mimic."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**Intact PTH markedly elevated (180 pg/mL)**. 25-OH vitamin D normal. 1,25-OH vitamin D elevated. PTHrP undetectable.",
+        "result": "Intact PTH markedly elevated (180 pg/mL). 25-OH vitamin D normal. 1,25-OH vitamin D elevated. PTHrP undetectable.",
         "flag": "HIGH",
         "clinical_significance": "Hypercalcemia with inappropriately elevated (rather than suppressed) PTH confirms PTH-dependent hypercalcemia — primary hyperparathyroidism. Undetectable PTHrP excludes humoral hypercalcemia of malignancy. The most common cause is a solitary parathyroid adenoma (~85%)."
       },
       {
         "test_name": "Imaging study",
-        "result": "**Sestamibi parathyroid scan**: focal uptake consistent with a **right inferior parathyroid adenoma**. Neck ultrasound confirms a 1.5 cm hypoechoic lesion posterior to the right inferior thyroid pole. DEXA: **osteoporosis at the distal radius** (cortical bone).",
+        "result": "Sestamibi parathyroid scan: focal uptake consistent with a right inferior parathyroid adenoma. Neck ultrasound confirms a 1.5 cm hypoechoic lesion posterior to the right inferior thyroid pole. DEXA: osteoporosis at the distal radius (cortical bone).",
         "flag": "ABNORMAL",
         "clinical_significance": "Sestamibi scan localizes a parathyroid adenoma for minimally invasive parathyroidectomy. Primary hyperparathyroidism preferentially causes cortical bone loss (distal radius), in contrast to postmenopausal osteoporosis, which targets trabecular bone (spine/hip)."
       }

@@ -6,7 +6,7 @@
   "icd_category": "K74 - Fibrosis and cirrhosis of liver",
   "one_liner": "A 55-year-old man with a 30-year history of heavy alcohol use presents with 2 months of progressive abdominal distension, lower extremity edema, yellow skin, and new-onset confusion.",
   "stage2": {
-    "hpi_extension": "His abdomen has enlarged dramatically over 2 months and his pants no longer fit. He has noted **yellow eyes**, **easy bruising**, and **gynecomastia**. His wife reports that over the past week he has become intermittently confused, asking the same questions repeatedly and experiencing a disturbed sleep-wake cycle. He has been drinking approximately **1 pint of vodka daily for 30 years** and has never been treated for alcohol use disorder. He denies hematemesis, melena, or fevers. He has lost muscle mass in his arms and legs.",
+    "hpi_extension": "His abdomen has enlarged dramatically over 2 months and his pants no longer fit. He has noted yellow eyes, easy bruising, and gynecomastia. His wife reports that over the past week he has become intermittently confused, asking the same questions repeatedly and experiencing a disturbed sleep-wake cycle. He has been drinking approximately 1 pint of vodka daily for 30 years and has never been treated for alcohol use disorder. He denies hematemesis, melena, or fevers. He has lost muscle mass in his arms and legs.",
     "pmh": "Alcohol use disorder (untreated), hypertension, history of alcohol withdrawal seizures",
     "surgical_history": "None",
     "medications": "None consistently",
@@ -20,25 +20,25 @@
       "rr": "16",
       "spo2": "96% on room air"
     },
-    "physical_exam": "General: cachectic middle-aged man, **jaundiced**, appears chronically ill. HEENT: **scleral icterus**, **parotid gland enlargement**, temporal muscle wasting. Chest: **gynecomastia**, **spider angiomata across the upper chest**. Cardiovascular: regular rhythm, no murmurs. Lungs: clear. Abdomen: **massive ascites** with **shifting dullness** and a **positive fluid wave**, **caput medusae** radiating from the umbilicus, firm liver edge, **palpable splenomegaly**. Extremities: **2+ pitting edema to the knees**, **palmar erythema**, **Dupuytren contractures**. Neurologic: oriented to person only, **asterixis (liver flap)** present, sweet fetor hepaticus on breath. Skin: jaundice, multiple bruises."
+    "physical_exam": "General: cachectic middle-aged man, jaundiced, appears chronically ill. HEENT: scleral icterus, parotid gland enlargement, temporal muscle wasting. Chest: gynecomastia, spider angiomata across the upper chest. Cardiovascular: regular rhythm, no murmurs. Lungs: clear. Abdomen: massive ascites with shifting dullness and a positive fluid wave, caput medusae radiating from the umbilicus, firm liver edge, palpable splenomegaly. Extremities: 2+ pitting edema to the knees, palmar erythema, Dupuytren contractures. Neurologic: oriented to person only, asterixis (liver flap) present, sweet fetor hepaticus on breath. Skin: jaundice, multiple bruises."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**AST 148 U/L, ALT 62 U/L (AST:ALT ratio > 2)**, alkaline phosphatase 220 U/L, **total bilirubin 6.8 mg/dL**, **albumin 2.4 g/dL (low)**, **INR 2.1 (elevated)**, ammonia 120 umol/L (elevated), **sodium 128 mEq/L (low)**, creatinine 1.6 mg/dL.",
+        "result": "AST 148 U/L, ALT 62 U/L (AST:ALT ratio > 2), alkaline phosphatase 220 U/L, total bilirubin 6.8 mg/dL, albumin 2.4 g/dL (low), INR 2.1 (elevated), ammonia 120 umol/L (elevated), sodium 128 mEq/L (low), creatinine 1.6 mg/dL.",
         "flag": "ABNORMAL",
         "clinical_significance": "AST:ALT > 2 is the classic alcoholic pattern ('a Scotch and a Tonic'). Low albumin and elevated INR reflect impaired hepatic synthetic function. Hyperammonemia contributes to hepatic encephalopathy. Dilutional hyponatremia reflects poor effective circulating volume from splanchnic vasodilation."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "**Platelets 72,000 (thrombocytopenia)**, WBC 6.2, Hgb 10.8 g/dL (macrocytic, MCV 108), smear shows **target cells and acanthocytes (spur cells)**.",
+        "result": "Platelets 72,000 (thrombocytopenia), WBC 6.2, Hgb 10.8 g/dL (macrocytic, MCV 108), smear shows target cells and acanthocytes (spur cells).",
         "flag": "ABNORMAL",
         "clinical_significance": "Thrombocytopenia from splenic sequestration and decreased thrombopoietin is a marker of portal hypertension. Macrocytosis and target cells reflect alcohol effect and liver disease."
       },
       {
         "test_name": "Imaging study",
-        "result": "Abdominal ultrasound with Doppler: **nodular, shrunken liver** with coarse echotexture, **large volume ascites**, **splenomegaly (15 cm)**, **recanalized umbilical vein**, **dilated portal vein (14 mm) with hepatofugal flow**. MELD score calculated at 22.",
+        "result": "Abdominal ultrasound with Doppler: nodular, shrunken liver with coarse echotexture, large volume ascites, splenomegaly (15 cm), recanalized umbilical vein, dilated portal vein (14 mm) with hepatofugal flow. MELD score calculated at 22.",
         "flag": "ABNORMAL",
         "clinical_significance": "Nodular shrunken liver, portal vein dilation with reversed (hepatofugal) flow, splenomegaly, and ascites confirm cirrhosis with portal hypertension. MELD > 15 indicates benefit from transplant evaluation."
       }
@@ -60,13 +60,13 @@
     ]
   },
   "stage5": {
-    "final_clue": "He is started on **lactulose and rifaximin** for hepatic encephalopathy, diuresed with **spironolactone and furosemide** for ascites, and counseled on alcohol cessation. A diagnostic paracentesis is negative for SBP, and he is referred for transplant evaluation given a MELD of 22."
+    "final_clue": "He is started on lactulose and rifaximin for hepatic encephalopathy, diuresed with spironolactone and furosemide for ascites, and counseled on alcohol cessation. A diagnostic paracentesis is negative for SBP, and he is referred for transplant evaluation given a MELD of 22."
   },
   "debrief": {
-    "classic_presentation": "Cirrhosis is the **end-stage of chronic liver disease** regardless of the underlying etiology. Hallmark findings from **hepatocellular dysfunction** include jaundice, coagulopathy, hypoalbuminemia, hyperestrinism (gynecomastia, palmar erythema, spider angiomata, testicular atrophy), and encephalopathy. Hallmark findings from **portal hypertension** include ascites, splenomegaly, esophageal and gastric varices, caput medusae, and hemorrhoids. Common causes include chronic alcohol use, chronic hepatitis B and C, nonalcoholic steatohepatitis (NASH), hereditary hemochromatosis, Wilson disease, alpha-1 antitrypsin deficiency, primary biliary cholangitis, and primary sclerosing cholangitis.",
+    "classic_presentation": "Cirrhosis is the end-stage of chronic liver disease regardless of the underlying etiology. Hallmark findings from hepatocellular dysfunction include jaundice, coagulopathy, hypoalbuminemia, hyperestrinism (gynecomastia, palmar erythema, spider angiomata, testicular atrophy), and encephalopathy. Hallmark findings from portal hypertension include ascites, splenomegaly, esophageal and gastric varices, caput medusae, and hemorrhoids. Common causes include chronic alcohol use, chronic hepatitis B and C, nonalcoholic steatohepatitis (NASH), hereditary hemochromatosis, Wilson disease, alpha-1 antitrypsin deficiency, primary biliary cholangitis, and primary sclerosing cholangitis.",
     "attending_mode_notes": null,
-    "pathophysiology": "Chronic hepatic injury from any cause activates **hepatic stellate cells** (Ito cells) in the space of Disse, which transform into myofibroblasts and deposit type I and III collagen, distorting hepatic architecture into **regenerative nodules separated by fibrous septa**. This scarring obstructs sinusoidal blood flow, raising portal venous pressure. **Portal hypertension** drives splanchnic vasodilation (nitric oxide) and effective hypovolemia, activating the RAAS and producing sodium retention, dilutional hyponatremia, and ascites. Porto-systemic collaterals form at sites of portal-systemic communication (gastroesophageal junction, rectum, umbilicus, retroperitoneum). Failure of the liver to clear nitrogenous waste leads to **hepatic encephalopathy** via ammonia-driven astrocyte swelling.",
-    "treatment_overview": "Treatment targets the underlying cause (alcohol cessation, antivirals for HBV/HCV, weight loss for NASH, phlebotomy for hemochromatosis, D-penicillamine or trientine for Wilson). **Complications** are managed individually: ascites with sodium restriction, spironolactone + furosemide, and large-volume paracentesis with albumin; spontaneous bacterial peritonitis (SBP) with cefotaxime; hepatic encephalopathy with **lactulose** (traps ammonia as ammonium in the gut) and **rifaximin** (reduces ammonia-producing gut bacteria); variceal bleeding with non-selective beta-blockers for prophylaxis and endoscopic banding for acute bleeds. The **MELD score** (based on bilirubin, INR, creatinine, sodium) predicts 3-month mortality and prioritizes liver transplant candidates.",
+    "pathophysiology": "Chronic hepatic injury from any cause activates hepatic stellate cells (Ito cells) in the space of Disse, which transform into myofibroblasts and deposit type I and III collagen, distorting hepatic architecture into regenerative nodules separated by fibrous septa. This scarring obstructs sinusoidal blood flow, raising portal venous pressure. Portal hypertension drives splanchnic vasodilation (nitric oxide) and effective hypovolemia, activating the RAAS and producing sodium retention, dilutional hyponatremia, and ascites. Porto-systemic collaterals form at sites of portal-systemic communication (gastroesophageal junction, rectum, umbilicus, retroperitoneum). Failure of the liver to clear nitrogenous waste leads to hepatic encephalopathy via ammonia-driven astrocyte swelling.",
+    "treatment_overview": "Treatment targets the underlying cause (alcohol cessation, antivirals for HBV/HCV, weight loss for NASH, phlebotomy for hemochromatosis, D-penicillamine or trientine for Wilson). Complications are managed individually: ascites with sodium restriction, spironolactone + furosemide, and large-volume paracentesis with albumin; spontaneous bacterial peritonitis (SBP) with cefotaxime; hepatic encephalopathy with lactulose (traps ammonia as ammonium in the gut) and rifaximin (reduces ammonia-producing gut bacteria); variceal bleeding with non-selective beta-blockers for prophylaxis and endoscopic banding for acute bleeds. The MELD score (based on bilirubin, INR, creatinine, sodium) predicts 3-month mortality and prioritizes liver transplant candidates.",
     "high_yield_pearls": [
       "AST:ALT > 2 suggests alcoholic liver disease ('make a toAST with Scotch'); AST and ALT are usually < 500 even in severe alcoholic hepatitis.",
       "Portal hypertension complications: ascites, varices (esophageal/gastric/rectal/caput medusae), splenomegaly with thrombocytopenia, hepatorenal syndrome, hepatic encephalopathy, SBP.",

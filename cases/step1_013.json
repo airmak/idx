@@ -20,19 +20,19 @@
       "rr": "22",
       "spo2": "97% on room air"
     },
-    "physical_exam": "Diaphoretic man in severe distress. Cardiac: tachycardic, **early diastolic decrescendo blowing murmur at the right upper sternal border** (aortic regurgitation from aortic root involvement). **20 mmHg difference in systolic blood pressure between right and left arms**. Carotid bruit heard on the right. **Diminished left radial pulse**. Lungs clear. Abdomen soft. Neuro: mild left arm weakness (3/5); otherwise intact."
+    "physical_exam": "Diaphoretic man in severe distress. Cardiac: tachycardic, early diastolic decrescendo blowing murmur at the right upper sternal border (aortic regurgitation from aortic root involvement). 20 mmHg difference in systolic blood pressure between right and left arms. Carotid bruit heard on the right. Diminished left radial pulse. Lungs clear. Abdomen soft. Neuro: mild left arm weakness (3/5); otherwise intact."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "CT angiogram of the chest: **intimal flap in the ascending aorta extending from the aortic root to the descending thoracic aorta**, with a true and false lumen. **Widened mediastinum** (8 cm) on the initial chest X-ray. Small pericardial effusion. Dissection extends to the origin of the left subclavian artery.",
+        "result": "CT angiogram of the chest: intimal flap in the ascending aorta extending from the aortic root to the descending thoracic aorta, with a true and false lumen. Widened mediastinum (8 cm) on the initial chest X-ray. Small pericardial effusion. Dissection extends to the origin of the left subclavian artery.",
         "flag": "ABNORMAL",
         "clinical_significance": "An intimal flap separating true and false lumens is pathognomonic for aortic dissection. Involvement of the ascending aorta classifies this as Stanford type A — a surgical emergency."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus tachycardia at 108. **Left ventricular hypertrophy** by voltage criteria. No acute ischemic ST changes. No Q waves.",
+        "result": "Sinus tachycardia at 108. Left ventricular hypertrophy by voltage criteria. No acute ischemic ST changes. No Q waves.",
         "flag": "ABNORMAL",
         "clinical_significance": "EKG is critical to exclude STEMI, which can mimic dissection clinically but has entirely different management (antiplatelet/anticoagulation is dangerous in dissection)."
       }
@@ -59,14 +59,14 @@
   "debrief": {
     "classic_presentation": "Aortic dissection classically presents as sudden, maximal-at-onset, 'tearing' or 'ripping' chest pain radiating to the back (interscapular region). Key exam findings include asymmetric blood pressures/pulses between arms, a new aortic regurgitation murmur (if the root is involved), and mediastinal widening on chest X-ray. Neurologic deficits can occur if branch vessels are compromised. Risk factors include hypertension (most common), Marfan syndrome, Ehlers-Danlos syndrome, bicuspid aortic valve, cocaine use, and pregnancy.",
     "attending_mode_notes": null,
-    "pathophysiology": "Dissection begins with a tear in the aortic intima that allows pulsatile blood to dissect into the media, creating a false lumen. **Cystic medial degeneration** (loss of elastic fibers and smooth muscle) is the underlying histologic lesion, accelerated by chronic hypertension and inherited connective tissue disorders. The **Stanford classification** is clinically most useful: **type A** involves the ascending aorta (surgical emergency — risk of rupture into pericardium causing tamponade, or extension to coronaries/aortic valve); **type B** involves only the descending aorta (medical management).",
-    "treatment_overview": "Immediate goals are to decrease shear stress (dP/dt) on the aortic wall. First-line is an **IV beta-blocker (esmolol or labetalol)** to target HR <60 and SBP 100–120, followed by a vasodilator (nitroprusside) if needed — never give a vasodilator first because reflex tachycardia increases shear stress. **Type A dissections require emergent open surgical repair**. **Type B dissections are managed medically** unless complicated by malperfusion, progression, or rupture.",
+    "pathophysiology": "Dissection begins with a tear in the aortic intima that allows pulsatile blood to dissect into the media, creating a false lumen. Cystic medial degeneration (loss of elastic fibers and smooth muscle) is the underlying histologic lesion, accelerated by chronic hypertension and inherited connective tissue disorders. The Stanford classification is clinically most useful: type A involves the ascending aorta (surgical emergency — risk of rupture into pericardium causing tamponade, or extension to coronaries/aortic valve); type B involves only the descending aorta (medical management).",
+    "treatment_overview": "Immediate goals are to decrease shear stress (dP/dt) on the aortic wall. First-line is an IV beta-blocker (esmolol or labetalol) to target HR <60 and SBP 100–120, followed by a vasodilator (nitroprusside) if needed — never give a vasodilator first because reflex tachycardia increases shear stress. Type A dissections require emergent open surgical repair. Type B dissections are managed medically unless complicated by malperfusion, progression, or rupture.",
     "high_yield_pearls": [
-      "**Tearing/ripping chest pain radiating to the back** with **BP/pulse differential between arms** = aortic dissection until proven otherwise.",
-      "Chest X-ray showing a **widened mediastinum** (>8 cm) is the classic but non-specific screening finding.",
-      "**Stanford A** = ascending aorta = **surgery**. **Stanford B** = descending only = **medical management**.",
-      "**Cystic medial degeneration** is the histologic lesion, classically seen in **Marfan syndrome** (FBN1 mutation, fibrillin-1) and Ehlers-Danlos syndrome.",
-      "Start **beta-blocker BEFORE nitroprusside** to prevent reflex tachycardia and increased aortic wall shear stress."
+      "Tearing/ripping chest pain radiating to the back with BP/pulse differential between arms = aortic dissection until proven otherwise.",
+      "Chest X-ray showing a widened mediastinum (>8 cm) is the classic but non-specific screening finding.",
+      "Stanford A = ascending aorta = surgery. Stanford B = descending only = medical management.",
+      "Cystic medial degeneration is the histologic lesion, classically seen in Marfan syndrome (FBN1 mutation, fibrillin-1) and Ehlers-Danlos syndrome.",
+      "Start beta-blocker BEFORE nitroprusside to prevent reflex tachycardia and increased aortic wall shear stress."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Aortic dissection' section."

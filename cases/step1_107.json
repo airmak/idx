@@ -20,25 +20,25 @@
       "rr": "34",
       "spo2": "86% on 100% non-rebreather"
     },
-    "physical_exam": "General: ill-appearing, **labored respirations with accessory muscle use**. Lungs: **diffuse bilateral crackles** throughout all lung fields. Cardiac: tachycardic, regular, **no S3 gallop, no jugular venous distension**. Abdomen: soft, nontender. Extremities: warm, well perfused, **no peripheral edema**. Skin: no rashes, no petechiae."
+    "physical_exam": "General: ill-appearing, labored respirations with accessory muscle use. Lungs: diffuse bilateral crackles throughout all lung fields. Cardiac: tachycardic, regular, no S3 gallop, no jugular venous distension. Abdomen: soft, nontender. Extremities: warm, well perfused, no peripheral edema. Skin: no rashes, no petechiae."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Portable chest X-ray: **new bilateral diffuse alveolar infiltrates** sparing the costophrenic angles. Normal-sized cardiac silhouette, no pleural effusions, no Kerley B lines, no vascular redistribution.",
+        "result": "Portable chest X-ray: new bilateral diffuse alveolar infiltrates sparing the costophrenic angles. Normal-sized cardiac silhouette, no pleural effusions, no Kerley B lines, no vascular redistribution.",
         "flag": "ABNORMAL",
         "clinical_significance": "Bilateral diffuse infiltrates with a normal heart size and no signs of volume overload support non-cardiogenic pulmonary edema (ARDS) rather than congestive heart failure."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "ABG on 100% FiO2: **pH 7.28, PaCO2 48 mmHg, PaO2 58 mmHg, HCO3 20 mEq/L**. **PaO2/FiO2 ratio = 58 (severe ARDS)**. Lactate 3.8 mmol/L. BMP: Na 140, K 4.4, creatinine 1.4 (baseline 1.0).",
+        "result": "ABG on 100% FiO2: pH 7.28, PaCO2 48 mmHg, PaO2 58 mmHg, HCO3 20 mEq/L. PaO2/FiO2 ratio = 58 (severe ARDS). Lactate 3.8 mmol/L. BMP: Na 140, K 4.4, creatinine 1.4 (baseline 1.0).",
         "flag": "ABNORMAL",
         "clinical_significance": "A PaO2/FiO2 ratio below 100 on PEEP >= 5 cm H2O meets Berlin criteria for severe ARDS. The elevated lactate and mixed acidosis reflect ongoing septic shock."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Bedside transthoracic echo: **left ventricular ejection fraction 60%**, no wall motion abnormalities, no significant valvular disease. **IVC small and collapsible**, consistent with normal/low left atrial pressure.",
+        "result": "Bedside transthoracic echo: left ventricular ejection fraction 60%, no wall motion abnormalities, no significant valvular disease. IVC small and collapsible, consistent with normal/low left atrial pressure.",
         "flag": "NORMAL",
         "clinical_significance": "Preserved LV function and absence of volume overload exclude cardiogenic pulmonary edema and confirm the non-cardiogenic nature of the edema (ARDS)."
       }

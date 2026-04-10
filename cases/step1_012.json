@@ -20,19 +20,19 @@
       "rr": "18",
       "spo2": "96% on room air"
     },
-    "physical_exam": "Alert, mildly anxious woman. Cardiac: **irregularly irregular rhythm** with tachycardia; no murmurs, rubs, or gallops. Variable intensity of S1. **Pulse deficit**: radial pulse is slower than apical heart rate. No JVD. Lungs clear. Extremities warm and well-perfused. No focal neurologic deficits."
+    "physical_exam": "Alert, mildly anxious woman. Cardiac: irregularly irregular rhythm with tachycardia; no murmurs, rubs, or gallops. Variable intensity of S1. Pulse deficit: radial pulse is slower than apical heart rate. No JVD. Lungs clear. Extremities warm and well-perfused. No focal neurologic deficits."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "**Irregularly irregular narrow-complex tachycardia** at 138 bpm. **Absent P waves** with **fine fibrillatory waves** along the baseline. Variable R-R intervals. No ischemic ST changes.",
+        "result": "Irregularly irregular narrow-complex tachycardia at 138 bpm. Absent P waves with fine fibrillatory waves along the baseline. Variable R-R intervals. No ischemic ST changes.",
         "flag": "ABNORMAL",
         "clinical_significance": "An irregularly irregular rhythm with absent P waves replaced by fibrillatory waves is diagnostic of atrial fibrillation."
       },
       {
         "test_name": "Imaging study",
-        "result": "Transesophageal echocardiogram: **mildly dilated left atrium** (4.6 cm). No left atrial appendage thrombus. LV function preserved (EF 60%). No valvular disease.",
+        "result": "Transesophageal echocardiogram: mildly dilated left atrium (4.6 cm). No left atrial appendage thrombus. LV function preserved (EF 60%). No valvular disease.",
         "flag": "ABNORMAL",
         "clinical_significance": "LA enlargement is a common substrate for atrial fibrillation. TEE evaluates for LAA thrombus before cardioversion in patients where AF duration >48 hours is uncertain."
       },
@@ -65,13 +65,13 @@
   "debrief": {
     "classic_presentation": "Atrial fibrillation classically presents with palpitations, fatigue, lightheadedness, dyspnea, or as an incidental finding. Exam shows an irregularly irregular pulse with variable S1 intensity and a pulse deficit (radial rate < apical rate). Many patients first present with a thromboembolic complication such as ischemic stroke.",
     "attending_mode_notes": null,
-    "pathophysiology": "AF is driven by chaotic atrial electrical activity, most commonly triggered by ectopic foci originating around the **pulmonary vein ostia** entering the left atrium. Atrial rates of 400–600 bpm result in no coordinated atrial contraction; irregular AV nodal conduction yields an irregularly irregular ventricular response. Stasis in the left atrial appendage promotes thrombus formation and embolic stroke. Risk factors: hypertension, CAD, valvular disease (especially mitral stenosis), hyperthyroidism, alcohol ('holiday heart'), OSA, and age.",
-    "treatment_overview": "Management centers on **rate control**, **rhythm control**, and **anticoagulation**. Rate control with **beta-blockers or non-dihydropyridine CCBs (diltiazem, verapamil)**; avoid CCBs in heart failure. Unstable patients require immediate synchronized cardioversion. For anticoagulation, use **CHA2DS2-VASc** (CHF, HTN, Age ≥75 [2], DM, Stroke [2], Vascular disease, Age 65–74, Sex female): score ≥2 in men or ≥3 in women warrants anticoagulation with warfarin or a DOAC (apixaban, rivaroxaban, dabigatran).",
+    "pathophysiology": "AF is driven by chaotic atrial electrical activity, most commonly triggered by ectopic foci originating around the pulmonary vein ostia entering the left atrium. Atrial rates of 400–600 bpm result in no coordinated atrial contraction; irregular AV nodal conduction yields an irregularly irregular ventricular response. Stasis in the left atrial appendage promotes thrombus formation and embolic stroke. Risk factors: hypertension, CAD, valvular disease (especially mitral stenosis), hyperthyroidism, alcohol ('holiday heart'), OSA, and age.",
+    "treatment_overview": "Management centers on rate control, rhythm control, and anticoagulation. Rate control with beta-blockers or non-dihydropyridine CCBs (diltiazem, verapamil); avoid CCBs in heart failure. Unstable patients require immediate synchronized cardioversion. For anticoagulation, use CHA2DS2-VASc (CHF, HTN, Age ≥75 [2], DM, Stroke [2], Vascular disease, Age 65–74, Sex female): score ≥2 in men or ≥3 in women warrants anticoagulation with warfarin or a DOAC (apixaban, rivaroxaban, dabigatran).",
     "high_yield_pearls": [
-      "**Irregularly irregular rhythm with absent P waves** on EKG is the hallmark of AF.",
-      "**Pulmonary vein ostia** are the most common site of ectopic electrical foci that initiate AF — the target of catheter ablation.",
-      "**CHA2DS2-VASc** estimates stroke risk; score ≥2 (men) / ≥3 (women) requires long-term anticoagulation.",
-      "**'Holiday heart syndrome'**: acute AF precipitated by binge alcohol consumption, typically in otherwise healthy patients.",
+      "Irregularly irregular rhythm with absent P waves on EKG is the hallmark of AF.",
+      "Pulmonary vein ostia are the most common site of ectopic electrical foci that initiate AF — the target of catheter ablation.",
+      "CHA2DS2-VASc estimates stroke risk; score ≥2 (men) / ≥3 (women) requires long-term anticoagulation.",
+      "'Holiday heart syndrome': acute AF precipitated by binge alcohol consumption, typically in otherwise healthy patients.",
       "If AF has been present >48 hours or duration is unknown, either anticoagulate for 3 weeks before cardioversion or perform TEE first to exclude LAA thrombus."
     ],
     "sources": [

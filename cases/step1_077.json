@@ -6,12 +6,12 @@
   "icd_category": "Q87.4 — Marfan syndrome",
   "one_liner": "A 19-year-old tall, thin college basketball player presents after a syncopal episode during practice; on exam he has an arm span greater than his height and a mid-systolic click.",
   "stage2": {
-    "hpi_extension": "He has always been taller than his peers and was recruited for his height. He reports mild exertional chest discomfort over the past month and had one brief syncopal episode during a fast break. He wears corrective lenses for severe myopia and had an episode of **painless visual blurring with upward displacement of the lens (ectopia lentis)** evaluated by ophthalmology last year. His father died suddenly at age 40 from 'a tear in his aorta.'",
+    "hpi_extension": "He has always been taller than his peers and was recruited for his height. He reports mild exertional chest discomfort over the past month and had one brief syncopal episode during a fast break. He wears corrective lenses for severe myopia and had an episode of painless visual blurring with upward displacement of the lens (ectopia lentis) evaluated by ophthalmology last year. His father died suddenly at age 40 from 'a tear in his aorta.'",
     "pmh": "Severe myopia; scoliosis; prior spontaneous pneumothorax at age 16",
     "surgical_history": "Lens repositioning consult; chest tube for pneumothorax",
     "medications": "None",
     "allergies": "NKDA",
-    "family_history": "**Father died at 40 of aortic dissection**; paternal uncle also tall with 'heart valve problem'",
+    "family_history": "Father died at 40 of aortic dissection; paternal uncle also tall with 'heart valve problem'",
     "social_history": "College student; nonsmoker; no illicit drug use; competitive basketball",
     "vitals": {
       "temp": "36.9 C",
@@ -20,19 +20,19 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "General: **tall, thin body habitus**; **arm span exceeds height**; **lower segment longer than upper segment**. HEENT: **high-arched palate**, dental crowding, **upward lens subluxation (ectopia lentis)** on slit lamp. Chest: **pectus excavatum**, **thoracic scoliosis**. CV: **mid-systolic click with late systolic murmur at the apex (mitral valve prolapse)**; early diastolic decrescendo murmur at the right upper sternal border suggesting aortic regurgitation. Extremities: **arachnodactyly** with **positive thumb (Steinberg) and wrist (Walker-Murdoch) signs**; joint hypermobility. Skin: striae over shoulders."
+    "physical_exam": "General: tall, thin body habitus; arm span exceeds height; lower segment longer than upper segment. HEENT: high-arched palate, dental crowding, upward lens subluxation (ectopia lentis) on slit lamp. Chest: pectus excavatum, thoracic scoliosis. CV: mid-systolic click with late systolic murmur at the apex (mitral valve prolapse); early diastolic decrescendo murmur at the right upper sternal border suggesting aortic regurgitation. Extremities: arachnodactyly with positive thumb (Steinberg) and wrist (Walker-Murdoch) signs; joint hypermobility. Skin: striae over shoulders."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Transthoracic echocardiogram: **dilated aortic root at the sinuses of Valsalva (4.6 cm, Z-score >2)** with mild aortic regurgitation; **mitral valve prolapse with mild regurgitation**. CT angiography of the chest confirms aortic root dilation without dissection.",
+        "result": "Transthoracic echocardiogram: dilated aortic root at the sinuses of Valsalva (4.6 cm, Z-score >2) with mild aortic regurgitation; mitral valve prolapse with mild regurgitation. CT angiography of the chest confirms aortic root dilation without dissection.",
         "flag": "ABNORMAL",
         "clinical_significance": "Aortic root dilation at the sinuses of Valsalva is the hallmark cardiovascular lesion of Marfan syndrome and the major driver of mortality via dissection or rupture."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**FBN1 gene sequencing: heterozygous pathogenic missense mutation in the fibrillin-1 gene on chromosome 15**.",
+        "result": "FBN1 gene sequencing: heterozygous pathogenic missense mutation in the fibrillin-1 gene on chromosome 15.",
         "flag": "ABNORMAL",
         "clinical_significance": "An FBN1 mutation confirms autosomal dominant Marfan syndrome. Defective fibrillin-1 impairs microfibril assembly in the extracellular matrix and releases excess TGF-beta, weakening elastic tissue in the aorta, lens zonules, and skin."
       }

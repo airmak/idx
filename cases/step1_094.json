@@ -6,7 +6,7 @@
   "icd_category": "I42.5 — Other restrictive cardiomyopathy",
   "one_liner": "A 68-year-old man presents with 4 months of progressive fatigue, dyspnea on exertion, and lower extremity swelling, along with new bilateral carpal tunnel syndrome and easy bruising around his eyes.",
   "stage2": {
-    "hpi_extension": "He describes worsening exertional dyspnea, orthopnea, and edema, along with unintentional 15-pound weight loss. He has developed **bilateral numbness and tingling in his hands (bilateral carpal tunnel syndrome)** over the past year and has noted **purpuric patches around his eyes** after minor bumps. He also reports lightheadedness on standing. No chest pain, no family history of cardiomyopathy.",
+    "hpi_extension": "He describes worsening exertional dyspnea, orthopnea, and edema, along with unintentional 15-pound weight loss. He has developed bilateral numbness and tingling in his hands (bilateral carpal tunnel syndrome) over the past year and has noted purpuric patches around his eyes after minor bumps. He also reports lightheadedness on standing. No chest pain, no family history of cardiomyopathy.",
     "pmh": "Hypertension, bilateral carpal tunnel syndrome (status post bilateral releases).",
     "surgical_history": "Bilateral carpal tunnel release surgeries",
     "medications": "Low-dose amlodipine (recently stopped due to hypotension)",
@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "94% on room air"
     },
-    "physical_exam": "General: cachectic man with **macroglossia**. Skin: **periorbital purpura ('raccoon eyes')**. Neck: **markedly elevated JVP with prominent x and y descents**; JVP rises with inspiration (**Kussmaul sign**). Cardiac: regular rhythm, soft heart sounds, no murmurs. Pulmonary: bibasilar crackles. Abdomen: **hepatomegaly and moderate ascites**. Extremities: **3+ bilateral pitting edema** to the thighs. Orthostatic hypotension on standing."
+    "physical_exam": "General: cachectic man with macroglossia. Skin: periorbital purpura ('raccoon eyes'). Neck: markedly elevated JVP with prominent x and y descents; JVP rises with inspiration (Kussmaul sign). Cardiac: regular rhythm, soft heart sounds, no murmurs. Pulmonary: bibasilar crackles. Abdomen: hepatomegaly and moderate ascites. Extremities: 3+ bilateral pitting edema to the thighs. Orthostatic hypotension on standing."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Transthoracic echocardiogram: **markedly thickened ventricular walls bilaterally with a characteristic 'granular sparkling' (speckled) myocardial appearance**. **Biatrial enlargement**. **Small, non-dilated ventricles**. **Preserved left ventricular ejection fraction (55%)** with severe **restrictive filling pattern** on Doppler (E/A >2). Small pericardial effusion.",
+        "result": "Transthoracic echocardiogram: markedly thickened ventricular walls bilaterally with a characteristic 'granular sparkling' (speckled) myocardial appearance. Biatrial enlargement. Small, non-dilated ventricles. Preserved left ventricular ejection fraction (55%) with severe restrictive filling pattern on Doppler (E/A >2). Small pericardial effusion.",
         "flag": "ABNORMAL",
         "clinical_significance": "Thickened walls with speckled myocardium, biatrial enlargement, and restrictive filling with preserved EF are highly suggestive of infiltrative cardiomyopathy, classically cardiac amyloidosis."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus rhythm. **Low voltage QRS in the limb leads** with **poor R-wave progression ('pseudo-infarct' pattern) in the precordial leads**. No LVH by voltage despite thickened walls on echo.",
+        "result": "Sinus rhythm. Low voltage QRS in the limb leads with poor R-wave progression ('pseudo-infarct' pattern) in the precordial leads. No LVH by voltage despite thickened walls on echo.",
         "flag": "ABNORMAL",
-        "clinical_significance": "The mismatch of **low-voltage EKG with thick ventricular walls on echo** is the classic buzzword for cardiac amyloidosis."
+        "clinical_significance": "The mismatch of low-voltage EKG with thick ventricular walls on echo is the classic buzzword for cardiac amyloidosis."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Abdominal fat pad and endomyocardial biopsy: **amorphous extracellular deposits that stain pink with Congo red and show apple-green birefringence under polarized light**. Mass spectrometry typing identifies AL (immunoglobulin light chain) amyloid. Serum free light chains elevated.",
+        "result": "Abdominal fat pad and endomyocardial biopsy: amorphous extracellular deposits that stain pink with Congo red and show apple-green birefringence under polarized light. Mass spectrometry typing identifies AL (immunoglobulin light chain) amyloid. Serum free light chains elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "Apple-green birefringence under polarized light after Congo red staining is pathognomonic for amyloidosis and confirms the infiltrative etiology of the restrictive cardiomyopathy."
       }
@@ -64,10 +64,10 @@
     "final_clue": "Serum and urine protein electrophoresis confirms a monoclonal lambda light-chain gammopathy, and bone marrow biopsy shows 15% clonal plasma cells, confirming AL amyloidosis from multiple myeloma."
   },
   "debrief": {
-    "classic_presentation": "Restrictive cardiomyopathy presents with signs of biventricular heart failure (right-sided often dominant: JVD, edema, hepatomegaly, ascites) despite a **normal or small LV cavity size and preserved ejection fraction**. The classic cause tested is **cardiac amyloidosis**, where a patient may have macroglossia, periorbital purpura, bilateral carpal tunnel syndrome, nephrotic-range proteinuria, and hepatomegaly. Other causes include sarcoidosis, hemochromatosis, endomyocardial fibrosis, Loeffler endocarditis, and radiation fibrosis.",
+    "classic_presentation": "Restrictive cardiomyopathy presents with signs of biventricular heart failure (right-sided often dominant: JVD, edema, hepatomegaly, ascites) despite a normal or small LV cavity size and preserved ejection fraction. The classic cause tested is cardiac amyloidosis, where a patient may have macroglossia, periorbital purpura, bilateral carpal tunnel syndrome, nephrotic-range proteinuria, and hepatomegaly. Other causes include sarcoidosis, hemochromatosis, endomyocardial fibrosis, Loeffler endocarditis, and radiation fibrosis.",
     "attending_mode_notes": null,
-    "pathophysiology": "Infiltrative or fibrotic material stiffens the myocardium, impairing ventricular filling (diastolic dysfunction). Stroke volume falls because of inadequate filling, and end-diastolic pressures rise, producing systemic and pulmonary congestion. Unlike HFpEF from hypertension, the ventricles are often **small (non-dilated) with preserved EF**. AL amyloid forms from misfolded immunoglobulin light chains (plasma cell dyscrasia); ATTR amyloid forms from misfolded transthyretin (wild-type or hereditary).",
-    "treatment_overview": "Treatment is largely supportive: **diuretics carefully to control volume** without causing hypotension. Beta-blockers, ACE inhibitors, and calcium channel blockers are often poorly tolerated because these patients depend on preload. Treat the underlying cause: **chemotherapy (bortezomib-based) +/- autologous stem cell transplant** for AL amyloid, **tafamidis** (TTR stabilizer) for ATTR amyloid, steroids for cardiac sarcoidosis, phlebotomy/chelation for hemochromatosis. Cardiac transplantation for refractory disease.",
+    "pathophysiology": "Infiltrative or fibrotic material stiffens the myocardium, impairing ventricular filling (diastolic dysfunction). Stroke volume falls because of inadequate filling, and end-diastolic pressures rise, producing systemic and pulmonary congestion. Unlike HFpEF from hypertension, the ventricles are often small (non-dilated) with preserved EF. AL amyloid forms from misfolded immunoglobulin light chains (plasma cell dyscrasia); ATTR amyloid forms from misfolded transthyretin (wild-type or hereditary).",
+    "treatment_overview": "Treatment is largely supportive: diuretics carefully to control volume without causing hypotension. Beta-blockers, ACE inhibitors, and calcium channel blockers are often poorly tolerated because these patients depend on preload. Treat the underlying cause: chemotherapy (bortezomib-based) +/- autologous stem cell transplant for AL amyloid, tafamidis (TTR stabilizer) for ATTR amyloid, steroids for cardiac sarcoidosis, phlebotomy/chelation for hemochromatosis. Cardiac transplantation for refractory disease.",
     "high_yield_pearls": [
       "Amyloidosis = 'granular sparkling' myocardium on echo + low voltage EKG with thick walls (buzzword mismatch).",
       "Congo red stain shows apple-green birefringence under polarized light = amyloid.",

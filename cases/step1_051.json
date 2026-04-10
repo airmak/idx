@@ -6,7 +6,7 @@
   "icd_category": "C91.1 — Chronic lymphocytic leukemia of B-cell type",
   "one_liner": "A 72-year-old man is referred for evaluation of an incidentally discovered lymphocytosis on routine preoperative labs. He feels generally well but has noticed new painless lumps in his neck and armpits.",
   "stage2": {
-    "hpi_extension": "He was seen for a preoperative clearance for knee arthroplasty when his CBC showed a WBC of 58,000/µL with 85% lymphocytes. On directed questioning, he admits to mild fatigue over the past 6 months and has noticed **painless, slowly enlarging lymph nodes** in his neck and axillae. No fevers, night sweats, or weight loss. No recurrent infections. No bruising or bleeding.",
+    "hpi_extension": "He was seen for a preoperative clearance for knee arthroplasty when his CBC showed a WBC of 58,000/µL with 85% lymphocytes. On directed questioning, he admits to mild fatigue over the past 6 months and has noticed painless, slowly enlarging lymph nodes in his neck and axillae. No fevers, night sweats, or weight loss. No recurrent infections. No bruising or bleeding.",
     "pmh": "Osteoarthritis of the knees, hypertension.",
     "surgical_history": "Appendectomy as a child.",
     "medications": "Amlodipine, acetaminophen.",
@@ -20,19 +20,19 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: well-appearing elderly man in no distress. HEENT: no pallor, no oral lesions. Lymph nodes: **bilateral nontender, rubbery cervical and axillary lymphadenopathy (~2 cm)**; inguinal nodes palpable. Abdomen: soft, mild splenomegaly palpable 3 cm below left costal margin, no hepatomegaly. Skin: no petechiae or rash. Neuro: nonfocal."
+    "physical_exam": "General: well-appearing elderly man in no distress. HEENT: no pallor, no oral lesions. Lymph nodes: bilateral nontender, rubbery cervical and axillary lymphadenopathy (~2 cm); inguinal nodes palpable. Abdomen: soft, mild splenomegaly palpable 3 cm below left costal margin, no hepatomegaly. Skin: no petechiae or rash. Neuro: nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 58,000/µL, Hgb 12.6 g/dL, platelets 168,000/µL. Differential: 85% small mature-appearing lymphocytes. Smear: **numerous smudge cells (fragile lymphocytes crushed during slide preparation)** and a monotonous population of small mature lymphocytes with clumped chromatin.",
+        "result": "WBC 58,000/µL, Hgb 12.6 g/dL, platelets 168,000/µL. Differential: 85% small mature-appearing lymphocytes. Smear: numerous smudge cells (fragile lymphocytes crushed during slide preparation) and a monotonous population of small mature lymphocytes with clumped chromatin.",
         "flag": "ABNORMAL",
         "clinical_significance": "Absolute lymphocytosis of small mature lymphocytes with smudge (parachute) cells on smear is the classic morphologic finding in CLL."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "Flow cytometry of peripheral blood: clonal B-cell population co-expressing **CD5, CD19, CD20 (dim), and CD23**. Kappa light chain restriction. Direct Coombs test: negative at this time. Serum immunoglobulins: low IgG (hypogammaglobulinemia).",
+        "result": "Flow cytometry of peripheral blood: clonal B-cell population co-expressing CD5, CD19, CD20 (dim), and CD23. Kappa light chain restriction. Direct Coombs test: negative at this time. Serum immunoglobulins: low IgG (hypogammaglobulinemia).",
         "flag": "ABNORMAL",
         "clinical_significance": "The CD5+ CD19+ CD23+ immunophenotype is diagnostic of CLL. Hypogammaglobulinemia explains predisposition to infection. Autoimmune hemolytic anemia (warm IgG) is a common complication."
       },

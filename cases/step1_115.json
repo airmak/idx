@@ -6,7 +6,7 @@
   "icd_category": "B18.2 - Chronic viral hepatitis C",
   "one_liner": "A 58-year-old man is found to have persistently elevated transaminases on routine screening labs. He has a remote history of intravenous drug use in the 1980s and received a blood transfusion after a motor vehicle accident in 1985.",
   "stage2": {
-    "hpi_extension": "He has been largely asymptomatic but notes subtle chronic **fatigue** and occasional **right upper quadrant fullness** for the past year. He denies jaundice, dark urine, pruritus, easy bruising, or abdominal distension. He has no prior history of known liver disease. Social history is notable for **IV heroin use for 2 years in his early 20s** (shared needles) and a **blood transfusion after trauma in 1985** (prior to 1992 routine screening). He also notes an unexplained rash on his legs and arthralgias. He drinks wine 2-3 times per week.",
+    "hpi_extension": "He has been largely asymptomatic but notes subtle chronic fatigue and occasional right upper quadrant fullness for the past year. He denies jaundice, dark urine, pruritus, easy bruising, or abdominal distension. He has no prior history of known liver disease. Social history is notable for IV heroin use for 2 years in his early 20s (shared needles) and a blood transfusion after trauma in 1985 (prior to 1992 routine screening). He also notes an unexplained rash on his legs and arthralgias. He drinks wine 2-3 times per week.",
     "pmh": "Hypertension, hyperlipidemia, type 2 diabetes (diet-controlled)",
     "surgical_history": "Splenectomy after MVA 1985, knee arthroscopy 2010",
     "medications": "Lisinopril, atorvastatin",
@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: well-appearing, no acute distress, mild scleral icterus absent. HEENT: no jaundice. Cardiovascular: regular rate and rhythm. Lungs: clear. Abdomen: soft, non-tender, **mildly enlarged firm liver** palpable 2 cm below costal margin, no splenomegaly, no ascites. Skin: **palpable purpuric rash on lower extremities** (cryoglobulinemic vasculitis), no spider angiomata, no palmar erythema, no caput medusae. Neurologic: alert, oriented, no asterixis."
+    "physical_exam": "General: well-appearing, no acute distress, mild scleral icterus absent. HEENT: no jaundice. Cardiovascular: regular rate and rhythm. Lungs: clear. Abdomen: soft, non-tender, mildly enlarged firm liver palpable 2 cm below costal margin, no splenomegaly, no ascites. Skin: palpable purpuric rash on lower extremities (cryoglobulinemic vasculitis), no spider angiomata, no palmar erythema, no caput medusae. Neurologic: alert, oriented, no asterixis."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**ALT 142 U/L (elevated)**, **AST 98 U/L (elevated)**, alkaline phosphatase 110 U/L, total bilirubin 1.1 mg/dL, albumin 3.9 g/dL, INR 1.0, platelets 160, creatinine 1.0. Glucose 130.",
+        "result": "ALT 142 U/L (elevated), AST 98 U/L (elevated), alkaline phosphatase 110 U/L, total bilirubin 1.1 mg/dL, albumin 3.9 g/dL, INR 1.0, platelets 160, creatinine 1.0. Glucose 130.",
         "flag": "ABNORMAL",
         "clinical_significance": "Chronic mild-to-moderate transaminase elevation (ALT > AST, typically < 5x upper limit of normal) is the classic pattern of chronic hepatitis C with preserved synthetic function."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Anti-HCV antibody: POSITIVE** (screening EIA). **HCV RNA by PCR: 2.4 million IU/mL (DETECTED - confirms active infection)**. **HCV genotype: 1a**. Cryoglobulins: positive, with decreased C4. HBsAg: negative, anti-HBs: positive (vaccinated), HIV: negative.",
+        "result": "Anti-HCV antibody: POSITIVE (screening EIA). HCV RNA by PCR: 2.4 million IU/mL (DETECTED - confirms active infection). HCV genotype: 1a. Cryoglobulins: positive, with decreased C4. HBsAg: negative, anti-HBs: positive (vaccinated), HIV: negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Positive anti-HCV antibody identifies exposure; detectable HCV RNA confirms active viremia (current infection). Genotype guides therapy and duration. Positive cryoglobulins with low C4 explain the palpable purpura (mixed cryoglobulinemia is an HCV extrahepatic manifestation)."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "Liver biopsy (or transient elastography equivalent): **portal lymphocytic infiltrate with bridging fibrosis (METAVIR stage F3)**, mild steatosis, no cirrhosis yet.",
+        "result": "Liver biopsy (or transient elastography equivalent): portal lymphocytic infiltrate with bridging fibrosis (METAVIR stage F3), mild steatosis, no cirrhosis yet.",
         "flag": "ABNORMAL",
         "clinical_significance": "Liver biopsy (or non-invasive elastography) assesses degree of fibrosis and guides urgency of therapy. Advanced fibrosis (F3) without established cirrhosis (F4) in an HCV-positive patient is an indication for prompt direct-acting antiviral therapy."
       }
@@ -60,13 +60,13 @@
     ]
   },
   "stage5": {
-    "final_clue": "He is started on **sofosbuvir/ledipasvir for 12 weeks** and achieves sustained virologic response (undetectable HCV RNA at 12 weeks post-treatment), consistent with cure in more than 95% of patients."
+    "final_clue": "He is started on sofosbuvir/ledipasvir for 12 weeks and achieves sustained virologic response (undetectable HCV RNA at 12 weeks post-treatment), consistent with cure in more than 95% of patients."
   },
   "debrief": {
-    "classic_presentation": "Hepatitis C is the **'silent epidemic'** - most patients are asymptomatic at the time of acute infection and during early chronic disease, with detection typically on routine labs showing mild transaminase elevation. The USPSTF recommends one-time screening for all adults 18-79 and for high-risk groups (IVDU, blood transfusion prior to 1992, hemodialysis, HIV co-infection, incarceration, needlestick injury). Extrahepatic manifestations include **mixed cryoglobulinemia with vasculitis, membranoproliferative glomerulonephritis, porphyria cutanea tarda, and lichen planus**.",
+    "classic_presentation": "Hepatitis C is the 'silent epidemic' - most patients are asymptomatic at the time of acute infection and during early chronic disease, with detection typically on routine labs showing mild transaminase elevation. The USPSTF recommends one-time screening for all adults 18-79 and for high-risk groups (IVDU, blood transfusion prior to 1992, hemodialysis, HIV co-infection, incarceration, needlestick injury). Extrahepatic manifestations include mixed cryoglobulinemia with vasculitis, membranoproliferative glomerulonephritis, porphyria cutanea tarda, and lichen planus.",
     "attending_mode_notes": null,
-    "pathophysiology": "Hepatitis C virus is an **enveloped (+) single-stranded RNA flavivirus** (genus Hepacivirus). Transmission is primarily **parenteral** (injection drug use, needlesticks, blood transfusion prior to 1992), with less efficient sexual and perinatal transmission. Because HCV lacks a proofreading 3'-to-5' exonuclease in its RNA polymerase, it mutates rapidly, generating a swarm of quasispecies that evade the host immune response. As a result, **~80% of acute infections become chronic**. Chronic infection drives progressive hepatic fibrosis over decades, leading to cirrhosis in ~20% and hepatocellular carcinoma in ~1-4% per year once cirrhosis is established.",
-    "treatment_overview": "The standard of care is **direct-acting antiviral (DAA)** combination therapy. Regimens combine NS5A inhibitors (ledipasvir, velpatasvir), NS5B polymerase inhibitors (**sofosbuvir**), and NS3/4A protease inhibitors. **Sofosbuvir + ledipasvir for 12 weeks** achieves sustained virologic response (SVR, which equals cure) in > 95% of genotype 1 patients. Interferon and ribavirin are largely obsolete. Patients with cirrhosis still require HCC surveillance with ultrasound every 6 months after SVR. There is no HCV vaccine.",
+    "pathophysiology": "Hepatitis C virus is an enveloped (+) single-stranded RNA flavivirus (genus Hepacivirus). Transmission is primarily parenteral (injection drug use, needlesticks, blood transfusion prior to 1992), with less efficient sexual and perinatal transmission. Because HCV lacks a proofreading 3'-to-5' exonuclease in its RNA polymerase, it mutates rapidly, generating a swarm of quasispecies that evade the host immune response. As a result, ~80% of acute infections become chronic. Chronic infection drives progressive hepatic fibrosis over decades, leading to cirrhosis in ~20% and hepatocellular carcinoma in ~1-4% per year once cirrhosis is established.",
+    "treatment_overview": "The standard of care is direct-acting antiviral (DAA) combination therapy. Regimens combine NS5A inhibitors (ledipasvir, velpatasvir), NS5B polymerase inhibitors (sofosbuvir), and NS3/4A protease inhibitors. Sofosbuvir + ledipasvir for 12 weeks achieves sustained virologic response (SVR, which equals cure) in > 95% of genotype 1 patients. Interferon and ribavirin are largely obsolete. Patients with cirrhosis still require HCC surveillance with ultrasound every 6 months after SVR. There is no HCV vaccine.",
     "high_yield_pearls": [
       "HCV = enveloped, (+)ssRNA flavivirus; ~80% of infections become chronic due to rapid mutation of the envelope glycoprotein and lack of proofreading.",
       "Screen with anti-HCV antibody; confirm active infection with HCV RNA (viral load).",

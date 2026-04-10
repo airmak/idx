@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: **central (truncal) obesity** with thin extremities. HEENT: **rounded 'moon' facies** with facial plethora. Neck: **dorsocervical fat pad ('buffalo hump')** and supraclavicular fat pads. CV: hypertensive, regular rhythm. Abdomen: obese with **wide purple abdominal striae (>1 cm)**. Skin: **thin, easily bruised**; mild hirsutism; acne. MSK: **proximal muscle weakness** (difficulty rising from chair). Neuro: intact."
+    "physical_exam": "General: central (truncal) obesity with thin extremities. HEENT: rounded 'moon' facies with facial plethora. Neck: dorsocervical fat pad ('buffalo hump') and supraclavicular fat pads. CV: hypertensive, regular rhythm. Abdomen: obese with wide purple abdominal striae (>1 cm). Skin: thin, easily bruised; mild hirsutism; acne. MSK: proximal muscle weakness (difficulty rising from chair). Neuro: intact."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Functional / provocative testing",
-        "result": "**24-hour urine free cortisol markedly elevated** (4x upper limit). **Late-night salivary cortisol elevated**. **Low-dose (1 mg overnight) dexamethasone suppression test: FAILURE to suppress** morning cortisol below 1.8 µg/dL. Subsequent **high-dose dexamethasone: partial suppression** (consistent with pituitary source).",
+        "result": "24-hour urine free cortisol markedly elevated (4x upper limit). Late-night salivary cortisol elevated. Low-dose (1 mg overnight) dexamethasone suppression test: FAILURE to suppress morning cortisol below 1.8 µg/dL. Subsequent high-dose dexamethasone: partial suppression (consistent with pituitary source).",
         "flag": "ABNORMAL",
         "clinical_significance": "Three positive screening tests confirm endogenous hypercortisolism (Cushing syndrome). Failure of low-dose dexamethasone to suppress cortisol excludes normal HPA axis feedback. Partial suppression with high-dose dexamethasone suggests Cushing disease (pituitary ACTH-producing adenoma) rather than ectopic ACTH or adrenal source."
       },
       {
         "test_name": "Hormone / endocrine assay",
-        "result": "**ACTH elevated** (inappropriately, for the high cortisol). Morning cortisol high. DHEA-S mildly elevated.",
+        "result": "ACTH elevated (inappropriately, for the high cortisol). Morning cortisol high. DHEA-S mildly elevated.",
         "flag": "HIGH",
         "clinical_significance": "ACTH-dependent hypercortisolism. Elevated (rather than suppressed) ACTH rules out adrenal adenoma/carcinoma. Differential is pituitary Cushing disease vs. ectopic ACTH secretion (classically small cell lung cancer)."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Glucose 168 (fasting), **hypokalemia (K 3.2)**, **metabolic alkalosis (HCO3 30)**, Na 143. HbA1c 7.1%.",
+        "result": "Glucose 168 (fasting), hypokalemia (K 3.2), metabolic alkalosis (HCO3 30), Na 143. HbA1c 7.1%.",
         "flag": "ABNORMAL",
         "clinical_significance": "Cortisol excess drives gluconeogenesis (hyperglycemia), and at very high levels cortisol saturates 11-beta-hydroxysteroid dehydrogenase type 2 and acts on renal mineralocorticoid receptors, producing hypokalemic metabolic alkalosis and hypertension."
       }

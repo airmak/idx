@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "96% on room air"
     },
-    "physical_exam": "Confused, oriented only to person. Funduscopic exam: **papilledema, flame hemorrhages, and cotton-wool spots (grade IV hypertensive retinopathy)**. Cardiac: **S4 gallop**; forceful apical impulse. Lungs: bibasilar crackles. Neuro: mild asterixis, no focal deficits. Extremities: no edema."
+    "physical_exam": "Confused, oriented only to person. Funduscopic exam: papilledema, flame hemorrhages, and cotton-wool spots (grade IV hypertensive retinopathy). Cardiac: S4 gallop; forceful apical impulse. Lungs: bibasilar crackles. Neuro: mild asterixis, no focal deficits. Extremities: no edema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Urinalysis",
-        "result": "**Hematuria with red cell casts**, mild proteinuria (2+), and a few granular casts.",
+        "result": "Hematuria with red cell casts, mild proteinuria (2+), and a few granular casts.",
         "flag": "ABNORMAL",
         "clinical_significance": "Red cell casts and proteinuria indicate acute hypertensive nephrosclerosis with glomerular injury — evidence of end-organ damage defining hypertensive emergency."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Creatinine 2.6 mg/dL (baseline 1.6)**, BUN 42, K 4.8, Na 138, CO2 20. LDH elevated; **schistocytes noted on smear** suggesting microangiopathic hemolysis.",
+        "result": "Creatinine 2.6 mg/dL (baseline 1.6), BUN 42, K 4.8, Na 138, CO2 20. LDH elevated; schistocytes noted on smear suggesting microangiopathic hemolysis.",
         "flag": "HIGH",
         "clinical_significance": "Acute kidney injury with microangiopathic hemolytic anemia (schistocytes, elevated LDH) from malignant hypertension causing fibrinoid necrosis of arterioles."
       },
       {
         "test_name": "Imaging study",
-        "result": "Non-contrast CT head: no acute hemorrhage or mass effect. Mild **posterior white matter edema** consistent with PRES (posterior reversible encephalopathy syndrome).",
+        "result": "Non-contrast CT head: no acute hemorrhage or mass effect. Mild posterior white matter edema consistent with PRES (posterior reversible encephalopathy syndrome).",
         "flag": "ABNORMAL",
         "clinical_significance": "PRES is a vasogenic edema pattern seen in hypertensive encephalopathy — reversible with blood pressure control and excludes hemorrhagic stroke as the cause of confusion."
       }
@@ -64,16 +64,16 @@
     "final_clue": "IV nicardipine is initiated with a goal to lower MAP by no more than 25% in the first hour to avoid hypoperfusion; his mental status improves over the next 12 hours."
   },
   "debrief": {
-    "classic_presentation": "Hypertensive emergency is defined as **severe hypertension (typically SBP >180 or DBP >120 mmHg) WITH acute end-organ damage**. Target organ injury includes hypertensive encephalopathy (headache, confusion, seizure), acute kidney injury, microangiopathic hemolytic anemia, papilledema with flame hemorrhages, pulmonary edema, MI, or aortic dissection. Without end-organ damage, severe BP elevation is termed 'hypertensive urgency' and is managed with gradual oral BP control.",
+    "classic_presentation": "Hypertensive emergency is defined as severe hypertension (typically SBP >180 or DBP >120 mmHg) WITH acute end-organ damage. Target organ injury includes hypertensive encephalopathy (headache, confusion, seizure), acute kidney injury, microangiopathic hemolytic anemia, papilledema with flame hemorrhages, pulmonary edema, MI, or aortic dissection. Without end-organ damage, severe BP elevation is termed 'hypertensive urgency' and is managed with gradual oral BP control.",
     "attending_mode_notes": null,
-    "pathophysiology": "Extreme blood pressure elevation overwhelms normal vascular autoregulation, causing **fibrinoid necrosis of arterioles** and endothelial injury. In the kidney, **onion-skinning (hyperplastic arteriolosclerosis)** of afferent arterioles produces acute nephrosclerosis with AKI. In the brain, failure of autoregulation leads to vasogenic edema (PRES). Mechanical red cell shearing across damaged endothelium produces microangiopathic hemolytic anemia with schistocytes.",
-    "treatment_overview": "Lower mean arterial pressure by **no more than 25% in the first hour**, then toward 160/100 over the next 2–6 hours — too-rapid reduction causes cerebral/renal hypoperfusion. Preferred IV agents: **nicardipine, clevidipine, labetalol, or nitroprusside**. Use **fenoldopam** when renal protection is desired. For aortic dissection, use **esmolol or labetalol first** (HR control) before a vasodilator. Identify and treat the precipitant (medication non-adherence, renovascular disease, pheochromocytoma, cocaine).",
+    "pathophysiology": "Extreme blood pressure elevation overwhelms normal vascular autoregulation, causing fibrinoid necrosis of arterioles and endothelial injury. In the kidney, onion-skinning (hyperplastic arteriolosclerosis) of afferent arterioles produces acute nephrosclerosis with AKI. In the brain, failure of autoregulation leads to vasogenic edema (PRES). Mechanical red cell shearing across damaged endothelium produces microangiopathic hemolytic anemia with schistocytes.",
+    "treatment_overview": "Lower mean arterial pressure by no more than 25% in the first hour, then toward 160/100 over the next 2–6 hours — too-rapid reduction causes cerebral/renal hypoperfusion. Preferred IV agents: nicardipine, clevidipine, labetalol, or nitroprusside. Use fenoldopam when renal protection is desired. For aortic dissection, use esmolol or labetalol first (HR control) before a vasodilator. Identify and treat the precipitant (medication non-adherence, renovascular disease, pheochromocytoma, cocaine).",
     "high_yield_pearls": [
-      "**Hypertensive emergency = severe BP + end-organ damage** (brain, heart, kidney, eyes). Without organ damage it is 'urgency' and managed outpatient.",
-      "**Fibrinoid necrosis and 'onion-skinning' (hyperplastic arteriolosclerosis)** of renal arterioles are the histologic hallmarks of malignant hypertension.",
-      "**Grade IV hypertensive retinopathy** = papilledema + flame hemorrhages + cotton-wool spots + AV nicking.",
-      "Lower MAP by **no more than 25% in the first hour** to preserve cerebral and renal perfusion.",
-      "**Avoid clonidine withdrawal** and beta-blocker withdrawal — both cause rebound catecholamine surge with severe HTN."
+      "Hypertensive emergency = severe BP + end-organ damage (brain, heart, kidney, eyes). Without organ damage it is 'urgency' and managed outpatient.",
+      "Fibrinoid necrosis and 'onion-skinning' (hyperplastic arteriolosclerosis) of renal arterioles are the histologic hallmarks of malignant hypertension.",
+      "Grade IV hypertensive retinopathy = papilledema + flame hemorrhages + cotton-wool spots + AV nicking.",
+      "Lower MAP by no more than 25% in the first hour to preserve cerebral and renal perfusion.",
+      "Avoid clonidine withdrawal and beta-blocker withdrawal — both cause rebound catecholamine surge with severe HTN."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Hypertension — Hypertensive emergency' section."

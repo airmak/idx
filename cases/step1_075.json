@@ -6,7 +6,7 @@
   "icd_category": "E84 — Cystic fibrosis",
   "one_liner": "A 3-year-old boy is brought in for chronic cough, bulky foul-smelling stools, and poor weight gain despite a voracious appetite.",
   "stage2": {
-    "hpi_extension": "His mother reports **recurrent sinopulmonary infections** since infancy, including two hospitalizations for pneumonia with sputum cultures growing **Pseudomonas aeruginosa** and Staphylococcus aureus. He has a chronic productive cough and wheezing. Stools are described as **bulky, greasy, and foul-smelling (steatorrhea)**. He is below the 3rd percentile for weight. As a newborn he had **delayed passage of meconium** requiring brief hospitalization for meconium ileus.",
+    "hpi_extension": "His mother reports recurrent sinopulmonary infections since infancy, including two hospitalizations for pneumonia with sputum cultures growing Pseudomonas aeruginosa and Staphylococcus aureus. He has a chronic productive cough and wheezing. Stools are described as bulky, greasy, and foul-smelling (steatorrhea). He is below the 3rd percentile for weight. As a newborn he had delayed passage of meconium requiring brief hospitalization for meconium ileus.",
     "pmh": "Meconium ileus at birth; recurrent pneumonia; chronic rhinosinusitis; nasal polyps",
     "surgical_history": "None",
     "medications": "Albuterol nebulizer PRN",
@@ -20,25 +20,25 @@
       "rr": "28",
       "spo2": "93% on room air"
     },
-    "physical_exam": "General: thin, small-for-age child. HEENT: **nasal polyps** visible on anterior rhinoscopy. Chest: **diffuse coarse crackles and expiratory wheezing bilaterally**; mild intercostal retractions; **increased AP diameter (barrel chest)**. Extremities: **digital clubbing**. Abdomen: mildly distended, soft, nontender."
+    "physical_exam": "General: thin, small-for-age child. HEENT: nasal polyps visible on anterior rhinoscopy. Chest: diffuse coarse crackles and expiratory wheezing bilaterally; mild intercostal retractions; increased AP diameter (barrel chest). Extremities: digital clubbing. Abdomen: mildly distended, soft, nontender."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Functional / provocative testing",
-        "result": "**Sweat chloride test (pilocarpine iontophoresis): 82 mEq/L** (normal <30; CF >60) on two separate occasions.",
+        "result": "Sweat chloride test (pilocarpine iontophoresis): 82 mEq/L (normal <30; CF >60) on two separate occasions.",
         "flag": "ABNORMAL",
         "clinical_significance": "Sweat chloride greater than 60 mEq/L on repeat testing is diagnostic of cystic fibrosis. Defective CFTR channel prevents chloride reabsorption from sweat, leaving sweat abnormally salty."
       },
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**CFTR gene analysis: homozygous delta-F508 (Phe508del) mutation on chromosome 7**.",
+        "result": "CFTR gene analysis: homozygous delta-F508 (Phe508del) mutation on chromosome 7.",
         "flag": "ABNORMAL",
         "clinical_significance": "delta-F508 is the most common CFTR mutation and causes misfolding/degradation of the CFTR chloride channel before reaching the apical membrane. Confirms autosomal recessive cystic fibrosis."
       },
       {
         "test_name": "Imaging study",
-        "result": "Chest x-ray: **hyperinflation, bronchial wall thickening ('tram tracks'), and early cylindrical bronchiectasis most prominent in the upper lobes**.",
+        "result": "Chest x-ray: hyperinflation, bronchial wall thickening ('tram tracks'), and early cylindrical bronchiectasis most prominent in the upper lobes.",
         "flag": "ABNORMAL",
         "clinical_significance": "Upper-lobe predominant bronchiectasis with hyperinflation is a classic CF imaging pattern reflecting chronic mucus plugging and recurrent infection."
       }

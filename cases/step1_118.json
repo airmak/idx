@@ -6,7 +6,7 @@
   "icd_category": "C25 - Malignant neoplasm of pancreas",
   "one_liner": "A 68-year-old man with a 50-pack-year smoking history presents with 6 weeks of progressive yellowing of the skin and eyes, dark urine, pale stools, and a 15-pound unintentional weight loss.",
   "stage2": {
-    "hpi_extension": "The jaundice is **painless** and has been worsening steadily. He reports generalized pruritus (worst at night), early satiety, vague epigastric discomfort radiating to the mid-back, and greasy floating stools. He has also noticed swelling and redness in his left calf that resolved, followed by a similar episode in his right arm last week (**migratory thrombophlebitis**). No hematemesis, melena, or fevers. Appetite is markedly reduced.",
+    "hpi_extension": "The jaundice is painless and has been worsening steadily. He reports generalized pruritus (worst at night), early satiety, vague epigastric discomfort radiating to the mid-back, and greasy floating stools. He has also noticed swelling and redness in his left calf that resolved, followed by a similar episode in his right arm last week (migratory thrombophlebitis). No hematemesis, melena, or fevers. Appetite is markedly reduced.",
     "pmh": "Type 2 diabetes mellitus diagnosed 4 months ago (new-onset), hypertension, chronic pancreatitis",
     "surgical_history": "Appendectomy as a teenager",
     "medications": "Metformin, lisinopril",
@@ -20,25 +20,25 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: thin, cachectic man with **scleral icterus** and diffuse jaundice. Skin shows excoriations from scratching. Abdomen: soft, mildly tender in the epigastrium. **Palpable, nontender, distended gallbladder in the right upper quadrant (Courvoisier sign)**. No hepatosplenomegaly. Extremities: tender cord along the right cephalic vein and left saphenous vein (**Trousseau sign of malignancy - migratory superficial thrombophlebitis**). No peripheral edema."
+    "physical_exam": "General: thin, cachectic man with scleral icterus and diffuse jaundice. Skin shows excoriations from scratching. Abdomen: soft, mildly tender in the epigastrium. Palpable, nontender, distended gallbladder in the right upper quadrant (Courvoisier sign). No hepatosplenomegaly. Extremities: tender cord along the right cephalic vein and left saphenous vein (Trousseau sign of malignancy - migratory superficial thrombophlebitis). No peripheral edema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Total bilirubin 14.2 mg/dL (direct 11.8), **alkaline phosphatase 620 U/L**, GGT markedly elevated, AST 78, ALT 92. Albumin 3.0 g/dL. Glucose 248 mg/dL. Lipase mildly elevated.",
+        "result": "Total bilirubin 14.2 mg/dL (direct 11.8), alkaline phosphatase 620 U/L, GGT markedly elevated, AST 78, ALT 92. Albumin 3.0 g/dL. Glucose 248 mg/dL. Lipase mildly elevated.",
         "flag": "ABNORMAL",
         "clinical_significance": "Obstructive (direct hyperbilirubinemia) pattern with disproportionate elevation of alkaline phosphatase and GGT is classic for biliary tract obstruction. New-onset diabetes plus painless jaundice in an older smoker is highly concerning for pancreatic head adenocarcinoma."
       },
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**CA 19-9: 1,840 U/mL** (reference <37). CEA mildly elevated. AFP normal.",
+        "result": "CA 19-9: 1,840 U/mL (reference <37). CEA mildly elevated. AFP normal.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Markedly elevated **CA 19-9** is the tumor marker most associated with pancreatic adenocarcinoma and is used to monitor treatment response and recurrence (not for screening)."
+        "clinical_significance": "Markedly elevated CA 19-9 is the tumor marker most associated with pancreatic adenocarcinoma and is used to monitor treatment response and recurrence (not for screening)."
       },
       {
         "test_name": "Imaging study",
-        "result": "Contrast-enhanced CT abdomen (pancreas protocol): **3.2 cm hypodense mass in the head of the pancreas** with **dilation of both the common bile duct and the pancreatic duct (\"double duct sign\")**. Two borderline peripancreatic lymph nodes. No liver metastases seen. The mass abuts but does not encase the superior mesenteric artery.",
+        "result": "Contrast-enhanced CT abdomen (pancreas protocol): 3.2 cm hypodense mass in the head of the pancreas with dilation of both the common bile duct and the pancreatic duct (\"double duct sign\"). Two borderline peripancreatic lymph nodes. No liver metastases seen. The mass abuts but does not encase the superior mesenteric artery.",
         "flag": "ABNORMAL",
         "clinical_significance": "A hypoattenuating mass in the pancreatic head with a double duct sign is the classic imaging finding of pancreatic ductal adenocarcinoma. Vascular involvement determines resectability for Whipple procedure."
       }
@@ -61,19 +61,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "Endoscopic ultrasound-guided fine needle aspiration of the pancreatic head mass confirms **ductal adenocarcinoma**. Staging shows no distant metastases and borderline vascular involvement. The patient is referred for neoadjuvant FOLFIRINOX with planned pancreaticoduodenectomy (Whipple procedure)."
+    "final_clue": "Endoscopic ultrasound-guided fine needle aspiration of the pancreatic head mass confirms ductal adenocarcinoma. Staging shows no distant metastases and borderline vascular involvement. The patient is referred for neoadjuvant FOLFIRINOX with planned pancreaticoduodenectomy (Whipple procedure)."
   },
   "debrief": {
-    "classic_presentation": "Pancreatic adenocarcinoma classically presents in an older patient (usually >60), often a smoker, with **painless obstructive jaundice, weight loss, and epigastric/back pain**. Tumors of the head of the pancreas (most common, ~70%) obstruct the distal common bile duct and cause jaundice early; body and tail tumors present later with pain and weight loss. Classic signs include **Courvoisier sign** (nontender, palpable, distended gallbladder from chronic obstruction), **Trousseau sign of malignancy** (migratory superficial thrombophlebitis from a hypercoagulable state), and new-onset diabetes mellitus in an older adult.",
+    "classic_presentation": "Pancreatic adenocarcinoma classically presents in an older patient (usually >60), often a smoker, with painless obstructive jaundice, weight loss, and epigastric/back pain. Tumors of the head of the pancreas (most common, ~70%) obstruct the distal common bile duct and cause jaundice early; body and tail tumors present later with pain and weight loss. Classic signs include Courvoisier sign (nontender, palpable, distended gallbladder from chronic obstruction), Trousseau sign of malignancy (migratory superficial thrombophlebitis from a hypercoagulable state), and new-onset diabetes mellitus in an older adult.",
     "attending_mode_notes": null,
-    "pathophysiology": "Over 85% are **ductal adenocarcinomas** arising from the exocrine pancreas. Key mutations include **KRAS** (>90%), **CDKN2A (p16)**, **TP53**, and **SMAD4**. Risk factors include **smoking (largest modifiable risk factor)**, chronic pancreatitis, diabetes, obesity, age, male sex, African American ethnicity, and inherited syndromes (Peutz-Jeghers, BRCA2, hereditary pancreatitis, Lynch syndrome). The tumor commonly invades the common bile duct, pancreatic duct, duodenum, and peripancreatic vessels (SMA, SMV, portal vein), which determines resectability.",
-    "treatment_overview": "For resectable disease in the pancreatic head: **pancreaticoduodenectomy (Whipple procedure)** - removal of the pancreatic head, duodenum, gallbladder, distal common bile duct, and proximal jejunum. Distal pancreatectomy for body/tail lesions. Adjuvant chemotherapy with gemcitabine + capecitabine or modified FOLFIRINOX. For unresectable/metastatic disease: FOLFIRINOX or gemcitabine + nab-paclitaxel. Biliary stenting (ERCP) for palliation of jaundice. Prognosis is dismal - 5-year survival under 10% overall, ~20% after successful Whipple resection.",
+    "pathophysiology": "Over 85% are ductal adenocarcinomas arising from the exocrine pancreas. Key mutations include KRAS (>90%), CDKN2A (p16), TP53, and SMAD4. Risk factors include smoking (largest modifiable risk factor), chronic pancreatitis, diabetes, obesity, age, male sex, African American ethnicity, and inherited syndromes (Peutz-Jeghers, BRCA2, hereditary pancreatitis, Lynch syndrome). The tumor commonly invades the common bile duct, pancreatic duct, duodenum, and peripancreatic vessels (SMA, SMV, portal vein), which determines resectability.",
+    "treatment_overview": "For resectable disease in the pancreatic head: pancreaticoduodenectomy (Whipple procedure) - removal of the pancreatic head, duodenum, gallbladder, distal common bile duct, and proximal jejunum. Distal pancreatectomy for body/tail lesions. Adjuvant chemotherapy with gemcitabine + capecitabine or modified FOLFIRINOX. For unresectable/metastatic disease: FOLFIRINOX or gemcitabine + nab-paclitaxel. Biliary stenting (ERCP) for palliation of jaundice. Prognosis is dismal - 5-year survival under 10% overall, ~20% after successful Whipple resection.",
     "high_yield_pearls": [
-      "**Courvoisier sign** = palpable nontender gallbladder with painless jaundice suggests malignant biliary obstruction (pancreatic head cancer or cholangiocarcinoma), not gallstones.",
-      "**Trousseau sign of malignancy** = migratory superficial thrombophlebitis; classically associated with pancreatic adenocarcinoma from tumor-secreted procoagulants.",
-      "**CA 19-9** is the tumor marker used to monitor pancreatic cancer; it is NOT a screening test due to poor specificity (elevated in cholangitis, biliary obstruction).",
-      "**KRAS** mutations are found in >90% of pancreatic ductal adenocarcinomas - the highest rate of any cancer.",
-      "**Double duct sign** on imaging = dilation of both the common bile duct and pancreatic duct - highly suggestive of a pancreatic head mass obstructing the ampulla of Vater."
+      "Courvoisier sign = palpable nontender gallbladder with painless jaundice suggests malignant biliary obstruction (pancreatic head cancer or cholangiocarcinoma), not gallstones.",
+      "Trousseau sign of malignancy = migratory superficial thrombophlebitis; classically associated with pancreatic adenocarcinoma from tumor-secreted procoagulants.",
+      "CA 19-9 is the tumor marker used to monitor pancreatic cancer; it is NOT a screening test due to poor specificity (elevated in cholangitis, biliary obstruction).",
+      "KRAS mutations are found in >90% of pancreatic ductal adenocarcinomas - the highest rate of any cancer.",
+      "Double duct sign on imaging = dilation of both the common bile duct and pancreatic duct - highly suggestive of a pancreatic head mass obstructing the ampulla of Vater."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) - Gastrointestinal chapter, 'Pancreatic adenocarcinoma' section.",

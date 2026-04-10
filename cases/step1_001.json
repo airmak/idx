@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "99% on room air"
     },
-    "physical_exam": "Neuro: **Right relative afferent pupillary defect (Marcus Gunn pupil)** with **pale right optic disc** on funduscopy. **Right lower extremity weakness (4/5)** with **hyperreflexia at the right patella and Achilles**. **Babinski sign positive on the right**. Sensory: decreased vibration sense in the right lower extremity. Cerebellar testing: normal. Gait: mild right-sided drag."
+    "physical_exam": "Neuro: Right relative afferent pupillary defect (Marcus Gunn pupil) with pale right optic disc on funduscopy. Right lower extremity weakness (4/5) with hyperreflexia at the right patella and Achilles. Babinski sign positive on the right. Sensory: decreased vibration sense in the right lower extremity. Cerebellar testing: normal. Gait: mild right-sided drag."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "MRI brain (T2/FLAIR with gadolinium): Multiple ovoid hyperintense **periventricular white matter lesions**, including lesions oriented perpendicular to the corpus callosum (**Dawson fingers**). One lesion shows ring enhancement, suggesting active inflammation. A second focus is seen in the cervical spinal cord.",
+        "result": "MRI brain (T2/FLAIR with gadolinium): Multiple ovoid hyperintense periventricular white matter lesions, including lesions oriented perpendicular to the corpus callosum (Dawson fingers). One lesion shows ring enhancement, suggesting active inflammation. A second focus is seen in the cervical spinal cord.",
         "flag": "ABNORMAL",
         "clinical_significance": "Periventricular white matter lesions with Dawson fingers are the classic MRI finding in MS. Lesions disseminated in space (brain + cord) and time (old non-enhancing + new enhancing) fulfill McDonald criteria."
       },
       {
         "test_name": "CSF analysis (lumbar puncture)",
-        "result": "Opening pressure normal. Cells: 5 lymphocytes/µL. Protein: mildly elevated. Glucose: normal. **Oligoclonal IgG bands present in CSF but absent in serum**. **Elevated IgG index**.",
+        "result": "Opening pressure normal. Cells: 5 lymphocytes/µL. Protein: mildly elevated. Glucose: normal. Oligoclonal IgG bands present in CSF but absent in serum. Elevated IgG index.",
         "flag": "ABNORMAL",
         "clinical_significance": "Oligoclonal bands restricted to the CSF reflect intrathecal IgG synthesis and are highly suggestive of MS."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "Visual evoked potentials: **prolonged P100 latency in the right eye** consistent with prior optic nerve demyelination.",
+        "result": "Visual evoked potentials: prolonged P100 latency in the right eye consistent with prior optic nerve demyelination.",
         "flag": "ABNORMAL",
         "clinical_significance": "Delayed VEP reveals subclinical demyelination of the optic nerve and supports a prior episode of optic neuritis even after clinical recovery."
       }

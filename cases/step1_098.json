@@ -20,19 +20,19 @@
       "rr": "24",
       "spo2": "93% on room air"
     },
-    "physical_exam": "General: diaphoretic, anxious, leaning forward. HEENT: **elevated jugular venous pressure to the angle of the jaw** with a blunted y descent. Cardiovascular: **distant, muffled heart sounds**, regular tachycardia, no appreciable murmur. **Pulsus paradoxus of 18 mmHg** (inspiratory drop in systolic BP). Lungs: clear bilaterally, no rales. Abdomen: soft, non-tender. Extremities: cool, 1+ pulses, capillary refill 3 seconds. Neuro: alert but anxious."
+    "physical_exam": "General: diaphoretic, anxious, leaning forward. HEENT: elevated jugular venous pressure to the angle of the jaw with a blunted y descent. Cardiovascular: distant, muffled heart sounds, regular tachycardia, no appreciable murmur. Pulsus paradoxus of 18 mmHg (inspiratory drop in systolic BP). Lungs: clear bilaterally, no rales. Abdomen: soft, non-tender. Extremities: cool, 1+ pulses, capillary refill 3 seconds. Neuro: alert but anxious."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "**Bedside transthoracic echocardiogram**: **large circumferential pericardial effusion** with **diastolic collapse of the right ventricle and right atrium**, plethoric inferior vena cava without respiratory variation, and exaggerated respirophasic variation in mitral inflow.",
+        "result": "Bedside transthoracic echocardiogram: large circumferential pericardial effusion with diastolic collapse of the right ventricle and right atrium, plethoric inferior vena cava without respiratory variation, and exaggerated respirophasic variation in mitral inflow.",
         "flag": "ABNORMAL",
         "clinical_significance": "Echocardiographic findings of RA/RV diastolic collapse with a plethoric IVC are hallmark signs of tamponade physiology and indicate impaired ventricular filling."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus tachycardia at 124. **Low QRS voltage** throughout. **Electrical alternans** (beat-to-beat variation in QRS amplitude) is present in the precordial leads. No acute ischemic changes.",
+        "result": "Sinus tachycardia at 124. Low QRS voltage throughout. Electrical alternans (beat-to-beat variation in QRS amplitude) is present in the precordial leads. No acute ischemic changes.",
         "flag": "ABNORMAL",
         "clinical_significance": "Low voltage plus electrical alternans reflects the swinging motion of the heart within a large pericardial effusion and is highly specific for tamponade physiology."
       },
@@ -60,13 +60,13 @@
     ]
   },
   "stage5": {
-    "final_clue": "**Emergent pericardiocentesis** drains 700 mL of serosanguinous fluid with immediate normalization of blood pressure and resolution of pulsus paradoxus; cytology of the fluid is positive for malignant cells."
+    "final_clue": "Emergent pericardiocentesis drains 700 mL of serosanguinous fluid with immediate normalization of blood pressure and resolution of pulsus paradoxus; cytology of the fluid is positive for malignant cells."
   },
   "debrief": {
-    "classic_presentation": "Cardiac tamponade classically presents with **Beck's triad**: hypotension, muffled heart sounds, and jugular venous distension. **Pulsus paradoxus** (a fall in systolic BP greater than 10 mmHg during inspiration) is a key physical finding. Causes include malignancy (most common non-traumatic cause, classically lung and breast cancer), uremic or viral pericarditis, post-MI (Dressler syndrome or ventricular free wall rupture), aortic dissection with hemopericardium, trauma, and procedural complications. Rapid accumulation of even a small volume causes tamponade, whereas slow accumulation can be tolerated.",
+    "classic_presentation": "Cardiac tamponade classically presents with Beck's triad: hypotension, muffled heart sounds, and jugular venous distension. Pulsus paradoxus (a fall in systolic BP greater than 10 mmHg during inspiration) is a key physical finding. Causes include malignancy (most common non-traumatic cause, classically lung and breast cancer), uremic or viral pericarditis, post-MI (Dressler syndrome or ventricular free wall rupture), aortic dissection with hemopericardium, trauma, and procedural complications. Rapid accumulation of even a small volume causes tamponade, whereas slow accumulation can be tolerated.",
     "attending_mode_notes": null,
-    "pathophysiology": "Fluid accumulates in the pericardial space and raises intrapericardial pressure above cardiac chamber filling pressures, impairing diastolic filling of the thin-walled right atrium and right ventricle. Reduced preload causes reduced stroke volume and cardiac output, producing **obstructive shock**. During inspiration, increased venous return to the right ventricle bows the interventricular septum into the left ventricle (ventricular interdependence), reducing LV filling and causing the exaggerated inspiratory drop in systolic pressure that manifests as **pulsus paradoxus**. The pericardium is a stiff fibrous sac, so acute accumulation of 150-200 mL can precipitate tamponade, while chronic effusions may reach 1-2 L before causing compromise.",
-    "treatment_overview": "Emergent **pericardiocentesis**, ideally echocardiography-guided with subxiphoid approach, is definitive. IV fluids can temporize by boosting preload while preparing for drainage. Avoid positive-pressure ventilation when possible as it decreases venous return. A pericardial drain may be left in place for recurrent effusions; a pericardial window (subxiphoid or thoracoscopic) is considered for recurrent or loculated effusions, particularly from malignancy. Definitive management also addresses the underlying cause (e.g., chemotherapy for malignant effusion, dialysis for uremic effusion).",
+    "pathophysiology": "Fluid accumulates in the pericardial space and raises intrapericardial pressure above cardiac chamber filling pressures, impairing diastolic filling of the thin-walled right atrium and right ventricle. Reduced preload causes reduced stroke volume and cardiac output, producing obstructive shock. During inspiration, increased venous return to the right ventricle bows the interventricular septum into the left ventricle (ventricular interdependence), reducing LV filling and causing the exaggerated inspiratory drop in systolic pressure that manifests as pulsus paradoxus. The pericardium is a stiff fibrous sac, so acute accumulation of 150-200 mL can precipitate tamponade, while chronic effusions may reach 1-2 L before causing compromise.",
+    "treatment_overview": "Emergent pericardiocentesis, ideally echocardiography-guided with subxiphoid approach, is definitive. IV fluids can temporize by boosting preload while preparing for drainage. Avoid positive-pressure ventilation when possible as it decreases venous return. A pericardial drain may be left in place for recurrent effusions; a pericardial window (subxiphoid or thoracoscopic) is considered for recurrent or loculated effusions, particularly from malignancy. Definitive management also addresses the underlying cause (e.g., chemotherapy for malignant effusion, dialysis for uremic effusion).",
     "high_yield_pearls": [
       "Beck's triad: hypotension + muffled heart sounds + JVD.",
       "Pulsus paradoxus >10 mmHg and equalization of diastolic pressures across cardiac chambers.",

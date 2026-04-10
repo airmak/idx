@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: ill-appearing, flushed, prominent myalgias on exam. HEENT: mildly injected oropharynx without exudate, clear rhinorrhea, no sinus tenderness, tympanic membranes normal. Neck: small tender cervical nodes, no meningismus. Lungs: **clear to auscultation bilaterally, no focal crackles or wheezing**. Cardiac: tachycardic, regular. Skin: warm, no rash. Neuro: alert, nonfocal."
+    "physical_exam": "General: ill-appearing, flushed, prominent myalgias on exam. HEENT: mildly injected oropharynx without exudate, clear rhinorrhea, no sinus tenderness, tympanic membranes normal. Neck: small tender cervical nodes, no meningismus. Lungs: clear to auscultation bilaterally, no focal crackles or wheezing. Cardiac: tachycardic, regular. Skin: warm, no rash. Neuro: alert, nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "**Nasopharyngeal swab rapid influenza PCR: POSITIVE for Influenza A; negative for Influenza B and RSV**. Rapid antigen for influenza A: positive. Respiratory viral panel otherwise negative.",
+        "result": "Nasopharyngeal swab rapid influenza PCR: POSITIVE for Influenza A; negative for Influenza B and RSV. Rapid antigen for influenza A: positive. Respiratory viral panel otherwise negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Rapid molecular (PCR) testing is the most sensitive point-of-care test for influenza. During outbreaks, a clinical diagnosis plus a positive rapid antigen is sufficient to start neuraminidase inhibitor therapy if within 48 hours of symptom onset."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "WBC 3.8 (**lymphopenia** with relative neutrophil predominance). Hgb 13.9. Platelets 172 (mildly low). Smear: normal RBC morphology.",
+        "result": "WBC 3.8 (lymphopenia with relative neutrophil predominance). Hgb 13.9. Platelets 172 (mildly low). Smear: normal RBC morphology.",
         "flag": "ABNORMAL",
         "clinical_significance": "Mild leukopenia with lymphopenia and mild thrombocytopenia are typical of acute viral illnesses such as influenza."
       },
       {
         "test_name": "Imaging study",
-        "result": "Chest X-ray: **no focal consolidation, pleural effusion, or infiltrate**.",
+        "result": "Chest X-ray: no focal consolidation, pleural effusion, or infiltrate.",
         "flag": "NORMAL",
         "clinical_significance": "A normal chest radiograph helps exclude bacterial pneumonia and the complication of post-influenza Staphylococcus aureus pneumonia, which would typically show rapidly progressive consolidation or cavitation."
       }

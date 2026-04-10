@@ -4,9 +4,9 @@
   "specialty": "Pediatrics",
   "diagnosis": "VSD (ventricular septal defect)",
   "icd_category": "Q21.0 — Ventricular septal defect",
-  "one_liner": "A 6-week-old infant is brought to the pediatrician for poor weight gain and sweating with feeding, and is found to have a **harsh holosystolic murmur** at the left lower sternal border.",
+  "one_liner": "A 6-week-old infant is brought to the pediatrician for poor weight gain and sweating with feeding, and is found to have a harsh holosystolic murmur at the left lower sternal border.",
   "stage2": {
-    "hpi_extension": "The infant was born at term with an unremarkable newborn exam. Over the past three weeks she has had progressively **poor feeding with tachypnea and diaphoresis** during nursing, and is taking longer to complete feeds. Weight has fallen from the 50th to the 15th percentile. She has had two episodes of upper respiratory illness. No cyanosis has been observed.",
+    "hpi_extension": "The infant was born at term with an unremarkable newborn exam. Over the past three weeks she has had progressively poor feeding with tachypnea and diaphoresis during nursing, and is taking longer to complete feeds. Weight has fallen from the 50th to the 15th percentile. She has had two episodes of upper respiratory illness. No cyanosis has been observed.",
     "pmh": "Term vaginal delivery at 39 weeks. Normal Apgar scores. No prenatal diagnosis of cardiac disease.",
     "surgical_history": "None",
     "medications": "Vitamin D 400 IU daily.",
@@ -20,19 +20,19 @@
       "rr": "58",
       "spo2": "97% on room air"
     },
-    "physical_exam": "General: thin, mildly tachypneic infant with **subcostal retractions**. HEENT: no cyanosis, mucous membranes moist. Cardiovascular: **harsh 4/6 holosystolic murmur loudest at the left lower sternal border, with a palpable thrill**. S2 is normally split; no ejection click. Lungs: fine crackles at the bases. Abdomen: **liver edge palpable 3 cm below the right costal margin**. Extremities: normal pulses in all four limbs, no clubbing, no cyanosis."
+    "physical_exam": "General: thin, mildly tachypneic infant with subcostal retractions. HEENT: no cyanosis, mucous membranes moist. Cardiovascular: harsh 4/6 holosystolic murmur loudest at the left lower sternal border, with a palpable thrill. S2 is normally split; no ejection click. Lungs: fine crackles at the bases. Abdomen: liver edge palpable 3 cm below the right costal margin. Extremities: normal pulses in all four limbs, no clubbing, no cyanosis."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "**Transthoracic echocardiogram**: moderate-sized **muscular ventricular septal defect (8 mm)** with **left-to-right flow** on color Doppler. Dilated left atrium and left ventricle. Mild pulmonary arterial hypertension (estimated RVSP 45 mmHg). Normal great vessel anatomy. Chest x-ray: **cardiomegaly** and **increased pulmonary vascular markings**.",
+        "result": "Transthoracic echocardiogram: moderate-sized muscular ventricular septal defect (8 mm) with left-to-right flow on color Doppler. Dilated left atrium and left ventricle. Mild pulmonary arterial hypertension (estimated RVSP 45 mmHg). Normal great vessel anatomy. Chest x-ray: cardiomegaly and increased pulmonary vascular markings.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Echocardiography is diagnostic** for VSD. A left-to-right shunt with left heart dilation and pulmonary overcirculation produces the clinical picture of **congestive heart failure with failure to thrive** in the infant."
+        "clinical_significance": "Echocardiography is diagnostic for VSD. A left-to-right shunt with left heart dilation and pulmonary overcirculation produces the clinical picture of congestive heart failure with failure to thrive in the infant."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "EKG: sinus tachycardia at 160 bpm. **Left ventricular hypertrophy** with prominent R waves in V5-V6 and biventricular enlargement pattern. No heart block.",
+        "result": "EKG: sinus tachycardia at 160 bpm. Left ventricular hypertrophy with prominent R waves in V5-V6 and biventricular enlargement pattern. No heart block.",
         "flag": "ABNORMAL",
         "clinical_significance": "Evidence of left (and later biventricular) hypertrophy reflects the chronic volume overload from the left-to-right shunt and supports a hemodynamically significant VSD."
       }
@@ -52,19 +52,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "She is started on **furosemide and an ACE inhibitor for afterload reduction**, and high-caloric-density formula is added to improve nutrition. Small VSDs usually close spontaneously, but this moderately large defect with failure to thrive and pulmonary overcirculation prompts **surgical closure** before irreversible pulmonary vascular disease (**Eisenmenger syndrome**) develops."
+    "final_clue": "She is started on furosemide and an ACE inhibitor for afterload reduction, and high-caloric-density formula is added to improve nutrition. Small VSDs usually close spontaneously, but this moderately large defect with failure to thrive and pulmonary overcirculation prompts surgical closure before irreversible pulmonary vascular disease (Eisenmenger syndrome) develops."
   },
   "debrief": {
-    "classic_presentation": "VSD is the **most common congenital heart defect** and classically presents with a **harsh holosystolic murmur at the left lower sternal border**, often with a palpable thrill. **Smaller defects produce louder, harsher murmurs** (more turbulence). Small VSDs are often asymptomatic and may close spontaneously. Large VSDs cause a significant **left-to-right shunt**, producing **congestive heart failure, failure to thrive, sweating and tachypnea with feeding, and recurrent respiratory infections** in infancy. Chronic pulmonary overcirculation can lead to **pulmonary hypertension and Eisenmenger syndrome**, with shunt reversal and cyanosis.",
+    "classic_presentation": "VSD is the most common congenital heart defect and classically presents with a harsh holosystolic murmur at the left lower sternal border, often with a palpable thrill. Smaller defects produce louder, harsher murmurs (more turbulence). Small VSDs are often asymptomatic and may close spontaneously. Large VSDs cause a significant left-to-right shunt, producing congestive heart failure, failure to thrive, sweating and tachypnea with feeding, and recurrent respiratory infections in infancy. Chronic pulmonary overcirculation can lead to pulmonary hypertension and Eisenmenger syndrome, with shunt reversal and cyanosis.",
     "attending_mode_notes": null,
-    "pathophysiology": "VSD results from incomplete closure of the interventricular septum during embryogenesis, most commonly in the **membranous septum**. The higher pressure in the left ventricle drives a **left-to-right shunt** through the defect, volume-loading the lungs, left atrium, and left ventricle. Over time, pulmonary arteriolar remodeling raises pulmonary vascular resistance; when it exceeds systemic resistance, the shunt reverses into a **right-to-left shunt with cyanosis (Eisenmenger syndrome)**. VSDs are associated with **fetal alcohol syndrome**, **Down syndrome**, and **DiGeorge (22q11.2) syndrome**.",
-    "treatment_overview": "**Small VSDs often close spontaneously** within the first 1-2 years of life and are managed with observation and endocarditis prevention during high-risk procedures. **Moderate to large VSDs** causing heart failure or failure to thrive are managed medically with **diuretics (furosemide), afterload reduction (ACE inhibitors), and caloric supplementation**, followed by **surgical (or transcatheter device) closure** before irreversible pulmonary vascular disease develops. Once Eisenmenger physiology is established, closure is contraindicated.",
+    "pathophysiology": "VSD results from incomplete closure of the interventricular septum during embryogenesis, most commonly in the membranous septum. The higher pressure in the left ventricle drives a left-to-right shunt through the defect, volume-loading the lungs, left atrium, and left ventricle. Over time, pulmonary arteriolar remodeling raises pulmonary vascular resistance; when it exceeds systemic resistance, the shunt reverses into a right-to-left shunt with cyanosis (Eisenmenger syndrome). VSDs are associated with fetal alcohol syndrome, Down syndrome, and DiGeorge (22q11.2) syndrome.",
+    "treatment_overview": "Small VSDs often close spontaneously within the first 1-2 years of life and are managed with observation and endocarditis prevention during high-risk procedures. Moderate to large VSDs causing heart failure or failure to thrive are managed medically with diuretics (furosemide), afterload reduction (ACE inhibitors), and caloric supplementation, followed by surgical (or transcatheter device) closure before irreversible pulmonary vascular disease develops. Once Eisenmenger physiology is established, closure is contraindicated.",
     "high_yield_pearls": [
-      "VSD is the **most common congenital heart defect**; murmur is a **harsh holosystolic murmur at the left lower sternal border**.",
-      "**Smaller VSD = louder murmur** (paradoxical but high-yield).",
-      "Large VSDs cause a **left-to-right shunt -> CHF, failure to thrive, recurrent respiratory infections** in infancy.",
-      "Unrepaired large VSDs can lead to **Eisenmenger syndrome** (shunt reversal, cyanosis, clubbing) due to pulmonary vascular remodeling.",
-      "Associations: **fetal alcohol syndrome, Down syndrome, DiGeorge syndrome (22q11.2)**."
+      "VSD is the most common congenital heart defect; murmur is a harsh holosystolic murmur at the left lower sternal border.",
+      "Smaller VSD = louder murmur (paradoxical but high-yield).",
+      "Large VSDs cause a left-to-right shunt -> CHF, failure to thrive, recurrent respiratory infections in infancy.",
+      "Unrepaired large VSDs can lead to Eisenmenger syndrome (shunt reversal, cyanosis, clubbing) due to pulmonary vascular remodeling.",
+      "Associations: fetal alcohol syndrome, Down syndrome, DiGeorge syndrome (22q11.2)."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Cardiovascular chapter, 'Congenital heart diseases — Left-to-right shunts: Ventricular septal defect' section.",

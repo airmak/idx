@@ -6,7 +6,7 @@
   "icd_category": "G70.0 — Myasthenia gravis",
   "one_liner": "A 32-year-old woman presents with two months of intermittent double vision and droopy eyelids that worsen as the day progresses. She has also noticed difficulty chewing tough foods and fatigue climbing stairs.",
   "stage2": {
-    "hpi_extension": "Her symptoms are classically **fatigable — minimal in the morning and progressively worse with repetitive use**, improving with rest. She has binocular diplopia that resolves when she covers either eye. Late in meals her jaw tires and she must stop chewing. She denies pain, numbness, or sphincter symptoms. No recent viral illness or ascending paralysis. Review of systems is notable for shortness of breath with exertion but no true dyspnea at rest.",
+    "hpi_extension": "Her symptoms are classically fatigable — minimal in the morning and progressively worse with repetitive use, improving with rest. She has binocular diplopia that resolves when she covers either eye. Late in meals her jaw tires and she must stop chewing. She denies pain, numbness, or sphincter symptoms. No recent viral illness or ascending paralysis. Review of systems is notable for shortness of breath with exertion but no true dyspnea at rest.",
     "pmh": "Hashimoto thyroiditis",
     "surgical_history": "None",
     "medications": "Levothyroxine",
@@ -20,25 +20,25 @@
       "rr": "16",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: alert, well-appearing. Neuro: **bilateral ptosis that worsens with sustained upgaze for 60 seconds**. **Extraocular movements show fatigable weakness with binocular diplopia**. **Pupils normal and reactive**. **Ice pack applied to the lid for 2 minutes transiently improves ptosis (positive ice-pack test)**. Facial weakness with a 'myasthenic snarl' on attempted smile. Neck flexor weakness (4/5). **Proximal limb weakness that worsens with repetitive testing**. **Deep tendon reflexes normal**. Sensation intact. No autonomic signs."
+    "physical_exam": "General: alert, well-appearing. Neuro: bilateral ptosis that worsens with sustained upgaze for 60 seconds. Extraocular movements show fatigable weakness with binocular diplopia. Pupils normal and reactive. Ice pack applied to the lid for 2 minutes transiently improves ptosis (positive ice-pack test). Facial weakness with a 'myasthenic snarl' on attempted smile. Neck flexor weakness (4/5). Proximal limb weakness that worsens with repetitive testing. Deep tendon reflexes normal. Sensation intact. No autonomic signs."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Serologic / antibody studies",
-        "result": "**Anti-acetylcholine receptor (anti-AChR) antibodies: strongly positive**. Anti-MuSK antibodies: not sent (ordered reflex if AChR negative). TSH normal. ANA negative.",
+        "result": "Anti-acetylcholine receptor (anti-AChR) antibodies: strongly positive. Anti-MuSK antibodies: not sent (ordered reflex if AChR negative). TSH normal. ANA negative.",
         "flag": "ABNORMAL",
         "clinical_significance": "Anti-AChR antibodies are present in ~85% of generalized MG and ~50% of ocular MG and are highly specific. They block and accelerate degradation of postsynaptic nicotinic ACh receptors at the neuromuscular junction."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "**Repetitive nerve stimulation: decremental response (>10% drop in CMAP amplitude) on low-frequency (3 Hz) stimulation**. Single-fiber EMG: increased jitter and blocking. **Edrophonium (Tensilon) test**: rapid but transient improvement in ptosis after IV edrophonium administration.",
+        "result": "Repetitive nerve stimulation: decremental response (>10% drop in CMAP amplitude) on low-frequency (3 Hz) stimulation. Single-fiber EMG: increased jitter and blocking. Edrophonium (Tensilon) test: rapid but transient improvement in ptosis after IV edrophonium administration.",
         "flag": "ABNORMAL",
         "clinical_significance": "A decremental response on repetitive nerve stimulation and a positive edrophonium test confirm a postsynaptic neuromuscular junction disorder. In contrast, Lambert-Eaton shows an incremental response with high-frequency stimulation."
       },
       {
         "test_name": "Imaging study",
-        "result": "**CT chest with contrast: anterior mediastinal mass measuring 3.5 cm, consistent with a thymoma**.",
+        "result": "CT chest with contrast: anterior mediastinal mass measuring 3.5 cm, consistent with a thymoma.",
         "flag": "ABNORMAL",
         "clinical_significance": "Approximately 10-15% of MG patients have a thymoma and up to 65% have thymic hyperplasia. All newly diagnosed MG patients should have chest imaging to evaluate the thymus."
       }
@@ -63,10 +63,10 @@
     "final_clue": "She is started on pyridostigmine with marked improvement in ptosis and limb strength, and is scheduled for thymectomy given the thymoma identified on chest CT."
   },
   "debrief": {
-    "classic_presentation": "Myasthenia gravis classically presents with **fluctuating, fatigable weakness** that worsens with activity and improves with rest. Ocular symptoms (ptosis, diplopia) are the initial complaint in ~60% and are the only manifestation in ~15% (pure ocular MG). Bulbar involvement causes dysphagia, dysarthria, and jaw fatigue. Limb involvement is predominantly proximal. Myasthenic crisis (respiratory failure) can be precipitated by infection, surgery, or aminoglycosides. Bimodal demographic: women in their 20s-30s and men in their 60s-70s.",
+    "classic_presentation": "Myasthenia gravis classically presents with fluctuating, fatigable weakness that worsens with activity and improves with rest. Ocular symptoms (ptosis, diplopia) are the initial complaint in ~60% and are the only manifestation in ~15% (pure ocular MG). Bulbar involvement causes dysphagia, dysarthria, and jaw fatigue. Limb involvement is predominantly proximal. Myasthenic crisis (respiratory failure) can be precipitated by infection, surgery, or aminoglycosides. Bimodal demographic: women in their 20s-30s and men in their 60s-70s.",
     "attending_mode_notes": null,
-    "pathophysiology": "MG is an autoimmune disease caused by **IgG autoantibodies directed against the nicotinic acetylcholine receptor (AChR) at the postsynaptic membrane of the neuromuscular junction**. Antibodies block ACh binding, cross-link and internalize receptors, and activate complement-mediated destruction of the postsynaptic folds, reducing the safety factor for neuromuscular transmission. A subset of AChR-negative patients have antibodies to MuSK. **The thymus is often abnormal — thymic hyperplasia or thymoma — and is thought to drive autoreactive T-cell activation**. MG is associated with other autoimmune diseases (Hashimoto, SLE, RA).",
-    "treatment_overview": "Symptomatic: **pyridostigmine (acetylcholinesterase inhibitor)** increases synaptic ACh availability. Immunosuppression: corticosteroids (caution — may transiently worsen weakness), azathioprine, mycophenolate. **Thymectomy** improves outcomes in generalized MG even without thymoma, and is mandatory if thymoma is present. Myasthenic crisis: **IVIG or plasmapheresis** plus respiratory support. Avoid aminoglycosides, fluoroquinolones, β-blockers, magnesium, and neuromuscular blockers, which can precipitate crisis.",
+    "pathophysiology": "MG is an autoimmune disease caused by IgG autoantibodies directed against the nicotinic acetylcholine receptor (AChR) at the postsynaptic membrane of the neuromuscular junction. Antibodies block ACh binding, cross-link and internalize receptors, and activate complement-mediated destruction of the postsynaptic folds, reducing the safety factor for neuromuscular transmission. A subset of AChR-negative patients have antibodies to MuSK. The thymus is often abnormal — thymic hyperplasia or thymoma — and is thought to drive autoreactive T-cell activation. MG is associated with other autoimmune diseases (Hashimoto, SLE, RA).",
+    "treatment_overview": "Symptomatic: pyridostigmine (acetylcholinesterase inhibitor) increases synaptic ACh availability. Immunosuppression: corticosteroids (caution — may transiently worsen weakness), azathioprine, mycophenolate. Thymectomy improves outcomes in generalized MG even without thymoma, and is mandatory if thymoma is present. Myasthenic crisis: IVIG or plasmapheresis plus respiratory support. Avoid aminoglycosides, fluoroquinolones, β-blockers, magnesium, and neuromuscular blockers, which can precipitate crisis.",
     "high_yield_pearls": [
       "MG = postsynaptic NMJ disease: anti-AChR antibodies → fatigable weakness, ptosis, diplopia, worse with use, better with rest.",
       "Edrophonium (Tensilon) test: short-acting AChE inhibitor transiently improves strength. Ice-pack test improves ptosis in ocular MG.",

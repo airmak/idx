@@ -20,25 +20,25 @@
       "rr": "14",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: well-appearing, not in distress at rest. Cardiac: regular rate and rhythm, normal S1/S2, **no S3 or S4**, no murmurs, no rubs. Pulmonary: clear. Abdomen: benign. Vascular: **diminished dorsalis pedis pulses bilaterally**, no carotid bruits. No peripheral edema."
+    "physical_exam": "General: well-appearing, not in distress at rest. Cardiac: regular rate and rhythm, normal S1/S2, no S3 or S4, no murmurs, no rubs. Pulmonary: clear. Abdomen: benign. Vascular: diminished dorsalis pedis pulses bilaterally, no carotid bruits. No peripheral edema."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**Troponin negative x2** at 0 and 3 hours. **LDL 168 mg/dL (HIGH)**, HDL 32 mg/dL (LOW), total cholesterol 248 mg/dL. HbA1c 8.1%.",
+        "result": "Troponin negative x2 at 0 and 3 hours. LDL 168 mg/dL (HIGH), HDL 32 mg/dL (LOW), total cholesterol 248 mg/dL. HbA1c 8.1%.",
         "flag": "ABNORMAL",
         "clinical_significance": "Negative troponin rules out acute MI. The atherogenic lipid profile and uncontrolled diabetes support advanced atherosclerotic disease."
       },
       {
         "test_name": "Functional / provocative testing",
-        "result": "Exercise treadmill stress test (Bruce protocol): patient develops chest pressure and **>=1 mm horizontal ST-segment depression in leads V4-V6** at 6 minutes of exercise. Symptoms and ST changes resolve within 3 minutes of rest.",
+        "result": "Exercise treadmill stress test (Bruce protocol): patient develops chest pressure and >=1 mm horizontal ST-segment depression in leads V4-V6 at 6 minutes of exercise. Symptoms and ST changes resolve within 3 minutes of rest.",
         "flag": "ABNORMAL",
         "clinical_significance": "Reproducible exertional chest pain with ST depressions on stress testing is diagnostic of demand ischemia from obstructive CAD, confirming stable angina."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Resting 12-lead EKG: **normal sinus rhythm, no ST/T changes, no Q waves** at rest.",
+        "result": "Resting 12-lead EKG: normal sinus rhythm, no ST/T changes, no Q waves at rest.",
         "flag": "WNL",
         "clinical_significance": "A normal resting EKG is typical of stable angina, because ischemia develops only during demand stress."
       }
@@ -66,8 +66,8 @@
   "debrief": {
     "classic_presentation": "Stable angina presents as predictable, exertional substernal chest pressure lasting minutes, relieved by rest or sublingual nitroglycerin. Pain may radiate to the left arm, jaw, or shoulder and is often described as heaviness or squeezing rather than sharp. Patients have atherosclerotic risk factors (age, male sex, smoking, hypertension, diabetes, hyperlipidemia, family history). Cardiac biomarkers are negative because there is demand ischemia without myocyte necrosis.",
     "attending_mode_notes": null,
-    "pathophysiology": "A fixed atherosclerotic plaque narrows a coronary artery (typically >70% luminal stenosis) so that resting perfusion is adequate but cannot match increased myocardial oxygen demand during exertion. Subendocardial ischemia produces **reversible ST-segment depression** on EKG during stress testing. Unlike unstable angina or MI, the plaque does not rupture; the thrombotic cascade is not activated and troponin remains normal.",
-    "treatment_overview": "Lifestyle modification (smoking cessation, diet, exercise, weight loss) plus **antiplatelet therapy (aspirin), statin (atorvastatin), beta-blocker (metoprolol) to reduce oxygen demand, and sublingual nitroglycerin** for acute episodes. Long-acting nitrates and calcium channel blockers are adjuncts. Revascularization (PCI or CABG) is indicated for refractory symptoms or high-risk anatomy (e.g., left main or three-vessel disease, especially with diabetes).",
+    "pathophysiology": "A fixed atherosclerotic plaque narrows a coronary artery (typically >70% luminal stenosis) so that resting perfusion is adequate but cannot match increased myocardial oxygen demand during exertion. Subendocardial ischemia produces reversible ST-segment depression on EKG during stress testing. Unlike unstable angina or MI, the plaque does not rupture; the thrombotic cascade is not activated and troponin remains normal.",
+    "treatment_overview": "Lifestyle modification (smoking cessation, diet, exercise, weight loss) plus antiplatelet therapy (aspirin), statin (atorvastatin), beta-blocker (metoprolol) to reduce oxygen demand, and sublingual nitroglycerin for acute episodes. Long-acting nitrates and calcium channel blockers are adjuncts. Revascularization (PCI or CABG) is indicated for refractory symptoms or high-risk anatomy (e.g., left main or three-vessel disease, especially with diabetes).",
     "high_yield_pearls": [
       "Stable angina = reproducible, exertional substernal chest pain relieved by rest or nitroglycerin, normal troponin.",
       "Demand ischemia causes subendocardial ischemia with ST depression; transmural ischemia (as in Prinzmetal or STEMI) causes ST elevation.",

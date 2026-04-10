@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "94% on room air"
     },
-    "physical_exam": "General: cachectic, mild temporal wasting. HEENT: no lymphadenopathy appreciated in the cervical chain, but a **firm left supraclavicular node (Virchow's) is palpable**. Lungs: **decreased breath sounds in the right upper lung field** with **dullness to percussion** and a **localized wheeze** not cleared with coughing. Cardiac: regular, no murmurs. Extremities: **clubbing of the fingers**, no edema. Skin: no rashes."
+    "physical_exam": "General: cachectic, mild temporal wasting. HEENT: no lymphadenopathy appreciated in the cervical chain, but a firm left supraclavicular node (Virchow's) is palpable. Lungs: decreased breath sounds in the right upper lung field with dullness to percussion and a localized wheeze not cleared with coughing. Cardiac: regular, no murmurs. Extremities: clubbing of the fingers, no edema. Skin: no rashes."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Imaging study",
-        "result": "Chest CT with contrast: **3.8 cm spiculated mass in the right upper lobe** abutting the pleura, with ipsilateral **mediastinal and right hilar lymphadenopathy**. Small **right-sided pleural effusion**. No distant metastases seen on this study, but adrenal and brain imaging recommended for staging.",
+        "result": "Chest CT with contrast: 3.8 cm spiculated mass in the right upper lobe abutting the pleura, with ipsilateral mediastinal and right hilar lymphadenopathy. Small right-sided pleural effusion. No distant metastases seen on this study, but adrenal and brain imaging recommended for staging.",
         "flag": "ABNORMAL",
         "clinical_significance": "A peripheral spiculated mass with hilar/mediastinal adenopathy is highly suspicious for primary lung cancer, most commonly adenocarcinoma when peripheral."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Na 136, K 3.8, Cl 100, HCO3 26, BUN 14, creatinine 0.8, **calcium 12.6 mg/dL (elevated)**, albumin 3.6, AST 28, ALT 24, alkaline phosphatase 148.",
+        "result": "Na 136, K 3.8, Cl 100, HCO3 26, BUN 14, creatinine 0.8, calcium 12.6 mg/dL (elevated), albumin 3.6, AST 28, ALT 24, alkaline phosphatase 148.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hypercalcemia in a patient with a lung mass suggests paraneoplastic PTHrP secretion (classically squamous cell carcinoma) or bony metastases."
       },
       {
         "test_name": "Histopathology / biopsy",
-        "result": "CT-guided percutaneous needle biopsy of the right upper lobe mass: **adenocarcinoma** with glandular differentiation and positive staining for **TTF-1** and **napsin A**. Molecular testing reveals an **EGFR exon 19 deletion**.",
+        "result": "CT-guided percutaneous needle biopsy of the right upper lobe mass: adenocarcinoma with glandular differentiation and positive staining for TTF-1 and napsin A. Molecular testing reveals an EGFR exon 19 deletion.",
         "flag": "ABNORMAL",
         "clinical_significance": "TTF-1 and napsin A confirm primary lung adenocarcinoma (not metastasis). EGFR mutation identifies a targetable driver and guides first-line therapy with an EGFR tyrosine kinase inhibitor."
       }

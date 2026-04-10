@@ -4,9 +4,9 @@
   "specialty": "Pediatrics",
   "diagnosis": "DiGeorge syndrome (22q11.2 deletion)",
   "icd_category": "D82.1 — Di George's syndrome",
-  "one_liner": "A newborn with a **conotruncal cardiac defect** develops **perioral tetany** on day of life 2 and is found to have **hypocalcemia** and an absent thymic shadow on chest x-ray.",
+  "one_liner": "A newborn with a conotruncal cardiac defect develops perioral tetany on day of life 2 and is found to have hypocalcemia and an absent thymic shadow on chest x-ray.",
   "stage2": {
-    "hpi_extension": "The infant was born at term to a 30-year-old G2P1 mother after a pregnancy complicated by fetal echocardiogram showing **truncus arteriosus**. At 36 hours of life, the nurse notes **twitching of the lips and wrists** and a prolonged tonic episode of limb stiffening. Blood glucose is normal. The baby also has a **cleft palate** and dysmorphic facies. Feeding has been poor.",
+    "hpi_extension": "The infant was born at term to a 30-year-old G2P1 mother after a pregnancy complicated by fetal echocardiogram showing truncus arteriosus. At 36 hours of life, the nurse notes twitching of the lips and wrists and a prolonged tonic episode of limb stiffening. Blood glucose is normal. The baby also has a cleft palate and dysmorphic facies. Feeding has been poor.",
     "pmh": "Term delivery via cesarean for breech. Prenatal fetal echo: truncus arteriosus.",
     "surgical_history": "None yet; scheduled for cardiac surgery.",
     "medications": "Routine newborn care.",
@@ -20,27 +20,27 @@
       "rr": "52",
       "spo2": "88% on room air (92% on 2 L nasal cannula)"
     },
-    "physical_exam": "General: small-for-gestational-age dysmorphic infant. HEENT: **low-set posteriorly rotated ears**, **hypertelorism**, **micrognathia**, **cleft palate**. Cardiovascular: single S2 with **harsh systolic murmur** at the left sternal border (consistent with truncus arteriosus). Neuro: **positive Chvostek sign** (facial twitching with tap over facial nerve), **Trousseau sign** positive on BP cuff inflation, intermittent carpopedal spasm. Skin: no rash."
+    "physical_exam": "General: small-for-gestational-age dysmorphic infant. HEENT: low-set posteriorly rotated ears, hypertelorism, micrognathia, cleft palate. Cardiovascular: single S2 with harsh systolic murmur at the left sternal border (consistent with truncus arteriosus). Neuro: positive Chvostek sign (facial twitching with tap over facial nerve), Trousseau sign positive on BP cuff inflation, intermittent carpopedal spasm. Skin: no rash."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Genetic / molecular testing",
-        "result": "**Chromosomal microarray** and **FISH with a TUPLE1/N25 probe** demonstrate a **microdeletion of 22q11.2**. T-cell receptor excision circles (TRECs) from newborn screen are **markedly decreased**.",
+        "result": "Chromosomal microarray and FISH with a TUPLE1/N25 probe demonstrate a microdeletion of 22q11.2. T-cell receptor excision circles (TRECs) from newborn screen are markedly decreased.",
         "flag": "ABNORMAL",
-        "clinical_significance": "A **22q11.2 microdeletion** confirms **DiGeorge syndrome (velocardiofacial / 22q11.2 deletion syndrome)**. Failure of the **3rd and 4th pharyngeal pouches** leads to **thymic aplasia/hypoplasia** (T-cell lymphopenia) and **parathyroid aplasia** (hypocalcemia), in addition to conotruncal cardiac defects and facial dysmorphism."
+        "clinical_significance": "A 22q11.2 microdeletion confirms DiGeorge syndrome (velocardiofacial / 22q11.2 deletion syndrome). Failure of the 3rd and 4th pharyngeal pouches leads to thymic aplasia/hypoplasia (T-cell lymphopenia) and parathyroid aplasia (hypocalcemia), in addition to conotruncal cardiac defects and facial dysmorphism."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "**Serum calcium 6.2 mg/dL (low)**, ionized calcium decreased. Phosphorus elevated. Magnesium normal. **PTH inappropriately low/low-normal**. Albumin normal.",
+        "result": "Serum calcium 6.2 mg/dL (low), ionized calcium decreased. Phosphorus elevated. Magnesium normal. PTH inappropriately low/low-normal. Albumin normal.",
         "flag": "ABNORMAL",
-        "clinical_significance": "**Hypocalcemia with inappropriately low PTH** reflects **parathyroid aplasia/hypoplasia** from failure of the 3rd and 4th pharyngeal pouches — the endocrine hallmark of DiGeorge syndrome and the cause of neonatal tetany and seizures."
+        "clinical_significance": "Hypocalcemia with inappropriately low PTH reflects parathyroid aplasia/hypoplasia from failure of the 3rd and 4th pharyngeal pouches — the endocrine hallmark of DiGeorge syndrome and the cause of neonatal tetany and seizures."
       },
       {
         "test_name": "Imaging study",
-        "result": "Chest x-ray: **absent thymic shadow** in the anterior mediastinum. Echocardiogram confirms **truncus arteriosus** with a single great vessel overriding a large VSD.",
+        "result": "Chest x-ray: absent thymic shadow in the anterior mediastinum. Echocardiogram confirms truncus arteriosus with a single great vessel overriding a large VSD.",
         "flag": "ABNORMAL",
-        "clinical_significance": "Absent thymic shadow suggests **thymic aplasia**. Conotruncal cardiac anomalies (truncus arteriosus, tetralogy of Fallot, interrupted aortic arch) are classic in 22q11.2 deletion syndrome."
+        "clinical_significance": "Absent thymic shadow suggests thymic aplasia. Conotruncal cardiac anomalies (truncus arteriosus, tetralogy of Fallot, interrupted aortic arch) are classic in 22q11.2 deletion syndrome."
       }
     ],
     "imaging_results": [],
@@ -59,19 +59,19 @@
     ]
   },
   "stage5": {
-    "final_clue": "**IV calcium gluconate** resolves the tetany. **Irradiated, CMV-negative, leukoreduced blood products** are used for any transfusions to prevent transfusion-associated graft-versus-host disease. **Live vaccines are withheld** until T-cell function is confirmed. Truncus arteriosus is surgically repaired in the first weeks of life. Severe phenotypes with complete athymia may be candidates for **thymic tissue transplantation**."
+    "final_clue": "IV calcium gluconate resolves the tetany. Irradiated, CMV-negative, leukoreduced blood products are used for any transfusions to prevent transfusion-associated graft-versus-host disease. Live vaccines are withheld until T-cell function is confirmed. Truncus arteriosus is surgically repaired in the first weeks of life. Severe phenotypes with complete athymia may be candidates for thymic tissue transplantation."
   },
   "debrief": {
-    "classic_presentation": "DiGeorge syndrome classically presents with the mnemonic **CATCH-22**: **C**ardiac anomalies (tetralogy of Fallot, truncus arteriosus, interrupted aortic arch, VSD), **A**bnormal facies (hypertelorism, low-set ears, micrognathia, cleft palate), **T**hymic aplasia/hypoplasia with T-cell deficiency and recurrent viral/fungal infections, **C**left palate, and **H**ypocalcemia from parathyroid aplasia, all associated with a **22q11.2** microdeletion. Neonatal tetany from hypocalcemia and a conotruncal cardiac anomaly are typical early presenting features.",
+    "classic_presentation": "DiGeorge syndrome classically presents with the mnemonic CATCH-22: Cardiac anomalies (tetralogy of Fallot, truncus arteriosus, interrupted aortic arch, VSD), Abnormal facies (hypertelorism, low-set ears, micrognathia, cleft palate), Thymic aplasia/hypoplasia with T-cell deficiency and recurrent viral/fungal infections, Cleft palate, and Hypocalcemia from parathyroid aplasia, all associated with a 22q11.2 microdeletion. Neonatal tetany from hypocalcemia and a conotruncal cardiac anomaly are typical early presenting features.",
     "attending_mode_notes": null,
-    "pathophysiology": "DiGeorge syndrome results from a **microdeletion of chromosome 22q11.2** producing haploinsufficiency of **TBX1** and other genes that direct development of the **3rd and 4th pharyngeal pouches**. Failure of these pouches leads to **thymic aplasia/hypoplasia** (T-cell lymphopenia, susceptibility to viral, fungal, and opportunistic infections), **parathyroid aplasia** (hypocalcemia), conotruncal cardiac defects from abnormal neural crest migration, and craniofacial dysmorphism. The deletion is detected by **FISH, chromosomal microarray, or MLPA**.",
-    "treatment_overview": "**IV calcium** is used for acute hypocalcemic tetany, with subsequent oral calcium and calcitriol. Cardiac anomalies are repaired surgically. Because T-cell numbers are reduced, **live vaccines are contraindicated** until T-cell function is confirmed, and **irradiated, CMV-negative, leukoreduced blood products** are used. Severe athymic phenotypes may undergo **thymic tissue transplantation**, and immunoglobulin replacement is used if antibody deficiency persists. Speech therapy for velopharyngeal insufficiency and developmental support are important.",
+    "pathophysiology": "DiGeorge syndrome results from a microdeletion of chromosome 22q11.2 producing haploinsufficiency of TBX1 and other genes that direct development of the 3rd and 4th pharyngeal pouches. Failure of these pouches leads to thymic aplasia/hypoplasia (T-cell lymphopenia, susceptibility to viral, fungal, and opportunistic infections), parathyroid aplasia (hypocalcemia), conotruncal cardiac defects from abnormal neural crest migration, and craniofacial dysmorphism. The deletion is detected by FISH, chromosomal microarray, or MLPA.",
+    "treatment_overview": "IV calcium is used for acute hypocalcemic tetany, with subsequent oral calcium and calcitriol. Cardiac anomalies are repaired surgically. Because T-cell numbers are reduced, live vaccines are contraindicated until T-cell function is confirmed, and irradiated, CMV-negative, leukoreduced blood products are used. Severe athymic phenotypes may undergo thymic tissue transplantation, and immunoglobulin replacement is used if antibody deficiency persists. Speech therapy for velopharyngeal insufficiency and developmental support are important.",
     "high_yield_pearls": [
-      "**CATCH-22**: Cardiac, Abnormal facies, Thymic aplasia, Cleft palate, Hypocalcemia, **22q11.2 deletion**.",
-      "Failure of the **3rd and 4th pharyngeal pouches** -> absent thymus and parathyroids.",
-      "Conotruncal defects: **tetralogy of Fallot, truncus arteriosus, interrupted aortic arch**.",
-      "**T-cell deficiency** -> viral, fungal, and opportunistic infections; **avoid live vaccines**; use **irradiated** blood products.",
-      "Diagnosis confirmed by **FISH or chromosomal microarray** for 22q11.2 deletion."
+      "CATCH-22: Cardiac, Abnormal facies, Thymic aplasia, Cleft palate, Hypocalcemia, 22q11.2 deletion.",
+      "Failure of the 3rd and 4th pharyngeal pouches -> absent thymus and parathyroids.",
+      "Conotruncal defects: tetralogy of Fallot, truncus arteriosus, interrupted aortic arch.",
+      "T-cell deficiency -> viral, fungal, and opportunistic infections; avoid live vaccines; use irradiated blood products.",
+      "Diagnosis confirmed by FISH or chromosomal microarray for 22q11.2 deletion."
     ],
     "sources": [
       "First Aid for the USMLE Step 1 (2017) — Immunology chapter, 'Immunodeficiencies — T-cell disorders: Thymic aplasia (DiGeorge syndrome)' section.",

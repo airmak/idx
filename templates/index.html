@@ -82,8 +82,9 @@ a { color: var(--teal); text-decoration: none; }
   top: 0;
   z-index: 100;
 }
-#logo { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; background: linear-gradient(135deg, #00b8a3 0%, #1976d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-#logo span { -webkit-text-fill-color: #d4920a; background: none; }
+#logo { font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; }
+#logo .logo-base { -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#logo .logo-accent { background: none; }
 #topnav { display: flex; gap: 16px; align-items: center; }
 #topnav a { color: var(--text-muted); font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
 #topnav a:hover { color: var(--text); }
@@ -289,7 +290,8 @@ a { color: var(--teal); text-decoration: none; }
   pointer-events: none;
 }
 #pregame-hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 8px; }
-#pregame-hero h1 span { background: linear-gradient(135deg, #00b8a3 0%, #1976d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#pregame-hero h1 .logo-base { -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+#pregame-hero h1 .logo-accent { background: none; }
 #pregame-hero p { color: var(--text-muted); font-size: 1.05rem; max-width: 520px; margin: 0 auto 32px; }
 .mode-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
 .mode-btn {
@@ -1186,7 +1188,7 @@ a { color: var(--teal); text-decoration: none; }
 
 <!-- TOP BAR -->
 <header id="topbar">
-  <a href="#" id="logo" onclick="resetToHome(); return false;" style="text-decoration:none">ID<span>x</span></a>
+  <a href="#" id="logo" onclick="resetToHome(); return false;" style="text-decoration:none"></a>
   <button id="mobile-toggle" onclick="toggleMobileNav()">☰</button>
   <div class="mobile-overlay" id="mobile-overlay" onclick="closeMobileNav()"></div>
   <div id="topnav">
@@ -1298,7 +1300,7 @@ a { color: var(--teal); text-decoration: none; }
 <!-- ==================== PRE-GAME ==================== -->
 <div id="screen-pregame">
   <div id="pregame-hero">
-    <h1>ID<span>x</span></h1>
+    <h1 id="hero-logo"></h1>
     <p>Master clinical reasoning. Work up cases like an attending. Build the differential, order the workup, lock in your diagnosis.</p>
 
     <div class="mode-buttons">
@@ -1663,6 +1665,69 @@ const TEST_CATALOG_STEP1 = {
 };
 
 // =====================================================
+// LOGO RANDOMIZER
+// =====================================================
+// Each reload picks a random color scheme and text variant.
+// Variant A: "ID" is the base color, "x" is the accent.
+// Variant B: "I" is the accent, "dx" is the base color.
+const LOGO_SCHEMES = [
+  { base: 'linear-gradient(135deg, #00b8a3 0%, #1976d2 100%)', accent: '#d4920a' },
+  { base: 'linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)', accent: '#00e5cc' },
+  { base: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)', accent: '#6366f1' },
+  { base: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', accent: '#f97316' },
+  { base: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)', accent: '#fbbf24' },
+  { base: 'linear-gradient(135deg, #e11d48 0%, #be185d 100%)', accent: '#34d399' },
+  { base: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)', accent: '#f43f5e' },
+  { base: 'linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)', accent: '#a855f7' },
+  { base: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)', accent: '#fb923c' },
+  { base: 'linear-gradient(135deg, #64748b 0%, #334155 100%)', accent: '#22d3ee' },
+];
+
+function randomizeLogo() {
+  const scheme = LOGO_SCHEMES[Math.floor(Math.random() * LOGO_SCHEMES.length)];
+  const useVariantB = Math.random() < 0.5; // 50% chance of each variant
+
+  function applyLogo(el) {
+    if (!el) return;
+    el.innerHTML = '';
+    if (useVariantB) {
+      // "I" is accent, "dx" is base gradient
+      const accent = document.createElement('span');
+      accent.className = 'logo-accent';
+      accent.textContent = 'I';
+      accent.style.cssText = `-webkit-text-fill-color: ${scheme.accent}; color: ${scheme.accent};`;
+      const base = document.createElement('span');
+      base.className = 'logo-base';
+      base.textContent = 'dx';
+      base.style.background = scheme.base;
+      base.style.webkitBackgroundClip = 'text';
+      base.style.webkitTextFillColor = 'transparent';
+      base.style.backgroundClip = 'text';
+      el.appendChild(accent);
+      el.appendChild(base);
+    } else {
+      // "ID" is base gradient, "x" is accent
+      const base = document.createElement('span');
+      base.className = 'logo-base';
+      base.textContent = 'ID';
+      base.style.background = scheme.base;
+      base.style.webkitBackgroundClip = 'text';
+      base.style.webkitTextFillColor = 'transparent';
+      base.style.backgroundClip = 'text';
+      const accent = document.createElement('span');
+      accent.className = 'logo-accent';
+      accent.textContent = 'x';
+      accent.style.cssText = `-webkit-text-fill-color: ${scheme.accent}; color: ${scheme.accent};`;
+      el.appendChild(base);
+      el.appendChild(accent);
+    }
+  }
+
+  applyLogo(document.getElementById('logo'));
+  applyLogo(document.getElementById('hero-logo'));
+}
+
+// =====================================================
 // INIT
 // =====================================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -1677,6 +1742,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>`;
     return;
   }
+  randomizeLogo();
   loadDiseaseLibrary();
   loadCaseCounts();
   loadSessionStats();

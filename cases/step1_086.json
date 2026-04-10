@@ -20,25 +20,25 @@
       "rr": "18",
       "spo2": "98% on room air"
     },
-    "physical_exam": "General: mildly ill, dry mucous membranes. Abdomen: **mild diffuse tenderness, most prominent in the lower quadrants; hyperactive bowel sounds**, no rebound or guarding, no palpable masses. Rectal exam: loose stool in the vault, no gross blood. Skin: reduced turgor. Cardiac/pulm: unremarkable. Neuro: nonfocal."
+    "physical_exam": "General: mildly ill, dry mucous membranes. Abdomen: mild diffuse tenderness, most prominent in the lower quadrants; hyperactive bowel sounds, no rebound or guarding, no palpable masses. Rectal exam: loose stool in the vault, no gross blood. Skin: reduced turgor. Cardiac/pulm: unremarkable. Neuro: nonfocal."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Microbiology / Gram stain / cultures",
-        "result": "**Stool Clostridioides difficile PCR for toxin B gene (tcdB): POSITIVE**. **Stool C. difficile glutamate dehydrogenase (GDH) antigen: POSITIVE**. **Toxin A/B enzyme immunoassay: POSITIVE**. Routine stool culture and ova/parasites: no other pathogens identified.",
+        "result": "Stool Clostridioides difficile PCR for toxin B gene (tcdB): POSITIVE. Stool C. difficile glutamate dehydrogenase (GDH) antigen: POSITIVE. Toxin A/B enzyme immunoassay: POSITIVE. Routine stool culture and ova/parasites: no other pathogens identified.",
         "flag": "ABNORMAL",
         "clinical_significance": "A positive GDH antigen with confirmatory toxin EIA (or toxin gene PCR) in a symptomatic patient with recent antibiotic exposure confirms C. difficile infection. Asymptomatic colonization is common, so testing requires clinically significant diarrhea."
       },
       {
         "test_name": "CBC with peripheral smear",
-        "result": "**WBC 18.5 with left shift (marked leukocytosis)**. Hgb 13.1. Platelets 265. Smear: reactive neutrophilia.",
+        "result": "WBC 18.5 with left shift (marked leukocytosis). Hgb 13.1. Platelets 265. Smear: reactive neutrophilia.",
         "flag": "ABNORMAL",
         "clinical_significance": "A WBC >15,000 is a marker of severe C. difficile infection per IDSA criteria and should prompt oral vancomycin or fidaxomicin rather than metronidazole."
       },
       {
         "test_name": "Comprehensive metabolic panel",
-        "result": "Na 133, K 3.2, Cl 102, HCO3 20, BUN 28, **Cr 1.6 (baseline 0.8)**, glucose 104, albumin 3.1.",
+        "result": "Na 133, K 3.2, Cl 102, HCO3 20, BUN 28, Cr 1.6 (baseline 0.8), glucose 104, albumin 3.1.",
         "flag": "ABNORMAL",
         "clinical_significance": "Hypokalemic metabolic acidosis from diarrheal losses with a rising creatinine also meets severe disease criteria (Cr >1.5x baseline)."
       }

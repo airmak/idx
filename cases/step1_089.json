@@ -20,25 +20,25 @@
       "rr": "20",
       "spo2": "94% on room air"
     },
-    "physical_exam": "General: overweight woman in mild respiratory distress when supine. Cardiac: **sustained non-displaced PMI**, regular rhythm, **S4 gallop** heard at the apex, no murmurs. Pulmonary: **bibasilar inspiratory crackles**. Extremities: **1+ bilateral pitting pedal edema**. JVD ~8 cm. No hepatomegaly."
+    "physical_exam": "General: overweight woman in mild respiratory distress when supine. Cardiac: sustained non-displaced PMI, regular rhythm, S4 gallop heard at the apex, no murmurs. Pulmonary: bibasilar inspiratory crackles. Extremities: 1+ bilateral pitting pedal edema. JVD ~8 cm. No hepatomegaly."
   },
   "stage3": {
     "lab_results": [
       {
         "test_name": "Inflammatory / infection markers",
-        "result": "**BNP 680 pg/mL** (normal <100). Troponin negative x2.",
+        "result": "BNP 680 pg/mL (normal <100). Troponin negative x2.",
         "flag": "HIGH",
         "clinical_significance": "Elevated BNP reflects increased ventricular wall stress and supports a diagnosis of heart failure. Negative troponin argues against ischemia."
       },
       {
         "test_name": "Imaging study",
-        "result": "Transthoracic echocardiogram: **Left ventricular ejection fraction 62% (preserved)**. **Concentric left ventricular hypertrophy** with increased wall thickness. **Grade II diastolic dysfunction** with elevated E/e' ratio and left atrial enlargement. No significant valvular disease. Chest x-ray: cardiomegaly, mild pulmonary vascular congestion, Kerley B lines.",
+        "result": "Transthoracic echocardiogram: Left ventricular ejection fraction 62% (preserved). Concentric left ventricular hypertrophy with increased wall thickness. Grade II diastolic dysfunction with elevated E/e' ratio and left atrial enlargement. No significant valvular disease. Chest x-ray: cardiomegaly, mild pulmonary vascular congestion, Kerley B lines.",
         "flag": "ABNORMAL",
         "clinical_significance": "Preserved EF with LVH and impaired relaxation defines diastolic (HFpEF) heart failure. LA enlargement reflects chronically elevated LV filling pressures."
       },
       {
         "test_name": "EKG / cardiac monitoring",
-        "result": "Sinus rhythm at 86 bpm. **Left ventricular hypertrophy by voltage criteria (Sokolow-Lyon)**. Left atrial enlargement. No acute ischemic changes.",
+        "result": "Sinus rhythm at 86 bpm. Left ventricular hypertrophy by voltage criteria (Sokolow-Lyon). Left atrial enlargement. No acute ischemic changes.",
         "flag": "ABNORMAL",
         "clinical_significance": "LVH reflects chronic pressure overload from hypertension, the principal driver of diastolic dysfunction."
       }
@@ -64,7 +64,7 @@
     "final_clue": "Aggressive blood pressure control with an ACE inhibitor and a loop diuretic for volume overload relieves her symptoms without improving her ejection fraction, which was already normal."
   },
   "debrief": {
-    "classic_presentation": "Diastolic heart failure (HFpEF) classically presents in elderly patients (especially women) with long-standing hypertension, diabetes, or obesity who develop exertional dyspnea, orthopnea, and lower extremity edema. Exam reveals signs of pulmonary congestion, an **S4 gallop** from a stiff non-compliant ventricle, and evidence of LVH. The ejection fraction is preserved (>=50%).",
+    "classic_presentation": "Diastolic heart failure (HFpEF) classically presents in elderly patients (especially women) with long-standing hypertension, diabetes, or obesity who develop exertional dyspnea, orthopnea, and lower extremity edema. Exam reveals signs of pulmonary congestion, an S4 gallop from a stiff non-compliant ventricle, and evidence of LVH. The ejection fraction is preserved (>=50%).",
     "attending_mode_notes": null,
     "pathophysiology": "Chronic pressure overload (usually hypertension) drives concentric LV hypertrophy with thickened, stiff myocardium and impaired relaxation. The ventricle cannot fill adequately at normal diastolic pressures, so LV end-diastolic pressure rises and backs up into the lungs, causing pulmonary congestion. Ejection fraction remains normal because systolic contraction is preserved. Atrial contraction becomes more important for filling, which is why patients decompensate rapidly when they develop atrial fibrillation.",
     "treatment_overview": "Treat the underlying drivers: aggressive blood pressure control (ACE inhibitors/ARBs, thiazides), rate control, and management of diabetes and obesity. Loop diuretics (furosemide) relieve volume overload symptomatically. Unlike HFrEF, no pharmacologic therapy has been shown to reduce mortality in HFpEF, so the target is symptom control and treating comorbidities.",

@@ -1,0 +1,141 @@
+{
+  "case_id": "case_262",
+  "mode": "easy",
+  "specialty": "Internal Medicine",
+  "diagnosis": "Porphyria cutanea tarda (PCT)",
+  "icd_category": "E80.1 — Porphyria cutanea tarda",
+  "one_liner": "A 54-year-old man with chronic hepatitis C and heavy alcohol use presents with several months of fragile, blistering skin on the backs of his hands that worsens with sun exposure, along with darker urine.",
+  "stage2": {
+    "hpi_extension": "He first noticed that the skin on the dorsum of his hands had become fragile, tearing easily after minor knocks against tools at the auto repair shop where he works. Over weeks he developed multiple painless tense blisters in sun-exposed areas of the hands and forearms. The blisters healed slowly, leaving white milia and atrophic scars. He has noted increased dark facial hair growth on his temples and cheeks, and his urine has been darker than usual. He denies abdominal pain, neurologic symptoms, anxiety, hallucinations, or photosensitive burning. He was diagnosed with hepatitis C ten years ago after a tattoo and never pursued treatment. He drinks 8–10 beers daily.",
+    "pmh": "Chronic hepatitis C (genotype 1a, untreated), alcohol use disorder, type 2 diabetes mellitus (diet-controlled), gastroesophageal reflux disease",
+    "surgical_history": "Right inguinal hernia repair at age 38",
+    "medications": "Omeprazole 20 mg daily; multivitamin",
+    "allergies": "No known drug allergies",
+    "family_history": "Father had a similar 'sensitive skin' problem on the hands. Paternal uncle with hereditary hemochromatosis (C282Y homozygous).",
+    "social_history": "Auto mechanic with significant outdoor sun exposure and contact with petroleum solvents. Drinks 8–10 beers per day for 25 years. Smokes one pack per day. Got a large back tattoo at age 22 in a non-licensed shop.",
+    "vitals": {
+      "temp": "36.9°C (98.4°F)",
+      "hr": "84 bpm",
+      "bp": "138/86 mmHg",
+      "rr": "14 breaths/min",
+      "spo2": "98% on room air",
+      "weight_bmi": "BMI 28 kg/m²"
+    },
+    "physical_exam": "General: Tanned, slightly weathered middle-aged man in no acute distress. Skin: Multiple tense vesicles and bullae over the dorsa of both hands and forearms in a sun-exposed distribution; several healed atrophic scars and white milia from prior lesions; superficial sloughing of the dorsal hand skin with gentle rubbing. Hyperpigmentation of sun-exposed skin (face, neck, V of chest, dorsa of hands). Hypertrichosis with new dark hair growth over the temples and malar cheeks. Sclerodermoid (woody) thickening of the dorsal hand skin. HEENT: Sclerae mildly icteric. Cardiovascular: Regular rate and rhythm, no murmurs. Pulmonary: Clear. Abdomen: Hepatomegaly with a firm, non-tender liver edge palpable 4 cm below the right costal margin. No splenomegaly. No ascites. No spider angiomas. Neurologic: Alert and oriented, no focal deficits. No abdominal pain reproducible on exam."
+  },
+  "stage3": {
+    "lab_results": [
+      {
+        "test_name": "LFTs",
+        "result": "AST 88 U/L (high), ALT 102 U/L (high), alk phos 122 U/L (mildly elevated), GGT 188 U/L (high), total bilirubin 1.6 mg/dL (mildly elevated), albumin 3.8 g/dL, INR 1.1",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mixed hepatocellular and cholestatic pattern in the setting of chronic hepatitis C and heavy alcohol use; the elevated GGT confirms ongoing alcohol effect. PCT is strongly associated with chronic liver disease."
+      },
+      {
+        "test_name": "Ferritin/Iron studies",
+        "result": "Ferritin 1240 ng/mL (markedly elevated), serum iron 196 mcg/dL, TIBC 280 mcg/dL, transferrin saturation 70% (markedly elevated)",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Iron overload (high ferritin, very high transferrin saturation) is a hallmark of porphyria cutanea tarda and is the major triggering factor — most patients have associated hepatic siderosis. Co-existing HFE mutations should be sought."
+      },
+      {
+        "test_name": "UA with microscopy",
+        "result": "Color: dark amber/tea-colored. Specific gravity 1.018, pH 6.0. No protein, no glucose, no nitrites. Microscopy unremarkable. When examined under a Wood's lamp, the urine fluoresces a striking coral-pink/red.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Coral-pink/red urine fluorescence under Wood's lamp is a classic bedside finding in porphyria cutanea tarda from accumulated uroporphyrins. Distinguishes PCT from acute porphyrias (which have elevated PBG, not uroporphyrins)."
+      },
+      {
+        "test_name": "Hepatitis panel",
+        "result": "HCV antibody positive; HCV RNA 2.4 million IU/mL; genotype 1a. HBsAg negative, anti-HBs positive (vaccinated). HIV negative.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Active chronic hepatitis C is a major trigger for porphyria cutanea tarda; treating the HCV with direct-acting antivirals often induces remission of the porphyria."
+      },
+      {
+        "test_name": "CBC with differential",
+        "result": "WBC 6.4 k/uL, Hgb 14.8 g/dL, Hct 44%, MCV 102 fL (mildly elevated), Platelets 178 k/uL",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild macrocytosis is common in heavy alcohol use and chronic liver disease. No basophilic stippling, which would suggest lead poisoning."
+      },
+      {
+        "test_name": "Skin biopsy",
+        "result": "Subepidermal blister with a 'festooned' base in which the dermal papillae project upward into the cavity. PAS-positive material in vessel walls. Direct immunofluorescence: IgG and complement deposition at the dermal-epidermal junction and around vessels.",
+        "flag": "ABNORMAL",
+        "clinical_significance": "The 'festooned' subepidermal bulla and PAS-positive perivascular deposits are the classic histologic findings of porphyria cutanea tarda."
+      },
+      {
+        "test_name": "BMP",
+        "result": "Na 138, K 4.2, Cl 102, HCO3 24, BUN 14, Cr 0.9, Glucose 142",
+        "flag": "ABNORMAL",
+        "clinical_significance": "Mild hyperglycemia consistent with the patient's known type 2 diabetes. Otherwise normal renal function and electrolytes — no SIADH-pattern hyponatremia (would be present in acute hepatic porphyria)."
+      }
+    ],
+    "imaging_results": [],
+    "key_tests": [
+      "LFTs",
+      "UA with microscopy",
+      "Ferritin/Iron studies",
+      "Hepatitis panel",
+      "Skin biopsy"
+    ],
+    "acceptable_tests": [
+      "CBC with differential",
+      "BMP",
+      "HIV Ag/Ab"
+    ],
+    "low_yield_tests": [
+      "TSH/Free T4",
+      "ANA",
+      "Lipase",
+      "Beta-hCG (urine)",
+      "EKG/ECG"
+    ]
+  },
+  "stage5": {
+    "final_clue": "A quantitative 24-hour urine porphyrin profile returns markedly elevated uroporphyrin and 7-carboxyporphyrin with normal porphobilinogen, confirming porphyria cutanea tarda. Therapeutic phlebotomy is started, alcohol cessation is counseled, and he is referred to hepatology for hepatitis C treatment with direct-acting antivirals.",
+    "attending_mode_notes": null
+  },
+  "debrief": {
+    "classic_presentation": "Porphyria cutanea tarda is the most common porphyria. It classically presents in middle-aged adults with photosensitive skin findings — painless tense vesicles and bullae on the dorsa of the hands and other sun-exposed areas, with skin fragility, scarring, milia, hyperpigmentation, hypertrichosis, and sclerodermoid changes. Tea-colored urine that fluoresces coral-pink under a Wood's lamp is characteristic. Major triggers include alcohol, hepatitis C, HIV, estrogens, smoking, and iron overload (hemochromatosis or HFE mutations). Unlike the acute hepatic porphyrias (such as AIP), there are NO neurologic, psychiatric, or abdominal symptoms in PCT.",
+    "attending_mode_notes": null,
+    "pathophysiology": "PCT is caused by reduced activity of uroporphyrinogen decarboxylase (UROD), the fifth enzyme in the heme biosynthesis pathway. Most cases are sporadic (Type I, ~80%) due to acquired hepatic UROD inhibition, while Type II is autosomal dominant with a UROD gene mutation. Iron overload, alcohol, hepatitis C, HIV, and estrogens all inhibit hepatic UROD activity. The resulting accumulation of uroporphyrinogen and 7-carboxyporphyrinogen — porphyrin intermediates that are deposited in the skin — react with sunlight (UV in the 400 nm Soret band) to generate reactive oxygen species that damage the dermal-epidermal junction, producing the characteristic blisters, fragility, and scarring of sun-exposed skin.",
+    "treatment_overview": "Cornerstones: avoid all triggers (alcohol, estrogens, smoking, sun exposure), strict sun protection (clothing, broad-spectrum sunscreen — broad-spectrum chemical sunscreens that block UVA work better than UVB-only blockers because the porphyrin Soret band is in the visible/UVA range). Therapeutic phlebotomy is first-line to reduce hepatic iron stores; serial phlebotomies every 1–2 weeks until ferritin reaches the lower limit of normal (~20 ng/mL). Low-dose hydroxychloroquine 100 mg twice weekly (or chloroquine) is an effective alternative that complexes with hepatic porphyrins and promotes their urinary excretion. Treat underlying hepatitis C with direct-acting antivirals — this often induces remission of the porphyria. Screen for HFE mutations and HCV in all patients with PCT.",
+    "high_yield_pearls": [
+      "PCT is the MOST COMMON porphyria. Adults with photosensitive blisters on the backs of the hands, hyperpigmentation, hypertrichosis, sclerodermoid skin, and tea-colored urine.",
+      "Enzyme defect: uroporphyrinogen decarboxylase (UROD), the fifth enzyme in heme biosynthesis. Mostly acquired (sporadic, Type I), occasionally familial (Type II, autosomal dominant).",
+      "Triggers: alcohol, hepatitis C, HIV, estrogens, smoking, iron overload (HFE mutations, hemochromatosis).",
+      "Urine fluoresces coral-pink/red under a Wood's lamp. Elevated urine uroporphyrins; NORMAL urine PBG and ALA (key distinction from acute intermittent porphyria).",
+      "Treatment: phlebotomy (reduces iron) is first-line, plus avoid triggers. Low-dose hydroxychloroquine is the alternative. Treating underlying hepatitis C with DAAs often induces remission."
+    ],
+    "sources": [
+      "UpToDate: Porphyria cutanea tarda and hepatoerythropoietic porphyria — Pathogenesis, clinical manifestations, and diagnosis — https://www.uptodate.com/contents/search?search=Porphyria+cutanea+tarda+pathogenesis+clinical+manifestations+and+diagnosis",
+      "UpToDate: Porphyria cutanea tarda and hepatoerythropoietic porphyria — Management — https://www.uptodate.com/contents/search?search=Porphyria+cutanea+tarda+management",
+      "First Aid for the USMLE Step 1 (2017) — Hematology and Oncology chapter, 'Porphyrias' section."
+    ]
+  },
+  "ddx_hints": {
+    "reasonable_ddx": [
+      "Porphyria cutanea tarda (PCT)",
+      "Pemphigus vulgaris",
+      "Bullous pemphigoid",
+      "Hereditary hemochromatosis",
+      "Hepatitis C",
+      "Acute intermittent porphyria (AIP)",
+      "Drug-induced photosensitivity",
+      "Systemic lupus erythematosus (SLE)"
+    ],
+    "after_stage2_more_likely": [
+      "Porphyria cutanea tarda (PCT) — sun-exposed bullae with skin fragility, hypertrichosis, hyperpigmentation, hepatitis C and alcohol triggers",
+      "Hereditary hemochromatosis — strong family history, may be a coexisting iron-overload trigger of the PCT",
+      "Hepatitis C — known infection contributing to the hepatic UROD inhibition"
+    ],
+    "after_stage2_less_likely": [
+      "Bullous pemphigoid — usually elderly with tense bullae but lacks the photodistribution and characteristic urine findings",
+      "Pemphigus vulgaris — flaccid bullae (not tense) and prominent oral mucosal involvement",
+      "Acute intermittent porphyria (AIP) — has no skin findings; presents with abdominal pain and neuropsychiatric symptoms"
+    ],
+    "after_labs_top3": [
+      "Porphyria cutanea tarda (PCT)",
+      "Hereditary hemochromatosis",
+      "Hepatitis C with cutaneous manifestations"
+    ]
+  }
+}
